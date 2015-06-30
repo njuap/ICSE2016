@@ -1,0 +1,1099 @@
+*Vertics: 296
+15,org.apache.nutch.urlfilter.api.RegexURLFilterBase
+81,org.apache.nutch.urlfilter.api.RegexRule
+87,org.apache.nutch.util.NutchConfiguration
+120,org.apache.nutch.parse.ParsePluginList
+142,org.apache.nutch.protocol.ProtocolFactory
+181,org.apache.nutch.plugin.Extension
+182,org.apache.nutch.plugin.ExtensionPoint
+183,org.apache.nutch.plugin.PluginRepository
+184,org.apache.nutch.plugin.PluginRuntimeException
+185,org.apache.nutch.storage.WebPage
+186,org.apache.nutch.util.ObjectCache
+190,org.apache.nutch.protocol.ProtocolNotFound
+206,org.apache.nutch.api.APIInfoResource
+213,org.apache.nutch.api.AdminResource
+216,org.apache.nutch.api.ConfResource
+219,org.apache.nutch.api.DbResource
+222,org.apache.nutch.api.JobResource
+226,org.apache.nutch.protocol.ftp.FtpExceptionBadSystResponse
+230,org.apache.nutch.protocol.ftp.FtpException
+236,org.apache.nutch.util.domain.DomainSuffixesReader
+324,org.apache.nutch.util.domain.DomainSuffix
+325,org.apache.nutch.util.domain.TopLevelDomain
+326,org.apache.nutch.util.domain.DomainSuffixes
+340,org.apache.nutch.crawl.GeneratorJob
+460,org.apache.nutch.storage.StorageUtils
+461,org.apache.nutch.util.NutchJob
+462,org.apache.nutch.util.NutchTool
+463,org.apache.nutch.util.TimingUtil
+464,org.apache.nutch.util.ToolUtil
+465,org.apache.nutch.crawl.URLPartitioner
+471,org.apache.nutch.crawl.FetchScheduleFactory
+473,org.apache.nutch.crawl.GeneratorMapper
+474,org.apache.nutch.crawl.GeneratorReducer
+499,org.apache.nutch.urlfilter.automaton.TestAutomatonURLFilter
+508,org.apache.nutch.urlfilter.api.RegexURLFilterBaseTest
+509,org.apache.nutch.urlfilter.automaton.AutomatonURLFilter
+516,org.apache.nutch.protocol.TestProtocolFactory
+540,org.apache.nutch.storage.ParseStatus
+609,org.apache.nutch.urlfilter.domain.TestDomainURLFilter
+620,org.apache.nutch.urlfilter.domain.DomainURLFilter
+626,org.apache.nutch.html.Entities
+650,org.apache.nutch.indexer.TestIndexingFilters
+674,org.apache.nutch.metadata.Metadata
+675,org.apache.nutch.indexer.NutchDocument
+676,org.apache.nutch.indexer.IndexingFilters
+677,org.apache.nutch.indexer.IndexingException
+690,org.apache.nutch.api.DbReader
+775,org.apache.nutch.parse.ParseStatusUtils
+776,org.apache.nutch.protocol.ProtocolStatusUtils
+777,org.apache.nutch.storage.Mark
+778,org.apache.nutch.storage.ProtocolStatus
+779,org.apache.nutch.util.Bytes
+780,org.apache.nutch.util.StringUtil
+781,org.apache.nutch.util.TableUtil
+808,org.apache.nutch.fetcher.FetcherReducer
+1078,org.apache.nutch.crawl.CrawlStatus
+1079,org.apache.nutch.crawl.URLWebPage
+1080,org.apache.nutch.host.HostDb
+1081,org.apache.nutch.net.URLFilterException
+1082,org.apache.nutch.net.URLFilters
+1083,org.apache.nutch.net.URLNormalizers
+1084,org.apache.nutch.parse.ParseUtil
+1085,org.apache.nutch.parse.ParserJob
+1086,org.apache.nutch.protocol.Content
+1087,org.apache.nutch.protocol.ProtocolOutput
+1090,org.apache.nutch.storage.Host
+1091,org.apache.nutch.util.URLUtil
+1093,org.apache.nutch.fetcher.FetchEntry
+1094,org.apache.nutch.fetcher.FetcherJob
+1215,org.apache.nutch.microformats.reltag.RelTagParser
+1266,org.apache.nutch.parse.HTMLMetaTags
+1268,org.apache.nutch.parse.Parse
+1274,org.apache.nutch.scoring.link.LinkAnalysisScoringFilter
+1308,org.apache.nutch.scoring.ScoreDatum
+1310,org.apache.nutch.scoring.ScoringFilterException
+1326,org.apache.nutch.protocol.httpclient.TestProtocolHttpClient
+1368,org.apache.nutch.protocol.httpclient.Http
+1377,org.apache.nutch.urlfilter.validator.UrlValidator
+1493,org.apache.nutch.crawl.AdaptiveFetchSchedule
+1513,org.apache.nutch.crawl.AbstractFetchSchedule
+1567,org.apache.nutch.protocol.http.api.HttpException
+1577,org.apache.nutch.protocol.ProtocolException
+1583,org.apache.nutch.parse.html.DOMContentUtils
+1687,org.apache.nutch.parse.Outlink
+1688,org.apache.nutch.util.NodeWalker
+1696,org.apache.nutch.crawl.SignatureFactory
+1710,org.apache.nutch.crawl.Signature
+1711,org.apache.nutch.crawl.MD5Signature
+1719,org.apache.nutch.util.NutchJobConf
+1726,org.apache.nutch.parse.swf.TestSWFParser
+1752,org.apache.nutch.parse.ParseException
+1757,org.apache.nutch.parse.TestOutlinkExtractor
+1767,org.apache.nutch.parse.OutlinkExtractor
+1773,org.apache.nutch.parse.tika.TestOOParser
+1800,org.apache.nutch.util.MimeUtil
+1804,org.apache.nutch.collection.CollectionManager
+1867,org.apache.nutch.util.DomUtil
+1868,org.apache.nutch.collection.Subcollection
+1885,org.apache.nutch.net.TestURLFilters
+1895,org.apache.nutch.util.Histogram
+1947,org.apache.nutch.tools.arc.ArcRecordReader
+2024,org.apache.nutch.protocol.httpclient.HttpBasicAuthentication
+2056,org.apache.nutch.protocol.httpclient.HttpAuthenticationException
+2064,org.apache.nutch.parse.zip.ZipTextExtractor
+2113,org.apache.nutch.protocol.ftp.FtpResponse
+2183,org.apache.nutch.net.protocols.HttpDateFormat
+2184,org.apache.nutch.protocol.ftp.Ftp
+2185,org.apache.nutch.protocol.ftp.FtpExceptionControlClosedByForcedDataClose
+2186,org.apache.nutch.protocol.ftp.FtpExceptionUnknownForcedDataClose
+2187,org.apache.nutch.protocol.ftp.FtpExceptionCanNotHaveDataConnection
+2188,org.apache.nutch.protocol.ftp.Client
+2189,org.apache.nutch.protocol.ftp.PrintCommandListener
+2220,org.apache.nutch.indexer.feed.FeedIndexingFilter
+2264,org.apache.nutch.util.DeflateUtils
+2336,org.apache.nutch.util.WebPageWritable
+2357,org.apache.nutch.indexer.more.MoreIndexingFilter
+2436,org.apache.nutch.host.HostDbUpdateJob
+2467,org.apache.nutch.host.HostDbUpdateReducer
+2543,org.apache.nutch.storage.WebTableCreator
+2552,org.apache.nutch.parse.html.HtmlParser
+2643,org.apache.nutch.parse.ParseFilters
+2646,org.apache.nutch.util.EncodingDetector
+2647,org.apache.nutch.parse.html.DOMBuilder
+2648,org.apache.nutch.parse.html.HTMLMetaProcessor
+2672,org.apache.nutch.util.TrieStringMatcher
+2720,org.apache.nutch.crawl.TestURLPartitioner
+2857,org.apache.nutch.protocol.http.api.HttpRobotRulesParser
+2875,org.apache.nutch.protocol.RobotRulesParser
+2876,org.apache.nutch.protocol.http.api.HttpBase
+2888,org.apache.nutch.indexer.IndexerJob
+2926,org.apache.nutch.scoring.ScoringFilters
+2929,org.apache.nutch.indexer.IndexerOutputFormat
+2930,org.apache.nutch.indexer.IndexUtil
+2951,org.apache.nutch.crawl.WebTableReader
+3183,org.apache.nutch.tools.proxy.AbstractTestbedHandler
+3234,org.apache.nutch.microformats.reltag.TestRelTagIndexingFilter
+3243,org.apache.nutch.microformats.reltag.RelTagIndexingFilter
+3247,org.apache.nutch.util.domain.DomainStatistics
+3313,org.apache.nutch.util.PrefixStringMatcher
+3339,org.apache.nutch.parse.zip.TestZipParser
+3357,org.apache.nutch.net.urlnormalizer.pass.PassURLNormalizer
+3369,org.apache.nutch.urlfilter.regex.RegexURLFilter
+3396,org.apache.nutch.parse.tika.TestRTFParser
+3413,org.apache.nutch.protocol.file.FileResponse
+3466,org.apache.nutch.protocol.file.File
+3467,org.apache.nutch.protocol.file.FileException
+3490,org.apache.nutch.analysis.lang.TestHTMLLanguageParser
+3525,org.apache.nutch.analysis.lang.HTMLLanguageParser
+3533,org.apache.nutch.indexer.tld.TLDIndexingFilter
+3552,org.apache.nutch.api.impl.RAMJobManager
+3635,org.apache.nutch.api.JobStatus
+3637,org.apache.nutch.api.NutchApp
+3638,org.apache.nutch.crawl.Crawler
+3639,org.apache.nutch.crawl.DbUpdaterJob
+3640,org.apache.nutch.crawl.InjectorJob
+3641,org.apache.nutch.indexer.solr.SolrIndexerJob
+3679,org.apache.nutch.parse.tika.TikaConfig
+3753,org.apache.nutch.parse.tika.TestPdfParser
+3873,org.apache.nutch.protocol.httpclient.HttpResponse
+3890,org.apache.nutch.tools.proxy.TestbedProxy
+3920,org.apache.nutch.tools.proxy.FakeHandler
+3921,org.apache.nutch.tools.proxy.LogDebugHandler
+3922,org.apache.nutch.tools.proxy.DelayHandler
+3923,org.apache.nutch.tools.proxy.NotFoundHandler
+3929,org.apache.nutch.plugin.CircularDependencyException
+3936,org.apache.nutch.urlfilter.suffix.TestSuffixURLFilter
+3960,org.apache.nutch.urlfilter.suffix.SuffixURLFilter
+3967,org.apache.nutch.crawl.DummyWritable
+3981,org.apache.nutch.tools.ResolveUrls
+4040,org.creativecommons.nutch.CCParseFilter
+4130,org.apache.nutch.util.SuffixStringMatcher
+4166,org.apache.nutch.metadata.TestMetadata
+4258,org.apache.nutch.plugin.PluginDescriptor
+4262,org.apache.nutch.parse.ext.ExtParser
+4309,org.apache.nutch.util.CommandRunner
+4321,org.apache.nutch.protocol.httpclient.DummySSLProtocolSocketFactory
+4364,org.apache.nutch.protocol.httpclient.DummyX509TrustManager
+4367,org.apache.nutch.parse.tika.DOMContentUtils
+4473,org.apache.nutch.indexer.solr.SolrUtils
+4501,org.apache.nutch.util.FSUtils
+4599,org.apache.nutch.analysis.lang.LanguageIndexingFilter
+4628,org.apache.nutch.parse.js.JSParseFilter
+4725,org.apache.nutch.parse.html.TestRobotsMetaProcessor
+4738,org.apache.nutch.protocol.TestContent
+4748,org.apache.nutch.metadata.SpellCheckedMetadata
+4749,org.apache.nutch.util.WritableTestUtils
+4754,org.apache.nutch.parse.html.TestDOMContentUtils
+4884,org.apache.nutch.crawl.DbUpdateMapper
+4908,org.apache.nutch.crawl.UrlWithScore
+4909,org.apache.nutch.crawl.NutchWritable
+5060,org.apache.nutch.parse.tika.HTMLMetaProcessor
+5106,org.apache.nutch.crawl.DefaultFetchSchedule
+5129,org.apache.nutch.indexer.solr.SolrDeleteDuplicates
+5332,org.apache.nutch.tools.arc.ArcInputFormat
+5743,org.apache.nutch.scoring.tld.TLDScoringFilter
+5784,org.apache.nutch.protocol.http.Http
+5799,org.apache.nutch.protocol.http.HttpResponse
+5855,org.apache.nutch.tools.Benchmark
+5935,org.apache.nutch.parse.tika.DOMBuilder
+6055,org.apache.nutch.parse.tika.XMLCharacterRecognizer
+6153,org.apache.nutch.api.impl.RAMConfManager
+6154,org.apache.nutch.api.NutchServer
+6158,org.apache.nutch.util.TestURLUtil
+6177,org.apache.nutch.crawl.TestInjector
+6198,org.apache.nutch.util.AbstractNutchTest
+6199,org.apache.nutch.util.CrawlTestUtil
+6308,org.apache.nutch.net.urlnormalizer.pass.TestPassURLNormalizer
+6346,org.apache.nutch.crawl.DbUpdateReducer
+6473,org.apache.nutch.protocol.file.FileError
+6476,org.apache.nutch.parse.ParserFactory
+6548,org.apache.nutch.parse.ParsePluginsReader
+6549,org.apache.nutch.parse.ParserNotFound
+6593,org.apache.nutch.protocol.http.api.BlockedException
+6610,org.apache.nutch.protocol.ftp.FtpRobotRulesParser
+6692,org.apache.nutch.parse.TestParserFactory
+6883,org.apache.nutch.net.urlnormalizer.regex.TestRegexURLNormalizer
+6923,org.apache.nutch.net.urlnormalizer.regex.RegexURLNormalizer
+6950,org.apache.nutch.indexer.solr.SolrWriter
+6971,org.apache.nutch.indexer.solr.SolrMappingReader
+7030,org.apache.nutch.indexer.basic.TestBasicIndexingFilter
+7046,org.apache.nutch.indexer.basic.BasicIndexingFilter
+7053,org.apache.nutch.plugin.Plugin
+7073,org.apache.nutch.parse.zip.ZipParser
+7096,org.apache.nutch.util.IdentityPageReducer
+7215,org.apache.nutch.parse.html.XMLCharacterRecognizer
+7220,org.apache.nutch.api.TestAPI
+7258,org.apache.nutch.plugin.PluginClassLoader
+7262,org.apache.nutch.parse.tika.TestRSSParser
+7327,org.apache.nutch.indexer.elastic.ElasticIndexerJob
+7342,org.apache.nutch.indexer.NutchIndexWriterFactory
+7343,org.apache.nutch.indexer.elastic.ElasticWriter
+7351,org.apache.nutch.util.TestEncodingDetector
+7378,org.apache.nutch.protocol.httpclient.HttpAuthenticationFactory
+7398,org.apache.nutch.urlfilter.regex.TestRegexURLFilter
+7404,org.apache.nutch.parse.feed.FeedParser
+7549,org.apache.nutch.parse.js.TestJSParseFilter
+7694,org.apache.nutch.util.GZIPUtils
+7700,org.apache.nutch.fetcher.TestFetcher
+7731,org.apache.nutch.protocol.file.TestProtocolFile
+7747,org.apache.nutch.util.TestTableUtil
+7774,org.apache.nutch.crawl.SignatureComparator
+7809,org.creativecommons.nutch.CCIndexingFilter
+7845,org.apache.nutch.protocol.sftp.Sftp
+7940,org.apache.nutch.plugin.PluginManifestParser
+8046,org.apache.nutch.parse.ParserChecker
+8096,org.apache.nutch.indexer.anchor.TestAnchorIndexingFilter
+8104,org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+8138,org.apache.nutch.net.URLFilterChecker
+8163,org.apache.nutch.indexer.subcollection.SubcollectionIndexingFilter
+8180,org.apache.nutch.util.TestPrefixStringMatcher
+8253,org.apache.nutch.net.urlnormalizer.basic.BasicURLNormalizer
+8356,org.apache.nutch.util.TestGZIPUtils
+8477,org.apache.nutch.urlfilter.prefix.PrefixURLFilter
+8566,org.apache.nutch.metadata.MetaWrapper
+8596,org.apache.nutch.parse.ParseCallable
+8620,org.apache.nutch.tools.DmozParser
+8749,org.apache.nutch.indexer.IndexingFiltersChecker
+8922,org.apache.nutch.net.urlnormalizer.basic.TestBasicURLNormalizer
+8932,org.apache.nutch.plugin.TestPluginSystem
+9008,org.apache.nutch.plugin.HelloWorldExtension
+9016,org.apache.nutch.util.TestSuffixStringMatcher
+9202,org.apache.nutch.util.TestNodeWalker
+9224,org.apache.nutch.host.HostInjectorJob
+9303,org.apache.nutch.storage.TestGoraStorage
+9365,org.creativecommons.nutch.TestCCParseFilter
+9398,org.apache.nutch.collection.TestSubcollection
+9563,org.apache.nutch.protocol.http.api.TestRobotRulesParser
+9618,org.apache.nutch.crawl.TestGenerator
+9664,org.apache.nutch.net.TestURLNormalizers
+9703,org.apache.nutch.indexer.more.TestMoreIndexingFilter
+9727,org.apache.nutch.crawl.TestSignatureFactory
+9734,org.apache.nutch.util.GenericWritableConfigurable
+9976,org.apache.nutch.net.protocols.ProtocolException
+9987,org.apache.nutch.microformats.reltag.TestRelTagParser
+10053,org.apache.nutch.util.LockUtil
+10087,org.apache.nutch.scoring.opic.OPICScoringFilter
+10142,org.apache.nutch.plugin.MissingDependencyException
+10248,org.apache.nutch.util.HadoopFSUtil
+10281,org.apache.nutch.crawl.TextProfileSignature
+10503,org.apache.nutch.plugin.SimpleTestPlugin
+10518,org.apache.nutch.parse.tika.DOMContentUtilsTest
+10579,org.apache.nutch.parse.tika.TikaParser
+10586,org.apache.nutch.parse.swf.ExtractText
+10689,org.apache.nutch.parse.swf.NutchSWFActions
+10813,org.apache.nutch.parse.swf.SWFParser
+10851,org.apache.nutch.parse.swf.SmallStack
+11075,org.apache.nutch.crawl.TestUrlWithScore
+11179,org.apache.nutch.util.Pair
+11269,org.apache.nutch.protocol.ftp.FtpError
+11553,org.apache.nutch.host.HostDbReader
+11572,org.apache.nutch.metadata.TestSpellCheckedMetadata
+11680,org.apache.nutch.util.TestStringUtil
+11688,org.apache.nutch.parse.ext.TestExtParser
+11709,org.apache.nutch.parse.feed.TestFeedParser
+11786,org.apache.nutch.net.URLNormalizerChecker
+11815,org.apache.nutch.parse.tika.TestMSWordParser
+*Edges: 801
+3525 779 1
+3525 1266 1
+3525 185 5
+3525 1268 5
+4599 779 1
+4599 185 2
+4599 675 3
+3490 779 1
+3490 87 1
+3490 1084 2
+3490 185 7
+213 6154 1
+690 460 1
+219 781 2
+219 690 1
+3635 462 1
+3637 6154 1
+6154 3637 1
+6153 87 2
+3552 3635 2
+3552 462 2
+1804 186 3
+1804 87 1
+1804 1868 9
+1804 1867 2
+9398 1804 3
+9398 87 1
+9398 1868 11
+1513 185 29
+1493 185 5
+1493 1513 3
+3638 87 1
+3638 462 5
+3638 464 1
+4884 4908 4
+4884 1308 4
+4884 781 2
+4884 2926 2
+4884 185 3
+4884 4909 1
+4884 2336 3
+4884 1310 1
+6346 185 26
+6346 471 1
+6346 7774 1
+6346 781 1
+6346 1308 5
+6346 4908 2
+6346 2926 4
+6346 777 5
+6346 1310 2
+6346 2336 1
+3639 2926 2
+3639 87 1
+3639 462 1
+3639 460 2
+3639 464 2
+3639 461 1
+5106 185 4
+5106 1513 2
+471 186 3
+340 463 1
+340 87 1
+340 471 1
+340 462 1
+340 460 2
+340 464 2
+340 461 1
+473 185 4
+473 1082 3
+473 471 1
+473 781 1
+473 2926 3
+473 777 1
+473 1083 3
+473 1081 1
+473 1310 1
+474 781 1
+474 1091 2
+474 777 1
+474 185 1
+3640 463 1
+3640 87 1
+3640 462 1
+3640 460 2
+3640 464 2
+3640 461 1
+1711 1710 1
+1711 185 3
+4909 9734 1
+1710 185 1
+1696 1710 2
+1696 186 3
+9618 781 4
+9618 6198 3
+9618 1079 10
+9618 185 4
+9618 6199 9
+9618 340 2
+6177 6198 2
+6177 1079 2
+6177 3640 3
+6177 185 2
+6177 6199 3
+9727 87 1
+9727 1696 2
+2720 781 1
+2720 1093 1
+2720 87 7
+2720 185 2
+2720 465 26
+11075 4908 29
+10281 1710 3
+10281 185 2
+465 1091 1
+465 1083 3
+1079 185 4
+2951 779 2
+2951 185 26
+2951 462 1
+2951 460 3
+2951 776 1
+2951 781 2
+2951 87 1
+2951 1078 2
+2951 775 1
+2951 780 2
+2951 461 2
+2951 464 2
+1093 185 3
+1094 142 2
+1094 87 1
+1094 1085 2
+1094 462 1
+1094 460 2
+1094 464 2
+1094 461 1
+808 1084 2
+7700 6198 2
+7700 1079 2
+7700 3640 2
+7700 185 1
+7700 6199 3
+7700 340 2
+7700 1094 4
+1080 781 1
+1080 1090 3
+1080 460 1
+11553 781 2
+11553 87 1
+11553 460 1
+2436 87 1
+2436 460 3
+2436 461 2
+2467 1091 2
+2467 1895 6
+2467 185 5
+2467 1090 5
+9224 87 1
+9224 460 1
+9224 461 1
+2930 781 1
+2930 2926 3
+2930 185 4
+2930 780 1
+2930 677 1
+2930 675 7
+2930 1310 1
+2930 676 3
+2888 2926 2
+2888 462 1
+2888 460 1
+2888 676 2
+2888 461 1
+2929 7342 1
+676 186 5
+676 184 1
+676 185 1
+676 181 1
+676 183 2
+676 675 2
+676 182 1
+8749 142 2
+8749 185 8
+8749 1085 1
+8749 776 2
+8749 676 2
+8749 87 1
+8749 1091 1
+8749 1087 5
+8749 1084 2
+8749 778 2
+8749 775 1
+8749 1086 2
+8749 675 3
+8749 677 1
+675 674 5
+650 87 3
+650 674 2
+650 185 9
+650 675 5
+650 676 8
+8104 781 1
+8104 185 2
+8104 675 4
+8096 87 1
+8096 185 4
+8096 8104 2
+8096 675 3
+7046 781 3
+7046 779 1
+7046 185 6
+7046 675 9
+7030 87 2
+7030 185 9
+7030 7046 4
+7030 675 10
+7327 7342 1
+7327 87 1
+7327 2888 2
+7327 464 2
+7343 781 1
+7343 674 1
+7343 675 9
+2220 674 5
+2220 1268 1
+2220 675 7
+2357 2183 1
+2357 185 11
+2357 1800 5
+2357 675 16
+9703 87 2
+9703 2357 5
+9703 185 5
+9703 675 6
+5129 87 1
+5129 4473 1
+3641 7342 1
+3641 87 1
+3641 4473 1
+3641 2888 2
+3641 464 2
+6971 186 3
+6950 6971 4
+6950 4473 2
+6950 675 2
+8163 1804 2
+8163 87 1
+8163 185 1
+8163 675 4
+3533 324 1
+3533 1091 1
+3533 185 1
+3533 675 3
+8566 674 13
+8566 9734 3
+8566 4909 4
+4748 674 6
+4166 674 108
+11572 674 22
+11572 4748 78
+3243 185 2
+3243 675 3
+1215 1266 1
+1215 185 2
+1215 1268 2
+3234 87 1
+3234 3243 2
+3234 185 2
+3234 675 2
+9987 87 1
+9987 1084 2
+9987 185 5
+9987 1800 2
+1885 87 1
+1885 1082 2
+1885 1081 1
+9664 87 1
+9664 1083 4
+8138 87 1
+8138 181 1
+8138 1082 2
+8138 183 2
+8138 182 1
+1082 186 5
+1082 184 1
+1082 181 1
+1082 183 2
+1082 182 1
+11786 87 1
+11786 1083 2
+11786 181 1
+11786 183 2
+11786 182 1
+1083 186 10
+1083 184 1
+1083 181 6
+1083 4258 1
+1083 183 2
+1083 182 2
+8922 8253 3
+8922 87 1
+6308 3357 2
+6308 87 1
+6923 87 1
+6883 87 1
+6883 6923 5
+1767 1687 5
+1268 1687 4
+1268 540 4
+8596 185 2
+8596 1268 1
+2643 186 5
+2643 184 1
+2643 1266 1
+2643 185 1
+2643 183 2
+2643 182 1
+2643 181 1
+2643 775 1
+2643 1268 3
+6548 87 1
+6548 120 6
+775 781 2
+775 540 21
+775 1268 4
+1084 185 18
+1084 8596 1
+1084 1091 1
+1084 777 2
+1084 1078 1
+1084 775 5
+1084 1083 4
+1084 540 1
+1084 1687 2
+1084 6476 3
+1084 1082 4
+1084 781 2
+1084 1710 2
+1084 6549 1
+1084 1268 7
+1084 1081 2
+1084 1696 1
+1084 1752 1
+8046 779 1
+8046 142 2
+8046 185 5
+8046 1085 1
+8046 776 2
+8046 1710 1
+8046 87 1
+8046 1091 1
+8046 1087 4
+8046 778 2
+8046 1084 2
+8046 1086 3
+8046 1268 1
+8046 780 1
+8046 1696 1
+6476 186 14
+6476 184 3
+6476 6548 2
+6476 4258 2
+6476 183 2
+6476 182 4
+6476 120 4
+6476 6549 3
+6476 181 26
+6476 1800 1
+1085 6476 2
+1085 2643 2
+1085 185 3
+1085 462 1
+1085 460 2
+1085 87 1
+1085 780 1
+1085 461 1
+1085 464 2
+1085 1696 1
+6549 1752 3
+1757 1687 8
+1757 1767 5
+6692 6476 12
+6692 87 1
+6692 181 3
+6692 4258 3
+4262 1767 1
+4262 674 1
+4262 181 5
+4262 1086 10
+4262 4258 1
+4262 183 2
+4262 182 1
+4262 4309 7
+11688 142 2
+11688 87 2
+11688 1087 1
+11688 1084 2
+11688 1086 5
+11688 1268 3
+7404 6476 3
+7404 87 1
+7404 6549 1
+7404 1083 4
+7404 674 19
+7404 1086 10
+7404 2646 2
+7404 1082 4
+7404 1268 2
+11709 142 2
+11709 87 1
+11709 1087 1
+11709 1084 1
+2647 7215 3
+1583 1688 15
+1583 1687 1
+2648 1266 17
+2552 540 5
+2552 779 1
+2552 2643 3
+2552 1583 6
+2552 1266 7
+2552 674 3
+2552 185 8
+2552 2646 4
+2552 781 1
+2552 87 1
+2552 775 5
+2552 2648 1
+2552 1268 5
+4754 1687 38
+4754 87 1
+4754 1583 7
+4725 1266 7
+4725 2648 1
+4628 1687 3
+4628 781 1
+4628 87 1
+4628 1266 2
+4628 775 1
+4628 185 4
+4628 1268 10
+7549 1687 1
+7549 87 1
+7549 1084 2
+7549 185 4
+7549 1800 2
+7549 1268 1
+10586 10689 2
+10689 10851 1
+10813 1687 1
+10813 87 1
+10813 1767 1
+10813 674 2
+10813 10586 4
+10813 1086 8
+10813 1268 1
+1726 142 2
+1726 87 1
+1726 1087 1
+1726 1084 2
+1726 1086 1
+1726 1268 1
+5935 6055 3
+4367 1688 15
+4367 1687 1
+10518 1687 36
+10518 87 1
+10518 3679 1
+10518 10579 2
+10518 4367 7
+5060 1266 17
+11815 87 1
+11815 1084 2
+11815 185 4
+11815 1800 2
+11815 1268 1
+1773 87 1
+1773 1084 2
+1773 185 4
+1773 1800 2
+1773 1268 1
+3753 87 1
+3753 1084 2
+3753 185 4
+3753 1800 2
+3753 1268 1
+7262 1687 2
+7262 87 1
+7262 1084 2
+7262 185 4
+7262 1800 2
+7262 1268 1
+3396 87 1
+3396 1084 2
+3396 185 4
+3396 1800 2
+3396 1268 2
+10579 540 3
+10579 779 1
+10579 2643 3
+10579 1767 1
+10579 1266 7
+10579 185 10
+10579 5060 1
+10579 781 1
+10579 87 1
+10579 3679 4
+10579 775 3
+10579 1084 2
+10579 1800 2
+10579 1268 5
+10579 4367 6
+3339 142 2
+3339 87 1
+3339 1087 1
+3339 1084 1
+3339 1086 1
+3339 1268 1
+7073 2064 2
+7073 674 1
+7073 1086 8
+2064 1687 3
+2064 1084 2
+2064 674 3
+2064 1086 2
+2064 1800 3
+2064 1268 1
+2064 1752 1
+181 4258 5
+181 183 3
+182 181 2
+7053 4258 4
+4258 7258 3
+4258 181 2
+4258 183 2
+4258 182 2
+7940 181 2
+7940 4258 13
+7940 183 2
+7940 182 1
+183 184 2
+183 10142 2
+183 3929 2
+183 4258 25
+183 182 5
+183 7053 3
+183 87 2
+183 181 1
+183 7940 2
+10503 4258 3
+10503 7053 4
+8932 87 2
+8932 7940 2
+8932 181 2
+8932 4258 7
+8932 183 12
+8932 182 2
+8932 1719 2
+1086 87 1
+1086 674 13
+1086 1800 4
+142 190 4
+142 186 4
+142 184 2
+142 181 4
+142 183 2
+142 182 3
+190 1577 2
+1087 778 4
+1087 1086 5
+776 781 1
+776 778 23
+4738 674 4
+4738 1086 11
+4738 4748 2
+4738 4749 1
+516 190 2
+516 186 2
+516 142 10
+516 87 1
+3466 87 1
+3466 1087 4
+3466 674 2
+3466 185 3
+3466 3467 1
+3466 3413 4
+3466 1086 4
+3466 6473 1
+6473 3467 2
+3467 1577 5
+3413 3466 1
+3413 674 10
+3413 185 2
+3413 3467 2
+3413 1086 2
+3413 1800 3
+7731 142 2
+7731 87 1
+7731 1087 8
+7731 778 3
+7731 674 1
+7731 185 1
+7731 1086 4
+2188 2187 5
+2188 2186 2
+2188 2185 2
+2188 226 1
+2184 2188 3
+2184 6610 2
+2184 2113 4
+2184 674 2
+2184 185 3
+2184 11269 1
+2184 230 1
+2184 1087 4
+2184 1086 4
+2184 2875 2
+11269 230 2
+230 1577 5
+226 230 2
+2187 230 2
+2185 230 2
+2186 230 2
+2113 2187 2
+2113 2184 2
+2113 2188 18
+2113 2186 2
+2113 674 11
+2113 185 3
+2113 226 1
+2113 2189 1
+2113 2183 1
+2113 230 1
+2113 1086 2
+2113 2185 2
+6610 2184 1
+6610 1087 2
+6610 778 1
+6610 185 1
+6610 1086 1
+6610 2875 3
+5784 87 1
+5784 2876 4
+5784 5799 1
+5799 2876 15
+5799 2183 1
+5799 1567 4
+5799 674 7
+5799 185 5
+6593 1567 2
+2876 674 1
+2876 185 4
+2876 7694 2
+2876 776 7
+2876 1087 12
+2876 1086 3
+2876 2875 2
+2876 1800 2
+2876 2857 2
+2876 2264 1
+1567 1577 5
+2857 2876 2
+2857 185 2
+2857 2875 3
+9563 2875 4
+9563 2857 2
+4321 4364 1
+1368 87 1
+1368 2876 4
+1368 3873 1
+7378 674 3
+7378 2024 1
+2024 2056 3
+3873 1368 2
+3873 2876 6
+3873 2183 1
+3873 674 8
+3873 185 6
+1326 1368 4
+1326 185 1
+7845 1087 5
+7845 674 10
+7845 185 2
+7845 1086 1
+1308 779 2
+2926 186 5
+2926 184 1
+2926 185 6
+2926 181 1
+2926 183 2
+2926 675 1
+2926 182 1
+1274 185 9
+1274 675 1
+10087 1308 5
+10087 779 6
+10087 185 18
+10087 675 1
+5743 324 1
+5743 185 6
+5743 326 3
+5743 675 2
+777 185 10
+9303 6198 3
+9303 185 3
+9303 6199 1
+9303 460 2
+185 540 3
+185 778 3
+2543 87 1
+2543 460 1
+5855 2951 1
+5855 87 1
+5855 3640 2
+5855 1085 2
+5855 340 2
+5855 3639 1
+5855 1094 2
+5855 461 1
+8620 87 1
+5332 1947 1
+3922 3183 2
+3920 3183 2
+3921 3183 1
+3923 3183 2
+3890 87 1
+3890 3920 1
+3890 3922 1
+15 81 3
+509 15 5
+499 508 8
+499 509 1
+620 324 1
+620 1091 3
+620 181 2
+620 4258 1
+620 183 2
+620 182 1
+609 87 1
+609 620 12
+8477 2672 3
+8477 181 2
+8477 4258 1
+8477 183 2
+8477 182 1
+3369 87 1
+3369 15 6
+7398 3369 1
+7398 508 8
+3960 87 1
+3960 181 2
+3960 4258 1
+3960 4130 2
+3960 183 2
+3960 182 1
+3936 3960 20
+6198 6199 1
+6198 460 1
+6199 781 1
+6199 1079 1
+6199 777 2
+2646 781 2
+2646 185 6
+1800 186 3
+3313 2672 5
+780 2646 1
+4130 2672 5
+7351 185 18
+7351 2646 14
+8356 7694 8
+9202 1688 7
+8180 3313 6
+11680 780 8
+9016 4130 6
+7747 781 2
+6158 324 10
+6158 1091 42
+1091 324 2
+1091 326 4
+2336 185 5
+3247 463 1
+3247 87 1
+3247 460 1
+3247 461 1
+326 324 3
+326 236 1
+236 324 2
+236 326 9
+236 325 4
+325 324 3
+7809 185 4
+7809 675 5
+4040 1266 1
+4040 775 1
+4040 185 2
+4040 1268 2
+9365 87 1
+9365 1084 2
+9365 185 7
+9365 1800 2

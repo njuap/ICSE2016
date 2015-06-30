@@ -1,0 +1,1690 @@
+*Vertics: 585
+5,org.apache.maven.continuum.web.bean.ProjectGroupUserBean
+57,org.apache.continuum.dao.DistributedDirectoryPurgeConfigurationDaoImpl
+110,org.apache.maven.continuum.store.ContinuumStoreException
+112,org.apache.continuum.dao.AbstractDao
+130,org.apache.continuum.web.action.admin.BuildAgentAction
+264,org.apache.continuum.configuration.BuildAgentConfiguration
+265,org.apache.continuum.configuration.BuildAgentGroupConfiguration
+266,org.apache.continuum.web.util.AuditLog
+267,org.apache.continuum.web.util.AuditLogConstants
+268,org.apache.maven.continuum.ContinuumException
+270,org.apache.maven.continuum.security.ContinuumRoleConstants
+271,org.apache.maven.continuum.web.action.ContinuumConfirmAction
+339,org.apache.continuum.scm.manager.ScmManager
+351,org.apache.maven.continuum.management.DataManagementToolTest
+436,org.apache.maven.continuum.store.AbstractContinuumStoreTestCase
+447,org.apache.continuum.web.test.BuildEnvironmentTest
+476,org.apache.continuum.web.test.parent.AbstractAdminTest
+520,org.apache.continuum.buildagent.taskqueue.PrepareBuildProjectsTask
+521,org.apache.continuum.taskqueue.BuildProjectTask
+522,org.apache.continuum.taskqueue.manager.TaskQueueManagerException
+523,org.apache.continuum.utils.build.BuildTrigger
+542,org.apache.maven.continuum.release.executors.PerformReleaseTaskExecutor
+634,org.apache.maven.continuum.release.ContinuumReleaseException
+635,org.apache.maven.continuum.release.tasks.PerformReleaseProjectTask
+639,org.apache.maven.continuum.release.executors.AbstractReleaseTaskExecutor
+640,org.apache.maven.continuum.release.tasks.AbstractReleaseProjectTask
+659,org.apache.continuum.web.test.listener.CaptureScreenShotsListener
+730,org.apache.continuum.web.test.parent.AbstractSeleniumTest
+733,org.apache.continuum.dao.BuildQueueDaoImpl
+770,org.apache.continuum.buildagent.action.ExecuteBuilderAction
+808,org.apache.continuum.buildagent.build.execution.ContinuumAgentBuildCancelledException
+809,org.apache.continuum.buildagent.build.execution.ContinuumAgentBuildExecutionResult
+813,org.apache.continuum.buildagent.utils.ContinuumBuildAgentUtil
+835,org.apache.continuum.configuration.ProxyConfiguration
+871,org.apache.continuum.scm.DefaultContinuumScmTest
+910,org.apache.continuum.scm.ContinuumScmConfiguration
+911,org.apache.continuum.scm.DefaultContinuumScm
+919,org.apache.continuum.buildagent.build.execution.maven.m2.SettingsConfigurationException
+936,org.apache.maven.continuum.utils.ChrootJailWorkingDirectoryService
+977,org.apache.continuum.web.test.NotifierTest
+1180,org.apache.maven.continuum.xmlrpc.server.ConfiguredBeanProcessorFactory
+1220,org.apache.maven.continuum.xmlrpc.server.ContinuumXmlRpcConfig
+1223,org.apache.maven.continuum.project.builder.manager.ContinuumProjectBuilderManagerException
+1232,org.apache.continuum.web.test.DistributedBuildTest
+1302,org.apache.continuum.examples.AppTest
+1311,org.apache.maven.continuum.web.action.AddProjectActionTest
+1360,org.apache.continuum.web.action.AbstractActionTest
+1361,org.apache.maven.continuum.web.action.stub.AddProjectActionStub
+1364,org.apache.maven.continuum.web.action.ContinuumActionSupport
+1365,org.apache.maven.continuum.web.action.AddProjectAction
+1379,org.apache.maven.continuum.utils.DefaultWorkingDirectoryServiceTest
+1415,org.apache.maven.continuum.utils.DefaultWorkingDirectoryService
+1420,org.apache.continuum.web.test.MyAccountTest
+1446,org.apache.maven.continuum.store.ContinuumObjectNotFoundException
+1450,org.apache.continuum.repository.DefaultRepositoryService
+1503,org.apache.continuum.repository.RepositoryServiceException
+1530,org.apache.maven.continuum.web.exception.AuthenticationRequiredException
+1541,org.apache.maven.continuum.xmlrpc.backup.Backup
+1732,org.apache.maven.continuum.xmlrpc.client.ContinuumXmlRpcClient
+1751,org.apache.continuum.distributed.transport.slave.SlaveBuildAgentTransportClient
+1958,org.apache.continuum.distributed.commons.utils.ContinuumXmlRpcBinder
+2002,org.apache.maven.continuum.release.DefaultReleaseManagerListener
+2043,org.apache.continuum.web.test.ScheduleTest
+2126,org.apache.maven.continuum.configuration.ConfigurationLoadingException
+2138,org.apache.continuum.web.action.admin.PurgeAction
+2184,org.apache.continuum.web.action.admin.PurgeConfigurationAction
+2192,org.apache.maven.continuum.execution.manager.DefaultBuildExecutorManagerTest
+2207,org.apache.maven.continuum.AbstractContinuumTest
+2208,org.apache.maven.continuum.execution.AbstractBuildExecutor
+2209,org.apache.maven.continuum.execution.ant.AntBuildExecutor
+2210,org.apache.maven.continuum.execution.maven.m1.MavenOneBuildExecutor
+2211,org.apache.maven.continuum.execution.maven.m2.MavenTwoBuildExecutor
+2212,org.apache.maven.continuum.execution.shell.ShellBuildExecutor
+2235,org.apache.continuum.profile.DefaultProfileServiceTest
+2302,org.apache.maven.continuum.profile.AlreadyExistsProfileException
+2322,org.apache.continuum.builder.distributed.stubs.DefaultDistributedBuildManagerStub
+2326,org.apache.continuum.builder.distributed.manager.DefaultDistributedBuildManager
+2328,org.apache.continuum.builder.distributed.stubs.SlaveBuildAgentTransportClientStub
+2331,org.apache.maven.continuum.web.util.StateGenerator
+2349,org.codehaus.continuum.project2.App
+2354,org.apache.continuum.purge.executor.RetentionCountRepositoryPurgeExecutorTest
+2366,org.apache.continuum.purge.executor.AbstractPurgeExecutorTest
+2378,org.apache.continuum.dao.ContinuumReleaseResultDaoImpl
+2427,org.apache.maven.continuum.web.action.SummaryAction
+2490,org.apache.continuum.buildmanager.BuildManagerException
+2492,org.apache.maven.continuum.web.exception.AuthorizationRequiredException
+2507,org.apache.maven.continuum.web.view.jsp.ui.DateTag
+2601,org.apache.maven.continuum.project.builder.ContinuumProjectBuildingResult
+2603,org.apache.maven.continuum.execution.maven.m2.SettingsConfigurationException
+2605,org.apache.continuum.purge.ContinuumPurgeConstants
+2617,org.apache.maven.continuum.web.action.CancelBuildAction
+2681,org.apache.continuum.buildagent.utils.BuildContextToBuildDefinition
+2690,org.apache.continuum.buildagent.buildcontext.BuildContext
+2704,org.apache.maven.continuum.web.view.StateCell
+2755,org.apache.continuum.buildagent.action.CreateBuildProjectTaskAction
+2780,org.apache.maven.continuum.execution.ContinuumBuildExecutionResult
+2789,org.apache.maven.continuum.web.bean.Queue
+2801,org.apache.maven.continuum.management.util.PlexusApplicationContextDelegate
+2840,org.apache.maven.continuum.configuration.DefaultConfigurationService
+3023,org.apache.continuum.buildqueue.BuildQueueServiceException
+3025,org.apache.continuum.configuration.ContinuumConfigurationException
+3026,org.apache.continuum.configuration.GeneralConfiguration
+3030,org.apache.maven.continuum.configuration.ConfigurationException
+3031,org.apache.maven.continuum.configuration.ConfigurationStoringException
+3101,org.apache.maven.continuum.core.action.ValidateProject
+3113,org.apache.maven.continuum.core.action.AbstractValidationContinuumAction
+3120,org.apache.maven.continuum.web.action.PlexusActionSupport
+3127,org.apache.continuum.scm.ContinuumScmUtils
+3152,org.apache.continuum.release.config.ContinuumReleaseDescriptor
+3207,org.apache.continuum.model.project.ProjectGroupSummary
+3209,org.apache.maven.continuum.reports.surefire.ReportTestCase
+3244,org.apache.maven.continuum.execution.maven.m1.DefaultMavenOneMetadataHelper
+3310,org.apache.maven.continuum.notification.AbstractContinuumNotifier
+3316,org.apache.maven.continuum.execution.maven.m1.MavenOneMetadataHelperException
+3334,org.apache.continuum.purge.task.PurgeTask
+3351,org.apache.continuum.web.test.CSRFSecurityTest
+3371,org.apache.continuum.web.action.stub.ViewBuildsReportActionStub
+3376,org.apache.continuum.web.action.ViewBuildsReportAction
+3400,org.apache.continuum.purge.repository.utils.LegacyPathParser
+3434,org.apache.continuum.purge.repository.utils.FilenameParser
+3443,org.apache.continuum.distributed.transport.slave.SampleBuildAgentClient
+3450,org.apache.maven.continuum.web.action.notifier.JabberProjectNotifierEditAction
+3489,org.apache.maven.continuum.web.action.notifier.AbstractProjectNotifierEditAction
+3493,org.apache.maven.continuum.configuration.ConfigurationServiceTest
+3521,org.apache.continuum.web.test.BuildAgentsTest
+3567,org.apache.continuum.AppTest
+3574,org.apache.continuum.buildagent.taskqueue.execution.BuildProjectTaskExecutorTest
+3659,org.apache.maven.continuum.execution.ContinuumBuildExecutorConstants
+3662,org.apache.continuum.buildagent.taskqueue.execution.BuildProjectTaskExecutor
+3702,org.apache.continuum.purge.executor.DaysOldRepositoryPurgeExecutor
+3757,org.apache.continuum.purge.executor.AbstractContinuumPurgeExecutor
+3759,org.apache.continuum.purge.executor.ContinuumPurgeExecutorException
+3774,org.apache.continuum.configuration.DefaultContinuumConfiguration
+3866,com.example.flat.App
+3873,org.apache.maven.continuum.web.view.buildresults.StateCell
+3893,org.apache.maven.continuum.core.action.UpdateBuildDefinitionFromProjectGroupAction
+3900,org.apache.maven.continuum.core.action.AbstractBuildDefinitionContinuumAction
+3906,org.apache.maven.continuum.core.action.AbstractContinuumAction
+3912,org.apache.maven.continuum.release.executors.ReleaseTaskExecutorTest
+4007,org.apache.maven.continuum.release.tasks.PrepareReleaseProjectTask
+4008,org.apache.maven.continuum.release.tasks.RollbackReleaseProjectTask
+4078,org.apache.maven.continuum.execution.ContinuumBuildExecutorTest
+4123,org.apache.continuum.utils.shell.ExecutionResult
+4126,org.apache.maven.continuum.execution.ContinuumBuildExecutorException
+4138,org.apache.continuum.buildagent.configuration.GeneralBuildAgentConfiguration
+4164,org.apache.maven.continuum.notification.MessageContext
+4199,org.apache.continuum.module.b.AppTest
+4207,org.apache.maven.continuum.management.DefaultDatabaseFactoryConfigurator
+4218,org.apache.maven.continuum.management.DatabaseParams
+4226,org.apache.continuum.buildagent.build.execution.maven.m1.BuildAgentMavenOneMetadataHelperException
+4236,org.apache.maven.continuum.management.DataManagementException
+4250,org.apache.continuum.web.test.parent.AbstractUserRolesManagementTest
+4340,org.apache.continuum.web.startup.ContinuumStartup
+4370,org.apache.continuum.webdav.ContinuumBuildAgentDavLocatorFactory
+4394,org.apache.continuum.webdav.util.WorkingCopyPathUtil
+4396,org.apache.continuum.webdav.ContinuumBuildAgentDavResourceLocator
+4405,org.apache.maven.continuum.core.action.CleanWorkingDirectoryAction
+4427,org.apache.maven.continuum.reports.surefire.ConfigurationServiceMock
+4431,org.apache.maven.continuum.configuration.ConfigurationServiceMock
+4434,org.apache.maven.continuum.core.action.StoreProjectAction
+4456,org.apache.maven.continuum.web.action.admin.InstallationAction
+4528,org.apache.maven.continuum.installation.AlreadyExistsInstallationException
+4605,org.apache.continuum.buildagent.NoBuildAgentException
+4606,org.apache.continuum.buildagent.NoBuildAgentInGroupException
+4607,org.apache.continuum.model.project.ProjectRunSummary
+4608,org.apache.continuum.taskqueue.PrepareBuildProjectsTask
+4612,org.apache.continuum.purge.executor.CleanAllPurgeExecutorTest
+4642,org.apache.continuum.dao.ProfileDaoImpl
+4665,org.apache.maven.continuum.scm.queue.PrepareBuildProjectsTaskExecutor
+4802,org.apache.continuum.utils.ContinuumUtils
+4803,org.apache.continuum.utils.ProjectSorter
+4804,org.apache.maven.continuum.core.action.CheckWorkingDirectoryAction
+4805,org.apache.maven.continuum.core.action.CheckoutProjectContinuumAction
+4806,org.apache.maven.continuum.core.action.UpdateWorkingDirectoryFromScmContinuumAction
+4838,org.apache.maven.continuum.web.action.stub.SummaryActionStub
+4843,org.apache.maven.continuum.core.action.CreateBuildProjectTaskAction
+4932,org.apache.maven.continuum.scheduler.ContinuumPurgeJob
+4957,org.apache.continuum.purge.ContinuumPurgeManagerException
+4958,org.apache.maven.continuum.scheduler.ContinuumSchedulerConstants
+4969,org.apache.maven.continuum.web.action.admin.EditPomAction
+5000,org.apache.maven.continuum.web.action.notifier.IrcGroupNotifierEditAction
+5043,org.apache.maven.continuum.web.action.notifier.AbstractGroupNotifierEditAction
+5046,org.apache.continuum.purge.executor.RetentionCountDirectoryPurgeExecutor
+5092,org.apache.maven.continuum.web.view.jsp.ui.DataTag
+5106,org.apache.maven.continuum.web.components.Data
+5125,org.apache.maven.continuum.release.DefaultContinuumReleaseManager
+5270,org.apache.continuum.model.release.ReleaseListenerSummary
+5295,org.apache.maven.continuum.buildcontroller.DefaultBuildController
+5420,org.apache.maven.continuum.core.action.ExecuteBuilderContinuumAction
+5422,org.apache.maven.continuum.buildcontroller.BuildContext
+5461,org.apache.continuum.webdav.ContinuumBuildAgentDavSessionProviderTest
+5567,org.apache.continuum.webdav.ContinuumBuildAgentDavSessionProvider
+5617,org.apache.maven.continuum.builddefinition.BuildDefinitionServiceException
+5630,org.apache.continuum.webdav.WorkingCopyServlet
+5680,org.apache.continuum.webdav.ContinuumBuildAgentDavResourceFactory
+5682,org.apache.continuum.buildmanager.ParallelBuildsManagerTest
+5842,org.apache.continuum.taskqueue.CheckOutTask
+5844,org.apache.continuum.taskqueueexecutor.ParallelBuildsThreadedTaskQueueExecutor
+5846,org.apache.continuum.buildmanager.ParallelBuildsManager
+5870,org.apache.maven.continuum.web.action.AbstractBuildDefinitionAction
+5893,org.apache.maven.continuum.management.redback.JdoDataManagementTool
+6034,org.apache.continuum.buildagent.ContinuumBuildAgentException
+6036,org.apache.continuum.purge.executor.DaysOldRepositoryPurgeExecutorTest
+6047,org.apache.continuum.distributed.commons.utils.ContinuumDistributedUtil
+6079,org.apache.continuum.release.distributed.manager.DefaultDistributedReleaseManager
+6288,org.apache.continuum.configuration.BuildAgentConfigurationException
+6289,org.apache.continuum.release.distributed.DistributedReleaseUtil
+6331,org.apache.continuum.web.action.admin.LocalRepositoryAction
+6394,org.apache.maven.continuum.core.action.RemoveBuildDefinitionFromProjectGroupAction
+6403,org.apache.maven.continuum.web.action.TestAction
+6428,org.apache.maven.continuum.web.view.BuildStatusCell
+6462,org.apache.maven.continuum.web.action.stub.BuildResultActionStub
+6466,org.apache.maven.continuum.web.action.BuildResultAction
+6469,org.apache.continuum.taskqueue.manager.DefaultTaskQueueManager
+6563,org.apache.continuum.configuration.TestDefaultContinuumConfiguration
+6657,org.apache.maven.continuum.web.view.projectview.NotifierFromCell
+6666,org.apache.maven.continuum.web.action.ContinuumActionLoggingTest
+6688,org.apache.continuum.web.test.parent.AbstractBuildDefinitionTemplateTest
+6733,org.apache.maven.continuum.web.bean.BuildProjectQueue
+6739,org.apache.maven.continuum.build.settings.SchedulesActivationException
+6751,org.apache.maven.continuum.xmlrpc.server.PropertiesHandlerMapping
+6779,org.apache.maven.continuum.xmlrpc.server.ContinuumXmlRpcMetaDataHandler
+6782,org.apache.maven.continuum.xmlrpc.server.AbstractContinuumSecureService
+6889,org.apache.maven.continuum.release.phase.UpdateWorkingCopyPhaseTest
+6909,org.apache.maven.continuum.release.phase.UpdateWorkingCopyPhase
+6911,org.apache.maven.continuum.notification.ContinuumNotificationDispatcherTest
+6922,org.apache.continuum.purge.executor.CleanAllPurgeExecutor
+6952,org.apache.continuum.webdav.ContinuumBuildAgentDavResourceFactoryTest
+6976,org.apache.continuum.webdav.ContinuumBuildAgentDavSession
+6989,org.apache.continuum.purge.executor.DaysOldDirectoryPurgeExecutorTest
+7002,org.apache.continuum.purge.AbstractPurgeTest
+7057,org.apache.maven.continuum.jdo.MemoryJdoFactory
+7067,org.apache.continuum.xmlrpc.server.ContinuumServiceImplTest
+7202,org.apache.maven.continuum.xmlrpc.server.ContinuumServiceImpl
+7203,org.apache.continuum.xmlrpc.server.ContinuumServiceImplStub
+7218,org.apache.continuum.webdav.ContinuumBuildAgentDavResourceLocatorTest
+7328,org.apache.continuum.webdav.WorkingCopyServletTest
+7370,org.apache.continuum.webdav.MockWorkingCopyServlet
+7385,org.apache.maven.continuum.wagon.ServletServer
+7437,org.apache.maven.continuum.wagon.Servlet
+7438,org.apache.maven.continuum.wagon.Context
+7447,org.apache.continuum.examples.AppTest
+7503,org.apache.continuum.web.test.parent.AbstractContinuumTest
+7514,org.apache.maven.continuum.execution.ContinuumBuildCancelledException
+7528,org.apache.continuum.utils.release.ReleaseUtil
+7570,org.apache.maven.continuum.web.action.ReleaseInProgressAction
+7630,org.apache.continuum.dao.DaoUtilsImpl
+7684,org.apache.maven.continuum.notification.console.ConsoleNotifier
+7719,org.apache.maven.continuum.notification.NotificationException
+7743,org.apache.continuum.buildagent.configuration.BuildAgentConfigurationException
+7751,org.apache.maven.continuum.project.builder.maven.MavenOneContinuumProjectBuilder
+7802,org.apache.maven.continuum.project.builder.AbstractContinuumProjectBuilder
+7804,org.apache.maven.continuum.project.builder.ContinuumProjectBuilderException
+7816,org.apache.maven.continuum.web.action.component.ContinuumTabAction
+8816,org.apache.continuum.purge.PurgeConfigurationServiceException
+8817,org.apache.maven.continuum.installation.InstallationException
+8818,org.apache.maven.continuum.xmlrpc.server.AddingResultUtil
+9105,org.apache.maven.continuum.notification.manager.DefaultNotifierManager
+9113,org.apache.maven.continuum.trigger.quartz.ContinuumBuildTrigger
+9121,org.apache.maven.continuum.web.view.projectview.NotifierRecipientCell
+9126,org.apache.continuum.web.util.GenerateRecipentNotifier
+9129,org.apache.continuum.module.b.App
+9133,org.codehaus.plexus.continuum.project1.App
+9138,org.apache.continuum.buildagent.action.CleanWorkingDirectoryAction
+9178,org.apache.maven.continuum.project.builder.maven.MavenTwoContinuumProjectBuilder
+9281,org.apache.maven.continuum.web.bean.CheckoutQueue
+9291,org.apache.continuum.distributed.transport.tests.SlaveBuildAgentTransportServiceTest
+9324,org.apache.maven.continuum.execution.ExecutorConfigurator
+9658,org.apache.maven.continuum.notification.mail.FormatterTool
+9686,org.apache.maven.continuum.execution.maven.m2.MavenBuilderHelperException
+9800,org.apache.continuum.web.startup.BuildAgentStartup
+9813,org.apache.maven.continuum.web.action.ScheduleAction
+9934,org.apache.continuum.buildagent.stubs.ContinuumActionStub
+10006,org.apache.maven.continuum.notification.msn.MsnContinuumNotifier
+10145,org.apache.maven.continuum.web.view.BuildCell
+10173,org.apache.maven.continuum.execution.maven.m2.DefaultMavenBuilderHelper
+10358,org.apache.continuum.web.test.UserRolesManagementTest
+10391,org.apache.maven.continuum.execution.maven.m2.MavenTwoBuildExecutorTest
+10424,org.apache.continuum.buildagent.manager.BuildAgentPurgeManagerTest
+10476,org.apache.continuum.buildagent.manager.DefaultBuildAgentPurgeManager
+10481,org.apache.continuum.purge.repository.content.ManagedDefaultRepositoryContent
+10564,org.apache.continuum.purge.repository.utils.FileTypes
+10576,org.apache.maven.continuum.utils.URLUserInfo
+10590,org.apache.continuum.buildagent.action.UpdateWorkingDirectoryAction
+10659,org.apache.continuum.builder.distributed.executor.ThreadedDistributedBuildTaskQueueExecutor
+10896,org.apache.continuum.dao.SystemConfigurationDaoImpl
+10905,org.apache.maven.continuum.web.action.GroupSummaryAction
+10928,org.apache.continuum.web.action.stub.ReleaseActionStub
+10939,org.apache.continuum.web.action.AbstractReleaseAction
+11072,org.apache.continuum.module.c.App
+11154,org.apache.continuum.web.test.parent.AbstractPurgeTest
+11199,org.apache.continuum.web.test.MavenTwoProjectTest
+11288,org.apache.continuum.AbstractAddProjectTest
+11298,org.apache.continuum.webdav.MockContinuumBuildAgentDavResource
+11319,org.apache.continuum.webdav.util.IndexWriter
+11320,org.apache.continuum.webdav.ContinuumBuildAgentDavResource
+11329,org.apache.continuum.web.test.AboutTest
+11367,org.apache.continuum.buildagent.action.UpdateProjectFromWorkingDirectoryAction
+11418,org.apache.continuum.buildagent.webdav.client.WorkingCopyWebdavClient
+11517,org.apache.maven.continuum.project.builder.manager.DefaultContinuumProjectBuilderManager
+11546,org.apache.continuum.web.action.AbstractReleaseActionTest
+11637,org.apache.continuum.examples.BasicThreadTest
+11655,org.apache.maven.continuum.builddefinition.BuildDefinitionUpdatePolicyConstants
+11756,org.apache.continuum.web.test.parent.AbstractLocalRepositoryTest
+11795,org.apache.maven.continuum.web.action.notifier.WagonProjectNotifierEditAction
+11824,org.apache.maven.continuum.web.action.ReleasePerformAction
+11930,org.apache.continuum.buildagent.buildcontext.manager.DefaultBuildContextManager
+11955,org.apache.continuum.web.test.MavenOneProjectTest
+11988,org.apache.continuum.distributed.transport.master.MasterBuildAgentTransportClient
+12054,org.apache.continuum.purge.controller.DirectoryPurgeController
+12068,org.apache.continuum.purge.executor.DaysOldDirectoryPurgeExecutor
+12139,org.apache.maven.continuum.web.view.jsp.ui.IfBuildTypeEnabledTag
+12155,org.apache.maven.continuum.web.action.notifier.IrcProjectNotifierEditAction
+12198,org.apache.maven.continuum.web.action.AddMavenTwoProjectAction
+12228,org.apache.maven.continuum.web.action.AddMavenProjectAction
+12239,org.apache.maven.continuum.execution.maven.m1.MavenOneBuildExecutorTest
+12269,org.apache.maven.continuum.project.builder.AbstractContinuumProjectBuilderTest
+12305,org.apache.continuum.web.test.QueueTest
+12373,org.apache.maven.continuum.web.action.notifier.MailProjectNotifierEditAction
+12394,org.apache.maven.continuum.TestAction
+12408,org.apache.maven.continuum.management.LegacyJdoDataManagementTool
+12503,org.apache.maven.continuum.scheduler.ContinuumBuildJob
+12516,org.apache.continuum.web.test.BuildDefinitionTemplateTest
+12542,org.apache.maven.continuum.scm.queue.PrepareBuildProjectsTaskExecutorTest
+12653,org.apache.continuum.buildagent.action.CheckWorkingDirectoryAction
+12661,org.apache.continuum.dao.RepositoryPurgeConfigurationDaoImpl
+12693,org.apache.continuum.module.a.AppTest
+12700,org.apache.maven.continuum.core.action.CreateProjectsFromMetadataAction
+12782,org.apache.maven.continuum.utils.ContinuumUrlValidator
+12807,org.apache.continuum.buildqueue.DefaultBuildQueueService
+12870,org.apache.maven.continuum.profile.ProfileException
+12915,org.apache.continuum.buildagent.manager.DefaultBuildAgentReleaseManager
+13005,org.apache.maven.continuum.web.action.component.NotifierSummaryAction
+13080,org.apache.maven.continuum.execution.maven.m2.TestMavenBuilderHelper
+13102,org.apache.maven.continuum.notification.mail.MailContinuumNotifier
+13306,org.apache.maven.continuum.reports.surefire.ReportTestResult
+13316,org.apache.maven.continuum.wagon.WagonContinuumNotifierTest
+13329,com.example.flat.AppTest
+13335,org.codehaus.plexus.security.authorization.rbac.jdo.v0_9_0.RbacJdoModelModelloMetadata
+13342,org.apache.maven.continuum.web.action.notifier.AbstractNotifierEditActionSupport
+13494,org.apache.continuum.purge.DefaultContinuumPurgeManagerTest
+13790,org.apache.maven.continuum.web.action.notifier.AddGroupNotifierAction
+13809,org.apache.continuum.purge.executor.RetentionCountRepositoryPurgeExecutor
+13833,org.apache.maven.continuum.core.action.AddAssignableRolesAction
+13844,org.apache.maven.continuum.core.action.AddProjectToCheckOutQueueAction
+14348,org.apache.maven.continuum.management.redback.LegacyJdoDataManagementTool
+14456,org.codehaus.plexus.security.keys.jdo.v0_9_0.PlexusSecurityKeyManagementJdoModelloMetadata
+14457,org.codehaus.plexus.security.user.jdo.v0_9_0.UserManagementModelloMetadata
+14487,org.apache.continuum.module.a.AppTest
+14496,org.apache.maven.continuum.web.appareance.DefaultAppareanceConfiguration
+14665,org.apache.continuum.buildagent.build.execution.ContinuumAgentBuildExecutorException
+14666,org.apache.continuum.buildagent.utils.BuildContextToProject
+14672,org.jpox.store.OID
+14719,org.apache.continuum.module.b.App
+14723,org.apache.continuum.web.test.PurgeTest
+14755,org.apache.continuum.module.b.AppTest
+14761,org.apache.maven.continuum.initialization.DefaultContinuumInitializer
+14793,org.apache.maven.continuum.initialization.ContinuumInitializationException
+14809,org.apache.continuum.purge.DefaultPurgeConfigurationServiceTest
+14865,org.apache.maven.continuum.reports.surefire.ReportTestSuiteGeneratorException
+14866,org.apache.maven.continuum.reports.surefire.ReportTestSuite
+14896,org.apache.maven.continuum.AddMaven2ProjectTest
+14938,org.apache.continuum.web.action.admin.DistributedPurgeConfigurationAction
+15047,org.apache.continuum.utils.shell.DefaultShellCommandHelper
+15138,org.apache.continuum.release.phase.RunPerformGoalsPhase
+15155,org.apache.continuum.release.phase.AbstractContinuumRunGoalsPhase
+15159,org.apache.continuum.web.action.ScmResultAction
+15184,org.apache.maven.continuum.notification.DefaultContinuumNotificationDispatcher
+15254,org.apache.continuum.buildagent.utils.WorkingCopyContentGenerator
+15300,org.apache.continuum.dao.BuildResultDaoImpl
+15485,org.apache.continuum.dao.InstallationDaoImpl
+15579,org.apache.maven.continuum.reports.surefire.ReportFailure
+15597,org.apache.continuum.web.test.ConfigurationTest
+15636,org.apache.continuum.module.d.App
+15641,org.apache.continuum.buildagent.build.execution.shell.ShellBuildExecutor
+15657,org.apache.continuum.buildagent.build.execution.AbstractBuildExecutor
+15671,org.apache.continuum.builder.distributed.work.DefaultContinuumWorker
+15703,org.apache.continuum.web.test.ShellProjectTest
+15730,org.apache.maven.continuum.notification.jabber.JabberContinuumNotifier
+15802,org.apache.maven.continuum.web.exception.ContinuumActionException
+15810,org.apache.maven.continuum.web.view.jsp.ui.SubmitCancelTag
+15825,org.apache.maven.continuum.web.components.SubmitCancel
+15832,org.apache.continuum.purge.DefaultContinuumPurgeManager
+15864,org.apache.continuum.buildagent.stubs.ContinuumReleaseManagerStub
+16002,org.apache.continuum.dao.NotifierDaoImpl
+16012,org.apache.continuum.purge.executor.RetentionCountDirectoryPurgeExecutorTest
+16029,org.apache.maven.continuum.model.project.v1_0_9.ContinuumModelloMetadata
+16053,org.apache.maven.continuum.core.action.StoreCheckOutScmResultAction
+16062,org.apache.maven.continuum.web.action.admin.ConfigureAppearanceAction
+16095,org.apache.maven.continuum.web.action.component.AbstractFooterAction
+16104,org.apache.continuum.builder.distributed.executor.DistributedBuildProjectTaskExecutor
+16181,org.apache.continuum.builder.utils.ContinuumBuildConstant
+16219,org.apache.maven.continuum.web.action.BuildDefinitionAction
+16364,org.apache.maven.continuum.web.view.commons.DateCell
+16381,org.apache.continuum.distributed.transport.slave.SlaveBuildAgentTransportServer
+16553,org.apache.continuum.webdav.util.WorkingCopyPathUtilTest
+16723,org.apache.maven.continuum.management.DatabaseFormat
+16788,org.apache.continuum.module.a.App
+16795,org.apache.maven.continuum.xmlrpc.server.ContinuumXmlRpcServlet
+16858,org.apache.maven.continuum.xmlrpc.server.ContinuumXmlRpcServletServer
+16860,org.apache.continuum.purge.repository.content.ManagedLegacyRepositoryContent
+17036,org.apache.continuum.web.test.BuildResultTest
+17055,org.apache.continuum.dao.StoreUtilities
+17063,org.apache.maven.continuum.release.phase.GenerateReactorProjectsPhase
+17162,org.apache.continuum.web.action.ViewBuildsReportActionTest
+17206,org.apache.continuum.purge.controller.DistributedDirectoryPurgeController
+17222,org.apache.continuum.webdav.util.WebdavMethodUtil
+17228,org.apache.continuum.examples.App
+17282,org.apache.maven.continuum.project.builder.EasySSLSocketFactory
+17284,org.apache.maven.continuum.initialization.DefaultContinuumInitializerTest
+17294,org.apache.continuum.distributed.transport.slave.SlaveBuildAgentTransportAuthenticator
+17304,org.apache.maven.continuum.web.action.stub.ProjectGroupActionStub
+17312,org.apache.maven.continuum.web.action.ProjectGroupAction
+17316,org.apache.maven.continuum.core.action.UpdateBuildDefinitionFromProjectAction
+17337,org.apache.maven.continuum.web.action.WorkingCopyAction
+17384,org.apache.maven.continuum.web.util.WorkingCopyContentGenerator
+17389,org.apache.continuum.installation.DefaultInstallationService
+17490,org.apache.continuum.purge.executor.ReleasedSnapshotsRepositoryPurgeExecutor
+17516,org.apache.continuum.purge.executor.ReleasedSnapshotsRepositoryPurgeExecutorTest
+17536,org.apache.maven.continuum.buildcontroller.BuildProjectTaskExecutorTest
+17581,org.apache.maven.continuum.execution.manager.BuildExecutorNotFoundException
+17591,org.apache.maven.continuum.core.action.RemoveBuildDefinitionFromProjectAction
+17599,org.apache.maven.continuum.web.validator.CronExpressionValidator
+17624,org.apache.maven.continuum.management.util.PlexusFileSystemXmlApplicationContext
+17658,org.apache.maven.continuum.reports.surefire.DefaultReportTestSuiteGenerator
+17740,org.apache.maven.continuum.project.builder.EasyX509TrustManager
+17743,org.apache.maven.continuum.web.action.notifier.JabberGroupNotifierEditAction
+17782,org.apache.maven.continuum.core.action.AddBuildDefinitionToProjectAction
+17792,org.apache.continuum.builder.distributed.util.DistributedBuildUtil
+18066,org.apache.continuum.dao.ProjectGroupDaoImpl
+18218,org.apache.maven.continuum.web.action.notifier.DeleteProjectNotifierAction
+18252,org.apache.maven.continuum.project.builder.maven.MavenOneContinuumProjectBuilderTest
+18277,org.apache.maven.continuum.core.action.StoreProjectGroupAction
+18302,org.apache.maven.continuum.web.action.BuildResultsListAction
+18339,org.apache.maven.continuum.web.action.AbstractBuildAction
+18352,org.apache.maven.continuum.scm.queue.CheckOutTaskExecutor
+18371,org.apache.continuum.scm.manager.ScmManagerTest
+18384,org.apache.continuum.webdav.ContinuumBuildAgentDavResourceTest
+18419,org.apache.continuum.buildagent.build.execution.manager.DefaultBuildAgentBuildExecutorManager
+18430,org.apache.continuum.web.test.LoginTest
+18441,org.apache.maven.continuum.management.redback.DefaultDatabaseFactoryConfigurator
+18506,org.apache.maven.continuum.web.action.BuildResultActionTest
+18527,org.apache.continuum.builder.distributed.work.DefaultContinuumWorkerTest
+18562,org.apache.continuum.dao.DirectoryPurgeConfigurationDaoImpl
+18631,org.apache.maven.continuum.web.action.AboutAction
+18641,org.apache.maven.continuum.web.action.notifier.MsnGroupNotifierEditAction
+18660,org.apache.maven.continuum.xmlrpc.client.BuildResultsPurge
+18706,org.apache.continuum.buildagent.ContinuumBuildAgentServiceImpl
+18968,org.apache.maven.continuum.web.action.SummaryActionTest
+19004,org.apache.continuum.distributed.transport.master.MasterBuildAgentTransportServer
+19032,org.apache.maven.continuum.web.action.admin.ConfigureFooterAction
+19036,projects.timeout.src.test.java.org.apache.maven.continuum.testprojects.timeout.TimeoutTest
+19046,org.apache.maven.continuum.web.action.ReleaseRollbackAction
+19076,org.apache.maven.continuum.web.validator.WagonUrlValidator
+19082,org.apache.maven.continuum.web.action.AddMavenOneProjectAction
+19103,org.apache.maven.continuum.web.validator.InstallationValidator
+19120,org.apache.maven.continuum.web.action.notifier.DeleteGroupNotifierAction
+19147,org.apache.maven.continuum.web.action.notifier.WagonGroupNotifierEditAction
+19162,org.apache.continuum.dao.ScheduleDaoImpl
+19183,org.apache.continuum.builder.distributed.taskqueue.DefaultOverallDistributedBuildQueue
+19232,org.apache.continuum.dao.LocalRepositoryDaoImpl
+19266,org.apache.continuum.profile.DefaultProfileService
+19324,org.apache.continuum.buildagent.build.execution.maven.m2.MavenTwoBuildExecutor
+19395,org.apache.maven.continuum.web.action.admin.ConfigurationAction
+19449,org.apache.maven.continuum.web.action.notifier.AddProjectNotifierAction
+19489,org.apache.maven.continuum.web.action.component.BuildDefinitionSummaryAction
+19546,org.apache.continuum.distributed.transport.tests.MasterBuildAgentTransportServiceTest
+19561,org.apache.continuum.buildagent.configuration.DefaultBuildAgentConfiguration
+19601,org.apache.maven.continuum.web.view.projectview.NotifierEventCell
+19608,org.apache.maven.continuum.web.action.ProjectViewAction
+19628,org.apache.maven.continuum.store.ContinuumStoreTest
+20026,org.apache.continuum.buildagent.manager.DefaultBuildAgentManager
+20075,org.apache.continuum.webdav.ContinuumBuildAgentDavSessionTest
+20104,org.apache.maven.continuum.utils.ContinuumUrlValidatorTest
+20135,org.apache.continuum.module.a.AppTest
+20144,org.apache.maven.continuum.core.action.RemoveAssignableRolesAction
+20154,org.apache.maven.continuum.web.action.notifier.MailGroupNotifierEditAction
+20173,org.apache.continuum.repository.DefaultRepositoryServiceTest
+20195,org.apache.maven.continuum.notification.manager.spring.NotifierFactoryBean
+20209,org.apache.maven.continuum.web.action.notifier.MsnProjectNotifierEditAction
+20230,org.apache.maven.continuum.DefaultContinuum
+21126,org.apache.maven.continuum.build.settings.DefaultSchedulesActivator
+21203,org.apache.maven.continuum.web.action.ProjectEditAction
+21253,org.apache.continuum.buildagent.configuration.DefaultBuildAgentConfigurationService
+21256,org.apache.maven.continuum.ContinuumRuntimeException
+21262,org.apache.maven.continuum.web.action.ProjectsListAction
+21332,org.apache.continuum.builder.distributed.DefaultDistributedBuildService
+21500,org.apache.maven.continuum.web.action.SurefireReportAction
+21547,org.apache.maven.continuum.reports.surefire.ReportTest
+21561,org.apache.continuum.module.b.AppTest
+21982,org.apache.continuum.buildagent.action.CheckoutProjectAction
+22073,org.apache.continuum.buildagent.installation.DefaultBuildAgentInstallationService
+22105,org.apache.continuum.buildagent.build.execution.ant.AntBuildExecutor
+22130,org.apache.continuum.web.test.AntProjectTest
+22153,org.apache.maven.continuum.notification.mail.FormatterToolTest
+22161,org.apache.maven.continuum.web.action.component.BottomAction
+22196,org.apache.maven.continuum.xmlrpc.client.SampleClient
+22269,org.apache.maven.continuum.web.action.DeleteProjectAction
+22295,org.apache.maven.continuum.builddefinition.DefaultBuildDefinitionService
+22409,org.apache.maven.continuum.builddefinition.DefaultBuildDefinitionServiceTest
+22433,org.apache.continuum.module.a.App
+22437,org.apache.maven.continuum.buildcontroller.DefaultBuildControllerTest
+22503,org.apache.maven.continuum.web.action.admin.BuildDefinitionTemplateAction
+22575,org.apache.maven.continuum.DefaultContinuumTest
+22722,org.apache.maven.continuum.management.JdoDataManagementTool
+22838,org.apache.continuum.web.test.LocalRepositoriesTest
+22864,org.apache.maven.continuum.model.project.ContinuumModelloMetadata
+22896,org.apache.continuum.buildagent.build.execution.maven.m1.MavenOneBuildExecutor
+22924,org.apache.continuum.dao.BuildDefinitionTemplateDaoImpl
+22969,org.apache.continuum.web.action.ReleaseResultAction
+23030,org.apache.continuum.web.test.AbstractReleaseTest
+23061,org.apache.continuum.web.test.parent.AbstractInstallationTest
+23095,org.apache.continuum.buildagent.taskqueue.manager.DefaultBuildAgentTaskQueueManager
+23183,org.apache.maven.continuum.web.action.component.CompanyInfoAction
+23197,org.apache.maven.continuum.web.action.BuildProjectAction
+23390,org.apache.continuum.scm.manager.Slf4jScmLogger
+23774,org.apache.continuum.web.test.DistributedReleaseTest
+23842,org.apache.maven.continuum.project.builder.maven.MavenTwoContinuumProjectBuilderTest
+23985,org.apache.maven.continuum.core.action.AddBuildDefinitionToProjectGroupAction
+23995,org.apache.maven.continuum.release.executors.PrepareReleaseTaskExecutor
+24004,org.apache.continuum.installation.DefaultInstallationServiceTest
+24054,org.apache.maven.continuum.buildqueue.evaluator.BuildProjectTaskViabilityEvaluator
+24092,org.apache.continuum.taskqueue.DefaultOverallBuildQueueTest
+24192,org.apache.continuum.taskqueue.DefaultOverallBuildQueue
+24229,org.apache.continuum.web.test.ProjectGroupTest
+24272,org.apache.continuum.release.phase.RunPrepareGoalsPhase
+24286,org.apache.continuum.buildagent.action.ChangeLogProjectAction
+24314,org.apache.maven.continuum.web.action.ReleasePrepareActionTest
+24324,org.apache.maven.continuum.web.action.ReleasePrepareAction
+24328,org.apache.maven.continuum.buildqueue.BuildQueueTest
+24355,org.apache.maven.continuum.web.checks.security.RoleProfileEnvironmentCheck
+24368,org.apache.maven.continuum.core.action.DeployArtifactContinuumAction
+24411,org.apache.maven.continuum.web.action.ReleaseCleanupAction
+24434,org.apache.continuum.web.test.BuildDefinitionTest
+24490,org.apache.maven.continuum.management.DataManagementCli
+24642,org.apache.continuum.model.project.ProjectSummaryResult
+24660,org.apache.continuum.web.test.ReportTest
+24766,org.apache.continuum.dao.ProjectDaoImpl
+24939,org.apache.continuum.release.distributed.manager.DefaultDistributedReleaseManagerTest
+24953,org.apache.continuum.buildagent.taskqueue.execution.PrepareBuildProjectsTaskExecutor
+25028,org.apache.continuum.utils.ContinuumUtilsTest
+25033,org.apache.continuum.examples.App
+25037,org.apache.maven.continuum.web.action.ReleaseProjectAction
+25080,org.apache.continuum.purge.controller.RepositoryPurgeController
+25098,org.apache.continuum.web.action.error.HttpError
+25106,org.apache.continuum.buildagent.manager.BuildAgentReleaseManagerTest
+25159,org.apache.continuum.scm.ContinuumScmUtilsTest
+25402,org.apache.continuum.buildagent.build.execution.maven.m1.DefaultBuildAgentMavenOneMetadataHelper
+25456,org.apache.continuum.web.test.ReleaseTest
+25481,org.apache.maven.continuum.reports.surefire.DefaultReportTestSuiteGeneratorTest
+25498,org.apache.maven.continuum.core.action.ValidateProjectGroup
+25503,org.apache.continuum.release.config.ContinuumPropertiesReleaseDescriptorStore
+25939,org.apache.continuum.dao.ProjectScmRootDaoImpl
+26003,org.apache.maven.continuum.buildcontroller.BuildProjectTaskExecutor
+26027,org.apache.continuum.builder.distributed.manager.DefaultDistributedBuildManagerTest
+26146,org.apache.maven.continuum.AddProjectToCheckoutQueueStub
+26149,org.apache.maven.continuum.AddProjectTest
+26167,org.apache.maven.continuum.notification.wagon.WagonContinuumNotifier
+26331,org.apache.continuum.dao.BuildDefinitionDaoImpl
+26412,org.apache.continuum.purge.DefaultPurgeConfigurationService
+26576,org.apache.continuum.purge.repository.scanner.DefaultRepositoryScanner
+26594,org.apache.continuum.purge.repository.scanner.RepositoryScannerInstance
+26982,org.apache.continuum.buildagent.build.execution.maven.m2.DefaultBuildAgentMavenBuilderHelper
+27086,org.apache.maven.continuum.web.action.admin.BuildQueueAction
+27245,org.apache.continuum.purge.task.PurgeTaskExecutor
+27332,org.apache.maven.continuum.web.action.admin.QueuesAction
+27537,org.apache.maven.continuum.web.action.ProjectGroupActionTest
+27576,org.apache.maven.continuum.notification.irc.IrcContinuumNotifier
+27750,org.apache.maven.continuum.release.executors.RollbackReleaseTaskExecutor
+28345,org.apache.maven.continuum.execution.manager.DefaultBuildExecutorManager
+28356,org.apache.continuum.scm.manager.spring.ScmProviderFactoryBean
+28367,org.apache.continuum.buildagent.configuration.BuildAgentConfigurationTest
+28609,org.apache.continuum.web.startup.BuildAgentStartup
+28766,org.apache.maven.continuum.notification.mail.MailContinuumNotifierTest
+28823,org.apache.continuum.notification.mail.MockJavaMailSender
+29070,org.apache.maven.continuum.web.action.admin.ProfileAction
+29118,org.apache.maven.continuum.web.action.BuildAgentActionTest
+29132,org.apache.maven.continuum.core.action.UpdateProjectFromWorkingDirectoryContinuumAction
+29147,org.apache.continuum.web.action.DistributedReleasesAction
+29213,org.apache.maven.continuum.core.action.CreateProjectsFromMetadataTest
+29319,org.apache.maven.continuum.web.interceptor.ForceContinuumConfigurationInterceptor
+29331,org.apache.continuum.utils.ProjectSorterTest
+29382,org.apache.continuum.webdav.MockContinuumBuildAgentDavResourceFactory
+29397,org.apache.maven.continuum.web.action.AddProjectGroupAction
+29461,org.apache.continuum.web.test.InstallationTest
+*Edges: 1103
+11288 2207 1
+18706 15254 2
+18706 6034 24
+18706 523 9
+18706 7528 2
+18706 521 20
+18706 813 36
+18706 634 4
+18706 268 2
+18706 520 25
+18706 2690 47
+18706 522 21
+24286 910 8
+24286 813 2
+12653 813 1
+21982 910 6
+21982 3127 1
+21982 813 5
+9138 813 1
+2755 523 1
+2755 2690 13
+2755 521 4
+2755 813 1
+2755 522 1
+2755 268 2
+770 808 1
+770 813 8
+770 809 2
+11367 813 2
+10590 910 7
+10590 3127 1
+10590 813 4
+15657 808 1
+15657 4123 2
+15657 14665 3
+15657 809 2
+808 4126 3
+22105 809 1
+22105 9324 1
+22105 15657 8
+18419 268 1
+25402 2601 12
+22896 4226 1
+22896 2601 2
+22896 14665 3
+22896 809 1
+22896 9324 1
+22896 15657 9
+26982 2601 13
+26982 919 3
+19324 2601 4
+19324 14665 4
+19324 809 1
+19324 9324 1
+19324 15657 11
+15641 809 1
+15641 15657 4
+11930 2690 2
+28367 19561 19
+28367 4138 30
+19561 7743 4
+19561 4138 17
+21253 7743 1
+21253 4138 8
+22073 9324 6
+10424 10476 10
+25106 12915 7
+25106 634 5
+20026 2690 1
+20026 11988 14
+20026 813 4
+20026 268 17
+12915 813 6
+12915 9324 1
+12915 3152 1
+12915 634 2
+9934 813 1
+15864 5125 1
+15864 634 3
+520 523 4
+3662 14666 1
+3662 2690 63
+3662 2681 3
+3662 521 1
+3662 14665 1
+3662 813 7
+3662 268 5
+3574 523 1
+3574 2690 30
+3574 3662 15
+3574 521 2
+24953 14666 1
+24953 2690 39
+24953 2681 2
+24953 520 1
+24953 813 19
+24953 268 2
+23095 523 3
+23095 520 10
+23095 521 14
+23095 522 8
+2681 2690 6
+14666 2690 12
+813 523 2
+813 2690 3
+21332 3030 1
+21332 110 7
+21332 17792 6
+21332 16181 61
+21332 268 9
+16104 523 6
+16104 4803 1
+16104 4802 1
+16104 110 2
+16104 1751 2
+16104 4608 11
+16104 268 1
+2326 523 8
+2326 521 7
+2326 4607 23
+2326 4802 7
+2326 110 1
+2326 1751 1
+2326 4606 1
+2326 17792 4
+2326 16181 21
+2326 268 41
+2326 264 49
+2326 265 4
+2326 4803 1
+2326 4605 1
+2326 4608 15
+2326 10659 1
+26027 4607 14
+26027 523 3
+26027 264 8
+26027 2326 38
+26027 265 4
+26027 10659 1
+2322 2326 1
+19183 4608 6
+19183 10659 1
+17792 110 1
+17792 16181 23
+15671 4607 23
+18527 4607 14
+18527 15671 9
+16181 523 2
+5846 5844 3
+5846 523 4
+5846 521 13
+5846 110 4
+5846 2490 37
+5846 4608 13
+5846 3023 1
+5846 5842 13
+5682 523 16
+5682 2490 2
+5682 521 5
+5682 4608 3
+5682 5842 4
+5682 5846 34
+12807 110 6
+265 264 4
+3774 835 5
+3774 3026 39
+3774 3025 2
+3026 835 3
+6563 264 13
+6563 265 5
+6563 835 5
+6563 3026 30
+112 1446 2
+112 17055 2
+112 110 3
+26331 1446 2
+26331 112 17
+22924 112 14
+733 112 9
+15300 110 3
+15300 112 40
+2378 112 11
+7630 112 27
+18562 112 14
+57 112 12
+15485 112 10
+19232 112 12
+16002 112 3
+4642 112 8
+24766 1446 1
+24766 110 1
+24766 24642 3
+24766 3207 5
+24766 112 24
+18066 1446 1
+18066 110 2
+18066 112 16
+25939 112 10
+12661 112 12
+19162 112 9
+10896 110 1
+10896 112 4
+11988 6047 5
+11988 1958 1
+19004 6047 5
+3443 1751 3
+1751 1958 1
+16381 6034 27
+19546 11988 1
+9291 1751 1
+17389 8817 14
+17389 110 6
+17389 4528 2
+17389 12870 1
+17389 9324 13
+17389 2302 1
+24004 2207 2
+24004 4528 1
+19266 1446 1
+19266 110 6
+19266 12870 8
+19266 2302 4
+2235 2207 2
+2235 2302 2
+7002 7057 1
+15832 6739 1
+15832 4957 5
+15832 522 2
+15832 3334 4
+13494 2207 2
+13494 3334 2
+26412 1446 4
+26412 110 13
+26412 8816 21
+14809 7002 3
+12054 5046 1
+12054 6922 1
+12054 12068 1
+12054 3759 1
+17206 1751 1
+17206 3759 1
+25080 6922 1
+25080 13809 1
+25080 17490 1
+25080 3759 2
+25080 3702 1
+25080 8816 1
+2366 7002 15
+2366 3334 23
+6922 3759 3
+6922 3757 1
+4612 2366 12
+4612 7002 3
+12068 3757 1
+6989 2366 62
+6989 7002 4
+3702 3759 2
+3702 3757 2
+6036 2366 44
+6036 7002 2
+17490 3759 2
+17490 3757 2
+17516 2366 64
+17516 7002 1
+5046 3757 1
+16012 2366 10
+16012 7002 2
+13809 3759 1
+13809 3757 2
+2354 2366 87
+2354 7002 2
+10481 10564 5
+16860 10564 5
+26576 26594 1
+26576 10564 2
+3400 3434 7
+27245 3759 1
+27245 3334 1
+25503 3152 10
+6079 6289 4
+6079 6288 11
+6079 264 1
+6079 1751 1
+6079 634 39
+24939 6079 4
+15155 3152 2
+15138 15155 2
+24272 15155 1
+1450 1446 4
+1450 110 7
+1450 1503 13
+1450 522 2
+20173 2207 6
+3127 910 6
+25159 910 10
+25159 3127 5
+911 910 18
+871 910 6
+871 911 4
+871 339 1
+18371 339 2
+521 523 7
+24192 5844 3
+24192 523 1
+24192 110 1
+24192 521 10
+24192 4608 14
+24192 5842 5
+24092 5844 3
+24092 523 17
+24092 521 6
+24092 4608 10
+24092 24192 26
+24092 5842 4
+4608 523 4
+6469 640 4
+6469 2490 1
+6469 110 1
+6469 521 1
+6469 4608 5
+6469 522 6
+6469 3334 3
+25028 4802 2
+29331 4803 4
+15047 4123 3
+10939 1364 4
+10939 264 4
+10939 265 1
+11546 1364 1
+11546 264 4
+11546 1360 2
+11546 265 5
+11546 10928 12
+29147 1364 2
+29147 6289 4
+22969 1364 9
+22969 3030 1
+22969 2492 3
+22969 271 1
+22969 268 1
+15159 1364 4
+15159 2492 1
+15159 2331 1
+3376 1364 9
+3376 2492 4
+17162 1364 1
+17162 1360 2
+17162 3371 1
+17162 3376 21
+130 1364 26
+130 264 32
+130 266 18
+130 265 25
+130 271 1
+130 268 2
+14938 1364 6
+14938 264 1
+14938 271 1
+6331 1364 6
+6331 266 4
+6331 271 1
+2138 1364 2
+2138 271 1
+2184 1364 9
+2184 266 7
+2184 271 1
+25098 1364 1
+10928 10939 2
+3371 3376 1
+11329 7503 2
+23030 730 54
+23030 476 1
+22130 7503 11
+22130 730 19
+22130 476 1
+3521 730 18
+3521 476 59
+12516 730 19
+12516 6688 21
+24434 7503 33
+24434 730 78
+24434 476 2
+447 7503 12
+447 730 17
+447 476 1
+17036 7503 3
+17036 730 19
+17036 476 2
+3351 730 68
+3351 476 1
+15597 7503 2
+15597 730 97
+15597 476 5
+1232 7503 32
+1232 730 53
+1232 476 12
+23774 7503 23
+23774 730 73
+23774 476 12
+23774 23030 23
+29461 7503 1
+29461 730 20
+29461 23061 38
+22838 730 17
+22838 11756 16
+18430 7503 6
+18430 730 22
+11955 7503 29
+11955 730 31
+11955 476 1
+11199 7503 40
+11199 730 66
+11199 476 1
+1420 730 17
+1420 476 1
+977 7503 37
+977 730 230
+977 476 2
+24229 7503 44
+24229 730 37
+24229 476 1
+14723 11154 19
+14723 730 18
+12305 7503 11
+12305 730 71
+12305 476 1
+25456 7503 13
+25456 730 27
+25456 476 1
+25456 23030 13
+24660 7503 17
+24660 730 30
+24660 476 2
+2043 7503 16
+2043 730 67
+2043 476 1
+15703 7503 11
+15703 730 19
+15703 476 1
+10358 7503 40
+10358 730 177
+10358 476 2
+10358 4250 199
+659 730 1
+476 7503 3
+476 730 99
+6688 730 74
+6688 476 1
+7503 730 535
+23061 730 59
+23061 476 1
+11756 730 33
+11756 476 1
+11154 730 68
+11154 476 1
+4250 730 84
+4250 476 2
+4370 4396 2
+4370 4394 2
+11320 4396 9
+5680 17222 1
+5680 4396 9
+5680 4394 2
+5680 11320 1
+6952 4396 2
+6952 5680 4
+7218 4396 34
+7218 4370 2
+18384 4396 2
+18384 4370 1
+18384 11320 1
+5461 5567 1
+20075 6976 7
+11298 11319 1
+11298 4396 1
+11298 11320 10
+29382 11298 1
+29382 5680 2
+7370 5567 1
+7370 5630 2
+5630 5567 1
+16553 4394 6
+7203 7202 2
+7203 523 1
+7067 7202 16
+7067 264 4
+7067 7203 1
+7067 268 1
+2207 1446 2
+2207 7057 1
+14896 2207 1
+14896 2601 17
+14896 11288 2
+26149 2207 6
+26149 20230 4
+26149 2601 6
+26149 11288 2
+26146 3906 1
+26146 4805 2
+20230 1446 19
+20230 523 18
+20230 3030 5
+20230 4434 2
+20230 12782 2
+20230 5617 8
+20230 634 1
+20230 3906 43
+20230 110 46
+20230 12700 5
+20230 3023 6
+20230 14793 1
+20230 4606 1
+20230 3152 1
+20230 268 100
+20230 6739 8
+20230 6288 1
+20230 4805 4
+20230 4803 1
+20230 2490 6
+20230 2601 34
+20230 2126 1
+20230 4605 1
+20230 522 1
+20230 3025 1
+22575 2207 21
+22575 20230 7
+22575 523 1
+22575 2601 11
+22575 3152 1
+22575 268 5
+12394 268 1
+21126 6739 5
+21126 110 1
+5422 523 3
+26003 521 4
+17536 3906 3
+17536 2207 3
+17536 523 1
+17536 2601 5
+17536 521 4
+5295 3906 14
+5295 1446 1
+5295 5422 75
+5295 523 8
+5295 4802 6
+5295 110 9
+5295 5420 1
+22437 3906 1
+22437 2207 11
+22437 5422 15
+22437 523 5
+22437 5295 13
+22295 1446 1
+22295 110 19
+22295 2126 1
+22295 3023 1
+22295 5617 23
+22295 3025 1
+22409 2207 6
+24328 2207 7
+24328 523 1
+24328 521 3
+24054 523 1
+24054 521 6
+4431 264 6
+4431 3030 3
+4431 265 7
+3493 264 5
+3493 3030 1
+3493 265 3
+2840 264 28
+2840 3030 5
+2840 265 28
+2840 110 1
+2840 2126 1
+2840 3026 36
+3900 3906 1
+3900 1446 1
+3900 110 4
+3900 268 6
+3906 523 3
+3113 3906 1
+3113 268 1
+13833 3906 2
+13833 268 1
+17782 3906 5
+17782 3900 3
+23985 3906 3
+23985 3900 3
+13844 3906 6
+13844 4805 2
+4804 3906 5
+4804 268 1
+4805 3906 12
+4805 910 8
+4805 4802 2
+4805 3127 1
+4405 3906 4
+4843 3906 6
+4843 110 1
+12700 3906 10
+12700 2603 3
+12700 2601 7
+12700 12782 5
+12700 10576 2
+29213 3906 2
+29213 2601 15
+29213 12700 24
+29213 12782 1
+24368 3906 5
+5420 3906 15
+5420 523 2
+5420 4802 1
+5420 7514 1
+5420 2780 2
+20144 3906 2
+20144 268 1
+17591 3906 2
+17591 3900 1
+6394 3906 2
+6394 3900 1
+6394 268 1
+16053 3906 2
+16053 4805 1
+16053 110 1
+4434 3906 5
+18277 3906 3
+17316 3906 3
+17316 3900 3
+3893 3906 3
+3893 3900 3
+29132 3906 5
+4806 3906 7
+4806 910 9
+4806 4802 1
+4806 3127 1
+3101 3906 1
+3101 3113 1
+3101 268 2
+25498 3906 1
+25498 3113 3
+2208 4123 2
+2208 7514 1
+2208 4126 2
+2208 2780 2
+7514 4126 3
+4078 4123 1
+4078 2208 5
+4078 936 3
+2209 2208 12
+2209 9324 1
+2209 2780 1
+28345 268 1
+2192 2207 2
+2192 2211 3
+2192 2208 5
+2192 2210 1
+3244 2601 12
+2210 3316 1
+2210 2208 13
+2210 9324 1
+2210 4126 2
+2210 2780 1
+12239 2207 2
+12239 2210 8
+10173 2603 3
+10173 2601 13
+2211 3030 1
+2211 2601 4
+2211 2208 16
+2211 9324 1
+2211 4126 4
+2211 2780 1
+10391 2207 1
+10391 2211 2
+13080 2207 1
+13080 2601 4
+2212 2208 7
+2212 2780 1
+14761 14793 4
+14761 1446 1
+14761 110 1
+14761 5617 1
+17284 2207 3
+4528 268 3
+24490 4218 6
+24490 16723 6
+351 436 8
+4207 4218 6
+22722 4803 1
+22722 110 2
+22722 4236 5
+12408 110 2
+12408 4236 3
+18441 4218 6
+5893 4236 4
+14348 4236 5
+17624 2801 4
+3310 3030 1
+3310 110 1
+3310 2126 2
+3310 7719 5
+3310 3025 2
+3310 268 6
+6911 2207 4
+15184 4164 8
+15184 110 2
+15184 7719 1
+7684 4164 4
+7684 3310 1
+27576 4164 6
+27576 3310 6
+27576 7719 1
+15730 4164 6
+15730 3310 6
+15730 7719 1
+22153 9658 8
+13102 4164 13
+13102 3310 6
+13102 9658 2
+13102 7719 10
+28766 4164 4
+28766 2207 8
+28766 28823 2
+28766 13102 2
+10006 4164 6
+10006 3310 6
+10006 7719 1
+26167 4164 5
+26167 3310 1
+26167 3030 1
+26167 7719 1
+26167 268 14
+2302 268 3
+12870 268 3
+7802 2601 9
+12269 7802 1
+17282 17740 1
+11517 1223 1
+7751 7804 3
+7751 7802 2
+7751 3316 1
+7751 2601 10
+7751 110 1
+7751 5617 2
+18252 2207 1
+18252 2601 7
+9178 7804 4
+9178 7802 2
+9178 2601 16
+9178 110 3
+9178 5617 3
+23842 2207 2
+23842 2601 52
+5125 4007 1
+5125 635 1
+5125 5270 8
+5125 4008 1
+5125 522 3
+5125 3152 5
+5125 634 4
+639 634 3
+542 639 3
+542 635 6
+542 640 7
+542 634 5
+23995 639 2
+23995 640 4
+3912 4007 1
+3912 635 1
+3912 4008 1
+27750 639 1
+17063 634 8
+6889 6909 1
+6889 3152 1
+635 640 2
+4007 640 2
+4008 640 2
+4427 4431 1
+17658 3030 1
+17658 14866 1
+17658 14865 4
+17658 13306 2
+25481 14866 7
+25481 13306 4
+25481 3209 4
+13306 14866 5
+14866 3209 19
+14866 15579 3
+12503 268 1
+4932 4957 1
+18352 3906 5
+18352 4805 2
+18352 110 1
+18352 5842 6
+4665 4806 1
+4665 523 2
+4665 4804 1
+4665 3906 40
+4665 110 6
+4665 4802 1
+4665 4803 1
+4665 4805 1
+4665 4608 3
+12542 3906 3
+12542 2207 24
+12542 2601 5
+12542 4608 74
+436 110 1
+1446 110 2
+19628 1446 5
+19628 110 2
+19628 3207 10
+19628 436 181
+12782 10576 5
+20104 12782 22
+20104 10576 6
+1379 1415 7
+7385 7438 4
+7385 7437 5
+13316 7385 1
+13316 4164 4
+18631 1364 1
+18339 1364 1
+18339 521 2
+18339 271 1
+5870 271 1
+19082 1364 2
+19082 12228 9
+19082 2601 1
+19082 266 5
+12228 1364 10
+12228 2601 7
+12228 2492 3
+12228 268 1
+12198 1364 2
+12198 12228 7
+12198 2601 3
+12198 266 5
+12198 268 3
+1365 1364 12
+1365 2492 3
+1365 266 4
+1365 268 1
+1311 1364 1
+1311 1365 36
+1311 1360 2
+1311 1361 1
+29397 1364 10
+29397 2492 2
+29397 266 4
+29397 1503 1
+29397 268 2
+29118 1364 1
+29118 264 4
+29118 1360 2
+29118 130 6
+16219 15802 3
+16219 1364 36
+16219 2492 5
+16219 266 23
+16219 271 1
+16219 268 1
+23197 1364 10
+23197 523 3
+23197 4606 1
+23197 2492 1
+23197 266 8
+23197 4605 1
+6466 1364 11
+6466 2492 2
+6466 266 4
+6466 16181 2
+6466 268 2
+6466 18339 10
+6466 2490 1
+6466 2331 2
+6466 271 1
+18506 6462 1
+18506 1364 1
+18506 1360 2
+18506 6466 3
+18302 18339 2
+18302 1364 9
+18302 2492 2
+18302 2490 1
+18302 266 4
+18302 271 1
+18302 268 2
+2617 1364 22
+2617 2492 2
+2617 2490 3
+2617 266 16
+2617 521 1
+2617 268 3
+6666 6403 2
+1364 3120 1
+1364 2492 3
+1364 1530 3
+271 1364 1
+22269 1364 8
+22269 2492 2
+22269 266 4
+22269 268 1
+10905 1364 4
+10905 2492 1
+10905 3207 4
+21203 1364 6
+21203 2492 2
+21203 266 4
+17312 1364 45
+17312 523 1
+17312 4606 1
+17312 2492 10
+17312 266 12
+17312 5 5
+17312 268 4
+17312 2490 1
+17312 4605 1
+17312 271 1
+27537 1364 1
+27537 17304 1
+27537 1360 2
+27537 17312 5
+19608 1364 5
+19608 2492 1
+19608 268 1
+21262 1364 13
+21262 4606 1
+21262 2492 2
+21262 266 8
+21262 4605 1
+21262 268 1
+24411 1364 7
+24411 6288 1
+24411 2492 1
+7570 1364 12
+7570 6289 12
+7570 6288 2
+7570 5270 16
+7570 2492 2
+11824 1364 23
+11824 6289 5
+11824 6288 4
+11824 2492 3
+11824 266 4
+11824 7528 1
+11824 10939 3
+11824 3152 1
+24324 2002 1
+24324 1364 26
+24324 6289 17
+24324 6288 4
+24324 5270 8
+24324 2492 4
+24324 266 4
+24324 7528 2
+24324 10939 3
+24324 9324 1
+24314 1364 1
+24314 1360 2
+24314 24324 5
+25037 1364 9
+25037 2492 2
+19046 1364 10
+19046 6288 1
+19046 2492 2
+19046 266 4
+19046 634 1
+9813 1364 21
+9813 2492 5
+9813 266 10
+9813 1530 5
+9813 271 2
+9813 268 4
+2427 1364 6
+2427 2492 1
+2427 2490 1
+2427 268 1
+18968 1364 1
+18968 1360 2
+18968 4838 1
+18968 2427 7
+21500 1364 3
+21500 21547 22
+21500 2492 1
+21500 14866 20
+6403 3120 1
+17337 1364 10
+17337 17384 2
+17337 2492 1
+17337 268 2
+22503 1364 23
+22503 266 9
+22503 5870 2
+27086 1364 13
+27086 2490 1
+27086 266 8
+27086 271 1
+27086 268 3
+19395 1364 3
+16062 16095 2
+19032 16095 2
+4969 1364 1
+4456 1364 6
+4456 4528 2
+4456 2302 1
+4456 271 1
+29070 1364 6
+29070 12870 1
+29070 2302 1
+27332 1364 45
+27332 523 1
+27332 2492 13
+27332 521 8
+27332 1530 13
+27332 2490 9
+27332 2789 4
+27332 9281 2
+27332 4608 18
+27332 5842 2
+27332 6733 2
+16095 1364 1
+22161 16095 1
+19489 1364 6
+19489 2492 2
+19489 5870 3
+19489 268 2
+7816 3120 1
+13005 1364 8
+13005 2492 2
+13005 9126 1
+13005 268 2
+5043 1364 6
+5043 13342 2
+13342 1364 1
+13342 2492 2
+3489 1364 7
+3489 13342 2
+13790 1364 4
+13790 2492 2
+19449 1364 5
+19449 2492 2
+19120 1364 6
+19120 2492 2
+19120 9126 1
+18218 1364 7
+18218 2492 2
+18218 9126 1
+5000 5043 1
+12155 3489 1
+17743 5043 1
+3450 3489 1
+20154 5043 1
+12373 3489 1
+18641 5043 1
+20209 3489 1
+19147 5043 1
+11795 3489 1
+1361 1365 2
+6462 6466 1
+17304 17312 1
+4838 2427 1
+6733 2789 1
+6733 521 3
+9281 2789 1
+9281 5842 3
+19103 8817 1
+19103 9324 1
+6428 2331 3
+2704 2331 2
+3873 2331 1
+5092 5106 2
+15810 15825 3
+9121 9126 1
+1541 1732 12
+18660 1732 4
+22196 1732 25
+6782 1220 5
+6782 268 12
+7202 523 2
+7202 8817 7
+7202 3030 2
+7202 4957 2
+7202 5617 3
+7202 8818 1
+7202 110 1
+7202 5270 1
+7202 1503 8
+7202 7528 2
+7202 268 98
+7202 264 9
+7202 6288 3
+7202 2601 9
+7202 2490 7
+7202 265 11
+7202 6782 87
+7202 8816 10
+7202 3025 2
+16795 6751 1
+16795 16858 1
+16858 1220 1
+6751 6779 1

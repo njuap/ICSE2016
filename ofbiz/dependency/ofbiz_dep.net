@@ -1,0 +1,8535 @@
+*Vertics: 1102
+7,org.ofbiz.base.concurrent.ExecutionPool
+113,org.ofbiz.base.util.Debug
+124,org.ofbiz.webtools.GenericWebEvent
+229,org.ofbiz.base.util.UtilHttp
+230,org.ofbiz.base.util.UtilMisc
+231,org.ofbiz.base.util.UtilProperties
+232,org.ofbiz.base.util.UtilValidate
+234,org.ofbiz.entity.GenericEntityException
+235,org.ofbiz.entity.GenericValue
+236,org.ofbiz.entity.model.ModelEntity
+237,org.ofbiz.entity.model.ModelField
+238,org.ofbiz.entity.model.ModelFieldType
+239,org.ofbiz.entity.model.ModelReader
+244,org.ofbiz.entity.GenericEntity
+278,org.ofbiz.sql.ViewPlan
+281,org.ofbiz.sql.SQLPlan
+283,org.ofbiz.bi.util.DimensionServices
+313,org.ofbiz.base.util.UtilGenerics
+314,org.ofbiz.entity.util.EntityUtil
+315,org.ofbiz.service.DispatchContext
+316,org.ofbiz.service.ServiceUtil
+319,org.ofbiz.base.util.GeneralException
+335,org.ofbiz.entity.sql.EntityDeletePlan
+339,org.ofbiz.entity.condition.EntityCondition
+340,org.ofbiz.sql.ConditionPlan
+341,org.ofbiz.sql.DeletePlan
+362,org.ofbiz.service.ModelService
+941,org.ofbiz.base.util.ObjectType
+942,org.ofbiz.base.util.StringUtil
+943,org.ofbiz.service.group.GroupModel
+944,org.ofbiz.service.group.GroupServiceModel
+945,org.ofbiz.service.group.ServiceGroupReader
+948,org.ofbiz.service.ModelServiceIface
+949,org.ofbiz.service.ModelParam
+950,org.ofbiz.service.ModelNotification
+951,org.ofbiz.service.GenericServiceException
+953,org.ofbiz.service.ModelPermGroup
+955,org.ofbiz.service.ServiceValidationException
+1014,org.ofbiz.webapp.taglib.ParamTag
+1054,org.ofbiz.webapp.taglib.AbstractParameterTag
+1058,org.ofbiz.base.util.cache.CacheSoftReference
+1070,org.ofbiz.base.util.ReferenceCleaner
+1076,org.ofbiz.content.compdoc.CompDocEvents
+1170,org.ofbiz.base.util.UtilFormatOut
+1171,org.ofbiz.service.ServiceAuthException
+1172,org.ofbiz.webapp.event.CoreEvents
+1173,org.ofbiz.webapp.website.WebSiteWorker
+1186,org.ofbiz.entity.sql.SQLUtil
+1200,org.ofbiz.sql.OrderByItem
+1201,org.ofbiz.entity.sql.EntityPlanner
+1202,org.ofbiz.entity.sql.EntitySelectPlan
+1205,org.ofbiz.base.concurrent.test.TTLCachedObjectTest
+1221,org.ofbiz.base.concurrent.GeneratedResult
+1222,org.ofbiz.base.concurrent.TTLCachedObject
+1223,org.ofbiz.base.concurrent.TTLObject
+1224,org.ofbiz.base.concurrent.test.TTLObjectTest
+1238,org.ofbiz.service.config.model.Engine
+1268,org.ofbiz.base.util.UtilXml
+1269,org.ofbiz.service.config.ServiceConfigException
+1271,org.ofbiz.service.config.model.Parameter
+1282,org.ofbiz.entity.datasource.GenericDAO
+1600,org.ofbiz.entity.EntityLockedException
+1601,org.ofbiz.entity.GenericDataSourceException
+1602,org.ofbiz.entity.GenericEntityConfException
+1603,org.ofbiz.entity.GenericEntityNotFoundException
+1604,org.ofbiz.entity.GenericModelException
+1605,org.ofbiz.entity.GenericNotImplementedException
+1606,org.ofbiz.entity.condition.EntityConditionParam
+1607,org.ofbiz.entity.condition.EntityOperator
+1609,org.ofbiz.entity.config.EntityConfigUtil
+1610,org.ofbiz.entity.jdbc.DatabaseUtil
+1611,org.ofbiz.entity.jdbc.SQLProcessor
+1612,org.ofbiz.entity.jdbc.SqlJdbcUtil
+1613,org.ofbiz.entity.model.ModelFieldTypeReader
+1614,org.ofbiz.entity.model.ModelKeyMap
+1615,org.ofbiz.entity.model.ModelRelation
+1616,org.ofbiz.entity.model.ModelViewEntity
+1617,org.ofbiz.entity.transaction.TransactionUtil
+1618,org.ofbiz.entity.util.EntityFindOptions
+1619,org.ofbiz.entity.util.EntityListIterator
+1623,org.ofbiz.entity.config.model.Datasource
+1624,org.ofbiz.entity.datasource.GenericHelperInfo
+1629,org.ofbiz.entity.condition.EntityConditionListBase
+1745,org.ofbiz.service.rmi.RmiServiceContainer
+1801,org.ofbiz.base.container.ClassLoaderContainer
+1803,org.ofbiz.base.container.ContainerConfig
+1804,org.ofbiz.base.container.ContainerException
+1805,org.ofbiz.entity.DelegatorFactory
+1806,org.ofbiz.service.ServiceContainer
+1808,org.ofbiz.service.rmi.RemoteDispatcherImpl
+1811,org.ofbiz.service.rmi.socket.ssl.SSLServerSocketFactory
+1836,org.ofbiz.entity.transaction.TransactionFactory
+1862,org.ofbiz.entity.jdbc.CursorConnection
+1875,org.ofbiz.minilang.operation.PropertyOper
+1888,org.ofbiz.base.util.UtilURL
+1889,org.ofbiz.minilang.operation.MakeInStringOperation
+1895,org.ofbiz.party.party.PartyTypeHelper
+1906,org.ofbiz.entity.util.EntityTypeUtil
+1910,org.ofbiz.base.util.collections.GenericMapEntry
+1929,org.ofbiz.base.util.UtilObject
+1930,org.ofbiz.base.util.collections.GenericMap
+1935,org.ofbiz.minilang.method.eventops.SessionToField
+1955,org.ofbiz.base.util.collections.FlexibleMapAccessor
+1956,org.ofbiz.base.util.string.FlexibleStringExpander
+1957,org.ofbiz.minilang.MiniLangException
+1958,org.ofbiz.minilang.MiniLangValidate
+1959,org.ofbiz.minilang.SimpleMethod
+1960,org.ofbiz.minilang.method.MethodContext
+1961,org.ofbiz.minilang.method.MethodOperation
+1990,org.ofbiz.webapp.webdav.ResponseHelper
+2039,org.ofbiz.service.config.ServiceConfigUtil
+2064,org.ofbiz.base.config.GenericConfigException
+2065,org.ofbiz.base.util.Assert
+2066,org.ofbiz.base.util.cache.UtilCache
+2067,org.ofbiz.service.config.model.ServiceConfig
+2068,org.ofbiz.service.config.model.ServiceEngine
+2088,org.ofbiz.webapp.taglib.IfTag
+2158,org.ofbiz.minilang.operation.ConstantOper
+2170,org.ofbiz.manufacturing.techdata.TechDataServices
+2313,org.ofbiz.base.util.UtilDateTime
+2314,org.ofbiz.entity.condition.EntityConditionList
+2315,org.ofbiz.entity.condition.EntityExpr
+2329,org.ofbiz.webapp.taglib.InputValueTag
+2359,org.ofbiz.base.util.UtilJ2eeCompat
+2360,org.ofbiz.webapp.pseudotag.InputValue
+2378,org.ofbiz.webapp.event.WfsEventHandler
+2444,org.ofbiz.base.location.FlexibleLocation
+2445,org.ofbiz.base.util.template.FreeMarkerWorker
+2451,org.ofbiz.webapp.control.ConfigXMLReader
+2453,org.ofbiz.webapp.event.EventHandlerException
+2467,org.ofbiz.entity.util.Converters
+2491,org.ofbiz.base.conversion.AbstractConverter
+2492,org.ofbiz.base.conversion.ConversionException
+2495,org.ofbiz.base.conversion.Converters
+2509,org.ofbiz.webapp.view.JasperReportsXmlViewHandler
+2542,org.ofbiz.webapp.control.ContextFilter
+2543,org.ofbiz.webapp.view.AbstractViewHandler
+2544,org.ofbiz.entity.jdbc.ConnectionFactory
+2545,org.ofbiz.webapp.view.ViewHandlerException
+2554,org.ofbiz.common.preferences.PreferenceWorker
+2927,org.ofbiz.base.util.collections.ResourceBundleMapWrapper
+2940,org.ofbiz.content.webapp.ftl.CheckPermissionTransform
+3009,org.ofbiz.content.content.ContentWorker
+3010,org.ofbiz.content.content.PermissionRecorder
+3011,org.ofbiz.entityext.permission.EntityPermissionChecker
+3012,org.ofbiz.webapp.ftl.LoopWriter
+3040,org.ofbiz.product.imagemanagement.FrameImage
+3219,org.ofbiz.content.layout.LayoutWorker
+3221,org.ofbiz.product.imagemanagement.ImageManagementServices
+3231,org.ofbiz.base.util.collections.test.GenericMapTest
+3280,org.ofbiz.base.test.GenericTestCaseBase
+3281,org.ofbiz.base.util.collections.IteratorWrapper
+3294,org.ofbiz.base.concurrent.test.SyncTTLObjectTest
+3375,org.ofbiz.order.shoppinglist.ShoppingListEvents
+3585,org.ofbiz.order.shoppingcart.CartItemModifyException
+3586,org.ofbiz.order.shoppingcart.ItemNotFoundException
+3587,org.ofbiz.order.shoppingcart.ShoppingCart
+3588,org.ofbiz.order.shoppingcart.ShoppingCartEvents
+3589,org.ofbiz.order.shoppingcart.ShoppingCartItem
+3590,org.ofbiz.product.catalog.CatalogWorker
+3591,org.ofbiz.product.config.ProductConfigWorker
+3592,org.ofbiz.product.config.ProductConfigWrapper
+3593,org.ofbiz.product.store.ProductStoreWorker
+3636,org.ofbiz.minilang.method.entityops.StoreValue
+3657,org.ofbiz.minilang.MiniLangRuntimeException
+3828,org.ofbiz.entity.transaction.GenericTransactionException
+3830,org.ofbiz.entity.jdbc.JdbcValueHandler
+3840,org.ofbiz.entity.condition.EntityFieldValue
+3894,org.ofbiz.entity.condition.EntityConditionValue
+3914,org.ofbiz.product.category.CatalogUrlServlet
+3969,org.ofbiz.product.category.CategoryWorker
+3974,org.ofbiz.service.engine.AbstractEngine
+4016,org.ofbiz.service.ServiceDispatcher
+4017,org.ofbiz.service.config.model.ServiceLocation
+4031,org.ofbiz.entity.serialize.SerializeException
+4042,org.ofbiz.service.eca.ServiceEcaRule
+4091,org.ofbiz.service.eca.ServiceEcaCondition
+4092,org.ofbiz.service.eca.ServiceEcaAction
+4093,org.ofbiz.service.eca.ServiceEcaSetField
+4113,org.ofbiz.base.util.OfbizBshBsfEngine
+4192,org.ofbiz.base.util.BshUtil
+4195,org.ofbiz.entity.config.model.EntityModelReader
+4207,org.ofbiz.entity.config.model.Resource
+4213,org.ofbiz.widget.form.ModelFormAction
+4373,org.ofbiz.base.util.ScriptUtil
+4374,org.ofbiz.entity.finder.ByAndFinder
+4375,org.ofbiz.entity.finder.ByConditionFinder
+4376,org.ofbiz.entity.finder.EntityFinderUtil
+4377,org.ofbiz.entity.finder.PrimaryKeyFinder
+4378,org.ofbiz.entity.util.EntityUtilProperties
+4379,org.ofbiz.widget.WidgetWorker
+4382,org.ofbiz.widget.form.ModelForm
+4387,org.ofbiz.entity.finder.ListFinder
+4791,org.ofbiz.base.util.collections.MapComparator
+4795,org.ofbiz.widget.tree.TreeFactory
+4834,org.ofbiz.widget.tree.ModelTree
+4905,org.ofbiz.accounting.thirdparty.paypal.PayPalEvents
+5044,org.ofbiz.order.order.OrderChangeHelper
+5104,org.ofbiz.base.conversion.test.DateTimeTests
+5121,org.ofbiz.base.conversion.DateTimeConverters
+5135,org.ofbiz.entity.condition.EntityFunction
+5301,org.ofbiz.base.util.collections.LifoSet
+5327,org.ofbiz.minilang.method.eventops.FieldToRequest
+5581,org.ofbiz.base.util.string.UelUtil
+5625,org.ofbiz.widget.menu.ModelMenu
+5628,org.ofbiz.widget.menu.ModelMenuItem
+5632,org.ofbiz.product.product.ProductUtilServices
+5857,org.ofbiz.entity.GenericPK
+5858,org.ofbiz.entity.model.DynamicViewEntity
+5859,org.ofbiz.product.product.ProductWorker
+5887,org.ofbiz.widget.menu.MenuWrapTransform
+5936,org.ofbiz.widget.WidgetContentWorker
+5937,org.ofbiz.widget.html.HtmlMenuWrapper
+5947,org.ofbiz.workeffort.workeffort.WorkEffortSearch
+6249,org.ofbiz.common.KeywordSearchUtil
+6250,org.ofbiz.entity.condition.EntityComparisonOperator
+6593,org.ofbiz.entity.transaction.DebugXaResource
+6603,org.ofbiz.common.image.ImageTransform
+6667,org.ofbiz.entity.config.model.ReadData
+6675,org.ofbiz.minilang.method.conditional.MasterIf
+6707,org.ofbiz.minilang.artifact.ArtifactInfoContext
+6710,org.ofbiz.minilang.method.conditional.ElseIf
+6711,org.ofbiz.minilang.method.conditional.ConditionalFactory
+6726,org.ofbiz.manufacturing.jobshopmgt.ProductionRun
+6824,org.ofbiz.entity.cache.EntityObjectCache
+6842,org.ofbiz.entity.cache.AbstractEntityConditionCache
+6849,org.ofbiz.content.data.DataEvents
+6943,org.ofbiz.content.data.DataResourceWorker
+6952,org.ofbiz.order.task.TaskEvents
+6997,org.ofbiz.webapp.control.RequestHandler
+6998,org.ofbiz.webapp.event.EventFactory
+7003,org.ofbiz.entity.config.model.EntityConfig
+7096,org.ofbiz.entity.config.model.ConnectionFactory
+7097,org.ofbiz.entity.config.model.DebugXaResources
+7098,org.ofbiz.entity.config.model.TransactionFactory
+7099,org.ofbiz.entity.config.model.ResourceLoader
+7100,org.ofbiz.entity.config.model.DelegatorElement
+7101,org.ofbiz.entity.config.model.EntityGroupReader
+7102,org.ofbiz.entity.config.model.EntityEcaReader
+7103,org.ofbiz.entity.config.model.EntityDataReader
+7104,org.ofbiz.entity.config.model.FieldType
+7123,org.ofbiz.party.party.PartyRelationshipServices
+7158,org.ofbiz.party.party.PartyRelationshipHelper
+7165,org.ofbiz.accounting.thirdparty.ideal.IdealEvents
+7319,org.ofbiz.base.util.UtilNumber
+7325,org.ofbiz.entity.GenericResultSetClosedException
+7334,org.ofbiz.minilang.method.entityops.SetNonpkFields
+7355,org.ofbiz.minilang.method.serviceops.FieldToResult
+7379,org.ofbiz.entity.condition.EntityConditionBuilder
+7408,org.ofbiz.entity.condition.EntityJoinOperator
+7415,org.ofbiz.minilang.method.envops.CheckId
+7537,org.ofbiz.entity.condition.EntityConditionBase
+7538,org.ofbiz.entity.condition.EntityFieldMap
+7539,org.ofbiz.entity.condition.EntityDateFilterCondition
+7540,org.ofbiz.entity.condition.EntityWhereString
+7549,org.ofbiz.base.util.TimeDuration
+7644,org.ofbiz.accounting.thirdparty.gosoftware.RitaServices
+7779,org.ofbiz.accounting.payment.PaymentGatewayServices
+7781,org.ofbiz.accounting.thirdparty.gosoftware.RitaApi
+7892,org.ofbiz.widget.menu.MenuFactory
+7893,org.ofbiz.widget.html.HtmlMenuRenderer
+7902,org.ofbiz.shipment.thirdparty.usps.UspsServicesTests
+7943,org.ofbiz.service.testtools.OFBizTestCase
+7949,org.ofbiz.shipment.thirdparty.ups.UpsConnectException
+7958,org.ofbiz.shipment.thirdparty.ups.UpsServices
+8843,org.ofbiz.base.util.Base64
+8844,org.ofbiz.base.util.HttpClient
+8845,org.ofbiz.base.util.HttpClientException
+8846,org.ofbiz.party.contact.ContactMechWorker
+8847,org.ofbiz.shipment.shipment.ShipmentServices
+8848,org.ofbiz.shipment.shipment.ShipmentWorker
+8878,org.ofbiz.entity.GenericCreateException
+8889,org.ofbiz.webapp.pseudotag.EntityField
+9425,org.ofbiz.base.util.CompilerMatcher
+9432,org.ofbiz.base.util.cache.HardRefCacheLine
+9440,org.ofbiz.base.util.cache.CacheLine
+9445,org.ofbiz.service.jms.JmsListenerFactory
+9502,org.ofbiz.service.config.model.JmsService
+9503,org.ofbiz.service.config.model.Server
+9522,org.ofbiz.base.conversion.BooleanConverters
+9544,org.ofbiz.base.conversion.GenericSingletonToList
+9546,org.ofbiz.base.conversion.GenericSingletonToSet
+9549,org.ofbiz.content.webapp.ftl.RenderContentAsText
+9700,org.ofbiz.base.container.ContainerLoader
+9769,org.ofbiz.base.component.ComponentConfig
+9770,org.ofbiz.base.start.Config
+9771,org.ofbiz.base.start.StartupException
+9789,org.ofbiz.webtools.UtilCacheEvents
+9849,org.ofbiz.entity.testtools.EntityTestCase
+9864,ControlApplet
+9928,org.ofbiz.content.content.ContentEvents
+9957,org.ofbiz.content.content.ContentKeywordIndex
+9961,org.ofbiz.widget.html.HtmlMenuRendererImage
+9983,org.ofbiz.content.survey.SurveyWrapper
+10183,org.ofbiz.marketing.tracking.TrackingCodeEvents
+10284,org.ofbiz.webapp.stats.VisitHandler
+10289,org.ofbiz.product.category.CatalogUrlDirective
+10312,org.ofbiz.entity.cache.EntityCache
+10340,org.ofbiz.entity.cache.AbstractCache
+10352,org.ofbiz.service.calendar.TemporalExpressionWorker
+10397,org.ofbiz.service.calendar.TemporalExpression
+10398,org.ofbiz.service.calendar.TemporalExpressionPrinter
+10399,org.ofbiz.service.calendar.TemporalExpressions
+10417,org.ofbiz.minilang.method.conditional.HasPermissionCondition
+10483,org.ofbiz.webapp.event.BsfEventHandler
+10695,org.ofbiz.entity.condition.OrderByList
+10700,org.ofbiz.service.mail.ServiceMcaUtil
+10724,org.ofbiz.service.mail.ServiceMcaRule
+10725,org.ofbiz.service.mail.MimeMessageWrapper
+10740,org.ofbiz.product.imagemanagement.RotateImage
+10809,org.ofbiz.datafile.DataFile
+10869,org.ofbiz.datafile.Record
+10870,org.ofbiz.datafile.ModelDataFile
+10871,org.ofbiz.datafile.ModelDataFileReader
+10872,org.ofbiz.datafile.ModelRecord
+10873,org.ofbiz.datafile.RecordIterator
+10874,org.ofbiz.datafile.DataFileException
+10923,org.ofbiz.entity.finder.Finder
+10935,org.ofbiz.base.lang.ComparableRange
+10979,org.ofbiz.widget.cache.WidgetContextCacheKey
+11011,org.ofbiz.product.imagemanagement.CropImage
+11062,org.ofbiz.webapp.webdav.PropFindHelper
+11149,org.ofbiz.accounting.payment.GiftCertificateServices
+11533,org.ofbiz.order.finaccount.FinAccountHelper
+11534,org.ofbiz.order.order.OrderReadHelper
+11557,org.ofbiz.minilang.method.entityops.ClearEntityCaches
+11570,org.ofbiz.minilang.method.entityops.EntityOperation
+11815,org.ofbiz.widget.form.ModelFormField
+11834,org.ofbiz.service.semaphore.ServiceSemaphore
+11873,org.ofbiz.service.job.JobManager
+11875,org.ofbiz.service.semaphore.SemaphoreWaitException
+11876,org.ofbiz.service.semaphore.SemaphoreFailException
+11881,org.ofbiz.webapp.taglib.ContentUrlTag
+11917,org.ofbiz.webapp.taglib.UrlTag
+11920,org.ofbiz.webapp.taglib.IteratorHasNextTag
+11930,org.ofbiz.webapp.taglib.IteratorTag
+11933,org.ofbiz.webapp.view.RegionViewHandler
+11955,org.ofbiz.webapp.region.Region
+11956,org.ofbiz.webapp.region.RegionManager
+11957,org.ofbiz.webapp.region.RegionStack
+11965,org.ofbiz.base.component.ComponentResourceHandler
+12002,org.ofbiz.entity.config.model.JndiJdbc
+12012,org.ofbiz.entity.config.model.JdbcElement
+12015,org.ofbiz.sql.test.Recorder
+12023,org.ofbiz.minilang.method.envops.CreateObject
+12056,org.ofbiz.minilang.method.FieldObject
+12057,org.ofbiz.minilang.method.MethodObject
+12058,org.ofbiz.minilang.method.StringObject
+12340,org.ofbiz.product.config.ProductConfigWrapperException
+12341,org.ofbiz.product.config.ProductConfigItemContentWrapper
+12350,org.ofbiz.webtools.artifactinfo.ServiceEcaArtifactInfo
+12390,org.ofbiz.webtools.artifactinfo.ArtifactInfoBase
+12391,org.ofbiz.webtools.artifactinfo.ServiceArtifactInfo
+12392,org.ofbiz.webtools.artifactinfo.ArtifactInfoFactory
+12416,org.ofbiz.product.test.InventoryItemTransferTest
+12810,org.ofbiz.base.util.cache.JdbmRecordManager
+12818,org.ofbiz.base.util.cache.SoftRefCacheLine
+12848,org.ofbiz.minilang.method.conditional.ValidateMethodCondition
+12889,org.ofbiz.minilang.MiniLangUtil
+12911,org.ofbiz.service.engine.StandardJavaEngine
+12945,org.ofbiz.service.engine.GenericAsyncEngine
+13161,org.ofbiz.product.product.ProductEvents
+13506,org.ofbiz.product.product.KeywordIndex
+13507,org.ofbiz.product.product.ProductSearchSession
+13508,org.ofbiz.product.product.ProductContentWrapper
+14588,org.ofbiz.base.util.collections.MapStack
+14589,org.ofbiz.widget.ModelWidget
+14594,org.ofbiz.widget.form.FormFactory
+14595,org.ofbiz.base.util.collections.MapContext
+15196,org.ofbiz.base.util.UtilTimer
+15197,org.ofbiz.entity.model.ModelInfo
+15199,org.ofbiz.entity.model.ModelChild
+15200,org.ofbiz.entity.model.ModelUtil
+15248,org.ofbiz.service.config.model.ServiceGroups
+15258,org.ofbiz.service.config.model.RunFromPool
+15330,org.ofbiz.service.config.model.Authorization
+15331,org.ofbiz.service.config.model.ThreadPool
+15332,org.ofbiz.service.config.model.NotificationGroup
+15333,org.ofbiz.service.config.model.StartupService
+15334,org.ofbiz.service.config.model.ResourceLoader
+15335,org.ofbiz.service.config.model.GlobalServices
+15336,org.ofbiz.service.config.model.ServiceEcas
+15348,org.ofbiz.accounting.test.FinAccountTests
+15360,org.ofbiz.entityext.eca.EntityEcaUtil
+15405,org.ofbiz.base.config.MainResourceHandler
+15407,org.ofbiz.entityext.eca.EntityEcaRule
+15425,org.ofbiz.base.config.CoberturaInstrumenter
+16274,org.ofbiz.testtools.SimpleMethodTest
+16307,org.ofbiz.security.SecurityConfigurationException
+16308,org.ofbiz.security.SecurityFactory
+16309,org.ofbiz.testtools.ServiceTest
+16347,org.ofbiz.service.calendar.RecurrenceRuleException
+16355,org.ofbiz.minilang.method.conditional.EmptyCondition
+16392,org.ofbiz.product.price.PriceServices
+16688,org.ofbiz.accounting.thirdparty.verisign.PayflowPro
+16983,org.ofbiz.shipment.weightPackage.WeightPackageSessionLine
+17054,org.ofbiz.common.authentication.api.AuthenticatorException
+17056,org.ofbiz.widget.WidgetDataResourceWorker
+17064,org.ofbiz.widget.cache.AbstractCache
+17081,org.ofbiz.widget.cache.GenericWidgetOutput
+17083,org.ofbiz.widget.html.HtmlTreeRenderer
+17163,org.ofbiz.widget.screen.ScreenRenderer
+17167,org.ofbiz.widget.html.HtmlWidgetRenderer
+17172,org.ofbiz.widget.html.HtmlScreenRenderer
+17227,org.ofbiz.workeffort.workeffort.WorkEffortWorker
+17260,org.ofbiz.content.report.JRMapCollectionDataSource
+17276,org.ofbiz.base.util.JNDIContextFactory
+17293,org.ofbiz.base.config.JNDIConfigUtil
+17457,org.ofbiz.manufacturing.mrp.ProposedOrder
+17523,org.ofbiz.manufacturing.bom.BOMNode
+17524,org.ofbiz.manufacturing.bom.BOMTree
+17536,org.ofbiz.service.engine.HttpEngine
+17580,org.ofbiz.entity.serialize.XmlSerializer
+17587,org.ofbiz.ecommerce.janrain.JanrainHelper
+17692,org.ofbiz.webapp.control.LoginWorker
+17696,org.ofbiz.service.test.ServiceEngineTestServices
+17820,org.ofbiz.service.GenericResultWaiter
+17906,org.ofbiz.minilang.method.envops.OrderMapList
+17927,org.ofbiz.webtools.artifactinfo.EntityArtifactInfo
+17957,org.ofbiz.webtools.artifactinfo.FormWidgetArtifactInfo
+17960,org.ofbiz.webtools.artifactinfo.ScreenWidgetArtifactInfo
+17968,org.ofbiz.minilang.operation.Compare
+17980,org.ofbiz.minilang.operation.BaseCompare
+17981,org.ofbiz.minilang.operation.SimpleMapProcess
+17987,org.ofbiz.sql.ListCondition
+18005,org.ofbiz.sql.Condition
+18006,org.ofbiz.sql.Value
+18013,org.ofbiz.base.util.collections.FlexibleServletAccessor
+18117,org.ofbiz.widget.screen.ModelScreenAction
+18311,org.ofbiz.widget.screen.ModelScreen
+18320,org.ofbiz.product.spreadsheetimport.ImportProductServices
+18371,org.ofbiz.product.spreadsheetimport.ImportProductHelper
+18376,org.ofbiz.minilang.method.envops.SetCalendar
+18434,org.ofbiz.base.util.Scriptlet
+18445,org.ofbiz.datafile.DataFile2EntityXml
+18474,org.ofbiz.datafile.ModelField
+18541,org.ofbiz.entity.model.ModelGroupReader
+18591,org.ofbiz.order.shoppingcart.ShoppingCartServices
+19030,org.ofbiz.service.engine.GroovyEngine
+19073,org.ofbiz.base.util.GroovyUtil
+19903,org.ofbiz.order.shoppingcart.product.ProductPromoWorker
+19936,org.ofbiz.content.report.JREntityListIteratorDataSource
+19953,org.ofbiz.catalina.container.SslAcceleratorValve
+19969,org.ofbiz.manufacturing.routing.RoutingServices
+19989,org.ofbiz.entity.transaction.JNDIFactory
+20039,org.ofbiz.manufacturing.mrp.MrpServices
+20246,org.ofbiz.manufacturing.mrp.InventoryEventPlannedServices
+20256,org.ofbiz.webtools.labelmanager.LabelReferences
+20379,org.ofbiz.base.util.FileUtil
+20380,org.ofbiz.webtools.labelmanager.LabelInfo
+20381,org.ofbiz.webtools.labelmanager.LabelManagerFactory
+20466,org.ofbiz.geronimo.GeronimoTransactionFactory
+20488,org.ofbiz.accounting.thirdparty.ideal.IdealPaymentServiceTest
+20575,org.ofbiz.minilang.method.envops.FirstFromList
+20674,org.ofbiz.minilang.method.entityops.RemoveByAnd
+20754,org.ofbiz.webtools.artifactinfo.ControllerRequestArtifactInfo
+20759,org.ofbiz.webtools.artifactinfo.ControllerViewArtifactInfo
+20775,org.ofbiz.accounting.thirdparty.clearcommerce.CCPaymentServices
+21069,org.ofbiz.accounting.thirdparty.clearcommerce.ClearCommerceException
+21085,org.ofbiz.minilang.method.ifops.IfInstanceOf
+21118,org.ofbiz.webapp.view.JasperReportsPoiXlsViewHandler
+21157,org.ofbiz.accounting.thirdparty.paypal.PayPalServices
+21441,org.ofbiz.order.shoppingcart.CheckOutHelper
+21442,org.ofbiz.order.shoppingcart.shipping.ShippingEstimateWrapper
+21443,org.ofbiz.order.shoppingcart.shipping.ShippingEvents
+21473,org.ofbiz.base.util.UtilIO
+21641,org.ofbiz.base.json.JSONWriter
+21644,org.ofbiz.base.util.IndentingWriter
+21654,org.ofbiz.webapp.view.JPublishViewHandler
+21674,org.ofbiz.webapp.view.JPublishWrapper
+21692,org.ofbiz.webapp.event.GroovyEventHandler
+22103,org.ofbiz.product.feature.ParametricSearch
+22112,org.ofbiz.product.product.ProductSearch
+22175,org.ofbiz.shipment.packing.PackingSession
+22534,org.ofbiz.shipment.packing.PackingSessionLine
+22560,org.ofbiz.minilang.method.callops.CallScript
+22635,org.ofbiz.accounting.thirdparty.sagepay.SagePayPaymentServices
+22783,org.ofbiz.accounting.thirdparty.sagepay.SagePayUtil
+22822,org.ofbiz.entityext.eca.EntityEcaCondition
+22823,org.ofbiz.entityext.eca.EntityEcaAction
+22824,org.ofbiz.entityext.eca.EntityEcaSetField
+22833,org.ofbiz.entity.cache.EntityListCache
+22974,org.ofbiz.sql.ParameterizedConditionException
+22975,org.ofbiz.sql.SelectPlan
+22983,org.ofbiz.entity.transaction.GenericXaResource
+23037,org.ofbiz.webapp.event.ServiceEventHandler
+23121,org.ofbiz.webapp.event.FileUploadProgressListener
+23130,org.ofbiz.workeffort.workeffort.ICalWorker
+23233,org.ofbiz.webapp.webdav.WebDavUtil
+23234,org.ofbiz.workeffort.workeffort.ICalConverter
+23242,org.ofbiz.minilang.method.envops.SetOperation
+23283,org.ofbiz.product.subscription.SubscriptionServices
+23361,org.ofbiz.common.uom.UomWorker
+23365,org.ofbiz.minilang.method.callops.CallServiceAsynch
+23405,org.ofbiz.base.start.Start
+23535,org.ofbiz.base.start.Classpath
+23549,org.ofbiz.testtools.TestListContainer
+23589,org.ofbiz.minilang.method.envops.MapToMap
+23608,org.ofbiz.content.webapp.ftl.EditRenderSubContentTransform
+23774,org.ofbiz.base.json.test.JSONTests
+23871,org.ofbiz.service.ModelServiceReader
+24025,org.ofbiz.base.metrics.MetricsFactory
+24026,org.ofbiz.service.ModelPermission
+24053,org.ofbiz.content.content.ContentServicesComplex
+24163,org.ofbiz.minilang.SimpleMapProcessor
+24166,org.ofbiz.widget.html.HtmlFormWrapper
+24212,org.ofbiz.widget.html.HtmlFormRenderer
+24217,org.ofbiz.minilang.method.envops.Now
+24254,org.ofbiz.minilang.ValidationException
+24743,org.ofbiz.base.util.UtilPlist
+24745,org.ofbiz.entity.model.ModelIndex
+24772,org.ofbiz.service.rmi.socket.ssl.SSLClientSocketFactory
+24784,org.ofbiz.base.util.SSLUtil
+24836,org.ofbiz.product.imagemanagement.ReplaceImage
+24873,org.ofbiz.accounting.thirdparty.clearcommerce.CCServicesTest
+24920,org.ofbiz.base.util.string.NodeELResolver
+25014,org.ofbiz.webapp.region.Content
+25015,org.ofbiz.webapp.region.Section
+25024,org.ofbiz.content.content.ContentMapFacade
+25174,org.ofbiz.webapp.ftl.OfbizContentTransform
+25209,org.ofbiz.content.content.ContentSearchSession
+25315,org.ofbiz.content.content.ContentSearch
+25324,org.ofbiz.manufacturing.jobshopmgt.ProductionRunHelper
+25406,org.ofbiz.minilang.operation.MapProcessor
+25556,org.ofbiz.minilang.method.envops.Break
+25573,org.ofbiz.minilang.MiniLangElement
+25579,org.ofbiz.accounting.thirdparty.authorizedotnet.AIMRespPositions
+25586,org.ofbiz.accounting.thirdparty.authorizedotnet.AuthorizeResponse
+25598,org.ofbiz.common.CommonWorkers
+25801,org.ofbiz.entity.util.CachedClassLoaderInit
+25804,org.ofbiz.base.util.CachedClassLoader
+25809,org.ofbiz.product.feature.ProductFeatureServices
+25921,org.ofbiz.content.content.UploadContentAndImage
+26040,org.ofbiz.content.content.ContentPermissionServices
+26117,org.ofbiz.sql.Joined
+26148,org.ofbiz.sql.Atom
+26149,org.ofbiz.sql.KeyMap
+26150,org.ofbiz.sql.TableName
+26158,org.ofbiz.minilang.method.entityops.RemoveValue
+26489,org.ofbiz.base.crypto.HashCrypt
+26490,org.ofbiz.base.util.Observable
+26494,org.ofbiz.entity.util.ByteWrapper
+26514,org.ofbiz.sql.test.ConditionsTest
+26599,org.ofbiz.sql.BetweenCondition
+26600,org.ofbiz.sql.BooleanCondition
+26601,org.ofbiz.sql.ConditionList
+26602,org.ofbiz.sql.Joiner
+26603,org.ofbiz.sql.NumberValue
+26623,org.ofbiz.order.test.PurchaseOrderTest
+26647,org.ofbiz.common.JsLanguageFileMappingCreator
+26692,org.ofbiz.webtools.WebToolsServices
+26949,org.ofbiz.entity.util.EntityDataAssert
+26950,org.ofbiz.entity.util.EntityDataLoader
+26951,org.ofbiz.entity.util.EntitySaxReader
+26952,org.ofbiz.entityext.EntityGroupUtil
+27020,org.ofbiz.order.test.SalesOrderTest
+27204,org.ofbiz.webapp.view.JasperReportsPdfViewHandler
+27230,org.ofbiz.humanres.HumanResEvents
+27305,org.ofbiz.content.webapp.ftl.EditRenderSubContentCacheTransform
+27363,org.ofbiz.service.job.InvalidJobException
+27372,org.ofbiz.service.job.JobManagerException
+27378,org.ofbiz.product.inventory.InventoryServices
+27610,org.ofbiz.product.inventory.InventoryWorker
+27613,org.ofbiz.minilang.method.entityops.RemoveList
+27800,org.ofbiz.product.category.CategoryContentWrapper
+27805,org.ofbiz.entity.util.EntityCrypto
+27931,org.ofbiz.base.crypto.DesCrypt
+27932,org.ofbiz.entity.EntityCryptoException
+27943,org.ofbiz.webapp.view.JspViewHandler
+27986,org.ofbiz.service.GeneralServiceException
+28012,org.ofbiz.webapp.control.LoginEventListener
+28033,org.ofbiz.content.output.OutputServices
+28103,org.ofbiz.webapp.view.ApacheFopWorker
+28104,org.ofbiz.widget.fo.FoFormRenderer
+28105,org.ofbiz.widget.fo.FoScreenRenderer
+28118,org.ofbiz.base.location.OFBizHomeLocationResolver
+28224,org.ofbiz.minilang.method.envops.Assert
+28250,org.ofbiz.webapp.event.TestEvent
+28396,org.ofbiz.entity.cache.Cache
+28461,org.ofbiz.order.shoppingcart.CartEventListener
+28481,org.ofbiz.minilang.method.entityops.SetPkFields
+28504,org.ofbiz.content.openoffice.OpenOfficeByteArrayOutputStream
+28548,org.ofbiz.minilang.operation.SimpleMapOperation
+28553,org.ofbiz.webapp.control.ControlServlet
+28624,org.ofbiz.entity.GenericDelegator
+28625,org.ofbiz.webapp.stats.ServerHitBin
+28626,org.ofbiz.webapp.control.RequestHandlerException
+28628,org.ofbiz.webapp.control.RequestHandlerExceptionAllowExternalRequests
+28741,org.ofbiz.base.util.collections.GenericMapEntrySet
+28745,org.ofbiz.base.util.collections.GenericMapKeySet
+28746,org.ofbiz.base.util.collections.GenericMapValues
+28782,org.ofbiz.service.calendar.RecurrenceUtil
+28851,org.ofbiz.entity.connection.DebugManagedDataSource
+29205,org.ofbiz.base.util.MultiTrustManager
+29206,org.ofbiz.base.util.KeyStoreUtil
+29207,org.ofbiz.base.util.AliasKeyManager
+29221,org.ofbiz.accounting.payment.BillingAccountWorker
+29363,org.ofbiz.base.util.ObjectInputStream
+29403,org.ofbiz.webtools.labelmanager.LabelValue
+29603,org.ofbiz.service.calendar.RecurrenceInfo
+29604,org.ofbiz.service.calendar.RecurrenceInfoException
+29606,org.ofbiz.service.job.JobPoller
+29607,org.ofbiz.service.job.PersistedServiceJob
+29608,org.ofbiz.service.job.PurgeJob
+30023,org.ofbiz.base.util.DateRange
+30024,org.ofbiz.workeffort.workeffort.ICalRecurConverter
+30029,org.ofbiz.base.crypto.Main
+30036,org.ofbiz.service.engine.SoapSerializer
+30047,org.ofbiz.service.job.AbstractJob
+30208,org.ofbiz.entity.config.model.GroupMap
+30233,org.ofbiz.base.util.collections.GenericMapCollection
+30279,org.ofbiz.webapp.ftl.FreeMarkerViewHandler
+30312,org.ofbiz.webapp.ftl.OfbizCacheStorage
+30315,org.ofbiz.entity.config.model.UserTransactionJndi
+30326,org.ofbiz.entity.transaction.DumbFactory
+30689,org.ofbiz.common.geo.GeoWorker
+30690,org.ofbiz.party.party.PartyWorker
+30698,org.ofbiz.minilang.method.otherops.Log
+30727,org.ofbiz.minilang.method.envops.IterateMap
+30755,org.ofbiz.minilang.method.envops.Continue
+30809,org.ofbiz.entity.condition.OrderByItem
+30816,org.ofbiz.service.engine.BeanShellEngine
+30874,org.ofbiz.order.shoppinglist.ShoppingListServices
+31059,org.ofbiz.minilang.method.eventops.WebappPropertyToField
+31093,org.ofbiz.base.config.ResourceLoader
+31173,org.ofbiz.webapp.ftl.JpCacheIncludeTransform
+31236,org.ofbiz.base.container.ComponentContainer
+31314,org.ofbiz.base.component.AlreadyLoadedException
+31315,org.ofbiz.base.component.ComponentException
+31316,org.ofbiz.base.component.ComponentLoaderConfig
+31337,org.ofbiz.webapp.taglib.EntityFieldTag
+31371,org.ofbiz.widget.WidgetPortalPageWorker
+31380,org.ofbiz.base.start.InstrumenterWorker
+31454,org.ofbiz.service.test.ServiceEngineTests
+31462,org.ofbiz.shipment.thirdparty.fedex.FedexConnectException
+31471,org.ofbiz.shipment.thirdparty.fedex.FedexServices
+31673,org.ofbiz.party.party.PartyHelper
+31677,org.ofbiz.common.CommonServices
+31857,org.ofbiz.service.ServiceXaWrapper
+31872,org.ofbiz.widget.tree.ModelTreeCondition
+32045,org.ofbiz.base.util.cache.test.UtilCacheTests
+32210,org.ofbiz.content.webapp.ftl.RenderSubContentCacheTransform
+32278,org.ofbiz.minilang.method.entityops.EntityOne
+32299,org.ofbiz.product.imagemanagement.ImageUrlServlet
+32327,org.ofbiz.base.config.FileLoader
+32378,org.ofbiz.service.job.GenericServiceJob
+32387,org.ofbiz.shipment.packing.PackingServices
+32508,org.ofbiz.common.scripting.ContextHelper
+32765,org.ofbiz.base.util.string.JuelConnector
+32767,org.ofbiz.base.util.string.UelFunctions
+32780,org.ofbiz.entityext.data.EntityDataServices
+33559,org.ofbiz.widget.form.MacroFormRenderer
+33560,org.ofbiz.widget.form.UtilHelpText
+33701,org.ofbiz.shipment.thirdparty.dhl.DhlConnectException
+33710,org.ofbiz.shipment.thirdparty.dhl.DhlServices
+33943,org.ofbiz.widget.screen.ScreenFopViewHandler
+33979,org.ofbiz.widget.screen.MacroScreenRenderer
+33983,org.ofbiz.base.util.HttpRequestFileUpload
+34042,org.ofbiz.shipment.verify.VerifyPickServices
+34088,org.ofbiz.shipment.verify.VerifyPickSession
+34093,org.ofbiz.webapp.taglib.PrintTag
+34152,org.ofbiz.minilang.method.envops.AddError
+34169,org.ofbiz.minilang.method.MessageElement
+34274,org.ofbiz.accounting.util.UtilAccounting
+34352,org.ofbiz.accounting.AccountingException
+34369,org.ofbiz.service.config.model.Notification
+34370,org.ofbiz.service.config.model.Notify
+34909,org.ofbiz.entity.condition.EntityConditionSubSelect
+34914,org.ofbiz.widget.screen.IterateSectionWidget
+35025,org.ofbiz.widget.screen.ModelScreenWidget
+35031,org.ofbiz.service.GenericDispatcherFactory
+35139,org.ofbiz.service.GenericAbstractDispatcher
+35164,org.ofbiz.content.ContentManagementServices
+35667,org.ofbiz.content.content.ContentServices
+35668,org.ofbiz.content.ContentManagementWorker
+35678,org.ofbiz.order.thirdparty.taxware.TaxwareServices
+35701,org.ofbiz.order.thirdparty.taxware.TaxwareException
+35702,org.ofbiz.order.thirdparty.taxware.TaxwareUTL
+35787,org.ofbiz.minilang.method.conditional.CombinedCondition
+35874,org.ofbiz.service.ExecutionServiceException
+35884,org.ofbiz.sql.FunctionCall
+35901,org.ofbiz.sql.StaticValue
+36091,org.ofbiz.product.category.CatalogUrlFilter
+36232,org.ofbiz.widget.ModelWidgetAction
+36446,org.ofbiz.service.engine.EntityAutoEngine
+36502,org.ofbiz.shipment.weightPackage.WeightPackageServices
+36571,org.ofbiz.shipment.weightPackage.WeightPackageSession
+36591,org.ofbiz.minilang.method.entityops.SetCurrentUserLogin
+36609,org.ofbiz.entity.jdbc.CursorResultSet
+36627,org.ofbiz.entity.jdbc.AbstractCursorHandler
+36698,org.ofbiz.webapp.taglib.FormatTag
+36716,org.ofbiz.base.conversion.test.MiscTests
+36760,org.ofbiz.base.util.collections.LRUMap
+36773,org.ofbiz.minilang.method.entityops.OrderValueList
+36792,org.ofbiz.service.engine.XMLRPCClientEngine
+36840,org.ofbiz.service.xmlrpc.XmlRpcClient
+36849,org.ofbiz.sql.ConstantValue
+36851,org.ofbiz.workeffort.workeffort.WorkEffortSearchEvents
+36877,org.ofbiz.workeffort.workeffort.WorkEffortSearchSession
+36887,org.ofbiz.widget.menu.ModelMenuAction
+37044,org.ofbiz.common.status.StatusWorker
+37073,org.ofbiz.base.util.GeneralRuntimeException
+37496,org.ofbiz.sql.SQLUpdate
+37517,org.ofbiz.sql.SQLStatement
+37518,org.ofbiz.sql.SetField
+37519,org.ofbiz.sql.Table
+37529,org.ofbiz.order.shoppingcart.WebShoppingCart
+37548,org.ofbiz.service.rmi.RmiServiceEngine
+37569,org.ofbiz.base.util.test.ReferenceCleanerTests
+37591,org.ofbiz.minilang.method.entityops.SequencedIdToEnv
+37616,org.ofbiz.order.task.TaskWorker
+37654,org.ofbiz.securityext.cert.CertificateServices
+37682,org.ofbiz.product.imagemanagement.ImageManagementHelper
+37695,org.ofbiz.sql.test.ValuesTest
+37829,org.ofbiz.sql.CountAllFunction
+37830,org.ofbiz.sql.AggregateFunction
+37831,org.ofbiz.sql.FieldValue
+37832,org.ofbiz.sql.MathValue
+37833,org.ofbiz.sql.ParameterValue
+37834,org.ofbiz.sql.StringValue
+37864,org.ofbiz.common.scripting.ScriptHelperFactoryImpl
+37867,org.ofbiz.common.scripting.ScriptHelperImpl
+37870,org.ofbiz.service.mail.ServiceMcaAction
+37962,org.ofbiz.entity.GenericValueHtmlWrapper
+37985,org.ofbiz.webapp.taglib.ObjectTEI
+38001,org.ofbiz.minilang.method.callops.CallBsh
+38114,org.ofbiz.widget.cache.ScreenCache
+38115,org.ofbiz.widget.screen.ScreenFactory
+38836,org.ofbiz.catalina.container.CatalinaContainer
+39144,org.ofbiz.catalina.container.CrossSubdomainSessionValve
+39162,org.ofbiz.service.RunningService
+39183,org.ofbiz.minilang.method.callops.CallClassMethod
+39208,org.ofbiz.minilang.method.otherops.Calculate
+39307,org.ofbiz.widget.html.HtmlMenuWrapperImage
+39451,org.ofbiz.service.jms.JmsQueueListener
+39490,org.ofbiz.service.jms.AbstractJmsListener
+39522,org.ofbiz.product.category.OfbizCatalogUrlTransform
+39551,org.ofbiz.minilang.method.callops.CallService
+39667,org.ofbiz.minilang.method.callops.FlexibleMessage
+39681,org.ofbiz.order.shoppingcart.CheckOutEvents
+40114,org.ofbiz.product.store.ProductStoreEvents
+40146,org.ofbiz.order.OrderManagerEvents
+40229,org.ofbiz.service.engine.BSFEngine
+40512,org.ofbiz.widget.PortalPageWorker
+40513,org.ofbiz.widget.menu.ModelMenuCondition
+40532,org.ofbiz.webapp.view.JasperReportsJXlsViewHandler
+40599,org.ofbiz.entity.condition.EntityConditionFunction
+40601,org.ofbiz.accounting.thirdparty.eway.GatewayConnector
+40624,org.ofbiz.accounting.thirdparty.eway.GatewayResponse
+40625,org.ofbiz.accounting.thirdparty.eway.GatewayRequest
+40673,org.ofbiz.webapp.event.XmlRpcEventHandler
+40789,org.ofbiz.service.test.XmlRpcTests
+40818,org.ofbiz.service.test.AbstractXmlRpcTestCase
+40822,org.ofbiz.webapp.taglib.IteratorTEI
+40838,org.ofbiz.webapp.event.JavaEventHandler
+41071,org.ofbiz.entity.condition.EntityClause
+41405,org.ofbiz.webapp.view.ViewFactory
+41456,org.ofbiz.order.order.OrderListState
+41937,org.ofbiz.minilang.method.callops.Return
+42110,org.ofbiz.shipment.verify.VerifyPickSessionRow
+42534,org.ofbiz.base.conversion.AbstractLocalizedConverter
+42539,org.ofbiz.webapp.taglib.ObjectTag
+42565,org.ofbiz.service.mail.ServiceMcaCondition
+42626,org.ofbiz.webtools.labelmanager.LabelFile
+42638,org.ofbiz.accounting.thirdparty.eway.EwayServices
+42751,org.ofbiz.manufacturing.bom.BOMHelper
+43255,org.ofbiz.sql.test.SQLTest
+43289,org.ofbiz.sql.FieldAll
+43290,org.ofbiz.sql.FieldDef
+43291,org.ofbiz.sql.InsertRow
+43292,org.ofbiz.sql.InsertValues
+43293,org.ofbiz.sql.Relation
+43294,org.ofbiz.sql.SQLDelete
+43295,org.ofbiz.sql.SQLIndex
+43296,org.ofbiz.sql.SQLInsert
+43297,org.ofbiz.sql.SQLSelect
+43298,org.ofbiz.sql.SQLView
+43447,org.ofbiz.service.calendar.RecurrenceRule
+43451,org.ofbiz.content.data.DataServices
+43671,org.ofbiz.minilang.operation.Regexp
+43701,org.ofbiz.webapp.webdav.WebDavServlet
+43730,org.ofbiz.entityext.eca.DelegatorEcaHandler
+43752,org.ofbiz.entityext.EntityServiceFactory
+43759,org.ofbiz.minilang.method.entityops.StoreList
+43798,org.ofbiz.base.container.JustLoadComponentsContainer
+43813,org.ofbiz.catalina.container.SSLImpl
+43836,org.ofbiz.entity.GenericStoreException
+43874,org.ofbiz.accounting.thirdparty.valuelink.ValueLinkApi
+44179,org.ofbiz.base.location.ClasspathLocationResolver
+44180,org.ofbiz.base.location.StandardUrlLocationResolver
+44181,org.ofbiz.base.location.ComponentLocationResolver
+44184,org.ofbiz.base.concurrent.test.AsyncTTLObjectTest
+44203,org.ofbiz.entity.GenericRemoveException
+44573,org.ofbiz.minilang.operation.MakeInString
+44591,org.ofbiz.minilang.operation.InFieldOper
+44594,org.ofbiz.base.conversion.JSONConverters
+44797,org.ofbiz.widget.screen.ScreenRenderException
+45210,org.ofbiz.base.util.URLConnector
+45504,org.ofbiz.webapp.view.GenericViewRenderer
+45583,org.ofbiz.webapp.event.SimpleEventHandler
+45601,org.ofbiz.common.period.PeriodWorker
+45611,org.ofbiz.service.rmi.ExampleRemoteClient
+45634,org.ofbiz.geronimo.GeronimoContainer
+45688,org.ofbiz.common.CdyneServices
+45710,org.ofbiz.order.test.OrderTestServices
+45759,org.ofbiz.base.util.test.ObjectTypeTests
+45890,org.ofbiz.minilang.method.entityops.TransactionRollback
+46114,org.ofbiz.webapp.event.SOAPEventHandler
+46225,org.ofbiz.entity.sql.EntityUpdatePlan
+46228,org.ofbiz.sql.UpdatePlan
+46246,org.ofbiz.content.openoffice.OpenOfficeByteArrayInputStream
+46277,org.ofbiz.accounting.payment.PaymentMethodServices
+46594,org.ofbiz.base.util.UtilJavaParse
+46595,org.ofbiz.service.eca.ServiceEcaUtil
+46615,org.ofbiz.workeffort.workeffort.WorkEffortKeywordIndex
+46665,org.ofbiz.shipment.test.IssuanceTest
+46831,org.ofbiz.widget.screen.ModelScreenCondition
+47022,org.ofbiz.accounting.thirdparty.valuelink.ValueLinkServices
+47658,org.ofbiz.content.content.ContentSearchEvents
+47715,org.ofbiz.shipment.thirdparty.usps.UspsRequestException
+47724,org.ofbiz.shipment.thirdparty.usps.UspsServices
+48124,org.ofbiz.order.thirdparty.paypal.ExpressCheckoutEvents
+48207,org.ofbiz.webapp.taglib.I18nMessageTag
+48229,org.ofbiz.webapp.taglib.I18nBundleTag
+48232,org.ofbiz.accounting.GlEvents
+48308,org.ofbiz.base.config.UrlLoader
+48535,org.ofbiz.base.splash.SplashScreen
+48621,org.ofbiz.base.util.cache.JdbmSerializer
+48623,org.ofbiz.entityext.synchronization.EntitySyncContext
+48974,org.ofbiz.entity.sql.EntityViewPlan
+48976,org.ofbiz.entity.test.EntityTestSuite
+49228,org.ofbiz.entity.util.SequenceUtil
+49327,org.ofbiz.entity.config.model.InlineJdbc
+49328,org.ofbiz.entity.config.model.TyrexDataSource
+49329,org.ofbiz.entity.config.model.SqlLoadPath
+49335,org.ofbiz.base.conversion.MiscConverters
+49470,org.ofbiz.product.product.ProductSearchEvents
+49612,org.ofbiz.webtools.labelmanager.SaveLabelsToXmlFile
+49896,org.ofbiz.minilang.method.eventops.FieldToSession
+50015,org.ofbiz.service.xmlrpc.AliasSupportedTransportFactory
+50023,org.ofbiz.accounting.thirdparty.sagepay.SagePayServices
+50711,org.ofbiz.product.product.ProductPromoContentWrapper
+50784,org.ofbiz.order.shoppingcart.product.ProductStoreCartAwareEvents
+51314,org.ofbiz.party.contact.ContactHelper
+51361,org.ofbiz.product.image.ScaleImage
+51463,org.ofbiz.content.ConvertTree
+51541,org.ofbiz.entity.sql.EntityConditionPlanner
+51995,org.ofbiz.base.util.template.XslTransform
+51996,org.ofbiz.common.email.NotificationServices
+52009,org.ofbiz.webapp.event.RomeEventHandler
+52087,org.ofbiz.content.webapp.ftl.TraverseSubContentCacheTransform
+52402,org.ofbiz.minilang.method.ifops.test.IfRegexpTest
+52425,org.ofbiz.minilang.method.entityops.FindByAnd
+52462,org.ofbiz.accounting.thirdparty.cybersource.IcsPaymentServices
+52677,org.ofbiz.sql.test.SelectTest
+52748,org.ofbiz.workeffort.workeffort.WorkEffortServices
+53059,org.ofbiz.minilang.method.envops.FieldToList
+53254,org.ofbiz.common.login.LoginServices
+53265,org.ofbiz.minilang.test.MiniLangTests
+55148,org.ofbiz.webapp.ftl.OfbizAmountTransform
+55509,org.ofbiz.minilang.method.callops.CallObjectMethod
+55532,org.ofbiz.base.util.MessageString
+55611,org.ofbiz.common.authentication.example.TestPassAuthenticator
+55619,org.ofbiz.common.authentication.example.TestFailAuthenticator
+55624,org.ofbiz.content.openoffice.OpenOfficeWorker
+55727,org.ofbiz.content.webapp.ftl.OfbizContentAltUrlTransforms
+55753,org.ofbiz.content.content.ContentUrlFilter
+55756,org.ofbiz.product.store.ProductStoreSurveyWrapper
+55934,org.ofbiz.common.DataModelConstants
+55938,org.ofbiz.common.authentication.AuthHelper
+55975,org.ofbiz.common.authentication.AuthenticationComparator
+55977,org.ofbiz.minilang.method.envops.ToString
+56252,org.ofbiz.content.view.SimpleContentViewHandler
+56295,org.ofbiz.content.webapp.ftl.RenderSubContentAsText
+56340,org.ofbiz.minilang.method.ifops.IfNotEmpty
+56363,org.ofbiz.content.webapp.ftl.InjectNodeTrailCsvTransform
+56457,org.ofbiz.webapp.taglib.ServiceTag
+56493,org.ofbiz.webapp.event.ScriptEventHandler
+56574,org.ofbiz.minilang.operation.CompareField
+56594,org.ofbiz.minilang.method.entityops.GetRelatedOne
+57229,org.ofbiz.entity.GenericDuplicateKeyException
+57450,org.ofbiz.base.util.test.IndentingWriterTests
+57697,org.ofbiz.order.shoppingcart.product.ProductDisplayWorker
+57838,org.ofbiz.widget.tree.MacroTreeRenderer
+58410,org.ofbiz.accounting.invoice.InvoiceWorker
+58612,org.ofbiz.common.preferences.PreferenceServices
+58691,org.ofbiz.entity.datasource.GenericHelperFactory
+59078,org.ofbiz.minilang.method.entityops.CreateValue
+59167,org.ofbiz.webapp.region.RegionTag
+59187,org.ofbiz.service.jms.JmsServiceEngine
+59329,org.ofbiz.service.jms.JmsSerializer
+59333,org.ofbiz.ecommerce.misc.ThirdPartyEvents
+59456,org.ofbiz.security.OFBizSecurity
+59543,org.ofbiz.minilang.method.otherops.Trace
+59562,org.ofbiz.entity.datasource.GenericHelperDAO
+59628,org.ofbiz.manufacturing.jobshopmgt.ProductionRunEvents
+59653,org.ofbiz.base.conversion.CollectionConverters
+59729,org.ofbiz.webapp.event.ServiceMultiEventHandler
+61360,org.ofbiz.minilang.method.entityops.FilterListByDate
+61380,org.ofbiz.minilang.method.callops.SetServiceFields
+61419,org.ofbiz.minilang.method.otherops.PropertyToField
+61448,org.ofbiz.webapp.control.ControlActivationEventListener
+61456,org.ofbiz.webapp.control.ControlEventListener
+61468,ShipmentScaleApplet
+61547,org.ofbiz.service.engine.GenericEngineFactory
+61562,org.ofbiz.webapp.ftl.RenderWrappedTextTransform
+61578,org.ofbiz.accounting.thirdparty.gosoftware.PcChargeServices
+61678,org.ofbiz.accounting.thirdparty.gosoftware.PcChargeApi
+61705,org.ofbiz.service.test.ServiceSOAPTests
+61730,org.ofbiz.minilang.SimpleServiceEngine
+61806,org.ofbiz.testtools.TestRunContainer
+61880,org.ofbiz.testtools.ModelTestSuite
+61881,org.ofbiz.testtools.JunitSuiteWrapper
+61889,org.ofbiz.base.lang.test.ComparableRangeTests
+61921,org.ofbiz.content.cms.CmsEvents
+62001,org.ofbiz.base.concurrent.DependencyPool
+62117,org.ofbiz.entityext.synchronization.EntitySyncServices
+62321,org.ofbiz.party.content.PartyContentWrapper
+62492,org.ofbiz.testtools.EntityXmlAssertTest
+62497,org.ofbiz.securityext.login.LoginEvents
+62576,org.ofbiz.accounting.ledger.GeneralLedgerServices
+62714,org.ofbiz.minilang.method.envops.CheckErrors
+62761,org.ofbiz.webtools.print.FoPrintServerEvents
+62814,org.ofbiz.webapp.view.VelocityViewHandler
+62853,org.ofbiz.content.webapp.ftl.RenderContentTransform
+63235,org.ofbiz.minilang.method.conditional.CompareCondition
+63281,org.ofbiz.minilang.method.conditional.Compare
+63327,org.ofbiz.sql.SelectGroup
+63328,org.ofbiz.sql.Unioned
+63341,org.ofbiz.minilang.method.envops.Loop
+63368,org.ofbiz.minilang.method.envops.While
+63392,org.ofbiz.base.util.test.StringUtilTests
+63485,org.ofbiz.accounting.payment.PaymentWorker
+63659,org.ofbiz.content.ContentManagementEvents
+64258,org.ofbiz.common.login.LdapAuthenticationServices
+64266,org.ofbiz.widget.screen.MacroScreenViewHandler
+64297,org.ofbiz.common.FtpServices
+64421,org.ofbiz.webapp.view.FopPdfViewHandler
+64592,org.ofbiz.service.calendar.ExpressionUiHelper
+64873,org.ofbiz.entity.GenericFindException
+64890,org.ofbiz.accounting.period.PeriodServices
+65011,org.ofbiz.accounting.finaccount.FinAccountServices
+65284,org.ofbiz.service.mail.JavaMailContainer
+65391,org.ofbiz.party.party.PartyServices
+66413,org.ofbiz.order.shoppingcart.ShoppingCartHelper
+66427,org.ofbiz.minilang.method.ifops.CheckPermission
+66464,org.ofbiz.shipment.shipment.ShipmentEvents
+66501,org.ofbiz.product.supplier.SupplierProductServices
+66555,org.ofbiz.minilang.method.callops.CallSimpleMethod
+66812,org.ofbiz.base.splash.SplashLoader
+66853,org.ofbiz.party.communication.CommunicationEventServices
+67223,org.ofbiz.service.engine.InterfaceEngine
+67596,org.ofbiz.minilang.method.entityops.EntityData
+67629,org.ofbiz.minilang.method.entityops.TransactionBegin
+67760,org.ofbiz.accounting.thirdparty.orbital.OrbitalPaymentServices
+68026,org.ofbiz.base.util.test.UtilObjectTests
+68111,org.ofbiz.order.thirdparty.zipsales.ZipSalesServices
+68209,org.ofbiz.minilang.method.entityops.CloneValue
+69081,org.ofbiz.entityext.data.EntityDataLoadContainer
+69203,org.ofbiz.order.order.OrderReturnServices
+69896,org.ofbiz.minilang.operation.ValidateMethod
+69897,org.ofbiz.minilang.operation.NotEmpty
+69898,org.ofbiz.minilang.operation.Copy
+69899,org.ofbiz.minilang.operation.Convert
+69919,org.ofbiz.base.util.collections.GenericMapSet
+69961,org.ofbiz.common.FindServices
+70278,org.ofbiz.webapp.ftl.FreeMarkerViewRenderer
+70318,org.ofbiz.minilang.method.entityops.FilterListByAnd
+70337,org.ofbiz.minilang.method.entityops.RefreshValue
+70358,org.ofbiz.order.order.OrderServices
+71955,org.ofbiz.content.webapp.ftl.TraverseSubContentTransform
+72056,org.ofbiz.sql.InsertPlan
+72059,org.ofbiz.webapp.view.DataVisionViewHandler
+72089,org.ofbiz.entity.jdbc.CursorStatement
+72307,org.ofbiz.sfa.vcard.VCard
+72440,org.ofbiz.minilang.method.entityops.EntityCount
+72581,org.ofbiz.minilang.method.entityops.ClearCacheLine
+73562,org.ofbiz.common.CommonEvents
+73834,org.ofbiz.base.start.CommonsDaemonStart
+73842,org.ofbiz.webapp.event.ServiceStreamHandler
+73870,org.ofbiz.service.group.ServiceGroupEngine
+73884,org.ofbiz.entityext.eca.EntityEcaException
+73892,org.ofbiz.entityext.EntityWatchServices
+74023,org.ofbiz.product.test.StockMovesTest
+74059,org.ofbiz.webapp.view.FopRenderer
+74109,org.ofbiz.base.test.BaseUnitTests
+74166,org.ofbiz.shipment.picklist.PickListServices
+74952,org.ofbiz.entity.model.ModelEntityChecker
+75108,org.ofbiz.base.config.ClasspathLoader
+75119,org.ofbiz.product.imagemanagement.WatermarkImage
+75415,org.ofbiz.base.util.RMIExtendedSocketFactory
+75434,org.ofbiz.product.category.CategoryServices
+75657,org.ofbiz.minilang.method.eventops.RequestToField
+75677,org.ofbiz.webapp.taglib.IterateNextTEI
+76404,org.ofbiz.widget.WidgetFactory
+76406,org.ofbiz.widget.screen.HtmlWidget
+76475,org.ofbiz.entity.datasource.MemoryHelper
+76624,org.ofbiz.product.category.OfbizCatalogAltUrlTransform
+76871,org.ofbiz.sql.Planner
+76872,org.ofbiz.entity.sql.EntityInsertPlan
+76912,org.ofbiz.minilang.method.entityops.GetRelated
+76943,org.ofbiz.webapp.view.WfsViewHandler
+76985,org.ofbiz.entity.DelegatorFactoryImpl
+77314,org.ofbiz.widget.tree.ModelTreeAction
+77374,org.ofbiz.minilang.method.entityops.MakeNextSeqId
+77402,org.ofbiz.entity.connection.DBCPConnectionFactory
+77455,org.ofbiz.accounting.invoice.InvoiceServices
+79638,org.ofbiz.webapp.region.RenderTag
+79665,org.ofbiz.workeffort.workeffort.ICalHandlerFactory
+79701,org.ofbiz.minilang.method.eventops.RequestParametersToList
+79726,org.ofbiz.minilang.method.envops.Iterate
+80030,org.ofbiz.workeffort.workeffort.WorkEffortPartyAssignmentServices
+80115,org.ofbiz.order.order.OrderEvents
+80259,org.ofbiz.manufacturing.bom.BOMServices
+80516,org.ofbiz.content.webapp.ftl.RenderContentAndSubContent
+80556,org.ofbiz.content.survey.PdfSurveyServices
+80830,org.ofbiz.minilang.method.conditional.RegexpCondition
+81014,org.ofbiz.webapp.taglib.IterateNextTag
+81065,org.ofbiz.base.conversion.NetConverters
+81293,org.ofbiz.base.util.test.TimeDurationTests
+81978,org.ofbiz.content.openoffice.OpenOfficeServices
+82105,org.ofbiz.content.compdoc.CompDocServices
+82232,org.ofbiz.manufacturing.jobshopmgt.ProductionRunServices
+83077,org.ofbiz.base.crypto.BlowFishCrypt
+83180,org.ofbiz.entity.config.model.TransactionManagerJndi
+83183,org.ofbiz.securityext.thirdparty.truition.TruitionCoReg
+83257,org.ofbiz.base.conversion.test.TestBooleanConverters
+83283,org.ofbiz.common.JsLanguageFilesMapping
+83305,org.ofbiz.base.util.string.test.FlexibleStringExpanderTests
+84045,org.ofbiz.shipment.thirdparty.usps.UspsMockApiServlet
+84077,org.ofbiz.widget.text.TextScreenRenderer
+84205,org.ofbiz.webapp.ftl.SetContextFieldTransform
+84220,org.ofbiz.workeffort.content.WorkEffortContentWrapper
+84354,org.ofbiz.marketing.marketing.MarketingServices
+84416,org.ofbiz.product.product.VariantEvents
+84447,org.ofbiz.common.status.StatusServices
+84641,org.ofbiz.service.engine.ScriptEngine
+84680,org.ofbiz.webapp.control.ProtectViewWorker
+84847,org.ofbiz.service.engine.SOAPClientEngine
+84973,org.ofbiz.webapp.taglib.UnlessTag
+84976,org.ofbiz.minilang.method.entityops.RemoveRelated
+85001,org.ofbiz.webapp.ftl.OfbizUrlTransform
+85092,org.ofbiz.base.util.collections.ReadOnlyMapEntry
+85109,org.ofbiz.minilang.method.entityops.MakeValue
+85319,org.ofbiz.accounting.tax.TaxAuthorityServices
+85749,org.ofbiz.accounting.finaccount.FinAccountPaymentServices
+85991,org.ofbiz.sql.Main
+86032,org.ofbiz.webapp.ftl.SetRequestAttributeMethod
+86125,org.ofbiz.minilang.method.envops.ClearField
+86140,org.ofbiz.minilang.method.envops.StringAppend
+86293,org.ofbiz.widget.xml.XmlFormRenderer
+86596,org.ofbiz.catalina.container.OfbizStore
+86696,org.ofbiz.content.webapp.ftl.WrapSubContentCacheTransform
+86823,org.ofbiz.accounting.thirdparty.securepay.SecurePayServiceTest
+86934,org.ofbiz.entity.GenericNoSuchEntityException
+87036,org.ofbiz.base.container.NamingServiceContainer
+87064,org.ofbiz.accounting.agreement.AgreementServices
+87102,org.ofbiz.minilang.method.callops.CallSimpleMapProcessor
+87134,org.ofbiz.common.email.EmailServices
+87316,org.ofbiz.common.olap.CommonDimensionServices
+87342,org.ofbiz.base.container.BeanShellContainer
+87390,org.ofbiz.accounting.thirdparty.securepay.SecurePayPaymentServices
+87581,org.ofbiz.widget.text.TextFormRenderer
+87993,org.ofbiz.base.conversion.NumberConverters
+89060,org.ofbiz.content.survey.SurveyEvents
+89075,org.ofbiz.party.contact.ContactMechServices
+89337,org.ofbiz.accounting.finaccount.FinAccountProductServices
+89435,org.ofbiz.entityext.cache.EntityCacheServices
+89678,org.ofbiz.minilang.SimpleMethodBsfEngine
+89862,org.ofbiz.content.blog.BlogRssServices
+89924,org.ofbiz.base.util.test.UtilPropertiesTests
+89967,org.ofbiz.product.promo.PromoServices
+90660,org.ofbiz.webapp.view.HttpViewHandler
+90678,org.ofbiz.minilang.method.conditional.CompareFieldCondition
+90729,org.ofbiz.accounting.thirdparty.worldpay.WorldPayEvents
+90867,org.ofbiz.order.order.OrderLookupServices
+91377,org.ofbiz.minilang.method.entityops.FindByPrimaryKey
+91527,org.ofbiz.webapp.ftl.OfbizCurrencyTransform
+91872,org.ofbiz.base.util.collections.test.FlexibleMapAccessorTests
+92032,org.ofbiz.product.product.ProductServices
+92505,org.ofbiz.base.util.test.AssertTests
+92558,org.ofbiz.order.order.OrderContentWrapper
+92617,org.ofbiz.webapp.taglib.I18nMessageArgumentTag
+92624,org.ofbiz.minilang.method.envops.ListToList
+92642,org.ofbiz.base.util.test.UtilXmlTests
+92650,org.ofbiz.base.concurrent.test.DependencyPoolTests
+92692,org.ofbiz.content.layout.LayoutEvents
+93069,org.ofbiz.order.quote.QuoteServices
+93139,org.ofbiz.minilang.method.envops.StringToList
+93172,org.ofbiz.accounting.thirdparty.authorizedotnet.AIMPaymentServices
+93555,org.ofbiz.content.webapp.ftl.LimitedSubContentCacheTransform
+93684,org.ofbiz.order.requirement.RequirementServices
+93950,org.ofbiz.minilang.method.entityops.EntityCondition
+94428,org.ofbiz.minilang.method.entityops.TransactionCommit
+94684,org.ofbiz.accounting.thirdparty.authorizedotnet.CPRespPositions
+94775,org.ofbiz.base.util.test.UtilIOTests
+94844,org.ofbiz.content.webapp.ftl.LoopSubContentTransform
+95137,org.ofbiz.minilang.method.entityops.EntityAnd
+95158,org.ofbiz.service.engine.RouteEngine
+95248,org.ofbiz.service.jms.JmsTopicListener
+95388,org.ofbiz.content.webapp.ftl.RenderSubContentTransform
+95435,org.ofbiz.marketing.report.ReportHelper
+*Edges: 7431
+9864 232 5
+34352 951 5
+48232 2313 2
+48232 244 6
+48232 230 4
+48232 232 2
+48232 951 2
+48232 316 2
+48232 229 2
+48232 234 2
+87064 319 1
+87064 244 9
+87064 231 1
+87064 230 7
+87064 314 3
+87064 316 1
+87064 315 2
+87064 234 1
+85749 2313 10
+85749 231 27
+85749 951 13
+85749 235 7
+85749 3593 1
+85749 234 13
+85749 4378 2
+85749 232 5
+85749 7779 3
+85749 319 30
+85749 244 56
+85749 11534 10
+85749 11533 2
+85749 315 20
+85749 316 68
+85749 113 19
+85749 230 32
+85749 1618 3
+85749 339 4
+85749 314 2
+89337 2313 1
+89337 231 2
+89337 951 3
+89337 235 2
+89337 234 4
+89337 4378 1
+89337 232 2
+89337 319 5
+89337 244 14
+89337 315 3
+89337 316 14
+89337 1956 2
+89337 11534 5
+89337 113 4
+89337 230 4
+89337 314 2
+65011 2313 3
+65011 231 7
+65011 1619 2
+65011 951 3
+65011 235 4
+65011 3593 3
+65011 234 8
+65011 362 2
+65011 232 7
+65011 319 18
+65011 244 27
+65011 11533 3
+65011 315 15
+65011 316 39
+65011 113 4
+65011 230 19
+65011 339 3
+65011 314 2
+77455 2313 5
+77455 231 107
+77455 5859 1
+77455 1170 10
+77455 951 29
+77455 34274 2
+77455 235 37
+77455 313 10
+77455 234 47
+77455 58410 5
+77455 232 28
+77455 7779 1
+77455 319 42
+77455 244 381
+77455 11534 22
+77455 7319 1
+77455 315 43
+77455 316 146
+77455 113 58
+77455 230 129
+77455 1618 2
+77455 339 36
+77455 314 19
+77455 63485 5
+58410 2313 4
+58410 244 49
+58410 231 1
+58410 7319 2
+58410 235 43
+58410 234 23
+58410 113 4
+58410 230 26
+58410 232 17
+58410 339 22
+58410 314 14
+62576 319 1
+62576 230 2
+62576 232 1
+62576 951 1
+62576 316 2
+62576 315 2
+62576 313 1
+29221 2313 1
+29221 319 1
+29221 244 18
+29221 231 2
+29221 316 5
+29221 315 2
+29221 235 7
+29221 313 1
+29221 234 1
+29221 113 2
+29221 230 14
+29221 339 13
+29221 314 1
+11149 2313 6
+11149 231 59
+11149 951 18
+11149 235 15
+11149 3593 3
+11149 234 26
+11149 2927 4
+11149 4378 8
+11149 232 17
+11149 7779 2
+11149 319 21
+11149 244 102
+11149 11534 19
+11149 11533 2
+11149 315 34
+11149 316 90
+11149 113 13
+11149 230 52
+11149 314 2
+7779 2313 27
+7779 231 98
+7779 1619 4
+7779 5044 2
+7779 951 32
+7779 235 86
+7779 3593 5
+7779 313 7
+7779 234 51
+7779 362 6
+7779 58410 1
+7779 4378 2
+7779 232 48
+7779 319 35
+7779 244 362
+7779 11534 43
+7779 315 112
+7779 316 182
+7779 113 85
+7779 230 92
+7779 339 22
+7779 51314 1
+7779 314 8
+7779 63485 1
+7779 942 3
+46277 2313 7
+46277 319 27
+46277 244 109
+46277 231 32
+46277 951 1
+46277 316 36
+46277 315 25
+46277 235 7
+46277 234 17
+46277 113 13
+46277 230 35
+46277 232 14
+46277 314 12
+46277 942 3
+63485 244 34
+63485 230 13
+63485 339 3
+63485 232 3
+63485 314 4
+63485 1170 3
+63485 235 11
+63485 234 8
+64890 2313 2
+64890 319 1
+64890 244 1
+64890 231 1
+64890 316 3
+64890 315 2
+64890 234 1
+64890 230 5
+64890 339 5
+85319 8846 2
+85319 2313 1
+85319 231 2
+85319 5859 1
+85319 30689 1
+85319 235 4
+85319 313 5
+85319 234 5
+85319 232 6
+85319 244 84
+85319 315 4
+85319 316 3
+85319 113 7
+85319 230 19
+85319 339 45
+85319 314 6
+15348 7943 2
+15348 230 1
+15348 316 3
+93172 2313 2
+93172 231 8
+93172 1170 27
+93172 235 3
+93172 234 4
+93172 25586 47
+93172 232 18
+93172 7779 3
+93172 8844 3
+93172 319 1
+93172 244 49
+93172 315 11
+93172 316 18
+93172 8845 1
+93172 113 23
+93172 230 2
+25586 25579 1
+25586 94684 1
+25586 232 2
+20775 319 7
+20775 244 19
+20775 231 26
+20775 316 27
+20775 315 8
+20775 8845 1
+20775 235 3
+20775 313 1
+20775 234 1
+20775 113 14
+20775 21069 11
+20775 232 30
+20775 7779 5
+20775 8844 3
+20775 1268 161
+24873 319 4
+24873 7943 2
+24873 113 12
+24873 230 9
+24873 951 4
+24873 235 4
+21069 319 5
+52462 244 40
+52462 231 20
+52462 1956 2
+52462 316 24
+52462 315 11
+52462 235 4
+52462 313 6
+52462 234 3
+52462 113 18
+52462 230 2
+52462 232 9
+52462 7779 3
+52462 942 1
+42638 244 21
+42638 231 5
+42638 1170 2
+42638 316 7
+42638 315 7
+42638 234 3
+42638 232 4
+42638 7779 2
+42638 40625 28
+42638 40601 6
+42638 40624 16
+40601 40625 3
+40601 40624 2
+40625 113 1
+40624 113 1
+40624 40625 2
+61678 319 2
+61678 941 1
+61678 1268 6
+61578 319 11
+61578 244 13
+61578 231 18
+61578 113 5
+61578 230 1
+61578 232 10
+61578 7779 3
+61578 316 21
+61578 315 4
+61578 942 1
+61578 61678 64
+7781 319 3
+7781 941 1
+7781 113 3
+7781 8845 1
+7781 8844 3
+7644 2313 1
+7644 231 23
+7644 951 1
+7644 235 1
+7644 234 2
+7644 232 10
+7644 7779 3
+7644 319 13
+7644 244 20
+7644 315 11
+7644 316 25
+7644 113 6
+7644 230 5
+7644 314 2
+7644 7781 69
+7644 942 1
+7165 2313 1
+7165 244 27
+7165 231 12
+7165 5044 3
+7165 951 2
+7165 3828 3
+7165 235 3
+7165 3593 2
+7165 234 7
+7165 113 7
+7165 230 9
+7165 232 9
+7165 1617 4
+7165 229 4
+7165 942 1
+20488 7943 2
+20488 113 12
+67760 319 1
+67760 244 36
+67760 231 6
+67760 1170 47
+67760 316 11
+67760 315 10
+67760 235 8
+67760 234 5
+67760 113 23
+67760 230 2
+67760 232 8
+67760 7779 3
+67760 314 1
+4905 2313 2
+4905 244 31
+4905 231 16
+4905 5044 5
+4905 1170 1
+4905 951 2
+4905 3828 6
+4905 235 3
+4905 3593 4
+4905 234 6
+4905 113 12
+4905 230 7
+4905 232 13
+4905 1617 7
+4905 229 7
+21157 2313 3
+21157 5135 2
+21157 231 12
+21157 21442 3
+21157 21441 6
+21157 951 8
+21157 3828 2
+21157 3587 53
+21157 235 6
+21157 3593 1
+21157 234 12
+21157 232 12
+21157 7779 3
+21157 3585 1
+21157 319 13
+21157 244 37
+21157 21443 1
+21157 11534 9
+21157 315 17
+21157 316 35
+21157 113 5
+21157 3589 7
+21157 230 15
+21157 339 20
+21157 314 9
+21157 1617 4
+21157 229 1
+21157 942 1
+22635 2313 1
+22635 319 6
+22635 244 36
+22635 231 9
+22635 22783 17
+22635 1170 1
+22635 951 5
+22635 316 14
+22635 315 15
+22635 235 1
+22635 234 2
+22635 113 45
+22635 230 9
+22635 339 1
+22635 7779 4
+22635 314 2
+50023 244 1
+50023 231 17
+50023 22783 20
+50023 315 10
+50023 234 1
+50023 113 13
+50023 230 1
+50023 232 2
+22783 113 2
+87390 319 1
+87390 244 18
+87390 231 14
+87390 230 2
+87390 232 6
+87390 7779 3
+87390 316 19
+87390 315 11
+87390 234 2
+86823 319 4
+86823 244 1
+86823 951 4
+86823 235 10
+86823 113 16
+86823 7943 2
+86823 230 17
+86823 232 2
+43874 244 4
+43874 235 1
+43874 234 1
+43874 113 27
+43874 230 1
+43874 232 1
+43874 942 42
+43874 8844 5
+47022 2313 1
+47022 231 64
+47022 951 11
+47022 235 11
+47022 3593 4
+47022 234 15
+47022 2927 4
+47022 4378 5
+47022 232 25
+47022 244 51
+47022 43874 73
+47022 11534 10
+47022 315 43
+47022 316 68
+47022 8845 9
+47022 31857 6
+47022 113 23
+47022 230 15
+47022 314 4
+47022 942 6
+16688 2313 1
+16688 231 8
+16688 951 2
+16688 3587 24
+16688 235 4
+16688 3593 3
+16688 234 3
+16688 232 8
+16688 7779 4
+16688 319 3
+16688 244 44
+16688 11534 2
+16688 315 16
+16688 316 19
+16688 1956 1
+16688 113 35
+16688 230 4
+16688 3589 7
+16688 942 2
+90729 2313 1
+90729 244 63
+90729 231 14
+90729 5044 3
+90729 1170 2
+90729 951 2
+90729 3828 3
+90729 235 4
+90729 3593 2
+90729 234 10
+90729 113 7
+90729 230 13
+90729 232 12
+90729 1617 4
+90729 314 3
+90729 229 5
+34274 34352 3
+34274 244 12
+34274 230 2
+34274 235 29
+34274 234 5
+31314 31315 5
+9769 1803 1
+9769 1804 1
+9769 113 5
+9769 1888 3
+9769 232 9
+9769 2444 1
+9769 1268 8
+9769 31315 22
+31315 2064 5
+31316 1888 1
+31316 232 1
+31316 31315 4
+31316 1268 2
+11965 2064 3
+11965 113 2
+11965 9769 4
+11965 1268 1
+1222 1223 3
+1222 1221 1
+1223 7 4
+44184 1224 31
+44184 1223 4
+44184 3280 2
+92650 62001 6
+92650 3280 2
+92650 7 1
+3294 1224 17
+3294 1223 51
+3294 3280 3
+1205 1224 2
+1205 1223 11
+1205 1222 7
+1205 3280 4
+1224 1223 2
+1224 3280 3
+1224 7 1
+75108 2064 2
+75108 1888 1
+75108 31093 2
+32327 2064 2
+32327 1888 1
+32327 31093 2
+2064 319 5
+17293 2064 2
+17293 31093 1
+17293 1268 1
+15405 2064 3
+15405 113 2
+15405 31093 5
+15405 1268 1
+31093 2064 9
+31093 2066 7
+31093 1888 2
+31093 113 1
+31093 1268 3
+48308 2064 3
+48308 31093 2
+87342 113 2
+87342 1803 1
+87342 232 2
+87342 1804 3
+1801 25804 1
+1801 113 1
+31236 319 2
+31236 23535 8
+31236 1803 1
+31236 31316 2
+31236 9769 9
+31236 113 10
+31236 31314 2
+31236 232 3
+31236 20379 5
+31236 31315 6
+1803 1888 1
+1803 232 7
+1803 1804 7
+1803 1268 2
+1804 2064 5
+9700 9771 10
+9700 113 14
+9700 1803 2
+9700 232 6
+9700 1804 4
+9700 9769 1
+9700 9770 1
+9700 942 1
+43798 31236 1
+43798 31314 1
+43798 31315 1
+87036 75415 2
+87036 1803 1
+87036 1804 4
+2491 2495 1
+2491 941 2
+42534 2491 2
+9522 2495 1
+59653 2495 1
+2495 113 4
+2495 313 1
+5121 2495 1
+9544 2491 2
+9546 2491 2
+44594 2495 1
+49335 2495 1
+81065 2495 1
+87993 2495 47
+87993 9544 8
+87993 9546 8
+5104 3280 3
+36716 2495 4
+36716 230 2
+36716 3280 6
+36716 36760 1
+36716 313 2
+83257 2495 4
+27931 319 1
+26489 37073 5
+26489 113 1
+26489 232 3
+26489 942 1
+30029 27931 1
+30029 26489 2
+21641 21644 45
+21641 313 3
+23774 21641 4
+23774 3280 20
+61889 10935 70
+61889 3280 12
+44179 1888 1
+44179 2444 1
+44181 9769 1
+44181 2444 1
+44181 31315 1
+2444 232 2
+2444 44179 1
+28118 2444 1
+24025 2066 9
+24025 231 3
+24025 2065 4
+66812 48535 4
+66812 9770 2
+23535 31380 1
+73834 23405 6
+9770 23535 10
+23405 9771 6
+23405 23535 4
+23405 9770 3
+74109 113 10
+74109 232 4
+74109 1170 3
+74109 942 2
+29207 113 6
+4192 319 2
+4192 2066 3
+4192 113 10
+4192 2444 1
+25804 113 16
+9425 2066 3
+9425 113 1
+30023 10935 9
+113 231 1
+113 2492 1
+113 232 1
+20379 232 4
+20379 44181 1
+19073 21473 2
+19073 319 1
+19073 4373 1
+19073 113 10
+19073 2066 5
+19073 232 1
+19073 2444 1
+19073 942 1
+8844 113 26
+8844 232 2
+8844 45210 2
+8844 8843 1
+8844 229 1
+8844 8845 14
+8844 24784 1
+8845 319 4
+17276 2064 2
+17276 17293 1
+17276 2066 4
+17276 232 4
+29206 113 2
+29206 20379 4
+29206 11965 2
+29206 9769 2
+29206 942 1
+55532 232 5
+29205 231 2
+29205 113 8
+29363 941 1
+941 319 5
+941 2495 1
+941 113 16
+941 2492 2
+941 230 1
+941 232 1
+26490 2065 2
+4113 2066 3
+4113 113 1
+4113 232 1
+4113 4192 1
+24784 2064 1
+24784 231 4
+24784 113 3
+24784 29206 1
+24784 29207 1
+24784 29205 5
+24784 11965 3
+24784 9769 2
+4373 19073 3
+4373 2066 5
+4373 113 14
+4373 2065 7
+4373 232 2
+4373 2444 2
+18434 2065 1
+18434 4373 1
+942 113 3
+942 232 4
+942 313 1
+7549 232 2
+2313 231 2
+2313 232 5
+2313 942 1
+1170 2313 2
+1170 113 2
+1170 232 6
+1170 942 6
+229 2313 2
+229 231 2
+229 313 16
+229 9425 1
+229 113 22
+229 230 7
+229 232 25
+229 942 1
+21473 21641 3
+21473 2495 2
+21473 1801 1
+21473 21644 1
+21473 313 1
+2359 113 9
+46594 113 4
+46594 9769 2
+230 4791 1
+230 231 1
+230 113 1
+230 232 2
+230 313 6
+7319 231 2
+7319 113 3
+7319 232 4
+1929 29363 1
+24743 313 6
+231 319 1
+231 941 1
+231 1956 1
+231 2927 4
+231 113 12
+231 1888 1
+231 2066 6
+231 230 3
+231 232 14
+231 2444 5
+231 1268 7
+15196 113 3
+15196 232 1
+1888 113 1
+232 2313 6
+232 941 2
+1268 113 14
+1268 230 2
+1268 232 10
+1058 113 2
+9432 9440 2
+12810 48621 1
+48621 1929 4
+12818 9440 2
+12818 1058 2
+2066 1929 1
+2066 113 10
+2066 12810 9
+2066 232 3
+2066 9440 18
+2066 313 3
+2066 7 3
+32045 2066 137
+32045 230 2
+32045 3280 21
+1955 1929 1
+1955 2066 4
+1955 113 7
+1955 5581 5
+1955 232 2
+1955 1956 3
+1955 313 1
+18013 232 2
+18013 1955 3
+1930 313 1
+1910 1930 3
+1910 1929 4
+28741 69919 2
+28745 69919 2
+69919 30233 2
+28746 1929 2
+28746 30233 6
+4791 1955 3
+4791 313 4
+14595 313 2
+14588 14595 7
+14588 113 1
+14588 313 1
+85092 1929 4
+2927 14595 13
+2927 231 1
+2927 1956 1
+2927 14588 4
+91872 113 3
+91872 1956 3
+91872 3280 22
+91872 1955 51
+3231 1930 18
+3231 3280 2
+1956 2066 4
+1956 941 1
+1956 113 1
+1956 230 1
+1956 232 1
+1956 313 2
+24920 2066 4
+24920 113 2
+32767 2313 5
+32767 113 3
+32767 20379 1
+32767 2444 3
+32767 1268 4
+5581 113 4
+5581 230 1
+5581 942 1
+83305 2495 1
+83305 113 3
+83305 1956 49
+2445 2066 9
+2445 231 2
+2445 113 7
+2445 230 6
+2445 232 6
+2445 2444 1
+2445 313 10
+51995 2066 3
+51995 113 1
+51995 232 4
+51995 45210 1
+51995 2444 1
+51995 1268 1
+92505 2065 18
+57450 21644 13
+57450 3280 2
+45759 7549 1
+45759 2313 1
+45759 319 2
+45759 941 2
+45759 3280 39
+45759 1268 1
+37569 3280 6
+63392 37073 1
+63392 3280 113
+63392 942 104
+63392 313 2
+81293 7549 34
+81293 3280 10
+94775 21473 9
+94775 3280 11
+68026 19073 1
+68026 1929 45
+68026 113 9
+68026 3280 27
+89924 231 1
+89924 3280 2
+92642 3280 2
+92642 1268 1
+283 319 3
+283 244 10
+283 231 2
+283 316 7
+283 315 4
+283 235 3
+283 313 2
+283 234 3
+283 230 5
+283 232 2
+283 314 1
+38836 1803 32
+38836 19953 1
+38836 1804 18
+38836 1801 1
+38836 9769 3
+38836 113 12
+38836 1888 1
+38836 232 11
+38836 2444 1
+38836 39144 1
+38836 1805 1
+38836 7 2
+38836 1268 5
+39144 231 1
+39144 113 3
+39144 232 3
+86596 319 6
+86596 244 8
+86596 113 1
+86596 234 6
+43813 113 1
+43813 232 1
+45688 231 2
+45688 230 2
+45688 316 3
+45688 315 1
+45688 8845 1
+45688 8844 1
+45688 1268 32
+73562 244 5
+73562 231 5
+73562 235 9
+73562 313 3
+73562 234 5
+73562 2066 10
+73562 113 5
+73562 230 1
+73562 232 8
+73562 229 4
+73562 942 1
+31677 2313 3
+31677 236 1
+31677 231 6
+31677 951 2
+31677 24025 2
+31677 313 2
+31677 234 4
+31677 10725 1
+31677 232 1
+31677 319 5
+31677 244 22
+31677 315 32
+31677 316 37
+31677 1602 1
+31677 31857 6
+31677 113 18
+31677 230 4
+31677 1617 2
+25598 244 4
+25598 231 1
+25598 1906 1
+25598 234 4
+25598 230 5
+25598 4378 2
+25598 232 5
+25598 339 21
+25598 942 1
+69961 2313 1
+69961 5135 1
+69961 236 8
+69961 231 5
+69961 1619 6
+69961 951 2
+69961 15199 4
+69961 313 8
+69961 234 1
+69961 232 11
+69961 2314 1
+69961 1607 1
+69961 319 3
+69961 941 3
+69961 237 4
+69961 315 8
+69961 316 6
+69961 113 4
+69961 1618 1
+69961 230 7
+69961 339 10
+69961 314 2
+69961 229 1
+69961 942 1
+64297 231 6
+64297 113 14
+64297 230 2
+64297 232 2
+64297 316 6
+64297 315 2
+64297 313 1
+26647 230 1
+26647 20379 9
+26647 316 2
+26647 315 1
+26647 2445 1
+6249 244 2
+6249 231 5
+6249 113 1
+6249 230 1
+6249 232 1
+6249 234 1
+55938 17054 5
+17054 319 9
+55619 113 7
+55611 55619 1
+55611 113 1
+87134 14595 2
+87134 231 10
+87134 951 2
+87134 313 5
+87134 28103 2
+87134 4378 10
+87134 10725 3
+87134 232 30
+87134 51996 1
+87134 8844 2
+87134 319 2
+87134 17172 1
+87134 315 10
+87134 316 11
+87134 1956 2
+87134 8845 1
+87134 113 13
+87134 230 8
+87134 28105 1
+87134 17163 6
+87134 14588 4
+51996 244 5
+51996 231 11
+51996 951 1
+51996 316 6
+51996 315 4
+51996 313 1
+51996 234 1
+51996 1888 1
+51996 113 3
+51996 230 1
+51996 232 5
+30689 244 4
+30689 230 8
+30689 232 5
+30689 314 2
+30689 235 5
+30689 234 6
+6603 231 13
+6603 113 13
+6603 1268 2
+64258 319 4
+64258 53254 2
+64258 244 3
+64258 231 2
+64258 315 2
+64258 3828 4
+64258 235 1
+64258 234 2
+64258 26489 2
+64258 113 8
+64258 232 1
+64258 1617 5
+53254 2313 5
+53254 55938 10
+53254 5135 2
+53254 236 1
+53254 231 66
+53254 1619 6
+53254 17054 6
+53254 64258 1
+53254 3828 4
+53254 235 12
+53254 234 14
+53254 26489 4
+53254 232 11
+53254 319 20
+53254 17692 1
+53254 244 63
+53254 315 15
+53254 316 19
+53254 113 10
+53254 230 30
+53254 1618 2
+53254 339 2
+53254 1617 5
+87316 319 2
+87316 244 14
+87316 230 1
+87316 314 1
+87316 316 3
+87316 315 2
+87316 235 2
+87316 234 2
+45601 2313 2
+45601 244 5
+45601 339 6
+45601 235 1
+58612 319 24
+58612 941 1
+58612 244 1
+58612 231 19
+58612 316 24
+58612 315 12
+58612 235 1
+58612 313 1
+58612 234 6
+58612 2554 13
+58612 113 10
+58612 230 4
+58612 232 13
+58612 314 1
+2554 941 2
+2554 244 9
+2554 230 1
+2554 232 4
+2554 316 2
+2554 315 7
+2554 235 2
+32508 2065 1
+32508 1956 1
+32508 235 2
+32508 1955 9
+32508 313 4
+37864 37867 1
+37867 319 4
+37867 244 6
+37867 236 4
+37867 32508 60
+37867 951 2
+37867 316 4
+37867 315 2
+37867 235 1
+37867 313 4
+37867 234 2
+37867 362 1
+37867 113 3
+37867 2065 3
+37867 232 4
+84447 231 1
+84447 230 4
+84447 232 1
+84447 316 2
+84447 315 4
+84447 313 1
+84447 234 2
+37044 230 8
+37044 234 4
+23361 113 1
+23361 951 1
+63659 2313 4
+63659 319 13
+63659 244 6
+63659 951 2
+63659 235 4
+63659 35668 5
+63659 313 1
+63659 234 3
+63659 113 6
+63659 1173 2
+63659 230 6
+63659 232 8
+63659 229 2
+63659 942 1
+35164 2313 8
+35164 231 11
+35164 951 7
+35164 235 24
+35164 313 11
+35164 234 27
+35164 362 10
+35164 232 51
+35164 3009 9
+35164 244 99
+35164 1171 1
+35164 315 68
+35164 316 58
+35164 35668 5
+35164 35667 1
+35164 2066 8
+35164 113 63
+35164 230 50
+35164 339 8
+35164 314 7
+35164 15200 2
+35164 942 3
+35668 3011 2
+35668 24053 1
+35668 235 15
+35668 313 5
+35668 234 6
+35668 1957 1
+35668 232 11
+35668 5301 5
+35668 319 8
+35668 244 56
+35668 113 2
+35668 5857 1
+35668 230 22
+35668 339 7
+35668 314 5
+35668 229 2
+35668 942 4
+51463 2313 25
+51463 319 3
+51463 244 69
+51463 951 2
+51463 316 7
+51463 315 6
+51463 234 2
+51463 230 11
+51463 232 1
+89862 3009 1
+89862 319 1
+89862 244 7
+89862 231 1
+89862 316 2
+89862 315 3
+89862 235 1
+89862 234 2
+89862 230 3
+89862 339 4
+61921 37073 4
+61921 231 1
+61921 234 8
+61921 1173 1
+61921 232 11
+61921 33559 1
+61921 319 3
+61921 3009 3
+61921 244 13
+61921 113 17
+61921 230 16
+61921 2359 1
+61921 17163 1
+61921 314 10
+61921 229 1
+61921 14588 3
+1076 1171 2
+1076 231 1
+1076 1170 1
+1076 951 4
+1076 316 5
+1076 315 1
+1076 234 1
+1076 362 1
+1076 113 3
+1076 1173 2
+1076 230 1
+1076 232 6
+1076 229 6
+82105 2313 1
+82105 244 12
+82105 231 11
+82105 951 2
+82105 316 20
+82105 315 10
+82105 234 3
+82105 362 1
+82105 6943 6
+82105 113 7
+82105 230 22
+82105 339 9
+82105 232 15
+82105 2545 1
+9928 319 3
+9928 231 4
+9928 1619 2
+9928 9957 1
+9928 234 4
+9928 113 5
+9928 230 1
+9928 1617 4
+9928 229 4
+9957 319 1
+9957 244 18
+9957 231 2
+9957 6249 6
+9957 235 6
+9957 6943 1
+9957 113 2
+9957 230 19
+9957 232 1
+25024 3009 1
+25024 319 2
+25024 244 4
+25024 235 3
+25024 313 1
+25024 234 4
+25024 113 11
+25024 230 6
+25024 1173 1
+25024 339 1
+25024 6997 1
+25024 314 2
+26040 319 2
+26040 244 2
+26040 231 2
+26040 3011 3
+26040 951 2
+26040 316 4
+26040 315 6
+26040 313 3
+26040 234 3
+26040 113 3
+26040 230 6
+26040 232 8
+26040 942 4
+25315 2313 1
+25315 244 2
+25315 230 2
+25315 339 1
+25315 314 1
+25315 234 1
+47658 25209 4
+47658 232 1
+47658 10284 1
+25209 232 3
+25209 229 2
+25209 313 1
+35667 2313 14
+35667 231 12
+35667 1170 2
+35667 951 7
+35667 235 8
+35667 313 10
+35667 234 14
+35667 232 30
+35667 3009 28
+35667 319 20
+35667 244 65
+35667 315 42
+35667 316 33
+35667 113 16
+35667 230 24
+35667 339 9
+35667 314 1
+35667 229 1
+35667 942 2
+24053 2313 3
+24053 319 3
+24053 244 10
+24053 316 3
+24053 315 4
+24053 235 2
+24053 313 4
+24053 234 2
+24053 1957 1
+24053 113 1
+24053 230 9
+24053 339 13
+24053 232 10
+24053 314 3
+24053 24163 2
+24053 942 3
+55753 244 3
+55753 2542 1
+55753 113 2
+55753 230 5
+55753 232 7
+55753 339 4
+55753 314 5
+55753 229 1
+3009 2313 9
+3009 236 1
+3009 951 2
+3009 24053 3
+3009 235 44
+3009 313 15
+3009 234 18
+3009 362 1
+3009 6943 6
+3009 1957 3
+3009 232 54
+3009 24163 1
+3009 319 20
+3009 244 77
+3009 3010 2
+3009 1956 4
+3009 315 1
+3009 316 3
+3009 35668 1
+3009 113 36
+3009 230 34
+3009 339 28
+3009 314 12
+3009 4192 2
+3009 942 7
+3009 25024 5
+3010 231 1
+3010 230 1
+3010 235 6
+3010 313 2
+25921 2313 4
+25921 236 1
+25921 231 1
+25921 951 1
+25921 3828 3
+25921 235 1
+25921 313 5
+25921 1957 1
+25921 232 10
+25921 20379 2
+25921 24163 6
+25921 3009 2
+25921 319 6
+25921 244 9
+25921 1171 2
+25921 316 2
+25921 113 28
+25921 230 4
+25921 314 1
+25921 1617 12
+25921 229 2
+25921 942 3
+6849 319 6
+6849 244 8
+6849 231 3
+6849 951 3
+6849 316 2
+6849 234 3
+6849 6943 5
+6849 113 14
+6849 1173 1
+6849 230 6
+6849 232 4
+6849 229 7
+6943 21473 4
+6943 38115 2
+6943 231 9
+6943 18311 1
+6943 951 2
+6943 2445 5
+6943 235 8
+6943 313 5
+6943 234 3
+6943 4378 2
+6943 232 30
+6943 51996 1
+6943 25921 1
+6943 20379 8
+6943 2444 1
+6943 1268 1
+6943 51995 1
+6943 319 20
+6943 244 50
+6943 33979 1
+6943 113 12
+6943 230 21
+6943 17163 3
+6943 229 1
+6943 14588 6
+6943 942 1
+43451 2313 3
+43451 319 15
+43451 244 23
+43451 231 9
+43451 951 7
+43451 316 25
+43451 315 33
+43451 235 7
+43451 313 1
+43451 234 8
+43451 6943 4
+43451 113 28
+43451 230 15
+43451 232 15
+92692 2313 7
+92692 231 9
+92692 951 6
+92692 235 9
+92692 313 3
+92692 234 3
+92692 3219 2
+92692 1957 4
+92692 232 12
+92692 24163 10
+92692 319 13
+92692 244 45
+92692 35668 2
+92692 113 23
+92692 230 12
+92692 229 10
+3219 231 3
+3219 230 1
+3219 316 1
+3219 229 1
+3219 313 1
+81978 46246 2
+81978 2313 1
+81978 55624 10
+81978 231 1
+81978 113 2
+81978 316 5
+81978 315 6
+55624 46246 1
+55624 231 2
+55624 113 5
+55624 28504 2
+55624 230 1
+55624 232 4
+28033 2313 1
+28033 14595 2
+28033 231 3
+28033 28104 1
+28033 316 4
+28033 315 2
+28033 313 4
+28033 28103 4
+28033 113 4
+28033 230 1
+28033 28105 1
+28033 17163 8
+28033 232 9
+28033 14588 4
+19936 244 3
+19936 1619 4
+19936 15200 1
+19936 234 1
+80556 2313 4
+80556 231 2
+80556 951 1
+80556 235 4
+80556 313 6
+80556 234 6
+80556 362 1
+80556 6943 1
+80556 232 14
+80556 319 21
+80556 244 43
+80556 315 17
+80556 316 18
+80556 113 7
+80556 230 26
+80556 314 2
+89060 2453 1
+89060 6997 2
+89060 229 2
+9983 244 17
+9983 1619 10
+9983 2445 1
+9983 235 10
+9983 234 19
+9983 113 2
+9983 1618 6
+9983 230 10
+9983 232 8
+9983 339 5
+9983 1617 12
+9983 314 2
+9983 2444 1
+56252 3009 1
+56252 2313 2
+56252 319 3
+56252 244 8
+56252 2543 1
+56252 234 1
+56252 6943 1
+56252 113 12
+56252 230 4
+56252 1173 1
+56252 232 14
+56252 2545 3
+56252 229 2
+2940 2445 9
+27305 3009 2
+27305 319 1
+27305 244 4
+27305 232 1
+27305 2445 11
+27305 313 1
+23608 3009 1
+23608 2313 1
+23608 319 1
+23608 244 6
+23608 2445 20
+23608 234 1
+23608 230 2
+23608 232 4
+56363 2445 8
+93555 2313 2
+93555 319 2
+93555 24053 1
+93555 2445 9
+93555 313 1
+93555 234 1
+93555 1957 1
+93555 232 2
+93555 942 2
+94844 2313 2
+94844 319 2
+94844 244 6
+94844 24053 1
+94844 2445 8
+94844 235 1
+94844 313 2
+94844 234 2
+94844 230 2
+94844 232 7
+80516 14595 1
+80516 113 2
+80516 14588 2
+80516 2445 6
+9549 113 6
+9549 232 1
+9549 2445 8
+62853 14595 1
+62853 14588 1
+62853 2445 5
+56295 113 8
+56295 232 1
+56295 2445 7
+32210 3009 2
+32210 319 1
+32210 244 4
+32210 232 2
+32210 2445 9
+32210 313 1
+95388 3009 1
+95388 2313 1
+95388 230 1
+95388 2445 14
+52087 3009 1
+52087 2313 2
+52087 319 1
+52087 232 3
+52087 2445 11
+52087 313 1
+71955 2313 2
+71955 319 1
+71955 230 1
+71955 232 5
+71955 2445 9
+71955 234 1
+86696 3009 2
+86696 319 1
+86696 244 4
+86696 232 1
+86696 2445 13
+86696 313 1
+10809 10874 5
+10809 232 1
+10809 10873 8
+10809 10871 2
+10809 10869 6
+10809 10870 4
+18445 1888 2
+18445 10874 2
+18445 232 1
+18445 1170 2
+18445 10869 4
+18445 10809 4
+10874 319 4
+10870 10872 1
+10871 18474 1
+10871 10874 4
+10871 10872 1
+10871 113 13
+10871 2066 3
+10871 232 10
+10871 1268 34
+10871 10870 3
+10872 18474 1
+10869 53254 1
+10869 26489 1
+10869 10874 8
+10869 232 1
+10869 10872 12
+10869 10870 1
+10873 10874 10
+10873 10872 1
+10873 10869 11
+10873 10870 4
+17587 17692 2
+17587 231 1
+17587 230 1
+17587 232 3
+17587 229 1
+17587 1268 20
+17587 234 1
+59333 2313 2
+59333 244 11
+59333 231 4
+59333 235 6
+59333 234 5
+59333 113 8
+59333 230 5
+59333 232 6
+59333 314 2
+59333 229 1
+1805 1929 1
+76985 113 2
+76985 28624 1
+76985 1805 1
+76985 234 1
+27932 234 5
+1600 234 4
+8878 234 4
+1601 234 4
+28624 236 41
+28624 58691 2
+28624 239 14
+28624 238 1
+28624 235 67
+28624 27932 1
+28624 4031 1
+28624 232 12
+28624 17580 1
+28624 1805 3
+28624 1615 12
+28624 1268 3
+28624 319 1
+28624 237 14
+28624 1613 6
+28624 1929 1
+28624 1609 2
+28624 5857 18
+28624 113 22
+28624 1618 4
+28624 230 10
+28624 339 30
+28624 1617 49
+28624 5858 3
+28624 7 1
+28624 2313 1
+28624 37073 1
+28624 1619 7
+28624 1170 1
+28624 1604 8
+28624 234 15
+28624 313 3
+28624 1624 9
+28624 1603 3
+28624 27805 5
+28624 1623 3
+28624 74952 1
+28624 28396 15
+28624 18541 7
+28624 244 157
+28624 7100 14
+28624 1614 8
+28624 1616 2
+28624 49228 5
+57229 234 4
+244 7549 3
+244 2313 1
+244 236 40
+244 231 2
+244 26490 17
+244 238 6
+244 235 1
+244 313 1
+244 234 4
+244 26489 1
+244 26494 1
+244 232 5
+244 1805 1
+244 1615 5
+244 1605 2
+244 1268 2
+244 319 3
+244 941 2
+244 1614 7
+244 237 30
+244 5857 2
+244 1616 4
+244 113 12
+244 339 3
+244 1612 2
+244 8843 1
+1602 234 4
+234 319 5
+1603 234 4
+64873 234 4
+1604 234 4
+86934 234 4
+1605 234 4
+5857 244 5
+5857 236 3
+44203 234 4
+7325 234 4
+43836 234 4
+235 5857 3
+235 244 30
+235 236 3
+37962 244 3
+37962 235 2
+10340 2066 6
+10340 1805 1
+6842 244 18
+6842 236 8
+6842 10340 12
+6842 113 3
+6842 2066 10
+6842 5857 1
+6842 230 2
+6842 232 1
+6842 339 15
+28396 244 7
+28396 236 2
+28396 22833 5
+28396 10340 5
+28396 6824 5
+28396 235 7
+28396 313 3
+28396 113 4
+28396 5857 3
+28396 339 7
+28396 10312 9
+28396 6842 11
+10312 244 12
+10312 236 2
+10312 10340 7
+10312 235 8
+10312 113 5
+10312 2066 8
+10312 5857 3
+10312 339 2
+22833 244 1
+22833 236 1
+22833 113 1
+22833 10340 1
+22833 339 5
+22833 314 1
+22833 6842 6
+6824 339 3
+6824 6842 6
+41071 236 8
+41071 239 3
+41071 1607 14
+41071 313 2
+6250 236 2
+6250 237 3
+6250 313 2
+6250 113 1
+6250 1623 2
+6250 232 1
+6250 339 1
+6250 3894 8
+6250 7537 3
+6250 1607 3
+339 244 4
+339 236 3
+339 7538 12
+339 2315 6
+339 7539 2
+339 7408 7
+339 313 4
+339 7540 2
+339 1623 1
+339 7537 1
+339 1629 4
+339 2314 4
+339 6250 3
+7537 1616 1
+7537 236 5
+7537 1623 3
+7537 1612 1
+7537 237 5
+7379 339 2
+7379 2314 1
+7379 1629 2
+7379 1607 2
+7379 313 3
+40599 339 6
+40599 7537 2
+2314 1629 3
+1629 339 2
+1629 7408 11
+1629 1607 2
+1629 313 1
+1606 237 4
+34909 236 6
+34909 1623 2
+34909 339 6
+34909 3894 1
+34909 1612 2
+34909 237 1
+34909 234 1
+3894 244 2
+3894 236 4
+3894 1623 2
+3894 237 1
+3894 7537 1
+7539 2313 1
+7539 339 33
+7539 2315 1
+7539 7537 4
+2315 3840 5
+2315 34909 2
+2315 941 5
+2315 236 15
+2315 237 11
+2315 7408 1
+2315 238 12
+2315 313 5
+2315 234 3
+2315 27932 1
+2315 339 5
+2315 7537 7
+2315 6250 1
+2315 1805 1
+2315 1607 9
+7538 314 3
+7538 7408 2
+7538 6250 4
+7538 1629 2
+7538 313 2
+3840 236 2
+3840 237 2
+3840 1604 1
+3840 1616 6
+3840 230 1
+3840 232 5
+3840 3894 1
+3840 7537 5
+5135 3840 1
+5135 3894 12
+5135 7537 2
+5135 313 1
+7408 244 4
+7408 236 4
+7408 1604 1
+7408 1623 2
+7408 232 3
+7408 339 35
+7408 7537 2
+7408 1607 3
+1607 244 2
+1607 236 3
+1607 237 2
+1607 7408 3
+1607 313 6
+1607 1623 2
+1607 339 1
+1607 7537 4
+1607 6250 13
+7540 339 1
+7540 232 1
+7540 7537 2
+30809 3840 1
+30809 5135 2
+30809 244 2
+30809 236 3
+30809 1623 4
+30809 3894 10
+30809 7537 1
+30809 313 1
+10695 244 2
+10695 236 3
+10695 1623 2
+10695 30809 6
+10695 3894 2
+1609 49327 3
+1609 231 1
+1609 7102 1
+1609 7103 1
+1609 7003 18
+1609 1888 1
+1609 1623 1
+1609 7098 5
+1609 232 3
+1609 7096 1
+1609 7101 1
+1609 1268 1
+1609 30315 2
+1609 7100 1
+1609 1602 3
+1609 7104 1
+1609 7099 1
+1609 113 2
+1609 7097 1
+1609 4195 1
+1609 83180 2
+7096 1609 1
+7096 1602 1
+1623 49327 3
+1623 6667 1
+1623 12002 3
+1623 49328 3
+1623 1602 7
+1623 1609 1
+1623 49329 1
+1623 1268 5
+7097 1609 1
+7097 1602 1
+7100 1609 1
+7100 30208 3
+7100 1602 4
+7100 1268 1
+7003 7100 3
+7003 7102 4
+7003 1602 9
+7003 7104 3
+7003 7103 3
+7003 7099 3
+7003 7097 3
+7003 1623 3
+7003 4195 3
+7003 7098 3
+7003 7096 3
+7003 7101 3
+7003 1268 11
+7103 1609 1
+7103 4207 1
+7103 1602 2
+7103 1268 1
+7102 1609 1
+7102 4207 1
+7102 1602 1
+7102 1268 1
+7101 1609 1
+7101 4207 1
+7101 1602 1
+7101 1268 1
+4195 1609 1
+4195 4207 1
+4195 1602 1
+4195 1268 1
+7104 1609 1
+7104 1602 3
+30208 1609 1
+30208 1602 2
+49327 1609 1
+49327 12012 2
+49327 1602 11
+12002 1609 1
+12002 12012 2
+12002 1602 2
+6667 1609 1
+6667 1602 1
+4207 1609 1
+4207 1602 2
+7099 1609 1
+7099 1602 2
+49329 1609 1
+49329 1602 1
+7098 30315 3
+7098 1609 1
+7098 83180 3
+7098 1602 1
+7098 1268 2
+83180 1609 1
+83180 1602 2
+49328 1609 1
+49328 12012 2
+49328 1602 1
+30315 1609 1
+30315 1602 2
+77402 49327 7
+77402 28851 2
+77402 1602 1
+77402 234 1
+77402 1609 1
+77402 1624 8
+77402 12012 2
+77402 232 4
+77402 1836 3
+28851 113 3
+1282 236 79
+1282 1619 2
+1282 239 1
+1282 1604 8
+1282 235 1
+1282 234 14
+1282 1624 7
+1282 1610 4
+1282 1603 3
+1282 1601 7
+1282 1623 11
+1282 232 12
+1282 1611 64
+1282 1600 1
+1282 1615 4
+1282 1605 1
+1282 244 73
+1282 1614 10
+1282 237 23
+1282 1613 2
+1282 1609 1
+1282 1616 11
+1282 113 32
+1282 1618 27
+1282 1606 11
+1282 339 24
+1282 1617 4
+1282 1612 24
+1282 1629 1
+1282 7 1
+59562 244 1
+59562 236 6
+59562 1619 1
+59562 1282 14
+59562 235 8
+59562 1624 3
+59562 5857 3
+59562 113 4
+59562 1618 2
+59562 339 6
+59562 1615 2
+58691 1624 6
+58691 1609 1
+58691 1623 1
+58691 232 1
+1624 232 1
+76475 244 14
+76475 236 20
+76475 1619 1
+76475 237 3
+76475 1613 3
+76475 238 1
+76475 235 13
+76475 1609 1
+76475 5857 6
+76475 1623 1
+76475 1618 2
+76475 339 9
+76475 1612 1
+76475 1615 2
+76475 7 1
+76475 1605 1
+4374 236 1
+4374 4387 2
+4374 339 1
+4374 4376 2
+4375 4387 2
+4375 1268 4
+4376 232 2
+4376 1956 5
+4376 1955 10
+4376 1268 2
+4376 313 1
+10923 1956 6
+4387 236 2
+4387 1956 15
+4387 1613 2
+4387 4376 4
+4387 234 3
+4387 113 1
+4387 1618 5
+4387 230 1
+4387 232 1
+4387 339 3
+4387 1617 4
+4387 314 2
+4387 10923 2
+4387 1805 1
+4387 1955 3
+4387 1268 4
+4377 244 4
+4377 236 4
+4377 237 1
+4377 1956 5
+4377 235 1
+4377 4376 4
+4377 234 1
+4377 113 2
+4377 10923 2
+4377 1955 5
+2544 1624 4
+2544 1609 1
+2544 113 2
+2544 12012 1
+2544 232 1
+2544 1836 2
+1862 72089 2
+1862 36627 4
+36609 36627 4
+72089 1617 2
+72089 36627 9
+72089 36609 2
+1610 236 144
+1610 24745 8
+1610 238 15
+1610 234 14
+1610 1624 30
+1610 2544 2
+1610 1623 77
+1610 232 43
+1610 1615 34
+1610 1268 1
+1610 1614 6
+1610 237 39
+1610 1613 7
+1610 1609 1
+1610 113 198
+1610 1617 1
+1610 15196 10
+1610 7 4
+1611 3830 2
+1611 3828 2
+1611 234 2
+1611 1609 4
+1611 1624 7
+1611 113 42
+1611 1601 11
+1611 1623 4
+1611 2544 1
+1611 1617 3
+1612 236 25
+1612 3830 2
+1612 1604 8
+1612 238 7
+1612 235 1
+1612 15199 2
+1612 313 3
+1612 234 3
+1612 1601 4
+1612 1623 11
+1612 232 7
+1612 10695 2
+1612 1611 24
+1612 1605 3
+1612 244 36
+1612 941 1
+1612 1614 6
+1612 237 42
+1612 1613 10
+1612 1616 16
+1612 113 13
+1612 1606 1
+1612 339 2
+1612 1629 1
+5858 1616 2
+5858 1614 4
+5858 232 3
+5858 15200 1
+5858 1615 2
+5858 1268 2
+15199 236 3
+236 24745 9
+236 239 13
+236 238 4
+236 15199 7
+236 234 1
+236 24743 1
+236 1623 3
+236 232 12
+236 1615 38
+236 1268 23
+236 319 2
+236 244 2
+236 941 2
+236 15197 13
+236 1614 10
+236 237 90
+236 1613 6
+236 1609 1
+236 113 6
+236 1616 3
+236 230 3
+236 15200 20
+236 15196 5
+74952 236 46
+74952 24745 10
+74952 1614 4
+74952 239 4
+74952 237 23
+74952 234 1
+74952 113 2
+74952 232 2
+74952 1615 46
+237 236 5
+237 15200 5
+237 1613 1
+237 15199 3
+237 1268 2
+238 3830 3
+238 1268 4
+1613 2064 1
+1613 1602 1
+1613 238 2
+1613 7104 2
+1613 15405 1
+1613 1609 2
+1613 2066 3
+1613 113 1
+1613 1623 1
+1613 232 1
+1613 15196 3
+1613 1268 1
+18541 2064 1
+18541 7100 3
+18541 9769 1
+18541 4207 2
+18541 1602 4
+18541 15405 1
+18541 1609 4
+18541 113 1
+18541 2066 3
+18541 232 1
+18541 15196 3
+18541 7101 1
+18541 1268 2
+24745 236 3
+24745 232 1
+24745 15199 2
+24745 1268 2
+15197 2313 2
+15197 942 8
+15197 1268 7
+1614 230 4
+1614 1268 3
+239 2064 2
+239 236 35
+239 4207 2
+239 1604 3
+239 234 1
+239 232 2
+239 1615 18
+239 1268 2
+239 15197 4
+239 1614 5
+239 7100 1
+239 9769 1
+239 1602 8
+239 15405 2
+239 1609 2
+239 113 14
+239 1616 5
+239 2066 3
+239 4195 1
+239 15196 5
+1615 236 4
+1615 1614 8
+1615 232 2
+1615 15200 2
+1615 15199 2
+1615 1268 2
+15200 1613 1
+15200 942 1
+1616 236 40
+1616 15197 6
+1616 1614 4
+1616 239 11
+1616 237 18
+1616 1613 1
+1616 15199 3
+1616 113 19
+1616 232 8
+1616 1612 2
+1616 15200 2
+1616 15196 5
+1616 5858 11
+1616 1268 8
+4031 319 4
+17580 244 2
+17580 313 3
+17580 1929 2
+17580 113 2
+17580 4031 7
+17580 230 1
+17580 942 2
+17580 1268 7
+51541 18006 1
+51541 3840 3
+51541 37834 1
+51541 22974 1
+51541 18005 1
+51541 26600 3
+51541 339 3
+51541 37833 1
+51541 26148 2
+51541 37831 4
+51541 26601 1
+51541 26603 1
+51541 1607 1
+335 340 1
+335 341 2
+76872 72056 1
+1201 63327 8
+1201 18006 1
+1201 37834 2
+1201 37496 1
+1201 1202 2
+1201 76871 4
+1201 43296 1
+1201 37519 3
+1201 76872 1
+1201 26148 3
+1201 37831 15
+1201 43298 1
+1201 26149 2
+1201 26150 6
+1201 1614 1
+1201 63328 1
+1201 43297 6
+1201 35884 11
+1201 43289 1
+1201 26117 6
+1201 43290 5
+1201 43294 1
+1201 48974 1
+1201 36849 1
+1201 46225 1
+1201 43293 3
+1201 335 1
+1201 26603 2
+1201 37832 1
+1201 5858 13
+1202 319 1
+1202 1619 1
+1202 340 6
+1202 22974 1
+1202 1617 1
+1202 22975 8
+1202 5858 3
+1202 234 1
+46225 340 1
+46225 46228 2
+48974 278 1
+1186 1201 1
+1186 1202 1
+1186 1200 1
+48976 2313 10
+48976 236 5
+48976 9849 2
+48976 1619 3
+48976 3828 1
+48976 235 19
+48976 234 5
+48976 1623 4
+48976 1805 1
+48976 1268 2
+48976 244 124
+48976 237 2
+48976 26951 12
+48976 1609 2
+48976 113 6
+48976 49228 5
+48976 230 30
+48976 1618 2
+48976 339 38
+48976 314 3
+48976 1617 12
+48976 7 1
+6593 22983 2
+6593 113 5
+30326 1624 3
+30326 1609 1
+30326 113 1
+30326 2544 1
+30326 1623 2
+30326 1836 1
+3828 234 4
+22983 113 2
+22983 1617 1
+22983 1836 1
+19989 2064 1
+19989 319 3
+19989 12002 2
+19989 234 1
+19989 1609 5
+19989 1624 2
+19989 113 12
+19989 2544 1
+19989 1623 4
+19989 17276 3
+19989 232 2
+19989 1617 2
+19989 1836 2
+1836 1862 1
+1836 1624 5
+1836 1609 2
+1836 113 1
+1836 1623 4
+1617 2313 4
+1617 1609 3
+1617 113 32
+1617 6593 3
+1617 232 11
+1617 1836 10
+1617 1602 2
+1617 3828 25
+25801 25804 3
+2467 2495 1
+27805 319 6
+27805 244 4
+27805 234 2
+27805 1929 2
+27805 27931 3
+27805 27932 4
+27805 113 1
+27805 232 1
+27805 1617 1
+26949 319 1
+26949 244 11
+26949 236 2
+26949 113 3
+26949 235 1
+26949 234 2
+26950 2064 2
+26950 236 3
+26950 231 2
+26950 239 2
+26950 4207 2
+26950 234 1
+26950 7103 2
+26950 1623 4
+26950 232 3
+26950 6667 2
+26950 1602 1
+26950 9769 1
+26950 26951 5
+26950 1609 5
+26950 15405 1
+26950 113 9
+26950 49329 2
+26950 15200 1
+1619 319 2
+1619 37073 18
+1619 244 2
+1619 236 7
+1619 7325 4
+1619 1613 4
+1619 1282 3
+1619 235 6
+1619 234 24
+1619 113 21
+1619 1618 2
+1619 339 4
+1619 1612 1
+1619 1611 5
+26951 244 20
+26951 236 7
+26951 237 2
+26951 3828 2
+26951 2445 2
+26951 235 5
+26951 234 3
+26951 1603 1
+26951 113 18
+26951 232 4
+26951 26949 1
+26951 1617 4
+26951 8843 1
+26951 2444 1
+26951 1268 1
+1906 244 7
+1906 113 1
+1906 230 1
+1906 235 9
+1906 234 4
+314 2313 5
+314 244 21
+314 236 2
+314 1619 2
+314 235 11
+314 313 2
+314 113 2
+314 230 2
+314 232 9
+314 339 18
+4378 2927 2
+4378 244 1
+4378 231 42
+4378 113 1
+4378 230 1
+4378 232 5
+49228 1624 3
+49228 236 8
+49228 237 2
+26952 244 4
+26952 236 4
+26952 230 1
+26952 239 1
+43752 1806 1
+43752 315 1
+73892 244 23
+73892 232 2
+73892 316 2
+73892 315 2
+73892 234 1
+89435 244 7
+89435 951 5
+89435 316 2
+89435 315 4
+89435 235 2
+89435 234 1
+89435 43752 1
+89435 5857 1
+89435 113 26
+89435 230 6
+89435 339 2
+69081 231 2
+69081 1803 2
+69081 1804 9
+69081 235 2
+69081 234 5
+69081 1624 5
+69081 1610 11
+69081 1888 1
+69081 232 15
+69081 1805 3
+69081 4016 3
+69081 319 4
+69081 244 6
+69081 9769 4
+69081 113 34
+69081 230 6
+69081 339 5
+69081 26950 5
+69081 942 2
+32780 319 4
+32780 244 3
+32780 231 8
+32780 1619 2
+32780 951 1
+32780 316 13
+32780 315 12
+32780 235 2
+32780 234 3
+32780 1610 12
+32780 1888 1
+32780 113 16
+32780 230 3
+32780 232 2
+32780 20379 1
+43730 15407 1
+43730 43752 1
+43730 244 2
+43730 113 2
+43730 232 2
+43730 15360 3
+43730 315 1
+22823 73884 1
+22823 244 2
+22823 951 2
+22823 316 2
+22823 315 4
+22823 362 1
+22823 113 1
+22823 230 1
+22823 1617 1
+22822 941 1
+22822 244 3
+22822 113 5
+22822 315 3
+22822 234 1
+73884 234 4
+15407 244 2
+15407 113 7
+15407 22822 3
+15407 22823 4
+15407 22824 2
+15407 315 1
+15407 1268 1
+22824 113 1
+22824 232 2
+22824 1956 1
+22824 15200 4
+15360 15407 3
+15360 2064 2
+15360 7100 1
+15360 7102 1
+15360 9769 1
+15360 4207 2
+15360 1602 2
+15360 15405 1
+15360 1609 2
+15360 113 3
+15360 2066 3
+15360 7 1
+15360 1268 1
+3011 319 3
+3011 244 33
+3011 236 12
+3011 1956 6
+3011 316 1
+3011 235 18
+3011 313 1
+3011 234 6
+3011 113 18
+3011 230 7
+3011 339 7
+3011 232 8
+3011 314 2
+3011 942 4
+3011 1268 3
+48623 2313 1
+48623 236 15
+48623 1619 14
+48623 951 11
+48623 3828 15
+48623 235 8
+48623 234 5
+48623 4031 1
+48623 232 3
+48623 17580 1
+48623 1805 1
+48623 244 59
+48623 315 3
+48623 316 9
+48623 113 15
+48623 230 46
+48623 26952 1
+48623 339 22
+48623 1617 15
+62117 231 11
+62117 951 2
+62117 313 9
+62117 234 2
+62117 4031 1
+62117 1888 1
+62117 232 2
+62117 17580 6
+62117 1805 1
+62117 1268 9
+62117 244 23
+62117 315 13
+62117 316 20
+62117 27986 6
+62117 113 14
+62117 230 7
+62117 339 1
+62117 48623 33
+45634 113 1
+45634 1803 1
+45634 1804 3
+20466 1624 3
+20466 1609 1
+20466 113 1
+20466 2544 2
+20466 1623 2
+27230 2313 1
+27230 244 12
+27230 113 3
+27230 230 12
+27230 339 3
+27230 232 20
+27230 314 5
+27230 234 1
+42751 244 12
+42751 113 1
+42751 17524 2
+42751 230 5
+42751 232 1
+42751 314 2
+42751 235 5
+17523 2313 3
+17523 319 1
+17523 244 48
+17523 17524 4
+17523 951 3
+17523 235 19
+17523 313 1
+17523 234 5
+17523 113 6
+17523 230 22
+17523 232 17
+17523 314 8
+17523 17457 3
+80259 319 8
+80259 244 41
+80259 231 18
+80259 17524 14
+80259 11534 6
+80259 951 4
+80259 316 18
+80259 315 26
+80259 235 5
+80259 313 13
+80259 234 14
+80259 17523 14
+80259 113 3
+80259 230 27
+80259 232 7
+80259 314 3
+80259 42751 2
+17524 17523 16
+17524 244 9
+17524 230 10
+17524 232 3
+17524 314 5
+17524 235 9
+17524 3593 1
+17524 234 1
+6726 319 7
+6726 244 26
+6726 235 21
+6726 234 7
+6726 113 7
+6726 230 10
+6726 232 2
+6726 314 1
+6726 2170 2
+59628 230 2
+59628 951 1
+59628 316 2
+59628 229 2
+25324 319 1
+25324 244 2
+25324 235 4
+25324 234 1
+25324 113 1
+25324 230 7
+25324 232 1
+25324 314 3
+25324 6726 1
+82232 2313 25
+82232 231 134
+82232 5859 1
+82232 1906 1
+82232 951 46
+82232 25324 1
+82232 235 24
+82232 313 10
+82232 234 33
+82232 232 34
+82232 2170 4
+82232 319 35
+82232 244 250
+82232 17524 10
+82232 315 95
+82232 316 158
+82232 17523 3
+82232 113 46
+82232 230 127
+82232 3592 4
+82232 339 11
+82232 314 17
+82232 6726 89
+20246 244 9
+20246 231 1
+20246 316 2
+20246 315 2
+20246 235 2
+20246 234 1
+20246 230 1
+20246 232 2
+20039 2313 5
+20039 231 34
+20039 951 2
+20039 235 8
+20039 313 2
+20039 234 33
+20039 20246 10
+20039 232 28
+20039 319 6
+20039 244 84
+20039 315 6
+20039 316 34
+20039 11534 2
+20039 17523 7
+20039 113 4
+20039 230 53
+20039 339 6
+20039 314 4
+20039 17457 12
+17457 319 5
+17457 244 9
+17457 17524 10
+17457 951 3
+17457 315 3
+17457 235 6
+17457 313 2
+17457 234 2
+17457 17523 3
+17457 113 4
+17457 230 5
+17457 314 1
+17457 6726 1
+17457 2170 3
+19969 244 4
+19969 231 1
+19969 230 2
+19969 316 1
+19969 315 3
+19969 6726 1
+19969 234 1
+2170 2313 10
+2170 319 8
+2170 244 44
+2170 316 2
+2170 315 4
+2170 235 18
+2170 234 10
+2170 113 8
+2170 230 4
+2170 339 5
+2170 232 2
+2170 314 1
+84354 2313 1
+84354 319 2
+84354 244 2
+84354 231 4
+84354 951 3
+84354 316 9
+84354 315 3
+84354 234 1
+84354 230 6
+84354 339 4
+84354 232 2
+84354 314 3
+95435 244 11
+95435 230 1
+95435 314 1
+10183 2313 10
+10183 244 47
+10183 231 3
+10183 235 5
+10183 234 11
+10183 113 24
+10183 4378 1
+10183 230 10
+10183 1173 1
+10183 232 11
+10183 10284 2
+25573 6707 1
+25573 1960 2
+25573 1959 4
+1957 319 5
+3657 319 1
+3657 1957 3
+3657 25573 6
+3657 1959 2
+12889 1961 1
+12889 2495 1
+12889 1960 2
+12889 231 1
+12889 1956 4
+12889 113 1
+12889 12057 2
+12889 2444 1
+12889 1268 1
+12889 1955 3
+1958 231 3
+1958 113 1
+1958 12889 4
+1958 24254 2
+1958 1959 13
+24163 2066 6
+24163 1957 8
+24163 25406 3
+24163 2444 1
+24163 1268 2
+1959 1961 1
+1959 1960 83
+1959 231 3
+1959 25573 15
+1959 3828 3
+1959 313 5
+1959 1957 8
+1959 1958 7
+1959 2065 9
+1959 232 13
+1959 2444 2
+1959 1268 22
+1959 319 3
+1959 6707 2
+1959 12889 4
+1959 315 3
+1959 113 4
+1959 2066 6
+1959 230 1
+1959 1617 3
+89678 319 2
+89678 1960 1
+89678 1957 2
+89678 113 1
+89678 1959 2
+61730 4016 2
+61730 951 3
+61730 315 1
+61730 3974 1
+61730 1959 1
+61730 362 1
+61730 1957 1
+61730 12945 2
+24254 319 1
+24254 1957 2
+24254 1959 4
+6707 1959 4
+12056 1960 2
+12056 941 1
+12056 12057 2
+12056 1959 1
+12056 1955 3
+12056 313 1
+34169 1960 4
+34169 231 1
+34169 1958 8
+34169 25573 2
+34169 1956 3
+34169 1959 2
+34169 1268 2
+1960 230 2
+1960 1956 3
+1960 315 4
+1960 229 5
+1960 235 3
+1960 1955 9
+12057 1960 2
+12057 25573 2
+12057 1959 1
+1961 1960 3
+1961 25573 4
+1961 1956 1
+1961 1959 1
+12058 1960 3
+12058 12057 2
+12058 1956 6
+12058 1959 1
+12058 1268 1
+38001 1961 2
+38001 1960 6
+38001 12889 2
+38001 1959 5
+38001 313 2
+38001 113 4
+38001 1958 5
+38001 232 1
+38001 942 1
+38001 1268 1
+39183 1961 2
+39183 941 1
+39183 12889 1
+39183 12058 1
+39183 1959 1
+39183 1958 7
+39183 12056 1
+39183 1268 1
+39183 1955 3
+55509 1961 2
+55509 1960 1
+55509 12889 1
+55509 12058 1
+55509 1959 1
+55509 1958 6
+55509 3657 1
+55509 12056 1
+55509 1268 1
+55509 1955 8
+22560 1961 2
+22560 1960 3
+22560 12889 3
+22560 4373 1
+22560 1959 2
+22560 1958 6
+22560 942 1
+22560 18434 3
+22560 1268 1
+39551 1961 2
+39551 1960 59
+39551 231 2
+39551 25573 14
+39551 951 1
+39551 313 1
+39551 1958 7
+39551 232 13
+39551 1955 5
+39551 1268 13
+39551 319 2
+39551 6707 1
+39551 315 1
+39551 316 3
+39551 1956 4
+39551 1959 28
+39551 113 2
+39551 39667 21
+39551 230 5
+23365 1961 2
+23365 319 2
+23365 6707 1
+23365 1960 15
+23365 25573 4
+23365 1956 4
+23365 951 1
+23365 1959 8
+23365 1958 6
+23365 1955 4
+87102 1961 2
+87102 1960 10
+87102 25406 3
+87102 1959 1
+87102 1957 1
+87102 1958 7
+87102 24163 1
+87102 1268 1
+87102 1955 14
+66555 1961 2
+66555 6707 3
+66555 1960 17
+66555 1959 22
+66555 113 5
+66555 1957 1
+66555 1958 7
+66555 232 2
+66555 3657 2
+66555 2444 1
+66555 1268 1
+39667 1960 4
+39667 231 1
+39667 1958 2
+39667 1956 3
+39667 1268 1
+41937 1961 2
+41937 1960 4
+41937 1958 3
+41937 1956 4
+41937 1959 4
+61380 1961 2
+61380 319 1
+61380 6707 1
+61380 1960 8
+61380 12889 2
+61380 1956 5
+61380 951 1
+61380 315 1
+61380 1959 2
+61380 362 1
+61380 113 2
+61380 1958 6
+61380 3657 2
+61380 1955 10
+35787 1960 1
+35787 1958 2
+35787 25573 2
+35787 6711 1
+35787 1959 1
+35787 1268 2
+63281 2065 1
+63235 1961 2
+63235 1960 10
+63235 941 1
+63235 12889 1
+63235 63281 3
+63235 25573 2
+63235 1956 10
+63235 1959 6
+63235 1958 9
+63235 3657 1
+63235 232 1
+63235 1268 2
+63235 1955 4
+90678 1961 2
+90678 1960 10
+90678 941 1
+90678 12889 3
+90678 63281 3
+90678 25573 2
+90678 1956 5
+90678 1959 6
+90678 1958 8
+90678 3657 1
+90678 232 1
+90678 1268 2
+90678 1955 9
+6711 113 1
+6711 1959 2
+6710 1960 2
+6710 1958 3
+6710 25573 3
+6710 6711 1
+6710 1959 3
+6710 1268 3
+16355 1961 2
+16355 1960 4
+16355 941 1
+16355 1958 4
+16355 25573 2
+16355 1959 5
+16355 1955 4
+16355 1268 2
+10417 1961 2
+10417 1960 6
+10417 25573 2
+10417 1956 8
+10417 1959 5
+10417 1958 4
+10417 232 1
+10417 1268 2
+6675 6710 4
+6675 1961 2
+6675 1958 3
+6675 25573 2
+6675 6711 1
+6675 1959 5
+6675 1268 5
+80830 1961 2
+80830 1960 8
+80830 12889 1
+80830 25573 2
+80830 1956 5
+80830 1959 5
+80830 1958 4
+80830 1268 2
+80830 1955 4
+12848 1961 2
+12848 1960 7
+12848 12889 1
+12848 1958 6
+12848 25573 2
+12848 1959 5
+12848 1955 4
+12848 1268 2
+72581 1960 2
+72581 11570 3
+72581 1958 5
+72581 1956 3
+72581 1959 1
+72581 1955 4
+11557 11570 3
+11557 1958 4
+11557 1959 1
+68209 1961 2
+68209 1960 2
+68209 1958 5
+68209 235 1
+68209 1959 1
+68209 1955 6
+59078 1961 2
+59078 319 1
+59078 1960 2
+59078 244 2
+59078 1959 3
+59078 234 1
+59078 113 1
+59078 1958 6
+59078 1955 5
+95137 319 2
+95137 6707 1
+95137 1960 2
+95137 1959 2
+95137 11570 3
+95137 1958 6
+95137 4387 1
+95137 4374 2
+95137 10923 2
+93950 319 2
+93950 6707 1
+93950 1960 2
+93950 1959 2
+93950 1958 6
+93950 11570 3
+93950 4387 1
+93950 10923 2
+93950 4375 2
+72440 319 2
+72440 6707 1
+72440 1960 5
+72440 1956 4
+72440 1959 2
+72440 11570 3
+72440 1958 7
+72440 1268 4
+72440 1955 3
+67596 26951 3
+67596 1960 5
+67596 11570 3
+67596 1958 10
+67596 26949 1
+67596 2444 1
+67596 1956 3
+67596 1959 1
+67596 1955 4
+32278 319 2
+32278 6707 1
+32278 1960 2
+32278 4377 3
+32278 1959 2
+32278 1958 5
+32278 11570 3
+32278 10923 2
+11570 1961 2
+11570 1960 3
+11570 1956 3
+11570 1805 1
+11570 1959 1
+70318 1961 2
+70318 1960 3
+70318 1958 5
+70318 314 1
+70318 1959 1
+70318 1955 9
+61360 2313 1
+61360 1961 2
+61360 1960 5
+61360 1958 8
+61360 314 2
+61360 1959 1
+61360 1955 12
+52425 319 1
+52425 6707 1
+52425 1960 9
+52425 1956 12
+52425 1959 2
+52425 234 1
+52425 11570 3
+52425 230 2
+52425 1958 5
+52425 339 1
+52425 1955 15
+91377 319 1
+91377 6707 1
+91377 1960 7
+91377 244 1
+91377 1956 8
+91377 1959 2
+91377 234 1
+91377 11570 3
+91377 230 1
+91377 1958 5
+91377 3657 2
+91377 1955 12
+76912 1961 2
+76912 319 1
+76912 6707 1
+76912 1960 7
+76912 1956 8
+76912 235 1
+76912 1959 2
+76912 234 1
+76912 1958 5
+76912 3657 1
+76912 1955 15
+56594 1961 2
+56594 319 1
+56594 6707 1
+56594 1960 5
+56594 1956 8
+56594 235 1
+56594 1959 2
+56594 234 1
+56594 1958 5
+56594 3657 1
+56594 1955 7
+77374 1961 2
+77374 1960 5
+77374 244 1
+77374 1958 5
+77374 3657 3
+77374 1956 11
+77374 1959 1
+77374 1955 4
+85109 6707 1
+85109 1960 3
+85109 1956 4
+85109 1959 1
+85109 1958 5
+85109 11570 3
+85109 3657 1
+85109 1955 7
+36773 1961 2
+36773 1960 3
+36773 1958 5
+36773 314 1
+36773 1959 1
+36773 1955 9
+70337 1961 2
+70337 319 1
+70337 1960 3
+70337 244 1
+70337 1956 4
+70337 1959 2
+70337 234 1
+70337 1958 5
+70337 3657 1
+70337 1955 4
+20674 319 1
+20674 6707 1
+20674 1960 4
+20674 1956 8
+20674 1959 2
+20674 234 1
+20674 11570 3
+20674 1958 5
+20674 3657 1
+20674 1955 3
+27613 319 1
+27613 1960 3
+27613 1956 4
+27613 1959 2
+27613 234 1
+27613 1958 5
+27613 11570 3
+27613 3657 1
+27613 1955 4
+84976 1961 2
+84976 319 1
+84976 6707 1
+84976 1960 4
+84976 244 1
+84976 1956 8
+84976 1959 2
+84976 234 1
+84976 1958 5
+84976 3657 1
+84976 1955 4
+26158 1961 2
+26158 319 1
+26158 1960 3
+26158 244 1
+26158 1956 4
+26158 1959 2
+26158 234 1
+26158 1958 5
+26158 3657 1
+26158 1955 4
+37591 1960 3
+37591 11570 3
+37591 1958 6
+37591 1956 3
+37591 1959 1
+37591 1955 4
+36591 1961 2
+36591 1960 2
+36591 1958 6
+36591 3657 1
+36591 1959 2
+36591 1955 4
+7334 1961 2
+7334 1960 3
+7334 244 1
+7334 1958 5
+7334 3657 2
+7334 1956 4
+7334 1959 1
+7334 1955 8
+28481 1961 2
+28481 1960 3
+28481 244 1
+28481 1958 5
+28481 3657 2
+28481 1956 4
+28481 1959 1
+28481 1955 8
+43759 319 1
+43759 1960 3
+43759 1956 4
+43759 1959 2
+43759 234 1
+43759 1958 5
+43759 11570 3
+43759 3657 1
+43759 1955 4
+3636 1961 2
+3636 319 1
+3636 1960 3
+3636 244 1
+3636 1956 4
+3636 1959 2
+3636 234 1
+3636 1958 5
+3636 3657 1
+3636 1955 4
+67629 1961 2
+67629 319 1
+67629 1960 2
+67629 1958 5
+67629 1617 1
+67629 3828 1
+67629 1959 2
+67629 1955 3
+94428 1961 2
+94428 319 1
+94428 1960 3
+94428 1958 5
+94428 1617 1
+94428 3828 1
+94428 1959 2
+94428 1955 4
+45890 1961 2
+45890 319 1
+45890 1960 3
+45890 1958 5
+45890 1617 1
+45890 3828 1
+45890 1959 3
+45890 1955 4
+34152 1961 2
+34152 1960 2
+34152 1958 6
+34152 34169 3
+34152 1959 1
+34152 1955 5
+28224 1961 2
+28224 1960 6
+28224 25573 3
+28224 1956 4
+28224 1959 1
+28224 1958 6
+28224 6711 1
+28224 1268 2
+28224 1955 4
+25556 1961 2
+25556 1959 1
+62714 1961 2
+62714 1960 12
+62714 1958 4
+62714 25573 5
+62714 1956 8
+62714 1959 6
+7415 1961 2
+7415 1960 6
+7415 231 1
+7415 1956 7
+7415 1959 1
+7415 1958 15
+7415 232 1
+7415 1268 2
+7415 1955 10
+86125 1961 2
+86125 1960 1
+86125 1958 5
+86125 1959 1
+86125 1955 3
+30755 1961 2
+30755 1959 1
+12023 1961 2
+12023 1960 2
+12023 941 1
+12023 12058 1
+12023 1959 3
+12023 1958 7
+12023 12057 3
+12023 12056 1
+12023 1268 1
+12023 1955 3
+53059 1961 2
+53059 1960 3
+53059 1958 6
+53059 1959 1
+53059 1955 7
+20575 1961 2
+20575 1960 3
+20575 1958 6
+20575 232 1
+20575 1959 1
+20575 1955 7
+79726 1961 5
+79726 319 1
+79726 1960 7
+79726 1619 2
+79726 25573 1
+79726 1959 2
+79726 313 2
+79726 234 1
+79726 113 8
+79726 1957 3
+79726 1958 4
+79726 3657 1
+79726 1955 13
+30727 1961 3
+30727 1960 6
+30727 1957 1
+30727 113 8
+30727 1958 4
+30727 3657 1
+30727 25573 1
+30727 1959 2
+30727 1955 17
+92624 1961 2
+92624 1960 3
+92624 1958 5
+92624 1959 1
+92624 1955 7
+63341 1961 3
+63341 1960 3
+63341 25573 1
+63341 1956 4
+63341 1959 2
+63341 1957 1
+63341 1958 4
+63341 3657 2
+63341 1955 4
+23589 1961 2
+23589 1960 4
+23589 1958 5
+23589 1959 1
+23589 1955 9
+24217 1961 2
+24217 2495 1
+24217 1960 2
+24217 941 1
+24217 12889 2
+24217 2492 1
+24217 1959 1
+24217 1958 7
+24217 24254 1
+24217 1955 4
+17906 1961 2
+17906 1960 1
+17906 1959 1
+17906 4791 2
+17906 1958 6
+17906 3657 1
+17906 1268 1
+17906 1955 4
+18376 2313 9
+18376 1961 2
+18376 1960 19
+18376 941 3
+18376 12889 4
+18376 1956 66
+18376 1959 1
+18376 1958 10
+18376 3657 3
+18376 942 1
+18376 18434 4
+18376 1955 9
+23242 1961 2
+23242 1960 9
+23242 941 3
+23242 12889 5
+23242 1956 17
+23242 1959 2
+23242 113 8
+23242 1958 11
+23242 942 1
+23242 18434 4
+23242 1955 15
+86140 1961 2
+86140 1960 7
+86140 1958 5
+86140 3657 1
+86140 1956 11
+86140 1959 1
+86140 1955 8
+93139 1961 2
+93139 1960 5
+93139 1956 3
+93139 1959 1
+93139 1958 6
+93139 232 1
+93139 3657 1
+93139 55532 1
+93139 1955 8
+55977 1961 2
+55977 1960 5
+55977 12889 1
+55977 1959 1
+55977 1958 8
+55977 3657 1
+55977 942 1
+55977 1955 4
+63368 1961 3
+63368 1960 1
+63368 1957 1
+63368 1958 3
+63368 25573 1
+63368 6711 1
+63368 1959 2
+63368 1268 3
+5327 1961 2
+5327 1960 4
+5327 1958 5
+5327 1956 5
+5327 1959 1
+5327 1955 4
+49896 1961 2
+49896 1960 4
+49896 1958 5
+49896 1956 5
+49896 1959 1
+49896 1955 4
+79701 1961 2
+79701 1960 5
+79701 12889 2
+79701 1958 6
+79701 1956 4
+79701 1959 1
+79701 1955 6
+75657 1961 2
+75657 1960 5
+75657 1958 5
+75657 1956 9
+75657 1959 1
+75657 1955 4
+1935 1961 2
+1935 1960 5
+1935 1958 5
+1935 1956 9
+1935 1959 1
+1935 1955 4
+31059 1961 2
+31059 1960 7
+31059 231 1
+31059 1958 5
+31059 3657 2
+31059 1956 10
+31059 1959 1
+31059 1955 3
+66427 1961 2
+66427 1960 4
+66427 34169 3
+66427 1956 1
+66427 1959 1
+66427 1958 6
+66427 1268 1
+66427 1955 5
+21085 1961 2
+21085 1960 1
+21085 941 1
+21085 1958 6
+21085 3657 1
+21085 25573 2
+21085 1959 5
+21085 1955 3
+21085 1268 1
+56340 1961 2
+56340 1960 1
+56340 941 1
+56340 25573 2
+56340 1959 5
+56340 1955 3
+56340 1268 1
+52402 7943 2
+39208 1961 2
+39208 1960 4
+39208 1958 7
+39208 1956 12
+39208 1959 1
+39208 1955 3
+39208 1268 1
+30698 1961 2
+30698 1960 1
+30698 113 2
+30698 1958 7
+30698 25573 1
+30698 1956 3
+30698 1959 3
+61419 1961 2
+61419 1960 10
+61419 12889 2
+61419 1956 11
+61419 1959 1
+61419 1958 6
+61419 4378 2
+61419 3657 1
+61419 1955 7
+59543 1961 2
+59543 1960 2
+59543 113 1
+59543 1958 5
+59543 25573 2
+59543 1959 3
+7355 1961 2
+7355 1960 4
+7355 1958 5
+7355 1959 1
+7355 1955 12
+17980 17981 1
+17980 941 1
+17980 28548 3
+17968 17981 1
+17968 17980 3
+56574 17981 1
+56574 17980 3
+2158 1889 2
+2158 1268 1
+69899 319 1
+69899 17981 1
+69899 941 1
+69899 232 1
+69899 28548 3
+69898 17981 1
+69898 232 1
+69898 28548 2
+44591 319 2
+44591 941 1
+44591 113 1
+44591 1889 2
+44573 44591 1
+44573 1875 1
+44573 113 1
+44573 1889 1
+44573 232 1
+44573 2158 1
+44573 1268 1
+25406 44573 2
+25406 17981 2
+25406 232 2
+25406 1268 2
+69897 17981 1
+69897 232 1
+69897 28548 4
+1875 1888 1
+1875 231 1
+1875 113 1
+1875 1889 2
+1875 232 1
+43671 319 2
+43671 17981 1
+43671 941 1
+43671 28548 3
+28548 17981 3
+28548 231 1
+28548 232 1
+28548 55532 4
+28548 1268 2
+17981 69897 1
+17981 56574 1
+17981 17968 1
+17981 28548 1
+17981 69899 1
+17981 113 1
+17981 43671 1
+17981 232 1
+17981 69898 1
+17981 69896 1
+17981 1268 1
+69896 319 2
+69896 17981 1
+69896 941 1
+69896 113 3
+69896 28548 3
+53265 7943 2
+53265 1960 8
+53265 231 1
+53265 230 1
+53265 1959 14
+53265 1268 1
+40146 2313 2
+40146 319 6
+40146 941 2
+40146 244 20
+40146 231 10
+40146 5044 3
+40146 951 3
+40146 234 9
+40146 113 3
+40146 230 9
+40146 232 5
+40146 339 6
+40146 314 2
+40146 229 2
+11533 2313 2
+11533 244 4
+11533 235 2
+11533 234 2
+11533 113 4
+11533 230 11
+11533 232 4
+11533 339 13
+11533 314 2
+5044 2313 1
+5044 244 23
+5044 11534 9
+5044 951 5
+5044 316 2
+5044 235 13
+5044 234 7
+5044 113 7
+5044 230 10
+5044 232 2
+92558 3009 1
+92558 319 1
+92558 244 10
+92558 235 8
+92558 2066 3
+92558 230 2
+92558 232 1
+92558 314 2
+92558 229 2
+80115 319 2
+80115 244 4
+80115 951 1
+80115 316 1
+80115 235 2
+80115 234 2
+80115 6943 1
+80115 113 1
+80115 1173 1
+80115 230 2
+80115 229 2
+41456 2313 2
+41456 113 1
+41456 1618 2
+41456 230 1
+41456 1619 3
+41456 339 7
+41456 232 2
+90867 231 1
+90867 1619 5
+90867 951 1
+90867 313 7
+90867 234 4
+90867 232 39
+90867 319 9
+90867 244 3
+90867 941 2
+90867 1614 16
+90867 2315 2
+90867 11534 9
+90867 315 4
+90867 316 3
+90867 113 7
+90867 230 21
+90867 1618 2
+90867 339 36
+90867 942 1
+90867 5858 60
+11534 2313 2
+11534 319 4
+11534 244 271
+11534 5859 9
+11534 1170 6
+11534 235 146
+11534 234 86
+11534 113 11
+11534 230 118
+11534 232 23
+11534 339 72
+11534 314 72
+69203 48124 1
+69203 2313 8
+69203 37073 4
+69203 231 76
+69203 5044 2
+69203 5859 2
+69203 1170 2
+69203 951 35
+69203 235 51
+69203 3593 1
+69203 313 1
+69203 234 59
+69203 2927 2
+69203 232 43
+69203 319 25
+69203 244 266
+69203 11534 25
+69203 7319 2
+69203 315 61
+69203 316 151
+69203 113 42
+69203 13508 2
+69203 230 106
+69203 339 21
+69203 314 21
+70358 8846 1
+70358 231 132
+70358 19903 2
+70358 5859 2
+70358 3586 2
+70358 1906 4
+70358 951 51
+70358 3828 2
+70358 3587 66
+70358 235 57
+70358 3593 5
+70358 362 2
+70358 232 117
+70358 3585 7
+70358 319 127
+70358 941 3
+70358 315 161
+70358 113 85
+70358 1618 2
+70358 230 202
+70358 30690 2
+70358 339 54
+70358 51314 1
+70358 1617 6
+70358 2313 20
+70358 37073 2
+70358 1619 4
+70358 21441 13
+70358 5044 2
+70358 1170 1
+70358 234 99
+70358 313 51
+70358 244 536
+70358 21443 2
+70358 316 269
+70358 11534 69
+70358 3589 26
+70358 314 15
+93069 244 25
+93069 231 6
+93069 951 1
+93069 316 7
+93069 315 5
+93069 313 6
+93069 234 2
+93069 230 7
+93069 232 10
+93684 2313 2
+93684 244 38
+93684 231 2
+93684 951 3
+93684 316 13
+93684 315 9
+93684 235 6
+93684 313 1
+93684 234 3
+93684 113 2
+93684 230 19
+93684 339 23
+93684 232 4
+93684 314 4
+28461 244 15
+28461 231 1
+28461 235 1
+28461 234 3
+28461 113 4
+28461 3589 12
+28461 3592 1
+28461 232 1
+28461 1617 3
+28461 1805 1
+28461 10284 1
+3585 319 5
+39681 2313 1
+39681 37073 2
+39681 3588 5
+39681 231 5
+39681 21441 31
+39681 951 2
+39681 3587 65
+39681 235 1
+39681 3593 4
+39681 313 3
+39681 234 4
+39681 1173 1
+39681 232 25
+39681 3585 5
+39681 319 5
+39681 244 20
+39681 11534 2
+39681 316 35
+39681 10183 1
+39681 113 8
+39681 3589 6
+39681 230 14
+39681 30690 1
+39681 314 2
+39681 229 4
+39681 10284 1
+21441 48124 1
+21441 8846 1
+21441 2313 4
+21441 5135 4
+21441 231 43
+21441 19903 1
+21441 5044 12
+21441 1906 1
+21441 1170 5
+21441 951 6
+21441 3587 156
+21441 235 21
+21441 3593 3
+21441 313 6
+21441 234 11
+21441 232 46
+21441 319 22
+21441 244 57
+21441 941 2
+21441 21443 1
+21441 11534 1
+21441 11533 1
+21441 316 65
+21441 113 41
+21441 3589 6
+21441 230 33
+21441 339 18
+21441 51314 2
+21441 314 8
+21441 942 1
+3586 319 5
+3587 8846 1
+3587 2313 2
+3587 231 7
+3587 19903 4
+3587 21442 2
+3587 21441 1
+3587 3375 2
+3587 5859 5
+3587 1170 2
+3587 235 25
+3587 3593 2
+3587 313 7
+3587 234 26
+3587 4378 1
+3587 232 59
+3587 3585 10
+3587 1805 1
+3587 319 6
+3587 244 201
+3587 11534 2
+3587 316 6
+3587 3969 1
+3587 5857 3
+3587 113 18
+3587 3589 171
+3587 230 29
+3587 3592 8
+3587 339 4
+3587 51314 1
+3587 314 9
+3588 2313 3
+3588 231 29
+3588 19903 2
+3588 5859 10
+3588 1170 2
+3588 951 6
+3588 3587 98
+3588 3593 4
+3588 313 7
+3588 234 11
+3588 55756 1
+3588 232 61
+3588 6997 1
+3588 3585 5
+3588 37529 3
+3588 319 15
+3588 244 35
+3588 941 5
+3588 3591 6
+3588 7319 3
+3588 3590 6
+3588 316 14
+3588 113 18
+3588 3589 7
+3588 230 23
+3588 3592 5
+3588 339 9
+3588 66413 25
+3588 314 3
+3588 229 28
+66413 231 31
+66413 19903 1
+66413 5859 5
+66413 3586 5
+66413 1906 1
+66413 3587 81
+66413 235 4
+66413 234 10
+66413 232 15
+66413 3585 10
+66413 319 22
+66413 244 23
+66413 941 4
+66413 3591 1
+66413 11534 3
+66413 7319 3
+66413 316 30
+66413 113 10
+66413 3589 36
+66413 230 18
+66413 3592 2
+66413 314 5
+66413 229 2
+3589 2313 3
+3589 231 27
+3589 19903 1
+3589 3375 1
+3589 5859 5
+3589 3586 2
+3589 951 3
+3589 3587 84
+3589 235 32
+3589 3593 3
+3589 313 5
+3589 234 13
+3589 232 27
+3589 3585 24
+3589 1805 1
+3589 319 3
+3589 244 120
+3589 3591 1
+3589 11534 2
+3589 3590 1
+3589 316 7
+3589 3969 1
+3589 113 23
+3589 13508 7
+3589 230 35
+3589 3592 21
+3589 339 5
+3589 314 4
+18591 2313 1
+18591 231 3
+18591 3586 3
+18591 1906 1
+18591 1170 10
+18591 951 2
+18591 3587 107
+18591 235 9
+18591 234 15
+18591 232 29
+18591 3585 8
+18591 319 29
+18591 244 195
+18591 3591 3
+18591 11534 27
+18591 315 19
+18591 316 42
+18591 113 8
+18591 3589 47
+18591 230 17
+18591 339 6
+18591 314 5
+37529 1173 1
+37529 229 2
+37529 3587 4
+37529 3593 3
+57697 244 13
+57697 7319 3
+57697 5859 1
+57697 3590 4
+57697 3587 4
+57697 235 6
+57697 313 3
+57697 234 2
+57697 3969 2
+57697 3589 4
+57697 230 6
+57697 232 4
+57697 314 2
+19903 2313 4
+19903 3588 1
+19903 231 24
+19903 29603 2
+19903 29604 1
+19903 951 7
+19903 3587 96
+19903 235 37
+19903 313 1
+19903 234 12
+19903 232 37
+19903 3585 9
+19903 22112 1
+19903 244 192
+19903 316 10
+19903 113 61
+19903 13508 1
+19903 3589 71
+19903 230 102
+19903 339 29
+19903 314 22
+50784 3588 1
+50784 244 4
+50784 1173 1
+50784 229 3
+50784 3587 1
+50784 37529 1
+50784 3593 1
+21442 244 5
+21442 113 1
+21442 21443 1
+21442 316 1
+21442 3587 13
+21442 235 2
+21442 3593 1
+21443 319 6
+21443 244 14
+21443 231 2
+21443 19903 1
+21443 11534 11
+21443 951 2
+21443 316 21
+21443 3587 17
+21443 235 3
+21443 3593 1
+21443 234 1
+21443 113 4
+21443 230 4
+21443 232 7
+21443 339 4
+21443 314 2
+3375 2313 1
+3375 3588 5
+3375 231 15
+3375 3586 1
+3375 951 3
+3375 3587 52
+3375 235 10
+3375 3593 4
+3375 234 4
+3375 1173 1
+3375 232 16
+3375 3585 1
+3375 319 4
+3375 244 20
+3375 3591 1
+3375 3590 2
+3375 316 5
+3375 113 2
+3375 3589 11
+3375 230 13
+3375 3592 1
+3375 314 1
+3375 229 1
+30874 2313 8
+30874 231 10
+30874 29603 7
+30874 1619 2
+30874 21441 3
+30874 29604 2
+30874 5859 2
+30874 3586 1
+30874 1906 1
+30874 951 6
+30874 3587 22
+30874 235 7
+30874 3593 2
+30874 234 11
+30874 232 13
+30874 3585 1
+30874 319 5
+30874 244 57
+30874 3591 1
+30874 11534 5
+30874 315 14
+30874 316 23
+30874 113 10
+30874 230 20
+30874 339 6
+30874 314 2
+30874 1617 6
+6952 319 2
+6952 941 1
+6952 231 4
+6952 6998 2
+6952 951 2
+6952 113 1
+6952 230 2
+6952 2453 2
+6952 6997 2
+6952 229 4
+37616 244 7
+37616 230 1
+37616 235 3
+37616 234 1
+45710 244 1
+45710 231 1
+45710 21441 2
+45710 5044 1
+45710 951 1
+45710 316 3
+45710 315 6
+45710 3587 11
+45710 313 1
+45710 362 1
+45710 113 7
+45710 230 3
+45710 232 4
+26623 7943 2
+26623 244 5
+26623 230 5
+26623 235 1
+27020 7943 2
+27020 244 23
+27020 230 10
+27020 235 1
+48124 319 1
+48124 3588 5
+48124 244 5
+48124 231 3
+48124 951 4
+48124 316 7
+48124 3587 6
+48124 235 4
+48124 3593 2
+48124 234 2
+48124 113 3
+48124 230 2
+48124 232 2
+48124 229 2
+35701 319 4
+35678 319 2
+35678 35701 1
+35678 35702 6
+35678 315 2
+35702 35701 10
+35702 244 7
+35702 231 14
+35702 10874 2
+35702 10869 75
+35702 235 2
+35702 113 20
+35702 1888 1
+35702 10809 16
+68111 231 10
+68111 235 1
+68111 313 3
+68111 234 3
+68111 1888 4
+68111 232 8
+68111 10873 4
+68111 319 3
+68111 244 48
+68111 10874 6
+68111 315 5
+68111 316 13
+68111 10869 39
+68111 113 5
+68111 230 10
+68111 314 3
+68111 942 1
+68111 10809 4
+66853 2313 4
+66853 231 15
+66853 1619 4
+66853 951 12
+66853 235 25
+66853 234 16
+66853 6943 1
+66853 10725 49
+66853 232 25
+66853 51996 1
+66853 2444 1
+66853 319 22
+66853 244 81
+66853 315 20
+66853 316 57
+66853 113 37
+66853 230 34
+66853 1618 1
+66853 339 6
+66853 314 11
+66853 229 1
+66853 942 4
+51314 244 3
+51314 230 3
+51314 314 6
+51314 235 7
+51314 234 1
+89075 8846 2
+89075 2313 11
+89075 231 42
+89075 951 2
+89075 235 13
+89075 313 1
+89075 234 25
+89075 26489 1
+89075 232 3
+89075 319 31
+89075 244 81
+89075 315 40
+89075 316 56
+89075 113 13
+89075 230 45
+89075 314 14
+8846 244 65
+8846 235 46
+8846 234 49
+8846 4378 1
+8846 230 25
+8846 232 9
+8846 339 6
+8846 2065 1
+8846 314 21
+62321 3009 2
+62321 319 2
+62321 37073 1
+62321 244 24
+62321 236 5
+62321 235 12
+62321 2066 3
+62321 230 7
+62321 232 3
+62321 314 3
+62321 229 2
+62321 15200 2
+62321 942 1
+31673 244 15
+31673 236 4
+31673 113 1
+31673 230 1
+31673 1170 6
+31673 235 3
+31673 234 1
+7158 2313 1
+7158 230 1
+7158 339 10
+7158 232 1
+7158 234 1
+7123 2313 1
+7123 319 7
+7123 7158 1
+7123 244 9
+7123 231 5
+7123 951 1
+7123 316 6
+7123 315 6
+7123 235 4
+7123 234 3
+7123 113 3
+7123 230 10
+7123 232 2
+7123 314 2
+65391 2313 6
+65391 5135 49
+65391 231 58
+65391 1619 3
+65391 1906 2
+65391 951 3
+65391 235 16
+65391 313 1
+65391 234 55
+65391 232 42
+65391 319 59
+65391 244 60
+65391 1614 14
+65391 315 44
+65391 316 86
+65391 113 32
+65391 230 87
+65391 1618 1
+65391 30690 1
+65391 339 48
+65391 314 3
+65391 5858 58
+1895 230 2
+1895 232 1
+1895 1906 1
+1895 235 1
+1895 234 1
+30690 5135 2
+30690 244 18
+30690 1170 1
+30690 235 10
+30690 234 11
+30690 113 9
+30690 230 22
+30690 232 14
+30690 339 15
+30690 314 8
+3590 244 15
+3590 235 3
+3590 3593 1
+3590 234 7
+3590 113 2
+3590 1173 2
+3590 230 11
+3590 232 10
+3590 314 11
+3590 229 1
+3590 942 2
+10289 3914 1
+10289 313 1
+36091 244 13
+36091 2542 1
+36091 235 4
+36091 234 6
+36091 3969 8
+36091 113 2
+36091 13508 3
+36091 230 12
+36091 232 37
+36091 339 10
+36091 27800 3
+36091 3914 2
+36091 314 7
+36091 942 1
+3914 3969 6
+3914 230 1
+3914 232 4
+3914 942 1
+3914 234 1
+27800 3009 1
+27800 319 1
+27800 37073 1
+27800 244 8
+27800 236 1
+27800 235 8
+27800 230 3
+27800 232 2
+27800 314 2
+27800 229 2
+27800 15200 2
+27800 942 1
+75434 2313 1
+75434 236 2
+75434 231 4
+75434 1619 5
+75434 235 1
+75434 313 2
+75434 234 5
+75434 232 10
+75434 319 5
+75434 244 6
+75434 3590 2
+75434 315 6
+75434 316 6
+75434 3969 4
+75434 113 6
+75434 230 15
+75434 1618 2
+75434 339 26
+75434 27800 3
+75434 314 9
+3969 2313 2
+3969 231 1
+3969 5859 1
+3969 1170 1
+3969 235 5
+3969 313 1
+3969 234 6
+3969 232 9
+3969 319 2
+3969 244 10
+3969 315 2
+3969 316 2
+3969 113 12
+3969 230 6
+3969 339 9
+3969 27800 1
+3969 314 3
+3969 229 3
+12341 3009 1
+12341 319 1
+12341 244 8
+12341 236 1
+12341 235 8
+12341 230 3
+12341 232 2
+12341 314 2
+12341 1806 1
+12341 229 2
+12341 15200 2
+12341 1805 1
+3591 231 1
+3591 5859 3
+3591 235 1
+3591 3593 1
+3591 313 1
+3591 234 3
+3591 1173 1
+3591 232 11
+3591 319 1
+3591 244 33
+3591 12340 1
+3591 3590 1
+3591 113 7
+3591 2066 3
+3591 230 3
+3591 3592 18
+3591 229 2
+3592 244 17
+3592 12340 1
+3592 235 6
+3592 230 7
+3592 232 2
+3592 314 1
+3592 1806 1
+3592 1805 1
+22103 244 8
+22103 230 7
+22103 1619 2
+22103 232 4
+22103 314 3
+22103 229 1
+22103 234 3
+25809 319 10
+25809 244 16
+25809 231 2
+25809 951 3
+25809 316 12
+25809 315 8
+25809 313 7
+25809 234 2
+25809 113 4
+25809 230 11
+25809 232 1
+25809 314 3
+51361 231 18
+51361 1956 13
+51361 316 6
+51361 6603 7
+51361 313 2
+51361 113 12
+51361 230 10
+51361 4378 4
+51361 232 1
+11011 2313 1
+11011 319 5
+11011 231 3
+11011 3221 3
+11011 1956 3
+11011 951 5
+11011 316 7
+11011 315 2
+11011 113 1
+11011 232 1
+3040 2313 2
+3040 319 5
+3040 244 3
+3040 231 9
+3040 3221 3
+3040 1956 7
+3040 951 5
+3040 316 9
+3040 315 3
+3040 313 3
+3040 3219 1
+3040 113 1
+3040 230 3
+3040 232 4
+3040 314 1
+37682 244 4
+37682 230 4
+37682 232 4
+37682 314 2
+37682 234 1
+3221 2313 1
+3221 231 20
+3221 951 16
+3221 235 5
+3221 313 2
+3221 234 8
+3221 232 7
+3221 20379 1
+3221 319 24
+3221 244 11
+3221 315 16
+3221 316 35
+3221 1956 14
+3221 6603 5
+3221 113 11
+3221 230 11
+3221 2453 3
+3221 314 4
+32299 244 1
+32299 230 3
+32299 942 2
+32299 235 1
+32299 234 2
+24836 244 8
+24836 231 1
+24836 1956 1
+24836 316 5
+24836 315 3
+24836 113 4
+24836 230 5
+24836 232 3
+24836 314 4
+10740 2313 1
+10740 319 5
+10740 231 3
+10740 3221 3
+10740 1956 3
+10740 951 5
+10740 316 7
+10740 315 2
+10740 113 1
+10740 232 1
+75119 2313 1
+75119 319 10
+75119 244 1
+75119 231 5
+75119 3221 1
+75119 1956 5
+75119 951 8
+75119 316 5
+75119 235 2
+75119 313 3
+75119 234 2
+75119 230 1
+75119 232 8
+27378 2313 2
+27378 231 32
+27378 1619 4
+27378 1906 3
+27378 951 10
+27378 235 17
+27378 313 2
+27378 234 23
+27378 232 4
+27378 319 21
+27378 244 92
+27378 1614 5
+27378 315 23
+27378 316 45
+27378 27610 1
+27378 113 16
+27378 230 47
+27378 339 16
+27378 5858 26
+27610 319 1
+27610 244 6
+27610 113 1
+27610 230 4
+27610 339 18
+27610 232 1
+27610 234 2
+16392 2313 1
+16392 231 7
+16392 5859 2
+16392 951 4
+16392 235 11
+16392 313 5
+16392 234 10
+16392 4378 1
+16392 232 53
+16392 319 2
+16392 244 144
+16392 315 6
+16392 316 10
+16392 113 23
+16392 230 46
+16392 339 9
+16392 314 23
+13506 2313 2
+13506 319 1
+13506 244 15
+13506 231 21
+13506 6249 6
+13506 235 7
+13506 6943 1
+13506 113 6
+13506 230 9
+13506 232 1
+13506 314 2
+13508 3009 1
+13508 319 1
+13508 37073 1
+13508 244 17
+13508 236 4
+13508 5859 2
+13508 235 8
+13508 2066 3
+13508 113 2
+13508 230 5
+13508 232 6
+13508 314 3
+13508 229 2
+13508 15200 2
+13508 942 1
+13161 2313 7
+13161 231 28
+13161 1619 2
+13161 13506 1
+13161 5859 2
+13161 951 2
+13161 3828 2
+13161 235 20
+13161 3593 3
+13161 313 1
+13161 234 22
+13161 1173 1
+13161 13507 1
+13161 232 20
+13161 319 10
+13161 244 79
+13161 941 2
+13161 113 13
+13161 13508 2
+13161 230 53
+13161 339 13
+13161 314 12
+13161 1617 10
+13161 229 34
+50711 3009 1
+50711 319 1
+50711 37073 1
+50711 244 13
+50711 236 4
+50711 235 8
+50711 2066 3
+50711 113 1
+50711 230 2
+50711 232 13
+50711 339 3
+50711 314 2
+50711 229 2
+50711 15200 2
+50711 942 1
+22112 2313 1
+22112 244 1
+22112 230 1
+22112 232 3
+22112 314 1
+22112 234 1
+49470 244 18
+49470 231 26
+49470 1619 13
+49470 3828 6
+49470 235 3
+49470 234 6
+49470 230 6
+49470 13507 1
+49470 232 5
+49470 314 4
+49470 1617 18
+49470 229 21
+49470 10284 1
+13507 2313 5
+13507 231 1
+13507 1619 9
+13507 3593 2
+13507 313 1
+13507 234 9
+13507 22103 1
+13507 232 41
+13507 6997 3
+13507 22112 2
+13507 244 11
+13507 1614 4
+13507 3590 4
+13507 113 5
+13507 230 5
+13507 1618 8
+13507 339 26
+13507 314 1
+13507 229 7
+13507 10284 5
+13507 5858 23
+92032 2313 5
+92032 231 24
+92032 5859 1
+92032 951 17
+92032 235 16
+92032 313 7
+92032 234 24
+92032 4378 4
+92032 232 21
+92032 51361 1
+92032 319 34
+92032 244 58
+92032 3590 1
+92032 315 31
+92032 316 50
+92032 1956 6
+92032 3969 2
+92032 113 18
+92032 230 46
+92032 339 6
+92032 314 8
+5632 2313 7
+5632 236 1
+5632 231 15
+5632 1619 20
+5632 5859 1
+5632 951 1
+5632 235 21
+5632 234 8
+5632 4378 1
+5632 232 4
+5632 244 53
+5632 1614 1
+5632 1956 6
+5632 315 18
+5632 316 21
+5632 113 31
+5632 230 39
+5632 339 57
+5632 314 9
+5632 942 2
+5632 5858 17
+5859 2313 3
+5859 319 8
+5859 244 123
+5859 1906 1
+5859 951 2
+5859 30689 8
+5859 235 44
+5859 234 21
+5859 113 21
+5859 13508 1
+5859 230 61
+5859 3592 2
+5859 232 34
+5859 339 7
+5859 314 30
+84416 2313 2
+84416 244 9
+84416 231 8
+84416 3828 1
+84416 235 5
+84416 234 1
+84416 230 8
+84416 232 2
+84416 1617 5
+84416 229 8
+89967 2313 1
+89967 319 3
+89967 244 1
+89967 231 8
+89967 1619 2
+89967 951 4
+89967 316 20
+89967 315 11
+89967 235 1
+89967 234 2
+89967 362 1
+89967 113 1
+89967 230 2
+89967 339 5
+89967 232 2
+18371 244 1
+18371 113 1
+18371 230 1
+18371 234 1
+18320 18371 5
+18320 244 1
+18320 231 5
+18320 113 4
+18320 232 1
+18320 316 5
+18320 315 2
+18320 234 1
+40114 319 1
+40114 244 5
+40114 234 1
+40114 113 3
+40114 230 3
+40114 232 4
+40114 339 2
+40114 314 2
+55756 244 4
+55756 9983 7
+55756 232 1
+55756 235 3
+3593 8846 2
+3593 5859 3
+3593 951 1
+3593 30689 8
+3593 235 11
+3593 234 14
+3593 55756 3
+3593 1173 1
+3593 232 16
+3593 244 55
+3593 316 2
+3593 113 13
+3593 230 20
+3593 3592 3
+3593 314 5
+3593 229 3
+23283 2313 2
+23283 244 27
+23283 231 7
+23283 951 1
+23283 316 16
+23283 315 13
+23283 235 1
+23283 234 4
+23283 362 4
+23283 113 3
+23283 230 17
+23283 232 3
+23283 314 4
+23283 23361 1
+66501 2313 1
+66501 319 4
+66501 244 8
+66501 5859 1
+66501 316 5
+66501 315 3
+66501 235 3
+66501 313 1
+66501 234 2
+66501 230 7
+66501 339 1
+66501 232 1
+66501 314 7
+12416 2313 1
+12416 7943 2
+12416 230 1
+12416 235 1
+74023 7943 2
+74023 230 1
+74023 235 1
+74023 313 3
+59456 244 8
+59456 230 3
+59456 339 8
+59456 232 1
+59456 314 1
+59456 28396 1
+59456 235 6
+59456 234 3
+16307 319 4
+16308 1888 1
+16308 231 1
+16308 113 6
+16308 16307 7
+16308 1268 1
+37654 319 1
+37654 244 7
+37654 29206 4
+37654 316 2
+37654 315 2
+37654 234 1
+62497 231 23
+62497 1170 1
+62497 951 1
+62497 235 2
+62497 3593 1
+62497 234 6
+62497 26489 1
+62497 4378 1
+62497 13161 2
+62497 232 5
+62497 53254 1
+62497 244 15
+62497 17692 2
+62497 1956 1
+62497 113 2
+62497 230 4
+62497 51314 1
+62497 229 15
+83183 244 21
+83183 231 10
+83183 113 29
+83183 230 2
+83183 232 15
+83183 51314 6
+83183 235 3
+83183 234 4
+315 2064 1
+315 319 1
+315 15335 2
+315 7100 1
+315 9769 1
+315 1602 1
+315 951 3
+315 15405 1
+315 362 7
+315 1609 1
+315 2066 4
+315 2039 1
+315 46595 1
+315 2068 1
+315 7 1
+35874 319 5
+27986 319 10
+27986 113 1
+27986 230 1
+27986 316 1
+35139 4016 7
+35139 319 1
+35139 11873 2
+35139 951 3
+35139 316 8
+35139 315 3
+35139 3828 4
+35139 9445 1
+35139 31857 6
+35139 113 8
+35139 1617 5
+35139 1806 1
+35139 27372 1
+35031 4016 1
+35031 232 1
+17820 113 6
+951 319 5
+950 2064 4
+950 34370 2
+950 951 3
+950 315 2
+950 313 1
+950 34369 2
+950 15332 7
+950 362 2
+950 232 1
+950 2039 1
+950 2068 1
+950 942 1
+949 941 1
+949 113 2
+949 232 1
+953 24026 1
+953 232 1
+953 315 1
+24026 319 1
+24026 951 2
+24026 316 2
+24026 315 5
+24026 235 3
+24026 362 3
+24026 113 9
+24026 232 4
+24026 314 1
+362 231 2
+362 951 2
+362 944 3
+362 232 19
+362 950 1
+362 319 10
+362 943 2
+362 941 5
+362 949 20
+362 955 7
+362 315 8
+362 316 8
+362 945 1
+362 948 3
+362 113 14
+362 230 1
+362 953 1
+362 942 2
+23871 2064 2
+23871 236 1
+23871 24025 1
+23871 238 1
+23871 234 1
+23871 362 26
+23871 232 11
+23871 1268 53
+23871 319 4
+23871 943 3
+23871 949 18
+23871 237 7
+23871 315 5
+23871 948 1
+23871 113 15
+23871 953 1
+23871 15196 5
+39162 2313 2
+39162 362 3
+1171 951 4
+1806 113 5
+1806 1803 1
+1806 232 2
+1806 11873 1
+1806 1804 1
+4016 2064 3
+4016 231 2
+4016 28624 3
+4016 951 15
+4016 3828 10
+4016 235 1
+4016 362 20
+4016 232 4
+4016 46595 14
+4016 1805 1
+4016 319 7
+4016 6593 6
+4016 15330 1
+4016 315 5
+4016 1602 2
+4016 9445 4
+4016 113 34
+4016 230 2
+4016 2039 3
+4016 61547 3
+4016 2068 3
+4016 1617 22
+4016 27372 1
+4016 15196 4
+4016 15333 4
+4016 37073 2
+4016 11873 4
+4016 234 2
+4016 11834 3
+4016 16308 1
+4016 39162 4
+4016 1171 5
+4016 244 8
+4016 955 3
+4016 316 14
+4016 945 1
+4016 15331 1
+4016 16307 1
+316 2313 2
+316 2064 1
+316 231 9
+316 1619 4
+316 951 1
+316 3828 8
+316 235 8
+316 313 9
+316 234 8
+316 362 1
+316 232 10
+316 319 8
+316 244 16
+316 315 15
+316 15331 2
+316 113 3
+316 230 11
+316 1618 3
+316 339 12
+316 2039 2
+316 2068 2
+316 1617 12
+955 362 9
+955 319 1
+955 232 2
+955 951 7
+31857 316 1
+31857 315 5
+31857 3828 4
+31857 362 1
+31857 22983 3
+31857 113 19
+31857 232 1
+31857 1617 6
+64592 244 2
+64592 230 1
+64592 339 1
+29603 319 4
+29603 244 13
+29603 43447 9
+29603 29604 10
+29603 235 6
+29603 234 4
+29603 113 5
+29603 16347 4
+29603 232 1
+29603 10397 1
+29603 942 2
+29603 28782 4
+29604 319 4
+43447 319 2
+43447 244 24
+43447 235 3
+43447 234 2
+43447 113 5
+43447 16347 8
+43447 232 8
+43447 942 9
+43447 28782 4
+16347 319 4
+10397 30023 3
+10398 10397 16
+10352 244 30
+10352 113 2
+10352 230 1
+10352 10397 5
+10352 339 3
+10352 232 3
+10352 10398 2
+10352 235 3
+10399 10397 1
+1269 2064 4
+2039 2064 2
+2039 2066 4
+2039 1888 1
+2039 1238 1
+2039 2065 1
+2039 2068 3
+2039 2067 4
+2039 1268 1
+15330 1269 1
+1238 1269 2
+1238 1271 4
+1238 1268 1
+15335 1269 2
+9502 1269 1
+9502 9503 1
+9502 1268 1
+34369 1269 2
+15332 34369 3
+15332 1269 3
+15332 34370 1
+15332 1268 2
+34370 1269 1
+34370 1268 1
+1271 1269 2
+15334 1269 2
+15258 1269 1
+9503 1269 4
+2067 2068 3
+2067 1268 1
+15336 1269 2
+2068 15333 1
+2068 1269 3
+2068 15335 1
+2068 1238 3
+2068 15330 3
+2068 9502 3
+2068 15248 1
+2068 4017 1
+2068 15332 1
+2068 15331 3
+2068 15334 1
+2068 15336 1
+2068 1268 11
+15248 1269 2
+4017 1269 2
+15333 1269 2
+15331 15258 1
+15331 1269 15
+15331 1268 1
+4092 951 2
+4092 316 1
+4092 315 6
+4092 313 6
+4092 362 4
+4092 113 1
+4092 31857 5
+4092 232 13
+4091 941 1
+4091 113 11
+4091 232 22
+4091 951 3
+4091 316 2
+4091 315 4
+4091 313 2
+4042 4092 2
+4042 4091 6
+4042 113 11
+4042 230 1
+4042 232 2
+4042 315 1
+4042 4093 2
+4042 1268 4
+4093 113 2
+4093 232 14
+4093 1956 2
+4093 15200 4
+4093 313 1
+46595 2064 3
+46595 319 1
+46595 9769 1
+46595 315 1
+46595 15405 1
+46595 113 4
+46595 232 3
+46595 2039 1
+46595 2068 1
+46595 4042 4
+46595 15336 2
+46595 7 1
+46595 1268 1
+3974 4016 5
+3974 2064 1
+3974 362 5
+3974 319 1
+3974 113 1
+3974 2039 1
+3974 2068 1
+3974 4017 2
+40229 4016 2
+40229 951 7
+40229 315 1
+40229 8845 1
+40229 3974 1
+40229 313 1
+40229 362 1
+40229 12945 2
+40229 1888 1
+40229 2066 3
+40229 8844 2
+30816 4016 2
+30816 319 1
+30816 951 1
+30816 316 1
+30816 3974 1
+30816 313 2
+30816 362 1
+30816 12945 2
+30816 113 2
+30816 232 1
+30816 4192 1
+36446 2313 4
+36446 236 17
+36446 231 3
+36446 951 6
+36446 235 3
+36446 362 8
+36446 12945 2
+36446 232 5
+36446 319 1
+36446 4016 2
+36446 244 19
+36446 949 11
+36446 237 9
+36446 315 8
+36446 316 4
+36446 4377 2
+36446 230 1
+12945 2313 1
+12945 2064 1
+12945 11873 1
+12945 951 9
+12945 235 2
+12945 3974 2
+12945 234 1
+12945 362 4
+12945 4031 1
+12945 32378 1
+12945 232 1
+12945 17580 1
+12945 4016 9
+12945 244 3
+12945 113 1
+12945 15331 1
+12945 230 1
+12945 2039 1
+12945 2068 1
+12945 27372 1
+61547 4016 2
+61547 2064 1
+61547 1238 1
+61547 2039 1
+61547 2068 1
+61547 951 1
+61547 313 1
+19030 4016 3
+19030 2064 1
+19030 319 1
+19030 951 1
+19030 316 1
+19030 315 1
+19030 4373 1
+19030 3974 1
+19030 313 1
+19030 19073 2
+19030 362 2
+19030 12945 2
+19030 232 2
+19030 2039 1
+17536 4016 2
+17536 951 6
+17536 315 2
+17536 8845 1
+17536 3974 1
+17536 313 2
+17536 362 1
+17536 12945 2
+17536 113 4
+17536 17580 4
+17536 8844 2
+67223 4016 1
+67223 362 7
+67223 951 4
+95158 4016 1
+95158 362 1
+95158 12945 2
+84847 4016 2
+84847 30036 2
+84847 951 3
+84847 3974 1
+84847 313 1
+84847 362 2
+84847 113 4
+84847 12945 2
+84847 232 1
+84641 4016 3
+84641 316 1
+84641 315 1
+84641 4373 2
+84641 3974 1
+84641 313 1
+84641 362 2
+84641 12945 2
+84641 2065 1
+30036 113 1
+30036 17580 2
+30036 1268 3
+12911 4016 2
+12911 951 11
+12911 315 1
+12911 3974 1
+12911 313 1
+12911 362 1
+12911 113 3
+12911 12945 2
+36792 4016 1
+36792 2064 1
+36792 951 4
+36792 313 1
+36792 362 3
+36792 12945 2
+36792 113 3
+36792 230 1
+36792 232 3
+36792 2039 6
+36792 36840 2
+943 4016 4
+943 944 8
+943 113 10
+943 230 1
+943 951 3
+943 316 1
+943 1268 2
+944 4016 5
+944 362 2
+944 113 2
+944 951 1
+944 315 1
+73870 4016 1
+73870 945 1
+73870 943 1
+73870 12945 2
+73870 951 1
+73870 3974 1
+945 2064 3
+945 943 2
+945 319 1
+945 9769 1
+945 15248 2
+945 15405 1
+945 113 2
+945 2039 1
+945 2068 1
+945 1268 1
+39490 941 1
+39490 113 9
+39490 17580 1
+39490 1806 1
+39490 951 3
+39490 315 1
+39490 313 1
+9445 9503 12
+9445 951 5
+9445 9502 1
+9445 313 1
+9445 113 7
+9445 230 1
+9445 232 1
+9445 2039 1
+9445 2068 1
+39451 319 1
+39451 113 1
+39451 17276 1
+39451 951 6
+39451 39490 3
+59329 113 1
+59329 17580 2
+59329 1268 3
+59187 2064 1
+59187 9503 15
+59187 951 20
+59187 3828 1
+59187 3974 3
+59187 362 11
+59187 17276 9
+59187 232 1
+59187 59329 1
+59187 1268 1
+59187 319 13
+59187 4016 1
+59187 316 3
+59187 9502 2
+59187 113 7
+59187 2039 1
+59187 1617 3
+59187 2068 1
+95248 319 1
+95248 113 2
+95248 17276 1
+95248 951 6
+95248 39490 3
+30047 319 1
+30047 113 3
+30047 27363 3
+30047 2065 1
+30047 1617 4
+30047 3828 1
+32378 113 5
+32378 27363 4
+32378 2065 1
+32378 30047 4
+32378 316 2
+32378 315 3
+27363 27372 5
+11873 2313 2
+11873 2064 3
+11873 29603 2
+11873 1619 6
+11873 29604 1
+11873 235 1
+11873 234 8
+11873 4031 1
+11873 2065 1
+11873 232 3
+11873 17580 1
+11873 319 5
+11873 244 15
+11873 15258 1
+11873 29607 1
+11873 15331 3
+11873 113 10
+11873 230 15
+11873 339 27
+11873 2039 3
+11873 1617 6
+11873 2068 3
+11873 29606 7
+11873 1806 1
+11873 29608 1
+11873 27372 6
+27372 319 5
+29606 2064 3
+29606 11873 2
+29606 113 2
+29606 15331 9
+29606 32378 1
+29606 2039 4
+29606 2065 1
+29606 2068 4
+29606 2067 2
+29607 2313 3
+29607 2064 1
+29607 29603 5
+29607 30047 17
+29607 29604 1
+29607 235 13
+29607 313 1
+29607 234 13
+29607 4031 1
+29607 32378 5
+29607 10352 1
+29607 232 5
+29607 17580 1
+29607 319 2
+29607 244 51
+29607 27363 10
+29607 315 2
+29607 316 4
+29607 15331 1
+29607 113 16
+29607 10397 1
+29607 339 1
+29607 2039 1
+29607 2068 1
+29608 244 2
+29608 113 1
+29608 27363 2
+29608 30047 3
+29608 235 10
+29608 234 1
+65284 1803 7
+65284 10700 1
+65284 1804 1
+65284 235 1
+65284 234 1
+65284 113 7
+65284 232 7
+65284 1806 1
+65284 1805 1
+10725 37073 1
+10725 113 3
+37870 113 2
+37870 230 1
+37870 10725 1
+37870 232 1
+37870 316 3
+37870 235 1
+42565 113 2
+42565 230 2
+42565 10725 3
+42565 951 1
+42565 316 2
+42565 235 1
+10724 113 1
+10724 10725 1
+10724 37870 2
+10724 42565 4
+10724 235 1
+10724 1268 4
+10700 2064 2
+10700 10724 2
+10700 2066 5
+10700 113 2
+10700 10725 1
+10700 9769 1
+10700 235 1
+10700 1268 1
+1808 231 1
+1808 17820 2
+1808 951 1
+1808 315 1
+1745 1811 3
+1745 1803 6
+1745 232 4
+1745 1804 7
+1745 1806 1
+1745 1805 1
+1745 1808 3
+37548 4016 1
+37548 362 1
+37548 12945 2
+37548 951 6
+37548 3974 1
+24772 2064 1
+24772 319 1
+24772 24784 1
+1811 2064 1
+1811 24784 2
+11876 951 5
+11875 951 5
+11834 2313 1
+11834 3828 4
+11834 235 5
+11834 234 2
+11834 362 2
+11834 113 2
+11834 1617 5
+11834 11875 1
+11834 11876 4
+17696 244 13
+17696 231 8
+17696 951 3
+17696 316 31
+17696 315 30
+17696 235 13
+17696 234 8
+17696 113 13
+17696 230 2
+17696 17820 4
+17696 1617 1
+31454 7943 2
+31454 230 1
+61705 2313 1
+61705 7943 2
+61705 244 4
+61705 313 1
+40789 231 3
+40789 232 2
+40789 40818 3
+40789 951 1
+40789 316 4
+40789 315 4
+40789 313 1
+7943 9849 2
+36840 50015 1
+36840 29206 1
+36840 11965 1
+36840 9769 1
+72307 319 3
+72307 244 11
+72307 231 4
+72307 951 1
+72307 316 5
+72307 315 5
+72307 235 3
+72307 313 1
+72307 234 2
+72307 31673 1
+72307 230 5
+72307 30690 3
+72307 339 4
+72307 232 10
+72307 20379 1
+72307 314 2
+32387 319 7
+32387 231 5
+32387 316 15
+32387 315 8
+32387 313 10
+32387 113 3
+32387 230 1
+32387 232 4
+32387 22175 23
+22175 319 10
+22175 244 34
+22175 5859 2
+22175 1170 1
+22175 951 1
+22175 316 8
+22175 22534 50
+22175 235 10
+22175 234 4
+22175 113 8
+22175 230 15
+22175 232 22
+22175 314 7
+22175 1806 1
+22175 1805 1
+22534 319 4
+22534 244 2
+22534 113 4
+22534 1170 1
+22534 316 6
+22534 235 2
+74166 319 1
+74166 244 1
+74166 316 2
+74166 315 2
+74166 313 2
+74166 234 2
+74166 113 2
+74166 230 2
+74166 339 5
+74166 232 1
+66464 244 1
+66464 230 2
+66464 232 1
+66464 951 1
+66464 229 2
+66464 234 1
+8847 231 20
+8847 1619 2
+8847 951 6
+8847 30689 4
+8847 235 11
+8847 313 2
+8847 234 32
+8847 2927 2
+8847 232 21
+8847 319 25
+8847 244 181
+8847 315 28
+8847 316 67
+8847 113 5
+8847 230 43
+8847 30690 2
+8847 339 10
+8847 314 5
+8848 244 5
+8848 231 1
+8848 951 1
+8848 315 3
+8848 235 4
+8848 234 2
+8848 113 3
+8848 230 1
+8848 232 5
+46665 7943 2
+46665 244 19
+46665 230 3
+46665 232 3
+46665 22175 3
+46665 235 5
+33701 319 5
+33710 2313 2
+33710 231 37
+33710 951 1
+33710 235 12
+33710 234 4
+33710 232 17
+33710 8844 3
+33710 1268 37
+33710 319 1
+33710 3009 2
+33710 244 46
+33710 315 8
+33710 316 35
+33710 8845 1
+33710 113 27
+33710 33701 7
+33710 230 28
+33710 8847 1
+33710 942 4
+31462 319 5
+31471 2313 4
+31471 231 61
+31471 951 1
+31471 2445 2
+31471 235 15
+31471 234 3
+31471 4378 1
+31471 232 81
+31471 8844 3
+31471 1268 12
+31471 319 1
+31471 244 100
+31471 315 5
+31471 316 60
+31471 8845 1
+31471 31673 3
+31471 113 24
+31471 230 59
+31471 339 34
+31471 8847 1
+31471 314 12
+31471 31462 5
+7949 319 5
+7958 8846 1
+7958 231 106
+7958 951 3
+7958 235 47
+7958 3593 1
+7958 313 3
+7958 234 14
+7958 4378 1
+7958 232 115
+7958 8848 3
+7958 8844 4
+7958 1268 471
+7958 7949 14
+7958 319 3
+7958 244 297
+7958 315 23
+7958 316 88
+7958 1956 6
+7958 8845 1
+7958 113 17
+7958 230 92
+7958 339 2
+7958 8847 6
+7958 314 3
+7958 8843 2
+7958 942 12
+84045 113 2
+84045 232 1
+84045 1268 18
+47715 319 5
+47724 8846 1
+47724 231 81
+47724 5859 1
+47724 951 1
+47724 235 29
+47724 3593 1
+47724 313 2
+47724 234 13
+47724 232 58
+47724 47715 13
+47724 8848 5
+47724 8844 5
+47724 23361 1
+47724 1268 159
+47724 319 14
+47724 244 109
+47724 315 26
+47724 316 89
+47724 8845 1
+47724 113 7
+47724 230 69
+47724 8847 2
+47724 314 1
+47724 942 1
+7902 7943 2
+7902 113 22
+7902 230 5
+7902 313 1
+34042 319 5
+34042 34088 5
+34042 232 1
+34042 316 5
+34042 315 4
+34042 313 5
+34088 319 8
+34088 244 20
+34088 231 7
+34088 316 4
+34088 235 6
+34088 42110 42
+34088 234 1
+34088 230 11
+34088 232 8
+34088 314 6
+34088 1806 1
+34088 1805 1
+42110 319 3
+42110 244 1
+42110 231 1
+42110 232 1
+42110 316 4
+42110 235 3
+36502 319 10
+36502 244 1
+36502 231 13
+36502 36571 19
+36502 316 17
+36502 315 7
+36502 230 1
+36502 232 17
+36571 319 6
+36571 244 13
+36571 231 1
+36571 16983 21
+36571 1170 1
+36571 316 10
+36571 235 6
+36571 234 1
+36571 230 8
+36571 232 19
+36571 1806 1
+36571 1805 1
+16983 319 1
+16983 1170 1
+16983 316 2
+16983 235 1
+37830 35901 4
+26148 1929 1
+26148 232 4
+26599 18006 9
+26599 18005 1
+26600 18006 6
+26600 18005 1
+18005 26148 1
+26601 18005 2
+26601 26602 3
+26601 942 1
+340 18005 2
+340 281 1
+340 26148 1
+36849 18006 1
+37829 35901 1
+37829 26148 1
+341 340 3
+341 281 1
+43289 26148 1
+43289 942 1
+43290 35901 4
+43290 26148 2
+37831 35901 1
+37831 26148 1
+35884 35901 1
+35884 942 1
+72056 281 1
+43291 26148 1
+43291 942 1
+43292 26148 1
+43292 942 1
+26117 26150 8
+26117 26149 2
+26117 26148 2
+17987 18006 3
+17987 18005 1
+17987 942 1
+85991 37517 1
+85991 76871 2
+85991 26148 1
+37832 35901 1
+37832 942 1
+26603 36849 1
+1200 36849 3
+1200 26148 1
+37833 18006 1
+22974 319 5
+76871 18005 1
+76871 43294 1
+76871 340 3
+76871 37496 1
+76871 22974 1
+76871 281 1
+76871 43296 1
+76871 43297 1
+76871 43298 1
+43293 26149 2
+43293 26148 3
+43294 18005 3
+43294 26150 2
+43294 37517 1
+43294 26148 1
+43294 37519 8
+43294 26117 1
+43295 37517 1
+43295 26148 1
+43295 942 1
+43296 26150 5
+43296 37517 1
+43296 232 1
+43296 26148 1
+43296 942 1
+281 26148 1
+43297 63327 6
+43297 18005 2
+43297 37517 1
+43297 63328 4
+43297 26148 4
+43297 942 2
+43297 37519 1
+37517 26148 1
+37496 26150 2
+37496 37518 2
+37496 37519 8
+37496 26117 1
+37496 18005 3
+37496 37517 1
+37496 26148 1
+37496 942 1
+43298 37517 1
+43298 43297 5
+63327 18005 6
+63327 26148 8
+63327 942 3
+63327 37519 5
+22975 340 6
+22975 281 1
+37518 18006 3
+37518 26148 1
+35901 36849 1
+37834 36849 1
+37519 26150 7
+37519 26148 2
+37519 26117 4
+26150 26148 1
+63328 63327 5
+63328 26148 2
+46228 340 3
+46228 281 1
+18006 26148 1
+278 281 1
+26514 18006 6
+26514 17987 10
+26514 18005 2
+26514 26600 13
+26514 26148 1
+26514 26603 3
+26514 26602 1
+26514 3280 35
+26514 26599 10
+26514 26601 8
+43255 43292 1
+43255 37834 31
+43255 37496 3
+43255 43296 2
+43255 1200 3
+43255 37519 8
+43255 26600 4
+43255 37517 1
+43255 26148 1
+43255 37831 30
+43255 37830 4
+43255 26599 1
+43255 43298 1
+43255 43295 1
+43255 26149 8
+43255 26150 13
+43255 37518 8
+43255 43297 3
+43255 17987 7
+43255 35884 2
+43255 43289 4
+43255 26117 3
+43255 43290 10
+43255 43294 2
+43255 43293 4
+43255 37833 2
+43255 37832 5
+43255 3280 53
+43255 26601 3
+43255 26603 6
+43255 43291 2
+52677 43290 10
+52677 35901 1
+52677 36849 1
+52677 37831 2
+52677 35884 1
+52677 3280 20
+52677 1200 11
+52677 43289 8
+37695 18006 2
+37695 37834 6
+37695 37829 6
+37695 35884 8
+37695 35901 1
+37695 37833 6
+37695 26148 1
+37695 37832 7
+37695 37831 9
+37695 3280 35
+37695 26603 7
+37695 37830 11
+62492 26951 2
+62492 7943 2
+62492 232 2
+62492 26949 1
+62492 2444 2
+61881 2064 1
+61881 61880 5
+61881 9769 1
+61880 62492 2
+61880 941 1
+61880 9849 1
+61880 16309 1
+61880 1959 2
+61880 313 1
+61880 16274 2
+61880 7943 1
+61880 113 1
+61880 1957 1
+61880 230 1
+61880 232 2
+61880 1806 1
+61880 1805 1
+61880 1268 3
+16309 7943 2
+16309 230 1
+16309 232 3
+16309 951 1
+16309 313 2
+16274 16308 1
+16274 7943 2
+16274 1957 1
+16274 232 3
+16274 16307 1
+16274 1959 1
+16274 313 2
+23549 2064 1
+23549 230 1
+23549 9769 2
+61806 113 14
+61806 61881 3
+61806 1804 2
+61806 61880 2
+2451 2066 6
+2451 113 2
+2451 232 2
+2451 20379 1
+2451 229 3
+2451 1268 1
+2542 231 1
+2542 313 2
+2542 234 1
+2542 16308 1
+2542 25804 1
+2542 1173 1
+2542 232 8
+2542 1805 2
+2542 244 2
+2542 1929 1
+2542 113 18
+2542 230 1
+2542 339 1
+2542 314 1
+2542 229 1
+2542 1806 1
+2542 942 2
+2542 16307 1
+61448 113 2
+61448 61456 2
+61456 2313 1
+61456 244 20
+61456 235 4
+61456 313 2
+61456 234 3
+61456 113 33
+61456 230 2
+61456 232 1
+61456 1617 3
+61456 17580 1
+28553 28624 4
+28553 3828 1
+28553 2445 1
+28553 313 5
+28553 28628 1
+28553 232 4
+28553 6997 7
+28553 1805 1
+28553 319 2
+28553 244 1
+28553 28625 1
+28553 28626 1
+28553 113 43
+28553 2359 2
+28553 1617 4
+28553 229 3
+28553 10284 3
+28553 15196 4
+28012 17692 1
+17692 2313 1
+17692 236 2
+17692 231 21
+17692 29206 1
+17692 1170 1
+17692 951 4
+17692 3828 4
+17692 235 15
+17692 313 3
+17692 234 7
+17692 16308 1
+17692 232 14
+17692 17580 1
+17692 6997 4
+17692 1805 3
+17692 319 11
+17692 244 31
+17692 2542 3
+17692 9769 1
+17692 316 1
+17692 113 12
+17692 230 11
+17692 339 30
+17692 1617 5
+17692 314 2
+17692 229 19
+17692 942 2
+17692 16307 1
+17692 10284 4
+84680 319 1
+84680 244 9
+84680 231 3
+84680 230 3
+84680 232 3
+84680 6997 1
+84680 229 3
+84680 234 2
+6997 231 14
+6997 41405 4
+6997 1170 1
+6997 235 1
+6997 313 8
+6997 234 2
+6997 28628 1
+6997 1173 2
+6997 232 27
+6997 2545 1
+6997 319 4
+6997 244 6
+6997 28625 2
+6997 28626 15
+6997 6998 4
+6997 24784 1
+6997 1929 2
+6997 113 71
+6997 230 3
+6997 2453 12
+6997 229 34
+6997 942 4
+6997 2451 3
+28626 319 4
+28628 319 4
+10483 2066 5
+10483 113 2
+10483 2453 6
+10483 232 1
+10483 2444 1
+1172 319 2
+1172 244 1
+1172 231 19
+1172 951 3
+1172 315 2
+1172 23037 2
+1172 313 5
+1172 362 2
+1172 113 1
+1172 2453 1
+1172 232 8
+1172 6997 1
+1172 229 5
+6998 941 1
+6998 2453 7
+6998 6997 7
+2453 319 5
+21692 2064 1
+21692 4373 1
+21692 19073 2
+21692 230 1
+21692 2453 2
+21692 232 1
+21692 2039 1
+21692 229 3
+40838 113 7
+40838 2453 5
+52009 2453 3
+52009 6997 3
+46114 319 3
+46114 30036 3
+46114 231 1
+46114 951 2
+46114 316 1
+46114 315 4
+46114 313 2
+46114 113 11
+46114 2453 7
+46114 6997 2
+56493 2453 2
+56493 230 1
+56493 229 3
+56493 4373 2
+23037 319 3
+23037 1171 1
+23037 955 3
+23037 951 2
+23037 315 5
+23037 313 2
+23037 362 2
+23037 113 11
+23037 4378 4
+23037 2453 8
+23037 232 8
+23037 229 7
+59729 231 4
+59729 951 2
+59729 3828 3
+59729 313 1
+59729 362 2
+59729 232 4
+59729 6997 1
+59729 319 3
+59729 1171 1
+59729 315 2
+59729 316 1
+59729 955 2
+59729 23037 1
+59729 113 6
+59729 2453 9
+59729 1617 3
+59729 229 7
+59729 2451 2
+73842 319 1
+73842 113 3
+73842 2453 5
+73842 1806 1
+73842 951 1
+73842 316 4
+73842 1805 1
+45583 319 1
+45583 1957 1
+45583 231 1
+45583 113 5
+45583 2453 2
+45583 229 1
+45583 1959 1
+28250 113 2
+28250 8844 5
+2378 1960 1
+2378 231 1
+2378 1170 1
+2378 2445 1
+2378 1959 2
+2378 313 1
+2378 1957 1
+2378 2453 8
+2378 232 1
+2378 2444 1
+2378 1268 3
+40673 113 1
+40673 2453 4
+40673 232 2
+40673 1806 1
+40673 1805 1
+30279 2543 1
+30279 232 1
+30279 2545 3
+30279 30312 1
+30279 229 1
+30279 14588 1
+30279 2445 3
+70278 30312 1
+70278 2445 4
+70278 30279 1
+31173 2066 1
+31173 113 4
+55148 113 4
+30312 2066 6
+25174 113 2
+91527 113 6
+91527 4378 2
+91527 232 3
+85001 113 2
+61562 2445 2
+61562 313 2
+8889 244 2
+8889 236 1
+8889 237 1
+8889 313 1
+2360 244 1
+2360 232 2
+2360 1170 1
+2360 313 1
+11955 113 6
+11955 2359 2
+11955 25014 2
+11955 25015 3
+11956 2066 5
+11956 113 2
+11956 232 8
+11956 25014 1
+11956 11955 8
+11956 25015 2
+11956 1268 4
+11957 11955 3
+11957 313 1
+59167 11956 1
+59167 25014 1
+59167 11955 5
+59167 25015 1
+79638 11955 3
+79638 59167 4
+79638 11957 3
+25015 319 2
+25015 11956 3
+25015 41405 1
+25015 25014 2
+25015 11957 2
+25015 113 6
+25015 2359 4
+25015 2545 1
+25015 6997 1
+25015 11955 1
+28625 244 26
+28625 236 1
+28625 231 4
+28625 235 9
+28625 234 2
+28625 113 9
+28625 230 2
+28625 232 1
+28625 229 1
+28625 1805 2
+28625 10284 1
+10284 244 30
+10284 236 2
+10284 231 3
+10284 235 5
+10284 234 6
+10284 113 12
+10284 232 4
+10284 1805 2
+11881 244 4
+11881 231 3
+11881 235 1
+11881 113 1
+11881 230 2
+11881 1173 1
+11881 232 3
+11881 2359 1
+31337 8889 1
+31337 319 1
+31337 2359 2
+31337 234 1
+36698 2359 1
+36698 232 1
+48229 231 1
+48229 2359 1
+48229 229 1
+92617 2359 1
+92617 48207 1
+48207 2359 2
+48207 232 1
+48207 48229 1
+2329 2359 1
+2329 2360 1
+81014 11930 2
+81014 313 2
+11920 11930 1
+11930 941 1
+11930 113 13
+11930 42539 4
+11930 313 6
+42539 941 1
+42539 113 1
+42539 232 1
+1014 1054 2
+1014 313 1
+34093 2359 1
+56457 319 1
+56457 951 1
+56457 1054 3
+84973 2088 2
+11917 2359 1
+11917 6997 1
+28103 231 2
+28103 113 3
+28103 232 1
+28103 20379 2
+72059 113 4
+72059 2544 1
+72059 2543 1
+72059 232 2
+72059 2545 9
+64421 319 3
+64421 113 2
+64421 21674 1
+64421 21654 1
+64421 2545 3
+74059 28103 1
+74059 113 3
+45504 113 5
+90660 319 2
+90660 113 2
+90660 2543 1
+90660 232 1
+90660 2545 4
+90660 8845 1
+90660 8844 2
+21654 319 1
+21654 2543 1
+21654 2359 1
+21654 21674 3
+21654 2545 3
+21674 319 2
+40532 2066 4
+40532 113 5
+40532 2544 1
+40532 2543 1
+40532 2545 7
+40532 229 1
+27204 2066 4
+27204 113 5
+27204 2544 1
+27204 2543 1
+27204 2545 7
+27204 229 1
+21118 2066 4
+21118 113 5
+21118 2544 1
+21118 2543 1
+21118 2545 7
+21118 229 1
+2509 113 1
+2509 2544 1
+2509 2543 1
+2509 2545 6
+2509 229 1
+27943 113 3
+27943 2543 1
+27943 232 1
+27943 2545 5
+11933 113 3
+11933 2543 1
+11933 11956 3
+11933 232 1
+11933 2545 5
+11933 11955 1
+11933 11957 2
+62814 113 5
+62814 2543 1
+62814 232 1
+62814 2545 8
+41405 941 2
+41405 113 1
+41405 232 1
+41405 6997 5
+41405 2545 5
+2545 319 5
+76943 113 3
+76943 2543 1
+76943 232 1
+76943 2545 6
+76943 2444 1
+76943 2445 1
+76943 313 1
+11062 232 1
+11062 1990 2
+1990 1268 2
+43701 16308 1
+43701 113 1
+43701 1806 1
+43701 1805 1
+23233 231 2
+23233 113 1
+23233 232 2
+23233 1268 1
+1173 113 1
+1173 230 1
+1173 235 3
+1173 234 1
+124 244 16
+124 236 9
+124 231 19
+124 239 1
+124 237 17
+124 238 4
+124 235 1
+124 234 7
+124 113 13
+124 230 9
+124 232 2
+124 229 1
+9789 2313 1
+9789 2066 10
+9789 231 13
+9789 230 4
+9789 229 4
+26692 236 20
+26692 231 18
+26692 24745 2
+26692 239 8
+26692 238 3
+26692 24743 2
+26692 232 17
+26692 1805 1
+26692 1615 6
+26692 319 3
+26692 237 11
+26692 315 18
+26692 12392 2
+26692 26951 8
+26692 113 6
+26692 230 15
+26692 26952 1
+26692 339 2
+26692 26950 3
+26692 1617 4
+26692 15200 2
+26692 942 2
+26692 2313 2
+26692 1619 4
+26692 2445 2
+26692 234 4
+26692 15199 3
+26692 1888 1
+26692 2444 1
+26692 12391 1
+26692 244 1
+26692 1614 5
+26692 316 15
+26692 26949 1
+12390 12392 2
+12392 17960 4
+12392 38115 1
+12392 236 1
+12392 239 5
+12392 18311 1
+12392 17927 3
+12392 362 1
+12392 14594 1
+12392 232 8
+12392 12391 3
+12392 319 4
+12392 4382 2
+12392 7100 1
+12392 12350 3
+12392 20759 3
+12392 315 5
+12392 9769 2
+12392 1609 1
+12392 113 3
+12392 2066 3
+12392 17957 5
+12392 20754 4
+12392 4042 1
+12392 12390 2
+12392 7 2
+12392 2451 2
+20754 319 3
+20754 20759 1
+20754 12392 7
+20754 313 1
+20754 1929 2
+20754 1888 1
+20754 230 5
+20754 12390 2
+20754 12391 3
+20759 17960 3
+20759 319 2
+20759 12392 3
+20759 1929 2
+20759 1888 1
+20759 230 1
+20759 232 1
+20759 12390 2
+17927 236 11
+17927 2444 1
+17927 12392 4
+17927 12390 2
+17927 1615 2
+17957 319 1
+17957 4382 12
+17957 239 1
+17957 12392 10
+17957 113 3
+17957 1888 2
+17957 230 5
+17957 2444 1
+17957 12390 2
+17960 319 1
+17960 239 1
+17960 18311 7
+17960 12392 9
+17960 113 3
+17960 1888 1
+17960 230 4
+17960 14589 2
+17960 2444 1
+17960 12390 2
+12391 239 1
+12391 46594 10
+12391 362 4
+12391 944 1
+12391 24743 6
+12391 1957 2
+12391 232 1
+12391 46595 1
+12391 20379 2
+12391 2444 2
+12391 943 1
+12391 949 2
+12391 12350 22
+12391 315 1
+12391 1959 4
+12391 12392 7
+12391 945 1
+12391 113 11
+12391 230 5
+12391 12390 2
+12350 4092 4
+12350 12392 2
+12350 4091 1
+12350 230 1
+12350 2444 1
+12350 4042 11
+12350 12390 2
+12350 12391 4
+20380 29403 4
+20380 113 2
+20380 232 3
+20381 42626 7
+20381 113 2
+20381 20380 6
+20381 232 10
+20381 20379 1
+20381 9769 5
+20381 1268 3
+20256 236 2
+20256 20380 1
+20256 7100 1
+20256 237 2
+20256 9769 2
+20256 1602 1
+20256 1170 6
+20256 315 3
+20256 1609 1
+20256 362 1
+20256 232 9
+20256 20381 2
+20256 20379 10
+20256 1268 5
+49612 231 6
+49612 20380 5
+49612 316 7
+49612 315 1
+49612 313 3
+49612 29403 3
+49612 2066 1
+49612 113 2
+49612 230 1
+49612 232 9
+49612 20381 8
+49612 20379 2
+49612 1268 4
+62761 319 3
+62761 17172 1
+62761 17163 3
+62761 232 1
+62761 315 2
+62761 229 2
+62761 234 1
+14589 231 1
+14589 313 1
+36232 113 4
+36232 14589 3
+36232 1268 1
+40512 319 2
+40512 244 5
+40512 4379 3
+40512 235 1
+40512 234 3
+40512 113 2
+40512 230 9
+40512 232 8
+40512 339 20
+40512 314 3
+76404 35025 1
+76404 113 2
+76404 2065 2
+76404 18311 1
+76404 313 1
+4379 113 1
+4379 4382 5
+4379 232 16
+4379 6997 2
+4379 11815 17
+4379 229 1
+4379 11881 1
+4379 313 3
+17064 2066 6
+38114 17064 5
+38114 2066 4
+38114 113 4
+38114 17081 5
+38114 10979 5
+10979 113 4
+10979 230 1
+10979 313 3
+28104 4382 25
+28104 1170 1
+28104 4379 1
+28104 232 7
+28104 14589 1
+28104 28105 3
+28104 17167 41
+28104 11815 40
+28105 35025 1
+28105 231 1
+28105 14589 1
+28105 232 3
+28105 17167 9
+28105 235 5
+14594 2066 8
+14594 4382 8
+14594 239 5
+14594 2444 2
+14594 315 5
+14594 229 1
+14594 1268 4
+33559 231 22
+33559 1170 1
+33559 2445 7
+33559 313 12
+33559 232 99
+33559 6997 10
+33559 11881 2
+33559 4382 108
+33559 33560 1
+33559 1956 11
+33559 4379 17
+33559 113 8
+33559 230 5
+33559 14589 5
+33559 229 28
+33559 11815 222
+33559 942 4
+4382 14595 4
+4382 236 4
+4382 231 6
+4382 1619 3
+4382 239 4
+4382 951 1
+4382 313 6
+4382 234 5
+4382 362 2
+4382 14594 1
+4382 232 42
+4382 10923 6
+4382 1955 4
+4382 1268 11
+4382 244 1
+4382 949 1
+4382 237 4
+4382 1956 53
+4382 315 3
+4382 4379 5
+4382 113 10
+4382 4213 4
+4382 230 2
+4382 14589 4
+4382 11815 136
+4382 14588 4
+4382 4192 1
+4382 942 2
+4382 2451 7
+4213 113 4
+4213 4382 3
+4213 1268 1
+11815 2313 4
+11815 236 4
+11815 239 1
+11815 951 1
+11815 313 3
+11815 234 1
+11815 362 2
+11815 232 55
+11815 1955 14
+11815 1268 5
+11815 244 2
+11815 949 1
+11815 4382 32
+11815 237 52
+11815 315 1
+11815 1956 15
+11815 113 7
+11815 942 1
+33560 236 1
+33560 231 2
+33560 113 6
+33560 239 2
+33560 232 2
+33560 234 1
+24212 231 22
+24212 2445 1
+24212 313 6
+24212 232 161
+24212 17167 54
+24212 6997 2
+24212 11881 1
+24212 33559 2
+24212 4382 89
+24212 33560 1
+24212 1956 8
+24212 4379 9
+24212 113 4
+24212 230 2
+24212 14589 2
+24212 229 14
+24212 11815 160
+24212 942 1
+24166 14595 2
+24166 4382 4
+24166 313 1
+24166 113 3
+24166 232 2
+24166 14594 2
+24166 229 3
+24166 14588 1
+24166 24212 1
+7893 244 2
+7893 5628 27
+7893 4379 4
+7893 230 1
+7893 14589 2
+7893 232 29
+7893 17167 17
+7893 5625 13
+7893 6997 2
+7893 11881 2
+7893 942 1
+9961 319 1
+9961 244 1
+9961 113 1
+9961 7893 3
+9961 232 1
+9961 5628 3
+9961 234 1
+5937 113 4
+5937 7893 3
+5937 5625 3
+5937 7892 1
+5937 229 3
+39307 230 1
+39307 5937 4
+39307 5628 2
+39307 5625 1
+39307 9961 1
+39307 234 1
+17172 35025 4
+17172 1170 2
+17172 235 5
+17172 313 4
+17172 232 46
+17172 17167 32
+17172 6997 9
+17172 11881 1
+17172 319 2
+17172 4382 23
+17172 4379 4
+17172 113 11
+17172 230 3
+17172 14589 2
+17172 229 8
+17172 24212 2
+17083 17172 1
+17083 4379 1
+17083 313 3
+17083 17163 1
+17083 232 16
+17083 14589 1
+17083 17167 11
+17083 6997 1
+17083 942 2
+17083 11881 2
+17083 4834 5
+17167 14589 4
+17167 229 1
+7892 2066 8
+7892 14589 1
+7892 232 2
+7892 5625 5
+7892 2444 1
+7892 229 1
+7892 1268 3
+5887 319 1
+5887 244 4
+5887 113 2
+5887 232 1
+5887 2445 10
+5887 313 2
+5625 36887 3
+5625 5628 11
+5625 7892 1
+5625 1956 9
+5625 113 1
+5625 14589 2
+5625 232 4
+5625 4192 1
+5625 1268 3
+5625 1955 3
+36887 113 6
+36887 5628 5
+36887 5625 3
+36887 1268 1
+40513 232 2
+40513 5628 8
+40513 1956 6
+40513 1268 2
+5628 40513 4
+5628 36887 2
+5628 244 5
+5628 3011 1
+5628 7892 1
+5628 1956 13
+5628 40512 1
+5628 232 24
+5628 5625 18
+5628 1268 5
+76406 35025 4
+76406 18311 1
+76406 1956 2
+76406 2445 3
+76406 313 1
+76406 2066 1
+76406 232 1
+76406 14589 1
+76406 17167 2
+76406 1268 1
+34914 35025 3
+34914 231 3
+34914 18311 1
+34914 1956 19
+34914 4379 5
+34914 313 5
+34914 113 3
+34914 14589 1
+34914 232 5
+34914 6997 2
+34914 229 2
+34914 14588 2
+34914 1268 1
+34914 1955 6
+33979 35025 5
+33979 38115 1
+33979 18311 1
+33979 1170 2
+33979 2445 3
+33979 235 5
+33979 313 7
+33979 232 24
+33979 6997 9
+33979 11881 1
+33979 33559 2
+33979 319 3
+33979 244 11
+33979 4382 21
+33979 4379 4
+33979 113 15
+33979 230 5
+33979 14589 2
+33979 229 7
+64266 319 1
+64266 231 8
+64266 2543 1
+64266 57838 1
+64266 33979 1
+64266 232 1
+64266 2359 1
+64266 17163 8
+64266 2545 4
+64266 942 1
+64266 33559 1
+18311 35025 4
+18311 1956 8
+18311 313 1
+18311 234 3
+18311 113 3
+18311 14589 2
+18311 232 7
+18311 1617 5
+18311 10923 3
+18311 44797 3
+18311 1268 1
+18311 2451 1
+18117 113 4
+18117 18311 3
+18117 1268 1
+46831 18311 4
+46831 1268 2
+35025 113 4
+35025 14589 2
+35025 18311 4
+35025 76404 1
+38115 35025 3
+38115 2066 8
+38115 113 1
+38115 232 1
+38115 18311 5
+38115 2444 1
+38115 229 1
+38115 1268 3
+33943 17172 1
+33943 231 5
+33943 2543 1
+33943 33979 1
+33943 28103 2
+33943 113 4
+33943 232 1
+33943 17163 9
+33943 2545 1
+33943 942 1
+33943 33559 1
+44797 319 5
+17163 2313 1
+17163 38115 3
+17163 14595 1
+17163 18311 2
+17163 17081 3
+17163 10979 1
+17163 1170 3
+17163 951 1
+17163 2445 2
+17163 235 2
+17163 313 4
+17163 1173 1
+17163 232 3
+17163 17692 2
+17163 315 4
+17163 38114 3
+17163 230 2
+17163 229 5
+17163 14588 39
+87581 4382 24
+87581 232 4
+87581 11815 38
+87581 4379 1
+84077 35025 1
+84077 232 1
+84077 235 5
+57838 4379 1
+57838 2445 4
+57838 313 3
+57838 230 2
+57838 17163 1
+57838 14589 5
+57838 232 2
+57838 6997 1
+57838 942 2
+57838 11881 1
+57838 4834 5
+4834 236 2
+4834 237 1
+4834 1956 10
+4834 1170 2
+4834 313 2
+4834 14589 2
+4834 232 9
+4834 229 1
+4834 942 1
+4834 1268 1
+77314 113 6
+77314 4834 1
+31872 4834 4
+31872 1268 2
+4795 2066 8
+4795 2444 1
+4795 229 1
+4795 4834 4
+4795 1268 3
+86293 4382 30
+86293 232 4
+86293 11815 38
+86293 4379 1
+84220 3009 2
+84220 319 6
+84220 37073 1
+84220 244 30
+84220 236 4
+84220 235 15
+84220 2066 3
+84220 230 7
+84220 232 2
+84220 314 3
+84220 229 2
+84220 15200 2
+84220 942 1
+23234 7549 12
+23234 231 1
+23234 951 1
+23234 235 15
+23234 313 8
+23234 234 1
+23234 362 1
+23234 10352 1
+23234 232 4
+23234 17227 1
+23234 319 1
+23234 244 53
+23234 941 1
+23234 30024 1
+23234 315 1
+23234 316 6
+23234 113 16
+23234 230 7
+23234 30023 2
+23234 339 2
+23234 314 2
+23234 23130 15
+30024 30023 2
+30024 10397 6
+23130 11062 8
+23130 244 2
+23130 1990 8
+23130 316 2
+23130 235 3
+23130 23234 2
+23130 313 1
+23130 23233 3
+23130 113 10
+23130 230 1
+23130 2359 1
+23130 232 1
+23130 229 2
+23130 10284 1
+23130 1268 2
+46615 2313 1
+46615 319 1
+46615 244 9
+46615 231 7
+46615 6249 6
+46615 235 5
+46615 6943 1
+46615 113 5
+46615 230 6
+46615 314 1
+80030 244 8
+80030 113 3
+80030 230 1
+80030 951 3
+80030 235 2
+80030 234 1
+5947 2313 1
+5947 244 2
+5947 230 2
+5947 339 1
+5947 314 1
+5947 234 1
+36851 232 1
+36851 36877 4
+36851 10284 1
+36877 232 3
+36877 229 2
+36877 313 1
+52748 7549 12
+52748 2313 7
+52748 236 1
+52748 231 10
+52748 1619 3
+52748 951 2
+52748 235 12
+52748 313 8
+52748 234 24
+52748 10352 2
+52748 232 16
+52748 17227 3
+52748 319 1
+52748 244 83
+52748 315 31
+52748 316 10
+52748 113 11
+52748 230 38
+52748 30023 32
+52748 10397 4
+52748 339 123
+52748 314 10
+17227 244 3
+17227 230 3
+17227 339 9
+17227 232 2
+17227 234 1

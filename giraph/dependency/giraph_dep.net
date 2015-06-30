@@ -1,0 +1,1756 @@
+*Vertics: 462
+4,org.apache.giraph.counters.GiraphStats
+47,org.apache.giraph.counters.HadoopCountersBase
+48,org.apache.giraph.counters.GiraphHadoopCounter
+56,org.apache.giraph.comm.messages.DiskBackedMessageStoreByPartition
+195,org.apache.giraph.utils.ByteArrayVertexIdMessages
+196,org.apache.giraph.utils.EmptyIterable
+201,org.apache.giraph.comm.messages.DiskBackedMessageStore
+204,org.apache.giraph.utils.VertexIdIterator
+233,org.apache.giraph.aggregators.IntMinAggregator
+241,org.apache.giraph.aggregators.BasicAggregator
+256,org.apache.giraph.partition.PartitionBalancer
+338,org.apache.giraph.worker.WorkerInfo
+340,org.apache.giraph.partition.PartitionStats
+341,org.apache.giraph.partition.PartitionExchange
+342,org.apache.giraph.partition.PartitionStore
+343,org.apache.giraph.graph.TaskInfo
+367,org.apache.giraph.graph.Vertex
+370,org.apache.giraph.graph.VertexEdgeCount
+386,org.apache.giraph.comm.aggregators.CountingOutputStream
+397,org.apache.giraph.utils.ExtendedByteArrayDataOutput
+409,org.apache.giraph.benchmark.WeightedPageRankBenchmark
+433,org.apache.giraph.conf.GiraphConfiguration
+435,org.apache.giraph.combiner.DoubleSumCombiner
+436,org.apache.giraph.edge.ArrayListEdges
+437,org.apache.giraph.edge.ByteArrayEdges
+438,org.apache.giraph.edge.HashMapEdges
+439,org.apache.giraph.edge.LongDoubleArrayEdges
+440,org.apache.giraph.io.formats.PseudoRandomInputFormatConstants
+441,org.apache.giraph.io.formats.JsonBase64VertexOutputFormat
+442,org.apache.giraph.io.formats.PseudoRandomEdgeInputFormat
+443,org.apache.giraph.io.formats.PseudoRandomVertexInputFormat
+444,org.apache.giraph.partition.SimpleLongRangePartitionerFactory
+449,org.apache.giraph.benchmark.GiraphBenchmark
+450,org.apache.giraph.benchmark.BenchmarkOption
+452,org.apache.giraph.benchmark.WeightedPageRankVertex
+453,org.apache.giraph.conf.ClassConfOption
+484,org.apache.giraph.metrics.TimerDesc
+504,org.apache.giraph.comm.requests.ByteArrayRequest
+520,org.apache.giraph.comm.requests.WritableRequest
+530,org.apache.giraph.io.hcatalog.HCatGiraphRunner
+643,org.apache.giraph.io.EdgeInputFormat
+644,org.apache.giraph.job.GiraphJob
+645,org.apache.giraph.io.VertexInputFormat
+646,org.apache.giraph.io.VertexOutputFormat
+652,org.apache.giraph.io.hcatalog.GiraphHCatInputFormat
+653,org.apache.giraph.io.hcatalog.HCatalogVertexInputFormat
+654,org.apache.giraph.io.hcatalog.HCatalogEdgeInputFormat
+655,org.apache.giraph.io.hcatalog.HCatalogVertexOutputFormat
+656,org.apache.giraph.io.hcatalog.HiveUtils
+677,org.apache.giraph.zk.ZooKeeperExt
+804,org.apache.giraph.examples.SimpleAggregatorWriter
+824,org.apache.giraph.conf.DefaultImmutableClassesGiraphConfigurable
+829,org.apache.giraph.aggregators.BooleanAndAggregator
+835,org.apache.giraph.utils.ByteArrayIterable
+854,org.apache.giraph.conf.ImmutableClassesGiraphConfiguration
+855,org.apache.giraph.utils.ByteArrayIterator
+860,org.apache.giraph.yarn.GiraphYarnTask
+929,org.apache.giraph.graph.GraphTaskManager
+945,org.apache.giraph.io.formats.AdjacencyListTextVertexInputFormat
+990,org.apache.giraph.io.formats.TextVertexInputFormat
+997,org.apache.giraph.io.iterables.EdgeWithSource
+1030,org.apache.giraph.utils.MockUtils
+1089,org.apache.giraph.comm.ServerData
+1091,org.apache.giraph.comm.messages.ByteArrayMessagesPerVertexStore
+1092,org.apache.giraph.graph.GraphState
+1093,org.apache.giraph.partition.BasicPartitionOwner
+1095,org.apache.giraph.utils.ReflectionUtils
+1121,org.apache.giraph.io.accumulo.TestAccumuloVertexFormat
+1183,org.apache.giraph.BspCase
+1184,org.apache.giraph.io.accumulo.edgemarker.AccumuloEdgeInputFormat
+1185,org.apache.giraph.io.accumulo.edgemarker.AccumuloEdgeOutputFormat
+1188,org.apache.giraph.io.accumulo.AccumuloVertexOutputFormat
+1249,org.apache.giraph.utils.WritableUtils
+1250,org.apache.giraph.edge.ConfigurableOutEdges
+1275,org.apache.giraph.utils.ProgressableUtils
+1382,org.apache.giraph.utils.LogStacktraceCallable
+1390,org.apache.giraph.examples.VerifyMessage
+1435,org.apache.giraph.aggregators.LongSumAggregator
+1436,org.apache.giraph.edge.EdgeFactory
+1437,org.apache.giraph.master.DefaultMasterCompute
+1438,org.apache.giraph.worker.WorkerContext
+1455,org.apache.giraph.io.formats.TextDoubleDoubleAdjacencyListVertexInputFormat
+1472,org.apache.giraph.metrics.ValueWithHostname
+1484,org.apache.giraph.aggregators.TextAppendAggregator
+1490,org.apache.giraph.partition.SimpleRangeWorkerPartitioner
+1522,org.apache.giraph.edge.MutableEdgesIterable
+1538,org.apache.giraph.edge.MutableEdgesWrapper
+1548,org.apache.giraph.utils.LoggerUtils
+1588,org.apache.giraph.yarn.TestYarnJob
+1661,org.apache.giraph.io.formats.GiraphFileInputFormat
+1662,org.apache.giraph.io.formats.IdWithValueTextOutputFormat
+1663,org.apache.giraph.io.formats.IntIntNullTextInputFormat
+1664,org.apache.giraph.yarn.GiraphYarnClient
+1665,org.apache.giraph.conf.IntConfOption
+1666,org.apache.giraph.conf.StrConfOption
+1685,org.apache.giraph.utils.MathUtils
+1694,org.apache.giraph.edge.EdgeNoValue
+1710,org.apache.giraph.comm.netty.ChannelRotater
+1736,org.apache.giraph.comm.netty.WrappedAdaptiveReceiveBufferSizePredictorFactory
+1763,org.apache.giraph.io.formats.JsonLongDoubleFloatDoubleVertexOutputFormat
+1775,org.apache.giraph.io.formats.TextVertexOutputFormat
+1782,org.apache.giraph.partition.HashMasterPartitioner
+1810,org.apache.giraph.partition.PartitionUtils
+1828,org.apache.giraph.io.EdgeReader
+1831,org.apache.giraph.io.TestJsonBase64Format
+1839,org.apache.giraph.io.formats.JsonBase64VertexInputFormat
+1848,org.apache.giraph.hive.output.HiveVertexWriter
+1881,org.apache.giraph.io.VertexWriter
+1898,org.apache.giraph.aggregators.LongOverwriteAggregator
+1904,org.apache.giraph.utils.EdgeComparator
+2029,org.apache.giraph.io.hbase.HBaseVertexInputFormat
+2067,org.apache.giraph.io.VertexReader
+2074,org.apache.giraph.io.formats.IntNullNullTextInputFormat
+2097,org.apache.giraph.graph.FinishedSuperstepStats
+2232,org.apache.giraph.zk.PredicateLock
+2262,org.apache.giraph.time.SystemTime
+2273,org.apache.giraph.examples.TestPageRank
+2284,org.apache.giraph.examples.SimplePageRankVertex
+2371,org.apache.giraph.partition.HashRangeWorkerPartitioner
+2385,org.apache.giraph.partition.HashWorkerPartitioner
+2393,org.apache.giraph.metrics.SuperstepMetricsRegistry
+2395,org.apache.giraph.examples.ConnectedComponentsVertex
+2471,org.apache.giraph.edge.DefaultEdge
+2477,org.apache.giraph.counters.GiraphTimers
+2514,org.apache.giraph.partition.HashPartitionerFactory
+2532,org.apache.giraph.utils.TaskIdsPermitsBarrier
+2557,org.apache.giraph.utils.TimedLogger
+2561,org.apache.giraph.comm.aggregators.AggregatedValueOutputStream
+2593,org.apache.giraph.comm.aggregators.AllAggregatorServerData
+2594,org.apache.giraph.comm.aggregators.OwnerAggregatorServerData
+2595,org.apache.giraph.edge.EdgeStore
+2596,org.apache.giraph.graph.VertexMutations
+2597,org.apache.giraph.partition.DiskBackedPartitionStore
+2598,org.apache.giraph.partition.SimplePartitionStore
+2599,org.apache.giraph.conf.BooleanConfOption
+2624,org.apache.giraph.yarn.GiraphApplicationMaster
+2845,org.apache.giraph.yarn.YarnUtils
+2882,org.apache.giraph.utils.ByteArrayVertexIdData
+2898,org.apache.giraph.edge.LongNullArrayEdges
+2933,org.apache.giraph.integration.SuperstepHashPartitionerFactory
+2963,org.apache.giraph.hive.input.edge.SimpleHiveToEdge
+2980,org.apache.giraph.hive.input.edge.AbstractHiveToEdge
+2986,org.apache.giraph.bsp.BspRecordReader
+2999,org.apache.giraph.TestAutoCheckpoint
+3005,org.apache.giraph.examples.SimpleCheckpointVertex
+3008,org.apache.giraph.examples.SimpleSuperstepVertex
+3020,org.apache.giraph.io.formats.GeneratedVertexInputFormat
+3029,org.apache.giraph.bsp.BspInputSplit
+3036,org.apache.giraph.comm.netty.handler.RequestDecoder
+3060,org.apache.giraph.comm.netty.ByteCounter
+3061,org.apache.giraph.comm.requests.RequestType
+3062,org.apache.giraph.time.Times
+3072,org.apache.giraph.examples.SimpleFailVertex
+3110,org.apache.giraph.conf.TestGiraphConfiguration
+3128,org.apache.giraph.comm.SendPartitionCache
+3149,org.apache.giraph.graph.GiraphTransferRegulator
+3177,org.apache.giraph.benchmark.ShortestPathsBenchmark
+3187,org.apache.giraph.combiner.MinimumDoubleCombiner
+3188,org.apache.giraph.benchmark.ShortestPathsVertex
+3191,org.apache.giraph.hive.output.SimpleVertexToHive
+3202,org.apache.giraph.hive.output.AbstractVertexToHive
+3205,org.apache.giraph.master.MasterThread
+3232,org.apache.giraph.bsp.ApplicationState
+3233,org.apache.giraph.bsp.BspService
+3235,org.apache.giraph.bsp.SuperstepState
+3236,org.apache.giraph.metrics.GiraphMetrics
+3265,org.apache.giraph.comm.netty.NettyWorkerServer
+3309,org.apache.giraph.comm.messages.OneMessagePerVertexStore
+3310,org.apache.giraph.comm.messages.SequentialFileMessageStore
+3311,org.apache.giraph.comm.netty.handler.WorkerRequestServerHandler
+3314,org.apache.giraph.comm.netty.NettyServer
+3341,org.apache.giraph.conf.GiraphClasses
+3438,org.apache.giraph.aggregators.TextAggregatorWriter
+3439,org.apache.giraph.combiner.Combiner
+3440,org.apache.giraph.graph.DefaultVertexResolver
+3441,org.apache.giraph.graph.DefaultVertexValueFactory
+3443,org.apache.giraph.master.MasterCompute
+3444,org.apache.giraph.partition.DefaultPartitionContext
+3445,org.apache.giraph.partition.SimplePartition
+3446,org.apache.giraph.worker.DefaultWorkerContext
+3472,org.apache.giraph.TestNotEnoughMapTasks
+3495,org.apache.giraph.partition.SimpleRangeMasterPartitioner
+3499,org.apache.giraph.comm.netty.NettyMasterClient
+3524,org.apache.giraph.comm.aggregators.AggregatorUtils
+3525,org.apache.giraph.comm.aggregators.SendAggregatorCache
+3526,org.apache.giraph.comm.requests.SendAggregatorsToOwnerRequest
+3528,org.apache.giraph.comm.netty.NettyClient
+3529,org.apache.giraph.comm.aggregators.CountingCache
+3530,org.apache.giraph.master.MasterInfo
+3559,org.apache.hcatalog.mapreduce.HCatUtils
+3707,org.apache.giraph.utils.RepresentativeByteArrayIterable
+3708,org.apache.giraph.utils.RepresentativeByteArrayIterator
+3709,org.apache.giraph.comm.messages.SimpleMessageStore
+3721,org.apache.giraph.examples.ConnectedComponentsVertexTest
+3744,org.apache.giraph.combiner.MinimumIntCombiner
+3745,org.apache.giraph.utils.InternalVertexRunner
+3748,org.apache.giraph.benchmark.PageRankBenchmark
+3755,org.apache.giraph.combiner.FloatSumCombiner
+3756,org.apache.giraph.edge.IntNullArrayEdges
+3757,org.apache.giraph.io.formats.PseudoRandomIntNullVertexInputFormat
+3758,org.apache.giraph.benchmark.PageRankVertex
+3761,org.apache.giraph.examples.RandomWalkVertexMasterCompute
+3770,org.apache.giraph.aggregators.DoubleSumAggregator
+3771,org.apache.giraph.examples.RandomWalkVertex
+3783,org.apache.giraph.io.hbase.edgemarker.TableEdgeOutputFormat
+3800,org.apache.giraph.io.hbase.HBaseVertexOutputFormat
+3806,org.apache.giraph.comm.netty.NettyWorkerAggregatorRequestProcessor
+3837,org.apache.giraph.comm.aggregators.SendAggregatedValueCache
+3838,org.apache.giraph.comm.requests.SendAggregatorsToMasterRequest
+3839,org.apache.giraph.comm.requests.SendAggregatorsToWorkerRequest
+3840,org.apache.giraph.comm.requests.SendWorkerAggregatorsRequest
+3857,org.apache.giraph.graph.GraphMapper
+3883,org.apache.giraph.comm.netty.NettyWorkerClient
+3917,org.apache.giraph.metrics.GiraphMetricsRegistry
+3946,org.apache.giraph.worker.BspServiceWorker
+4227,org.apache.giraph.comm.netty.NettyWorkerClientRequestProcessor
+4228,org.apache.giraph.graph.InputSplitPaths
+4229,org.apache.giraph.graph.InputSplitEvents
+4230,org.apache.giraph.graph.AddressesAndPartitionsWritable
+4231,org.apache.giraph.graph.GlobalStats
+4233,org.apache.giraph.utils.JMapHistoDumper
+4234,org.apache.giraph.metrics.GiraphTimer
+4235,org.apache.giraph.metrics.GiraphTimerContext
+4236,org.apache.giraph.metrics.WorkerSuperstepMetrics
+4237,org.apache.giraph.utils.MemoryUtils
+4239,org.apache.giraph.worker.WorkerAggregatorHandler
+4241,org.apache.giraph.worker.EdgeInputSplitsCallableFactory
+4242,org.apache.giraph.worker.InputSplitPathOrganizer
+4243,org.apache.giraph.worker.InputSplitsHandler
+4244,org.apache.giraph.worker.VertexInputSplitsCallableFactory
+4378,org.apache.giraph.examples.SimpleLongDoubleDoubleDoubleIdentityVertex
+4379,org.apache.giraph.examples.IdentityVertex
+4420,org.apache.giraph.bsp.BspInputFormat
+4421,org.apache.giraph.bsp.BspOutputFormat
+4423,org.apache.giraph.conf.AbstractConfOption
+4434,org.apache.giraph.aggregators.IntOverwriteAggregator
+4439,org.apache.giraph.conf.AllOptions
+4452,org.apache.giraph.conf.ConfOptionType
+4516,org.apache.giraph.utils.JMap
+4535,org.apache.giraph.job.GiraphConfigurationValidator
+4731,org.apache.giraph.io.formats.JsonBase64VertexFormat
+4739,org.apache.giraph.examples.RandomWalkWithRestartVertex
+4752,org.apache.giraph.examples.RandomWalkWorkerContext
+4862,org.apache.giraph.utils.TestGraph
+4863,org.apache.giraph.utils.FileUtils
+4864,org.apache.giraph.utils.InMemoryVertexInputFormat
+4904,org.apache.giraph.aggregators.DoubleProductAggregator
+4909,org.apache.giraph.comm.netty.handler.ClientRequestId
+4923,org.apache.giraph.hive.common.GiraphHiveConstants
+4946,org.apache.giraph.comm.netty.SaslNettyServer
+5009,org.apache.giraph.TestManualCheckpoint
+5024,org.apache.giraph.zk.GiraphZooKeeperAdmin
+5075,org.apache.giraph.zk.TestZooKeeperManager
+5079,org.apache.giraph.zk.ZooKeeperManager
+5202,org.apache.giraph.comm.netty.handler.AuthorizeServerHandler
+5220,org.apache.giraph.comm.netty.SaslNettyClient
+5267,org.apache.giraph.comm.requests.SaslTokenMessageRequest
+5272,org.apache.giraph.worker.EdgeInputSplitsCallable
+5300,org.apache.giraph.worker.InputSplitsCallable
+5309,org.apache.giraph.io.formats.LongDoubleDoubleAdjacencyListVertexInputFormat
+5324,org.apache.giraph.conf.LongConfOption
+5342,org.apache.giraph.examples.SimpleCombinerVertex
+5352,org.apache.giraph.utils.AnnotationUtils
+5457,org.apache.giraph.utils.CollectionUtils
+5500,org.apache.giraph.comm.requests.ByteArrayWithSenderTaskIdRequest
+5604,org.apache.giraph.partition.RangeSplitHint
+5618,org.apache.giraph.partition.RangeMasterPartitioner
+5624,org.apache.giraph.partition.RangePartitionStats
+5681,org.apache.giraph.io.TestTextDoubleDoubleAdjacencyListVertexInputFormat
+5749,org.apache.giraph.utils.EdgeIterables
+5776,org.apache.giraph.aggregators.LongProductAggregator
+5781,org.apache.giraph.bsp.ImmutableOutputCommitter
+5801,org.apache.giraph.utils.ArrayListWritable
+5855,org.apache.giraph.examples.SimpleShortestPathsVertex
+5866,org.apache.giraph.aggregators.FloatOverwriteAggregator
+5871,org.apache.giraph.io.formats.PseudoRandomLocalEdgesHelper
+5894,org.apache.giraph.examples.SimpleTriangleClosingVertex
+5919,org.apache.giraph.edge.TestStrictRandomAccessEdges
+5930,org.apache.giraph.edge.LongDoubleHashMapEdges
+5931,org.apache.giraph.graph.TestVertexAndEdges
+5933,org.apache.giraph.master.TestMasterObserver
+5954,org.apache.giraph.master.DefaultMasterObserver
+5985,org.apache.giraph.io.BasicVertexValueReader
+5991,org.apache.giraph.benchmark.AggregatorsBenchmark
+6050,org.apache.giraph.comm.netty.handler.RequestEncoder
+6100,org.apache.giraph.comm.netty.handler.SaslServerHandler
+6139,org.apache.giraph.comm.requests.SaslCompleteRequest
+6145,org.apache.giraph.worker.VertexInputSplitsCallable
+6204,org.apache.giraph.utils.ByteArrayVertexIdEdges
+6221,org.apache.giraph.comm.SendMessageCache
+6236,org.apache.giraph.utils.PairList
+6239,org.apache.giraph.comm.SendCache
+6240,org.apache.giraph.conf.FloatConfOption
+6249,org.apache.giraph.io.formats.SequenceFileVertexOutputFormat
+6428,org.apache.giraph.hive.common.DefaultConfigurableAndTableSchemaAware
+6439,org.apache.giraph.utils.IntPair
+6487,org.apache.giraph.partition.BasicPartition
+6553,org.apache.giraph.utils.ExtendedByteArrayDataInput
+6590,org.apache.giraph.aggregators.TestAggregatorsHandling
+6621,org.apache.giraph.examples.AggregatorsTestVertex
+6622,org.apache.giraph.master.MasterAggregatorHandler
+6623,org.apache.giraph.aggregators.AggregatorWrapper
+6625,org.apache.giraph.aggregators.DoubleOverwriteAggregator
+6792,org.apache.giraph.examples.SimpleMsgVertex
+6835,org.apache.giraph.edge.MapMutableEdge
+6840,org.apache.giraph.vertex.TestVertexTypes
+6901,com.yammer.metrics.core.NoOpHistogram
+6924,org.apache.giraph.partition.ByteArrayPartition
+6981,org.apache.giraph.utils.UnsafeByteArrayInputStream
+6989,org.apache.giraph.metrics.MetricsRegistryDebugger
+7004,org.apache.giraph.comm.netty.handler.ResponseEncoder
+7024,org.apache.giraph.comm.ConnectionTest
+7058,org.apache.giraph.comm.netty.handler.RequestServerHandler
+7096,org.apache.giraph.bsp.BspRecordWriter
+7099,org.apache.giraph.hive.input.vertex.AbstractHiveToVertex
+7107,org.apache.giraph.time.FakeTime
+7255,org.apache.giraph.partition.TestPartitionStores
+7303,org.apache.giraph.utils.UnsafeByteArrayOutputStream
+7518,org.apache.giraph.aggregators.FloatSumAggregator
+7523,org.apache.giraph.examples.SimpleVertexWithWorkerContext
+7800,org.apache.giraph.comm.netty.handler.WorkerRequestReservedMap
+7813,org.apache.giraph.utils.DynamicChannelBufferInputStream
+7862,org.apache.giraph.conf.TestObjectCreation
+7911,com.yammer.metrics.core.NoOpTimer
+7941,com.yammer.metrics.core.NoOpExecutorService
+7986,org.apache.giraph.comm.requests.SendVertexRequest
+8156,org.apache.giraph.comm.netty.handler.AddressRequestIdGenerator
+8157,org.apache.giraph.comm.netty.handler.RequestInfo
+8158,org.apache.giraph.comm.netty.handler.ResponseClientHandler
+8159,org.apache.giraph.comm.netty.handler.SaslClientHandler
+8274,org.apache.giraph.hive.input.vertex.HiveVertexReader
+8292,org.apache.giraph.hive.input.RecordReaderWrapper
+8318,org.apache.giraph.examples.NormalizingLongDoubleDoubleTextInputFormat
+8354,org.apache.giraph.metrics.AggregatedMetrics
+8386,org.apache.giraph.metrics.AggregatedMetric
+8414,org.apache.giraph.edge.TestMultiGraphEdges
+8423,org.apache.giraph.edge.HashMultimapEdges
+8453,org.apache.giraph.hive.common.HiveProfiles
+8459,org.apache.giraph.comm.SaslConnectionTest
+8486,org.apache.giraph.io.iterables.IteratorToReaderWrapper
+8496,org.apache.giraph.aggregators.TestDoubleAggregators
+8513,org.apache.giraph.aggregators.DoubleMaxAggregator
+8514,org.apache.giraph.aggregators.DoubleMinAggregator
+8531,org.apache.giraph.partition.TestGiraphTransferRegulator
+8598,org.apache.giraph.metrics.MeterDesc
+8599,com.yammer.metrics.core.NoOpMeter
+8639,org.apache.giraph.edge.TestStrictGraphEdges
+8676,org.apache.giraph.io.TestLongDoubleDoubleAdjacencyListVertexInputFormat
+8713,org.apache.giraph.master.BspServiceMaster
+9084,org.apache.giraph.comm.netty.NettyMasterServer
+9085,org.apache.giraph.graph.GraphFunctions
+9155,org.apache.giraph.metrics.ValueGauge
+9170,org.apache.giraph.metrics.NoOpMetricsRegistry
+9276,com.yammer.metrics.core.NoOpCounter
+9277,com.yammer.metrics.core.NoOpGuage
+9343,org.apache.giraph.aggregators.LongMaxAggregator
+9380,org.apache.giraph.io.hbase.TestHBaseRootMarkerVertextFormat
+9444,org.apache.giraph.io.hbase.edgemarker.TableEdgeInputFormat
+9446,org.apache.giraph.aggregators.FloatMaxAggregator
+9548,org.apache.giraph.io.formats.GiraphTextInputFormat
+9551,org.apache.giraph.comm.requests.SendWorkerDataRequest
+9756,org.apache.giraph.comm.SendEdgeCache
+9774,org.apache.giraph.examples.SimpleTriangleClosingVertexTest
+9835,org.apache.giraph.worker.DefaultWorkerObserver
+9864,org.apache.giraph.comm.requests.SendPartitionCurrentMessagesRequest
+9885,org.apache.giraph.examples.VertexWithDoubleValueDoubleEdgeTextOutputFormat
+9894,org.apache.giraph.TestGraphPartitioner
+9909,org.apache.giraph.examples.GeneratedVertexReader
+9910,org.apache.giraph.partition.HashRangePartitionerFactory
+9915,org.apache.giraph.aggregators.IntSumAggregator
+9932,org.apache.giraph.examples.PageRankVertex
+9942,org.apache.giraph.io.iterables.EdgeReaderWrapper
+10024,org.apache.giraph.TestMaxSuperstep
+10064,org.apache.giraph.comm.SendMutationsCache
+10113,org.apache.giraph.hive.input.vertex.HiveVertexInputFormat
+10130,org.apache.giraph.io.iterables.VertexReaderWrapper
+10134,org.apache.giraph.io.formats.AdjacencyListTextVertexOutputFormat
+10188,org.apache.giraph.io.formats.PseudoRandomUtils
+10314,org.apache.giraph.examples.SimpleInDegreeCountVertex
+10338,org.apache.giraph.io.hcatalog.HCatalogVertexValueInputFormat
+10369,org.apache.giraph.io.VertexValueInputFormat
+10370,org.apache.giraph.io.VertexValueReader
+10473,org.apache.giraph.io.superstep_output.NoOpSuperstepOutput
+10577,org.apache.giraph.job.DefaultJobObserver
+10679,org.apache.giraph.aggregators.TestFloatAggregators
+10695,org.apache.giraph.aggregators.FloatMinAggregator
+10696,org.apache.giraph.aggregators.FloatProductAggregator
+10703,org.apache.giraph.io.hcatalog.TestHiveUtils
+10919,org.apache.giraph.examples.SimpleMutateGraphVertex
+10958,org.apache.giraph.comm.requests.SendWorkerMessagesRequest
+10959,org.apache.giraph.comm.requests.SendWorkerEdgesRequest
+10960,org.apache.giraph.comm.requests.SendPartitionMutationsRequest
+11013,org.apache.giraph.aggregators.IntMaxAggregator
+11159,org.apache.giraph.hive.input.vertex.SimpleHiveToVertex
+11203,org.apache.giraph.metrics.LongAndTimeUnit
+11210,org.apache.giraph.aggregators.TestIntAggregators
+11226,org.apache.giraph.aggregators.IntProductAggregator
+11285,org.apache.giraph.io.TestEdgeInput
+11331,org.apache.giraph.io.formats.IntIntTextVertexValueInputFormat
+11332,org.apache.giraph.io.formats.IntNullReverseTextEdgeInputFormat
+11333,org.apache.giraph.io.formats.IntNullTextEdgeInputFormat
+11335,org.apache.giraph.io.formats.PseudoRandomIntNullLocalEdgesHelper
+11374,org.apache.giraph.io.formats.JsonLongDoubleFloatDoubleVertexInputFormat
+11397,org.apache.giraph.examples.LongDoubleDoubleTextInputFormat
+11423,org.apache.giraph.comm.netty.handler.MasterRequestServerHandler
+11441,org.apache.giraph.hive.input.edge.HiveEdgeReader
+11492,org.apache.giraph.io.formats.SequenceFileVertexInputFormat
+11552,org.apache.giraph.examples.SimpleOutDegreeCountVertex
+11677,org.apache.giraph.partition.RangeWorkerPartitioner
+11690,org.apache.giraph.partition.RangePartitionOwner
+11779,org.apache.giraph.utils.MasterLoggingAggregator
+11786,org.apache.giraph.utils.DynamicChannelBufferOutputStream
+11855,org.apache.giraph.io.superstep_output.SynchronizedSuperstepOutput
+11884,org.apache.giraph.comm.aggregators.AggregatorOutputStream
+12114,org.apache.giraph.graph.ComputeCallable
+12118,org.apache.giraph.comm.TestMessageStores
+12196,org.apache.giraph.comm.IncreasingBitSetTest
+12208,org.apache.giraph.utils.IncreasingBitSet
+12216,org.apache.giraph.TestMutateGraph
+12251,org.apache.giraph.aggregators.TestLongAggregators
+12267,org.apache.giraph.aggregators.LongMinAggregator
+12466,org.apache.giraph.edge.TestMultiRandomAccessEdges
+12522,org.apache.giraph.io.TestAdjacencyListTextVertexOutputFormat
+12594,org.apache.giraph.examples.RandomWalkWithRestartVertexTest
+12605,org.apache.giraph.examples.RandomWalkTestUtils
+12610,org.apache.giraph.partition.RangePartitionerFactory
+12645,org.apache.giraph.io.formats.TextEdgeInputFormat
+12782,org.apache.giraph.examples.PartitionContextTestVertex
+12811,org.apache.giraph.edge.TestNullValueEdges
+12828,org.apache.giraph.edge.LongNullHashSetEdges
+12939,org.apache.giraph.comm.RequestTest
+13015,org.apache.giraph.examples.MinimumIntCombinerTest
+13021,org.apache.giraph.io.superstep_output.MultiThreadedSuperstepOutput
+13085,org.apache.giraph.hive.output.HiveVertexOutputFormat
+13173,org.apache.giraph.partition.SimpleIntRangePartitionerFactory
+13211,org.apache.giraph.comm.RequestFailureTest
+13246,org.apache.giraph.examples.SimpleShortestPathsVertexTest
+13266,org.apache.giraph.hive.input.edge.HiveEdgeInputFormat
+13281,org.apache.giraph.zk.TestPredicateLock
+13450,org.apache.giraph.io.accumulo.AccumuloVertexInputFormat
+13459,org.apache.giraph.TestBspBasic
+13551,org.apache.giraph.examples.SimpleMasterComputeVertex
+13552,org.apache.giraph.combiner.SimpleSumCombiner
+13572,org.apache.giraph.aggregators.BooleanOrAggregator
+13594,org.apache.giraph.examples.LongDoubleNullTextInputFormat
+13672,org.apache.giraph.io.formats.TextVertexValueInputFormat
+13694,org.apache.giraph.examples.SimpleTextVertexOutputFormat
+13818,org.apache.giraph.examples.ConnectedComponentsVertexTestInMemory
+13840,org.apache.giraph.TestPartitionContext
+13908,org.apache.giraph.examples.TryMultiIpcBindingPortsTest
+13979,org.apache.giraph.io.ReverseEdgeDuplicator
+14136,org.apache.giraph.examples.VertexWithDoubleValueNullEdgeTextOutputFormat
+14389,org.apache.giraph.io.TestIdWithValueTextOutputFormat
+14412,org.apache.giraph.aggregators.TestBooleanAggregators
+14422,org.apache.giraph.aggregators.BooleanOverwriteAggregator
+14536,org.apache.giraph.benchmark.RandomMessageBenchmark
+14612,org.apache.giraph.examples.PageRankVertexTest
+14717,org.apache.giraph.GiraphRunner
+14738,org.apache.giraph.utils.ConfigurationUtils
+14813,org.apache.giraph.zk.TestZooKeeperExt
+14993,org.apache.giraph.hive.input.vertex.SimpleNoEdgesHiveToVertex
+15124,org.apache.giraph.hive.HiveGiraphRunner
+*Edges: 1292
+1183 4863 1
+1183 2599 1
+1183 1666 2
+1183 1665 1
+1183 644 8
+1183 677 5
+1183 433 7
+14717 14738 1
+14717 644 5
+14717 433 1
+2999 1183 8
+2999 2599 1
+2999 1666 1
+2999 1665 2
+2999 644 1
+2999 433 9
+13459 4242 2
+13459 1183 38
+13459 854 7
+13459 367 2
+13459 2599 2
+13459 644 18
+13459 677 1
+13459 5324 1
+13459 433 43
+9894 1183 17
+9894 644 27
+9894 433 38
+5009 1183 14
+5009 2599 1
+5009 1666 2
+5009 644 5
+5009 433 14
+10024 1183 7
+10024 48 1
+10024 644 2
+10024 4 2
+10024 433 5
+12216 1183 6
+12216 644 1
+12216 433 5
+3472 1183 7
+3472 644 4
+3472 433 7
+13840 1183 5
+13840 1665 1
+13840 644 4
+13840 433 6
+829 241 3
+13572 241 3
+14422 241 2
+8513 241 3
+8514 241 3
+6625 241 2
+4904 241 3
+3770 241 3
+9446 241 3
+10695 241 3
+5866 241 2
+10696 241 3
+7518 241 3
+11013 241 3
+233 241 3
+4434 241 2
+11226 241 3
+9915 241 3
+9343 241 3
+12267 241 3
+1898 241 2
+5776 241 3
+1435 241 3
+6590 854 1
+6590 1666 2
+6590 6622 9
+6590 433 14
+6590 1183 13
+6590 6623 8
+6590 644 8
+6590 2599 1
+14412 241 14
+14412 14422 3
+14412 13572 3
+14412 829 3
+8496 8513 3
+8496 241 16
+8496 3770 3
+8496 8514 3
+8496 6625 3
+8496 4904 3
+10679 5866 3
+10679 9446 3
+10679 241 16
+10679 10696 3
+10679 10695 3
+10679 7518 3
+11210 9915 3
+11210 11226 3
+11210 241 16
+11210 11013 3
+11210 4434 3
+11210 233 3
+12251 1898 3
+12251 12267 3
+12251 241 16
+12251 9343 3
+12251 1435 3
+12251 5776 3
+3438 824 4
+1484 241 2
+5991 450 3
+5991 449 1
+5991 433 4
+449 644 3
+449 450 5
+449 433 2
+3748 450 4
+3748 449 1
+3748 433 4
+3758 367 9
+3758 824 1
+14536 450 10
+14536 449 1
+14536 433 4
+3177 453 1
+3177 450 6
+3177 449 1
+3177 433 5
+3188 367 9
+3188 824 1
+409 453 1
+409 450 14
+409 449 1
+409 433 13
+452 367 11
+452 824 1
+4420 3029 1
+4420 2599 2
+4420 1665 1
+4421 854 6
+4421 646 2
+3233 2232 7
+3233 854 4
+3233 338 1
+3233 5079 1
+3233 1666 2
+3233 433 5
+3233 4228 4
+3233 343 1
+3233 677 3
+3233 4229 10
+3233 929 2
+435 3439 1
+3755 3439 1
+3187 3439 1
+3744 3439 1
+13552 3439 1
+7024 854 2
+7024 343 8
+7024 338 10
+7024 3528 15
+7024 1030 3
+7024 3314 20
+7024 433 2
+12196 12208 28
+13211 10958 1
+13211 6236 3
+13211 854 2
+13211 338 2
+13211 1665 4
+13211 520 1
+13211 433 2
+13211 1089 3
+13211 195 1
+13211 343 3
+13211 2599 2
+13211 3528 7
+13211 1030 1
+13211 2882 2
+13211 3314 5
+12939 10958 1
+12939 367 4
+12939 433 1
+12939 1089 5
+12939 343 4
+12939 7986 1
+12939 3314 7
+12939 342 4
+12939 1436 1
+12939 338 3
+12939 854 5
+12939 6236 3
+12939 2596 4
+12939 453 1
+12939 3236 1
+12939 195 1
+12939 3528 12
+12939 1030 1
+12939 10960 1
+12939 2882 2
+8459 854 2
+8459 343 2
+8459 338 2
+8459 2599 1
+8459 3528 3
+8459 1030 1
+8459 3314 4
+8459 433 2
+6239 6236 9
+6239 854 2
+6239 343 7
+6239 338 2
+6239 2882 6
+9756 6239 5
+9756 6204 1
+9756 6236 2
+9756 854 1
+9756 338 2
+9756 1665 1
+9756 6240 1
+6221 6239 5
+6221 195 1
+6221 6236 2
+6221 854 1
+6221 338 2
+6221 1665 1
+6221 6240 1
+10064 367 2
+10064 2596 5
+3128 854 3
+3128 367 3
+3128 3149 6
+1089 342 2
+1089 2598 1
+1089 854 1
+1089 2595 3
+1089 2599 1
+1089 2597 1
+1089 2593 3
+1089 2594 3
+12118 5457 1
+12118 3310 2
+12118 854 2
+12118 1666 1
+12118 201 2
+12118 1030 1
+12118 1091 1
+12118 56 1
+12118 433 2
+2561 386 3
+11884 386 3
+3524 854 4
+3524 338 1
+3524 1095 1
+2593 3524 2
+2593 2532 10
+2593 854 2
+2593 3530 2
+386 397 1
+2594 3524 1
+2594 2532 5
+2594 854 2
+3837 386 1
+3837 2561 1
+3837 3529 3
+3525 386 1
+3525 11884 1
+3525 3529 3
+1091 3709 4
+1091 204 5
+1091 195 3
+1091 854 5
+201 854 8
+56 204 3
+56 195 2
+56 201 2
+56 196 1
+3309 3709 4
+3309 204 4
+3309 195 2
+3309 854 3
+3309 3439 6
+3310 854 5
+3310 196 1
+3709 854 3
+3709 433 2
+3060 3236 2
+3060 2393 1
+3060 3917 4
+3528 8156 2
+3528 854 1
+3528 4909 3
+3528 1666 1
+3528 1665 9
+3528 520 6
+3528 5220 6
+3528 3060 4
+3528 343 9
+3528 2599 1
+3528 2557 2
+3528 1275 2
+3528 8157 14
+3528 1710 6
+3499 854 1
+3499 338 1
+3499 3525 4
+3499 343 4
+3499 3524 1
+3499 3528 6
+3499 3530 1
+3499 3526 1
+3499 3529 1
+9084 854 1
+9084 3314 5
+3314 4423 1
+3314 1736 1
+3314 854 3
+3314 1666 1
+3314 1665 6
+3314 433 3
+3314 3060 1
+3314 343 3
+3314 2599 2
+3314 1275 3
+3314 7800 2
+3806 3839 1
+3806 3838 1
+3806 3840 1
+3806 854 1
+3806 338 2
+3806 343 9
+3806 3524 1
+3806 3530 1
+3806 3837 4
+3806 3529 1
+3883 854 2
+3883 343 2
+3883 3528 7
+3883 520 2
+3883 3236 2
+3883 2393 1
+3883 3917 8
+4227 10958 2
+4227 367 4
+4227 9864 2
+4227 9756 5
+4227 1089 2
+4227 3128 5
+4227 6221 5
+4227 343 3
+4227 7986 1
+4227 10959 2
+4227 338 3
+4227 854 2
+4227 6236 2
+4227 1665 3
+4227 520 1
+4227 3236 2
+4227 195 2
+4227 10960 2
+4227 10064 7
+4227 2882 5
+4227 3917 4
+3265 1092 3
+3265 342 6
+3265 854 4
+3265 367 3
+3265 2596 2
+3265 1665 1
+3265 201 1
+3265 1089 11
+3265 3310 1
+3265 2599 1
+3265 3309 1
+3265 56 1
+3265 1091 1
+3265 3314 5
+5220 5267 5
+5202 4946 2
+11423 854 1
+11423 343 1
+11423 7058 2
+11423 7800 1
+11423 6622 2
+3036 3061 1
+3036 3060 3
+3036 854 2
+3036 520 4
+3036 3062 1
+3036 1095 1
+6050 3061 1
+6050 2599 1
+6050 1665 1
+6050 520 7
+6050 3062 1
+6050 433 1
+8157 520 4
+7058 854 1
+7058 343 3
+7058 2599 1
+7058 7800 3
+7058 520 10
+7058 3062 1
+8158 4909 1
+8158 2599 1
+8158 8157 1
+7004 520 3
+8159 5220 5
+8159 3061 1
+8159 5267 2
+8159 520 1
+6100 5267 1
+6100 2599 1
+6100 6139 1
+6100 520 3
+6100 4946 3
+7800 12208 2
+3311 1089 2
+3311 854 1
+3311 343 1
+3311 7058 2
+3311 7800 1
+504 520 2
+5500 504 5
+6139 520 1
+5267 520 2
+5267 4946 2
+3838 504 3
+3838 6622 2
+3526 1089 3
+3526 5500 3
+3526 3524 1
+3526 504 2
+3526 2593 5
+3526 2594 1
+3839 1089 2
+3839 5500 3
+3839 3524 1
+3839 504 1
+3839 2593 5
+9864 1089 2
+9864 195 5
+9864 520 3
+9864 2882 2
+10960 1089 2
+10960 854 1
+10960 2596 3
+10960 520 5
+10960 3236 2
+10960 3917 1
+7986 1089 2
+7986 342 1
+7986 854 1
+7986 520 2
+3840 1089 2
+3840 5500 3
+3840 504 1
+3840 2594 4
+9551 6236 8
+9551 520 3
+9551 2882 2
+10959 6204 1
+10959 1089 2
+10959 6236 2
+10959 2595 1
+10959 9551 1
+10958 1089 2
+10958 195 1
+10958 6236 2
+10958 9551 1
+520 3061 1
+520 854 3
+4423 4452 1
+4439 4423 4
+4439 453 1
+2599 4423 5
+2599 4439 1
+453 4423 9
+453 4439 1
+824 854 3
+6240 4423 6
+6240 4439 1
+3341 453 15
+3341 1095 1
+433 2599 22
+433 1666 5
+433 1665 27
+433 5324 2
+433 453 28
+433 6240 2
+854 1092 2
+854 11855 1
+854 367 1
+854 645 1
+854 6553 1
+854 3341 34
+854 433 7
+854 2599 1
+854 646 1
+854 3439 1
+854 13021 1
+854 397 3
+854 6981 1
+854 1436 4
+854 643 1
+854 3443 1
+854 7303 3
+854 1438 2
+854 1095 17
+1665 4423 7
+1665 4439 2
+5324 4423 6
+5324 4439 1
+1666 4423 7
+1666 4439 1
+3110 453 3
+3110 433 5
+7862 854 5
+7862 453 4
+7862 3062 1
+7862 433 2
+4 47 10
+4 48 9
+2477 47 6
+2477 48 5
+47 48 2
+436 1250 1
+436 854 1
+436 824 1
+436 1249 1
+437 1250 1
+437 854 2
+437 824 2
+437 1249 2
+1250 824 1
+1436 1694 1
+1436 2471 1
+2595 6204 2
+2595 204 3
+2595 854 5
+2595 1275 1
+2595 433 4
+438 1250 1
+438 854 2
+438 824 2
+8423 1250 1
+8423 854 2
+8423 824 2
+1522 367 4
+1522 824 1
+1522 1538 1
+1538 854 2
+8414 5931 1
+8414 1436 5
+12466 5931 1
+12466 1436 4
+12811 5931 2
+12811 1436 5
+8639 5931 1
+8639 1436 5
+5919 5931 1
+5919 1436 4
+6621 367 12
+2395 367 14
+3721 3745 1
+3721 433 6
+13818 367 2
+13818 4862 15
+13818 3745 1
+13818 433 4
+9909 2067 1
+9909 3029 1
+9909 824 2
+4379 367 2
+11397 854 1
+11397 990 1
+13594 854 1
+13594 990 1
+13015 3439 5
+8318 854 1
+8318 990 1
+9932 3771 2
+9932 1685 1
+9932 367 3
+14612 12605 1
+14612 3745 1
+14612 433 7
+12782 367 4
+3771 367 20
+3771 4752 2
+3761 1437 1
+3761 3443 7
+4739 3771 2
+4739 1685 1
+4739 367 4
+4739 4752 2
+12594 12605 2
+12594 3745 2
+12594 433 14
+4752 1438 3
+804 824 1
+3005 644 8
+3005 433 6
+5342 367 9
+3072 367 13
+10314 367 7
+4378 4379 1
+13551 367 6
+6792 367 10
+10919 1436 1
+10919 367 45
+11552 367 5
+2284 367 15
+5855 367 12
+5855 824 1
+5855 5324 2
+13246 1436 4
+13246 367 8
+13246 5324 3
+13246 1030 2
+13246 3745 1
+13246 433 5
+3008 367 9
+13694 1775 1
+5894 367 6
+9774 1436 2
+9774 367 4
+9774 1030 2
+7523 644 6
+7523 433 4
+2273 1183 6
+2273 1665 1
+2273 644 1
+2273 433 6
+13908 2599 1
+13908 3745 1
+13908 433 6
+9885 1775 1
+14136 1775 1
+4230 343 9
+4230 338 2
+4230 3530 4
+12114 1092 10
+12114 342 2
+12114 4237 1
+12114 854 2
+12114 367 10
+12114 340 6
+12114 4227 1
+12114 4239 1
+12114 3236 2
+12114 2557 2
+12114 929 1
+12114 3917 2
+12114 3062 1
+3440 1092 3
+3440 854 5
+3440 367 13
+3440 433 1
+3441 854 2
+2097 370 2
+3149 367 3
+4231 340 4
+3857 929 7
+1092 929 3
+929 4234 21
+929 1092 9
+929 8713 1
+929 4237 2
+929 2393 2
+929 2097 6
+929 433 13
+929 1089 1
+929 370 9
+929 4235 11
+929 342 2
+929 3205 1
+929 854 5
+929 3946 1
+929 5079 13
+929 453 4
+929 3236 11
+929 1438 6
+929 1275 1
+929 9085 8
+929 1095 1
+4229 2232 4
+5931 6981 1
+5931 1436 3
+5931 854 4
+5931 367 49
+5931 7813 1
+5931 433 6
+5931 2262 12
+5931 7303 7
+5931 5749 3
+5931 824 6
+5931 11786 7
+5931 1249 6
+5931 3062 6
+367 1522 1
+367 1092 16
+367 1438 1
+367 854 4
+367 824 5
+367 1538 1
+367 929 2
+2596 854 5
+2596 367 1
+2596 1249 3
+15124 1665 2
+15124 644 3
+15124 3341 7
+15124 453 2
+15124 433 8
+6428 824 1
+4923 1665 2
+4923 453 2
+2980 824 1
+2980 6428 1
+13266 9942 1
+13266 1828 1
+13266 643 1
+13266 11441 1
+13266 824 1
+13266 6428 1
+11441 4423 1
+11441 8292 1
+11441 824 2
+11441 453 1
+11441 6428 2
+11441 1095 1
+11441 997 1
+2963 2980 2
+2963 854 1
+2963 997 6
+7099 824 1
+7099 6428 1
+10113 2067 1
+10113 10130 1
+10113 645 1
+10113 824 1
+10113 8274 1
+10113 6428 1
+8274 367 1
+8274 8292 1
+8274 824 2
+8274 453 1
+8274 6428 2
+8274 1095 1
+11159 854 2
+11159 367 3
+11159 824 1
+11159 7099 3
+11159 433 1
+14993 11159 1
+3202 6428 1
+13085 1848 2
+13085 824 1
+13085 646 1
+1848 1881 1
+1848 367 1
+1848 824 2
+1848 1095 1
+3191 3202 1
+3191 367 2
+2933 2514 2
+5985 2067 1
+643 1828 1
+643 824 1
+1828 824 1
+13979 1436 1
+13979 1828 12
+12522 1436 4
+12522 854 2
+12522 367 11
+12522 10134 1
+12522 824 3
+12522 433 2
+11285 1183 2
+11285 3745 6
+11285 433 29
+14389 854 2
+14389 367 3
+14389 1662 1
+14389 824 1
+14389 433 2
+1831 1661 1
+1831 1183 17
+1831 644 9
+1831 433 12
+8676 1092 1
+8676 1436 4
+8676 854 2
+8676 367 2
+8676 5681 4
+8676 433 2
+8676 2067 8
+8676 824 4
+8676 5309 1
+5681 1092 3
+5681 1436 7
+5681 1455 1
+5681 854 4
+5681 367 16
+5681 433 2
+5681 2067 10
+5681 5749 1
+5681 824 5
+645 2067 1
+645 824 1
+646 1881 1
+646 824 1
+2067 367 1
+2067 824 1
+10369 645 1
+10369 10370 1
+10370 854 1
+10370 367 1
+10370 824 1
+10370 5985 3
+1881 824 1
+13450 645 1
+1188 646 1
+1121 1183 4
+1121 644 4
+1121 433 3
+1184 2067 1
+1184 13450 1
+1185 1188 1
+1185 824 1
+945 990 1
+10134 1775 1
+3020 3029 1
+3020 645 1
+9548 1661 1
+1662 1775 1
+1663 990 1
+11331 13672 1
+2074 990 1
+11332 11333 2
+11332 13979 1
+11332 824 2
+11333 12645 1
+1839 990 1
+441 1775 1
+11374 990 1
+1763 1775 1
+5309 945 1
+442 643 1
+442 10188 1
+11335 1810 1
+11335 854 1
+11335 338 1
+11335 433 1
+3757 645 1
+3757 10188 1
+5871 1810 1
+5871 854 2
+5871 338 1
+5871 433 1
+10188 3029 1
+443 645 1
+443 10188 1
+11492 645 1
+6249 646 1
+1455 945 1
+12645 1661 1
+12645 643 1
+12645 9548 1
+990 1661 1
+990 645 1
+990 9548 1
+1775 646 1
+13672 10369 1
+13672 1661 1
+13672 9548 1
+2029 645 1
+2029 824 1
+3800 824 1
+3800 646 1
+9380 1183 4
+9380 644 3
+9380 433 4
+9444 2029 1
+3783 3800 1
+652 3559 4
+530 644 12
+530 656 1
+530 652 2
+530 433 5
+654 1828 1
+654 643 1
+654 652 3
+653 2067 1
+653 645 1
+653 652 3
+655 646 1
+10338 10369 1
+10338 10370 1
+10338 652 2
+10703 656 1
+9942 8486 5
+9942 1828 1
+9942 854 1
+9942 824 1
+9942 997 2
+10130 2067 1
+10130 8486 4
+10130 854 1
+10130 824 1
+13021 1881 2
+13021 854 3
+13021 824 1
+13021 646 2
+11855 1881 3
+11855 854 2
+11855 824 1
+11855 646 1
+10577 854 3
+4535 4423 6
+4535 854 16
+4535 453 2
+4535 1095 8
+4535 433 5
+644 4423 1
+644 854 3
+644 433 10
+8713 4234 3
+8713 1092 1
+8713 1382 1
+8713 4420 1
+8713 4 20
+8713 2393 1
+8713 3233 82
+8713 3235 1
+8713 3499 1
+8713 343 9
+8713 2599 4
+8713 4235 1
+8713 3530 3
+8713 677 25
+8713 3232 3
+8713 1249 5
+8713 8354 2
+8713 854 8
+8713 3443 5
+8713 1665 2
+8713 6622 10
+8713 4231 16
+8713 3236 2
+8713 1275 1
+8713 929 1
+8713 4230 1
+8713 6240 3
+8713 433 13
+8713 4236 1
+8713 2262 3
+8713 48 11
+8713 2232 2
+8713 1810 1
+8713 338 1
+8713 4228 10
+8713 9084 1
+8713 4229 2
+1437 3443 1
+5954 854 3
+6622 3233 1
+6622 3235 1
+6622 6623 18
+6622 3524 3
+6622 854 3
+6622 11779 2
+3443 1092 11
+3443 854 3
+3443 929 4
+3530 343 4
+3205 2477 9
+3205 48 4
+3205 2599 1
+3205 3236 2
+5933 4423 1
+5933 3745 1
+5933 433 4
+8386 1472 10
+8354 8386 8
+8354 4236 6
+8354 1472 3
+3236 2393 5
+3236 3917 11
+3236 433 2
+3917 484 4
+3917 8598 4
+3917 433 2
+4234 9155 5
+4234 4235 2
+4234 3917 1
+4235 4234 3
+4235 3062 1
+2393 4236 3
+2393 3917 3
+2393 433 2
+9155 3917 2
+4236 9155 1
+4236 4234 1
+4236 11203 35
+4236 3236 4
+4236 3917 2
+6487 854 5
+1093 854 3
+1093 343 6
+1093 338 11
+6924 6981 1
+6924 6487 26
+6924 854 11
+6924 367 13
+6924 1249 7
+6924 433 2
+3444 1438 2
+2597 342 1
+2597 854 8
+2597 367 12
+2597 1666 1
+2597 1665 1
+2597 433 2
+1782 1093 1
+1782 1810 1
+1782 854 2
+1782 340 2
+1782 256 1
+2514 854 3
+2514 1782 1
+9910 854 3
+9910 1782 1
+2371 2385 2
+2385 342 2
+2385 1093 1
+2385 341 1
+2385 338 1
+2385 256 1
+256 342 1
+256 343 4
+256 341 2
+256 338 1
+256 340 5
+1810 854 2
+1810 1665 2
+1810 370 6
+1810 340 7
+1810 6240 1
+1810 433 1
+5618 340 1
+11690 1093 7
+11690 854 2
+5624 340 3
+5624 5604 4
+5604 854 4
+11677 11690 1
+13173 3495 1
+13173 854 3
+444 3495 1
+444 854 3
+3445 6487 11
+3445 367 10
+3445 2599 2
+3445 1249 2
+2598 342 1
+2598 854 2
+3495 1093 2
+3495 1810 1
+3495 854 2
+3495 340 2
+3495 256 1
+1490 342 2
+1490 1093 1
+1490 341 1
+1490 338 1
+1490 256 1
+8531 1436 3
+8531 367 1
+8531 3149 4
+8531 644 6
+8531 433 1
+7255 6981 1
+7255 342 28
+7255 2598 1
+7255 854 20
+7255 367 15
+7255 1666 1
+7255 1665 2
+7255 433 3
+7255 7303 3
+7255 2599 1
+7255 2597 2
+835 854 2
+855 854 2
+2882 854 6
+6204 854 1
+6204 2882 2
+6204 1249 2
+195 854 2
+195 2882 6
+195 433 1
+14738 1661 2
+14738 4535 2
+14738 5352 1
+14738 433 17
+5749 1436 1
+5749 1904 1
+4864 3029 1
+4864 645 1
+4864 4862 3
+3745 4863 15
+3745 1661 2
+3745 2599 4
+3745 1666 4
+3745 644 4
+3745 4864 1
+3745 4862 2
+3745 433 17
+4233 854 2
+4233 1665 2
+4237 3236 2
+4237 3917 1
+1030 1092 3
+1030 854 2
+1030 367 1
+1030 433 2
+1030 1089 2
+1030 824 2
+1030 1091 1
+1030 1095 5
+1030 436 1
+1275 1382 1
+1095 854 2
+3707 854 1
+3707 835 2
+3708 854 1
+3708 855 2
+2532 2557 4
+4862 1436 3
+4862 854 7
+4862 367 5
+4862 433 1
+204 854 2
+1249 6981 2
+1249 7303 2
+1249 854 10
+1249 367 16
+1249 677 8
+1249 6553 2
+1249 397 2
+6840 4423 1
+6840 854 1
+6840 4535 14
+6840 453 25
+3946 4234 6
+3946 1092 8
+3946 3806 1
+3946 4237 2
+3946 2595 1
+3946 2393 1
+3946 4243 2
+3946 3233 75
+3946 1548 5
+3946 343 10
+3946 3883 1
+3946 4235 2
+3946 3530 2
+3946 677 15
+3946 3232 2
+3946 1249 5
+3946 342 18
+3946 854 13
+3946 340 3
+3946 4227 1
+3946 4231 7
+3946 3236 4
+3946 1275 2
+3946 4244 1
+3946 929 6
+3946 341 2
+3946 4230 4
+3946 2097 7
+3946 4236 2
+3946 433 14
+3946 4242 2
+3946 1089 7
+3946 370 10
+3946 3265 1
+3946 646 1
+3946 338 3
+3946 2232 1
+3946 4239 5
+3946 4228 7
+3946 1438 4
+3946 4229 6
+3946 4241 1
+3446 1438 1
+9835 854 3
+5272 1092 2
+5272 4237 1
+5272 3946 1
+5272 1828 5
+5272 854 2
+5272 643 1
+5272 5300 3
+5272 433 1
+5272 4243 1
+5272 1548 1
+5272 370 1
+5272 677 1
+5272 824 1
+4241 5272 1
+4241 4243 2
+4241 1092 2
+4241 3946 2
+4241 854 2
+4241 5300 1
+4241 677 2
+4242 677 5
+5300 1092 9
+5300 3946 1
+5300 854 2
+5300 4227 1
+5300 3236 4
+5300 433 1
+5300 4243 4
+5300 370 9
+5300 677 3
+5300 3062 1
+5300 3917 2
+4243 4242 2
+4243 677 4
+6145 1092 2
+6145 4237 1
+6145 3946 3
+6145 854 3
+6145 367 7
+6145 645 1
+6145 5300 4
+6145 433 1
+6145 4243 1
+6145 2067 4
+6145 1548 1
+6145 370 1
+6145 677 1
+6145 824 2
+4244 4243 2
+4244 1092 2
+4244 6145 1
+4244 3946 2
+4244 854 2
+4244 5300 1
+4244 677 2
+4239 854 2
+4239 386 2
+4239 1089 2
+4239 343 3
+4239 3524 3
+4239 2561 1
+4239 2593 3
+4239 2594 3
+1438 1092 8
+338 343 2
+2624 854 2
+2624 2845 2
+2624 433 3
+1664 2599 2
+1664 2845 7
+1664 433 9
+860 854 4
+860 646 1
+860 929 8
+860 433 2
+1588 1664 2
+1588 1661 1
+1588 854 1
+1588 1666 1
+1588 1665 1
+1588 433 15
+2845 433 5
+5024 1665 4
+5024 677 5
+2232 2262 1
+13281 2232 4
+14813 677 18
+5075 5079 3
+5079 4423 1
+5079 854 2
+5079 1666 4
+5079 1665 3
+5079 433 8

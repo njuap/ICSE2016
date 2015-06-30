@@ -1,0 +1,1956 @@
+*Vertics: 457
+3,org.apache.crunch.impl.mr.run.CrunchInputFormat
+63,org.apache.crunch.io.CrunchInputs
+64,org.apache.crunch.io.FormatBundle
+68,org.apache.crunch.impl.mr.run.RuntimeParameters
+69,org.apache.crunch.impl.mr.run.CrunchCombineFileInputFormat
+70,org.apache.crunch.impl.mr.run.CrunchInputSplit
+71,org.apache.crunch.impl.mr.run.CrunchRecordReader
+83,org.apache.crunch.lib.Sample
+163,org.apache.crunch.MapFn
+166,org.apache.crunch.Pair
+174,org.apache.crunch.lib.SampleUtils
+176,org.apache.crunch.lib.PTables
+218,org.apache.crunch.examples.WordAggregationHBase
+312,org.apache.crunch.DoFn
+315,org.apache.crunch.fn.Aggregators
+316,org.apache.crunch.impl.mr.MRPipeline
+317,org.apache.crunch.io.hbase.HBaseSourceTarget
+318,org.apache.crunch.io.hbase.HBaseTarget
+319,org.apache.crunch.types.writable.Writables
+340,org.apache.crunch.io.parquet.AvroParquetFileTarget
+397,org.apache.crunch.io.SequentialFileNamingScheme
+398,org.apache.crunch.io.impl.FileTargetImpl
+400,org.apache.crunch.types.avro.AvroType
+403,org.apache.crunch.io.parquet.AvroParquetConverter
+404,org.apache.crunch.io.parquet.AvroParquetFileSourceTarget
+421,org.apache.crunch.lib.Shard
+437,org.apache.crunch.lib.Aggregate
+445,org.apache.crunch.io.seq.SeqFileTableSourceTarget
+463,org.apache.crunch.io.impl.ReadableSourcePathTargetImpl
+464,org.apache.crunch.io.seq.SeqFileTableSource
+465,org.apache.crunch.io.seq.SeqFileTarget
+484,org.apache.crunch.io.hbase.HFileInputFormat
+577,org.apache.crunch.types.avro.AvroDeepCopier
+661,org.apache.crunch.CrunchRuntimeException
+663,org.apache.crunch.types.avro.AvroMode
+675,org.apache.crunch.types.writable.WritableTableTypeTest
+687,org.apache.crunch.types.writable.WritableTableType
+697,org.apache.crunch.io.hbase.HFileOutputFormatForCrunch
+759,org.apache.crunch.impl.spark.collect.DoCollection
+786,org.apache.crunch.ParallelDoOptions
+787,org.apache.crunch.impl.dist.collect.BaseDoCollection
+788,org.apache.crunch.impl.dist.collect.PCollectionImpl
+790,org.apache.crunch.impl.spark.SparkRuntime
+791,org.apache.crunch.impl.spark.fn.FlatMapDoFn
+792,org.apache.crunch.impl.spark.fn.FlatMapPairDoFn
+810,org.apache.crunch.MaterializeToMapIT
+831,org.apache.crunch.impl.mem.MemPipeline
+832,org.apache.crunch.test.TemporaryPath
+833,org.apache.crunch.test.TemporaryPaths
+851,org.apache.crunch.SparkCogroupIT
+924,org.apache.crunch.impl.spark.SparkPipeline
+925,org.apache.crunch.lib.Cogroup
+926,org.apache.crunch.test.Tests
+927,org.apache.crunch.types.avro.AvroTypeFamily
+928,org.apache.crunch.types.writable.WritableTypeFamily
+930,org.apache.crunch.impl.dist.DistributedPipeline
+931,org.apache.crunch.Tuple3
+933,org.apache.crunch.Tuple4
+944,org.apache.crunch.lib.join.AbstractFullOuterJoinIT
+955,org.apache.crunch.lib.join.JoinTester
+956,org.apache.crunch.lib.join.JoinType
+965,org.apache.crunch.examples.TotalBytesByIP
+1005,org.apache.crunch.PipelineResult
+1012,org.apache.crunch.impl.mr.plan.MSCROutputHandler
+1036,org.apache.crunch.impl.mr.plan.DoNode
+1037,org.apache.crunch.impl.mr.plan.PlanningParameters
+1120,org.apache.crunch.impl.spark.serde.WritableSerDe
+1146,org.apache.crunch.io.text.TextReadableData
+1160,org.apache.crunch.io.impl.ReadableDataImpl
+1161,org.apache.crunch.io.text.TextFileReaderFactory
+1162,org.apache.crunch.io.text.LineParser
+1173,org.apache.crunch.contrib.text.TokenizerFactory
+1213,org.apache.crunch.contrib.text.Tokenizer
+1216,org.apache.crunch.BreakpointIT
+1258,org.apache.crunch.io.From
+1259,org.apache.crunch.io.To
+1294,org.apache.crunch.scrunch.ScalaSafeReflectData
+1436,org.apache.crunch.lib.join.BloomFilterInnerJoinIT
+1445,org.apache.crunch.lib.join.AbstractInnerJoinIT
+1447,org.apache.crunch.lib.join.BloomFilterJoinStrategy
+1451,org.apache.crunch.io.parquet.AvroParquetFileReaderFactoryTest
+1488,org.apache.crunch.types.avro.Avros
+1490,org.apache.crunch.io.parquet.AvroParquetFileReaderFactory
+1496,org.apache.crunch.types.TupleFactory
+1542,org.apache.crunch.TupleN
+1548,org.apache.crunch.io.avro.trevni.TrevniKeySourceTarget
+1559,org.apache.crunch.io.avro.AvroFileTarget
+1561,org.apache.crunch.io.avro.trevni.TrevniKeySource
+1565,org.apache.crunch.util.DoFnIterator
+1596,org.apache.crunch.impl.mr.run.CrunchReducer
+1613,org.apache.crunch.impl.SingleUseIterable
+1615,org.apache.crunch.impl.mr.run.CrunchTaskContext
+1616,org.apache.crunch.impl.mr.run.RTNode
+1617,org.apache.crunch.impl.mr.run.NodeContext
+1629,org.apache.crunch.types.writable.GenericArrayWritableTest
+1643,org.apache.crunch.types.writable.GenericArrayWritable
+1649,org.apache.crunch.impl.spark.fn.CrunchIterable
+1659,org.apache.crunch.lib.join.InnerJoinFn
+1679,org.apache.crunch.lib.join.JoinFn
+1687,org.apache.crunch.impl.mr.emit.OutputEmitter
+1709,org.apache.crunch.types.MapDeepCopier
+1722,org.apache.crunch.impl.mem.collect.MemTable
+1795,org.apache.crunch.CachingOptions
+1796,org.apache.crunch.FilterFn
+1797,org.apache.crunch.GroupingOptions
+1799,org.apache.crunch.lib.Join
+1800,org.apache.crunch.materialize.MaterializableMap
+1801,org.apache.crunch.materialize.pobject.MapPObject
+1804,org.apache.crunch.impl.mem.collect.MemCollection
+1806,org.apache.crunch.impl.mem.collect.MemGroupedTable
+1850,org.apache.crunch.impl.spark.GuavaUtils
+1868,org.apache.crunch.impl.mr.plan.JobNameBuilderTest
+1887,org.apache.crunch.impl.mr.plan.JobNameBuilder
+1888,org.apache.crunch.types.writable.WritableType
+1898,org.apache.crunch.impl.mr.exec.MRExecutor
+1971,org.apache.crunch.hadoop.mapreduce.lib.jobcontrol.CrunchControlledJob
+1972,org.apache.crunch.hadoop.mapreduce.lib.jobcontrol.CrunchJobControl
+1975,org.apache.crunch.materialize.MaterializableIterable
+1978,org.apache.crunch.impl.mr.exec.CappedExponentialCounter
+2007,org.apache.crunch.types.writable.WritableValueConverter
+2029,org.apache.crunch.impl.spark.collect.UnionCollection
+2043,org.apache.crunch.impl.dist.collect.BaseUnionCollection
+2048,org.apache.crunch.LongPipelinePlannerIT
+2109,org.apache.crunch.impl.spark.fn.MapOutputFunction
+2121,org.apache.crunch.impl.spark.ByteArray
+2126,org.apache.crunch.io.hbase.HFileSourceIT
+2249,org.apache.crunch.io.hbase.FromHBase
+2250,org.apache.crunch.io.hbase.HFileUtils
+2257,org.apache.crunch.io.CompositePathIterableIT
+2282,org.apache.crunch.io.CompositePathIterable
+2288,org.apache.crunch.types.writable.TextMapWritable
+2308,org.apache.crunch.SparkUnionResultsIT
+2335,org.apache.crunch.io.At
+2336,org.apache.crunch.test.CrunchTestSupport
+2353,org.apache.crunch.types.avro.AvroInputFormat
+2365,org.apache.crunch.types.avro.AvroRecordReader
+2504,org.apache.crunch.io.seq.SeqFileHelper
+2516,org.apache.crunch.contrib.bloomfilter.BloomFilterFactory
+2550,org.apache.crunch.materialize.pobject.FirstElementPObject
+2551,org.apache.crunch.contrib.bloomfilter.BloomFilterFn
+2577,org.apache.crunch.io.seq.SeqFileSourceTarget
+2580,org.apache.crunch.contrib.text.AbstractCompositeExtractor
+2605,org.apache.crunch.contrib.text.ExtractorStats
+2615,org.apache.crunch.io.avro.AvroPipelineIT
+2643,org.apache.crunch.io.avro.AvroFileSourceTargetIT
+2646,org.apache.crunch.io.impl.TableSourcePathTargetImpl
+2658,org.apache.crunch.io.impl.SourcePathTargetImpl
+2665,org.apache.crunch.lib.SetIT
+2694,org.apache.crunch.lib.Set
+2702,org.apache.crunch.lib.join.DefaultJoinStrategy
+2740,org.apache.crunch.lib.join.LeftOuterJoinFn
+2741,org.apache.crunch.lib.join.RightOuterJoinFn
+2742,org.apache.crunch.lib.join.FullOuterJoinFn
+2743,org.apache.crunch.lib.join.JoinUtils
+2758,org.apache.crunch.hadoop.mapreduce.lib.jobcontrol.CrunchJobControlTest
+2790,org.apache.crunch.scrunch.ScalaSafeReflectDatumWriter
+2808,org.apache.crunch.SingleUseIterableExceptionIT
+2827,org.apache.crunch.materialize.pobject.CollectionPObject
+2835,org.apache.crunch.materialize.pobject.PObjectImpl
+2842,org.apache.crunch.MultipleOutputIT
+2912,org.apache.crunch.test.StringWrapper
+2923,org.apache.crunch.lib.sort.SortFns
+3000,org.apache.crunch.lib.Sort
+3013,org.apache.crunch.io.hbase.HFileReaderFactory
+3037,org.apache.crunch.impl.mr.emit.MultipleOutputEmitter
+3052,org.apache.crunch.io.CrunchOutputs
+3056,org.apache.crunch.types.avro.AvrosTest
+3194,org.apache.crunch.lib.join.ShardedJoinStrategy
+3262,org.apache.crunch.lib.SecondarySort
+3336,org.apache.crunch.test.CountersTest
+3354,org.apache.crunch.test.TestCounters
+3357,org.apache.crunch.io.SourceTargetHelperTest
+3368,org.apache.crunch.io.SourceTargetHelper
+3371,org.apache.crunch.io.hbase.HTableIterator
+3389,org.apache.crunch.PCollectionGetSizeIT
+3431,org.apache.crunch.fn.FilterFns
+3437,org.apache.crunch.lib.AvroTypeSortIT
+3476,org.apache.crunch.examples.WordCount
+3493,org.apache.crunch.lib.join.ShardedInnerJoinIT
+3499,org.apache.crunch.contrib.bloomfilter.BloomFiltersIT
+3520,org.apache.crunch.impl.spark.fn.PairFlatMapPairDoFn
+3532,org.apache.crunch.impl.spark.SparkRuntimeContext
+3535,org.apache.crunch.types.TupleDeepCopier
+3597,org.apache.crunch.fn.IdentityFn
+3599,org.apache.crunch.io.avro.AvroFileSourceTarget
+3600,org.apache.crunch.types.avro.AvroKeyConverter
+3608,org.apache.crunch.lib.join.DefaultLeftOuterJoinIT
+3613,org.apache.crunch.lib.join.AbstractLeftOuterJoinIT
+3615,org.apache.crunch.io.avro.AvroWritableIT
+3635,org.apache.crunch.CombineFn
+3638,org.apache.crunch.contrib.io.jdbc.DataBaseSourceIT
+3660,org.apache.crunch.contrib.io.jdbc.DataBaseSource
+3661,org.apache.crunch.contrib.io.jdbc.IdentifiableName
+3679,org.apache.crunch.lib.MapreduceTest
+3722,org.apache.crunch.lib.Mapreduce
+3729,org.apache.crunch.impl.spark.IntByteArray
+3741,org.apache.crunch.impl.mr.run.CrunchMapper
+3763,org.apache.crunch.impl.spark.CounterAccumulatorParam
+3784,org.apache.crunch.util.UnionReadableData
+3845,org.apache.crunch.lib.Distinct
+3888,org.apache.crunch.lib.join.RightOuterJoinFnTest
+3895,org.apache.crunch.lib.join.JoinFnTestBase
+3899,org.apache.crunch.fn.ExtractKeyFn
+3922,org.apache.crunch.io.impl.FileSourceImpl
+3926,org.apache.crunch.io.text.TextFileSourceTarget
+3939,org.apache.crunch.io.text.TextFileSource
+3940,org.apache.crunch.io.text.TextFileTarget
+3944,org.apache.crunch.TermFrequencyIT
+3980,org.apache.crunch.lib.join.OneToManyJoin
+4077,org.apache.crunch.io.avro.TextToAvroIT
+4086,org.apache.crunch.impl.spark.collect.ToByteArrayFunction
+4123,org.apache.crunch.types.avro.AvroTextOutputFormat
+4124,org.apache.crunch.io.text.TextFileTableSourceTarget
+4452,org.apache.crunch.fn.CompositeMapFn
+4453,org.apache.crunch.types.CollectionDeepCopier
+4454,org.apache.crunch.types.PTypes
+4455,org.apache.crunch.types.writable.WritableDeepCopier
+4456,org.apache.crunch.types.avro.ReflectDataFactory
+4457,org.apache.crunch.types.avro.AvroTableType
+4458,org.apache.crunch.types.avro.AvroCapabilities
+4528,org.apache.crunch.io.avro.trevni.TrevniRecordWriter
+4573,org.apache.crunch.impl.mr.plan.DotfileWriter
+4648,org.apache.crunch.impl.mr.collect.InputCollection
+4649,org.apache.crunch.impl.mr.collect.PGroupedTableImpl
+4651,org.apache.crunch.impl.mr.plan.NodePath
+4652,org.apache.crunch.impl.mr.plan.JobPrototype
+4653,org.apache.crunch.impl.dist.collect.BaseInputCollection
+4665,org.apache.crunch.io.TextFileTableIT
+4672,org.apache.crunch.io.text.TextFileTableSource
+4675,org.apache.crunch.types.avro.AvroSpecificDeepCopierClassloaderTest
+4679,org.apache.crunch.types.avro.AvroChildClassloaderTestRunner
+4681,org.apache.crunch.fn.AggregatorsIT
+4744,org.apache.crunch.test.Tests
+4775,org.apache.crunch.util.DistCache
+4821,org.apache.crunch.impl.spark.collect.SparkCollectFactory
+4869,org.apache.crunch.impl.dist.collect.BaseDoTable
+4870,org.apache.crunch.impl.dist.collect.BaseGroupedTable
+4871,org.apache.crunch.impl.dist.collect.BaseInputTable
+4873,org.apache.crunch.impl.dist.collect.PTableBase
+4874,org.apache.crunch.impl.spark.collect.InputCollection
+4875,org.apache.crunch.impl.spark.collect.InputTable
+4876,org.apache.crunch.impl.spark.collect.DoTable
+4877,org.apache.crunch.impl.spark.collect.PGroupedTableImpl
+4878,org.apache.crunch.impl.spark.collect.UnionTable
+4894,org.apache.crunch.impl.mr.collect.DoTable
+4922,org.apache.crunch.lib.join.FullOuterJoinFnTest
+4927,org.apache.crunch.util.PartitionUtils
+4946,org.apache.crunch.types.PTypeUtils
+4982,org.apache.crunch.test.TemporaryPaths
+4987,org.apache.crunch.types.avro.AvroTableTypeTest
+5046,org.apache.crunch.types.PGroupedTableType
+5064,org.apache.crunch.fn.ExtractKeyFnTest
+5072,org.apache.crunch.fn.StoreLastEmitter
+5077,org.apache.crunch.io.impl.ReadableSourceTargetImpl
+5086,org.apache.crunch.io.impl.SourceTargetImpl
+5411,org.apache.crunch.types.writable.TupleWritable
+5425,org.apache.crunch.scrunch.ScalaReflectDataFactory
+5432,org.apache.crunch.scrunch.ScalaSafeReflectDatumReader
+5455,org.apache.crunch.types.PTypeUtilsTest
+5473,org.apache.crunch.SparkMapsideJoinIT
+5528,org.apache.crunch.lib.join.MapsideJoinStrategy
+5533,org.apache.crunch.io.parquet.AvroParquetReadableData
+5541,org.apache.crunch.CollectionPObjectIT
+5569,org.apache.crunch.io.seq.SeqFileReadableData
+5576,org.apache.crunch.io.seq.SeqFileReaderFactory
+5624,org.apache.crunch.types.writable.WritablePairConverter
+5645,org.apache.crunch.examples.SecondarySortExample
+5689,org.apache.crunch.impl.mr.exec.CrunchJobHooks
+5800,org.apache.crunch.fn.NotFnTest
+5823,org.apache.crunch.io.hbase.HFileSource
+5828,org.apache.crunch.io.avro.trevni.TrevniKeyPipelineIT
+5880,org.apache.crunch.io.avro.trevni.TrevniKeyTarget
+5883,org.apache.crunch.UnionIT
+5943,org.apache.crunch.io.hbase.WordCountHBaseIT
+6068,org.apache.crunch.impl.spark.fn.PairMapIterableFunction
+6189,org.apache.crunch.io.parquet.AvroParquetPipelineIT
+6258,org.apache.crunch.io.parquet.AvroParquetFileSource
+6284,org.apache.crunch.io.avro.AvroFileSource
+6313,org.apache.crunch.io.avro.AvroFileReaderFactory
+6314,org.apache.crunch.io.avro.AvroReadableData
+6348,org.apache.crunch.lib.CogroupIT
+6413,org.apache.crunch.impl.mem.collect.MemReadableData
+6446,org.apache.crunch.TfIdfIT
+6514,org.apache.crunch.io.avro.trevni.TrevniFileReaderFactory
+6542,org.apache.crunch.io.impl.AutoClosingIterator
+6648,org.apache.crunch.hadoop.mapreduce.TaskAttemptContextFactory
+6691,org.apache.crunch.io.avro.trevni.TrevniFileSourceTargetIT
+6734,org.apache.crunch.impl.spark.fn.InputConverterFunction
+6735,org.apache.crunch.impl.spark.fn.MapFunction
+6800,org.apache.crunch.CheckpointIT
+6837,org.apache.crunch.io.avro.AvroPathPerKeyIT
+6850,org.apache.crunch.io.avro.AvroPathPerKeyTarget
+6853,org.apache.crunch.types.writable.WritablesTest
+6945,org.apache.crunch.lib.ChannelsTest
+6952,org.apache.crunch.lib.Channels
+7027,org.apache.crunch.impl.dist.collect.DoCollectionTest
+7174,org.apache.crunch.types.writable.WritableTypeTest
+7198,org.apache.crunch.test.CrunchTestSupportTest
+7211,org.apache.crunch.impl.mr.plan.DotfileWriterTest
+7275,org.apache.crunch.impl.mr.emit.IntermediateEmitterTest
+7298,org.apache.crunch.impl.mr.emit.IntermediateEmitter
+7302,org.apache.crunch.impl.mr.MRPipelineTest
+7398,org.apache.crunch.fn.PairMapFn
+7402,org.apache.crunch.impl.spark.fn.PartitionedMapOutputFunction
+7429,org.apache.crunch.IterableReuseProtectionIT
+7483,org.apache.crunch.io.hbase.HFileReadableData
+7488,org.apache.crunch.types.avro.AvroUtf8InputFormat
+7520,org.apache.crunch.types.TupleFactoryTest
+7532,org.apache.crunch.lib.SecondarySortIT
+7548,org.apache.crunch.lib.SecondarySortTest
+7559,org.apache.crunch.lib.DistinctTest
+7669,org.apache.crunch.impl.spark.fn.OutputConverterFunction
+7670,org.apache.crunch.impl.spark.fn.PairMapFunction
+7692,org.apache.crunch.impl.spark.SparkComparator
+7714,org.apache.crunch.lib.AvroIndexedRecordPartitionerTest
+7739,org.apache.crunch.types.TupleDeepCopierTest
+7754,org.apache.crunch.contrib.text.AbstractSimpleExtractor
+7781,org.apache.crunch.lib.join.InnerJoinFnTest
+7786,org.apache.crunch.lib.SortByValueIT
+7937,org.apache.crunch.impl.dist.collect.DoTableImplTest
+8001,org.apache.crunch.io.hbase.TableOutputFormat
+8028,org.apache.crunch.lib.join.ShardedRightOuterJoinIT
+8033,org.apache.crunch.lib.join.AbstractRightOuterJoinIT
+8035,org.apache.crunch.UnionResultsIT
+8055,org.apache.crunch.util.DistCacheTest
+8176,org.apache.crunch.types.avro.AvroGroupedTableType
+8324,org.apache.crunch.util.Tuples
+8351,org.apache.crunch.types.writable.WritableGroupedTableType
+8363,org.apache.crunch.EnumPairIT
+8424,org.apache.crunch.impl.spark.SparkPartitioner
+8432,org.apache.crunch.contrib.text.Extractors
+8770,org.apache.crunch.lib.sort.TotalOrderPartitioner
+8771,org.apache.crunch.lib.sort.ReverseAvroComparator
+8772,org.apache.crunch.lib.sort.ReverseWritableComparator
+8773,org.apache.crunch.lib.sort.TupleWritableComparator
+8777,org.apache.crunch.lib.MapreduceIT
+8816,org.apache.crunch.lib.MapredIT
+8820,org.apache.crunch.DependentSourcesIT
+8841,org.apache.crunch.lib.join.MultiAvroSchemaJoinIT
+8870,org.apache.crunch.CancelJobsIT
+9192,org.apache.crunch.io.hbase.HFileTarget
+9203,org.apache.crunch.contrib.text.Parse
+9268,org.apache.crunch.impl.spark.fn.CombineMapsideFunction
+9269,org.apache.crunch.impl.spark.fn.ReduceGroupingFunction
+9270,org.apache.crunch.impl.spark.fn.ReduceInputFunction
+9271,org.apache.crunch.impl.spark.serde.AvroSerDe
+9410,org.apache.crunch.PairTest
+9423,org.apache.crunch.impl.SingleUseIterableTest
+9482,org.apache.crunch.io.impl.CrunchJobHooksTest
+9504,org.apache.crunch.contrib.text.ParseTest
+9557,org.apache.crunch.TextPairIT
+9596,org.apache.crunch.test.TemporaryPathIT
+9625,org.apache.crunch.impl.dist.collect.BaseUnionTable
+9630,org.apache.crunch.lib.MapredTest
+9674,org.apache.crunch.lib.Mapred
+9806,org.apache.crunch.impl.spark.fn.PairFlatMapDoFn
+9810,org.apache.crunch.types.avro.AvroOutputFormat
+9844,org.apache.crunch.types.avro.AvroGroupedTableTypeTest
+9964,org.apache.crunch.io.hbase.HTableIterable
+9965,org.apache.crunch.io.hbase.HBaseData
+9985,org.apache.crunch.io.avro.trevni.TrevniReadableData
+9993,org.apache.crunch.fn.FilterFnTest
+10010,org.apache.crunch.impl.dist.collect.UnionCollectionIT
+10039,org.apache.crunch.PTableKeyValueIT
+10058,org.apache.crunch.io.seq.SeqFileSource
+10072,org.apache.crunch.io.NLineInputIT
+10087,org.apache.crunch.io.text.NLineFileSource
+10091,org.apache.crunch.UnionFromSameSourceIT
+10128,org.apache.crunch.SparkPageRankIT
+10191,org.apache.crunch.types.writable.WritableGroupedTableTypeTest
+10201,org.apache.crunch.lib.join.MapsideJoinStrategyIT
+10265,org.apache.crunch.WordCountIT
+10326,org.apache.crunch.examples.SortExample
+10332,org.apache.crunch.util.CrunchTool
+10435,org.apache.crunch.impl.mr.plan.GraphBuilder
+10460,org.apache.crunch.impl.mr.plan.Graph
+10461,org.apache.crunch.impl.mr.plan.Vertex
+10463,org.apache.crunch.impl.mr.plan.Edge
+10504,org.apache.crunch.types.avro.AvroPathPerKeyOutputFormat
+10506,org.apache.crunch.io.avro.AvroFileSourceTest
+10593,org.apache.crunch.lib.join.DefaultInnerJoinIT
+10600,org.apache.crunch.types.avro.SafeAvroSerialization
+10653,org.apache.crunch.types.PTypesTest
+10674,org.apache.crunch.util.DelegatingReadableData
+10795,org.apache.crunch.lib.join.BrokenLeftAndOuterJoinTest
+10826,org.apache.crunch.MapsIT
+10904,org.apache.crunch.io.avro.AvroReflectIT
+10929,org.apache.crunch.fn.AndFnTest
+10940,org.apache.crunch.io.hbase.AtHBase
+10991,org.apache.crunch.types.avro.AvroPairConverter
+11016,org.apache.crunch.SparkSortIT
+11187,org.apache.crunch.impl.mr.collect.DoCollection
+11202,org.apache.crunch.lib.join.DefaultRightOuterJoinIT
+11208,org.apache.crunch.lib.CartesianTest
+11221,org.apache.crunch.lib.Cartesian
+11225,org.apache.crunch.types.avro.AvroTypeTest
+11346,org.apache.crunch.io.impl.FileTableSourceImpl
+11447,org.apache.crunch.io.avro.AvroMemPipelineIT
+11484,org.apache.crunch.io.impl.TableSourceTargetImpl
+11676,org.apache.crunch.types.MapDeepCopierTest
+11782,org.apache.crunch.impl.mr.run.CrunchCombiner
+11792,org.apache.crunch.types.Protos
+12080,org.apache.crunch.lib.SampleTest
+12095,org.apache.crunch.WriteModeTest
+12117,org.apache.crunch.PageRankIT
+12192,org.apache.crunch.TupleNClassCastBugIT
+12433,org.apache.crunch.lib.SortIT
+12767,org.apache.crunch.util.PartitionUtilsTest
+12783,org.apache.crunch.impl.mem.CountersWrapper
+12836,org.apache.crunch.PObjectsIT
+12857,org.apache.crunch.impl.mr.exec.CappedExponentialCounterTest
+12895,org.apache.crunch.lib.AggregateIT
+13172,org.apache.crunch.examples.AverageBytesByIP
+13210,org.apache.crunch.test.StringWrapper
+13236,org.apache.crunch.impl.mem.emit.InMemoryEmitter
+13268,org.apache.crunch.io.hbase.ToHBase
+13278,org.apache.crunch.TupleTest
+13365,org.apache.crunch.impl.mr.collect.UnionCollection
+13393,org.apache.crunch.fn.PairMapTest
+13419,org.apache.crunch.SparkTfidfIT
+13486,org.apache.crunch.FirstElementPObjectIT
+13509,org.apache.crunch.io.avro.AvroFileReaderFactoryTest
+13551,org.apache.crunch.CollectionsIT
+13732,org.apache.crunch.CombineReduceIT
+13795,org.apache.crunch.io.parquet.AvroParquetFileSourceTargetIT
+14018,org.apache.crunch.CleanTextIT
+14072,org.apache.crunch.lib.join.DefaultFullOuterJoinIT
+14112,org.apache.crunch.impl.mem.MemPipelineFileReadingWritingIT
+14180,org.apache.crunch.types.CollectionDeepCopierTest
+14192,org.apache.crunch.lib.SpecificAvroGroupByIT
+14217,org.apache.crunch.types.writable.WritableDeepCopierTest
+14439,org.apache.crunch.lib.join.OneToManyJoinTest
+14464,org.apache.crunch.StageResultsCountersIT
+14533,org.apache.crunch.fn.AggregatorsTest
+14624,org.apache.crunch.types.avro.AvroDeepCopierTest
+14729,org.apache.crunch.DeepCopyCustomTuplesIT
+14859,org.apache.crunch.impl.mr.collect.MRCollectionFactory
+14860,org.apache.crunch.impl.mr.plan.MSCRPlanner
+14985,org.apache.crunch.ConfigurationIT
+15043,org.apache.crunch.io.avro.trevni.TrevniOutputFormat
+15101,org.apache.crunch.fn.OrFnTest
+15112,org.apache.crunch.io.CombineFileIT
+15199,org.apache.crunch.MapPObjectIT
+15305,org.apache.crunch.io.hbase.HFileTargetIT
+15671,org.apache.crunch.MRPipelineIT
+15766,org.apache.crunch.impl.mem.collect.Shuffler
+16169,org.apache.crunch.CollectionsLengthIT
+16183,org.apache.crunch.impl.mr.collect.InputTable
+16236,org.apache.crunch.impl.mr.collect.UnionTable
+16242,org.apache.crunch.io.SequentialFileNamingSchemeTest
+16256,org.apache.crunch.lib.TupleWritablePartitionerTest
+16264,org.apache.crunch.MaterializeIT
+16312,org.apache.crunch.lib.join.BloomFilterLeftOuterJoinIT
+16694,org.apache.crunch.test.DebugLogging
+16881,org.apache.crunch.lib.join.LeftOuterJoinTest
+16918,org.apache.crunch.SparkSecondarySortIT
+16939,org.apache.crunch.impl.mem.CountersTest
+*Edges: 1519
+1216 1258 1
+1216 832 9
+1216 1259 2
+1216 319 12
+8870 1005 3
+8870 832 4
+8870 1259 1
+6800 1005 12
+6800 832 10
+6800 316 3
+6800 1488 1
+6800 1259 2
+14018 832 5
+14018 312 2
+14018 1488 2
+5541 2827 1
+5541 832 4
+5541 831 2
+13551 927 2
+13551 928 2
+13551 166 1
+13551 832 4
+13551 831 2
+16169 927 2
+16169 928 2
+16169 832 4
+16169 831 2
+3635 312 1
+13732 166 6
+13732 1258 1
+13732 832 5
+13732 1488 3
+13732 831 3
+14985 786 1
+14985 1258 1
+14985 832 3
+14985 312 1
+14985 319 1
+14729 832 3
+14729 1488 5
+8820 786 1
+8820 1258 1
+8820 832 4
+8820 316 2
+8820 1488 2
+8820 930 1
+8820 3597 1
+8820 1259 1
+8363 4454 1
+8363 166 1
+8363 832 2
+8363 316 1
+8363 319 2
+1796 312 1
+13486 2550 1
+13486 832 3
+13486 831 1
+7429 832 3
+7429 3597 1
+7429 831 1
+7429 319 1
+2048 786 1
+2048 832 4
+2048 1488 15
+15671 3431 1
+15671 1005 1
+15671 832 8
+15671 3597 1
+15671 319 1
+163 312 1
+15199 832 3
+15199 1801 2
+15199 831 2
+10826 927 1
+10826 928 1
+10826 166 2
+10826 832 4
+16264 3431 1
+16264 927 4
+16264 928 4
+16264 832 8
+16264 316 1
+16264 1488 3
+16264 831 4
+810 832 3
+810 831 1
+2842 1005 3
+2842 927 1
+2842 928 2
+2842 832 12
+2842 319 2
+2842 2335 1
+2842 1488 1
+2842 315 1
+2842 1259 1
+3389 3431 2
+3389 2335 1
+3389 832 10
+3389 930 2
+3389 831 5
+12836 832 3
+12836 2835 2
+12836 831 1
+10039 927 1
+10039 2335 1
+10039 928 1
+10039 832 3
+10039 316 1
+10039 930 2
+12117 927 3
+12117 4454 2
+12117 928 1
+12117 437 1
+12117 832 8
+12117 1488 2
+12117 831 1
+9410 166 25
+2808 832 3
+2808 316 2
+2808 1488 4
+2808 930 2
+2808 1259 1
+851 924 3
+851 927 3
+851 928 3
+851 166 5
+851 925 3
+851 832 5
+851 4744 8
+851 930 4
+5473 3431 1
+5473 924 5
+5473 166 26
+5473 5528 3
+5473 832 2
+5473 319 5
+10128 924 1
+10128 927 1
+10128 4454 2
+10128 928 1
+10128 437 1
+10128 832 3
+16918 924 1
+16918 3262 1
+16918 2336 1
+16918 1258 1
+16918 832 1
+16918 1488 6
+11016 927 8
+11016 1542 1
+11016 928 8
+11016 832 9
+11016 931 3
+11016 924 18
+11016 166 9
+11016 933 4
+11016 13210 12
+11016 1488 6
+11016 3000 8
+13419 924 1
+13419 1799 1
+13419 928 2
+13419 437 2
+13419 832 5
+13419 2577 1
+2308 924 2
+2308 2336 1
+2308 2335 5
+2308 166 14
+2308 832 5
+2308 319 12
+14464 1005 3
+14464 927 2
+14464 928 2
+14464 1258 1
+14464 832 4
+14464 831 3
+3944 928 4
+3944 437 1
+3944 832 6
+3944 831 2
+9557 166 1
+9557 1258 1
+9557 832 3
+9557 319 3
+6446 1799 1
+6446 928 2
+6446 437 2
+6446 832 7
+6446 2577 1
+12192 927 1
+12192 928 1
+12192 832 5
+13278 1542 18
+13278 933 20
+13278 1496 8
+13278 931 20
+10091 832 6
+10091 3597 2
+5883 166 3
+5883 832 4
+5883 4744 4
+5883 316 1
+5883 1488 5
+5883 930 3
+5883 3597 1
+5883 315 2
+8035 2336 1
+8035 2335 2
+8035 166 7
+8035 832 2
+8035 316 1
+8035 319 5
+10265 1005 2
+10265 927 3
+10265 928 4
+10265 832 11
+10265 2335 2
+10265 166 5
+10265 437 2
+10265 315 1
+10265 1259 1
+12095 832 3
+12095 1488 1
+12095 1259 3
+12095 831 4
+2516 2550 1
+2516 2551 3
+2516 316 1
+2516 930 2
+2516 319 1
+2551 166 1
+2551 312 4
+3499 2516 1
+3499 2336 1
+3499 832 1
+3660 64 8
+3660 3922 2
+3660 319 1
+3638 2336 1
+3638 832 1
+3638 316 1
+3638 319 1
+2580 2605 2
+2580 1213 1
+2580 1173 3
+7754 2605 2
+7754 1213 1
+7754 1173 4
+8432 1173 6
+9504 1542 1
+9504 8432 38
+9504 9203 1
+9504 931 3
+9504 1173 9
+9504 831 1
+9504 166 4
+9504 933 1
+9504 2605 1
+9504 1488 1
+1173 1213 2
+13172 1005 1
+13172 312 1
+13172 163 1
+13172 319 8
+13172 315 3
+5645 3262 1
+5645 1005 1
+5645 1488 5
+5645 1259 1
+5645 319 1
+10326 10332 4
+965 1005 1
+965 312 1
+965 319 3
+965 315 1
+218 318 1
+218 319 4
+218 317 1
+218 315 1
+3476 1005 1
+3476 319 1
+315 3635 1
+4681 166 2
+4681 4744 4
+4681 319 2
+4681 315 3
+14533 1542 3
+14533 933 4
+14533 166 8
+14533 312 2
+14533 13236 4
+14533 931 4
+14533 315 63
+10929 3431 1
+10929 1796 9
+10929 312 1
+4452 312 8
+4452 163 9
+3899 166 2
+3899 312 2
+3899 163 4
+5064 166 1
+5064 5072 2
+5064 163 2
+5064 3899 1
+9993 3431 16
+9993 1796 22
+3431 1796 14
+3597 163 1
+5800 3431 1
+5800 1796 6
+5800 312 1
+15101 3431 1
+15101 1796 9
+15101 312 1
+7398 166 5
+7398 312 8
+7398 163 7
+13393 166 3
+13393 7398 1
+13393 5072 2
+13393 163 3
+1972 1971 12
+2758 1972 7
+2758 1971 5
+9423 1613 2
+930 4653 2
+930 1005 1
+930 788 7
+930 661 2
+930 4871 2
+930 1258 1
+930 4870 1
+930 3597 2
+930 1259 1
+930 319 1
+787 788 11
+787 786 1
+787 312 3
+787 10674 1
+4869 3635 3
+4869 788 11
+4869 786 3
+4869 312 7
+4869 10674 1
+4869 4873 2
+4870 3635 3
+4870 1797 3
+4870 788 7
+4870 176 2
+4870 5046 2
+4870 930 2
+4870 163 2
+4870 4873 3
+4870 315 3
+4653 788 3
+4653 930 3
+4871 4653 5
+4871 930 3
+4871 4873 2
+2043 788 13
+2043 3784 1
+9625 788 12
+9625 3784 1
+9625 930 1
+9625 4873 2
+7027 786 1
+7027 787 2
+7027 319 1
+7937 4869 2
+7937 788 2
+7937 786 1
+7937 319 1
+788 786 9
+788 2827 1
+788 312 6
+788 163 2
+788 3899 2
+788 3597 1
+788 437 4
+788 1796 2
+788 1795 1
+788 930 19
+4873 1800 1
+4873 1799 1
+4873 786 1
+4873 176 6
+4873 163 4
+4873 1797 3
+4873 788 14
+4873 437 3
+4873 1796 2
+4873 925 1
+4873 4870 3
+4873 1795 1
+4873 930 12
+4873 1801 1
+10010 927 4
+10010 928 2
+10010 832 7
+10010 316 1
+10010 831 1
+10010 2335 4
+10010 1488 1
+10010 1259 4
+16939 1804 2
+16939 831 1
+16939 319 1
+831 1005 2
+831 12783 1
+831 163 4
+831 1804 5
+831 661 1
+831 2335 2
+831 166 10
+831 400 2
+831 1795 1
+831 1488 1
+831 1722 5
+14112 6313 3
+14112 166 4
+14112 832 13
+14112 400 2
+14112 1488 6
+14112 1722 1
+14112 831 14
+14112 319 7
+1804 786 4
+1804 2827 1
+1804 312 14
+1804 13236 4
+1804 163 2
+1804 3899 2
+1804 831 1
+1804 6413 1
+1804 437 4
+1804 1796 2
+1804 1795 1
+1804 1722 1
+1806 176 2
+1806 5046 1
+1806 163 2
+1806 1797 2
+1806 1804 8
+1806 3635 3
+1806 15766 2
+1806 1722 6
+1806 315 3
+1722 1800 1
+1722 1799 1
+1722 176 6
+1722 1806 1
+1722 163 4
+1722 1804 8
+1722 1797 1
+1722 437 3
+1722 1796 2
+1722 925 1
+1722 1795 1
+1722 1801 1
+15766 1797 4
+15766 166 1
+316 1005 1
+316 788 1
+316 14860 2
+316 1975 1
+316 1795 1
+316 1898 2
+316 930 4
+7302 788 4
+7302 316 1
+7302 1488 4
+7302 930 3
+11187 788 2
+11187 786 1
+11187 1036 2
+11187 312 1
+11187 787 2
+4894 4869 3
+4894 3635 1
+4894 788 4
+4894 786 1
+4894 1036 4
+4894 312 2
+4648 4653 2
+4648 788 1
+4648 1036 2
+4648 316 1
+16183 4871 2
+16183 1036 2
+16183 316 1
+14859 2043 1
+14859 312 3
+14859 16183 1
+14859 4873 1
+14859 4869 2
+14859 788 3
+14859 4871 1
+14859 16236 1
+14859 13365 1
+14859 4870 1
+14859 4648 1
+14859 11187 1
+14859 786 2
+14859 3635 1
+14859 1797 1
+14859 4653 1
+14859 4649 1
+14859 4894 2
+14859 930 2
+14859 787 1
+4649 5046 1
+4649 1036 4
+4649 4873 1
+4649 4927 1
+4649 1797 2
+4649 788 2
+4649 4870 2
+4649 930 1
+13365 2043 2
+16236 9625 2
+7298 1616 1
+7275 7298 6
+7275 13210 4
+7275 1488 1
+3037 661 1
+3037 3052 3
+12857 1978 9
+1898 1972 9
+1898 1971 7
+1898 1005 5
+1898 788 3
+1898 1975 3
+1898 1978 4
+1036 786 4
+1036 5046 3
+1036 312 4
+1036 1617 1
+1036 1616 2
+4573 4653 1
+4573 4652 14
+4573 788 5
+4573 786 1
+4573 166 2
+4573 4651 4
+7211 4653 2
+7211 788 11
+7211 786 3
+7211 4651 4
+7211 4573 12
+10463 788 7
+10463 10461 8
+10463 4651 1
+10460 10463 2
+10460 788 2
+10460 166 1
+10460 10461 14
+10435 10463 3
+10435 2043 2
+10435 4653 1
+10435 4869 1
+10435 10460 9
+10435 788 7
+10435 10461 1
+10435 4870 1
+10435 787 1
+10435 4651 9
+1887 1036 5
+1868 1888 1
+1868 1887 4
+1868 1036 2
+1868 319 2
+4652 1887 4
+4652 1036 10
+4652 4775 1
+4652 1617 1
+4652 1012 4
+4652 1971 5
+4652 4649 7
+4652 4894 3
+4652 4651 5
+1012 661 1
+1012 1036 5
+14860 10463 42
+14860 1975 2
+14860 316 2
+14860 4573 2
+14860 10460 25
+14860 4652 8
+14860 788 5
+14860 10461 40
+14860 10435 2
+14860 930 5
+14860 1898 4
+14860 4648 1
+14860 4651 4
+4651 788 10
+10461 10463 4
+10461 4653 1
+10461 788 3
+11782 1596 1
+3 63 1
+3 69 1
+3 64 2
+3 71 1
+3 70 1
+70 64 9
+3741 1615 5
+3741 1616 5
+3741 70 1
+71 6648 3
+71 70 13
+1596 1615 5
+1596 1617 1
+1596 1613 1
+1596 1616 5
+1615 661 1
+1615 4775 1
+1615 1617 3
+1615 3052 4
+1616 1615 5
+1616 661 4
+1616 3037 1
+1616 1687 1
+1616 7298 1
+1616 312 7
+3729 2121 4
+7692 3532 4
+7692 2121 2
+7692 1888 1
+7692 1797 4
+7692 927 1
+7692 661 1
+7692 5046 5
+924 1005 1
+924 1975 1
+924 1795 6
+924 930 7
+924 790 2
+790 1005 5
+790 1975 2
+790 7669 2
+790 7670 1
+790 924 2
+790 3532 3
+790 3635 3
+790 788 2
+790 930 1
+790 6735 1
+3532 312 3
+759 792 1
+759 788 3
+759 786 1
+759 312 2
+759 787 2
+759 790 7
+759 791 1
+4876 786 2
+4876 312 3
+4876 3520 1
+4876 3635 1
+4876 4869 3
+4876 788 5
+4876 9806 1
+4876 790 8
+4874 4653 2
+4874 6735 1
+4874 6734 1
+4874 930 1
+4874 790 4
+4875 4871 2
+4875 930 1
+4875 790 3
+4877 1888 2
+4877 9269 1
+4877 4873 1
+4877 4927 1
+4877 2109 1
+4877 788 3
+4877 9268 1
+4877 4870 2
+4877 9271 2
+4877 9270 1
+4877 5046 1
+4877 6068 1
+4877 7670 2
+4877 8424 1
+4877 3635 1
+4877 1797 8
+4877 7692 1
+4877 1120 2
+4877 930 1
+4877 790 12
+4877 7402 1
+4821 4878 1
+4821 2043 1
+4821 312 3
+4821 4873 1
+4821 4869 2
+4821 788 3
+4821 4871 1
+4821 4877 1
+4821 4870 1
+4821 4875 1
+4821 786 2
+4821 4876 2
+4821 2029 1
+4821 1797 1
+4821 759 1
+4821 3635 1
+4821 4653 1
+4821 4874 1
+4821 930 2
+4821 787 1
+2029 788 1
+2029 2043 3
+2029 790 5
+4878 9625 3
+4878 788 1
+4878 790 5
+9268 3635 2
+9268 3532 3
+9268 166 3
+9268 312 2
+9268 13236 2
+1649 1565 1
+1649 312 2
+791 3532 3
+791 1649 1
+791 312 2
+792 3532 3
+792 1649 1
+792 312 2
+792 1850 1
+6735 3532 3
+6735 163 3
+2109 2121 1
+2109 166 3
+9806 3532 3
+9806 1649 1
+9806 312 2
+9806 1850 1
+3520 3532 3
+3520 1649 1
+3520 312 2
+3520 1850 2
+7670 3532 3
+7670 166 1
+7670 163 3
+6068 3532 3
+6068 166 3
+6068 163 3
+7402 3532 4
+7402 1797 1
+7402 661 1
+7402 3729 1
+7402 166 5
+7402 5046 3
+9269 3532 3
+9269 1797 3
+9269 661 1
+9269 5046 3
+9270 166 2
+9271 400 14
+9271 1488 1
+2335 3926 1
+2335 3599 1
+2335 445 1
+2335 400 2
+2335 1488 1
+2335 2577 1
+2335 319 4
+15112 832 6
+15112 4744 4
+15112 930 1
+2257 832 9
+2257 2282 4
+2257 1161 4
+2257 319 4
+63 64 3
+3052 6648 1
+3052 64 6
+1258 6284 1
+1258 10058 1
+1258 464 1
+1258 400 2
+1258 1488 1
+1258 11346 1
+1258 3939 1
+1258 319 6
+10072 832 3
+10072 1488 1
+10072 10087 1
+10072 319 1
+16242 397 6
+3357 3368 2
+4665 4672 1
+4665 166 6
+4665 832 3
+4665 319 3
+1259 1559 1
+1259 465 1
+1259 398 1
+1259 397 1
+1259 3940 1
+6313 6542 1
+6313 400 4
+6313 312 1
+6313 1488 2
+6313 163 1
+6313 3597 1
+13509 6313 7
+13509 13210 2
+13509 400 1
+13509 1488 12
+6284 6313 2
+6284 663 2
+6284 400 8
+6284 6314 1
+6284 64 5
+6284 3922 7
+3599 6284 2
+3599 1559 2
+3599 397 2
+3599 400 4
+3599 463 3
+2643 13210 2
+2643 832 5
+2643 1488 3
+10506 6284 3
+10506 1488 3
+10506 64 3
+10506 3922 3
+1559 398 2
+1559 397 1
+1559 3599 1
+1559 663 2
+1559 400 1
+1559 64 2
+11447 6284 1
+11447 832 3
+11447 1488 8
+11447 831 9
+6837 2336 1
+6837 1258 1
+6837 832 4
+6837 6850 1
+6837 1488 3
+6850 398 5
+6850 397 1
+6850 663 2
+6850 400 1
+6850 64 2
+2615 832 4
+2615 1488 1
+6314 6313 1
+6314 400 2
+6314 1160 2
+10904 437 1
+10904 166 4
+10904 13210 8
+10904 832 5
+10904 1488 7
+3615 832 3
+3615 1488 2
+4077 1258 1
+4077 832 3
+4077 1259 1
+6514 6542 1
+6514 400 8
+6514 312 1
+6514 1488 1
+6514 163 1
+6514 3597 1
+6691 13210 2
+6691 1561 3
+6691 832 5
+6691 400 1
+6691 1488 3
+5828 1561 1
+5828 832 9
+5828 1488 4
+1561 9985 1
+1561 6514 1
+1561 400 5
+1561 64 5
+1561 3922 5
+1548 1559 1
+1548 397 1
+1548 1561 1
+1548 400 2
+1548 463 2
+5880 398 3
+5880 397 1
+5880 1548 1
+5880 400 5
+5880 1488 1
+5880 64 10
+15043 4528 1
+9985 6514 1
+9985 400 2
+9985 1160 2
+10940 317 3
+2249 5823 1
+2249 317 1
+9965 9964 1
+9965 317 1
+317 318 3
+317 9964 1
+317 9965 1
+317 63 1
+317 64 8
+318 64 3
+7483 1160 2
+5823 64 6
+5823 7483 1
+5823 3922 5
+2126 1005 1
+2126 2249 2
+2126 832 6
+2126 2250 1
+2126 1259 1
+9192 398 2
+9192 397 1
+15305 1005 4
+15305 832 1
+15305 2250 4
+15305 319 7
+15305 3431 1
+15305 13268 1
+15305 1796 1
+15305 2335 4
+2250 1888 1
+2250 1797 1
+2250 9192 1
+2250 930 1
+2250 163 2
+2250 5823 1
+2250 319 5
+9964 3371 1
+3371 166 2
+13268 318 1
+13268 9192 2
+5943 318 3
+5943 2249 1
+5943 832 3
+5943 319 3
+5943 317 2
+9482 398 5
+3922 3368 2
+3922 63 1
+3922 2282 1
+3922 64 9
+11346 64 2
+11346 3922 6
+398 661 2
+398 3368 1
+398 64 9
+398 3052 1
+1160 661 1
+1160 4775 2
+463 2658 2
+463 1160 1
+5077 1160 1
+5077 5086 2
+2658 5086 2
+2646 397 1
+2646 2658 2
+11484 5086 2
+403 400 3
+1490 6542 1
+1490 400 2
+1451 832 2
+1451 400 1
+1451 1488 1
+1451 1490 2
+6258 400 9
+6258 5533 1
+6258 64 5
+6258 3922 4
+6258 1490 2
+6258 403 1
+404 397 1
+404 6258 1
+404 400 2
+404 463 2
+404 340 1
+13795 6284 3
+13795 6258 3
+13795 832 13
+13795 1488 5
+340 398 2
+340 397 1
+340 400 4
+340 404 1
+340 403 1
+6189 6258 2
+6189 832 11
+6189 1488 7
+6189 404 1
+5533 400 2
+5533 1160 2
+5533 1490 1
+2504 1888 1
+2504 163 1
+5569 5576 1
+5569 1160 2
+5576 6542 1
+5576 312 1
+5576 2504 3
+5576 163 1
+5576 319 1
+10058 5576 1
+10058 5569 1
+10058 3922 3
+2577 465 1
+2577 397 1
+2577 10058 1
+2577 463 2
+464 5576 1
+464 11346 3
+464 5569 1
+464 3922 2
+445 465 1
+445 397 1
+445 464 1
+445 463 2
+465 398 2
+465 397 1
+465 445 1
+465 2577 1
+1162 4452 1
+1162 312 1
+1162 163 4
+1162 3597 1
+10087 1162 1
+10087 64 4
+10087 1161 1
+10087 3922 5
+10087 1146 1
+1161 1162 4
+1161 6542 1
+3939 1162 1
+3939 927 1
+3939 1161 1
+3939 3922 5
+3939 1146 1
+3926 397 1
+3926 463 2
+3926 3940 1
+3926 3939 1
+4672 1162 1
+4672 64 4
+4672 11346 5
+4672 1161 1
+4672 3922 2
+4672 1146 1
+4124 397 1
+4124 4672 1
+4124 463 2
+4124 3940 1
+3940 1888 1
+3940 927 2
+3940 928 1
+3940 397 1
+3940 398 3
+3940 3926 1
+3940 400 1
+3940 64 1
+3940 4124 1
+1146 1162 1
+1146 1161 2
+1146 1160 2
+437 2550 3
+437 1797 1
+437 176 2
+437 4927 1
+437 315 2
+12895 927 2
+12895 928 1
+12895 437 5
+12895 166 9
+12895 832 11
+12895 1488 6
+12895 831 2
+12895 319 4
+3437 832 2
+3437 1488 1
+3437 930 1
+11208 166 16
+11208 11221 2
+11208 831 4
+11208 319 8
+6952 166 3
+6945 166 6
+6945 6952 1
+6945 319 3
+925 1496 1
+6348 927 3
+6348 928 3
+6348 166 5
+6348 925 3
+6348 832 6
+6348 4744 8
+6348 316 1
+6348 930 5
+3845 176 2
+7559 3845 2
+7559 1488 2
+7559 831 2
+1799 2702 8
+9674 661 1
+9674 319 3
+8816 1005 4
+8816 2336 1
+8816 1258 2
+8816 832 6
+8816 9674 2
+8816 1259 2
+8816 319 6
+9630 166 2
+9630 1488 6
+9630 9674 2
+9630 831 4
+9630 319 6
+3722 319 3
+8777 1005 4
+8777 3722 2
+8777 2336 1
+8777 1258 2
+8777 832 6
+8777 1259 2
+8777 319 6
+3679 3722 2
+3679 166 4
+3679 1488 6
+3679 831 4
+3679 319 6
+176 166 10
+176 7398 3
+176 5046 2
+176 163 6
+176 3597 4
+83 176 2
+12080 83 1
+12080 831 1
+3262 2743 2
+3262 1797 1
+3262 312 4
+7532 3262 1
+7532 2336 1
+7532 1258 1
+7532 832 2
+7532 1488 6
+7548 3262 1
+7548 166 3
+7548 1488 6
+7548 831 1
+2694 925 3
+2665 927 1
+2665 2335 2
+2665 928 1
+2665 2694 3
+2665 832 4
+2665 931 4
+421 437 1
+3000 927 3
+3000 928 2
+3000 1975 3
+3000 83 1
+3000 4927 1
+3000 1797 4
+3000 8773 1
+3000 400 3
+7786 927 1
+7786 928 1
+7786 166 5
+7786 1258 1
+7786 832 2
+7786 316 2
+7786 3000 1
+12433 927 8
+12433 1542 1
+12433 928 8
+12433 832 27
+12433 931 3
+12433 166 9
+12433 933 4
+12433 13210 12
+12433 1488 6
+12433 3000 8
+14192 832 2
+14192 316 1
+14192 1488 4
+14192 930 1
+16256 5411 1
+944 166 6
+944 955 1
+1445 166 4
+1445 955 1
+3613 166 5
+3613 955 1
+8033 166 5
+8033 955 1
+1436 1447 1
+1436 1445 1
+1447 927 1
+1447 928 1
+1447 786 1
+1447 163 1
+1447 319 1
+1447 2702 1
+1447 956 1
+1447 1488 1
+16312 1447 1
+16312 3613 1
+10795 2740 1
+10795 1679 6
+10795 312 2
+10795 2742 1
+10795 166 7
+10795 2336 2
+10795 13210 32
+10795 1488 4
+14072 2702 1
+14072 944 1
+10593 2702 1
+10593 1445 1
+2702 2743 1
+2702 2740 1
+2702 1679 2
+2702 2742 1
+2702 1659 1
+2702 1797 1
+2702 2741 1
+2702 956 1
+3608 2702 1
+3608 3613 1
+11202 2702 1
+11202 8033 1
+2742 166 9
+2742 1679 3
+4922 166 6
+4922 13210 10
+4922 3895 1
+4922 1488 2
+4922 2742 1
+1659 166 5
+1659 1679 3
+7781 1659 1
+7781 166 2
+7781 13210 4
+7781 3895 1
+7781 1488 2
+1679 166 6
+1679 312 3
+3895 2336 1
+3895 166 1
+3895 13210 16
+3895 1679 7
+3895 312 1
+955 927 2
+955 956 1
+955 928 2
+955 437 2
+955 832 5
+955 831 2
+2743 928 2
+2740 166 9
+2740 1679 3
+16881 2740 1
+16881 166 4
+16881 13210 8
+16881 3895 1
+16881 1488 2
+5528 956 1
+5528 786 1
+10201 3431 1
+10201 1005 2
+10201 166 26
+10201 5528 3
+10201 832 7
+10201 831 4
+10201 319 5
+8841 832 2
+8841 1488 2
+3980 2702 1
+3980 312 2
+14439 166 6
+14439 3980 4
+14439 1488 36
+14439 831 8
+2741 166 5
+2741 1679 3
+3888 2741 1
+3888 166 4
+3888 13210 6
+3888 3895 1
+3888 1488 2
+3493 3194 1
+3493 1445 1
+3194 2702 1
+3194 956 1
+8028 3194 1
+8028 8033 1
+2923 400 2
+8770 6313 1
+8770 5576 1
+8770 4455 2
+8770 2282 2
+8773 1888 2
+8773 661 1
+8773 5411 8
+1975 3922 1
+1800 166 2
+2827 2835 2
+2550 2835 2
+1801 166 2
+1801 2835 2
+5425 1294 1
+5425 5432 1
+5425 4456 1
+5425 2790 1
+5432 1294 6
+2790 1294 1
+3336 3354 6
+2336 3354 1
+2336 832 1
+7198 2336 1
+9596 832 23
+4982 832 4
+14180 4453 6
+14180 1488 2
+11676 13210 2
+11676 1709 6
+11676 1488 2
+5046 1797 1
+5455 927 6
+5455 928 6
+5455 400 1
+5455 1488 14
+5455 319 13
+4454 163 4
+10653 927 1
+10653 4454 1
+10653 163 2
+11792 661 1
+11792 312 1
+11792 163 1
+3535 1496 3
+7739 166 4
+7739 3535 3
+7739 1488 6
+7520 1496 6
+577 661 1
+14624 577 5
+14624 400 1
+14624 1488 1
+8176 4457 3
+8176 176 1
+8176 5046 3
+8176 163 4
+8176 1797 1
+8176 166 3
+8176 663 2
+8176 7398 1
+8176 400 7
+8176 1488 1
+8176 10991 1
+9844 4457 1
+9844 166 3
+9844 1488 3
+2353 2365 1
+663 400 4
+663 1488 1
+663 64 3
+9810 663 2
+10991 166 8
+2365 663 2
+4675 577 1
+4457 8176 1
+4457 176 1
+4457 5046 1
+4457 400 9
+4457 3535 1
+4987 166 4
+4987 400 5
+4987 1488 12
+400 927 1
+400 3599 1
+400 312 4
+400 1488 2
+400 163 6
+400 3597 2
+927 8176 1
+927 5046 1
+927 4946 1
+927 1488 21
+927 163 2
+11225 1542 2
+11225 166 3
+11225 400 38
+11225 1488 60
+1488 4457 2
+1488 927 1
+1488 4454 1
+1488 4453 1
+1488 4452 2
+1488 4455 1
+1488 163 5
+1488 663 9
+1488 1496 1
+1488 1709 1
+1488 4456 3
+1488 400 54
+1488 3535 5
+3056 1542 1
+3056 312 13
+3056 163 14
+3056 931 1
+3056 933 1
+3056 2336 1
+3056 13210 2
+3056 400 33
+3056 1488 61
+10600 663 4
+1629 4744 6
+1629 1643 18
+4455 661 1
+14217 4455 4
+8351 1888 6
+8351 176 1
+8351 5624 1
+8351 5046 2
+8351 163 4
+8351 1797 1
+8351 166 3
+8351 687 4
+10191 166 3
+10191 687 1
+10191 319 3
+5624 166 8
+687 1888 14
+687 928 1
+687 176 1
+687 5624 1
+687 5046 1
+687 163 4
+687 8351 1
+687 166 3
+687 445 1
+687 7398 2
+675 166 4
+675 687 2
+675 319 3
+1888 2007 1
+1888 928 1
+1888 4455 1
+1888 312 4
+1888 163 8
+1888 2577 1
+928 8351 1
+928 5046 1
+928 4946 1
+928 163 2
+928 319 20
+7174 1888 9
+7174 166 5
+7174 319 9
+319 1888 45
+319 4454 1
+319 4452 2
+319 928 1
+319 163 20
+319 3597 1
+319 687 6
+319 1496 1
+6853 1542 1
+6853 312 2
+6853 163 2
+6853 5411 18
+6853 1643 2
+6853 931 1
+6853 319 46
+6853 166 3
+6853 933 1
+10332 1005 2
+10332 2335 1
+10332 1258 1
+10332 316 1
+10332 1259 1
+10332 831 1
+10674 312 5
+8055 4775 4
+1565 312 4
+12767 4927 5

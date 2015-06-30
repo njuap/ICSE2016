@@ -1,0 +1,104 @@
+*Vertics: 79
+2,org.apache.servicemix.samples.cxf_osgi.Client
+38,org.apache.servicemix.examples.camel.sql.DatabaseBeanPgSQL
+64,org.apache.servicemix.examples.camel.sql.DatabaseBeanDerby
+76,org.apache.servicemix.samples.cxf_ws_rm.Client
+120,org.apache.servicemix.samples.cxf_ws_rm.MessageLossSimulator
+125,org.apache.servicemix.logging.jms.DefaultLoggingEventFormat
+157,org.apache.servicemix.examples.cxf.jaxrs.Product
+173,org.apache.servicemix.logging.jms.MockEvents
+197,org.apache.servicemix.examples.cxf.jaxrs.CustomerService
+245,org.apache.servicemix.examples.cxf.jaxrs.Customer
+246,org.apache.servicemix.examples.cxf.jaxrs.Order
+259,org.apache.servicemix.examples.camel.MyTransform
+275,org.apache.servicemix.examples.cxf.Client
+293,org.apache.servicemix.examples.cxf.CustomerSecurityInterceptor
+297,org.apache.servicemix.examples.cxf.jaxrs.client.Client
+340,org.apache.servicemix.logging.jms.LogstashEventFormat
+364,org.apache.servicemix.examples.camel.soap.ServiceHandler
+389,org.apache.servicemix.examples.camel.soap.model.Person
+390,org.apache.servicemix.examples.camel.soap.model.PersonException
+396,org.apache.servicemix.examples.cxf.jaxrs.Product
+407,org.apache.servicemix.examples.cxf.notifier.Notifier
+421,org.apache.servicemix.examples.cxf.base.Email
+425,org.apache.servicemix.examples.camel.Person
+459,org.apache.servicemix.examples.camel.Drinks
+460,org.apache.servicemix.examples.camel.Sex
+463,org.apache.servicemix.examples.cxf.Client
+477,org.apache.servicemix.examples.cxf.receive.Subscriber
+500,org.apache.servicemix.examples.cxf.wsaddressing.GreeterImpl
+526,org.apache.servicemix.examples.activiti.ActivitiRouteBuilder
+552,org.apache.servicemix.examples.camel.PersonHelper
+559,org.apache.servicemix.examples.camel.Person
+565,org.apache.servicemix.examples.cxf.HelloWorldImpl
+583,org.apache.servicemix.examples.cxf.jaxrs.CustomerService
+645,org.apache.servicemix.logging.jms.JMSAppenderTest
+682,org.apache.servicemix.logging.jms.JMSAppender
+688,org.apache.servicemix.samples.cxf_osgi.Client
+707,org.apache.servicemix.examples.cxf.notifier.SpamGenerator
+716,org.apache.servicemix.examples.cxf.HelloWorldImpl
+739,org.apache.servicemix.examples.cxf.EnableCORSInterceptor
+758,org.apache.servicemix.examples.camel.sql.DatabaseBeanH2
+769,org.apache.servicemix.examples.camel.soap.client.Client
+806,org.apache.servicemix.examples.cxf.EnableCORSInterceptor
+817,org.apache.servicemix.examples.camel.sql.OrderBean
+836,org.apache.servicemix.examples.camel.DroolsCommandHelper
+855,org.apache.servicemix.examples.cxf.Client
+865,org.apache.servicemix.examples.cxf.HelloWorldImpl
+871,org.apache.servicemix.examples.cxf.ClientPasswordCallback
+894,org.apache.servicemix.examples.camel.rest.model.Person
+963,org.apache.servicemix.activiti.config.CamelAwareELResolver
+988,org.apache.servicemix.examples.camel.DroolsCommandHelper
+997,org.apache.servicemix.examples.camel.sql.ListenerBean
+1008,org.apache.servicemix.activemq.camel.ActiveMQComponentResolver
+1024,org.apache.servicemix.activemq.camel.ActiveMQComponent
+1028,org.apache.servicemix.examples.activemq.MyTransform
+1044,org.apache.servicemix.examples.cxf.client.Client
+1078,org.apache.servicemix.examples.camel.DroolsBlueprintBean
+1146,org.apache.servicemix.examples.camel.rest.PersonService
+1156,org.apache.servicemix.examples.cxf.jaxrs.Customer
+1166,org.apache.servicemix.examples.cxf.EnableCORSInterceptor
+1173,org.apache.servicemix.examples.cxf.HelloWorldImpl
+1178,org.apache.servicemix.examples.cxf.EnableCORSInterceptor
+1186,org.apache.servicemix.examples.camel.rest.ServiceHandler
+1268,org.apache.servicemix.examples.camel.rest.client.Client
+1299,org.apache.servicemix.examples.camel.Sex
+1314,org.apache.servicemix.examples.cxf.ClientPasswordCallback
+1327,org.apache.servicemix.examples.cxf.ServerPasswordCallback
+1332,org.apache.servicemix.logging.jms.LogstashEventFormatTest
+1350,org.apache.servicemix.examples.camel.MyTransform
+1364,org.apache.servicemix.examples.cxf.jaxrs.Order
+1381,org.apache.servicemix.examples.cxf.jaxrs.client.Client
+1400,org.apache.servicemix.activiti.config.CamelAwareELResolverTest
+1419,org.apache.servicemix.examples.camel.Drinks
+1435,org.apache.servicemix.examples.cxf.HelloWorldImpl
+1506,org.apache.servicemix.examples.camel.MyRouteBuilder
+1518,org.apache.servicemix.examples.cxf.EnableCORSInterceptor
+1525,org.apache.servicemix.examples.camel.PersonHelper
+1542,org.apache.servicemix.examples.cxf.CustomerSecurityInterceptor
+1549,org.apache.servicemix.examples.cxf.HelloWorldImpl
+1553,org.apache.servicemix.examples.cxf.wsaddressing.Client
+*Edges: 47
+1008 1024 1
+1400 963 5
+1506 1350 2
+559 1419 12
+559 1299 12
+1525 559 20
+1146 894 2
+1186 894 7
+1268 894 2
+364 390 1
+364 389 6
+769 389 3
+855 1542 6
+1044 421 1
+583 1156 48
+583 1364 20
+1364 396 16
+407 421 1
+707 421 5
+645 682 8
+645 173 4
+1332 173 1
+76 120 1

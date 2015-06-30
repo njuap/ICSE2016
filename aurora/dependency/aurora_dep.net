@@ -1,0 +1,750 @@
+*Vertics: 302
+21,org.apache.aurora.scheduler.state.TaskStateMachine
+190,org.apache.aurora.scheduler.base.Tasks
+199,org.apache.aurora.scheduler.state.SideEffect
+202,org.apache.aurora.scheduler.state.TransitionResult
+230,org.apache.aurora.scheduler.http.RequestLogger
+296,org.apache.aurora.scheduler.async.preemptor.PreemptionVictimTest
+317,org.apache.aurora.scheduler.async.preemptor.PreemptionVictim
+323,org.apache.aurora.Protobufs
+340,org.apache.aurora.scheduler.stats.AsyncStatsModule
+413,org.apache.aurora.scheduler.HostOffer
+414,org.apache.aurora.scheduler.SchedulerServicesModule
+416,org.apache.aurora.scheduler.base.Conversions
+417,org.apache.aurora.scheduler.configuration.Resources
+424,org.apache.aurora.scheduler.stats.SlotSizeCounter
+425,org.apache.aurora.scheduler.stats.TaskStatCalculator
+426,org.apache.aurora.scheduler.stats.CachedCounters
+452,org.apache.aurora.scheduler.updater.JobUpdateStateMachine
+505,org.apache.aurora.scheduler.cron.quartz.CronPredictorImpl
+520,org.apache.aurora.scheduler.cron.CrontabEntry
+522,org.apache.aurora.scheduler.cron.quartz.Quartz
+548,org.apache.aurora.scheduler.http.ServicesTest
+574,org.apache.aurora.GuavaUtils
+575,org.apache.aurora.scheduler.http.Services
+587,org.apache.aurora.scheduler.mesos.MesosTaskFactoryImplTest
+654,org.apache.aurora.scheduler.ResourceSlot
+661,org.apache.aurora.scheduler.mesos.ExecutorSettings
+667,org.apache.aurora.scheduler.mesos.TaskExecutors
+684,org.apache.aurora.codec.ThriftBinaryCodec
+686,org.apache.aurora.scheduler.storage.db.InsertResult
+826,org.apache.aurora.scheduler.storage.log.Entries
+832,org.apache.aurora.scheduler.thrift.aop.ServerInfoInterceptor
+846,org.apache.aurora.scheduler.storage.log.LogStorageModule
+862,org.apache.aurora.scheduler.storage.CallOrderEnforcingStorage
+869,org.apache.aurora.scheduler.storage.log.LogManager
+870,org.apache.aurora.scheduler.storage.log.LogStorage
+873,org.apache.aurora.scheduler.storage.log.StreamManagerImpl
+879,org.apache.aurora.scheduler.mesos.DriverFactoryImpl
+903,org.apache.aurora.scheduler.stats.ResourceCounter
+1004,org.apache.aurora.scheduler.base.Query
+1005,org.apache.aurora.scheduler.configuration.ConfigurationManager
+1023,org.apache.aurora.scheduler.storage.db.DbLockStoreTest
+1102,org.apache.aurora.scheduler.base.JobKeys
+1107,org.apache.aurora.scheduler.storage.db.DbUtil
+1124,org.apache.aurora.scheduler.cron.SanitizedCronJob
+1156,org.apache.aurora.scheduler.configuration.SanitizedConfiguration
+1157,org.apache.aurora.scheduler.cron.CronException
+1446,org.apache.aurora.scheduler.base.AsyncUtil
+1447,org.apache.aurora.scheduler.base.SchedulerException
+1463,org.apache.aurora.scheduler.storage.log.WriteAheadStorage
+1519,org.apache.aurora.scheduler.app.LocalServiceRegistryWithOverrides
+1558,org.apache.aurora.scheduler.state.StateModule
+1562,org.apache.aurora.scheduler.events.PubsubEventModule
+1570,org.apache.aurora.scheduler.state.StateManagerImpl
+1571,org.apache.aurora.scheduler.state.LockManagerImpl
+1788,org.apache.aurora.scheduler.http.Offers
+1851,org.apache.aurora.scheduler.cron.quartz.CronSchedulerImpl
+1875,org.apache.aurora.scheduler.async.TaskThrottler
+1912,org.apache.aurora.scheduler.storage.log.WriteAheadStorageTest
+1973,org.apache.aurora.scheduler.storage.db.typehandlers.TypeHandlers
+1978,org.apache.aurora.scheduler.storage.db.typehandlers.JobUpdateActionTypeHandler
+1979,org.apache.aurora.scheduler.storage.db.typehandlers.JobUpdateStatusTypeHandler
+1980,org.apache.aurora.scheduler.storage.db.typehandlers.MaintenanceModeTypeHandler
+1981,org.apache.aurora.scheduler.storage.db.typehandlers.TaskConfigTypeHandler
+1983,org.apache.aurora.scheduler.updater.SideEffect
+2007,org.apache.aurora.scheduler.updater.InstanceAction
+2012,org.apache.aurora.scheduler.storage.db.typehandlers.AbstractTEnumTypeHandler
+2026,org.apache.aurora.scheduler.quota.QuotaInfo
+2044,org.apache.aurora.scheduler.testing.FakeStatsProvider
+2077,org.apache.aurora.scheduler.mesos.Offers
+2113,org.apache.aurora.scheduler.storage.mem.InternerTest
+2136,org.apache.aurora.scheduler.storage.mem.Interner
+2145,org.apache.aurora.scheduler.base.TaskTestUtil
+2195,org.apache.aurora.scheduler.base.Numbers
+2229,org.apache.aurora.scheduler.events.NotifyingSchedulingFilterTest
+2248,org.apache.aurora.scheduler.filter.AttributeAggregate
+2254,org.apache.aurora.scheduler.events.NotifyingSchedulingFilter
+2278,org.apache.aurora.scheduler.http.JettyServerModuleTest
+2345,org.apache.aurora.scheduler.http.api.GsonMessageBodyHandler
+2347,org.apache.aurora.scheduler.storage.testing.StorageTestUtil
+2348,org.apache.aurora.scheduler.async.TaskGroups
+2351,org.apache.aurora.scheduler.http.JettyServerModule
+2474,org.apache.aurora.scheduler.storage.ForwardingStore
+2490,org.apache.aurora.scheduler.updater.JobDiff
+2635,org.apache.aurora.scheduler.SchedulerLifecycle
+2795,org.apache.aurora.scheduler.sla.SlaModuleTest
+2825,org.apache.aurora.scheduler.sla.SlaModule
+2827,org.apache.aurora.scheduler.sla.SlaTestUtil
+2840,org.apache.aurora.scheduler.quota.QuotaManagerImplTest
+3041,org.apache.aurora.scheduler.quota.QuotaCheckResult
+3059,org.apache.aurora.scheduler.http.Quotas
+3103,org.apache.aurora.scheduler.updater.strategy.BatchStrategyTest
+3119,org.apache.aurora.scheduler.updater.strategy.BatchStrategy
+3123,org.apache.aurora.codec.ThriftBinaryCodecTest
+3143,org.apache.aurora.scheduler.http.AbortCallback
+3191,org.apache.aurora.scheduler.ResourceSlotTest
+3199,org.apache.aurora.scheduler.events.PubsubEventModuleTest
+3220,org.apache.aurora.scheduler.TaskVars
+3318,org.apache.aurora.scheduler.storage.mem.MemJobStore
+3373,org.apache.aurora.scheduler.state.TaskAssignerImplTest
+3398,org.apache.aurora.scheduler.base.ResourceAggregates
+3415,org.apache.aurora.scheduler.async.preemptor.PreemptorImpl
+3542,org.apache.aurora.scheduler.async.TaskHistoryPrunerTest
+3666,org.apache.aurora.scheduler.async.TaskHistoryPruner
+3699,org.apache.aurora.scheduler.async.TaskGroup
+3727,org.apache.aurora.scheduler.http.HttpStatsFilter
+3751,org.apache.aurora.scheduler.http.AbstractFilter
+3754,org.apache.aurora.scheduler.updater.OneWayJobUpdaterTest
+3830,org.apache.aurora.scheduler.updater.OneWayJobUpdater
+3840,org.apache.aurora.scheduler.state.LockManagerImplTest
+3892,org.apache.aurora.scheduler.storage.mem.MemStorage
+3924,org.apache.aurora.scheduler.storage.log.SnapshotStoreImpl
+3931,org.apache.aurora.scheduler.storage.log.SnapshotStoreImplTest
+3979,org.apache.aurora.scheduler.cron.quartz.CronLifecycle
+4001,org.apache.aurora.scheduler.cron.quartz.CronJobManagerImpl
+4005,org.apache.aurora.scheduler.base.NumbersTest
+4009,org.apache.aurora.scheduler.storage.mem.MemTaskStore
+4141,org.apache.aurora.scheduler.async.Offers
+4151,org.apache.aurora.scheduler.storage.StorageBackfillTest
+4223,org.apache.aurora.scheduler.storage.StorageBackfill
+4253,org.apache.aurora.scheduler.async.RescheduleCalculatorImplTest
+4302,org.apache.aurora.scheduler.filter.AttributeAggregateTest
+4336,org.apache.aurora.scheduler.sla.SlaAlgorithmTest
+4446,org.apache.aurora.scheduler.async.JobUpdateHistoryPrunerTest
+4454,org.apache.aurora.scheduler.testing.FakeScheduledExecutor
+4455,org.apache.aurora.scheduler.async.JobUpdateHistoryPruner
+4463,org.apache.aurora.scheduler.thrift.ThriftModule
+4468,org.apache.aurora.scheduler.thrift.aop.AopModule
+4469,org.apache.aurora.scheduler.thrift.SchedulerThriftInterface
+4473,org.apache.aurora.scheduler.async.preemptor.PreemptorModuleTest
+4491,org.apache.aurora.scheduler.async.preemptor.PreemptorModule
+4610,org.apache.aurora.scheduler.thrift.aop.FeatureToggleInterceptor
+4619,org.apache.aurora.scheduler.thrift.Util
+4622,org.apache.aurora.scheduler.http.api.ApiBetaTest
+4732,org.apache.aurora.scheduler.async.AsyncModule
+4810,org.apache.aurora.scheduler.async.GcExecutorLauncher
+4811,org.apache.aurora.scheduler.async.TaskTimeout
+4812,org.apache.aurora.scheduler.async.KillRetry
+4814,org.apache.aurora.scheduler.async.RandomJitterReturnDelay
+4818,org.apache.aurora.scheduler.updater.strategy.ActiveLimitedStrategy
+4834,org.apache.aurora.scheduler.thrift.auth.ThriftAuthModule
+4846,org.apache.aurora.scheduler.storage.db.LockKeyMapper
+4853,org.apache.aurora.scheduler.cron.quartz.CronPredictorImplTest
+4873,org.apache.aurora.scheduler.cron.ExpectedPrediction
+4880,org.apache.aurora.scheduler.sla.MetricCalculatorTest
+4909,org.apache.aurora.scheduler.sla.MetricCalculator
+5025,org.apache.aurora.scheduler.state.MaintenanceControllerImplTest
+5059,org.apache.aurora.scheduler.state.PubsubTestUtil
+5068,org.apache.aurora.scheduler.updater.EnumsTest
+5145,org.apache.aurora.scheduler.mesos.LibMesosLoadingModule
+5149,org.apache.aurora.scheduler.app.AppModule
+5211,org.apache.aurora.GuiceUtils
+5212,org.apache.aurora.scheduler.SchedulerModule
+5213,org.apache.aurora.scheduler.filter.SchedulingFilterImpl
+5214,org.apache.aurora.scheduler.mesos.SchedulerDriverModule
+5215,org.apache.aurora.scheduler.metadata.MetadataModule
+5216,org.apache.aurora.scheduler.quota.QuotaModule
+5217,org.apache.aurora.scheduler.updater.UpdaterModule
+5226,org.apache.aurora.scheduler.cron.quartz.QuartzTestUtil
+5238,org.apache.aurora.scheduler.updater.JobDiffTest
+5274,org.apache.aurora.scheduler.updater.TaskUtil
+5286,org.apache.aurora.scheduler.async.preemptor.PreemptorImplTest
+5450,org.apache.aurora.scheduler.async.preemptor.LiveClusterState
+5455,org.apache.aurora.scheduler.async.TaskTimeoutTest
+5508,org.apache.aurora.scheduler.mesos.CommandLineDriverSettingsModule
+5539,org.apache.aurora.scheduler.mesos.DriverSettings
+5542,org.apache.aurora.scheduler.storage.mem.MemJobStoreTest
+5561,org.apache.aurora.scheduler.thrift.ThriftIT
+5668,org.apache.aurora.scheduler.filter.SchedulingFilterImplTest
+5859,org.apache.aurora.scheduler.updater.UpdateConfigurationException
+5886,org.apache.aurora.scheduler.http.CronTest
+5897,org.apache.aurora.scheduler.http.Cron
+5941,org.apache.aurora.scheduler.updater.JobUpdateStateMachineTest
+5952,org.apache.aurora.benchmark.SchedulerBenchmark
+5960,org.apache.aurora.scheduler.log.mesos.MesosLogStreamModule
+6039,org.apache.aurora.scheduler.log.mesos.MesosLog
+6061,org.apache.aurora.scheduler.configuration.ResourcesTest
+6128,org.apache.aurora.scheduler.sla.SlaUtil
+6149,org.apache.aurora.scheduler.quota.QuotaCheckResultTest
+6168,org.apache.aurora.scheduler.http.MnameTest
+6206,org.apache.aurora.scheduler.http.Mname
+6214,org.apache.aurora.scheduler.app.Log4jConfigurator
+6263,org.apache.aurora.scheduler.storage.backup.BackupModule
+6311,org.apache.aurora.scheduler.state.StateManagerImplTest
+6473,org.apache.aurora.scheduler.SchedulerLifecycleTest
+6680,org.apache.aurora.scheduler.http.api.ApiBeta
+6681,org.apache.aurora.scheduler.http.QuitCallback
+6682,org.apache.aurora.scheduler.http.LeaderRedirect
+6683,org.apache.aurora.scheduler.http.LeaderRedirectFilter
+6684,org.apache.aurora.scheduler.http.CorsFilter
+6685,org.apache.aurora.scheduler.http.Locks
+6686,org.apache.aurora.scheduler.http.Maintenance
+6687,org.apache.aurora.scheduler.http.PendingTasks
+6688,org.apache.aurora.scheduler.http.Slaves
+6689,org.apache.aurora.scheduler.http.StructDump
+6690,org.apache.aurora.scheduler.http.Utilization
+6691,org.apache.aurora.scheduler.http.SchedulerAPIServlet
+6695,org.apache.aurora.scheduler.filter.ConstraintMatcher
+6721,org.apache.aurora.scheduler.filter.AttributeFilter
+6737,org.apache.aurora.scheduler.updater.strategy.QueueStrategyTest
+6751,org.apache.aurora.scheduler.updater.strategy.QueueStrategy
+6800,org.apache.aurora.scheduler.cron.quartz.AuroraCronJobFactory
+6814,org.apache.aurora.scheduler.cron.quartz.AuroraCronJob
+6840,org.apache.aurora.scheduler.storage.db.DbQuotaStoreTest
+6979,org.apache.aurora.scheduler.http.JerseyTemplateServlet
+6993,org.apache.aurora.scheduler.base.Jobs
+7063,org.apache.aurora.scheduler.thrift.aop.MockDecoratedThrift
+7071,org.apache.aurora.scheduler.thrift.aop.ForwardingThrift
+7074,org.apache.aurora.scheduler.storage.db.DbSchedulerStore
+7084,org.apache.aurora.scheduler.metadata.NearestFitTest
+7108,org.apache.aurora.scheduler.metadata.NearestFit
+7116,org.apache.aurora.scheduler.storage.entities.IHostAttributesTest
+7125,org.apache.aurora.scheduler.mesos.SchedulerDriverService
+7126,org.apache.aurora.scheduler.mesos.MesosSchedulerImpl
+7142,org.apache.aurora.scheduler.mesos.SchedulerDriverServiceTest
+7228,org.apache.aurora.scheduler.async.AsyncModuleTest
+7284,org.apache.aurora.scheduler.thrift.aop.LoggingInterceptor
+7285,org.apache.aurora.scheduler.thrift.aop.UserCapabilityInterceptor
+7286,org.apache.aurora.scheduler.thrift.aop.ThriftStatsExporterInterceptor
+7323,org.apache.aurora.scheduler.storage.db.DbAttributeStoreTest
+7369,org.apache.aurora.scheduler.storage.db.DBJobUpdateStore
+7451,org.apache.aurora.scheduler.async.TaskThrottlerTest
+7478,org.apache.aurora.scheduler.updater.JobUpdateControllerImpl
+7637,org.apache.aurora.scheduler.base.InstanceKeys
+7640,org.apache.aurora.scheduler.updater.UpdateStateException
+7831,org.apache.aurora.scheduler.storage.db.views.LockRow
+7933,org.apache.aurora.scheduler.thrift.SchedulerThriftInterfaceTest
+8666,org.apache.aurora.scheduler.async.OfferQueueImplTest
+8708,org.apache.aurora.scheduler.cron.CrontabEntryTest
+8752,org.apache.aurora.scheduler.async.preemptor.LiveClusterStateTest
+8769,org.apache.aurora.scheduler.http.LocksTest
+8784,org.apache.aurora.scheduler.cron.quartz.CronModule
+8816,org.apache.aurora.scheduler.stats.ResourceCounterTest
+8855,org.apache.aurora.GuiceUtilsTest
+8894,org.apache.aurora.scheduler.storage.backup.RecoveryTest
+9056,org.apache.aurora.scheduler.base.AsyncUtilTest
+9715,org.apache.aurora.scheduler.UserTaskLauncher
+9744,org.apache.aurora.scheduler.async.TaskGroupsTest
+9784,org.apache.aurora.scheduler.stats.SlotSizeCounterTest
+9808,org.apache.aurora.scheduler.mesos.CommandLineDriverSettingsModuleTest
+9820,org.apache.aurora.scheduler.storage.mem.MemStorageModule
+9849,org.apache.aurora.scheduler.async.preemptor.CachedClusterState
+9899,org.apache.aurora.scheduler.async.KillRetryTest
+9948,org.apache.aurora.scheduler.storage.db.DbStorage
+10019,org.apache.aurora.scheduler.thrift.aop.ServerInfoInterceptorTest
+10040,org.apache.aurora.scheduler.storage.db.DbModule
+10125,org.apache.aurora.scheduler.app.SchedulerMain
+10184,org.apache.aurora.auth.UnsecureAuthModule
+10185,org.apache.aurora.scheduler.storage.db.MigrationModule
+10187,org.apache.aurora.scheduler.app.Modules
+10193,org.apache.aurora.scheduler.storage.db.DbAttributeStore
+10231,org.apache.aurora.scheduler.log.mesos.MesosLogTest
+10345,org.apache.aurora.scheduler.http.QuitCallbackTest
+10387,org.apache.aurora.scheduler.storage.db.DbLockStore
+10388,org.apache.aurora.scheduler.storage.db.DbQuotaStore
+10486,org.apache.aurora.scheduler.app.local.FakeMaster
+10658,org.apache.aurora.scheduler.http.CorsFilterTest
+10749,org.apache.aurora.scheduler.app.local.LocalSchedulerMain
+10765,org.apache.aurora.scheduler.app.local.simulator.ClusterSimulatorModule
+10766,org.apache.aurora.scheduler.app.local.FakeNonVolatileStorage
+10768,org.apache.aurora.scheduler.thrift.aop.ThriftStatsExporterInterceptorTest
+10813,org.apache.aurora.scheduler.http.LeaderRedirectTest
+10955,org.apache.aurora.scheduler.UserTaskLauncherTest
+11012,org.apache.aurora.scheduler.updater.InstanceUpdater
+11043,org.apache.aurora.scheduler.updater.InstanceUpdaterTest
+11249,org.apache.aurora.scheduler.updater.JobUpdaterIT
+11425,org.apache.aurora.scheduler.updater.JobUpdateEventSubscriber
+11505,org.apache.aurora.scheduler.base.JobsTest
+11513,org.apache.aurora.scheduler.app.local.simulator.FakeSlaves
+11529,org.apache.aurora.scheduler.thrift.aop.FeatureToggleInterceptorTest
+11545,org.apache.aurora.scheduler.updater.AddTaskTest
+11555,org.apache.aurora.scheduler.async.preemptor.CachedClusterStateTest
+11621,org.apache.aurora.scheduler.app.LocalServiceRegistryWithOverridesTest
+11698,org.apache.aurora.scheduler.storage.backup.StorageBackupTest
+11730,org.apache.aurora.scheduler.storage.log.LogManagerTest
+11962,org.apache.aurora.scheduler.storage.log.SnapshotDeduplicatorImplTest
+12006,org.apache.aurora.scheduler.state.TaskStateMachineTest
+12118,org.apache.aurora.scheduler.mesos.MesosSchedulerImplTest
+12203,org.apache.aurora.scheduler.async.TaskSchedulerTest
+12353,org.apache.aurora.scheduler.configuration.ConfigurationManagerTest
+12435,org.apache.aurora.scheduler.base.CommandUtil
+12460,org.apache.aurora.scheduler.storage.log.testing.LogOpMatcher
+12729,org.apache.aurora.scheduler.http.ServletFilterTest
+12815,org.apache.aurora.scheduler.async.TaskSchedulerImplTest
+13093,org.apache.aurora.scheduler.storage.db.DBJobUpdateStoreTest
+13374,org.apache.aurora.scheduler.app.SchedulerIT
+13723,org.apache.aurora.scheduler.http.RequestLoggerTest
+13923,org.apache.aurora.scheduler.base.TasksTest
+13937,org.apache.aurora.scheduler.storage.mem.MemTaskStoreTest
+14107,org.apache.aurora.scheduler.updater.UpdateFactoryImplTest
+14421,org.apache.aurora.scheduler.storage.mem.Util
+14430,org.apache.aurora.scheduler.storage.log.LogStorageTest
+14758,org.apache.aurora.scheduler.async.GcExecutorLauncherTest
+14877,org.apache.aurora.scheduler.storage.db.DbSchedulerStoreTest
+14909,org.apache.aurora.scheduler.async.RandomJitterReturnDelayTest
+14924,org.apache.aurora.scheduler.TaskVarsTest
+15200,org.apache.aurora.scheduler.updater.JobUpdateEventSubscriberTest
+15215,org.apache.aurora.scheduler.thrift.aop.AopModuleTest
+15252,org.apache.aurora.scheduler.cron.quartz.CronJobManagerImplTest
+15304,org.apache.aurora.scheduler.cron.quartz.CronIT
+15367,org.apache.aurora.scheduler.base.CommandUtilTest
+15663,org.apache.aurora.scheduler.storage.mem.MemStorageTest
+15850,org.apache.aurora.scheduler.cron.quartz.AuroraCronJobTest
+*Edges: 446
+3123 684 10
+654 417 29
+654 661 4
+654 317 2
+3191 654 1
+3191 417 6
+6473 2347 4
+6473 2044 8
+6473 2635 13
+5212 9715 1
+5212 1562 2
+5212 4810 1
+5212 414 1
+414 574 2
+3220 1102 1
+14924 190 1
+14924 2347 3
+14924 3220 27
+9715 1447 1
+9715 416 1
+9715 413 1
+10955 9715 1
+10955 2347 3
+10955 413 1
+5149 1562 2
+5149 4491 1
+5149 5217 1
+5149 5211 2
+5149 2825 1
+11621 1519 4
+13374 12460 1
+13374 5539 4
+13374 10125 1
+10125 10185 1
+10125 4834 1
+10125 2635 2
+10125 1519 3
+10125 10040 1
+10125 9820 1
+10125 10187 2
+10125 6214 1
+10125 6263 1
+10125 5149 1
+10749 5539 1
+10749 10125 1
+11513 10486 3
+4732 1562 7
+4732 1446 1
+4732 414 3
+7228 2347 3
+7228 2044 2
+4810 417 7
+4810 190 1
+4810 12435 1
+4810 684 1
+4810 323 1
+4810 413 5
+4810 1004 1
+14758 417 2
+14758 190 1
+14758 2347 4
+14758 4810 15
+14758 413 5
+14758 1004 1
+4446 4455 1
+4446 2347 2
+4446 4454 4
+9899 1562 1
+9899 2347 6
+9899 5059 1
+9899 2044 3
+9899 4454 6
+9899 1004 1
+8666 413 12
+8666 4454 5
+14909 4814 2
+4253 190 8
+4253 2347 6
+4253 1004 3
+2348 190 2
+2348 3699 9
+2348 1446 1
+9744 190 2
+9744 2348 4
+3666 190 1
+3666 1004 1
+3542 190 1
+3542 2347 4
+3542 3666 11
+12815 2248 2
+12815 1562 1
+12815 3892 1
+12815 190 5
+12815 2347 7
+12815 5059 2
+12815 413 6
+12815 1004 1
+12203 2248 3
+12203 3892 1
+12203 190 9
+12203 2348 6
+12203 4141 2
+12203 413 25
+1875 190 1
+7451 190 1
+7451 2347 3
+7451 1875 6
+5455 4811 5
+5455 2347 3
+9849 317 1
+11555 9849 4
+11555 317 1
+5450 317 1
+8752 5450 1
+8752 2347 5
+8752 317 2
+317 417 3
+296 317 8
+3415 2248 2
+3415 654 1
+3415 1004 1
+3415 661 2
+5286 2248 2
+5286 5450 2
+5286 3892 1
+5286 417 2
+5286 190 1
+5286 5213 6
+5286 3415 2
+5286 2347 3
+4491 1562 1
+4473 2248 1
+4473 4491 1
+4473 2347 3
+9056 1446 1
+15367 12435 7
+7637 1102 1
+1102 1005 3
+1102 1004 1
+11505 6993 1
+4005 2195 5
+13923 190 2
+13923 2145 12
+1005 1102 3
+12353 1005 9
+417 2195 1
+6061 417 47
+1156 1005 1
+8708 4873 2
+8708 520 77
+4873 520 2
+1124 1157 1
+1124 1156 7
+1124 520 3
+6814 1102 1
+6814 522 1
+15850 3892 3
+15850 6814 9
+15304 3892 1
+15304 1124 1
+15304 6814 4
+15304 520 1
+4001 1124 8
+4001 1157 2
+4001 1156 3
+4001 520 1
+4001 1102 1
+4001 522 6
+15252 3892 1
+15252 1124 4
+15252 4001 1
+15252 1157 3
+15252 1156 3
+15252 520 1
+15252 5226 6
+3979 1124 3
+3979 4001 4
+3979 1156 1
+8784 6800 1
+8784 414 1
+505 520 1
+505 522 1
+4853 4873 5
+4853 505 1
+4853 520 2
+4853 522 1
+1851 1102 1
+1851 522 1
+522 520 13
+522 1102 2
+5226 1124 5
+2229 2254 1
+2229 2248 1
+1562 414 1
+3199 1562 1
+3199 2044 2
+4302 2248 6
+6721 2248 2
+6695 2248 1
+6695 6721 2
+5213 2248 1
+5213 1005 1
+5213 654 11
+5213 6695 1
+5213 661 2
+5668 2248 7
+5668 2077 1
+5668 654 2
+5668 5213 1
+6684 3751 1
+10658 6684 2
+5897 1102 1
+5886 5897 3
+5886 520 1
+5886 1102 1
+3727 3751 1
+2351 414 1
+2278 2347 2
+6682 1519 3
+6683 3751 1
+6683 6682 3
+10813 1519 1
+10813 6682 12
+8769 6685 4
+6686 1004 1
+6206 1102 1
+6206 1004 1
+6168 6206 1
+6168 2347 10
+6168 2278 14
+6687 2348 3
+10345 6681 1
+13723 230 1
+548 575 3
+12729 2278 5
+6688 6979 3
+6689 6979 3
+6689 1102 2
+6690 903 5
+6690 1004 2
+6680 4619 2
+4622 2278 18
+5960 684 1
+10231 6039 1
+5508 5539 1
+9808 5508 2
+661 417 3
+7126 1447 1
+12118 7126 3
+12118 416 1
+12118 2347 2
+12118 413 5
+587 417 5
+587 661 6
+5214 1446 1
+7125 5539 7
+7142 5539 4
+7142 7125 1
+7142 2347 3
+667 661 2
+5215 1562 1
+7084 7108 6
+6149 3041 13
+2840 2026 18
+2840 3041 29
+2840 2347 4
+4909 1004 1
+4880 2347 3
+4880 2827 4
+4880 4909 2
+4880 1004 1
+4336 2827 1
+2825 1446 1
+2825 414 1
+2795 2347 4
+2795 2827 1
+2795 2825 2
+2795 1004 1
+1571 1102 1
+3840 3892 1
+3840 1571 2
+3840 2347 1
+3840 1102 2
+5025 1562 1
+5025 190 1
+5025 2347 3
+5025 5059 1
+5025 1004 1
+1570 202 2
+1570 199 3
+1570 190 2
+1570 21 2
+1570 1004 3
+6311 3892 1
+6311 1570 2
+6311 1004 5
+1558 1562 1
+3373 2248 2
+3373 654 2
+3373 190 5
+3373 413 3
+21 202 3
+21 199 3
+21 190 1
+12006 202 13
+12006 21 7
+340 414 2
+903 1004 1
+8816 3892 1
+8816 903 8
+8816 1102 2
+8816 1004 2
+424 426 4
+9784 3398 2
+9784 426 1
+9784 424 5
+425 426 5
+425 903 4
+4223 1005 1
+4223 190 4
+4223 1102 1
+4223 1004 2
+4151 1005 2
+4151 3892 1
+4151 1156 5
+4151 1004 3
+8894 190 1
+8894 1004 4
+11698 684 1
+7369 686 1
+13093 1107 1
+13093 1102 10
+7323 1107 1
+10387 4846 3
+1023 1107 1
+1023 1102 10
+6840 1107 1
+14877 1107 1
+1107 10040 1
+1978 2012 1
+1979 2012 1
+1980 2012 1
+1981 684 2
+826 684 4
+11730 826 1
+11730 684 1
+11730 873 6
+11730 1102 6
+870 869 4
+870 1463 2
+846 862 1
+14430 12460 1
+14430 870 6
+14430 869 1
+14430 190 1
+14430 2347 2
+14430 684 1
+3931 3398 3
+3931 2347 3
+3931 3924 1
+3931 1102 1
+3931 1004 1
+873 826 4
+1463 190 1
+1463 2474 2
+1912 1463 14
+12460 684 1
+2113 2136 32
+5542 1102 2
+3892 10040 1
+3892 9820 1
+15663 3892 1
+4009 2136 3
+4009 190 3
+13937 190 10
+13937 4009 9
+13937 1102 16
+13937 1004 34
+4469 190 1
+4469 1157 1
+4469 7108 2
+4469 1102 7
+4469 2026 3
+4469 3041 3
+4469 4619 4
+4469 1156 6
+4469 1004 9
+7933 1005 2
+7933 7640 4
+7933 1124 2
+7933 2347 55
+7933 520 1
+7933 7108 2
+7933 1102 11
+7933 2026 3
+7933 3041 2
+7933 4468 2
+7933 4619 2
+7933 4469 6
+7933 1156 36
+7933 1004 49
+5561 2347 1
+5561 4834 1
+4463 4468 1
+4468 5211 1
+15215 4468 1
+4610 4619 1
+7284 4619 2
+7063 7071 2
+10019 832 1
+10768 7286 1
+7285 4619 1
+5068 2007 2
+11012 190 4
+11043 5274 2
+2490 2195 1
+2490 1004 1
+5238 2490 33
+5238 1004 1
+7478 3830 1
+7478 452 2
+7478 7637 2
+7478 1983 1
+7478 1102 2
+7478 1004 1
+11425 190 1
+11425 7637 1
+15200 11425 1
+5941 452 2
+11249 11425 2
+11249 10040 1
+11249 9820 1
+11249 5217 1
+11249 4454 52
+11249 1004 2
+3830 1983 1
+3754 3830 7
+3754 2007 1
+3754 1983 4
+5274 190 1
+14107 3830 5
+5217 1562 1
+3119 4818 2
+3103 3119 6
+6751 4818 2
+6737 6751 6

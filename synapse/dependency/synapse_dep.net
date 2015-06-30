@@ -1,0 +1,1443 @@
+*Vertics: 445
+5,org.apache.synapse.transport.nhttp.ClientWorker
+145,org.apache.synapse.transport.mail.WSMimeMessage
+156,org.apache.synapse.transport.mail.MailConstants
+163,org.apache.synapse.transport.nhttp.util.PipeImpl
+194,org.apache.synapse.mediators.eip.EIPConstants
+210,org.apache.synapse.config.SynapseConfigUtils
+325,org.apache.synapse.SynapseConstants
+326,org.apache.synapse.SynapseException
+338,org.apache.synapse.transport.nhttp.ConnectionPool
+379,org.apache.synapse.util.WrappedTextNodeStreamReaderTest
+431,org.apache.synapse.util.WrappedTextNodeStreamReader
+438,org.apache.synapse.mediators.bsf.ScriptMessageContext
+548,org.apache.synapse.FaultHandler
+551,org.apache.synapse.config.SynapseConfiguration
+609,org.apache.synapse.mediators.builtin.DropMediatorTest
+618,org.apache.synapse.mediators.TestUtils
+620,org.apache.synapse.mediators.builtin.DropMediator
+624,org.apache.synapse.transport.base.AbstractTransportListener
+736,org.apache.synapse.transport.base.threads.WorkerPoolFactory
+738,org.apache.synapse.transport.base.BaseUtils
+753,org.apache.synapse.mediators.GetPropertyFunction
+809,org.apache.synapse.config.xml.XMLConfigConstants
+810,org.apache.synapse.core.axis2.Axis2MessageContext
+841,org.apache.synapse.samples.n2n.SynapseSample_111_Integration
+845,org.apache.synapse.samples.n2n.AbstractAutomationTestCase
+852,org.apache.synapse.endpoints.dispatch.SoapSessionDispatcher
+884,org.apache.synapse.samples.n2n.SynapseSample_104_Integration
+889,samples.userguide.StockQuoteClient
+1081,samples.services.GetQuote
+1092,org.apache.synapse.transport.nhttp.util.WorkerPoolFactory
+1103,org.apache.synapse.transport.nhttp.util.NativeWorkerPool
+1104,org.apache.synapse.transport.nhttp.util.BackportWorkerPool
+1108,samples.services.GetQuoteResponse
+1175,org.apache.synapse.transport.base.AbstractPollingTransportListener
+1223,org.apache.synapse.transport.jms.JMSConnectionFactory
+1382,org.apache.synapse.transport.jms.JMSMessageReceiver
+1383,org.apache.synapse.transport.jms.JMSOutTransportInfo
+1384,org.apache.synapse.transport.jms.JMSUtils
+1385,org.apache.synapse.transport.jms.JMSConstants
+1386,org.apache.synapse.transport.jms.AxisJMSException
+1425,samples.userguide.ServiceInvoker
+1492,org.apache.synapse.config.xml.ResourceMapSerializer
+1504,org.apache.synapse.core.axis2.ResourceMap
+1517,org.apache.synapse.mediators.bsf.ScriptMediator
+1592,org.apache.synapse.config.Entry
+1593,org.apache.synapse.mediators.AbstractMediator
+1606,org.apache.synapse.mediators.ext.AnnotatedCommand2
+1618,org.apache.synapse.config.xml.AnonymousListMediator
+1621,org.apache.synapse.mediators.AbstractListMediator
+1624,org.apache.synapse.transport.AbstractTransportTest
+1639,org.apache.synapse.transport.vfs.VFSTransportSender
+1641,org.apache.synapse.transport.UtilsTransportServer
+1645,org.apache.synapse.config.xml.ClassMediatorSerializationTest
+1655,org.apache.synapse.config.xml.AbstractTestCase
+1656,org.apache.synapse.config.xml.ClassMediatorFactory
+1657,org.apache.synapse.config.xml.ClassMediatorSerializer
+1669,org.apache.synapse.transport.nhttp.SSLClientIOEventDispatch
+1735,org.apache.synapse.transport.nhttp.LoggingNHttpClientHandler
+1736,org.apache.synapse.transport.nhttp.LoggingIOSession
+1750,org.apache.synapse.mediators.bsf.javascript.JavaScriptMediatorTest
+1761,org.apache.synapse.samples.n2n.SynapseSample_2_Integration
+1767,org.apache.synapse.config.xml.POJOCommandMediatorSerializer
+1800,org.apache.synapse.mediators.ext.POJOCommandMediator
+1801,org.apache.synapse.config.xml.AbstractMediatorSerializer
+1819,samples.services.SimpleStockQuoteService
+1833,samples.services.GetFullQuoteResponse
+1834,samples.services.GetFullQuote
+1835,samples.services.GetMarketActivityResponse
+1836,samples.services.GetMarketActivity
+1837,samples.services.GetQuoteResponse
+1838,samples.services.GetQuote
+1839,samples.services.PlaceOrder
+1851,org.apache.synapse.transport.base.AbstractTransportSender
+1926,org.apache.synapse.mediators.base.SequenceMediator
+1927,org.apache.synapse.endpoints.utils.EndpointDefinition
+1928,org.apache.synapse.statistics.StatisticsCollector
+1941,org.apache.synapse.config.xml.SendMediatorSerializer
+1952,org.apache.synapse.config.xml.endpoints.EndpointAbstractSerializer
+1953,org.apache.synapse.mediators.builtin.SendMediator
+1960,org.apache.synapse.config.xml.endpoints.FailoverEndpointFactory
+1989,org.apache.synapse.endpoints.FailoverEndpoint
+1991,org.apache.synapse.config.xml.endpoints.EndpointAbstractFactory
+2003,org.apache.synapse.config.xml.RegistryFactory
+2036,org.apache.synapse.mediators.xquery.MediatorCustomVariable
+2081,org.apache.synapse.mediators.xquery.MediatorVariable
+2087,org.apache.synapse.samples.n2n.SynapseSample_510_Integration
+2092,org.apache.synapse.statistics.StatisticsUtils
+2122,org.apache.synapse.statistics.impl.SequenceStatisticsStack
+2123,org.apache.synapse.statistics.impl.EndPointStatisticsStack
+2124,org.apache.synapse.statistics.impl.ProxyServiceStatisticsStack
+2147,org.apache.synapse.startup.quartz.SimpleQuartz
+2212,org.apache.synapse.startup.AbstractStartup
+2214,org.apache.synapse.startup.quartz.SimpleQuartzFactory
+2215,org.apache.synapse.startup.quartz.SimpleQuartzJob
+2228,org.apache.synapse.mediators.spring.SpringMediator
+2294,org.apache.synapse.mediators.AbstractMediatorTestCase
+2303,org.apache.synapse.config.xml.endpoints.AddressEndpointSerializer
+2328,org.apache.synapse.endpoints.AddressEndpoint
+2359,org.apache.synapse.samples.n2n.SynapseSample_0_Integration
+2366,org.apache.synapse.transport.nhttp.HttpCoreNIOSSLListener
+2436,org.apache.synapse.transport.nhttp.HttpCoreNIOListener
+2437,org.apache.synapse.transport.nhttp.SSLServerIOEventDispatch
+2565,org.apache.synapse.transport.vfs.PollTableEntry
+2566,org.apache.synapse.transport.base.BaseConstants
+2567,org.apache.synapse.transport.base.BaseTransportException
+2619,org.apache.synapse.transport.mail.MailTransportSender
+2704,org.apache.synapse.transport.mail.MailOutTransportInfo
+2730,org.apache.synapse.config.xml.CloneMediatorSerializer
+2739,org.apache.synapse.mediators.eip.splitter.CloneMediator
+2740,org.apache.synapse.mediators.eip.Target
+2742,org.apache.synapse.config.xml.TargetSerializer
+2747,org.apache.synapse.config.xml.AggregateMediatorSerializer
+2759,org.apache.synapse.mediators.eip.aggregator.AggregateMediator
+2761,org.apache.synapse.config.xml.SequenceMediatorSerializer
+2762,org.apache.synapse.config.xml.AbstractListMediatorSerializer
+2772,org.apache.synapse.mediators.ext.ClassMediatorTest
+2781,org.apache.synapse.TestMessageContext
+2782,org.apache.synapse.config.xml.MediatorFactoryFinder
+2783,org.apache.synapse.core.axis2.Axis2SynapseEnvironment
+2784,org.apache.synapse.mediators.ext.ClassMediatorTestMediator
+2863,org.apache.synapse.util.UUIDGenerator
+2864,samples.common.StockQuoteHandler
+2884,samples.userguide.MTOMSwAClient
+2956,org.apache.synapse.config.xml.OutMediatorSerializer
+2963,org.apache.synapse.mediators.filters.OutMediator
+2966,org.apache.synapse.mediators.ext.AnnotatedCommand
+2974,org.apache.synapse.TestMessageContext
+3084,org.apache.synapse.core.axis2.TimeoutHandler
+3107,org.apache.synapse.core.axis2.AsyncCallback
+3123,org.apache.synapse.core.axis2.SOAPUtils
+3198,org.apache.synapse.util.MessageHelper
+3201,org.apache.synapse.mediators.builtin.CalloutMediator
+3263,org.apache.synapse.transport.mail.MailEchoRawXMLTest
+3381,org.apache.synapse.transport.mail.UtilsMailServer
+3390,org.apache.synapse.mediators.builtin.PropertyMediatorTest
+3403,org.apache.synapse.mediators.MediatorProperty
+3404,org.apache.synapse.mediators.builtin.PropertyMediator
+3417,org.apache.synapse.TestMediator
+3491,org.apache.synapse.registry.url.SimpleURLRegistry
+3503,org.apache.synapse.samples.n2n.SynapseSample_51_Integration
+3508,org.apache.synapse.config.xml.ProxyServiceSerializer
+3558,org.apache.synapse.core.axis2.ProxyService
+3559,org.apache.synapse.config.xml.PropertyMediatorSerializer
+3589,org.apache.synapse.config.xml.IterateMediatorSerializer
+3596,org.apache.synapse.mediators.eip.splitter.IterateMediator
+3603,samples.services.GetFullQuoteResponse
+3613,samples.services.TradingDay
+3618,org.apache.synapse.util.concurrent.SynapseThreadPool
+3650,org.apache.synapse.util.concurrent.SynapseThreadFactory
+3774,org.apache.synapse.transport.Echo
+3795,org.apache.synapse.endpoints.WSDLEndpoint
+3864,org.apache.synapse.mediators.eip.IterateMediatorTest
+3876,org.apache.synapse.config.xml.IterateMediatorFactory
+3877,org.apache.synapse.mediators.eip.AbstractSplitMediatorTestCase
+3879,org.apache.synapse.mediators.eip.SplitTestHelperMediator
+3890,org.apache.synapse.samples.n2n.SynapseSample_500_Integration
+3895,org.apache.synapse.transport.nhttp.util.RESTUtil
+3918,org.apache.synapse.core.axis2.ProxyServiceMessageReceiver
+3963,org.apache.synapse.mediators.MediatorFaultHandler
+3964,org.apache.synapse.core.axis2.SynapseMessageReceiver
+3965,org.apache.synapse.core.axis2.MessageContextCreatorForAxis2
+3977,org.apache.synapse.core.axis2.DynamicAxisOperation
+4033,org.apache.synapse.core.axis2.SynapseCallbackReceiver
+4055,org.apache.synapse.mediators.ext.ClassMediator
+4056,org.apache.synapse.config.xml.AbstractMediatorFactory
+4057,org.apache.synapse.config.xml.PropertyHelper
+4073,org.apache.synapse.samples.n2n.SynapseSample_11_Integration
+4079,org.apache.synapse.mediators.builtin.CacheMediator
+4205,org.apache.synapse.core.axis2.Axis2Sender
+4206,org.apache.synapse.util.FixedByteArrayOutputStream
+4212,org.apache.synapse.samples.n2n.SynapseSample_113_Integration
+4220,org.apache.synapse.transport.nhttp.LoggingNHttpClientConnection
+4235,org.apache.synapse.mediators.MediatorWorker
+4254,org.apache.synapse.config.xml.SwitchMediatorSerializer
+4269,org.apache.synapse.mediators.filters.SwitchMediator
+4270,org.apache.synapse.config.xml.SwitchCase
+4271,org.apache.synapse.config.xml.AnonymousListMediatorSerializer
+4283,org.apache.synapse.config.xml.XMLConfigurationBuilder
+4288,org.apache.synapse.config.xml.ConfigurationFactoryAndSerializerFinder
+4394,org.apache.synapse.mediators.throttle.ThrottleMediatorSerializationTest
+4401,org.apache.synapse.mediators.AbstractTestCase
+4402,org.apache.synapse.mediators.throttle.ThrottleMediatorFactory
+4403,org.apache.synapse.mediators.throttle.ThrottleMediatorSerializer
+4412,org.apache.synapse.mediators.xquery.XQueryMediatorTest
+4474,org.apache.synapse.mediators.xquery.XQueryMediator
+4475,org.apache.synapse.mediators.xquery.MediatorBaseVariable
+4487,org.apache.synapse.transport.nhttp.Axis2HttpRequest
+4538,org.apache.synapse.transport.nhttp.NhttpUtils
+4539,org.apache.synapse.transport.nhttp.NhttpConstants
+4543,org.apache.synapse.config.xml.RMSequenceMediatorFactory
+4568,org.apache.synapse.mediators.builtin.RMSequenceMediator
+4569,org.apache.synapse.config.xml.OMElementUtils
+4581,org.apache.synapse.metrics.MetricsConstants
+4586,org.apache.synapse.startup.quartz.SimpleQuartzSerializer
+4606,org.apache.synapse.util.HandlerUtil
+4626,org.apache.synapse.mediators.xquery.XQueryMediatorSerializer
+4665,org.apache.synapse.util.SimpleMapImpl
+4775,org.apache.synapse.util.PayloadHelper
+4801,org.apache.synapse.config.xml.DropMediatorSerializationTest
+4807,org.apache.synapse.config.xml.DropMediatorFactory
+4808,org.apache.synapse.config.xml.DropMediatorSerializer
+4810,org.apache.synapse.config.xml.FaultMediatorSerializer
+4825,org.apache.synapse.mediators.transform.FaultMediator
+4838,org.apache.synapse.mediators.base.SequenceMediatorTest
+4876,org.apache.synapse.mediators.TestMediator
+4921,org.apache.synapse.config.xml.InMediatorFactory
+4927,org.apache.synapse.mediators.filters.InMediator
+4928,org.apache.synapse.config.xml.AbstractListMediatorFactory
+4963,samples.util.SampleAxis2ServerManager
+5006,org.apache.synapse.config.xml.HeaderMediatorFactory
+5027,org.apache.synapse.mediators.transform.HeaderMediator
+5038,samples.services.PlaceOrder
+5052,org.apache.synapse.samples.n2n.SynapseSample_6_Integration
+5057,org.apache.synapse.config.xml.endpoints.LoadbalanceEndpointFactory
+5086,org.apache.synapse.endpoints.LoadbalanceEndpoint
+5088,org.apache.synapse.config.xml.endpoints.utils.LoadbalanceAlgorithmFactory
+5122,samples.services.MTOMSwASampleService
+5231,org.apache.synapse.core.axis2.SynapseStartUpServlet
+5262,org.apache.synapse.ServerManager
+5274,org.apache.synapse.transport.vfs.VFSTransportListener
+5378,org.apache.synapse.transport.vfs.VFSConstants
+5379,org.apache.synapse.transport.vfs.VFSUtils
+5380,org.apache.synapse.transport.vfs.VFSOutTransportInfo
+5450,org.apache.synapse.config.xml.endpoints.IndirectEndpointFactory
+5451,org.apache.synapse.config.xml.endpoints.AddressEndpointFactory
+5452,org.apache.synapse.config.xml.endpoints.WSDLEndpointFactory
+5453,org.apache.synapse.config.xml.endpoints.SALoadbalanceEndpointFactory
+5459,org.apache.synapse.config.xml.ProxyServiceSerializationTest
+5486,org.apache.synapse.config.xml.ProxyServiceFactory
+5489,org.apache.synapse.config.xml.FaultMediatorFactory
+5551,org.apache.synapse.samples.n2n.SynapseSample_4_Integration
+5598,org.apache.synapse.config.xml.SynapseMediatorSerializer
+5605,org.apache.synapse.mediators.base.SynapseMediator
+5637,org.apache.synapse.config.xml.endpoints.FailoverEndpointSerializer
+5655,org.apache.synapse.config.xml.AbstractDBMediatorSerializer
+5696,org.apache.synapse.mediators.db.AbstractDBMediator
+5697,org.apache.synapse.mediators.db.Statement
+5700,org.apache.synapse.config.xml.AbstractDBMediatorFactory
+5714,org.apache.synapse.config.xml.POJOCommandMediatorFactory
+5757,org.apache.synapse.config.xml.FaultMediatorSerializationTest
+5782,org.apache.synapse.config.xml.OutMediatorFactory
+5789,org.apache.synapse.config.xml.SequenceMediatorFactory
+5817,org.apache.synapse.mediators.throttle.ThrottleMediatorTest
+5975,org.apache.synapse.registry.AbstractRegistry
+6018,org.apache.synapse.mediators.builtin.ValidateMediator
+6374,org.apache.synapse.handler.SynapseOutHandler
+6384,org.apache.synapse.samples.n2n.SynapseSample_57_Integration
+6389,org.apache.synapse.metrics.Counter
+6414,org.apache.synapse.core.axis2.Axis2FlexibleMEPClient
+6419,org.apache.synapse.samples.n2n.SynapseSample_101_Integration
+6426,org.apache.synapse.transport.nhttp.PlainServerIOEventDispatch
+6448,org.apache.synapse.transport.nhttp.LoggingNHttpServerConnection
+6449,org.apache.synapse.transport.nhttp.LoggingNHttpServiceHandler
+6455,org.apache.synapse.mediators.bsf.GroovyScriptMediatorTest
+6458,org.apache.synapse.utils.Services
+6466,org.apache.synapse.config.xml.XMLConfigurationSerializer
+6482,org.apache.synapse.transport.nhttp.ServerWorker
+6623,org.apache.synapse.transport.base.MetricsCollector
+6624,org.apache.synapse.transport.nhttp.ServerHandler
+6625,org.apache.synapse.transport.nhttp.HttpCoreRequestResponseTransport
+6758,org.apache.synapse.samples.n2n.SynapseSample_55_Integration
+6942,org.apache.synapse.config.xml.SynapseXMLConfigurationFactory
+6949,org.apache.synapse.config.xml.CacheMediatorFactory
+6990,org.apache.synapse.config.xml.TargetFactory
+7012,org.apache.synapse.samples.n2n.SynapseSample_60_Integration
+7054,org.apache.synapse.samples.n2n.SynapseSample_53_Integration
+7104,org.apache.synapse.mediators.throttle.ThrottleMediator
+7117,samples.userguide.PWCallback
+7137,org.apache.synapse.transport.vfs.VFSEchoRawXMLTest
+7149,org.apache.synapse.transport.vfs.UtilsVFSServer
+7153,org.apache.synapse.mediators.bsf.ScriptMediatorFactoryTest
+7176,org.apache.synapse.mediators.bsf.ScriptMediatorFactory
+7179,org.apache.synapse.handler.SynapseInHandler
+7242,org.apache.synapse.mediators.db.DBLookupMediator
+7244,org.apache.synapse.util.ClasspathURLStreamHandler
+7303,org.apache.synapse.mediators.eip.EIPUtils
+7313,org.apache.synapse.samples.n2n.SynapseSample_502_Integration
+7348,org.apache.synapse.config.xml.endpoints.WSDLEndpointSerializer
+7349,org.apache.synapse.endpoints.IndirectEndpoint
+7350,org.apache.synapse.config.xml.endpoints.IndirectEndpointSerializer
+7351,org.apache.synapse.config.xml.endpoints.LoadbalanceEndpointSerializer
+7352,org.apache.synapse.endpoints.SALoadbalanceEndpoint
+7353,org.apache.synapse.config.xml.endpoints.SALoadbalanceEndpointSerializer
+7385,samples.services.LBService1
+7405,org.apache.synapse.mediators.bsf.ScriptMediatorSerializationTest
+7417,org.apache.synapse.mediators.bsf.ScriptMediatorSerializer
+7426,org.apache.synapse.transport.base.threads.NativeWorkerPool
+7427,org.apache.synapse.transport.base.threads.BackportWorkerPool
+7431,org.apache.synapse.transport.mail.MailUtils
+7471,org.apache.synapse.core.axis2.AnonymousServiceFactory
+7566,org.apache.synapse.config.xml.ValidateMediatorFactory
+7631,org.apache.synapse.mediators.xquery.XQueryMediatorFactory
+7660,org.apache.synapse.config.xml.MediatorPropertyFactory
+7663,samples.services.GetMarketActivityResponse
+7694,org.apache.synapse.mediators.filters.FilterMediator
+7727,org.apache.synapse.core.axis2.CustomURIResolver
+7742,samples.services.PlaceOrder
+7756,samples.util.SampleAxis2Server
+7790,org.apache.synapse.util.TextFileDataSource
+7814,samples.userguide.GenericJMSClient
+7900,samples.services.ReliableStockQuoteService
+7906,samples.services.GetQuoteResponse
+7972,org.apache.synapse.samples.n2n.SynapseSample_8_Integration
+7980,org.apache.synapse.core.axis2.SynapseAxisServlet
+7999,samples.services.SimpleStockQuoteService
+8012,org.apache.synapse.mediators.ext.AnnotatedCommandMediatorTest
+8023,org.apache.synapse.mediators.ext.AnnotatedCommandMediator
+8027,samples.services.GetFullQuote
+8041,org.apache.synapse.transport.mail.MailTransportListener
+8045,org.apache.synapse.config.xml.ResourceMapFactory
+8057,samples.mediators.DiscountQuoteMediator
+8112,org.apache.synapse.mediators.builtin.ValidateMediatorTest
+8191,org.apache.synapse.mediators.ext.POJOCommandTestImplementedMediator
+8202,org.apache.synapse.mediators.ext.POJOCommandTestHelper
+8208,org.apache.synapse.config.xml.POJOCommandMediatorSerializationTest
+8235,org.apache.synapse.config.xml.DBLookupMediatorFactory
+8242,org.apache.synapse.mediators.db.DBLookupMediatorTest
+8265,samples.services.GetMarketActivity
+8398,org.apache.synapse.transport.base.TransportView
+8399,org.apache.synapse.transport.nhttp.NHttpConfiguration
+8637,org.apache.synapse.config.xml.HeaderMediatorSerializer
+8761,org.apache.synapse.samples.n2n.SynapseSample_110_Integration
+8765,org.apache.synapse.samples.n2n.SynapseSample_103_Integration
+8831,org.apache.synapse.config.xml.RegistrySerializationTest
+8841,org.apache.synapse.config.xml.RegistrySerializer
+8844,org.apache.synapse.config.xml.LogMediatorSerializationTest
+8859,org.apache.synapse.config.xml.LogMediatorFactory
+8860,org.apache.synapse.config.xml.LogMediatorSerializer
+8862,org.apache.synapse.mediators.filters.FilterMediatorTest
+8940,org.apache.synapse.endpoints.algorithms.RoundRobin
+9062,org.apache.synapse.config.xml.ValidateMediatorSerializer
+9131,org.apache.synapse.config.xml.endpoints.utils.WSDL11EndpointBuilder
+9295,org.apache.synapse.SynapseServer
+9521,org.apache.synapse.transport.jms.JMSListener
+9572,org.apache.synapse.mediators.ext.POJOCommandTestMediator
+9579,org.apache.synapse.mediators.spring.SpringMediatorFactory
+9589,org.apache.synapse.config.xml.EntryFactory
+9679,org.apache.synapse.mediators.eip.aggregator.Aggregate
+9689,org.apache.synapse.mediators.transform.XSLTMediatorTest
+9735,org.apache.synapse.mediators.transform.XSLTMediator
+9742,org.apache.synapse.config.xml.SequenceMediatorSerializationTest
+9768,org.apache.synapse.samples.n2n.SynapseSample_1_Integration
+9780,org.apache.synapse.config.xml.PropertyMediatorSerializationTest
+9792,org.apache.synapse.config.xml.PropertyMediatorFactory
+9815,org.apache.synapse.handler.SynapseModule
+9837,org.apache.synapse.core.axis2.SynapseInitializationModule
+9866,org.apache.synapse.config.xml.XSLTMediatorFactory
+9904,org.apache.synapse.config.xml.OutMediatorSerializationTest
+9911,org.apache.synapse.mediators.db.DBReportMediator
+9926,org.apache.synapse.mediators.transform.FaultMediatorTest
+10083,org.apache.synapse.registry.url.URLRegistryEntry
+10094,org.apache.synapse.mediators.bsf.ScriptMediatorTest
+10120,org.apache.synapse.config.xml.SendMediatorSerializationTest
+10174,org.apache.synapse.config.xml.SendMediatorFactory
+10219,org.apache.synapse.config.SynapseConfigurationBuilder
+10275,org.apache.synapse.util.TextFileDataSourceTest
+10282,org.apache.synapse.config.xml.IterateMediatorSerializationTest
+10301,org.apache.synapse.config.xml.AnonymousListMediatorFactory
+10336,org.apache.synapse.config.xml.SynapseMediatorFactory
+10343,org.apache.synapse.config.xml.SwitchMediatorSerializationTest
+10353,org.apache.synapse.config.xml.SwitchMediatorFactory
+10358,org.apache.synapse.mediators.ext.POJOCommandMediatorTest
+10383,samples.services.GetQuote
+10392,org.apache.synapse.samples.n2n.SynapseSample_52_Integration
+10657,org.apache.synapse.mediators.spring.TestMediateHandlerImpl
+10715,org.apache.synapse.core.axis2.SynapseMustUnderstandHandler
+10894,org.apache.synapse.samples.n2n.SynapseSample_50_Integration
+10899,org.apache.synapse.config.xml.CacheMediatorSerializer
+10954,org.apache.synapse.startup.tasks.MessageInjector
+11007,org.apache.synapse.config.xml.FilterMediatorFactory
+11008,org.apache.synapse.config.xml.AnnotatedCommandMediatorFactory
+11009,org.apache.synapse.config.xml.CloneMediatorFactory
+11010,org.apache.synapse.config.xml.AggregateMediatorFactory
+11011,org.apache.synapse.config.xml.DBReportMediatorFactory
+11012,org.apache.synapse.config.xml.CalloutMediatorFactory
+11072,org.apache.synapse.samples.n2n.SynapseSample_114_Integration
+11076,org.apache.synapse.config.xml.CalloutMediatorSerializer
+11086,org.apache.synapse.config.xml.CloneMediatorSerializationTest
+11124,org.apache.synapse.mediators.builtin.LogMediator
+11182,org.apache.synapse.core.axis2.SynapseDispatcher
+11197,org.apache.synapse.registry.url.SimpleURLRegistryTest
+11211,samples.services.TradingDay
+11430,org.apache.synapse.samples.n2n.SynapseSample_10_Integration
+11435,org.apache.synapse.statistics.StatisticsHolder
+11454,org.apache.synapse.statistics.Statistics
+11460,org.apache.synapse.samples.n2n.SynapseSample_112_Integration
+11525,org.apache.synapse.config.xml.TestMediator
+11538,org.apache.synapse.mediators.spring.SpringMediatorSerializer
+11549,org.apache.synapse.n2n.SynapseCommodityServiceTest
+11586,org.apache.synapse.config.xml.DBReportMediatorSerializer
+11665,org.apache.synapse.config.xml.DBLookupMediatorSerializer
+11786,org.apache.synapse.mediators.eip.CloneMediatorTest
+11798,org.apache.synapse.samples.n2n.SynapseSample_5_Integration
+11804,org.apache.synapse.endpoints.dispatch.HttpSessionDispatcher
+11855,org.apache.synapse.config.xml.DBLookupMediatorSerializationTest
+11863,org.apache.synapse.transport.mail.PollTableEntry
+11981,org.apache.synapse.samples.n2n.SynapseSample_600_Integration
+11987,samples.services.GetQuoteResponse
+12053,samples.services.PlaceOrder
+12067,org.apache.synapse.config.xml.SynapseXMLConfigurationSerializer
+12109,org.apache.synapse.config.xml.EntrySerializer
+12110,org.apache.synapse.config.xml.StartupFinder
+12111,org.apache.synapse.config.xml.MediatorSerializerFinder
+12120,samples.services.LBService2
+12176,org.apache.synapse.config.xml.FilterMediatorSerializer
+12177,org.apache.synapse.config.xml.InMediatorSerializer
+12178,org.apache.synapse.config.xml.RMSequenceMediatorSerializer
+12179,org.apache.synapse.config.xml.XSLTMediatorSerializer
+12181,org.apache.synapse.samples.n2n.SynapseSample_3_Integration
+12186,org.apache.synapse.mediators.filters.SwitchMediatorTest
+12242,org.apache.synapse.samples.n2n.SynapseSample_102_Integration
+12405,org.apache.synapse.config.xml.endpoints.XMLToEndpointMapper
+12427,org.apache.synapse.config.xml.FilterMediatorSerializationTest
+12601,org.apache.synapse.samples.n2n.SynapseSample_56_Integration
+12606,samples.userguide.LoadbalanceFailoverClient
+12687,org.apache.synapse.samples.n2n.SynapseSample_100_Integration
+12852,org.apache.synapse.core.axis2.CustomWSDLLocator
+12856,org.apache.synapse.transport.jms.JMSSender
+13052,org.apache.synapse.metrics.MetricsAggregatorModule
+13190,samples.services.FastStockQuoteService
+13247,org.apache.synapse.samples.n2n.SynapseSample_54_Integration
+13253,org.apache.synapse.mediators.db.DBReportMediatorTest
+13385,org.apache.synapse.mediators.spring.SpringTestBean
+13457,org.apache.synapse.transport.nhttp.PlainClientIOEventDispatch
+13490,org.apache.synapse.transport.nhttp.HttpCoreNIOSSLSender
+13544,org.apache.synapse.transport.nhttp.HttpCoreNIOSender
+13576,org.apache.synapse.core.axis2.MediatorDeployer
+13623,org.apache.synapse.samples.n2n.SynapseSample_503_Integration
+13649,org.apache.synapse.endpoints.dispatch.SimpleClientSessionDispatcher
+13652,org.apache.synapse.metrics.GlobalRequestCountHandler
+13771,org.apache.synapse.mediators.transform.HeaderMediatorTest
+13829,org.apache.synapse.samples.n2n.SynapseSample_501_Integration
+13835,org.apache.synapse.transport.nhttp.ClientHandler
+13984,org.apache.synapse.config.xml.HeaderMediatorSerializationTest
+14112,org.apache.synapse.config.xml.endpoints.utils.WSDL20EndpointBuilder
+14257,org.apache.synapse.mediators.xquery.XQueryMediatorSerializationTest
+14331,org.apache.synapse.mediators.TestUtils
+14451,org.apache.synapse.samples.n2n.SynapseSample_9_Integration
+14456,samples.services.GetQuote
+14514,samples.userguide.ThreadedClient
+14576,org.apache.synapse.config.xml.InMediatorSerializationTest
+14583,org.apache.synapse.mediators.spring.SpringMediatorTest
+14589,org.apache.synapse.mediators.builtin.ValidateMediatorSerializationTest
+14598,org.apache.synapse.mediators.AbstractTestCase
+14641,org.apache.synapse.samples.n2n.SynapseSample_7_Integration
+*Edges: 1093
+548 326 2
+5262 551 1
+5262 326 2
+9295 5262 3
+3417 1593 1
+2974 548 2
+2974 551 16
+1592 326 1
+210 326 2
+551 3558 10
+551 1592 32
+551 210 1
+551 12405 1
+551 326 1
+551 2782 1
+551 1926 5
+10219 11124 1
+10219 551 7
+10219 4283 1
+10219 326 1
+10219 1621 3
+5700 5697 3
+5700 4056 8
+5700 4569 1
+5700 5696 17
+5655 5697 4
+5655 326 1
+5655 5696 4
+5655 1801 2
+4928 4056 1
+4928 326 1
+4928 2782 2
+2762 12111 2
+2762 1801 2
+4056 326 2
+1801 3403 7
+1801 326 2
+1655 2782 2
+11010 5789 1
+11010 4056 4
+11010 4569 2
+11010 1621 1
+11010 2759 9
+2747 2762 1
+2747 1801 5
+2747 1621 1
+2747 2759 16
+11008 4056 5
+11008 4569 1
+11008 326 1
+11008 1800 2
+1618 1621 2
+10301 1618 1
+10301 4928 2
+4271 2762 2
+4271 1801 1
+4271 1621 1
+6949 5789 1
+6949 4079 15
+6949 4056 10
+10899 4079 19
+10899 2762 1
+10899 1801 3
+10899 1621 1
+11012 4056 8
+11012 4569 2
+11012 3201 8
+11076 1801 5
+11076 3201 13
+1656 4056 4
+1656 4057 2
+1656 326 2
+1656 4055 3
+1645 1656 1
+1645 1657 1
+1645 1655 8
+1657 1801 4
+1657 4055 5
+11009 6990 1
+11009 4056 2
+11009 2739 2
+11086 2730 1
+11086 11009 1
+11086 1655 10
+2730 1801 2
+2730 2742 1
+2730 2739 2
+4288 551 5
+4288 326 9
+8235 5700 3
+11855 11665 1
+11855 1655 4
+11855 8235 1
+11665 5655 2
+11665 1801 2
+11011 5700 3
+11586 5655 2
+11586 1801 2
+4807 4056 2
+4801 4808 1
+4801 4807 1
+4801 1655 4
+4808 1801 3
+9589 1592 10
+9589 210 1
+9589 326 1
+12109 1592 6
+12109 326 1
+5489 4056 2
+5489 4569 3
+5489 4825 9
+5489 326 11
+5757 4810 1
+5757 1655 6
+5757 5489 1
+4810 4825 21
+4810 1801 7
+11007 7694 5
+11007 4056 1
+11007 4569 2
+11007 326 6
+11007 4928 2
+12427 12176 1
+12427 11007 1
+12427 1655 6
+12176 7694 8
+12176 2762 2
+12176 1801 5
+12176 1621 1
+5006 4056 2
+5006 4569 2
+5006 326 4
+5006 5027 6
+13984 8637 1
+13984 5006 1
+13984 1655 6
+8637 1801 5
+8637 5027 7
+4921 4056 1
+4921 4928 2
+14576 12177 1
+14576 4921 1
+14576 1655 4
+12177 2762 2
+12177 1801 2
+12177 1621 1
+3876 6990 1
+3876 4056 7
+3876 4569 2
+3876 3596 6
+10282 326 2
+10282 3876 1
+10282 3589 1
+10282 1655 14
+3589 3596 10
+3589 1801 6
+3589 2742 1
+8859 4056 2
+8859 11124 6
+8859 7660 1
+8844 8859 1
+8844 8860 1
+8844 1655 14
+8860 11124 7
+8860 1801 4
+2782 326 6
+7660 4569 1
+7660 3403 4
+7660 326 5
+12111 326 2
+4569 326 1
+5782 4056 1
+5782 4928 2
+9904 2956 1
+9904 5782 1
+9904 1655 4
+2956 2762 2
+2956 1801 2
+2956 1621 1
+5714 4056 12
+5714 4569 1
+5714 326 1
+5714 1800 24
+8208 5714 1
+8208 1767 1
+8208 1655 24
+1767 1801 9
+1767 1800 27
+4057 326 2
+9792 4056 2
+9792 4569 1
+9792 3404 5
+9792 326 4
+9780 1655 10
+9780 9792 1
+9780 3559 1
+3559 3404 11
+3559 1801 6
+5486 5789 3
+5486 3558 29
+5486 8045 1
+5486 1991 1
+5486 326 2
+5459 3558 1
+5459 5486 5
+5459 3508 5
+5459 1655 11
+3508 3558 26
+3508 2761 3
+3508 1952 1
+3508 326 1
+3508 1492 1
+4543 4056 2
+4543 4569 2
+4543 326 9
+4543 4568 12
+12178 1801 8
+12178 4568 14
+2003 326 2
+8831 2003 2
+8831 8841 2
+8831 1655 3
+8841 326 1
+8045 326 1
+8045 1504 2
+1492 1504 2
+10174 4056 2
+10174 1953 1
+10174 1991 1
+10174 326 1
+10120 3795 8
+10120 1953 14
+10120 1989 2
+10120 2328 6
+10120 1927 8
+10120 10174 11
+10120 5086 2
+10120 1941 6
+10120 1655 1
+1941 1953 1
+1941 1952 1
+1941 1801 3
+5789 4056 2
+5789 326 2
+5789 4928 3
+5789 1926 9
+9742 5789 1
+9742 2761 1
+9742 1655 12
+2761 2762 3
+2761 1801 3
+2761 1621 2
+2761 1926 14
+12110 326 8
+4270 1618 4
+10353 4056 2
+10353 4569 1
+10353 326 4
+10353 4270 3
+10353 4269 3
+10353 10301 2
+10343 4254 1
+10343 10353 1
+10343 1655 3
+4254 4270 4
+4254 1801 6
+4254 4271 2
+4254 4269 5
+10336 4056 1
+10336 4928 2
+5598 2762 2
+5598 1801 2
+5598 1621 1
+6942 11124 4
+6942 2782 6
+6942 551 31
+6942 4283 1
+6942 5486 1
+6942 210 1
+6942 1592 3
+6942 3558 3
+6942 2003 1
+6942 1991 1
+6942 3403 9
+6942 326 4
+6942 12110 2
+6942 9589 1
+6942 1621 9
+6942 1926 4
+12067 12111 2
+12067 551 7
+12067 12110 2
+12067 1952 1
+12067 326 1
+12067 3508 1
+12067 12109 1
+12067 8841 1
+6990 5789 1
+6990 1991 1
+6990 326 1
+6990 2740 7
+2742 2761 1
+2742 1952 1
+2742 2740 14
+11525 1593 1
+7566 4056 10
+7566 4569 1
+7566 6018 5
+7566 4928 2
+9062 3403 4
+9062 2762 2
+9062 6018 5
+9062 1801 5
+9062 1621 1
+4283 551 1
+4283 4288 2
+6466 551 1
+6466 4288 1
+9866 9735 8
+9866 4056 7
+9866 4569 1
+9866 7660 1
+12179 9735 10
+12179 3403 4
+12179 1801 8
+5451 2328 2
+5451 1927 27
+5451 326 2
+2303 2328 3
+2303 1927 26
+2303 326 2
+1991 5450 1
+1991 5452 1
+1991 5451 1
+1991 1960 1
+1991 326 1
+1991 5453 1
+1991 5057 1
+1952 326 1
+1960 1991 1
+1960 1989 2
+1960 326 2
+5637 1989 2
+5637 1952 1
+5637 326 1
+5450 326 2
+5450 7349 1
+7350 326 1
+7350 7349 1
+5057 5088 1
+5057 1991 1
+5057 326 2
+5057 5086 3
+7351 1952 1
+7351 326 1
+7351 5086 4
+5453 7352 5
+5453 5088 1
+5453 1991 1
+5453 326 2
+7353 7352 4
+7353 1952 1
+7353 326 1
+5452 3795 7
+5452 210 1
+5452 1927 26
+5452 326 2
+5452 9131 2
+7348 3795 7
+7348 1927 22
+7348 326 2
+12405 1991 1
+12405 326 1
+5088 8940 1
+9131 1927 5
+9131 326 2
+9131 12852 1
+7471 3977 1
+7471 551 3
+7471 326 1
+7471 4033 3
+6414 810 1
+6414 1927 25
+6414 326 1
+6414 7471 1
+6414 3123 2
+6414 3198 1
+6414 3107 4
+810 1592 1
+810 548 1
+810 551 13
+810 326 2
+810 3963 1
+810 753 1
+4205 810 1
+4205 6414 2
+4205 2863 1
+4205 1927 1
+4205 326 1
+4205 2092 3
+2783 4235 1
+2783 4205 4
+2783 2863 1
+2783 2092 9
+2783 810 1
+2783 3618 1
+2783 551 9
+2783 326 1
+2783 1927 1
+2783 1928 3
+2783 1926 3
+7727 210 1
+7727 551 2
+7727 1504 3
+12852 210 1
+12852 551 2
+12852 1504 3
+13576 12111 2
+13576 2782 2
+3965 810 1
+3965 551 2
+3965 326 1
+3558 210 3
+3558 3918 2
+3558 1504 3
+3558 551 9
+3558 326 4
+3558 7727 2
+3558 12852 2
+3558 1926 15
+3918 3558 24
+3918 810 1
+3918 548 1
+3918 326 1
+3918 3964 1
+3918 3963 3
+3918 3965 1
+1504 551 3
+1504 326 2
+3123 326 1
+3123 3198 2
+7980 5262 2
+4033 810 7
+4033 548 2
+4033 551 2
+4033 326 1
+4033 3123 2
+4033 3084 1
+4033 3107 1
+9837 3558 6
+9837 551 6
+9837 326 1
+9837 10219 2
+9837 3965 2
+9837 2783 1
+3964 810 1
+3964 548 1
+3964 326 1
+3964 3963 1
+3964 3965 1
+5231 5262 6
+3084 548 1
+3084 3107 5
+2328 548 2
+2328 1927 8
+1989 548 1
+7349 3795 1
+7349 548 2
+7349 2328 1
+7349 1927 2
+7349 326 1
+5086 548 2
+7352 810 1
+7352 548 1
+7352 326 1
+3795 548 2
+3795 1927 8
+11804 810 3
+7179 548 1
+7179 326 1
+7179 4606 1
+7179 3965 1
+9815 551 1
+9815 326 2
+9815 9837 6
+6374 548 1
+6374 326 1
+6374 4606 1
+6374 3965 1
+1621 1593 7
+1593 326 2
+14598 2782 4
+753 810 3
+3963 548 1
+3963 1926 1
+3403 810 1
+4235 548 2
+4235 326 1
+4876 1593 1
+14331 810 10
+14331 551 16
+14331 2783 4
+14331 2974 44
+1926 3963 2
+1926 2092 2
+1926 1621 4
+1926 1593 9
+4838 4876 14
+4838 3964 1
+4838 14331 4
+4838 2783 1
+4838 2974 2
+4838 551 2
+4838 1621 7
+4838 1926 2
+4838 3965 2
+5605 2092 1
+5605 1621 2
+5605 1593 4
+1517 1592 6
+1517 551 2
+1517 326 3
+1517 438 2
+1517 1593 8
+7176 4056 2
+7176 326 3
+7176 1517 2
+7153 1592 5
+7153 7176 3
+7153 14331 6
+7405 7176 1
+7405 14598 14
+7405 7417 1
+7417 1517 5
+7417 1801 3
+10094 1517 4
+10094 14331 4
+438 548 1
+438 551 2
+1750 1517 8
+1750 14331 12
+4079 810 2
+4079 4206 1
+4079 4205 1
+4079 326 1
+4079 1926 4
+4079 3198 2
+4079 1593 29
+3201 326 1
+3201 3198 1
+3201 1593 12
+620 2092 2
+620 1593 5
+609 14331 2
+609 620 1
+11124 3403 5
+11124 1593 5
+3404 810 6
+3404 1593 8
+3390 810 4
+3390 3404 9
+3390 3403 7
+3390 14331 4
+4568 1592 5
+4568 810 1
+4568 2863 4
+4568 1593 11
+1953 7352 1
+1953 810 1
+1953 1593 6
+6018 1592 3
+6018 548 1
+6018 210 1
+6018 1593 14
+6018 551 1
+6018 3403 6
+6018 326 1
+6018 1621 2
+14589 9062 1
+14589 14598 4
+14589 7566 1
+8112 1592 27
+8112 4876 3
+8112 6018 34
+8112 1621 8
+8112 14331 14
+8112 7566 2
+5696 5697 8
+5696 810 1
+5696 1593 11
+7242 5697 6
+7242 5696 3
+7242 1593 7
+8242 7242 1
+8242 5696 2
+8242 14331 4
+8242 2294 1
+9911 5697 4
+9911 5696 3
+9911 1593 5
+13253 5696 2
+13253 14331 2
+13253 2294 1
+13253 9911 1
+3877 810 2
+3877 551 3
+3877 1621 1
+3877 3879 3
+3877 2294 2
+3877 2783 1
+11786 3879 6
+11786 3877 3
+11786 2294 2
+3864 3879 9
+3864 3877 3
+3864 2294 3
+3879 1593 1
+2740 551 1
+2740 1926 3
+9679 2759 3
+2759 7303 1
+2759 9679 8
+2759 551 2
+2759 1926 4
+2759 1593 17
+2739 810 1
+2739 2740 1
+2739 1926 2
+2739 3198 1
+2739 1593 7
+3596 7303 1
+3596 810 1
+3596 2740 8
+3596 1926 2
+3596 3198 3
+3596 1593 11
+8023 810 2
+8023 1800 13
+8023 1593 11
+8012 14331 2
+8012 2782 2
+8012 2294 2
+4055 326 1
+4055 1593 6
+2772 2782 8
+2772 2294 5
+2772 2783 1
+2784 1593 1
+1800 7303 1
+1800 810 1
+1800 1593 22
+10358 2782 16
+10358 2294 10
+10358 8202 34
+8191 8202 4
+9572 8202 4
+7694 810 1
+7694 1621 2
+7694 1593 10
+8862 7694 10
+8862 4876 3
+8862 1621 4
+8862 14331 8
+4927 1621 2
+4927 1593 6
+2963 1621 2
+2963 1593 6
+4269 810 1
+4269 4270 9
+4269 1593 11
+12186 4876 9
+12186 4270 5
+12186 14331 6
+12186 4269 8
+2228 1592 3
+2228 210 1
+2228 551 1
+2228 1593 11
+9579 4056 4
+9579 2228 2
+11538 1801 4
+11538 2228 4
+14583 10219 1
+14583 14331 2
+13385 1593 1
+7104 1592 3
+7104 810 1
+7104 1593 25
+4402 5789 2
+4402 4056 4
+4402 7104 8
+4394 14598 6
+4394 4403 1
+4394 4402 1
+4403 2761 2
+4403 1801 3
+4403 7104 7
+5817 1592 4
+5817 810 1
+5817 551 1
+5817 2783 1
+4825 810 2
+4825 326 2
+4825 1593 9
+9926 4825 6
+9926 14331 2
+5027 810 1
+5027 1593 7
+13771 14331 4
+13771 5027 10
+9735 1592 3
+9735 210 1
+9735 4206 2
+9735 1593 31
+9735 7790 1
+9735 810 1
+9735 551 1
+9735 3403 10
+9735 326 3
+9689 9735 22
+9689 1592 18
+9689 3403 3
+9689 14331 12
+4475 2081 2
+2036 1592 3
+2036 551 1
+2036 326 2
+2036 2081 5
+4474 1592 3
+4474 210 3
+4474 3403 2
+4474 551 1
+4474 326 2
+4474 2081 6
+4474 1593 16
+7631 4056 7
+7631 4569 2
+7631 4474 5
+7631 2036 3
+7631 7660 1
+7631 2081 13
+7631 4475 1
+14257 4626 1
+14257 14598 4
+14257 7631 1
+4626 4474 4
+4626 2036 2
+4626 1801 8
+4626 2081 5
+4412 4474 27
+4412 2036 6
+4412 14331 14
+4412 2081 26
+4412 4475 10
+13652 6389 1
+5975 1592 30
+5975 1926 2
+3491 10083 12
+3491 210 3
+3491 326 3
+3491 5975 2
+11197 1592 3
+845 5262 6
+845 4963 4
+845 7756 1
+2359 845 4
+2359 889 2
+12687 845 3
+12687 889 1
+6419 845 4
+6419 889 2
+12242 845 4
+12242 889 2
+8765 845 3
+8765 889 1
+884 845 3
+884 889 1
+11430 845 3
+11430 889 1
+8761 845 2
+841 845 2
+11460 845 2
+11460 889 1
+4212 845 2
+11072 845 2
+4073 845 3
+4073 889 1
+9768 845 3
+9768 889 1
+1761 845 3
+1761 889 1
+12181 845 3
+12181 889 1
+5551 845 3
+5551 889 1
+3890 845 3
+3890 889 1
+13829 845 3
+13829 889 1
+7313 845 3
+7313 889 1
+13623 845 3
+13623 889 1
+10894 845 3
+10894 889 1
+2087 845 3
+2087 889 1
+3503 845 2
+3503 2884 1
+10392 845 3
+10392 889 1
+7054 845 3
+7054 889 1
+13247 845 6
+13247 12606 2
+6758 845 3
+6758 889 1
+12601 845 3
+12601 889 1
+6384 845 3
+6384 889 1
+11798 845 4
+11798 889 2
+11981 845 7
+11981 889 5
+7012 845 3
+7012 889 1
+5052 845 3
+5052 889 1
+14641 845 3
+14641 889 1
+7972 845 3
+7972 889 1
+14451 845 3
+14451 889 1
+2147 2212 2
+2147 326 2
+2214 2212 1
+2214 4057 1
+2214 326 2
+2214 2147 15
+2215 4057 1
+4586 2212 1
+4586 326 1
+4586 2147 11
+1928 11435 9
+11435 11454 6
+2092 2122 2
+2092 2124 2
+2092 2123 3
+2092 1928 1
+2123 1928 9
+2124 326 1
+2124 1928 5
+2122 1928 6
+1624 1641 3
+1175 624 1
+624 738 1
+624 736 1
+738 2565 2
+738 2567 2
+736 7426 1
+736 7427 1
+1223 1386 1
+1223 738 2
+1223 1383 1
+1223 1384 4
+1223 1382 3
+9521 1223 11
+9521 738 1
+9521 624 7
+9521 1384 5
+9521 1382 1
+1382 9521 2
+1382 1386 2
+1382 1223 2
+1383 1386 2
+1383 1223 4
+1383 1384 2
+12856 1851 12
+12856 1223 10
+12856 738 4
+12856 1383 18
+12856 1384 11
+1384 1223 14
+1384 738 14
+3263 1624 3
+3263 2619 2
+3263 145 1
+8041 11863 53
+8041 1175 3
+8041 738 14
+8041 624 5
+8041 7431 1
+8041 2704 11
+2619 1851 14
+2619 738 1
+2619 2567 1
+2619 2704 17
+2619 145 1
+7431 738 6
+3381 1641 4
+3381 2619 1
+4487 4538 1
+4487 163 4
+4487 3895 2
+13835 338 1
+13835 5 1
+13835 8399 8
+13835 4487 9
+13835 163 3
+13835 1092 1
+2436 6426 1
+2436 6623 4
+2436 8399 7
+2436 6624 1
+2436 8398 1
+2366 2437 1
+2366 2436 1
+13490 13544 1
+13490 1669 1
+13544 13457 1
+13544 338 1
+13544 6482 5
+13544 8399 8
+13544 4538 3
+13544 4487 2
+13544 6624 1
+13544 13835 2
+13457 1736 1
+13457 1735 1
+13457 4220 1
+6426 1736 1
+6426 6448 1
+6426 6449 1
+1669 1736 1
+1669 1735 1
+2437 1736 1
+2437 6449 1
+6624 6482 1
+6624 6623 6
+6624 8399 8
+6624 163 7
+6624 1092 1
+6482 6625 1
+6482 6623 5
+6482 6624 13
+1092 1104 1
+1092 1103 1
+7149 1641 8
+7149 1639 1
+7137 1639 2
+7137 1624 2
+5274 5380 1
+5274 1175 3
+5274 2565 52
+5274 738 16
+5274 624 7
+5274 5379 3
+1639 5380 4
+1639 1851 16
+1639 738 1
+1639 2567 1
+1639 5379 3
+5379 5380 8
+5379 738 6
+4206 326 2
+3198 810 2
+3198 2863 1
+4775 326 1
+4775 4665 2
+7790 431 1
+7790 326 2
+10275 7790 1
+379 431 3
+3618 3650 2
+8057 1593 1
+3603 11211 16
+3603 11987 8
+7663 11987 32
+7900 12053 16
+7900 14456 12
+7900 11987 8
+7999 12053 32
+7999 7663 8
+7999 14456 24
+7999 3603 8
+7999 8265 12
+7999 8027 12
+7999 11987 16
+11211 11987 32
+7814 1384 6
+889 2863 1
+889 2864 9
+14514 1425 9
+7756 4963 4

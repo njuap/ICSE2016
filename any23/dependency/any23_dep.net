@@ -1,0 +1,1108 @@
+*Vertics: 307
+2,org.apache.any23.vocab.FOAF
+76,org.apache.any23.vocab.Vocabulary
+82,org.apache.any23.validator.rule.AboutNotURIRule
+130,org.apache.any23.AbstractAny23TestBase
+171,org.apache.any23.source.FileDocumentSource
+179,org.apache.any23.util.StringUtils
+225,org.apache.any23.extractor.html.HListingExtractorFactory
+239,org.apache.any23.extractor.SimpleExtractorFactory
+240,org.apache.any23.rdf.PopularPrefixes
+241,org.apache.any23.rdf.Prefixes
+244,org.apache.any23.extractor.html.HListingExtractor
+249,org.apache.any23.vocab.Excel
+285,org.apache.any23.validator.DefaultValidator
+336,org.apache.any23.validator.rule.MetaNameMisuseFix
+337,org.apache.any23.validator.rule.MetaNameMisuseRule
+338,org.apache.any23.validator.rule.MissingOpenGraphNamespaceRule
+339,org.apache.any23.validator.rule.OpenGraphNamespaceFix
+343,org.apache.any23.validator.ValidatorException
+344,org.apache.any23.validator.DefaultValidationReportBuilder
+345,org.apache.any23.validator.DefaultRuleContext
+346,org.apache.any23.validator.DefaultDOMDocument
+364,org.apache.any23.source.StringDocumentSource
+393,org.apache.any23.extractor.html.HRecipeExtractorFactory
+400,org.apache.any23.extractor.html.HRecipeExtractor
+404,org.apache.any23.extractor.ExtractionParametersTest
+412,org.apache.any23.extractor.ExtractionParameters
+429,org.apache.any23.plugin.crawler.SiteCrawler
+502,org.apache.any23.plugin.crawler.DefaultWebCrawler
+503,org.apache.any23.plugin.crawler.SharedData
+512,org.apache.any23.extractor.rdf.TurtleExtractorFactory
+520,org.apache.any23.extractor.rdf.TurtleExtractor
+565,org.apache.any23.servlet.Servlet
+652,org.apache.any23.configuration.DefaultConfiguration
+654,org.apache.any23.servlet.conneg.Any23Negotiator
+655,org.apache.any23.servlet.conneg.MediaRangeSpec
+656,org.apache.any23.source.ByteArrayDocumentSource
+657,org.apache.any23.source.HTTPDocumentSource
+661,org.apache.any23.servlet.WebResponder
+662,org.apache.any23.servlet.conneg.ContentTypeNegotiator
+663,org.apache.any23.Any23
+679,org.apache.any23.Any23OnlineTestBase
+686,org.apache.any23.extractor.rdf.RDFXMLExtractorFactory
+693,org.apache.any23.extractor.rdf.RDFXMLExtractor
+702,org.apache.any23.plugin.officescraper.XSSFWorkbookTest
+733,org.apache.any23.extractor.html.SpanCloserInputStreamTest
+755,org.apache.any23.extractor.html.SpanCloserInputStream
+760,org.apache.any23.util.ReaderInputStream
+792,org.apache.any23.extractor.rdf.JSONLDExtractorFactory
+799,org.apache.any23.extractor.rdf.JSONLDExtractor
+803,org.apache.any23.extractor.xpath.Term
+822,org.apache.any23.extractor.rdfa.RDFaExtractor
+831,org.apache.any23.extractor.ExtractionContext
+833,org.apache.any23.extractor.rdf.BaseRDFExtractor
+834,org.apache.any23.extractor.rdf.RDFParserFactory
+835,org.apache.any23.extractor.rdfa.RDFaExtractorFactory
+846,org.apache.any23.extractor.html.TurtleHTMLExtractorTest
+851,org.apache.any23.extractor.ExtractionException
+852,org.apache.any23.extractor.html.AbstractExtractorTestCase
+853,org.apache.any23.extractor.html.TurtleHTMLExtractor
+854,org.apache.any23.extractor.html.TurtleHTMLExtractorFactory
+862,org.apache.any23.extractor.ExtractorGroup
+886,org.apache.any23.mime.MIMEType
+896,org.apache.any23.vocab.RDFSchemaUtilsTest
+909,org.apache.any23.vocab.RDFSchemaUtils
+919,org.apache.any23.writer.TurtleWriterFactory
+933,org.apache.any23.writer.TurtleWriter
+945,org.apache.any23.extractor.html.HCardExtractor
+1084,org.apache.any23.vocab.VCard
+1088,org.apache.any23.extractor.html.AdrExtractor
+1089,org.apache.any23.extractor.html.EntityBasedMicroformatExtractor
+1090,org.apache.any23.extractor.html.HTMLDocument
+1091,org.apache.any23.extractor.html.HCardName
+1093,org.apache.any23.extractor.html.HCardExtractorFactory
+1094,org.apache.any23.extractor.html.DomUtils
+1096,org.apache.any23.rdf.Any23ValueFactoryWrapper
+1181,org.apache.any23.extractor.html.HCalendarExtractorTest
+1260,org.apache.any23.rdf.RDFUtils
+1261,org.apache.any23.vocab.ICAL
+1262,org.apache.any23.vocab.SINDICE
+1269,org.apache.any23.extractor.html.HCalendarExtractorFactory
+1300,org.apache.any23.cli.MicrodataParser
+1319,org.apache.any23.extractor.html.TagSoupParser
+1320,org.apache.any23.http.DefaultHTTPClient
+1321,org.apache.any23.util.StreamUtils
+1322,org.apache.any23.extractor.microdata.MicrodataParser
+1348,org.apache.any23.cli.PluginVerifier
+1367,org.apache.any23.plugin.Any23PluginManager
+1376,org.apache.any23.extractor.html.HTMLMetaExtractorTest
+1383,org.apache.any23.extractor.html.HTMLMetaExtractorFactory
+1390,org.apache.any23.extractor.rdfa.XSLTStylesheetException
+1399,org.apache.any23.cli.MicrodataParserTest
+1403,org.apache.any23.cli.ToolTestBase
+1407,org.apache.any23.vocab.XHTML
+1424,org.apache.any23.io.nquads.NQuadsParserTest
+1581,org.apache.any23.io.nquads.NQuadsParser
+1584,org.apache.any23.extractor.ExtractionResultImpl
+1666,org.apache.any23.extractor.html.MicroformatExtractor
+1668,org.apache.any23.writer.TripleHandlerException
+1697,org.apache.any23.extractor.xpath.XPathExtractor
+1718,org.apache.any23.extractor.xpath.XPathExtractorFactory
+1726,org.apache.any23.extractor.html.XFNExtractor
+1769,org.apache.any23.vocab.XFN
+1772,org.apache.any23.extractor.html.XFNExtractorFactory
+1784,org.apache.any23.extractor.html.TagSoupParserTest
+1829,org.apache.any23.validator.EmptyValidationReport
+1841,org.apache.any23.validator.XMLValidationReportSerializer
+1852,org.apache.any23.Any23Test
+2023,org.apache.any23.extractor.microdata.MicrodataExtractor
+2024,org.apache.any23.filter.IgnoreAccidentalRDFa
+2025,org.apache.any23.filter.IgnoreTitlesOfEmptyDocuments
+2026,org.apache.any23.util.FileUtils
+2027,org.apache.any23.vocab.DCTerms
+2028,org.apache.any23.writer.CompositeTripleHandler
+2029,org.apache.any23.writer.CountingTripleHandler
+2030,org.apache.any23.writer.NTriplesWriter
+2031,org.apache.any23.writer.RDFXMLWriter
+2032,org.apache.any23.writer.ReportingTripleHandler
+2033,org.apache.any23.writer.RepositoryWriter
+2035,org.apache.any23.ExtractionReport
+2037,org.apache.any23.writer.RDFWriterTripleHandler
+2071,org.apache.any23.extractor.example.ExampleExtractorFactory
+2080,org.apache.any23.extractor.example.ExampleExtractor
+2082,org.apache.any23.cli.VocabPrinterTest
+2085,org.apache.any23.cli.VocabPrinter
+2087,org.apache.any23.extractor.rdfa.RDFa11ParserException
+2145,org.apache.any23.vocab.LKIFCoreMereology
+2192,org.apache.any23.plugin.officescraper.ExcelExtractorFactory
+2199,org.apache.any23.plugin.officescraper.ExcelExtractor
+2202,org.apache.any23.extractor.microdata.MicrodataParserReport
+2213,org.apache.any23.extractor.microdata.MicrodataParserException
+2214,org.apache.any23.extractor.microdata.ItemScope
+2234,org.apache.any23.vocab.LKIFCoreLegalAction
+2262,org.apache.any23.vocab.HRecipe
+2291,org.apache.any23.extractor.rdf.NTriplesExtractor
+2300,org.apache.any23.extractor.rdf.NTriplesExtractorFactory
+2305,org.apache.any23.SesameTest
+2331,org.apache.any23.cli.ToolRunner
+2494,org.apache.any23.extractor.ExtractorRegistryImpl
+2495,org.apache.any23.extractor.SingleDocumentExtraction
+2496,org.apache.any23.extractor.SingleDocumentExtractionReport
+2497,org.apache.any23.http.AcceptHeaderBuilder
+2498,org.apache.any23.http.DefaultHTTPClientConfiguration
+2500,org.apache.any23.mime.TikaMIMETypeDetector
+2501,org.apache.any23.mime.purifier.WhiteSpacesPurifier
+2502,org.apache.any23.source.MemCopyFactory
+2526,org.apache.any23.extractor.html.ICBMExtractor
+2546,org.apache.any23.extractor.html.ICBMExtractorFactory
+2552,org.apache.any23.extractor.html.HReviewAggregateExtractor
+2610,org.apache.any23.vocab.Review
+2611,org.apache.any23.vocab.ReviewAggregate
+2614,org.apache.any23.extractor.html.HReviewAggregateExtractorFactory
+2627,org.apache.any23.extractor.html.HTMLDocumentTest
+2654,org.apache.any23.writer.JSONWriterFactory
+2663,org.apache.any23.writer.JSONWriter
+2666,org.apache.any23.writer.NTriplesWriterFactory
+2767,org.apache.any23.extractor.csv.CSVReaderBuilder
+2778,org.apache.any23.mime.purifier.WhiteSpacesPurifierTest
+2802,org.apache.any23.extractor.xpath.TemplateXPathExtractionRuleImpl
+2846,org.apache.any23.extractor.xpath.Variable
+2847,org.apache.any23.extractor.xpath.QuadTemplate
+2861,org.apache.any23.writer.NQuadsWriter
+2869,org.apache.any23.extractor.microdata.MicrodataExtractorFactory
+2918,org.apache.any23.vocab.LKIFCoreTime
+3026,org.apache.any23.validator.SerializationException
+3027,org.apache.any23.writer.WriterFactoryRegistry
+3038,org.apache.any23.extractor.html.LicenseExtractorFactory
+3045,org.apache.any23.extractor.html.LicenseExtractor
+3053,org.apache.any23.extractor.html.HeadLinkExtractorTest
+3058,org.apache.any23.extractor.html.HeadLinkExtractorFactory
+3061,org.apache.any23.plugin.officescraper.ExcelExtractorTest
+3101,org.apache.any23.extractor.SingleDocumentExtractionTest
+3155,org.apache.any23.extractor.html.HTMLFixture
+3326,org.apache.any23.cli.Crawler
+3369,org.apache.any23.cli.Rover
+3408,org.apache.any23.extractor.rdfa.ExtractionExceptionTest
+3432,org.apache.any23.extractor.rdf.NQuadsExtractor
+3441,org.apache.any23.extractor.rdf.NQuadsExtractorFactory
+3445,org.apache.any23.cli.ToolRunnerTest
+3452,org.apache.any23.cli.ExtractorDocumentation
+3453,org.apache.any23.cli.MimeDetector
+3456,org.apache.any23.extractor.html.SpeciesExtractor
+3490,org.apache.any23.vocab.WO
+3492,org.apache.any23.extractor.html.SpeciesExtractorFactory
+3533,org.apache.any23.vocab.LKIFCoreRelativePlaces
+3627,org.apache.any23.extractor.html.HReviewExtractorTest
+3656,org.apache.any23.extractor.html.HReviewExtractorFactory
+3665,org.apache.any23.extractor.rdfa.RDFa11ExtractorFactory
+3672,org.apache.any23.extractor.rdfa.RDFa11Extractor
+3675,org.apache.any23.vocab.Programme
+3889,org.apache.any23.extractor.rdf.RDFHandlerAdapter
+3894,org.apache.any23.extractor.html.HRecipeExtractorTest
+3902,org.apache.any23.writer.JSONWriterTest
+3933,org.apache.any23.extractor.xpath.TemplateGraph
+3934,org.apache.any23.extractor.xpath.TemplateObject
+3935,org.apache.any23.extractor.xpath.TemplatePredicate
+3936,org.apache.any23.extractor.xpath.TemplateSubject
+3938,org.apache.any23.writer.URIListWriterFactory
+3947,org.apache.any23.writer.URIListWriter
+3950,org.apache.any23.filter.IgnoreAccidentalRDFaTest
+3968,org.apache.any23.extractor.ExampleInputOutput
+3985,org.apache.any23.cli.RoverTest
+4013,org.apache.any23.util.URLUtils
+4017,org.apache.any23.plugin.htmlscraper.HTMLScraperExtractorTest
+4029,org.apache.any23.plugin.htmlscraper.HTMLScraperExtractor
+4030,org.apache.any23.plugin.htmlscraper.HTMLScraperExtractorFactory
+4132,org.apache.any23.vocab.LKIFCoreProcess
+4157,org.apache.any23.extractor.microdata.ItemPropValue
+4232,org.apache.any23.extractor.microdata.Item
+4248,org.apache.any23.mime.NaiveMIMETypeDetector
+4308,org.apache.any23.vocab.LKIFCoreAction
+4395,org.apache.any23.util.LogUtils
+4401,org.apache.any23.extractor.html.TitleExtractor
+4411,org.apache.any23.extractor.html.TitleExtractorFactory
+4452,org.apache.any23.configuration.DefaultModifiableConfiguration
+4499,org.apache.any23.extractor.html.GeoExtractorFactory
+4506,org.apache.any23.extractor.html.GeoExtractor
+4516,org.apache.any23.extractor.rdfa.XSLTStylesheet
+4638,org.apache.any23.extractor.xpath.TemplateXPathExtractorRuleImplTest
+4725,org.apache.any23.servlet.ServletTest
+4869,org.apache.any23.extractor.rdfa.RDFa11ParserTest
+4910,org.apache.any23.extractor.rdfa.RDFa11Parser
+4924,org.apache.any23.writer.TriXWriterFactory
+4933,org.apache.any23.writer.TriXWriter
+4952,org.apache.any23.validator.XMLValidationReportSerializerTest
+4969,org.apache.any23.extractor.rdf.TurtleExtractorTest
+4989,org.apache.any23.extractor.html.XFNExtractorTest
+5027,org.apache.any23.vocab.GeoNames
+5036,org.apache.any23.extractor.rdf.JSONLDExtractorTest
+5166,org.apache.any23.extractor.microdata.ItemProp
+5169,org.apache.any23.extractor.html.HListingExtractorTest
+5201,org.apache.any23.vocab.HListing
+5225,org.apache.any23.vocab.VocabularyTest
+5252,org.apache.any23.extractor.html.DocumentReport
+5325,org.apache.any23.configuration.DefaultConfigurationTest
+5477,org.apache.any23.util.MathUtils
+5508,org.apache.any23.writer.LoggingTripleHandler
+5566,org.apache.any23.extractor.html.HReviewExtractor
+5589,org.apache.any23.io.nquads.NQuadsWriterTest
+5627,org.apache.any23.io.nquads.NQuadsWriter
+5629,org.apache.any23.vocab.DOAC
+5674,org.apache.any23.extractor.html.HeadLinkExtractor
+5709,org.apache.any23.extractor.html.LicenseExtractorTest
+5724,org.apache.any23.vocab.OGP
+5781,org.apache.any23.vocab.DOAP
+5887,org.apache.any23.vocab.LKIFCoreTimeModification
+6055,org.apache.any23.io.nquads.NQuadsParserFactory
+6152,org.apache.any23.extractor.html.HTMLMetaExtractor
+6154,org.apache.any23.extractor.csv.CSVExtractor
+6226,org.apache.any23.vocab.CSV
+6228,org.apache.any23.extractor.csv.CSVExtractorFactory
+6262,org.apache.any23.extractor.html.HCalendarExtractor
+6264,org.apache.any23.extractor.rdfa.RDFaExtractorTest
+6271,org.apache.any23.extractor.rdfa.AbstractRDFaExtractorTestCase
+6347,org.apache.any23.extractor.html.AdrExtractorFactory
+6355,org.apache.any23.rdf.PrefixesTest
+6429,org.apache.any23.http.AcceptHeaderBuilderTest
+6447,org.apache.any23.vocab.SchemaOrg
+6457,org.apache.any23.vocab.LKIFCoreRules
+6583,org.apache.any23.util.DiscoveryUtils
+6673,org.apache.any23.extractor.html.HResumeExtractorFactory
+6680,org.apache.any23.extractor.html.HResumeExtractor
+6698,org.apache.any23.extractor.html.TitleExtractorTest
+6750,org.apache.any23.writer.BenchmarkTripleHandler
+6762,org.apache.any23.extractor.html.AdrExtractorTest
+6773,org.apache.any23.extractor.html.DomUtilsTest
+6915,org.apache.any23.extractor.html.HCardExtractorTest
+7142,org.apache.any23.filter.ExtractionContextBlocker
+7221,org.apache.any23.plugin.crawler.SiteCrawlerTest
+7364,org.apache.any23.mime.TikaMIMETypeDetectorTest
+7513,org.apache.any23.extractor.rdf.TriXExtractor
+7522,org.apache.any23.extractor.rdf.TriXExtractorFactory
+7525,org.apache.any23.plugin.PluginIT
+7545,org.apache.any23.servlet.RedirectServlet
+7575,org.apache.any23.cli.ExtractorDocumentationTest
+7605,org.apache.any23.writer.NQuadsWriterFactory
+7615,org.apache.any23.extractor.html.HResumeExtractorTest
+7647,org.apache.any23.util.StringUtilsTest
+7654,org.apache.any23.extractor.html.SpeciesExtractorTest
+7693,org.apache.any23.filter.ExtractionContextBlockerTest
+7703,org.apache.any23.extractor.MockTripleHandler
+7765,org.apache.any23.extractor.microdata.MicrodataParserTest
+7827,org.apache.any23.util.DiscoveryUtilsTest
+7860,org.apache.any23.vocab.LKIFCoreNorm
+7932,org.apache.any23.cli.MimeDetectorTest
+8074,org.apache.any23.cli.CrawlerTest
+8113,org.apache.any23.io.nquads.NQuadsWriterFactory
+8129,org.apache.any23.extractor.ExtractionAPITest
+8152,org.apache.any23.writer.RDFXMLWriterFactory
+8225,org.apache.any23.extractor.csv.CSVReaderBuilderTest
+8229,org.apache.any23.rdf.RDFUtilsTest
+8376,org.apache.any23.plugin.Any23PluginManagerTest
+8499,org.apache.any23.extractor.html.RDFMergerTest
+8642,org.apache.any23.vocab.LKIFCoreExpression
+8951,org.apache.any23.encoding.TikaEncodingDetector
+8962,org.apache.any23.vocab.LKIFCoreLegalRole
+8977,org.apache.any23.writer.WriterRegistryTest
+9159,org.apache.any23.extractor.ExtractionResultImplTest
+9229,org.apache.any23.vocab.LKIFCoreRole
+9514,org.apache.any23.vocab.LKIFCoreTop
+9631,org.apache.any23.extractor.rdfa.RDFa11ExtractorTest
+9651,org.apache.any23.extractor.html.EncodingTest
+9992,org.apache.any23.extractor.microdata.MicrodataExtractorTest
+10039,org.apache.any23.cli.PluginVerifierTest
+10182,org.apache.any23.encoding.TikaEncodingDetectorTest
+10272,org.apache.any23.validator.DefaultValidatorTest
+10482,org.apache.any23.validator.DefaultValidationReport
+10485,org.apache.any23.extractor.csv.CSVExtractorTest
+*Edges: 799
+130 171 2
+663 2494 2
+663 862 3
+663 652 3
+663 364 2
+663 2035 10
+663 2497 2
+663 412 3
+663 2495 8
+663 171 2
+663 2498 1
+663 2496 2
+663 657 1
+663 851 1
+679 130 1
+1852 2024 2
+1852 2037 1
+1852 2035 7
+1852 412 3
+1852 2032 5
+1852 2027 1
+1852 2033 2
+1852 2030 11
+1852 2025 1
+1852 851 1
+1852 2029 12
+1852 130 5
+1852 679 5
+1852 2028 12
+1852 364 6
+1852 652 4
+1852 2026 3
+1852 2031 1
+1852 1321 1
+1852 663 40
+1852 657 2
+1852 1668 1
+1852 179 1
+3326 429 7
+3326 3369 2
+8074 679 2
+8074 2026 1
+3452 2494 4
+3452 3968 7
+7575 1403 6
+1300 1321 1
+1300 1319 2
+1300 1322 1
+1399 130 1
+1399 1403 4
+3453 2500 1
+3453 886 1
+7932 679 3
+7932 130 1
+7932 1403 5
+1348 1367 3
+10039 1403 3
+3369 2024 1
+3369 6750 4
+3369 652 1
+3369 2035 1
+3369 412 4
+3369 2032 5
+3369 3027 2
+3369 2025 1
+3369 5508 1
+3369 663 5
+3369 1668 1
+3985 679 1
+3985 130 2
+3985 2026 3
+3985 4013 1
+3985 1403 2
+3985 179 2
+2331 4395 2
+2331 1367 3
+3445 2331 3
+1403 679 1
+1403 2331 1
+2085 909 1
+2082 1403 3
+652 4452 1
+5325 652 10
+4452 652 3
+10182 8951 2
+3968 2495 2
+3968 2494 1
+3968 2502 1
+3968 364 1
+3968 933 1
+3968 1668 1
+3968 851 1
+8129 1584 2
+8129 831 1
+8129 2080 1
+8129 2029 2
+8129 412 1
+412 652 1
+404 412 8
+1584 831 9
+1584 241 2
+1584 1668 5
+9159 1584 4
+9159 1260 1
+9159 831 2
+862 886 8
+2494 862 3
+2494 652 3
+7703 831 16
+239 241 4
+239 886 1
+2495 1090 2
+2495 412 14
+2495 5252 6
+2495 1260 2
+2495 831 9
+2495 1319 3
+2495 851 12
+2495 2029 2
+2495 1096 2
+2495 2028 2
+2495 652 1
+2495 862 10
+2495 1829 2
+2495 343 1
+2495 886 5
+2495 1262 1
+2495 1584 7
+2495 2496 3
+2495 1668 10
+2495 76 6
+2495 1666 1
+3101 2494 1
+3101 2037 1
+3101 1261 1
+3101 2495 9
+3101 2610 1
+3101 2033 3
+3101 130 3
+3101 2028 3
+3101 652 1
+3101 862 1
+3101 1084 1
+3101 1262 1
+3101 2031 2
+3101 3155 2
+3101 2500 1
+3101 76 16
+6154 2767 1
+6154 1260 4
+6154 831 2
+6154 6228 1
+6154 6226 1
+6154 412 1
+6228 6154 1
+6228 241 1
+6228 239 2
+10485 852 26
+10485 6228 1
+10485 6226 5
+2767 652 2
+8225 2767 6
+2080 2071 1
+2080 831 1
+2080 2 1
+2080 412 1
+2071 241 1
+2071 239 2
+2071 2080 1
+852 2495 3
+852 130 4
+852 1260 6
+852 2496 4
+852 2033 1
+852 851 1
+852 1262 2
+852 3155 2
+1088 1090 4
+1088 1089 2
+1088 1666 3
+1088 1084 1
+1088 76 1
+1088 6347 1
+6347 1088 1
+6347 241 1
+6347 239 2
+6762 852 5
+6762 1084 1
+6762 6347 1
+6773 130 7
+6773 3155 12
+6773 1094 9
+9651 130 2
+9651 1090 6
+9651 3155 2
+1089 1260 1
+1089 831 1
+1089 1090 1
+1089 1666 5
+1089 1094 2
+4506 4499 1
+4506 1090 5
+4506 1089 2
+4506 1666 3
+4506 1084 1
+4499 241 1
+4499 239 2
+4499 4506 1
+6262 1261 1
+6262 1090 24
+6262 1269 1
+6262 1260 1
+6262 76 5
+6262 1666 20
+6262 1094 1
+6262 1096 3
+1269 241 1
+1269 239 2
+1269 6262 1
+1181 1260 8
+1181 852 105
+1181 1261 1
+1181 1269 1
+1181 1262 1
+945 1090 37
+945 1089 3
+945 1084 1
+945 1093 1
+945 1091 15
+945 1666 27
+945 76 3
+945 1094 6
+945 1096 4
+1093 945 1
+1093 241 1
+1093 239 2
+6915 1260 25
+6915 1093 1
+6915 852 322
+6915 1084 1
+244 2 1
+244 225 1
+244 1090 44
+244 1089 2
+244 5201 1
+244 76 2
+244 1666 28
+244 1094 1
+244 1096 3
+225 241 1
+225 239 2
+225 244 1
+5169 1260 21
+5169 852 97
+5169 2 1
+5169 225 1
+5169 5201 1
+5169 1262 1
+400 393 1
+400 1090 25
+400 1089 5
+400 1666 14
+400 2262 1
+393 241 1
+393 239 2
+393 400 1
+3894 852 13
+3894 393 1
+3894 1262 1
+3894 2262 1
+6680 5629 1
+6680 6673 1
+6680 2 1
+6680 1090 22
+6680 1089 4
+6680 1666 11
+6680 1096 2
+6680 1094 2
+6673 241 1
+6673 239 2
+6673 6680 1
+7615 5629 1
+7615 6673 1
+7615 852 28
+7615 2 1
+7615 1262 1
+7615 1084 1
+2552 2611 1
+2552 2614 1
+2552 1090 27
+2552 1089 3
+2552 1084 1
+2552 2610 1
+2552 1666 14
+2552 1094 1
+2614 2552 1
+2614 241 1
+2614 239 2
+5566 3656 1
+5566 1090 23
+5566 1089 4
+5566 1084 1
+5566 2027 1
+5566 2610 1
+5566 1666 12
+5566 1094 1
+3656 5566 1
+3656 241 1
+3656 239 2
+3627 2610 1
+3627 2027 1
+3627 1260 4
+3627 852 52
+3627 3656 1
+3627 1262 1
+3627 1084 1
+1090 1260 1
+1090 851 2
+1090 1096 2
+1090 1094 13
+2627 1090 2
+3155 171 1
+3155 1319 2
+3155 1090 2
+6152 1260 1
+6152 831 2
+6152 1383 1
+6152 1262 1
+6152 1094 5
+6152 412 1
+1383 6152 1
+1383 241 1
+1383 239 2
+1376 852 13
+1376 1383 1
+1376 1262 1
+5674 3058 1
+5674 831 2
+5674 241 2
+5674 1090 2
+5674 1094 5
+5674 412 1
+3058 241 1
+3058 239 2
+3058 5674 1
+3053 3058 1
+3053 852 3
+2526 831 2
+2526 241 1
+2526 2546 1
+2526 1096 1
+2526 1094 1
+2526 412 1
+2546 2526 1
+2546 241 1
+2546 239 2
+3045 831 2
+3045 3038 1
+3045 1407 1
+3045 1090 2
+3045 1094 1
+3045 412 1
+3038 3045 1
+3038 241 1
+3038 239 2
+5709 852 9
+5709 3038 1
+5709 1407 1
+5709 1262 1
+1666 831 5
+1666 1090 3
+1666 1096 6
+1666 1094 2
+1666 412 1
+8499 1088 1
+8499 2 1
+8499 1772 2
+8499 3656 2
+8499 412 6
+8499 2610 1
+8499 2027 1
+8499 1260 5
+8499 831 6
+8499 1093 4
+8499 4499 2
+8499 2033 6
+8499 1319 6
+8499 852 129
+8499 5566 1
+8499 945 2
+8499 1084 1
+8499 1584 6
+8499 4506 1
+8499 1666 5
+8499 6347 2
+8499 1726 2
+733 755 3
+3456 3492 1
+3456 3490 1
+3456 1090 9
+3456 1089 3
+3456 1666 6
+3456 76 3
+3456 1094 1
+3492 3456 1
+3492 241 1
+3492 239 2
+7654 852 5
+7654 3492 1
+7654 3490 1
+7654 76 1
+1319 5252 2
+1319 755 1
+1319 285 1
+1319 343 1
+1784 1319 11
+1784 1090 4
+4401 2027 1
+4401 831 3
+4401 4411 1
+4401 1096 3
+4401 1094 1
+4401 412 1
+4411 4401 1
+4411 241 1
+4411 239 2
+6698 2027 1
+6698 1260 2
+6698 852 7
+6698 4411 1
+6698 1262 1
+853 854 1
+853 831 3
+853 834 2
+853 1090 4
+853 1094 1
+853 412 1
+854 241 1
+854 239 2
+854 853 1
+846 854 1
+846 852 4
+1726 831 2
+1726 2 1
+1726 1772 1
+1726 1769 5
+1726 1090 4
+1726 1096 5
+1726 412 1
+1772 241 1
+1772 239 2
+1772 1726 1
+4989 1260 1
+4989 852 29
+4989 2 1
+4989 1772 1
+4989 1769 6
+4989 1262 1
+5166 4232 3
+5166 4157 6
+4157 2214 1
+4157 179 1
+2214 4232 5
+2214 5166 7
+2023 2213 4
+2023 2202 3
+2023 2869 1
+2023 4157 3
+2023 412 3
+2023 2214 9
+2023 831 2
+2023 1260 19
+2023 2027 2
+2023 851 1
+2023 1322 1
+2023 5166 4
+2023 1094 3
+2869 2023 1
+2869 241 1
+2869 239 2
+9992 130 1
+9992 2869 1
+9992 852 11
+9992 1262 1
+1322 2213 12
+1322 2202 5
+1322 2214 3
+1322 4157 9
+1322 5166 3
+1322 1094 17
+2213 1094 2
+2202 2213 4
+2202 2214 4
+7765 2213 2
+7765 2202 4
+7765 1321 1
+7765 2214 3
+7765 1319 2
+7765 1322 14
+833 831 3
+833 412 1
+799 833 4
+799 834 2
+799 792 1
+792 241 1
+792 239 2
+792 799 2
+5036 1584 1
+5036 833 1
+5036 1260 2
+5036 831 1
+5036 799 2
+5036 2031 1
+5036 412 1
+3432 833 4
+3432 3441 1
+3432 834 2
+3441 241 1
+3441 3432 2
+3441 239 2
+2291 833 4
+2291 834 2
+2291 2300 1
+2300 241 1
+2300 239 2
+2300 2291 2
+834 3889 1
+834 831 10
+834 1096 1
+693 833 4
+693 834 2
+693 686 1
+686 241 1
+686 239 2
+686 693 2
+7513 833 4
+7513 834 2
+7513 7522 1
+7522 241 1
+7522 239 2
+7522 7513 2
+520 833 4
+520 834 2
+520 512 1
+512 241 1
+512 239 2
+512 520 2
+4969 1584 1
+4969 833 1
+4969 1260 1
+4969 831 1
+4969 520 2
+4969 2031 1
+4969 412 1
+6271 2027 1
+6271 1260 38
+6271 852 13
+6271 2 1
+3408 1584 1
+3408 831 1
+3408 851 2
+3672 3665 1
+3672 833 4
+3672 834 2
+3665 3672 2
+3665 241 1
+3665 239 2
+9631 3665 1
+9631 1260 23
+9631 852 22
+9631 2 3
+9631 6271 1
+9631 5724 1
+4910 2087 1
+4910 1260 8
+4910 1094 32
+4869 1260 1
+4869 4910 15
+822 833 4
+822 834 2
+822 835 1
+835 241 1
+835 822 2
+835 239 2
+6264 852 9
+6264 6271 1
+6264 835 1
+4516 1390 1
+2847 3934 4
+2847 803 4
+2847 3933 3
+2847 3935 4
+2847 3936 4
+3933 803 3
+3934 803 3
+3935 803 3
+3936 803 3
+2802 803 8
+2802 2846 8
+2802 2847 13
+2802 1094 1
+4638 3933 6
+4638 2846 8
+4638 3936 6
+4638 3934 6
+4638 1319 2
+4638 2802 1
+4638 3935 6
+4638 2847 6
+1697 1718 1
+1697 831 2
+1697 412 1
+1718 241 1
+1718 239 2
+1718 1697 2
+7142 831 11
+7142 1668 2
+7693 831 1
+7693 7703 7
+7693 7142 8
+2024 831 6
+2024 7142 11
+2024 1407 1
+3950 2024 3
+3950 831 1
+2025 831 6
+2025 7142 11
+2497 886 25
+6429 886 1
+6429 2497 2
+1320 2498 1
+2498 652 6
+1424 1581 23
+8113 5627 2
+5589 5627 1
+5589 1581 1
+4248 886 4
+2500 2767 1
+2500 886 4
+7364 2500 9
+7364 886 4
+1367 862 5
+1367 652 2
+8376 1367 4
+7525 2494 1
+7525 862 1
+7525 1367 4
+502 503 3
+429 503 1
+7221 679 2
+7221 429 8
+4029 4030 1
+4029 831 2
+4029 851 1
+4029 412 1
+4030 241 1
+4030 239 2
+4030 4029 2
+4017 4030 2
+4017 831 1
+4017 4029 4
+4017 412 1
+2199 2192 1
+2199 249 1
+2199 1260 9
+2199 831 2
+2199 851 1
+2199 76 1
+2199 412 1
+2192 241 1
+2192 239 2
+2192 2199 2
+3061 2192 2
+3061 2028 5
+3061 2199 4
+3061 412 1
+3061 249 6
+3061 1584 1
+3061 831 1
+3061 1260 1
+3061 2030 1
+3061 2029 1
+1096 1260 4
+240 241 8
+6355 1260 4
+6355 241 131
+6355 240 1
+1260 241 1
+1260 5477 1
+1260 240 1
+8229 1260 9
+565 662 1
+565 652 1
+565 364 1
+565 655 5
+565 412 2
+565 661 14
+565 654 1
+565 663 1
+565 657 1
+4725 171 2
+4725 179 4
+661 2024 2
+661 565 2
+661 2028 1
+661 2035 11
+661 412 1
+661 3027 2
+661 2032 7
+661 2025 1
+661 663 5
+661 3026 1
+661 851 1
+661 2029 1
+654 662 2
+662 655 4
+656 2502 1
+2502 656 1
+6583 179 2
+7827 6583 2
+2026 1321 7
+7647 179 5
+346 1094 3
+344 10482 1
+285 344 1
+285 346 1
+285 343 2
+10272 1319 2
+10272 285 5
+10272 346 1
+1841 3026 1
+4952 1829 1
+4952 344 1
+4952 1841 1
+6226 76 4
+2027 76 2
+5629 76 2
+5781 76 2
+249 76 4
+2 76 2
+5027 76 4
+5201 76 4
+2262 76 2
+1261 76 4
+4308 76 2
+8642 76 2
+2234 76 2
+8962 76 2
+2145 76 2
+7860 76 2
+4132 76 2
+3533 76 2
+9229 76 2
+6457 76 2
+2918 76 2
+5887 76 2
+9514 76 2
+5724 76 4
+3675 76 2
+909 1260 2
+909 6583 1
+909 76 7
+896 909 1
+896 179 1
+2610 76 3
+2611 76 3
+1262 76 4
+6447 76 2
+1084 76 3
+5225 1260 10
+5225 76 8
+3490 76 4
+1769 76 4
+1407 76 2
+6750 831 13
+2028 831 4
+2029 831 4
+2663 831 4
+2654 2663 1
+3902 2663 5
+5508 831 6
+2861 2037 2
+7605 2861 1
+2030 2037 2
+2666 2030 1
+2037 831 7
+2037 1668 4
+2031 2037 2
+8152 2031 1
+2032 831 5
+2033 831 5
+2033 1668 2
+4933 2037 2
+4924 4933 1
+933 2037 2
+919 933 1
+3947 831 5
+3938 3947 1
+8977 3027 12

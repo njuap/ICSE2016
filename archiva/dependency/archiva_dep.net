@@ -1,0 +1,2201 @@
+*Vertics: 614
+9,org.apache.archiva.webdav.RepositoryServletNoProxyTest
+181,org.apache.archiva.webdav.AbstractRepositoryServletTestCase
+199,org.apache.archiva.repository.scanner.DefaultRepositoryScanner
+253,org.apache.archiva.admin.model.RepositoryAdminException
+254,org.apache.archiva.admin.model.beans.ManagedRepository
+255,org.apache.archiva.configuration.FileTypes
+263,org.apache.archiva.repository.scanner.RepositoryScannerInstance
+264,org.apache.archiva.repository.scanner.RepositoryContentConsumers
+265,org.apache.archiva.repository.scanner.RepositoryScanStatistics
+266,org.apache.archiva.repository.scanner.RepositoryScannerException
+291,org.apache.archiva.rss.processor.NewArtifactsRssFeedProcessor
+342,org.apache.archiva.metadata.model.ArtifactMetadata
+344,org.apache.archiva.metadata.repository.MetadataRepositoryException
+345,org.apache.archiva.rss.RssFeedEntry
+346,org.apache.archiva.rss.RssFeedGenerator
+350,org.apache.archiva.rss.processor.AbstractArtifactsRssFeedProcessor
+367,org.apache.archiva.web.test.parent.AbstractSeleniumTest
+666,org.apache.archiva.web.test.tools.ArchivaSeleniumExecutionRule
+670,org.apache.archiva.policies.PolicyViolationException
+677,org.apache.archiva.common.ArchivaException
+682,org.apache.archiva.common.utils.BaseFileTest
+726,org.apache.archiva.common.utils.BaseFile
+737,org.apache.archiva.security.ArchivaServletAuthenticatorTest
+812,org.apache.archiva.security.common.ArchivaRoleConstants
+814,org.apache.archiva.security.AbstractSecurityTest
+833,org.apache.archiva.repository.scanner.functors.TriggerScanCompletedClosure
+846,org.apache.archiva.admin.model.beans.AbstractRepository
+853,org.apache.archiva.consumers.lucene.NexusIndexerConsumer
+934,org.apache.archiva.common.plexusbridge.MavenIndexerUtils
+935,org.apache.archiva.common.plexusbridge.PlexusSisuBridge
+936,org.apache.archiva.common.plexusbridge.PlexusSisuBridgeException
+937,org.apache.archiva.configuration.ConfigurationNames
+938,org.apache.archiva.consumers.AbstractMonitoredConsumer
+939,org.apache.archiva.consumers.ConsumerException
+941,org.apache.archiva.scheduler.indexing.ArtifactIndexingTask
+972,org.apache.archiva.rest.services.BrowseServiceTest
+1066,org.apache.archiva.maven2.model.Artifact
+1067,org.apache.archiva.metadata.model.ProjectVersionMetadata
+1068,org.apache.archiva.rest.api.model.ArtifactContentEntry
+1069,org.apache.archiva.rest.api.model.BrowseResult
+1070,org.apache.archiva.rest.api.model.BrowseResultEntry
+1071,org.apache.archiva.rest.api.model.Entry
+1072,org.apache.archiva.rest.api.model.MetadataAddRequest
+1073,org.apache.archiva.rest.api.model.VersionsList
+1078,org.apache.archiva.rest.services.AbstractArchivaRestTest
+1079,org.apache.archiva.rest.api.model.ArtifactContent
+1122,org.apache.archiva.admin.model.AuditInformation
+1123,org.apache.archiva.admin.model.beans.ProxyConnectorRule
+1127,org.apache.archiva.scheduler.indexing.mock.MockRepositorySessionFactory
+1253,org.apache.archiva.metadata.model.ProjectMetadata
+1254,org.apache.archiva.metadata.model.ProjectVersionReference
+1255,org.apache.archiva.metadata.repository.MetadataResolutionException
+1256,org.apache.archiva.metadata.repository.RepositorySession
+1297,org.apache.archiva.admin.repository.AbstractRepositoryAdminTest
+1341,org.apache.archiva.admin.mock.MockAuditListener
+1342,org.apache.archiva.admin.model.beans.RemoteRepository
+1345,org.apache.archiva.test.utils.ArchivaSpringJUnit4ClassRunner
+1364,org.apache.archiva.webdav.RepositoryServletProxiedReleasePolicyTest
+1398,org.apache.archiva.policies.ReleasesPolicy
+1399,org.apache.archiva.webdav.AbstractRepositoryServletProxiedTestCase
+1400,org.apache.archiva.policies.AbstractUpdatePolicy
+1428,org.apache.archiva.consumers.core.repository.RetentionCountRepositoryPurgeTest
+1446,org.apache.archiva.consumers.core.repository.AbstractRepositoryPurgeTest
+1447,org.apache.archiva.consumers.core.repository.RetentionCountRepositoryPurge
+1473,org.apache.archiva.dependency.tree.maven2.DependencyTreeBuilderTestMaven3
+1507,org.apache.archiva.maven2.model.TreeEntry
+1510,org.apache.archiva.dependency.tree.maven2.Maven3DependencyTreeBuilder
+1524,org.apache.archiva.repository.metadata.RepositoryMetadataReaderTest
+1539,org.apache.archiva.maven2.metadata.MavenMetadataReader
+1540,org.apache.archiva.xml.XMLException
+1541,org.apache.archiva.test.utils.ArchivaBlockJUnit4ClassRunner
+1549,org.apache.archiva.metadata.repository.storage.maven2.conf.MockConfiguration
+1587,org.apache.archiva.web.rss.RoleManagerStub
+1639,org.apache.archiva.metadata.repository.stats.DefaultRepositoryStatisticsManager
+1750,org.apache.archiva.metadata.model.maven2.MavenArtifactFacet
+1753,org.apache.archiva.metadata.repository.stats.RepositoryStatistics
+1754,org.apache.archiva.metadata.model.FacetedMetadata
+1797,org.apache.archiva.indexer.search.MavenRepositorySearchPaginateTest
+1816,org.apache.archiva.indexer.util.SearchUtil
+1818,org.apache.archiva.indexer.search.SearchResults
+1819,org.apache.archiva.indexer.search.SearchResultHit
+1820,org.apache.archiva.indexer.search.SearchResultLimits
+1821,org.apache.archiva.indexer.search.MavenRepositorySearch
+1842,org.apache.archiva.admin.repository.managed.DefaultManagedRepositoryAdmin
+2067,org.apache.archiva.admin.repository.AbstractRepositoryAdmin
+2068,org.apache.archiva.audit.AuditEvent
+2070,org.apache.archiva.scheduler.repository.model.RepositoryTask
+2130,org.apache.archiva.audit.MetadataAuditListener
+2147,org.apache.archiva.rest.services.utils.AdminRepositoryConsumerComparator
+2158,org.apache.archiva.rest.api.model.AdminRepositoryConsumer
+2161,org.apache.archiva.repository.ContentNotFoundException
+2171,org.apache.archiva.repository.RepositoryException
+2177,org.apache.archiva.webdav.MockServletAuthenticator
+2182,org.apache.archiva.security.ArchivaServletAuthenticator
+2186,org.apache.archiva.security.DefaultUserRepositories
+2248,org.apache.archiva.security.PrincipalNotFoundException
+2249,org.apache.archiva.security.AccessDeniedException
+2250,org.apache.archiva.security.ArchivaSecurityException
+2284,org.apache.archiva.common.FileTypeUtils
+2307,org.apache.archiva.webdav.RepositoryServletSecurityTest
+2439,org.apache.archiva.repository.audit.TestAuditListener
+2440,org.apache.archiva.webdav.util.MavenIndexerCleaner
+2443,org.apache.archiva.webdav.RepositoryServlet
+2444,org.apache.archiva.webdav.ArchivaDavResourceFactory
+2445,org.apache.archiva.webdav.ArchivaDavSessionProvider
+2463,org.apache.archiva.web.rss.SecuritySystemStub
+2645,org.apache.archiva.rest.services.ArtifactContentEntriesTests
+2669,org.apache.archiva.rest.services.DefaultBrowseService
+2672,org.apache.archiva.metadata.repository.storage.maven2.Maven2RepositoryMetadataResolverMRM1411RepoGroupTest
+2805,org.apache.archiva.common.utils.FileUtil
+2806,org.apache.archiva.metadata.model.Dependency
+2807,org.apache.archiva.metadata.model.License
+2808,org.apache.archiva.metadata.model.MailingList
+2809,org.apache.archiva.metadata.repository.filter.AllFilter
+2811,org.apache.archiva.metadata.repository.storage.ReadMetadataRequest
+2813,org.apache.archiva.proxy.common.WagonFactoryRequest
+2818,org.apache.archiva.metadata.repository.storage.maven2.Maven2RepositoryStorage
+2819,org.apache.archiva.metadata.repository.storage.maven2.MavenProjectFacet
+2820,org.apache.archiva.metadata.repository.storage.maven2.MockWagon
+2821,org.apache.archiva.metadata.repository.storage.maven2.MavenProjectParent
+2822,org.apache.archiva.metadata.model.Scm
+2823,org.apache.archiva.metadata.model.Organization
+2968,org.apache.archiva.configuration.ConfigurationEvent
+2969,org.apache.archiva.webdav.UnauthorizedDavException
+2970,org.apache.archiva.webdav.BrowserRedirectException
+2971,org.apache.archiva.webdav.ArchivaDavLocatorFactory
+2978,org.apache.archiva.configuration.functors.ProxyConnectorConfigurationOrderComparator
+2987,org.apache.archiva.xml.LatinEntities
+2997,org.apache.archiva.webdav.httpunit.MkColMethodWebRequest
+3004,org.apache.archiva.common.utils.VersionUtil
+3083,org.apache.archiva.admin.model.beans.NetworkProxy
+3086,org.apache.archiva.common.plexusbridge.DigesterUtils
+3098,org.apache.archiva.metadata.repository.cassandra.CassandraRepositorySessionFactory
+3115,org.apache.archiva.metadata.repository.cassandra.CassandraMetadataRepository
+3119,org.apache.archiva.metadata.repository.cassandra.model.ArtifactMetadataModel
+3202,org.apache.archiva.metadata.repository.cassandra.CassandraUtils
+3203,org.apache.archiva.metadata.repository.cassandra.model.Namespace
+3204,org.apache.archiva.metadata.repository.cassandra.model.Repository
+3210,org.apache.archiva.consumers.core.repository.ArtifactFilenameFilter
+3221,org.apache.archiva.admin.repository.proxyconnectorrule.DefaultProxyConnectorRuleAdmin
+3262,org.apache.archiva.admin.model.beans.ProxyConnector
+3263,org.apache.archiva.admin.model.beans.ProxyConnectorRuleType
+3265,org.apache.archiva.admin.model.AbstractRepositoryConnector
+3280,org.apache.archiva.metadata.repository.storage.maven2.Maven2RepositoryMetadataResolverMRM1411Test
+3376,org.apache.archiva.metadata.repository.storage.RepositoryStorageRuntimeException
+3378,org.apache.archiva.repository.content.legacy.LegacyPathParserTest
+3535,org.apache.archiva.repository.layout.LayoutException
+3539,org.apache.archiva.repository.content.legacy.LegacyPathParser
+3544,org.apache.archiva.web.api.DefaultJavascriptLogger
+3563,org.apache.archiva.web.model.JavascriptLog
+3575,org.apache.archiva.webdav.util.ReinitServlet
+3585,org.apache.archiva.converter.RepositoryConverterTest
+3619,org.apache.archiva.converter.RepositoryConversionException
+3688,org.apache.archiva.rest.api.model.ArchivaRepositoryStatistics
+3690,org.apache.archiva.rest.api.services.ArchivaRestServiceException
+3717,org.apache.archiva.rest.api.model.PolicyInformation
+3720,org.apache.archiva.web.security.ArchivaConfigurableUsersManager
+3842,org.apache.archiva.admin.model.beans.RedbackRuntimeConfiguration
+3866,org.apache.archiva.webdav.util.RepositoryPathUtil
+3867,org.apache.archiva.webdav.ArchivaDavResourceLocator
+3871,org.apache.archiva.proxy.CacheFailuresTransferTest
+3898,org.apache.archiva.common.utils.PathUtil
+3899,org.apache.archiva.policies.CachedFailuresPolicy
+3900,org.apache.archiva.policies.ChecksumPolicy
+3901,org.apache.archiva.policies.SnapshotsPolicy
+3904,org.apache.archiva.proxy.AbstractProxyTestCase
+3929,org.apache.archiva.consumers.lucene.test.TestRoleManager
+3982,org.apache.archiva.consumers.core.MetadataUpdateConsumerTest
+3985,org.apache.archiva.consumers.core.AbstractArtifactConsumerTest
+3991,org.apache.archiva.admin.repository.ValidatorTest
+4075,org.apache.archiva.repository.metadata.RepositoryMetadataWriterTest
+4093,org.apache.archiva.repository.metadata.RepositoryMetadataWriter
+4095,org.apache.archiva.rest.services.DefaultArchivaRuntimeConfigurationService
+4110,org.apache.archiva.admin.model.beans.ArchivaRuntimeConfiguration
+4111,org.apache.archiva.admin.model.beans.CacheConfiguration
+4112,org.apache.archiva.admin.model.beans.FileLockConfiguration
+4117,org.apache.archiva.rest.services.AbstractRestService
+4134,org.apache.archiva.web.startup.Banner
+4201,org.apache.archiva.rest.api.model.StringList
+4215,org.apache.archiva.common.utils.DateUtil
+4260,org.apache.archiva.metadata.repository.RepositorySessionFactoryBean
+4280,org.apache.archiva.rss.processor.NewArtifactsRssFeedProcessorTest
+4447,org.apache.archiva.rss.processor.NewVersionsOfArtifactRssFeedProcessor
+4483,org.apache.archiva.rest.services.DefaultReportRepositoriesService
+4522,org.apache.archiva.reports.RepositoryProblemFacet
+4533,org.apache.archiva.admin.model.beans.FileType
+4557,org.apache.archiva.metadata.repository.storage.maven2.DefaultArtifactMappingProvider
+4570,org.apache.archiva.proxy.SnapshotTransferTest
+4640,org.apache.archiva.scheduler.repository.ArchivaRepositoryScanningTaskExecutorPhase1Test
+4646,org.apache.archiva.scheduler.repository.ArchivaRepositoryScanningTaskExecutorAbstractTest
+4647,org.apache.archiva.scheduler.repository.TestConsumer
+4653,org.apache.archiva.configuration.ConfigurationRuntimeException
+4658,org.apache.archiva.metadata.repository.stats.RepositoryStatisticsManagerTest
+5001,org.apache.archiva.policies.PropagateErrorsDownloadPolicy
+5002,org.apache.archiva.policies.PropagateErrorsOnUpdateDownloadPolicy
+5004,org.apache.archiva.proxy.MockConfiguration
+5005,org.apache.archiva.proxy.WagonDelegate
+5028,org.apache.archiva.admin.model.beans.LdapConfiguration
+5029,org.apache.archiva.rest.api.model.RBACManagerImplementationInformation
+5030,org.apache.archiva.rest.api.model.RedbackImplementationsInformations
+5031,org.apache.archiva.rest.api.model.UserManagerImplementationInformation
+5091,org.apache.archiva.configuration.IndeterminateConfigurationException
+5097,org.apache.archiva.webdav.RepositoryServletRepositoryGroupTest
+5268,org.apache.archiva.configuration.functors.RepositoryConfigurationComparator
+5279,org.apache.archiva.scheduler.indexing.DownloadRemoteIndexTaskTest
+5322,org.apache.archiva.scheduler.indexing.DefaultDownloadRemoteIndexScheduler
+5331,org.apache.archiva.transaction.AbstractTransactionEvent
+5380,org.apache.archiva.security.UserRepositoriesStub
+5407,org.apache.archiva.rest.api.model.AbstractImplementationInformation
+5410,org.apache.archiva.model.ArchivaArtifact
+5460,org.apache.archiva.model.Keys
+5465,org.apache.archiva.web.api.DefaultRuntimeInfoService
+5494,org.apache.archiva.web.model.CookieInformation
+5495,org.apache.archiva.web.runtime.ArchivaRuntimeInfo
+5496,org.apache.archiva.web.model.ApplicationRuntimeInfo
+5519,org.apache.archiva.repository.content.legacy.AbstractLegacyRepositoryContent
+5541,org.apache.archiva.repository.content.maven2.ArtifactExtensionMapping
+5546,org.apache.archiva.reports.RepositoryProblemEventListener
+5575,org.apache.archiva.metadata.repository.storage.RepositoryStorageMetadataException
+5587,org.apache.archiva.rest.services.PluginServiceTest
+5597,org.apache.archiva.webdav.DavResourceTest
+5676,org.apache.archiva.webdav.util.MimeTypes
+5677,org.apache.archiva.webdav.ArchivaDavSession
+5678,org.apache.archiva.webdav.ArchivaDavResource
+5682,org.apache.archiva.TestRepositorySessionFactoryBean
+5692,org.apache.archiva.consumers.lucene.NexusIndexerConsumerTest
+5726,org.apache.archiva.repository.scanner.functors.TriggerBeginScanClosure
+5745,org.apache.archiva.transaction.TransactionException
+5755,org.apache.archiva.configuration.functors.NetworkProxyComparator
+5830,org.apache.archiva.configuration.functors.FiletypeSelectionPredicate
+5833,org.apache.archiva.metadata.repository.storage.maven2.ArtifactMetadataVersionComparator
+5842,org.apache.archiva.rest.services.interceptors.ArchivaRestServiceExceptionMapper
+5857,org.apache.archiva.rest.services.ArchivaRestError
+5862,org.apache.archiva.indexer.search.MavenRepositorySearchTest
+5986,org.apache.archiva.indexer.search.AbstractMavenRepositorySearch
+5987,org.apache.archiva.indexer.search.SearchFields
+5988,org.apache.archiva.indexer.search.RepositorySearchException
+6041,org.apache.archiva.metadata.repository.TestRepositorySessionFactory
+6044,org.apache.archiva.rest.services.NetworkProxyServiceTest
+6070,org.apache.archiva.proxy.DefaultRepositoryProxyConnectors
+6379,org.apache.archiva.common.filelock.FileLockException
+6380,org.apache.archiva.common.filelock.FileLockTimeoutException
+6381,org.apache.archiva.common.filelock.Lock
+6382,org.apache.archiva.model.RepositoryURL
+6384,org.apache.archiva.policies.PolicyConfigurationException
+6385,org.apache.archiva.policies.ProxyDownloadException
+6386,org.apache.archiva.proxy.common.WagonFactoryException
+6387,org.apache.archiva.proxy.model.ProxyConnector
+6388,org.apache.archiva.repository.RepositoryContentFactory
+6389,org.apache.archiva.repository.RepositoryNotFoundException
+6390,org.apache.archiva.repository.metadata.MetadataTools
+6391,org.apache.archiva.repository.metadata.RepositoryMetadataException
+6393,org.apache.archiva.proxy.NotFoundException
+6394,org.apache.archiva.proxy.NotModifiedException
+6395,org.apache.archiva.proxy.ProxyException
+6396,org.apache.archiva.proxy.ProxyConnectorOrderComparator
+6454,org.apache.archiva.webdav.RepositoryServletProxiedRelocatedTest
+6462,org.apache.archiva.metadata.repository.filter.ExcludesFilter
+6474,org.apache.archiva.converter.artifact.LegacyRepositoryLayout
+6501,org.apache.archiva.rest.services.ProxyConnectorServiceTest
+6531,org.apache.archiva.rest.services.RepositoriesServiceTest
+6632,org.apache.archiva.checksum.AbstractChecksumTestCase
+6642,org.apache.archiva.metadata.repository.storage.maven2.Maven2RepositoryPathTranslator
+6780,org.apache.archiva.consumers.core.repository.RepositoryPurgeConsumerTest
+6844,org.apache.archiva.admin.repository.DefaultRepositoryCommonValidator
+6845,org.apache.archiva.consumers.functors.ConsumerWantsFilePredicate
+6848,org.apache.archiva.consumers.core.repository.CleanupReleasedSnapshotsRepositoryPurgeTest
+6864,org.apache.archiva.admin.repository.proxyconnector.ProxyConnectorAdminTest
+6955,org.apache.archiva.repository.scanner.SampleKnownConsumer
+6980,org.apache.archiva.repository.content.maven2.FilenameParserTest
+7015,org.apache.archiva.repository.content.maven2.FilenameParser
+7026,org.apache.archiva.configuration.functors.NetworkProxySelectionPredicate
+7035,org.apache.archiva.configuration.ArchivaConfigurationTest
+7193,org.apache.archiva.configuration.DefaultArchivaConfiguration
+7202,org.apache.archiva.rest.services.DefaultNetworkProxyService
+7228,org.apache.archiva.rest.services.utils.ArtifactBuilder
+7256,org.apache.archiva.repository.content.maven2.RepositoryRequestTest
+7355,org.apache.archiva.repository.content.maven2.RepositoryRequest
+7573,org.apache.archiva.webdav.util.IndexWriter
+7590,org.apache.archiva.cli.ArchivaCli
+7815,org.apache.archiva.metadata.repository.cassandra.model.Project
+7832,org.apache.archiva.web.api.DefaultFileUploadService
+8031,org.apache.archiva.checksum.ChecksumAlgorithm
+8032,org.apache.archiva.checksum.ChecksummedFile
+8033,org.apache.archiva.common.utils.VersionComparator
+8034,org.apache.archiva.web.model.FileMetadata
+8066,org.apache.archiva.metadata.repository.stats.RepositoryStatisticsFactory
+8074,org.apache.archiva.admin.model.beans.UiConfiguration
+8099,org.apache.archiva.webdav.RepositoryServletDeployTest
+8165,org.apache.archiva.stagerepository.merge.RepositoryMergerException
+8177,org.apache.archiva.rest.api.model.CacheEntry
+8178,org.apache.archiva.rest.api.model.QueueEntry
+8179,org.apache.archiva.rest.api.model.RepositoryScannerStatistics
+8257,org.apache.archiva.admin.model.beans.PropertyEntry
+8279,org.apache.archiva.xml.XMLReader
+8287,org.apache.archiva.rest.api.model.ConsumerScanningStatistics
+8306,org.apache.archiva.transaction.FileTransaction
+8324,org.apache.archiva.transaction.CopyFileEvent
+8325,org.apache.archiva.transaction.CreateFileEvent
+8331,org.apache.archiva.metadata.repository.storage.RelocationException
+8352,org.apache.archiva.common.utils.Slf4JPlexusLogger
+8404,org.apache.archiva.webtest.memory.TestMetadataResolver
+8491,org.apache.archiva.consumers.core.repository.DaysOldRepositoryPurgeTest
+8521,org.apache.archiva.consumers.core.repository.DaysOldRepositoryPurge
+8532,org.apache.archiva.indexer.search.NoClassifierArtifactInfoFilter
+8580,org.apache.archiva.configuration.FileTypesTest
+8585,org.apache.archiva.metadata.repository.jcr.JcrMetadataRepository
+9070,org.apache.archiva.metadata.model.CiManagement
+9071,org.apache.archiva.metadata.model.IssueManagement
+9140,org.apache.archiva.rest.services.ArchivaAdministrationServiceTest
+9166,org.apache.archiva.admin.model.beans.LegacyArtifactPath
+9167,org.apache.archiva.admin.model.beans.OrganisationInformation
+9199,org.apache.archiva.rest.services.DefaultRedbackRuntimeConfigurationService
+9327,org.apache.archiva.admin.repository.runtime.DefaultArchivaRuntimeConfigurationAdmin
+9408,org.apache.archiva.metadata.repository.AbstractMetadataRepositoryTest
+9716,org.apache.archiva.scheduler.indexing.DownloadRemoteIndexException
+9718,org.apache.archiva.web.test.LoginTest
+9725,org.apache.archiva.web.test.parent.AbstractArchivaTest
+9742,org.apache.archiva.scheduler.indexing.DownloadRemoteIndexTask
+9846,org.apache.archiva.scheduler.indexing.DownloadRemoteIndexTaskRequest
+9855,org.apache.archiva.cli.ArtifactCountConsumer
+9865,org.apache.archiva.cli.AbstractProgressConsumer
+9867,org.apache.archiva.repository.content.legacy.ManagedLegacyRepositoryContent
+9973,org.apache.archiva.consumers.metadata.ArchivaMetadataCreationConsumer
+10028,org.apache.archiva.metadata.repository.storage.RepositoryStorageMetadataInvalidException
+10029,org.apache.archiva.metadata.repository.storage.RepositoryStorageMetadataNotFoundException
+10317,org.apache.archiva.webdav.UnauthenticatedRepositoryServlet
+10319,org.apache.archiva.webdav.MimeTypesLoaderTest
+10366,org.apache.archiva.webdav.RepositoryServletProxiedPassthroughTest
+10401,org.apache.archiva.remotedownload.DownloadMergedIndexTest
+10430,org.apache.archiva.admin.model.beans.RepositoryGroup
+10431,org.apache.archiva.rest.api.model.SearchRequest
+10434,org.apache.archiva.remotedownload.AbstractDownloadTest
+10460,org.apache.archiva.configuration.MavenProxyPropertyLoader
+10502,org.apache.archiva.configuration.InvalidConfigurationException
+10681,org.apache.archiva.indexer.merger.IndexMergerException
+10689,org.apache.archiva.metadata.repository.TestRepositorySessionFactory
+10697,org.apache.archiva.metadata.repository.TestMetadataRepository
+10747,org.apache.archiva.dependency.tree.maven2.TreeDependencyNodeVisitor
+10769,org.apache.archiva.configuration.functors.FiletypeToMapClosure
+10793,org.apache.archiva.admin.model.beans.LdapGroupMapping
+10857,org.apache.archiva.repository.scanner.RepositoryScannerTest
+10957,org.apache.archiva.repository.scanner.InvalidScanConsumer
+10958,org.apache.archiva.repository.scanner.KnownScanConsumer
+10965,org.apache.archiva.rest.services.utils.AddAdminRepoConsumerClosure
+10992,org.apache.archiva.repository.scanner.RepositoryContentConsumersTest
+11146,org.apache.archiva.repository.scanner.ArchivaAdministrationStub
+11147,org.apache.archiva.repository.scanner.RepositoryContentConsumersStub
+11162,org.apache.archiva.webdav.RepositoryServletProxiedPluginSnapshotPolicyTest
+11195,org.apache.archiva.policies.ChecksumPolicyTest
+11279,org.apache.archiva.repository.content.maven2.ArtifactExtensionMappingTest
+11291,org.apache.archiva.model.RepositoryURLTest
+11335,org.apache.archiva.admin.repository.runtime.DefaultRedbackRuntimeConfigurationAdmin
+11520,org.apache.archiva.metadata.repository.storage.maven2.Maven2RepositoryMetadataResolverManagedSnapshotTest
+11544,org.apache.archiva.metadata.repository.storage.maven2.Maven2RepositoryMetadataResolverTest
+11555,org.apache.archiva.rest.services.DefaultArchivaAdministrationService
+11639,org.apache.archiva.admin.model.beans.NetworkConfiguration
+11686,org.apache.archiva.xml.XMLReaderTest
+11715,org.apache.archiva.xml.AbstractArchivaXmlTestCase
+11720,org.apache.archiva.metadata.repository.storage.maven2.RemoteDefaultRepositoryContentTest
+11728,org.apache.archiva.metadata.repository.storage.maven2.AbstractDefaultRepositoryContentTestCase
+11735,org.apache.archiva.common.utils.PathUtilTest
+11751,org.apache.archiva.metadata.repository.MockRepositoryArchivaTaskScheduler
+11763,org.apache.archiva.webdav.RepositoryServletProxiedTimestampedSnapshotPolicyTest
+11801,org.apache.archiva.webdav.UnauthenticatedDavSessionProvider
+11808,org.apache.archiva.rest.services.utils.ConsumerScanningStatisticsComparator
+11815,org.apache.archiva.converter.legacy.DefaultLegacyRepositoryConverter
+11833,org.apache.archiva.converter.legacy.LegacyConverterArtifactConsumer
+11839,org.apache.archiva.scheduler.repository.ArchivaRepositoryScanningTaskExecutor
+11896,org.apache.archiva.xml.LatinEntityResolutionReaderTest
+11952,org.apache.archiva.xml.LatinEntityResolutionReader
+11955,org.apache.archiva.reports.RepositoryProblemFacetFactory
+11966,org.apache.archiva.model.ArchivaModelCloner
+12013,org.apache.archiva.consumers.core.repository.RepositoryPurgeException
+12015,org.apache.archiva.metadata.repository.cassandra.model.MetadataFacetModel
+12065,org.apache.archiva.webdav.LogicalResource
+12073,$package.SimpleArtifactConsumer
+12272,org.apache.archiva.security.DefaultUserRepositoriesTest
+12287,org.apache.archiva.web.rss.RssFeedServletTest
+12419,org.apache.archiva.web.rss.RssFeedServlet
+12424,org.apache.archiva.scheduler.repository.ArchivaRepositoryScanningTaskExecutorPhase2Test
+12449,org.apache.archiva.stagerepository.merge.Maven2RepositoryMerger
+12585,org.apache.archiva.repository.scanner.functors.ConsumerProcessFileClosure
+13075,org.apache.archiva.metadata.repository.cassandra.model.ProjectVersionMetadataModel
+13116,org.apache.archiva.consumers.core.AutoRenameConsumer
+13152,org.apache.archiva.policies.ReleasePolicyTest
+13205,org.apache.archiva.audit.AuditManagerTest
+13350,org.apache.archiva.audit.DefaultAuditManager
+13413,org.apache.archiva.webdav.util.WebdavMethodUtil
+13459,org.apache.archiva.metadata.repository.storage.maven2.RepositoryModelResolver
+13589,org.apache.archiva.xml.XMLWriterTest
+13600,org.apache.archiva.xml.XMLWriter
+13603,org.apache.archiva.consumers.core.ArtifactMissingChecksumsConsumer
+13678,org.apache.archiva.configuration.functors.ProxyConnectorConfigurationOrderComparatorTest
+13700,org.apache.archiva.proxy.HttpProxyTransferTest
+13770,org.apache.archiva.checksum.Hex
+13781,org.apache.archiva.checksum.ChecksummedFileTest
+13871,org.apache.archiva.metadata.repository.cassandra.CassandraMetadataRepositoryTest
+13885,org.apache.archiva.configuration.functors.ProxyConnectorSelectionPredicate
+13922,org.apache.archiva.proxy.common.DebugTransferListener
+14108,org.apache.archiva.remotedownload.RemoteRepositoryConnectivityCheckTest
+14145,org.apache.archiva.audit.AuditEventFactory
+14238,org.apache.archiva.webdav.BypassSecuritySystem
+14276,org.apache.archiva.webdav.RepositoryServletProxiedSnapshotPolicyTest
+14331,org.apache.archiva.webtest.memory.TestRepositorySessionFactory
+14338,org.apache.archiva.webtest.memory.TestMetadataRepository
+14362,org.apache.archiva.consumers.core.repository.AbstractRepositoryPurge
+14439,org.apache.archiva.indexer.merger.DefaultIndexMerger
+14477,org.apache.archiva.indexer.merger.IndexMergerRequest
+14478,org.apache.archiva.indexer.merger.TemporaryGroupIndex
+14731,org.apache.archiva.common.filelock.DefaultFileLockManager
+15033,org.apache.archiva.metadata.repository.TestMetadataRepository
+15155,org.apache.archiva.web.security.ArchivaLockedAdminEnvironmentCheck
+15190,org.apache.archiva.metadata.generic.GenericMetadataFacetFactory
+15196,org.apache.archiva.metadata.generic.GenericMetadataFacet
+15229,org.apache.archiva.rest.services.DefaultSearchService
+15320,org.apache.archiva.rest.api.model.Dependency
+15321,org.apache.archiva.rest.api.model.GroupIdList
+15485,org.apache.archiva.proxy.common.DefaultWagonFactory
+15518,org.apache.archiva.admin.repository.admin.FiletypeToMapClosure
+15526,org.apache.archiva.metadata.repository.cassandra.RepositoriesNamespaceTest
+15574,org.apache.archiva.remotedownload.DownloadSnapshotTest
+15611,org.apache.archiva.rss.processor.NewVersionsOfArtifactRssFeedProcessorTest
+15690,org.apache.archiva.proxy.ManagedDefaultTransferTest
+15856,org.apache.archiva.webdav.RepositoryServletBrowseTest
+15953,org.apache.archiva.scheduler.repository.DefaultRepositoryArchivaTaskScheduler
+15960,org.apache.archiva.webdav.util.MimeTypesTest
+15964,org.apache.archiva.web.docs.RestDocsServlet
+15995,org.apache.archiva.metadata.repository.storage.maven2.MavenArtifactFacetFactory
+16001,org.apache.archiva.repository.content.ArtifactClassifierMapping
+16006,org.apache.archiva.metadata.repository.DefaultMetadataResolver
+16130,org.apache.archiva.metadata.repository.storage.maven2.Maven2RepositoryMetadataResolverManagedReleaseTest
+16155,org.apache.archiva.rest.services.utils.MavenIndexerCleaner
+16162,org.apache.archiva.scheduler.indexing.ArchivaIndexingTaskExecutorTest
+16241,org.apache.archiva.scheduler.indexing.ArchivaIndexingTaskExecutor
+16247,org.apache.archiva.repository.metadata.MetadataToolsTest
+16407,org.apache.archiva.repository.AbstractRepositoryLayerTestCase
+16421,org.apache.archiva.web.test.RepositoryAdminTest
+16428,org.apache.archiva.web.mocks.MockInvalidRepositoryContentConsumer
+16456,org.apache.archiva.admin.repository.proxyconnector.DefaultProxyConnectorAdmin
+16503,org.apache.archiva.admin.model.proxyconnector.ProxyConnectorOrderComparator
+16509,$package.SimpleArtifactConsumerTest
+16522,org.apache.archiva.admin.mock.MockRepositorySessionFactory
+16683,org.apache.archiva.metadata.repository.storage.maven2.RemoteLegacyRepositoryContentTest
+16691,org.apache.archiva.metadata.repository.storage.maven2.AbstractLegacyRepositoryContentTestCase
+16706,org.apache.archiva.consumers.core.repository.RepositoryPurgeConsumer
+16783,org.apache.archiva.consumers.core.repository.CleanupReleasedSnapshotsRepositoryPurge
+16786,org.apache.archiva.web.test.UserManagementTest
+16816,org.apache.archiva.repository.content.maven2.DefaultPathParserTest
+16994,org.apache.archiva.repository.content.maven2.DefaultPathParser
+17015,org.apache.archiva.admin.repository.remote.RemoteRepositoryAdminTest
+17115,org.apache.archiva.rest.services.RedbackRuntimeConfigurationServiceTest
+17130,org.apache.archiva.webdav.ArchivaDavSessionTest
+17146,org.apache.archiva.proxy.ErrorHandlingTest
+17284,org.apache.archiva.webdav.RepositoryServletProxiedMetadataRemoteOnlyTest
+17317,org.apache.archiva.webdav.AbstractRepositoryServletProxiedMetadataTestCase
+17330,org.apache.archiva.admin.repository.proxyconnectorrule.ProxyConnectorRuleAdminTest
+17349,org.apache.archiva.indexer.merger.TemporaryGroupIndexCleaner
+17369,org.apache.archiva.repository.content.maven2.RemoteDefaultRepositoryContent
+17381,org.apache.archiva.repository.content.maven2.AbstractDefaultRepositoryContent
+17458,org.apache.archiva.web.test.ArchivaAdminTest
+17501,org.apache.archiva.web.test.WebDriverBrowseTest
+17621,org.apache.archiva.rest.services.interceptors.JacksonJsonConfigurator
+17633,org.apache.archiva.rest.services.DefaultRemoteRepositoriesService
+17706,org.apache.archiva.proxy.ManagedLegacyTransferTest
+17753,org.apache.archiva.repository.metadata.Maven2RepositoryStorageTest
+17758,org.apache.archiva.admin.repository.managed.ManagedRepositoryAdminTest
+17820,org.apache.archiva.metadata.repository.jcr.JcrRepositorySessionFactory
+17908,org.apache.archiva.dependency.tree.maven2.DependencyTreeBuilderException
+17931,org.apache.archiva.metadata.repository.TestRepositorySessionFactory
+17955,org.apache.archiva.admin.model.proxyconnector.ProxyConnectorSelectionPredicate
+18010,org.apache.archiva.configuration.LegacyArtifactPathTest
+18037,org.apache.archiva.web.security.ArchivaRbacManager
+18283,org.apache.archiva.converter.artifact.LegacyToDefaultConverterTest
+18548,org.apache.archiva.converter.artifact.ArtifactConversionException
+18549,org.apache.archiva.converter.artifact.Messages
+18564,org.apache.archiva.test.utils.ListGenerator
+18574,org.apache.archiva.rest.services.DefaultProxyConnectorService
+18606,org.apache.archiva.proxy.MetadataTransferTest
+18820,org.apache.archiva.rest.services.DefaultRepositoriesService
+19035,org.apache.archiva.rest.api.model.ArtifactTransferRequest
+19062,org.apache.archiva.stagerepository.merge.Maven2RepositoryMergerTest
+19122,org.apache.archiva.rest.services.RemoteRepositoriesServiceTest
+19144,org.apache.archiva.metadata.repository.cassandra.DefaultCassandraArchivaManager
+19251,org.apache.archiva.mock.MockManagedRepositoryAdmin
+19294,org.apache.archiva.configuration.ConfigurationTest
+19402,org.apache.archiva.mock.MockRemoteRepositoryAdmin
+19423,org.apache.archiva.configuration.functors.RepositoryConfigurationComparatorTest
+19431,org.apache.archiva.admin.repository.networkproxy.NetworkProxyAdminTest
+19461,org.apache.archiva.metadata.repository.TestRepositorySessionFactory
+19467,org.apache.archiva.metadata.repository.TestMetadataResolver
+19476,org.apache.archiva.converter.artifact.LegacyToDefaultConverter
+19701,org.apache.archiva.metadata.repository.storage.maven2.MavenRepositoryMetadataReaderTest
+19718,org.apache.archiva.configuration.TestConfiguration
+19738,org.apache.archiva.consumers.core.ValidateChecksumConsumer
+19781,org.apache.archiva.remotedownload.DownloadMergedIndexNonDefaultPathTest
+19815,org.apache.archiva.web.security.ArchivaLdapRoleMapperConfiguration
+19867,org.apache.archiva.web.startup.SecuritySynchronization
+19916,org.apache.archiva.configuration.ArchivaConfigurationMRM789Test
+19942,org.apache.archiva.metadata.repository.file.FileMetadataRepository
+20455,org.apache.archiva.dependency.tree.maven2.ArchivaRepositoryConnectorFactory
+20475,org.apache.archiva.scheduler.repository.TestRepositoryStatisticsManager
+20538,org.apache.archiva.metadata.repository.jcr.JcrMetadataRepositoryTest
+20549,org.apache.archiva.webdav.UnauthenticatedDavResourceFactory
+20560,org.apache.archiva.admin.repository.proxyconnector.ProxyConnectorOrderComparator
+20572,org.apache.archiva.web.test.RolesManagementTest
+20576,org.apache.archiva.consumers.functors.PermanentConsumerPredicate
+20582,org.apache.archiva.admin.repository.admin.DefaultArchivaAdministration
+20760,org.apache.archiva.indexer.merger.MergedRemoteIndexesTaskResult
+20783,org.apache.archiva.transaction.AbstractFileEventTest
+21031,org.apache.archiva.repository.metadata.RepositoryMetadataMerge
+21074,org.apache.archiva.rest.services.SearchServiceTest
+21152,org.apache.archiva.metadata.repository.TestMetadataRepository
+21274,org.apache.archiva.webdav.util.RepositoryPathUtilTest
+21278,org.apache.archiva.webdav.ArchivaDavSessionProviderTest
+21433,org.apache.archiva.remotedownload.DownloadArtifactsTest
+21523,org.apache.archiva.scheduler.indexing.IndexingArchivaTaskScheduler
+21544,org.apache.archiva.metadata.repository.file.FileMetadataRepositoryTest
+21592,org.apache.archiva.webdav.StubRepositoryContentConsumers
+21599,org.apache.archiva.rest.services.utils.ArtifactContentEntryComparator
+21606,org.apache.archiva.indexer.merger.MergedRemoteIndexesTaskRequest
+21667,org.apache.archiva.rest.services.DefaultManagedRepositoriesService
+21708,org.apache.archiva.common.utils.DateUtilTest
+21823,org.apache.archiva.plugins.npanday.NPandayArtifactMappingProvider
+21834,org.apache.archiva.common.utils.VersionUtilTest
+21854,org.apache.archiva.metadata.repository.stats.JcrRepositoryStatisticsGatheringTest
+21896,org.apache.archiva.webdav.ArchivaDavResourceFactoryTest
+21983,org.apache.archiva.admin.repository.group.DefaultRepositoryGroupAdmin
+21984,org.apache.archiva.repository.content.maven2.ManagedDefaultRepositoryContent
+22047,org.apache.archiva.webdav.ArchivaDavResourceLocatorTest
+22421,org.apache.archiva.indexer.merger.MergedRemoteIndexesTask
+22422,org.apache.archiva.webdav.util.TemporaryGroupIndexSessionCleaner
+22423,org.apache.archiva.webdav.ArchivaVirtualDavResource
+22435,org.apache.archiva.indexer.search.MavenRepositorySearchOSGITest
+22462,org.apache.archiva.metadata.repository.TestRepositorySessionFactory
+22471,org.apache.archiva.policies.SnapshotsPolicyTest
+22560,org.apache.archiva.metadata.repository.file.FileRepositorySessionFactory
+22702,org.apache.archiva.webdav.RepositoryServletTest
+22767,org.apache.archiva.checksum.ChecksumAlgorithmTest
+22773,org.apache.archiva.web.test.WebDriverTest
+22820,org.apache.archiva.consumers.core.MetadataUpdaterConsumer
+23021,org.apache.archiva.consumers.core.AutoRemoveConsumer
+23094,org.apache.archiva.web.runtime.ldap.ArchivaLdapConnectionFactory
+23117,org.apache.archiva.web.api.DefaultDataValidatorService
+23164,org.apache.archiva.rest.services.DefaultSystemStatusService
+23264,org.apache.archiva.rest.services.MergeRepositoriesServiceTest
+23282,org.apache.archiva.reports.consumers.DuplicateArtifactsConsumer
+23363,org.apache.archiva.proxy.common.WagonFactoryTest
+23418,org.apache.archiva.admin.repository.utils.RepositoryComparator
+23469,org.apache.archiva.rss.RssFeedGeneratorTest
+23484,org.apache.archiva.consumers.lucene.test.TestRBACManager
+24028,org.apache.archiva.webdav.RepositoryServletProxiedMetadataLocalOnlyTest
+24108,org.apache.archiva.checksum.ChecksumTest
+24128,org.apache.archiva.checksum.Checksum
+24136,org.apache.archiva.remotedownload.DownloadArtifactFromQueryTest
+24161,org.apache.archiva.admin.repository.networkproxy.DefaultNetworkProxyAdmin
+24191,org.apache.archiva.metadata.repository.storage.maven2.MavenProjectFacetFactory
+24209,org.apache.archiva.metadata.repository.storage.maven2.ManagedLegacyRepositoryContentTest
+24252,org.apache.archiva.rest.services.CommonServicesTest
+24290,org.apache.archiva.reports.consumers.DuplicateArtifactsConsumerTest
+24502,org.apache.archiva.webdav.RepositoryServletNoProxyMetadataTest
+24567,org.apache.archiva.rest.services.DefaultRepositoryGroupService
+24711,org.apache.archiva.common.filelock.DefaultFileLockManagerTimeoutTest
+24990,org.apache.archiva.repository.RepositoryURLTest
+25007,org.apache.archiva.xml.LatinEntitiesTest
+25010,org.apache.archiva.metadata.repository.TestMetadataRepository
+25133,org.apache.archiva.metadata.repository.filter.IncludesFilter
+25219,org.apache.archiva.scheduler.repository.RepositoryTaskJob
+25344,org.apache.archiva.configuration.StubConfiguration
+25360,org.apache.archiva.rest.services.ProxyConnectorRuleServiceTest
+25367,org.apache.archiva.security.RoleManagerTest
+25372,org.apache.archiva.web.security.ArchivaUserManagerAuthenticator
+25498,org.apache.archiva.reports.consumers.MockitoFactory
+25549,org.apache.archiva.metadata.repository.storage.maven2.DummyLifecycleBindingsInjector
+25558,org.apache.archiva.rest.services.CopyArtifactTest
+25611,org.apache.archiva.rest.services.PingServiceTest
+25624,org.apache.archiva.web.test.XPathExpressionUtil
+25763,org.apache.archiva.converter.mock.MockArchivaAdministration
+25819,org.apache.archiva.indexer.merger.DefaultMergedRemoteIndexesScheduler
+25855,org.apache.archiva.admin.repository.remote.DefaultRemoteRepositoryAdmin
+25928,org.apache.archiva.admin.mock.MockMergedRemoteIndexesScheduler
+25935,org.apache.archiva.transaction.CreateFileEventTest
+25949,org.apache.archiva.RuntimeInfoServiceTest
+26100,org.apache.archiva.security.mock.MockBeanServices
+26167,org.apache.archiva.audit.AuditLog
+26206,org.apache.archiva.common.utils.ResourceUtils
+26223,org.apache.archiva.rest.services.DefaultPluginsServices
+26243,org.apache.archiva.rest.services.DefaultCommonServices
+26333,org.apache.archiva.common.filelock.DefaultFileLockManagerTest
+26377,org.apache.archiva.configuration.MavenProxyPropertyLoaderTest
+26403,org.apache.archiva.indexer.search.mock.MockRepositorySessionFactory
+26534,org.apache.archiva.transaction.CopyFileEventTest
+26662,org.apache.archiva.web.startup.ArchivaStartup
+26705,org.apache.archiva.policies.urlcache.DefaultUrlFailureCache
+26752,org.apache.archiva.admin.repository.group.RepositoryGroupAdminTest
+26775,org.apache.archiva.common.utils.VersionComparatorTest
+26789,org.apache.archiva.metadata.repository.storage.maven2.ManagedDefaultRepositoryContentTest
+26838,org.apache.archiva.policies.CachedFailuresPolicyTest
+26865,org.apache.archiva.rest.services.DefaultPingService
+26886,org.apache.archiva.rest.services.DefaultMergeRepositoriesService
+27030,org.apache.archiva.repository.content.legacy.RemoteLegacyRepositoryContent
+27084,org.apache.archiva.consumers.core.ArtifactMissingChecksumsConsumerTest
+27146,org.apache.archiva.admin.mock.MockRepositoryArchivaTaskScheduler
+27156,org.apache.archiva.metadata.repository.jcr.ArchivaJcrRepositoryConfig
+27167,org.apache.archiva.admin.repository.admin.ArchivaAdministrationTest
+27231,org.apache.archiva.rest.services.RepositoryGroupServiceTest
+27282,org.apache.archiva.security.ArchivaStandardRolesCheck
+27309,org.apache.archiva.xml.ElementTextListClosure
+27316,org.apache.archiva.metadata.repository.cassandra.MockRepositoryStorage
+27374,org.apache.archiva.mock.MockArchivaAdministration
+27626,org.apache.archiva.proxy.ChecksumTransferTest
+27890,org.apache.archiva.rest.services.ManagedRepositoriesServiceTest
+27911,org.apache.archiva.configuration.MockRepoAdmin
+28209,org.apache.archiva.rest.services.DefaultProxyConnectorRuleService
+*Edges: 1606
+12073 938 2
+12073 254 4
+12073 846 7
+12073 255 2
+16509 12073 5
+16509 254 3
+16509 846 2
+25949 5496 3
+5682 4260 2
+1341 2068 1
+25928 10430 2
+27146 2070 3
+16522 1256 1
+3265 8257 6
+4110 4112 3
+4110 4111 3
+5028 8257 3
+254 846 5
+3262 3265 2
+1123 3263 4
+3842 8257 3
+3842 4111 3
+3842 5028 3
+1342 8257 6
+1342 846 5
+16503 3262 8
+17955 3265 2
+2067 1122 3
+2067 5091 1
+2067 2068 2
+1297 1122 2
+1297 254 3
+1297 846 4
+1297 1342 10
+1297 1341 1
+6844 253 10
+6844 254 3
+6844 846 3
+3991 1297 1
+27167 1297 14
+27167 11639 3
+27167 9167 10
+27167 9166 4
+27167 4533 11
+27167 253 1
+27167 8074 12
+27167 1341 10
+20582 2067 55
+20582 1122 12
+20582 9166 1
+20582 4533 4
+20582 253 2
+20582 8074 2
+20582 11639 1
+20582 9167 1
+15518 4533 1
+21983 2067 15
+21983 1122 6
+21983 10430 42
+21983 253 14
+21983 846 2
+26752 1297 41
+26752 10430 10
+26752 846 1
+26752 1341 21
+1842 2070 2
+1842 1256 6
+1842 2067 23
+1842 1122 4
+1842 253 3
+1842 936 2
+1842 254 29
+1842 934 4
+1842 344 2
+1842 846 29
+1842 935 5
+17758 1297 25
+17758 254 26
+17758 846 25
+17758 1341 31
+24161 2067 14
+24161 1122 3
+24161 253 3
+24161 3083 13
+19431 1297 13
+19431 3083 50
+19431 846 2
+19431 1342 2
+19431 1341 12
+16456 2067 13
+16456 1122 3
+16456 13885 1
+16456 253 4
+16456 16503 2
+16456 3265 27
+16456 3262 7
+6864 1297 13
+6864 846 4
+6864 3265 11
+6864 3262 2
+6864 1341 21
+20560 3262 8
+3221 2067 8
+3221 1122 3
+3221 3263 6
+3221 1123 16
+3221 3265 6
+17330 1297 22
+17330 1123 19
+17330 846 6
+17330 3265 10
+17330 1342 4
+25855 2067 14
+25855 1122 3
+25855 253 3
+25855 936 1
+25855 934 3
+25855 846 16
+25855 935 2
+25855 1342 38
+17015 1297 20
+17015 846 8
+17015 1342 34
+17015 1341 17
+9327 2067 13
+9327 4111 1
+9327 5091 1
+11335 3842 14
+11335 2067 13
+11335 4111 5
+11335 5091 1
+11335 253 8
+11335 5028 18
+23418 846 4
+14145 2068 1
+26167 2068 6
+13205 13350 4
+13205 2068 82
+13350 2068 4
+2130 1256 3
+2130 2068 4
+2130 344 1
+6632 2805 2
+24128 8031 5
+22767 8031 5
+24108 8031 4
+24108 24128 21
+8032 8031 10
+8032 24128 11
+13781 8032 33
+13781 6632 13
+9865 938 1
+9865 254 2
+7590 265 1
+7590 254 2
+7590 935 1
+7590 846 2
+7590 266 1
+9855 9865 1
+14731 6379 3
+14731 6381 13
+14731 6380 2
+24711 6381 1
+3086 936 1
+3086 935 2
+934 936 1
+934 935 7
+935 936 5
+682 726 16
+21708 4215 4
+11735 3898 4
+26775 8033 2
+21834 3004 20
+19916 2805 5
+19916 255 2
+7035 7193 9
+7035 5091 1
+7035 2805 1
+7035 2968 2
+7035 255 2
+7193 2978 1
+7193 5091 1
+7193 4653 2
+7193 2968 1
+255 5830 1
+8580 255 19
+10460 10502 1
+26377 10460 2
+26377 7035 1
+27911 1122 12
+27911 254 5
+27911 16503 2
+27911 3083 3
+27911 3262 5
+27911 1123 3
+27911 846 2
+27911 1342 11
+27911 3265 1
+13678 2978 1
+939 677 3
+3985 726 2
+3985 6845 6
+3985 935 2
+13603 8031 2
+13603 8032 6
+13603 938 7
+13603 254 3
+13603 255 3
+27084 8032 3
+27084 254 10
+27084 3985 2
+27084 846 3
+23021 937 1
+23021 938 2
+23021 254 3
+23021 255 2
+13116 938 3
+13116 254 3
+3982 3985 2
+22820 938 10
+22820 254 2
+22820 6388 2
+22820 2171 1
+22820 3535 3
+22820 6389 1
+22820 2161 2
+22820 6390 9
+22820 846 1
+22820 6391 2
+22820 255 2
+22820 939 2
+19738 3086 2
+19738 938 5
+19738 254 3
+19738 935 2
+14362 1750 2
+14362 1256 4
+14362 3004 3
+14362 1255 1
+14362 342 1
+14362 3210 1
+14362 1754 2
+14362 2161 1
+14362 344 2
+14362 846 2
+1446 1256 2
+1446 254 9
+1446 935 2
+1446 846 2
+16783 12013 2
+16783 1256 2
+16783 8033 1
+16783 3004 3
+16783 253 1
+16783 254 1
+16783 6388 3
+16783 2171 1
+16783 3535 3
+16783 14362 2
+16783 6389 1
+16783 2161 3
+16783 6390 4
+16783 846 1
+16783 6391 2
+6848 16783 1
+6848 2067 1
+6848 6390 1
+6848 1446 62
+8521 12013 1
+8521 3535 1
+8521 1256 1
+8521 14362 3
+8521 8033 1
+8521 3004 2
+8521 2161 2
+8491 8521 3
+8491 254 6
+8491 1446 69
+16706 12013 1
+16706 1256 4
+16706 938 2
+16706 254 7
+16706 6388 4
+16706 2171 1
+16706 937 1
+16706 16783 1
+16706 8521 1
+16706 6389 1
+16706 6390 3
+16706 846 1
+16706 1447 1
+16706 255 4
+16706 939 3
+6780 726 1
+6780 6845 3
+6780 2067 2
+6780 254 7
+6780 22462 5
+6780 6844 2
+6780 846 4
+6780 1446 80
+6780 255 1
+1447 12013 1
+1447 3535 1
+1447 1256 1
+1447 14362 3
+1447 8033 1
+1447 3004 1
+1447 2161 2
+1428 254 1
+1428 1447 1
+1428 1446 86
+6845 726 4
+6845 254 2
+6845 846 1
+853 941 5
+853 253 2
+853 938 1
+853 254 5
+853 937 1
+853 934 2
+853 846 1
+853 935 2
+853 939 5
+853 255 4
+5692 934 1
+5692 254 12
+5692 935 1
+5692 853 19
+5692 846 3
+9973 10028 1
+9973 1256 5
+9973 1253 6
+9973 3004 1
+9973 342 6
+9973 938 2
+9973 254 2
+9973 3376 1
+9973 1067 2
+9973 937 1
+9973 2811 5
+9973 344 1
+9973 10029 1
+9973 846 1
+9973 255 2
+3585 935 4
+19476 5745 1
+19476 18548 8
+19476 3086 2
+19476 8306 11
+19476 935 4
+19476 18549 16
+18283 18548 1
+18283 2805 2
+18283 935 9
+18283 18549 9
+11815 3619 1
+11815 11833 3
+11815 254 2
+11815 935 3
+11815 846 3
+11815 3898 1
+11815 266 1
+11833 3535 1
+11833 18548 1
+11833 938 1
+11833 254 2
+11833 21984 1
+11833 935 2
+25763 11639 2
+25763 1122 12
+25763 9167 2
+25763 9166 1
+25763 4533 2
+25763 8074 2
+1473 1066 8
+1473 1507 2
+1473 1510 1
+1473 935 1
+1510 253 2
+1510 10747 1
+1510 254 3
+1510 1539 1
+1510 1540 1
+1510 17908 2
+1510 846 2
+1510 935 2
+1510 1342 1
+1510 3265 3
+10747 1066 2
+10747 1507 8
+14439 934 3
+14439 14478 5
+14439 14477 9
+14439 935 3
+14439 10681 2
+25819 22421 1
+25819 10430 12
+25819 14477 2
+25819 21606 1
+22421 21606 6
+22421 10681 1
+22421 20760 2
+21606 14477 6
+17349 14478 3
+17349 935 2
+5986 2067 2
+5986 1842 3
+5986 934 2
+5986 2805 13
+5986 1819 1
+5986 1818 2
+5986 935 3
+5986 1821 3
+1821 253 2
+1821 5988 5
+1821 934 3
+1821 1820 11
+1821 5987 45
+1821 1816 2
+1821 1818 32
+1821 1819 27
+1821 846 1
+1821 935 3
+1821 3265 5
+22435 5986 2
+22435 5987 4
+22435 1819 7
+22435 1818 2
+22435 1821 1
+1797 1820 5
+1797 1819 8
+1797 1818 9
+1797 1816 1
+1797 1821 7
+5862 1821 30
+5862 5988 3
+5862 1820 10
+5862 5986 11
+5862 2805 19
+5862 1816 3
+5862 1818 54
+5862 1819 33
+5862 5987 58
+1818 1820 4
+1818 1819 2
+26403 1256 1
+1539 8279 11
+1507 1066 6
+342 1754 1
+1067 9071 4
+1067 2822 4
+1067 1754 1
+1067 2823 4
+1067 2808 1
+1067 2807 1
+1067 9070 4
+1067 2806 1
+9408 1253 18
+9408 2822 7
+9408 2823 5
+9408 342 42
+9408 1254 1
+9408 1067 67
+9408 9071 5
+9408 1754 31
+9408 2807 5
+9408 2808 21
+9408 9070 5
+9408 2806 35
+16006 10028 2
+16006 1256 20
+16006 6462 5
+16006 1255 7
+16006 342 1
+16006 3376 6
+16006 1254 5
+16006 1067 3
+16006 2811 17
+16006 344 6
+16006 10029 2
+11751 2070 3
+1256 344 1
+25010 1253 8
+25010 342 8
+25010 1067 8
+19467 1256 7
+19467 1067 1
+22462 1256 10
+3115 342 66
+3115 9071 5
+3115 2807 3
+3115 9070 5
+3115 12015 10
+3115 2806 16
+3115 3119 22
+3115 3204 11
+3115 1253 14
+3115 2822 7
+3115 1255 1
+3115 2823 5
+3115 13075 17
+3115 1067 50
+3115 1254 1
+3115 3202 183
+3115 1754 4
+3115 3203 9
+3115 2808 12
+3115 344 5
+13871 3115 6
+13871 9408 3
+3098 1256 2
+3098 3115 1
+19144 4260 2
+27316 1256 2
+27316 5575 1
+27316 1253 1
+27316 2811 2
+27316 342 1
+27316 254 1
+27316 1067 2
+15526 3115 19
+15526 1253 2
+15526 3203 1
+3203 3204 6
+13075 9071 3
+13075 3203 3
+13075 2822 3
+13075 2823 3
+13075 9070 3
+19942 1253 6
+19942 2822 7
+19942 2823 5
+19942 342 34
+19942 1254 15
+19942 1067 39
+19942 9071 5
+19942 1754 8
+19942 2808 13
+19942 2807 5
+19942 9070 5
+19942 344 3
+19942 2806 20
+21544 19942 1
+21544 9408 2
+22560 19942 1
+22560 1256 2
+8585 1253 6
+8585 2822 7
+8585 2823 5
+8585 1255 6
+8585 342 25
+8585 1254 5
+8585 1067 36
+8585 9071 5
+8585 1754 5
+8585 2808 13
+8585 2807 5
+8585 9070 5
+8585 344 23
+8585 2806 22
+20538 8585 5
+20538 9408 2
+17820 1256 2
+17820 8585 5
+17820 4260 2
+1639 1753 24
+1639 1750 1
+1639 1754 1
+1639 1255 1
+1639 342 1
+1639 344 2
+21854 1753 16
+4658 1753 55
+4658 1750 1
+4658 1754 1
+4658 342 8
+4658 1639 23
+10028 5575 3
+10029 5575 2
+3376 5575 3
+11728 16407 1
+11728 3535 5
+16691 16407 1
+16691 3535 1
+5833 342 6
+26789 16407 1
+26789 8033 2
+26789 254 2
+26789 11728 1
+26789 255 2
+24209 16691 2
+24209 16407 1
+24209 8033 2
+24209 846 1
+2672 2819 30
+2672 2822 12
+2672 2823 2
+2672 342 9
+2672 2813 2
+2672 1067 40
+2672 2821 12
+2672 1754 6
+2672 2811 26
+2672 2805 6
+2672 2807 1
+2672 2808 9
+2672 2818 8
+2672 2806 9
+3280 2819 18
+3280 2822 6
+3280 2823 2
+3280 342 9
+3280 3376 1
+3280 2813 1
+3280 1067 24
+3280 2821 6
+3280 1754 4
+3280 2811 5
+3280 2805 6
+3280 2807 1
+3280 2808 9
+3280 2818 7
+3280 2806 9
+16130 2811 15
+16130 11544 4
+16130 2818 4
+11520 2811 20
+11520 11544 2
+11520 2818 5
+11544 1750 36
+11544 2819 10
+11544 6462 1
+11544 342 23
+11544 2813 2
+11544 9071 2
+11544 2821 3
+11544 2805 6
+11544 2807 1
+11544 9070 2
+11544 10029 4
+11544 2818 48
+11544 2806 9
+11544 10028 2
+11544 2822 6
+11544 2823 2
+11544 1067 34
+11544 5575 6
+11544 1754 12
+11544 2811 18
+11544 2808 9
+6642 1750 4
+6642 1754 1
+6642 3004 2
+6642 342 8
+2818 2819 7
+2818 3004 3
+2818 342 8
+2818 253 2
+2818 8032 3
+2818 254 7
+2818 13459 1
+2818 9071 3
+2818 3535 1
+2818 2821 3
+2818 1539 3
+2818 2807 2
+2818 1540 2
+2818 9070 3
+2818 10029 1
+2818 3265 3
+2818 2806 8
+2818 10028 2
+2818 8331 1
+2818 4522 7
+2818 1253 1
+2818 2822 4
+2818 2823 3
+2818 3376 4
+2818 1067 13
+2818 1754 3
+2818 2811 34
+2818 2808 6
+2818 846 1
+2819 2821 9
+19701 1539 3
+11720 16407 1
+11720 11728 1
+16683 16691 1
+16683 16407 1
+16683 846 1
+13459 3004 1
+13459 254 7
+13459 3083 5
+13459 2813 2
+13459 1539 2
+13459 1540 1
+13459 846 9
+13459 1342 14
+27374 11639 2
+27374 1122 12
+27374 9167 2
+27374 9166 1
+27374 4533 2
+27374 8074 2
+19251 1122 3
+19251 254 5
+19251 846 1
+19402 1122 3
+19402 1342 4
+5410 5460 5
+5410 3004 4
+11291 6382 7
+1400 6384 2
+1400 3004 1
+1400 670 4
+3899 6384 1
+3899 670 1
+3900 6384 2
+3900 8031 2
+3900 8032 4
+3900 670 3
+11195 2805 1
+11195 670 2
+6384 677 3
+670 677 3
+5001 6384 2
+5002 6384 2
+6385 677 3
+13152 11195 1
+13152 670 1
+1398 1400 1
+3901 1400 1
+22471 11195 1
+22471 670 1
+3904 5004 27
+3904 2067 1
+3904 5005 2
+3904 254 2
+3904 935 2
+3904 846 3
+3871 3904 22
+3871 3898 1
+27626 3904 94
+6070 2070 4
+6070 253 3
+6070 3263 2
+6070 670 2
+6070 6388 5
+6070 6380 1
+6070 6386 1
+6070 2813 2
+6070 6384 2
+6070 937 4
+6070 6387 32
+6070 5460 4
+6070 6393 6
+6070 6390 5
+6070 6391 1
+6070 1342 7
+6070 6395 11
+6070 6381 7
+6070 6385 2
+6070 2171 1
+6070 6382 7
+6070 6379 1
+6070 6389 1
+6070 6396 1
+6070 846 17
+6070 6394 6
+17146 3904 19
+17146 6385 3
+13700 5004 1
+13700 2067 1
+13700 254 2
+13700 846 4
+15690 3904 94
+17706 3904 31
+18606 5004 3
+18606 3904 81
+18606 1539 1
+18606 3004 1
+18606 6390 9
+6393 6395 3
+6394 6395 3
+6396 6387 8
+4570 3904 44
+15485 13922 1
+15485 3083 1
+15485 6386 1
+15485 2813 10
+2813 3083 4
+23363 2813 6
+6387 1342 1
+24136 254 2
+24136 846 3
+24136 10434 11
+21433 1342 1
+21433 10434 9
+19781 10431 3
+19781 4201 1
+19781 10430 4
+19781 254 4
+19781 846 8
+19781 3265 3
+19781 1342 6
+19781 10434 10
+10401 10431 3
+10401 10430 3
+10401 254 4
+10401 846 10
+10401 3265 3
+10401 1342 6
+10401 10434 12
+15574 254 2
+15574 846 3
+15574 10434 7
+14108 846 3
+14108 1342 5
+14108 10434 4
+5546 1256 6
+5546 5575 2
+5546 4522 8
+5546 344 3
+5546 1067 2
+23282 1256 4
+23282 4522 7
+23282 342 14
+23282 8032 2
+23282 938 1
+23282 254 3
+23282 937 1
+23282 344 2
+23282 846 1
+23282 255 2
+23282 939 3
+24290 1256 1
+24290 23282 19
+24290 4522 8
+24290 342 8
+24290 254 3
+24290 846 1
+24290 939 1
+16407 254 5
+16407 846 10
+16407 1342 5
+2161 2171 5
+6388 937 2
+6388 6389 2
+6388 253 2
+6388 2171 2
+6388 846 2
+6389 2171 4
+24990 6382 7
+2439 2068 1
+5519 5541 1
+5519 5410 6
+3539 3535 7
+3539 7015 7
+3539 16001 1
+3539 5541 2
+3378 3535 1
+3378 3539 4
+9867 254 15
+9867 3535 4
+9867 5519 5
+9867 2161 10
+9867 846 1
+9867 255 6
+9867 3898 4
+9867 5410 1
+27030 5519 4
+27030 846 1
+27030 6382 4
+27030 1342 7
+17381 3004 3
+17381 5410 7
+11279 1750 1
+11279 1754 1
+16994 3535 2
+16994 1750 2
+16994 1754 1
+16994 342 3
+16816 3535 5
+7015 3004 3
+6980 7015 74
+21984 4557 1
+21984 254 15
+21984 2171 1
+21984 3535 4
+21984 2161 7
+21984 846 1
+21984 17381 11
+21984 255 6
+21984 3898 3
+21984 5410 1
+17369 846 1
+17369 6382 4
+17369 1342 7
+17369 17381 4
+7355 3535 5
+7355 3539 1
+7256 3535 6
+7256 2805 1
+7256 7355 77
+7256 254 2
+7256 3539 1
+7256 846 3
+3535 677 3
+17753 254 4
+6390 8031 1
+6390 8033 4
+6390 4093 3
+6390 3004 7
+6390 8032 6
+6390 937 1
+6390 1539 6
+6390 21031 1
+6390 1540 6
+6390 2161 1
+6390 6391 5
+6390 255 5
+6390 3898 1
+16247 16407 5
+16247 1549 19
+16247 8033 1
+16247 6390 14
+6391 2171 5
+21031 11966 3
+21031 6391 2
+1524 1539 2
+4093 1540 1
+4093 6391 2
+4093 13600 1
+11146 11639 2
+11146 1122 12
+11146 9167 2
+11146 9166 1
+11146 4533 2
+11146 8074 2
+199 263 2
+199 265 4
+199 253 1
+199 264 4
+199 254 3
+199 266 1
+199 255 2
+10957 938 1
+10957 254 2
+10958 938 1
+10958 254 2
+264 726 1
+264 6845 4
+264 5726 1
+264 12585 2
+264 833 1
+264 254 2
+11147 264 2
+10992 264 22
+10992 254 3
+10992 11147 1
+10992 846 4
+10992 11146 1
+10992 1342 3
+265 254 2
+265 4215 2
+265 846 2
+263 726 1
+263 6845 6
+263 5726 1
+263 12585 5
+263 833 1
+263 254 7
+263 265 10
+263 846 3
+10857 10958 17
+10857 10957 5
+10857 265 11
+10857 254 6
+10857 846 5
+10857 1342 3
+6955 938 1
+6955 254 2
+12585 726 4
+5726 254 4
+5726 939 1
+833 254 3
+833 846 1
+19035 1066 1
+5029 5407 2
+8179 254 3
+5031 5407 2
+1078 2805 1
+1078 254 9
+1078 846 5
+4117 2070 2
+4117 7228 4
+4117 1122 5
+4117 15953 3
+4117 1066 17
+4117 3004 2
+4117 2249 1
+4117 2068 3
+4117 8074 1
+4117 6388 2
+4117 2171 1
+4117 2248 1
+4117 2250 1
+4117 3265 1
+9140 1078 33
+9140 9167 10
+9140 9166 3
+9140 2158 2
+9140 4533 4
+9140 8074 20
+5857 3690 3
+2645 2669 7
+2645 1068 10
+972 1079 2
+972 1069 2
+972 1068 5
+972 1078 58
+972 1071 2
+972 1073 1
+972 1072 5
+972 1070 5
+24252 1078 3
+25558 1078 10
+25558 1066 8
+25558 19035 2
+25558 254 1
+11555 4117 13
+11555 9166 8
+11555 4533 2
+11555 253 26
+11555 8074 6
+11555 2147 2
+11555 10965 4
+11555 11639 2
+11555 9167 2
+11555 264 3
+11555 3690 26
+4095 4112 2
+4095 4117 1
+4095 4111 4
+4095 253 2
+4095 4110 4
+4095 3690 2
+2669 1256 22
+2669 2819 6
+2669 8033 1
+2669 1066 1
+2669 3004 1
+2669 253 1
+2669 254 2
+2669 6388 4
+2669 9071 2
+2669 1539 1
+2669 1540 1
+2669 9070 2
+2669 1073 2
+2669 1071 8
+2669 5410 3
+2669 1069 4
+2669 1079 4
+2669 4117 6
+2669 15196 3
+2669 2823 2
+2669 1255 8
+2669 2171 3
+2669 1067 38
+2669 1254 3
+2669 1068 6
+2669 1754 6
+2669 6389 2
+2669 2250 1
+2669 344 3
+2669 1072 5
+2669 3690 1
+2669 1070 6
+21667 1256 2
+21667 4117 8
+21667 3688 6
+21667 253 8
+21667 344 1
+21667 254 13
+21667 846 16
+21667 3690 2
+26886 1256 7
+26886 4117 7
+26886 3004 1
+26886 342 4
+26886 253 2
+26886 8165 2
+26886 254 4
+26886 12449 6
+26886 25133 2
+26886 344 2
+26886 3690 6
+7202 4117 4
+7202 253 5
+7202 3083 3
+7202 3690 5
+28209 4117 4
+28209 253 4
+28209 1123 11
+28209 3690 10
+18574 4117 5
+18574 253 5
+18574 3717 1
+18574 3262 4
+18574 3690 6
+9199 5030 2
+9199 3842 16
+9199 4117 1
+9199 4111 4
+9199 253 1
+9199 5031 1
+9199 5028 19
+9199 5407 6
+9199 5029 1
+9199 3690 5
+17633 4117 4
+17633 253 8
+17633 846 2
+17633 1342 9
+17633 2813 2
+4483 1256 6
+4483 4522 1
+4483 4117 2
+4483 344 3
+4483 3690 2
+18820 1750 2
+18820 8033 2
+18820 1066 82
+18820 941 3
+18820 1539 1
+18820 265 1
+18820 935 1
+18820 6391 1
+18820 1122 3
+18820 15953 2
+18820 1255 2
+18820 2171 5
+18820 934 1
+18820 1754 2
+18820 6389 1
+18820 2250 1
+18820 344 4
+18820 846 2
+18820 1256 10
+18820 2070 4
+18820 4201 2
+18820 253 5
+18820 342 9
+18820 3004 8
+18820 16241 2
+18820 254 5
+18820 8032 4
+18820 6388 9
+18820 19035 10
+18820 9716 1
+18820 1540 1
+18820 4117 6
+18820 8031 1
+18820 4093 2
+18820 2161 2
+18820 266 1
+18820 3690 44
+24567 4117 6
+24567 10430 29
+24567 253 6
+24567 3690 6
+15229 4117 16
+15229 15321 3
+15229 8033 1
+15229 4201 3
+15229 1066 5
+15229 10431 7
+15229 5988 5
+15229 1820 4
+15229 1818 4
+15229 1819 2
+15229 5987 16
+15229 3690 6
+23164 8177 1
+23164 4117 3
+23164 263 8
+23164 265 2
+23164 8287 8
+23164 8179 5
+23164 8178 1
+27890 1078 13
+27890 3688 3
+27890 846 21
+23264 1078 8
+6044 1078 24
+6044 3083 19
+25611 1078 5
+5587 1078 2
+25360 1078 4
+25360 1123 6
+25360 3265 2
+6501 1078 3
+17115 3842 4
+17115 1078 7
+17115 5031 1
+17115 5029 1
+19122 1078 5
+19122 846 18
+19122 1342 29
+6531 1069 3
+6531 1078 39
+6531 1066 33
+6531 2805 1
+6531 1073 6
+6531 254 2
+6531 846 4
+6531 1070 2
+27231 1078 4
+27231 10430 2
+27231 846 1
+21074 10431 17
+21074 1078 36
+21074 15321 1
+21074 1066 6
+21074 8074 2
+5842 5857 1
+5842 3690 2
+10965 2158 4
+2147 2158 4
+7228 1750 2
+7228 1754 1
+7228 1066 11
+7228 342 7
+21599 1068 4
+11808 8287 4
+16155 935 2
+346 345 3
+23469 346 3
+23469 345 9
+291 342 6
+291 350 1
+291 346 4
+291 344 1
+291 345 4
+4280 291 3
+4280 342 8
+4447 1255 1
+4447 342 4
+4447 350 1
+4447 346 4
+4447 344 1
+4447 345 4
+15611 342 8
+15611 4447 3
+16241 941 20
+16241 253 1
+16241 254 2
+16241 935 6
+16241 846 2
+16162 934 2
+16162 941 9
+16162 16241 9
+16162 254 22
+16162 935 2
+16162 846 9
+941 254 5
+941 846 4
+5322 9742 3
+5322 253 1
+5322 9846 8
+5322 934 1
+5322 9716 1
+5322 846 6
+5322 935 4
+5322 1342 8
+5322 2968 1
+9742 253 1
+9742 3083 5
+9742 846 8
+9742 1342 9
+9742 9846 7
+9742 6386 1
+9742 2813 2
+9846 3083 3
+9846 1342 3
+5279 5322 4
+5279 2805 1
+5279 935 2
+5279 846 4
+5279 1342 5
+21523 941 1
+1127 1256 1
+11839 2070 5
+11839 1753 2
+11839 1256 3
+11839 253 1
+11839 265 6
+11839 264 4
+11839 344 1
+11839 266 1
+4646 4647 1
+4646 22462 10
+4640 4647 1
+4640 2070 1
+4640 4646 1
+12424 4647 5
+12424 2070 8
+12424 1753 16
+12424 4646 1
+15953 2070 6
+15953 1256 2
+15953 677 1
+15953 344 1
+15953 2968 2
+25219 2070 1
+4647 3535 1
+4647 938 1
+4647 254 2
+4647 6388 2
+4647 2171 1
+4647 846 1
+4647 939 2
+20475 1753 6
+2249 2250 3
+2250 677 3
+737 814 18
+2186 2250 6
+2186 2249 1
+2186 253 1
+2186 846 3
+2186 2248 1
+12272 814 17
+2248 2250 3
+26100 2070 3
+26100 1256 2
+26100 1253 1
+26100 342 1
+26100 254 1
+26100 1067 2
+26100 5575 1
+26100 2811 2
+12449 8033 1
+12449 4093 2
+12449 3004 1
+12449 342 35
+12449 8165 7
+12449 2171 2
+12449 1539 1
+12449 1540 1
+12449 344 3
+12449 6391 1
+19062 342 11
+19062 12449 3
+1541 18564 1
+1345 18564 1
+8324 5331 10
+26534 2805 1
+26534 20783 17
+26534 8324 9
+8325 5331 9
+25935 2805 2
+25935 8325 9
+25935 20783 10
+8306 5745 2
+8306 8325 1
+8306 8324 1
+23117 253 3
+23117 3690 3
+7832 2070 4
+7832 8033 1
+7832 3004 6
+7832 253 3
+7832 8032 2
+7832 254 4
+7832 6388 3
+7832 1539 1
+7832 1540 1
+7832 6391 1
+7832 4117 4
+7832 8031 1
+7832 4093 2
+7832 2171 2
+7832 6389 1
+7832 846 6
+7832 8034 27
+3544 3563 25
+5465 3842 5
+5465 5494 6
+5465 5496 8
+5465 5495 6
+16428 254 2
+5496 5494 3
+12419 1256 2
+12419 2250 1
+12419 2249 1
+12419 2248 1
+12287 12419 7
+23094 3842 1
+23094 253 1
+23094 5028 9
+3720 3842 2
+3720 253 1
+19815 3842 6
+19815 253 5
+19815 10793 5
+15155 3842 1
+18037 3842 1
+18037 253 1
+25372 3842 1
+25372 253 1
+26662 19867 1
+26662 677 1
+26662 15953 3
+26662 936 1
+26662 935 2
+26662 4134 1
+19867 937 1
+19867 677 2
+19867 812 2
+17458 367 2
+17458 9725 1
+9718 367 27
+9718 9725 1
+16421 367 25
+16421 9725 1
+20572 367 11
+20572 9725 1
+16786 367 5
+16786 9725 7
+9725 367 50
+367 666 1
+666 367 3
+17317 181 3
+17317 1399 5
+1399 181 8
+181 10317 1
+181 254 1
+181 2443 3
+2971 3867 2
+2971 3866 2
+5678 2070 4
+5678 6381 1
+5678 2068 4
+5678 254 3
+5678 6380 1
+5678 3867 15
+5678 6379 1
+5678 5676 4
+5678 7573 1
+5678 846 1
+2444 3004 1
+2444 253 6
+2444 14478 6
+2444 254 8
+2444 6388 6
+2444 2970 3
+2444 2969 6
+2444 3535 3
+2444 1539 1
+2444 22423 3
+2444 21031 1
+2444 1540 2
+2444 7355 14
+2444 6390 2
+2444 14477 3
+2444 5678 9
+2444 935 4
+2444 6391 3
+2444 8331 3
+2444 2068 2
+2444 4093 1
+2444 6385 1
+2444 2171 4
+2444 3539 1
+2444 10681 1
+2444 22421 2
+2444 3867 24
+2444 13413 8
+2444 6389 4
+2444 5676 1
+2444 846 7
+2444 21606 1
+2444 20760 1
+21896 2067 3
+21896 10430 4
+21896 21983 2
+21896 254 3
+21896 21984 1
+21896 6388 10
+21896 3539 3
+21896 1842 9
+21896 3867 6
+21896 6844 1
+21896 7355 20
+21896 846 3
+21896 935 1
+21896 2444 15
+22047 3867 33
+22047 2971 2
+2445 3867 1
+2445 13413 1
+2445 3866 1
+2445 2969 4
+21278 2445 1
+17130 5677 7
+22423 3867 6
+22423 7573 1
+22423 5676 1
+5597 3867 2
+5597 5676 1
+5597 254 1
+5597 5678 1
+5597 2971 1
+10319 5676 6
+2177 2182 1
+2443 2445 1
+2443 253 2
+2443 254 3
+2443 2970 2
+2443 2968 2
+2443 2969 2
+15856 181 9
+8099 2997 1
+8099 181 30
+24502 181 11
+9 181 56
+24028 17317 18
+24028 181 8
+24028 1399 7
+17284 17317 22
+17284 181 10
+17284 1399 21
+10366 181 8
+10366 1399 6
+11162 181 8
+11162 1399 4
+1364 181 8
+1364 1399 4
+6454 181 4
+6454 1399 5
+14276 181 8
+14276 1399 6
+11763 181 8
+11763 1399 6
+5097 1539 1
+5097 181 29
+2307 2445 1
+2307 2439 1
+2307 2444 13
+2307 2443 30
+22702 846 1
+22702 181 15
+22702 2443 4
+21592 264 4
+20549 935 1
+20549 2444 2
+11801 2445 2
+10317 11801 1
+10317 253 1
+10317 2443 4
+2440 935 2
+15960 5676 5
+21274 3866 2
+22422 14478 2
+14338 1253 2
+14338 342 10
+14338 1067 2
+8404 1256 7
+8404 1067 4
+14331 1256 4
+14331 14338 1
+25007 2987 6
+11952 2987 1
+11896 11952 3
+11896 11715 5
+1540 677 3
+8279 11952 1
+8279 1540 12
+11686 11715 6
+11686 8279 11
+13600 1540 1
+13589 11715 1
+13589 13600 1

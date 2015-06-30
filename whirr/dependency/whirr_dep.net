@@ -1,0 +1,911 @@
+*Vertics: 244
+5,org.apache.whirr.service.jclouds.StatementBuilderTest
+40,org.apache.whirr.ClusterSpec
+43,org.apache.whirr.service.jclouds.StatementBuilder
+44,org.apache.whirr.service.jclouds.RunUrlStatement
+54,org.apache.whirr.actions.CleanupClusterAction
+76,org.apache.whirr.actions.ScriptBasedClusterAction
+89,org.apache.whirr.service.hbase.integration.HBaseServiceController
+175,org.apache.whirr.Cluster
+176,org.apache.whirr.ClusterController
+177,org.apache.whirr.RolePredicates
+178,org.apache.whirr.service.hadoop.HadoopProxy
+179,org.apache.whirr.service.hbase.HBaseThriftServerClusterActionHandler
+201,org.apache.whirr.karaf.command.support.WhirrCommandSupport
+228,org.apache.whirr.ClusterControllerFactory
+229,org.apache.whirr.karaf.command.support.ConfigurationReader
+236,org.apache.whirr.service.hadoop.HadoopDryRunTest
+248,org.apache.whirr.service.BaseServiceDryRunTest
+253,org.apache.whirr.ByonClusterController
+320,org.apache.whirr.actions.ByonClusterAction
+321,org.apache.whirr.ClusterAction
+322,org.apache.whirr.HandlerMapFactory
+323,org.apache.whirr.state.ClusterStateStore
+343,org.apache.whirr.service.chef.ChefClusterActionHandlerFactory
+349,org.apache.whirr.service.ClusterActionHandlerFactory
+350,org.apache.whirr.service.chef.ChefClusterActionHandler
+357,org.apache.whirr.service.hadoop.integration.benchmark.HadoopServiceTestDFSIOBenchmark
+377,org.apache.whirr.service.hadoop.integration.HadoopServiceController
+384,org.apache.whirr.service.ganglia.osgi.Activator
+408,org.apache.whirr.service.ganglia.GangliaMetadClusterActionHandler
+409,org.apache.whirr.service.ganglia.GangliaMonitorClusterActionHandler
+413,org.apache.whirr.service.zookeeper.ZooKeeperCluster
+422,org.apache.whirr.service.zookeeper.ZooKeeperClusterActionHandler
+428,org.apache.whirr.actions.BootstrapClusterActionTest
+620,org.apache.whirr.compute.NodeStarter
+621,org.apache.whirr.compute.NodeStarterFactory
+624,org.apache.whirr.actions.BootstrapClusterAction
+625,org.apache.whirr.util.Utils
+639,org.apache.whirr.cli.MainTest
+667,org.apache.whirr.command.Command
+669,org.apache.whirr.cli.Main
+722,org.apache.whirr.service.hadoop.integration.HadoopServiceTest
+726,org.apache.whirr.service.jclouds.VariablesToExport
+774,org.apache.whirr.service.cassandra.CassandraClusterActionHandlerTest
+792,org.apache.whirr.service.cassandra.CassandraClusterActionHandler
+800,org.apache.whirr.service.hadoop.HadoopNameNodeClusterActionHandler
+848,org.apache.whirr.service.ClusterActionEvent
+850,org.apache.whirr.service.FirewallManager
+851,org.apache.whirr.service.hadoop.HadoopClusterActionHandler
+852,org.apache.whirr.service.hadoop.HadoopCluster
+853,org.apache.whirr.service.hadoop.HadoopConfigurationConverter
+876,org.apache.whirr.service.elasticsearch.ElasticSearchHandler
+899,org.apache.whirr.service.ClusterActionHandlerSupport
+900,org.apache.whirr.service.elasticsearch.ElasticSearchConfigurationBuilder
+979,org.apache.whirr.service.hadoop.HadoopJobTrackerClusterActionHandler
+984,org.apache.whirr.service.mahout.integration.MahoutServiceTest
+1011,org.apache.whirr.TestConstants
+1012,org.apache.whirr.state.ClusterStateStoreFactory
+1018,org.apache.whirr.service.mahout.MahoutClientClusterActionHandler
+1022,org.apache.whirr.ClusterSpecTest
+1149,org.apache.whirr.util.KeyPair
+1150,org.apache.whirr.InstanceTemplate
+1190,org.apache.whirr.service.ComputeCache
+1329,org.apache.whirr.service.DryRunModule
+1332,org.apache.whirr.state.BlobClusterStateStore
+1364,org.apache.whirr.service.BlobStoreContextBuilder
+1365,org.apache.whirr.state.FileClusterStateStore
+1378,org.apache.whirr.template.TemplateUtils
+1422,org.apache.whirr.state.MemoryClusterStateStore
+1439,org.apache.whirr.service.elasticsearch.osgi.Activator
+1454,org.apache.whirr.service.cdh.integration.Cdh3ZooKeeperServiceTest
+1496,org.apache.whirr.service.puppet.functions.RolesManagedByPuppet
+1513,org.apache.whirr.service.puppet.predicates.PuppetPredicates
+1514,org.apache.whirr.service.puppet.PuppetConstants
+1557,org.apache.whirr.util.Tarball
+1591,org.apache.whirr.service.cassandra.CassandraServiceDryRunTest
+1613,org.apache.whirr.template.TemplateUtilsTest
+1627,org.apache.whirr.karaf.itest.integration.WhirrLiveTestSupport
+1656,org.apache.whirr.karaf.itest.WhirrKarafTestSupport
+1667,org.apache.whirr.service.hbase.osgi.Activator
+1690,org.apache.whirr.service.hbase.HBaseAvroServerClusterActionHandler
+1691,org.apache.whirr.service.hbase.HBaseMasterClusterActionHandler
+1692,org.apache.whirr.service.hbase.HBaseRegionServerClusterActionHandler
+1693,org.apache.whirr.service.hbase.HBaseRestServerClusterActionHandler
+1700,org.apache.whirr.service.jclouds.integration.FirewallManagerTest
+1726,org.apache.whirr.service.voldemort.integration.VoldemortServiceTest
+1759,org.apache.whirr.service.voldemort.VoldemortConstants
+1764,org.apache.whirr.service.hadoop.HadoopConfigurationBuilderTest
+1814,org.apache.whirr.net.FakeDnsResolver
+1816,org.apache.whirr.service.hadoop.HadoopDataNodeClusterActionHandler
+1817,org.apache.whirr.service.hadoop.HadoopTaskTrackerClusterActionHandler
+1818,org.apache.whirr.service.hadoop.HadoopConfigurationBuilder
+1826,org.apache.whirr.ClusterControllerFactoryTest
+1841,org.apache.whirr.service.chef.RecipeTest
+1854,org.apache.whirr.service.chef.Recipe
+1863,org.apache.whirr.service.chef.osgi.Activator
+1876,org.apache.whirr.service.yarn.YarnHandler
+1900,org.apache.whirr.examples.HadoopClusterExample
+1958,org.apache.whirr.examples.Example
+1963,org.apache.whirr.service.puppet.statements.InstallModuleFromGitTest
+1969,org.apache.whirr.service.puppet.statements.InstallModuleFromGit
+1974,org.apache.whirr.actions.CleanupClusterActionTest
+1981,org.apache.whirr.actions.ScriptBasedClusterActionTest
+2000,org.apache.whirr.service.hama.HamaGroomServerClusterActionHandler
+2016,org.apache.whirr.service.hama.HamaClusterActionHandler
+2017,org.apache.whirr.service.hama.HamaMasterClusterActionHandler
+2018,org.apache.whirr.service.hama.HamaConstants
+2053,org.apache.whirr.service.jclouds.RunUrlStatementTest
+2066,org.apache.whirr.actions.StartServicesAction
+2078,org.apache.whirr.service.pig.PigClientClusterActionHandler
+2091,org.apache.whirr.service.yarn.integration.YarnServiceTest
+2094,org.apache.whirr.service.yarn.integration.AbstractHadoopServiceTest
+2095,org.apache.whirr.service.yarn.integration.HadoopServiceController
+2100,org.apache.whirr.service.zookeeper.integration.ZooKeeperServiceTest
+2124,org.apache.whirr.service.yarn.YarnNodeManagerHandler
+2138,org.apache.whirr.service.yarn.YarnConfigurationBuilder
+2143,org.apache.whirr.service.DryRunModuleTest
+2272,org.apache.whirr.service.puppet.osgi.Activator
+2284,org.apache.whirr.service.puppet.PuppetClusterActionHandlerFactory
+2287,org.apache.whirr.cli.command.ListProvidersCommand
+2329,org.apache.whirr.command.AbstractClusterCommand
+2333,org.apache.whirr.cli.command.DestroyInstanceCommandTest
+2347,org.apache.whirr.cli.command.BaseCommandTest
+2348,org.apache.whirr.cli.command.DestroyInstanceCommand
+2355,org.apache.whirr.service.hadoop.HadoopConfigurationConverterTest
+2364,org.apache.whirr.service.hama.HamaCluster
+2368,org.apache.whirr.service.cdh.integration.CdhHBaseServiceTest
+2396,org.apache.whirr.service.elasticsearch.integration.ElasticSearchTest
+2430,org.apache.whirr.service.puppet.PuppetInstallClusterActionHandler
+2440,org.apache.whirr.cli.command.RunScriptCommand
+2624,org.apache.whirr.util.BlobCache
+2656,org.apache.whirr.service.hbase.HBaseClusterActionHandler
+2657,org.apache.whirr.service.hbase.HBaseConstants
+2658,org.apache.whirr.service.hbase.HBaseConfigurationBuilder
+2783,org.apache.whirr.actions.ConfigureServicesAction
+2784,org.apache.whirr.actions.DestroyClusterAction
+2785,org.apache.whirr.actions.StopServicesAction
+2825,org.apache.whirr.karaf.command.DestroyInstance
+2896,org.apache.whirr.cli.command.RunScriptCommandTest
+2937,org.apache.whirr.karaf.itest.integration.WhirrKarafZookeeperServiceTest
+2961,org.apache.whirr.ClusterTest
+3082,org.apache.whirr.net.FastDnsResolver
+3087,org.apache.whirr.DynamicHandlerMapFactory
+3098,org.apache.whirr.cli.command.CleanupClusterCommand
+3118,org.apache.whirr.state.integration.BlobClusterStateStoreTest
+3200,org.apache.whirr.service.hbase.BasicServerClusterActionHandler
+3227,org.apache.whirr.service.zookeeper.osgi.Activator
+3238,org.apache.whirr.service.NoopClusterActionHandler
+3242,org.apache.whirr.command.AbstractClusterCommandTest
+3478,org.apache.whirr.service.puppet.functions.RolesManagedByPuppetTest
+3481,org.apache.whirr.service.cdh.integration.CdhHadoopServiceTest
+3526,org.apache.whirr.service.chef.integration.MockDependencyServiceClusterActionHandler
+3566,org.apache.whirr.service.ganglia.GangliaCluster
+3570,org.apache.whirr.util.UtilsTest
+3582,org.apache.whirr.compute.BootstrapTemplateTest
+3618,org.apache.whirr.compute.BootstrapTemplate
+3621,org.apache.whirr.cli.command.HelpCommand
+3671,org.apache.whirr.service.puppet.statements.CreateSitePpAndApplyRolesTest
+3677,org.apache.whirr.service.puppet.statements.CreateSitePpAndApplyRoles
+3681,org.apache.whirr.service.puppet.functions.InstallAllModulesStatementFromProperties
+3694,org.apache.whirr.service.puppet.functions.StatementToInstallModule
+3695,org.apache.whirr.service.puppet.functions.KeyToModuleNameOrNull
+3722,org.apache.whirr.service.puppet.functions.InstallAllModulesStatementFromPropertiesTest
+3732,org.apache.whirr.cli.command.ConfigureServicesCommand
+3743,org.apache.whirr.cli.command.RoleLifecycleCommand
+3750,org.apache.whirr.service.hama.osgi.Activator
+3764,org.apache.whirr.service.hbase.integration.HBaseOldServiceTest
+3782,org.apache.whirr.service.hbase.integration.HBaseOldServiceController
+3839,org.apache.whirr.cli.command.ListClusterCommandTest
+3868,org.apache.whirr.cli.command.ListClusterCommand
+3873,org.apache.whirr.examples.Main
+3914,org.apache.whirr.karaf.itest.WhirrServicesTest
+3982,org.apache.whirr.util.integration.BlobCacheTest
+4044,org.apache.whirr.service.cdh.integration.Cdh3HBaseServiceTest
+4152,org.apache.whirr.karaf.command.ListCluster
+4184,org.apache.whirr.karaf.command.RunScript
+4256,org.apache.whirr.service.hadoop.VolumeManager
+4278,org.apache.whirr.service.puppet.ManifestTest
+4288,org.apache.whirr.service.puppet.Manifest
+4320,org.apache.whirr.actions.integration.PhaseExecutionBarrierTest
+4365,org.apache.whirr.cli.command.VersionCommand
+4377,org.apache.whirr.service.cdh.osgi.Activator
+4385,org.apache.whirr.service.hadoop.integration.HadoopSingleNodeServiceTest
+4387,org.apache.whirr.service.hadoop.integration.AbstractHadoopServiceTest
+4390,org.apache.whirr.service.solr.osgi.Activator
+4400,org.apache.whirr.service.solr.SolrClusterActionHandler
+4403,org.apache.whirr.cli.command.LaunchClusterCommand
+4427,org.apache.whirr.cli.command.VersionCommandTest
+4486,org.apache.whirr.service.hbase.HBaseCluster
+4501,org.apache.whirr.service.hadoop.osgi.Activator
+4521,org.apache.whirr.cli.command.DestroyClusterCommandTest
+4537,org.apache.whirr.cli.command.DestroyClusterCommand
+4545,org.apache.whirr.service.hadoop.integration.benchmark.HadoopBenchmarkSuite
+4553,org.apache.whirr.service.hadoop.integration.benchmark.HadoopServiceTeraSortBenchmark
+4566,org.apache.whirr.service.cassandra.integration.CassandraServiceTest
+4603,org.apache.whirr.service.elasticsearch.ElasticSearchConfigurationBuilderTest
+4691,org.apache.whirr.service.puppet.integration.PuppetServiceTest
+4715,org.apache.whirr.karaf.itest.WhirrFunctionLoaderTest
+4937,org.apache.whirr.util.KeyPairTest
+4993,org.apache.whirr.service.hama.integration.HamaServiceController
+5022,org.apache.whirr.service.hadoop.integration.HadoopSeparateNodesServiceTest
+5032,org.apache.whirr.service.solr.integration.SolrServiceTest
+5090,org.apache.whirr.service.pig.integration.PigServiceTest
+5112,org.apache.whirr.cli.command.LaunchClusterCommandTest
+5156,org.apache.whirr.service.voldemort.osgi.Activator
+5168,org.apache.whirr.service.cdh.integration.CdhZooKeeperServiceTest
+5192,org.apache.whirr.net.integration.FastDnsResolverTest
+5222,org.apache.whirr.cli.command.RestartServicesCommand
+5277,org.apache.whirr.service.cdh.integration.CdhYarnServiceTest
+5282,org.apache.whirr.actions.ConfigureServicesActionTest
+5291,org.apache.whirr.service.yarn.YarnResourceManagerHandler
+5339,org.apache.whirr.service.puppet.functions.KeyToModuleNameOrNullTest
+5374,org.apache.whirr.service.ganglia.integration.GangliaServiceTest
+5516,org.apache.whirr.compute.StartupProcess
+5592,org.apache.whirr.cli.command.StopServicesCommand
+5606,org.apache.whirr.service.voldemort.VoldemortClusterActionHandler
+5648,org.apache.whirr.service.yarn.MapReduceJobHistoryServerHandler
+5656,org.apache.whirr.service.puppet.PuppetClusterActionHandler
+5682,org.apache.whirr.service.puppet.functions.ModulePropertiesFromConfiguration
+5814,org.apache.whirr.actions.StartServicesActionTest
+5822,org.apache.whirr.service.yarn.osgi.Activator
+5848,org.apache.whirr.karaf.command.DestroyCluster
+5853,org.apache.whirr.service.chef.integration.ChefServiceTest
+5894,org.apache.whirr.osgi.Activator
+5929,org.apache.whirr.DynamicClusterControllerFactory
+5977,org.apache.whirr.service.cassandra.osgi.Activator
+6066,org.apache.whirr.service.hbase.integration.HBase092SingleNodeServiceTest
+6068,org.apache.whirr.service.hbase.integration.HBaseServiceTest
+6078,org.apache.whirr.service.hama.integration.HamaServiceTest
+6179,org.apache.whirr.service.puppet.functions.ModulePropertiesFromConfigurationTest
+6253,org.apache.whirr.actions.StopServicesActionTest
+6302,org.apache.whirr.service.cdh.integration.Cdh3HadoopServiceTest
+6563,org.apache.whirr.service.hbase.integration.HBase090ServiceTest
+6566,org.apache.whirr.service.hbase.integration.HBase092ServiceTest
+6645,org.apache.whirr.net.DnsException
+6654,org.apache.whirr.cli.command.StartServicesCommand
+6666,org.apache.whirr.karaf.itest.WhirrInstallationTest
+6672,org.apache.whirr.service.puppet.predicates.PuppetPredicatesTest
+6713,org.apache.whirr.service.puppet.functions.StatementToInstallModuleTest
+6901,org.apache.whirr.service.puppet.PuppetClusterActionHandlerFactoryTest
+6905,org.apache.whirr.service.pig.osgi.Activator
+6932,org.apache.whirr.service.hbase.integration.HBase090SingleNodeServiceTest
+6935,org.apache.whirr.karaf.command.LaunchCluster
+6942,org.apache.whirr.service.chef.ChefServiceDryRunTest
+6983,org.apache.whirr.service.mahout.osgi.Activator
+*Edges: 665
+253 321 3
+253 175 2
+253 322 3
+253 320 3
+253 323 3
+253 176 10
+321 175 2
+321 40 1
+176 2066 1
+176 175 28
+176 76 6
+176 2785 1
+176 40 33
+176 624 1
+176 54 1
+176 322 9
+176 323 8
+176 2783 1
+176 2784 1
+176 1012 3
+228 176 4
+1826 228 2
+40 1149 2
+40 1150 4
+1022 1149 6
+1022 40 62
+1022 1150 27
+2961 175 7
+2961 177 1
+5929 228 1
+5929 176 4
+3087 322 1
+624 3618 1
+624 175 1
+624 76 2
+624 621 2
+624 40 2
+624 848 1
+624 1150 3
+624 321 1
+624 5516 1
+428 624 4
+428 76 4
+428 322 2
+428 40 4
+428 625 2
+428 349 3
+320 321 1
+320 175 1
+320 76 3
+320 43 1
+320 40 2
+320 848 1
+54 76 3
+1974 1981 1
+1974 54 2
+2783 175 1
+2783 76 4
+2783 40 1
+2783 848 3
+2783 177 1
+2783 850 1
+5282 1981 1
+5282 2783 2
+2784 321 1
+2784 76 2
+2784 40 3
+76 1378 1
+76 175 1
+76 40 5
+76 848 4
+76 1150 4
+76 850 1
+76 43 4
+76 321 8
+76 177 1
+1981 321 1
+1981 175 6
+1981 76 5
+1981 322 1
+1981 40 7
+1981 176 2
+1981 1150 2
+2066 76 3
+5814 2066 2
+5814 1981 1
+2785 76 3
+6253 1981 1
+6253 2785 2
+4320 228 1
+4320 40 3
+4320 176 3
+669 667 6
+639 669 6
+639 667 1
+3098 228 2
+3098 40 1
+3098 2329 6
+3098 176 1
+3098 1012 1
+3732 228 2
+3732 3743 4
+3732 2329 1
+3732 176 1
+3732 1012 1
+4537 228 1
+4537 40 2
+4537 2329 7
+4537 176 1
+4521 1149 2
+4521 228 1
+4521 2347 1
+4521 40 6
+4521 4537 2
+2348 228 1
+2348 40 2
+2348 2329 6
+2348 176 1
+2333 1149 1
+2333 228 1
+2333 2347 1
+2333 2348 2
+3621 667 4
+4403 175 1
+4403 228 1
+4403 40 2
+4403 2329 7
+4403 625 1
+4403 176 1
+5112 4403 3
+5112 1149 4
+5112 228 2
+5112 2347 2
+5112 40 15
+5112 176 2
+5112 1150 4
+3868 228 2
+3868 40 2
+3868 2329 8
+3868 176 1
+3868 1012 1
+3839 175 2
+3839 3868 2
+3839 2347 1
+3839 228 1
+3839 1149 2
+3839 176 2
+3839 323 1
+3839 1012 1
+2287 228 1
+2287 2329 3
+5222 228 2
+5222 3743 6
+5222 2329 2
+5222 176 2
+5222 1012 1
+3743 228 1
+3743 40 2
+3743 2329 6
+3743 176 1
+3743 667 1
+3743 1012 1
+2440 175 1
+2440 40 3
+2440 2329 7
+2440 667 2
+2440 228 2
+2440 176 1
+2440 323 1
+2440 177 1
+2440 1012 1
+2896 175 2
+2896 1149 2
+2896 228 2
+2896 2347 1
+2896 323 1
+2896 2440 3
+2896 1012 1
+6654 228 2
+6654 3743 4
+6654 2329 1
+6654 176 1
+6654 1012 1
+5592 228 2
+5592 3743 4
+5592 2329 1
+5592 176 1
+5592 1012 1
+4365 667 2
+4427 2347 1
+4427 4365 1
+2329 175 2
+2329 228 5
+2329 40 8
+2329 323 1
+2329 176 3
+2329 667 4
+2329 1012 3
+3242 1149 1
+3242 40 2
+3242 2329 2
+3618 43 7
+3618 40 11
+3618 1150 9
+3582 3618 1
+3582 43 1
+3582 40 4
+621 620 2
+5516 621 3
+1900 175 2
+1900 228 1
+1900 178 3
+1900 1958 1
+1900 40 3
+1900 176 2
+3873 1958 5
+5848 201 2
+5848 4537 1
+2825 201 2
+2825 2348 2
+6935 4403 1
+6935 201 2
+4152 3868 1
+4152 201 2
+4184 201 2
+4184 2440 2
+201 228 3
+201 40 4
+201 229 2
+4715 1656 16
+6666 1656 4
+3914 1656 15
+2937 1627 6
+2937 1656 7
+1627 1656 1
+5192 3082 1
+5894 5929 1
+5894 3087 1
+5894 176 2
+248 40 2
+248 176 3
+1364 40 1
+848 175 5
+848 43 3
+848 40 4
+848 1150 4
+848 850 4
+899 43 1
+899 40 4
+899 2624 3
+899 848 35
+1190 40 1
+2143 40 3
+2143 176 8
+850 175 3
+850 40 6
+3238 899 1
+792 175 1
+792 43 1
+792 40 2
+792 848 5
+792 177 1
+792 899 15
+792 850 1
+774 792 3
+1591 248 1
+4566 175 4
+4566 40 2
+4566 176 4
+4044 89 4
+6302 175 2
+6302 178 4
+6302 40 2
+6302 176 5
+1454 175 1
+1454 40 2
+1454 176 4
+1454 413 1
+2368 89 4
+3481 175 2
+3481 178 4
+3481 40 2
+3481 176 5
+5277 3481 1
+5277 178 2
+5277 40 1
+5277 176 2
+5168 175 1
+5168 40 2
+5168 176 4
+5168 413 1
+350 40 2
+350 1854 1
+350 848 4
+350 1150 1
+350 899 7
+343 350 1
+343 349 1
+6942 248 17
+1841 1854 8
+5853 40 2
+5853 1854 5
+5853 176 10
+3526 1854 1
+3526 899 2
+1863 343 1
+900 175 4
+900 40 9
+900 177 1
+4603 175 1
+4603 900 5
+4603 40 3
+876 175 1
+876 900 2
+876 40 1
+876 848 4
+876 177 1
+876 899 13
+876 850 1
+2396 175 4
+2396 40 2
+2396 176 4
+2396 177 1
+3566 175 2
+3566 177 1
+3566 409 1
+408 175 2
+408 40 2
+408 848 6
+408 177 3
+408 899 8
+408 850 1
+409 175 2
+409 40 2
+409 848 6
+409 177 3
+409 899 8
+409 850 1
+5374 175 3
+5374 228 1
+5374 40 3
+5374 176 3
+5374 177 2
+852 175 8
+852 177 3
+851 1378 1
+851 175 4
+851 4256 2
+851 40 5
+851 848 12
+851 1150 1
+851 899 14
+851 43 1
+851 1818 4
+851 177 2
+1818 175 12
+1818 40 10
+1818 177 3
+1818 853 4
+1764 175 3
+1764 40 5
+1764 1818 6
+2355 853 2
+1816 40 1
+1816 851 1
+1816 848 2
+236 248 1
+979 175 1
+979 852 2
+979 40 1
+979 848 4
+979 800 1
+979 177 1
+979 850 1
+800 175 5
+800 852 3
+800 40 11
+800 848 5
+800 853 1
+800 850 1
+800 178 2
+800 851 1
+800 177 1
+178 175 2
+178 1149 1
+178 852 1
+178 40 7
+1817 175 1
+1817 852 1
+1817 40 1
+1817 851 1
+1817 848 3
+1817 177 1
+1817 850 1
+4256 40 1
+4387 377 4
+5022 4387 1
+5022 377 2
+377 175 3
+377 178 4
+377 40 2
+377 176 4
+722 4387 1
+722 377 2
+4385 4387 1
+4385 377 2
+4545 377 4
+4553 175 1
+4553 377 9
+357 377 5
+2364 175 2
+2364 177 1
+2016 40 1
+2016 848 1
+2016 899 9
+2000 175 1
+2000 2016 4
+2000 848 3
+2000 413 1
+2000 177 1
+2000 899 4
+2000 850 1
+2017 175 5
+2017 2016 4
+2017 40 5
+2017 848 6
+2017 413 2
+2017 2364 1
+2017 899 4
+2017 850 1
+2017 178 2
+2017 177 2
+4993 175 2
+4993 178 4
+4993 40 2
+4993 176 4
+6078 4993 5
+3200 175 1
+3200 2656 7
+3200 848 4
+3200 413 1
+3200 177 1
+3200 899 10
+3200 850 1
+1690 3200 2
+4486 175 2
+4486 177 1
+2656 175 2
+2656 40 3
+2656 848 1
+2656 177 1
+2656 899 4
+2658 175 6
+2658 40 6
+2658 413 1
+2658 177 1
+2658 853 2
+1691 1378 1
+1691 175 5
+1691 40 5
+1691 4486 1
+1691 2658 2
+1691 848 10
+1691 413 2
+1691 899 10
+1691 850 1
+1691 43 1
+1691 178 2
+1691 2656 8
+1691 177 2
+1692 1378 1
+1692 175 1
+1692 2658 2
+1692 848 7
+1692 413 1
+1692 899 10
+1692 850 1
+1692 43 1
+1692 2656 8
+1692 177 1
+1693 3200 2
+179 3200 2
+6563 3764 1
+6563 3782 2
+6932 3764 1
+6932 3782 2
+6566 89 2
+6566 6068 1
+6066 89 2
+6066 6068 1
+3782 175 3
+3782 178 4
+3782 40 2
+3782 176 4
+3782 177 1
+3764 3782 3
+89 175 3
+89 178 4
+89 40 2
+89 176 4
+89 177 1
+6068 89 3
+2053 44 9
+43 726 2
+43 40 2
+5 43 12
+5 40 9
+726 40 15
+1700 175 1
+1700 1190 1
+1700 40 4
+1700 850 4
+1018 848 1
+1018 899 5
+984 175 1
+984 40 2
+984 323 1
+984 176 5
+984 177 1
+984 1012 1
+2078 848 1
+2078 899 4
+5090 175 1
+5090 40 2
+5090 323 1
+5090 176 5
+5090 177 1
+5090 1012 1
+4278 4288 6
+5656 3681 2
+5656 1513 2
+5656 40 2
+5656 848 8
+5656 1150 4
+5656 1496 1
+5656 899 2
+5656 43 1
+5656 2430 2
+5656 5682 1
+5656 3677 1
+2284 5656 1
+2284 349 1
+6901 322 2
+6901 5656 2
+2430 899 5
+3681 3694 3
+3681 1513 1
+3722 3681 2
+5339 3695 3
+6179 5682 1
+1496 1513 1
+3478 1496 1
+3694 1969 1
+3694 848 1
+6713 3694 5
+4691 175 2
+4691 40 2
+4691 176 4
+2272 2284 1
+6672 1513 4
+3677 4288 4
+3671 3677 2
+1963 1969 4
+4400 175 1
+4400 40 1
+4400 848 7
+4400 177 2
+4400 899 17
+4400 850 1
+5032 175 2
+5032 1557 1
+5032 40 2
+5032 176 4
+5032 2624 1
+5032 177 1
+5606 175 3
+5606 40 3
+5606 848 6
+5606 177 1
+5606 899 15
+5606 850 1
+1726 175 3
+1726 40 2
+1726 176 4
+5648 1876 2
+5648 848 1
+5648 899 2
+2138 175 4
+2138 40 4
+2138 177 1
+2138 853 1
+1876 40 1
+1876 848 1
+1876 899 12
+2124 1876 4
+2124 175 1
+2124 43 1
+2124 2138 1
+2124 848 5
+2124 177 1
+2124 899 2
+2124 850 1
+5291 175 5
+5291 2138 1
+5291 40 7
+5291 848 8
+5291 899 2
+5291 853 2
+5291 850 1
+5291 1876 4
+5291 43 1
+5291 177 2
+2094 2095 4
+2095 175 3
+2095 178 4
+2095 40 2
+2095 176 4
+2091 2094 1
+2091 2095 2
+413 175 3
+413 422 1
+413 177 1
+422 175 2
+422 40 2
+422 848 9
+422 177 3
+422 899 20
+422 850 1
+2100 175 1
+2100 228 1
+2100 40 3
+2100 176 3
+2100 413 1
+1332 40 4
+1332 1364 1
+1332 323 3
+323 175 8
+323 40 3
+1012 40 1
+1012 323 1
+1365 175 1
+1365 40 5
+1365 323 3
+1422 175 1
+1422 323 1
+3118 175 4
+3118 40 5
+3118 1364 1
+3118 1332 5
+1378 175 2
+1378 40 2
+1613 1378 2
+1613 175 1
+1613 40 1
+2624 40 12
+2624 1364 1
+4937 1149 7
+625 175 2
+625 40 5
+3570 175 1
+3570 40 2
+3570 625 1
+3982 40 10
+3982 1364 1
+3982 2624 9

@@ -1,0 +1,383 @@
+*Vertics: 143
+2,org.apache.rat.header.HeaderBean
+20,org.apache.rat.document.impl.util.DocumentAnalyserMultiplexerTest
+40,org.apache.rat.document.MockDocument
+41,org.apache.rat.document.MockDocumentAnalyser
+43,org.apache.rat.document.impl.util.DocumentAnalyserMultiplexer
+49,org.apache.rat.license.OASISLicenseFamily
+52,org.apache.rat.api.MetaData
+54,org.apache.rat.license.SimpleLicenseFamily
+59,org.apache.rat.analysis.license.CDDL1License
+78,org.apache.rat.analysis.license.SimplePatternBasedLicense
+86,org.apache.rat.analysis.HeaderCheckWorker
+135,org.apache.rat.analysis.RatHeaderAnalysisException
+148,org.apache.rat.header.HeaderMatcherTest
+172,org.apache.rat.header.SimpleCharFilter
+173,org.apache.rat.header.HeaderMatcher
+181,org.apache.rat.analysis.license.TMF854LicenseHeader
+189,org.apache.rat.analysis.MockLicenseMatcher
+206,org.apache.rat.test.utils.Resources
+234,org.apache.rat.document.impl.DocumentImplUtils
+248,org.apache.rat.anttasks.Report
+337,org.apache.rat.Defaults
+338,org.apache.rat.ReportConfiguration
+339,org.apache.rat.analysis.util.HeaderMatcherMultiplexer
+340,org.apache.rat.api.RatException
+344,org.apache.rat.anttasks.ResourceCollectionContainer
+345,org.apache.rat.Report
+357,org.apache.rat.document.impl.guesser.BinaryGuesser
+461,org.apache.rat.document.impl.guesser.GuessUtils
+466,org.apache.rat.document.impl.guesser.ArchiveGuesserTest
+470,org.apache.rat.document.impl.guesser.ArchiveGuesser
+474,org.apache.rat.analysis.license.MITLicense
+479,org.apache.rat.analysis.license.FullTextMatchingLicense
+500,org.apache.rat.analysis.license.BaseLicense
+504,org.apache.rat.analysis.HeaderCheckWorkerTest
+508,org.apache.rat.analysis.license.ApacheSoftwareLicense20
+509,org.apache.rat.document.MockLocation
+514,org.apache.rat.policy.DefaultPolicy
+539,org.apache.rat.document.RatDocumentAnalysisException
+572,org.apache.rat.mp.RatReportMojo
+699,org.apache.rat.mp.AbstractRatMojo
+704,org.apache.rat.report.claim.ClaimStatistic
+738,org.apache.rat.annotation.TestLicenceAppender
+965,org.apache.rat.annotation.ApacheV2LicenceAppender
+966,org.apache.rat.annotation.AbstractLicenceAppender
+972,org.apache.rat.document.CompositeDocumentException
+974,org.apache.rat.report.claim.util.ClaimReporterMultiplexer
+997,org.apache.rat.report.claim.impl.xml.MockClaimReporter
+999,org.apache.rat.report.AbstractReport
+1001,org.apache.rat.document.impl.FileDocument
+1016,org.apache.rat.walker.DirectoryWalker
+1052,org.apache.rat.walker.Walker
+1053,org.apache.rat.walker.FileNameComparator
+1061,org.apache.rat.analysis.license.W3CDocLicense
+1068,org.apache.rat.header.ArrayCharFilter
+1080,org.apache.rat.analysis.license.CopyrightHeaderTest
+1092,org.apache.rat.analysis.license.CopyrightHeader
+1099,org.apache.rat.license.GPL1LicenseFamily
+1103,org.apache.rat.document.impl.guesser.NoteGuesser
+1136,org.apache.rat.report.xml.XmlUtils
+1182,org.apache.rat.analysis.DefaultAnalyserFactory
+1193,org.apache.rat.analysis.DocumentHeaderAnalyser
+1201,org.apache.rat.anttasks.AbstractRatAntTaskTest
+1269,org.apache.rat.header.FilteringSequenceFactory
+1275,org.apache.rat.analysis.generation.JavaDocLicenseNotRequiredTest
+1293,org.apache.rat.analysis.generation.JavaDocLicenseNotRequired
+1296,org.apache.rat.license.Apache20LicenseFamily
+1299,org.apache.rat.analysis.AnalyserFactoryTest
+1322,org.apache.rat.document.impl.MonolithicFileDocument
+1323,org.apache.rat.report.claim.impl.xml.SimpleXmlClaimReporter
+1324,org.apache.rat.report.xml.writer.impl.base.XmlWriter
+1333,org.apache.rat.analysis.license.DojoLicenseHeader
+1338,org.apache.rat.anttasks.ReportTest
+1373,org.apache.rat.report.claim.util.LicenseAddingReport
+1392,org.apache.rat.analysis.util.MatcherMultiplexerTest
+1415,org.apache.rat.analysis.license.ApacheSoftwareLicense20Test
+1426,org.apache.rat.analysis.license.MITLicenseTest
+1474,org.apache.rat.api.ContentType
+1476,org.apache.rat.analysis.generation.GeneratedLicenseNotRequiredTest
+1483,org.apache.rat.analysis.generation.GeneratedLicenseNotRequired
+1498,org.apache.rat.document.impl.ArchiveEntryDocument
+1514,org.apache.rat.license.GPL2LicenseFamily
+1518,org.apache.rat.license.CDDL1LicenseFamily
+1521,org.apache.rat.mp.FilesReportable
+1548,org.apache.rat.mp.LicenseFamilySpecification
+1569,org.apache.rat.document.impl.AbstractMonolithicDocument
+1572,org.apache.rat.document.impl.guesser.GuessUtilsTest
+1581,org.apache.rat.document.ToNameTransformer
+1591,org.apache.rat.report.claim.impl.AbstractClaimReporter
+1625,org.apache.rat.document.impl.guesser.NoteGuesserTest
+1631,org.apache.rat.report.xml.writer.XmlWriterUtilsTest
+1637,org.apache.rat.report.xml.writer.XmlWriterUtils
+1642,org.apache.rat.walker.ArchiveWalker
+1676,org.apache.rat.anttasks.SubstringLicenseMatcher
+1691,org.apache.rat.analysis.license.OASISLicense
+1721,org.apache.rat.mp.RatCheckMojoTest
+1847,org.apache.rat.mp.RatCheckException
+1848,org.apache.rat.mp.RatCheckMojo
+1889,org.apache.rat.report.xml.XmlReportFactory
+1899,org.apache.rat.report.claim.impl.ClaimAggregator
+1907,org.apache.rat.mp.HeaderMatcherSpecification
+1929,org.apache.rat.analysis.license.W3CLicense
+1943,org.apache.rat.ReportTransformerTest
+1949,org.apache.rat.ReportTransformer
+1952,org.apache.rat.analysis.license.W3CLicenseTest
+1984,org.apache.rat.ReportFailedRuntimeException
+2010,org.apache.rat.header.FilteringSequenceFactoryTest
+2043,elements.Source
+2048,org.apache.rat.analysis.license.DirectoryScanner
+2068,org.apache.rat.document.impl.guesser.BinaryGuesserTest
+2200,org.apache.rat.annotation.BOMInputStream
+2242,org.apache.rat.analysis.license.GPL1License
+2248,org.apache.rat.report.xml.writer.impl.base.XmlWriterTest
+2308,org.apache.rat.report.xml.writer.InvalidXmlException
+2309,org.apache.rat.report.xml.writer.OperationNotAllowedException
+2314,org.apache.rat.license.GPL3LicenseFamily
+2328,org.apache.rat.anttasks.FullTextLicenseMatcher
+2368,org.apache.rat.analysis.license.GPL2License
+2374,org.apache.rat.analysis.license.AppliedApacheSoftwareLicense20
+2390,org.apache.rat.analysis.license.AppliedApacheSoftwareLicense20Test
+2417,org.apache.rat.analysis.license.GPL3License
+2423,org.apache.rat.license.MITLicenseFamily
+2488,org.apache.rat.report.xml.XmlReportTest
+2571,org.apache.rat.analysis.license.CDDL1LicenseTest
+2582,org.apache.rat.walker.FileNameComparatorTest
+2590,org.apache.rat.report.xml.MockXmlWriter
+2647,org.example.LicenseFamily
+2651,org.example.Matcher
+2808,org.apache.rat.policy.DefaultPolicyTest
+2821,org.apache.rat.license.ModifiedBSDLicenseFamily
+2824,org.apache.rat.license.W3CDocumentLicenseFamily
+2836,org.apache.rat.document.impl.SingularFileDocumentTest
+2851,org.apache.rat.analysis.RatReportAnalysisResultException
+2861,org.apache.rat.document.ToNameTransformerTest
+2877,org.apache.rat.analysis.license.GPL123LicenseTest
+2912,org.apache.rat.license.W3CSoftwareLicenseFamily
+2922,org.apache.rat.document.UnsuitableDocumentException
+2934,org.apache.rat.header.HeaderMatcherWithBeansTest
+2946,org.apache.rat.analysis.license.MockStandardLicense
+2957,org.apache.rat.license.AcademicFree21LicenseFamily
+3088,org.apache.rat.report.xml.XmlReportFactoryTest
+3105,org.apache.rat.ReportTest
+3171,org.apache.rat.analysis.license.OASISLicenseTest
+3189,org.apache.rat.header.ArrayCharFilterTest
+*Edges: 238
+337 339 1
+345 704 4
+345 1889 1
+345 1324 1
+345 1016 1
+345 1642 1
+345 337 4
+345 338 11
+3105 1016 1
+3105 339 1
+3105 337 1
+3105 338 1
+3105 206 1
+1949 1984 1
+1943 1949 1
+1299 1322 4
+1299 1323 6
+1299 1324 1
+1299 1182 4
+1193 135 1
+1193 86 2
+1193 539 2
+86 135 1
+86 52 3
+504 509 1
+504 508 1
+504 86 3
+2851 340 2
+2851 539 4
+1483 52 1
+1476 509 1
+1476 997 1
+1476 1483 2
+1293 52 1
+1275 509 1
+1275 1293 2
+1275 997 1
+1275 206 1
+508 78 2
+1415 509 1
+1415 508 2
+1415 997 1
+1415 78 11
+2374 1092 6
+2374 479 4
+2390 509 2
+2390 2048 2
+2390 997 1
+2390 2374 6
+2390 206 1
+500 52 4
+59 78 4
+2571 509 1
+2571 59 1
+1092 500 3
+1080 509 1
+1080 1092 9
+1080 997 1
+2048 509 1
+2048 206 2
+1333 78 2
+479 500 6
+2877 509 1
+2877 2417 1
+2877 997 1
+2877 2368 1
+2877 2242 1
+2242 479 2
+2368 479 2
+2417 479 2
+474 479 2
+1426 509 1
+1426 474 1
+1426 997 1
+2946 500 2
+1691 479 4
+3171 509 2
+3171 2048 2
+3171 1691 6
+3171 997 1
+3171 206 1
+78 500 3
+181 78 2
+1061 78 2
+1929 78 2
+1952 509 1
+1952 997 1
+1952 78 3
+1952 1929 2
+1392 509 1
+1392 189 2
+1392 997 1
+1392 339 6
+966 2200 1
+965 966 42
+738 966 3
+738 206 1
+738 965 3
+2328 500 2
+2328 479 4
+248 345 1
+248 344 1
+248 340 1
+248 339 1
+248 337 1
+248 338 7
+1338 1201 12
+344 52 1
+1676 500 2
+1676 78 1
+52 1474 4
+40 52 2
+509 52 2
+2861 509 1
+2861 1581 3
+2922 539 4
+1569 52 3
+1498 52 2
+1498 234 2
+1001 52 2
+1001 234 2
+1322 234 1
+1322 1569 2
+2836 1322 1
+2836 234 1
+2836 206 1
+466 470 6
+466 40 6
+357 461 1
+2068 357 16
+2068 1001 7
+2068 40 12
+1572 461 6
+1103 461 1
+1625 40 6
+1625 1103 6
+20 40 2
+20 43 3
+3189 1068 8
+2010 172 2
+2010 1269 7
+173 2 4
+173 1269 3
+148 173 24
+148 172 2
+2934 2 22
+2934 173 4
+2934 172 2
+2957 54 2
+1296 54 2
+1518 54 2
+1099 54 2
+1514 54 2
+2314 54 2
+2423 54 2
+2821 54 2
+49 54 2
+2824 54 2
+2912 54 2
+699 704 1
+699 340 1
+699 1907 2
+699 1521 1
+699 339 1
+699 345 2
+699 338 3
+699 1548 2
+1521 52 1
+1848 1847 1
+1848 704 9
+1848 699 3
+1848 337 1
+1848 338 5
+1721 1847 1
+1721 699 1
+1721 1848 5
+572 699 5
+572 337 1
+514 52 2
+2808 509 1
+2808 514 7
+2808 997 1
+2808 52 6
+1591 999 1
+1591 52 8
+1899 704 10
+1899 1591 1
+1899 999 1
+997 999 1
+1323 340 3
+1323 999 1
+1323 52 10
+974 340 1
+974 539 1
+1373 340 1
+1373 999 1
+1373 52 2
+1373 966 3
+1373 965 2
+1889 1899 1
+1889 704 1
+1889 514 1
+1889 1373 1
+1889 1182 1
+1889 43 1
+1889 1323 1
+1889 338 6
+1889 974 1
+3088 704 4
+3088 1889 1
+3088 1324 1
+3088 1016 3
+3088 1136 1
+3088 338 1
+3088 206 1
+2488 1323 1
+2488 1324 1
+2488 1016 3
+2488 1182 1
+2488 1136 1
+2488 974 1
+2488 206 1
+1631 1637 2
+1631 1324 1
+1324 2309 10
+1324 2308 4
+2248 2309 13
+2248 1324 27
+2248 2308 5
+206 234 1
+1642 1052 3
+1642 1498 1
+1016 1053 1
+1016 1052 7
+1016 1001 1
+2582 1053 1
+2582 206 2
+2651 500 3

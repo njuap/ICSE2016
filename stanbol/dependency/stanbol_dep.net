@@ -1,0 +1,501 @@
+*Vertics: 236
+13,net.paoding.analysis.knife.LetterKnife
+24,net.paoding.analysis.knife.CombinatoricsKnife
+25,net.paoding.analysis.knife.Beef
+26,net.paoding.analysis.knife.CharSet
+35,org.apache.stanbol.commons.jsonld.JsonLdPropertyValue
+55,org.apache.stanbol.commons.jsonld.JsonLdIRI
+56,org.apache.stanbol.commons.jsonld.JsonLdCommon
+64,org.apache.stanbol.commons.jsonld.JsonLdProfileParser
+101,org.apache.stanbol.commons.jsonld.JsonLdParserCommon
+102,org.apache.stanbol.commons.jsonld.JsonLdProfile
+127,org.apache.stanbol.commons.web.base.LinkResource
+128,org.apache.stanbol.commons.web.base.NavigationLink
+129,org.apache.stanbol.commons.web.base.ScriptResource
+144,org.apache.stanbol.commons.solr.utils.StanbolResourceLoader
+219,org.apache.stanbol.commons.installer.provider.bundle.BundleInstallerConstants
+232,org.apache.stanbol.commons.opennlp.PosTagsCollectionEnum
+290,org.apache.stanbol.commons.opennlp.TextAnalyzer
+293,org.apache.stanbol.commons.opennlp.PosTypeCollectionType
+302,org.apache.stanbol.commons.solr.managed.standalone.StandaloneEmbeddedSolrServerProvider
+314,org.apache.stanbol.commons.solr.IndexReference
+316,org.apache.stanbol.commons.solr.managed.standalone.StandaloneManagedSolrServer
+331,org.apache.stanbol.commons.solr.utils.ConfigUtils
+501,net.paoding.analysis.dictionary.DictionaryDelegate
+518,net.paoding.analysis.dictionary.Word
+519,net.paoding.analysis.dictionary.Hit
+550,org.apache.stanbol.commons.solr.SolrServerAdapter
+768,org.apache.stanbol.commons.solr.SolrConstants
+788,net.paoding.analysis.dictionary.support.detection.Difference
+824,net.paoding.analysis.dictionary.support.detection.Snapshot
+825,net.paoding.analysis.dictionary.support.detection.Node
+837,org.apache.stanbol.commons.web.base.writers.ResultSetWriter
+898,org.apache.stanbol.commons.web.base.writers.ResultSetToXml
+913,org.apache.stanbol.commons.opennlp.OpenNLP
+1024,org.apache.stanbol.commons.jobs.web.JobsFragment
+1042,org.apache.stanbol.commons.jobs.web.resources.JobsResource
+1043,org.apache.stanbol.commons.jobs.web.writers.JobInfoWriter
+1050,net.paoding.analysis.analyzer.PaodingAnalyzerBean
+1090,net.paoding.analysis.analyzer.impl.MaxWordLengthTokenCollector
+1091,net.paoding.analysis.analyzer.impl.MostWordsTokenCollector
+1095,net.paoding.analysis.analyzer.PaodingTokenizer
+1154,org.apache.stanbol.commons.usermanagement.webfragment.UserManagementWebFragment
+1172,org.apache.stanbol.commons.usermanagement.resource.UserResource
+1182,org.apache.stanbol.commons.security.SecurityActivator
+1206,org.apache.stanbol.commons.security.UserAwarePolicy
+1209,org.apache.stanbol.commons.namespaceprefix.impl.NamespacePrefixProviderImpl
+1254,org.apache.stanbol.commons.namespaceprefix.NamespaceMappingUtils
+1259,org.apache.stanbol.commons.web.base.resource.BaseStanbolResource
+1326,org.apache.stanbol.commons.security.auth.LoginException
+1331,org.apache.stanbol.commons.stanboltools.datafileprovider.impl.tracking.TrackingState
+1354,org.apache.stanbol.commons.stanboltools.datafileprovider.impl.tracking.STATE
+1360,org.apache.stanbol.commons.testing.http.ServletContextMock
+1413,org.apache.stanbol.commons.testing.http.BundleContextMock
+1422,org.apache.stanbol.commons.stanboltools.datafileprovider.impl.tracking.DataFileTrackerImpl
+1530,org.apache.stanbol.commons.stanboltools.datafileprovider.impl.tracking.DataFileReference
+1548,net.paoding.analysis.dictionary.support.filewords.SimpleReadListener2
+1578,net.paoding.analysis.dictionary.HashBinaryDictionary
+1642,net.paoding.analysis.dictionary.BinaryDictionary
+1659,org.apache.stanbol.commons.testing.jarexec.JarExecutor
+1728,org.apache.stanbol.commons.httpqueryheaders.OverwriteableHeaderHttpServletRequest
+1757,org.apache.stanbol.commons.jsonld.JsonLdProfileTest
+1787,org.apache.stanbol.commons.httpqueryheaders.impl.QueryHeadersFilter
+1809,org.apache.stanbol.commons.httpqueryheaders.Constants
+1812,org.apache.stanbol.commons.namespaceprefix.service.StanbolNamespacePrefixServiceTest
+1826,org.apache.stanbol.commons.namespaceprefix.service.StanbolNamespacePrefixService
+1831,org.apache.stanbol.commons.security.PasswordUtil
+1849,org.apache.stanbol.commons.solr.managed.IndexMetadata
+1943,org.apache.stanbol.commons.solr.managed.ManagedIndexState
+1944,org.apache.stanbol.commons.solr.managed.ManagedIndexConstants
+1954,org.apache.stanbol.commons.usermanagement.WebConsolePlugin
+1982,org.apache.stanbol.commons.ldpathtemplate.LdRenderer
+1988,org.apache.stanbol.commons.owl.util.URIUtils
+2019,org.apache.stanbol.commons.web.base.writers.JsonLdSerializerProvider
+2084,org.apache.stanbol.commons.jsonld.JsonLd
+2085,org.apache.stanbol.commons.jsonld.JsonLdProperty
+2086,org.apache.stanbol.commons.jsonld.JsonLdResource
+2087,org.apache.stanbol.commons.web.base.format.NamespaceEnum
+2133,net.paoding.analysis.knife.CJKKnife
+2225,org.apache.stanbol.commons.solr.managed.impl.ManagedSolrServerImpl
+2460,org.apache.stanbol.commons.solr.managed.standalone.ClassPathDataFileProvider
+2461,org.apache.stanbol.commons.solr.managed.util.ManagementUtils
+2463,org.apache.stanbol.commons.solr.managed.impl.ManagedIndexMetadata
+2501,org.apache.stanbol.commons.jsonld.JsonLdProfileParserTest
+2516,org.apache.stanbol.commons.stanboltools.datafileprovider.bundle.impl.BundleDataFileProvider
+2550,org.apache.stanbol.commons.web.sparql.SparqlEndpointWebFragment
+2564,org.apache.stanbol.commons.web.sparql.resource.SparqlEndpointResource
+2568,org.apache.stanbol.commons.viewable.Viewable
+2589,org.apache.stanbol.commons.stanboltools.datafileprovider.bundle.impl.DataBundleInstaller
+2633,org.apache.stanbol.commons.solr.install.impl.SolrIndexInstaller
+2679,org.apache.stanbol.commons.solr.install.IndexInstallerConstants
+2680,org.apache.stanbol.commons.solr.utils.ServiceReferenceRankingComparator
+2682,org.apache.stanbol.commons.solr.install.impl.IndexRemoveTask
+2683,org.apache.stanbol.commons.solr.install.impl.IndexInstallTask
+2689,org.apache.stanbol.commons.owl.PhonyIRIMapper
+2700,net.paoding.analysis.Constants
+2755,org.apache.stanbol.commons.stanboltools.datafileprovider.impl.MainDataFileProvider
+2825,org.apache.stanbol.commons.stanboltools.datafileprovider.DataFileProviderEvent
+2832,org.apache.stanbol.commons.indexedgraph.IndexedMGraph
+2841,org.apache.stanbol.commons.indexedgraph.IndexedTripleCollection
+2842,org.apache.stanbol.commons.indexedgraph.IndexedGraph
+2911,net.paoding.analysis.knife.FileDictionariesDifferenceListener
+2933,net.paoding.analysis.knife.FileDictionaries
+2934,net.paoding.analysis.knife.KnifeBox
+2944,at.newmedialab.ldpath.template.model.transformers.TemplateFloatTransformer
+3010,net.paoding.analysis.exception.PaodingAnalysisException
+3022,net.paoding.analysis.dictionary.support.detection.Detector
+3063,net.paoding.analysis.dictionary.support.detection.ExtensionFileFilter
+3099,org.apache.stanbol.commons.owl.transformation.JenaToClerezzaConverterTest
+3152,org.apache.stanbol.commons.owl.transformation.JenaToClerezzaConverter
+3164,org.apache.stanbol.commons.owl.util.TestOWLUtils
+3222,org.apache.stanbol.commons.owl.util.OWLUtils
+3227,org.apache.stanbol.commons.security.auth.NoSuchAgent
+3254,org.apache.stanbol.commons.testing.http.RequestExecutor
+3353,org.apache.stanbol.commons.testing.http.Request
+3354,org.apache.stanbol.commons.testing.http.RequestDocumentor
+3365,at.newmedialab.ldpath.template.engine.TemplateEngine
+3408,at.newmedialab.ldpath.template.model.freemarker.TemplateNodeModel
+3409,at.newmedialab.ldpath.template.model.freemarker.TemplateStackModel
+3411,at.newmedialab.ldpath.template.engine.NamespaceDirective
+3412,at.newmedialab.ldpath.template.engine.LDPathMethod
+3413,at.newmedialab.ldpath.template.engine.LDPathDirective
+3422,org.apache.stanbol.commons.web.base.utils.MediaTypeUtil
+3455,org.apache.stanbol.commons.installer.provider.bundle.impl.BundleInstaller
+3529,net.paoding.analysis.knife.NumberKnife
+3557,org.apache.stanbol.commons.caslight.FeatureStructure
+3595,org.apache.stanbol.commons.caslight.Feature
+3601,net.paoding.analysis.analyzer.impl.CompiledFileDictionaries
+3680,net.paoding.analysis.dictionary.support.filewords.FileWordsReader
+3850,org.apache.stanbol.commons.jsonld.ShorteningException
+3852,net.paoding.analysis.knife.SmartKnifeBox
+3860,org.apache.stanbol.commons.web.base.readers.GraphReader
+3881,org.apache.stanbol.commons.web.base.ContextHelper
+3884,net.paoding.analysis.analyzer.PaodingAnalyzer
+3907,net.paoding.analysis.knife.Paoding
+3915,org.apache.stanbol.commons.viewable.mbw.ViewableWriter
+3992,org.apache.stanbol.launchpad.Main
+4010,org.apache.stanbol.commons.solr.web.dispatch.DelegatingSolrDispatchFilter
+4044,org.apache.stanbol.commons.owl.web.OWLFragment
+4060,org.apache.stanbol.commons.owl.web.OWLOntologyWriter
+4062,org.apache.stanbol.commons.namespaceprefix.provider.stanbol.DefaultProviderTest
+4071,org.apache.stanbol.commons.namespaceprefix.mappings.DefaultNamespaceMappingsEnum
+4077,org.apache.stanbol.commons.solr.managed.impl.ReferencedSolrServer
+4163,org.apache.stanbol.commons.viewable.webfragment.LdViewableWebFragment
+4182,org.apache.stanbol.commons.viewable.mbw.LdViewableWriter
+4187,org.apache.stanbol.commons.solr.web.dispatch.SolrServiceDispatchFilter
+4210,org.apache.stanbol.commons.solr.web.impl.SolrDispatchFilterComponent
+4217,org.apache.stanbol.commons.jobs.impl.JobManagerImpl
+4265,org.apache.stanbol.commons.solr.managed.ManagedSolrServerTest
+4374,org.apache.stanbol.commons.owl.transformation.OWLAPIToClerezzaConverter
+4375,org.apache.stanbol.commons.web.base.format.KRFormat
+4411,org.apache.stanbol.commons.security.UserPermissionsCache
+4513,org.apache.stanbol.commons.namespaceprefix.provider.prefixcc.PrefixccProviderTest
+4532,org.apache.stanbol.commons.namespaceprefix.provider.prefixcc.PrefixccProvider
+4541,org.apache.stanbol.commons.security.auth.AuthenticatingFilter
+4582,org.apache.stanbol.commons.security.UserUtil
+4586,net.paoding.analysis.knife.FakeKnife
+4616,org.apache.stanbol.commons.caslight.FeatureStructureListHolder
+4731,org.apache.stanbol.commons.jsonld.JsonLdParser
+4797,at.newmedialab.ldpath.template.model.transformers.TemplateScalarTransformer
+4828,org.apache.stanbol.commons.viewable.RdfViewable
+4835,org.apache.stanbol.commons.solr.utils.DataFileResourceLoader
+5143,net.paoding.analysis.analyzer.impl.MostWordsModeDictionariesCompiler
+5144,net.paoding.analysis.analyzer.impl.SortingDictionariesCompiler
+5151,org.apache.stanbol.commons.owl.transformation.OWLAPIToClerezzaConverterTest
+5274,org.apache.stanbol.commons.namespaceprefix.provider.stanbol.DefaultNamespaceMappingsProvider
+5292,org.apache.stanbol.commons.owl.RunSingleSPARQL
+5331,org.apache.stanbol.commons.owl.transformation.JenaToOwlConvert
+5381,org.apache.stanbol.commons.testing.http.RequestBuilder
+5406,org.apache.stanbol.commons.namespaceprefix.provider.prefixcc.component.PrefixccProviderComponent
+5433,org.apache.stanbol.commons.security.auth.PrincipalImpl
+5461,org.apache.stanbol.commons.web.base.MockServletContext
+5512,org.apache.stanbol.commons.web.base.CorsConstants
+5515,org.apache.stanbol.commons.owl.util.TestUriUtils
+5527,org.apache.stanbol.commons.ldpath.clerezza.ClerezzaBackendTest
+5587,org.apache.stanbol.commons.ldpath.clerezza.ClerezzaBackend
+5590,org.apache.commons.opennlp.ClasspathDataFileProvider
+5614,org.apache.stanbol.commons.opennlp.PosTypeChunker
+5693,at.newmedialab.ldpath.template.model.transformers.TemplateLongTransformer
+5839,org.apache.stanbol.commons.web.base.CorsHelper
+5881,org.apache.stanbol.commons.namespaceprefix.impl.NamespacePrefixProviderImplTest
+5992,org.apache.stanbol.commons.solr.managed.standalone.DefaultStandaloneManagedSolrServerWrapper
+6037,org.apache.stanbol.commons.security.auth.CheckAuthenticationPermission
+6050,org.apache.stanbol.commons.solr.utils.SolrUtil
+6132,org.apache.stanbol.commons.jsonld.JsonLdParserTest
+6198,org.apache.stanbol.commons.installer.provider.bundle.impl.Activator
+6273,at.newmedialab.ldpath.template.model.freemarker.TemplateWrapperModel
+6274,at.newmedialab.ldpath.template.util.FormatUtil
+6276,at.newmedialab.ldpath.template.model.transformers.TemplateIntegerTransformer
+6277,at.newmedialab.ldpath.template.model.transformers.TemplateDoubleTransformer
+6278,at.newmedialab.ldpath.template.model.transformers.TemplateDateTransformer
+6279,at.newmedialab.ldpath.template.model.transformers.TemplateBooleanTransformer
+6297,org.apache.stanbol.commons.authentication.basic.BasicAuthentication
+6327,org.apache.stanbol.commons.security.auth.AuthenticationService
+6381,org.apache.stanbol.commons.web.base.writers.JenaModelWriter
+6412,org.apache.stanbol.commons.web.base.writers.JenaModelTransformer
+6416,org.apache.stanbol.commons.stanboltools.datafileprovider.impl.WebConsolePlugin
+6450,org.apache.stanbol.commons.security.UserUnregisteredException
+6455,org.apache.stanbol.commons.solr.web.impl.SolrServerPublishingComponent
+6528,net.paoding.analysis.knife.CollectorStdoutImpl
+6646,net.paoding.analysis.analyzer.estimate.Estimate
+6650,org.apache.stanbol.commons.usermanagement.Ontology
+6653,org.apache.stanbol.commons.security.auth.AuthenticationCheckerImpl
+6706,org.apache.stanbol.commons.stanboltools.offline.Activator
+6721,org.apache.stanbol.commons.web.base.writers.GraphWriter
+6781,org.apache.stanbol.commons.solr.utils.StreamQueryRequest
+6799,org.apache.stanbol.commons.security.auth.felix.WebConsoleSecurityProvider
+6813,org.apache.stanbol.commons.owl.RunSingleSPARQLTest
+6846,org.apache.stanbol.commons.jsonld.JsonComparator
+7033,org.apache.stanbol.commons.opennlp.KeywordTokenizer
+7037,org.apache.stanbol.commons.owl.transformation.ConversionTester
+7548,org.apache.stanbol.commons.owl.OntologyLookaheadMGraph
+7549,org.apache.stanbol.commons.owl.util.OWL2Constants
+7556,org.apache.stanbol.commons.namespaceprefix.NamespaceMappingsUtilsTest
+7562,org.apache.stanbol.commons.web.base.CorsAccessControlAllowMethodTest
+7581,org.apache.stanbol.commons.web.base.MockHttpHeaders
+7594,org.apache.stanbol.commons.owl.OWLOntologyManagerFactory
+7606,org.apache.stanbol.commons.web.base.jersey.JerseyEndpoint
+7652,org.apache.stanbol.commons.web.base.DefaultApplication
+7773,org.apache.stanbol.commons.testing.http.RetryLoop
+7790,org.apache.commons.opennlp.TextAnalyzerTest
+7950,org.apache.stanbol.commons.security.PermissionDefinitions
+8097,org.apache.stanbol.commons.solr.RegisteredSolrServerTracker
+8316,org.apache.stanbol.commons.jobs.impl.JobInfoImpl
+8397,org.apache.stanbol.commons.stanboltools.datafileprovider.bundle.impl.Activator
+8472,org.apache.stanbol.commons.testing.stanbol.StanbolTestBase
+8511,org.apache.stanbol.commons.web.resources.ResourceServingFilter
+8640,org.apache.stanbol.commons.web.home.resource.StanbolRootResource
+8769,org.apache.stanbol.commons.jsonld.JsonSerializer
+8776,org.apache.stanbol.commons.web.home.HomeWebFragment
+8795,org.apache.stanbol.commons.indexedgraph.IndexedGraphTest
+8972,org.apache.stanbol.commons.solr.extras.paoding.Activator
+9025,org.apache.stanbol.commons.solr.web.dispatch.ReferencedSolrDispatchFilter
+9244,org.apache.stanbol.commons.security.PermissionDefinitionsTest
+9314,org.apache.stanbol.commons.jsonld.JsonLdTest
+9786,net.paoding.analysis.analyzer.estimate.StringReaderEx
+9803,org.apache.stanbol.commons.web.base.writers.JsonLdSerializerProviderTest
+10009,org.apache.stanbol.reasoners.jobs.TestJobManagerImpl
+*Edges: 263
+3413 6277 1
+3413 3408 4
+3413 6274 5
+3413 6279 1
+3413 6276 2
+3413 6273 2
+3413 6278 3
+3413 3409 4
+3413 2944 1
+3413 4797 2
+3413 5693 2
+3412 6277 1
+3412 3408 1
+3412 6279 1
+3412 6276 2
+3412 6273 2
+3412 6278 3
+3412 3409 2
+3412 2944 1
+3412 4797 2
+3412 5693 2
+3411 6273 2
+3365 3413 1
+3365 3409 2
+3365 3408 1
+3365 3412 1
+3365 3411 1
+3884 1050 4
+3884 2700 1
+1050 1095 1
+1095 25 3
+6646 1095 1
+6646 9786 1
+3601 3680 1
+3601 518 7
+3601 1578 3
+3601 3022 11
+3601 1642 3
+5143 518 12
+5143 25 1
+5143 2700 1
+5143 3601 1
+5144 518 3
+5144 2700 1
+5144 3601 1
+1642 518 6
+1642 519 4
+501 518 1
+501 519 1
+1578 518 6
+1578 519 9
+1578 1642 1
+519 518 14
+3022 824 6
+3022 788 1
+3022 3063 1
+788 824 6
+824 788 9
+3680 26 1
+3680 1548 2
+1548 518 3
+2133 26 5
+2133 518 5
+2133 519 16
+2133 25 11
+24 518 1
+24 519 4
+24 25 15
+4586 25 2
+2933 3680 3
+2933 3063 1
+2933 518 11
+2933 519 4
+2933 1578 3
+2933 3010 1
+2933 3022 10
+2933 1642 3
+2911 788 4
+2911 2933 2
+2911 825 2
+2911 2934 5
+2934 25 2
+13 26 1
+13 25 2
+13 24 3
+3529 26 5
+3529 25 5
+3529 24 3
+3907 3852 1
+3852 25 1
+3852 2934 2
+7790 913 2
+7790 290 30
+7790 5590 1
+6297 6327 2
+6297 5433 1
+6297 3227 1
+6297 1326 3
+3557 3595 8
+1787 1728 2
+2842 2841 1
+8795 2832 1
+8795 2841 5
+2832 2841 4
+6198 3455 3
+1042 2568 2
+1042 1259 4
+1042 3881 1
+2084 2086 35
+2084 35 6
+2084 56 29
+2084 8769 4
+2084 3850 4
+2084 2085 8
+2084 55 1
+4731 2086 10
+4731 101 2
+4731 56 6
+4731 2084 4
+4731 55 1
+6132 4731 6
+6132 56 8
+6132 2084 15
+102 56 6
+102 8769 2
+102 3850 2
+64 102 4
+64 101 2
+64 56 1
+2501 102 2
+2501 64 2
+2501 56 1
+1757 102 10
+1757 56 2
+2085 35 8
+35 55 1
+2086 2085 11
+9314 2086 207
+9314 35 14
+9314 56 136
+9314 2084 128
+9314 2085 9
+9314 55 9
+5527 2832 1
+5527 5587 2
+1982 5587 1
+1982 3365 3
+7556 1254 51
+1209 1254 2
+5881 1209 1
+4513 1826 1
+4513 4532 10
+5406 4532 3
+5274 4071 5
+5274 1209 2
+4062 4071 5
+4062 1826 1
+1826 1254 4
+1812 1826 1
+232 293 4
+5614 232 2
+290 5614 3
+290 913 8
+5292 5331 4
+6813 5292 10
+7037 5331 26
+3099 3152 4
+4374 2689 1
+5151 4374 3
+3222 7548 6
+3164 3222 12
+5515 1988 5
+4060 4374 1
+9244 7950 5
+1182 1206 2
+1206 6450 1
+1206 4411 4
+4582 5433 1
+4541 4582 1
+4541 1326 1
+6653 1831 1
+6653 6037 1
+6327 3227 1
+8097 314 8
+2683 331 1
+2633 2682 1
+2633 2683 1
+1849 1943 2
+1849 314 2
+4265 1849 5
+2463 1943 4
+2463 1849 21
+2225 2461 4
+2225 1943 2
+2225 1849 67
+2225 550 15
+2225 331 3
+2225 314 7
+2225 2463 24
+4077 550 4
+5992 316 1
+5992 1943 2
+5992 1849 8
+302 316 6
+302 314 10
+316 2461 6
+316 1943 2
+316 1849 24
+316 331 4
+2461 1849 14
+9025 4010 2
+4187 4010 4
+8397 2589 3
+2589 2516 3
+2755 2825 2
+6416 2755 1
+6416 2825 5
+1422 1331 4
+1422 1530 4
+1331 1354 4
+5381 3353 6
+3354 3254 10
+3254 3354 2
+3254 3353 6
+8472 5381 2
+8472 3254 2
+8472 1659 3
+1954 1172 3
+1954 1982 2
+1172 4828 6
+1172 1831 1
+1154 1172 1
+4182 4828 4
+4182 1982 2
+3915 2568 4
+3915 1982 2
+4163 3915 1
+4163 4182 1
+7562 7581 1
+7562 5839 1
+7562 5461 1
+7606 7652 2
+3860 3881 1
+6721 3881 1
+6381 6412 1
+2019 2086 5
+2019 35 5
+2019 56 1
+2019 2087 5
+2019 2084 3
+2019 2085 2
+9803 2019 30
+837 898 1
+8776 129 1
+8776 127 1
+8640 2568 1
+8640 1259 1
+2550 128 1
+2564 2568 1
+2564 1259 1
+2564 5839 2
+2564 3881 2
+10009 4217 1

@@ -1,0 +1,2686 @@
+*Vertics: 581
+2,org.apache.sqoop.connector.hdfs.HdfsConnectorUpgrader
+14,org.apache.sqoop.configurable.ConfigurableUpgradeUtil
+15,org.apache.sqoop.connector.spi.ConnectorConfigurableUpgrader
+16,org.apache.sqoop.model.MFromConfig
+17,org.apache.sqoop.model.MLinkConfig
+18,org.apache.sqoop.model.MToConfig
+22,org.apache.sqoop.model.MConfigList
+36,org.apache.sqoop.connector.kite.TestKiteFromInitializer
+57,org.apache.sqoop.common.SqoopException
+58,org.apache.sqoop.connector.kite.configuration.FromJobConfiguration
+61,org.apache.sqoop.connector.kite.KiteFromInitializer
+62,org.apache.sqoop.connector.kite.configuration.FromJobConfig
+63,org.apache.sqoop.job.etl.Initializer
+74,org.apache.sqoop.model.TestMConfig
+103,org.apache.sqoop.model.MInput
+104,org.apache.sqoop.model.MConfig
+105,org.apache.sqoop.model.MEnumInput
+106,org.apache.sqoop.model.MIntegerInput
+107,org.apache.sqoop.model.MMapInput
+108,org.apache.sqoop.model.MStringInput
+109,org.apache.sqoop.model.InputEditable
+111,org.apache.sqoop.model.MNamedElement
+144,org.apache.sqoop.classification.InterfaceAudience
+145,org.apache.sqoop.classification.InterfaceStability
+153,org.apache.sqoop.connector.common.AvroDataTypeUtil
+196,org.apache.sqoop.schema.type.Binary
+197,org.apache.sqoop.schema.type.Bit
+198,org.apache.sqoop.schema.type.Column
+199,org.apache.sqoop.schema.type.FixedPoint
+200,org.apache.sqoop.schema.type.FloatingPoint
+201,org.apache.sqoop.schema.type.Text
+202,org.apache.sqoop.schema.type.Unknown
+205,org.apache.sqoop.schema.Schema
+220,org.apache.sqoop.repository.derby.TestInputTypes
+245,org.apache.sqoop.model.MBooleanInput
+246,org.apache.sqoop.model.MConnector
+247,org.apache.sqoop.model.MDriver
+248,org.apache.sqoop.model.MLink
+249,org.apache.sqoop.model.MPersistableEntity
+250,org.apache.sqoop.repository.derby.DerbyTestCase
+251,org.apache.sqoop.repository.derby.DerbyRepositoryHandler
+252,org.apache.sqoop.repository.common.CommonRepositoryHandler
+284,org.apache.sqoop.error.code.MapreduceSubmissionError
+307,org.apache.sqoop.json.ThrowableBean
+361,org.apache.sqoop.utils.ClassUtils
+370,org.apache.sqoop.common.test.utils.NetworkUtils
+381,org.apache.sqoop.security.AuthorizationHandler
+420,org.apache.sqoop.model.MPrincipal
+421,org.apache.sqoop.model.MPrivilege
+422,org.apache.sqoop.model.MResource
+423,org.apache.sqoop.model.MRole
+424,org.apache.sqoop.security.AuthenticationProvider
+428,org.apache.sqoop.integration.repository.postgresql.TestSubmissionHandling
+502,org.apache.sqoop.model.MJob
+503,org.apache.sqoop.model.MSubmission
+504,org.apache.sqoop.submission.SubmissionStatus
+505,org.apache.sqoop.submission.counter.Counter
+506,org.apache.sqoop.submission.counter.CounterGroup
+507,org.apache.sqoop.submission.counter.Counters
+510,org.apache.sqoop.integration.repository.postgresql.PostgresqlTestCase
+511,org.apache.sqoop.common.test.db.DatabaseProvider
+512,org.apache.sqoop.model.MAccountableEntity
+513,org.apache.sqoop.model.SubmissionError
+569,org.apache.sqoop.json.SchemaBean
+579,org.apache.sqoop.json.util.SchemaSerialization
+586,org.apache.sqoop.job.mr.TestMRConfigurationUtils
+622,org.apache.sqoop.common.Direction
+627,org.apache.sqoop.schema.NullSchema
+628,org.apache.sqoop.job.mr.MRConfigurationUtils
+642,org.apache.sqoop.model.TestMMapInput
+663,org.apache.sqoop.model.MInputType
+674,org.apache.sqoop.integration.connector.kafka.FromHDFSToKafkaTest
+682,org.apache.sqoop.model.MDriverConfig
+683,org.apache.sqoop.test.testcases.KafkaConnectorTestCase
+685,org.apache.sqoop.client.SqoopClient
+699,org.apache.sqoop.job.etl.DestroyerContext
+710,org.apache.sqoop.job.etl.TransferableContext
+735,org.apache.sqoop.schema.type.AbstractNumber
+736,org.apache.sqoop.schema.type.ColumnType
+746,org.apache.sqoop.handler.VersionRequestHandler
+759,org.apache.sqoop.audit.AuditLoggerManager
+760,org.apache.sqoop.common.VersionInfo
+761,org.apache.sqoop.json.VersionBean
+762,org.apache.sqoop.server.RequestContext
+765,org.apache.sqoop.error.code.ServerError
+785,org.apache.sqoop.connector.TestConnectorManagerUtils
+805,org.apache.sqoop.connector.ConnectorManagerUtils
+812,org.apache.sqoop.test.hadoop.HadoopMiniClusterRunner
+835,org.apache.sqoop.test.hadoop.HadoopRunner
+843,org.apache.sqoop.error.code.CSVIntermediateDataFormatError
+860,org.apache.sqoop.shell.DeleteJobFunction
+875,org.apache.sqoop.shell.core.Constants
+876,org.apache.sqoop.validation.Status
+877,org.apache.sqoop.shell.ShellEnvironment
+880,org.apache.sqoop.shell.SqoopFunction
+890,org.apache.sqoop.repository.derby.TestLinkHandling
+925,org.apache.sqoop.error.code.CommonRepositoryError
+950,org.apache.sqoop.job.mr.SqoopInputFormat
+986,org.apache.sqoop.common.PrefixContext
+987,org.apache.sqoop.error.code.MRExecutionError
+988,org.apache.sqoop.job.MRJobConstants
+989,org.apache.sqoop.job.etl.Partition
+990,org.apache.sqoop.job.etl.Partitioner
+991,org.apache.sqoop.job.etl.PartitionerContext
+993,org.apache.sqoop.job.mr.SqoopSplit
+1004,org.apache.sqoop.model.TestMValidatedElement
+1009,org.apache.sqoop.validation.Message
+1010,org.apache.sqoop.model.MValidatedElement
+1028,org.apache.sqoop.connector.idf.TestAVROIntermediateDataFormat
+1167,org.apache.sqoop.connector.common.SqoopAvroUtils
+1168,org.apache.sqoop.schema.type.Array
+1169,org.apache.sqoop.connector.idf.AVROIntermediateDataFormat
+1170,org.apache.sqoop.schema.type.Enum
+1171,org.apache.sqoop.schema.type.Map
+1172,org.apache.sqoop.schema.type.DateTime
+1173,org.apache.sqoop.schema.type.Time
+1174,org.apache.sqoop.schema.type.Date
+1175,org.apache.sqoop.schema.type.Set
+1176,org.apache.sqoop.connector.common.TestSqoopIDFUtils
+1177,org.apache.sqoop.connector.idf.IntermediateDataFormat
+1178,org.apache.sqoop.connector.common.SqoopIDFUtils
+1192,org.apache.sqoop.connector.common.JarUtil
+1215,org.apache.sqoop.core.TestSqoopConfiguration
+1249,org.apache.sqoop.core.ConfigurationConstants
+1250,org.apache.sqoop.core.SqoopConfiguration
+1251,org.apache.sqoop.core.CoreError
+1252,org.apache.sqoop.core.TestUtils
+1253,org.apache.sqoop.core.MockInvalidConfigurationProvider
+1254,org.apache.sqoop.core.PropertiesConfigurationProvider
+1274,org.apache.sqoop.test.utils.ParametrizedUtils
+1299,org.apache.sqoop.connector.kite.configuration.ToJobConfiguration
+1302,org.apache.sqoop.connector.kite.configuration.ToJobConfig
+1306,org.apache.sqoop.shell.UpdateJobFunction
+1329,org.apache.sqoop.shell.utils.ConfigDisplayer
+1330,org.apache.sqoop.shell.utils.ConfigOptions
+1331,org.apache.sqoop.shell.utils.JobDynamicConfigOptions
+1332,org.apache.sqoop.shell.utils.ConfigFiller
+1380,org.apache.sqoop.common.MapContext
+1382,org.apache.sqoop.audit.AuditLogger
+1384,org.apache.sqoop.audit.AuditLoggerConstants
+1385,org.apache.sqoop.audit.AuditLoggerError
+1399,org.apache.sqoop.common.test.kafka.KafkaLocal
+1417,org.apache.sqoop.common.test.kafka.ZooKeeperLocal
+1419,org.apache.sqoop.common.test.db.SqlServerProvider
+1450,org.apache.sqoop.integration.repository.postgresql.TestDriverHandling
+1467,org.apache.sqoop.model.TestMJob
+1507,org.apache.sqoop.json.ConnectorsBean
+1520,org.apache.sqoop.json.ConnectorBean
+1536,org.apache.sqoop.repository.postgresql.PostgresqlRepositoryHandler
+1585,org.apache.sqoop.error.code.PostgresqlRepoError
+1586,org.apache.sqoop.repository.JdbcRepositoryContext
+1587,org.apache.sqoop.repository.common.CommonRepoConstants
+1588,org.apache.sqoop.repository.common.CommonRepositorySchemaConstants
+1591,org.apache.sqoop.repository.postgresql.PostgresqlSchemaQuery
+1592,org.apache.sqoop.repository.postgresql.PostgresqlRepoConstants
+1593,org.apache.sqoop.repository.postgresql.PostgresqlSchemaCreateQuery
+1637,org.apache.sqoop.connector.hdfs.FileUtils
+1687,org.apache.sqoop.schema.type.AbstractString
+1695,org.apache.sqoop.server.v1.ConfigurableServlet
+1703,org.apache.sqoop.handler.ConnectorRequestHandler
+1704,org.apache.sqoop.handler.DriverRequestHandler
+1705,org.apache.sqoop.server.SqoopProtocolServlet
+1712,org.apache.sqoop.shell.utils.SubmissionDisplayer
+1763,org.apache.sqoop.shell.utils.DynamicConfigOptions
+1767,org.apache.sqoop.driver.JobRequest
+1849,org.apache.sqoop.common.DirectionError
+1850,org.apache.sqoop.common.MutableMapContext
+1851,org.apache.sqoop.connector.spi.SqoopConnector
+1852,org.apache.sqoop.job.etl.Transferable
+1857,org.apache.sqoop.security.AuthenticationHandler
+1867,org.apache.sqoop.job.etl.Extractor
+1877,org.apache.sqoop.job.etl.ExtractorContext
+1897,org.apache.sqoop.schema.type.AbstractDateTime
+1902,org.apache.sqoop.submission.counter.SqoopCounters
+1910,org.apache.sqoop.connector.kite.KiteToDestroyer
+1939,org.apache.sqoop.connector.common.FileFormat
+1940,org.apache.sqoop.connector.kite.configuration.ConfigUtil
+1941,org.apache.sqoop.connector.kite.configuration.LinkConfiguration
+1942,org.apache.sqoop.job.etl.Destroyer
+1943,org.apache.sqoop.connector.kite.KiteDatasetExecutor
+1961,org.apache.sqoop.test.minicluster.TomcatSqoopMiniCluster
+2005,org.apache.sqoop.test.minicluster.SqoopMiniCluster
+2015,org.apache.sqoop.connector.idf.CSVIntermediateDataFormat
+2051,org.apache.sqoop.error.code.IntermediateDataFormatError
+2052,org.apache.sqoop.schema.type.AbstractComplexListType
+2107,org.apache.sqoop.connector.jdbc.configuration.ToJobConfiguration
+2111,org.apache.sqoop.connector.jdbc.configuration.ToJobConfig
+2113,org.apache.sqoop.validation.validators.NotEmpty
+2118,org.apache.sqoop.validation.validators.AbstractValidator
+2122,org.apache.sqoop.validation.validators.DatasetURIValidator
+2133,org.apache.sqoop.json.ValidationResultBean
+2183,org.apache.sqoop.validation.ConfigValidationResult
+2202,org.apache.sqoop.client.request.LinkResourceRequest
+2241,org.apache.sqoop.json.JSONUtils
+2242,org.apache.sqoop.json.LinkBean
+2243,org.apache.sqoop.json.LinksBean
+2244,org.apache.sqoop.client.request.ResourceRequest
+2258,org.apache.sqoop.submission.counter.TestCounter
+2263,org.apache.sqoop.schema.type.Decimal
+2326,org.apache.sqoop.connector.kite.TestKiteExtractor
+2358,org.apache.sqoop.etl.io.DataWriter
+2360,org.apache.sqoop.connector.kite.KiteExtractor
+2361,org.apache.sqoop.connector.kite.KiteDatasetPartition
+2372,org.apache.sqoop.connector.jdbc.GenericJdbcToInitializer
+2436,org.apache.sqoop.connector.jdbc.configuration.LinkConfiguration
+2437,org.apache.sqoop.connector.jdbc.util.SqlTypesUtils
+2438,org.apache.sqoop.error.code.GenericJdbcConnectorError
+2439,org.apache.sqoop.job.etl.InitializerContext
+2441,org.apache.sqoop.connector.jdbc.GenericJdbcExecutor
+2442,org.apache.sqoop.connector.jdbc.GenericJdbcConnectorConstants
+2663,org.apache.sqoop.error.code.AVROIntermediateDataFormatError
+2674,org.apache.sqoop.model.TestMLinkConfig
+2684,org.apache.sqoop.shell.CreateCommand
+2692,org.apache.sqoop.shell.SqoopCommand
+2693,org.apache.sqoop.shell.CreateLinkFunction
+2694,org.apache.sqoop.shell.CreateJobFunction
+2743,org.apache.sqoop.common.test.db.PostgreSQLProvider
+2744,org.apache.sqoop.json.DriverBean
+2745,org.apache.sqoop.integration.repository.postgresql.PostgresqlTestUtils
+2757,org.apache.sqoop.connector.kite.KiteConnectorConstants
+2760,org.apache.sqoop.job.Constants
+2788,org.apache.sqoop.schema.SchemaError
+2841,org.apache.sqoop.tools.Tool
+2846,org.apache.sqoop.schema.ByteArraySchema
+2904,org.apache.sqoop.shell.core.ShellError
+2913,org.apache.sqoop.repository.JdbcRepositoryTransactionFactory
+2920,org.apache.sqoop.repository.JdbcRepositoryTransaction
+2924,org.apache.sqoop.connector.idf.JSONIntermediateDataFormat
+2982,org.apache.sqoop.error.code.JSONIntermediateDataFormatError
+2987,org.apache.sqoop.model.TestMConnector
+3031,org.apache.sqoop.common.SupportedDirections
+3056,org.apache.sqoop.model.TestMPersistableEntity
+3064,org.apache.sqoop.json.TestSchemaBean
+3072,org.apache.sqoop.json.util.TestSchemaSerialization
+3075,org.apache.sqoop.server.v1.ConnectorsServlet
+3081,org.apache.sqoop.integration.repository.postgresql.TestJobHandling
+3158,org.apache.sqoop.json.TestConnectorBean
+3169,org.apache.sqoop.json.util.BeanTestUtil
+3170,org.apache.sqoop.json.util.ConfigTestUtil
+3179,org.apache.sqoop.connector.kafka.TestKafkaLoader
+3201,org.apache.sqoop.connector.kafka.configuration.ToJobConfiguration
+3202,org.apache.sqoop.connector.kafka.configuration.LinkConfiguration
+3203,org.apache.sqoop.common.test.kafka.TestUtil
+3204,org.apache.sqoop.etl.io.DataReader
+3205,org.apache.sqoop.job.etl.LoaderContext
+3207,org.apache.sqoop.connector.kafka.KafkaLoader
+3209,org.apache.sqoop.connector.kafka.configuration.LinkConfig
+3210,org.apache.sqoop.connector.kafka.configuration.ToJobConfig
+3211,org.apache.sqoop.job.etl.Loader
+3265,org.apache.sqoop.tools.tool.UpgradeTool
+3271,org.apache.sqoop.connector.ConnectorManager
+3272,org.apache.sqoop.driver.Driver
+3273,org.apache.sqoop.repository.RepositoryManager
+3274,org.apache.sqoop.tools.ConfiguredTool
+3286,org.apache.sqoop.shell.ShowSubmissionFunction
+3308,org.apache.sqoop.shell.utils.TableDisplayer
+3319,org.apache.sqoop.shell.SetServerFunction
+3349,org.apache.sqoop.shell.UpdateCommand
+3352,org.apache.sqoop.shell.UpdateLinkFunction
+3356,org.apache.sqoop.integration.repository.postgresql.TestConnectorHandling
+3418,org.apache.sqoop.security.AuthenticationManager
+3421,org.apache.sqoop.security.AuthorizationValidator
+3483,org.apache.sqoop.repository.Repository
+3485,org.apache.sqoop.connector.ConnectorHandler
+3486,org.apache.sqoop.connector.ConnectorError
+3508,org.apache.sqoop.repository.derby.TestConnectorHandling
+3544,org.apache.sqoop.shell.utils.ThrowableDisplayer
+3578,org.apache.sqoop.driver.SubmissionEngine
+3592,org.apache.sqoop.job.etl.To
+3626,org.apache.sqoop.connector.hdfs.configuration.FromJobConfig
+3632,org.apache.sqoop.shell.ShowServerFunction
+3662,org.apache.sqoop.security.Authorization.DefaultAuthorizationHandler
+3716,org.apache.sqoop.security.AuthorizationAccessController
+3717,org.apache.sqoop.security.SecurityConstants
+3718,org.apache.sqoop.security.SecurityFactory
+3738,org.apache.sqoop.repository.derby.TestRepositoryUpgrade
+3774,org.apache.sqoop.repository.derby.DerbySchemaCreateQuery
+3794,org.apache.sqoop.repository.common.CommonRepoUtils
+3795,org.apache.sqoop.repository.derby.DerbySchemaConstants
+3902,org.apache.sqoop.common.TestSqoopResponseCode
+3906,org.apache.sqoop.common.SqoopResponseCode
+3914,org.apache.sqoop.schema.type.AbstractComplexType
+3927,org.apache.sqoop.connector.jdbc.GenericJdbcFromInitializer
+3999,org.apache.sqoop.connector.jdbc.configuration.FromJobConfiguration
+4000,org.apache.sqoop.connector.jdbc.configuration.FromJobConfig
+4024,org.apache.sqoop.shell.ShowConnectorFunction
+4068,org.apache.sqoop.error.code.ConfigurableError
+4085,org.apache.sqoop.model.TestConfigUtils
+4191,org.apache.sqoop.model.ConfigUtils
+4192,org.apache.sqoop.model.ModelError
+4206,org.apache.sqoop.shell.SetOptionFunction
+4235,org.apache.sqoop.integration.repository.postgresql.TestLinkHandling
+4286,org.apache.sqoop.shell.StartJobFunction
+4316,org.apache.sqoop.test.data.DataSet
+4340,org.apache.sqoop.model.MConfigType
+4546,org.apache.sqoop.submission.TestSubmissionStatus
+4558,org.apache.sqoop.model.TestMConfigList
+4568,org.apache.sqoop.repository.TestRepositoryManager
+4573,org.apache.sqoop.repository.RepositoryError
+4577,org.apache.sqoop.connector.idf.TestJSONIntermediateDataFormat
+4691,org.apache.sqoop.driver.DriverError
+4712,org.apache.sqoop.shell.EnableCommand
+4715,org.apache.sqoop.shell.EnableLinkFunction
+4716,org.apache.sqoop.shell.EnableJobFunction
+4720,org.apache.sqoop.shell.ShowOptionFunction
+4732,org.apache.sqoop.connector.kite.TestKiteToDestroyer
+4756,org.apache.sqoop.repository.derby.TestSubmissionHandling
+4830,org.apache.sqoop.security.AuthorizationManager
+4851,org.apache.sqoop.model.TestMBooleanInput
+4874,org.apache.sqoop.repository.derby.DerbySchemaInsertUpdateDeleteSelectQuery
+4885,org.apache.sqoop.repository.common.CommonRepositoryInsertUpdateDeleteSelectQuery
+4892,org.apache.sqoop.connector.idf.TestCSVIntermediateDataFormat
+5178,org.apache.sqoop.request.HttpEventContext
+5201,org.apache.sqoop.shell.utils.LinkDynamicConfigOptions
+5212,org.apache.sqoop.connector.hdfs.HdfsLoader
+5255,org.apache.sqoop.connector.hdfs.configuration.LinkConfiguration
+5256,org.apache.sqoop.connector.hdfs.configuration.ToFormat
+5257,org.apache.sqoop.connector.hdfs.configuration.ToJobConfiguration
+5258,org.apache.sqoop.connector.hdfs.hdfsWriter.GenericHdfsWriter
+5259,org.apache.sqoop.connector.hdfs.hdfsWriter.HdfsSequenceWriter
+5260,org.apache.sqoop.connector.hdfs.hdfsWriter.HdfsTextWriter
+5261,org.apache.sqoop.error.code.HdfsConnectorError
+5263,org.apache.sqoop.connector.hdfs.HdfsUtils
+5361,org.apache.sqoop.connector.hdfs.configuration.FromJobConfiguration
+5362,org.apache.sqoop.connector.hdfs.configuration.LinkConfig
+5363,org.apache.sqoop.connector.hdfs.configuration.ToJobConfig
+5364,org.apache.sqoop.connector.hdfs.HdfsConstants
+5377,org.apache.sqoop.job.mr.SqoopMapper
+5424,org.apache.sqoop.connector.matcher.Matcher
+5425,org.apache.sqoop.connector.matcher.MatcherFactory
+5426,org.apache.sqoop.job.io.SqoopWritable
+5430,org.apache.sqoop.job.mr.SqoopProgressRunnable
+5461,org.apache.sqoop.connector.hdfs.TestLoader
+5530,org.apache.sqoop.connector.hdfs.configuration.ToCompression
+5531,org.apache.sqoop.connector.hdfs.TestHdfsBase
+5544,org.apache.sqoop.json.TestJSONUtils
+5555,org.apache.sqoop.repository.JdbcRepositoryHandler
+5691,org.apache.sqoop.connector.jdbc.GenericJdbcConnectorUpgrader
+5724,org.apache.sqoop.json.TestValidationResultBean
+5761,org.apache.sqoop.driver.TestJobManager
+5805,org.apache.sqoop.repository.JdbcRepository
+5806,org.apache.sqoop.driver.JobManager
+5880,org.apache.sqoop.common.TestSupportedDirections
+5929,org.apache.sqoop.connector.kite.configuration.LinkConfig
+5935,org.apache.sqoop.validation.validators.HostAndPortValidator
+6078,org.apache.sqoop.json.ConfigurableBean
+6079,org.apache.sqoop.json.util.ConfigInputSerialization
+6080,org.apache.sqoop.json.util.ConfigBundleSerialization
+6083,org.apache.sqoop.connector.kafka.KafkaToInitializer
+6097,org.apache.sqoop.model.TestMAccountableEntity
+6108,org.apache.sqoop.validation.validators.TestCSVURIValidator
+6112,org.apache.sqoop.validation.validators.CSVURIValidator
+6135,org.apache.sqoop.json.SubmissionBean
+6254,org.apache.sqoop.shell.ShowJobFunction
+6293,org.apache.sqoop.model.TestMIntegerInput
+6316,org.apache.sqoop.validation.validators.StartsWith
+6364,org.apache.sqoop.shell.StopCommand
+6369,org.apache.sqoop.shell.StopJobFunction
+6382,org.apache.sqoop.connector.jdbc.configuration.LinkConfig
+6392,org.apache.sqoop.validation.validators.ClassAvailable
+6400,org.apache.sqoop.validation.validators.TestClassAvailable
+6540,org.apache.sqoop.client.ClientError
+6541,org.apache.sqoop.common.SqoopProtocolConstants
+6548,org.apache.sqoop.common.test.utils.LoggerWriter
+6616,org.apache.sqoop.test.testcases.TomcatTestCase
+6643,org.apache.sqoop.test.asserts.HdfsAsserts
+6644,org.apache.sqoop.test.hadoop.HadoopRunnerFactory
+6645,org.apache.sqoop.test.hadoop.HadoopLocalRunner
+6646,org.apache.sqoop.test.utils.HdfsUtils
+6670,org.apache.sqoop.submission.mapreduce.MapreduceSubmissionEngine
+6789,org.apache.sqoop.execution.mapreduce.MRJobRequest
+6790,org.apache.sqoop.execution.mapreduce.MapreduceExecutionEngine
+6792,org.apache.sqoop.submission.mapreduce.Constants
+6810,org.apache.sqoop.job.mr.TestSqoopOutputFormatLoadExecutor
+6888,org.apache.sqoop.job.util.MRJobTestUtil
+6890,org.apache.sqoop.job.mr.SqoopOutputFormatLoadExecutor
+6907,org.apache.sqoop.model.MConfigurableType
+6914,org.apache.sqoop.connector.hdfs.HdfsConnector
+6927,org.apache.sqoop.job.etl.From
+6928,org.apache.sqoop.connector.hdfs.HdfsFromInitializer
+6929,org.apache.sqoop.connector.hdfs.HdfsPartitioner
+6930,org.apache.sqoop.connector.hdfs.HdfsExtractor
+6931,org.apache.sqoop.connector.hdfs.HdfsFromDestroyer
+6933,org.apache.sqoop.connector.hdfs.HdfsToInitializer
+6934,org.apache.sqoop.connector.hdfs.HdfsToDestroyer
+6941,org.apache.sqoop.model.TestMDriver
+6947,org.apache.sqoop.connector.jdbc.GenericJdbcFromDestroyer
+6955,org.apache.sqoop.handler.JobRequestHandler
+7065,org.apache.sqoop.json.JobBean
+7066,org.apache.sqoop.json.JobsBean
+7067,org.apache.sqoop.security.Authorization.AuthorizationEngine
+7068,org.apache.sqoop.handler.HandlerUtils
+7107,org.apache.sqoop.tools.tool.VerifyTool
+7112,org.apache.sqoop.core.SqoopServer
+7116,org.apache.sqoop.connector.kite.configuration.TestConfigUtil
+7124,org.apache.sqoop.json.SubmissionsBean
+7183,org.apache.sqoop.server.v1.JobsServlet
+7189,org.apache.sqoop.connector.kafka.KafkaToDestroyer
+7197,org.apache.sqoop.json.util.TestConfigSerialization
+7400,org.apache.sqoop.common.test.kafka.KafkaConsumer
+7417,org.apache.sqoop.connector.kite.TestKiteExecutor
+7456,org.apache.sqoop.shell.SqoopShell
+7488,org.apache.sqoop.shell.HelpCommand
+7489,org.apache.sqoop.shell.SetCommand
+7490,org.apache.sqoop.shell.ShowCommand
+7491,org.apache.sqoop.shell.DeleteCommand
+7492,org.apache.sqoop.shell.CloneCommand
+7493,org.apache.sqoop.shell.StartCommand
+7494,org.apache.sqoop.shell.StatusCommand
+7495,org.apache.sqoop.shell.DisableCommand
+7534,org.apache.sqoop.shell.CloneJobFunction
+7555,org.apache.sqoop.connector.matcher.TestLocationMatcher
+7574,org.apache.sqoop.connector.matcher.LocationMatcher
+7575,org.apache.sqoop.connector.matcher.SchemaFixture
+7590,org.apache.sqoop.connector.kite.TestKiteToInitializer
+7601,org.apache.sqoop.connector.kite.KiteToInitializer
+7641,org.apache.sqoop.integration.connector.jdbc.generic.FromHDFSToRDBMSTest
+7649,org.apache.sqoop.test.testcases.ConnectorTestCase
+7657,org.apache.sqoop.validation.ConfigValidationError
+7692,org.apache.sqoop.security.SecurityError
+7699,org.apache.sqoop.connector.hdfs.HdfsPartition
+7756,org.apache.sqoop.common.test.db.MySQLProvider
+7774,org.apache.sqoop.connector.jdbc.GenericJdbcExecutorTest
+7789,org.apache.sqoop.connector.jdbc.GenericJdbcTestConstants
+7809,org.apache.sqoop.driver.configuration.JobConfiguration
+7811,org.apache.sqoop.driver.DriverUpgrader
+7812,org.apache.sqoop.driver.DriverConstants
+7816,org.apache.sqoop.driver.configuration.ThrottlingConfig
+7850,org.apache.sqoop.error.code.KiteConnectorError
+7884,org.apache.sqoop.connector.kite.KiteConnectorUpgrader
+7897,org.apache.sqoop.shell.DisableLinkFunction
+7920,org.apache.sqoop.validation.validators.NullOrContains
+7934,org.apache.sqoop.utils.UrlSafeUtils
+7946,org.apache.sqoop.driver.TestDriverConfigUpgrader
+7976,org.apache.sqoop.schema.type.TestSet
+7988,org.apache.sqoop.validation.validators.TestContains
+7991,org.apache.sqoop.validation.validators.Contains
+8005,org.apache.sqoop.common.test.asserts.ProviderAsserts
+8020,org.apache.sqoop.json.TestLinkBean
+8051,org.apache.sqoop.json.util.ConfigInputConstants
+8060,org.apache.sqoop.submission.counter.TestCounters
+8074,org.apache.sqoop.repository.derby.TestDriverHandling
+8092,org.apache.sqoop.repository.JdbcTransactionIsolation
+8122,org.apache.sqoop.common.test.db.OracleProvider
+8374,org.apache.sqoop.utils.MapResourceBundle
+8422,org.apache.sqoop.connector.kafka.KafkaConnector
+8434,org.apache.sqoop.connector.kafka.KafkaConstants
+8437,org.apache.sqoop.server.v1.SubmissionsServlet
+8442,org.apache.sqoop.handler.SubmissionRequestHandler
+8457,org.apache.sqoop.common.test.db.TeradataProvider
+8501,org.apache.sqoop.model.TestMNamedElement
+8505,org.apache.sqoop.connector.jdbc.TestFromInitializer
+8625,org.apache.sqoop.job.io.TestSqoopWritable
+8654,org.apache.sqoop.job.mr.SqoopDestroyerExecutor
+8750,org.apache.sqoop.connector.kite.TestKiteLoader
+8772,org.apache.sqoop.connector.kite.KiteLoader
+8928,org.apache.sqoop.driver.ExecutionEngine
+8947,org.apache.sqoop.validation.TestValidationRunner
+8979,org.apache.sqoop.validation.validators.NotNull
+8980,org.apache.sqoop.validation.ConfigValidationRunner
+9023,org.apache.sqoop.server.v1.LinkServlet
+9034,org.apache.sqoop.handler.LinkRequestHandler
+9063,org.apache.sqoop.schema.type.TestEnum
+9090,org.apache.sqoop.repository.RepoConfigurationConstants
+9194,org.apache.sqoop.integration.repository.postgresql.TestStructure
+9240,org.apache.sqoop.error.code.DerbyRepoError
+9261,org.apache.sqoop.test.data.UbuntuReleases
+9416,org.apache.sqoop.repository.derby.DerbySchemaUpgradeQuery
+9568,org.apache.sqoop.connector.hdfs.TestPartitioner
+9668,org.apache.sqoop.connector.jdbc.GenericJdbcLoader
+9727,org.apache.sqoop.security.Authentication.KerberosAuthenticationHandler
+9753,org.apache.sqoop.tools.tool.JSONConstants
+9774,org.apache.sqoop.integration.connector.kafka.FromRDBMSToKafkaTest
+9796,org.apache.sqoop.json.TestConnectorsBean
+9848,org.apache.sqoop.security.Authorization.DefaultAuthorizationAccessController
+9928,org.apache.sqoop.client.request.ConnectorResourceRequest
+9950,org.apache.sqoop.connector.jdbc.GenericJdbcPartitioner
+10104,org.apache.sqoop.connector.jdbc.GenericJdbcPartition
+10174,org.apache.sqoop.json.util.SerializationError
+10186,org.apache.sqoop.shell.CloneLinkFunction
+10204,org.apache.sqoop.connector.jdbc.GenericJdbcToDestroyer
+10221,org.apache.sqoop.validation.validators.TestHostAndPortValidator
+10234,org.apache.sqoop.common.test.db.DatabaseProviderFactory
+10240,org.apache.sqoop.common.test.db.DerbyProvider
+10255,org.apache.sqoop.security.Authorization.DefaultAuthorizationValidator
+10265,org.apache.sqoop.tools.tool.RepositoryLoadTool
+10401,org.apache.sqoop.connector.jdbc.TestPartitioner
+10542,org.apache.sqoop.connector.hdfs.TestHdfsUtils
+10558,org.apache.sqoop.connector.hdfs.TestLinkConfig
+10570,org.apache.sqoop.client.request.SubmissionResourceRequest
+10582,org.apache.sqoop.client.TestSqoopClient
+10615,org.apache.sqoop.client.request.SqoopResourceRequests
+10627,org.apache.sqoop.connector.kafka.TestConfiguration
+11269,org.apache.sqoop.server.v1.DriverServlet
+11278,org.apache.sqoop.shell.ShowVersionFunction
+11292,org.apache.sqoop.client.request.VersionResourceRequest
+11406,org.apache.sqoop.shell.DisableJobFunction
+11417,org.apache.sqoop.schema.type.AbstractPrimitiveType
+11436,org.apache.sqoop.integration.server.VersionTest
+11477,org.apache.sqoop.validation.TestStatus
+11481,org.apache.sqoop.model.TestMEnumInput
+11542,org.apache.sqoop.shell.ShowJobStatusFunction
+11550,org.apache.sqoop.repository.common.TestCommonRepoUtils
+11557,org.apache.sqoop.schema.type.TestArray
+11575,org.apache.sqoop.json.TestJobsBean
+11597,org.apache.sqoop.connector.kite.util.KiteDataTypeUtil
+11660,org.apache.sqoop.model.Configurable
+11877,org.apache.sqoop.repository.derby.DerbyRepoConstants
+12075,org.apache.sqoop.model.TestMStringInput
+12104,org.apache.sqoop.common.TestMapContext
+12173,org.apache.sqoop.connector.mysqljdbc.MySqlJdbcConnector
+12186,org.apache.sqoop.server.v1.JobServlet
+12206,org.apache.sqoop.validation.validators.TestStartsWith
+12364,org.apache.sqoop.connector.matcher.NameMatcher
+12367,org.apache.sqoop.connector.kite.KiteFromDestroyer
+12377,org.apache.sqoop.connector.common.EmptyConfiguration
+12452,org.apache.sqoop.schema.type.TestMap
+12661,org.apache.sqoop.audit.FileAuditLogger
+12683,org.apache.sqoop.shell.DeleteLinkFunction
+12685,org.apache.sqoop.connector.jdbc.TestGenericJdbcConnectorUpgrader
+12698,org.apache.sqoop.server.v1.ConnectorServlet
+12726,org.apache.sqoop.filter.SqoopAuthenticationFilter
+12758,org.apache.sqoop.server.ServerInitializer
+12805,org.apache.sqoop.repository.TestJdbcRepository
+13040,org.apache.sqoop.connector.jdbc.GenericJdbcExtractor
+13081,org.apache.sqoop.tools.tool.BuiltinTools
+13086,org.apache.sqoop.tools.tool.RepositoryDumpTool
+13128,org.apache.sqoop.test.data.Cities
+13172,org.apache.sqoop.server.v1.LinksServlet
+13181,org.apache.sqoop.connector.jdbc.TestLoader
+13218,org.apache.sqoop.security.Authentication.SimpleAuthenticationHandler
+13224,org.apache.sqoop.tools.ToolRunner
+13232,org.apache.sqoop.utils.TestMapResourceBundle
+13237,org.apache.sqoop.test.minicluster.InProcessSqoopMiniCluster
+13246,org.apache.sqoop.integration.connector.jdbc.generic.TableStagedRDBMSTest
+13323,org.apache.sqoop.job.TestMapReduce
+13420,org.apache.sqoop.job.mr.SqoopNullOutputFormat
+13422,org.apache.sqoop.connector.hdfs.TestExtractor
+13499,org.apache.sqoop.integration.connector.jdbc.generic.PartitionerTest
+13538,org.apache.sqoop.error.code.KafkaConnectorErrors
+13550,org.apache.sqoop.json.TestSubmissionBean
+13709,org.apache.sqoop.client.request.DriverResourceRequest
+13802,org.apache.sqoop.client.request.JobResourceRequest
+13931,org.apache.sqoop.model.TestMLink
+14118,org.apache.sqoop.connector.kite.KiteConnector
+14130,org.apache.sqoop.connector.kite.KiteDatasetPartitioner
+14160,org.apache.sqoop.test.utils.CompressionUtils
+14187,org.apache.sqoop.validation.validators.TestNotNull
+14264,org.apache.sqoop.schema.SchemaMatchOption
+14272,org.apache.sqoop.connector.jdbc.GenericJdbcConnector
+14286,org.apache.sqoop.utils.TestClassUtils
+14333,org.apache.sqoop.common.test.db.NetezzaProvider
+14354,org.apache.sqoop.integration.repository.derby.upgrade.Derby1_99_4UpgradeTest
+14365,org.apache.sqoop.integration.repository.derby.upgrade.DerbyRepositoryUpgradeTest
+14375,org.apache.sqoop.job.TestMatching
+14469,org.apache.sqoop.integration.server.SubmissionWithDisabledModelObjectsTest
+14509,org.apache.sqoop.submission.counter.TestCounterGroup
+14527,org.apache.sqoop.job.mr.SqoopReducer
+14670,org.apache.sqoop.json.TestJobBean
+14845,org.apache.sqoop.integration.repository.postgresql.TestHandler
+14945,org.apache.sqoop.shell.ShowDriverFunction
+14970,org.apache.sqoop.connector.matcher.TestNameMatcher
+15135,org.apache.sqoop.json.TestThrowableBean
+15151,org.apache.sqoop.repository.derby.TestJobHandling
+15188,org.apache.sqoop.tomcat.TomcatToolRunner
+15228,org.apache.sqoop.validation.validators.TestNullOrContains
+15232,org.apache.sqoop.model.TestMJobConfig
+15242,org.apache.sqoop.driver.TestJobRequest
+15254,org.apache.sqoop.json.TestDriverBean
+15264,org.apache.sqoop.error.code.MatcherError
+15276,org.apache.sqoop.shell.ShowLinkFunction
+15292,org.apache.sqoop.connector.jdbc.TestExtractor
+15368,org.apache.sqoop.common.TestVersionInfo
+15514,org.apache.sqoop.server.VersionServlet
+15604,org.apache.sqoop.validation.validators.TestNotEmpty
+15830,org.apache.sqoop.connector.jdbc.TestToInitializer
+16041,org.apache.sqoop.repository.JdbcRepositoryProvider
+16148,org.apache.sqoop.json.TestLinksBean
+16171,org.apache.sqoop.security.Authorization.DefaultAuthenticationProvider
+16212,org.apache.sqoop.integration.connector.jdbc.generic.FromRDBMSToHDFSTest
+16273,org.apache.sqoop.validation.validators.TestValidator
+*Edges: 2103
+1382 1250 2
+1382 1380 1
+759 1250 4
+759 1380 1
+759 57 3
+759 361 1
+759 1382 3
+12661 57 1
+12661 1382 6
+685 4191 4
+685 2133 8
+685 247 8
+685 22 4
+685 7065 3
+685 682 1
+685 246 7
+685 504 1
+685 502 9
+685 2242 2
+685 249 6
+685 57 2
+685 876 8
+685 10615 27
+685 6135 6
+685 503 6
+685 248 12
+685 2744 2
+685 1520 4
+685 2183 4
+10582 685 28
+10582 249 10
+10582 247 3
+10582 16 1
+10582 10615 11
+10582 682 1
+10582 2744 2
+10582 17 1
+10582 246 6
+10582 8374 1
+10582 18 1
+10582 1520 2
+9928 2241 1
+9928 2244 5
+9928 1507 1
+9928 1520 3
+13709 2241 1
+13709 2244 4
+13709 2744 3
+13802 2241 5
+13802 502 2
+13802 2244 14
+13802 249 1
+13802 2133 6
+13802 7065 8
+13802 6135 6
+13802 7066 3
+2202 2242 7
+2202 2241 3
+2202 2244 10
+2202 249 1
+2202 2133 6
+2202 248 2
+2202 2243 1
+2244 307 3
+2244 57 2
+10615 2242 1
+10615 502 2
+10615 2244 1
+10615 2133 4
+10615 13709 4
+10615 7065 2
+10615 2202 8
+10615 7124 1
+10615 6135 3
+10615 13802 12
+10615 248 2
+10615 2744 1
+10615 10570 4
+10615 9928 4
+10615 1520 1
+10570 7124 3
+10570 2241 1
+10570 2244 5
+11292 2241 1
+11292 2244 4
+11292 761 3
+1850 1380 7
+3031 622 3
+12104 1380 16
+3902 3906 6
+5880 3031 20
+15368 760 5
+8005 511 3
+10234 511 1
+10240 6548 1
+10240 370 1
+10240 511 3
+7756 511 1
+14333 511 1
+8122 511 1
+2743 511 1
+1419 511 1
+8457 511 1
+7400 3203 2
+1399 1417 1
+3203 1417 5
+3203 7400 6
+3203 1399 4
+3203 370 2
+14 104 2
+14 111 5
+14 57 1
+14 103 2
+3485 4191 3
+3485 57 6
+3485 16 1
+3485 361 1
+3485 1851 8
+3485 17 1
+3485 246 4
+3485 18 1
+3271 1250 6
+3271 249 4
+3271 1380 1
+3271 57 3
+3271 805 2
+3271 3485 17
+3271 1851 4
+3271 3273 4
+3271 3483 4
+3271 246 2
+785 805 6
+785 361 1
+153 202 2
+153 200 1
+153 205 3
+153 199 2
+153 198 2
+153 197 1
+153 201 1
+153 196 1
+1167 200 1
+1167 205 4
+1167 199 1
+1167 198 9
+1167 2052 1
+1167 1178 1
+1167 1171 1
+1167 1170 1
+1178 200 2
+1178 199 2
+1178 198 21
+1178 57 6
+1178 2052 1
+1178 2263 2
+1178 1173 1
+1178 1172 16
+1176 200 4
+1176 199 9
+1176 2263 3
+1176 1168 3
+1176 1178 40
+1176 201 4
+6914 3592 1
+6914 6927 1
+6914 1851 1
+6914 760 1
+2 15 1
+2 22 6
+2 14 3
+5364 2760 1
+6930 986 1
+6930 1877 2
+6930 1867 1
+6930 7699 5
+6930 2358 5
+6930 5263 1
+6930 710 1
+6931 1942 1
+6931 5361 1
+6931 699 1
+6928 63 1
+6928 5361 1
+6928 2439 1
+5212 986 1
+5212 57 2
+5212 361 1
+5212 3205 2
+5212 710 1
+5212 5258 5
+5212 3211 1
+5212 5263 1
+5212 3204 2
+7699 989 1
+6929 991 3
+6929 990 1
+6929 986 1
+6929 7699 1
+6929 5263 1
+6929 710 1
+6934 1942 1
+6934 699 1
+6934 5257 1
+6933 63 1
+6933 2439 1
+6933 5257 1
+5263 5361 2
+5263 5257 2
+5263 5255 5
+13422 986 2
+13422 5361 2
+13422 1637 4
+13422 5531 5
+13422 5255 2
+13422 1867 3
+13422 1877 2
+13422 5256 2
+5531 7699 2
+5531 1637 1
+10542 5361 2
+10542 5263 9
+10542 5257 2
+10542 5255 3
+10558 2118 2
+10558 876 2
+5461 986 2
+5461 5530 2
+5461 1637 1
+5461 5531 3
+5461 5255 2
+5461 3205 2
+5461 5256 2
+5461 3211 11
+5461 5257 2
+9568 991 1
+9568 986 1
+9568 5361 1
+9568 1637 2
+9568 5531 3
+9568 5255 1
+9568 990 2
+9568 5256 2
+5361 3626 1
+5255 5362 1
+5363 5530 1
+5363 5256 1
+5257 5363 1
+5259 5258 1
+5260 5258 1
+1169 205 6
+1169 198 35
+1169 1177 7
+1169 57 10
+1169 1178 32
+1169 1172 1
+1169 1167 5
+2015 205 3
+2015 198 9
+2015 1177 7
+2015 57 5
+2015 1178 24
+1177 205 5
+1177 57 1
+2924 205 6
+2924 198 30
+2924 1177 7
+2924 57 10
+2924 1178 37
+1028 199 4
+1028 198 4
+1028 1167 3
+1028 201 8
+1028 1176 6
+1028 1169 45
+1028 1177 12
+1028 1168 3
+1028 197 1
+1028 1170 1
+1028 196 1
+4892 200 3
+4892 199 28
+4892 198 1
+4892 2015 233
+4892 201 69
+4892 1176 6
+4892 205 258
+4892 1174 4
+4892 2263 4
+4892 1177 5
+4892 1168 7
+4892 197 17
+4892 1173 4
+4892 196 13
+4577 199 4
+4577 198 3
+4577 2924 45
+4577 1178 3
+4577 201 8
+4577 205 23
+4577 1176 6
+4577 1177 15
+4577 1168 3
+4577 197 1
+4577 196 1
+14272 3592 1
+14272 6927 1
+14272 1851 1
+14272 760 1
+5691 15 1
+5691 104 3
+5691 111 6
+5691 22 12
+5691 14 3
+5691 103 6
+2441 205 2
+2441 198 1
+2441 57 2
+7774 2441 17
+13040 198 1
+13040 2441 3
+13040 57 1
+13040 2358 1
+13040 10104 2
+13040 710 1
+13040 205 1
+13040 1867 1
+13040 1877 3
+6947 1942 1
+6947 3999 1
+6947 699 1
+3927 205 3
+3927 63 2
+3927 2441 18
+3927 2437 1
+3927 57 6
+3927 2439 7
+3927 3999 6
+3927 710 1
+9668 2441 9
+9668 3211 1
+9668 3205 2
+9668 3204 1
+9668 710 1
+10104 989 1
+9950 991 1
+9950 990 1
+9950 57 1
+9950 10104 16
+9950 710 4
+10204 1942 1
+10204 2441 4
+10204 2107 1
+10204 699 2
+2372 205 3
+2372 63 2
+2372 2441 10
+2372 2437 1
+2372 2107 5
+2372 57 6
+2372 2439 6
+15292 199 3
+15292 2441 17
+15292 10104 8
+15292 201 3
+15292 1850 4
+15292 205 15
+15292 1174 3
+15292 1867 8
+15292 1877 4
+15292 2263 2
+15292 3999 4
+15292 2436 4
+8505 1850 10
+8505 200 1
+8505 205 5
+8505 63 12
+8505 199 1
+8505 2441 26
+8505 2439 10
+8505 3999 10
+8505 2436 10
+8505 201 1
+12685 108 16
+12685 16 4
+12685 22 89
+12685 5691 7
+12685 103 68
+12685 104 3
+12685 245 2
+12685 17 4
+12685 18 4
+13181 199 1
+13181 2441 10
+13181 2107 1
+13181 3205 1
+13181 201 1
+13181 1850 1
+13181 205 7
+13181 1174 1
+13181 2263 1
+13181 3211 1
+13181 1173 1
+13181 2436 1
+10401 1850 16
+10401 991 16
+10401 990 16
+10401 3999 16
+10401 10104 1
+10401 2436 16
+15830 2441 28
+15830 2107 12
+15830 57 3
+15830 1850 10
+15830 63 10
+15830 8980 5
+15830 2439 10
+15830 2183 6
+15830 2436 12
+3999 4000 1
+2436 6382 1
+2107 2111 1
+2437 200 2
+2437 199 3
+2437 198 1
+2437 201 1
+2437 1174 1
+2437 2263 1
+2437 197 1
+2437 1173 1
+2437 196 1
+2437 1172 1
+8422 3592 1
+8422 1851 1
+8422 760 1
+8434 2760 1
+3207 57 1
+3207 3211 1
+3207 3205 1
+3207 3204 1
+7189 1942 1
+7189 3201 1
+7189 699 1
+6083 63 2
+6083 3201 2
+6083 2439 2
+6083 361 3
+10627 8980 4
+10627 3202 2
+10627 2183 2
+3179 3202 1
+3179 3201 1
+3179 3203 7
+3179 3211 1
+3179 3207 1
+3179 3205 1
+3202 3209 1
+3201 3210 1
+14118 3592 1
+14118 6927 1
+14118 1851 1
+14118 760 1
+2757 2760 1
+7884 15 1
+7884 22 6
+7884 14 3
+1943 205 1
+1943 1939 1
+1943 57 2
+1943 11597 3
+1943 153 1
+2361 989 1
+14130 2361 2
+14130 990 1
+2360 1943 4
+2360 2361 2
+2360 1877 2
+2360 1867 1
+2360 2358 1
+12367 1942 1
+12367 58 1
+12367 699 1
+61 205 1
+61 63 2
+61 57 1
+61 2439 3
+61 153 1
+61 361 3
+61 58 3
+8772 1943 7
+8772 205 1
+8772 1939 1
+8772 3211 1
+8772 3205 2
+8772 3204 1
+1910 1943 5
+1910 205 1
+1910 1942 1
+1910 1939 1
+1910 1299 3
+1910 699 5
+1910 1940 1
+7601 205 1
+7601 63 2
+7601 1299 3
+7601 57 1
+7601 2439 3
+7601 627 1
+7601 361 4
+7417 1943 17
+2326 2360 1
+2326 2358 1
+2326 1941 1
+2326 201 1
+2326 1943 2
+2326 2361 2
+2326 205 2
+2326 1867 1
+2326 1877 1
+2326 58 1
+36 63 2
+36 61 1
+36 58 2
+8750 8772 1
+8750 1941 1
+8750 3205 1
+8750 201 1
+8750 1943 1
+8750 205 1
+8750 1299 1
+8750 3211 1
+4732 1943 3
+4732 1942 2
+4732 1299 2
+4732 1910 1
+4732 1941 2
+4732 699 2
+7590 205 1
+7590 63 3
+7590 7601 1
+7590 1299 2
+7590 1941 2
+1940 1302 2
+1940 5929 1
+58 62 1
+1941 5929 1
+7116 1940 2
+1302 1939 1
+1299 1302 1
+11597 736 1
+11597 205 4
+11597 1939 1
+11597 198 5
+7574 205 5
+7574 5424 6
+5424 205 10
+5424 198 4
+5424 57 1
+5424 2846 2
+5425 205 4
+5425 5424 1
+5425 12364 1
+5425 7574 1
+12364 205 6
+12364 5424 7
+12364 198 2
+7575 205 11
+7575 1172 2
+7575 201 3
+7555 205 2
+7555 627 1
+7555 7574 9
+7555 7575 9
+14970 205 2
+14970 12364 9
+14970 627 1
+14970 7575 5
+12173 3592 1
+12173 6927 1
+12173 8374 1
+15 57 3
+15 16 2
+15 17 2
+15 18 2
+1851 15 1
+1851 622 1
+1851 3592 1
+1851 6927 1
+1254 57 1
+1250 1380 4
+1250 57 11
+7112 3272 4
+7112 3271 4
+7112 5806 4
+7112 1250 4
+7112 3418 4
+7112 3273 4
+7112 759 4
+7112 4830 4
+1215 1250 18
+1215 57 7
+1215 1252 6
+3272 1250 4
+3272 7811 2
+3272 4191 1
+3272 1380 1
+3272 247 3
+3272 3273 2
+3272 682 1
+3272 3483 1
+7811 682 2
+7811 22 2
+7811 14 1
+8928 1767 3
+5806 5178 6
+5806 3578 8
+5806 1942 2
+5806 4191 5
+5806 1380 12
+5806 1767 62
+5806 22 5
+5806 8928 5
+5806 1851 14
+5806 63 4
+5806 1852 5
+5806 1177 1
+5806 622 7
+5806 504 3
+5806 502 6
+5806 3272 2
+5806 3271 2
+5806 249 3
+5806 1250 8
+5806 57 14
+5806 111 1
+5806 361 11
+5806 3273 12
+5806 512 5
+5806 205 1
+5806 3483 6
+5806 503 16
+5806 2439 2
+5806 248 5
+5806 699 2
+1767 1850 8
+1767 1852 6
+1767 622 9
+1767 503 3
+1767 57 7
+1767 361 1
+1767 1851 4
+3578 1380 1
+3578 503 1
+3578 1767 1
+7946 108 4
+7946 106 2
+7946 104 3
+7946 7811 4
+7946 682 8
+7946 22 18
+7946 103 18
+5761 5178 1
+5761 502 2
+5761 3271 3
+5761 5806 9
+5761 249 4
+5761 111 1
+5761 57 8
+5761 1851 3
+5761 512 7
+5761 3273 7
+5761 3483 6
+5761 248 2
+15242 1767 17
+7809 7816 1
+6789 1767 2
+6790 1850 8
+6790 1852 2
+6790 6789 9
+6790 3592 1
+6790 1767 8
+6790 8928 1
+6790 6927 2
+12726 1250 4
+12726 1380 4
+12726 57 4
+1703 3271 8
+1703 7068 1
+1703 7067 2
+1703 57 1
+1703 1507 1
+1703 762 10
+1703 759 4
+1703 1520 1
+1704 3272 4
+1704 57 1
+1704 2744 1
+1704 762 6
+1704 759 2
+7068 3271 4
+7068 249 2
+7068 3483 6
+7068 57 3
+6955 5178 2
+6955 4191 3
+6955 2133 2
+6955 247 1
+6955 22 3
+6955 1851 4
+6955 7065 10
+6955 682 1
+6955 246 2
+6955 18 1
+6955 502 16
+6955 3272 4
+6955 3271 12
+6955 5806 10
+6955 249 7
+6955 57 5
+6955 16 1
+6955 876 2
+6955 6135 3
+6955 3273 14
+6955 512 3
+6955 7068 8
+6955 7067 10
+6955 3483 8
+6955 759 18
+6955 762 46
+6955 7066 2
+6955 2183 3
+9034 4191 1
+9034 2133 2
+9034 22 1
+9034 1851 1
+9034 2243 2
+9034 17 1
+9034 246 1
+9034 2242 8
+9034 3271 6
+9034 249 8
+9034 57 4
+9034 876 1
+9034 512 3
+9034 3273 8
+9034 7068 4
+9034 7067 7
+9034 3483 10
+9034 759 12
+9034 248 7
+9034 762 31
+9034 2183 1
+8442 57 1
+8442 3273 6
+8442 7124 2
+8442 7068 1
+8442 3483 2
+8442 7067 2
+8442 759 4
+8442 762 10
+746 57 1
+746 762 5
+746 761 2
+746 759 2
+746 760 5
+7641 502 2
+7641 685 3
+7641 249 2
+7641 7649 15
+7641 22 2
+7641 511 2
+7641 103 2
+7641 6616 4
+16212 502 5
+16212 685 18
+16212 249 14
+16212 7649 36
+16212 22 11
+16212 511 17
+16212 103 11
+16212 503 6
+16212 504 6
+16212 6616 22
+13499 502 2
+13499 685 3
+13499 249 2
+13499 7649 10
+13499 22 3
+13499 511 2
+13499 103 3
+13499 1274 1
+13499 6616 5
+13246 502 2
+13246 685 3
+13246 249 2
+13246 7649 16
+13246 22 3
+13246 511 5
+13246 103 3
+13246 13128 2
+13246 6616 4
+674 502 1
+674 685 3
+674 249 2
+674 683 4
+674 7649 5
+674 22 1
+674 103 1
+674 6616 4
+9774 502 2
+9774 685 3
+9774 249 2
+9774 683 4
+9774 7649 7
+9774 22 3
+9774 511 2
+9774 103 3
+9774 6616 3
+14354 14365 1
+14365 512 2
+14365 685 8
+14365 14160 1
+14365 835 1
+14365 6646 1
+14365 6616 11
+510 107 2
+510 247 3
+510 22 4
+510 511 6
+510 506 2
+510 2745 2
+510 1536 2
+510 682 2
+510 252 1
+510 17 2
+510 246 8
+510 504 1
+510 18 2
+510 502 7
+510 108 2
+510 249 6
+510 111 2
+510 16 2
+510 507 3
+510 103 8
+510 104 2
+510 503 4
+510 248 6
+2745 3794 1
+2745 511 5
+3356 510 9
+3356 249 4
+3356 252 15
+3356 511 31
+1450 510 5
+1450 249 1
+1450 252 8
+1450 247 10
+1450 511 12
+14845 510 1
+14845 1536 3
+14845 511 3
+3081 502 12
+3081 510 10
+3081 249 8
+3081 111 3
+3081 22 12
+3081 511 53
+3081 103 8
+3081 512 2
+3081 252 43
+4235 510 9
+4235 249 12
+4235 111 4
+4235 22 6
+4235 511 58
+4235 103 4
+4235 512 2
+4235 248 6
+4235 252 48
+9194 2745 42
+9194 510 1
+428 510 13
+428 249 4
+428 505 11
+428 511 56
+428 507 8
+428 506 13
+428 513 9
+428 512 6
+428 503 32
+428 252 46
+14469 502 2
+14469 685 5
+14469 249 4
+14469 57 2
+14469 7649 10
+14469 22 2
+14469 511 2
+14469 103 2
+14469 6616 5
+11436 11292 2
+11436 761 5
+11436 6616 2
+11436 760 5
+988 2760 1
+13323 6888 6
+13323 950 1
+13323 993 1
+13323 628 4
+14375 6888 2
+14375 200 4
+14375 199 4
+14375 627 2
+14375 2015 7
+14375 1178 1
+14375 205 25
+14375 5425 1
+14375 5424 1
+14375 628 2
+1942 699 1
+699 205 3
+699 710 2
+1867 1877 1
+1877 205 3
+1877 2358 3
+1877 710 2
+6927 1852 3
+63 205 1
+63 2439 3
+63 627 1
+2439 710 3
+3211 3205 1
+3205 205 3
+3205 3204 3
+3205 710 2
+990 991 1
+991 205 3
+991 710 2
+3592 1852 3
+5426 1177 9
+5426 361 1
+8625 5426 11
+8625 205 2
+8625 1177 1
+8625 2015 2
+8625 201 1
+628 2241 1
+628 205 3
+628 4191 6
+628 622 6
+628 579 2
+8654 986 1
+8654 5425 1
+8654 5424 2
+8654 1942 1
+8654 622 1
+8654 699 1
+8654 628 4
+950 991 1
+950 989 1
+950 990 1
+950 986 1
+950 361 1
+950 993 1
+950 628 3
+5377 986 1
+5377 361 3
+5377 5430 1
+5377 5425 1
+5377 1867 2
+5377 1877 1
+5377 5424 3
+5377 1177 4
+5377 993 1
+5377 628 4
+13420 6890 2
+6890 5425 1
+6890 5424 3
+6890 1177 3
+6890 628 2
+14527 5430 1
+993 989 5
+993 57 2
+993 361 1
+586 205 3
+586 627 2
+586 628 18
+586 201 1
+6810 6888 4
+6810 5426 4
+6810 6890 8
+6810 57 2
+6810 627 2
+6810 2015 1
+6810 201 1
+6810 205 3
+6810 5424 1
+6810 5425 1
+6810 1177 5
+6888 200 1
+6888 205 5
+6888 199 1
+6888 1177 1
+6888 2015 1
+6888 361 1
+6888 201 1
+1520 6079 6
+1520 249 3
+1520 16 1
+1520 6080 2
+1520 22 6
+1520 6078 1
+1520 17 1
+1520 246 14
+1520 18 1
+1507 1520 4
+2744 6079 2
+2744 249 2
+2744 682 1
+2744 6078 1
+2744 247 7
+2744 6080 2
+2744 22 2
+7065 502 11
+7065 6079 6
+7065 249 2
+7065 111 2
+7065 16 1
+7065 22 6
+7065 512 10
+7065 682 1
+7065 18 1
+7066 502 1
+7066 7065 5
+2242 512 10
+2242 6079 2
+2242 249 2
+2242 111 2
+2242 248 7
+2242 22 2
+2242 17 1
+2243 2242 5
+2243 248 1
+569 205 3
+569 579 2
+6135 513 6
+6135 512 12
+6135 503 31
+6135 579 4
+6135 505 3
+6135 507 4
+6135 506 3
+7124 6135 5
+7124 503 1
+3158 3170 1
+3158 2241 1
+3158 3169 1
+3158 1520 7
+9796 3170 6
+9796 2241 3
+9796 3169 6
+9796 1507 12
+9796 1520 10
+15254 3170 2
+15254 2241 1
+15254 2744 6
+15254 247 1
+5544 2241 4
+14670 2241 1
+14670 502 8
+14670 249 1
+14670 111 1
+14670 22 4
+14670 7065 5
+14670 103 4
+14670 512 3
+14670 3169 1
+11575 2241 1
+11575 502 8
+11575 249 2
+11575 111 2
+11575 22 4
+11575 7065 2
+11575 103 4
+11575 512 3
+11575 3169 2
+11575 7066 4
+8020 2242 8
+8020 2241 1
+8020 249 1
+8020 111 1
+8020 22 3
+8020 103 3
+8020 512 5
+8020 3169 2
+8020 248 3
+16148 2242 2
+16148 2241 1
+16148 249 2
+16148 111 2
+16148 22 2
+16148 103 2
+16148 512 5
+16148 3169 2
+16148 248 2
+16148 2243 4
+3064 3072 1
+3064 2241 1
+3064 569 5
+13550 2241 2
+13550 505 24
+13550 507 15
+13550 506 30
+13550 201 1
+13550 7124 8
+13550 6135 2
+13550 512 16
+13550 513 8
+13550 205 4
+13550 2263 1
+13550 503 77
+15135 2241 1
+15135 307 5
+15135 57 3
+5724 2241 2
+5724 2133 11
+5724 2183 8
+5724 1009 2
+307 57 3
+307 361 3
+2133 2183 8
+2133 1009 5
+3169 3170 4
+3169 512 8
+3169 502 3
+3169 249 3
+3169 111 2
+3169 248 3
+3169 246 6
+6080 8374 1
+6079 107 1
+6079 108 2
+6079 106 1
+6079 249 4
+6079 111 2
+6079 57 1
+6079 4340 2
+6079 103 13
+6079 104 4
+6079 245 1
+6079 105 2
+3170 108 15
+3170 106 2
+3170 249 23
+3170 16 2
+3170 103 2
+3170 104 6
+3170 682 2
+3170 17 2
+3170 8374 1
+3170 18 2
+579 202 3
+579 198 7
+579 1687 3
+579 1168 3
+579 197 1
+579 1173 2
+579 1171 3
+579 200 2
+579 199 3
+579 627 1
+579 201 1
+579 205 11
+579 2052 2
+579 2263 3
+579 1170 2
+579 196 1
+579 1172 3
+7197 2241 3
+7197 107 2
+7197 6079 6
+7197 108 1
+7197 106 1
+7197 103 12
+7197 104 17
+7197 245 1
+7197 105 2
+3072 202 1
+3072 1168 4
+3072 197 2
+3072 1173 2
+3072 1171 3
+3072 2241 1
+3072 200 2
+3072 1175 3
+3072 199 2
+3072 2846 1
+3072 627 2
+3072 579 4
+3072 201 10
+3072 205 56
+3072 1174 2
+3072 2263 4
+3072 1170 2
+3072 196 2
+3072 1172 2
+4191 2241 1
+4191 107 1
+4191 108 1
+4191 106 1
+4191 111 8
+4191 57 34
+4191 361 3
+4191 103 12
+4191 104 8
+4191 1010 3
+4191 245 1
+4191 8980 2
+4191 105 1
+4191 2183 4
+11660 249 1
+512 1010 3
+245 249 2
+245 111 3
+245 109 1
+245 103 15
+104 107 1
+104 108 1
+104 106 1
+104 249 1
+104 111 8
+104 57 1
+104 103 3
+104 1010 2
+104 245 1
+104 105 1
+22 107 1
+22 108 1
+22 106 1
+22 249 2
+22 111 1
+22 57 2
+22 4340 3
+22 103 1
+22 104 5
+22 245 1
+22 105 1
+246 11660 1
+246 6907 1
+246 249 3
+246 622 1
+246 57 1
+246 16 6
+246 22 4
+246 17 6
+246 3031 12
+246 18 6
+247 11660 1
+247 6907 1
+247 249 3
+247 682 7
+682 22 7
+105 249 2
+105 111 4
+105 109 1
+105 57 1
+105 103 10
+16 22 7
+103 249 1
+103 1010 2
+103 111 1
+103 109 3
+103 663 1
+106 249 2
+106 111 4
+106 109 1
+106 103 11
+502 249 4
+502 57 3
+502 16 7
+502 22 1
+502 512 2
+502 622 3
+502 682 7
+502 18 7
+248 512 2
+248 249 4
+248 104 1
+248 111 1
+248 22 1
+248 17 7
+17 22 6
+107 249 2
+107 111 4
+107 109 1
+107 7934 2
+107 103 13
+111 249 1
+421 422 4
+108 249 2
+108 111 4
+108 109 1
+108 7934 2
+108 103 14
+503 513 4
+503 512 2
+503 205 8
+503 504 6
+503 507 4
+18 22 7
+1010 111 3
+1010 876 6
+1010 1009 3
+4085 107 1
+4085 108 10
+4085 106 1
+4085 4191 10
+4085 57 10
+4085 103 3
+4085 104 6
+4085 105 1
+6097 512 12
+6097 106 1
+6097 104 1
+6097 248 1
+6097 17 1
+4851 245 17
+4851 111 3
+4851 103 6
+74 107 1
+74 108 3
+74 106 5
+74 104 9
+74 111 1
+74 105 1
+4558 107 1
+4558 108 1
+4558 106 1
+4558 104 2
+4558 22 5
+4558 105 1
+2987 108 1
+2987 106 1
+2987 16 2
+2987 22 6
+2987 3031 8
+2987 103 2
+2987 104 13
+2987 246 61
+2987 17 2
+2987 18 2
+6941 104 1
+6941 682 1
+6941 247 3
+6941 22 2
+11481 111 1
+11481 105 9
+11481 103 3
+6293 108 1
+6293 106 15
+6293 111 3
+6293 103 7
+1467 502 31
+1467 107 2
+1467 108 1
+1467 106 1
+1467 249 3
+1467 111 7
+1467 16 2
+1467 22 4
+1467 103 6
+1467 512 7
+1467 104 7
+1467 682 2
+1467 18 2
+15232 104 1
+15232 16 3
+13931 108 1
+13931 106 1
+13931 249 3
+13931 111 6
+13931 22 4
+13931 103 6
+13931 512 8
+13931 104 5
+13931 248 15
+13931 17 2
+2674 104 1
+2674 22 1
+2674 17 3
+642 107 17
+642 108 1
+642 111 3
+642 103 10
+8501 106 1
+8501 111 3
+3056 249 4
+12075 108 15
+12075 111 3
+12075 103 6
+1004 106 2
+1004 1010 13
+1004 111 1
+1004 1009 2
+5805 5555 2
+5805 3483 1
+5805 2920 7
+5805 57 1
+5805 1586 3
+1586 8092 3
+1586 1380 11
+1586 57 7
+1586 2913 3
+5555 502 4
+5555 503 3
+5555 248 4
+5555 247 3
+5555 1586 1
+5555 246 3
+16041 1250 4
+16041 1380 1
+16041 57 8
+16041 5805 2
+16041 361 2
+16041 5555 5
+16041 8092 4
+16041 3483 1
+16041 2913 2
+16041 1586 23
+2920 57 5
+2920 2913 2
+2913 2920 2
+3483 7811 1
+3483 4191 4
+3483 247 9
+3483 22 7
+3483 1851 4
+3483 15 3
+3483 682 1
+3483 17 2
+3483 246 14
+3483 18 2
+3483 502 22
+3483 3272 4
+3483 3271 2
+3483 249 9
+3483 57 4
+3483 111 5
+3483 16 2
+3483 876 4
+3483 3031 2
+3483 503 3
+3483 248 8
+3483 2183 6
+3273 1250 10
+3273 3483 3
+3273 1380 5
+3273 57 5
+3273 361 1
+12805 7811 1
+12805 247 4
+12805 1851 14
+12805 15 1
+12805 682 2
+12805 17 2
+12805 246 3
+12805 18 2
+12805 502 3
+12805 3271 2
+12805 3272 11
+12805 249 5
+12805 57 32
+12805 2920 1
+12805 5805 6
+12805 16 2
+12805 5555 5
+12805 3483 14
+12805 248 3
+4568 3273 2
+4568 1250 2
+4568 57 1
+4568 1252 1
+252 663 2
+252 247 15
+252 4340 2
+252 506 5
+252 513 6
+252 682 2
+252 17 2
+252 504 3
+252 105 3
+252 18 2
+252 502 13
+252 3272 2
+252 108 3
+252 249 45
+252 111 9
+252 16 2
+252 507 6
+252 103 16
+252 5555 1
+252 503 25
+252 248 8
+252 107 2
+252 22 12
+252 245 2
+252 622 7
+252 246 22
+252 106 2
+252 109 2
+252 57 39
+252 505 5
+252 3031 9
+252 512 32
+252 4885 81
+252 104 16
+11550 3794 7
+251 3272 1
+251 249 2
+251 622 2
+251 57 7
+251 252 130
+251 1586 4
+251 805 1
+251 246 2
+251 3485 6
+4874 4885 1
+250 502 4
+250 107 11
+250 108 10
+250 247 4
+250 16 8
+250 22 4
+250 103 8
+250 104 10
+250 682 4
+250 622 1
+250 248 2
+250 17 2
+250 246 12
+250 18 2
+3508 251 1
+3508 250 45
+3508 249 4
+3508 252 15
+8074 251 1
+8074 250 20
+8074 249 1
+8074 252 8
+8074 247 9
+220 251 1
+220 107 1
+220 108 1
+220 106 1
+220 249 4
+220 22 22
+220 103 21
+220 250 12
+220 104 1
+220 245 1
+220 252 6
+220 248 3
+220 246 2
+220 105 2
+15151 502 14
+15151 251 1
+15151 249 7
+15151 111 4
+15151 57 2
+15151 247 1
+15151 22 12
+15151 103 8
+15151 512 2
+15151 250 37
+15151 252 41
+15151 246 2
+890 251 1
+890 249 8
+890 111 5
+890 57 2
+890 22 5
+890 103 4
+890 512 2
+890 250 61
+890 252 33
+890 248 7
+890 246 1
+3738 251 14
+3738 250 43
+4756 251 1
+4756 249 2
+4756 505 8
+4756 507 5
+4756 506 10
+4756 513 9
+4756 512 6
+4756 250 59
+4756 503 29
+4756 252 35
+1536 622 1
+1536 57 3
+1536 252 24
+1536 1586 2
+2846 205 2
+627 205 2
+205 198 6
+205 57 3
+2052 198 10
+2052 3914 4
+3914 198 4
+1897 198 3
+735 11417 3
+11417 198 3
+1687 198 3
+1687 11417 5
+1168 198 2
+1168 2052 6
+196 1687 6
+197 198 4
+198 736 1
+198 57 1
+1174 1897 3
+1174 198 1
+1172 1897 3
+1172 198 3
+2263 198 3
+2263 735 3
+1170 198 6
+199 198 3
+199 735 3
+200 198 3
+200 735 3
+1171 198 12
+1171 11417 5
+1171 3914 3
+1175 198 2
+1175 2052 4
+11557 1168 22
+11557 201 7
+11557 196 1
+9063 1170 19
+12452 1171 20
+12452 201 16
+7976 1175 12
+7976 2052 3
+7976 201 5
+7976 196 1
+201 1687 6
+1173 1897 3
+1173 198 3
+202 196 5
+9727 1250 2
+9727 1380 2
+9727 57 2
+9727 1857 2
+13218 1857 2
+1857 424 2
+3418 1250 2
+3418 3718 1
+3418 1380 1
+3418 1857 4
+7067 422 1
+7067 420 1
+7067 421 3
+7067 4830 1
+7067 381 1
+16171 424 1
+16171 57 2
+9848 422 4
+9848 3716 1
+9848 423 5
+9848 420 6
+9848 421 2
+3662 3716 15
+3662 3421 4
+3662 1250 2
+3662 3718 2
+3662 1380 2
+3662 424 3
+3662 381 1
+10255 3421 1
+10255 420 1
+10255 421 1
+3716 422 4
+3716 423 3
+3716 420 2
+381 422 4
+381 424 1
+381 423 3
+381 420 3
+4830 1250 4
+4830 3718 2
+4830 1380 2
+4830 381 3
+3421 420 1
+3718 3716 1
+3718 3421 1
+3718 424 1
+3718 57 10
+3718 1857 1
+3718 361 5
+3718 381 1
+762 57 1
+762 3418 1
+762 1857 1
+12758 7112 2
+1705 3906 3
+1705 307 2
+1705 57 1
+1705 762 24
+15514 1705 1
+15514 746 1
+1695 1703 1
+1695 1705 1
+1695 1704 2
+1695 762 2
+12698 1703 1
+12698 1705 1
+3075 1703 1
+3075 1705 1
+11269 1705 1
+11269 1704 1
+12186 6955 1
+12186 1705 1
+7183 6955 1
+7183 1705 1
+9023 9034 1
+9023 1705 1
+13172 9034 1
+13172 1705 1
+8437 8442 1
+8437 1705 1
+7492 2692 2
+7534 502 2
+7534 1330 1
+7534 877 4
+7534 249 3
+7534 876 4
+7534 1332 5
+7534 880 2
+7534 1331 1
+10186 1332 5
+10186 1330 1
+10186 877 4
+10186 249 2
+10186 5201 1
+10186 880 2
+10186 876 4
+10186 248 1
+2684 2692 2
+2694 1329 1
+2694 502 2
+2694 1330 1
+2694 877 5
+2694 249 1
+2694 876 4
+2694 1332 5
+2694 880 3
+2694 1331 1
+2693 1329 1
+2693 1332 5
+2693 1330 1
+2693 877 4
+2693 249 1
+2693 5201 1
+2693 880 2
+2693 876 4
+7491 2692 2
+860 877 1
+860 880 2
+12683 877 1
+12683 880 2
+7495 2692 2
+11406 877 2
+11406 880 2
+7897 877 1
+7897 880 2
+4712 2692 2
+4716 877 1
+4716 880 2
+4715 877 1
+4715 880 2
+7488 877 12
+7488 57 1
+7489 2692 2
+4206 877 10
+4206 880 1
+4206 876 1
+3319 877 11
+3319 880 1
+877 685 6
+7490 2692 2
+4024 1329 1
+4024 877 10
+4024 249 3
+4024 880 2
+4024 3308 1
+4024 246 9
+4024 3031 2
+14945 1329 1
+14945 877 2
+14945 685 3
+14945 249 1
+14945 880 1
+6254 502 10
+6254 877 12
+6254 249 2
+6254 111 2
+6254 22 3
+6254 512 6
+6254 880 3
+6254 3308 1
+11542 877 1
+11542 685 1
+11542 1712 4
+11542 503 2
+11542 880 2
+11542 504 1
+15276 877 10
+15276 249 2
+15276 111 2
+15276 22 1
+15276 512 6
+15276 248 4
+15276 880 2
+15276 3308 1
+4720 877 4
+4720 880 1
+3632 877 11
+3632 880 1
+3286 512 1
+3286 877 6
+3286 1712 1
+3286 503 3
+3286 880 3
+3286 3308 1
+11278 11292 3
+11278 877 9
+11278 880 1
+11278 761 5
+11278 760 4
+2692 877 3
+2692 57 2
+2692 880 1
+2692 361 1
+880 1330 1
+880 877 2
+7456 877 9
+7456 7489 1
+7456 3349 1
+7456 6364 1
+7456 7490 1
+7456 7491 1
+7456 7495 1
+7456 7492 1
+7456 7488 1
+7456 7494 1
+7456 7493 1
+7456 2684 1
+7456 4712 1
+7493 2692 2
+4286 877 3
+4286 685 2
+4286 1712 3
+4286 503 1
+4286 880 3
+4286 504 1
+7494 2692 2
+6364 2692 2
+6369 877 1
+6369 685 1
+6369 1712 3
+6369 503 1
+6369 880 2
+6369 504 1
+3349 2692 2
+1306 1329 1
+1306 502 2
+1306 1330 1
+1306 877 4
+1306 876 4
+1306 1332 5
+1306 880 2
+1306 1331 1
+3352 1329 1
+3352 1332 5
+3352 1330 1
+3352 877 4
+3352 5201 1
+3352 880 2
+3352 876 4
+3352 248 1
+1329 107 1
+1329 877 55
+1329 22 7
+1329 682 1
+1329 245 1
+1329 246 4
+1329 105 2
+1329 1009 1
+1329 502 3
+1329 106 1
+1329 108 2
+1329 111 8
+1329 3031 1
+1329 103 15
+1329 512 1
+1329 1332 1
+1329 104 3
+1329 1010 2
+1329 248 1
+1332 107 4
+1332 1330 8
+1332 877 17
+1332 22 12
+1332 245 5
+1332 105 12
+1332 1009 5
+1332 502 12
+1332 106 5
+1332 108 11
+1332 111 14
+1332 876 1
+1332 103 33
+1332 104 8
+1332 1010 3
+1332 248 6
+1330 104 2
+1330 111 1
+1330 57 1
+1330 103 2
+1331 1763 1
+1331 502 4
+1331 1330 3
+1331 22 3
+5201 1763 1
+5201 1330 1
+5201 248 2
+5201 22 1
+1712 877 46
+1712 505 2
+1712 506 1
+1712 512 8
+1712 513 4
+1712 205 2
+1712 503 29
+1712 504 3
+3308 877 9
+3544 877 14
+3544 57 2
+4546 504 11
+506 505 3
+507 506 3
+2258 505 8
+14509 505 5
+14509 506 12
+8060 507 10
+8060 506 4
+6670 3578 3
+6670 6789 9
+6670 1380 1
+6670 57 2
+6670 1767 31
+6670 507 1
+6670 506 1
+6670 3273 2
+6670 512 2
+6670 513 5
+6670 3483 1
+6670 503 19
+6670 504 3
+6670 628 7
+6643 6646 2
+13128 4316 2
+13128 511 6
+4316 511 3
+9261 4316 2
+9261 511 21
+6645 835 2
+6645 6646 1
+812 835 5
+835 6646 2
+6644 835 1
+13237 2005 4
+13237 7112 2
+1961 2005 6
+1961 370 2
+7649 685 3
+7649 8005 1
+7649 22 8
+7649 511 11
+7649 513 3
+7649 6644 1
+7649 13128 4
+7649 835 5
+7649 6616 6
+7649 504 1
+7649 502 8
+7649 249 3
+7649 10234 1
+7649 103 7
+7649 503 5
+7649 248 3
+7649 4316 2
+7649 5256 1
+7649 9261 4
+683 502 2
+683 248 2
+683 7649 1
+683 3203 7
+683 22 3
+683 1178 1
+683 103 3
+6616 6644 1
+6616 685 3
+6616 6643 2
+6616 1961 6
+6616 835 9
+6616 6646 5
+14160 6646 2
+3274 1250 4
+3274 2841 1
+13224 13081 1
+13224 361 2
+13224 2841 1
+13224 760 4
+13086 2242 2
+13086 3271 3
+13086 7065 2
+13086 3273 4
+13086 7124 2
+13086 3483 3
+13086 3274 1
+13086 760 4
+10265 7811 1
+10265 4191 4
+10265 247 1
+10265 22 5
+10265 1851 6
+10265 7065 3
+10265 15 3
+10265 8980 6
+10265 3274 1
+10265 17 2
+10265 246 5
+10265 502 14
+10265 2241 1
+10265 2242 3
+10265 3272 6
+10265 3271 20
+10265 249 7
+10265 111 4
+10265 876 4
+10265 361 4
+10265 6135 3
+10265 3273 10
+10265 3483 4
+10265 248 6
+10265 760 1
+10265 2183 8
+3265 3273 4
+3265 3272 4
+3265 3271 4
+3265 3274 1
+7107 2841 1
+7107 7112 2
+14286 361 6
+13232 8374 1
+2183 2118 5
+2183 876 7
+2183 1009 1
+8980 4191 8
+8980 2118 4
+8980 876 2
+8980 361 1
+8980 2183 13
+1009 876 3
+11477 876 9
+8947 8980 14
+8947 2183 28
+2118 876 5
+2118 1009 3
+6112 2118 6
+6392 2118 3
+6392 1009 2
+7991 2118 4
+2122 2118 3
+5935 2118 3
+2113 2118 2
+8979 2118 2
+7920 2118 4
+6316 2118 4
+6108 2118 25
+6400 2118 12
+7988 2118 40
+10221 2118 9
+15604 2118 12
+14187 2118 9
+14187 1009 1
+15228 2118 45
+12206 2118 28
+16273 2118 6
+16273 1009 4

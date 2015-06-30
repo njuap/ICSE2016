@@ -1,0 +1,2518 @@
+*Vertics: 577
+2,org.apache.tika.parser.txt.CharsetRecog_Unicode
+43,org.apache.tika.parser.txt.CharsetRecognizer
+44,org.apache.tika.parser.txt.CharsetDetector
+54,org.apache.tika.io.NullInputStream
+102,org.apache.tika.metadata.serialization.JsonMetadataSerializer
+129,org.apache.tika.metadata.Metadata
+136,org.apache.tika.metadata.serialization.JsonMetadataList
+162,org.apache.tika.exception.TikaException
+164,org.apache.tika.metadata.serialization.JsonMetadataBase
+170,org.apache.tika.parser.xml.DcXMLParser
+183,org.apache.tika.metadata.Property
+185,org.apache.tika.parser.ParseContext
+186,org.apache.tika.sax.TeeContentHandler
+189,org.apache.tika.parser.xml.XMLParser
+190,org.apache.tika.parser.xml.ElementMetadataHandler
+214,org.apache.tika.TestParsers
+251,org.apache.tika.config.TikaConfig
+254,org.apache.tika.TikaTest
+255,org.apache.tika.Tika
+266,org.apache.tika.sax.SerializerTest
+310,org.apache.tika.sax.ToTextContentHandler
+311,org.apache.tika.sax.ToXMLContentHandler
+312,org.apache.tika.sax.ToHTMLContentHandler
+338,org.apache.tika.mime.HexCoDec
+379,org.apache.tika.parser.image.ImageMetadataExtractor
+633,org.apache.tika.parser.image.MetadataFields
+649,org.apache.tika.parser.pkg.ZipParserTest
+697,org.apache.tika.io.TikaInputStream
+698,org.apache.tika.parser.AutoDetectParser
+699,org.apache.tika.sax.BodyContentHandler
+701,org.apache.tika.parser.pkg.AbstractPkgTest
+728,org.apache.tika.parser.xml.AttributeDependantMetadataHandler
+761,org.apache.tika.parser.chm.TestDirectoryListingEntry
+773,org.apache.tika.parser.chm.accessor.DirectoryListingEntry
+775,org.apache.tika.parser.chm.TestParameters
+801,org.apache.tika.parser.odf.OpenDocumentContentParser
+933,org.apache.tika.io.CloseShieldInputStream
+934,org.apache.tika.mime.MediaType
+935,org.apache.tika.parser.AbstractParser
+936,org.apache.tika.sax.ElementMappingContentHandler
+937,org.apache.tika.sax.OfflineContentHandler
+938,org.apache.tika.sax.XHTMLContentHandler
+943,org.apache.tika.parser.odf.NSNormalizerContentHandler
+956,org.apache.tika.parser.microsoft.TNEFParserTest
+971,org.apache.tika.detect.DefaultDetector
+974,org.apache.tika.extractor.ParserContainerExtractor
+975,org.apache.tika.parser.microsoft.AbstractPOIContainerExtractionTest
+976,org.apache.tika.parser.microsoft.TNEFParser
+991,org.apache.tika.bundle.BundleIT
+1073,org.apache.tika.config.ServiceLoader
+1074,org.apache.tika.fork.ForkParser
+1075,org.apache.tika.parser.internal.Activator
+1089,org.apache.tika.sax.xpath.NamedAttributeMatcher
+1102,org.apache.tika.sax.xpath.Matcher
+1105,org.apache.tika.batch.PoisonFileResource
+1132,org.apache.tika.sax.EmbeddedContentHandler
+1133,org.apache.tika.sax.TaggedContentHandler
+1134,org.apache.tika.sax.TextContentHandler
+1147,org.apache.tika.batch.BatchProcess
+1328,org.apache.tika.io.IOUtils
+1329,org.apache.tika.batch.ParallelFileProcessingResult
+1330,org.apache.tika.batch.ConsumersManager
+1331,org.apache.tika.batch.FileResourceCrawler
+1332,org.apache.tika.batch.Interrupter
+1333,org.apache.tika.batch.StatusReporter
+1334,org.apache.tika.batch.BatchNoRestartError
+1335,org.apache.tika.batch.FileResourceConsumer
+1337,org.apache.tika.batch.FileConsumerFutureResult
+1338,org.apache.tika.batch.FileResourceCrawlerFutureResult
+1339,org.apache.tika.batch.FileStarted
+1340,org.apache.tika.batch.BatchProcessDriverCLI
+1341,org.apache.tika.batch.InterrupterFutureResult
+1372,org.apache.tika.parser.external.ExternalParser
+1473,org.apache.tika.io.NullOutputStream
+1474,org.apache.tika.io.TemporaryResources
+1483,org.apache.tika.parser.DelegatingParser
+1493,org.apache.tika.parser.EmptyParser
+1500,org.apache.tika.io.ProxyInputStream
+1501,org.apache.tika.io.ClosedInputStream
+1505,org.apache.tika.batch.fs.builders.BasicTikaFSConsumersBuilder
+1571,org.apache.tika.batch.builders.AbstractConsumersBuilder
+1572,org.apache.tika.batch.builders.BatchProcessBuilder
+1574,org.apache.tika.batch.fs.BasicTikaFSConsumer
+1575,org.apache.tika.batch.fs.FSConsumersManager
+1576,org.apache.tika.batch.fs.FSOutputStreamFactory
+1577,org.apache.tika.batch.fs.FSUtil
+1578,org.apache.tika.batch.fs.RecursiveParserWrapperFSConsumer
+1580,org.apache.tika.util.ClassLoaderUtil
+1581,org.apache.tika.util.PropsUtil
+1582,org.apache.tika.util.XMLDOMUtil
+1609,org.apache.tika.parser.mp3.LyricsHandler
+1637,org.apache.tika.parser.mp3.ID3v1Handler
+1642,org.apache.tika.language.translate.MicrosoftTranslator
+1694,org.apache.tika.parser.rtf.RTFEmbObjHandler
+1773,org.apache.tika.extractor.ParsingEmbeddedDocumentExtractor
+1774,org.apache.tika.io.FilenameUtils
+1775,org.apache.tika.mime.MimeType
+1776,org.apache.tika.mime.MimeTypeException
+1777,org.apache.tika.mime.MimeTypes
+1778,org.apache.tika.parser.rtf.RTFObjDataParser
+1779,org.apache.tika.parser.rtf.TextExtractor
+1780,org.apache.tika.parser.rtf.RTFParser
+1798,org.apache.tika.parser.video.FLVParserTest
+1832,org.apache.tika.parser.image.xmp.JempboxExtractorTest
+1851,org.apache.tika.parser.image.xmp.JempboxExtractor
+1869,org.apache.tika.parser.chm.accessor.ChmItsfHeader
+1961,org.apache.tika.parser.chm.assertion.ChmAssert
+1962,org.apache.tika.parser.chm.core.ChmConstants
+1963,org.apache.tika.parser.chm.exception.ChmParsingException
+1980,org.apache.tika.mime.AndClause
+1995,org.apache.tika.parser.microsoft.OldExcelParserTest
+2013,org.apache.tika.parser.microsoft.OldExcelParser
+2016,org.apache.tika.xmp.convert.GenericConverter
+2043,org.apache.tika.xmp.convert.AbstractConverter
+2044,org.apache.tika.xmp.convert.Namespace
+2066,org.apache.tika.server.CXFTestBase
+2147,org.apache.tika.server.resource.UnpackerResource
+2149,org.apache.tika.server.TikaServerCli
+2184,org.apache.tika.parser.microsoft.ooxml.XWPFWordExtractorDecorator
+2331,org.apache.tika.parser.microsoft.WordExtractor
+2333,org.apache.tika.parser.microsoft.ooxml.AbstractOOXMLExtractor
+2351,org.apache.tika.parser.pkg.PackageParser
+2438,org.apache.tika.exception.EncryptedDocumentException
+2454,org.apache.tika.language.ProfilingHandler
+2465,org.apache.tika.sax.WriteOutContentHandler
+2466,org.apache.tika.language.ProfilingWriter
+2467,org.apache.tika.language.LanguageProfile
+2468,org.apache.tika.language.LanguageIdentifier
+2474,org.apache.tika.example.ParsingExample
+2505,org.apache.tika.parser.RecursiveParserWrapper
+2506,org.apache.tika.sax.BasicContentHandlerFactory
+2507,org.apache.tika.sax.ContentHandlerDecorator
+2516,org.apache.tika.fork.ForkParserTest
+2567,org.apache.tika.fork.ForkTestParser
+2572,org.apache.tika.parser.crypto.Pkcs7ParserTest
+2580,org.apache.tika.parser.crypto.Pkcs7Parser
+2596,org.apache.tika.server.resource.TikaWelcome
+2660,org.apache.tika.server.HTMLHelper
+2666,org.apache.tika.parser.rtf.RTFParserTest
+2866,org.apache.tika.server.resource.DetectorResource
+2867,org.apache.tika.server.resource.MetadataResource
+2868,org.apache.tika.server.resource.RecursiveMetadataResource
+2869,org.apache.tika.server.writer.TarWriter
+2870,org.apache.tika.server.resource.TikaDetectors
+2871,org.apache.tika.server.resource.TikaMimeTypes
+2872,org.apache.tika.server.resource.TikaParsers
+2873,org.apache.tika.server.resource.TikaResource
+2874,org.apache.tika.server.resource.TikaVersion
+2875,org.apache.tika.server.writer.CSVMessageBodyWriter
+2876,org.apache.tika.server.writer.JSONMessageBodyWriter
+2877,org.apache.tika.server.writer.MetadataListMessageBodyWriter
+2878,org.apache.tika.server.writer.TextMessageBodyWriter
+2879,org.apache.tika.server.writer.XMPMessageBodyWriter
+2880,org.apache.tika.server.writer.ZipWriter
+2882,org.apache.tika.server.TikaLoggingFilter
+2883,org.apache.tika.server.TikaServerParseExceptionMapper
+2898,org.apache.tika.parser.mp4.DirectFileReadDataSource
+2961,org.apache.tika.parser.jdbc.SQLite3DBParser
+3003,org.apache.tika.io.IOExceptionWithCause
+3004,org.apache.tika.parser.jdbc.AbstractDBParser
+3005,org.apache.tika.parser.jdbc.JDBCTableReader
+3006,org.apache.tika.parser.jdbc.SQLite3TableReader
+3018,org.apache.tika.parser.video.FLVParser
+3093,org.apache.tika.parser.fork.ForkParserIntegrationTest
+3177,org.apache.tika.sax.LinkContentHandlerTest
+3184,org.apache.tika.sax.LinkContentHandler
+3192,org.apache.tika.utils.CharsetUtilsTest
+3198,org.apache.tika.utils.CharsetUtils
+3202,org.apache.tika.parser.jpeg.JpegParser
+3217,org.apache.tika.sax.xpath.TextMatcher
+3222,org.apache.tika.example.LanguageIdentifierExample
+3258,org.apache.tika.detect.CompositeDetector
+3267,org.apache.tika.batch.fs.FSDirectoryCrawler
+3313,org.apache.tika.batch.fs.FSFileResource
+3324,org.apache.tika.language.LanguageProfilerBuilder
+3497,org.apache.tika.sax.xpath.NodeMatcher
+3506,org.apache.tika.language.translate.DefaultTranslator
+3552,org.apache.tika.metadata.serialization.JsonMetadataTest
+3578,org.apache.tika.metadata.serialization.JsonMetadata
+3584,org.apache.tika.parser.NetworkParser
+3653,org.apache.tika.io.TaggedInputStream
+3662,org.apache.tika.io.FilenameUtilsTest
+3683,org.apache.tika.parser.envi.EnviHeaderParser
+3700,org.apache.tika.detect.AutoDetectReader
+3705,org.apache.tika.parser.isatab.ISArchiveParserTest
+3716,org.apache.tika.parser.isatab.ISArchiveParser
+3724,org.apache.tika.fork.ForkObjectInputStream
+3749,org.apache.tika.utils.RegexUtils
+3760,org.apache.tika.exception.AccessPermissionException
+3898,org.apache.tika.parser.html.HtmlParser
+3899,org.apache.tika.parser.html.BoilerpipeContentHandler
+3901,org.apache.tika.parser.html.IdentityHtmlMapper
+3912,org.apache.tika.language.translate.MosesTranslator
+3943,org.apache.tika.language.translate.ExternalTranslator
+3946,org.apache.tika.mime.MimeDetectionTest
+3990,org.apache.tika.mime.MediaTypeRegistry
+3995,org.apache.tika.parser.iwork.KeynoteContentHandler
+4036,org.apache.tika.parser.image.WebPParser
+4050,org.apache.tika.example.ContentHandlerExampleTest
+4065,org.apache.tika.example.ContentHandlerExample
+4087,org.apache.tika.parser.ibooks.iBooksParserTest
+4093,org.apache.tika.parser.epub.EpubParser
+4100,org.apache.tika.server.TikaParsersTest
+4141,org.apache.tika.parser.microsoft.ooxml.OOXMLParser
+4142,org.apache.tika.parser.pdf.PDFParser
+4145,org.apache.tika.language.translate.MosesTranslatorTest
+4153,org.apache.tika.parser.microsoft.POIContainerExtractionTest
+4184,org.apache.tika.parser.mp3.ID3v2Frame
+4346,org.apache.tika.parser.chm.core.ChmCommons
+4350,org.apache.tika.ResourceLoggingClassLoader
+4398,org.apache.tika.server.TikaServerParseException
+4400,org.apache.tika.parser.txt.CharsetRecog_mbcs
+4485,org.apache.tika.parser.dwg.DWGParserTest
+4520,org.apache.tika.parser.dwg.DWGParser
+4546,org.apache.tika.parser.CompositeParser
+4619,org.apache.tika.parser.ParserDecorator
+4837,org.apache.tika.server.MetadataList
+4846,org.apache.tika.TikaDetectionTest
+4855,org.apache.tika.server.TikaDetectorsTest
+4879,org.apache.tika.parser.microsoft.POIFSContainerDetector
+4880,org.apache.tika.parser.pkg.ZipContainerDetector
+4882,org.apache.tika.parser.pkg.ArParserTest
+4905,org.apache.tika.language.translate.Lingo24Translator
+4942,org.apache.tika.parser.executable.ExecutableParserTest
+4954,org.apache.tika.parser.executable.ExecutableParser
+5197,org.apache.tika.parser.rtf.GroupState
+5198,org.apache.tika.parser.rtf.ListDescriptor
+5230,org.apache.tika.io.CountingInputStream
+5262,org.apache.tika.parser.netcdf.NetCDFParser
+5305,org.apache.tika.parser.hdf.HDFParser
+5331,org.apache.tika.parser.pkg.Bzip2ParserTest
+5345,org.apache.tika.language.translate.CachedTranslatorTest
+5358,org.apache.tika.language.translate.CachedTranslator
+5359,org.apache.tika.language.translate.GoogleTranslator
+5493,org.apache.tika.xmp.TikaToXMPTest
+5536,org.apache.tika.xmp.convert.MSOfficeXMLConverter
+5537,org.apache.tika.xmp.convert.TikaToXMP
+5657,org.apache.tika.parser.xml.EmptyAndDuplicateElementsXMLParserTest
+5686,org.apache.tika.fork.MemoryURLStreamHandlerFactory
+5691,org.apache.tika.fork.MemoryURLStreamHandler
+5693,org.apache.tika.example.GrabPhoneNumbersExample
+5712,org.apache.tika.sax.PhoneExtractingContentHandler
+5716,org.apache.tika.cli.TikaCLITest
+5800,org.apache.tika.cli.TikaCLI
+5803,org.apache.tika.server.RecursiveMetadataResourceTest
+5822,org.apache.tika.server.TikaResourceTest
+5829,org.apache.tika.parser.ErrorParser
+5840,org.apache.tika.parser.gdal.TestGDALParser
+5886,org.apache.tika.parser.gdal.GDALParser
+5889,org.apache.tika.mime.Patterns
+5951,org.apache.tika.parser.microsoft.OfficeParser
+6038,org.apache.tika.parser.microsoft.OutlookExtractor
+6039,org.apache.tika.parser.microsoft.SummaryExtractor
+6040,org.apache.tika.parser.microsoft.HSLFExtractor
+6041,org.apache.tika.parser.microsoft.ExcelExtractor
+6060,org.apache.tika.parser.ParsingReaderTest
+6073,org.apache.tika.parser.ParsingReader
+6085,org.apache.tika.parser.asm.XHTMLClassVisitor
+6190,org.apache.tika.parser.html.DefaultHtmlMapper
+6286,org.apache.tika.fork.ForkClient
+6287,org.apache.tika.fork.MetadataContentHandler
+6305,org.apache.tika.sax.Link
+6332,org.apache.tika.sax.xpath.CompositeMatcher
+6351,org.apache.tika.io.LookaheadInputStreamTest
+6371,org.apache.tika.io.LookaheadInputStream
+6374,org.apache.tika.parser.chm.TestChmLzxState
+6388,org.apache.tika.parser.chm.accessor.ChmDirectoryListingSet
+6389,org.apache.tika.parser.chm.accessor.ChmItspHeader
+6390,org.apache.tika.parser.chm.accessor.ChmLzxcControlData
+6391,org.apache.tika.parser.chm.lzx.ChmLzxState
+6467,org.apache.tika.mime.OrClause
+6479,org.apache.tika.parser.mbox.MboxParser
+6536,org.apache.tika.parser.ocr.TesseractOCRConfig
+6583,org.apache.tika.util.TikaExceptionFilterTest
+6588,org.apache.tika.util.TikaExceptionFilter
+6591,org.apache.tika.parser.grib.GribParser
+6620,org.apache.tika.example.DumpTikaConfigExampleTest
+6634,org.apache.tika.example.DumpTikaConfigExample
+6662,org.apache.tika.parser.odf.OpenDocumentParser
+6663,org.apache.tika.xmp.convert.MSOfficeBinaryConverter
+6664,org.apache.tika.xmp.convert.RTFConverter
+6665,org.apache.tika.xmp.convert.OpenDocumentConverter
+6708,org.apache.tika.parser.html.HtmlHandler
+6709,org.apache.tika.parser.html.XHTMLDowngradeHandler
+6716,org.apache.tika.parser.mp4.MP4ParserTest
+6750,org.apache.tika.batch.fs.strawman.StrawManTikaAppDriver
+6833,org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest
+6856,org.apache.tika.mime.Magic
+6884,org.apache.tika.parser.code.SourceCodeParser
+7014,org.apache.tika.io.EndianUtils
+7019,org.apache.tika.server.DetectorResourceTest
+7042,org.apache.tika.parser.pdf.PDFParserTest
+7359,org.apache.tika.parser.pdf.PDFParserConfig
+7361,org.apache.tika.parser.pdf.AccessChecker
+7390,org.apache.tika.parser.mp3.AudioFrame
+7450,org.apache.tika.sax.xpath.SubtreeMatcher
+7482,org.apache.tika.parser.mp4.MP4Parser
+7581,org.apache.tika.sax.xpath.MatchingContentHandler
+7618,org.apache.tika.sax.xpath.ElementMatcher
+7627,org.apache.tika.detect.NameDetectorTest
+7638,org.apache.tika.detect.NameDetector
+7746,org.apache.tika.sax.SecureContentHandler
+7752,org.apache.tika.parser.strings.FileConfigTest
+7756,org.apache.tika.parser.strings.FileConfig
+7762,org.apache.tika.parser.image.ImageMetadataExtractorTest
+7893,org.apache.tika.parser.iwork.IWorkPackageParser
+7895,org.apache.tika.parser.pkg.CompressorParser
+7902,org.apache.tika.util.DurationFormatUtils
+7933,org.apache.tika.parser.mp3.MpegStreamTest
+7960,org.apache.tika.parser.mp3.MpegStream
+7965,org.apache.tika.parser.chm.TestPmgiHeader
+7971,org.apache.tika.parser.chm.accessor.ChmPmgiHeader
+7984,org.apache.tika.config.TikaActivator
+8010,org.apache.tika.parser.chm.TestChmItspHeader
+8148,org.apache.tika.parser.chm.accessor.ChmPmglHeader
+8243,org.apache.tika.sax.LinkBuilder
+8266,org.apache.tika.parser.chm.TestChmLzxcResetTable
+8288,org.apache.tika.parser.chm.accessor.ChmLzxcResetTable
+8304,org.apache.tika.parser.chm.lzx.ChmBlockInfo
+8726,org.apache.tika.gui.TikaGUI
+8727,org.apache.tika.sax.ExpandedTitleContentHandler
+8728,org.apache.tika.xmp.XMPMetadata
+8730,org.apache.tika.cli.BatchCommandLineBuilder
+8748,org.apache.tika.parser.asm.ClassParser
+8766,org.apache.tika.mime.TestMimeTypes
+8880,org.apache.tika.parser.netcdf.NetCDFParserTest
+8935,org.apache.tika.parser.mbox.OutlookPSTParser
+9020,org.apache.tika.batch.StatusReporterFutureResult
+9040,org.apache.tika.parser.pkg.GzipParserTest
+9093,org.apache.tika.sax.XHTMLContentHandlerTest
+9112,org.apache.tika.config.TikaConfigTest
+9115,org.apache.tika.TestRereadableInputStream
+9148,org.apache.tika.utils.RereadableInputStream
+9155,org.apache.tika.batch.fs.FSBatchTestBase
+9247,org.apache.tika.parser.microsoft.ooxml.MetadataExtractor
+9430,org.apache.tika.sax.SafeContentHandlerTest
+9440,org.apache.tika.sax.SafeContentHandler
+9447,org.apache.tika.parser.solidworks.SolidworksParserTest
+9477,org.apache.tika.server.RichTextContentHandler
+9574,org.apache.tika.batch.builders.InterrupterBuilder
+9622,org.apache.tika.parser.xml.MetadataHandler
+9651,org.apache.tika.server.UnpackerResourceTest
+9717,org.apache.tika.parser.pkg.RarParser
+9773,org.apache.tika.sax.TaggedSAXException
+9893,org.apache.tika.parser.jdbc.SQLite3ParserTest
+9958,org.apache.tika.detect.MagicDetectorTest
+10016,org.apache.tika.detect.MagicDetector
+10023,org.apache.tika.io.TaggedInputStreamTest
+10036,org.apache.tika.metadata.serialization.JsonMetadataDeserializer
+10055,org.apache.tika.parser.chm.core.ChmWrapper
+10108,org.apache.tika.parser.chm.lzx.ChmLzxBlock
+10110,org.apache.tika.parser.jdbc.SQLite3Parser
+10128,org.apache.tika.fork.ContentHandlerResource
+10160,org.apache.tika.fork.ContentHandlerProxy
+10202,org.apache.tika.sax.xpath.XPathParser
+10209,org.apache.tika.parser.isatab.ISATabUtils
+10320,org.apache.tika.parser.CryptoParser
+10448,org.apache.tika.parser.asm.ClassParserTest
+10459,org.apache.tika.gui.ParsingTransferHandler
+10517,org.apache.tika.parser.image.BPGParser
+10575,org.apache.tika.detect.TextDetector
+10591,org.apache.tika.detect.TextStatistics
+10844,org.apache.tika.parser.microsoft.AbstractPOIFSExtractor
+10896,org.apache.tika.server.MetadataResourceTest
+11019,org.apache.tika.example.LanguageIdentifierExampleTest
+11030,org.apache.tika.parser.image.TiffParser
+11044,org.apache.tika.batch.fs.FSBatchProcessCLI
+11084,org.apache.tika.batch.builders.CommandLineParserBuilder
+11104,org.apache.tika.parser.image.ImageParser
+11163,org.apache.tika.parser.external.ExternalParsersConfigReader
+11243,org.apache.tika.sax.xpath.ChildMatcher
+11244,org.apache.tika.sax.xpath.AttributeMatcher
+11245,org.apache.tika.sax.xpath.NamedElementMatcher
+11250,org.apache.tika.parser.chm.TestChmLzxcControlData
+11277,org.apache.tika.metadata.serialization.PrettyMetadataKeyComparator
+11282,org.apache.tika.parser.image.BPGParserTest
+11308,org.apache.tika.mime.MimeTypesReader
+11388,org.apache.tika.mime.MagicMatch
+11423,org.apache.tika.parser.mp3.CompositeTagHandler
+11465,org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest
+11700,org.apache.tika.parser.microsoft.WordParserTest
+11704,org.apache.tika.parser.iwork.AutoPageNumberUtilsTest
+11709,org.apache.tika.parser.iwork.AutoPageNumberUtils
+11737,org.apache.tika.parser.mail.MailContentHandler
+11975,org.apache.tika.metadata.PropertyTypeException
+11990,org.apache.tika.detect.TextDetectorTest
+12005,org.apache.tika.sax.SecureContentHandlerTest
+12112,org.apache.tika.parser.chm.TestChmExtractor
+12122,org.apache.tika.parser.chm.core.ChmExtractor
+12128,org.apache.tika.io.EndianUtilsTest
+12248,org.apache.tika.parser.jpeg.JpegParserTest
+12462,org.apache.tika.utils.DateUtils
+12580,org.apache.tika.fork.InputStreamProxy
+12598,org.apache.tika.fork.ForkServer
+12626,org.apache.tika.parser.grib.GribParserTest
+12653,org.apache.tika.parser.pdf.PDF2XHTML
+13040,org.apache.tika.parser.microsoft.NumberCell
+13041,org.apache.tika.parser.microsoft.LinkedCell
+13042,org.apache.tika.parser.microsoft.TextCell
+13109,org.apache.tika.parser.microsoft.ooxml.XSSFExcelExtractorDecorator
+13268,org.apache.tika.parser.DummyParser
+13288,org.apache.tika.fork.ClassLoaderProxy
+13319,org.apache.tika.parser.pdf.AccessCheckerTest
+13347,org.apache.tika.parser.pkg.RarParserTest
+13368,org.apache.tika.parser.font.TrueTypeParser
+13401,org.apache.tika.parser.font.AdobeFontMetricParser
+13528,org.apache.tika.cli.TikaCLIBatchIntegrationTest
+13553,org.apache.tika.parser.chm.TestChmBlockInfo
+13710,org.apache.tika.config.TikaParserConfigTest
+13744,org.apache.tika.parser.DefaultParser
+13750,org.apache.tika.parser.microsoft.ExcelParserTest
+13931,org.apache.tika.parser.xml.FictionBookParserTest
+13942,org.apache.tika.parser.xml.FictionBookParser
+13962,org.apache.tika.parser.microsoft.ooxml.OOXMLExtractorFactory
+13966,org.apache.tika.parser.pkg.Seven7ParserTest
+14212,org.apache.tika.parser.chm.lzx.ChmSection
+14270,org.apache.tika.parser.pkg.TarParserTest
+14286,org.apache.tika.batch.CommandLineParserBuilderTest
+14319,org.apache.tika.io.TailStreamTest
+14369,org.apache.tika.io.TailStream
+14378,org.apache.tika.parser.image.MetadataFieldsTest
+14427,org.apache.tika.batch.mock.MockConsumersManager
+14445,org.apache.tika.parser.txt.CharsetRecog_sbcs
+14834,org.apache.tika.parser.microsoft.ooxml.XSLFPowerPointExtractorDecorator
+14835,org.apache.tika.parser.microsoft.ooxml.POIXMLTextExtractorDecorator
+14898,org.apache.tika.sax.CleanPhoneText
+15015,org.apache.tika.batch.fs.FSDocumentSelector
+15032,org.apache.tika.parser.microsoft.CellDecorator
+15063,org.apache.tika.parser.audio.AudioParser
+15106,org.apache.tika.parser.txt.CharsetDetectorTest
+15118,org.apache.tika.parser.txt.CharsetMatch
+15225,org.apache.tika.language.translate.Lingo24TranslatorTest
+15240,org.apache.tika.TikaIT
+15244,org.apache.tika.parser.chm.TestChmExtraction
+15291,org.apache.tika.parser.chm.ChmParser
+15356,org.apache.tika.batch.mock.MockConsumersBuilder
+15365,org.apache.tika.detect.TypeDetector
+15372,org.apache.tika.parser.mp3.Mp3ParserTest
+15438,org.apache.tika.batch.builders.DefaultContentHandlerFactoryBuilder
+15494,org.apache.tika.parser.image.xmp.XMPPacketScanner
+15497,org.apache.tika.parser.prt.PRTParserTest
+15509,org.apache.tika.parser.prt.PRTParser
+15519,org.apache.tika.filetypedetector.TikaFileTypeDetector
+15531,org.apache.tika.parser.RecursiveParserWrapperTest
+15588,org.apache.tika.sax.PhoneExtractingContentHandlerTest
+15686,org.apache.tika.utils.RegexUtilsTest
+15697,org.apache.tika.filetypedetector.TikaFileTypeDetectorTest
+15766,org.apache.tika.parser.font.FontParsersTest
+15782,org.apache.tika.batch.fs.strawman.StrawmanTest
+15785,org.apache.tika.batch.fs.HandlerBuilderTest
+15823,org.apache.tika.parser.chm.TestChmItsfHeader
+15841,org.apache.tika.language.translate.MicrosoftTranslatorTest
+15930,org.apache.tika.batch.fs.builders.FSCrawlerBuilder
+15967,org.apache.tika.batch.fs.FSListCrawler
+16000,org.apache.tika.parser.mbox.MboxParserTest
+16047,org.apache.tika.parser.mp3.ID3v22Handler
+16238,org.apache.tika.parser.envi.EnviHeaderParserTest
+16246,org.apache.tika.parser.mp3.ID3v23Handler
+16286,org.apache.tika.parser.mp3.ID3v24Handler
+16365,org.apache.tika.server.TikaWelcomeTest
+16384,org.apache.tika.server.TikaVersionTest
+16387,org.apache.tika.mime.MimeTypesReaderTest
+16439,org.apache.tika.parser.strings.Latin1StringsParser
+16512,org.apache.tika.io.TikaInputStreamTest
+16534,org.apache.tika.parser.mock.MockParserFactory
+16538,org.apache.tika.parser.mock.MockParser
+16540,org.apache.tika.mime.CustomReaderTest
+16580,org.apache.tika.parser.microsoft.OfficeParserTest
+16662,org.apache.tika.fork.MemoryURLStreamRecord
+16663,org.apache.tika.fork.MemoryURLConnection
+16668,org.apache.tika.TypeDetectionBenchmark
+16749,org.apache.tika.language.LanguageProfileTest
+16755,org.apache.tika.batch.AutoDetectParserFactory
+16874,org.apache.tika.batch.fs.StringStreamGobbler
+16886,org.apache.tika.metadata.serialization.JsonMetadataListTest
+16905,org.apache.tika.parser.feed.FeedParserTest
+16919,org.apache.tika.parser.feed.FeedParser
+16922,org.apache.tika.mime.MimeTypesTest
+16938,org.apache.tika.parser.strings.StringsParserTest
+16957,org.apache.tika.parser.strings.StringsConfig
+16958,org.apache.tika.parser.strings.StringsParser
+16964,org.apache.tika.cli.TikaCLIBatchCommandLineTest
+17045,org.apache.tika.parser.strings.StringsEncoding
+17049,org.apache.tika.language.ProfilingWriterTest
+17058,org.apache.tika.parser.hdf.HDFParserTest
+17072,org.apache.tika.parser.mail.RFC822Parser
+17099,org.apache.tika.parser.ocr.TesseractOCRParser
+17186,org.apache.tika.parser.epub.EpubContentParser
+17217,org.apache.tika.embedder.ExternalEmbedder
+17317,org.apache.tika.parser.code.SourceCodeParserTest
+17339,org.apache.tika.io.TaggedIOException
+17347,org.apache.tika.sax.BodyContentHandlerTest
+17408,org.apache.tika.parser.txt.CharsetRecog_UTF8
+17409,org.apache.tika.parser.txt.CharsetRecog_2022
+17439,Tika.Tika
+17608,org.apache.tika.parser.xml.AbstractMetadataHandler
+17728,org.apache.tika.xmp.XMPMetadataTest
+17897,org.apache.tika.example.TranslatorExample
+17951,org.apache.tika.detect.XmlRootExtractor
+17952,org.apache.tika.parser.iwork.NumbersContentHandler
+17953,org.apache.tika.parser.iwork.PagesContentHandler
+17958,org.apache.tika.batch.fs.OutputStreamFactoryTest
+17972,org.apache.tika.parser.strings.Latin1StringsParserTest
+18146,org.apache.tika.mime.MimeTypesFactory
+18156,org.apache.tika.parser.txt.Icu4jEncodingDetector
+18178,org.apache.tika.parser.microsoft.ProjectParserTest
+18275,org.apache.tika.fork.ClassLoaderResource
+18329,org.apache.tika.detect.EmptyDetector
+18341,org.apache.tika.mime.MediaTypeTest
+18390,org.apache.tika.parser.chm.TestPmglHeader
+18401,org.apache.tika.parser.txt.TXTParserTest
+18450,org.apache.tika.parser.txt.TXTParser
+18614,org.apache.tika.parser.txt.UniversalEncodingListener
+18640,org.apache.tika.parser.image.PSDParser
+18762,org.apache.tika.parser.iwork.IWorkParserTest
+18880,org.apache.tika.mime.PatternsTest
+18932,org.apache.tika.example.TranslatorExampleTest
+18958,org.apache.tika.parser.audio.MidiParser
+19100,org.apache.tika.server.StackTraceOffTest
+19266,org.apache.tika.parser.microsoft.VisioParserTest
+19351,org.apache.tika.parser.mp3.Mp3Parser
+19455,org.apache.tika.parser.opendocument.OpenOfficeParser
+19505,org.apache.tika.parser.xml.AttributeMetadataHandler
+19563,org.apache.tika.mime.MimeTypeTest
+19641,org.apache.tika.parser.iptc.IptcAnpaParser
+19813,org.apache.tika.parser.image.TiffParserTest
+19821,org.apache.tika.fork.InputStreamResource
+20008,org.apache.tika.batch.fs.AbstractFSConsumer
+20026,org.apache.tika.server.TikaMimeTypesTest
+20187,org.apache.tika.example.TestParsingExample
+20324,org.apache.tika.parser.audio.MidiParserTest
+20413,org.apache.tika.parser.external.CompositeExternalParser
+20418,org.apache.tika.parser.external.ExternalParsersFactory
+20481,org.apache.tika.batch.fs.BatchDriverTest
+20627,org.apache.tika.sax.XMPContentHandler
+20698,org.apache.tika.batch.fs.FSProperties
+20709,org.apache.tika.parser.ocr.TesseractOCRConfigTest
+20783,org.apache.tika.language.translate.GoogleTranslatorTest
+20798,org.apache.tika.parser.microsoft.PowerPointParserTest
+20838,org.apache.tika.parser.ocr.TesseractOCRParserTest
+20924,org.apache.tika.parser.txt.UniversalEncodingDetector
+20940,org.apache.tika.parser.mat.MatParser
+21190,org.apache.tika.language.LanguageIdentifierTest
+21231,org.apache.tika.parser.mail.RFC822ParserTest
+21322,org.apache.tika.detect.TestContainerAwareDetector
+21440,org.apache.tika.parser.ParserPostProcessor
+21454,org.apache.tika.sax.EndDocumentShieldingContentHandler
+21631,org.apache.tika.parser.microsoft.WriteProtectedParserTest
+21638,org.apache.tika.language.LanguageProfilerBuilderTest
+21660,org.apache.tika.detect.TypeDetectorTest
+21672,org.apache.tika.metadata.TestMetadata
+21731,org.apache.tika.sax.OfflineContentHandlerTest
+21834,org.apache.tika.parser.image.WebPParserTest
+21889,org.apache.tika.parser.mat.MatParserTest
+21915,org.apache.tika.batch.builders.SimpleLogReporterBuilder
+21961,org.apache.tika.parser.odf.OpenDocumentMetaParser
+22019,org.apache.tika.sax.BasicContentHandlerFactoryTest
+22235,org.apache.tika.parser.strings.StringsConfigTest
+22247,org.apache.tika.batch.fs.BatchProcessTest
+22344,org.apache.tika.server.StackTraceTest
+22467,org.apache.tika.parser.microsoft.PublisherParserTest
+22604,org.apache.tika.parser.xml.DcXMLParserTest
+22717,org.apache.tika.parser.CompositeParserTest
+22752,org.apache.tika.parser.image.PSDParserTest
+22761,org.apache.tika.parser.ParserDecoratorTest
+23137,org.apache.tika.parser.AutoDetectParserTest
+23257,org.apache.tika.parser.odf.ODFParserTest
+23480,org.apache.tika.embedder.ExternalEmbedderTest
+23618,org.apache.tika.parser.mock.MockParserTest
+23694,HelloWorld
+23698,org.apache.tika.parser.mbox.OutlookPSTParserTest
+23804,org.apache.tika.parser.audio.AudioParserTest
+23877,org.apache.tika.parser.epub.EpubParserTest
+23884,org.apache.tika.parser.image.ImageParserTest
+23899,org.apache.tika.parser.html.HtmlEncodingDetector
+23927,org.apache.tika.sax.xpath.XPathParserTest
+24417,org.apache.tika.parser.microsoft.OutlookParserTest
+*Edges: 1939
+17439 255 6
+214 254 5
+214 251 2
+214 255 7
+214 129 4
+9115 9148 12
+255 1328 2
+255 934 2
+255 185 3
+255 697 5
+255 162 2
+255 251 6
+255 698 2
+255 2465 4
+255 2507 2
+255 129 12
+255 6073 1
+4846 255 793
+15240 255 2
+254 698 2
+254 311 1
+254 185 3
+254 699 1
+254 129 7
+16668 1328 1
+16668 255 1
+16755 698 1
+16755 251 1
+1147 1338 2
+1147 1330 12
+1147 1335 4
+1147 1333 3
+1147 1332 2
+1147 1334 3
+1147 1331 11
+1147 1339 4
+1147 1337 1
+1147 1329 4
+14286 1328 1
+14286 11084 1
+14286 9155 1
+1337 1339 3
+1335 185 1
+1335 1339 7
+1335 1337 1
+1335 129 1
+1331 1338 2
+1331 129 1
+1105 129 1
+1333 1331 6
+1333 1330 6
+1333 1339 2
+1333 1335 4
+1333 7902 1
+1571 1330 1
+1572 1330 2
+1572 1147 7
+1572 1333 1
+1572 1332 1
+1572 9574 1
+1572 1331 2
+1572 1580 4
+1572 1571 4
+1572 1582 8
+15438 2506 1
+15438 1582 1
+9574 1332 1
+21915 1331 1
+21915 1330 1
+21915 1581 2
+21915 1582 1
+21915 1333 4
+20008 1335 3
+20008 1334 1
+1574 1328 1
+1574 251 2
+1574 185 1
+1574 20008 4
+1574 1335 4
+1574 129 1
+20481 9155 28
+20481 1340 23
+22247 254 11
+22247 9155 23
+11044 11084 1
+11044 697 2
+11044 1329 2
+9155 1328 1
+9155 1147 2
+9155 254 2
+9155 1572 1
+9155 1340 3
+9155 1329 1
+1575 1330 2
+3267 1331 4
+3267 3313 1
+3267 1577 1
+15015 1581 1
+15015 129 3
+3313 1577 1
+3313 697 1
+3313 129 5
+15967 1331 3
+15967 3313 1
+1576 1577 1
+1576 129 2
+20698 183 1
+15785 9155 21
+17958 9155 12
+1578 1328 2
+1578 136 1
+1578 185 1
+1578 1335 2
+1578 251 2
+1578 6588 2
+1578 20008 4
+1578 2505 3
+1578 129 2
+1505 1330 2
+1505 1576 1
+1505 1575 1
+1505 1574 1
+1505 251 2
+1505 1581 6
+1505 1580 2
+1505 1582 3
+1505 1571 1
+1505 1572 1
+1505 1578 1
+15930 1331 5
+15930 1581 9
+15930 1582 1
+15930 15015 1
+15930 1572 1
+15930 3267 2
+15356 1505 2
+15356 14427 1
+14427 1330 9
+991 934 2
+991 185 1
+991 1074 2
+991 251 1
+991 129 3
+991 255 7
+991 699 2
+991 971 2
+5800 8730 1
+5800 3258 1
+5800 1340 2
+5800 8726 2
+5800 698 3
+5800 3324 1
+5800 136 2
+5800 2506 1
+5800 185 5
+5800 934 5
+5800 933 1
+5800 697 2
+5800 1775 5
+5800 3584 2
+5800 251 5
+5800 2505 3
+5800 3990 7
+5800 4619 1
+5800 255 2
+5800 129 3
+5800 971 1
+5800 1777 3
+5800 4546 4
+5800 1776 1
+16964 8730 8
+16964 1328 2
+13528 1328 1
+13528 136 1
+13528 5800 4
+5716 5800 21
+5716 162 1
+7984 1073 2
+251 934 2
+251 3258 1
+251 162 16
+251 3506 1
+251 1073 19
+251 3990 1
+251 4619 2
+251 971 1
+251 1777 16
+251 13744 1
+251 4546 5
+9112 4350 3
+9112 251 10
+9112 4619 3
+9112 162 4
+9112 4546 1
+13710 934 4
+13710 251 8
+13710 185 1
+13710 4619 10
+13710 13744 1
+13710 4546 14
+3700 1073 4
+3700 934 2
+3700 162 1
+3700 129 6
+3700 3198 1
+3258 934 1
+3258 3990 3
+3258 129 1
+971 1073 7
+971 3258 4
+971 1777 7
+18329 934 1
+18329 129 1
+10016 934 9
+10016 129 1
+9958 934 11
+9958 10016 13
+9958 129 3
+7638 934 1
+7638 129 2
+7627 934 1
+7627 7638 1
+7627 129 3
+21322 934 7
+21322 251 1
+21322 1777 1
+21322 697 11
+21322 129 10
+10575 934 1
+10575 10591 3
+10575 129 1
+11990 129 3
+15365 934 2
+15365 129 2
+21660 934 2
+21660 129 3
+17951 937 1
+17951 933 1
+17217 1328 2
+17217 185 2
+17217 183 1
+17217 697 3
+17217 162 1
+17217 129 7
+17217 1474 3
+23480 185 1
+23480 17217 1
+23480 697 1
+23480 162 1
+23480 129 11
+23480 1474 3
+4065 698 8
+4065 311 3
+4065 10202 2
+4065 2507 1
+4065 699 1
+4065 129 5
+4065 7581 1
+4050 4065 6
+4050 254 21
+6634 934 1
+6634 251 8
+6634 971 1
+6634 4546 2
+6620 698 1
+6620 251 6
+6620 3258 1
+6620 6634 1
+6620 4546 1
+5693 698 1
+5693 5712 1
+5693 699 1
+5693 129 2
+3222 2468 2
+11019 3222 2
+2474 136 1
+2474 2506 1
+2474 185 1
+2474 698 4
+2474 2505 2
+2474 2507 3
+2474 129 5
+2474 255 2
+2474 699 3
+20187 2474 7
+20187 136 1
+20187 129 2
+17897 1642 4
+18932 17897 2
+3760 162 5
+2438 162 5
+974 698 1
+974 251 3
+974 185 1
+974 971 1
+974 697 2
+974 162 1
+974 129 2
+1773 2438 1
+1773 185 4
+1773 1132 1
+1773 933 1
+1773 699 1
+1773 697 2
+1773 162 1
+1773 129 4
+1773 1474 1
+15519 255 1
+15697 15519 2
+13288 5691 2
+6286 18275 1
+6286 13288 1
+6286 19821 1
+6286 10128 1
+6286 10160 1
+6286 162 1
+6286 12580 1
+6286 3724 2
+6286 3003 1
+1074 698 1
+1074 185 2
+1074 6287 1
+1074 6286 8
+1074 935 1
+1074 186 1
+1074 162 4
+1074 129 1
+2516 1074 12
+2516 699 4
+2516 129 3
+12598 162 1
+12598 3724 3
+2567 185 2
+2567 938 4
+2567 935 1
+2567 129 2
+5691 16663 1
+6287 129 3
+10459 8726 4
+8726 136 2
+8726 2506 1
+8726 185 4
+8726 3899 1
+8726 697 4
+8726 186 1
+8726 251 2
+8726 2505 3
+8726 10459 2
+8726 129 7
+8726 699 1
+933 1500 2
+5230 1500 6
+12128 7014 3
+3662 1774 6
+6351 6371 6
+17339 3003 2
+3653 1500 2
+3653 17339 4
+10023 3653 2
+14319 14369 28
+1474 162 1
+1474 3003 1
+697 1500 5
+697 3653 3
+697 129 12
+697 1474 10
+16512 697 8
+16512 129 3
+2468 2467 6
+21190 2468 30
+21190 2466 12
+2467 2466 2
+16749 2467 21
+3324 162 2
+21638 2467 3
+21638 3324 4
+21638 2468 4
+2454 2467 2
+2454 2465 1
+2454 2468 1
+2454 2466 6
+2466 2467 5
+2466 2468 2
+17049 2467 8
+17049 2466 4
+5358 2467 2
+5358 2468 4
+5345 5359 1
+5345 5358 16
+3506 1073 4
+3943 2467 1
+3943 2468 2
+5359 2467 1
+5359 2468 2
+20783 5359 6
+4905 2467 1
+4905 2468 2
+4905 162 1
+15225 4905 6
+1642 162 2
+15841 1642 11
+3912 3943 2
+4145 3912 4
+129 11975 9
+129 12462 2
+129 183 72
+183 11975 2
+21672 11975 5
+21672 12462 1
+21672 183 4
+21672 129 145
+3578 164 3
+3578 162 2
+3578 129 2
+10036 129 2
+136 164 3
+136 162 2
+16886 136 10
+16886 129 29
+102 129 4
+3552 3578 10
+3552 162 2
+3552 129 14
+16540 1777 3
+16540 1775 3
+6856 1775 6
+11388 934 3
+11388 10016 4
+11388 129 1
+3990 934 29
+3990 1777 2
+18341 934 60
+3946 934 12
+3946 251 2
+3946 3990 9
+3946 1777 4
+3946 129 17
+1775 6856 2
+1775 934 8
+1776 162 3
+19563 1777 3
+19563 1775 20
+1777 17951 1
+1777 934 5
+1777 18146 1
+1777 5889 4
+1777 1775 33
+1777 6856 4
+1777 3990 8
+1777 129 4
+1777 255 2
+1777 1776 4
+1777 10575 1
+18146 11308 4
+18146 1777 14
+11308 11388 1
+11308 6856 1
+11308 934 2
+11308 1777 6
+11308 1776 7
+11308 1775 9
+16387 6856 2
+16387 934 7
+16387 251 2
+16387 3990 4
+16387 1777 20
+16387 129 5
+16387 1775 32
+16922 934 3
+16922 3990 13
+16922 1777 17
+16922 1776 2
+16922 1775 21
+5889 3990 8
+5889 1776 3
+5889 1775 19
+18880 5889 7
+18880 1777 6
+18880 1775 4
+8766 934 12
+8766 251 2
+8766 3990 3
+8766 1777 17
+8766 255 8
+8766 129 9
+8766 1775 2
+935 129 1
+698 934 1
+698 185 2
+698 697 1
+698 1474 1
+698 251 6
+698 7746 2
+698 3990 1
+698 129 2
+698 971 1
+698 4546 3
+23137 934 11
+23137 698 8
+23137 251 2
+23137 699 5
+23137 162 1
+23137 129 18
+23137 4546 1
+4546 934 1
+4546 185 5
+4546 1133 2
+4546 935 1
+4546 697 1
+4546 162 3
+4546 1474 1
+4546 3990 10
+4546 3653 1
+4546 4619 2
+4546 129 4
+22717 934 7
+22717 251 7
+22717 3990 1
+22717 13268 2
+22717 699 1
+22717 129 20
+22717 4546 6
+10320 2438 1
+10320 185 4
+10320 1483 1
+10320 162 1
+10320 129 1
+13744 1073 9
+13744 3990 7
+13744 4546 4
+1483 185 4
+1483 935 1
+1483 129 1
+13268 185 2
+13268 938 3
+13268 935 1
+13268 129 1
+1493 185 2
+1493 938 3
+1493 935 1
+1493 129 1
+5829 185 2
+5829 935 1
+5829 162 1
+5829 129 1
+3584 185 3
+3584 933 1
+3584 935 1
+3584 697 2
+3584 129 2
+3584 1474 1
+185 162 2
+4619 185 2
+4619 935 1
+4619 129 1
+22761 2507 2
+22761 13268 4
+22761 4619 7
+22761 699 2
+22761 129 2
+21440 3749 1
+21440 4619 3
+21440 699 1
+21440 186 1
+21440 129 2
+6073 698 2
+6073 185 5
+6073 129 7
+6060 698 1
+6060 6073 3
+6060 129 2
+2505 1774 1
+2505 185 3
+2505 183 5
+2505 129 19
+15531 2506 7
+15531 698 3
+15531 2505 11
+15531 129 18
+8748 185 2
+8748 935 1
+8748 6085 2
+8748 129 1
+10448 255 2
+10448 129 3
+6085 938 31
+6085 162 1
+6085 129 4
+15063 185 2
+15063 938 3
+15063 935 1
+15063 129 8
+23804 255 6
+23804 129 18
+18958 185 2
+18958 938 6
+18958 935 1
+18958 129 7
+20324 254 1
+20324 255 2
+20324 129 5
+15291 773 1
+15291 185 2
+15291 935 1
+15291 6388 1
+15291 1132 1
+15291 938 3
+15291 12122 3
+15291 129 3
+15291 699 1
+15291 3898 1
+13553 6388 9
+13553 1869 4
+13553 773 1
+13553 4346 6
+13553 6389 2
+13553 8288 3
+13553 6390 3
+13553 8304 4
+15244 6388 1
+15244 773 6
+15244 2507 2
+15244 12122 3
+15244 699 2
+15244 162 4
+15244 129 2
+12112 6388 1
+12112 12122 6
+15823 1869 15
+15823 4346 1
+8010 1869 4
+8010 4346 2
+8010 6389 19
+6374 6388 3
+6374 1869 4
+6374 4346 5
+6374 6389 2
+6374 6391 3
+6374 6390 3
+11250 6388 3
+11250 1869 4
+11250 4346 4
+11250 6389 2
+11250 6390 12
+8266 6388 7
+8266 1869 4
+8266 4346 5
+8266 6389 2
+8266 8288 11
+8266 6390 2
+8266 1961 1
+761 773 13
+775 1328 1
+7965 7971 5
+18390 4346 1
+18390 8148 9
+6388 1869 4
+6388 773 13
+6388 4346 3
+6388 8148 5
+6388 6389 8
+6388 1963 2
+1869 1963 1
+1869 1961 3
+1869 162 8
+6389 4346 1
+6389 1963 4
+6389 1961 4
+6389 162 2
+6390 1963 5
+6390 1961 3
+8288 1963 1
+8288 1961 5
+8288 162 2
+7971 1963 1
+7971 1961 4
+7971 162 2
+8148 1963 2
+8148 1961 3
+8148 162 3
+773 1961 1
+1961 1963 9
+1961 8288 2
+1961 162 7
+4346 773 5
+4346 1963 1
+4346 8288 8
+4346 1961 1
+4346 162 2
+12122 1328 1
+12122 773 8
+12122 8288 9
+12122 162 2
+12122 1869 9
+12122 6388 14
+12122 4346 12
+12122 6389 5
+12122 10108 7
+12122 1961 2
+12122 6390 6
+12122 8304 16
+10055 6388 3
+10055 1869 3
+10055 6389 3
+10055 8288 3
+10055 6390 3
+1963 162 2
+8304 773 15
+8304 1963 1
+8304 6390 5
+10108 4346 2
+10108 1963 14
+10108 6391 115
+10108 14212 74
+10108 162 2
+6391 4346 1
+6391 1963 2
+14212 4346 3
+6884 3700 2
+6884 1073 1
+6884 934 4
+6884 185 4
+6884 933 1
+6884 129 5
+17317 934 4
+17317 698 1
+17317 254 11
+17317 6884 3
+17317 129 6
+2580 934 3
+2580 185 3
+2580 933 1
+2580 935 1
+2580 162 3
+2580 129 1
+2572 254 1
+2572 2580 1
+2572 699 1
+2572 162 1
+2572 129 1
+4520 934 4
+4520 185 2
+4520 935 1
+4520 162 1
+4520 183 2
+4520 938 9
+4520 7014 6
+4520 129 13
+4485 254 5
+4485 4520 1
+4485 935 3
+4485 699 4
+4485 129 35
+3683 3700 1
+3683 934 1
+3683 185 2
+3683 933 1
+3683 938 6
+3683 935 1
+3683 129 2
+16238 311 1
+16238 254 6
+16238 310 1
+16238 129 1
+17186 185 2
+17186 937 1
+17186 933 1
+17186 938 1
+17186 935 1
+17186 162 1
+17186 129 1
+4093 185 2
+4093 1132 1
+4093 938 3
+4093 935 1
+4093 129 2
+23877 254 4
+23877 4093 1
+23877 699 1
+23877 129 5
+4954 934 12
+4954 185 2
+4954 7014 4
+4954 938 4
+4954 935 1
+4954 129 69
+4942 4954 2
+4942 699 2
+4942 129 12
+20413 20418 1
+20413 3990 1
+20413 4546 2
+1372 185 2
+1372 938 8
+1372 935 1
+1372 697 3
+1372 129 3
+1372 1474 3
+11163 1372 5
+11163 934 1
+11163 162 2
+11163 1776 1
+20418 1073 4
+20418 251 3
+20418 11163 1
+20418 4546 1
+16919 185 2
+16919 933 1
+16919 938 14
+16919 935 1
+16919 162 1
+16919 129 3
+16905 16919 2
+16905 699 2
+16905 129 6
+13401 934 2
+13401 185 2
+13401 183 1
+13401 938 7
+13401 935 1
+13401 129 7
+15766 698 2
+15766 254 3
+15766 699 2
+15766 697 2
+15766 129 24
+13368 934 2
+13368 185 2
+13368 938 3
+13368 935 1
+13368 697 3
+13368 129 2
+3093 254 8
+3093 185 2
+3093 1074 14
+3093 699 5
+3093 255 6
+3093 162 2
+3093 129 5
+5886 1372 1
+5886 934 122
+5886 185 2
+5886 938 6
+5886 935 1
+5886 697 2
+5886 129 4
+5840 1372 2
+5840 254 1
+5840 5886 3
+5840 699 3
+5840 129 46
+6591 185 2
+6591 183 2
+6591 938 17
+6591 935 1
+6591 697 2
+6591 162 1
+6591 129 2
+12626 699 1
+12626 129 1
+5305 185 2
+5305 938 3
+5305 935 1
+5305 162 1
+5305 129 3
+17058 699 2
+17058 129 6
+3899 2465 1
+23899 129 1
+23899 3198 2
+6708 934 2
+6708 938 9
+6708 129 14
+6708 1134 4
+3898 934 8
+3898 185 5
+3898 933 1
+3898 6709 1
+3898 935 1
+3898 3700 3
+3898 1073 1
+3898 129 3
+3898 6708 1
+6709 2507 4
+4087 4093 1
+4087 699 1
+4087 129 5
+10517 185 2
+10517 7014 7
+10517 938 3
+10517 935 1
+10517 162 1
+10517 129 8
+10517 379 4
+11282 129 46
+379 162 8
+379 129 3
+7762 183 1
+7762 129 10
+7762 379 2
+11104 934 4
+11104 185 2
+11104 933 1
+11104 935 1
+11104 162 1
+11104 183 1
+11104 938 3
+11104 129 13
+23884 129 91
+633 183 3
+14378 183 1
+14378 633 4
+18640 185 2
+18640 7014 8
+18640 938 3
+18640 935 1
+18640 162 2
+18640 129 5
+22752 129 10
+11030 1851 2
+11030 185 2
+11030 938 3
+11030 935 1
+11030 697 2
+11030 129 1
+11030 1474 1
+11030 379 2
+19813 129 10
+4036 185 2
+4036 938 3
+4036 935 1
+4036 697 2
+4036 129 1
+4036 1474 1
+4036 379 2
+21834 1328 1
+21834 129 8
+1851 15494 2
+1851 129 4
+1832 1851 10
+1832 129 18
+19641 934 1
+19641 185 2
+19641 938 6
+19641 129 11
+10209 3700 3
+10209 1073 1
+10209 185 7
+10209 933 3
+10209 938 32
+10209 697 2
+10209 129 7
+3716 185 5
+3716 10209 3
+3716 938 11
+3716 697 5
+3716 129 7
+3705 3716 1
+3705 699 1
+3705 129 7
+11704 11709 18
+7893 934 1
+7893 185 3
+7893 937 1
+7893 17953 1
+7893 933 1
+7893 935 1
+7893 162 1
+7893 3995 1
+7893 938 3
+7893 129 2
+7893 17952 1
+18762 698 1
+18762 254 79
+18762 185 2
+18762 183 11
+18762 7893 20
+18762 699 19
+18762 129 46
+3995 938 22
+3995 129 4
+17952 183 3
+17952 938 28
+17952 129 3
+17953 938 23
+17953 129 4
+3004 185 8
+3004 3005 4
+3004 938 14
+3004 935 1
+3004 162 1
+3004 129 5
+3004 3003 2
+3004 1773 1
+3005 1328 1
+3005 934 1
+3005 185 6
+3005 3004 2
+3005 697 2
+3005 1775 2
+3005 1774 4
+3005 251 5
+3005 1777 3
+3005 129 14
+3005 3003 4
+3005 1776 1
+2961 3004 1
+2961 697 2
+2961 3006 1
+2961 3003 1
+10110 934 1
+10110 185 2
+10110 935 1
+10110 3004 1
+10110 129 1
+9893 2506 1
+9893 698 4
+9893 311 1
+9893 254 31
+9893 185 1
+9893 2505 2
+9893 974 4
+9893 699 2
+9893 697 3
+9893 129 13
+3006 185 1
+3006 3005 4
+3202 1851 2
+3202 185 2
+3202 938 3
+3202 935 1
+3202 697 2
+3202 129 1
+3202 1474 1
+3202 379 2
+12248 129 94
+11737 698 1
+11737 251 2
+11737 185 6
+11737 938 8
+11737 129 8
+11737 1773 1
+17072 11737 1
+17072 185 3
+17072 3653 2
+17072 938 1
+17072 935 1
+17072 162 2
+17072 129 1
+21231 934 1
+21231 254 2
+21231 185 2
+21231 20838 1
+21231 974 1
+21231 699 7
+21231 697 2
+21231 162 1
+21231 129 36
+20940 185 2
+20940 938 14
+20940 935 1
+20940 697 2
+20940 162 1
+20940 129 6
+21889 698 1
+21889 311 2
+21889 254 9
+21889 310 2
+21889 129 6
+6479 185 3
+6479 938 3
+6479 935 1
+6479 129 15
+6479 1773 1
+16000 15365 1
+16000 698 1
+16000 254 2
+16000 185 2
+16000 6479 14
+16000 699 5
+16000 129 23
+8935 934 2
+8935 185 3
+8935 935 1
+8935 697 2
+8935 162 2
+8935 1773 1
+8935 1474 1
+8935 938 15
+8935 129 6
+23698 934 1
+23698 698 2
+23698 254 2
+23698 185 2
+23698 312 1
+23698 129 7
+975 934 14
+975 697 3
+10844 934 4
+10844 185 7
+10844 697 8
+10844 162 1
+10844 1775 1
+10844 1773 1
+10844 251 5
+10844 938 2
+10844 1777 3
+10844 129 11
+10844 1776 1
+15032 938 1
+6041 10844 4
+6041 2013 1
+6041 185 1
+6041 938 2
+6041 162 1
+6041 129 1
+13750 4141 2
+13750 934 3
+13750 254 42
+13750 185 12
+13750 2438 1
+13750 698 5
+13750 5951 10
+13750 129 46
+13750 699 11
+13750 971 2
+6040 10844 4
+6040 185 1
+6040 938 47
+6040 697 1
+13041 15032 3
+13041 938 2
+13040 938 2
+5951 934 2
+5951 185 5
+5951 6040 2
+5951 933 2
+5951 935 1
+5951 697 5
+5951 2438 1
+5951 6041 2
+5951 2331 2
+5951 1132 1
+5951 938 6
+5951 6038 2
+5951 129 4
+5951 6039 2
+16580 254 2
+16580 129 1
+2013 185 2
+2013 938 7
+2013 935 1
+2013 129 1
+1995 934 1
+1995 254 12
+1995 971 1
+1995 699 2
+1995 697 2
+1995 129 6
+1995 975 3
+6038 10844 4
+6038 185 2
+6038 6479 1
+6038 15118 2
+6038 162 2
+6038 1132 2
+6038 938 13
+6038 129 11
+6038 44 2
+24417 698 6
+24417 254 18
+24417 699 3
+24417 129 15
+4153 934 2
+4153 974 5
+4153 975 17
+4879 934 26
+4879 697 8
+4879 129 1
+20798 254 37
+20798 185 1
+20798 5951 6
+20798 699 6
+20798 129 29
+18178 5951 1
+18178 699 1
+18178 129 21
+22467 254 2
+22467 5951 1
+22467 699 1
+22467 129 5
+6039 183 8
+6039 162 2
+6039 129 7
+976 185 3
+976 1132 1
+976 935 1
+976 697 1
+976 129 5
+976 1773 1
+956 934 7
+956 974 1
+956 971 1
+956 699 1
+956 697 1
+956 129 4
+956 975 4
+13042 938 2
+19266 254 1
+19266 5951 1
+19266 699 1
+19266 129 4
+2331 10844 4
+2331 185 1
+2331 938 50
+11700 254 53
+11700 185 1
+11700 5951 6
+11700 699 6
+11700 129 46
+21631 254 1
+21631 5951 1
+21631 699 1
+21631 129 1
+2333 185 3
+2333 9247 2
+2333 697 2
+2333 162 1
+2333 1773 1
+2333 1132 4
+2333 938 4
+2333 129 8
+9247 183 4
+9247 129 17
+6833 974 1
+6833 255 3
+6833 975 14
+13962 14834 1
+13962 934 1
+13962 185 2
+13962 9247 1
+13962 933 1
+13962 4880 1
+13962 697 6
+13962 162 6
+13962 14835 1
+13962 1493 1
+13962 13109 1
+13962 2184 1
+13962 129 2
+4141 185 2
+4141 13962 1
+4141 935 1
+4141 129 1
+11465 4141 4
+11465 2438 1
+11465 698 19
+11465 254 105
+11465 185 7
+11465 699 25
+11465 129 120
+14835 185 1
+14835 2333 2
+14835 938 1
+14834 185 1
+14834 2333 3
+14834 938 7
+14834 162 4
+13109 185 1
+13109 2333 3
+13109 938 12
+13109 162 1
+13109 129 3
+2184 185 1
+2184 2333 2
+2184 2331 1
+2184 938 45
+16538 934 1
+16538 185 2
+16538 938 8
+16538 935 1
+16538 129 6
+16534 251 1
+23618 1328 1
+23618 254 6
+23618 129 12
+1637 1609 1
+1637 162 1
+16047 4184 3
+16246 16047 1
+16246 4184 3
+16286 16047 1
+16286 4184 3
+1609 1637 2
+19351 16246 2
+19351 185 2
+19351 935 1
+19351 4184 4
+19351 16047 2
+19351 11423 22
+19351 1637 1
+19351 16286 2
+19351 14369 2
+19351 7390 9
+19351 183 1
+19351 7960 4
+19351 938 13
+19351 129 20
+19351 1609 2
+15372 698 10
+15372 254 38
+15372 183 1
+15372 4184 12
+15372 699 10
+15372 129 96
+7960 7390 5
+7933 7390 4
+7933 7960 7
+7482 934 3
+7482 185 2
+7482 935 1
+7482 697 2
+7482 1474 2
+7482 183 1
+7482 2898 1
+7482 938 4
+7482 129 10
+6716 698 1
+6716 254 6
+6716 183 1
+6716 699 1
+6716 697 2
+6716 129 24
+5262 185 2
+5262 183 2
+5262 938 20
+5262 935 1
+5262 697 2
+5262 162 1
+5262 129 1
+8880 254 5
+8880 699 1
+8880 129 8
+20709 6536 29
+20709 254 1
+17099 6536 13
+17099 1372 1
+17099 185 5
+17099 938 7
+17099 935 1
+17099 697 5
+17099 162 2
+17099 129 2
+17099 1474 4
+20838 6536 6
+20838 2506 1
+20838 934 2
+20838 254 9
+20838 185 4
+20838 698 1
+20838 1372 1
+20838 17099 4
+20838 2505 2
+20838 7359 2
+20838 129 17
+20838 13744 4
+943 2507 5
+23257 698 6
+23257 254 24
+23257 935 2
+23257 699 10
+23257 697 3
+23257 129 116
+801 943 1
+801 185 3
+801 937 1
+801 933 1
+801 938 1
+801 935 1
+801 162 1
+801 129 2
+21961 185 1
+21961 19505 2
+21961 186 7
+21961 943 1
+21961 6332 2
+21961 9622 1
+21961 728 1
+21961 10202 7
+21961 183 7
+21961 129 10
+21961 190 3
+21961 7581 4
+21961 189 3
+6662 21454 4
+6662 185 3
+6662 938 1
+6662 935 1
+6662 697 3
+6662 129 3
+6662 801 2
+19455 6662 1
+7361 3760 2
+7361 129 3
+13319 11975 2
+13319 3760 3
+13319 7361 14
+13319 129 8
+12653 185 4
+12653 162 3
+12653 1773 1
+12653 1132 2
+12653 938 56
+12653 129 9
+12653 7359 8
+12653 3003 13
+4142 934 4
+4142 185 5
+4142 933 4
+4142 935 1
+4142 697 2
+4142 12653 1
+4142 1474 2
+4142 7361 1
+4142 183 12
+4142 129 25
+4142 7359 17
+7359 7361 5
+7359 12653 1
+7042 4142 6
+7042 254 129
+7042 974 1
+7042 162 2
+7042 2438 3
+7042 698 28
+7042 699 16
+7042 1328 7
+7042 2506 5
+7042 185 30
+7042 934 10
+7042 697 3
+7042 7361 7
+7042 311 1
+7042 2505 20
+7042 129 78
+7042 7359 42
+701 698 1
+701 254 1
+701 185 4
+4882 701 1
+4882 698 2
+4882 254 4
+4882 699 2
+4882 129 4
+5331 701 1
+5331 698 2
+5331 254 18
+5331 699 2
+5331 129 3
+7895 934 9
+7895 185 4
+7895 933 1
+7895 938 3
+7895 935 1
+7895 162 1
+7895 129 5
+7895 1773 1
+9040 701 1
+9040 698 3
+9040 254 19
+9040 699 3
+9040 129 5
+2351 934 13
+2351 185 5
+2351 933 1
+2351 935 1
+2351 697 4
+2351 162 2
+2351 1773 1
+2351 1474 4
+2351 2438 1
+2351 938 8
+2351 129 8
+9717 185 3
+9717 935 1
+9717 697 2
+9717 162 1
+9717 1773 1
+9717 1474 1
+9717 2438 1
+9717 938 4
+9717 2351 1
+9717 129 1
+13347 701 1
+13347 698 2
+13347 254 27
+13347 699 2
+13347 129 3
+13966 701 1
+13966 934 3
+13966 254 23
+13966 185 3
+13966 162 2
+13966 2438 1
+13966 698 3
+13966 129 5
+13966 699 6
+14270 701 1
+14270 698 2
+14270 254 18
+14270 699 2
+14270 129 3
+4880 934 26
+4880 7895 1
+4880 2351 2
+4880 697 8
+4880 162 1
+4880 129 1
+4880 1474 1
+649 701 1
+649 698 3
+649 254 23
+649 185 3
+649 699 3
+649 255 1
+649 129 5
+15509 185 2
+15509 7014 3
+15509 938 7
+15509 935 1
+15509 162 1
+15509 129 5
+15497 254 33
+15497 935 2
+15497 699 2
+15497 129 10
+1694 1778 1
+1694 934 2
+1694 185 4
+1694 1780 1
+1694 697 4
+1694 162 2
+1694 1779 3
+1694 1775 1
+1694 1773 1
+1694 1774 1
+1694 251 4
+1694 1132 1
+1694 1777 1
+1694 129 17
+1694 1776 1
+1778 1774 1
+1778 934 1
+1778 1780 1
+1778 129 10
+1780 185 2
+1780 935 1
+1780 162 1
+1780 1779 2
+1780 1694 1
+1780 938 1
+1780 3653 2
+1780 129 2
+2666 2506 1
+2666 934 4
+2666 254 99
+2666 185 1
+2666 974 5
+2666 697 15
+2666 1774 1
+2666 698 1
+2666 2505 2
+2666 129 25
+2666 255 13
+2666 699 1
+1779 162 2
+1779 3198 1
+1779 1694 18
+1779 183 2
+1779 5197 2
+1779 938 17
+1779 129 2
+1779 5198 2
+9447 254 1
+9447 5951 6
+9447 699 6
+9447 129 66
+7752 7756 3
+16439 185 3
+16439 938 6
+16439 935 1
+16439 129 2
+17972 699 1
+17972 129 1
+16957 17045 4
+22235 16957 17
+16958 185 4
+16958 16957 10
+16958 935 1
+16958 697 2
+16958 162 2
+16958 1372 3
+16958 7756 6
+16958 938 6
+16958 17045 2
+16958 129 4
+16938 1372 1
+16938 185 2
+16938 7756 1
+16938 16957 3
+16938 699 1
+16938 129 2
+16938 16958 1
+44 43 3
+44 15118 5
+15106 15118 3
+15106 44 7
+15118 43 7
+15118 44 1
+17409 43 1
+17408 43 1
+2 43 1
+4400 43 1
+4400 44 2
+14445 43 1
+14445 44 2
+43 44 1
+18156 934 2
+18156 15118 1
+18156 129 3
+18156 3198 2
+18156 44 5
+18450 3700 2
+18450 1073 1
+18450 934 2
+18450 185 3
+18450 933 1
+18450 938 6
+18450 935 1
+18450 129 2
+18401 254 4
+18401 699 9
+18401 129 42
+20924 18614 4
+20924 129 1
+18614 934 2
+18614 10591 5
+18614 129 3
+18614 3198 1
+3018 185 2
+3018 938 3
+3018 935 1
+3018 162 4
+3018 129 2
+1798 255 2
+1798 129 7
+17608 183 4
+17608 129 13
+728 129 4
+19505 183 1
+19505 17608 4
+19505 129 2
+170 183 1
+170 190 1
+170 186 1
+170 129 1
+170 189 2
+22604 254 3
+22604 935 2
+22604 699 1
+22604 129 27
+190 183 6
+190 17608 6
+190 129 7
+5657 254 1
+5657 183 2
+5657 699 2
+5657 129 20
+5657 189 2
+13942 934 1
+13942 185 1
+13942 1773 1
+13942 189 1
+13931 254 1
+13931 974 1
+13931 699 1
+13931 697 1
+13931 129 1
+13931 189 1
+9622 183 3
+9622 129 6
+189 185 4
+189 937 1
+189 933 1
+189 1133 2
+189 935 1
+189 162 1
+189 1132 1
+189 938 5
+189 129 4
+189 1134 1
+2506 311 4
+2506 312 4
+2506 310 8
+2506 699 1
+22019 2506 28
+22019 2465 2
+22019 699 1
+22019 129 1
+699 10202 1
+699 2465 4
+699 2507 2
+699 1102 1
+699 7581 1
+17347 938 4
+17347 129 1
+936 2507 4
+1132 2507 2
+21454 2507 3
+8727 2507 8
+8243 6305 3
+3184 8243 9
+3177 3184 10
+937 2507 2
+21731 937 1
+5712 14898 1
+5712 2507 5
+5712 129 4
+15588 698 1
+15588 254 7
+15588 5712 1
+15588 699 1
+15588 129 2
+9440 2507 5
+9430 9440 1
+9430 2465 1
+7746 2507 6
+7746 697 5
+7746 162 1
+12005 1500 4
+12005 7746 12
+12005 54 1
+12005 697 1
+12005 162 2
+266 311 10
+266 312 9
+266 310 9
+1133 9773 4
+1133 2507 2
+312 311 5
+311 310 8
+2465 310 1
+2465 2507 6
+938 9440 21
+938 2507 3
+938 129 5
+9093 312 1
+9093 310 1
+9093 938 38
+9093 699 1
+9093 129 2
+20627 9440 8
+20627 2507 7
+20627 183 2
+20627 129 3
+11244 1102 2
+11243 1102 3
+6332 1102 13
+7618 1102 2
+7581 6332 1
+7581 2507 7
+7581 1102 10
+1089 1102 1
+11245 11243 3
+11245 1102 1
+3497 1102 2
+7450 6332 1
+7450 1102 7
+3217 1102 2
+10202 6332 1
+10202 11245 1
+10202 11243 2
+10202 1102 1
+10202 7450 2
+10202 1089 1
+23927 10202 11
+23927 1102 60
+2066 1328 1
+2066 251 2
+7019 2883 1
+7019 2866 1
+7019 2066 4
+10896 2867 1
+10896 3578 2
+10896 2066 7
+10896 129 4
+5803 136 2
+5803 2868 1
+5803 2066 2
+9477 2465 2
+9477 2507 1
+19100 2867 1
+19100 2873 1
+19100 2883 1
+19100 2866 1
+19100 2147 1
+19100 2868 1
+19100 2066 6
+22344 2867 1
+22344 2873 1
+22344 2883 1
+22344 2866 1
+22344 2147 1
+22344 2868 1
+22344 2066 8
+4855 2870 1
+4855 2066 18
+20026 2871 1
+20026 2066 16
+4100 2872 1
+4100 2066 28
+5822 2873 1
+5822 2883 1
+5822 2066 9
+2149 2873 1
+2149 2871 1
+2149 2147 1
+2149 2882 1
+2149 2872 1
+2149 2867 1
+2149 251 1
+2149 2596 1
+2149 2870 1
+2149 2883 1
+2149 2866 1
+2149 255 2
+2149 2868 1
+2149 2874 1
+2883 4398 1
+16384 2066 2
+16384 255 2
+16384 2874 1
+16365 2867 1
+16365 2596 1
+16365 2866 1
+16365 2066 15
+16365 255 4
+16365 2874 1
+9651 2883 1
+9651 2147 1
+9651 2066 10
+2866 2873 1
+2866 934 2
+2866 251 3
+2866 697 1
+2866 129 2
+2867 2873 5
+2867 251 2
+2867 129 5
+2868 2873 5
+2868 2506 1
+2868 251 2
+2868 2505 2
+2868 4837 2
+2868 129 1
+2870 2660 4
+2870 251 5
+2870 3258 3
+2871 2660 4
+2871 934 7
+2871 251 4
+2871 3990 4
+2871 4546 2
+2872 2660 4
+2872 934 3
+2872 251 5
+2872 185 1
+2873 6536 1
+2873 185 7
+2873 2438 1
+2873 251 3
+2873 698 5
+2873 4398 1
+2873 7359 1
+2873 129 8
+2873 4546 3
+2874 251 1
+2874 255 3
+2596 2660 4
+2596 251 1
+2596 255 4
+2147 9477 1
+2147 2873 4
+2147 251 2
+2147 185 1
+2147 129 4
+2875 129 4
+2876 3578 1
+2876 162 1
+2876 129 2
+2877 136 1
+2877 4837 3
+2877 162 1
+2878 129 5
+2879 8728 2
+2879 162 1
+2879 129 2
+6583 6588 1
+6583 254 2
+3192 3198 24
+15686 3749 5
+5493 5537 12
+5493 129 13
+8728 11975 5
+8728 5537 4
+8728 183 18
+8728 129 8
+17728 8728 42
+17728 183 4
+17728 129 8
+2043 183 8
+2043 162 1
+2043 129 8
+2016 2043 6
+2016 183 5
+2016 129 1
+6663 2043 12
+5536 2043 21
+5536 129 2
+6665 2043 13
+6664 2043 7
+5537 4141 1
+5537 934 3
+5537 5951 1
+5537 2016 1
+5537 6662 1
+5537 1780 1
+5537 162 2
+5537 129 4

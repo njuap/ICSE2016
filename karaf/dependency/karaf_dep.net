@@ -1,0 +1,2406 @@
+*Vertics: 980
+8,java.lang.Exception
+13,org.apache.karaf.config.command.completers.ConfigurationPropertyCompleter
+71,org.apache.karaf.config.command.ConfigCommandSupport
+77,org.apache.karaf.shell.support.completers.StringsCompleter
+95,org.apache.karaf.bundle.command.wikidoc.WikiParser
+129,org.apache.karaf.util.StringEscapeUtils
+140,org.apache.karaf.shell.commands.converter.ReifiedType
+152,org.apache.karaf.config.core.impl.ConfigMBeanImpl
+251,org.apache.karaf.shell.commands.impl.IfAction
+280,org.apache.karaf.bundle.command.Uninstall
+286,org.apache.karaf.bundle.command.BundlesCommand
+322,org.apache.karaf.bundle.command.Refresh
+368,org.apache.karaf.main.util.SimpleMavenResolver
+418,org.apache.karaf.instance.core.internal.InstanceServiceImpl
+1015,org.apache.karaf.instance.core.InstanceSettings
+1016,org.apache.karaf.instance.main.Execute
+1018,org.apache.karaf.jpm.impl.ProcessBuilderFactoryImpl
+1019,org.apache.karaf.jpm.impl.ScriptUtils
+1023,org.apache.karaf.util.StreamUtils
+1024,org.apache.karaf.util.locks.FileLockUtils
+1031,org.apache.karaf.instance.core.internal.InstanceImpl
+1082,org.apache.karaf.instance.command.RenameCommand
+1088,org.apache.karaf.instance.command.completers.InstanceCompleter
+1092,org.apache.karaf.instance.command.InstanceCommandSupport
+1101,org.apache.karaf.scheduler.command.Unschedule
+1107,org.apache.karaf.jndi.command.ContextsCommand
+1116,org.apache.karaf.jndi.command.completers.ContextsCompleter
+1117,org.apache.karaf.shell.support.table.ShellTable
+1121,org.apache.karaf.shell.support.table.Row
+1134,org.apache.karaf.itests.features.Spring41FeaturesTest
+1153,org.apache.karaf.itests.KarafTestSupport
+1166,org.apache.karaf.features.command.completers.InstalledRepoUriCompleter
+1184,org.apache.karaf.log.command.DisplayLog
+1214,org.apache.karaf.features.RepositoryEvent
+1233,org.apache.karaf.shell.commands.impl.DateAction
+1245,org.apache.karaf.shell.impl.console.commands.TopLevelCommand
+1262,org.apache.karaf.shell.support.CommandException
+1269,org.apache.karaf.shell.support.ansi.SimpleAnsi
+1278,org.apache.karaf.features.internal.model.Bundle
+1319,org.apache.karaf.main.lock.LockFactory
+1332,org.apache.karaf.main.lock.SimpleFileLock
+1333,org.apache.karaf.main.lock.NoLock
+1337,org.apache.karaf.kar.internal.Kar
+1392,org.apache.karaf.kar.internal.FeatureDetector
+1393,org.apache.karaf.kar.internal.KarServiceImpl
+1402,org.apache.karaf.bundle.command.bundletree.Tree
+1427,org.apache.karaf.bundle.command.bundletree.Node
+1434,org.apache.karaf.shell.impl.console.commands.help.HelpCommand
+1487,org.apache.karaf.shell.support.completers.ArgumentCommandLine
+1488,org.apache.karaf.shell.impl.console.commands.help.SimpleHelpProvider
+1489,org.apache.karaf.shell.impl.console.commands.help.CommandListHelpProvider
+1490,org.apache.karaf.shell.impl.console.commands.help.SingleCommandHelpProvider
+1504,org.apache.karaf.shell.impl.console.Branding
+1520,org.apache.karaf.features.internal.service.BootFeaturesInstaller
+1569,org.apache.karaf.features.internal.service.FeaturesServiceImpl
+1578,org.apache.karaf.jms.command.QueuesCommand
+1583,org.apache.karaf.jms.command.JmsConnectionCommandSupport
+1669,org.apache.karaf.main.Stop
+1684,org.apache.karaf.main.ConfigProperties
+1695,org.eclipse.equinox.internal.region.DigraphHelper
+1776,org.apache.karaf.features.internal.util.JsonReader
+1777,org.apache.karaf.features.internal.util.JsonWriter
+1787,org.apache.karaf.deployer.features.FeatureURLHandler
+1805,org.apache.karaf.deployer.features.FeatureTransformer
+1839,org.apache.karaf.shell.impl.console.osgi.LocalConsoleManager
+1889,org.apache.karaf.jaas.boot.principal.RolePrincipal
+1890,org.apache.karaf.jaas.boot.principal.UserPrincipal
+1891,org.apache.karaf.shell.impl.console.JLineTerminal
+1892,org.apache.karaf.shell.impl.console.TerminalFactory
+1893,org.apache.karaf.shell.support.ShellUtil
+1894,org.apache.karaf.util.jaas.JaasHelper
+1900,org.apache.karaf.shell.impl.console.osgi.DelayedStarted
+1901,org.apache.karaf.shell.impl.console.osgi.StreamWrapUtil
+1910,org.apache.karaf.features.AppendTest
+1925,org.apache.karaf.features.internal.service.RepositoryImpl
+1995,org.apache.karaf.main.util.SimpleMavenResolverTest
+2009,org.apache.karaf.shell.api.console.Signal
+2011,org.apache.karaf.itests.features.Spring40FeaturesTest
+2031,org.apache.karaf.profile.impl.Profiles
+2211,org.apache.karaf.profile.impl.Utils
+2212,org.apache.karaf.profile.impl.PlaceholderResolvers
+2234,org.apache.karaf.shell.support.converter.GenericType
+2289,org.apache.karaf.shell.support.converter.ReifiedType
+2299,org.apache.karaf.jaas.config.impl.Config
+2330,org.apache.karaf.jaas.boot.ProxyLoginModule
+2334,org.apache.karaf.jaas.config.impl.Module
+2348,org.apache.karaf.jaas.blueprint.jasypt.handler.EncryptablePropertyPlaceholder
+2362,org.apache.karaf.jpm.ProcessTest
+2370,org.apache.karaf.jpm.MainTest
+2375,org.apache.karaf.scr.command.ScrUtils
+2398,org.apache.karaf.features.internal.service.FeaturesServiceImplTest
+2427,org.apache.karaf.features.TestBase
+2428,org.apache.karaf.features.internal.model.Feature
+2429,org.apache.karaf.features.internal.service.StateStorage
+2444,org.apache.karaf.management.JaasAuthenticator
+2474,org.apache.karaf.features.command.ListFeaturesCommandTest
+2498,org.apache.karaf.features.command.ListFeaturesCommand
+2499,org.apache.karaf.features.command.FeaturesCommandSupport
+2511,org.apache.karaf.features.FeatureEvent
+2538,org.apache.karaf.shell.impl.console.osgi.EventAdminListener
+2565,org.apache.karaf.http.core.internal.osgi.Activator
+2575,org.apache.karaf.http.core.internal.HttpMBeanImpl
+2576,org.apache.karaf.http.core.internal.ServletEventHandler
+2577,org.apache.karaf.http.core.internal.ServletServiceImpl
+2578,org.apache.karaf.util.tracker.BaseActivator
+2590,org.apache.karaf.features.command.completers.RequiredFeatureCompleter
+2593,org.apache.karaf.features.command.completers.FeatureCompleterSupport
+2599,org.apache.karaf.shell.console.impl.Converters
+2689,org.apache.karaf.config.command.DeleteCommand
+2694,org.apache.karaf.config.command.completers.ConfigurationCompleter
+2701,org.apache.karaf.system.commands.Shutdown
+2727,org.apache.karaf.main.lock.DerbyJDBCLockIntegrationTest
+2736,org.apache.karaf.main.lock.BaseJDBCLockIntegrationTest
+2737,org.apache.karaf.main.lock.DefaultJDBCLock
+2738,org.apache.karaf.main.lock.DerbyJDBCLock
+2750,org.apache.karaf.shell.table.Col
+2782,org.apache.karaf.shell.table.HAlign
+2805,org.apache.karaf.shell.impl.action.command.ManagerImpl
+2865,org.apache.karaf.shell.impl.action.command.ActionCommand
+2872,org.apache.karaf.scr.command.action.ActivateAction
+2882,org.apache.karaf.scr.command.completer.ActivateCompleter
+2883,org.apache.karaf.scr.command.ScrCommandConstants
+2887,org.apache.karaf.scr.command.action.ScrActionSupport
+2894,org.apache.karaf.service.command.Wait
+2913,org.apache.karaf.shell.console.impl.jline.Branding
+2961,org.apache.karaf.system.FrameworkType
+2963,org.apache.karaf.shell.commands.impl.PrintfAction
+2968,test.c.C
+2973,test.a.A
+2974,test.b.B
+2978,org.apache.karaf.bundle.command.Watch
+3010,org.apache.karaf.instance.core.management.internal.InstanceServiceMBeanImplTest
+3066,org.apache.karaf.instance.core.internal.InstancesMBeanImpl
+3081,org.apache.felix.webconsole.internal.KarafOsgiManagerActivator
+3096,org.apache.felix.webconsole.internal.KarafOsgiManager
+3097,org.apache.felix.webconsole.internal.JaasSecurityProvider
+3107,org.apache.karaf.shell.impl.console.osgi.secured.SecuredSessionFactoryImpl
+3171,org.apache.karaf.service.guard.tools.ACLConfigurationParser
+3172,org.apache.karaf.shell.impl.console.SessionFactoryImpl
+3173,org.apache.karaf.util.tracker.SingleServiceTracker
+3176,org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand
+3195,org.apache.karaf.packages.core.internal.filter.NotExpression
+3203,org.apache.karaf.shell.impl.console.commands.SubShellCommand
+3221,org.apache.karaf.features.internal.repository.JsonRepository
+3258,org.apache.karaf.features.internal.resolver.ResourceBuilder
+3260,org.apache.karaf.features.internal.repository.BaseRepository
+3261,org.apache.karaf.features.internal.repository.UrlLoader
+3271,org.apache.karaf.jaas.command.RoleDeleteCommand
+3286,org.apache.karaf.jaas.command.JaasCommandSupport
+3291,org.apache.karaf.tooling.features.Node
+3308,org.apache.karaf.main.MockLock
+3333,org.apache.karaf.shell.commands.impl.info.InfoBundleTrackerCustomizer
+3359,org.apache.karaf.shell.commands.impl.info.PojoInfoProvider
+3363,org.apache.karaf.scheduler.core.WhiteboardHandler
+3529,org.apache.karaf.tooling.features.MavenUtil
+3600,org.apache.karaf.shell.impl.console.osgi.Converters
+3747,org.apache.karaf.features.internal.resolver.CapabilitySet
+3748,org.apache.karaf.features.internal.resolver.RequirementImpl
+3749,org.apache.karaf.features.internal.resolver.SimpleFilter
+3758,org.apache.karaf.main.lock.PostgreSQLJDBCLock
+3770,org.apache.karaf.features.internal.region.SubsystemResolveContext
+3885,org.apache.karaf.features.internal.resolver.CapabilityImpl
+3886,org.apache.karaf.features.internal.resolver.ResourceImpl
+3894,org.apache.karaf.features.internal.region.Subsystem
+3895,org.apache.karaf.features.internal.region.CandidateComparator
+3897,org.apache.karaf.features.internal.region.AbstractRegionDigraphVisitor
+3898,org.apache.karaf.features.internal.resolver.ResourceUtils
+3918,org.apache.karaf.jaas.modules.jdbc.JdbcLoginModuleTest
+3962,org.apache.karaf.jaas.boot.principal.GroupPrincipal
+3963,org.apache.karaf.jaas.modules.jdbc.JDBCBackingEngine
+3964,org.apache.karaf.jaas.modules.jdbc.JDBCLoginModule
+3965,org.apache.karaf.jaas.modules.jdbc.JDBCUtils
+3966,org.apache.karaf.jaas.modules.AbstractKarafLoginModule
+3985,org.apache.karaf.jaas.modules.ldap.ExpiringMap
+4080,org.apache.karaf.shell.impl.console.CommandNamesCompleter
+4089,org.apache.karaf.shell.support.completers.CommandNamesCompleter
+4095,org.apache.karaf.obr.command.ResolveCommand
+4138,org.apache.karaf.obr.command.ObrCommandSupport
+4144,org.apache.karaf.diagnostic.common.TextDumpProvider
+4161,org.apache.karaf.management.internal.Activator
+4198,org.apache.karaf.management.ConnectorServerFactory
+4199,org.apache.karaf.management.KarafMBeanServerGuard
+4200,org.apache.karaf.management.MBeanServerFactory
+4201,org.apache.karaf.management.RmiRegistryFactory
+4205,org.apache.karaf.management.internal.JMXSecurityMBeanImpl
+4249,org.apache.karaf.deployer.kar.KarArtifactInstaller
+4282,org.apache.karaf.features.internal.repository.AggregateRepository
+4301,org.apache.karaf.itests.ObrTest
+4317,org.apache.karaf.shell.support.completers.NullCompleter
+4324,org.apache.karaf.bundle.command.ListServicesTest
+4331,org.apache.karaf.bundle.core.internal.BundleServiceImpl
+4333,org.apache.karaf.bundle.command.Services
+4334,org.apache.karaf.bundle.command.TestBundleFactory
+4344,org.apache.karaf.jaas.modules.publickey.PublickeyBackingEngine
+4430,org.apache.karaf.jaas.modules.encryption.EncryptionSupport
+4450,org.apache.karaf.shell.table.StringUtil
+4457,org.apache.karaf.features.internal.model.ConfigFile
+4489,org.apache.karaf.util.DeployerUtils
+4515,org.apache.karaf.jndi.internal.JndiServiceImpl
+4644,org.apache.karaf.shell.ssh.ServerKeyVerifierImpl
+4669,org.apache.karaf.shell.ssh.KnownHostsManager
+4673,org.apache.karaf.bundle.command.Id
+4677,org.apache.karaf.bundle.command.BundleCommand
+4712,org.apache.karaf.jaas.modules.osgi.ConfigAdminHolder
+4719,test.d.D
+4722,test.c.C
+4726,org.apache.karaf.features.internal.region.SubsystemTest
+4799,org.apache.karaf.features.internal.support.TestDownloadManager
+4804,org.apache.karaf.features.internal.region.SubsystemResolver
+4805,org.apache.karaf.features.internal.util.MapUtils
+4814,org.apache.karaf.kar.command.CreateKarCommand
+4820,org.apache.karaf.features.command.completers.InstalledRepoNameCompleter
+4828,org.apache.karaf.shell.commands.basic.TestCommands
+4869,org.apache.karaf.shell.commands.CommandException
+4871,org.apache.karaf.shell.commands.basic.SimpleCommand
+4872,org.apache.karaf.shell.console.ExitAction
+4878,org.apache.karaf.shell.commands.basic.Context
+4879,org.apache.karaf.shell.commands.basic.SimpleSubShell
+4915,org.apache.karaf.http.core.ServletInfo
+4949,org.apache.karaf.jpm.impl.ProcessBuilderImpl
+4959,org.apache.karaf.jpm.impl.ProcessImpl
+4964,org.apache.karaf.shell.security.impl.SecuredCommandConfigTransformerTest
+5033,org.apache.karaf.shell.security.impl.SecuredCommandConfigTransformer
+5040,org.apache.karaf.config.command.PropAppendCommand
+5046,org.apache.karaf.config.command.ConfigPropertyCommandSupport
+5049,org.apache.karaf.config.command.ListCommand
+5108,org.apache.karaf.features.internal.service.State
+5123,org.apache.karaf.shell.commands.impl.WcAction
+5172,org.apache.karaf.diagnostic.core.providers.EnvironmentDumpProvider
+5285,org.apache.karaf.diagnostic.core.common.TextDumpProvider
+5291,org.apache.karaf.jaas.config.impl.OsgiKeystoreManager
+5373,org.apache.karaf.jaas.config.KeystoreIsLocked
+5374,org.apache.karaf.util.collections.CopyOnWriteArrayIdentityList
+5394,org.apache.karaf.shell.console.completer.CommandsCompleter
+5487,org.apache.karaf.shell.console.CommandSessionHolder
+5489,org.apache.karaf.shell.console.SessionProperties
+5490,org.apache.karaf.shell.console.completer.StringsCompleter
+5491,org.apache.karaf.shell.console.completer.AggregateCompleter
+5492,org.apache.karaf.shell.console.completer.ArgumentCompleter
+5494,org.apache.karaf.shell.console.completer.OldArgumentCompleter
+5542,org.apache.karaf.management.boot.KarafMBeanServerBuilder
+5560,org.apache.karaf.scheduler.core.QuartzJobExecutor
+5583,org.apache.karaf.scheduler.core.InternalScheduleOptions
+5584,org.apache.karaf.scheduler.core.QuartzScheduler
+5594,org.apache.karaf.jndi.command.completers.NamesCompleter
+5610,org.apache.karaf.features.internal.support.TestBundle
+5726,org.apache.karaf.profile.command.ProfileEdit
+5926,org.apache.karaf.util.maven.Parser
+5978,org.apache.karaf.shell.console.commands.BlueprintCommand
+6017,org.apache.karaf.shell.commands.basic.AbstractCommand
+6019,org.apache.karaf.shell.commands.basic.DefaultActionPreparator
+6023,org.apache.karaf.shell.console.commands.GenericType
+6033,org.apache.karaf.instance.main.ExecuteTest
+6072,org.apache.karaf.log.core.internal.layout.ISO8601DateFormat
+6117,org.apache.karaf.log.core.internal.layout.AbsoluteTimeDateFormat
+6125,org.apache.karaf.jdbc.internal.JdbcServiceImpl
+6258,org.apache.karaf.util.TemplateUtils
+6259,org.apache.karaf.jdbc.internal.JdbcConnector
+6352,org.apache.karaf.main.util.BootstrapLogManager
+6361,org.apache.karaf.shell.support.completers.FileCompleter
+6393,org.apache.karaf.system.internal.SystemServiceImplTest
+6403,org.apache.karaf.system.internal.SystemServiceImpl
+6407,org.apache.karaf.deployer.kar.KarArtifactInstallerTest
+6423,org.apache.karaf.services.mavenproxy.internal.DefaultFuture
+6481,org.apache.karaf.itests.HttpTest
+6526,org.apache.karaf.shell.support.table.AnsiColumn
+6539,org.apache.karaf.shell.support.table.Col
+6543,org.apache.karaf.shell.commands.impl.GrepTest
+6550,org.apache.karaf.shell.impl.action.command.DefaultActionPreparator
+6551,org.apache.karaf.shell.commands.impl.GrepAction
+6555,org.apache.karaf.instance.command.ChangeRmiRegistryPortCommand
+6579,org.apache.karaf.jaas.config.impl.Activator
+6609,org.apache.karaf.jaas.config.impl.OsgiConfiguration
+6626,org.apache.karaf.jaas.blueprint.jasypt.handler.EncryptableConfigAdminPropertyPlaceholderTest
+6722,org.apache.karaf.service.guard.impl.Activator
+6737,org.apache.karaf.service.guard.impl.GuardProxyCatalog
+6738,org.apache.karaf.service.guard.impl.GuardingEventHook
+6739,org.apache.karaf.service.guard.impl.GuardingFindHook
+6746,org.apache.karaf.main.BundleInfo
+6750,org.apache.karaf.shell.support.table.HAlign
+6775,org.apache.karaf.shell.support.table.StringUtil
+6870,org.apache.karaf.shell.support.terminal.SignalSupport
+6910,org.apache.karaf.shell.ssh.SshAction
+7036,org.apache.karaf.jaas.modules.publickey.PublickeyCallback
+7042,org.apache.karaf.features.internal.service.BootFeaturesInstallerTest
+7058,org.apache.karaf.obr.command.SourceCommand
+7069,org.apache.karaf.obr.command.util.FileUtil
+7078,org.apache.karaf.shell.console.impl.jline.LocalConsoleManager
+7116,org.apache.karaf.shell.util.ShellUtil
+7119,org.apache.karaf.shell.console.impl.jline.TerminalFactory
+7121,org.apache.karaf.shell.console.impl.jline.DelayedStarted
+7122,org.apache.karaf.shell.console.impl.jline.StreamWrapUtil
+7129,org.apache.karaf.web.commands.Stop
+7140,org.apache.karaf.shell.console.completer.DummyCommandSession
+7158,org.apache.karaf.obr.command.RemoveUrlCommand
+7184,org.apache.karaf.features.internal.model.Config
+7189,org.apache.karaf.jms.command.CreateCommand
+7196,org.apache.karaf.jms.command.JmsCommandSupport
+7206,org.apache.karaf.jaas.modules.properties.PropertiesLoginModuleTest
+7288,org.apache.karaf.jaas.modules.properties.PropertiesLoginModule
+7289,org.apache.karaf.jaas.modules.properties.PropertiesBackingEngine
+7290,org.apache.karaf.jaas.modules.properties.NullHandler
+7291,org.apache.karaf.jaas.modules.properties.NamePasswordHandler
+7303,org.apache.karaf.features.EventConstants
+7318,org.apache.karaf.itests.KarTest
+7326,org.apache.karaf.bundle.command.StartLevel
+7339,org.apache.karaf.itests.PackageTest
+7365,org.apache.karaf.packages.core.PackageVersion
+7374,org.apache.karaf.scr.examples.component.factories.impl.GreeterServiceComponentFactoryImpl
+7407,org.apache.karaf.main.lock.OracleJDBCLockTest
+7433,org.apache.karaf.main.lock.BaseJDBCLockTest
+7434,org.apache.karaf.main.lock.OracleJDBCLock
+7468,org.apache.karaf.itests.LogTest
+7483,org.apache.karaf.shell.commands.ansi.SimpleAnsi
+7490,org.apache.karaf.instance.command.ListCommand
+7506,org.apache.karaf.jaas.modules.ldap.LDAPCache
+7546,org.apache.karaf.jdbc.command.ExecuteCommand
+7551,org.apache.karaf.jdbc.command.completers.DataSourcesNameCompleter
+7552,org.apache.karaf.jdbc.command.completers.SqlCompleter
+7553,org.apache.karaf.jdbc.command.parsing.JdbcParser
+7556,org.apache.karaf.jdbc.command.JdbcCommandSupport
+7575,org.apache.karaf.wrapper.internal.osgi.Activator
+7581,org.apache.karaf.wrapper.internal.WrapperServiceImpl
+7582,org.apache.karaf.wrapper.management.internal.WrapperMBeanImpl
+7589,org.apache.karaf.itests.BundleTests
+7632,org.apache.karaf.shell.commands.impl.WatchAction
+7660,org.apache.karaf.shell.support.completers.CommandsCompleter
+7668,org.apache.karaf.system.management.internal.SystemMBeanImpl
+7777,org.apache.karaf.service.command.ListServiceNamesTest
+7781,org.apache.karaf.service.command.ListServices
+7782,org.apache.karaf.service.command.TestBundleFactory
+7964,org.apache.karaf.itests.ServiceTest
+7973,org.apache.karaf.webconsole.features.ExtendedFeature
+8013,org.apache.karaf.shell.support.completers.UriCompleter
+8208,org.apache.karaf.shell.impl.action.command.ArgumentCompleter
+8295,org.apache.karaf.shell.impl.action.command.HelpOption
+8334,org.apache.karaf.profile.command.ProfileDelete
+8338,org.apache.karaf.profile.command.completers.ProfileCompleter
+8342,org.apache.karaf.bundle.command.bundletree.TreeTest
+8380,org.apache.karaf.webconsole.gogo.WebTerminal
+8395,org.apache.karaf.shell.impl.console.KarafTerminal
+8406,org.apache.karaf.features.internal.download.impl.SimpleDownloadTask
+8433,org.apache.karaf.features.internal.download.impl.AbstractRetryableDownloadTask
+8434,org.apache.karaf.features.internal.download.impl.AbstractDownloadTask
+8435,org.apache.karaf.features.internal.download.impl.DownloadManagerHelper
+8442,org.apache.karaf.itests.JaasTest
+8547,org.apache.karaf.webconsole.http.ServletEventHandler
+8556,org.apache.karaf.log.command.LogTail
+8623,org.apache.karaf.management.TestRolePrincipal
+8658,org.apache.karaf.features.internal.resolver.BaseClause
+8685,org.apache.karaf.web.commands.Start
+8694,org.apache.karaf.main.lock.SQLServerJDBCLock
+8701,org.apache.karaf.main.lock.Statements
+8706,org.apache.karaf.shell.console.completer.Parser
+8768,org.apache.karaf.bundle.command.Requirements
+8900,org.apache.karaf.tooling.features.AddToRepositoryMojo
+8932,org.apache.karaf.tooling.features.model.ArtifactRef
+8933,org.apache.karaf.tooling.features.model.Feature
+8935,org.apache.karaf.tooling.features.AbstractFeatureMojo
+8936,org.apache.karaf.tooling.features.CopyFileBasedDescriptor
+8947,org.apache.karaf.jms.command.ConnectionFactoriesCommand
+8954,org.apache.karaf.bundle.core.internal.BundleSelectorImpl
+9095,org.apache.karaf.instance.command.DestroyCommand
+9101,org.apache.karaf.shell.support.MultiException
+9113,org.apache.karaf.shell.ssh.ShellFactoryImpl
+9175,org.apache.karaf.shell.ssh.KarafJaasAuthenticator
+9176,org.apache.karaf.shell.ssh.SshTerminal
+9181,org.apache.karaf.features.internal.service.Overrides
+9223,org.apache.karaf.itests.JMXSecurityTest
+9397,org.apache.felix.gogo.commands.basic.DefaultActionPreparator
+9534,org.apache.felix.gogo.commands.CommandException
+9538,org.apache.felix.gogo.commands.converter.DefaultConverter
+9539,org.apache.felix.gogo.commands.converter.GenericType
+9540,org.apache.karaf.shell.console.NameScoping
+9572,org.apache.karaf.main.Bootstrap
+9575,org.apache.karaf.main.Main
+9618,org.apache.karaf.features.FeaturesServiceTest
+9661,org.apache.karaf.jms.command.ConsumeCommand
+9667,org.apache.karaf.features.command.RegionInfoCommand
+9693,org.apache.karaf.wrapper.internal.StreamPumper
+9983,org.apache.karaf.tooling.url.SpringURLHandler
+9999,org.apache.karaf.deployer.spring.SpringTransformer
+10003,org.apache.karaf.packages.command.Exports
+10052,org.apache.karaf.itests.BundleSshCommandSecurityTest
+10058,org.apache.karaf.itests.SshCommandTestBase
+10062,org.apache.karaf.features.internal.service.StateStorageTest
+10081,org.apache.karaf.util.XmlUtils
+10130,org.apache.karaf.features.command.StartFeaturesCommand
+10141,org.apache.karaf.features.command.completers.AvailableFeatureCompleter
+10151,org.apache.karaf.deployer.wrap.WrapDeploymentListener
+10166,org.apache.karaf.jndi.internal.osgi.Activator
+10175,org.apache.karaf.jndi.KarafInitialContextFactory
+10176,org.apache.karaf.jndi.internal.JndiMBeanImpl
+10222,org.apache.karaf.jaas.command.UserAddCommand
+10235,org.apache.karaf.jaas.command.GroupAddCommand
+10248,org.apache.karaf.shell.console.completer.CompletionTest
+10271,org.apache.karaf.shell.console.completer.CompleterTestSupport
+10276,org.apache.karaf.shell.commands.impl.EachAction
+10284,org.apache.karaf.features.internal.model.ObjectFactory
+10300,org.apache.karaf.features.internal.model.Dependency
+10301,org.apache.karaf.features.internal.model.Features
+10304,org.apache.karaf.shell.commands.impl.LogoutAction
+10309,org.apache.karaf.jdbc.command.QueryCommand
+10345,org.apache.karaf.features.internal.service.FeaturesValidationTest
+10369,org.apache.karaf.features.internal.model.JaxbUtil
+10370,org.apache.karaf.features.internal.service.FeatureValidationUtil
+10375,org.apache.karaf.features.command.ListFeatureVersionsCommand
+10383,org.apache.karaf.features.command.completers.AllFeatureCompleter
+10387,org.apache.karaf.features.internal.service.FeatureFinder
+10406,org.apache.karaf.kar.command.ListKarCommand
+10415,org.apache.karaf.shell.commands.impl.SourceAction
+10436,org.apache.karaf.scr.management.internal.ScrServiceMBeanImpl
+10490,org.apache.karaf.scr.management.codec.JmxComponent
+10632,org.apache.karaf.shell.impl.console.osgi.Activator
+10652,org.apache.karaf.shell.impl.action.osgi.CommandExtender
+10654,org.apache.karaf.shell.impl.console.osgi.LoggingCommandSessionListener
+10667,org.apache.karaf.shell.console.completer.CompleterValuesTest
+10679,org.apache.karaf.profile.command.ProfileCopy
+10696,org.apache.karaf.log.core.internal.osgi.Activator
+10713,org.apache.karaf.log.core.internal.LogEventFormatterImpl
+10714,org.apache.karaf.log.core.internal.LogMBeanImpl
+10715,org.apache.karaf.log.core.internal.LogServiceImpl
+10716,org.apache.karaf.log.core.internal.LruList
+11003,org.apache.karaf.jms.JmsMessage
+11005,org.apache.karaf.management.KarafMBeanServerGuardTest
+11464,org.apache.karaf.tooling.features.FeatureMetaDataExporterTest
+11480,org.apache.karaf.tooling.features.model.BundleRef
+11481,org.apache.karaf.tooling.features.FeatureMetaDataExporter
+11498,org.apache.karaf.shell.console.completer.FileCompleterTest
+11541,org.apache.karaf.webconsole.http.WebDetail
+11583,org.apache.karaf.jdbc.command.DeleteCommand
+11586,org.apache.karaf.jdbc.command.completers.DataSourcesFileNameCompleter
+11588,org.apache.karaf.packages.core.internal.filter.SimpleItem
+11610,org.apache.karaf.diagnostic.core.providers.ThreadDumpProvider
+11647,org.apache.karaf.features.internal.service.ResourceComparator
+11657,org.apache.karaf.features.command.completers.AvailableRepoNameCompleter
+11705,org.apache.karaf.shell.impl.action.osgi.SingleServiceTracker
+11746,org.apache.karaf.util.process.StreamPumper
+11789,org.apache.karaf.kar.command.UninstallKarCommand
+11793,org.apache.karaf.kar.command.completers.KarCompleter
+11805,org.apache.karaf.jaas.config.impl.ResourceKeystoreInstance
+11893,org.apache.karaf.kar.command.InstallKarCommand
+11898,org.apache.karaf.services.staticcm.Activator
+11911,org.apache.karaf.services.staticcm.StaticConfigAdminImpl
+11912,org.apache.karaf.services.staticcm.Configurations
+11926,org.apache.karaf.profile.command.ProfileDisplay
+11963,org.apache.karaf.itests.ConditionalFeaturesTest
+11973,org.apache.karaf.webconsole.gogo.Terminal
+12357,org.apache.karaf.diagnostic.common.FeaturesDumpProvider
+12368,org.apache.karaf.itests.JmsTest
+12392,test.a.A
+12395,org.apache.karaf.features.FeatureTest
+12400,org.apache.karaf.obr.command.ListCommand
+12418,org.apache.karaf.bundle.command.wikidoc.WikiParserTest
+12471,org.apache.karaf.bundle.command.Capabilities
+12629,org.apache.karaf.packages.core.internal.PackagesMBeanImpl
+12665,org.apache.karaf.packages.core.PackageRequirement
+12701,org.apache.karaf.shell.console.commands.AnnotatedSubShell
+12712,org.apache.karaf.features.command.UninstallFeatureCommand
+12723,org.apache.karaf.jaas.modules.properties.PropertiesBackingEngineFactory
+12740,org.apache.karaf.jdbc.command.DataSourcesCommand
+12751,org.apache.karaf.itests.JndiTest
+12778,org.apache.karaf.packages.core.internal.filter.ExprTokenizer
+12796,org.apache.karaf.jaas.jasypt.impl.JasyptEncryptionTest
+12804,org.apache.karaf.jaas.jasypt.impl.JasyptEncryption
+12810,org.apache.karaf.jaas.command.ManageRealmCommand
+12837,org.apache.karaf.jaas.command.completers.LoginModuleNameCompleter
+12838,org.apache.karaf.jaas.command.completers.RealmCompleter
+12848,org.apache.karaf.instance.command.CloneCommand
+12879,org.apache.karaf.jndi.command.completers.ServicesIdCompleter
+12896,org.apache.karaf.tooling.features.BundleToArtifactTest
+12916,org.apache.karaf.tooling.utils.MojoSupport
+12931,org.apache.karaf.config.command.PropListCommand
+12939,org.apache.karaf.shell.ssh.ActivatorNoOsgi
+12944,org.apache.karaf.deployer.blueprint.BlueprintDeploymentListenerTest
+12973,org.apache.karaf.deployer.blueprint.BlueprintDeploymentListener
+12974,org.apache.karaf.deployer.blueprint.BlueprintTransformer
+12982,org.apache.karaf.main.lock.GenericStatements
+13075,org.apache.karaf.jms.command.SendCommand
+13081,org.apache.karaf.main.lock.MySQLJDBCLock
+13096,org.apache.karaf.features.internal.service.FeatureConfigInstaller
+13168,org.apache.karaf.shell.console.completer.CommandNamesCompleter
+13193,org.apache.karaf.shell.commands.meta.ActionMetaData
+13276,org.apache.karaf.shell.commands.HelpOption
+13330,org.apache.karaf.jaas.modules.osgi.OsgiConfigLoginModule
+13357,org.apache.karaf.jndi.command.NamesCommand
+13372,org.apache.karaf.jaas.modules.syncope.SyncopeLoginModule
+13419,org.apache.karaf.scr.command.support.IdComparator
+13427,org.apache.karaf.scr.command.action.DetailsAction
+13453,org.apache.karaf.scr.command.completer.DetailsCompleter
+13456,org.apache.karaf.profile.command.ProfileRename
+13466,org.apache.karaf.bundle.command.Info
+13476,org.apache.karaf.bundle.command.wikidoc.AnsiPrintingWikiVisitor
+13863,org.apache.karaf.shell.commands.impl.InfoTest
+13867,org.apache.karaf.shell.commands.impl.InfoAction
+13870,org.apache.karaf.diagnostic.core.providers.HeapDumpProvider
+13889,org.apache.karaf.bundle.core.internal.BundleWatcherImpl
+13964,org.apache.karaf.bundle.core.internal.MavenConfigService
+13982,org.apache.karaf.tooling.features.GenerateDescriptorMojo
+14138,org.apache.karaf.tooling.features.DependencyHelperFactory
+14139,org.apache.karaf.features.internal.model.Content
+14140,org.apache.karaf.tooling.features.ManifestUtils
+14176,org.apache.karaf.util.process.PumpStreamHandler
+14242,org.apache.karaf.obr.command.DeployCommand
+14281,org.apache.karaf.features.internal.util.MultiException
+14289,org.apache.karaf.jms.command.CountCommand
+14305,org.apache.karaf.scheduler.command.List
+14338,org.apache.karaf.tooling.features.ManifestUtilsTest
+14353,org.apache.karaf.web.internal.WebEventHandler
+14362,org.apache.karaf.features.internal.management.FeaturesServiceMBeanImpl
+14492,org.apache.karaf.features.management.codec.JmxFeature
+14493,org.apache.karaf.features.management.codec.JmxFeatureEvent
+14494,org.apache.karaf.features.management.codec.JmxRepository
+14495,org.apache.karaf.features.management.codec.JmxRepositoryEvent
+14498,org.apache.karaf.features.internal.management.StandardEmitterMBean
+14708,org.apache.karaf.scheduler.core.NonParallelQuartzJobExecutor
+14719,org.apache.karaf.scr.command.completer.ScrCompleterSupport
+14722,org.apache.karaf.deployer.blueprint.BlueprintURLHandler
+14834,org.apache.karaf.bundle.core.BundleState
+14836,org.apache.karaf.bundle.core.internal.BundleInfoImpl
+14856,org.apache.karaf.service.command.ListServicesTest
+14928,org.apache.karaf.instance.command.StartCommand
+14944,org.apache.karaf.instance.command.completers.StoppedInstanceCompleter
+14946,org.apache.karaf.bundle.command.DynamicImport
+14951,org.apache.karaf.shell.console.completer.ArgumentCompleterTest
+14983,org.apache.karaf.packages.core.InstallMBeantest
+14989,org.apache.karaf.jaas.command.ManageRealmCommandTest
+15016,org.apache.karaf.log.core.internal.layout.PatternParser
+15147,org.apache.karaf.log.core.internal.layout.FormattingInfo
+15148,org.apache.karaf.log.core.internal.layout.PatternConverter
+15149,org.apache.karaf.log.core.internal.layout.DateTimeDateFormat
+15164,org.apache.karaf.log.command.LogEntry
+15201,org.apache.karaf.services.staticcm.StaticConfigurationImpl
+15204,org.apache.karaf.services.mavenproxy.internal.Activator
+15229,org.apache.karaf.services.mavenproxy.internal.MavenProxyServlet
+15246,org.apache.karaf.features.command.RepoAddCommand
+15257,org.apache.karaf.features.internal.download.impl.MavenDownloadTask
+15298,org.apache.karaf.bundle.command.Classes
+15363,org.apache.karaf.webconsole.http.HttpPlugin
+15453,org.apache.karaf.webconsole.http.WebEventHandler
+15454,org.apache.karaf.webconsole.http.ServletDetails
+15469,test.App
+15474,org.apache.karaf.web.internal.osgi.Activator
+15482,org.apache.karaf.web.internal.WebContainerServiceImpl
+15483,org.apache.karaf.web.management.internal.WebMBeanImpl
+15491,org.apache.karaf.bundle.core.internal.osgi.Activator
+15510,org.apache.karaf.bundle.core.internal.BundlesMBeanImpl
+15546,org.apache.karaf.shell.console.completer.BooleanCompleterTest
+15556,org.apache.karaf.main.ServerInfoImpl
+15601,org.apache.karaf.log.core.internal.SetLogLevelTest
+15628,org.apache.karaf.profile.command.ProfileChangeParents
+15643,org.apache.karaf.features.command.InfoFeatureCommand
+15727,org.apache.karaf.jaas.modules.encryption.BasicEncryption
+15886,org.apache.karaf.features.internal.repository.RepositoryTest
+15907,org.apache.karaf.features.internal.repository.XmlRepository
+15931,org.apache.karaf.shell.console.commands.NamespaceHandler
+16092,org.apache.karaf.shell.console.SubShellAction
+16093,org.apache.karaf.shell.console.commands.NumberToStringConverter
+16095,test.b.B
+16120,org.apache.karaf.subsystem.commands.InstallAction
+16126,org.apache.karaf.subsystem.commands.SubsystemSupport
+16127,org.apache.karaf.subsystem.commands.SubsystemCompleter
+16516,org.apache.karaf.features.internal.download.DownloadManagers
+16521,org.apache.karaf.features.internal.service.Deployer
+16522,org.apache.karaf.features.internal.service.EventAdminListener
+16583,org.apache.karaf.shell.tabletest.ShellTableTest
+16620,org.apache.karaf.shell.table.Row
+16621,org.apache.karaf.shell.table.ShellTable
+16633,org.apache.karaf.jdbc.internal.JdbcMBeanImpl
+16723,org.apache.karaf.services.mavenproxy.internal.ThreadFactory
+16753,org.slf4j.impl.SimpleLoggerFactory
+16761,org.slf4j.impl.SimpleLogger
+16780,org.apache.karaf.service.core.internal.osgi.Activator
+16784,org.apache.karaf.service.core.internal.ServicesMBeanImpl
+16808,org.apache.karaf.jms.internal.JmsServiceImpl
+16957,org.apache.karaf.jms.internal.JmsConnector
+16965,org.apache.karaf.shell.commands.impl.ExecuteAction
+16977,org.apache.karaf.shell.commands.converter.DefaultConverter
+17080,org.apache.karaf.shell.commands.converter.GenericType
+17084,org.apache.karaf.shell.ssh.ShellCommand
+17135,org.apache.karaf.jms.command.BrowseCommand
+17218,org.apache.karaf.features.command.RequirementList
+17227,org.apache.karaf.itests.ConfigTest
+17275,org.apache.karaf.itests.ConfigManagedServiceFactoryTest
+17294,org.apache.karaf.deployer.spring.SpringURLHandler
+17324,org.apache.karaf.profile.impl.ProfileImpl
+17404,org.apache.karaf.itests.DiagnosticTest
+17416,org.apache.karaf.shell.impl.console.CommandsCompleter
+17513,org.apache.karaf.shell.support.completers.AggregateCompleter
+17517,org.apache.karaf.tooling.url.WarURLHandler
+17524,org.apache.karaf.jaas.boot.principal.RolePolicy
+17549,org.apache.karaf.features.internal.model.Conditional
+17564,org.apache.karaf.itests.SystemCommandSecurityTest
+17570,org.apache.karaf.jaas.modules.impl.Activator
+17593,org.apache.karaf.jaas.modules.encryption.BasicEncryptionService
+17594,org.apache.karaf.jaas.modules.properties.AutoEncryptionSupport
+17595,org.apache.karaf.jaas.modules.publickey.PublickeyBackingEngineFactory
+17596,org.apache.karaf.jaas.modules.impl.KarafRealm
+17601,org.apache.karaf.packages.core.internal.PackageServiceImpl
+17658,org.apache.karaf.packages.core.internal.ImportDetails
+17668,org.apache.karaf.packages.command.PackageImportTest
+17670,org.apache.karaf.packages.core.internal.filter.FilterParser
+17683,org.apache.karaf.features.internal.service.BundleManagerTest
+17691,org.apache.karaf.bundle.state.spring.internal.SpringStateService
+17735,org.apache.karaf.shell.console.AbstractAction
+17746,org.apache.karaf.web.WebAppListener
+17761,org.apache.karaf.jaas.jasypt.impl.JasyptEncryptionService
+17765,org.apache.karaf.diagnostic.management.internal.DiagnosticDumpMBeanImpl
+17780,org.apache.karaf.diagnostic.core.Dump
+17843,org.apache.karaf.jms.command.completers.ConnectionFactoriesNameCompleter
+17857,org.apache.karaf.jaas.command.ListUsersCommand
+17883,org.apache.karaf.packages.core.internal.ImportDetailsTest
+17888,org.apache.karaf.instance.command.CreateCommandTest
+17894,org.apache.karaf.instance.command.CreateCommand
+18025,org.apache.karaf.scr.command.action.DeactivateAction
+18031,org.apache.karaf.scr.command.completer.DeactivateCompleter
+18127,org.apache.karaf.deployer.spring.osgi.Activator
+18133,org.apache.karaf.deployer.spring.SpringDeploymentListener
+18159,org.apache.karaf.web.WebBundle
+18175,org.apache.karaf.wrapper.internal.Main
+18231,org.apache.karaf.jaas.blueprint.config.impl.NamespaceHandler
+18462,org.apache.karaf.instance.command.ChangeSshPortCommand
+18467,org.apache.karaf.web.commands.List
+18477,org.apache.karaf.itests.features.EnterpriseFeaturesTest
+18530,org.apache.karaf.jaas.modules.publickey.PublickeyLoginModule
+18532,org.apache.karaf.jaas.command.GroupRoleDeleteCommand
+18547,org.apache.karaf.tooling.features.InstallKarsMojo
+18750,org.apache.karaf.tooling.url.CustomBundleURLStreamHandlerFactory
+18751,org.apache.karaf.tooling.utils.InternalMavenResolver
+18752,org.apache.karaf.tooling.utils.IoUtils
+18773,org.apache.karaf.shell.commands.impl.MoreAction
+18846,org.apache.karaf.shell.impl.console.commands.ExitCommand
+18856,org.apache.karaf.demos.command.MyCompleter
+18865,test.c.C
+18869,org.apache.karaf.main.InstanceHelper
+18914,org.apache.karaf.main.ShutdownSocketThread
+18929,org.apache.karaf.jaas.blueprint.jasypt.handler.NamespaceHandler
+19000,org.apache.karaf.jms.command.MoveCommand
+19006,org.apache.karaf.config.command.EditCommand
+19175,org.apache.karaf.shell.console.completer.NullCompleter
+19176,org.apache.karaf.shell.console.completer.FileCompleter
+19187,org.apache.karaf.shell.console.impl.jline.ConsoleFactoryService
+19223,org.apache.karaf.shell.console.impl.jline.ConsoleImpl
+19279,org.apache.karaf.jaas.modules.ldap.LdapLoginModuleTest
+19362,org.apache.karaf.jaas.modules.ldap.LDAPLoginModule
+19414,org.apache.karaf.services.mavenproxy.internal.MavenProxyServletTest
+19647,org.apache.karaf.services.mavenproxy.internal.InvalidMavenArtifactRequest
+20014,org.apache.karaf.features.internal.util.ChecksumUtils
+20015,org.apache.karaf.features.internal.util.Macro
+20026,org.apache.karaf.features.internal.service.BundleComparator
+20027,org.apache.karaf.features.internal.service.RequirementSort
+20047,org.apache.karaf.jndi.command.DeleteCommand
+20215,test.b.B
+20220,org.apache.karaf.shell.console.impl.ExampleSubclassMain
+20240,org.apache.karaf.shell.console.impl.Main
+20252,org.apache.karaf.system.commands.FrameworkOptions
+20293,org.apache.karaf.tooling.url.FeatureURLHandler
+20294,org.apache.karaf.tooling.url.BlueprintURLHandler
+20296,org.apache.karaf.obr.command.AddUrlCommand
+20303,org.apache.karaf.shell.security.impl.SecuredCommandProcessorImpl
+20368,org.apache.karaf.shell.compat.CommandTracker
+20430,org.apache.karaf.shell.compat.ArgumentCompleter
+20433,org.apache.karaf.shell.compat.OldArgumentCompleter
+20438,org.apache.karaf.features.internal.download.impl.MavenDownloadManager
+20495,org.apache.karaf.features.internal.download.impl.DefaultFuture
+20504,org.apache.karaf.diagnostic.core.common.DirectoryDumpDestination
+20515,org.apache.karaf.shell.impl.console.KarafFileHistory
+20551,org.apache.karaf.itests.ConfigSshCommandSecurityTest
+20613,org.apache.karaf.tooling.features.MavenUtilTest
+20630,org.apache.karaf.tooling.features.Dependency31Helper
+20631,org.apache.karaf.tooling.features.Dependency30Helper
+20723,org.apache.karaf.itests.KarSshCommandSecurityTest
+20729,org.apache.karaf.jaas.modules.audit.AbstractAuditLoginModule
+20759,test.d.D
+20762,org.apache.karaf.jaas.modules.syncope.SyncopeBackingEngineFactory
+20772,org.apache.karaf.jaas.modules.syncope.SyncopeBackingEngine
+20775,org.apache.karaf.profile.impl.ProfilesTest
+20805,org.apache.karaf.log.command.SetLogLevel
+20813,org.apache.karaf.obr.command.InfoCommand
+20834,org.apache.karaf.shell.commands.impl.ThreadsTest
+20843,org.apache.karaf.shell.commands.impl.ThreadsAction
+20849,org.apache.karaf.instance.core.management.internal.InstanceToTableMapperTest
+20860,org.apache.karaf.instance.core.internal.InstanceToTableMapper
+20863,org.apache.karaf.jaas.config.impl.ProxyLoginModuleInitializer
+20907,org.apache.karaf.main.lock.DefaultJDBCLockIntegrationTest
+20945,org.apache.karaf.instance.command.StatusCommand
+20950,org.apache.karaf.diagnostic.core.common.ClosingEntryOutputStreamWrapper
+20978,org.apache.karaf.main.lock.StatementsTest
+20995,org.apache.karaf.shell.commands.impl.info.Activator
+21004,org.apache.karaf.main.util.BootstrapLogManagerTest
+21020,org.apache.karaf.log.command.ClearLog
+21025,org.apache.karaf.main.lock.DerbyJDBCLockTest
+21046,org.apache.karaf.itests.FeatureTest
+21080,org.apache.karaf.bundle.command.Resolve
+21087,org.apache.karaf.diagnostic.command.DumpCommand
+21097,org.apache.karaf.shell.ssh.Activator
+21159,org.apache.karaf.shell.ssh.KarafAgentFactory
+21160,org.apache.karaf.shell.ssh.UserAuthFactoriesFactory
+21161,org.apache.karaf.shell.ssh.SshUtils
+21162,org.apache.karaf.shell.ssh.ShellCommandFactory
+21163,org.apache.karaf.shell.ssh.KarafFileSystemFactory
+21244,org.apache.karaf.shell.console.commands.BasicSubShell
+21422,org.apache.karaf.features.internal.resolver.FeatureResource
+21436,org.apache.karaf.instance.command.ChangeSshHostCommand
+21442,org.apache.karaf.config.command.MetaCommand
+21486,org.apache.karaf.itests.features.Spring3FeaturesTest
+21672,org.apache.karaf.service.command.ObjectClassCompleter
+21673,org.apache.karaf.service.command.ObjectClassMatcher
+21693,org.apache.karaf.tooling.commands.UserConfCommandHelpPrinter
+21725,org.apache.karaf.tooling.commands.AbstractCommandHelpPrinter
+21757,org.apache.felix.gogo.commands.converter.ReifiedType
+21767,org.apache.karaf.features.command.RepoListCommand
+21781,org.apache.karaf.features.internal.service.DeployerTest
+21862,org.apache.karaf.scr.examples.managed.service.component.ManagedGreeterComponent
+21923,org.apache.karaf.itests.ShellCommandSecurityTest
+21928,org.apache.karaf.jndi.command.AliasCommand
+21945,org.apache.karaf.system.internal.osgi.Activator
+21951,org.apache.karaf.config.command.CancelCommand
+22003,org.apache.karaf.instance.command.completers.StartedInstanceCompleter
+22145,org.apache.karaf.webconsole.features.FeaturesPlugin
+22259,org.apache.karaf.instance.core.InstanceSettingsTest
+22278,org.apache.karaf.instance.command.ChangeRmiServerPortCommand
+22296,org.apache.karaf.features.internal.model.Requirement
+22309,org.apache.karaf.jaas.modules.jdbc.JDBCBackingEngineFactory
+22451,test.d.D
+22554,org.apache.karaf.features.command.RequirementRemove
+22567,org.apache.karaf.obr.command.FindCommand
+22589,org.apache.karaf.shell.impl.console.CommandWrapper
+22606,org.apache.karaf.jaas.config.KeyIsLocked
+22616,org.apache.karaf.main.lock.GenericJDBCLock
+22775,org.apache.karaf.subsystem.commands.InfoAction
+22867,org.apache.karaf.shell.commands.meta.ActionMetaDataFactory
+23062,org.apache.karaf.features.internal.model.Scoping
+23071,org.apache.karaf.features.internal.model.ScopeFilter
+23120,org.apache.karaf.bundle.command.Start
+23270,org.apache.karaf.config.core.impl.ConfigRepositoryImpl
+23319,org.apache.karaf.jaas.modules.ldap.LdapSpecialCharsInPasswordTest
+23365,org.apache.karaf.shell.impl.console.CompleterAsCompletor
+23377,org.apache.karaf.shell.impl.console.parsing.CommandLineParser
+23381,org.apache.karaf.shell.commands.impl.PrintStackTracesAction
+23434,org.apache.karaf.shell.impl.action.osgi.AggregateServiceTracker
+23484,org.apache.karaf.shell.impl.action.osgi.MultiServiceTracker
+23494,org.apache.karaf.shell.support.ShellUtilTest
+23509,org.apache.karaf.webconsole.gogo.GogoPlugin
+23626,org.apache.karaf.shell.support.parsing.DefaultParser
+23627,org.apache.karaf.shell.support.parsing.GogoParser
+23633,org.apache.karaf.jms.command.completers.ConnectionFactoriesFileNameCompleter
+23646,org.apache.karaf.shell.commands.impl.CatAction
+23666,org.apache.karaf.shell.support.completers.FileOrUriCompleter
+23668,org.apache.karaf.shell.support.parsing.CommandLineImpl
+23702,org.apache.karaf.scr.examples.managed.service.impl.ManagedGreeterServiceImpl
+23731,org.apache.karaf.itests.KarafTestWatcher
+23744,org.apache.karaf.bundle.command.Stop
+23866,org.apache.karaf.jpa.hibernate.impl.Activator
+23884,org.apache.karaf.jpa.hibernate.impl.StatisticsPublisher
+23929,org.apache.karaf.tooling.features.ValidateDescriptorMojo
+24100,org.apache.karaf.scr.command.action.ListAction
+24108,org.apache.karaf.scheduler.core.Activator
+24265,org.apache.karaf.shell.console.CloseShellException
+24266,org.apache.karaf.shell.console.impl.jline.KarafFileHistory
+24267,org.apache.karaf.shell.console.impl.jline.CompleterAsCompletor
+24273,org.apache.karaf.main.lock.MySQLJDBCLockTest
+24293,test.App
+24297,org.apache.karaf.features.ConditionalTest
+24326,org.apache.karaf.shell.commands.impl.ClearAction
+24330,org.apache.karaf.main.PropertiesLoader
+24379,org.apache.karaf.main.util.Utils
+24413,org.apache.karaf.jndi.command.UnbindCommand
+24433,test.App
+24459,org.apache.karaf.scr.management.codec.JmxProperty
+24460,org.apache.karaf.scr.management.codec.JmxReference
+24466,org.apache.karaf.shell.commands.impl.TacAction
+24478,org.apache.karaf.tooling.features.ExportFeatureMetaDataMojo
+24506,org.apache.karaf.packages.core.internal.filter.FilterParserTest
+24523,org.apache.karaf.packages.core.internal.filter.AndExpression
+24770,org.apache.karaf.features.command.InstallFeatureCommand
+24787,org.apache.karaf.features.internal.service.OverridesTest
+24836,org.apache.karaf.config.command.MockCommandSession
+24859,org.apache.karaf.shell.impl.console.ConsoleSessionImpl
+25005,org.apache.karaf.shell.impl.console.HistoryWrapper
+25006,org.apache.karaf.shell.impl.console.RegistryImpl
+25012,org.apache.karaf.demos.command.MyCommand
+25016,org.apache.karaf.demos.deployer.bundle.Activator
+25030,org.apache.karaf.jms.command.TopicsCommand
+25035,org.apache.karaf.instance.command.RestartCommand
+25050,org.eclipse.osgi.util.NLS
+25087,test.d.D
+25090,org.apache.karaf.shell.impl.console.standalone.Main
+25177,org.apache.karaf.shell.support.NameScoping
+25196,org.apache.karaf.diagnostic.common.LogDumpProvider
+25473,org.apache.karaf.main.KarafActivatorManager
+25474,org.apache.karaf.main.StartupListener
+25497,org.apache.karaf.config.command.UpdateCommand
+25503,org.apache.karaf.shell.commands.impl.EnvAction
+25523,org.apache.karaf.main.lock.PostgreSQLJDBCLockTest
+25551,org.apache.karaf.config.core.impl.osgi.Activator
+25558,org.apache.karaf.system.commands.StartLevel
+25695,org.apache.karaf.features.internal.resolver.Slf4jResolverLog
+25729,org.apache.karaf.shell.commands.impl.SortAction
+25848,org.apache.karaf.service.guard.impl.GuardingEventHookTest
+25915,org.apache.karaf.shell.ssh.SshServerAction
+25926,org.apache.karaf.bundle.state.spring.internal.Activator
+25961,org.apache.karaf.jaas.command.CancelCommand
+25966,org.apache.karaf.bundle.command.Update
+25972,org.apache.karaf.shell.commands.impl.TailAction
+26003,org.apache.karaf.tooling.instances.CreateArchiveMojo
+26067,org.apache.karaf.main.Status
+26141,org.apache.karaf.main.lock.OracleJDBCLockIntegrationTest
+26151,org.apache.karaf.jdbc.command.CreateCommand
+26164,org.apache.felix.eventadmin.impl.Configuration
+26265,org.apache.felix.eventadmin.impl.handler.EventAdminImpl
+26281,org.apache.karaf.jaas.jasypt.impl.Activator
+26289,org.apache.karaf.jaas.blueprint.jasypt.handler.EncryptablePropertyPlaceholderTest
+26410,org.apache.karaf.tooling.features.model.Repository
+26648,org.apache.karaf.deployer.blueprint.osgi.Activator
+26743,org.apache.karaf.diagnostic.internal.Activator
+26782,org.apache.karaf.packages.command.Imports
+26800,org.apache.karaf.bundle.state.blueprint.internal.Activator
+26810,org.apache.karaf.bundle.state.blueprint.internal.BlueprintStateService
+26820,org.apache.karaf.service.guard.impl.GuardProxyCatalogTest
+27286,org.apache.karaf.jaas.command.SuCommand
+27352,org.apache.karaf.shell.console.MultiException
+27382,org.apache.karaf.tooling.features.model.ConfigRef
+27418,org.apache.karaf.jaas.command.GroupRoleAddCommand
+27472,org.apache.karaf.instance.core.internal.InstanceServiceImplTest
+27568,org.apache.karaf.obr.core.internal.ObrMBeanImpl
+27627,org.apache.karaf.shell.commands.impl.AliasAction
+27633,org.apache.karaf.webconsole.instance.InstancePluginTest
+27652,org.apache.karaf.webconsole.instance.InstancePlugin
+27659,org.apache.karaf.client.Main
+27753,org.apache.karaf.client.ClientConfig
+28031,org.apache.karaf.scheduler.command.Schedule
+28045,org.apache.karaf.scheduler.command.support.ScriptJob
+28049,org.apache.karaf.scr.examples.service.impl.GreeterServiceImpl
+28057,org.apache.karaf.profile.impl.ProfileServiceImpl
+28136,org.apache.karaf.kar.internal.KarsMBeanImpl
+28167,org.apache.karaf.wrapper.commands.Install
+28204,org.apache.karaf.scr.examples.service.component.GreeterComponent
+28245,org.apache.karaf.tooling.features.CreateKarMojo
+28524,org.apache.karaf.system.commands.SystemProperty
+28552,org.apache.karaf.itests.WrapperTest
+28565,org.apache.karaf.profile.impl.ProfileBuilderImpl
+28720,org.apache.karaf.shell.table.AnsiColumn
+28747,org.apache.karaf.shell.impl.console.parsing.ParsingTest
+28777,org.apache.karaf.shell.impl.console.HeadlessSessionImpl
+28781,org.apache.karaf.log.command.DisplayException
+28790,org.apache.karaf.itests.features.PaxCdiFeaturesTest
+28984,org.apache.karaf.deployer.features.FeatureDeploymentListener
+28993,org.apache.karaf.jaas.modules.properties.PropertiesBackingEngineTest
+29076,org.apache.karaf.itests.JaasSshCommandSecurityTest
+29083,org.apache.karaf.config.command.PropDelCommand
+29088,org.apache.karaf.jms.command.DeleteCommand
+29093,org.apache.karaf.jaas.command.ListPendingCommand
+29107,org.apache.karaf.features.command.StopFeaturesCommand
+29119,org.apache.karaf.system.commands.Name
+29124,org.apache.karaf.jndi.command.BindCommand
+29130,org.apache.karaf.bundle.core.internal.MavenConfigServiceTest
+29140,org.apache.karaf.jaas.modules.audit.EventAdminAuditLoginModule
+29194,org.apache.karaf.jaas.command.UpdateCommand
+29206,org.apache.karaf.log.command.GetLogLevel
+29215,org.apache.karaf.wrapper.internal.PumpStreamHandler
+29297,org.apache.karaf.shell.impl.action.osgi.CommandExtension
+29300,org.apache.karaf.bundle.command.Headers
+29421,org.apache.karaf.features.command.RepoRemoveCommand
+29465,org.apache.karaf.jdbc.command.TablesCommand
+29493,org.apache.karaf.bundle.command.Diag
+29529,org.apache.karaf.instance.command.ChangeOptsCommand
+29530,org.apache.karaf.instance.command.StopCommand
+29532,org.apache.karaf.jaas.modules.BackingEngineService
+29542,org.apache.karaf.jms.command.InfoCommand
+29549,org.apache.karaf.management.boot.KarafMBeanServerBuilderTest
+29595,org.apache.karaf.jaas.command.GroupDeleteCommand
+29608,org.apache.karaf.bundle.command.LoadTest
+29647,org.apache.karaf.util.CommandUtils
+29689,org.apache.karaf.main.MainStartTest
+29706,org.apache.karaf.obr.command.RefreshUrlCommand
+29717,org.apache.karaf.jms.internal.JmsMBeanImpl
+29856,org.apache.karaf.shell.console.impl.jline.ConsoleImplTest
+30099,org.apache.karaf.shell.commands.meta.TestFormatting
+30182,org.apache.karaf.scr.examples.component.factories.component.GreeterServiceFactoryManager
+30200,org.apache.karaf.shell.ssh.KnownHostsManagerTest
+30216,test.App
+30276,org.apache.karaf.management.internal.JMXSecurityMBeanImplTestCase
+30340,org.apache.karaf.packages.core.internal.filter.ExpressionTokenizerTest
+30516,org.slf4j.impl.StaticLoggerBinder
+30562,org.apache.karaf.system.commands.Version
+30566,org.apache.karaf.shell.impl.action.osgi.RegistryImpl
+30728,org.apache.karaf.bundle.command.Install
+30783,test.a.A
+30805,org.apache.karaf.service.guard.impl.ActivatorTest
+30826,org.apache.karaf.http.core.internal.HttpMBeanImplTest
+30865,org.apache.karaf.shell.commands.impl.SleepAction
+30872,org.apache.karaf.obr.command.ListUrlCommand
+30880,org.apache.karaf.shell.commands.impl.EditAction
+30924,org.apache.karaf.tooling.tracker.GenerateServiceMetadata
+30958,org.apache.karaf.config.command.EditCommandTest
+30994,org.apache.karaf.shell.commands.impl.CompletionAction
+31171,org.apache.karaf.shell.support.converter.DefaultConverter
+31184,org.apache.karaf.shell.commands.impl.HeadAction
+31201,org.apache.karaf.features.command.RequirementAdd
+31236,org.apache.karaf.shell.ssh.ServerKeyVerifierImplTest
+31262,org.apache.karaf.service.guard.tools.ACLConfigurationParserTest
+31384,org.apache.karaf.main.lock.PostgreSQLJDBCLockIntegrationTest
+31432,org.apache.karaf.itests.FeatureSshCommandSecurityTest
+31442,org.apache.karaf.deployer.wrap.osgi.Activator
+31504,org.apache.karaf.features.internal.model.Capability
+31720,org.apache.karaf.features.RepositoryTest
+31749,org.apache.karaf.shell.commands.impl.EchoAction
+31756,org.apache.karaf.shell.commands.impl.SortTest
+31800,org.apache.karaf.jaas.modules.syncope.SyncopeLoginModuleTest
+31875,org.apache.karaf.diagnostic.core.internal.Activator
+31894,org.apache.karaf.diagnostic.core.common.ZipDumpDestination
+31952,org.apache.karaf.diagnostic.core.providers.BundleDumpProvider
+31971,org.apache.karaf.itests.SystemTest
+32036,org.apache.karaf.profile.impl.osgi.Activator
+32042,org.apache.karaf.bundle.command.Restart
+32055,org.apache.karaf.deployer.features.osgi.Activator
+32068,org.apache.karaf.bundle.command.ShowBundleTree
+32133,org.apache.karaf.main.lock.DefaultJDBCLockTest
+32173,test.b.B
+32176,org.apache.karaf.jdbc.internal.osgi.Activator
+32314,org.apache.karaf.itests.SystemShutdownTest
+32321,org.apache.karaf.config.command.UpdateCommandTest
+32347,org.apache.karaf.diagnostic.demo.ScreenshotDumpProvider
+32382,org.apache.karaf.jndi.command.CreateCommand
+32387,org.apache.karaf.subsystem.commands.UninstallAction
+32392,org.apache.karaf.shell.security.impl.SecuredCommandProcessorImplTest
+32627,org.apache.karaf.subsystem.commands.ListAction
+32640,org.apache.karaf.tooling.features.AddToRepositoryMojoTest
+32669,org.apache.karaf.service.command.ObjectClassMatcherTest
+32723,org.apache.karaf.jdbc.command.InfoCommand
+32730,org.apache.karaf.jaas.command.RoleAddCommand
+32750,test.a.A
+32799,org.apache.karaf.itests.WebTest
+32809,org.apache.karaf.features.internal.osgi.Activator
+32875,org.apache.karaf.instance.command.ConnectCommand
+32996,org.apache.karaf.packages.core.internal.osgi.Activator
+33003,org.apache.karaf.features.internal.repository.StaxParser
+33108,org.apache.karaf.deployer.spring.SpringDeploymentListenerTest
+33120,org.apache.karaf.obr.command.StartCommand
+33132,org.apache.karaf.diagnostic.core.providers.MemoryDumpProvider
+33138,org.apache.karaf.itests.InstanceTest
+33162,org.apache.karaf.jaas.command.ListRealmsCommand
+33206,org.apache.karaf.bundle.command.List
+33294,org.apache.karaf.shell.commands.impl.WhileAction
+33341,org.apache.karaf.jaas.modules.audit.FileAuditLoginModule
+33363,org.apache.karaf.main.lock.MySQLJDBCLockIntegrationTest
+33419,org.apache.karaf.jaas.command.SudoCommand
+33442,org.apache.karaf.tooling.features.ResolutionListenerImpl
+33544,org.apache.karaf.obr.core.internal.osgi.Activator
+33550,org.apache.karaf.kar.internal.osgi.Activator
+33577,org.apache.karaf.tooling.features.GenerateDescriptorMojoTest
+33649,org.apache.karaf.log.core.Level
+33701,org.apache.karaf.tooling.commands.DocBookCommandHelpPrinter
+33789,org.apache.karaf.bundle.command.FindClass
+33805,org.apache.karaf.itests.features.StandardFeaturesTest
+33825,org.apache.karaf.jaas.command.UserDeleteCommand
+33924,org.apache.karaf.service.guard.impl.GuardingFindHookTest
+34090,org.apache.karaf.subsystem.commands.StopAction
+34095,org.apache.karaf.config.command.PropSetCommand
+34101,org.apache.karaf.shell.commands.impl.HistoryAction
+34108,org.apache.karaf.shell.commands.impl.JavaAction
+34120,org.apache.karaf.instance.core.internal.osgi.Activator
+34126,org.apache.karaf.subsystem.commands.StartAction
+34198,org.apache.karaf.tooling.features.VerifyFeatureResolutionMojo
+34406,org.apache.karaf.tooling.utils.PropertiesLoader
+34409,org.apache.karaf.features.command.RepoRefreshCommand
+34518,org.apache.karaf.main.TimeoutShutdownActivator
+34621,org.apache.karaf.shell.commands.impl.NewAction
+34752,org.apache.karaf.jaas.modules.ldap.LdapLoginModuleWithEscapesTest
+34754,org.apache.karaf.main.MainLockingTest
+34769,org.apache.karaf.http.command.ServletListCommand
+34783,org.apache.karaf.profile.command.ProfileList
+35035,org.apache.karaf.shell.console.OsgiCommandSupport
+35228,org.apache.karaf.tooling.commands.GenerateHelpMojo
+35264,org.apache.karaf.deployer.kar.osgi.Activator
+35400,test.c.C
+35533,org.apache.karaf.shell.commands.impl.LessAction
+35856,org.apache.felix.gogo.commands.basic.AbstractCommand
+35867,org.apache.karaf.profile.command.ProfileCreate
+*Edges: 1439
+26164 26265 4
+9534 8 6
+9397 9538 2
+9397 9534 14
+9397 9539 6
+9397 8 2
+9397 9540 1
+9538 9539 3
+9538 8 24
+9538 21757 20
+9539 21757 6
+3097 8 1
+3081 3097 1
+3081 3096 2
+286 9101 1
+286 8 2
+12471 1893 3
+12471 286 1
+12471 8 1
+15298 286 1
+29493 1893 2
+29493 286 1
+14946 4677 1
+33789 1893 1
+29300 1893 8
+29300 286 1
+4673 4677 1
+13466 13476 1
+13466 1893 2
+13466 286 1
+13466 95 1
+13466 8 1
+30728 9101 1
+30728 1894 1
+30728 8 6
+33206 14834 1
+33206 1117 8
+33206 286 1
+33206 1121 1
+33206 6539 2
+4324 4333 1
+4324 4334 1
+4324 286 5
+4324 4331 1
+322 286 1
+8768 1893 2
+8768 286 1
+8768 8 1
+21080 286 1
+32042 286 1
+32042 9101 1
+32042 8 4
+4333 1893 4
+4333 286 1
+32068 1427 11
+32068 4677 1
+32068 1402 4
+23120 286 1
+7326 4677 1
+7326 1894 1
+23744 286 1
+280 286 1
+25966 4677 1
+1402 1427 6
+8342 1427 20
+8342 1402 8
+95 129 1
+12418 95 2
+14836 14834 4
+4331 8954 2
+4331 1894 1
+4331 8 2
+4331 14836 1
+13889 13964 3
+13889 5926 2
+15510 8 12
+13964 8 1
+29130 13964 4
+15491 2578 4
+15491 13964 1
+15491 15510 1
+15491 4331 1
+15491 13889 4
+26800 26810 1
+26810 14834 2
+25926 17691 1
+17691 14834 2
+27753 8 1
+27659 16761 1
+27659 27753 21
+21951 71 1
+5046 71 2
+2689 71 1
+19006 71 1
+30958 23270 1
+30958 19006 1
+30958 71 4
+5049 71 1
+21442 1117 8
+21442 1121 1
+21442 71 1
+5040 5046 1
+29083 5046 1
+12931 5046 1
+34095 5046 1
+25497 71 2
+32321 71 6
+32321 24836 3
+2694 77 5
+2694 8 1
+13 77 3
+152 8 8
+23270 8 3
+25551 23270 1
+25551 2578 3
+25551 152 2
+18856 77 5
+12973 10081 1
+12973 8 2
+12944 12974 5
+12974 10081 2
+12974 4489 1
+26648 2578 2
+28984 8 8
+1805 1023 1
+1805 4489 1
+32055 2578 4
+32055 28984 5
+4249 8 1
+6407 4249 6
+35264 4249 1
+35264 2578 3
+18133 8 2
+33108 9999 3
+9999 10081 2
+9999 4489 1
+18127 2578 2
+10151 4489 1
+10151 8 2
+31442 2578 1
+21087 17780 3
+12357 4144 2
+25196 1023 1
+25196 8 1
+17780 5172 1
+17780 31952 1
+17780 20504 1
+17780 11610 1
+17780 31894 1
+17780 33132 1
+31894 20950 1
+31875 31894 1
+31875 17780 1
+31952 5285 2
+5172 5285 2
+33132 5285 2
+11610 5285 2
+26743 17765 2
+26743 25196 1
+26743 3173 3
+17765 17780 3
+1910 1925 2
+24297 1925 2
+12395 2428 2
+9618 1569 14
+9618 2427 4
+9618 8 2
+31720 1925 13
+31720 21422 1
+31720 8 1
+15643 2499 1
+24770 2499 1
+10375 2499 1
+10375 1117 7
+10375 1121 1
+2498 2499 1
+2498 1117 10
+2498 1121 1
+2498 6539 1
+2474 2499 4
+15246 2499 1
+21767 2499 1
+21767 1117 6
+21767 1121 1
+21767 9101 1
+21767 8 1
+34409 2499 1
+34409 8 1
+29421 2499 1
+17218 1117 6
+17218 1121 1
+10130 2499 1
+29107 2499 1
+12712 2499 1
+10383 2593 1
+10141 2593 1
+11657 77 1
+2593 77 3
+2593 8 1
+4820 77 3
+4820 8 1
+1166 77 3
+1166 8 1
+2590 2593 1
+16516 20438 1
+8434 20495 4
+8433 8434 5
+15257 8433 2
+8406 8433 2
+8406 1023 2
+8406 8435 2
+14362 14494 2
+14362 14492 5
+14362 14498 2
+17549 14139 9
+2428 14139 1
+2428 23062 3
+10369 10301 6
+10369 10081 3
+10369 8 2
+10284 10301 2
+10284 1278 2
+10284 2428 2
+10284 10300 1
+10284 7184 1
+10284 4457 1
+32809 3221 1
+32809 2578 16
+32809 1695 2
+32809 15907 1
+32809 1520 2
+32809 1569 2
+32809 13096 1
+32809 14362 3
+32809 4282 1
+32809 16522 1
+32809 25695 1
+32809 8 1
+3894 3898 11
+3894 3886 11
+3894 9181 2
+3894 3258 2
+3894 21422 2
+3894 4805 1
+3894 8 1
+3770 3260 1
+3770 3895 1
+3770 3894 7
+3770 3897 1
+4804 3885 1
+4804 3886 5
+4804 3749 6
+4804 3894 37
+4804 3770 1
+4804 3258 2
+4804 4805 2
+4804 25695 1
+4804 3747 2
+4726 4804 31
+4726 1925 16
+4726 4805 36
+4726 4799 8
+3260 3749 2
+3260 3748 1
+3260 3747 3
+3221 1776 1
+3221 3260 4
+3221 3258 1
+3221 8 1
+3221 3261 2
+15886 3221 2
+15886 3260 4
+15886 1023 1
+15886 15907 2
+33003 3885 2
+33003 3886 6
+33003 3748 2
+33003 8 1
+15907 3749 1
+15907 3260 4
+15907 3747 1
+15907 3261 1
+3885 3258 1
+3885 8658 1
+3747 3885 1
+3747 3749 37
+3747 3258 1
+3747 8 7
+21422 20015 1
+21422 3898 2
+21422 3886 5
+21422 3258 3
+21422 10300 4
+3748 3749 4
+3748 8658 1
+3748 3747 1
+3258 3885 7
+3258 3886 15
+3258 3749 9
+3258 3748 5
+3258 8 2
+3886 3885 1
+3898 3885 1
+3898 3886 8
+3898 3749 2
+3898 3748 3
+3898 8658 2
+1520 1569 4
+1520 8 2
+7042 1569 3
+7042 1520 10
+7042 2427 1
+17683 2427 1
+16521 20015 2
+16521 3898 12
+16521 4804 22
+16521 5374 2
+16521 5108 1
+16521 20014 1
+16521 20027 2
+16521 14281 1
+16521 2511 2
+16521 4805 26
+21781 16521 9
+21781 5610 2
+21781 1925 15
+21781 4805 12
+21781 4799 4
+21781 2511 2
+16522 1214 5
+16522 2511 6
+13096 1023 1
+10370 10369 1
+1569 10387 4
+1569 9181 1
+1569 2429 5
+1569 1214 4
+1569 5108 8
+1569 16521 2
+1569 13096 3
+1569 1925 6
+1569 16516 1
+1569 16522 4
+1569 2428 1
+1569 2511 2
+1569 4805 10
+1569 8 3
+2398 1569 6
+2398 2427 6
+10345 10370 6
+10345 10301 2
+10345 10369 5
+10345 8 1
+9181 8 1
+24787 3898 21
+24787 9181 6
+1925 10301 7
+1925 10369 1
+1925 8 1
+20027 3749 2
+20027 3747 5
+5108 4805 6
+2429 1776 1
+2429 1777 1
+2429 5108 2
+10062 2429 2
+5610 3898 1
+5610 3886 1
+5610 3258 1
+4799 14281 2
+4799 8 1
+14281 8 4
+14493 2511 6
+14494 8 1
+14495 1214 4
+34769 4915 6
+34769 1117 9
+34769 1121 1
+34769 6539 6
+2575 4915 6
+2575 8 1
+30826 2577 1
+30826 2575 2
+2577 4915 6
+2577 2576 3
+2565 2577 1
+2565 2578 2
+2565 2575 1
+29529 1092 2
+6555 1092 2
+22278 1092 2
+21436 1092 2
+18462 1092 2
+12848 1015 1
+12848 1092 4
+32875 1092 2
+17894 1015 1
+17894 1092 4
+17888 17894 1
+17888 1015 1
+17888 1092 1
+9095 9101 3
+9095 1092 2
+9095 8 1
+7490 1117 9
+7490 1121 1
+7490 6539 3
+7490 1092 2
+1082 1092 2
+25035 9101 3
+25035 1092 2
+25035 8 1
+14928 9101 3
+14928 1092 2
+14928 8 1
+20945 1092 2
+29530 9101 3
+29530 1092 2
+29530 8 1
+1088 77 3
+22003 8 1
+22003 1088 1
+14944 8 1
+14944 1088 1
+22259 1015 14
+1031 418 19
+418 1024 4
+418 1015 3
+418 1023 2
+418 1018 3
+418 1031 1
+418 1019 1
+418 8 2
+27472 1015 5
+27472 418 17
+20860 8 1
+3066 1015 2
+3066 20860 1
+3066 8 14
+34120 2578 2
+34120 3066 1
+34120 418 1
+3010 1015 2
+3010 3066 13
+20849 20860 2
+20849 8 1
+1016 6550 1
+1016 418 2
+1016 1092 3
+1016 8 2
+6033 1016 4
+10052 10058 35
+7589 1153 17
+11963 1153 10
+11963 8 2
+17275 1153 6
+17275 1889 3
+20551 10058 17
+17227 1153 5
+17404 1153 5
+31432 10058 11
+21046 1153 35
+21046 1889 2
+6481 1153 7
+33138 1153 17
+9223 1153 12
+9223 1889 3
+29076 10058 6
+8442 1153 4
+12368 1153 30
+12368 8 1
+12751 1153 14
+12751 8 1
+20723 10058 8
+7318 1153 4
+1153 23731 1
+1153 8 3
+7468 1153 10
+4301 1153 6
+7339 7365 2
+7339 1153 7
+7964 1153 4
+21923 10058 12
+10058 1153 3
+10058 8 1
+17564 10058 23
+32314 1153 4
+32314 1889 1
+31971 1153 13
+31971 1889 3
+32799 1153 5
+28552 1153 5
+18477 1153 20
+28790 1153 15
+21486 1153 29
+2011 1153 13
+1134 1153 13
+33805 1153 36
+6626 1023 1
+26289 1023 1
+2330 8 1
+25961 3286 1
+10235 3286 1
+29595 3286 1
+27418 3286 1
+18532 3286 1
+29093 3286 1
+33162 1117 6
+33162 1121 1
+33162 3286 2
+17857 3962 2
+17857 1890 1
+17857 1117 9
+17857 1121 3
+17857 3286 2
+17857 1889 2
+12810 3286 5
+14989 12810 2
+14989 2299 6
+14989 2334 4
+14989 3286 2
+32730 3286 1
+3271 3286 1
+29194 3286 3
+10222 3286 1
+33825 3286 1
+12837 77 3
+12837 8 1
+12838 77 3
+12838 8 1
+6579 2330 1
+6579 6609 3
+2299 2334 7
+5291 5373 3
+20863 2330 1
+11805 5373 2
+17761 12804 1
+12796 12804 4
+3966 17524 2
+3966 4430 8
+20729 8 1
+29140 20729 2
+33341 20729 2
+17593 15727 1
+17570 17596 3
+17570 7506 1
+17570 2578 4
+17570 17594 3
+3963 3962 1
+3963 1890 3
+3963 4430 8
+3963 1889 1
+22309 3965 1
+22309 3963 8
+22309 4430 1
+22309 8 1
+3964 3965 1
+3964 3962 1
+3964 3966 3
+3964 1890 1
+3964 8 1
+3964 1889 2
+3965 8 4
+3918 3964 4
+3918 3962 14
+3918 3963 37
+3918 3966 2
+3918 1890 28
+3918 1889 12
+7506 3985 8
+19362 7506 4
+19362 3966 2
+19362 1890 1
+19362 8 5
+19362 1889 1
+19279 19362 18
+19279 7506 1
+19279 3966 4
+34752 19279 1
+23319 19279 1
+13330 4712 1
+13330 3966 3
+13330 1890 1
+13330 8 1
+13330 1889 1
+17594 4430 5
+7289 3962 3
+7289 1890 3
+7289 4430 8
+7289 8 4
+7289 1889 2
+12723 7289 1
+12723 4430 1
+28993 7289 27
+28993 1890 6
+28993 1889 16
+7288 3962 1
+7288 3966 4
+7288 1890 1
+7288 1889 2
+7206 7291 1
+7206 7289 19
+7206 3966 2
+7206 7288 15
+4344 3962 3
+4344 1890 3
+4344 8 4
+4344 1889 2
+17595 4344 1
+18530 15727 2
+18530 3962 1
+18530 3966 3
+18530 1890 1
+18530 7036 1
+18530 1889 2
+20772 1890 2
+20772 8 4
+20772 1889 1
+20762 20772 1
+20762 8 1
+13372 3966 2
+13372 1890 1
+13372 8 1
+13372 1889 1
+31800 13372 1
+26151 7556 2
+12740 7556 3
+12740 1117 9
+12740 1121 2
+12740 8 1
+11583 7556 2
+7546 7556 2
+32723 7556 2
+32723 1117 5
+32723 1121 1
+10309 7556 2
+10309 1117 4
+10309 1121 1
+29465 7556 2
+29465 1117 4
+29465 1121 1
+11586 77 3
+11586 8 1
+7551 77 3
+7551 8 1
+7553 23668 1
+7553 23627 5
+16633 8 8
+6125 6259 12
+6125 8 1
+32176 16633 1
+32176 6125 1
+32176 2578 2
+17135 1583 1
+17135 1117 17
+17135 7196 1
+17135 1121 2
+17135 11003 26
+17135 6539 1
+8947 1117 4
+8947 7196 2
+8947 1121 1
+9661 1583 1
+9661 7196 1
+14289 1583 1
+14289 1117 4
+14289 7196 1
+14289 1121 1
+7189 7196 2
+29088 7196 2
+29542 1583 1
+29542 1117 5
+29542 7196 1
+29542 1121 1
+1583 7196 1
+19000 1583 1
+19000 7196 1
+1578 1583 1
+1578 1117 4
+1578 7196 1
+1578 1121 1
+13075 1583 1
+13075 7196 1
+25030 1583 1
+25030 1117 4
+25030 7196 1
+25030 1121 1
+23633 77 3
+23633 8 1
+17843 77 3
+17843 8 1
+29717 11003 12
+16808 16957 24
+16808 6258 1
+16808 11003 1
+1107 1117 4
+1107 1121 1
+13357 1117 5
+13357 1121 1
+1116 77 3
+1116 8 1
+5594 77 3
+5594 8 1
+12879 77 3
+10166 10176 1
+10166 10175 1
+10166 4515 2
+10166 2578 3
+23866 23884 4
+23884 8 3
+2362 1018 1
+2362 1019 1
+4949 4959 2
+4959 1019 7
+10406 1117 4
+10406 1121 1
+11793 77 3
+11793 8 1
+1392 8 1
+1337 1392 2
+1337 1023 1
+1337 8 1
+1393 1337 8
+1393 1023 1
+1393 5926 2
+1393 8 9
+28136 8 3
+33550 2578 4
+33550 1393 2
+33550 28136 2
+29206 1117 5
+29206 1121 1
+8556 1184 1
+10713 15148 1
+10713 15016 2
+10715 10716 7
+10715 33649 3
+15601 10716 1
+15601 10714 1
+15601 10715 1
+15149 6117 3
+6072 6117 2
+15148 15147 1
+15016 15148 5
+15016 6072 2
+15016 15147 3
+15016 15149 1
+15016 6117 1
+10696 10716 1
+10696 2578 11
+10696 10713 7
+10696 10714 1
+10696 10715 1
+9572 9575 1
+1684 24379 9
+1684 24330 2
+18869 1024 1
+18869 18914 1
+18869 1684 1
+18869 8 5
+25473 6352 1
+25473 8 1
+9575 6352 2
+9575 25473 4
+9575 368 1
+9575 18869 1
+9575 15556 1
+9575 25474 1
+9575 8 3
+9575 1684 2
+9575 24379 1
+9575 24330 1
+34754 24379 1
+34754 9575 5
+34754 3308 5
+29689 9575 5
+24330 24379 1
+24330 8 3
+15556 1684 2
+18914 8 1
+26067 1684 1
+1669 1684 1
+2736 6352 1
+2736 2737 21
+2736 8 5
+7433 6352 1
+7433 2737 13
+2737 6352 1
+2737 8701 8
+2737 8 8
+20907 2737 2
+20907 2736 2
+32133 7433 2
+2738 2737 3
+2727 2738 1
+2727 2737 1
+2727 2736 2
+21025 2738 1
+21025 7433 2
+22616 6352 1
+22616 12982 16
+22616 8 9
+1319 8 1
+13081 8701 3
+13081 2737 4
+33363 13081 2
+33363 2736 6
+33363 8 1
+24273 13081 1
+24273 7433 2
+7434 8701 4
+7434 2737 4
+7434 8 1
+26141 2736 4
+26141 7434 2
+7407 2737 6
+7407 7433 8
+7407 7434 1
+3758 2737 3
+31384 3758 2
+31384 2737 1
+31384 2736 2
+25523 2737 4
+25523 7433 6
+8694 2737 2
+1332 6352 1
+1332 8 1
+20978 8701 12
+6352 8 1
+21004 6352 6
+1995 368 3
+24379 8 1
+4198 8 1
+4199 5542 1
+4199 3171 1
+4199 1894 2
+11005 8623 1
+11005 4199 83
+4200 8 2
+29549 5542 5
+29549 8 1
+4161 2578 22
+4161 4198 19
+4161 4205 2
+4161 4201 8
+4161 2444 1
+4161 4199 2
+4161 8 3
+4161 4200 5
+4205 5542 3
+4205 4199 3
+30276 5542 22
+30276 4199 11
+30276 4205 26
+20296 4138 2
+14242 4138 2
+22567 4138 4
+20813 4138 5
+12400 4138 1
+12400 1117 7
+12400 1121 1
+30872 4138 1
+30872 1117 6
+30872 1121 1
+4138 8 1
+29706 4138 1
+7158 4138 2
+4095 4138 5
+7058 4138 4
+7058 7069 1
+33120 4138 2
+7069 8 1
+27568 8 6
+33544 27568 1
+33544 2578 3
+10003 7365 11
+10003 1117 13
+10003 1121 2
+10003 6539 3
+26782 12665 9
+26782 1117 9
+26782 1121 3
+14983 12629 1
+17658 17670 1
+17883 17658 1
+17601 7365 2
+17601 12665 4
+17601 17658 1
+12629 7365 3
+12629 12665 6
+30340 12778 7
+17670 3195 1
+17670 12778 15
+17670 11588 1
+17670 24523 1
+24506 17670 4
+32996 17601 1
+32996 12629 1
+32996 2578 2
+5726 8 1
+34783 2211 1
+34783 1117 5
+34783 1121 1
+8338 77 3
+8338 8 1
+28565 2211 2
+28565 17324 1
+17324 2211 5
+28057 2211 9
+28057 2031 6
+2031 2211 5
+20775 2031 4
+32036 2578 2
+32036 28057 1
+14305 1117 5
+14305 1121 1
+28031 28045 1
+28045 8 1
+24108 3363 3
+24108 2578 2
+24108 5584 3
+14708 5560 1
+5584 5583 4
+3363 8 1
+2872 2375 1
+2872 2887 1
+18025 2887 1
+13427 2375 5
+13427 2887 1
+24100 13419 1
+24100 1117 6
+24100 2375 2
+24100 1121 1
+24100 2887 2
+2882 14719 1
+18031 14719 1
+13453 14719 1
+14719 77 4
+14719 8 1
+14719 2887 2
+10490 24460 1
+10490 24459 1
+10436 10490 1
+10436 8 3
+7777 7781 2
+7777 7782 1
+7781 1893 5
+7781 21673 1
+14856 7781 2
+14856 7782 1
+21672 7781 1
+21672 77 1
+21672 21673 1
+32669 21673 7
+16784 8 5
+16780 16784 2
+16780 2578 2
+6722 6737 3
+6722 6738 2
+6722 6739 2
+30805 6737 1
+30805 6722 3
+6737 3171 1
+6737 1894 1
+26820 6737 28
+26820 1889 15
+6738 6737 3
+25848 6737 3
+25848 6738 11
+6739 6737 3
+33924 6737 3
+33924 6739 11
+31262 3171 13
+15204 15229 3
+15204 2578 12
+19647 8 4
+15229 19647 5
+15229 6423 1
+15229 16723 1
+15229 1023 2
+15229 8 7
+19414 15229 33
+11898 11911 1
+11898 11912 1
+11912 15201 1
+4869 8 6
+6019 17080 4
+6019 16977 2
+6019 13193 6
+6019 22867 1
+6019 4869 7
+6019 8 2
+6019 9540 1
+4871 6017 1
+4879 4871 3
+4879 16092 1
+4828 4871 3
+4828 4869 3
+4828 4879 1
+4828 4878 23
+16977 17080 3
+16977 8 24
+16977 140 20
+17080 140 6
+30880 1023 2
+30880 8 1
+16965 14176 4
+6543 6551 1
+6543 6550 1
+13863 13867 4
+35533 2009 1
+35533 8 1
+34621 31171 3
+34621 2234 1
+34621 8 3
+34621 2289 6
+20843 1117 8
+20843 1121 1
+20834 20843 4
+3333 3359 1
+13193 8 2
+22867 13193 2
+30099 13193 1
+20430 19176 1
+20430 5490 4
+20430 5487 1
+20430 8 1
+20433 19176 1
+20433 5490 2
+20433 5487 1
+20433 8 1
+20433 9540 1
+24265 8 1
+4872 17735 1
+27352 8 4
+35035 17735 2
+16092 17735 1
+5978 6017 1
+5492 8706 2
+5492 19176 1
+5492 5394 2
+5492 5490 4
+5492 5487 1
+5492 8 1
+5492 9540 1
+14951 8706 10
+14951 5492 1
+14951 10271 17
+15546 5492 1
+15546 4871 1
+15546 10271 7
+13168 5490 1
+13168 5487 2
+5394 5492 2
+5394 5494 2
+5394 5491 8
+5394 5487 2
+10667 5492 1
+10667 4871 1
+10667 10271 7
+10248 5394 3
+10248 4871 15
+10248 10271 25
+10248 5487 3
+10248 4879 3
+10248 4878 21
+11498 5492 1
+11498 4871 1
+11498 10271 4
+5494 8706 2
+5494 19176 1
+5494 5490 2
+5494 5487 1
+5494 8 1
+5494 9540 1
+20220 20240 4
+20240 4869 1
+20240 19223 4
+20240 7119 2
+20240 8 1
+19187 7116 1
+19187 19223 2
+19223 24266 1
+19223 7116 1
+19223 5394 1
+19223 24267 1
+19223 24265 1
+19223 2913 2
+19223 8 4
+19223 5487 2
+19223 20303 3
+29856 19223 1
+29856 1889 1
+7078 1890 1
+7078 7119 3
+7078 1889 1
+2865 2805 4
+2865 6550 1
+2865 8 1
+2865 8208 1
+8208 77 3
+8208 2865 8
+8208 2234 1
+8208 2289 2
+8208 1487 1
+6550 1262 7
+6550 31171 2
+6550 25177 1
+6550 2234 4
+6550 8 3
+2805 2865 1
+2805 2234 2
+2805 8 2
+2805 2289 5
+23434 11705 2
+23434 23484 2
+10652 2805 1
+10652 29297 1
+29297 23434 5
+29297 2805 1
+29297 30566 1
+29297 2234 3
+29297 2289 6
+30566 8 2
+4080 77 1
+4080 4089 1
+17416 17513 8
+17416 7660 1
+23365 23377 1
+24859 23377 1
+24859 25005 1
+24859 20515 1
+24859 1891 2
+24859 25006 1
+24859 1504 2
+24859 23666 1
+24859 1893 2
+24859 17416 1
+24859 23365 1
+24859 8 4
+24859 8395 1
+28777 23377 1
+28777 1893 1
+28777 25006 1
+1891 6870 1
+1891 8 2
+25006 8 2
+3172 24859 1
+3172 3203 1
+3172 1434 1
+3172 28777 1
+3172 25006 4
+3172 22589 1
+18846 1245 1
+3203 1245 1
+1245 1262 1
+1489 1117 8
+1489 25177 1
+1489 1121 1
+1489 6539 3
+1434 1488 1
+1434 1262 1
+10632 3107 1
+10632 2805 1
+10632 1839 4
+10632 3600 1
+10632 10652 2
+10632 2538 1
+10632 1892 2
+10632 3172 7
+2538 8 1
+1839 1890 1
+1839 1892 3
+1839 1889 1
+10654 8 1
+3176 3107 3
+3107 3176 6
+3107 3173 5
+3107 3172 3
+3107 3171 2
+3107 8 2
+3107 25006 1
+23377 23627 4
+28747 23377 2
+28747 2805 2
+28747 2865 4
+28747 28777 2
+28747 3172 10
+25090 2805 2
+25090 1891 1
+25090 1893 1
+25090 1892 2
+25090 3172 2
+5033 8 2
+4964 5033 17
+20303 7116 1
+20303 1889 1
+32392 1889 1
+21097 21162 1
+21097 21161 2
+21097 9113 1
+21097 2578 16
+21097 21160 2
+21097 9175 1
+21097 21159 1
+9175 8 2
+4669 8 1
+30200 4669 4
+4644 4669 4
+31236 4669 4
+31236 4644 6
+17084 1893 1
+17084 1023 1
+17084 8 2
+21162 17084 1
+6910 4669 1
+6910 8 1
+6910 4644 1
+9176 6870 1
+21161 8 1
+1262 8 6
+9101 8 4
+1893 8 2
+23494 1893 14
+23666 17513 2
+8013 8 2
+31171 2234 3
+31171 8 24
+31171 2289 20
+2234 2289 6
+23626 23668 1
+23626 23627 5
+6526 6539 3
+6539 6750 3
+1121 6539 3
+1117 1121 9
+1117 6539 4
+6870 2009 3
+28720 2750 3
+2750 2782 3
+16620 2750 3
+16621 2750 4
+16621 16620 9
+16583 16621 37
+16583 2750 21
+16583 16620 10
+7116 4869 1
+7116 8 2
+22775 16126 2
+22775 1893 6
+16120 16126 2
+32627 16126 4
+32627 1117 10
+32627 1121 1
+32627 6539 1
+34126 16126 2
+34090 16126 2
+16127 16126 2
+16127 77 1
+32387 16126 2
+6403 2961 2
+6403 8 2
+6393 6403 2
+21945 6403 1
+21945 7668 3
+21945 2578 2
+7668 2961 1
+7668 8 9
+21725 8 1
+33701 21725 6
+35228 8 2
+21693 21725 6
+8935 8932 3
+8935 8933 9
+8935 12916 5
+8935 8 3
+8935 26410 3
+8900 8932 1
+8900 8936 3
+8900 8935 2
+8900 8933 2
+8900 12916 1
+8900 3529 2
+8900 8 1
+32640 8900 1
+32640 26410 2
+12896 12916 4
+28245 10301 1
+28245 10369 1
+28245 12916 9
+28245 14139 2
+28245 3529 1
+28245 8 4
+20631 3529 5
+20630 3529 5
+20630 8 2
+14138 20630 1
+14138 20631 1
+14138 8 1
+24478 8935 2
+24478 8933 8
+24478 11481 3
+24478 11480 9
+24478 8 1
+11481 8932 8
+11481 8933 8
+11481 11480 6
+11481 3529 2
+11464 8932 3
+11464 8933 3
+11464 11481 3
+11464 11480 1
+13982 14138 1
+13982 10301 17
+13982 10369 1
+13982 12916 1
+13982 14140 1
+13982 10284 14
+13982 1278 9
+13982 2428 10
+13982 14139 17
+13982 8 3
+13982 10300 2
+33577 10301 2
+33577 10369 2
+33577 2428 1
+18547 10301 11
+18547 10369 1
+18547 12916 2
+18547 3529 1
+18547 1337 3
+18547 1278 16
+18547 18750 2
+18547 4805 1
+18547 10300 20
+18547 7184 5
+18547 4457 6
+18547 14138 2
+18547 18752 1
+18547 2031 9
+18547 8435 2
+18547 2428 15
+18547 8 3
+18547 14139 21
+18547 18751 1
+14338 14140 16
+20613 20630 12
+20613 20631 12
+20613 3529 9
+33442 3291 13
+23929 14140 6
+23929 10370 1
+23929 18750 1
+23929 1925 3
+23929 12916 2
+23929 8 7
+34198 14138 1
+34198 34406 1
+34198 12916 1
+34198 16521 3
+34198 18750 2
+34198 1925 3
+34198 14281 1
+34198 16516 1
+34198 4805 2
+34198 8 7
+34198 18751 1
+11480 8932 2
+11480 8 1
+8933 27382 1
+8933 8932 1
+8933 11480 1
+26410 27382 1
+26410 8932 1
+26410 8933 8
+26410 11480 1
+26410 8 3
+26003 12916 1
+26003 8 1
+30924 8 1
+12916 1023 1
+34406 8 3
+14176 11746 20
+2578 3173 6
+2578 8 1
+17746 9575 4
+17746 8 2
+18467 1117 9
+18467 18159 6
+18467 1121 1
+18467 6539 6
+15482 14353 8
+15482 18159 6
+15474 2578 3
+15474 15483 2
+15474 15482 3
+15483 18159 6
+15483 8 6
+22145 7973 8
+22145 8 7
+8380 6870 1
+15363 15453 3
+15363 11541 8
+15363 8547 3
+15363 15454 15
+27652 1015 2
+27652 8 6
+27633 1015 1
+27633 27652 2
+18175 9575 7
+18175 8 1
+29215 9693 14
+9693 8 3
+7581 29215 4
+7575 7582 2
+7575 2578 2
+7582 8 3
+1695 1776 1
+1695 1777 1
+1695 8 1
+25050 8 1
+16753 16761 1
+30516 16753 1
+25087 35400 16

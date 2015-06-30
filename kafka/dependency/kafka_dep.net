@@ -1,0 +1,699 @@
+*Vertics: 184
+7,org.apache.kafka.clients.InFlightRequests
+55,org.apache.kafka.clients.ClientRequest
+56,org.apache.kafka.common.network.ByteBufferSend
+64,org.apache.kafka.common.requests.OffsetCommitResponse
+104,org.apache.kafka.common.TopicPartition
+105,org.apache.kafka.common.protocol.ApiKeys
+106,org.apache.kafka.common.protocol.ProtoUtils
+107,org.apache.kafka.common.protocol.types.Schema
+108,org.apache.kafka.common.protocol.types.Struct
+109,org.apache.kafka.common.utils.CollectionUtils
+114,org.apache.kafka.common.requests.AbstractRequestResponse
+131,org.apache.kafka.clients.producer.ProducerConfig
+190,org.apache.kafka.common.config.AbstractConfig
+191,org.apache.kafka.common.config.ConfigDef
+217,org.apache.kafka.clients.producer.internals.RecordBatch
+260,org.apache.kafka.common.record.MemoryRecords
+261,org.apache.kafka.common.record.Record
+263,org.apache.kafka.clients.producer.internals.ProduceRequestResult
+264,org.apache.kafka.clients.producer.internals.FutureRecordMetadata
+314,org.apache.kafka.common.metrics.MetricConfig
+316,org.apache.kafka.common.metrics.JmxReporterTest
+323,org.apache.kafka.common.MetricName
+324,org.apache.kafka.common.metrics.stats.Avg
+325,org.apache.kafka.common.metrics.stats.Total
+327,org.apache.kafka.common.metrics.Metrics
+328,org.apache.kafka.common.metrics.Sensor
+329,org.apache.kafka.common.metrics.JmxReporter
+340,org.apache.kafka.common.network.NetworkReceive
+378,org.apache.kafka.common.network.SelectorTest
+476,org.apache.kafka.common.utils.MockTime
+477,org.apache.kafka.common.utils.Utils
+478,org.apache.kafka.test.TestUtils
+480,org.apache.kafka.common.network.NetworkSend
+482,org.apache.kafka.common.network.Selector
+498,org.apache.kafka.common.PartitionInfo
+524,org.apache.kafka.common.Node
+553,org.apache.kafka.common.requests.OffsetCommitRequest
+631,org.apache.kafka.common.requests.ResponseHeader
+642,org.apache.kafka.common.protocol.Protocol
+643,org.apache.kafka.common.protocol.types.Field
+647,org.apache.kafka.test.MockSelector
+719,org.apache.kafka.common.Cluster
+724,org.apache.kafka.common.errors.UnknownServerException
+735,org.apache.kafka.common.errors.ApiException
+745,org.apache.kafka.clients.consumer.ConsumerExampleTest
+766,org.apache.kafka.clients.consumer.ConsumerRecord
+769,org.apache.kafka.clients.consumer.ConsumerRecords
+771,kafka.examples.Consumer
+800,org.apache.kafka.clients.consumer.OffsetMetadata
+919,org.apache.kafka.common.utils.Crc32
+920,org.apache.kafka.common.record.CompressionType
+921,org.apache.kafka.common.record.Compressor
+922,org.apache.kafka.common.record.InvalidRecordException
+973,org.apache.kafka.common.protocol.types.SchemaException
+977,org.apache.kafka.common.KafkaException
+981,org.apache.kafka.clients.producer.BufferPoolTest
+1050,org.apache.kafka.clients.producer.internals.BufferPool
+1051,org.apache.kafka.clients.producer.BufferExhaustedException
+1061,org.apache.kafka.common.record.LogEntry
+1072,org.apache.kafka.clients.producer.ProducerRecord
+1099,org.apache.kafka.clients.NetworkClientTest
+1130,org.apache.kafka.clients.producer.internals.Metadata
+1131,org.apache.kafka.common.requests.MetadataRequest
+1132,org.apache.kafka.common.requests.ProduceRequest
+1133,org.apache.kafka.common.requests.RequestHeader
+1134,org.apache.kafka.common.requests.RequestSend
+1135,org.apache.kafka.clients.NetworkClient
+1136,org.apache.kafka.clients.ClientResponse
+1160,org.apache.kafka.test.Microbenchmarks
+1234,org.apache.kafka.common.utils.CopyOnWriteMap
+1235,org.apache.kafka.common.utils.SystemTime
+1240,org.apache.kafka.common.metrics.stats.HistogramTest
+1269,org.apache.kafka.common.metrics.stats.Histogram
+1318,org.apache.kafka.common.errors.TimeoutException
+1328,kafka.etl.impl.SimpleKafkaETLJob
+1371,kafka.etl.KafkaETLInputFormat
+1372,kafka.etl.KafkaETLJob
+1373,kafka.etl.Props
+1375,kafka.etl.impl.SimpleKafkaETLMapper
+1378,org.apache.kafka.common.metrics.MetricsTest
+1442,org.apache.kafka.common.metrics.stats.Count
+1443,org.apache.kafka.common.metrics.stats.Max
+1444,org.apache.kafka.common.metrics.stats.Min
+1445,org.apache.kafka.common.metrics.stats.Percentile
+1446,org.apache.kafka.common.metrics.stats.Percentiles
+1448,org.apache.kafka.common.metrics.stats.Rate
+1450,org.apache.kafka.common.metrics.QuotaViolationException
+1453,org.apache.kafka.common.metrics.stats.SampledStat
+1454,org.apache.kafka.common.metrics.Quota
+1599,org.apache.kafka.common.config.ConfigException
+1608,kafka.examples.SimpleConsumerDemo
+1644,kafka.examples.Producer
+1654,org.apache.kafka.common.requests.HeartbeatRequest
+1692,org.apache.kafka.clients.producer.RecordMetadata
+1821,org.apache.kafka.common.metrics.KafkaMetric
+1926,org.apache.kafka.common.record.ByteBufferOutputStream
+1927,org.apache.kafka.common.record.ByteBufferInputStream
+1939,org.apache.kafka.common.errors.SerializationException
+1953,org.apache.kafka.common.errors.NetworkException
+1963,org.apache.kafka.common.errors.InvalidMetadataException
+2031,org.apache.kafka.common.utils.AbstractIterator
+2040,org.apache.kafka.common.errors.CorruptRecordException
+2050,org.apache.kafka.common.errors.RetriableException
+2098,org.apache.kafka.common.utils.ClientUtilsTest
+2103,org.apache.kafka.common.utils.ClientUtils
+2106,org.apache.kafka.common.errors.RecordTooLargeException
+2118,org.apache.kafka.common.requests.ConsumerMetadataResponse
+2145,org.apache.kafka.common.errors.NotLeaderForPartitionException
+2157,org.apache.kafka.common.requests.JoinGroupResponse
+2200,org.apache.kafka.common.record.MemoryRecordsTest
+2269,org.apache.kafka.common.utils.KafkaThread
+2318,org.apache.kafka.common.protocol.types.Type
+2321,org.apache.kafka.common.serialization.StringSerializer
+2405,org.apache.kafka.common.requests.RequestResponseTest
+2449,org.apache.kafka.common.requests.ConsumerMetadataRequest
+2450,org.apache.kafka.common.requests.FetchRequest
+2452,org.apache.kafka.common.requests.FetchResponse
+2454,org.apache.kafka.common.requests.HeartbeatResponse
+2455,org.apache.kafka.common.requests.JoinGroupRequest
+2456,org.apache.kafka.common.requests.ListOffsetRequest
+2458,org.apache.kafka.common.requests.ListOffsetResponse
+2460,org.apache.kafka.common.requests.MetadataResponse
+2461,org.apache.kafka.common.requests.OffsetFetchRequest
+2462,org.apache.kafka.common.requests.OffsetFetchResponse
+2464,org.apache.kafka.common.requests.ProduceResponse
+2482,kafka.etl.KafkaETLRecordReader
+2525,kafka.etl.KafkaETLKey
+2526,kafka.etl.KafkaETLContext
+2527,kafka.etl.KafkaETLUtils
+2581,org.apache.kafka.common.errors.InvalidTopicException
+2675,org.apache.kafka.common.protocol.types.ArrayOf
+2683,org.apache.kafka.clients.consumer.ConsumerConfig
+2757,org.apache.kafka.common.errors.OffsetOutOfRangeException
+2768,kafka.etl.KafkaETLRequest
+2863,kafka.bridge.hadoop.KafkaOutputFormat
+2923,kafka.bridge.hadoop.KafkaRecordWriter
+3036,org.apache.kafka.clients.producer.internals.Partitioner
+3051,org.apache.kafka.common.utils.AbstractIteratorTest
+3105,org.apache.kafka.clients.MockClient
+3156,kafka.etl.UndefinedPropertyException
+3198,kafka.bridge.examples.TextPublisher
+3274,org.apache.kafka.common.serialization.ByteArrayDeserializer
+3360,org.apache.kafka.common.errors.NotEnoughReplicasException
+3464,org.apache.kafka.clients.producer.internals.RecordAccumulator
+3610,org.apache.kafka.common.protocol.Errors
+3647,org.apache.kafka.common.errors.UnknownTopicOrPartitionException
+3649,org.apache.kafka.common.errors.LeaderNotAvailableException
+3651,org.apache.kafka.common.errors.OffsetMetadataTooLarge
+3653,org.apache.kafka.common.errors.RecordBatchTooLargeException
+3655,org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException
+3669,kafka.etl.impl.DataGenerator
+3923,org.apache.kafka.common.record.RecordTest
+3949,kafka.examples.KafkaConsumerProducerDemo
+4084,org.apache.kafka.clients.producer.MetadataTest
+4101,org.apache.kafka.clients.producer.MockProducerTest
+4121,org.apache.kafka.clients.producer.MockProducer
+4129,org.apache.kafka.test.MetricsBench
+4229,org.apache.kafka.clients.producer.SenderTest
+4268,org.apache.kafka.clients.producer.internals.Sender
+4311,org.apache.kafka.common.utils.UtilsTest
+4317,org.apache.kafka.clients.ClusterConnectionStates
+4351,org.apache.kafka.clients.NodeConnectionState
+4352,org.apache.kafka.clients.ConnectionState
+4360,org.apache.kafka.common.network.ByteBufferReceive
+4496,org.apache.kafka.common.serialization.StringDeserializer
+4509,org.apache.kafka.common.config.ConfigDefTest
+4577,org.apache.kafka.common.config.AbstractConfigTest
+4632,kafka.tools.KafkaMigrationTool
+4842,org.apache.kafka.clients.producer.internals.ErrorLoggingCallback
+5120,org.apache.kafka.clients.producer.PartitionerTest
+5411,org.apache.kafka.common.message.KafkaLZ4BlockInputStream
+5470,org.apache.kafka.common.message.KafkaLZ4BlockOutputStream
+5898,org.apache.kafka.common.serialization.SerializationTest
+5967,org.apache.kafka.clients.tools.ProducerPerformance
+6054,org.apache.kafka.clients.producer.KafkaProducer
+6404,org.apache.kafka.clients.consumer.MockConsumer
+6462,org.apache.kafka.clients.producer.RecordSendTest
+6603,org.apache.kafka.clients.consumer.KafkaConsumer
+6711,org.apache.kafka.common.serialization.ByteArraySerializer
+6720,kafka.utils.Crc32
+6750,org.apache.kafka.common.protocol.types.ProtocolSerializationTest
+6794,kafka.bridge.pig.AvroKafkaStorage
+6841,org.apache.kafka.clients.producer.RecordAccumulatorTest
+6918,org.apache.kafka.common.utils.CrcTest
+*Edges: 513
+3198 2863 1
+2863 2923 1
+6794 2863 2
+6794 2923 2
+2526 2525 4
+2526 2768 16
+2526 1373 5
+1371 2482 1
+1371 1373 1
+1372 2527 1
+1372 1373 3
+2482 2525 2
+2482 2527 1
+2482 2526 13
+2482 1373 2
+2527 3156 1
+2527 1373 6
+1373 3156 4
+3669 2525 1
+3669 2768 3
+3669 1373 3
+3669 477 2
+1328 1372 1
+1328 1373 2
+1375 2525 3
+1375 2527 1
+3949 771 1
+3949 1644 1
+1608 1644 2
+55 1134 4
+1136 108 4
+1136 55 5
+4317 4351 2
+7 56 2
+7 55 6
+3105 1136 2
+3105 108 1
+3105 105 1
+3105 1133 2
+3105 56 1
+3105 55 1
+3105 524 6
+1135 108 1
+1135 1134 5
+1135 1133 9
+1135 56 3
+1135 4317 13
+1135 2460 2
+1135 631 4
+1135 1136 3
+1135 719 2
+1135 7 12
+1135 106 1
+1135 55 10
+1135 114 1
+1135 477 1
+1135 105 2
+1135 340 3
+1135 107 1
+1135 1130 10
+1135 524 29
+1099 108 4
+1099 1134 2
+1099 1133 1
+1099 1132 1
+1099 631 1
+1099 1136 2
+1099 647 6
+1099 1135 11
+1099 719 1
+1099 106 1
+1099 476 15
+1099 55 2
+1099 114 4
+1099 340 1
+1099 1130 3
+1099 524 5
+4351 4352 2
+2683 190 2
+2683 191 1
+745 766 2
+766 104 5
+6603 800 2
+6603 2683 3
+6603 190 6
+6603 329 1
+6603 314 1
+6603 104 7
+6603 327 4
+6603 2103 1
+6404 800 3
+6404 769 1
+6404 766 3
+6404 104 14
+800 104 2
+1051 977 2
+981 476 1
+981 1051 1
+981 1050 28
+981 327 1
+6054 314 3
+6054 104 1
+6054 4268 5
+6054 2269 1
+6054 977 1
+6054 3464 3
+6054 1135 1
+6054 719 4
+6054 735 1
+6054 1599 1
+6054 3036 2
+6054 2103 1
+6054 920 2
+6054 131 6
+6054 482 1
+6054 329 1
+6054 328 4
+6054 1939 2
+6054 261 1
+6054 1318 1
+6054 2106 2
+6054 190 29
+6054 1072 15
+6054 1130 10
+6054 327 5
+4084 478 1
+4084 719 1
+4084 1130 9
+4121 264 1
+4121 1072 4
+4121 719 5
+4121 1692 1
+4121 104 2
+4121 263 1
+4121 3036 2
+4101 1072 3
+4101 4121 11
+5120 1072 6
+5120 719 1
+5120 524 4
+5120 3036 7
+131 190 2
+131 191 2
+6841 476 13
+6841 104 3
+6841 3464 29
+6841 261 4
+6841 260 2
+6841 719 1
+6841 1061 4
+6841 498 3
+6841 327 1
+6841 524 6
+1692 104 5
+6462 264 9
+6462 2040 1
+6462 1692 2
+6462 104 1
+6462 263 4
+4229 108 7
+4229 476 17
+4229 106 1
+4229 104 5
+4229 4268 17
+4229 3464 4
+4229 3610 4
+4229 3105 12
+4229 719 1
+4229 1130 2
+4229 327 2
+1050 1051 1
+1050 328 3
+1050 327 3
+1050 323 1
+4842 1692 1
+264 1692 4
+264 263 9
+1130 1318 1
+1130 719 4
+3036 1072 9
+3036 719 2
+3036 477 4
+263 104 3
+3464 217 6
+3464 104 5
+3464 477 1
+3464 261 1
+3464 1234 1
+3464 260 10
+3464 719 4
+3464 498 2
+3464 1050 6
+3464 323 3
+3464 327 5
+3464 524 2
+3464 920 1
+217 264 3
+217 260 4
+217 104 3
+217 263 3
+217 261 1
+4268 1134 3
+4268 1133 2
+4268 217 3
+4268 56 3
+4268 55 9
+4268 2464 2
+4268 104 2
+4268 114 1
+4268 1132 1
+4268 3464 8
+4268 1136 13
+4268 3610 6
+4268 260 1
+4268 1130 5
+4268 327 1
+5967 6054 3
+5967 1072 1
+719 104 3
+719 498 9
+719 524 4
+719 477 1
+323 477 4
+498 524 13
+190 1599 3
+190 977 2
+190 477 2
+190 191 2
+4577 190 2
+4577 1599 2
+191 1599 11
+4509 1599 1
+4509 191 16
+1599 977 3
+735 977 5
+2040 2050 5
+1963 2050 5
+2581 735 5
+3649 1963 2
+1953 1963 5
+3655 2050 5
+3360 2050 5
+2145 1963 5
+3651 735 4
+2757 2050 4
+3653 735 5
+2106 735 5
+2050 735 4
+1939 977 5
+1318 2050 5
+724 735 4
+3647 2050 4
+5411 477 3
+5470 477 4
+329 1821 4
+329 977 3
+329 323 5
+316 324 1
+316 329 1
+316 325 3
+316 328 4
+316 327 4
+316 323 4
+1821 314 4
+1821 323 3
+314 1454 3
+327 1234 2
+327 314 7
+327 1821 3
+327 328 7
+327 323 3
+327 477 5
+1378 324 2
+1378 1448 1
+1378 1442 9
+1378 314 16
+1378 1446 2
+1378 1445 5
+1378 1454 2
+1378 325 4
+1378 1443 2
+1378 476 17
+1378 328 37
+1378 1450 2
+1378 1444 1
+1378 1453 12
+1378 327 28
+1378 323 35
+1450 977 2
+328 1454 2
+328 314 5
+328 1821 5
+328 1450 1
+328 327 4
+328 323 3
+328 477 4
+324 1453 2
+1442 1453 2
+1240 1269 9
+1443 1453 2
+1444 1453 2
+1445 323 3
+1446 1445 5
+1446 1453 3
+1446 1269 2
+1446 314 1
+1448 1453 6
+1448 314 2
+1453 314 9
+325 314 2
+480 56 2
+482 340 4
+482 56 3
+482 328 4
+482 327 1
+378 478 2
+378 476 1
+378 482 1
+378 56 1
+378 477 1
+378 480 2
+378 340 7
+378 327 1
+3610 735 3
+106 108 2
+106 107 8
+642 107 67
+2675 2318 8
+2675 973 1
+643 2318 8
+643 107 2
+6750 2318 5
+6750 643 10
+6750 108 12
+6750 107 5
+6750 973 1
+6750 2675 4
+107 2318 6
+107 643 8
+107 108 5
+107 973 6
+973 977 2
+108 643 20
+108 107 15
+108 973 6
+108 2675 1
+921 1926 7
+921 977 5
+921 1927 1
+921 920 6
+921 477 1
+921 261 5
+1061 261 4
+260 921 18
+260 920 3
+260 261 6
+2200 260 7
+2200 1061 3
+2200 920 3
+2200 477 2
+2200 261 3
+261 922 1
+261 921 12
+261 919 13
+261 920 8
+261 477 1
+3923 922 1
+3923 920 3
+3923 261 24
+114 108 8
+2449 108 4
+2449 107 2
+2449 114 3
+2118 108 10
+2118 107 2
+2118 114 3
+2118 524 7
+2450 109 1
+2450 108 13
+2450 107 2
+2450 104 1
+2450 114 3
+2452 109 1
+2452 108 12
+2452 107 2
+2452 104 1
+2452 114 3
+1654 108 7
+1654 107 2
+1654 114 3
+2454 108 3
+2454 107 2
+2454 114 3
+2455 108 10
+2455 107 2
+2455 114 3
+2157 109 1
+2157 108 10
+2157 107 2
+2157 104 1
+2157 114 3
+2456 109 1
+2456 108 11
+2456 107 2
+2456 104 1
+2456 114 3
+2458 109 1
+2458 108 10
+2458 107 2
+2458 104 1
+2458 114 3
+1131 108 3
+1131 107 2
+1131 114 3
+2460 3610 2
+2460 108 19
+2460 719 7
+2460 107 2
+2460 498 5
+2460 114 3
+2460 524 7
+553 109 1
+553 108 21
+553 106 2
+553 107 3
+553 104 1
+553 114 4
+64 109 1
+64 108 9
+64 107 2
+64 104 1
+64 114 3
+2461 109 1
+2461 108 11
+2461 107 2
+2461 104 1
+2461 114 3
+2462 109 1
+2462 108 12
+2462 107 2
+2462 104 1
+2462 114 3
+1132 109 1
+1132 108 11
+1132 107 2
+1132 104 1
+1132 114 3
+2464 109 1
+2464 108 10
+2464 107 2
+2464 104 1
+2464 114 3
+1133 643 4
+1133 108 7
+1133 106 1
+1133 107 1
+1133 114 3
+2405 2461 1
+2405 1133 1
+2405 2464 1
+2405 2460 1
+2405 104 13
+2405 2462 1
+2405 2458 1
+2405 2456 1
+2405 1132 1
+2405 631 1
+2405 553 1
+2405 2449 1
+2405 719 1
+2405 498 1
+2405 2450 1
+2405 2118 1
+2405 114 24
+2405 64 1
+2405 2454 1
+2405 2452 1
+2405 1654 1
+2405 2157 1
+2405 2455 1
+2405 524 2
+1134 108 7
+1134 480 2
+1134 1133 4
+1134 114 3
+631 643 1
+631 108 3
+631 107 1
+631 114 3
+4496 1939 1
+2321 1939 1
+3051 2031 4
+2103 1599 4
+2103 477 2
+2098 2103 1
+109 104 2
+6918 919 17
+477 977 2
+4311 477 12
+4129 324 1
+4129 1442 1
+4129 328 10
+4129 1445 2
+4129 1446 1
+4129 323 5
+4129 327 3
+4129 1443 1
+1160 1234 1
+647 480 1
+647 340 1
+478 719 3
+478 498 1
+478 524 1

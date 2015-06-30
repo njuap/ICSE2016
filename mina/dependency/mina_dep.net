@@ -1,0 +1,1684 @@
+*Vertics: 508
+4,org.apache.mina.util.CircularQueue
+82,org.apache.mina.integration.ognl.IoFilterPropertyAccessor
+109,org.apache.mina.integration.ognl.AbstractPropertyAccessor
+126,org.apache.mina.example.tapedeck.ListCommand
+130,org.apache.mina.example.tapedeck.Command
+140,org.apache.mina.statemachine.StateMachine
+141,org.apache.mina.statemachine.event.Event
+149,org.apache.mina.filter.codec.textline.LineDelimiter
+196,org.apache.mina.filter.ssl.SslTest
+265,org.apache.mina.core.filterchain.DefaultIoFilterChainBuilder
+266,org.apache.mina.core.service.IoHandlerAdapter
+268,org.apache.mina.filter.codec.ProtocolCodecFilter
+269,org.apache.mina.filter.codec.textline.TextLineCodecFactory
+270,org.apache.mina.transport.socket.nio.NioSocketAcceptor
+271,org.apache.mina.util.AvailablePortFinder
+276,org.apache.mina.filter.ssl.SslFilter
+278,org.apache.mina.core.polling.AbstractPollingIoAcceptor
+279,org.apache.mina.core.service.AbstractIoService
+311,org.apache.mina.core.buffer.IoBuffer
+318,org.apache.mina.example.proxy.ProxyTestClient
+356,org.apache.mina.core.RuntimeIoException
+358,org.apache.mina.core.session.IdleStatus
+359,org.apache.mina.filter.logging.LoggingFilter
+360,org.apache.mina.proxy.ProxyConnector
+361,org.apache.mina.proxy.handlers.ProxyRequest
+362,org.apache.mina.proxy.handlers.http.HttpAuthenticationMethods
+363,org.apache.mina.proxy.handlers.http.HttpProxyConstants
+364,org.apache.mina.proxy.handlers.http.HttpProxyRequest
+365,org.apache.mina.proxy.handlers.socks.SocksProxyConstants
+366,org.apache.mina.proxy.handlers.socks.SocksProxyRequest
+367,org.apache.mina.proxy.session.ProxyIoSession
+368,org.apache.mina.transport.socket.nio.NioSocketConnector
+377,org.apache.mina.core.service.AbstractIoConnector
+378,org.apache.mina.example.proxy.Socks5GSSAPITestServer
+380,org.apache.mina.example.proxy.ClientSessionHandler
+418,org.apache.mina.example.echoserver.ssl.BogusTrustManagerFactory
+450,org.apache.mina.example.chat.client.ConnectDialog
+503,org.apache.mina.filter.codec.textline.TextLineEncoder
+536,org.apache.mina.core.session.AttributeKey
+538,org.apache.mina.filter.codec.ProtocolEncoderAdapter
+586,org.apache.mina.core.future.DefaultConnectFuture
+587,org.apache.mina.core.service.DefaultTransportMetadata
+591,org.apache.mina.proxy.filter.ProxyFilter
+592,org.apache.mina.proxy.session.ProxyIoSessionInitializer
+593,org.apache.mina.transport.socket.DefaultSocketSessionConfig
+601,org.apache.mina.proxy.AbstractProxyIoHandler
+626,org.apache.mina.transport.vmpipe.VmPipeTrafficControlTest
+638,org.apache.mina.transport.AbstractTrafficControlTest
+640,org.apache.mina.transport.vmpipe.VmPipeAcceptor
+641,org.apache.mina.transport.vmpipe.VmPipeConnector
+643,org.apache.mina.transport.vmpipe.VmPipeAddress
+657,org.apache.mina.example.udp.MemoryMonitor
+692,org.apache.mina.transport.socket.nio.NioDatagramAcceptor
+693,org.apache.mina.example.udp.ClientPanel
+694,org.apache.mina.example.udp.MemoryMonitorHandler
+712,org.apache.mina.filter.executor.OrderedThreadPoolExecutor
+895,org.apache.mina.core.session.DummySession
+896,org.apache.mina.core.session.IoEvent
+909,org.apache.mina.filter.executor.UnorderedThreadPoolExecutor
+1020,org.apache.mina.example.sumup.message.ResultMessage
+1033,org.apache.mina.example.sumup.message.AbstractMessage
+1063,org.apache.mina.filter.executor.IoEventQueueThrottle
+1104,org.apache.mina.filter.executor.DefaultIoEventSizeEstimator
+1113,org.apache.mina.statemachine.transition.MethodTransitionTest
+1191,org.apache.mina.statemachine.State
+1193,org.apache.mina.statemachine.transition.MethodTransition
+1195,org.apache.mina.statemachine.transition.AbstractTransition
+1208,org.apache.mina.filter.codec.serialization.ObjectSerializationInputStream
+1261,org.apache.mina.core.buffer.BufferDataException
+1274,org.apache.mina.proxy.handlers.http.AbstractAuthLogicHandler
+1292,org.apache.mina.proxy.ProxyAuthException
+1293,org.apache.mina.proxy.utils.StringUtilities
+1295,org.apache.mina.proxy.handlers.http.HttpProxyResponse
+1296,org.apache.mina.proxy.handlers.http.AbstractHttpLogicHandler
+1302,org.apache.mina.transport.socket.nio.DatagramSessionIdleTest
+1342,org.apache.mina.filter.ssl.KeyStoreFactory
+1395,org.apache.mina.core.future.DefaultIoFuture
+1413,org.apache.mina.integration.beans.ShortEditor
+1421,org.apache.mina.integration.beans.NumberEditor
+1425,org.apache.mina.example.imagine.step1.client.ImageClient
+1455,org.apache.mina.example.imagine.step1.ImageRequest
+1456,org.apache.mina.example.imagine.step1.ImageResponse
+1457,org.apache.mina.example.imagine.step1.server.ImageServer
+1458,org.apache.mina.example.imagine.step1.codec.ImageCodecFactory
+1518,org.apache.mina.integration.jmx.ObjectMBean
+1822,org.apache.mina.filter.executor.ExecutorFilter
+1823,org.apache.mina.integration.beans.CollectionEditor
+1824,org.apache.mina.integration.beans.ListEditor
+1825,org.apache.mina.integration.beans.MapEditor
+1826,org.apache.mina.integration.beans.PropertyEditorFactory
+1827,org.apache.mina.integration.beans.SetEditor
+1828,org.apache.mina.integration.ognl.IoServicePropertyAccessor
+1829,org.apache.mina.integration.ognl.IoSessionPropertyAccessor
+1830,org.apache.mina.integration.ognl.PropertyTypeConverter
+1906,org.apache.mina.proxy.event.IoSessionEventQueue
+1907,org.apache.mina.proxy.handlers.http.HttpSmartProxyHandler
+1929,org.apache.mina.core.polling.AbstractPollingIoConnector
+2053,org.apache.mina.core.service.SimpleIoProcessorPool
+2054,org.apache.mina.core.session.AbstractIoSession
+2055,org.apache.mina.util.ExceptionMonitor
+2098,org.apache.mina.transport.vmpipe.VmPipeSession
+2132,org.apache.mina.core.service.IoServiceListenerSupport
+2134,org.apache.mina.transport.vmpipe.VmPipeFilterChain
+2135,org.apache.mina.transport.vmpipe.VmPipe
+2137,org.apache.mina.transport.vmpipe.DefaultVmPipeSessionConfig
+2154,org.apache.mina.filter.executor.WriteRequestFilter
+2169,org.apache.mina.core.filterchain.IoFilterAdapter
+2171,org.apache.mina.core.session.IoEventType
+2184,org.apache.mina.util.Base64
+2289,org.apache.mina.http.api.HttpMethod
+2304,org.apache.mina.example.tapedeck.QuitCommand
+2325,org.apache.mina.transport.socket.nio.SocketTrafficControlTest
+2338,org.apache.mina.filter.compression.Zlib
+2391,org.apache.mina.core.NettyClientVsNettyServerBenchmarkBinaryTest
+2405,org.apache.mina.core.BenchmarkBinaryTest
+2575,org.apache.mina.core.future.DefaultWriteFuture
+2576,org.apache.mina.core.write.WriteRequestWrapper
+2577,org.apache.mina.core.write.WriteToClosedSessionException
+2578,org.apache.mina.filter.ssl.SslHandler
+2579,org.apache.mina.core.write.WriteException
+2630,org.apache.mina.integration.beans.PatternEditor
+2638,org.apache.mina.integration.beans.AbstractPropertyEditor
+2642,org.apache.mina.filter.codec.demux.MessageDecoderResult
+2652,org.apache.mina.util.byteaccess.ByteArrayList
+2691,org.apache.mina.proxy.handlers.http.ntlm.HttpNTLMAuthLogicHandler
+2718,org.apache.mina.proxy.handlers.http.ntlm.NTLMUtilities
+2763,org.apache.mina.filter.codec.SynchronizedProtocolEncoder
+2792,org.apache.mina.example.sumup.ServerSessionHandler
+2816,org.apache.mina.example.sumup.message.AddMessage
+2885,org.apache.mina.statemachine.StateMachineFactory
+2886,org.apache.mina.statemachine.transition.AmbiguousMethodException
+2887,org.apache.mina.statemachine.transition.NoSuchMethodException
+2888,org.apache.mina.statemachine.transition.MethodInvocationException
+2903,org.apache.mina.http.api.HttpStatus
+2920,org.apache.mina.example.tapedeck.AuthenticationHandler
+2986,org.apache.mina.statemachine.event.IoFilterEvents
+2988,org.apache.mina.statemachine.StateControl
+2991,org.apache.mina.statemachine.context.AbstractStateContext
+2992,org.apache.mina.example.tapedeck.TapeDeckServer
+2997,org.apache.mina.example.tapedeck.CommandSyntaxException
+2998,org.apache.mina.example.tapedeck.PasswordCommand
+2999,org.apache.mina.example.tapedeck.UserCommand
+3020,org.apache.mina.example.proxy.ServerToProxyIoHandler
+3021,org.apache.mina.example.proxy.AbstractProxyIoHandler
+3023,org.apache.mina.integration.beans.DoubleEditor
+3132,org.apache.mina.filter.ssl.KeyStoreFactoryTest
+3149,org.apache.mina.filter.buffer.BufferedWriteFilterTest
+3170,org.apache.mina.filter.buffer.BufferedWriteFilter
+3184,org.apache.mina.http.HttpClientDecoder
+3242,org.apache.mina.http.api.DefaultHttpResponse
+3243,org.apache.mina.http.api.HttpEndOfContent
+3244,org.apache.mina.http.api.HttpVersion
+3245,org.apache.mina.http.DecoderState
+3246,org.apache.mina.http.HttpClientCodec
+3247,org.apache.mina.http.HttpException
+3248,org.apache.mina.http.ArrayUtil
+3266,org.apache.mina.statemachine.transition.AbstractSelfTransition
+3279,org.apache.mina.example.udp.client.MemMonClient
+3316,org.apache.mina.transport.socket.nio.NioDatagramConnector
+3338,org.apache.mina.filter.util.ReferenceCountingFilter
+3417,org.apache.mina.integration.beans.URLEditor
+3424,org.apache.mina.example.tapedeck.Main
+3435,org.apache.mina.statemachine.StateMachineProxyBuilder
+3437,org.apache.mina.statemachine.context.IoSessionStateContextLookup
+3440,org.apache.mina.example.tapedeck.CommandDecoder
+3452,org.apache.mina.transport.vmpipe.VmPipeBindTest
+3459,org.apache.mina.transport.AbstractBindTest
+3524,org.apache.mina.proxy.event.IoSessionEvent
+3525,org.apache.mina.proxy.event.IoSessionEventType
+3526,org.apache.mina.proxy.handlers.socks.Socks4LogicHandler
+3527,org.apache.mina.proxy.handlers.socks.Socks5LogicHandler
+3528,org.apache.mina.proxy.filter.ProxyHandshakeIoBuffer
+3545,org.apache.mina.util.byteaccess.CompositeByteArrayRelativeReader
+3564,org.apache.mina.util.byteaccess.CompositeByteArrayRelativeBase
+3565,org.apache.mina.util.byteaccess.CompositeByteArray
+3583,org.apache.mina.filter.codec.statemachine.ConsumeToTerminatorDecodingState
+3609,org.apache.mina.filter.codec.serialization.ObjectSerializationOutputStream
+3670,org.apache.mina.core.buffer.IoBufferTest
+4014,org.apache.mina.util.Bar
+4015,org.apache.mina.util.Foo
+4016,org.apache.mina.core.buffer.AbstractIoBuffer
+4106,org.apache.mina.example.tapedeck.PlayCommand
+4110,org.apache.mina.transport.socket.nio.DIRMINA777Test
+4198,org.apache.mina.core.polling.AbstractPollingIoProcessor
+4209,org.apache.mina.transport.socket.apr.AprSession
+4258,org.apache.mina.core.filterchain.DefaultIoFilterChain
+4265,org.apache.mina.example.imagine.step1.server.ImageServerIoHandler
+4344,org.apache.mina.proxy.handlers.http.basic.HttpBasicAuthLogicHandler
+4345,org.apache.mina.proxy.handlers.http.basic.HttpNoAuthLogicHandler
+4346,org.apache.mina.proxy.handlers.http.digest.HttpDigestAuthLogicHandler
+4353,org.apache.mina.handler.stream.IoSessionInputStream
+4468,org.apache.mina.handler.demux.DemuxingIoHandlerTest
+4498,org.apache.mina.handler.demux.DemuxingIoHandler
+4504,org.apache.mina.example.imagine.step1.codec.ImageRequestEncoder
+4514,org.apache.mina.core.buffer.CachedBufferAllocator
+4587,org.apache.mina.filter.compression.CompressionFilter
+4638,org.apache.mina.filter.util.WriteRequestFilter
+4642,org.apache.mina.proxy.NTLMTest
+4683,org.apache.mina.proxy.handlers.http.ntlm.NTLMResponses
+4684,org.apache.mina.proxy.utils.ByteUtilities
+4723,org.apache.mina.transport.socket.nio.NioFileRegionTest
+4727,org.apache.mina.transport.AbstractFileRegionTest
+4733,org.apache.mina.example.imagine.step1.client.GraphicalCharGenClient
+4836,org.apache.mina.example.imagine.step1.client.ImagePanel
+4840,org.apache.mina.filter.codec.textline.TextLineDecoder
+4935,org.apache.mina.filter.codec.ProtocolDecoderException
+4936,org.apache.mina.filter.codec.RecoverableProtocolDecoderException
+4938,org.apache.mina.filter.codec.DemuxingProtocolDecoderBugTest
+4967,org.apache.mina.filter.codec.demux.MessageDecoderAdapter
+4968,org.apache.mina.filter.codec.demux.DemuxingProtocolDecoder
+4969,org.apache.mina.filter.codec.CumulativeProtocolDecoder
+5119,org.apache.mina.statemachine.context.DefaultStateContext
+5121,org.apache.mina.transport.socket.AbstractSocketSessionConfig
+5135,org.apache.mina.core.session.AbstractIoSessionConfig
+5362,org.apache.mina.core.service.AbstractIoAcceptor
+5363,org.apache.mina.core.session.ExpiringSessionRecycler
+5366,org.apache.mina.transport.socket.DefaultDatagramSessionConfig
+5367,org.apache.mina.transport.socket.nio.NioSession
+5369,org.apache.mina.transport.socket.nio.NioDatagramSession
+5371,org.apache.mina.transport.socket.nio.NioDatagramSessionConfig
+5425,org.apache.mina.proxy.AbstractProxyLogicHandler
+5463,org.apache.mina.core.write.DefaultWriteRequest
+5469,org.apache.mina.filter.logging.LogLevel
+5484,org.apache.mina.example.sumup.codec.AddMessageEncoder
+5494,org.apache.mina.example.sumup.codec.AbstractMessageEncoder
+5495,org.apache.mina.example.sumup.codec.Constants
+5556,org.apache.mina.proxy.handlers.http.digest.DigestUtilities
+5699,org.apache.mina.proxy.HttpAuthTest
+5720,org.apache.mina.integration.beans.IntegerEditor
+5726,org.apache.mina.filter.codec.ProtocolDecoderAdapter
+5733,org.apache.mina.example.echoserver.AbstractTest
+5770,org.apache.mina.example.echoserver.ssl.BogusSslContextFactory
+5771,org.apache.mina.example.echoserver.EchoProtocolHandler
+5812,org.apache.mina.filter.keepalive.KeepAliveFilter
+5814,org.apache.mina.filter.keepalive.KeepAliveRequestTimeoutException
+5816,org.apache.mina.http.api.HttpVerb
+5829,org.apache.mina.integration.beans.ClassEditor
+5845,org.apache.mina.filter.codec.serialization.ObjectSerializationEncoder
+5865,org.apache.mina.filter.compression.ZlibTest
+5905,org.apache.mina.core.buffer.IoBufferWrapper
+6398,org.apache.mina.util.LazyInitializedCacheMap
+6399,org.apache.mina.filter.buffer.IoBufferLazyInitializer
+6408,org.apache.mina.example.haiku.PhraseUtilitiesTest
+6414,org.apache.mina.example.haiku.PhraseUtilities
+6434,org.apache.mina.integration.beans.NullEditor
+6435,org.apache.mina.integration.beans.EnumEditor
+6436,org.apache.mina.integration.beans.ArrayEditor
+6437,org.apache.mina.integration.beans.PropertiesEditor
+6457,org.apache.mina.util.ConcurrentHashSet
+6467,org.apache.mina.util.MapBackedSet
+6474,org.apache.mina.example.haiku.HaikuValidatorTest
+6482,org.apache.mina.example.haiku.HaikuValidator
+6483,org.apache.mina.example.haiku.Haiku
+6487,org.apache.mina.util.NamePreservingRunnable
+6574,org.apache.mina.transport.socket.nio.NioProcessor
+6575,org.apache.mina.transport.socket.nio.NioSocketSession
+6581,org.apache.mina.filter.codec.statemachine.SingleByteDecodingState
+6601,org.apache.mina.integration.beans.FloatEditor
+6608,org.apache.mina.filter.firewall.SubnetIPv6Test
+6615,org.apache.mina.filter.firewall.Subnet
+6633,org.apache.mina.statemachine.BreakAndContinueException
+6634,org.apache.mina.statemachine.BreakAndGotoException
+6635,org.apache.mina.statemachine.BreakAndCallException
+6636,org.apache.mina.statemachine.BreakAndReturnException
+6661,org.apache.mina.filter.codec.serialization.ObjectSerializationTest
+6680,org.apache.mina.filter.codec.ProtocolCodecSession
+6681,org.apache.mina.filter.codec.serialization.ObjectSerializationDecoder
+6689,org.apache.mina.filter.codec.SynchronizedProtocolDecoder
+6704,org.apache.mina.filter.codec.AbstractProtocolEncoderOutput
+6849,org.apache.mina.core.write.NothingWrittenException
+6851,org.apache.mina.filter.codec.ProtocolEncoderException
+6855,org.apache.mina.filter.codec.AbstractProtocolDecoderOutput
+6905,org.apache.mina.transport.AbstractConnectorTest
+6984,org.apache.mina.example.gettingstarted.timeserver.TimeServerHandler
+7002,org.apache.mina.transport.serial.SerialConnector
+7050,org.apache.mina.core.session.IdleStatusChecker
+7051,org.apache.mina.transport.serial.SerialAddress
+7052,org.apache.mina.transport.serial.SerialSessionImpl
+7053,org.apache.mina.transport.serial.DefaultSerialSessionConfig
+7054,org.apache.mina.transport.serial.SerialPortUnavailableException
+7141,org.apache.mina.http.HttpClientEncoder
+7162,org.apache.mina.example.netcat.NetCatProtocolHandler
+7224,org.apache.mina.handler.stream.IoSessionOutputStream
+7246,org.apache.mina.transport.vmpipe.VmPipeSessionCrossCommunicationTest
+7291,org.apache.mina.transport.socket.apr.AprIoProcessor
+7407,org.apache.mina.core.session.SessionState
+7408,org.apache.mina.transport.socket.apr.AprLibrary
+7441,org.apache.mina.transport.socket.nio.DatagramBindTest
+7476,org.apache.mina.util.ExpiringMap
+7492,org.apache.mina.statemachine.NoSuchStateException
+7497,org.apache.mina.example.sumup.codec.SumUpProtocolCodecFactory
+7501,org.apache.mina.filter.codec.demux.DemuxingProtocolCodecFactory
+7502,org.apache.mina.example.sumup.codec.AddMessageDecoder
+7503,org.apache.mina.example.sumup.codec.ResultMessageEncoder
+7504,org.apache.mina.example.sumup.codec.ResultMessageDecoder
+7506,org.apache.mina.http.HttpServerCodec
+7515,org.apache.mina.http.HttpServerEncoder
+7516,org.apache.mina.http.HttpServerDecoder
+7518,org.apache.mina.filter.codec.statemachine.IntegerDecodingState
+7532,org.apache.mina.example.tapedeck.InfoCommand
+7589,org.apache.mina.filter.util.NoopFilter
+7592,org.apache.mina.transport.socket.nio.DatagramConnectorTest
+7690,org.apache.mina.proxy.handlers.socks.AbstractSocksLogicHandler
+7753,org.apache.mina.filter.codec.statemachine.LinearWhitespaceSkippingState
+7756,org.apache.mina.filter.codec.statemachine.SkippingState
+7769,org.apache.mina.example.chat.client.SwingChatClient
+7847,org.apache.mina.example.chat.client.SwingChatClientHandler
+7848,org.apache.mina.example.chat.client.ChatClientSupport
+7861,org.apache.mina.filter.codec.textline.TextLineEncoderTest
+7892,org.apache.mina.example.imagine.step1.codec.ImageResponseDecoder
+7893,org.apache.mina.example.imagine.step1.codec.ImageResponseEncoder
+7894,org.apache.mina.example.imagine.step1.codec.ImageRequestDecoder
+7941,org.apache.mina.core.write.WriteTimeoutException
+7976,org.apache.mina.filter.codec.statemachine.ConsumeToEndOfSessionDecodingState
+7990,org.apache.mina.core.FutureTest
+8033,org.apache.mina.core.future.DefaultCloseFuture
+8056,org.apache.mina.filter.codec.ProtocolCodecException
+8083,org.apache.mina.util.ExpiringMapTest
+8101,org.apache.mina.core.NettyBenchmarkServer
+8294,org.apache.mina.statemachine.event.IoHandlerEvents
+8354,org.apache.mina.example.chat.ChatCommand
+8365,org.apache.mina.handler.chain.ChainedIoHandlerTest
+8380,org.apache.mina.handler.chain.IoHandlerChain
+8381,org.apache.mina.handler.chain.ChainedIoHandler
+8391,org.apache.mina.statemachine.transition.NoopTransition
+8402,org.apache.mina.filter.compression.CompressionFilterTest
+8441,testcase.MyIoHandler
+8469,testcase.MinaRegressionTest
+8473,org.apache.mina.core.session.DefaultIoSessionDataStructureFactory
+8539,org.apache.mina.filter.stream.FileRegionWriteFilter
+8547,org.apache.mina.filter.stream.AbstractStreamWriteFilter
+8565,org.apache.mina.core.DefaultIoFilterChainBuilderTest
+8590,org.apache.mina.filter.ssl.SslDIRMINA937Test
+8629,org.apache.mina.util.Log4jXmlFormatter
+8664,org.apache.mina.util.Transform
+8725,org.apache.mina.transport.socket.AbstractDatagramSessionConfig
+8810,org.apache.mina.util.byteaccess.SimpleByteArrayFactory
+8818,org.apache.mina.util.byteaccess.BufferByteArray
+8830,org.apache.mina.example.sumup.codec.AbstractMessageDecoder
+8838,org.apache.mina.handler.multiton.SingleSessionIoHandlerDelegate
+8914,org.apache.mina.statemachine.StateMachineCreationException
+8922,org.apache.mina.proxy.utils.IoBufferDecoder
+8966,org.apache.mina.example.haiku.ToHaikuIoFilter
+8973,org.apache.mina.example.sumup.Server
+8979,org.apache.mina.filter.codec.serialization.ObjectSerializationCodecFactory
+8988,org.apache.mina.filter.logging.LoadTestMdcInjectionFilter
+9000,org.apache.mina.filter.logging.MdcInjectionFilterTest
+9005,org.apache.mina.integration.beans.URIEditor
+9013,org.apache.mina.example.tennis.Main
+9022,org.apache.mina.example.tennis.TennisPlayer
+9023,org.apache.mina.example.tennis.TennisBall
+9068,org.apache.mina.transport.socket.nio.DatagramRecyclerTest
+9112,org.apache.mina.core.MinaClientVsMinaServerBenchmarkBinaryTest
+9121,org.apache.mina.transport.socket.nio.SocketBindTest
+9138,org.apache.mina.integration.beans.DateEditor
+9241,org.apache.mina.example.sumup.Client
+9254,org.apache.mina.example.sumup.ClientSessionHandler
+9269,org.apache.mina.integration.xbean.SocketAddressFactory
+9274,org.apache.mina.integration.beans.InetSocketAddressEditor
+9277,org.apache.mina.example.echoserver.ssl.SslServerSocketFactory
+9333,org.apache.mina.core.file.FilenameFileRegion
+9344,org.apache.mina.core.file.DefaultFileRegion
+9348,org.apache.mina.filter.errorgenerating.ErrorGeneratingFilter
+9495,org.apache.mina.filter.util.SessionAttributeInitializingFilter
+9519,org.apache.mina.util.IoFilterImpl
+9528,org.apache.mina.core.session.UnknownMessageTypeException
+9545,org.apache.mina.integration.xbean.StandardThreadPool
+9558,org.apache.mina.integration.ognl.IoSessionFinder
+9576,org.apache.mina.util.IdentityHashSet
+9591,testcase.MyRequestDecoder
+9642,org.apache.mina.filter.codec.CumulativeProtocolDecoderTest
+9716,org.apache.mina.example.netcat.Main
+9722,org.apache.mina.statemachine.transition.MethodSelfTransition
+9927,org.apache.mina.example.tapedeck.EjectCommand
+9928,org.apache.mina.example.tapedeck.LoadCommand
+9929,org.apache.mina.example.tapedeck.PauseCommand
+9930,org.apache.mina.example.tapedeck.StopCommand
+9934,org.apache.mina.core.filterchain.IoFilterLifeCycleException
+9945,org.apache.mina.example.proxy.Main
+9951,org.apache.mina.example.proxy.ClientToProxyIoHandler
+10191,org.apache.mina.filter.ssl.BogusTrustManagerFactory
+10288,org.apache.mina.statemachine.event.UnhandledEventException
+10301,org.apache.mina.statemachine.StateMachineTest
+10366,org.apache.mina.integration.beans.InetAddressEditor
+10379,org.apache.mina.transport.socket.apr.AprSocketConnector
+10452,org.apache.mina.transport.socket.apr.AprSocketSession
+10456,org.apache.mina.integration.beans.VmPipeAddressEditorTest
+10463,org.apache.mina.integration.beans.VmPipeAddressEditor
+10474,org.apache.mina.util.LazyInitializer
+10482,org.apache.mina.util.byteaccess.CompositeByteArrayRelativeWriter
+10550,org.apache.mina.statemachine.context.SingletonStateContextLookup
+10583,org.apache.mina.core.MinaBenchmarkServer
+10616,org.apache.mina.integration.beans.InetSocketAddressEditorTest
+10643,org.apache.mina.core.future.CompositeIoFuture
+10654,org.apache.mina.core.IoUtil
+10681,org.apache.mina.util.byteaccess.AbstractByteArray
+10694,org.apache.mina.example.imagine.step3.server.ImageServer
+10710,org.apache.mina.integration.jmx.IoFilterMBean
+10711,org.apache.mina.integration.jmx.IoServiceMBean
+10712,org.apache.mina.example.imagine.step3.server.ImageServerIoHandler
+10756,org.apache.mina.util.DefaultExceptionMonitor
+10761,org.apache.mina.filter.executor.ExecutorFilterRegressionTest
+10853,testcase.MyProtocolCodecFactory
+10861,org.apache.mina.core.MinaBenchmarkClient
+10923,org.apache.mina.example.proxy.telnet.TelnetSessionHandler
+10947,org.apache.mina.filter.codec.prefixedstring.PrefixedStringEncoder
+11061,org.apache.mina.integration.jmx.IoSessionMBean
+11094,org.apache.mina.filter.statistic.ProfilerTimerFilter
+11228,org.apache.mina.filter.codec.demux.DemuxingProtocolEncoder
+11235,org.apache.mina.filter.stream.StreamWriteFilterTest
+11239,org.apache.mina.filter.stream.StreamWriteFilter
+11240,org.apache.mina.filter.stream.AbstractStreamWriteFilterTest
+11244,org.apache.mina.core.buffer.IoBufferHexDumper
+11265,org.apache.mina.filter.keepalive.KeepAliveFilterTest
+11419,org.apache.mina.example.haiku.InvalidHaikuException
+11435,org.apache.mina.example.echoserver.AcceptorTest
+11462,org.apache.mina.example.echoserver.ssl.SslSocketFactory
+11467,org.apache.mina.statemachine.StateTest
+11593,org.apache.mina.statemachine.context.AbstractStateContextLookupTest
+11610,org.apache.mina.statemachine.context.AbstractStateContextLookup
+11611,org.apache.mina.statemachine.context.DefaultStateContextFactory
+11629,org.apache.mina.util.byteaccess.ByteArrayPool
+11819,org.apache.mina.transport.socket.nio.SocketConnectorTest
+12042,org.apache.mina.example.haiku.ToHaikuIoFilterTest
+12189,org.apache.mina.util.CopyOnWriteMap
+12193,org.apache.mina.filter.codec.statemachine.FixedLengthDecodingState
+12235,org.apache.mina.integration.beans.LongEditor
+12241,org.apache.mina.transport.socket.nio.DatagramPortUnreachableTest
+12260,org.apache.mina.filter.codec.statemachine.ShortIntegerDecodingState
+12303,org.apache.mina.filter.codec.prefixedstring.PrefixedStringCodecFactory
+12325,org.apache.mina.filter.codec.prefixedstring.PrefixedStringDecoder
+12421,org.apache.mina.statemachine.event.DefaultEventFactory
+12434,org.apache.mina.http.HttpRequestImpl
+12495,org.apache.mina.integration.beans.ByteEditor
+12520,org.apache.mina.statemachine.StateMachineFactoryTest
+12569,org.apache.mina.statemachine.BreakException
+12811,org.apache.mina.core.buffer.SimpleBufferAllocator
+12848,testcase.MyResponseEncoder
+12923,org.apache.mina.example.tcp.perf.TcpServer
+12951,org.apache.mina.integration.beans.StringEditor
+13760,org.apache.mina.core.filterchain.IoFilterEvent
+13763,org.apache.mina.integration.beans.InetAddressEditorTest
+13918,org.apache.mina.core.BenchmarkClientFactory
+13922,org.apache.mina.core.NettyBenchmarkClient
+13931,org.apache.mina.handler.stream.StreamIoHandler
+13981,org.apache.mina.util.CircularQueueTest
+14051,org.apache.mina.example.tcp.perf.TcpClient
+14310,org.apache.mina.filter.logging.MdcInjectionFilter
+14366,org.apache.mina.filter.util.CommonEventFilter
+14429,org.apache.mina.example.reverser.Main
+14435,org.apache.mina.example.reverser.ReverseProtocolHandler
+14452,org.apache.mina.core.IoFilterChainTest
+14617,org.apache.mina.example.chat.ChatProtocolHandler
+15015,org.apache.mina.statemachine.StateMachineProxyBuilderTest
+15333,org.apache.mina.core.future.DefaultReadFuture
+15334,org.apache.mina.core.service.IoServiceStatistics
+15350,org.apache.mina.example.chat.Main
+15385,org.apache.mina.integration.beans.BooleanEditor
+15532,org.apache.mina.filter.codec.textline.TextLineDecoderTest
+15582,org.apache.mina.util.SynchronizedQueue
+15643,org.apache.mina.integration.beans.CharacterEditor
+15686,org.apache.mina.transport.socket.nio.DatagramConfigTest
+15712,org.apache.mina.filter.firewall.BlacklistFilter
+15774,org.apache.mina.filter.codec.statemachine.DecodingStateProtocolDecoder
+15811,org.apache.mina.integration.xbean.SpringXBeanTest
+15833,org.apache.mina.filter.firewall.ConnectionThrottleFilterTest
+15843,org.apache.mina.filter.firewall.ConnectionThrottleFilter
+15949,org.apache.mina.example.proxy.telnet.ProxyTelnetTestClient
+15979,org.apache.mina.transport.socket.nio.DatagramTrafficControlTest
+15993,org.apache.mina.example.echoserver.ssl.SslFilterTest
+16058,org.apache.mina.core.BenchmarkServerFactory
+16116,org.apache.mina.filter.firewall.SubnetIPv4Test
+16151,org.apache.mina.filter.codec.statemachine.ConsumeToDynamicTerminatorDecodingState
+16178,org.apache.mina.http.DateUtil
+16516,org.apache.mina.example.chat.SpringMain
+16530,org.apache.mina.core.session.IoSessionInitializationException
+16586,org.apache.mina.example.haiku.HaikuValidatorIoHandler
+16789,org.apache.mina.example.gettingstarted.timeserver.MinaTimeServer
+16940,org.apache.mina.transport.socket.apr.AprSocketAcceptor
+17024,org.apache.mina.filter.stream.FileRegionWriteFilterTest
+17033,org.apache.mina.transport.serial.SerialAddressEditor
+17089,org.apache.mina.core.MinaClientVsNettyServerBenchmarkBinaryTest
+17097,org.apache.mina.filter.util.WrappingFilterTest
+17128,org.apache.mina.filter.ssl.SslContextFactory
+17199,org.apache.mina.integration.beans.FileEditor
+17471,org.apache.mina.handler.multiton.SingleSessionIoHandlerAdapter
+17604,org.apache.mina.example.imagine.step2.server.ImageServer
+17858,org.apache.mina.filter.codec.statemachine.CrLfDecodingState
+17881,org.apache.mina.core.NettyClientVsMinaServerBenchmarkBinaryTest
+17891,org.apache.mina.util.byteaccess.ByteAccessTest
+18168,org.apache.mina.example.chat.SpringMainTest
+18175,org.apache.mina.filter.codec.statemachine.ConsumeToLinearWhitespaceDecodingState
+18248,org.apache.mina.example.udp.perf.UdpServer
+18292,org.apache.mina.core.service.AbstractIoServiceTest
+18577,org.apache.mina.example.echoserver.Main
+18649,org.apache.mina.example.udp.perf.UdpClient
+18793,org.apache.mina.filter.codec.statemachine.ConsumeToCrLfDecodingState
+18816,org.apache.mina.http.HttpServerDecoderTest
+18897,org.apache.mina.transport.socket.apr.AprDatagramSession
+18928,org.apache.mina.integration.xbean.MinaPropertyEditorRegistrar
+19271,org.apache.mina.core.IoServiceListenerSupportTest
+19329,org.apache.mina.transport.vmpipe.VmPipeEventOrderTest
+19589,org.apache.mina.example.echoserver.ConnectorTest
+19657,org.apache.mina.transport.socket.nio.PollingIoProcessorTest
+19735,org.apache.mina.example.haiku.HaikuValidatorIoHandlerTest
+19798,org.apache.mina.http.HttpRequestImplTestCase
+19818,org.apache.mina.filter.codec.statemachine.DecodingStateMachine
+19855,org.apache.mina.example.haiku.HaikuValidationServer
+*Edges: 1174
+2405 16058 1
+2405 271 1
+2405 13918 1
+13918 13922 1
+8565 265 36
+8565 7589 22
+7990 895 1
+7990 586 12
+7990 2575 7
+7990 1395 16
+7990 8033 29
+14452 895 4
+14452 5463 1
+14452 7589 4
+19271 2054 6
+19271 895 12
+19271 2132 29
+10654 311 2
+10861 368 1
+10583 270 1
+10583 278 2
+10583 311 1
+9112 2405 2
+17089 2405 2
+17881 2405 2
+2391 2405 2
+4016 11244 1
+4016 311 136
+4514 311 8
+11244 311 7
+3670 4014 3
+3670 4015 3
+3670 311 716
+5905 311 175
+12811 311 2
+9333 9344 2
+4258 2054 5
+4258 536 1
+4258 358 2
+4258 9934 11
+4258 311 1
+2169 358 1
+13760 2171 1
+13760 896 9
+10643 1395 3
+8033 1395 9
+586 1395 13
+1395 2055 2
+15333 1395 17
+2575 1395 12
+278 356 1
+278 279 3
+278 2053 3
+278 2055 6
+278 5362 3
+278 1395 2
+1929 377 2
+1929 356 1
+1929 279 3
+1929 2053 2
+1929 2055 8
+1929 2054 2
+1929 586 2
+4198 2055 4
+4198 2054 32
+4198 8725 1
+4198 7407 1
+4198 311 17
+4198 279 2
+4198 1395 2
+4198 2132 2
+4198 6487 1
+5362 356 2
+5362 279 8
+5362 2132 2
+377 279 6
+279 2055 3
+279 2054 2
+279 265 2
+279 2132 10
+279 16530 4
+279 15334 8
+279 6487 1
+18292 359 2
+18292 265 4
+18292 269 2
+18292 270 1
+18292 279 3
+18292 377 1
+18292 268 2
+18292 368 1
+587 9576 1
+266 358 1
+2132 2055 8
+15334 279 5
+15334 2132 2
+2053 356 1
+2053 2054 3
+2053 536 1
+2054 7941 1
+2054 2055 2
+2054 5463 2
+2054 15334 7
+2054 15333 2
+2054 2577 1
+2054 311 4
+2054 279 7
+2054 9344 1
+2054 9333 1
+2054 358 9
+2054 536 2
+2054 2575 3
+5135 358 5
+895 2054 7
+5363 7476 12
+7050 2054 3
+896 2171 3
+6849 2579 9
+2579 6467 1
+7941 2579 9
+2577 2579 9
+14617 8354 2
+14617 14310 1
+14617 266 1
+15350 359 1
+15350 265 6
+15350 5770 1
+15350 269 1
+15350 270 1
+15350 279 2
+15350 268 1
+15350 276 1
+15350 14310 1
+18168 16516 1
+7848 359 1
+7848 265 4
+7848 5770 1
+7848 269 1
+7848 279 5
+7848 377 1
+7848 268 1
+7848 276 2
+7848 14310 1
+7848 368 1
+7769 7847 1
+7769 7848 1
+7769 368 2
+7847 8354 2
+7847 266 1
+5733 692 1
+5733 270 1
+5733 278 1
+5733 271 1
+5733 311 4
+11435 5733 1
+11435 11462 2
+11435 9277 1
+19589 265 1
+19589 271 1
+19589 3316 1
+19589 5770 1
+19589 311 21
+19589 356 1
+19589 276 5
+19589 5733 3
+19589 368 2
+5771 266 1
+5771 311 1
+18577 270 1
+18577 276 1
+18577 265 2
+18577 15334 2
+18577 5770 1
+15993 270 1
+15993 276 1
+15993 268 1
+15993 265 2
+15993 5770 1
+15993 269 1
+9277 5770 1
+11462 5770 1
+16789 270 1
+16789 359 1
+16789 268 1
+16789 265 2
+16789 269 1
+6984 266 1
+19855 268 1
+19855 265 3
+19855 269 1
+6482 11419 1
+6482 6414 1
+6482 6483 2
+16586 6482 2
+16586 11419 1
+16586 266 1
+19735 6483 2
+6474 6482 2
+6474 6483 1
+6408 6414 1
+8966 2169 2
+8966 6483 1
+12042 6483 1
+4733 4836 2
+4733 1455 1
+4733 1425 9
+1425 356 1
+1425 268 1
+1425 1455 1
+1425 265 1
+1425 1456 2
+1425 368 1
+1425 266 1
+1425 1458 1
+7894 1455 1
+7894 4969 1
+7894 311 4
+4504 1455 3
+4504 311 5
+7892 1456 1
+7892 4969 1
+7892 311 5
+7893 1456 2
+7893 538 1
+7893 311 6
+1457 279 2
+1457 270 1
+1457 268 1
+1457 265 1
+1457 1458 1
+4265 1455 5
+4265 1456 1
+4265 266 1
+17604 279 3
+17604 270 1
+17604 268 1
+17604 265 2
+17604 1458 1
+10694 279 3
+10694 270 1
+10694 268 1
+10694 265 2
+10694 10711 1
+10694 10712 1
+10694 10710 1
+10694 1458 1
+10712 1455 5
+10712 1456 1
+10712 11061 1
+10712 266 1
+9716 377 1
+9716 279 2
+9716 368 1
+7162 266 1
+7162 311 2
+3021 266 1
+3021 311 7
+380 367 3
+380 364 2
+380 601 1
+380 311 4
+9951 3021 1
+9951 3020 1
+9945 279 1
+9945 270 1
+9945 9951 1
+9945 368 1
+318 359 1
+318 265 1
+318 360 2
+318 380 1
+318 367 2
+318 366 4
+318 377 2
+318 279 3
+318 356 1
+318 368 2
+318 364 4
+3020 3021 1
+378 4684 2
+15949 149 1
+15949 265 1
+15949 360 2
+15949 10923 1
+15949 367 1
+15949 377 1
+15949 279 3
+15949 356 1
+15949 268 1
+15949 368 1
+15949 364 2
+10923 601 1
+14429 279 3
+14429 270 1
+14429 359 1
+14429 268 1
+14429 265 2
+14429 269 1
+14435 266 1
+9241 7497 1
+9241 359 1
+9241 265 3
+9241 8979 1
+9241 279 5
+9241 356 1
+9241 377 1
+9241 268 2
+9241 9254 1
+9241 368 1
+9254 2816 2
+9254 1033 2
+9254 1020 2
+9254 266 1
+8973 279 4
+8973 270 1
+8973 7497 1
+8973 359 1
+8973 268 2
+8973 265 3
+8973 8979 1
+2792 2816 1
+2792 1033 4
+2792 1020 5
+2792 266 1
+8830 1033 2
+8830 2642 2
+8830 311 7
+5494 1033 1
+5494 311 6
+7502 8830 2
+7502 2816 2
+7502 311 2
+5484 5494 2
+5484 2816 1
+5484 311 1
+7504 8830 2
+7504 1020 5
+7504 311 4
+7503 5494 2
+7503 1020 2
+7503 311 3
+7497 7501 1
+2816 1033 2
+1020 1033 3
+2920 2988 4
+2920 2304 1
+2920 2998 2
+2920 2999 2
+2920 2997 2
+2920 130 4
+3440 9928 1
+3440 2998 1
+3440 2999 1
+3440 4840 2
+3440 2997 5
+2997 4935 2
+9927 130 1
+7532 130 1
+126 130 1
+9928 130 1
+3424 270 1
+3424 2885 2
+3424 268 1
+3424 3435 2
+3424 265 3
+3424 3437 1
+3424 3440 1
+3424 503 1
+2998 130 1
+9929 130 1
+4106 130 1
+2304 130 1
+9930 130 1
+2992 2988 1
+2992 2304 1
+2992 2991 1
+2992 9930 1
+2992 9929 1
+2992 1191 2
+2992 126 1
+2992 2997 2
+2992 141 1
+2992 7532 1
+2992 9928 5
+2992 9927 1
+2992 4106 1
+2992 130 2
+2999 130 1
+14051 368 1
+14051 266 1
+14051 311 3
+12923 279 1
+12923 270 1
+12923 266 1
+9013 279 1
+9013 640 1
+9013 9023 1
+9013 643 1
+9013 641 1
+9022 9023 2
+9022 266 1
+657 692 2
+657 279 2
+657 359 1
+657 693 2
+657 265 1
+657 694 1
+694 657 5
+694 266 1
+694 311 1
+3279 3316 1
+3279 266 1
+3279 311 3
+18649 3316 1
+18649 266 1
+18649 311 3
+18248 692 1
+18248 279 1
+18248 266 1
+3170 6399 1
+3170 6398 6
+3170 5463 2
+3170 2169 1
+3170 311 13
+3149 359 1
+3149 2054 3
+3149 895 4
+3149 3170 2
+3149 311 8
+6399 10474 1
+6399 311 2
+6704 311 5
+4969 5726 1
+4969 536 1
+4969 311 29
+9642 6680 16
+9642 895 1
+9642 4969 7
+9642 587 1
+9642 311 29
+4938 4968 1
+4938 4969 1
+4938 311 3
+268 2576 1
+268 4935 2
+268 2169 1
+268 536 4
+268 6704 1
+268 311 9
+6680 895 1
+6680 6855 2
+6680 6704 2
+4935 8056 4
+6851 8056 4
+4936 4935 4
+6689 311 1
+7501 4968 4
+7501 11228 4
+4968 4935 1
+4968 5726 1
+4968 536 1
+4968 4969 2
+4968 2642 2
+4968 311 8
+11228 536 1
+11228 9576 1
+12303 12325 6
+12303 10947 6
+12325 4969 1
+12325 311 2
+10947 538 1
+10947 311 6
+8979 5845 4
+8979 6681 4
+6681 4969 1
+6681 311 2
+5845 538 1
+5845 311 5
+1208 311 6
+3609 311 6
+6661 3609 3
+6661 5845 1
+6661 1208 2
+6661 6680 8
+6661 6681 1
+6661 311 4
+18793 311 23
+16151 311 20
+7976 311 10
+18175 16151 1
+3583 311 20
+17858 311 5
+19818 311 4
+15774 311 3
+12193 311 25
+7518 311 6
+7753 7756 1
+12260 311 4
+6581 311 3
+7756 311 6
+269 149 2
+269 503 6
+269 4840 6
+4840 149 7
+4840 536 1
+4840 311 43
+15532 149 4
+15532 6680 73
+15532 4936 2
+15532 4840 41
+15532 311 122
+503 149 7
+503 536 1
+503 538 1
+503 311 7
+7861 6680 4
+7861 503 1
+7861 311 6
+4587 2338 6
+4587 2169 1
+4587 536 3
+4587 4638 1
+4587 311 1
+8402 4587 3
+8402 2338 11
+8402 5463 2
+8402 4638 1
+2338 311 15
+5865 2338 13
+5865 311 6
+9348 5463 1
+9348 2169 1
+9348 311 40
+1104 896 2
+1104 311 1
+1822 13760 9
+1822 2169 1
+1822 2171 11
+1822 712 3
+10761 1822 5
+1063 1104 2
+1063 896 5
+712 536 1
+712 896 6
+2154 2169 1
+2154 1063 1
+2154 896 1
+15712 6615 6
+15712 2169 1
+15843 2169 1
+15833 895 6
+15833 15843 8
+16116 6615 27
+6608 6615 1
+5812 5463 2
+5812 2169 1
+5812 536 2
+5812 358 5
+11265 5812 3
+11265 265 2
+11265 5362 1
+11265 311 8
+11265 270 4
+11265 279 6
+11265 358 1
+11265 368 1
+359 5469 24
+359 2169 1
+14310 13760 1
+14310 536 1
+14310 14366 1
+14310 896 1
+9000 359 1
+9000 11094 1
+9000 265 39
+9000 311 3
+9000 270 4
+9000 279 9
+9000 268 7
+9000 14310 7
+9000 368 3
+9000 1822 10
+3132 1342 6
+8590 279 4
+8590 270 1
+8590 278 1
+8590 276 5
+8590 268 1
+8590 265 3
+8590 368 1
+8590 269 1
+276 2579 1
+276 2576 1
+276 2169 1
+276 536 6
+276 2575 2
+276 2578 56
+276 311 14
+2578 13760 6
+2578 276 23
+2578 5463 2
+2578 2575 2
+2578 896 3
+2578 311 75
+196 279 2
+196 270 1
+196 278 1
+196 276 1
+196 268 1
+196 265 2
+196 269 1
+11094 2169 1
+11094 2171 10
+8547 5463 2
+8547 2169 1
+8547 536 3
+8547 311 1
+11240 278 1
+11240 5463 15
+11240 271 1
+11240 8547 18
+11240 311 4
+11240 270 1
+11240 279 3
+11240 377 1
+11240 368 1
+8539 8547 2
+8539 311 4
+17024 11240 1
+17024 9344 1
+17024 8539 1
+11239 8547 2
+11239 311 2
+11235 11240 1
+11235 11239 1
+14366 13760 10
+14366 2169 1
+7589 2169 1
+3338 2169 1
+9495 2169 1
+17097 895 1
+17097 5463 2
+17097 14366 11
+4638 2576 1
+4638 2169 1
+8381 266 1
+8381 8380 5
+8365 895 1
+8365 8381 2
+8365 8380 4
+4498 9576 1
+4498 266 1
+4468 4498 26
+17471 358 1
+8838 536 1
+8838 358 1
+4353 311 19
+7224 311 5
+13931 4353 3
+13931 536 2
+13931 7224 1
+13931 266 1
+3246 268 3
+3184 3248 1
+3184 2903 3
+3184 3244 1
+3184 3242 2
+3184 311 17
+7141 311 4
+3247 2903 3
+12434 3244 4
+12434 2289 3
+19798 12434 7
+7506 268 3
+7516 3248 1
+7516 12434 2
+7516 3244 1
+7516 2289 1
+7516 311 17
+18816 6855 50
+18816 311 60
+7515 2903 1
+7515 311 4
+3242 2903 3
+3242 3244 4
+6436 1826 2
+6436 2638 2
+15385 2638 1
+12495 1421 1
+15643 2638 1
+5829 2638 1
+1823 1826 3
+1823 2638 3
+9138 2638 1
+3023 1421 1
+6435 2638 1
+17199 2638 1
+6601 1421 1
+10366 2638 1
+13763 10366 1
+13763 2638 6
+9274 2638 1
+10616 9274 1
+10616 2638 11
+5720 1421 1
+1824 1823 2
+12235 1421 1
+1825 1826 4
+1825 2638 2
+6434 2638 1
+1421 2638 1
+2630 2638 1
+6437 1825 2
+6437 2638 1
+1826 1825 2
+1826 1823 2
+1826 6435 1
+1826 6437 1
+1826 1824 2
+1826 1827 2
+1826 6436 1
+1827 1823 2
+1413 1421 1
+12951 1826 1
+12951 2638 1
+9005 2638 1
+3417 2638 1
+10463 643 3
+10463 2638 1
+10456 10463 1
+10456 643 3
+10456 2638 8
+10710 1518 3
+10711 9558 6
+10711 11061 1
+10711 1518 9
+11061 1518 14
+1518 1825 1
+1518 1823 1
+1518 265 1
+1518 1826 1
+1518 1824 1
+1518 1827 1
+82 109 1
+1828 109 1
+1829 109 1
+1830 1826 1
+9269 2638 2
+15811 692 2
+15811 5362 7
+601 367 3
+601 266 1
+5425 1906 1
+5425 5463 1
+5425 360 1
+5425 3528 1
+5425 367 9
+5425 311 1
+5425 2575 1
+5425 591 3
+5699 5556 1
+5699 895 1
+5699 4344 1
+4642 4684 45
+4642 2718 11
+4642 4683 5
+360 593 2
+360 265 3
+360 367 10
+360 279 1
+360 377 3
+360 586 4
+360 592 1
+360 591 1
+3524 3525 4
+3524 358 4
+1906 360 1
+1906 3524 9
+1906 367 6
+591 1906 4
+591 3527 1
+591 2169 2
+591 3524 4
+591 367 11
+591 3526 1
+591 366 1
+591 311 4
+591 1907 1
+3528 5905 2
+3528 311 1
+1274 1296 1
+1274 1295 1
+1274 1293 2
+1274 367 4
+1274 364 1
+1274 361 1
+1296 1295 11
+1296 1293 4
+1296 367 9
+1296 8922 11
+1296 311 22
+1296 377 1
+1296 1292 1
+1296 5425 16
+1296 364 4
+362 2691 1
+362 367 2
+362 4346 1
+362 4345 1
+362 4344 1
+362 1274 2
+364 1292 1
+364 361 4
+1907 1296 3
+1907 1295 6
+1907 1293 2
+1907 367 5
+1907 1274 4
+1907 1292 3
+1907 362 11
+1907 5425 5
+1907 364 3
+4344 1292 2
+4344 2184 1
+4344 1295 2
+4344 1293 1
+4344 367 1
+4344 364 6
+4344 1274 4
+4345 1292 1
+4345 1295 1
+4345 367 1
+4345 1274 3
+5556 4684 4
+5556 1293 13
+5556 367 1
+4346 1295 8
+4346 1293 2
+4346 367 5
+4346 1274 4
+4346 1292 9
+4346 2184 1
+4346 5556 1
+4346 364 8
+2691 1295 4
+2691 1293 2
+2691 367 2
+2691 1274 4
+2691 1292 3
+2691 2184 3
+2691 364 8
+2691 2718 4
+2718 4684 23
+2718 4683 2
+7690 5425 2
+7690 367 2
+7690 366 1
+3526 365 1
+3526 7690 2
+3526 5425 4
+3526 4684 1
+3526 367 1
+3526 366 8
+3526 311 17
+3527 365 1
+3527 367 1
+3527 361 1
+3527 366 15
+3527 311 51
+3527 4684 5
+3527 5425 22
+3527 7690 2
+366 361 8
+367 1906 2
+367 360 3
+367 361 4
+367 591 3
+592 367 4
+8922 311 37
+6635 12569 1
+6633 12569 1
+6634 12569 1
+6636 12569 1
+2988 6635 4
+2988 6636 2
+2988 6634 2
+140 6635 5
+140 6636 2
+140 6634 3
+140 10288 1
+140 7492 1
+140 1191 25
+140 6633 1
+140 141 6
+2885 8914 10
+2885 1193 1
+2885 9722 2
+2885 1191 7
+2885 140 4
+12520 2885 6
+12520 8914 1
+12520 1193 8
+12520 1191 20
+12520 140 4
+3435 140 2
+15015 2885 2
+15015 3435 3
+15015 1193 3
+15015 1191 25
+10301 1191 18
+10301 141 5
+10301 140 5
+11467 1191 25
+2991 1191 3
+11593 11610 3
+5119 2991 1
+3437 11610 2
+12421 141 2
+10288 141 4
+3266 1191 2
+1195 1191 3
+1195 141 3
+9722 2888 2
+9722 2886 1
+9722 3266 2
+9722 2887 1
+1193 1195 6
+1193 2888 2
+1193 2886 1
+1193 2887 1
+1193 1191 3
+1193 141 4
+1113 1195 10
+1113 1193 2
+1113 1191 4
+1113 141 4
+8391 1195 3
+8391 1191 1
+3459 311 3
+6905 356 1
+6905 271 3
+4727 278 1
+4727 271 1
+7053 5135 1
+17033 7051 7
+17033 2638 1
+7002 377 3
+7002 279 3
+7002 7054 1
+7002 7051 7
+7002 7050 5
+7002 586 6
+7002 7053 1
+7002 7052 2
+7054 356 2
+7052 4258 1
+7052 2054 10
+7052 7002 2
+7052 311 8
+7052 7050 1
+7052 7051 5
+7052 2132 3
+7052 7053 1
+8725 5135 1
+5121 5135 1
+5366 8725 1
+593 5121 1
+18897 4209 2
+7291 4209 43
+7291 356 2
+7291 4198 3
+7291 7408 4
+7291 7407 1
+7291 311 10
+4209 2054 4
+16940 4209 1
+16940 593 8
+16940 278 10
+16940 7408 2
+16940 5362 2
+16940 10452 1
+10379 4209 1
+10379 593 8
+10379 377 1
+10379 1929 3
+10379 7408 2
+10379 10452 1
+10452 4209 2
+4110 279 2
+4110 270 1
+4110 278 1
+4110 271 1
+4110 368 1
+4110 311 2
+7441 692 1
+7441 3316 1
+7441 3459 2
+15686 692 1
+15686 265 1
+15686 271 1
+15686 3316 1
+15686 311 3
+7592 692 1
+7592 6905 1
+7592 3316 1
+12241 271 1
+12241 3316 1
+12241 311 1
+9068 692 5
+9068 279 6
+9068 5363 2
+9068 5362 2
+9068 271 2
+9068 3316 2
+9068 311 3
+1302 692 4
+1302 279 1
+1302 271 2
+15979 692 1
+15979 638 2
+15979 3316 1
+692 5369 1
+692 2055 10
+692 2054 22
+692 5362 6
+692 5135 1
+692 311 14
+692 279 11
+692 356 2
+692 5366 2
+692 1395 2
+692 2132 4
+692 5371 1
+692 5367 20
+3316 377 2
+3316 5366 5
+3316 5369 1
+3316 2054 1
+3316 1929 4
+3316 5367 1
+5369 2054 1
+5369 5371 1
+5369 5367 2
+5371 8725 1
+4723 270 1
+4723 278 1
+4723 4727 1
+4723 368 1
+6574 356 2
+6574 4198 3
+6574 7407 1
+6574 5367 28
+6574 311 10
+5367 4258 1
+5367 2054 2
+270 6575 1
+270 593 10
+270 278 11
+270 5362 3
+270 5367 1
+368 6575 1
+368 593 10
+368 377 1
+368 1929 5
+368 5367 1
+6575 276 1
+6575 2054 1
+6575 5367 3
+19657 270 1
+19657 271 1
+19657 368 1
+19657 311 1
+9121 270 1
+9121 368 1
+9121 3459 2
+11819 270 1
+11819 278 1
+11819 6905 1
+11819 368 1
+2325 270 1
+2325 638 2
+2325 368 1
+2137 5135 1
+2135 640 3
+2135 2132 3
+2135 643 3
+640 2137 1
+640 279 4
+640 7050 4
+640 2135 1
+640 5362 5
+640 643 7
+3452 640 1
+3452 643 2
+3452 641 1
+3452 3459 2
+641 2137 1
+641 2055 2
+641 2054 3
+641 2098 6
+641 643 2
+641 2134 2
+641 279 7
+641 377 2
+641 640 1
+641 7050 6
+641 586 3
+641 2135 2
+641 2132 2
+19329 279 3
+19329 640 3
+19329 265 1
+19329 643 5
+19329 641 3
+19329 1822 1
+19329 311 1
+2134 4258 22
+2134 2054 3
+2134 2098 8
+2134 896 14
+2098 2137 2
+2098 2134 4
+2098 2054 5
+2098 2135 5
+2098 2132 3
+2098 643 7
+7246 640 1
+7246 643 1
+7246 641 1
+626 640 1
+626 638 2
+626 643 3
+626 641 1
+4014 4015 1
+13981 4 48
+6457 6467 3
+10756 2055 1
+8083 7476 5
+9576 6467 4
+9519 2169 1
+6398 10474 6
+8629 8664 9
+8818 10681 1
+8818 311 31
+17891 8818 1
+17891 8810 24
+17891 3565 89
+17891 10482 4
+17891 3545 4
+17891 311 9
+11629 8818 1
+11629 311 3
+3565 2652 22
+3565 10681 1
+3565 311 10
+3564 3565 8
+3545 3565 2
+3545 3564 2
+3545 311 1
+10482 3565 4
+10482 3564 3
+10482 311 2
+8810 311 1
+8469 270 1
+8469 268 1
+8469 265 2
+8469 368 1
+8469 8441 1
+8469 712 2
+8469 266 1
+8441 266 1
+8441 311 1
+9591 4969 1
+9591 311 7

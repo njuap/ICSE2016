@@ -1,0 +1,1756 @@
+*Vertics: 492
+6,org.apache.flume.source.ExecSource
+164,org.apache.flume.Context
+168,org.apache.flume.SystemClock
+169,org.apache.flume.channel.ChannelProcessor
+171,org.apache.flume.event.EventBuilder
+172,org.apache.flume.instrumentation.SourceCounter
+179,org.apache.flume.source.AbstractSource
+180,org.apache.flume.instrumentation.MonitoredCounterGroup
+181,org.apache.flume.source.ExecSourceConfigurationConstants
+215,org.apache.flume.instrumentation.SinkCounter
+267,org.apache.flume.sink.TestDefaultSinkFactory
+289,org.apache.flume.sink.DefaultSinkFactory
+290,org.apache.flume.sink.AvroSink
+291,org.apache.flume.sink.NullSink
+292,org.apache.flume.sink.LoggerSink
+293,org.apache.flume.sink.RollingFileSink
+294,org.apache.flume.sink.AbstractRpcSink
+298,org.apache.flume.SourceRunner
+307,org.apache.flume.source.EventDrivenSourceRunner
+308,org.apache.flume.source.PollableSourceRunner
+322,org.apache.flume.channel.TestSpillableMemoryChannel
+527,org.apache.flume.conf.Configurables
+528,org.apache.flume.channel.file.FileChannelConfiguration
+530,org.apache.flume.channel.SpillableMemoryChannel
+531,org.apache.flume.channel.AbstractChannel
+532,org.apache.flume.ChannelFullException
+533,org.apache.flume.ChannelException
+535,org.apache.flume.channel.file.FileChannel
+536,org.apache.flume.channel.BasicChannelSemantics
+537,org.apache.flume.instrumentation.ChannelCounter
+583,org.apache.flume.instrumentation.http.TestHTTPMetricsServer
+630,org.apache.flume.channel.MemoryChannel
+631,org.apache.flume.channel.PseudoTxnMemoryChannel
+633,org.apache.flume.instrumentation.util.JMXTestUtils
+637,org.apache.flume.instrumentation.http.HTTPMetricsServer
+647,org.apache.flume.thrift.Status
+666,org.apache.flume.instrumentation.SinkProcessorCounter
+671,org.apache.flume.sink.hdfs.HDFSWriterFactory
+681,org.apache.flume.sink.hdfs.HDFSSequenceFile
+682,org.apache.flume.sink.hdfs.HDFSDataStream
+683,org.apache.flume.sink.hdfs.HDFSCompressedDataStream
+687,org.apache.flume.util.RoundRobinOrderSelector
+699,org.apache.flume.util.OrderSelector
+700,org.apache.flume.util.SpecificOrderIterator
+707,org.apache.flume.conf.channel.ChannelType
+722,org.apache.flume.FlumeException
+738,org.apache.flume.formatter.output.TestBucketPath
+801,org.apache.flume.formatter.output.BucketPath
+808,org.apache.flume.channel.file.encryption.CipherProviderType
+819,org.apache.flume.channel.file.encryption.AESCTRNoPaddingProvider
+820,org.apache.flume.channel.file.encryption.CipherProvider
+825,org.apache.flume.interceptor.RegexExtractorInterceptorMillisSerializer
+844,org.apache.flume.conf.ComponentConfiguration
+853,org.apache.flume.interceptor.TestRegexFilteringInterceptor
+876,org.apache.flume.interceptor.RegexFilteringInterceptor
+879,org.apache.flume.interceptor.InterceptorType
+880,org.apache.flume.interceptor.InterceptorBuilderFactory
+905,org.apache.flume.channel.file.TestLogFile
+1066,org.apache.flume.channel.file.proto.ProtosFactory
+1069,org.apache.flume.channel.file.FlumeEvent
+1070,org.apache.flume.channel.file.FlumeEventPointer
+1071,org.apache.flume.channel.file.Put
+1074,org.apache.flume.channel.file.LogRecord
+1076,org.apache.flume.channel.file.TransactionEventRecord
+1079,org.apache.flume.channel.file.LogFileFactory
+1080,org.apache.flume.channel.file.TestUtils
+1081,org.apache.flume.channel.file.WriteOrderOracle
+1082,org.apache.flume.channel.file.CorruptEventException
+1083,org.apache.flume.channel.file.Serialization
+1084,org.apache.flume.channel.file.LogFileV3
+1085,org.apache.flume.channel.file.Commit
+1086,org.apache.flume.channel.file.NoopRecordException
+1087,org.apache.flume.channel.file.LogFile
+1187,org.apache.flume.serialization.EventSerializerFactory
+1189,org.apache.flume.sink.hdfs.AbstractHDFSWriter
+1209,org.apache.flume.serialization.AvroEventSerializerConfigurationConstants
+1225,org.apache.flume.serialization.EventDeserializerType
+1236,org.apache.flume.annotations.InterfaceAudience
+1237,org.apache.flume.annotations.InterfaceStability
+1241,org.apache.flume.serialization.LineDeserializer
+1243,org.apache.flume.serialization.AvroEventDeserializer
+1256,org.apache.flume.sink.elasticsearch.client.TestElasticSearchTransportClient
+1298,org.apache.flume.EventDeliveryException
+1302,org.apache.flume.sink.elasticsearch.client.ElasticSearchTransportClient
+1311,org.apache.flume.channel.file.EventQueueBackingStore
+1351,org.apache.flume.channel.AbstractChannelSelector
+1381,org.apache.flume.channel.file.TestFileChannelRestart
+1608,org.apache.flume.channel.file.TestFileChannelBase
+1610,org.apache.flume.channel.file.Log
+1611,org.apache.flume.channel.file.FlumeEventQueue
+1612,org.apache.flume.channel.file.EventQueueBackingStoreFile
+1652,org.apache.flume.sink.elasticsearch.ContentBuilderUtil
+1690,org.apache.flume.channel.file.Take
+1736,org.apache.flume.channel.file.TestIntegration
+1760,org.apache.flume.source.SequenceGeneratorSource
+1761,org.apache.flume.channel.file.CountingSinkRunner
+1762,org.apache.flume.channel.file.CountingSourceRunner
+1763,org.apache.flume.sink.AbstractSink
+1764,org.apache.flume.channel.file.LogUtils
+1795,org.apache.flume.sink.hdfs.TestHDFSEventSink
+2186,org.apache.flume.event.SimpleEvent
+2187,org.apache.flume.lifecycle.LifecycleException
+2188,org.apache.flume.sink.hdfs.HDFSEventSink
+2189,org.apache.flume.sink.hdfs.HDFSTestWriterFactory
+2190,org.apache.flume.sink.hdfs.BucketWriter
+2191,org.apache.flume.sink.hdfs.MockFileSystem
+2192,org.apache.flume.sink.hdfs.MockDataStream
+2220,org.apache.flume.source.NetcatSource
+2316,org.apache.flume.CounterGroup
+2317,org.apache.flume.source.NetcatSourceConfigurationConstants
+2333,org.apache.flume.sink.hdfs.TestUseRawLocalFileSystem
+2362,org.apache.flume.tools.FlumeToolsMain
+2382,org.apache.flume.tools.FlumeToolType
+2390,org.apache.flume.source.TestSyslogTcpSource
+2421,org.apache.flume.channel.ReplicatingChannelSelector
+2422,org.apache.flume.source.SyslogTcpSource
+2438,org.apache.flume.sink.TestLoadBalancingSinkProcessor
+2641,org.apache.flume.sink.LoadBalancingSinkProcessor
+2642,org.apache.flume.sink.AbstractSinkProcessor
+2643,org.apache.flume.sink.FixedOrderSelector
+2663,org.apache.flume.channel.file.encryption.DecryptionFailureException
+2681,org.apache.flume.source.jms.TestDefaultJMSMessageConverter
+2741,org.apache.flume.source.jms.DefaultJMSMessageConverter
+2747,org.apache.flume.channel.jdbc.impl.PersistableEvent
+2880,org.apache.flume.channel.jdbc.ConfigurationConstants
+2881,org.apache.flume.channel.jdbc.JdbcChannelException
+2915,org.apache.flume.source.jms.JMSSourceConfiguration
+2920,org.apache.flume.channel.file.TestWriteOrderOracle
+2925,org.apache.flume.event.JSONEvent
+2940,org.apache.flume.sink.elasticsearch.client.RoundRobinList
+2949,org.apache.flume.conf.source.SourceConfiguration
+3005,org.apache.flume.conf.BasicConfigurationConstants
+3006,org.apache.flume.conf.ComponentConfigurationFactory
+3007,org.apache.flume.conf.ConfigurationException
+3008,org.apache.flume.conf.FlumeConfiguration
+3009,org.apache.flume.conf.FlumeConfigurationError
+3011,org.apache.flume.conf.FlumeConfigurationErrorType
+3012,org.apache.flume.conf.channel.ChannelSelectorConfiguration
+3014,org.apache.flume.conf.channel.ChannelSelectorType
+3046,org.apache.flume.test.agent.TestRpcClient
+3056,org.apache.flume.api.RpcClientFactory
+3057,org.apache.flume.test.util.StagedInstall
+3067,org.apache.flume.sink.hbase.AsyncHBaseSink
+3241,org.apache.flume.sink.hbase.HBaseSinkConfigurationConstants
+3270,org.apache.flume.source.jms.JMSMessageConsumer
+3327,org.apache.flume.source.jms.JMSDestinationLocator
+3328,org.apache.flume.source.jms.JMSDestinationType
+3333,org.apache.flume.sink.hbase.TestHBaseSinkCreation
+3342,org.apache.flume.sink.hbase.HBaseSink
+3346,org.apache.flume.interceptor.RegexExtractorInterceptor
+3406,org.apache.flume.interceptor.RegexExtractorInterceptorPassThroughSerializer
+3497,org.apache.flume.channel.file.Rollback
+3513,org.apache.flume.channel.jdbc.DatabaseType
+3535,org.apache.flume.interceptor.InterceptorChain
+3554,org.apache.flume.channel.TestReplicatingChannelSelector
+3573,org.apache.flume.channel.MockChannel
+3574,org.apache.flume.channel.ChannelSelectorFactory
+3575,org.apache.flume.channel.MockEvent
+3582,org.apache.flume.node.TestAbstractConfigurationProvider
+3701,org.apache.flume.node.AbstractConfigurationProvider
+3720,org.apache.flume.SinkRunner
+3729,org.apache.flume.source.avroLegacy.TestLegacyAvroSource
+3768,org.apache.flume.lifecycle.LifecycleController
+3769,org.apache.flume.lifecycle.LifecycleState
+3770,org.apache.flume.source.avroLegacy.AvroLegacySource
+3781,org.apache.flume.sink.hdfs.TestSequenceFileSerializerFactory
+3789,org.apache.flume.sink.hdfs.SequenceFileSerializerFactory
+3790,org.apache.flume.sink.hdfs.HDFSTextSerializer
+3791,org.apache.flume.sink.hdfs.HDFSWritableSerializer
+3792,org.apache.flume.sink.hdfs.MyCustomSerializer
+3798,org.apache.flume.serialization.TestResettableFileInputStream
+3928,org.apache.flume.serialization.ResettableInputStream
+3929,org.apache.flume.serialization.DecodeErrorPolicy
+3931,org.apache.flume.serialization.DurablePositionTracker
+3932,org.apache.flume.serialization.ResettableFileInputStream
+3962,org.apache.flume.channel.jdbc.JdbcChannel
+3976,org.apache.flume.channel.jdbc.JdbcChannelProviderFactory
+4005,org.apache.flume.sink.elasticsearch.AbstractElasticSearchIndexRequestBuilderFactory
+4036,org.apache.flume.sink.elasticsearch.TimestampedEvent
+4052,org.apache.flume.sink.TestFailoverSinkProcessor
+4092,org.apache.flume.sink.SinkGroup
+4101,org.apache.flume.sink.hdfs.MockHDFSWriter
+4133,org.apache.flume.channel.file.EventQueueBackingStoreFileV3
+4188,org.apache.flume.channel.file.EventQueueBackingStoreFileV2
+4189,org.apache.flume.channel.file.BadCheckpointException
+4215,org.apache.flume.event.TestEventBuilder
+4223,org.apache.flume.channel.jdbc.TestDerbySchemaHandlerQueries
+4257,org.apache.flume.channel.jdbc.impl.DerbySchemaHandler
+4299,org.apache.flume.sink.solr.morphline.TestBlobHandler
+4315,org.apache.flume.sink.solr.morphline.BlobHandler
+4316,org.apache.flume.sink.solr.morphline.FlumeHttpServletRequestWrapper
+4343,org.apache.flume.api.RpcTestUtils
+4447,org.apache.flume.api.NettyAvroRpcClient
+4448,org.apache.flume.api.RpcClientConfigurationConstants
+4449,org.apache.flume.api.AbstractRpcClient
+4572,org.apache.flume.channel.file.encryption.CipherProviderFactory
+4573,org.apache.flume.channel.file.encryption.KeyProvider
+4659,org.apache.flume.formatter.output.TextDelimitedOutputFormatter
+4666,org.apache.flume.channel.file.EventQueueBackingStoreFactory
+4704,org.apache.flume.source.jms.JMSMessageConsumerTestBase
+4749,org.apache.flume.sink.solr.morphline.TestEnvironment
+4755,org.apache.flume.channel.jdbc.BaseJdbcChannelProviderTest
+4850,org.apache.flume.channel.jdbc.impl.JdbcChannelProviderImpl
+4851,org.apache.flume.channel.jdbc.MockEvent
+4852,org.apache.flume.channel.jdbc.MockEventUtils
+4874,org.apache.flume.serialization.BodyTextEventSerializer
+4902,org.apache.flume.test.agent.TestFileChannel
+4946,org.apache.flume.source.TestAvroSource
+5051,org.apache.flume.source.AvroSource
+5055,org.apache.flume.conf.TestFlumeConfiguration
+5105,org.apache.flume.conf.sink.SinkGroupConfiguration
+5107,org.apache.flume.sink.SinkProcessorFactory
+5113,org.apache.flume.sink.solr.morphline.BlobDeserializer
+5153,org.apache.flume.Dummy
+5158,org.apache.flume.sink.solr.morphline.MorphlineSolrSink
+5167,org.apache.flume.sink.solr.morphline.MorphlineSink
+5208,org.apache.flume.thrift.ThriftSourceProtocol
+5687,org.apache.flume.thrift.ThriftFlumeEvent
+5694,org.apache.flume.serialization.ResettableTestStringInputStream
+5919,org.apache.flume.sink.hdfs.BucketClosedException
+5927,org.apache.flume.clients.log4jappender.Log4jAppender
+6005,org.apache.flume.clients.log4jappender.Log4jAvroHeaders
+6219,org.apache.flume.tools.DirectMemoryUtils
+6224,org.apache.flume.channel.file.Pair
+6225,org.apache.flume.channel.file.LogFileRetryableIOException
+6234,org.apache.flume.tools.VersionInfo
+6357,org.apache.flume.channel.BasicTransactionSemantics
+6359,org.apache.flume.channel.file.encryption.EncryptionConfiguration
+6360,org.apache.flume.channel.file.encryption.KeyProviderFactory
+6361,org.apache.flume.channel.file.TransactionIDOracle
+6432,org.apache.flume.sink.kite.KerberosUtil
+6472,org.apache.flume.sink.TestRollingFileSink
+6507,org.apache.flume.sink.hbase.SimpleHbaseEventSerializer
+6546,org.apache.flume.sink.hbase.SimpleRowKeyGenerator
+6556,org.apache.flume.sink.DefaultSinkProcessor
+6572,org.apache.flume.client.avro.SimpleTextLineEventReader
+6584,org.apache.flume.interceptor.TestTimestampInterceptor
+6612,org.apache.flume.interceptor.TimestampInterceptor
+6616,org.apache.flume.agent.embedded.EmbeddedAgent
+6663,org.apache.flume.lifecycle.LifecycleSupervisor
+6665,org.apache.flume.agent.embedded.MaterializedConfigurationProvider
+6666,org.apache.flume.agent.embedded.EmbeddedSource
+6667,org.apache.flume.agent.embedded.EmbeddedAgentConfiguration
+6677,org.apache.flume.node.TestPropertiesFileConfigurationProvider
+6696,org.apache.flume.node.PropertiesFileConfigurationProvider
+6720,org.apache.flume.clients.log4jappender.TestLoadBalancingLog4jAppender
+6803,org.apache.flume.clients.log4jappender.TestLog4jAppender
+6808,org.apache.flume.sink.elasticsearch.ElasticSearchSinkConstants
+6831,org.apache.flume.interceptor.TestRegexExtractorInterceptorMillisSerializer
+6850,org.apache.flume.sink.hbase.TestRegexHbaseEventSerializer
+6912,org.apache.flume.sink.hbase.RegexHbaseEventSerializer
+6929,org.apache.flume.source.http.FlumeHttpServletRequestWrapper
+7021,org.apache.flume.api.ThriftTestingSource
+7116,org.apache.flume.TestContext
+7128,org.apache.flume.sink.elasticsearch.client.ElasticSearchRestClient
+7198,org.apache.flume.source.scribe.Scribe
+7443,org.apache.flume.source.scribe.ResultCode
+7444,org.apache.flume.source.scribe.LogEntry
+7466,org.apache.flume.channel.file.TestFileChannelFormatRegression
+7494,org.apache.flume.instrumentation.TestMonitoredCounterGroup
+7682,org.apache.flume.util.RandomOrderSelector
+7700,org.apache.flume.channel.file.TestTransactionIDOracle
+7705,org.apache.flume.sink.SinkProcessorFactoryTest
+7718,org.apache.flume.sink.FailoverSinkProcessor
+7790,org.apache.flume.conf.sink.SinkType
+7811,org.apache.flume.sink.hbase.IncrementHBaseSerializer
+7838,org.apache.flume.client.avro.TestSpoolingFileLineReader
+7959,org.apache.flume.source.SpoolDirectorySourceConfigurationConstants
+7960,org.apache.flume.client.avro.ReliableSpoolingFileEventReader
+7973,org.apache.flume.channel.file.TestFlumeEvent
+7991,org.apache.flume.channel.file.encryption.CipherProviderTestSuite
+8011,org.apache.flume.api.TestThriftRpcClient
+8058,org.apache.flume.api.ThriftRpcClient
+8065,org.apache.flume.channel.file.TestTransactionEventRecordV3
+8099,org.apache.flume.event.TestEventHelper
+8107,org.apache.flume.event.EventHelper
+8116,org.apache.flume.sink.hdfs.TestHDFSEventSinkOnMiniCluster
+8204,org.apache.flume.sink.elasticsearch.ElasticSearchSink
+8263,org.apache.flume.sink.elasticsearch.client.ElasticSearchClientFactory
+8267,org.apache.flume.sink.solr.morphline.TestUUIDInterceptor
+8281,org.apache.flume.sink.solr.morphline.UUIDInterceptor
+8291,org.apache.flume.channel.jdbc.impl.SchemaHandlerFactory
+8299,org.apache.flume.channel.jdbc.impl.MySQLSchemaHandler
+8313,org.apache.flume.sink.elasticsearch.client.NoSuchClientTypeException
+8328,org.apache.flume.api.LoadBalancingRpcClient
+8402,org.apache.flume.api.HostInfo
+8422,org.apache.flume.channel.file.TestFileChannelRollback
+8562,org.apache.flume.sink.solr.morphline.ResettableTestStringInputStream
+8582,org.apache.flume.sink.kite.DatasetSinkConstants
+8595,org.apache.flume.source.AbstractEventDrivenSource
+8597,org.apache.flume.source.BasicSourceSemantics
+8600,org.apache.flume.source.TestThriftSource
+8669,org.apache.flume.source.ThriftSource
+8678,org.apache.flume.sink.hdfs.HDFSTestSeqWriter
+8679,org.apache.flume.sink.hdfs.HDFSBadDataStream
+8682,org.apache.flume.conf.channel.ChannelConfiguration
+8707,com.cloudera.flume.handlers.thrift.Priority
+8786,org.apache.flume.conf.sink.SinkProcessorType
+8829,org.apache.flume.sink.solr.morphline.MorphlineHandlerImpl
+8881,org.apache.flume.interceptor.StaticInterceptor
+8892,org.apache.flume.channel.TestBasicChannelSemantics
+9100,org.apache.flume.channel.AbstractBasicChannelSemanticsTest
+9144,org.apache.flume.channel.jdbc.TestJdbcChannelProvider
+9148,org.apache.flume.source.DefaultSourceFactory
+9162,org.apache.flume.conf.source.SourceType
+9170,org.apache.flume.sink.hbase.HBaseSinkSecurityManager
+9197,org.apache.flume.sink.hdfs.KerberosUser
+9201,org.apache.flume.channel.jdbc.TestDatabaseTypeEnum
+9263,org.apache.flume.api.TestRpcClientFactory
+9362,org.apache.flume.sink.hbase.IncrementAsyncHBaseSerializer
+9382,org.apache.flume.api.TestLoadBalancingRpcClient
+9559,org.apache.flume.channel.jdbc.TestTransactionIsolationLevelEnum
+9572,org.apache.flume.channel.jdbc.TransactionIsolation
+9583,org.apache.flume.channel.file.encryption.TestFileChannelEncryption
+9664,org.apache.flume.channel.file.encryption.EncryptionTestUtils
+9665,org.apache.flume.channel.file.encryption.KeyProviderType
+9938,org.apache.flume.channel.file.CheckpointRebuilder
+9939,org.apache.flume.channel.file.ReplayHandler
+9961,org.apache.flume.source.TestSpoolDirectorySource
+10005,org.apache.flume.source.SpoolDirectorySource
+10033,org.apache.flume.channel.MultiplexingChannelSelector
+10065,org.apache.flume.serialization.EventDeserializerFactory
+10084,org.apache.flume.tools.TimestampRoundDownUtil
+10106,org.apache.flume.source.TestSequenceGeneratorSource
+10145,org.apache.flume.sink.elasticsearch.TestElasticSearchIndexRequestBuilderFactory
+10198,org.apache.flume.conf.sink.SinkConfiguration
+10199,org.apache.flume.sink.elasticsearch.AbstractElasticSearchSinkTest
+10200,org.apache.flume.sink.elasticsearch.EventSerializerIndexRequestBuilderFactory
+10210,org.apache.flume.source.SyslogSourceConfigurationConstants
+10270,org.apache.flume.sink.hbase.SimpleAsyncHbaseEventSerializer
+10304,org.apache.flume.tools.TestTimestampRoundDownUtil
+10321,org.apache.flume.client.avro.TestBufferedLineReader
+10346,org.apache.flume.sink.solr.morphline.TestMorphlineInterceptor
+10400,org.apache.flume.sink.solr.morphline.MorphlineInterceptor
+10558,org.apache.flume.test.agent.TestRpcClientCommunicationFailure
+10570,org.apache.flume.source.TestSyslogUtils
+10726,org.apache.flume.source.SyslogUtils
+10738,org.apache.flume.channel.file.TestLog
+10872,org.apache.flume.source.SyslogParser
+10949,org.apache.flume.channel.file.TestCheckpoint
+10965,org.apache.flume.tools.TestVersionInfo
+10970,org.apache.flume.source.StressSource
+11067,org.apache.flume.channel.ChannelUtils
+11110,org.apache.flume.api.TestFailoverRpcClient
+11139,org.apache.flume.api.FailoverRpcClient
+11143,org.apache.flume.instrumentation.MonitoringType
+11154,org.apache.flume.instrumentation.GangliaServer
+11161,org.apache.flume.sink.elasticsearch.client.TestElasticSearchRestClient
+11193,org.apache.flume.TestCounterGroup
+11205,org.apache.flume.sink.ThriftSink
+11223,org.apache.flume.conf.sink.SinkProcessorConfiguration
+11233,org.apache.flume.channel.file.TestFlumeEventPointer
+11272,org.apache.flume.serialization.TestFlumeEventAvroEventSerializer
+11296,org.apache.flume.serialization.FlumeEventAvroEventSerializer
+11449,org.apache.flume.channel.file.WritableUtils
+11697,org.apache.flume.source.jms.TestJMSSource
+11756,org.apache.flume.source.jms.JMSMessageConsumerFactory
+11757,org.apache.flume.source.jms.InitialContextFactory
+11758,org.apache.flume.source.jms.JMSSource
+11759,org.apache.flume.source.AbstractPollableSource
+11771,org.apache.flume.source.http.JSONHandler
+11795,org.apache.flume.source.http.HTTPBadRequestException
+11798,org.apache.flume.instrumentation.util.TestJMXPollUtil
+11808,org.apache.flume.instrumentation.util.JMXPollUtil
+11816,org.apache.flume.api.TestNettyAvroRpcClient
+11990,org.apache.flume.channel.jdbc.impl.JdbcTransactionFactory
+11991,org.apache.flume.channel.jdbc.impl.JdbcTransactionImpl
+12023,org.apache.flume.source.TestNetcatSource
+12066,org.apache.flume.sink.elasticsearch.client.TestElasticSearchClientFactory
+12149,org.apache.flume.sink.hdfs.TestBucketWriter
+12364,org.apache.flume.lifecycle.TestLifecycleController
+12414,org.apache.flume.sink.TestThriftSink
+12451,org.apache.flume.formatter.output.PathManager
+12472,org.apache.flume.clients.log4jappender.TestLog4jAppenderWithAvro
+12523,org.apache.flume.channel.file.TestFileChannel
+14452,org.apache.flume.serialization.SyslogAvroEventSerializer
+14519,org.apache.flume.serialization.AbstractAvroEventSerializer
+14532,org.apache.flume.sink.elasticsearch.ElasticSearchDynamicSerializer
+14550,org.apache.flume.client.avro.AvroCLIClient
+14624,org.apache.flume.sink.solr.morphline.TestMorphlineSolrSink
+14738,org.apache.flume.sink.solr.morphline.EmbeddedSource
+14781,org.apache.flume.channel.file.encryption.JCEFileKeyProvider
+14785,org.apache.flume.interceptor.TestRegexExtractorInterceptor
+14829,org.apache.flume.serialization.TestBodyTextEventSerializer
+14844,org.apache.flume.tools.FileChannelIntegrityTool
+14881,org.apache.flume.sink.hbase.MockSimpleHbaseEventSerializer
+14885,org.apache.flume.interceptor.TestHostInterceptor
+14936,org.apache.flume.interceptor.HostInterceptor
+14940,org.apache.flume.tools.TestFileChannelIntegrityTool
+15029,org.apache.flume.sink.hdfs.SequenceFileSerializerType
+15045,org.apache.flume.sink.elasticsearch.TimestampedEventTest
+15065,org.apache.flume.tools.PlatformDetect
+15164,org.apache.flume.interceptor.TestRegexExtractorInterceptorPassThroughSerializer
+15367,org.apache.flume.sink.elasticsearch.client.RoundRobinListTest
+15400,org.apache.flume.channel.DefaultChannelFactory
+15424,org.apache.flume.sink.TestAvroSink
+15602,org.apache.flume.sink.hbase.TestAsyncHBaseSink
+15738,org.apache.flume.channel.file.TestLogRecord
+15765,org.apache.flume.source.TestSyslogUdpSource
+15810,org.apache.flume.source.SyslogUDPSource
+15818,org.apache.flume.node.PollingPropertiesFileConfigurationProvider
+15882,org.apache.flume.source.MockSource
+16068,org.apache.flume.serialization.TestHeaderAndBodyTextEventSerializer
+16213,org.apache.flume.agent.embedded.MemoryConfigurationProvider
+16233,org.apache.flume.channel.file.encryption.TestJCEFileKeyProvider
+16332,org.apache.flume.channel.TestMemoryChannel
+16587,org.apache.flume.agent.embedded.TestEmbeddedAgentConfiguration
+16635,org.apache.flume.source.TestAbstractPollableSource
+16651,org.apache.flume.channel.jdbc.TestPersistentEvent
+16795,org.apache.flume.sink.solr.morphline.TestBlobDeserializer
+16898,org.apache.flume.sink.hdfs.AvroEventSerializer
+16955,org.apache.flume.source.TestExecSource
+17124,org.apache.flume.serialization.HeaderAndBodyTextEventSerializer
+17153,org.apache.flume.test.agent.TestSpooldirSource
+17354,org.apache.flume.tools.HTTPServerConstraintUtil
+17404,org.apache.flume.source.thriftLegacy.TestThriftLegacySource
+17445,com.cloudera.flume.handlers.thrift.ThriftFlumeEvent
+17447,com.cloudera.flume.handlers.thrift.ThriftFlumeEventServer
+17448,org.apache.flume.source.thriftLegacy.ThriftLegacySource
+17461,com.cloudera.flume.handlers.thrift.EventStatus
+17475,org.apache.flume.serialization.TestSyslogAvroEventSerializer
+17571,org.apache.flume.serialization.TestAvroEventDeserializer
+17609,org.apache.flume.serialization.TransientPositionTracker
+17612,org.apache.flume.serialization.TestLineDeserializer
+17798,org.apache.flume.sink.elasticsearch.TestElasticSearchDynamicSerializer
+17937,org.apache.flume.serialization.EventSerializerType
+17941,org.apache.flume.channel.TestChannelProcessor
+17965,org.apache.flume.sink.elasticsearch.ElasticSearchLogStashEventSerializer
+18000,org.apache.flume.source.twitter.TwitterSource
+18106,org.apache.flume.sink.elasticsearch.TestElasticSearchSinkCreation
+18129,org.apache.flume.node.Application
+18196,org.apache.flume.Constants
+18201,org.apache.flume.agent.embedded.TestEmbeddedAgentState
+18221,org.apache.flume.sink.hdfs.TestHDFSCompressedDataStream
+18339,org.apache.flume.sink.kite.TestDatasetSink
+18446,org.apache.flume.sink.kite.DatasetSink
+18558,org.apache.flume.clients.log4jappender.LoadBalancingLog4jAppender
+18597,org.apache.flume.interceptor.TestCensoringInterceptor
+18611,org.apache.flume.interceptor.CensoringInterceptor
+18866,org.apache.flume.sink.irc.IRCSink
+18980,org.apache.flume.source.MultiportSyslogTCPSource
+19112,org.apache.flume.channel.file.TestCheckpointRebuilder
+19130,org.apache.flume.channel.TestMemoryChannelTransaction
+19166,org.apache.flume.agent.embedded.TestEmbeddedAgent
+19204,org.apache.flume.source.twitter.TestTwitterSource
+19233,org.apache.flume.channel.TestMemoryChannelConcurrency
+20004,org.apache.flume.node.TestPollingPropertiesFileConfigurationProvider
+20256,org.apache.flume.client.avro.TestReliableSpoolingFileEventReader
+20432,org.apache.flume.source.TestBasicSourceSemantics
+20465,org.apache.flume.node.SimpleMaterializedConfiguration
+20607,org.apache.flume.sink.AbstractSinkSelector
+20622,org.apache.flume.source.http.TestHTTPSource
+20769,org.apache.flume.source.http.HTTPSource
+20770,org.apache.flume.source.http.HTTPSourceConfigurationConstants
+21021,org.apache.flume.sink.TestLoggerSink
+21098,org.apache.flume.channel.file.LogFileV2
+21160,org.apache.flume.sink.hdfs.TestAvroEventSerializer
+21202,org.apache.flume.source.jms.TestJMSMessageConsumer
+21231,org.apache.flume.tools.GetJavaProperty
+21319,org.apache.flume.sink.hdfs.MockFsDataOutputStream
+21329,org.apache.flume.lifecycle.TestLifecycleSupervisor
+21366,org.apache.flume.channel.file.TestEventQueueBackingStoreFactory
+21424,org.apache.flume.serialization.TestDurablePositionTracker
+21741,org.apache.flume.sink.elasticsearch.TimeBasedIndexNameBuilderTest
+21750,org.apache.flume.sink.elasticsearch.TimeBasedIndexNameBuilder
+21977,org.apache.flume.sink.elasticsearch.TestElasticSearchLogStashEventSerializer
+22032,org.apache.flume.sink.elasticsearch.SimpleIndexNameBuilder
+22043,org.apache.flume.agent.embedded.TestEmbeddedAgentEmbeddedSource
+22239,org.apache.flume.source.TestMultiportSyslogTCPSource
+22414,org.apache.flume.sink.elasticsearch.FakeEventSerializer
+22425,org.apache.flume.sink.elasticsearch.FakeIndexNameBuilder
+22436,org.apache.flume.sink.elasticsearch.TestElasticSearchSink
+22514,org.apache.flume.channel.jdbc.TestJdbcChannelProviderNoFK
+22580,org.apache.flume.conf.source.TestSourceConfiguration
+22586,org.apache.flume.sink.irc.TestIRCSink
+22624,org.apache.flume.source.TestDefaultSourceFactory
+22676,org.apache.flume.source.jms.TestIntegrationActiveMQ
+22820,org.apache.flume.channel.file.encryption.TestAESCTRNoPaddingProvider
+22839,org.apache.flume.channel.file.TestFlumeEventQueue
+22920,org.apache.flume.interceptor.TestStaticInterceptor
+23102,org.apache.flume.channel.TestChannelUtils
+23175,org.apache.flume.source.TestPollableSourceRunner
+23207,org.apache.flume.sink.hbase.TestHBaseSink
+23390,org.apache.flume.channel.file.TestTransactionEventRecordV2
+23495,org.apache.flume.instrumentation.ChannelProcessorCounter
+23774,org.apache.flume.channel.TestMultiplexingChannelSelector
+24185,org.apache.flume.source.scribe.ScribeSource
+24232,org.apache.flume.node.TestApplication
+24267,org.apache.flume.source.TestSyslogParser
+24284,org.apache.flume.source.jms.TestJMSSourceCreation
+24295,org.apache.flume.source.TestStressSource
+24329,org.apache.flume.source.http.TestJSONHandler
+*Edges: 1262
+17445 8707 7
+532 533 4
+3720 2316 3
+3720 3769 2
+298 308 1
+298 307 1
+7116 164 31
+11193 2316 6
+6616 6666 3
+6616 533 2
+6616 1298 2
+6616 298 2
+6616 722 3
+6616 6665 3
+6616 6667 1
+6616 6663 7
+6616 3720 2
+6667 722 4
+6666 179 3
+6666 164 1
+6666 169 2
+6665 16213 1
+6665 3701 1
+16213 3701 2
+16213 3008 1
+19166 6616 9
+19166 171 2
+16587 6667 14
+22043 6666 1
+22043 6616 19
+22043 2186 4
+22043 298 2
+22043 3720 2
+18201 6616 21
+11139 8402 7
+11139 1298 8
+11139 3056 2
+11139 722 4
+11139 4449 1
+8402 722 2
+8328 8402 6
+8328 1298 3
+8328 3056 1
+8328 722 2
+8328 4449 1
+4447 1298 20
+4447 722 8
+4447 4449 1
+3056 8058 2
+3056 4447 2
+3056 722 3
+3056 4449 1
+4343 4447 9
+4343 4449 1
+11110 11139 15
+11110 4343 10
+11110 3056 2
+9382 171 13
+9382 1298 1
+9382 4343 20
+9382 3056 16
+11816 4447 17
+11816 4343 28
+9263 4343 12
+9263 3056 6
+8011 8058 1
+8011 7021 8
+8011 1298 2
+8011 3056 6
+8058 8402 3
+8058 5687 3
+8058 1298 6
+8058 722 3
+8058 4449 1
+531 3769 2
+531 164 1
+1351 722 1
+536 6357 4
+536 531 1
+6357 533 4
+169 533 2
+169 880 1
+169 3535 7
+169 722 4
+169 164 8
+3574 3014 2
+3574 844 1
+3574 3012 1
+3574 722 1
+3574 164 2
+3574 527 2
+11067 533 2
+15400 707 2
+15400 722 2
+630 537 5
+630 536 1
+630 531 3
+630 164 6
+630 180 2
+3573 531 1
+10033 1351 5
+10033 722 3
+10033 164 5
+631 537 11
+631 533 2
+631 531 4
+631 164 2
+631 180 2
+2421 1351 4
+2421 164 2
+530 537 5
+530 6357 1
+530 531 11
+530 164 10
+530 535 6
+530 180 1
+8892 536 36
+8892 9100 68
+17941 533 1
+17941 169 4
+23102 11067 4
+23102 9100 2
+16332 533 7
+16332 171 52
+16332 630 1
+16332 164 30
+16332 527 19
+19233 630 3
+19233 164 9
+19233 527 3
+19130 171 6
+19130 630 1
+19130 164 10
+19130 527 4
+23774 3575 15
+23774 3573 3
+23774 3574 5
+3554 3575 8
+3554 3573 4
+3554 164 7
+3554 527 3
+322 533 4
+322 171 2
+322 532 2
+322 536 8
+322 164 5
+322 535 1
+322 537 21
+322 530 26
+322 531 11
+322 527 1
+4189 722 3
+9938 1076 15
+9938 1079 2
+9938 1074 2
+9938 6361 1
+9938 1690 2
+9938 1764 1
+9938 1081 1
+9938 4666 1
+9938 1070 2
+9938 1085 1
+9938 1611 6
+1085 1076 6
+1762 1351 1
+1762 169 1
+4666 4188 2
+4666 1083 2
+4666 4189 2
+4666 1311 4
+4666 4133 4
+1612 4666 1
+1612 1083 4
+1612 1611 3
+1612 4189 3
+1612 1311 17
+1612 1081 1
+4188 1612 3
+4188 6224 4
+4188 1311 5
+4133 1612 5
+4133 4188 1
+4133 1083 1
+4133 4189 5
+4133 1311 12
+4133 1081 1
+535 6360 1
+535 6361 1
+535 1610 10
+535 536 1
+535 164 21
+535 537 5
+535 4573 1
+535 1611 1
+535 531 9
+535 180 2
+1069 11449 4
+1611 1070 15
+1611 1311 52
+1610 1612 2
+1610 1076 4
+1610 9938 2
+1610 3497 1
+1610 1071 1
+1610 1764 6
+1610 1081 4
+1610 4573 4
+1610 1070 7
+1610 1069 2
+1610 9939 8
+1610 1079 6
+1610 1083 2
+1610 6225 4
+1610 4189 1
+1610 1690 1
+1610 1082 1
+1610 4666 2
+1610 1085 1
+1610 1611 10
+1087 1082 2
+1087 1076 4
+1087 1079 1
+1087 1074 2
+1087 1070 2
+1087 1690 2
+1079 4573 2
+1079 1083 5
+21098 1087 1
+1084 1083 2
+1084 1087 1
+1074 1076 9
+1071 1082 1
+1071 1076 6
+1071 1069 9
+9939 1076 7
+9939 1079 2
+9939 1074 7
+9939 6361 1
+9939 1690 4
+9939 1081 1
+9939 4573 2
+9939 1070 16
+9939 1085 4
+9939 1611 17
+3497 1076 6
+1690 1076 6
+10949 4188 1
+10949 1070 1
+10949 1611 8
+19112 4666 1
+19112 1080 4
+19112 1608 5
+19112 1083 1
+19112 1611 1
+19112 9938 2
+19112 535 5
+21366 4666 24
+21366 1080 1
+21366 1083 8
+21366 1070 1
+21366 1611 2
+21366 4189 1
+21366 1311 12
+12523 533 1
+12523 171 1
+12523 536 15
+12523 535 47
+12523 1080 37
+12523 1608 21
+12523 6357 6
+12523 531 1
+12523 527 1
+1608 1080 2
+1608 164 2
+1608 535 5
+7466 1080 7
+7466 1608 5
+7466 535 4
+1381 1080 77
+1381 1608 37
+1381 1083 15
+1381 1610 5
+1381 536 1
+1381 535 106
+8422 171 2
+8422 1080 5
+8422 1608 6
+8422 1761 4
+8422 536 7
+8422 1763 1
+8422 535 15
+7973 1080 2
+7973 1069 12
+11233 1070 25
+22839 4188 3
+22839 1070 45
+22839 1611 114
+22839 1311 5
+1736 1762 5
+1736 1761 7
+1736 291 1
+1736 1764 1
+1736 164 6
+1736 535 7
+1736 1760 1
+1736 1763 1
+1736 527 1
+10738 1080 10
+10738 1083 4
+10738 1070 4
+10738 1611 7
+10738 1610 64
+10738 1764 5
+10738 1069 18
+905 1076 16
+905 1079 9
+905 1083 5
+905 1074 6
+905 1071 13
+905 1081 10
+905 1080 8
+905 1085 3
+905 1070 7
+905 1084 1
+905 1069 12
+15738 1076 2
+15738 1085 2
+15738 1074 11
+23390 1076 29
+23390 1085 5
+23390 3497 5
+23390 1071 10
+23390 1690 9
+23390 1081 9
+23390 1069 6
+8065 1076 29
+8065 1085 5
+8065 3497 5
+8065 1071 18
+8065 1690 9
+8065 1081 9
+8065 1069 12
+7700 6361 3
+1080 533 2
+1080 171 2
+1080 1764 1
+1080 1069 4
+1080 164 8
+1080 535 4
+1080 527 1
+2920 1081 3
+1076 1082 1
+819 820 1
+819 2663 1
+4572 820 3
+4572 722 2
+4572 808 1
+2663 722 3
+9664 1080 1
+14781 4573 1
+6360 4573 1
+6360 9665 1
+6360 722 3
+6360 164 1
+22820 4572 2
+22820 7991 3
+9583 533 1
+9583 1080 21
+9583 1608 17
+9583 9664 2
+9583 722 2
+9583 535 30
+16233 4573 2
+16233 6360 2
+16233 1080 1
+16233 9664 4
+16233 164 6
+4755 4851 5
+4755 4852 4
+4755 4850 17
+4755 2881 1
+4755 164 12
+3962 3976 2
+3962 531 7
+2881 533 3
+3976 2881 2
+3976 164 1
+4852 4851 2
+9201 3513 5
+9144 4755 1
+22514 164 1
+22514 4755 1
+16651 4851 1
+16651 4852 38
+16651 2747 3
+9559 9572 4
+4257 2881 29
+4257 2747 7
+4850 11990 2
+4850 9572 4
+4850 8291 1
+4850 3513 4
+4850 11991 18
+4850 2881 14
+4850 2747 3
+4850 164 11
+11990 11991 2
+11990 4850 2
+11991 11990 2
+11991 4850 3
+11991 2881 8
+8299 2747 2
+8291 8299 1
+8291 3513 2
+8291 4257 1
+8291 2881 1
+14550 6572 2
+14550 1298 1
+14550 3056 2
+14550 722 1
+7960 10065 1
+7960 3931 2
+7960 3929 2
+7960 15065 1
+7960 3932 1
+7960 722 2
+7960 164 2
+10321 6572 14
+10321 7838 10
+7838 7960 83
+7838 164 2
+18558 5927 5
+18558 3056 1
+18558 722 3
+5927 171 3
+5927 1298 1
+5927 3056 1
+5927 722 5
+5927 6005 6
+6720 630 1
+6720 179 1
+6720 722 3
+6720 164 4
+6720 6005 4
+6720 527 2
+6720 169 1
+6803 722 2
+6803 164 5
+6803 169 1
+6803 5051 5
+6803 630 1
+6803 179 1
+6803 527 3
+6803 6005 8
+12472 5051 3
+12472 630 1
+12472 179 1
+12472 164 4
+12472 6005 6
+12472 527 2
+12472 169 1
+844 3007 2
+844 3009 1
+844 164 2
+3006 3007 4
+3006 844 1
+3006 5105 1
+527 844 1
+527 164 7
+3007 722 4
+3008 3009 6
+3009 3011 3
+5055 3008 2
+8682 844 3
+3012 844 4
+10198 3007 1
+10198 844 5
+10198 3009 1
+10198 164 1
+5105 3006 1
+5105 844 6
+5105 8786 2
+5105 11223 5
+5105 164 8
+11223 844 3
+2949 3014 3
+2949 3006 1
+2949 3007 2
+2949 844 5
+2949 3012 4
+2949 3009 2
+2949 164 6
+22580 2949 2
+22580 164 2
+171 2186 1
+4215 171 2
+8099 2186 3
+8099 8107 2
+801 10084 3
+738 801 9
+537 180 14
+23495 180 2
+11154 8402 3
+11154 3007 1
+11154 722 2
+11154 164 4
+215 180 20
+666 180 2
+172 180 18
+7494 537 6
+7494 215 11
+7494 172 11
+7494 180 16
+637 164 2
+583 171 4
+583 164 5
+583 633 2
+583 527 2
+11798 171 4
+11798 11808 1
+11798 164 1
+11798 633 2
+11798 527 2
+825 844 1
+825 164 2
+3406 844 1
+3406 164 1
+18597 171 1
+18597 630 4
+18597 536 2
+18597 164 2
+18597 169 5
+14885 880 6
+14885 164 11
+14785 880 1
+14785 164 28
+6831 164 5
+6831 825 3
+15164 164 1
+15164 3406 2
+853 880 3
+853 164 7
+22920 880 4
+22920 164 10
+6584 880 3
+6584 164 4
+3768 3769 4
+6663 3769 4
+6663 722 1
+12364 3768 4
+21329 2316 6
+21329 6663 24
+3701 844 10
+3701 298 2
+3701 10198 1
+3701 5105 1
+3701 3008 2
+3701 164 7
+3701 169 2
+3701 20465 1
+3701 4092 2
+3701 2949 2
+3701 3574 2
+3701 3720 2
+3701 527 10
+18129 3701 1
+18129 6696 1
+18129 6663 11
+18129 164 2
+18129 15818 1
+18129 11143 2
+15818 2316 3
+15818 3701 1
+15818 6696 2
+15818 3769 2
+6696 3701 2
+6696 3008 2
+20465 298 1
+20465 3720 1
+3582 3701 13
+24232 18129 6
+24232 20465 1
+24232 15818 1
+20004 3768 1
+20004 15818 4
+6677 3009 2
+6677 6696 3
+6677 3008 2
+14519 164 3
+1243 171 1
+1243 3928 3
+1243 164 2
+4874 164 2
+3931 15065 1
+10065 3928 1
+10065 1225 1
+10065 722 3
+10065 164 1
+1187 17937 1
+1187 722 3
+1187 164 1
+11296 14519 1
+17124 164 2
+1241 171 1
+1241 3928 6
+1241 164 3
+3932 3928 1
+3932 3929 1
+5694 3928 1
+14452 14519 1
+17571 17609 3
+17571 3932 3
+17571 164 5
+14829 1187 2
+14829 164 3
+21424 3931 4
+11272 164 2
+16068 171 6
+16068 1187 2
+16068 164 3
+17612 10065 1
+17612 164 6
+17612 5694 5
+17612 1241 3
+3798 3931 8
+3798 3928 31
+3798 3929 2
+3798 3932 8
+17475 1187 1
+17475 164 3
+294 215 11
+294 1298 1
+294 1763 15
+294 722 2
+294 164 5
+294 180 2
+1763 3769 2
+2642 3769 2
+20607 3769 2
+20607 164 2
+290 3056 1
+290 294 1
+289 722 2
+289 7790 2
+6556 844 1
+6556 3769 2
+6556 164 1
+7718 2642 2
+7718 1298 1
+7718 164 3
+2643 20607 3
+2643 164 1
+2641 2642 5
+2641 1298 1
+2641 722 1
+2641 164 5
+292 1298 1
+292 1763 2
+292 8107 1
+291 2316 7
+291 1298 1
+291 1763 12
+291 164 3
+293 1187 1
+293 215 10
+293 1298 3
+293 12451 10
+293 1763 8
+293 164 8
+293 180 2
+4092 3007 1
+4092 5107 1
+4092 844 1
+4092 5105 4
+4092 722 1
+4092 164 1
+5107 844 2
+5107 8786 7
+5107 722 4
+5107 164 2
+5107 527 2
+7705 5107 4
+7705 164 9
+15424 1298 5
+15424 3768 20
+15424 164 86
+15424 169 2
+15424 5051 4
+15424 630 3
+15424 179 6
+15424 290 1
+15424 1763 4
+15424 294 49
+15424 527 14
+4052 171 3
+4052 630 1
+4052 4092 2
+4052 3720 3
+4052 164 2
+4052 527 5
+2438 2642 1
+2438 1298 1
+2438 2641 24
+2438 1763 43
+2438 164 7
+21021 171 1
+21021 292 2
+21021 1763 3
+21021 164 1
+21021 527 2
+6472 2186 2
+6472 630 1
+6472 293 14
+6472 1763 3
+6472 164 10
+6472 527 5
+12414 1298 3
+12414 536 6
+12414 164 5
+12414 11205 1
+12414 630 4
+12414 7021 6
+12414 1763 1
+12414 294 15
+12414 527 2
+11205 3056 1
+11205 294 1
+4005 4036 2
+4005 844 1
+4005 164 1
+10199 630 1
+10199 8204 2
+10199 1763 1
+10199 164 1
+10199 527 1
+14532 1652 2
+14532 844 1
+14532 164 1
+17965 1652 6
+17965 844 1
+17965 164 1
+8204 2316 4
+8204 215 12
+8204 8263 2
+8204 1298 1
+8204 1763 6
+8204 164 30
+8204 180 2
+10200 4005 2
+22414 844 1
+22414 164 1
+22425 844 1
+22425 164 1
+22032 844 1
+22032 164 2
+17798 171 1
+17798 14532 2
+17798 164 1
+10145 4005 3
+10145 2186 17
+10145 4036 7
+10145 10200 3
+10145 10198 1
+10145 164 1
+10145 10199 1
+21977 17965 4
+21977 171 2
+21977 164 2
+22436 171 4
+22436 8204 51
+22436 1763 1
+22436 164 17
+22436 10199 14
+22436 527 5
+21750 4036 2
+21750 844 1
+21750 164 4
+21741 2186 1
+21741 21750 5
+21741 164 2
+4036 2186 3
+15045 2186 15
+15045 4036 7
+8263 7128 1
+8263 1302 4
+7128 1298 1
+7128 2940 4
+7128 164 1
+1302 164 1
+15367 2940 7
+12066 8263 4
+11161 7128 10
+1256 1302 9
+3067 215 11
+3067 1298 5
+3067 1763 6
+3067 722 2
+3067 164 14
+3067 180 2
+3342 9170 2
+3342 215 12
+3342 1298 1
+3342 1763 4
+3342 722 6
+3342 164 15
+3342 180 2
+9170 9197 3
+9362 844 1
+9362 164 2
+7811 844 1
+7811 164 1
+14881 722 1
+14881 6507 2
+6912 844 1
+6912 722 1
+6912 164 7
+10270 6546 4
+10270 844 1
+10270 722 1
+10270 164 6
+6507 6546 4
+6507 844 1
+6507 722 1
+6507 164 6
+15602 171 9
+15602 3067 48
+15602 630 9
+15602 1763 9
+15602 722 1
+15602 164 23
+15602 527 18
+23207 533 2
+23207 171 9
+23207 722 2
+23207 164 57
+23207 3342 58
+23207 7811 1
+23207 630 10
+23207 1763 10
+23207 527 24
+6850 6912 17
+6850 171 6
+6850 164 12
+1189 164 5
+16898 722 1
+16898 164 3
+5919 722 2
+2190 5919 1
+2190 215 9
+2190 164 1
+8679 682 1
+683 1187 1
+683 1189 4
+683 164 6
+682 1187 1
+682 1189 4
+682 164 6
+2188 5919 1
+2188 2190 7
+2188 1298 1
+2188 801 3
+2188 164 28
+2188 671 5
+2188 215 6
+2188 1763 8
+2188 9197 3
+2188 180 2
+681 1189 4
+681 3789 1
+681 164 6
+8678 681 4
+2189 671 1
+2189 8678 1
+671 681 1
+2192 682 1
+2191 21319 5
+4101 164 1
+3789 15029 1
+3789 164 1
+21160 171 1
+21160 164 2
+12149 215 12
+12149 2191 1
+12149 2190 31
+12149 4101 27
+12149 2192 1
+12149 164 7
+12149 2188 1
+18221 683 5
+18221 164 3
+1795 2186 13
+1795 2191 1
+1795 536 12
+1795 164 120
+1795 2188 79
+1795 630 16
+1795 2192 1
+1795 1763 17
+1795 527 36
+8116 630 16
+8116 536 12
+8116 1763 8
+8116 531 4
+8116 164 21
+8116 2188 28
+3781 3789 3
+3781 164 3
+2333 681 5
+2333 682 4
+2333 683 3
+2333 164 5
+18866 533 1
+18866 2316 4
+18866 1763 7
+18866 164 10
+22586 171 1
+22586 630 1
+22586 1298 1
+22586 18866 1
+22586 164 9
+22586 527 2
+18446 6432 3
+18446 215 6
+18446 1298 4
+18446 1763 8
+18446 164 8
+18446 180 2
+18339 2186 2
+18339 630 1
+18339 1298 2
+18339 1763 1
+18339 164 9
+18339 18446 28
+18339 527 3
+5113 171 1
+5113 3928 6
+5113 3007 1
+5113 164 2
+4315 171 1
+4315 3007 1
+4315 164 2
+14738 179 3
+14738 169 2
+8829 164 7
+10400 164 2
+5167 215 7
+5167 1298 1
+5167 1763 14
+5167 164 5
+5167 180 2
+5158 5167 4
+5158 164 2
+8562 3928 1
+16795 10065 1
+16795 8562 5
+16795 5113 3
+16795 164 6
+4299 4316 2
+4299 4315 1
+10346 171 5
+10346 164 15
+10346 10400 8
+14624 171 2
+14624 8829 2
+14624 14738 3
+14624 164 6
+14624 169 2
+14624 630 1
+14624 5167 4
+14624 179 2
+14624 1763 1
+14624 527 1
+8267 2186 3
+8267 8281 4
+8267 164 10
+8281 164 4
+8595 8597 2
+11759 8597 4
+11759 1298 1
+11759 722 1
+179 3769 2
+179 169 3
+5051 533 1
+5051 722 5
+5051 164 12
+5051 169 2
+5051 172 10
+5051 179 15
+5051 180 2
+5051 527 1
+8597 3769 3
+8597 164 2
+8597 169 3
+9148 9162 2
+9148 722 2
+307 298 4
+307 3769 2
+307 169 2
+6 172 2
+6 179 5
+6 164 9
+6 180 2
+15882 3769 1
+15882 169 2
+18980 172 2
+18980 179 6
+18980 164 11
+18980 180 2
+2220 2316 4
+2220 179 4
+2220 164 5
+2220 527 1
+308 2316 3
+308 298 4
+308 3769 2
+308 169 2
+1760 533 1
+1760 171 2
+1760 172 5
+1760 179 8
+1760 164 3
+1760 180 2
+1760 169 2
+10005 172 3
+10005 3929 2
+10005 179 6
+10005 7960 1
+10005 722 1
+10005 164 21
+10005 180 2
+10970 533 1
+10970 171 2
+10970 2316 6
+10970 179 5
+10970 164 5
+10970 169 2
+10872 171 1
+2422 2316 1
+2422 179 3
+2422 164 6
+2422 527 1
+15810 2316 1
+15810 179 3
+15810 164 5
+15810 527 1
+10726 171 1
+16635 11759 2
+16635 8597 1
+16635 164 1
+4946 5051 9
+4946 630 1
+4946 179 9
+4946 3768 8
+4946 722 4
+4946 164 26
+4946 527 5
+4946 169 1
+20432 8597 21
+20432 722 1
+20432 164 2
+20432 169 1
+16955 179 14
+16955 164 19
+16955 527 6
+16955 169 1
+22239 630 4
+22239 172 2
+22239 179 1
+22239 164 6
+22239 18980 4
+22239 527 1
+22239 169 3
+12023 630 1
+12023 2220 1
+12023 722 1
+12023 164 5
+12023 527 2
+12023 169 2
+23175 630 1
+23175 308 4
+23175 298 1
+23175 164 1
+23175 527 1
+10106 1760 1
+10106 164 7
+10106 527 6
+10106 169 3
+9961 10005 15
+9961 536 9
+9961 3768 2
+9961 164 28
+9961 169 1
+9961 630 4
+9961 172 2
+9961 179 3
+9961 527 11
+24295 533 2
+24295 2316 5
+24295 10970 19
+24295 179 4
+24295 164 9
+24295 169 1
+24267 10872 5
+2390 2422 5
+2390 630 1
+2390 179 1
+2390 164 4
+2390 527 1
+2390 169 1
+15765 630 1
+15765 15810 8
+15765 179 1
+15765 164 4
+15765 527 1
+15765 169 1
+10570 10726 23
+8600 171 1
+8600 8669 6
+8600 536 8
+8600 3056 4
+8600 164 18
+8600 169 1
+8600 630 6
+8600 179 1
+8600 527 4
+8669 172 2
+8669 179 4
+8669 722 7
+8669 164 5
+8669 180 2
+3770 533 1
+3770 2316 5
+3770 179 10
+3770 164 3
+3770 169 1
+3729 630 1
+3729 3770 6
+3729 179 5
+3729 3768 4
+3729 164 7
+3729 527 3
+3729 169 1
+11795 722 4
+20769 172 2
+20769 17354 1
+20769 179 5
+20769 164 8
+20769 180 2
+11771 171 1
+11771 11795 1
+11771 2925 1
+11771 164 1
+20622 630 1
+20622 2925 3
+20622 179 3
+20622 20769 6
+20622 164 10
+20622 527 3
+20622 169 2
+24329 6929 13
+24329 11771 1
+24329 2925 1
+2741 2186 1
+2741 722 3
+3270 3328 1
+3270 722 5
+3270 3327 1
+11756 3328 1
+11756 3270 2
+11756 3327 1
+4704 3328 1
+4704 3270 4
+4704 164 2
+4704 3327 1
+11758 533 1
+11758 8597 2
+11758 722 7
+11758 164 16
+11758 169 1
+11758 11759 2
+11758 11757 3
+11758 172 6
+11758 11756 3
+11758 3328 2
+11758 3270 8
+11758 3327 2
+11758 180 2
+11758 527 1
+2681 164 2
+22676 11759 4
+22676 8597 7
+22676 11758 2
+22676 164 11
+21202 3270 9
+21202 4704 23
+11697 533 1
+11697 8597 39
+11697 1298 1
+11697 722 1
+11697 164 21
+11697 169 1
+11697 11759 14
+11697 11757 3
+11697 11758 2
+11697 11756 3
+11697 3270 1
+11697 4704 9
+24185 172 2
+24185 179 4
+24185 164 3
+24185 180 2
+17404 17448 4
+17404 630 1
+17404 17445 2
+17404 179 3
+17404 3768 2
+17404 722 1
+17404 164 4
+17404 527 2
+17404 169 1
+17448 2316 2
+17448 179 3
+17448 722 1
+17448 164 3
+19204 630 1
+19204 18000 4
+19204 179 1
+19204 3720 3
+19204 164 7
+19204 527 1
+19204 169 1
+18000 171 1
+18000 179 7
+18000 164 7
+18000 169 1
+4902 3057 6
+3046 171 1
+3046 3057 5
+3046 3056 1
+10558 171 2
+10558 1298 1
+10558 3057 9
+10558 3056 1
+17153 3057 6
+14844 1082 1
+14844 1083 1
+14844 1074 1
+14844 722 1
+2362 2382 2
+14940 171 1
+14940 1083 1
+14940 1074 2
+14940 536 4
+14940 1081 1
+14940 164 9
+14940 535 8
+10304 10084 3
+10965 6234 14
+7682 699 4
+7682 700 1
+687 699 4
+687 700 1

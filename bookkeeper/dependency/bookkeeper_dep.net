@@ -1,0 +1,2632 @@
+*Vertics: 611
+2,org.apache.activemq.usecases.DurableSubscriptionHangTestCase
+77,org.apache.hedwig.JmsTestBase
+78,org.apache.hedwig.jms.spi.HedwigConnectionFactoryImpl
+85,org.apache.hedwig.server.persistence.BookkeeperPersistenceManager
+530,org.apache.bookkeeper.client.BKException
+531,org.apache.bookkeeper.client.BookKeeper
+532,org.apache.bookkeeper.client.LedgerEntry
+533,org.apache.bookkeeper.client.LedgerHandle
+536,org.apache.bookkeeper.versioning.Versioned
+537,org.apache.hedwig.exceptions.PubSubException
+543,org.apache.hedwig.protoextensions.MessageIdUtils
+544,org.apache.hedwig.server.common.ServerConfiguration
+545,org.apache.hedwig.server.common.TopicOpQueuer
+546,org.apache.hedwig.server.common.UnexpectedError
+547,org.apache.hedwig.server.meta.MetadataManagerFactory
+553,org.apache.hedwig.zookeeper.SafeAsynBKCallback
+560,org.apache.hedwig.protocol.PubSubProtocol
+572,org.apache.hedwig.server.persistence.PersistRequest
+573,org.apache.hedwig.server.persistence.RangeScanRequest
+574,org.apache.hedwig.server.persistence.ScanRequest
+579,org.apache.hedwig.util.VarArgs
+693,org.apache.hedwig.util.PathUtils
+719,org.apache.hedwig.admin.HedwigAdmin
+875,org.apache.bookkeeper.conf.ClientConfiguration
+877,org.apache.hedwig.server.meta.FactoryLayout
+880,org.apache.hedwig.server.subscriptions.InMemorySubscriptionState
+881,org.apache.hedwig.server.topics.HubInfo
+882,org.apache.hedwig.server.topics.HubLoad
+883,org.apache.hedwig.util.HedwigSocketAddress
+913,org.apache.bookkeeper.proto.PacketProcessorBaseV3
+937,org.apache.bookkeeper.util.MathUtils
+938,org.apache.bookkeeper.proto.BookkeeperProtocol
+941,org.apache.bookkeeper.proto.BookieRequestProcessor
+960,org.apache.hedwig.server.persistence.MapMethods
+988,org.apache.hedwig.client.netty.impl.ResubscribeCallback
+1009,org.apache.hedwig.client.data.PubSubData
+1010,org.apache.hedwig.client.data.TopicSubscriber
+1011,org.apache.hedwig.client.exceptions.AlreadyStartDeliveryException
+1017,org.apache.hedwig.client.netty.impl.AbstractHChannelManager
+1025,org.apache.bookkeeper.bookie.EntryKeyValue
+1054,org.apache.bookkeeper.bookie.EntryKey
+1063,org.apache.hedwig.server.handlers.TestSubUnsubHandler
+1100,org.apache.hedwig.StubCallback
+1101,org.apache.hedwig.filter.PipelineFilter
+1110,org.apache.hedwig.server.delivery.ChannelEndPoint
+1111,org.apache.hedwig.server.delivery.StubDeliveryManager
+1113,org.apache.hedwig.server.netty.WriteRecordingChannel
+1114,org.apache.hedwig.server.persistence.LocalDBPersistenceManager
+1116,org.apache.hedwig.server.subscriptions.AllToAllTopologyFilter
+1117,org.apache.hedwig.server.subscriptions.StubSubscriptionManager
+1118,org.apache.hedwig.server.topics.TrivialOwnAllTopicManager
+1119,org.apache.hedwig.util.ConcurrencyUtils
+1123,org.apache.hedwig.server.handlers.SubscribeHandler
+1124,org.apache.hedwig.server.handlers.SubscriptionChannelManager
+1125,org.apache.hedwig.server.handlers.UnsubscribeHandler
+1128,org.apache.hedwig.server.subscriptions.AbstractSubscriptionManager
+1179,org.apache.bookkeeper.streaming.LedgerInputStream
+1227,org.apache.activemq.util.SimplePojo
+1263,org.apache.bookkeeper.bookie.SkipListArena
+1306,org.apache.bookkeeper.conf.ServerConfiguration
+1327,org.apache.bookkeeper.benchmark.TestClient
+1479,org.apache.activemq.JmsDurableTopicTransactionTest
+1485,org.apache.activemq.test.JmsResourceProvider
+1487,org.apache.activemq.JmsTopicTransactionTest
+1494,org.apache.hedwig.protoextensions.SubscriptionStateUtils
+1518,org.apache.hedwig.protoextensions.MapUtils
+1541,org.apache.bookkeeper.stats.OpStatsData
+1543,org.apache.bookkeeper.bookie.LedgerEntryPage
+1605,org.apache.bookkeeper.util.ZeroBuffer
+1607,org.apache.bookkeeper.bookie.FileInfo
+1618,org.apache.hedwig.client.netty.impl.AbstractSubscribeResponseHandler
+1724,org.apache.hedwig.client.conf.ClientConfiguration
+1725,org.apache.hedwig.client.data.MessageConsumeData
+1726,org.apache.hedwig.client.handlers.SubscribeResponseHandler
+1729,org.apache.hedwig.client.netty.NetUtils
+1730,org.apache.hedwig.client.netty.FilterableMessageHandler
+1734,org.apache.hedwig.util.Either
+1740,org.apache.hedwig.client.netty.impl.ActiveSubscriber
+1793,org.apache.bookkeeper.stats.twitter.ostrich.CounterImpl
+1819,org.apache.hedwig.server.topics.TestTopicBasedLoadShedder
+1888,org.apache.hedwig.server.topics.TopicBasedLoadShedder
+1902,org.apache.activemq.perf.PerfConsumer
+1948,org.apache.hedwig.jms.LRUCacheSet
+1950,org.apache.activemq.perf.PerfRate
+1958,org.apache.bookkeeper.bookie.EntryLogTest
+2034,org.apache.bookkeeper.conf.TestBKConfiguration
+2035,org.apache.bookkeeper.bookie.GarbageCollectorThread
+2036,org.apache.bookkeeper.bookie.Bookie
+2037,org.apache.bookkeeper.bookie.EntryLogger
+2038,org.apache.bookkeeper.bookie.InterleavedLedgerStorage
+2039,org.apache.bookkeeper.bookie.LedgerDirsManager
+2065,org.apache.hedwig.util.TestHedwigSocketAddress
+2099,org.apache.hedwig.jms.selector.SelectorEvaluationException
+2111,org.apache.bookkeeper.test.CloseTest
+2134,org.apache.bookkeeper.test.BaseTestCase
+2140,org.apache.bookkeeper.client.TestLedgerChecker
+2227,org.apache.bookkeeper.net.BookieSocketAddress
+2229,org.apache.bookkeeper.test.BookKeeperClusterTestCase
+2231,org.apache.bookkeeper.proto.BookkeeperInternalCallbacks
+2232,org.apache.bookkeeper.client.LedgerChecker
+2233,org.apache.bookkeeper.client.LedgerFragment
+2234,org.apache.bookkeeper.client.LedgerMetadata
+2251,org.apache.hedwig.jms.message.TextMessageImpl
+2291,org.apache.hedwig.jms.SessionImpl
+2292,org.apache.hedwig.jms.message.MessageImpl
+2294,org.apache.hedwig.jms.message.MessageUtil
+2369,org.apache.bookkeeper.util.SnapshotMap
+2423,org.apache.hedwig.protoextensions.PubSubResponseUtils
+2433,org.apache.bookkeeper.client.TestLedgerFragmentReplication
+2525,org.apache.bookkeeper.client.BookKeeperAdmin
+2527,org.apache.bookkeeper.client.LedgerFragmentReplicator
+2543,org.apache.hedwig.StubScanCallback
+2561,org.apache.hedwig.client.netty.impl.multiplex.MultiplexHChannelManager
+2636,org.apache.hedwig.client.exceptions.NoResponseHandlerException
+2637,org.apache.hedwig.client.netty.CleanupChannelMap
+2638,org.apache.hedwig.client.netty.impl.ClientChannelPipelineFactory
+2639,org.apache.hedwig.client.netty.impl.HChannelHandler
+2640,org.apache.hedwig.client.netty.impl.HChannelImpl
+2641,org.apache.hedwig.client.netty.impl.multiplex.MultiplexSubscriptionChannelPipelineFactory
+2675,org.apache.hedwig.util.CallbackUtils
+2799,org.apache.bookkeeper.util.ReflectionUtils
+2802,org.apache.hedwig.server.netty.ServerStats
+2804,org.apache.hedwig.server.netty.UmbrellaHandler
+2806,org.apache.hedwig.server.handlers.BaseHandler
+2823,org.apache.hedwig.conf.AbstractConfiguration
+2849,org.apache.activemq.perf.InactiveDurableTopicTest
+2890,org.apache.activemq.JmsSendWithAsyncCallbackTest
+2920,org.apache.activemq.TestSupport
+2948,org.apache.hedwig.server.persistence.ReadAheadCacheBean
+2961,org.apache.hedwig.server.persistence.ReadAheadCache
+2972,org.apache.hedwig.server.jmx.HedwigMBeanRegistry
+2980,org.apache.bookkeeper.jmx.BKMBeanRegistry
+2988,org.apache.hedwig.server.ssl.SslServerContextFactory
+3003,org.apache.hedwig.client.ssl.SslContextFactory
+3037,org.apache.hedwig.client.handlers.CloseSubscriptionResponseHandler
+3046,org.apache.hedwig.client.handlers.AbstractResponseHandler
+3050,org.apache.hedwig.server.common.TerminateJVMExceptionHandler
+3065,org.apache.activemq.JmsTopicRedeliverTest
+3095,org.apache.hedwig.jms.spi.HedwigConnectionImpl
+3101,org.apache.hedwig.server.netty.PubSubServerBean
+3131,org.apache.hedwig.server.persistence.TestBookkeeperPersistenceManagerWhiteBox
+3218,org.apache.hedwig.HelperMethods
+3219,org.apache.hedwig.server.persistence.BookKeeperTestBase
+3220,org.apache.hedwig.server.persistence.StubScanCallback
+3239,org.apache.hedwig.server.regions.HedwigHubClientFactory
+3259,org.apache.hedwig.server.regions.HedwigHubClient
+3266,org.apache.bookkeeper.zookeeper.ZooWorker
+3305,org.apache.bookkeeper.zookeeper.ZooKeeperClient
+3310,org.apache.hedwig.server.topics.TestHubLoad
+3328,org.apache.hedwig.jms.spi.HedwigMessagingSessionFacade
+3508,org.apache.hedwig.client.HedwigClient
+3510,org.apache.hedwig.client.exceptions.InvalidSubscriberIdException
+3512,org.apache.hedwig.jms.DebugUtil
+3516,org.apache.hedwig.jms.spi.TopicSubscriberImpl
+3520,org.apache.hedwig.jms.ConnectionImpl
+3521,org.apache.hedwig.jms.spi.TopicPublisherImpl
+3594,org.apache.hedwig.client.TestSubAfterCloseSub
+3656,org.apache.hedwig.server.HedwigHubTestBase
+3657,org.apache.hedwig.server.delivery.FIFODeliveryManager
+3658,org.apache.hedwig.server.netty.PubSubServer
+3685,org.apache.bookkeeper.bookie.IndexCorruptionTest
+3715,org.apache.bookkeeper.bookie.SyncThread
+3726,org.apache.bookkeeper.client.ClientUtil
+3745,org.apache.bookkeeper.client.CRC32DigestManager
+3746,org.apache.bookkeeper.client.DigestManager
+3751,org.apache.bookkeeper.meta.FlatLedgerManagerFactory
+3774,org.apache.bookkeeper.replication.ReplicationException
+3775,org.apache.bookkeeper.conf.AbstractConfiguration
+3777,org.apache.bookkeeper.meta.LedgerManagerFactory
+3778,org.apache.bookkeeper.meta.FlatLedgerManager
+3782,org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager
+3783,org.apache.bookkeeper.meta.AbstractZkLedgerManager
+3796,org.apache.bookkeeper.util.IOUtils
+3816,org.apache.activemq.usecases.PublishOnDurableTopicConsumedMessageTest
+3818,org.apache.activemq.usecases.PublishOnTopicConsumedMessageTest
+3822,org.apache.bookkeeper.proto.BookieProtoEncoding
+3930,org.apache.bookkeeper.proto.ServerStats
+3974,org.apache.bookkeeper.proto.TestPerChannelBookieClient
+4061,org.apache.bookkeeper.util.OrderedSafeExecutor
+4062,org.apache.bookkeeper.util.SafeRunnable
+4063,org.apache.bookkeeper.proto.PerChannelBookieClient
+4083,org.apache.bookkeeper.bookie.CreateNewLogTest
+4114,org.apache.activemq.util.DefaultTestAppender
+4139,org.apache.activemq.usecases.TransactionTest
+4165,org.apache.bookkeeper.client.PendingAddOp
+4209,org.apache.bookkeeper.proto.BookieClient
+4233,org.apache.hedwig.util.TestPathUtils
+4264,org.apache.activemq.load.LoadController
+4291,org.apache.activemq.load.LoadClient
+4307,org.apache.bookkeeper.bookie.CompactionTest
+4460,org.apache.bookkeeper.util.TestUtils
+4512,org.apache.activemq.perf.NumberOfDestinationsTest
+4695,org.apache.bookkeeper.client.ListLedgersTest
+4722,org.apache.bookkeeper.test.ZooKeeperUtil
+4739,org.apache.hedwig.server.persistence.TestBookKeeperPersistenceManager
+4990,org.apache.hedwig.server.subscriptions.MMSubscriptionManager
+4991,org.apache.hedwig.server.persistence.TestPersistenceManagerBlackBox
+5013,org.apache.hedwig.server.common.ByteStringInterner
+5023,org.apache.hedwig.zookeeper.SafeAsyncZKCallback
+5100,org.apache.hedwig.zookeeper.SafeAsyncCallback
+5103,org.apache.hedwig.client.netty.impl.simple.SimpleSubscribeResponseHandler
+5176,org.apache.hedwig.client.netty.impl.simple.SimpleHChannelManager
+5189,org.apache.activemq.test.JmsTopicSendReceiveTest
+5197,org.apache.activemq.test.JmsSendReceiveTestSupport
+5213,org.apache.bookkeeper.bookie.UpgradeTest
+5289,org.apache.bookkeeper.test.PortManager
+5291,org.apache.bookkeeper.bookie.JournalChannel
+5292,org.apache.bookkeeper.bookie.BufferedChannel
+5294,org.apache.bookkeeper.bookie.IndexPersistenceMgr
+5295,org.apache.bookkeeper.bookie.BookieException
+5296,org.apache.bookkeeper.bookie.FileSystemUpgrade
+5330,org.apache.hedwig.jms.selector.SelectorEvalState
+5388,org.apache.hedwig.server.meta.ZkMetadataManagerFactory
+5401,org.apache.activemq.util.IdGenerator
+5404,org.apache.hedwig.server.proxy.ChannelTracker
+5449,org.apache.bookkeeper.client.LedgerHandleAdapter
+5790,org.apache.bookkeeper.net.DNS
+5792,org.apache.bookkeeper.stats.NullStatsLogger
+5794,org.apache.bookkeeper.util.BookKeeperConstants
+5795,org.apache.bookkeeper.util.ZkUtils
+5796,org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase
+5797,org.apache.bookkeeper.bookie.Journal
+5798,org.apache.bookkeeper.bookie.BookieCriticalThread
+5800,org.apache.bookkeeper.bookie.BookieBean
+5802,org.apache.bookkeeper.bookie.LedgerDescriptor
+5803,org.apache.bookkeeper.bookie.Cookie
+5805,org.apache.bookkeeper.bookie.ExitCode
+5807,org.apache.bookkeeper.bookie.SortedLedgerStorage
+5808,org.apache.bookkeeper.bookie.HandleFactoryImpl
+5889,org.apache.bookkeeper.bookie.BookieThread
+5891,org.apache.bookkeeper.stats.CodahaleStatsLogger
+5934,org.apache.bookkeeper.stats.CodahaleOpStatsLogger
+6006,org.apache.activemq.usecases.NonBlockingConsumerRedeliveryTest
+6094,org.apache.activemq.util.Wait
+6104,org.apache.hedwig.jms.selector.activemq.SelectorTest
+6215,org.apache.hedwig.server.persistence.TestDeadlock
+6308,org.apache.bookkeeper.meta.LedgerManagerIteratorTest
+6314,org.apache.bookkeeper.meta.LedgerManagerTestCase
+6318,org.apache.bookkeeper.net.AbstractDNSToSwitchMapping
+6342,org.apache.hedwig.server.persistence.TestBookKeeperPersistenceManagerBlackBox
+6361,org.apache.activemq.JMSDurableTopicRedeliverTest
+6387,org.apache.activemq.JmsCreateConsumerInOnMessageTest
+6407,org.apache.bookkeeper.bookie.EntryMemTable
+6525,org.apache.hedwig.jms.BasicJMSTest
+6607,org.apache.hedwig.jms.jndi.HedwigInitialContext
+6609,org.apache.hedwig.jms.Mutable
+6616,org.apache.activemq.perf.Consumer
+6636,org.apache.activemq.perf.NetworkedSyncTest
+6648,org.apache.activemq.perf.Producer
+6669,org.apache.hedwig.client.benchmark.BenchmarkPublisher
+6723,org.apache.hedwig.client.benchmark.BenchmarkUtils
+6724,org.apache.hedwig.client.benchmark.BenchmarkWorker
+6726,org.apache.hedwig.client.benchmark.HedwigBenchmark
+6745,org.apache.bookkeeper.stats.twitter.science.HTTPStatsExporter
+6788,org.apache.bookkeeper.benchmark.BenchReadThroughputLatency
+6868,org.apache.hedwig.client.netty.VoidCallbackAdapter
+6895,org.apache.bookkeeper.test.TestBackwardCompat
+7106,org.apache.bookkeeper.proto.BookieServer
+7112,org.apache.bookkeeper.client.TestTryReadLastConfirmed
+7191,org.apache.hedwig.jms.message.StreamMessageImpl
+7439,org.apache.hedwig.jms.spi.QueueSessionImpl
+7556,org.apache.bookkeeper.bookie.LedgerCacheImpl
+7590,org.apache.bookkeeper.stats.Stats
+7609,org.apache.bookkeeper.stats.NullStatsProvider
+7611,org.apache.activemq.test.rollback.DelegatingTransactionalMessageListener
+7632,org.apache.hedwig.server.benchmark.BookieBenchmark
+7668,org.apache.hedwig.server.benchmark.AbstractBenchmark
+7669,org.apache.hedwig.server.benchmark.BookkeeperBenchmark
+7679,org.apache.bookkeeper.client.RoundRobinDistributionSchedule
+7719,org.apache.activemq.JmsConnectionStartStopTest
+7763,org.apache.bookkeeper.tools.BookKeeperTools
+7777,org.apache.activemq.test.TestSupport
+7834,org.apache.bookkeeper.net.ScriptBasedMapping
+7881,org.apache.bookkeeper.util.Shell
+7882,org.apache.bookkeeper.net.CachedDNSToSwitchMapping
+7883,org.apache.bookkeeper.net.NetworkTopology
+7942,org.apache.hedwig.util.Option
+7964,org.apache.activemq.TimeStampTest
+7983,org.apache.bookkeeper.client.TestRackawareEnsemblePlacementPolicy
+8066,org.apache.bookkeeper.util.StaticDNSResolver
+8067,org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicy
+8076,org.apache.hedwig.server.integration.TestHedwigHubProxy
+8081,org.apache.hedwig.server.integration.TestHedwigHub
+8084,org.apache.bookkeeper.test.MultipleThreadReadTest
+8176,org.apache.bookkeeper.client.BookKeeperTestClient
+8181,org.apache.bookkeeper.replication.AuditorPeriodicBookieCheckTest
+8204,org.apache.bookkeeper.test.TestCallbacks
+8205,org.apache.bookkeeper.replication.AuditorElector
+8214,org.apache.activemq.usecases.TopicRedeliverTest
+8278,org.apache.hedwig.client.handlers.PublishResponseHandler
+8296,org.apache.hedwig.client.exceptions.TooManyServerRedirectsException
+8304,org.apache.activemq.RedeliveryPolicyTest
+8320,org.apache.activemq.JmsTestSupport
+8325,org.apache.bookkeeper.client.TestReadTimeout
+8354,org.apache.activemq.JmsMultipleClientsTestSupport
+8450,org.apache.activemq.util.MessageIdList
+8451,org.apache.activemq.CombinationTestSupport
+8468,org.apache.bookkeeper.proto.DataFormats
+9699,org.apache.hedwig.jms.message.BytesMessageImpl
+9909,org.apache.bookkeeper.client.ReadOnlyLedgerHandle
+10144,org.apache.hedwig.server.HedwigRegionTestBase
+10216,org.apache.hedwig.server.LoggingExceptionHandler
+10231,org.apache.activemq.AutoFailTestSupport
+10393,org.apache.hedwig.client.netty.impl.simple.SimpleSubscriptionChannelPipelineFactory
+10401,org.apache.hedwig.jms.spi.MessageConsumerImpl
+10500,org.apache.bookkeeper.metastore.MetastoreException
+10503,org.apache.bookkeeper.util.EntryFormatter
+10522,org.apache.bookkeeper.util.StringEntryFormatter
+10531,org.apache.bookkeeper.client.RoundRobinDistributionScheduleTest
+10546,org.apache.bookkeeper.replication.BookieAutoRecoveryTest
+10675,org.apache.bookkeeper.replication.Auditor
+10690,org.apache.hedwig.server.integration.TestHedwigHubSSL
+10839,org.apache.bookkeeper.replication.BookieLedgerIndexer
+10840,org.apache.bookkeeper.replication.ReplicationEnableCb
+10861,org.apache.activemq.JmsSendReceiveTestSupport
+10915,org.apache.activemq.JmsDurableTopicSendReceiveTest
+10931,org.apache.hedwig.zookeeper.ZkUtils
+11006,org.apache.bookkeeper.client.LedgerRecoveryOp
+11056,org.apache.bookkeeper.client.ReadLastConfirmedOp
+11057,org.apache.bookkeeper.client.PendingReadOp
+11077,org.apache.hedwig.zookeeper.TestZkUtils
+11083,org.apache.hedwig.zookeeper.ZooKeeperTestBase
+11107,org.apache.bookkeeper.metastore.MSException
+11112,org.apache.bookkeeper.metastore.MetastoreTableItem
+11118,org.apache.hedwig.client.netty.HedwigClientImpl
+11119,org.apache.hedwig.server.regions.HedwigHubSubscriber
+11173,org.apache.bookkeeper.proto.BookieRequestHandler
+11208,org.apache.hedwig.admin.console.HedwigCommands
+11322,org.apache.hedwig.server.proxy.HedwigProxy
+11383,org.apache.hedwig.server.netty.PubSubServerPipelineFactory
+11384,org.apache.hedwig.server.proxy.ProxyConfiguration
+11385,org.apache.hedwig.server.proxy.ProxyPublishHander
+11386,org.apache.hedwig.server.proxy.ProxySubscribeHandler
+11387,org.apache.hedwig.server.proxy.ProxyUnsubscribeHandler
+11388,org.apache.hedwig.server.proxy.ProxyConsumeHandler
+11389,org.apache.hedwig.server.proxy.ProxyStopDeliveryHandler
+11390,org.apache.hedwig.server.proxy.ProxyStartDeliveryHandler
+11391,org.apache.hedwig.server.proxy.ProxyCloseSubscriptionHandler
+11413,org.apache.bookkeeper.metastore.InMemoryMetastoreTable
+11555,org.apache.bookkeeper.metastore.InMemoryMetaStore
+11556,org.apache.bookkeeper.metastore.Value
+11559,org.apache.bookkeeper.metastore.MSWatchedEvent
+11561,org.apache.bookkeeper.metastore.InMemoryMetastoreCursor
+11922,org.apache.bookkeeper.meta.ZkVersion
+11972,org.apache.activemq.usecases.DurableConsumerCloseAndReconnectTest
+16030,org.apache.hedwig.server.topics.MMTopicManager
+16139,org.apache.hedwig.server.topics.AbstractTopicManager
+16141,org.apache.hedwig.server.topics.ZkHubServerManager
+16156,org.apache.activemq.perf.SlowConsumer
+16179,org.apache.hedwig.server.persistence.MessageBoundedPersistenceTest
+16310,org.apache.bookkeeper.proto.BKStats
+16311,org.apache.bookkeeper.proto.WriteEntryProcessor
+16312,org.apache.bookkeeper.proto.WriteEntryProcessorV3
+16313,org.apache.bookkeeper.proto.ReadEntryProcessor
+16314,org.apache.bookkeeper.proto.ReadEntryProcessorV3
+16319,org.apache.bookkeeper.proto.ResponseBuilder
+16320,org.apache.bookkeeper.proto.PacketProcessorBase
+16544,org.apache.hedwig.admin.console.ReadTopic
+16610,org.apache.bookkeeper.replication.AutoRecoveryMainTest
+16620,org.apache.bookkeeper.replication.AutoRecoveryMain
+16621,org.apache.bookkeeper.replication.ReplicationWorker
+16632,org.apache.activemq.JmsSendReceiveWithMessageExpirationTest
+16709,org.apache.bookkeeper.test.LoopbackClient
+16758,org.apache.bookkeeper.util.Main
+16766,org.apache.hedwig.client.ssl.SslClientContextFactory
+16772,org.apache.bookkeeper.replication.AuditorLedgerCheckerTest
+16875,org.apache.bookkeeper.test.MultiLedgerManagerTestCase
+16886,org.apache.bookkeeper.client.LedgerDeleteOp
+16905,org.apache.activemq.JmsTopicSendReceiveWithTwoConnectionsWithJMXTest
+16907,org.apache.activemq.JmsTopicSendReceiveWithTwoConnectionsTest
+16994,org.apache.bookkeeper.client.TestSpeculativeRead
+17079,org.apache.activemq.perf.SimpleNonPersistentTopicTest
+17086,org.apache.activemq.perf.SimpleTopicTest
+17087,org.apache.activemq.perf.PerfProducer
+17155,org.apache.bookkeeper.bookie.TestLedgerDirsManager
+17185,org.apache.hedwig.client.exceptions.ServerRedirectLoopException
+17195,org.apache.bookkeeper.meta.HierarchicalLedgerManager
+17344,org.apache.bookkeeper.util.StringUtils
+17375,org.apache.hedwig.server.delivery.TestFIFODeliveryManager
+17481,org.apache.hedwig.server.topics.StubTopicManager
+17482,org.apache.hedwig.server.persistence.StubPersistenceManager
+17653,org.apache.bookkeeper.net.NodeBase
+17675,org.apache.bookkeeper.replication.TestLedgerUnderreplicationManager
+17896,org.apache.bookkeeper.net.NetUtils
+17998,org.apache.hedwig.server.persistence.CacheKey
+18053,org.apache.hedwig.jms.spi.TopicSessionImpl
+18067,org.apache.bookkeeper.util.HardLink
+18444,org.apache.hedwig.server.persistence.CacheValue
+18530,org.apache.bookkeeper.metastore.TestMetaStore
+18702,org.apache.bookkeeper.metastore.MetastoreScannableTableAsyncToSyncConverter
+18703,org.apache.bookkeeper.metastore.MetastoreFactory
+18704,org.apache.bookkeeper.metastore.MetastoreTableAsyncToSyncConverter
+18719,org.apache.hedwig.jms.message.header.MetadataProcessor
+18742,org.apache.hedwig.jms.message.header.JmsHeader
+18843,org.apache.activemq.JmsRedeliveredTest
+19354,org.apache.hedwig.server.persistence.TestReadAheadCacheWhiteBox
+19434,org.apache.bookkeeper.proto.TestDeathwatcher
+19472,org.apache.bookkeeper.test.BookieReadWriteTest
+19700,org.apache.bookkeeper.streaming.LedgerOutputStream
+19701,org.apache.bookkeeper.test.MultiLedgerManagerMultiDigestTestCase
+19711,org.apache.hedwig.server.handlers.TestBaseHandler
+19740,org.apache.hedwig.jms.selector.UnaryExprFunction
+19756,org.apache.hedwig.jms.selector.SelectorConstant
+19797,org.apache.bookkeeper.stats.CodahaleMetricsProvider
+19851,org.apache.bookkeeper.client.LedgerOpenOp
+19964,org.apache.hedwig.client.netty.HedwigSubscriber
+19978,org.apache.bookkeeper.bookie.ReadOnlyFileInfo
+19984,org.apache.hedwig.client.handlers.MessageConsumeCallback
+20011,org.apache.hedwig.client.netty.HedwigPublisher
+20050,org.apache.hedwig.client.handlers.PubSubCallback
+20061,org.apache.activemq.JMSIndividualAckTest
+20080,org.apache.hedwig.server.meta.TestMetadataManagerFactory
+20217,org.apache.hedwig.jms.message.ObjectMessageImpl
+21602,org.apache.bookkeeper.util.NativeIO
+21609,org.apache.hedwig.server.delivery.TestThrottlingDelivery
+21726,org.apache.hedwig.server.integration.TestHedwigRegion
+21809,org.apache.hedwig.server.subscriptions.TestUpdateSubscriptionState
+21894,org.apache.hedwig.client.netty.SubscriptionEventEmitter
+21923,org.apache.activemq.usecases.SubscribeClosePublishThenConsumeTest
+21941,org.apache.bookkeeper.bookie.LedgerDescriptorReadOnlyImpl
+21950,org.apache.bookkeeper.bookie.LedgerDescriptorImpl
+21956,org.apache.hedwig.client.handlers.UnsubscribeResponseHandler
+21969,org.apache.bookkeeper.meta.CleanupLedgerManager
+22033,org.apache.hedwig.server.netty.TestServerStats
+22039,org.apache.activemq.JmsAutoAckTest
+22050,org.apache.bookkeeper.bookie.CookieTest
+22181,org.apache.bookkeeper.test.ConditionalSetTest
+22545,org.apache.activemq.JMSUsecaseTest
+22576,org.apache.bookkeeper.bookie.KeyComparator
+22584,org.apache.activemq.demo.SimpleConsumer
+22717,org.apache.activemq.MessageListenerRedeliveryTest
+22769,org.apache.bookkeeper.replication.ReplicationTestUtil
+22807,org.apache.hedwig.server.persistence.ScanCallbackWithContext
+22866,org.apache.activemq.usecases.DurableSubSelectorDelayTest
+22954,org.apache.bookkeeper.meta.LedgerLayout
+22955,org.apache.bookkeeper.meta.HierarchicalLedgerManagerFactory
+23236,org.apache.bookkeeper.bookie.BookieThreadTest
+23256,org.apache.bookkeeper.meta.GcLedgersTest
+23337,org.apache.bookkeeper.bookie.ScanAndCompareGarbageCollector
+23343,org.apache.hedwig.server.meta.TestFactoryLayout
+23389,org.apache.hedwig.server.subscriptions.TestMMSubscriptionManager
+23434,org.apache.hedwig.jms.selector.LogicalComparisonFunction
+23453,org.apache.hedwig.jms.selector.BinaryExprFunction
+23474,org.apache.bookkeeper.stats.twitter.science.TwitterStatsProvider
+23486,org.apache.bookkeeper.stats.twitter.science.TwitterStatsLoggerImpl
+23656,org.apache.bookkeeper.client.SyncCounter
+23657,org.apache.bookkeeper.client.BookieWatcher
+23697,org.apache.hedwig.server.topics.TestZkTopicManager
+23784,org.apache.hedwig.util.Pair
+23785,org.apache.hedwig.server.topics.ZkTopicManager
+23902,org.apache.hedwig.jms.message.MapMessageImpl
+23907,org.apache.bookkeeper.bookie.LogMark
+23932,org.apache.bookkeeper.bookie.BookieShell
+24342,org.apache.bookkeeper.bookie.ReadOnlyEntryLogger
+24460,org.apache.hedwig.client.netty.impl.DefaultServerChannel
+24486,org.apache.activemq.usecases.CompositeConsumeTest
+24496,org.apache.activemq.test.JmsTopicSendReceiveWithTwoConnectionsTest
+24503,org.apache.bookkeeper.bookie.BookieJournalTest
+25017,org.apache.bookkeeper.client.SlowBookieTest
+25086,org.apache.hedwig.jms.ConnectionMetaDataImpl
+25108,org.apache.bookkeeper.meta.TestLedgerManager
+25220,org.apache.activemq.perf.SimpleDurableTopicTest
+25254,org.apache.bookkeeper.stats.twitter.ostrich.OstrichProvider
+25279,org.apache.bookkeeper.stats.twitter.ostrich.OstrichStatsLoggerImpl
+25282,org.apache.bookkeeper.client.LedgerCreateOp
+25395,org.apache.bookkeeper.util.DiskChecker
+25408,org.apache.bookkeeper.replication.TestReplicationWorker
+25521,org.apache.bookkeeper.stats.twitter.ostrich.OpStatsLoggerImpl
+25556,org.apache.bookkeeper.client.BookieWriteLedgerTest
+25604,org.apache.activemq.JmsTopicSendReceiveSubscriberTest
+25607,org.apache.activemq.JmsTopicSendReceiveTest
+25758,org.apache.activemq.usecases.TestSupport
+25799,org.apache.bookkeeper.test.ReadOnlyBookieTest
+25859,org.apache.hedwig.jms.spi.MessageProducerImpl
+25886,org.apache.bookkeeper.client.TestFencing
+25972,org.apache.bookkeeper.client.BookKeeperCloseTest
+26182,org.apache.activemq.usecases.MyObject
+26211,org.apache.bookkeeper.test.ConfigurationTest
+26359,org.apache.hedwig.server.handlers.CloseSubscriptionHandler
+26360,org.apache.hedwig.server.handlers.ConsumeHandler
+26361,org.apache.hedwig.server.handlers.NettyHandlerBean
+26362,org.apache.hedwig.server.handlers.PublishHandler
+26363,org.apache.hedwig.server.regions.RegionManager
+26364,org.apache.hedwig.server.subscriptions.InMemorySubscriptionManager
+26412,org.apache.hedwig.server.TestBackwardCompat
+26888,org.apache.hedwig.util.FileUtils
+26892,org.apache.bookkeeper.replication.AuditorRollingRestartTest
+27125,org.apache.hedwig.jms.selector.activemq.SelectorParserTest
+27132,org.apache.bookkeeper.client.BookieRecoveryTest
+27362,org.apache.bookkeeper.meta.MSLedgerManagerFactory
+27394,org.apache.activemq.perf.SlowDurableConsumerTopicTest
+27401,org.apache.activemq.perf.SlowConsumerTopicTest
+27405,org.apache.bookkeeper.benchmark.MySqlClient
+27451,org.apache.activemq.usecases.ConcurrentProducerDurableConsumerTest
+27984,org.apache.bookkeeper.client.MacDigestManager
+27985,org.apache.bookkeeper.client.TryReadLastConfirmedOp
+27997,org.apache.activemq.JmsTopicCompositeSendReceiveTest
+28082,org.apache.activemq.JmsConsumerResetActiveListenerTest
+28190,org.apache.bookkeeper.test.LedgerDeleteTest
+28224,org.apache.bookkeeper.bookie.BufferedReadChannel
+28244,org.apache.bookkeeper.bookie.BufferedChannelBase
+28266,org.apache.hedwig.admin.console.JLineHedwigCompletor
+28313,org.apache.activemq.usecases.DurableSubProcessTest
+28497,org.apache.bookkeeper.util.DaemonThreadFactory
+28653,org.apache.bookkeeper.bookie.TestSyncThread
+28762,org.apache.hedwig.jms.StateManager
+29022,org.apache.activemq.perf.SimpleDurableTopicNetworkTest
+29034,org.apache.activemq.perf.SimpleNetworkTest
+29037,org.apache.hedwig.server.topics.TestHubInfo
+29049,org.apache.hedwig.jms.selector.UnaryArithmeticFunction
+29283,org.apache.activemq.JmsTransactionTestSupport
+29367,org.apache.bookkeeper.test.BookieClientTest
+29456,org.apache.hedwig.jms.selector.MyNode
+29628,org.apache.hedwig.server.integration.TestHedwigHubRegular
+29762,org.apache.hedwig.client.benchmark.BenchmarkSubscriber
+29767,org.apache.activemq.ConsumerReceiveWithTimeoutTest
+29782,org.apache.bookkeeper.proto.BookieServerBean
+29863,org.apache.activemq.ConnectionCleanupTest
+29874,org.apache.activemq.usecases.ProducerConsumerTestSupport
+29883,org.apache.hedwig.client.exceptions.ResubscribeException
+29897,org.apache.hedwig.jms.selector.BasicSelectorGrammarTest
+30157,org.apache.hedwig.client.netty.impl.WriteCallback
+30172,org.apache.bookkeeper.test.BookieJournalRollingTest
+30243,org.apache.bookkeeper.bookie.BookieInitializationTest
+30332,org.apache.bookkeeper.bookie.BookieAccessor
+30391,org.apache.activemq.JMSConsumerTest
+30599,org.apache.activemq.JMSMessageTest
+30771,org.apache.hedwig.server.TestPubSubServerStartup
+31402,org.apache.hedwig.data.MessageFormatter
+31477,org.apache.bookkeeper.test.ConcurrentLedgerTest
+31532,org.apache.bookkeeper.bookie.BookieShutdownTest
+31586,org.apache.bookkeeper.stats.twitter.science.OpStatsLoggerImpl
+31587,org.apache.bookkeeper.stats.twitter.science.CounterImpl
+31620,org.apache.activemq.usecases.ChangeSentMessageTest
+31638,org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool
+31666,org.apache.activemq.JmsClientAckTest
+31989,org.apache.bookkeeper.meta.TestZkVersion
+32104,org.apache.activemq.usecases.DiscriminatingConsumerLoadTest
+32189,org.apache.activemq.ExpiryHogTest
+32201,org.apache.activemq.JmsBenchmark
+32470,org.apache.hedwig.server.netty.TestPubSubServer
+32569,org.apache.hedwig.server.PubSubServerStandAloneTestBase
+32577,org.apache.activemq.usecases.TransactionRollbackOrderTest
+32607,org.apache.activemq.JmsClientAckListenerTest
+32672,org.apache.bookkeeper.zookeeper.TestZooKeeperClient
+32771,org.apache.bookkeeper.zookeeper.BoundExponentialBackoffRetryPolicy
+32833,org.apache.hedwig.client.TestPubSubClient
+33037,org.apache.hedwig.client.netty.impl.multiplex.MultiplexSubscribeResponseHandler
+33093,org.apache.hedwig.server.meta.MsMetadataManagerFactory
+33390,org.apache.bookkeeper.metastore.MetastoreUtils
+33395,org.apache.bookkeeper.util.LocalBookKeeper
+33468,org.apache.bookkeeper.zookeeper.ExponentialBackoffRetryPolicy
+33472,org.apache.activemq.util.ProducerThread
+33495,org.apache.hedwig.server.topics.TestConcurrentTopicAcquisition
+33577,org.apache.hedwig.client.netty.impl.NonSubscriptionChannelPipelineFactory
+33652,org.apache.activemq.load.LoadTest
+33718,org.apache.bookkeeper.test.LedgerCreateDeleteTest
+33961,org.apache.activemq.usecases.DispatchMultipleConsumersTest
+34018,org.apache.activemq.JmsTopicSelectorTest
+34142,org.apache.bookkeeper.test.BookieFailureTest
+34230,org.apache.hedwig.server.benchmark.FakeBookie
+34340,org.apache.hedwig.jms.selector.TreeDumperSelectorParserVisitor
+34522,org.apache.bookkeeper.bookie.IndexInMemPageMgr
+35078,org.apache.activemq.JmsRollbackRedeliveryTest
+35324,org.apache.bookkeeper.replication.BookieLedgerIndexTest
+35795,org.apache.bookkeeper.meta.LedgerLayoutTest
+35830,org.apache.hedwig.jms.LRUCacheMap
+36000,org.apache.hedwig.jms.selector.InterpretSelectorParserVisitor
+36071,org.apache.activemq.usecases.CompositePublishTest
+36132,org.apache.activemq.demo.SimpleProducer
+36152,org.apache.activemq.JmsTopicSendSameMessageTest
+36159,org.apache.hedwig.admin.console.HedwigConsole
+36428,org.apache.activemq.JmsAutoAckListenerTest
+36676,org.apache.activemq.usecases.ObjectMessageNotSerializableTest
+36752,org.apache.bookkeeper.client.TestWatchEnsembleChange
+36815,org.apache.hedwig.jms.selector.BinaryArithmeticFunction
+36892,org.apache.activemq.JmsDurableTopicSelectorTest
+36967,org.apache.bookkeeper.proto.BookieNettyServer
+37098,org.apache.hedwig.util.TestFileUtils
+37104,org.apache.activemq.util.ConsumerThread
+37665,org.apache.hedwig.server.persistence.TestReadAheadCacheBlackBox
+37673,org.apache.activemq.LoadTestBurnIn
+37704,org.apache.bookkeeper.client.LedgerRecoveryTest
+38006,org.apache.bookkeeper.replication.AuditorPeriodicCheckTest
+38213,org.apache.bookkeeper.benchmark.BenchBookie
+38363,org.apache.bookkeeper.client.BookKeeperTest
+38467,org.apache.bookkeeper.test.BookieZKExpireTest
+38765,org.apache.hedwig.server.filter.TestMessageFilter
+39007,org.apache.bookkeeper.bookie.LedgerCacheTest
+39112,org.apache.bookkeeper.client.DefaultEnsemblePlacementPolicy
+39134,org.apache.bookkeeper.test.AsyncLedgerOpsTest
+39449,org.apache.hedwig.jms.selector.PropertyExprFunction
+39574,org.apache.bookkeeper.benchmark.TestBenchmark
+39602,org.apache.bookkeeper.benchmark.BenchThroughputLatency
+39784,org.apache.hedwig.jms.jndi.HedwigInitialContextFactory
+39920,org.apache.bookkeeper.replication.TestAutoRecoveryAlongWithBookieServers
+39974,org.apache.bookkeeper.proto.TestBKStats
+39978,org.apache.hedwig.client.netty.TestMultiplexing
+40081,org.apache.hedwig.server.meta.MetadataManagerFactoryTestCase
+40100,org.apache.bookkeeper.bookie.UpdateCookieCmdTest
+40154,org.apache.activemq.perf.ConnectionChurnTest
+40194,org.apache.activemq.usecases.ChangeSessionDeliveryModeTest
+40304,org.apache.hedwig.server.meta.TestMetadataManager
+40365,org.apache.hedwig.server.topics.TestMMTopicManager
+40451,org.apache.hedwig.server.persistence.TestLocalDBPersistenceManagerBlackBox
+40459,org.apache.bookkeeper.replication.AuditorBookieTest
+41073,org.apache.hedwig.jms.selector.ValueComparisonFunction
+41229,org.apache.activemq.test.JmsTopicSendReceiveWithTwoConnectionsAndByteSelectorTest
+41235,org.apache.bookkeeper.util.TestDiskChecker
+41467,org.apache.bookkeeper.client.LedgerCloseTest
+41582,org.apache.bookkeeper.bookie.MarkerFileChannel
+*Edges: 2019
+10231 77 3
+8451 10231 1
+29863 78 3
+29863 3095 1
+29863 3520 8
+29863 77 3
+29767 10231 2
+29767 2920 2
+32189 8450 1
+32189 8354 7
+30391 78 1
+30391 3095 1
+30391 3520 69
+30391 8451 41
+30391 8320 34
+30391 2291 2
+30391 1724 1
+6361 3065 4
+20061 10231 2
+20061 2920 2
+20061 8451 2
+30599 3520 14
+30599 8451 3
+30599 8320 8
+22545 3520 4
+22545 2292 1
+22545 8451 5
+22545 8320 3
+22545 2291 2
+36428 10231 2
+36428 2920 2
+22039 10231 2
+22039 2920 2
+32201 8451 3
+32201 8320 1
+32201 2291 1
+32607 10231 2
+32607 2920 2
+31666 10231 2
+31666 2920 2
+31666 8451 2
+7719 78 2
+7719 10231 2
+7719 2920 2
+28082 78 2
+28082 77 3
+6387 10231 2
+6387 2920 5
+36892 34018 2
+10915 2920 3
+10915 8451 3
+10915 5189 2
+1479 1487 1
+1479 1485 4
+8354 8450 10
+8354 10231 3
+8354 8451 3
+8354 2291 2
+18843 78 1
+18843 77 3
+35078 10231 4
+10861 10231 1
+10861 2920 1
+16632 10231 2
+16632 2920 11
+16632 8451 2
+2890 10231 2
+2890 2920 2
+2890 8451 3
+8320 3095 1
+8320 10231 2
+8320 8451 3
+27997 5197 2
+27997 8451 1
+27997 5189 2
+3065 10231 2
+3065 2920 5
+3065 8451 2
+34018 10231 2
+34018 2920 7
+34018 8451 2
+25604 25607 2
+25607 10861 2
+25607 10231 1
+25607 2920 6
+25607 8451 2
+16907 10861 2
+16907 10231 1
+16907 2920 6
+16905 16907 1
+36152 16907 1
+36152 10861 1
+1487 29283 1
+1487 1485 3
+29283 3095 1
+29283 77 2
+29283 7777 15
+29283 1724 1
+29283 1485 11
+37673 3520 4
+37673 8451 8
+37673 8320 6
+22717 78 1
+22717 77 3
+8304 3520 4
+8304 8451 2
+8304 8320 1
+8304 2291 2
+2920 78 4
+2920 3520 1
+2920 2292 2
+2920 8451 5
+2920 2291 1
+7964 78 1
+7964 77 1
+4291 1948 3
+4291 1950 3
+4264 1950 1
+4264 4291 4
+33652 78 1
+33652 4264 6
+33652 77 4
+33652 4291 15
+40154 78 1
+40154 77 3
+6616 78 1
+2849 78 4
+2849 77 3
+6636 77 2
+4512 78 1
+4512 77 3
+1902 1948 3
+1902 1950 4
+17087 1950 4
+6648 78 1
+29022 29034 2
+29022 17087 2
+29022 1902 1
+25220 17086 3
+25220 17087 2
+25220 1902 2
+29034 78 3
+29034 17086 8
+29034 17087 2
+29034 1902 2
+17079 17086 1
+17079 17087 2
+17086 78 1
+17086 77 3
+17086 17087 7
+17086 1950 10
+17086 1902 7
+16156 1902 4
+27401 16156 1
+27401 17086 4
+27401 17087 2
+27401 1902 1
+27394 16156 1
+27394 27401 1
+27394 1902 2
+5197 3095 2
+5197 10231 1
+5197 2920 1
+5197 2291 4
+5197 1724 1
+5189 10231 1
+5189 5197 2
+5189 2920 4
+5189 8451 2
+41229 24496 1
+24496 10231 1
+24496 5197 2
+24496 2920 4
+7777 78 4
+7777 77 3
+7777 2292 2
+7777 2291 2
+31620 7777 3
+40194 7777 3
+24486 5197 1
+24486 2920 1
+24486 24496 1
+24486 2291 1
+36071 10231 1
+36071 5197 5
+36071 2920 5
+36071 2291 1
+27451 8450 3
+27451 6094 1
+27451 10231 2
+27451 2920 3
+27451 8451 1
+32104 25758 7
+32104 77 2
+33961 78 1
+33961 77 2
+33961 2291 1
+11972 78 1
+11972 77 2
+11972 7777 7
+28313 10231 1
+28313 2920 2
+22866 77 2
+22866 2291 1
+2 78 3
+2 77 1
+6006 78 6
+6006 3095 4
+6006 6094 9
+6006 3520 8
+6006 77 2
+6006 1724 4
+36676 26182 8
+36676 10231 1
+36676 8451 2
+36676 2291 2
+29874 25758 4
+29874 77 2
+3816 3818 2
+3818 5197 1
+3818 2294 1
+3818 2920 2
+3818 24496 2
+21923 78 3
+21923 7777 1
+25758 78 4
+25758 77 3
+25758 2292 2
+25758 2291 2
+8214 77 1
+8214 5401 6
+8214 7777 13
+32577 78 1
+32577 77 2
+32577 2291 1
+4139 78 1
+4139 77 2
+4139 2291 1
+5401 2291 1
+38213 531 3
+38213 875 1
+38213 4209 5
+38213 4061 2
+38213 533 2
+38213 2227 3
+6788 531 3
+6788 875 4
+6788 533 4
+39602 530 1
+39602 531 4
+39602 875 8
+39602 3775 1
+39602 533 5
+27405 531 1
+27405 533 1
+39574 531 6
+39574 2229 3
+39574 4722 5
+39574 533 5
+39574 6788 1
+39574 38213 1
+39574 2227 2
+39574 39602 1
+1327 530 2
+1327 531 3
+1327 875 3
+2036 5802 7
+2036 3715 4
+2036 5798 2
+2036 937 2
+2036 2038 1
+2036 5803 11
+2036 2980 4
+2036 5808 1
+2036 1306 32
+2036 5797 7
+2036 2227 5
+2036 536 1
+2036 5795 1
+2036 5295 2
+2036 3777 4
+2036 5807 1
+2036 5790 1
+2036 3796 1
+2036 2039 17
+2036 5800 2
+2036 3775 3
+30332 2036 1
+30332 5797 2
+5800 2036 2
+5800 5797 1
+5798 5889 3
+30243 2036 5
+30243 875 2
+30243 2525 1
+30243 2034 9
+30243 4722 12
+30243 1306 38
+30243 2039 2
+30243 7106 7
+30243 3775 5
+24503 2036 99
+24503 5802 2
+24503 1607 6
+24503 2034 11
+24503 3726 5
+24503 5294 2
+24503 1605 1
+24503 5291 18
+24503 5292 20
+24503 3796 1
+24503 1306 33
+24503 5797 2
+23932 2036 2
+23932 23907 3
+23932 1607 5
+23932 2037 2
+23932 24342 1
+23932 5294 1
+23932 1543 5
+23932 1306 5
+23932 2039 1
+23932 2234 1
+23932 19978 2
+23932 3775 1
+23932 10503 3
+23932 5797 5
+31532 2036 1
+31532 530 1
+31532 531 1
+31532 2229 4
+31532 533 3
+5292 28224 3
+5292 1605 2
+28224 28244 4
+4307 2036 6
+4307 531 13
+4307 3777 2
+4307 2229 11
+4307 2037 1
+4307 2034 2
+4307 937 1
+4307 533 27
+4307 2038 20
+4307 4460 6
+4307 532 1
+4307 2035 2
+4307 2039 4
+4307 1306 38
+5803 2036 2
+5803 536 2
+5803 11922 3
+5803 1306 7
+5803 3775 2
+5803 2227 2
+22050 2036 54
+22050 536 5
+22050 875 2
+22050 5295 1
+22050 5213 6
+22050 2525 2
+22050 2034 17
+22050 4722 22
+22050 5803 10
+22050 11922 2
+22050 1306 80
+4083 2039 2
+4083 2037 4
+4083 2034 1
+4083 1306 2
+1054 22576 1
+1025 1054 4
+1958 2038 6
+1958 2036 13
+1958 2039 2
+1958 2037 17
+1958 2034 4
+1958 1306 6
+2037 28244 5
+2037 5292 9
+2037 3796 2
+2037 2039 7
+2037 1306 6
+2037 28224 7
+6407 1025 10
+6407 1263 4
+6407 1306 3
+6407 1054 6
+6407 937 12
+5296 536 2
+5296 5803 5
+5296 1306 11
+5296 18067 2
+2035 23337 1
+2035 2369 3
+2035 5889 2
+2035 2037 9
+2035 1306 8
+2035 937 4
+5808 5802 5
+3685 532 4
+3685 531 6
+3685 3715 6
+3685 2229 6
+3685 1306 4
+3685 533 7
+34522 1306 3
+34522 5294 5
+34522 1543 18
+5294 2369 5
+5294 1607 33
+5294 2039 7
+5294 1306 2
+5294 1543 12
+2038 2369 2
+2038 2035 3
+2038 2039 4
+2038 2037 7
+2038 1306 2
+2038 7556 1
+2038 937 6
+5797 2036 1
+5797 23907 6
+5797 5798 2
+5797 28497 1
+5797 937 4
+5797 1605 1
+5797 5291 12
+5797 5292 9
+5797 3796 1
+5797 1306 21
+5797 2039 3
+5291 21602 2
+5291 5292 5
+5291 1605 1
+22576 1054 2
+7556 2369 2
+7556 2039 2
+7556 1306 3
+7556 5294 11
+7556 34522 8
+39007 2036 14
+39007 2369 2
+39007 1607 7
+39007 3777 3
+39007 2034 4
+39007 5294 1
+39007 34522 1
+39007 2038 8
+39007 1306 23
+39007 2039 1
+39007 7556 4
+5802 21950 1
+5802 21941 1
+21950 5802 1
+21950 5295 1
+21941 21950 2
+2039 2036 1
+2039 1306 5
+2039 25395 2
+1543 1607 2
+1543 1054 9
+1543 1605 1
+24342 2039 1
+24342 2037 2
+24342 1306 2
+19978 1607 2
+23337 2369 3
+1263 1306 3
+5807 2038 12
+5807 1025 2
+5807 2039 2
+5807 1306 1
+5807 6407 8
+3715 1306 3
+3715 937 2
+17155 2036 2
+17155 2039 5
+17155 2034 1
+17155 1306 3
+28653 3715 13
+28653 2034 4
+40100 2036 3
+40100 536 4
+40100 2229 3
+40100 23932 4
+40100 5803 15
+40100 1306 16
+40100 7106 4
+40100 3775 1
+40100 2227 1
+5213 2036 11
+5213 5295 2
+5213 1607 3
+5213 2034 2
+5213 5296 8
+5213 3726 1
+5213 5294 1
+5213 4722 9
+5213 5291 4
+5213 5292 3
+5213 1306 8
+531 16886 2
+531 5795 1
+531 875 15
+531 21969 2
+531 4209 6
+531 3777 6
+531 533 5
+531 25282 2
+531 530 6
+531 23657 5
+531 19851 4
+531 5796 1
+531 4061 5
+531 23656 22
+531 2799 1
+2525 531 10
+2525 533 6
+2525 530 4
+2525 2527 4
+2525 19851 8
+2525 5796 2
+2525 2234 1
+2525 2227 12
+2525 5795 2
+2525 875 8
+2525 3777 1
+2525 2233 4
+2525 3796 1
+2525 23657 3
+2525 3775 9
+2525 23656 14
+25972 530 1
+25972 531 27
+25972 2525 5
+25972 2232 4
+25972 2229 8
+25972 533 18
+38363 531 19
+38363 875 12
+38363 4722 8
+38363 2134 2
+38363 533 10
+8176 531 4
+8176 23657 1
+8176 875 1
+27132 531 14
+27132 875 15
+27132 4209 1
+27132 2525 26
+27132 2229 26
+27132 4722 7
+27132 533 4
+27132 530 2
+27132 532 3
+27132 19701 2
+27132 2234 7
+27132 3775 4
+27132 2227 18
+23657 4062 1
+23657 531 7
+23657 875 1
+23657 4209 1
+23657 3775 1
+23657 2227 2
+25556 531 3
+25556 19701 2
+25556 2234 2
+25556 2229 7
+25556 3775 2
+25556 533 19
+3745 3746 2
+3726 3746 1
+3726 2234 1
+3726 533 1
+3726 3745 1
+39112 2227 2
+3746 27984 1
+3746 3745 1
+2232 531 2
+2232 4209 5
+2232 2234 3
+2232 2233 11
+2232 533 8
+41467 531 7
+41467 875 6
+41467 2229 8
+41467 4722 1
+41467 533 17
+41467 8176 1
+41467 1306 3
+41467 2232 2
+25282 530 1
+25282 531 5
+25282 23657 1
+25282 875 1
+25282 2234 5
+25282 937 3
+25282 533 3
+16886 531 4
+16886 937 1
+2233 2234 3
+2233 533 6
+2233 2227 1
+2527 531 3
+2527 2234 1
+2527 3775 1
+2527 2233 16
+2527 533 10
+2527 2227 7
+533 7679 1
+533 531 12
+533 530 6
+533 4165 8
+533 2234 22
+533 3746 3
+533 4061 2
+533 2227 2
+533 27985 2
+533 875 1
+533 27984 1
+533 11057 2
+533 23657 1
+533 11056 2
+533 23656 13
+533 11006 2
+5449 2234 1
+5449 533 2
+2234 2227 4
+19851 531 8
+19851 875 3
+19851 2234 8
+19851 937 1
+19851 9909 1
+19851 533 4
+11006 530 2
+11006 532 2
+11006 2234 1
+11006 11057 1
+11006 11056 2
+11006 533 6
+37704 530 1
+37704 531 18
+37704 2229 21
+37704 1306 1
+37704 2134 2
+37704 533 38
+4695 531 4
+4695 875 6
+4695 2525 6
+4695 4722 6
+4695 2134 2
+4695 533 2
+27984 3746 2
+4165 531 1
+4165 4209 1
+4165 937 2
+4165 533 9
+4165 2227 1
+11057 531 2
+11057 875 1
+11057 4209 1
+11057 937 2
+11057 533 4
+11057 530 1
+11057 532 2
+11057 2234 5
+11057 2227 1
+8067 7883 6
+8067 2799 1
+8067 2227 7
+11056 4209 2
+11056 3746 1
+11056 2234 1
+11056 533 2
+9909 530 2
+9909 531 4
+9909 2234 4
+9909 4061 1
+9909 533 5
+10531 7679 6
+25017 531 8
+25017 875 9
+25017 2232 4
+25017 2229 11
+25017 1306 2
+25017 4722 3
+25017 533 8
+23656 533 3
+25886 531 13
+25886 2525 4
+25886 2234 2
+25886 2229 3
+25886 4722 2
+25886 2134 2
+25886 533 41
+2140 531 18
+2140 2234 13
+2140 2232 2
+2140 2229 26
+2140 533 42
+2140 2227 10
+2433 531 4
+2433 2525 7
+2433 2229 12
+2433 2233 9
+2433 533 19
+2433 530 1
+2433 2527 1
+2433 532 1
+2433 2234 6
+2433 2232 2
+2433 2227 8
+7983 8067 6
+7983 8066 33
+7983 2227 64
+8325 531 1
+8325 875 2
+8325 2234 3
+8325 2229 3
+8325 533 5
+16994 531 13
+16994 875 4
+16994 2229 1
+16994 11057 1
+16994 4722 1
+16994 2134 2
+16994 533 29
+16994 2234 7
+16994 2227 4
+7112 531 6
+7112 2229 3
+7112 533 23
+36752 531 2
+36752 3777 3
+36752 2234 1
+36752 2229 3
+36752 3775 2
+36752 533 9
+36752 2799 1
+27985 4209 1
+27985 3746 1
+27985 2234 1
+27985 533 2
+3775 2799 1
+875 3775 5
+875 2799 1
+1306 3775 5
+1306 2799 1
+2034 1306 5
+3783 5795 1
+3783 11922 2
+3783 2234 3
+3783 3775 3
+21969 2234 2
+3778 5795 1
+3778 2234 2
+3778 3783 3
+3778 3775 1
+3778 17344 1
+3751 3782 1
+3751 3777 2
+3751 3783 1
+3751 3775 3
+3751 3778 1
+23256 6314 9
+23256 23337 3
+23256 2369 2
+23256 2234 1
+17195 5795 1
+17195 2234 1
+17195 3783 3
+17195 3775 1
+17195 17344 3
+22955 3782 1
+22955 17195 2
+22955 3777 2
+22955 3775 3
+35795 875 5
+35795 2229 2
+35795 3775 8
+35795 22954 15
+3777 3751 1
+3777 3775 12
+3777 22954 21
+3777 2799 2
+6308 6314 3
+6314 2369 2
+6314 3777 4
+6314 2229 4
+6314 3775 1
+27362 3782 1
+27362 18703 1
+27362 11112 2
+27362 3777 2
+27362 3775 3
+27362 17344 1
+25108 875 3
+25108 3777 11
+25108 2229 2
+25108 4722 3
+25108 3775 10
+25108 22954 6
+31989 11922 13
+3782 5790 1
+3782 5795 1
+3782 10840 1
+3782 3775 2
+11555 11413 2
+11561 11107 1
+11561 11112 1
+11561 536 2
+11561 11413 1
+11413 11559 1
+11413 11561 1
+11413 536 13
+11413 11556 8
+11413 11555 1
+18703 10500 1
+18703 2799 1
+18702 18704 2
+18704 536 2
+18704 11556 1
+11112 536 4
+33390 11112 1
+18530 18703 1
+18530 11112 5
+18530 536 5
+18530 11556 10
+18530 18704 22
+18530 18702 6
+7882 17896 1
+7882 6318 2
+7883 17653 12
+7834 7882 2
+7834 6318 2
+4209 31638 1
+4209 4063 2
+4209 875 7
+4209 4061 5
+4209 2227 6
+36967 2036 1
+36967 1306 6
+36967 2227 1
+11173 1306 1
+941 2036 2
+941 16311 1
+941 16320 2
+941 16313 1
+941 16310 3
+941 16314 2
+941 16319 1
+941 1306 7
+941 16312 2
+7106 2036 13
+7106 29782 2
+7106 16620 5
+7106 941 1
+7106 2980 2
+7106 36967 7
+7106 1306 21
+7106 2227 1
+7106 2799 1
+29782 2036 1
+29782 1306 4
+29782 7106 2
+29782 3930 4
+29782 16310 4
+29782 2227 1
+31638 4063 7
+31638 937 1
+31638 2227 2
+16320 16319 1
+16320 941 2
+16320 937 3
+913 941 2
+913 937 3
+4063 875 6
+4063 4061 6
+4063 2227 10
+16313 16319 2
+16313 2036 2
+16313 941 1
+16313 5295 2
+16313 16320 4
+16313 937 3
+16314 2036 2
+16314 941 1
+16314 913 5
+16314 5295 2
+16314 937 3
+3930 937 1
+19434 16620 1
+19434 2229 4
+19434 1306 2
+19434 7106 3
+3974 4063 12
+3974 2229 8
+3974 4061 8
+16311 16319 3
+16311 2036 3
+16311 941 1
+16311 5295 1
+16311 16320 5
+16311 937 4
+16311 2227 1
+16312 2036 3
+16312 941 1
+16312 913 5
+16312 5295 1
+16312 937 1
+10675 5795 1
+10675 531 5
+10675 875 2
+10675 3777 3
+10675 2525 8
+10675 530 3
+10675 5796 1
+10675 1306 7
+10675 2232 1
+10675 10840 1
+10675 10839 3
+10675 2227 1
+40459 5795 1
+40459 8205 4
+40459 5796 1
+40459 2229 9
+40459 7106 12
+40459 4722 1
+40459 3775 1
+40459 2227 7
+8205 1306 4
+8205 3775 2
+8205 10675 4
+8205 2227 2
+16772 2036 1
+16772 531 1
+16772 2229 4
+16772 533 12
+16772 3782 14
+16772 530 1
+16772 8205 3
+16772 1306 1
+16772 7106 3
+16772 3775 2
+16772 16875 2
+16772 2227 2
+8181 5795 1
+8181 531 1
+8181 3777 3
+8181 2229 4
+8181 2034 1
+8181 5449 1
+8181 4722 1
+8181 533 2
+8181 8205 4
+8181 5796 1
+8181 1306 2
+8181 2234 1
+8181 2227 1
+38006 2036 3
+38006 5795 1
+38006 531 6
+38006 3777 6
+38006 2229 9
+38006 30332 2
+38006 5294 1
+38006 4722 1
+38006 533 13
+38006 530 1
+38006 8205 4
+38006 5796 1
+38006 1306 3
+38006 10675 1
+38006 2227 1
+26892 531 1
+26892 8205 1
+26892 3777 2
+26892 2229 4
+26892 1306 1
+26892 533 3
+16620 2036 2
+16620 5795 1
+16620 8205 5
+16620 1306 8
+16620 16621 4
+16620 10675 1
+16620 2227 1
+16610 8205 9
+16610 16620 10
+16610 2229 2
+16610 16621 9
+16610 4722 2
+10546 531 5
+10546 3777 6
+10546 2229 42
+10546 5449 13
+10546 4722 1
+10546 533 10
+10546 3782 1
+10546 8176 3
+10546 1306 8
+10546 2234 13
+10546 7106 2
+10546 3775 2
+10546 10675 2
+10546 2227 13
+35324 531 1
+35324 3777 4
+35324 2229 4
+35324 533 8
+35324 530 1
+35324 3775 2
+35324 10839 6
+35324 16875 2
+10839 530 1
+16621 531 3
+16621 875 1
+16621 5889 1
+16621 3777 2
+16621 2525 8
+16621 2233 4
+16621 533 3
+16621 530 2
+16621 2234 2
+16621 1306 4
+16621 2232 3
+16621 2227 4
+39920 531 2
+39920 2229 5
+39920 5449 2
+39920 533 5
+39920 532 1
+39920 22769 1
+39920 1306 1
+39920 2234 2
+39920 3775 1
+39920 2227 2
+17675 3782 1
+17675 5795 2
+17675 5796 2
+17675 3777 24
+17675 2034 1
+17675 1306 2
+17675 4722 7
+17675 3775 1
+25408 531 13
+25408 3726 2
+25408 16621 35
+25408 5449 10
+25408 4722 2
+25408 533 44
+25408 5796 2
+25408 1306 1
+25408 2234 10
+25408 7106 1
+25408 16875 2
+25408 2227 29
+25408 2036 1
+25408 5795 2
+25408 2229 25
+25408 3777 8
+25408 532 1
+25408 22769 11
+25408 3775 4
+19797 5891 1
+5934 1541 2
+5891 5934 1
+25521 1541 2
+25254 25279 1
+25279 25521 1
+25279 1793 1
+31586 1541 2
+23486 31587 1
+23486 31586 1
+23474 23486 1
+23474 6745 4
+1179 530 2
+1179 532 1
+1179 533 10
+19700 530 2
+19700 533 5
+39134 531 2
+39134 19701 2
+39134 2229 1
+39134 3775 2
+39134 533 15
+2134 2229 2
+2229 2036 1
+2229 531 1
+2229 875 2
+2229 16620 5
+2229 4722 6
+2229 5289 1
+2229 8176 6
+2229 1306 20
+2229 7106 18
+2229 11555 1
+2229 3775 3
+2229 10675 1
+2229 2227 12
+29367 875 2
+29367 4209 21
+29367 2034 1
+29367 1306 5
+29367 7106 4
+29367 4061 3
+29367 2227 2
+34142 531 15
+34142 2229 11
+34142 533 31
+34142 530 1
+34142 8176 2
+34142 19701 2
+34142 7106 4
+34142 3775 2
+30172 530 1
+30172 532 2
+30172 531 3
+30172 2229 9
+30172 2034 2
+30172 1306 6
+30172 533 11
+19472 1179 6
+19472 531 30
+19472 19700 6
+19472 2229 1
+19472 533 124
+19472 530 15
+19472 532 4
+19472 19701 2
+19472 3775 2
+38467 875 1
+38467 2229 3
+38467 1306 2
+38467 7106 8
+38467 4722 1
+38467 5289 1
+2111 531 3
+2111 2134 2
+2111 533 5
+31477 2036 6
+31477 1306 5
+22181 530 1
+22181 8176 1
+22181 531 3
+22181 2229 1
+22181 2134 2
+22181 533 5
+26211 875 2
+26211 1306 12
+26211 3775 1
+33718 531 5
+33718 2229 4
+33718 1306 2
+33718 533 6
+28190 530 1
+28190 4460 2
+28190 531 3
+28190 2229 3
+28190 1306 5
+28190 3775 2
+28190 533 4
+28190 16875 2
+16709 875 1
+16709 4209 3
+16709 4061 3
+16709 2227 3
+19701 2229 2
+16875 2229 2
+8084 530 1
+8084 8176 2
+8084 531 3
+8084 875 1
+8084 2229 4
+8084 533 6
+25799 2036 17
+25799 531 8
+25799 2229 20
+25799 4722 1
+25799 533 14
+25799 530 1
+25799 8176 3
+25799 532 3
+25799 1306 6
+25799 2039 7
+6895 2036 1
+6895 875 1
+6895 5295 2
+6895 2525 1
+6895 5296 1
+6895 4722 4
+6895 5289 5
+4722 5795 1
+4722 5796 3
+7763 2525 3
+7763 2227 2
+33395 1306 9
+33395 7106 3
+33395 937 2
+16758 4209 1
+16758 7106 1
+4061 4062 2
+4061 937 2
+7881 937 2
+8066 6318 1
+10522 10503 1
+41235 25395 10
+4460 2036 1
+5795 5796 3
+32771 33468 3
+32672 5796 2
+32672 3305 23
+32672 32771 4
+32672 4722 9
+3305 3266 14
+3305 5796 14
+3305 32771 2
+3266 3305 2
+3266 937 4
+77 3656 7
+77 883 1
+1100 537 1
+719 531 6
+719 875 2
+719 882 1
+719 544 12
+719 533 2
+719 881 2
+719 547 10
+719 883 1
+719 877 1
+36159 719 3
+36159 3508 4
+36159 937 2
+36159 544 1
+36159 11208 4
+36159 2823 1
+36159 28266 1
+36159 1724 1
+28266 11208 1
+28266 719 3
+16544 530 2
+16544 719 9
+16544 532 3
+16544 531 1
+16544 533 1
+3508 11118 2
+3508 1724 2
+32833 32569 9
+32833 3508 17
+3594 3658 1
+3594 3656 1
+3594 3508 10
+6669 6723 1
+6669 6726 2
+6669 6724 2
+6669 937 2
+29762 6726 2
+29762 6724 2
+29762 937 1
+6723 937 1
+6726 6669 3
+6726 3508 4
+6726 29762 5
+6726 1724 1
+1724 2823 1
+1724 883 6
+1725 1010 2
+3046 579 2
+3046 17185 1
+3046 8296 1
+3046 1009 4
+3046 883 6
+3046 1729 2
+3046 1724 5
+3037 3046 3
+3037 1009 4
+3037 1724 1
+19984 579 1
+19984 537 1
+19984 543 1
+19984 1726 2
+19984 1724 2
+20050 537 3
+20050 1009 2
+8278 3046 3
+8278 1009 3
+8278 1724 1
+1726 3046 2
+1726 1010 7
+1726 1724 1
+21956 3046 3
+21956 1009 4
+21956 1724 1
+11118 20011 3
+11118 19964 4
+11118 5176 1
+11118 2561 1
+11118 1724 7
+20011 6868 1
+20011 20050 4
+20011 11118 2
+20011 1009 2
+19964 6868 4
+19964 1730 1
+19964 1494 2
+19964 21894 2
+19964 11118 3
+19964 3510 4
+19964 1726 3
+19964 20050 5
+19964 1009 3
+19964 1010 6
+19964 1724 3
+1729 1009 5
+1729 1010 3
+39978 3656 3
+39978 3508 5
+6868 537 1
+1017 21894 3
+1017 19984 3
+1017 24460 1
+1017 2638 3
+1017 1729 3
+1017 33577 1
+1017 579 11
+1017 2640 2
+1017 16766 3
+1017 2637 6
+1017 1009 6
+1017 1010 4
+1017 1724 5
+1618 1494 1
+1618 543 4
+1618 1729 1
+1618 1726 2
+1618 1740 18
+1618 537 2
+1618 579 12
+1618 1017 2
+1618 3046 1
+1618 1009 7
+1618 1010 12
+1618 1734 3
+1618 1724 3
+1740 1730 3
+1740 1494 1
+1740 543 2
+1740 21894 1
+1740 988 1
+1740 1729 2
+1740 579 7
+1740 1017 7
+1740 1725 1
+1740 1009 6
+1740 1011 1
+1740 1010 11
+1740 1724 5
+2638 3003 1
+2638 2639 2
+2638 1017 4
+2638 1724 3
+24460 2640 3
+24460 1017 3
+2639 579 5
+2639 1017 7
+2639 3046 1
+2639 1009 6
+2639 1729 3
+2639 1726 4
+2639 1724 4
+2640 2639 3
+2640 2638 4
+2640 1729 2
+2640 579 2
+2640 1017 7
+2640 2636 4
+2640 30157 1
+2640 1009 5
+2640 883 1
+33577 21956 1
+33577 8278 1
+33577 1017 1
+33577 2638 2
+33577 1724 1
+988 579 2
+988 537 1
+988 1017 6
+988 1011 1
+988 1009 4
+988 1010 2
+30157 2640 1
+30157 2639 2
+30157 2636 1
+30157 1009 3
+30157 883 1
+30157 1729 1
+2561 2639 3
+2561 2638 1
+2561 1729 1
+2561 1726 8
+2561 2640 5
+2561 579 1
+2561 2637 12
+2561 2641 1
+2561 2636 3
+2561 1017 2
+2561 1009 2
+2561 1011 2
+2561 1010 14
+2561 1734 3
+2561 1724 1
+33037 579 1
+33037 2561 3
+33037 1618 4
+33037 1009 3
+33037 1010 2
+33037 1734 4
+33037 1729 1
+33037 1724 1
+2641 2561 1
+2641 33037 1
+2641 3037 1
+2641 2638 2
+2641 1724 1
+5176 2639 4
+5176 2638 1
+5176 1729 2
+5176 1726 6
+5176 2640 7
+5176 579 1
+5176 2637 8
+5176 2636 4
+5176 1017 3
+5176 10393 1
+5176 1009 4
+5176 1011 2
+5176 1010 11
+5176 1734 3
+5176 1724 1
+5103 2639 1
+5103 5176 2
+5103 543 1
+5103 1618 4
+5103 2640 1
+5103 1740 3
+5103 1009 1
+5103 1010 4
+5103 1724 1
+5103 1734 4
+10393 5176 1
+10393 5103 1
+10393 3037 1
+10393 2638 2
+10393 1724 1
+16766 3003 2
+16766 1724 1
+31402 10503 6
+6525 6607 1
+6525 77 3
+6525 6609 9
+6525 2291 2
+3520 28762 45
+3520 3512 2
+3520 1948 3
+3520 2291 10
+2291 28762 67
+2291 3520 18
+2291 9699 1
+2291 23902 1
+2291 20217 2
+2291 7191 1
+2291 3512 8
+2291 2251 2
+2291 2294 2
+2291 2292 29
+28762 3512 1
+28762 2291 2
+39784 6607 1
+9699 2292 8
+9699 2291 5
+23902 2294 24
+23902 2292 7
+23902 2291 5
+2292 2294 18
+2292 18719 1
+2292 2291 13
+2292 2099 1
+2294 9699 3
+2294 23902 3
+2294 20217 3
+2294 7191 3
+2294 2291 4
+2294 2251 3
+2294 2292 23
+2294 18719 1
+20217 2294 2
+20217 2292 8
+20217 2291 5
+7191 6609 2
+7191 2292 8
+7191 2291 5
+2251 2292 10
+2251 2291 6
+29897 2251 1
+29897 2292 13
+36815 23453 1
+36815 19756 18
+36815 2099 3
+23453 5330 7
+23453 2292 1
+23453 19756 6
+23453 2099 2
+36000 5330 24
+36000 2099 3
+23434 23453 1
+23434 19756 5
+23434 2099 1
+29456 19756 8
+29456 2099 2
+19756 2099 8
+5330 2292 3
+34340 5330 104
+34340 2099 2
+29049 5330 6
+29049 2292 1
+29049 19756 2
+29049 2099 2
+19740 5330 6
+19740 2292 1
+19740 19756 2
+19740 2099 2
+41073 23453 1
+41073 19756 28
+41073 2099 5
+27125 2251 1
+27125 2292 2
+6104 2251 1
+6104 2292 39
+6104 2291 1
+78 3095 6
+3095 3520 9
+3095 3328 1
+3095 7439 2
+3095 2823 2
+3095 18053 2
+3095 2291 1
+3095 1724 3
+3328 3521 1
+3328 3520 4
+3328 3508 10
+3328 3510 2
+3328 2291 19
+3328 3512 1
+3328 3095 4
+3328 2294 3
+3328 2292 5
+3328 1011 1
+3328 3516 7
+25859 2291 3
+7439 3520 1
+7439 2291 5
+3521 3328 2
+3521 2294 2
+3521 2292 6
+3521 25859 12
+3521 2291 8
+18053 3520 1
+18053 2291 5
+3516 10401 8
+3516 3512 1
+3516 2292 2
+3516 2291 11
+2423 537 2
+1494 543 1
+1494 1518 2
+3656 3658 3
+3656 3219 4
+3656 883 1
+3656 544 1
+3656 5289 2
+10144 3658 4
+10144 3508 3
+10144 3219 4
+10144 883 3
+10144 544 1
+10144 5289 2
+10144 1724 2
+32569 3658 4
+32569 883 3
+32569 544 5
+26412 4722 11
+26412 5289 12
+30771 3658 3
+30771 5289 3
+7668 937 2
+7632 875 1
+7632 4209 4
+7632 4061 2
+7632 937 1
+7632 7668 2
+7632 2227 2
+7669 531 4
+7669 937 1
+7669 533 2
+7669 7668 2
+544 2823 2
+544 882 2
+544 883 5
+544 2799 1
+1110 546 1
+3657 546 2
+3657 2961 1
+3657 960 3
+3657 937 1
+3657 1010 4
+3657 544 3
+1111 1010 1
+17375 17481 2
+17375 3657 8
+17375 2823 2
+17375 1101 4
+17375 572 2
+21609 3656 4
+21609 3508 7
+38765 537 1
+38765 3656 4
+38765 3508 5
+38765 1724 1
+2806 544 2
+26359 2806 2
+26359 1124 2
+26359 2804 1
+26359 2802 2
+26359 544 1
+26360 2806 2
+26360 2804 1
+26360 544 1
+26361 1124 3
+26362 2806 2
+26362 2423 1
+26362 572 1
+26362 937 1
+26362 2804 1
+26362 2802 2
+26362 544 2
+1123 2806 2
+1123 2423 1
+1123 1124 2
+1123 937 1
+1123 2804 1
+1123 2802 4
+1123 544 1
+1124 2423 1
+1124 579 6
+1124 1010 4
+19711 17481 5
+19711 1113 4
+1063 1123 2
+1063 1110 1
+1063 1111 1
+1063 1118 1
+1063 1128 1
+1063 1125 2
+1063 1119 3
+1063 1113 7
+1063 1114 1
+1063 1124 2
+1063 1010 3
+1063 1117 4
+1125 2806 2
+1125 1124 2
+1125 937 1
+1125 2804 1
+1125 2802 2
+1125 544 1
+8081 11322 7
+8081 11384 1
+8081 3508 9
+8081 3510 4
+8081 5404 1
+8081 3259 4
+8081 3656 4
+8081 1113 1
+8081 3219 2
+8081 1011 1
+8081 1724 1
+8076 8081 2
+29628 8081 2
+10690 8081 2
+21726 3508 11
+21726 10144 8
+2972 2980 1
+877 10931 1
+877 544 5
+547 544 5
+547 2799 2
+547 877 12
+40081 11083 3
+40081 2823 1
+40081 547 3
+40081 11555 1
+40081 544 2
+33093 11107 3
+33093 18703 1
+33093 537 1
+33093 2823 1
+33093 10500 1
+33093 547 2
+33093 544 5
+33093 33390 3
+23343 11083 1
+23343 10931 1
+23343 544 2
+23343 877 8
+40304 536 20
+40304 881 3
+40304 547 3
+40304 40081 2
+40304 883 3
+40304 1734 34
+20080 11083 1
+20080 547 5
+20080 544 3
+20080 877 2
+5388 547 1
+5388 544 4
+3658 23785 1
+3658 1123 1
+3658 530 1
+3658 3101 2
+3658 2961 4
+3658 1119 1
+3658 2988 1
+3658 1124 3
+3658 85 1
+3658 1734 2
+3658 1724 4
+3658 1118 1
+3658 26361 2
+3658 26364 1
+3658 2823 2
+3658 1114 1
+3658 26362 1
+3658 531 3
+3658 5100 1
+3658 16030 1
+3658 4990 1
+3658 544 22
+3658 537 1
+3658 1125 1
+3658 547 3
+3658 26363 4
+3658 26359 1
+3658 875 1
+3658 26360 1
+3658 2972 4
+3658 3239 1
+3658 2804 1
+3658 11383 1
+3101 2802 14
+11383 3003 1
+11383 2988 2
+11383 2804 2
+32470 3658 7
+32470 32569 1
+32470 3508 2
+32470 544 2
+32470 5289 3
+2804 2423 1
+2804 2802 2
+3219 11083 3
+3219 531 2
+3219 875 1
+3219 26888 1
+3219 1306 14
+3219 7106 7
+3219 5289 1
+85 531 4
+85 543 1
+85 573 2
+85 574 1
+85 544 6
+85 533 2
+85 545 13
+85 547 2
+85 572 5
+17998 5013 1
+18444 546 1
+18444 22807 6
+1114 543 3
+1114 573 7
+1114 572 5
+1114 574 5
+16179 3656 3
+16179 3508 4
+16179 3219 5
+2961 573 3
+2961 960 4
+2961 937 1
+2961 18444 8
+2961 574 5
+2961 544 8
+2961 2972 2
+2961 572 4
+2961 17998 7
+2961 4061 4
+2961 2948 2
+2948 2961 2
+2948 544 1
+17482 543 3
+17482 573 15
+17482 572 9
+17482 960 3
+17482 574 10
+3220 1119 3
+3220 1734 3
+4739 875 3
+4739 573 7
+4739 4990 3
+4739 3218 1
+4739 1118 1
+4739 544 2
+4739 1128 3
+4739 537 1
+4739 1119 3
+4739 3219 5
+4739 2823 1
+4739 572 1
+4739 85 12
+4739 1734 4
+6342 4991 3
+6342 3219 5
+6342 547 3
+6342 85 1
+6342 1118 1
+3131 531 1
+3131 573 3
+3131 3218 4
+3131 1118 1
+3131 544 1
+3131 1119 18
+3131 3219 6
+3131 547 3
+3131 572 4
+3131 85 22
+3131 1734 2
+6215 3656 6
+6215 875 3
+6215 3508 5
+6215 2823 1
+6215 544 1
+40451 4991 3
+40451 1114 2
+4991 3218 1
+37665 4991 3
+37665 2961 2
+37665 1114 3
+19354 17482 1
+19354 3218 1
+19354 937 3
+19354 18444 2
+19354 2543 3
+19354 574 7
+19354 544 1
+19354 1119 2
+19354 2961 25
+19354 572 2
+19354 17998 6
+5404 1010 5
+11322 11386 1
+11322 3658 3
+11322 11388 1
+11322 11384 5
+11322 3508 10
+11322 11387 1
+11322 5404 3
+11322 11390 1
+11322 2823 1
+11322 11385 1
+11322 11391 1
+11322 11389 1
+11322 2804 1
+11322 11383 1
+11391 5404 2
+11391 2804 1
+11384 1724 1
+11388 2804 1
+11385 2804 1
+11390 5404 3
+11390 2423 2
+11390 1011 1
+11390 2804 1
+11389 5404 3
+11389 537 1
+11389 2804 1
+11386 5404 3
+11386 2804 1
+11386 1010 2
+11387 5404 3
+11387 2804 1
+3259 11119 2
+3259 11118 5
+3259 1724 2
+3239 3259 2
+3239 2823 2
+3239 883 1
+3239 544 2
+3239 1724 2
+11119 19964 6
+11119 11118 1
+26363 19964 2
+26363 11118 2
+26363 544 6
+26363 537 1
+26363 545 5
+26363 3259 3
+26363 3239 2
+26363 883 1
+2988 3003 2
+2988 544 4
+1128 1494 1
+1128 2675 2
+1128 545 8
+1128 544 3
+1128 880 11
+1116 1494 1
+26364 1128 2
+26364 545 1
+26364 544 1
+26364 880 2
+880 1494 2
+880 1518 1
+4990 1128 3
+4990 547 2
+4990 544 1
+1117 1128 1
+1117 26364 2
+1117 544 1
+23389 11083 2
+23389 1128 17
+23389 1119 6
+23389 1114 1
+23389 547 2
+23389 4990 2
+23389 1118 1
+23389 544 3
+21809 3656 6
+21809 3508 5
+16139 2675 2
+16139 545 5
+16139 883 1
+16139 544 7
+881 883 9
+16030 1119 1
+16030 881 3
+16030 16139 3
+16030 882 2
+16030 547 2
+16030 16141 1
+16030 544 1
+16030 1734 2
+17481 1118 3
+17481 883 1
+17481 544 1
+33495 3656 3
+33495 3508 5
+33495 3219 2
+29037 881 8
+29037 883 1
+3310 882 8
+40365 536 1
+40365 16030 12
+40365 40081 4
+40365 544 5
+40365 881 1
+40365 2823 2
+40365 16139 21
+40365 547 1
+40365 23784 6
+40365 883 2
+40365 1734 6
+1819 1888 8
+1819 881 2
+1819 882 11
+1819 883 1
+23697 11083 3
+23697 23785 13
+23697 881 2
+23697 16139 23
+23697 23784 6
+23697 883 5
+23697 544 9
+23697 1734 6
+1888 882 6
+1118 16139 3
+1118 544 1
+16141 881 3
+16141 882 5
+16141 10931 1
+16141 883 3
+16141 544 8
+23785 1119 1
+23785 881 1
+23785 16139 3
+23785 882 2
+23785 16141 1
+23785 544 2
+23785 1734 2
+37098 26888 1
+2065 883 27
+4233 693 10
+553 5100 1
+5023 5100 1
+11077 11083 1
+11077 10931 1
+11083 5289 1

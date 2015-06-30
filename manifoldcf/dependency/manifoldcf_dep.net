@@ -1,0 +1,4208 @@
+*Vertics: 979
+5,org.apache.manifoldcf.authorityservice.ServletListener
+17,org.apache.manifoldcf.authorities.system.ManifoldCF
+20,org.apache.manifoldcf.core.interfaces.ManifoldCFException
+21,org.apache.manifoldcf.core.interfaces.ThreadContextFactory
+26,org.apache.manifoldcf.crawler.interfaces.BucketDescription
+38,org.apache.manifoldcf.authorities.system.Logging
+46,org.apache.manifoldcf.core.system.Logging
+66,org.apache.manifoldcf.agents.common.XMLStringContext
+85,org.apache.manifoldcf.agents.common.XMLContext
+86,org.apache.manifoldcf.agents.common.XMLStream
+98,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.MockSessionWebService
+203,org.apache.manifoldcf.agents.interfaces.TransformationConnectorPoolFactory
+211,org.apache.manifoldcf.agents.system.ManifoldCF
+215,org.apache.manifoldcf.agents.transformationconnectorpool.TransformationConnectorPool
+220,org.apache.manifoldcf.crawler.connectors.webcrawler.FindPreferredRedirectionHandler
+238,org.apache.manifoldcf.crawler.system.Logging
+240,org.apache.manifoldcf.crawler.connectors.webcrawler.FindHandler
+252,org.apache.manifoldcf.crawler.connectors.cmis.CmisRepositoryConnectorUtils
+333,org.apache.manifoldcf.authorities.authority.AuthorityConnection
+374,org.apache.manifoldcf.core.interfaces.ConfigParams
+396,org.apache.manifoldcf.connectorcommon.jsongen.JSONStringReader
+421,org.apache.manifoldcf.connectorcommon.jsongen.JSONReader
+433,org.apache.manifoldcf.crawler.repository.RepositoryHistoryManager
+585,org.apache.manifoldcf.core.database.BaseTable
+589,org.apache.manifoldcf.crawler.interfaces.FilterCriteria
+590,org.apache.manifoldcf.crawler.interfaces.RegExpCriteria
+591,org.apache.manifoldcf.crawler.interfaces.SortOrder
+594,org.apache.manifoldcf.core.interfaces.IndexDescription
+595,org.apache.manifoldcf.core.interfaces.LockManagerFactory
+596,org.apache.manifoldcf.core.interfaces.ColumnDescription
+597,org.apache.manifoldcf.core.interfaces.UnitaryClause
+598,org.apache.manifoldcf.core.interfaces.IDFactory
+599,org.apache.manifoldcf.core.interfaces.ManifoldCFConfiguration
+650,org.apache.manifoldcf.crawler.connectors.wiki.WikiConfig
+697,org.apache.manifoldcf.core.interfaces.PersistentDatabaseObject
+703,org.apache.manifoldcf.meridio.MeridioDataSetException
+728,org.apache.manifoldcf.authorities.RegisterMapper
+747,org.apache.manifoldcf.authorities.BaseMappersInitializationCommand
+754,com.opentext.api.LLHTTPRedirectionException
+757,org.apache.manifoldcf.crawler.system.DocumentDeleteStufferThread
+804,org.apache.manifoldcf.crawler.system.DocumentDeleteQueue
+805,org.apache.manifoldcf.crawler.system.DocDeleteResetManager
+806,org.apache.manifoldcf.crawler.interfaces.DocumentDescription
+807,org.apache.manifoldcf.crawler.system.DeleteQueuedDocument
+811,org.apache.manifoldcf.crawler.system.DocumentDeleteSet
+812,org.apache.manifoldcf.crawler.system.ResetManager
+813,org.apache.manifoldcf.crawler.interfaces.RepositoryConnectionManagerFactory
+814,org.apache.manifoldcf.crawler.interfaces.JobManagerFactory
+815,org.apache.manifoldcf.crawler.system.ManifoldCF
+816,org.apache.manifoldcf.core.system.ManifoldCF
+817,org.apache.manifoldcf.core.interfaces.DBInterfaceFactory
+842,org.apache.manifoldcf.authorities.interfaces.AuthorizationDomainManagerFactory
+850,org.apache.manifoldcf.authorities.authdomains.AuthorizationDomainManager
+870,org.apache.manifoldcf.crawler.connectors.generic.api.Auth
+882,org.apache.manifoldcf.crawler.connectors.generic.api.BooleanAdapter
+884,org.apache.manifoldcf.crawler.connectors.alfrescowebscript.tests.BaseITHSQLDB
+913,org.apache.manifoldcf.crawler.tests.BaseITHSQLDB
+1070,org.apache.manifoldcf.core.interfaces.StringSet
+1072,org.apache.manifoldcf.core.interfaces.ResultSpecification
+1074,org.apache.manifoldcf.scriptengine.IfCommand
+1089,org.apache.manifoldcf.scriptengine.ScriptParser
+1090,org.apache.manifoldcf.scriptengine.Token
+1091,org.apache.manifoldcf.scriptengine.ScriptException
+1106,org.apache.manifoldcf.scriptengine.VariableDict
+1114,org.apache.manifoldcf.scriptengine.VariableBase
+1115,org.apache.manifoldcf.scriptengine.VariableInt
+1116,org.apache.manifoldcf.scriptengine.ContextVariableReference
+1129,org.apache.manifoldcf.agents.output.gts.GTSConnector
+1350,org.apache.manifoldcf.agents.system.Logging
+1352,org.apache.manifoldcf.agents.output.BaseOutputConnector
+1354,org.apache.manifoldcf.agents.output.gts.HttpPoster
+1355,org.apache.manifoldcf.core.interfaces.SpecificationNode
+1357,org.apache.manifoldcf.agents.interfaces.RepositoryDocument
+1358,org.apache.manifoldcf.core.interfaces.VersionContext
+1359,org.apache.manifoldcf.core.interfaces.Specification
+1360,org.apache.manifoldcf.agents.interfaces.ServiceInterruption
+1366,org.apache.manifoldcf.agents.output.gts.GTSConfig
+1367,org.apache.manifoldcf.core.interfaces.Configuration
+1368,org.apache.manifoldcf.core.interfaces.ConfigurationNode
+1369,org.apache.manifoldcf.agents.output.gts.Messages
+1371,org.apache.manifoldcf.ui.util.Encoder
+1373,org.apache.manifoldcf.connectorcommon.interfaces.KeystoreManagerFactory
+1440,org.elasticsearch.plugin.mapper.attachments.MapperAttachmentsPlugin
+1451,org.elasticsearch.plugin.mapper.attachments.AttachmentsIndexModule
+1866,org.apache.manifoldcf.crawler.interfaces.StatusFilterCriteria
+1867,org.apache.manifoldcf.crawler.interfaces.JobStatus
+1868,org.apache.manifoldcf.crawler.interfaces.DocumentSetAndFlags
+1869,org.apache.manifoldcf.crawler.interfaces.JobNotifyRecord
+1870,org.apache.manifoldcf.crawler.interfaces.JobDeleteRecord
+1871,org.apache.manifoldcf.crawler.interfaces.JobSeedingRecord
+1872,org.apache.manifoldcf.crawler.interfaces.JobStartRecord
+1873,org.apache.manifoldcf.crawler.interfaces.BlockingDocuments
+1874,org.apache.manifoldcf.crawler.interfaces.DepthStatistics
+1875,org.apache.manifoldcf.crawler.interfaces.PerformanceStatistics
+1876,org.apache.manifoldcf.core.interfaces.CharacterInput
+1878,com.documentum.fc.client.DfIdentityException
+1880,com.documentum.fc.client.DfServiceException
+1882,org.apache.manifoldcf.crawler.connectors.jdbc.tests.BaseUIHSQLDB
+1890,org.apache.manifoldcf.crawler.tests.ConnectorBaseUIHSQLDB
+1899,org.apache.manifoldcf.core.lockmanager.TestZooKeeperLocks
+1974,org.apache.manifoldcf.core.lockmanager.ZooKeeperBase
+1975,org.apache.manifoldcf.core.lockmanager.ExpiredObjectException
+1976,org.apache.manifoldcf.core.lockmanager.LockGate
+1977,org.apache.manifoldcf.core.lockmanager.LockObjectFactory
+1978,org.apache.manifoldcf.core.lockmanager.ZooKeeperConnectionPool
+1979,org.apache.manifoldcf.core.lockmanager.ZooKeeperLockObjectFactory
+1980,org.apache.manifoldcf.core.lockmanager.FileLockObjectFactory
+1981,org.apache.manifoldcf.core.lockmanager.LockPool
+1993,org.apache.manifoldcf.connectorcommon.fuzzyml.BOMEncodingDetector
+2030,org.apache.manifoldcf.connectorcommon.fuzzyml.SingleByteReceiver
+2032,org.apache.manifoldcf.connectorcommon.fuzzyml.ByteBuffer
+2034,org.apache.manifoldcf.connectorcommon.fuzzyml.PrefixedInputStream
+2036,org.apache.manifoldcf.connectorcommon.fuzzyml.ByteReceiver
+2049,org.apache.manifoldcf.core.tests.HTMLTester
+2248,org.apache.manifoldcf.crawler.InitializeAndRegister
+2266,org.apache.manifoldcf.crawler.connectors.filesystem.FileConnector
+2504,org.apache.manifoldcf.connectorcommon.extmimemap.ExtensionMimeMap
+2506,org.apache.manifoldcf.crawler.connectors.BaseRepositoryConnector
+2513,org.apache.manifoldcf.crawler.connectors.filesystem.Messages
+2555,org.apache.manifoldcf.crawler.registry.filenet.Filenet
+2569,org.apache.manifoldcf.crawler.common.filenet.RMILocalSocketFactory
+2570,org.apache.manifoldcf.crawler.common.filenet.RMILocalClientSocketFactory
+2574,org.apache.manifoldcf.crawler.system.SeedingActivity
+2647,org.apache.manifoldcf.crawler.system.PriorityCalculator
+2667,org.apache.manifoldcf.agents.output.solr.tests.MockSolrService
+2694,org.apache.manifoldcf.crawler.connectors.rss.RSSConfig
+2744,org.apache.manifoldcf.agents.outputconnection.OutputConnectionManager
+2925,org.apache.manifoldcf.agents.interfaces.CacheKeyFactory
+2928,org.apache.manifoldcf.core.interfaces.StringSetBuffer
+2930,org.apache.manifoldcf.agents.outputconnection.OutputConnection
+2932,org.apache.manifoldcf.core.interfaces.CacheManagerFactory
+2933,org.apache.manifoldcf.agents.interfaces.AgentManagerFactory
+2934,org.apache.manifoldcf.agents.interfaces.OutputConnectorManagerFactory
+2935,org.apache.manifoldcf.core.interfaces.MultiClause
+2936,org.apache.manifoldcf.core.cachemanager.BaseDescription
+2941,org.apache.manifoldcf.core.cachemanager.ExecutorBase
+3013,com.opentext.api.LLWebAuthInitException
+3018,org.apache.manifoldcf.crawler.repository.RepositoryConnection
+3113,org.apache.manifoldcf.agents.SynchronizeOutputs
+3133,org.apache.manifoldcf.agents.BaseAgentsInitializationCommand
+3134,org.apache.manifoldcf.agents.interfaces.OutputConnectionManagerFactory
+3135,org.apache.manifoldcf.agents.interfaces.OutputConnectorFactory
+3144,org.apache.manifoldcf.core.threadcontext.ThreadContext
+3149,org.apache.manifoldcf.agents.output.elasticsearch.ElasticSearchIndex
+3252,org.apache.manifoldcf.core.common.Base64
+3253,org.apache.manifoldcf.core.util.URLEncoder
+3254,org.apache.manifoldcf.agents.output.elasticsearch.ElasticSearchConnection
+3257,org.apache.manifoldcf.agents.output.elasticsearch.ElasticSearchConfig
+3278,org.apache.manifoldcf.crawler.connectors.hdfs.tests.BaseUIHSQLDB
+3291,org.apache.manifoldcf.core.lockmanager.LocalLockException
+3351,org.apache.manifoldcf.agents.transformation.documentfilter.DocumentFilterConfig
+3364,org.apache.manifoldcf.crawler.connectors.hdfs.tests.NavigationUITester
+3382,org.apache.manifoldcf.agents.tests.BaseHSQLDBext
+3398,org.apache.manifoldcf.core.tests.BaseHSQLDBext
+3411,org.apache.manifoldcf.crawler.system.JobResetThread
+3442,org.apache.manifoldcf.crawler.system.QueuedDocument
+3459,org.apache.manifoldcf.agents.interfaces.DocumentIngestStatusSet
+3471,com.filenet.api.util.ConfigurationParameters
+3484,com.filenet.api.property.PropertyFilter
+3493,com.filenet.api.constants.FilteredPropertyType
+3496,org.apache.manifoldcf.crawler.tests.ConnectorBaseUIMySQL
+3503,org.apache.manifoldcf.crawler.tests.BaseITMySQL
+3507,org.apache.manifoldcf.scriptengine.VariableArray
+3556,org.apache.manifoldcf.crawler.system.WorkerResetManager
+3569,org.apache.manifoldcf.crawler.system.DocumentQueue
+3570,org.apache.manifoldcf.crawler.system.DocumentCleanupQueue
+3581,org.apache.manifoldcf.crawler.system.WorkerThread
+4201,org.apache.manifoldcf.crawler.interfaces.QueueTracker
+4206,org.apache.manifoldcf.crawler.system.QueuedDocumentSet
+4209,org.apache.manifoldcf.agents.interfaces.IncrementalIngesterFactory
+4210,org.apache.manifoldcf.crawler.interfaces.BinManagerFactory
+4211,org.apache.manifoldcf.agents.interfaces.TransformationConnectionManagerFactory
+4212,org.apache.manifoldcf.crawler.interfaces.ReprioritizationTrackerFactory
+4213,org.apache.manifoldcf.crawler.interfaces.RepositoryConnectorPoolFactory
+4214,org.apache.manifoldcf.crawler.system.PipelineSpecificationBasic
+4215,org.apache.manifoldcf.crawler.system.PipelineConnections
+4216,org.apache.manifoldcf.crawler.interfaces.RepositoryConnectorFactory
+4217,org.apache.manifoldcf.crawler.system.PipelineSpecification
+4224,org.apache.manifoldcf.agents.interfaces.DocumentIngestStatus
+4237,org.apache.manifoldcf.crawler.system.PipelineSpecificationWithVersions
+4331,org.apache.manifoldcf.crawler.connectors.alfresco.tests.NavigationHSQLDBUI
+4345,org.apache.manifoldcf.crawler.connectors.alfresco.tests.BaseUIHSQLDB
+4349,org.apache.manifoldcf.crawler.connectors.webcrawler.CredentialsDescription
+4560,org.apache.manifoldcf.core.interfaces.ConfigNode
+4564,org.apache.manifoldcf.crawler.connectors.webcrawler.WebcrawlerConfig
+4651,org.apache.manifoldcf.agents.agentmanager.AgentManager
+4652,org.apache.manifoldcf.agents.interfaces.AgentFactory
+4665,org.apache.manifoldcf.ui.passwords.PasswordMapper
+4693,org.apache.manifoldcf.crawler.connectors.rss.tests.NavigationHSQLDBUI
+4706,org.apache.manifoldcf.crawler.connectors.rss.tests.BaseUIHSQLDB
+4727,org.apache.manifoldcf.crawler.connectors.gridfs.GridFSConstants
+4764,org.apache.manifoldcf.crawler.connectors.googledrive.GoogleDriveRepositoryConnector
+5098,org.apache.manifoldcf.crawler.connectors.googledrive.GoogleDriveSession
+5099,org.apache.manifoldcf.connectorcommon.common.XThreadStringBuffer
+5100,org.apache.manifoldcf.crawler.connectors.googledrive.GoogleDriveConfig
+5101,org.apache.manifoldcf.crawler.connectors.googledrive.Messages
+5103,org.apache.manifoldcf.connectorcommon.common.XThreadInputStream
+5135,org.apache.manifoldcf.connectorcommon.fuzzyml.PrefixedReader
+5159,org.apache.manifoldcf.connectorcommon.fuzzyml.CharacterBuffer
+5163,org.apache.manifoldcf.agents.output.elasticsearch.tests.BaseUIHSQLDB
+5170,org.apache.manifoldcf.crawler.connectors.hdfs.tests.SanityPostgresqlTest
+5172,org.apache.manifoldcf.crawler.connectors.hdfs.tests.BasePostgresql
+5184,org.apache.manifoldcf.agents.output.hdfs.HDFSOutputConfig
+5197,org.apache.manifoldcf.agents.output.hdfs.HDFSOutputParam
+5198,org.apache.manifoldcf.agents.output.hdfs.ParameterEnum
+5225,org.apache.manifoldcf.authorities.mappers.BaseMappingConnector
+5228,org.apache.manifoldcf.core.connector.BaseConnector
+5232,org.apache.manifoldcf.authorities.UnRegisterDomain
+5244,org.apache.manifoldcf.authorities.BaseDomainsInitializationCommand
+5249,org.apache.manifoldcf.agents.incrementalingest.RepositoryDocumentFactory
+5279,org.apache.manifoldcf.core.interfaces.BinaryInput
+5280,org.apache.manifoldcf.core.interfaces.TempFileInput
+5281,org.apache.manifoldcf.core.interfaces.TempFileCharacterInput
+5320,org.apache.manifoldcf.crawler.tests.ManifoldCFInstance
+5547,org.apache.manifoldcf.agents.system.AgentsDaemon
+5564,org.apache.manifoldcf.crawler.connectors.webcrawler.CookieSet
+5572,org.apache.manifoldcf.crawler.system.JobDeleteThread
+5589,org.apache.manifoldcf.core.database.TransactionHandle
+5608,org.apache.manifoldcf.core.lockmanager.LockObject
+5609,org.apache.manifoldcf.core.lockmanager.ZooKeeperLockObject
+5620,org.apache.manifoldcf.agents.interfaces.IngestStatuses
+5654,org.apache.manifoldcf.crawler.tests.ConnectorBaseUIPostgresql
+5661,org.apache.manifoldcf.crawler.tests.BaseITPostgresql
+5704,org.apache.manifoldcf.authorities.interfaces.AuthorityConnectorManagerFactory
+5712,org.apache.manifoldcf.authorities.authconnmgr.AuthorityConnectorManager
+5715,com.opentext.api.LLHTTPAccessDeniedException
+5731,org.apache.manifoldcf.crawler.connectors.rss.tests.MockRSSService
+5758,org.apache.manifoldcf.crawler.connectors.filesystem.tests.ExpirationPostgresqlIT
+5765,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BaseITPostgresql
+5766,org.apache.manifoldcf.crawler.connectors.filesystem.tests.ExpirationTester
+5773,org.apache.manifoldcf.agents.output.gts.tests.NavigationHSQLDBUI
+5786,org.apache.manifoldcf.agents.output.gts.tests.BaseUIHSQLDB
+5788,org.apache.manifoldcf.crawler.connectors.wiki.BaseProcessingContext
+5808,org.apache.manifoldcf.crawler.connectors.livelink.Messages
+5891,org.apache.manifoldcf.ui.i18n.Messages
+5916,org.apache.manifoldcf.core.cachemanager.GeneralCache
+6127,com.opentext.api.LLConnect
+6141,org.apache.manifoldcf.core.connectorpool.ConnectorPool
+6340,com.opentext.api.LLIllegalOperationException
+6342,org.apache.manifoldcf.crawler.connmgr.ConnectorManager
+6399,org.apache.manifoldcf.crawler.interfaces.CacheKeyFactory
+6401,org.apache.manifoldcf.core.interfaces.CacheKeyFactory
+6484,org.apache.manifoldcf.crawler.interfaces.ScheduleRecord
+6491,org.apache.manifoldcf.authorities.authorities.activedirectory.ActiveDirectoryConfig
+6509,org.apache.manifoldcf.agents.DeleteTransformationConnection
+6521,org.apache.manifoldcf.scriptengine.SetCommand
+6534,org.apache.manifoldcf.crawler.Register
+6553,org.apache.manifoldcf.crawler.TransactionalCrawlerInitializationCommand
+6554,org.apache.manifoldcf.crawler.interfaces.ConnectorManagerFactory
+6560,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.SessionTester
+6585,org.apache.manifoldcf.crawler.connectors.webcrawler.WebcrawlerConnector
+6597,org.apache.manifoldcf.authorities.authorities.DCTM.Messages
+6680,org.apache.manifoldcf.crawler.connectors.filesystem.tests.FileHelper
+6701,org.apache.manifoldcf.crawler.tests.InterruptionRepositoryConnector
+7143,org.apache.manifoldcf.core.system.ManifoldCFResourceLoader
+7146,org.apache.manifoldcf.core.database.ConnectionFactory
+7161,org.apache.manifoldcf.scriptengine.ErrorCommand
+7172,org.apache.manifoldcf.authorities.authorities.DCTM.AuthorityConnector
+7416,org.apache.manifoldcf.authorities.authorities.BaseAuthorityConnector
+7419,org.apache.manifoldcf.crawler.common.DCTM.DocumentumException
+7420,org.apache.manifoldcf.authorities.interfaces.AuthorizationResponse
+7459,org.apache.manifoldcf.crawler.connectors.filesystem.tests.APISanityPostgresqlIT
+7465,org.apache.manifoldcf.crawler.connectors.filesystem.tests.APISanityTester
+7471,org.apache.manifoldcf.authorities.authorityconnectorpool.AuthorityConnectorPool
+7519,org.apache.manifoldcf.authorities.interfaces.AuthorityConnectionManagerFactory
+7531,org.apache.manifoldcf.agents.output.solr.Messages
+7615,org.apache.manifoldcf.crawler.connectors.DCTM.DCTM
+8275,org.apache.manifoldcf.crawler.connectors.DCTM.MatchMap
+8278,org.apache.manifoldcf.crawler.connectors.DCTM.Messages
+8325,org.apache.manifoldcf.agents.output.amazoncloudsearch.DocumentChunkManager
+8397,org.apache.manifoldcf.agents.output.amazoncloudsearch.DocumentRecord
+8404,org.apache.manifoldcf.agents.output.filesystem.BasePostgresql
+8408,org.apache.manifoldcf.crawler.tests.ConnectorBasePostgresql
+8412,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.ThrottlingTester
+8529,org.apache.manifoldcf.meridio.MeridioWrapperException
+8543,org.apache.manifoldcf.authorities.authorities.meridio.MeridioAuthority
+8789,org.apache.manifoldcf.meridio.MeridioWrapper
+8790,org.apache.manifoldcf.connectorcommon.common.CommonsHTTPSender
+8791,org.apache.manifoldcf.authorities.authorities.meridio.Messages
+8812,org.apache.manifoldcf.scriptengine.VariableQueryArg
+8838,org.apache.manifoldcf.scriptengine.VariableBoolean
+8847,org.apache.manifoldcf.agents.tests.SanityHSQLDBextTest
+8850,org.apache.manifoldcf.crawler.connectors.rss.tests.BaseITPostgresql
+8858,org.apache.manifoldcf.crawler.ListJobs
+8882,org.apache.manifoldcf.core.interfaces.UTF8Stdout
+8903,org.apache.manifoldcf.crawler.connectors.jira.JiraServerInfo
+8913,org.apache.manifoldcf.crawler.connectors.jira.JiraJSONResponse
+8917,org.apache.manifoldcf.connectorcommon.fuzzyml.XMLStringParsingContext
+8928,org.apache.manifoldcf.connectorcommon.fuzzyml.XMLParsingContext
+8929,org.apache.manifoldcf.connectorcommon.fuzzyml.XMLFuzzyHierarchicalParseState
+8988,org.apache.manifoldcf.agents.output.opensearchserver.OpenSearchServerSchema
+8997,org.apache.manifoldcf.agents.output.opensearchserver.OpenSearchServerConnection
+8998,org.apache.manifoldcf.agents.output.opensearchserver.OpenSearchServerConfig
+9031,org.apache.manifoldcf.agents.DefineTransformationConnection
+9059,org.apache.manifoldcf.crawler.RunMaxActivityHistory
+9126,org.apache.manifoldcf.crawler.tests.BasePostgresql
+9145,org.apache.manifoldcf.agents.tests.BasePostgresql
+9166,org.apache.manifoldcf.crawler.connectors.gridfs.GridFSRepositoryConnector
+9342,org.apache.manifoldcf.crawler.connectors.gridfs.Messages
+9351,org.apache.manifoldcf.crawler.common.filenet.LocalClientSocket
+9372,org.apache.manifoldcf.scriptengine.tests.ExpressionTest
+9394,org.apache.manifoldcf.scriptengine.tests.ScriptEngineBase
+9395,org.apache.manifoldcf.scriptengine.VariableFloat
+9396,org.apache.manifoldcf.scriptengine.VariableString
+9397,org.apache.manifoldcf.scriptengine.VariableURL
+9415,org.apache.manifoldcf.connectorcommon.fuzzyml.TagParseState
+9506,org.apache.manifoldcf.connectorcommon.fuzzyml.SingleCharacterReceiver
+9507,org.apache.manifoldcf.connectorcommon.fuzzyml.AttrNameValue
+9513,org.apache.manifoldcf.crawler.connectors.email.EmailConfig
+9554,org.apache.manifoldcf.authorities.authorities.jdbc.JDBCAuthority
+9737,org.apache.manifoldcf.core.interfaces.TimeMarker
+9738,org.apache.manifoldcf.jdbc.JDBCConnection
+9739,org.apache.manifoldcf.jdbc.JDBCConstants
+9743,org.apache.manifoldcf.authorities.authorities.jdbc.Messages
+9770,org.apache.manifoldcf.agents.RegisterOutput
+9788,org.apache.manifoldcf.agents.TransactionalAgentsInitializationCommand
+9798,org.apache.manifoldcf.crawler.connectors.hdfs.HDFSSession
+9833,org.apache.manifoldcf.crawler.connectors.wiki.tests.SanityPostgresqlTest
+9836,org.apache.manifoldcf.crawler.connectors.wiki.tests.BasePostgresql
+9855,com.filenet.api.constants.AccessType
+9858,org.apache.manifoldcf.crawler.tests.BaseHSQLDB
+9877,org.apache.manifoldcf.agents.tests.BaseHSQLDB
+9887,org.apache.manifoldcf.core.i18n.Messages
+10032,org.apache.manifoldcf.core.i18n.MCFVelocityResourceLoader
+10113,org.apache.manifoldcf.core.database.MergedResultSet
+10133,org.apache.manifoldcf.crawler.connectors.webcrawler.WebURL
+10169,org.apache.manifoldcf.crawler.connectors.wiki.tests.BaseMySQL
+10172,org.apache.manifoldcf.crawler.tests.ConnectorBaseMySQL
+10178,org.apache.manifoldcf.crawler.connectors.wiki.SingleLevelContext
+10268,org.apache.manifoldcf.ui.multipart.MultipartWrapper
+10336,org.apache.manifoldcf.ui.beans.AdminProfile
+10352,com.documentum.fc.common.DfException
+10354,org.apache.manifoldcf.core.interfaces.NullCheckClause
+10402,org.apache.manifoldcf.connectorcommon.fuzzyml.XMLFuzzyParseState
+10413,org.apache.manifoldcf.crawler.connectors.sharepoint.MatchMap
+10535,org.apache.manifoldcf.authorities.mappers.regexp.Messages
+10618,org.apache.manifoldcf.agents.DeleteOutputConnection
+10628,org.apache.manifoldcf.authorities.authorities.alfrescowebscript.AlfrescoAuthorityConnectorTest
+10645,org.apache.manifoldcf.crawler.connectors.gridfs.tests.SanityPostgresqlTest
+10648,org.apache.manifoldcf.crawler.connectors.gridfs.tests.BasePostgresql
+10651,org.apache.manifoldcf.crawler.connectors.filenet.FilenetConnector
+11337,org.apache.manifoldcf.crawler.common.filenet.FilenetException
+11338,org.apache.manifoldcf.crawler.connectors.filenet.DocClassSpec
+11339,org.apache.manifoldcf.crawler.common.filenet.FileInfo
+11340,org.apache.manifoldcf.crawler.common.filenet.MetadataFieldDefinition
+11341,org.apache.manifoldcf.crawler.common.filenet.DocumentClassDefinition
+11342,org.apache.manifoldcf.crawler.common.filenet.NameDescription
+11343,org.apache.manifoldcf.crawler.connectors.filenet.Messages
+11383,org.apache.manifoldcf.crawler.connectors.rss.tests.BaseITHSQLDB
+11394,org.apache.manifoldcf.crawler.connectors.rss.tests.RSSFlakyHSQLDBIT
+11404,org.apache.manifoldcf.crawler.connectors.rss.tests.RSSSimpleCrawlTester
+11405,org.apache.manifoldcf.crawler.connectors.rss.tests.FlakyHSQLDBInstance
+11414,org.apache.manifoldcf.agents.transformation.tika.TikaConfig
+11424,org.apache.manifoldcf.crawler.connectors.rss.tests.RSSSimpleCrawlCombinedHSQLDBIT
+11434,org.apache.manifoldcf.jettyrunner.ManifoldCFJettyRunner
+11522,org.apache.manifoldcf.core.database.QueryDescription
+11568,org.apache.manifoldcf.crawler.connectors.webcrawler.RobotsTest
+11574,org.apache.manifoldcf.crawler.connectors.webcrawler.RobotsManager
+11584,org.apache.manifoldcf.scriptengine.NewConfiguration
+11592,org.apache.manifoldcf.scriptengine.VariableConfiguration
+11616,org.apache.manifoldcf.agents.transformationconnection.TransformationConnectionManager
+11617,org.apache.manifoldcf.agents.interfaces.TransformationConnectorFactory
+11625,org.apache.manifoldcf.crawler.CheckConfigured
+11696,org.apache.manifoldcf.crawler.connectors.filesystem.tests.HopcountPostgresqlIT
+11702,org.apache.manifoldcf.crawler.connectors.filesystem.tests.HopcountTester
+11708,org.apache.manifoldcf.crawler.connectors.webcrawler.FormItem
+11730,org.apache.manifoldcf.agents.output.amazoncloudsearch.AmazonCloudSearchConnector
+11910,org.apache.manifoldcf.core.common.DateParser
+11911,org.apache.manifoldcf.connectorcommon.jsongen.JSONObjectReader
+11912,org.apache.manifoldcf.connectorcommon.jsongen.JSONArrayReader
+11913,org.apache.manifoldcf.agents.output.amazoncloudsearch.AmazonCloudSearchConfig
+11914,org.apache.manifoldcf.connectorcommon.jsongen.JSONNameValueReader
+11915,org.apache.manifoldcf.connectorcommon.jsongen.JSONValueReader
+11916,org.apache.manifoldcf.agents.output.amazoncloudsearch.Messages
+11946,org.apache.manifoldcf.core.jdbcpool.ConnectionPoolManager
+11986,org.apache.manifoldcf.core.jdbcpool.ConnectionPool
+11991,org.apache.manifoldcf.authorities.system.RequestQueue
+12055,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.ThrottlingHSQLDBLT
+12062,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.BaseITHSQLDB
+12063,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.MockWebService
+12068,com.filenet.api.core.Factory
+12112,com.filenet.api.exception.EngineRuntimeException
+12135,org.apache.manifoldcf.connectorcommon.jsongen.JSONIntegerReader
+12244,org.apache.manifoldcf.crawler.connectors.filesystem.tests.ExpirationHSQLDBIT
+12250,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BaseITHSQLDB
+12252,org.apache.manifoldcf.crawler.connectors.webcrawler.FormParseState
+12279,org.apache.manifoldcf.crawler.connectors.webcrawler.LinkParseState
+12286,org.apache.manifoldcf.crawler.connectors.alfrescowebscript.Messages
+12369,org.apache.manifoldcf.agents.output.solr.SolrConfig
+12414,org.apache.manifoldcf.crawler.connectors.filesystem.tests.APISanityMySQLIT
+12420,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BaseITMySQL
+12423,org.apache.manifoldcf.crawler.connectors.gridfs.tests.BaseMySQL
+12484,org.apache.manifoldcf.agents.UnRegisterAllOutputs
+12504,org.apache.manifoldcf.crawler.connectors.wiki.tests.BaseHSQLDB
+12507,org.apache.manifoldcf.crawler.tests.ConnectorBaseHSQLDB
+12528,org.apache.manifoldcf.crawler.interfaces.JobRecord
+12531,org.apache.manifoldcf.crawler.connectors.jira.ResponseException
+12538,org.apache.manifoldcf.crawler.connectors.cmis.tests.BaseUIHSQLDB
+12547,org.apache.manifoldcf.crawler.connectors.email.EmailSession
+12695,org.apache.manifoldcf.crawler.jobs.IntrinsicLink
+12887,org.apache.manifoldcf.core.interfaces.JoinClause
+12940,org.apache.manifoldcf.agents.interfaces.TransformationConnectorManagerFactory
+12953,org.apache.manifoldcf.crawler.WaitJobPaused
+12970,org.apache.manifoldcf.crawler.connectors.cmis.CmisRepositoryConnector
+13297,org.apache.manifoldcf.crawler.connectors.cmis.CmisConfig
+13298,org.apache.manifoldcf.crawler.connectors.cmis.Messages
+13331,org.apache.manifoldcf.crawler.connectors.webcrawler.MetaParseState
+13349,org.apache.manifoldcf.scriptengine.NewQueryArgument
+13363,org.apache.manifoldcf.crawler.RunMaxBandwidthHistory
+13426,org.apache.manifoldcf.crawler.connectors.alfresco.Constants
+13509,org.apache.manifoldcf.connectorcommon.fuzzyml.CharacterReceiver
+13514,org.apache.manifoldcf.agents.output.elasticsearch.Messages
+13596,org.apache.manifoldcf.agents.UnRegisterTransformation
+13614,org.apache.manifoldcf.crawler.repository.ThrottleSpecManager
+13697,org.apache.manifoldcf.agents.tests.BaseMySQL
+13712,org.apache.manifoldcf.core.tests.BaseMySQL
+13851,org.apache.manifoldcf.crawler.connectors.alfrescowebscript.tests.CMISUtils
+13935,org.apache.manifoldcf.connectorcommon.keystore.KeystoreManager
+14043,org.apache.manifoldcf.crawler.connectors.wiki.tests.SanityHSQLDBIT
+14075,org.apache.manifoldcf.crawler.connectors.wiki.tests.BaseITHSQLDB
+14076,org.apache.manifoldcf.crawler.connectors.wiki.tests.MockWikiService
+14082,org.apache.manifoldcf.connectorcommon.fuzzyml.ReplayableInputStream
+14101,org.apache.manifoldcf.authorities.interfaces.AuthorityConnectorFactory
+14151,org.apache.manifoldcf.core.interfaces.ConnectorFactory
+14163,org.apache.manifoldcf.scriptengine.VariableConfigurationNode
+14270,org.apache.manifoldcf.core.database.DBInterfaceHSQLDB
+14276,org.apache.manifoldcf.crawler.connectors.webcrawler.CookieManager
+14433,org.apache.manifoldcf.core.lockmanager.FileLockObject
+14507,org.apache.manifoldcf.core.interfaces.LockException
+14519,org.apache.manifoldcf.crawler.connectors.webcrawler.FindHTMLHrefHandler
+14561,org.apache.manifoldcf.connectorcommon.common.XThreadOutputStream
+14581,org.apache.manifoldcf.core.jdbcpool.WrappedConnection
+14647,com.opentext.api.LAPI_ATTRIBUTES
+14661,com.opentext.api.LLValue
+14735,org.apache.manifoldcf.crawler.interfaces.EnumeratedValues
+14739,org.apache.manifoldcf.crawler.connectors.alfresco.ContentModelUtils
+14782,org.apache.manifoldcf.agents.output.opensearchserver.OpenSearchServerScheduler
+14795,org.apache.manifoldcf.crawler.tests.InterruptionHSQLDBTest
+14811,org.apache.manifoldcf.crawler.tests.InterruptionTester
+14819,org.apache.manifoldcf.core.DBCreate
+14832,org.apache.manifoldcf.core.DBInitializationCommand
+14839,org.apache.manifoldcf.crawler.connectors.wiki.Messages
+14927,org.apache.manifoldcf.crawler.repository.RepositoryConnectionManager
+14929,org.apache.manifoldcf.scriptengine.WhileCommand
+14941,org.apache.manifoldcf.scriptengine.RewindableTokenStream
+14947,com.documentum.fc.client.DfQuery
+14956,com.documentum.fc.common.DfObject
+14965,org.apache.manifoldcf.crawler.connectors.wiki.tests.BaseUIHSQLDB
+15010,org.apache.manifoldcf.connectorcommon.throttler.FetchBin
+15095,org.apache.manifoldcf.crawler.PauseJob
+15123,org.apache.manifoldcf.authorities.SynchronizeAuthorities
+15137,org.apache.manifoldcf.authorities.BaseAuthoritiesInitializationCommand
+15168,org.apache.manifoldcf.agents.transformation.tika.TikaExtractor
+15382,org.apache.manifoldcf.agents.transformation.BaseTransformationConnector
+15384,org.apache.manifoldcf.agents.transformation.tika.Messages
+15403,org.apache.manifoldcf.authorities.authorities.alfrescowebscript.AlfrescoAuthorityConnector
+15462,org.apache.manifoldcf.authorities.authorities.alfrescowebscript.ConfigurationHandler
+15470,org.apache.manifoldcf.crawler.connectors.webcrawler.Messages
+15552,org.apache.manifoldcf.scriptengine.VariableConnectionName
+15582,org.apache.manifoldcf.core.database.DBInterfaceMySQL
+15904,org.apache.manifoldcf.core.database.Database
+15936,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BigCrawlMySQLLT
+15942,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BigCrawlTester
+15948,org.apache.manifoldcf.crawler.common.DCTM.DocumentumFactoryImpl
+15953,org.apache.manifoldcf.crawler.common.DCTM.RMILocalClientSocketFactory
+15954,org.apache.manifoldcf.crawler.common.DCTM.RMILocalSocketFactory
+15955,org.apache.manifoldcf.crawler.common.DCTM.DocumentumImpl
+15962,org.apache.manifoldcf.crawler.connectors.email.EmailConnector
+16454,org.apache.manifoldcf.crawler.connectors.email.Messages
+16525,org.apache.manifoldcf.crawler.DeleteRepositoryConnection
+16536,org.apache.manifoldcf.crawler.tests.SchedulerTester
+16570,org.apache.manifoldcf.agents.output.solr.ModifiedHttpSolrServer
+16702,org.apache.manifoldcf.core.util.URLDecoder
+16703,org.apache.manifoldcf.agents.output.solr.ModifiedMultipartEntity
+16708,org.apache.manifoldcf.agents.Register
+16722,org.apache.manifoldcf.crawler.jobs.PipelineManager
+16831,org.apache.manifoldcf.crawler.jobs.JobDescription
+16834,org.apache.manifoldcf.crawler.FindJob
+16847,org.apache.manifoldcf.crawler.jobs.HopCount
+17488,org.apache.manifoldcf.crawler.jobs.HopDeleteDeps
+17489,org.apache.manifoldcf.crawler.jobs.DeleteDependency
+17508,org.apache.manifoldcf.crawler.connectors.sharedrive.MatchMap
+17627,org.apache.manifoldcf.agents.output.filesystem.FileOutputConfig
+17639,org.apache.manifoldcf.agents.output.filesystem.FileOutputParam
+17640,org.apache.manifoldcf.agents.output.filesystem.ParameterEnum
+17644,org.apache.manifoldcf.apiservice.IdleCleanupThread
+17662,org.apache.manifoldcf.agents.interfaces.OutputConnectorPoolFactory
+17663,org.apache.manifoldcf.authorities.interfaces.AuthorityConnectorPoolFactory
+17664,org.apache.manifoldcf.authorities.interfaces.MappingConnectorPoolFactory
+17671,org.apache.manifoldcf.connectorcommon.fuzzyml.XMLFileParsingContext
+17683,org.apache.manifoldcf.connectorcommon.fuzzyml.XMLOutputStreamParsingContext
+17697,org.apache.manifoldcf.core.tests.BaseDatabase
+17704,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.BigCrawlTester
+17724,org.apache.manifoldcf.connectorcommon.fuzzyml.Parser
+17739,org.apache.manifoldcf.connectorcommon.fuzzyml.XMLEncodingDetector
+17740,org.apache.manifoldcf.connectorcommon.fuzzyml.DecodingByteReceiver
+17747,org.apache.manifoldcf.agents.output.opensearchserver.OpenSearchServerDelete
+17757,org.apache.manifoldcf.crawler.tests.SanityHSQLDBextTest
+17759,org.apache.manifoldcf.crawler.tests.BaseHSQLDBext
+17761,org.apache.manifoldcf.core.lockmanager.ZooKeeperLockManager
+17937,org.apache.manifoldcf.core.lockmanager.BaseLockManager
+17938,org.apache.manifoldcf.core.lockmanager.ZooKeeperEphemeralNodePool
+17939,org.apache.manifoldcf.core.lockmanager.ZooKeeperConnection
+17981,org.apache.manifoldcf.crawler.connectors.hdfs.tests.BaseHSQLDB
+17998,org.apache.manifoldcf.crawler.common.DCTM.LocalClientSocket
+18001,org.apache.manifoldcf.agents.UnRegisterAll
+18015,org.apache.manifoldcf.livelink.LLSERVER
+18072,com.opentext.api.LLSession
+18083,org.apache.manifoldcf.crawler.jobs.PrereqEventManager
+18139,org.elasticsearch.index.mapper.xcontent.EncryptedDocMapperTest
+18199,org.elasticsearch.index.mapper.attachment.AttachmentMapper
+18204,org.apache.manifoldcf.authorities.UnRegisterAuthority
+18218,org.apache.manifoldcf.ui.i18n.ResourceBundleWrapper
+18232,org.apache.manifoldcf.agents.output.elasticsearch.ElasticSearchDelete
+18245,org.apache.manifoldcf.authorities.authorities.activedirectory.Messages
+18330,org.apache.manifoldcf.agents.AgentStop
+18342,org.apache.manifoldcf.agents.AgentRun
+18347,org.apache.manifoldcf.crawler.connectors.jdbc.Messages
+18430,org.apache.manifoldcf.crawler.connectors.rss.tests.RSSSimpleCrawlMySQLIT
+18437,org.apache.manifoldcf.crawler.connectors.rss.tests.BaseITMySQL
+18545,org.apache.manifoldcf.agents.output.nullconnector.Messages
+18628,org.apache.manifoldcf.combinedservice.IdleCleanupThread
+18877,org.apache.manifoldcf.agents.outputconnmgr.OutputConnectorManager
+19219,org.apache.manifoldcf.scriptengine.NullVariableReference
+19220,org.apache.manifoldcf.scriptengine.BreakCommand
+19221,org.apache.manifoldcf.scriptengine.PrintCommand
+19222,org.apache.manifoldcf.scriptengine.InsertCommand
+19223,org.apache.manifoldcf.scriptengine.RemoveCommand
+19224,org.apache.manifoldcf.scriptengine.WaitCommand
+19225,org.apache.manifoldcf.scriptengine.GETCommand
+19226,org.apache.manifoldcf.scriptengine.PUTCommand
+19227,org.apache.manifoldcf.scriptengine.DELETECommand
+19228,org.apache.manifoldcf.scriptengine.POSTCommand
+19229,org.apache.manifoldcf.scriptengine.NewConfigurationNode
+19230,org.apache.manifoldcf.scriptengine.NewURL
+19231,org.apache.manifoldcf.scriptengine.NewConnectionName
+19232,org.apache.manifoldcf.scriptengine.NewArray
+19233,org.apache.manifoldcf.scriptengine.NewDictionary
+19234,org.apache.manifoldcf.scriptengine.BasicTokenStream
+19269,org.apache.manifoldcf.crawler.connectors.jira.JiraQueryResults
+19394,org.apache.manifoldcf.crawler.connectors.filesystem.tests.SanityHSQLDBTest
+19396,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BaseHSQLDB
+19529,org.apache.manifoldcf.authorities.interfaces.MappingConnectorManagerFactory
+19532,org.apache.manifoldcf.authorities.mapconnmgr.MappingConnectorManager
+19589,org.apache.manifoldcf.authorities.interfaces.CacheKeyFactory
+19590,org.apache.manifoldcf.authorities.interfaces.MappingConnectorFactory
+19656,org.apache.manifoldcf.crawler.connectors.gridfs.tests.SanityHSQLDBTest
+19658,org.apache.manifoldcf.crawler.connectors.gridfs.tests.BaseHSQLDB
+19675,org.apache.manifoldcf.combinedservice.ServletListener
+19728,com.opentext.api.LLHTTPForbiddenException
+19730,org.apache.manifoldcf.crawler.system.DeleteStartupResetManager
+19739,org.apache.manifoldcf.crawler.system.AssessmentThread
+19754,org.apache.manifoldcf.crawler.connectors.rss.Robots
+19911,org.apache.manifoldcf.crawler.connectors.rss.ThrottledFetcher
+19912,org.apache.manifoldcf.crawler.connectors.rss.RSSConnector
+19962,org.apache.manifoldcf.crawler.connectors.filesystem.tests.NavigationHSQLDBUI
+19964,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BaseUIHSQLDB
+19965,org.apache.manifoldcf.crawler.connectors.filesystem.tests.NavigationUITester
+19983,org.apache.manifoldcf.authorities.DeleteAuthorityConnection
+19993,org.apache.manifoldcf.agents.output.opensearchserver.Messages
+20211,org.apache.manifoldcf.ui.util.Formatter
+20212,org.apache.manifoldcf.ui.util.MultilineParser
+20463,org.apache.manifoldcf.authorities.authorities.nullauthority.tests.BaseUIHSQLDB
+20468,org.apache.manifoldcf.authorities.mappers.regexp.MatchMap
+20594,org.apache.manifoldcf.crawler.connectors.alfrescowebscript.tests.BaseUIHSQLDB
+20600,org.apache.manifoldcf.authorities.UnRegisterAllAuthorities
+20619,org.apache.manifoldcf.crawler.bins.BinManager
+20667,com.filenet.api.query.SearchSQL
+20673,org.apache.manifoldcf.crawlerui.IdleCleanupThread
+20697,org.apache.manifoldcf.crawler.system.DocumentCleanupThread
+20775,org.apache.manifoldcf.crawler.system.DocCleanupResetManager
+20776,org.apache.manifoldcf.crawler.system.CleanupQueuedDocument
+20777,org.apache.manifoldcf.crawler.system.DocumentCleanupSet
+20788,org.apache.manifoldcf.jettyrunner.ManifoldCFCombinedJettyRunner
+20826,com.filenet.api.util.Id
+20848,org.apache.manifoldcf.agents.incrementalingest.IncrementalIngester
+20850,org.apache.manifoldcf.agents.output.filesystem.Messages
+20932,org.apache.manifoldcf.authorities.mapping.MappingConnection
+20965,org.apache.manifoldcf.crawler.system.DocumentCleanupStufferThread
+21021,org.apache.manifoldcf.core.util.Converter
+21028,org.apache.manifoldcf.crawler.connectors.alfresco.tests.SanityHSQLDBTest
+21030,org.apache.manifoldcf.crawler.connectors.alfresco.tests.BaseHSQLDB
+21032,org.apache.manifoldcf.core.interfaces.UTF8Stderr
+21070,org.apache.manifoldcf.crawler.RestartJob
+21080,org.apache.manifoldcf.agents.output.opensearchserver.tests.NavigationHSQLDBUI
+21093,org.apache.manifoldcf.agents.output.opensearchserver.tests.BaseUIHSQLDB
+21095,org.apache.manifoldcf.authorities.authorities.jira.JiraAuthorityConnector
+21230,org.apache.manifoldcf.authorities.authorities.jira.JiraSession
+21231,org.apache.manifoldcf.authorities.authorities.jira.ResponseException
+21232,org.apache.manifoldcf.authorities.authorities.jira.JiraConfig
+21233,org.apache.manifoldcf.authorities.authorities.jira.Messages
+21263,org.apache.manifoldcf.crawler.connectors.alfresco.Messages
+21345,org.apache.manifoldcf.crawler.connectors.webcrawler.TrustsDescription
+21384,org.apache.manifoldcf.authorities.authorities.ldap.tests.NavigationHSQLDBUI
+21395,org.apache.manifoldcf.authorities.authorities.ldap.tests.BaseUIHSQLDB
+21403,org.apache.manifoldcf.crawler.connectors.livelink.LivelinkConnector
+22719,org.apache.manifoldcf.connectorcommon.common.InterruptibleSocketFactory
+22720,com.opentext.api.LAPI_DOCUMENTS
+22721,com.opentext.api.LAPI_USERS
+22722,com.opentext.api.LLValueEnumeration
+22723,org.apache.manifoldcf.crawler.connectors.livelink.MatchMap
+22724,org.apache.manifoldcf.livelink.LiveLinkParameters
+22725,com.opentext.api.LLHTTPClientException
+22726,com.opentext.api.LLHTTPServerException
+22727,com.opentext.api.LLIndexOutOfBoundsException
+22728,com.opentext.api.LLNoFieldSpecifiedException
+22729,com.opentext.api.LLNoValueSpecifiedException
+22730,com.opentext.api.LLSecurityProviderException
+22731,com.opentext.api.LLUnknownFieldException
+22732,com.opentext.api.LLBadServerCertificateException
+22733,com.opentext.api.LLHTTPCGINotFoundException
+22734,com.opentext.api.LLCouldNotConnectHTTPException
+22735,com.opentext.api.LLHTTPProxyAuthRequiredException
+22736,com.opentext.api.LLUnsupportedAuthMethodException
+22737,com.opentext.api.LLSSLNotAvailableException
+22738,com.opentext.api.LLIOException
+22904,org.apache.manifoldcf.crawler.connectors.hdfs.tests.NavigationHSQLDBUI
+22935,org.apache.manifoldcf.core.lockmanager.ZooKeeperInstance
+22940,org.apache.manifoldcf.crawler.connectors.rss.tests.BigCrawlHSQLDBLT
+22947,org.apache.manifoldcf.crawler.connectors.rss.tests.BigCrawlTester
+23014,org.apache.manifoldcf.agents.common.XMLFileContext
+23026,org.apache.manifoldcf.agents.common.XMLOutputStreamContext
+23032,org.apache.manifoldcf.crawler.connectors.gridfs.tests.SanityMySQLTest
+23035,org.apache.manifoldcf.agents.transformationconnection.TransformationConnection
+23090,org.apache.manifoldcf.scriptengine.CharacterStream
+23103,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.NavigationHSQLDBUI
+23116,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.BaseUIHSQLDB
+23118,org.apache.manifoldcf.agents.output.elasticsearch.tests.APISanityHSQLDBIT
+23174,org.apache.manifoldcf.agents.output.elasticsearch.tests.BaseITHSQLDB
+23186,org.apache.manifoldcf.crawler.connectors.alfresco.NodeUtils
+23220,org.apache.manifoldcf.agents.Install
+23230,org.apache.manifoldcf.crawler.connectors.sharepoint.Messages
+23312,com.documentum.fc.client.DfDocbaseUnreachableException
+23313,com.documentum.fc.client.DfIOException
+23315,org.apache.manifoldcf.agents.output.solr.tests.NavigationHSQLDBUI
+23327,org.apache.manifoldcf.agents.output.solr.tests.BaseUIHSQLDB
+23329,org.apache.manifoldcf.crawler.system.HistoryCleanupThread
+23539,org.apache.manifoldcf.authorities.authorities.sharepoint.SharePointADAuthority
+23824,org.apache.manifoldcf.authorities.authorities.sharepoint.SharePointConfig
+23825,org.apache.manifoldcf.authorities.authorities.sharepoint.Messages
+23854,org.apache.manifoldcf.crawler.tests.SchedulerHSQLDBTest
+23951,org.apache.manifoldcf.authorities.system.AuthRequest
+23994,org.apache.manifoldcf.authorities.CheckConfigured
+24003,org.apache.manifoldcf.crawler.jobs.EventManager
+24032,org.apache.manifoldcf.crawler.connectors.webcrawler.DNSManager
+24139,org.apache.manifoldcf.authorities.authorities.sharepoint.SPSProxyHelper
+24315,org.apache.manifoldcf.core.common.XMLDoc
+24317,org.apache.manifoldcf.authorities.system.IdleCleanupThread
+24333,org.elasticsearch.index.mapper.attachment.RegisterAttachmentType
+24351,org.apache.manifoldcf.crawler.BaseCrawlerInitializationCommand
+24378,org.apache.manifoldcf.scriptengine.VariableResult
+24396,org.apache.manifoldcf.scriptengine.tests.CommandTest
+24416,org.apache.manifoldcf.crawler.connectors.sharedrive.SharedDriveConnector
+25231,org.apache.manifoldcf.crawler.connectors.sharedrive.SharedDriveParameters
+25232,org.apache.manifoldcf.crawler.connectors.sharedrive.Messages
+25247,org.apache.manifoldcf.authorities.authgroups.AuthorityGroup
+25266,org.apache.manifoldcf.agents.outputconnectorpool.OutputConnectorPool
+25318,org.apache.manifoldcf.crawler.system.DocumentDeleteThread
+25382,com.documentum.com.DfClientX
+25391,org.apache.manifoldcf.crawler.connectors.hdfs.HDFSRepositoryConnector
+25764,org.apache.manifoldcf.crawler.connectors.hdfs.Messages
+25781,org.apache.manifoldcf.crawler.tests.SanityPostgresqlTest
+25789,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.BigCrawlPostgresqlIT
+25796,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.BaseITPostgresql
+25798,org.apache.manifoldcf.authorities.authorities.alfrescowebscript.Messages
+25934,org.apache.manifoldcf.agents.UnRegisterOutput
+25950,org.apache.manifoldcf.agents.output.filesystem.SanityPostgresqlTest
+25970,org.apache.manifoldcf.ui.beans.ThreadContext
+25976,org.apache.manifoldcf.agents.output.filesystem.SanityHSQLDBTest
+25978,org.apache.manifoldcf.agents.output.filesystem.BaseHSQLDB
+25980,org.apache.manifoldcf.crawler.jobs.ScheduleManager
+26060,org.apache.manifoldcf.crawler.system.NotificationResetManager
+26147,org.apache.manifoldcf.authorities.UnRegisterMapper
+26160,org.apache.manifoldcf.authorities.authorities.activedirectory.ActiveDirectoryAuthority
+26427,org.apache.manifoldcf.crawler.connectors.filesystem.tests.HopcountMySQLIT
+27362,org.apache.manifoldcf.authorities.CheckAll
+27389,org.elasticsearch.plugin.mapper.attachments.test.MultipleAttachmentIntegrationTests
+27426,org.apache.manifoldcf.authorities.authorities.jira.JiraJSONResponse
+27437,org.apache.manifoldcf.crawler.connectors.hdfs.tests.BaseMySQL
+27441,org.apache.manifoldcf.crawler.connectors.filesystem.tests.APISanityHSQLDBIT
+27448,org.apache.manifoldcf.crawler.system.JobStartThread
+27523,org.apache.manifoldcf.crawler.connectors.meridio.MatchMap
+27640,org.apache.manifoldcf.agents.transformation.documentfilter.Messages
+28131,org.apache.manifoldcf.core.database.RRow
+28132,org.apache.manifoldcf.core.database.RSet
+28165,org.apache.manifoldcf.crawler.connectors.alfresco.AlfrescoConfig
+28184,org.apache.manifoldcf.crawler.connectors.cmis.tests.CMISServer
+28195,org.apache.manifoldcf.crawler.connectors.cmis.tests.BaseHSQLDB
+28200,org.apache.manifoldcf.agents.output.opensearchserver.OpenSearchServerIndex
+28490,org.apache.manifoldcf.authorities.authorities.nullauthority.NullAuthority
+28525,org.apache.manifoldcf.connectorcommon.fuzzyml.XMLWriterParsingContext
+28584,org.apache.manifoldcf.crawler.system.StartDeleteThread
+28647,org.apache.manifoldcf.connectorcommon.throttler.ConnectionBin
+28743,org.apache.manifoldcf.crawler.common.filenet.FilenetImpl
+28890,com.filenet.api.util.UserContext
+28891,com.filenet.api.exception.ExceptionCode
+28894,com.filenet.api.constants.SecurityPrincipalType
+28898,com.filenet.api.query.SearchScope
+28899,com.filenet.api.constants.AccessLevel
+28948,org.apache.manifoldcf.crawler.connectors.filesystem.tests.SanityMySQLTest
+28950,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BaseMySQL
+28952,org.apache.manifoldcf.crawler.connectors.alfrescowebscript.tests.NavigationHSQLDBUI
+28965,org.apache.manifoldcf.crawler.connectors.cmis.tests.SanityHSQLDBTest
+29145,org.apache.manifoldcf.crawler.tests.BaseMySQL
+29151,org.apache.manifoldcf.crawler.system.JobNotificationThread
+29281,org.apache.manifoldcf.agents.common.XMLWriterContext
+29332,org.apache.manifoldcf.crawler.connectors.rss.tests.RSSSimpleCrawlPostgresqlIT
+29340,org.apache.manifoldcf.authorities.DefineAuthorityConnection
+29360,org.apache.manifoldcf.crawler.interfaces.Connectors
+29418,org.apache.manifoldcf.crawler.jobs.HopFilterManager
+29480,org.apache.manifoldcf.agents.transformation.nullconnector.NullConnector
+29592,org.apache.manifoldcf.authorities.mapping.MappingConnectionManager
+29772,org.apache.manifoldcf.crawler.DefineJob
+29927,org.apache.manifoldcf.agents.output.hdfs.Messages
+30009,org.apache.manifoldcf.crawler.RunSimpleHistory
+30071,org.apache.manifoldcf.crawler.connectors.filesystem.tests.SanityMySQLIT
+30077,org.apache.manifoldcf.crawler.connectors.filesystem.tests.SanityTester
+30083,org.apache.manifoldcf.crawler.connectors.alfresco.AlfrescoRepositoryConnector
+30302,org.apache.manifoldcf.crawler.connectors.alfresco.SearchUtils
+30303,org.apache.manifoldcf.crawler.connectors.alfresco.PropertiesUtils
+30304,org.apache.manifoldcf.crawler.connectors.alfresco.ContentReader
+30329,org.apache.manifoldcf.agents.output.opensearchserver.OpenSearchServerParam
+30334,org.apache.manifoldcf.crawler.system.ExpireStufferThread
+30405,org.apache.manifoldcf.core.common.DateTest
+30428,org.apache.manifoldcf.crawler.connectors.webcrawler.FindRedirectionHandler
+30437,org.apache.manifoldcf.crawler.reprioritizationtracker.ReprioritizationTracker
+30445,org.apache.manifoldcf.agents.tests.SanityPostgresqlTest
+30448,org.apache.manifoldcf.authorities.mappers.regexp.RegexpParameters
+30452,org.apache.manifoldcf.crawler.connectors.filesystem.tests.HopcountHSQLDBIT
+30459,org.apache.manifoldcf.agents.transformation.forcedmetadata.ForcedMetadataConnector
+30654,org.apache.manifoldcf.agents.transformation.forcedmetadata.Messages
+30711,org.apache.manifoldcf.agents.output.elasticsearch.ElasticSearchParam
+30716,org.apache.manifoldcf.crawler.connectors.cmis.tests.NavigationHSQLDBUI
+30740,org.apache.manifoldcf.agents.output.solr.HttpPoster
+31133,org.apache.manifoldcf.agents.output.solr.ModifiedLBHttpSolrServer
+31134,org.apache.manifoldcf.agents.output.solr.SolrConnector
+31182,org.apache.manifoldcf.agents.output.hdfs.SanityMySQLTest
+31184,org.apache.manifoldcf.agents.output.hdfs.BaseMySQL
+31186,org.apache.manifoldcf.connectorcommon.throttler.Throttler
+31403,org.apache.manifoldcf.connectorcommon.throttler.ThrottleBin
+31426,org.apache.manifoldcf.crawler.connectors.webcrawler.DataCache
+31598,org.apache.manifoldcf.agents.DefineOutputConnection
+31623,org.apache.manifoldcf.crawler.connectors.filesystem.tests.SanityHSQLDBIT
+31630,org.apache.manifoldcf.agents.UnRegisterAllTransformations
+31663,org.apache.manifoldcf.core.tests.BaseHSQLDB
+31669,org.apache.manifoldcf.agents.transformation.documentfilter.DocumentFilter
+31841,org.apache.manifoldcf.crawler.common.DCTM.DocumentumResultImpl
+31858,org.apache.manifoldcf.crawler.connectors.alfrescowebscript.AlfrescoConnectorTest
+31939,org.apache.manifoldcf.crawler.connectors.alfrescowebscript.AlfrescoConnector
+31943,org.apache.manifoldcf.crawler.connectors.rss.tests.RSSSimpleCrawlHSQLDBIT
+31952,org.apache.manifoldcf.authorities.authorities.ldap.Messages
+32329,org.apache.manifoldcf.crawler.jobs.ScheduleList
+32386,org.apache.manifoldcf.agents.output.nullconnector.NullConnector
+32419,org.apache.manifoldcf.authorityservlet.UserACLServlet
+32550,org.apache.manifoldcf.authorities.system.MappingRequest
+32551,org.apache.manifoldcf.authorities.interfaces.MappingConnectionManagerFactory
+32564,org.apache.manifoldcf.crawler.jobs.Carrydown
+32792,org.apache.manifoldcf.crawler.system.StartupResetManager
+32801,org.apache.manifoldcf.crawler.system.ExpireThread
+32897,org.apache.manifoldcf.crawler.connectors.dropbox.Messages
+33040,org.apache.manifoldcf.meridio.DMSearchResults
+33045,org.apache.manifoldcf.connectorcommon.throttler.ThrottleGroups
+33442,org.apache.manifoldcf.crawler.connectors.sharepoint.XMLGenTest
+33452,org.apache.manifoldcf.crawler.connectors.sharepoint.SPSProxyHelper
+33494,org.apache.manifoldcf.connectorcommon.system.ManifoldCF
+33498,org.apache.manifoldcf.connectorcommon.interfaces.ThrottleGroupsFactory
+33531,org.apache.manifoldcf.agents.output.hdfs.BaseHSQLDB
+33535,org.apache.manifoldcf.crawler.connectors.rss.SetSeedList
+33582,org.apache.manifoldcf.crawler.connectors.rss.WebURL
+33876,org.apache.manifoldcf.authorities.authorities.sharepoint.SharePointAuthority
+34102,org.apache.manifoldcf.agents.output.hdfs.BasePostgresql
+34106,org.apache.manifoldcf.crawler.connectors.generic.api.Meta
+34127,org.apache.manifoldcf.core.database.DBInterfaceMariaDB
+34136,org.apache.manifoldcf.core.Obfuscate
+34397,org.apache.manifoldcf.authorities.interfaces.AuthorityGroupManagerFactory
+34457,org.apache.manifoldcf.agents.UnRegister
+34529,org.apache.manifoldcf.crawler.connectors.rss.DataCache
+34582,org.apache.manifoldcf.crawler.system.StufferThread
+34686,org.apache.manifoldcf.agents.output.elasticsearch.tests.BaseHSQLDB
+34690,org.apache.manifoldcf.crawler.connectors.jira.JiraConfig
+34716,org.apache.manifoldcf.crawler.connectors.livelink.GetConnectionInfo
+34745,org.apache.manifoldcf.authorities.authorities.livelink.LivelinkAuthority
+34933,org.apache.manifoldcf.authorities.authorities.livelink.Messages
+34962,org.apache.manifoldcf.core.tests.BasePostgresql
+34979,org.apache.manifoldcf.crawler.jobs.JobManager
+36730,org.apache.manifoldcf.crawler.jobs.JobQueue
+36731,org.apache.manifoldcf.crawler.jobs.Jobs
+36732,org.apache.manifoldcf.crawler.jobs.TrackerClass
+36956,org.apache.manifoldcf.connectorcommon.fuzzyml.XMLParseState
+37389,org.apache.manifoldcf.jdbc.JDBCConnectionFactory
+37394,org.apache.manifoldcf.agents.output.elasticsearch.ElasticSearchConnector
+37503,org.apache.manifoldcf.agents.output.elasticsearch.ElasticSearchAction
+37511,org.apache.manifoldcf.crawler.connectors.jdbc.JDBCConnector
+37877,org.elasticsearch.index.mapper.xcontent.SimpleAttachmentMapperTests
+38008,org.apache.manifoldcf.agents.output.solr.ModifiedHttpMultipart
+38039,org.apache.manifoldcf.crawler.connectors.webcrawler.FindContentHandler
+38066,org.apache.manifoldcf.connectorcommon.fuzzyml.TestFuzzyML
+38090,org.apache.manifoldcf.authorities.UnRegisterAllMappers
+38104,org.apache.manifoldcf.core.tests.Base
+38463,org.apache.manifoldcf.authorities.mappingconnectorpool.MappingConnectorPool
+38516,org.apache.manifoldcf.crawler.system.CrawlerAgent
+38640,org.apache.manifoldcf.crawler.system.FinisherThread
+38641,org.apache.manifoldcf.crawler.system.IdleCleanupThread
+38642,org.apache.manifoldcf.crawler.system.SeedingThread
+38643,org.apache.manifoldcf.crawler.system.SetPriorityThread
+38644,org.apache.manifoldcf.crawler.system.StartupThread
+38645,org.apache.manifoldcf.crawler.system.SeedingResetManager
+38674,org.apache.manifoldcf.crawler.connectors.sharepoint.SharePointConfig
+38754,org.apache.manifoldcf.crawler.connectors.webcrawler.ThrottleDescription
+38830,org.apache.manifoldcf.crawler.repositoryconnectorpool.RepositoryConnectorPool
+38897,org.apache.manifoldcf.crawler.tests.SanityHSQLDBTest
+39259,org.elasticsearch.plugin.mapper.attachments.tika.TikaInstance
+39380,org.apache.manifoldcf.crawler.UnRegisterAll
+39451,org.apache.manifoldcf.crawler.connectors.webcrawler.ScriptParseState
+39465,org.apache.manifoldcf.connectorcommon.fuzzyml.HTMLParseState
+39470,org.apache.manifoldcf.authorities.system.MappingThread
+39494,org.apache.manifoldcf.agents.output.filesystem.SanityMySQLTest
+39496,org.apache.manifoldcf.agents.output.filesystem.BaseMySQL
+39498,org.apache.manifoldcf.crawler.connectors.hdfs.tests.SanityMySQLTest
+39501,org.apache.manifoldcf.agents.output.opensearchserver.OpenSearchServerAction
+39515,org.apache.manifoldcf.authorities.system.AuthCheckThread
+39536,org.apache.manifoldcf.core.interfaces.NullCharacterInput
+39552,org.apache.manifoldcf.authorities.RegisterDomain
+39568,org.apache.manifoldcf.crawler.connectors.jira.Messages
+39653,org.apache.manifoldcf.authorities.authorities.generic.GenericAuthority
+39832,org.apache.manifoldcf.authorities.authorities.generic.Messages
+39844,org.apache.manifoldcf.crawler.connectors.jira.JiraSession
+39927,org.apache.manifoldcf.crawler.connectors.jira.JiraIssue
+39928,org.apache.manifoldcf.crawler.connectors.jira.JiraUserQueryResults
+39983,org.apache.manifoldcf.core.lockmanager.LocalLock
+40137,org.apache.manifoldcf.crawler.connectors.generic.api.Items
+40139,org.apache.manifoldcf.crawler.connectors.generic.api.Item
+40354,org.apache.manifoldcf.agents.system.IdleCleanupThread
+40605,org.apache.manifoldcf.crawler.connectors.alfrescowebscript.ConfigurationHandler
+40639,org.apache.manifoldcf.crawler.connectors.sharepoint.NameValue
+40673,org.apache.manifoldcf.authorities.ChangeAuthSpec
+40687,org.apache.manifoldcf.crawler.connectors.jdbc.tests.NavigationHSQLDBUI
+40762,org.apache.manifoldcf.crawler.UnRegister
+40779,org.apache.manifoldcf.agents.transformationconnmgr.TransformationConnectorManager
+41216,org.apache.manifoldcf.core.lockmanager.LocalLockPool
+41315,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BigCrawlPostgresqlLT
+42437,org.apache.manifoldcf.crawler.connectors.rss.Messages
+42445,org.apache.manifoldcf.agents.output.solr.tests.SolrCrawlHSQLDBIT
+42452,org.apache.manifoldcf.agents.output.solr.tests.BaseITHSQLDB
+42453,org.apache.manifoldcf.agents.output.solr.tests.SolrTester
+42466,org.apache.manifoldcf.agents.output.elasticsearch.tests.NavigationHSQLDBUI
+42498,org.apache.manifoldcf.crawler.connectors.generic.api.DateAdapter
+42505,org.apache.manifoldcf.authorities.SynchronizeMappers
+42564,org.apache.manifoldcf.crawler.connectors.filesystem.tests.NavigationCombinedHSQLDBUI
+42746,org.apache.manifoldcf.crawler.AddScheduledTime
+42818,org.apache.manifoldcf.crawler.connectors.hdfs.tests.SanityHSQLDBTest
+42821,org.apache.manifoldcf.crawler.ImportConfiguration
+42921,org.apache.manifoldcf.crawler.tests.SanityMySQLTest
+42924,org.apache.manifoldcf.crawler.connectors.webcrawler.FormDataAccumulator
+43075,org.apache.manifoldcf.crawler.connectors.meridio.Messages
+43248,org.apache.manifoldcf.core.lockmanager.ZooKeeperEphemeralNodeObject
+43257,org.apache.manifoldcf.authorities.authorities.nullauthority.tests.NavigationHSQLDBUI
+43321,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.ThrottlingPostgresqlLT
+43400,org.apache.manifoldcf.agents.SynchronizeAll
+43538,org.apache.manifoldcf.apiservlet.APIServlet
+43925,org.apache.manifoldcf.crawler.GetJobSchedule
+43982,org.apache.manifoldcf.crawler.connectors.dropbox.DropboxConfig
+44047,org.apache.manifoldcf.agents.RegisterTransformation
+44066,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.BigCrawlMySQLLT
+44073,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.BaseITMySQL
+44095,org.apache.manifoldcf.crawler.connectors.alfresco.tests.BaseITHSQLDB
+44118,org.apache.manifoldcf.agents.output.hdfs.SanityHSQLDBTest
+44121,org.apache.manifoldcf.crawler.RunQueueStatus
+44270,org.elasticsearch.index.mapper.xcontent.DateAttachmentMapperTests
+44459,org.apache.manifoldcf.crawler.connectors.alfrescowebscript.tests.APISanityHSQLDBIT
+44550,org.apache.manifoldcf.crawler.ChangeJobDocSpec
+44563,org.apache.manifoldcf.ui.jsp.JspWrapper
+44616,org.apache.manifoldcf.crawler.connectors.webcrawler.FindHTMLFormHandler
+44658,org.apache.manifoldcf.crawler.connectors.jira.JiraRepositoryConnector
+44991,org.apache.manifoldcf.authorities.authorities.nullauthority.Messages
+45073,org.apache.manifoldcf.crawler.server.filenet.Filenet
+45084,org.apache.manifoldcf.crawler.common.filenet.FilenetFactoryImpl
+45102,org.elasticsearch.index.mapper.xcontent.MultifieldAttachmentMapperTests
+45231,org.apache.manifoldcf.authorities.mappers.regexp.RegexpMapper
+45356,org.apache.manifoldcf.crawler.connectors.generic.api.Seed
+45361,org.apache.manifoldcf.crawler.connectors.generic.GenericConnector
+45713,org.apache.manifoldcf.crawler.connectors.generic.Messages
+45737,org.apache.manifoldcf.crawler.RunDocumentStatus
+45828,org.apache.manifoldcf.core.database.DBInterfacePostgreSQL
+46172,org.apache.manifoldcf.crawler.DefineRepositoryConnection
+46210,org.apache.manifoldcf.authorities.authority.AuthorityConnectionManager
+46438,org.apache.manifoldcf.crawler.common.filenet.FileSeedInfo
+47770,org.apache.manifoldcf.crawler.WaitForJobDeleted
+47782,org.apache.manifoldcf.agents.output.elasticsearch.tests.BasePostgresql
+48393,org.elasticsearch.plugin.mapper.attachments.test.SimpleAttachmentIntegrationTests
+48413,org.apache.manifoldcf.core.DBDrop
+48467,org.apache.manifoldcf.connectorcommon.common.DeflateInputStream
+48509,org.apache.manifoldcf.crawler.AbortJob
+48519,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BasePostgresql
+48530,org.apache.manifoldcf.core.lockmanager.LockManager
+48630,org.apache.manifoldcf.core.lockmanager.FileLockManager
+48649,org.apache.manifoldcf.apiservice.ServletListener
+48725,org.apache.manifoldcf.crawler.connectors.filesystem.tests.SanityPostgresqlIT
+48741,org.apache.manifoldcf.crawler.connectors.sharepoint.SharePointRepository
+49677,org.apache.manifoldcf.authorities.authorities.activedirectory.tests.NavigationHSQLDBUI
+49688,org.apache.manifoldcf.authorities.authorities.activedirectory.tests.BaseUIHSQLDB
+49693,org.apache.manifoldcf.authorities.authorities.cmis.Messages
+49782,org.apache.manifoldcf.crawler.common.DCTM.DocumentumObjectImpl
+49868,com.documentum.fc.client.DfAuthenticationException
+49872,org.apache.manifoldcf.crawler.connectors.wiki.tests.SanityHSQLDBTest
+49898,org.apache.manifoldcf.agents.Uninstall
+49932,org.apache.manifoldcf.connectorcommon.jsongen.TestJsonGen
+49943,org.apache.manifoldcf.connectorcommon.jsongen.JSONDoubleReader
+49968,org.apache.manifoldcf.crawler.connectors.webcrawler.ThrottledFetcher
+50384,org.apache.manifoldcf.crawler.connectors.wiki.tests.SanityMySQLTest
+50387,org.apache.manifoldcf.crawler.connectors.rss.GetSeedList
+50427,org.apache.manifoldcf.crawler.connectors.webcrawler.tests.SessionLoginHSQLDBIT
+50799,org.apache.manifoldcf.crawler.server.DCTM.DCTM
+50844,org.apache.manifoldcf.crawler.connectors.alfresco.tests.SanityPostgresqlTest
+50846,org.apache.manifoldcf.crawler.connectors.alfresco.tests.BasePostgresql
+50861,org.apache.manifoldcf.crawler.connectors.dropbox.DropboxSession
+50907,org.apache.manifoldcf.crawler.connectors.rss.tests.BigCrawlMySQLLT
+50972,org.apache.manifoldcf.crawler.connectors.webcrawler.URLTest
+50989,org.apache.manifoldcf.agents.output.filesystem.FileOutputConstant
+51006,org.apache.manifoldcf.authorities.authgroups.AuthorityGroupManager
+51171,org.apache.manifoldcf.crawler.connectors.cmis.tests.BasePostgresql
+51175,org.apache.manifoldcf.connectorcommon.throttler.TestThrottler
+51520,org.apache.manifoldcf.crawler.connectors.rss.tests.BigCrawlPostgresqlLT
+51568,org.apache.manifoldcf.crawler.connectors.filesystem.tests.BigCrawlHSQLDBLT
+51608,org.apache.manifoldcf.crawler.tests.TestingRepositoryConnector
+51635,org.apache.manifoldcf.core.tests.UILockSpinner
+51643,org.apache.manifoldcf.crawler.StartJob
+51656,org.apache.manifoldcf.authorities.authorities.cmis.CmisAuthorityConnector
+51822,org.apache.manifoldcf.crawler.connectors.cmis.tests.BaseITHSQLDB
+51846,org.apache.manifoldcf.crawler.connectors.meridio.MeridioConnector
+52501,org.apache.manifoldcf.crawler.connectors.meridio.MeridioClassContents
+52545,org.apache.manifoldcf.crawler.connectors.wiki.SingleLevelErrorContext
+52605,org.apache.manifoldcf.crawler.connectors.wiki.WikiConnector
+53879,org.apache.manifoldcf.crawler.connectors.filesystem.tests.ExpirationMySQLIT
+53903,org.apache.manifoldcf.agents.tests.TestingOutputConnector
+53918,org.apache.manifoldcf.crawler.connectors.sharepoint.VersionsHeader
+54302,org.apache.manifoldcf.authorities.authorities.jira.JiraUserQueryResults
+54471,org.apache.manifoldcf.crawler.connectors.sharedrive.tests.NavigationHSQLDBUI
+54484,org.apache.manifoldcf.crawler.connectors.sharedrive.tests.BaseUIHSQLDB
+54491,org.apache.manifoldcf.core.database.BaseObject
+54503,org.apache.manifoldcf.crawler.connectors.cmis.tests.APISanityHSQLDBIT
+54674,com.documentum.fc.common.DfTime
+54680,org.apache.manifoldcf.crawler.SynchronizeConnectors
+54702,org.apache.manifoldcf.crawler.tests.SchedulingRepositoryConnector
+54744,org.apache.manifoldcf.crawler.connectors.filesystem.tests.APISanityCombinedHSQLDBIT
+54938,org.apache.manifoldcf.crawler.connectors.generic.api.Seeds
+54941,org.apache.manifoldcf.crawler.tests.ConnectorBaseHSQLDBext
+55096,org.apache.manifoldcf.core.cachemanager.CacheManager
+55461,org.apache.manifoldcf.agents.output.filesystem.FileOutputConnector
+55666,org.apache.manifoldcf.crawler.registry.DCTM.DCTM
+55681,org.apache.manifoldcf.agents.tests.SanityMySQLTest
+55696,org.apache.manifoldcf.crawler.connectors.wiki.tests.NavigationHSQLDBUI
+57357,org.apache.manifoldcf.crawler.connectors.sharedrive.SharedDriveHelpers
+57398,org.apache.manifoldcf.authorities.DefineMappingConnection
+57425,org.apache.manifoldcf.crawler.connectors.rss.tests.URLTest
+57442,org.apache.manifoldcf.crawler.WaitForJobInactive
+57454,org.apache.manifoldcf.core.LockClean
+57474,org.apache.manifoldcf.authorities.authorities.ldap.LDAPAuthority
+57748,org.apache.manifoldcf.crawlerui.ServletListener
+57758,org.apache.manifoldcf.crawler.interfaces.DocumentVersions
+57793,org.apache.manifoldcf.crawler.connectors.sharedrive.GetConnectionInfo
+57837,org.apache.manifoldcf.agents.output.opensearchserver.OpenSearchServerConnector
+57939,org.apache.manifoldcf.crawler.connectors.filesystem.tests.SanityPostgresqlTest
+57955,org.apache.manifoldcf.crawler.RunResultHistory
+58142,org.apache.manifoldcf.agents.output.hdfs.HDFSSession
+58397,org.apache.manifoldcf.agents.SynchronizeTransformations
+58595,org.apache.manifoldcf.crawler.connectors.alfresco.tests.APISanityHSQLDBIT
+58937,org.apache.manifoldcf.crawler.connectors.cmis.tests.SanityPostgresqlTest
+58956,org.apache.manifoldcf.agents.output.hdfs.HDFSOutputConnector
+59207,org.apache.manifoldcf.agents.tests.SanityHSQLDBTest
+59957,org.apache.manifoldcf.crawler.connectors.dropbox.DropboxRepositoryConnector
+60319,org.apache.manifoldcf.agents.output.hdfs.SanityPostgresqlTest
+60322,org.apache.manifoldcf.crawler.DeleteJob
+60332,org.apache.manifoldcf.authorities.DeleteMappingConnection
+61230,org.apache.manifoldcf.crawler.ExportConfiguration
+61246,org.apache.manifoldcf.authorities.RegisterAuthority
+61314,org.elasticsearch.index.mapper.xcontent.MetadataMapperTest
+61341,org.apache.manifoldcf.crawler.ListJobStatuses
+61360,org.apache.manifoldcf.jettyrunner.ManifoldCFJettyShutdown
+*Edges: 3227
+25382 14956 1
+49868 1880 1
+23312 23313 1
+23313 1880 1
+1878 1880 1
+14947 14956 1
+1880 10352 1
+54674 14956 1
+12112 28891 1
+3484 3493 1
+28898 20667 1
+28898 3484 1
+14647 6127 1
+14647 14661 6
+22720 6127 1
+22720 14661 13
+22721 6127 1
+22721 14661 4
+22737 22738 1
+18072 6127 2
+18072 14661 2
+14661 22722 1
+22722 14661 1
+18342 595 1
+18342 20 2
+18342 3133 2
+18342 816 2
+18342 5547 3
+18330 595 1
+18330 20 2
+18330 3133 2
+18330 816 1
+18330 5547 2
+3133 21 1
+3133 211 1
+31598 374 2
+31598 20 1
+31598 3134 1
+31598 21 1
+31598 211 1
+9031 4211 1
+9031 374 2
+9031 20 1
+9031 21 1
+9031 211 1
+10618 3134 1
+10618 21 1
+10618 211 1
+6509 4211 1
+6509 21 1
+6509 211 1
+23220 20 1
+23220 3133 2
+23220 211 1
+16708 20 1
+16708 3133 2
+16708 2933 1
+9770 20 1
+9770 9788 2
+9770 2934 1
+9770 3134 1
+9770 2933 1
+44047 4211 1
+44047 20 1
+44047 9788 2
+44047 12940 1
+44047 2933 1
+43400 4652 1
+43400 20 2
+43400 3133 2
+43400 2933 1
+3113 20 3
+3113 2934 1
+3113 3134 1
+3113 3133 2
+3113 2933 1
+3113 817 1
+3113 816 3
+3113 3135 1
+58397 11617 1
+58397 4211 1
+58397 20 3
+58397 12940 1
+58397 3133 2
+58397 2933 1
+58397 817 1
+58397 816 3
+9788 20 1
+9788 21 1
+9788 211 1
+9788 817 1
+9788 816 3
+34457 20 1
+34457 3133 2
+34457 2933 1
+18001 20 1
+18001 3133 2
+18001 2933 1
+12484 20 2
+12484 2934 1
+12484 3134 1
+12484 3133 2
+12484 2933 1
+12484 817 1
+12484 816 3
+31630 4211 1
+31630 20 2
+31630 12940 1
+31630 3133 2
+31630 2933 1
+31630 817 1
+31630 816 3
+25934 20 1
+25934 9788 2
+25934 2934 1
+25934 3134 1
+25934 2933 1
+13596 4211 1
+13596 20 1
+13596 9788 2
+13596 12940 1
+13596 2933 1
+49898 20 1
+49898 3133 2
+49898 211 1
+4651 596 1
+4651 4652 3
+4651 20 3
+4651 585 25
+85 20 3
+85 1360 3
+85 86 8
+23014 86 1
+23014 23026 5
+23026 20 2
+23026 86 1
+23026 29281 3
+86 85 4
+66 86 1
+66 85 2
+29281 20 4
+29281 86 2
+29281 85 6
+20848 596 13
+20848 1359 2
+20848 597 21
+20848 10354 5
+20848 595 1
+20848 2935 16
+20848 1357 2
+20848 203 1
+20848 4224 1
+20848 585 97
+20848 594 6
+20848 5620 5
+20848 20 10
+20848 598 1
+20848 1360 10
+20848 17662 1
+20848 3134 1
+20848 1358 4
+5249 5281 1
+5249 1876 4
+5249 1357 29
+5249 5280 1
+5249 5279 5
+4652 20 1
+2933 4652 1
+2933 817 1
+2933 816 3
+2925 6401 1
+3459 4224 4
+4209 817 1
+4209 816 3
+5620 3459 3
+5620 4224 1
+3134 211 1
+3134 817 1
+3134 816 3
+3134 3135 1
+3135 14151 9
+3135 374 4
+3135 2934 1
+2934 817 1
+2934 816 3
+1357 11910 2
+4211 11617 1
+4211 211 1
+4211 817 1
+4211 816 3
+11617 14151 9
+11617 374 4
+11617 12940 1
+12940 817 1
+12940 816 3
+1352 1359 5
+1352 1357 1
+1352 1367 1
+1352 5228 1
+1352 1358 8
+11730 1357 4
+11730 11910 1
+11730 396 16
+11730 816 11
+11730 8397 14
+11730 5279 3
+11730 5228 3
+11730 11914 8
+11730 20 7
+11730 374 16
+11730 1360 3
+11730 11912 3
+11730 11911 11
+11730 5280 1
+11730 11916 4
+11730 11915 1
+11730 1352 1
+11730 8325 11
+11730 817 3
+8325 596 7
+8325 20 8
+8325 5280 2
+8325 597 10
+8325 594 2
+8325 585 36
+8325 8397 6
+8397 5279 5
+11916 5891 8
+37503 3257 1
+37503 1360 1
+37503 3254 9
+3257 374 4
+3257 30711 2
+3254 3253 1
+3254 3257 4
+3254 20 4
+3254 1360 2
+37394 3257 3
+37394 374 1
+37394 1360 1
+37394 3254 10
+37394 3149 2
+37394 30711 2
+37394 37503 4
+37394 13514 2
+37394 1352 1
+37394 1357 6
+37394 18232 2
+37394 5228 7
+37394 1358 1
+18232 3253 1
+18232 3257 4
+18232 3254 9
+3149 3253 1
+3149 3257 2
+3149 1357 1
+3149 3254 8
+13514 5891 8
+23118 20 3
+23118 1367 21
+23118 913 7
+23118 816 2
+23118 23174 1
+23118 1368 120
+34686 12507 1
+23174 913 1
+47782 8408 1
+5163 1890 1
+42466 2049 115
+42466 5163 1
+25978 12507 1
+39496 10172 1
+8404 8408 1
+17627 374 4
+17627 17639 2
+17627 17640 1
+55461 374 1
+55461 20 4
+55461 17627 2
+55461 1359 3
+55461 20850 2
+55461 17639 2
+55461 1360 3
+55461 1355 2
+55461 1368 1
+55461 1352 3
+55461 1357 3
+55461 1367 3
+55461 5228 4
+55461 1358 3
+17639 17640 1
+20850 5891 8
+25976 25978 1
+39494 39496 1
+25950 8404 1
+1129 1371 17
+1129 374 15
+1129 20 3
+1129 1359 6
+1129 1360 1
+1129 1369 19
+1129 1355 2
+1129 1368 20
+1129 1354 5
+1129 1352 1
+1129 1373 1
+1129 1367 12
+1129 5228 5
+1129 1358 2
+1354 595 4
+1354 3252 1
+1354 20 7
+1354 1360 7
+1354 1357 8
+1354 816 3
+1369 5891 8
+5786 1890 1
+5773 5786 1
+5773 2049 98
+33531 12507 1
+31184 10172 1
+34102 8408 1
+5184 5198 1
+5184 374 4
+5184 5197 2
+58956 58142 3
+58956 374 5
+58956 20 10
+58956 1359 3
+58956 5184 3
+58956 1360 2
+58956 1355 1
+58956 29927 3
+58956 1368 1
+58956 1352 3
+58956 5197 2
+58956 1357 4
+58956 1367 3
+58956 5228 6
+58956 1358 3
+5197 5198 1
+29927 5891 8
+44118 33531 1
+31182 31184 1
+60319 34102 1
+18545 5891 8
+32386 1360 1
+32386 1352 1
+32386 1357 1
+32386 5228 3
+32386 1358 1
+19993 5891 8
+39501 8998 1
+39501 8997 7
+8998 30329 2
+8998 374 4
+8997 3253 3
+8997 20 3
+8997 8998 5
+57837 374 1
+57837 17747 1
+57837 14782 1
+57837 30329 2
+57837 8998 8
+57837 1352 1
+57837 28200 1
+57837 19993 2
+57837 1357 1
+57837 8997 10
+57837 1358 1
+57837 5228 6
+57837 8988 1
+17747 3253 1
+17747 8998 1
+17747 8997 7
+28200 20 1
+28200 8998 1
+28200 1357 4
+28200 8997 8
+14782 3253 2
+14782 8998 2
+14782 8997 4
+8988 8998 2
+8988 8997 6
+21093 1890 1
+21080 21093 1
+21080 2049 92
+30740 20 8
+30740 1360 7
+30740 1373 1
+30740 1357 6
+30740 16570 1
+7531 5891 8
+16570 16703 2
+16570 16702 1
+31133 16570 1
+16703 38008 6
+31134 30740 9
+31134 1371 74
+31134 598 1
+31134 374 111
+31134 20 5
+31134 1360 1
+31134 7531 126
+31134 4560 4
+31134 1368 28
+31134 1352 1
+31134 1373 9
+31134 1367 20
+31134 5228 3
+31134 1358 2
+42452 913 1
+23327 1890 1
+23315 2049 107
+23315 23327 1
+42445 2667 4
+42445 42453 3
+42445 42452 1
+42453 591 1
+42453 814 1
+42453 374 8
+42453 20 3
+42453 813 1
+42453 1355 1
+42453 211 1
+42453 5320 5
+42453 1368 1
+42453 3134 1
+42453 21 1
+42453 1867 2
+42453 1367 2
+42453 589 1
+2930 374 3
+2744 596 5
+2744 20 10
+2744 2934 1
+2744 2928 15
+2744 2925 2
+2744 2933 2
+2744 597 5
+2744 1070 6
+2744 2930 10
+2744 595 1
+2744 2932 1
+2744 816 16
+2744 1367 4
+2744 585 49
+2744 594 2
+25266 6141 6
+18877 596 2
+18877 20 3
+18877 6401 1
+18877 3135 3
+18877 594 2
+18877 585 35
+18877 1070 7
+5547 20 2
+5547 2933 1
+5547 595 5
+5547 4652 1
+5547 40354 2
+5547 17662 1
+5547 203 1
+5547 816 2
+40354 20 4
+40354 17662 1
+40354 21 1
+40354 816 3
+40354 203 1
+1350 46 5
+211 4211 2
+211 20 3
+211 2934 2
+211 1360 1
+211 4209 4
+211 2933 4
+211 1350 1
+211 1368 7
+211 17662 1
+211 12940 2
+211 3134 4
+211 816 4
+211 1367 11
+211 46 1
+9877 31663 1
+9877 21 4
+9877 38104 5
+9877 211 4
+3382 3398 1
+3382 21 4
+3382 38104 6
+3382 211 4
+13697 21 4
+13697 38104 5
+13697 211 4
+13697 13712 1
+9145 34962 1
+9145 21 4
+9145 38104 5
+9145 211 4
+59207 9877 1
+8847 3382 1
+55681 13697 1
+30445 9145 1
+53903 1352 1
+15382 1359 5
+15382 1357 1
+15382 1367 1
+15382 5228 1
+15382 1358 8
+31669 27640 4
+31669 15382 5
+31669 1359 8
+31669 1357 9
+31669 1355 5
+31669 1367 21
+31669 1368 20
+31669 1358 10
+27640 5891 8
+30459 15382 1
+30459 1359 8
+30459 1355 6
+30459 1368 25
+30459 1357 12
+30459 1367 22
+30459 30654 6
+30459 1358 2
+30654 5891 8
+29480 15382 1
+29480 20 1
+29480 1360 1
+29480 1357 2
+29480 1358 1
+15384 5891 8
+15168 15384 8
+15168 15382 1
+15168 20 1
+15168 1359 9
+15168 1355 5
+15168 1368 21
+15168 1357 14
+15168 1367 19
+15168 1358 3
+23035 374 3
+11616 596 5
+11616 20 10
+11616 2928 15
+11616 2925 2
+11616 2933 2
+11616 597 5
+11616 1070 6
+11616 595 1
+11616 23035 10
+11616 12940 1
+11616 2932 1
+11616 816 16
+11616 1367 4
+11616 585 49
+11616 594 2
+215 6141 6
+40779 596 2
+40779 11617 3
+40779 20 3
+40779 6401 1
+40779 594 2
+40779 585 35
+40779 1070 7
+17644 20 4
+17644 17664 1
+17644 17662 1
+17644 21 1
+17644 816 3
+17644 203 1
+17644 17663 1
+17644 4213 1
+48649 17644 2
+48649 20 1
+48649 21 2
+48649 815 2
+43538 16702 3
+43538 20 8
+43538 21 4
+43538 815 4
+43538 1367 12
+15137 17 1
+15137 21 1
+15137 5704 1
+5244 17 1
+5244 842 1
+5244 21 1
+747 17 1
+747 19529 1
+747 21 1
+40673 17 1
+40673 21 1
+40673 7519 1
+40673 1367 1
+27362 17 1
+27362 20 1
+27362 8882 1
+27362 21 1
+27362 7519 1
+27362 17663 1
+23994 17 1
+23994 21 1
+23994 7519 1
+29340 17 1
+29340 374 2
+29340 20 1
+29340 21 1
+29340 7519 1
+57398 17 1
+57398 374 2
+57398 20 1
+57398 21 1
+57398 32551 1
+19983 17 1
+19983 21 1
+19983 7519 1
+60332 17 1
+60332 21 1
+60332 32551 1
+61246 15137 2
+61246 20 1
+39552 20 1
+39552 5244 2
+728 20 1
+728 747 2
+15123 15137 2
+15123 20 2
+15123 14101 1
+42505 19590 1
+42505 20 2
+42505 747 2
+20600 15137 2
+20600 20 1
+38090 20 1
+38090 747 2
+18204 15137 2
+18204 20 1
+5232 20 1
+5232 5244 2
+26147 20 1
+26147 747 2
+5712 596 2
+5712 20 3
+5712 6401 1
+5712 594 2
+5712 585 35
+5712 14101 3
+5712 1070 7
+850 596 2
+850 20 1
+850 6401 1
+850 594 2
+850 585 23
+850 1070 5
+51006 596 2
+51006 20 10
+51006 813 1
+51006 2928 11
+51006 597 3
+51006 1070 4
+51006 2932 1
+51006 19589 2
+51006 7519 1
+51006 816 10
+51006 585 40
+51006 25247 7
+7416 20 1
+7416 7420 14
+7416 5228 1
+7172 1371 16
+7172 374 26
+7172 20 16
+7172 6597 37
+7172 7419 10
+7172 1070 1
+7172 7416 1
+7172 2932 1
+7172 7420 3
+7172 1373 1
+7172 5228 4
+6597 5891 8
+26160 374 27
+26160 20 2
+26160 18245 6
+26160 4560 1
+26160 1368 21
+26160 1070 1
+26160 7416 1
+26160 2932 1
+26160 7420 3
+26160 816 2
+26160 1367 6
+26160 5228 6
+18245 5891 8
+49688 1890 1
+49677 2049 51
+49677 49688 1
+15403 374 4
+15403 7416 1
+15403 7420 2
+15403 15462 4
+15403 5228 3
+15462 374 9
+15462 25798 4
+25798 5891 8
+51656 1371 6
+51656 374 6
+51656 7416 1
+51656 2932 1
+51656 7420 5
+51656 49693 8
+51656 5228 2
+51656 1070 1
+49693 5891 8
+39653 1371 17
+39653 374 8
+39653 20 4
+39653 39832 16
+39653 1070 1
+39653 3253 1
+39653 7416 1
+39653 2932 1
+39653 7420 6
+39653 816 3
+39653 5228 4
+39832 5891 8
+9554 1371 18
+9554 374 29
+9554 20 7
+9554 1360 4
+9554 9743 28
+9554 1070 1
+9554 7416 1
+9554 2932 1
+9554 7420 3
+9554 1373 1
+9554 9738 7
+9554 5279 2
+9554 5228 4
+9743 5891 8
+21095 374 35
+21095 20 7
+21095 21233 6
+21095 21231 3
+21095 7416 1
+21095 7420 2
+21095 21230 5
+21095 5228 2
+21230 3253 1
+21230 21231 1
+21230 22719 1
+21230 1373 1
+21230 27426 2
+21230 54302 3
+54302 27426 2
+21233 5891 8
+57474 1371 36
+57474 374 27
+57474 20 11
+57474 31952 63
+57474 4560 2
+57474 1368 11
+57474 1070 1
+57474 7416 1
+57474 2932 1
+57474 7420 3
+57474 816 2
+57474 1367 10
+57474 5228 5
+31952 5891 8
+21395 1890 1
+21384 21395 1
+21384 2049 50
+34745 1371 26
+34745 34933 40
+34745 14661 9
+34745 1070 1
+34745 22721 5
+34745 18015 11
+34745 7420 3
+34745 1373 8
+34745 816 1
+34745 5228 6
+34745 20 4
+34745 374 43
+34745 598 1
+34745 1360 3
+34745 7416 1
+34745 2932 1
+34933 5891 8
+8543 1371 34
+8543 703 2
+8543 598 1
+8543 374 78
+8543 20 7
+8543 8791 68
+8543 1070 1
+8543 7416 1
+8543 2932 1
+8543 7420 3
+8543 1373 8
+8543 8789 9
+8543 5228 5
+8791 5891 8
+44991 5891 8
+28490 7416 1
+28490 7420 3
+28490 5228 1
+20463 1890 1
+43257 2049 42
+43257 20463 1
+23825 5891 8
+24139 20 13
+23539 374 12
+23539 20 2
+23539 4560 1
+23539 1368 21
+23539 1070 1
+23539 3253 1
+23539 23825 6
+23539 7416 1
+23539 2932 1
+23539 7420 3
+23539 816 2
+23539 1367 6
+23539 5228 6
+33876 16702 1
+33876 598 1
+33876 374 55
+33876 20 2
+33876 1070 1
+33876 3253 1
+33876 23825 6
+33876 7416 1
+33876 2932 1
+33876 24139 4
+33876 7420 3
+33876 1373 7
+33876 5228 6
+333 374 3
+46210 596 8
+46210 20 7
+46210 2928 17
+46210 597 6
+46210 1070 7
+46210 595 1
+46210 2932 1
+46210 19589 2
+46210 1367 4
+46210 816 22
+46210 34397 2
+46210 333 13
+46210 585 49
+46210 594 4
+7471 6141 6
+7519 817 1
+7519 816 3
+14101 14151 9
+14101 374 4
+14101 7420 2
+14101 5704 1
+5704 817 1
+5704 816 3
+34397 817 1
+34397 816 3
+842 817 1
+842 816 3
+19589 6401 1
+32551 817 1
+32551 816 3
+19590 14151 8
+19590 374 4
+19590 19529 1
+19529 817 1
+19529 816 3
+19532 19590 3
+19532 596 2
+19532 20 3
+19532 6401 1
+19532 594 2
+19532 585 35
+19532 1070 7
+5225 5228 1
+10535 5891 8
+45231 1371 6
+45231 374 4
+45231 20468 13
+45231 5225 1
+45231 10535 9
+45231 5228 1
+20932 374 3
+29592 596 6
+29592 20 9
+29592 2928 13
+29592 20932 11
+29592 597 4
+29592 1070 5
+29592 595 1
+29592 2932 1
+29592 19589 2
+29592 7519 1
+29592 816 18
+29592 1367 4
+29592 585 39
+38463 6141 6
+39515 20 10
+39515 21 1
+39515 23951 13
+39515 17663 1
+39515 14101 3
+39515 11991 3
+23951 7420 3
+24317 20 3
+24317 17664 1
+24317 21 1
+24317 816 2
+24317 17663 1
+38 46 5
+17 19529 2
+17 5704 2
+17 32551 2
+17 11991 6
+17 39470 2
+17 595 2
+17 7519 2
+17 816 4
+17 39515 2
+17 34397 2
+17 17663 2
+17 20 4
+17 842 2
+17 38 1
+17 17664 2
+17 24317 2
+17 46 1
+39470 32550 7
+39470 20 10
+39470 17664 1
+39470 21 1
+39470 11991 3
+5 17 2
+5 20 1
+5 21 2
+32419 32550 5
+32419 20 5
+32419 32551 1
+32419 11991 2
+32419 17 4
+32419 3253 8
+32419 21 3
+32419 7420 4
+32419 7519 1
+32419 23951 27
+18628 20 4
+18628 17664 1
+18628 17662 1
+18628 21 1
+18628 816 3
+18628 203 1
+18628 17663 1
+18628 4213 1
+19675 20 3
+19675 21 2
+19675 815 5
+19675 211 1
+19675 816 1
+19675 18628 2
+19675 5547 2
+14561 5103 6
+1993 2034 1
+1993 2030 3
+1993 20 1
+1993 2032 4
+1993 2036 3
+17740 13509 4
+17740 2036 3
+39465 9507 2
+39465 9415 8
+17724 14082 3
+17724 13509 2
+17724 1993 5
+17724 2036 5
+17724 17739 3
+17724 17740 3
+2034 2032 4
+5135 5159 4
+14082 2032 6
+2030 2036 1
+9506 13509 1
+9415 20 1
+9415 9506 2
+9415 9507 18
+38066 8929 3
+38066 17724 2
+17739 36956 1
+17671 17683 5
+17671 8929 1
+8929 13509 1
+8929 8928 7
+8929 10402 2
+10402 9507 6
+10402 9415 1
+17683 8929 1
+17683 20 2
+17683 28525 3
+36956 9507 4
+36956 9415 1
+8928 8929 8
+8917 8929 1
+8917 8928 2
+28525 8929 2
+28525 20 4
+28525 8928 6
+1373 13935 2
+33498 816 2
+11912 421 3
+49943 11915 2
+12135 11915 2
+11914 421 6
+11914 396 1
+11911 11914 1
+11911 421 1
+396 421 1
+11915 421 1
+49932 11914 2
+49932 12135 1
+49932 11912 4
+49932 11911 4
+49932 396 6
+49932 49943 1
+13935 3252 2
+13935 20 4
+33494 33498 1
+28647 595 3
+15010 595 3
+51175 31663 1
+51175 21 1
+51175 33498 1
+31403 595 3
+33045 31186 9
+14819 14832 5
+14819 20 1
+14819 816 1
+48413 14832 5
+48413 20 1
+48413 816 1
+14832 21 1
+14832 816 1
+57454 20 1
+57454 21 1
+57454 48630 1
+57454 816 1
+34136 20 1
+34136 8882 1
+34136 816 1
+55096 595 1
+55096 20 10
+55096 2928 2
+55096 5916 14
+55096 1070 16
+5916 1070 4
+3252 20 2
+30405 11910 8
+5228 374 12
+6141 374 2
+6141 20 4
+6141 816 1
+585 54491 4
+585 6401 1
+585 594 1
+585 1070 13
+7146 11946 3
+7146 20 6
+7146 14581 4
+7146 816 1
+7146 11986 2
+14270 596 9
+14270 598 1
+14270 20 23
+14270 2928 2
+14270 14581 6
+14270 15904 23
+14270 1070 17
+14270 595 6
+14270 7146 1
+14270 6401 1
+14270 816 1
+14270 594 5
+14270 1072 1
+34127 15582 2
+15582 596 9
+15582 598 1
+15582 20 26
+15582 2928 2
+15582 14581 3
+15582 15904 21
+15582 1070 17
+15582 595 2
+15582 599 2
+15582 6401 1
+15582 5589 1
+15582 594 6
+15582 1072 1
+45828 596 10
+45828 598 1
+45828 20 26
+45828 2928 2
+45828 14581 3
+45828 15904 32
+45828 1070 17
+45828 595 4
+45828 599 2
+45828 6401 1
+45828 594 5
+45828 1072 1
+15904 28132 4
+15904 14581 5
+15904 1876 3
+15904 1070 2
+15904 595 3
+15904 7146 6
+15904 816 1
+15904 594 1
+15904 5279 2
+15904 20 30
+15904 28131 4
+15904 5280 2
+15904 697 4
+15904 11522 1
+15904 5589 9
+15904 2932 1
+15904 9737 2
+15904 1072 6
+11522 2936 2
+11522 1072 6
+11522 1070 3
+5589 598 1
+9887 10032 1
+9887 20 1
+5279 20 1
+5279 697 1
+1876 20 1
+1876 697 1
+4560 1368 6
+374 20 2
+374 1367 14
+374 816 2
+374 4560 4
+374 1368 11
+1367 20 8
+1367 24315 19
+1367 1368 46
+14151 374 4
+14151 20 2
+14151 816 1
+817 595 1
+817 20 8
+598 595 1
+595 599 7
+595 20 6
+595 816 1
+599 20 5
+599 1367 6
+599 816 1
+599 1368 3
+39536 1876 2
+39536 816 2
+1359 1355 3
+1359 1367 5
+1355 1368 6
+1070 2928 2
+2928 1070 5
+5281 20 2
+5281 1876 11
+5281 816 12
+5280 20 1
+5280 816 4
+5280 5279 10
+1358 374 3
+1358 1359 3
+11986 14581 5
+11946 11986 5
+14581 11986 4
+17937 39983 78
+17937 20 32
+17937 1976 18
+17937 3291 3
+17937 599 1
+17937 14507 4
+17937 1981 31
+17937 41216 35
+17937 816 2
+17937 1975 18
+48630 1980 1
+48630 20 5
+48630 17937 1
+48630 1981 2
+48630 816 6
+14433 14507 4
+14433 1981 1
+14433 816 4
+14433 5608 2
+1980 14433 1
+1980 1977 1
+41216 39983 2
+1976 1981 5
+1976 5608 12
+1976 1975 2
+48530 599 1
+48530 17937 1
+48530 48630 2
+5608 14507 6
+5608 1981 2
+5608 3291 11
+5608 816 6
+5608 1975 9
+1977 1981 1
+1977 5608 2
+1981 1977 3
+1981 1976 4
+1899 1980 1
+1899 1979 1
+1899 1977 1
+1899 1978 1
+1899 1976 8
+1899 1975 4
+1899 1974 2
+1974 22935 4
+17939 816 1
+1978 17939 4
+43248 1978 5
+43248 17939 4
+17938 1978 2
+17938 43248 5
+17761 1979 1
+17761 20 20
+17761 17939 49
+17761 17938 6
+17761 599 4
+17761 1978 33
+17761 21 1
+17761 1981 2
+17761 17937 1
+17761 816 7
+5609 14507 3
+5609 1978 15
+5609 1981 1
+5609 17939 9
+5609 5608 2
+1979 1977 1
+1979 5609 1
+1979 1978 2
+46 595 1
+816 20 17
+816 1368 2
+816 595 6
+816 599 9
+816 7143 7
+816 3252 2
+816 21 3
+816 817 3
+816 1367 2
+816 46 3
+7143 20 2
+38104 21 4
+38104 816 5
+17697 38104 2
+31663 17697 1
+3398 31663 1
+13712 17697 1
+34962 17697 1
+51635 595 1
+51635 21 1
+51635 816 1
+21021 20 2
+48509 814 1
+48509 21 1
+48509 815 1
+42746 6484 1
+42746 814 1
+42746 20 3
+42746 21 1
+42746 815 1
+42746 14735 8
+24351 21 1
+24351 815 1
+44550 814 1
+44550 21 1
+44550 815 1
+44550 1367 1
+11625 813 1
+11625 8882 2
+11625 21 1
+11625 815 1
+29772 814 1
+29772 20 3
+29772 21 1
+29772 815 1
+29772 1367 1
+46172 374 2
+46172 20 1
+46172 813 1
+46172 21 1
+46172 815 1
+60322 814 1
+60322 21 1
+60322 815 1
+16525 813 1
+16525 21 1
+16525 815 1
+61230 24351 2
+61230 815 1
+16834 814 1
+16834 21 1
+16834 815 1
+43925 6484 10
+43925 814 1
+43925 20 1
+43925 8882 1
+43925 21 1
+43925 815 1
+43925 14735 2
+42821 24351 2
+42821 815 1
+2248 20 1
+2248 21 1
+2248 815 4
+2248 211 1
+61341 814 1
+61341 8882 1
+61341 21 1
+61341 815 1
+61341 1867 11
+8858 814 1
+8858 8882 1
+8858 21 1
+8858 815 1
+15095 814 1
+15095 21 1
+15095 815 1
+6534 814 1
+6534 20 1
+6534 813 1
+6534 6554 1
+6534 6553 2
+21070 814 1
+21070 21 1
+21070 815 1
+45737 591 3
+45737 814 1
+45737 20 2
+45737 1866 2
+45737 8882 1
+45737 21 1
+45737 815 1
+45737 590 2
+9059 591 3
+9059 813 1
+9059 8882 1
+9059 21 1
+9059 26 2
+9059 815 1
+9059 589 2
+9059 590 2
+13363 591 3
+13363 813 1
+13363 8882 1
+13363 21 1
+13363 26 2
+13363 815 1
+13363 589 2
+13363 590 2
+44121 591 3
+44121 814 1
+44121 20 2
+44121 1866 2
+44121 8882 1
+44121 21 1
+44121 26 2
+44121 815 1
+44121 590 2
+57955 591 3
+57955 813 1
+57955 8882 1
+57955 21 1
+57955 26 2
+57955 815 1
+57955 589 2
+57955 590 2
+30009 591 3
+30009 813 1
+30009 8882 1
+30009 21 1
+30009 815 1
+30009 589 2
+30009 590 2
+51643 814 1
+51643 21 1
+51643 815 1
+54680 814 1
+54680 20 3
+54680 813 1
+54680 6554 1
+54680 4216 1
+54680 24351 2
+54680 817 1
+54680 816 3
+6553 20 1
+6553 21 1
+6553 815 1
+6553 817 1
+6553 816 3
+40762 814 1
+40762 20 1
+40762 813 1
+40762 6554 1
+40762 6553 2
+39380 814 1
+39380 20 2
+39380 813 1
+39380 6554 1
+39380 24351 2
+39380 817 1
+39380 816 3
+47770 814 1
+47770 21 1
+47770 815 1
+47770 816 1
+57442 814 1
+57442 20 1
+57442 21 1
+57442 815 1
+57442 1867 2
+57442 816 1
+12953 814 1
+12953 21 1
+12953 815 1
+12953 816 1
+20619 596 2
+20619 20 2
+20619 597 1
+20619 594 2
+20619 585 21
+15948 15955 1
+15948 15953 1
+15955 23313 8
+15955 54674 2
+15955 25382 1
+15955 49782 1
+15955 7419 41
+15955 1878 8
+15955 49868 8
+15955 14947 1
+15955 10352 8
+15955 31841 3
+15955 23312 8
+15955 15953 1
+49782 49868 5
+49782 23313 5
+49782 10352 18
+49782 23312 5
+49782 15953 1
+49782 7419 37
+49782 1878 5
+31841 10352 4
+31841 15953 1
+31841 7419 3
+15953 17998 1
+11341 11342 2
+45084 28743 1
+45084 2570 1
+28743 28898 2
+28743 12112 12
+28743 11337 30
+28743 11341 3
+28743 28894 1
+28743 2570 1
+28743 3484 2
+28743 9855 1
+28743 11339 10
+28743 20667 2
+28743 28890 4
+28743 11340 2
+11340 11342 2
+2570 9351 1
+2506 1359 6
+2506 1367 1
+2506 5228 1
+7615 1371 59
+7615 1359 30
+7615 1355 14
+7615 211 8
+7615 8275 14
+7615 1368 88
+7615 1373 1
+7615 1357 1
+7615 5228 2
+7615 20 41
+7615 374 17
+7615 1360 28
+7615 7419 21
+7615 2506 2
+7615 1367 66
+7615 8278 67
+8278 5891 8
+30083 21263 3
+30083 374 26
+30083 20 14
+30083 30303 5
+30083 1359 6
+30083 1360 2
+30083 1355 1
+30083 2506 1
+30083 1368 6
+30083 14739 2
+30083 30304 2
+30083 30302 3
+30083 23186 4
+30083 1357 2
+30083 1367 6
+30083 5228 2
+21263 5891 8
+30303 1357 5
+30303 11910 1
+30302 30303 1
+58595 20 6
+58595 44095 1
+58595 1367 21
+58595 913 7
+58595 816 2
+58595 1368 141
+21030 12507 1
+44095 913 1
+50846 8408 1
+4345 1890 1
+4331 2049 125
+4331 4345 1
+21028 21030 1
+50844 50846 1
+31939 374 4
+31939 20 2
+31939 1359 2
+31939 1360 6
+31939 1357 10
+31939 11910 2
+31939 40605 10
+31939 5228 3
+31939 2506 1
+31858 1359 5
+31858 1357 2
+31858 31939 4
+31858 11910 1
+40605 1371 4
+40605 374 9
+40605 1359 15
+40605 12286 21
+40605 1355 3
+40605 1367 16
+40605 1368 25
+12286 5891 8
+44459 884 1
+44459 20 3
+44459 13851 4
+44459 1367 21
+44459 913 7
+44459 816 3
+44459 1368 143
+884 913 1
+20594 1890 1
+28952 2049 122
+28952 20594 1
+12970 374 27
+12970 20 24
+12970 1359 6
+12970 1360 4
+12970 1355 1
+12970 252 3
+12970 13298 3
+12970 2506 1
+12970 1368 8
+12970 1357 9
+12970 1367 7
+12970 5228 2
+13298 5891 8
+54503 51822 1
+54503 20 6
+54503 1367 21
+54503 913 7
+54503 816 2
+54503 1368 141
+28195 12507 1
+51822 28184 4
+51822 913 1
+51171 8408 1
+12538 1890 1
+30716 2049 146
+30716 12538 1
+28965 28195 1
+58937 51171 1
+59957 32897 10
+59957 374 13
+59957 20 17
+59957 1359 11
+59957 1360 3
+59957 1355 3
+59957 2506 1
+59957 1368 13
+59957 1357 7
+59957 1367 14
+59957 50861 4
+59957 5099 1
+59957 5228 4
+50861 5099 3
+32897 5891 8
+15962 374 25
+15962 20 9
+15962 1359 17
+15962 1360 2
+15962 1355 3
+15962 12547 1
+15962 4560 1
+15962 2506 1
+15962 1368 28
+15962 3253 2
+15962 1357 11
+15962 1367 18
+15962 16454 13
+15962 5228 3
+16454 5891 8
+11338 1355 3
+11338 1368 9
+10651 1371 89
+10651 1359 23
+10651 1355 10
+10651 211 6
+10651 1368 76
+10651 1373 1
+10651 1357 5
+10651 11340 2
+10651 11342 10
+10651 5228 8
+10651 11337 25
+10651 11338 30
+10651 11341 2
+10651 20 40
+10651 374 40
+10651 11343 92
+10651 1360 27
+10651 2506 2
+10651 11339 10
+10651 1367 46
+11343 5891 8
+2266 1371 8
+2266 20 3
+2266 1359 11
+2266 2504 1
+2266 1355 11
+2266 2506 1
+2266 1368 56
+2266 2513 44
+2266 1357 6
+2266 1367 9
+2266 5228 1
+2513 5891 8
+54744 12250 2
+54744 7465 5
+27441 12250 1
+27441 7465 5
+12414 12420 1
+12414 7465 5
+7459 5765 1
+7459 7465 5
+7465 6680 10
+7465 20 6
+7465 1367 12
+7465 5320 20
+7465 1368 95
+19396 12507 1
+12250 913 3
+12420 3503 1
+5765 5661 1
+28950 10172 1
+48519 8408 1
+19964 1890 3
+51568 15942 5
+51568 12250 1
+15936 15942 5
+15936 12420 1
+41315 15942 5
+41315 5765 1
+15942 6680 8
+15942 814 1
+15942 20 4
+15942 813 1
+15942 1355 3
+15942 5320 5
+15942 1368 9
+15942 3134 1
+15942 21 1
+15942 1367 2
+15942 1867 4
+12244 5766 5
+12244 12250 1
+53879 12420 1
+53879 5766 5
+5758 5765 1
+5758 5766 5
+5766 6680 9
+5766 814 1
+5766 20 3
+5766 813 1
+5766 1355 3
+5766 5320 5
+5766 1368 9
+5766 3134 1
+5766 21 1
+5766 816 1
+5766 1367 2
+5766 1867 3
+30452 12250 1
+30452 11702 5
+26427 12420 1
+26427 11702 5
+11696 5765 1
+11696 11702 5
+11702 6680 9
+11702 814 1
+11702 20 3
+11702 813 1
+11702 1355 3
+11702 5320 4
+11702 1368 9
+11702 3134 1
+11702 21 1
+11702 1367 2
+11702 1867 2
+42564 19965 2
+42564 19964 2
+19962 19965 2
+19962 19964 1
+19965 2049 115
+31623 30077 5
+31623 12250 1
+19394 19396 1
+30071 30077 5
+30071 12420 1
+28948 28950 1
+48725 5765 1
+48725 30077 5
+57939 48519 1
+30077 6680 10
+30077 814 1
+30077 20 7
+30077 813 1
+30077 1355 3
+30077 5320 8
+30077 1368 9
+30077 3134 1
+30077 21 1
+30077 1367 2
+30077 1867 10
+45361 1371 25
+45361 374 8
+45361 20 13
+45361 1359 18
+45361 1360 1
+45361 1355 5
+45361 2506 1
+45361 1368 40
+45361 3253 8
+45361 45713 40
+45361 1357 10
+45361 816 3
+45361 1367 28
+45361 5099 1
+45361 5228 1
+45713 5891 8
+42498 11910 2
+4764 374 10
+4764 20 23
+4764 1359 11
+4764 1360 2
+4764 1355 3
+4764 5098 3
+4764 2506 1
+4764 1368 13
+4764 5101 10
+4764 1357 8
+4764 1367 14
+4764 5099 2
+4764 5228 4
+5098 5103 1
+5098 5099 4
+5098 14561 1
+5101 5891 8
+9166 374 28
+9166 20 6
+9166 1359 1
+9166 9342 5
+9166 1357 8
+9166 5228 2
+9166 2506 4
+9342 5891 8
+19658 12507 1
+12423 10172 1
+10648 8408 1
+19656 19658 1
+23032 12423 1
+10645 10648 1
+25391 1371 19
+25391 374 16
+25391 20 16
+25391 1359 10
+25391 2504 1
+25391 1360 2
+25391 1355 11
+25391 2506 1
+25391 1368 56
+25391 9798 5
+25391 1357 6
+25391 25764 62
+25391 1367 9
+25391 5228 4
+25764 5891 8
+17981 12507 1
+27437 10172 1
+5172 8408 1
+3278 1890 1
+22904 3278 1
+22904 3364 2
+3364 2049 121
+42818 17981 1
+39498 27437 1
+5170 5172 1
+37511 1371 30
+37511 1359 15
+37511 1876 2
+37511 1355 7
+37511 1368 39
+37511 1373 1
+37511 1357 9
+37511 9738 16
+37511 5279 2
+37511 5228 4
+37511 20 16
+37511 374 23
+37511 1360 2
+37511 2506 1
+37511 18347 65
+37511 1367 33
+18347 5891 8
+1882 1890 1
+40687 2049 151
+40687 1882 1
+39927 8913 2
+39927 11910 2
+19269 8913 2
+19269 5099 2
+44658 374 35
+44658 20 13
+44658 1359 12
+44658 1360 2
+44658 39568 12
+44658 1355 4
+44658 2506 1
+44658 1368 19
+44658 39844 7
+44658 12531 6
+44658 1357 9
+44658 39927 12
+44658 1367 18
+44658 5099 1
+44658 5228 4
+8903 8913 2
+39844 8913 2
+39844 8903 2
+39844 3253 3
+39844 19269 5
+39844 22719 1
+39844 1373 1
+39844 39927 2
+39844 39928 2
+39844 5099 1
+39928 8913 2
+39568 5891 8
+34716 374 1
+34716 20 2
+34716 813 1
+34716 8882 1
+34716 21 1
+34716 815 1
+21403 1371 92
+21403 1359 39
+21403 1355 15
+21403 211 8
+21403 14661 36
+21403 5808 148
+21403 1368 115
+21403 22721 1
+21403 22720 1
+21403 18015 10
+21403 1373 15
+21403 1357 17
+21403 11910 2
+21403 816 1
+21403 22722 4
+21403 5228 12
+21403 20 50
+21403 374 74
+21403 598 2
+21403 1360 23
+21403 22723 16
+21403 2506 2
+21403 14647 1
+21403 3253 3
+21403 22719 1
+21403 1367 83
+5808 5891 8
+51846 1371 69
+51846 703 6
+51846 1359 47
+51846 1355 13
+51846 211 7
+51846 52501 1
+51846 1368 116
+51846 27523 18
+51846 1373 8
+51846 1357 5
+51846 33040 3
+51846 5228 7
+51846 20 20
+51846 374 68
+51846 598 1
+51846 1360 10
+51846 43075 116
+51846 2506 2
+51846 1367 82
+51846 8789 18
+43075 5891 8
+34529 20 2
+34529 1360 4
+34529 816 5
+50387 814 1
+50387 1359 1
+50387 21 1
+50387 815 1
+50387 1367 1
+50387 1368 2
+42437 5891 8
+19912 1371 67
+19912 1359 26
+19912 1876 2
+19912 1355 14
+19912 1368 108
+19912 33582 15
+19912 1373 1
+19912 1357 12
+19912 34529 9
+19912 19911 8
+19912 5228 29
+19912 19754 7
+19912 42437 100
+19912 20 7
+19912 374 35
+19912 17724 2
+19912 33498 1
+19912 2506 1
+19912 8929 3
+19912 1367 63
+19754 19911 2
+33535 814 1
+33535 1359 1
+33535 21 1
+33535 1355 1
+33535 815 1
+33535 1367 4
+33535 1368 2
+19911 20 1
+19911 33498 1
+11383 913 3
+18437 3503 1
+8850 5661 1
+4706 1890 1
+22940 5731 4
+22940 22947 3
+22940 11383 1
+50907 18437 1
+50907 5731 4
+50907 22947 3
+51520 5731 4
+51520 22947 3
+51520 8850 1
+22947 814 1
+22947 374 5
+22947 20 1
+22947 813 1
+22947 1355 1
+22947 5320 4
+22947 1368 1
+22947 3134 1
+22947 21 1
+22947 1367 2
+22947 1867 2
+11405 14270 2
+11405 20 1
+11405 1072 1
+11405 15904 1
+4693 2049 139
+4693 4706 1
+11394 5731 4
+11394 11404 3
+11394 11383 1
+11424 5731 4
+11424 11404 3
+11424 11383 2
+31943 5731 4
+31943 11404 3
+31943 11383 1
+18430 18437 1
+18430 5731 4
+18430 11404 3
+29332 5731 4
+29332 11404 3
+29332 8850 1
+11404 814 1
+11404 374 5
+11404 20 1
+11404 813 1
+11404 1355 1
+11404 5320 4
+11404 1368 1
+11404 3134 1
+11404 21 1
+11404 1367 2
+11404 1867 2
+57425 33582 15
+57793 374 1
+57793 20 2
+57793 813 1
+57793 8882 1
+57793 21 1
+57793 815 1
+25232 5891 8
+24416 1371 56
+24416 1359 46
+24416 2504 1
+24416 25232 117
+24416 1355 26
+24416 211 2
+24416 1368 170
+24416 595 1
+24416 1373 1
+24416 1357 16
+24416 17508 54
+24416 11910 2
+24416 5228 9
+24416 20 20
+24416 374 18
+24416 1360 17
+24416 2506 2
+24416 3253 1
+24416 1367 80
+57357 20 1
+54484 1890 1
+54471 2049 112
+54471 54484 1
+23230 5891 8
+33452 20 64
+33452 40639 4
+33452 24315 88
+33452 1360 31
+33452 53918 4
+48741 16702 1
+48741 1359 29
+48741 2504 1
+48741 1355 21
+48741 211 10
+48741 1368 171
+48741 40639 12
+48741 1357 19
+48741 1373 7
+48741 11910 4
+48741 5228 18
+48741 20 24
+48741 374 49
+48741 598 1
+48741 10413 7
+48741 1360 15
+48741 33452 27
+48741 2506 2
+48741 3253 1
+48741 23230 16
+48741 1367 59
+33442 33452 4
+14276 596 18
+14276 20 3
+14276 2932 1
+14276 2928 4
+14276 585 20
+14276 1070 2
+4349 374 2
+4349 20 2
+4349 1367 1
+4349 816 2
+4349 4560 2
+4349 1368 17
+24032 596 4
+24032 20 1
+24032 2932 1
+24032 2928 4
+24032 585 17
+24032 1070 2
+31426 20 3
+31426 1360 4
+31426 816 6
+38039 240 3
+44616 240 6
+44616 42924 6
+14519 240 4
+220 240 4
+30428 240 2
+42924 11708 19
+12252 20 2
+12252 12279 3
+12252 39451 1
+12252 9415 1
+12279 13331 3
+15470 5891 8
+13331 39451 3
+11574 596 3
+11574 20 5
+11574 2932 1
+11574 2928 4
+11574 5280 2
+11574 585 17
+11574 5279 2
+11574 1070 2
+11568 11574 5
+39451 20 1
+39451 39465 4
+38754 374 2
+38754 1367 1
+38754 4560 1
+38754 1368 10
+49968 1373 1
+49968 33498 1
+21345 374 2
+21345 1373 1
+21345 1367 1
+21345 1368 4
+50972 10133 15
+6585 1371 107
+6585 10133 18
+6585 1359 26
+6585 24032 8
+6585 49968 3
+6585 4349 4
+6585 14276 8
+6585 816 17
+6585 1360 3
+6585 2506 1
+6585 4560 28
+6585 38754 2
+6585 44616 3
+6585 1355 13
+6585 12252 1
+6585 1368 280
+6585 1357 6
+6585 1373 4
+6585 14519 2
+6585 5228 7
+6585 374 44
+6585 20 16
+6585 11574 14
+6585 21345 3
+6585 17724 4
+6585 38039 2
+6585 8929 3
+6585 31426 20
+6585 220 2
+6585 30428 1
+6585 240 4
+6585 1367 100
+6585 817 3
+6585 15470 233
+12062 913 1
+44073 3503 1
+25796 5661 1
+23116 1890 1
+44066 12063 4
+44066 17704 3
+44066 44073 1
+25789 25796 1
+25789 12063 4
+25789 17704 3
+17704 814 1
+17704 374 2
+17704 20 2
+17704 813 1
+17704 1355 3
+17704 5320 5
+17704 1368 3
+17704 3134 1
+17704 21 1
+17704 1367 6
+17704 1867 4
+23103 23116 1
+23103 2049 168
+50427 12062 1
+50427 6560 3
+50427 98 4
+6560 814 1
+6560 374 2
+6560 20 1
+6560 813 1
+6560 1355 3
+6560 5320 4
+6560 1368 46
+6560 3134 1
+6560 21 1
+6560 1367 8
+6560 1867 2
+12055 12062 1
+12055 12063 4
+12055 8412 3
+43321 25796 1
+43321 12063 4
+43321 8412 3
+8412 814 1
+8412 374 2
+8412 20 1
+8412 813 1
+8412 1355 3
+8412 5320 4
+8412 1368 17
+8412 3134 1
+8412 21 1
+8412 1367 8
+8412 1867 1
+5788 86 2
+5788 85 5
+14839 5891 8
+10178 86 3
+10178 85 1
+10178 5788 7
+52545 86 3
+52545 85 1
+52545 5788 7
+52605 1371 50
+52605 14839 64
+52605 1359 12
+52605 1355 4
+52605 1368 28
+52605 86 16
+52605 1373 2
+52605 1357 9
+52605 11910 1
+52605 5099 4
+52605 5228 3
+52605 20 40
+52605 374 50
+52605 1360 38
+52605 2506 1
+52605 3253 5
+52605 22719 1
+52605 1367 20
+12504 12507 1
+14075 14076 4
+14075 913 1
+10169 10172 1
+9836 8408 1
+14965 14076 4
+14965 1890 1
+55696 14076 1
+55696 2049 124
+55696 14965 1
+14043 14075 1
+14043 814 1
+14043 374 4
+14043 20 1
+14043 813 1
+14043 14076 1
+14043 21 1
+14043 3134 1
+14043 913 2
+14043 1867 2
+49872 12504 1
+50384 10169 1
+9833 9836 1
+6342 596 2
+6342 20 3
+6342 6401 1
+6342 4216 3
+6342 594 2
+6342 585 35
+6342 1070 7
+4210 817 1
+4210 816 3
+1873 806 3
+6399 2925 1
+6554 817 1
+6554 816 3
+29360 1367 4
+1868 806 3
+57758 1358 2
+589 590 6
+1870 12528 2
+814 817 1
+814 816 3
+1869 12528 2
+1871 12528 2
+1872 12528 2
+4201 1875 3
+813 817 1
+813 816 3
+4216 14151 11
+4216 374 4
+4216 6554 1
+6484 14735 18
+591 20 1
+1866 590 3
+32564 596 8
+32564 1876 1
+32564 597 30
+32564 10354 2
+32564 2935 6
+32564 585 54
+32564 594 6
+32564 1072 2
+24003 596 2
+24003 597 1
+24003 594 2
+24003 585 13
+16847 12887 12
+16847 596 6
+16847 598 2
+16847 20 5
+16847 12695 17
+16847 597 33
+16847 17488 17
+16847 2935 4
+16847 17489 2
+16847 585 87
+16847 594 4
+17488 10354 2
+17488 596 5
+17488 2935 1
+17488 17489 14
+17488 597 6
+17488 594 4
+17488 585 26
+29418 596 3
+29418 20 1
+29418 594 2
+29418 585 18
+12695 12887 1
+12695 596 6
+12695 2935 8
+12695 597 26
+12695 594 6
+12695 585 55
+16831 6484 2
+16831 32329 7
+16831 1359 7
+16831 1367 2
+34979 591 6
+34979 813 1
+34979 1876 2
+34979 806 91
+34979 597 58
+34979 4213 1
+34979 595 1
+34979 2935 32
+34979 1867 14
+34979 816 58
+34979 24003 9
+34979 590 2
+34979 12887 22
+34979 1866 8
+34979 32564 17
+34979 1873 1
+34979 36730 255
+34979 4211 1
+34979 1875 2
+34979 2934 1
+34979 26 4
+34979 1868 6
+34979 1874 2
+34979 585 78
+34979 20 151
+34979 6554 1
+34979 36731 185
+34979 16847 19
+34979 1870 2
+34979 1871 5
+34979 6484 19
+34979 3134 1
+34979 12940 1
+34979 12528 4
+34979 1367 4
+34979 14735 17
+34979 36732 103
+34979 1869 10
+34979 1872 6
+36730 596 15
+36730 598 2
+36730 20 12
+36730 18083 14
+36730 806 2
+36730 597 60
+36730 10354 2
+36730 2935 16
+36730 816 1
+36730 585 165
+36730 594 15
+36730 36732 27
+36731 596 24
+36731 4211 1
+36731 813 1
+36731 29418 9
+36731 597 130
+36731 1070 49
+36731 10354 1
+36731 595 1
+36731 2935 8
+36731 16831 14
+36731 16722 21
+36731 585 331
+36731 594 8
+36731 12887 2
+36731 20 46
+36731 598 1
+36731 25980 11
+36731 2928 16
+36731 6484 1
+36731 2932 1
+36731 3134 1
+36731 1367 1
+36731 14735 5
+36731 6399 3
+16722 12887 2
+16722 596 7
+16722 20 3
+16722 597 4
+16722 10354 2
+16722 2935 2
+16722 16831 1
+16722 1367 3
+16722 585 33
+16722 594 6
+18083 12887 1
+18083 596 2
+18083 20 1
+18083 597 1
+18083 594 2
+18083 585 24
+32329 6484 2
+25980 596 11
+25980 6484 11
+25980 20 2
+25980 597 1
+25980 14735 5
+25980 594 2
+25980 585 21
+55666 15953 1
+2555 2570 1
+3018 374 3
+14927 596 6
+14927 591 4
+14927 597 6
+14927 1070 7
+14927 595 1
+14927 3018 11
+14927 26 4
+14927 816 26
+14927 34397 1
+14927 585 59
+14927 594 4
+14927 13614 9
+14927 20 11
+14927 814 2
+14927 6554 1
+14927 2928 17
+14927 433 14
+14927 2932 1
+14927 1367 4
+14927 6399 2
+14927 589 5
+433 596 9
+433 591 8
+433 598 1
+433 20 1
+433 597 2
+433 599 1
+433 595 1
+433 26 7
+433 585 46
+433 589 11
+433 594 8
+433 590 4
+13614 596 4
+13614 20 1
+13614 597 2
+13614 594 2
+13614 585 22
+38830 6141 6
+30437 595 1
+30437 4210 1
+50799 15948 1
+45073 45084 1
+19739 814 1
+19739 20 4
+19739 21 1
+19739 816 2
+20776 806 1
+20776 807 2
+38516 805 2
+38516 28584 2
+38516 3569 1
+38516 4213 1
+38516 595 2
+38516 20965 2
+38516 757 2
+38516 38641 2
+38516 816 1
+38516 23329 2
+38516 30334 2
+38516 27448 2
+38516 26060 1
+38516 3581 2
+38516 38645 1
+38516 3570 2
+38516 19730 1
+38516 38640 2
+38516 1873 1
+38516 34582 2
+38516 804 1
+38516 38642 2
+38516 5572 2
+38516 19739 2
+38516 38643 2
+38516 38644 2
+38516 4201 1
+38516 25318 2
+38516 20697 2
+38516 3556 2
+38516 814 11
+38516 20 6
+38516 4212 1
+38516 32792 1
+38516 20775 2
+38516 17 2
+38516 3411 2
+38516 29151 2
+38516 815 9
+38516 32801 2
+807 806 3
+19730 814 1
+19730 812 2
+20775 814 1
+20775 812 2
+20775 3570 4
+805 814 1
+805 812 2
+805 804 4
+3570 20777 2
+20777 20776 3
+20965 814 1
+20965 20 4
+20965 813 1
+20965 806 1
+20965 20776 1
+20965 20775 2
+20965 3570 4
+20965 20777 1
+20965 812 3
+20965 21 1
+20965 1868 2
+20965 816 6
+20965 817 1
+20697 4211 1
+20697 813 1
+20697 806 2
+20697 20776 1
+20697 4213 1
+20697 20777 6
+20697 21 1
+20697 816 1
+20697 807 8
+20697 20 8
+20697 814 1
+20697 4212 1
+20697 4216 1
+20697 1360 2
+20697 4214 1
+20697 4209 1
+20697 20775 2
+20697 3570 3
+20697 812 3
+20697 3134 1
+20697 815 1
+20697 4215 1
+804 811 2
+811 807 3
+757 814 1
+757 20 4
+757 813 1
+757 805 2
+757 806 1
+757 812 3
+757 21 1
+757 817 1
+757 816 6
+757 811 1
+757 807 1
+757 804 4
+25318 4211 1
+25318 813 1
+25318 805 2
+25318 806 1
+25318 21 1
+25318 816 1
+25318 811 16
+25318 807 8
+25318 20 4
+25318 814 1
+25318 1360 2
+25318 4214 1
+25318 4209 1
+25318 812 3
+25318 3134 1
+25318 4215 1
+25318 804 3
+3569 4206 3
+3569 4201 1
+30334 814 1
+30334 20 6
+30334 806 1
+30334 20776 1
+30334 3570 4
+30334 20777 1
+30334 812 3
+30334 21 1
+30334 816 5
+30334 817 1
+30334 1868 2
+30334 3556 2
+32801 4211 1
+32801 813 1
+32801 806 5
+32801 20776 1
+32801 4213 1
+32801 20777 6
+32801 21 1
+32801 816 1
+32801 807 8
+32801 3556 2
+32801 20 8
+32801 814 1
+32801 4212 1
+32801 4216 1
+32801 1360 6
+32801 4214 1
+32801 4209 1
+32801 3570 3
+32801 812 3
+32801 3134 1
+32801 4215 1
+32801 815 1
+38640 814 1
+38640 20 4
+38640 813 1
+38640 21 1
+38640 816 2
+23329 595 1
+23329 20 4
+23329 813 1
+23329 21 1
+23329 816 2
+38641 20 4
+38641 21 1
+38641 816 2
+38641 4213 1
+5572 814 1
+5572 20 4
+5572 813 1
+5572 21 1
+5572 816 2
+29151 814 1
+29151 20 14
+29151 813 1
+29151 1360 16
+29151 26060 2
+29151 4214 4
+29151 812 3
+29151 17662 1
+29151 21 1
+29151 3134 1
+29151 12528 16
+29151 816 2
+29151 1869 6
+3411 814 1
+3411 20 4
+3411 813 1
+3411 21 1
+3411 815 1
+3411 816 2
+27448 814 1
+27448 20 4
+27448 813 1
+27448 21 1
+27448 816 2
+238 1350 2
+238 46 5
+815 29360 4
+815 591 4
+815 238 1
+815 1359 2
+815 813 16
+815 211 103
+815 806 8
+815 4213 4
+815 595 6
+815 3018 10
+815 16831 21
+815 1867 15
+815 816 15
+815 34397 6
+815 25247 6
+815 590 3
+815 598 2
+815 1866 1
+815 4210 2
+815 20932 10
+815 4560 5
+815 2647 3
+815 46 1
+815 4211 10
+815 2934 3
+815 19529 3
+815 1355 2
+815 5704 3
+815 2933 5
+815 32551 6
+815 1368 625
+815 7519 7
+815 26 10
+815 203 2
+815 17663 1
+815 814 25
+815 20 197
+815 4212 2
+815 6554 5
+815 4216 1
+815 842 3
+815 17 4
+815 2930 9
+815 23035 9
+815 6484 18
+815 17664 1
+815 17662 2
+815 12940 3
+815 3134 11
+815 817 4
+815 1367 176
+815 14735 4
+815 333 12
+815 589 1
+26060 814 1
+26060 812 2
+4217 1358 2
+4237 3459 1
+4237 3442 3
+4237 4224 5
+4237 1358 1
+3442 3459 1
+3442 806 3
+4206 4201 6
+4206 3442 5
+2574 1360 1
+2574 815 3
+2574 816 2
+2574 2647 2
+38645 814 1
+38645 812 2
+38642 814 1
+38642 20 8
+38642 4212 1
+38642 813 1
+38642 1360 8
+38642 38645 2
+38642 2574 2
+38642 4213 1
+38642 812 3
+38642 1871 4
+38642 21 1
+38642 12528 9
+38642 816 3
+38643 814 1
+38643 20 6
+38643 1873 3
+38643 813 1
+38643 21 1
+38643 815 2
+38643 816 2
+28584 814 1
+28584 812 3
+28584 20 8
+28584 813 1
+28584 21 1
+28584 12528 4
+28584 817 1
+28584 816 6
+28584 19730 2
+32792 814 1
+32792 812 2
+38644 814 1
+38644 20 8
+38644 32792 2
+38644 4212 1
+38644 813 1
+38644 1360 8
+38644 2574 2
+38644 4213 1
+38644 812 3
+38644 21 1
+38644 12528 8
+38644 815 1
+38644 816 3
+38644 1872 5
+34582 813 1
+34582 806 5
+34582 3569 5
+34582 4213 1
+34582 595 1
+34582 4201 4
+34582 21 1
+34582 1874 2
+34582 816 3
+34582 3556 2
+34582 5620 2
+34582 20 8
+34582 814 1
+34582 4212 1
+34582 3442 1
+34582 4214 1
+34582 4209 1
+34582 4206 2
+34582 812 3
+34582 1873 2
+3556 814 1
+3556 812 2
+3556 3570 4
+3556 3569 4
+3581 4211 1
+3581 813 1
+3581 3459 1
+3581 806 20
+3581 3569 3
+3581 4213 1
+3581 4201 3
+3581 21 1
+3581 816 2
+3581 3556 2
+3581 20 10
+3581 814 1
+3581 4212 1
+3581 4216 1
+3581 1360 20
+3581 3442 29
+3581 4214 1
+3581 4210 1
+3581 4209 1
+3581 4206 12
+3581 4217 1
+3581 812 3
+3581 3134 1
+3581 4215 1
+3581 815 3
+9858 17 2
+9858 21 4
+9858 38104 1
+9858 815 2
+9858 9877 5
+9858 2933 2
+17759 17 2
+17759 3382 5
+17759 21 4
+17759 38104 1
+17759 815 2
+17759 2933 2
+913 38104 1
+913 1367 6
+913 12507 3
+913 5320 24
+913 9858 2
+3503 38104 1
+3503 10172 3
+3503 1367 6
+3503 29145 2
+3503 5320 23
+5661 9126 2
+5661 38104 1
+5661 1367 6
+5661 8408 3
+5661 5320 23
+29145 17 2
+29145 21 4
+29145 38104 1
+29145 815 2
+29145 2933 2
+29145 13697 5
+9126 9145 5
+9126 17 2
+9126 21 4
+9126 38104 1
+9126 815 2
+9126 2933 2
+12507 814 2
+12507 20 2
+12507 2934 2
+12507 813 3
+12507 6554 2
+12507 5704 2
+12507 2933 2
+12507 3134 3
+12507 21 2
+12507 38104 1
+12507 7519 1
+12507 816 6
+12507 817 2
+12507 9858 5
+54941 814 2
+54941 20 2
+54941 17759 5
+54941 2934 2
+54941 813 3
+54941 6554 2
+54941 5704 2
+54941 2933 2
+54941 3134 3
+54941 21 2
+54941 38104 1
+54941 7519 1
+54941 816 6
+54941 817 2
+10172 814 2
+10172 20 2
+10172 2934 2
+10172 813 3
+10172 6554 2
+10172 5704 2
+10172 2933 2
+10172 29145 5
+10172 3134 3
+10172 21 2
+10172 38104 1
+10172 7519 1
+10172 816 6
+10172 817 2
+8408 814 2
+8408 20 2
+8408 2934 2
+8408 813 3
+8408 6554 2
+8408 5704 2
+8408 2933 2
+8408 9126 5
+8408 3134 3
+8408 21 2
+8408 38104 1
+8408 7519 1
+8408 816 6
+8408 817 2
+1890 2049 4
+1890 913 3
+3496 2049 4
+3496 3503 3
+5654 2049 4
+5654 5661 3
+14795 38104 1
+14795 14811 3
+14795 12507 3
+14795 5320 3
+14795 9858 2
+6701 1359 2
+6701 1360 1
+6701 1357 2
+6701 1367 1
+6701 2506 1
+6701 1368 2
+14811 814 1
+14811 813 1
+14811 3134 1
+14811 21 1
+14811 1867 2
+14811 5320 7
+5320 814 1
+5320 20 14
+5320 1368 18
+5320 21 2
+5320 816 7
+5320 1367 25
+5320 1867 5
+5320 5547 1
+38897 9858 1
+17757 17759 1
+42921 29145 1
+25781 9126 1
+23854 38104 1
+23854 16536 3
+23854 12507 3
+23854 5320 6
+23854 9858 2
+16536 814 1
+16536 813 1
+16536 3134 1
+16536 21 1
+16536 1867 2
+16536 5320 11
+54702 374 3
+54702 1359 1
+54702 816 1
+54702 2506 1
+51608 1359 2
+51608 1357 2
+51608 1367 1
+51608 2506 1
+51608 1368 2
+20673 20 4
+20673 17664 1
+20673 17662 1
+20673 21 1
+20673 816 3
+20673 203 1
+20673 17663 1
+20673 4213 1
+57748 20 1
+57748 21 2
+57748 815 2
+57748 20673 2
+9738 20 14
+9738 28131 1
+9738 5281 1
+9738 28132 2
+9738 1876 4
+9738 5280 2
+9738 697 2
+9738 9737 1
+9738 37389 1
+9738 5279 4
+37389 11946 3
+37389 20 6
+37389 1360 1
+37389 14581 3
+37389 816 1
+37389 11986 1
+20788 20 3
+20788 21 1
+20788 815 1
+20788 816 2
+11434 20 5
+11434 21 1
+11434 815 4
+11434 211 1
+11434 816 6
+11434 5547 4
+18015 6127 10
+18015 3252 2
+18015 20 1
+18015 18072 4
+18015 14661 12
+18015 816 4
+8789 703 24
+8789 33040 3
+19234 1090 9
+19234 23090 21
+19220 1089 2
+23090 1091 1
+19227 1091 1
+19227 1090 4
+19227 1089 15
+19227 24378 1
+7161 1091 1
+7161 1089 7
+19225 1091 1
+19225 1090 4
+19225 1089 15
+19225 24378 1
+1074 1090 10
+1074 1089 15
+19222 1090 8
+19222 1089 17
+19232 3507 1
+19232 1089 2
+11584 11592 1
+11584 1089 2
+19229 14163 1
+19229 1089 6
+19231 15552 1
+19231 1089 6
+19233 1106 1
+19233 1089 2
+13349 1090 4
+13349 1089 10
+13349 8812 1
+19230 9397 1
+19230 1089 6
+19219 1091 1
+19228 1091 2
+19228 20 1
+19228 1090 8
+19228 1089 22
+19228 1367 1
+19228 24378 1
+19226 1091 2
+19226 20 1
+19226 1090 8
+19226 1089 22
+19226 1367 1
+19226 24378 1
+19221 1089 7
+19223 1090 4
+19223 1089 13
+14941 1090 1
+1089 19234 2
+1089 9396 2
+1089 1091 2
+1089 1116 3
+1089 8838 3
+1089 1115 1
+1089 14163 4
+1089 1090 192
+1089 3507 4
+1089 19219 1
+1089 9395 1
+1089 11592 2
+6521 1090 4
+6521 1089 12
+1090 1091 1
+3507 1091 5
+3507 1115 1
+3507 1114 7
+1114 9396 2
+1114 1091 30
+1114 9395 1
+1114 8838 1
+1114 1115 1
+1114 1367 1
+1114 1368 1
+8838 1091 6
+8838 1114 7
+11592 9396 1
+11592 1091 8
+11592 20 1
+11592 1115 1
+11592 1106 2
+11592 1368 1
+11592 14163 3
+11592 1367 24
+11592 1114 9
+14163 9396 10
+14163 1091 7
+14163 1115 1
+14163 1106 2
+14163 1368 37
+14163 1114 9
+15552 3253 1
+15552 1091 2
+15552 8838 2
+15552 1114 3
+1106 1091 1
+1106 1116 1
+1106 1115 1
+1106 1114 3
+9395 1091 10
+9395 8838 6
+9395 1114 11
+1115 1091 12
+1115 8838 6
+1115 1114 13
+8812 3253 2
+8812 1091 2
+8812 8838 2
+8812 1114 3
+24378 11592 3
+24378 8838 3
+24378 1114 2
+9396 3253 1
+9396 1091 4
+9396 8838 2
+9396 1114 4
+9397 1091 3
+9397 8838 2
+9397 1114 4
+19224 1091 1
+19224 1089 7
+14929 14941 4
+14929 1090 4
+14929 1089 13
+24396 1091 1
+24396 9394 16
+9372 9396 6
+9372 9394 118
+9372 9397 2
+9372 9395 6
+9372 1115 6
+9394 19234 2
+9394 1089 22
+10336 20 1
+10336 816 1
+10336 4665 3
+25970 21 1
+5891 1371 12
+5891 18218 1
+5891 9887 8
+18218 9887 2
+44563 10336 4
+44563 4665 2
+10268 20 1
+10268 10336 4
+10268 5280 1
+10268 5279 1
+10268 4665 2

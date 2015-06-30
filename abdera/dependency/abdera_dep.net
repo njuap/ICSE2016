@@ -1,0 +1,1912 @@
+*Vertics: 536
+19,org.apache.abdera.ext.serializer.BaseSerializer
+190,org.apache.abdera.ext.serializer.impl.ExtensionSerializer
+191,org.apache.abdera.ext.serializer.impl.SimpleElementSerializer
+192,org.apache.abdera.i18n.rfc4646.Lang
+197,org.apache.abdera.ext.serializer.Serializer
+200,org.apache.abdera.ext.serializer.ObjectContext
+201,org.apache.abdera.ext.serializer.ConventionSerializationContext
+202,org.apache.abdera.ext.serializer.SerializationException
+203,org.apache.abdera.i18n.lang.Lang
+232,org.apache.abdera.protocol.client.cache.LRUCacheFactory
+239,org.apache.abdera.Abdera
+243,org.apache.abdera.protocol.client.cache.LRUCache
+248,org.apache.abdera.protocol.server.test.TestSuite
+258,org.apache.abdera.protocol.server.test.basic.BasicTest
+259,org.apache.abdera.protocol.server.test.custom.CustomProviderTest
+260,org.apache.abdera.protocol.server.test.customer.CustomerAdapterTest
+261,org.apache.abdera.protocol.server.test.multipart.MultipartRelatedTest
+262,org.apache.abdera.protocol.server.test.route.RouteTest
+271,org.apache.abdera.i18n.rfc4646.enums.Script
+472,org.apache.abdera.i18n.rfc4646.Subtag
+480,org.apache.abdera.i18n.rfc4646.enums.Extlang
+506,org.apache.abdera.examples.uritemplates.AtomIDTemplate
+526,org.apache.abdera.i18n.templates.Template
+538,org.apache.abdera.test.client.JettyUtil
+570,org.apache.abdera.util.EntityTagTest
+584,org.apache.abdera.util.EntityTag
+594,org.apache.abdera.parser.stax.FOMCategory
+644,org.apache.abdera.i18n.iri.IRI
+649,org.apache.abdera.parser.stax.FOMExtensibleElement
+679,org.apache.abdera.protocol.server.test.filesystem.FilesystemTest
+740,org.apache.abdera.protocol.client.AbderaClient
+742,org.apache.abdera.protocol.client.RequestOptions
+743,org.apache.abdera.protocol.server.ServiceManager
+744,org.apache.abdera.protocol.server.provider.basic.BasicProvider
+745,org.apache.abdera.protocol.server.servlet.AbderaServlet
+746,org.apache.abdera.util.MimeTypeHelper
+798,org.apache.abdera.test.ext.media.MediaTest
+818,org.apache.abdera.ext.media.MediaContent
+819,org.apache.abdera.ext.media.MediaGroup
+820,org.apache.abdera.ext.media.MediaTitle
+830,org.apache.abdera.model.ExtensibleElementWrapper
+831,org.apache.abdera.model.ElementWrapper
+864,org.apache.abdera.parser.stax.FOMParserOptions
+870,org.apache.abdera.i18n.text.Localizer
+871,org.apache.abdera.util.AbstractParserOptions
+873,org.apache.abdera.parser.stax.FOMFactory
+874,org.apache.abdera.parser.stax.FOMException
+885,org.apache.abdera.spring.ProviderDefinitionParserTest
+903,org.apache.abdera.protocol.server.impl.DefaultProvider
+904,org.apache.abdera.protocol.server.impl.RegexTargetResolver
+906,org.apache.abdera.protocol.server.impl.AbstractProvider
+914,org.apache.abdera.protocol.server.context.AbstractRequestContext
+980,org.apache.abdera.parser.ParseException
+983,org.apache.abdera.protocol.server.TargetType
+984,org.apache.abdera.protocol.server.impl.SimpleTarget
+985,org.apache.abdera.protocol.util.AbstractRequest
+1025,org.apache.abdera.ext.geo.Coordinates
+1117,org.apache.abdera.ext.geo.Coordinate
+1122,org.apache.abdera.ext.html.HtmlParser
+1148,org.apache.abdera.util.AbstractNamedParser
+1149,org.apache.abdera.ext.html.HtmlParserOptions
+1150,org.apache.abdera.ext.html.HtmlHelper
+1166,org.apache.abdera.test.parser.stax.FeedParserTest
+1206,org.apache.abdera.test.parser.stax.BaseParserTestCase
+1214,org.apache.abdera.parser.stax.FOMService
+1283,org.apache.abdera.parser.stax.FOMDocument
+1302,org.apache.abdera.test.ext.bidi.BidiTest
+1308,org.apache.abdera.ext.bidi.BidiHelper
+1311,org.apache.abdera.i18n.text.Bidi
+1333,org.apache.abdera.i18n.templates.ObjectContext
+1383,org.apache.abdera.i18n.templates.CachingContext
+1389,org.apache.abdera.protocol.error.ProtocolException
+1412,org.apache.abdera.protocol.error.Error
+1417,org.apache.abdera.ext.serializer.impl.CategorySerializer
+1438,org.apache.abdera.ext.serializer.impl.ElementSerializer
+1450,org.apache.abdera.ext.opensearch.model.IntegerElement
+1469,org.apache.abdera.test.security.filter.SimpleAdapter
+1537,org.apache.abdera.i18n.text.UrlEncoding
+1538,org.apache.abdera.protocol.server.ProviderHelper
+1541,org.apache.abdera.protocol.server.context.BaseResponseContext
+1542,org.apache.abdera.protocol.server.context.ResponseContextException
+1543,org.apache.abdera.protocol.server.context.StreamWriterResponseContext
+1544,org.apache.abdera.protocol.server.impl.AbstractCollectionAdapter
+1545,org.apache.abdera.protocol.server.context.AbstractResponseContext
+1546,org.apache.abdera.protocol.util.AbstractResponse
+1632,org.apache.abdera.examples.security.DSig
+1665,org.apache.abdera.security.AbderaSecurity
+1678,org.apache.abdera.test.core.CoreTest
+1697,org.apache.abdera.i18n.text.io.CompressionUtil
+1704,org.apache.abdera.protocol.server.test.multipart.MultipartRelatedAdapter
+1732,org.apache.abdera.protocol.server.context.EmptyResponseContext
+1733,org.apache.abdera.protocol.server.multipart.AbstractMultipartCollectionAdapter
+1746,org.apache.abdera.ext.json.JSONFilter
+1777,org.apache.abdera.protocol.server.FilterChain
+1778,org.apache.abdera.protocol.server.context.ResponseContextWrapper
+1789,org.apache.abdera.ext.media.MediaHash
+1806,org.apache.abdera.parser.stax.FOMBuilder
+1948,org.apache.abdera.parser.stax.FOMUnsupportedTextTypeException
+1949,org.apache.abdera.parser.stax.FOMUnsupportedContentTypeException
+1950,org.apache.abdera.parser.stax.FOMElement
+1951,org.apache.abdera.parser.stax.FOMTextValue
+2005,org.apache.abdera.ext.serializer.DefaultSerializationContext
+2007,org.apache.abdera.ext.serializer.DefaultConventions
+2017,org.apache.abdera.spring.SpringAbderaServlet
+2036,org.apache.abdera.ext.geo.Polygon
+2058,org.apache.abdera.ext.geo.Multiple
+2059,org.apache.abdera.ext.geo.Point
+2080,org.apache.abdera.ext.serializer.impl.IRISerializer
+2100,org.apache.abdera.examples.security.DHEnc
+2126,org.apache.abdera.security.util.DHContext
+2163,org.apache.abdera.protocol.server.context.SimpleResponseContext
+2173,org.apache.abdera.parser.stax.FOMDateTime
+2227,org.apache.abdera.model.AtomDate
+2252,org.apache.abdera.protocol.server.processors.EntryRequestProcessor
+2268,org.apache.abdera.util.AbderaResult
+2294,org.apache.abdera.protocol.client.cache.InMemoryCache
+2311,org.apache.abdera.protocol.client.cache.AbstractCache
+2313,org.apache.abdera.protocol.client.cache.InMemoryCachedResponse
+2323,org.apache.abdera.test.ext.opensearch.server.JettyServer
+2341,org.apache.abdera.ext.history.FeedPagingHelper
+2418,org.apache.abdera.examples.simple.UnacceptableElementsExample
+2435,org.apache.abdera.util.filter.BlackListParseFilter
+2444,org.apache.abdera.i18n.text.io.RewindableInputStream
+2478,org.apache.abdera.i18n.text.io.DynamicPushbackInputStream
+2686,org.apache.abdera.i18n.text.Sanitizer
+2718,org.apache.abdera.examples.extension.Foo
+2747,org.apache.abdera.i18n.iri.IRISyntaxException
+2750,org.apache.abdera.security.xmlsec.XmlSignatureOptions
+2782,org.apache.abdera.security.xmlsec.XmlSecurityOptions
+2797,org.apache.abdera.ext.features.Features
+2832,org.apache.abdera.ext.features.Feature
+2833,org.apache.abdera.ext.features.FeaturesHelper
+2844,org.apache.abdera.ext.rss.RssContent
+2887,org.apache.abdera.ext.features.AbstractSelector
+2894,org.apache.abdera.spring.TestAdapter
+2914,org.apache.abdera.ext.serializer.impl.SourceSerializer
+2932,org.apache.abdera.ext.serializer.impl.TextSerializer
+2933,org.apache.abdera.ext.serializer.impl.DateTimeSerializer
+2934,org.apache.abdera.ext.serializer.impl.LinkSerializer
+2935,org.apache.abdera.ext.serializer.impl.PersonSerializer
+3022,org.apache.abdera.ext.serializer.impl.WorkspaceSerializer
+3024,org.apache.abdera.ext.geo.Line
+3049,org.apache.abdera.ext.rss.RssPerson
+3085,org.apache.abdera.model.PersonWrapper
+3104,org.apache.abdera.test.client.util.MultipartRelatedRequestEntityTest
+3138,org.apache.abdera.parser.stax.FOMEntry
+3139,org.apache.abdera.protocol.client.util.MultipartRelatedRequestEntity
+3146,org.apache.abdera.protocol.util.CacheControlUtil
+3212,org.apache.abdera.protocol.util.AbstractMessage
+3238,org.apache.abdera.ext.rss.RssTextInput
+3263,org.apache.abdera.test.ext.main.TestSuite
+3268,org.apache.abdera.test.ext.history.FeedPagingTest
+3269,org.apache.abdera.test.ext.license.LicenseTest
+3270,org.apache.abdera.test.ext.thread.ThreadTest
+3431,org.apache.abdera.ext.media.MediaAdult
+3441,org.apache.abdera.ext.rss.RssCategory
+3503,org.apache.abdera.util.AbstractParser
+3582,org.apache.abdera.examples.security.Enc
+3617,org.apache.abdera.protocol.server.impl.RouteManager
+3618,org.apache.abdera.protocol.server.provider.managed.BasicServerConfiguration
+3619,org.apache.abdera.protocol.server.provider.managed.ManagedProvider
+3620,org.apache.abdera.protocol.server.provider.managed.ServerConfiguration
+3622,org.apache.abdera.protocol.server.provider.managed.CollectionAdapterManager
+3638,org.apache.abdera.ext.json.JSONStreamTest
+3646,org.apache.abdera.test.ext.media.TestSuite
+3652,org.apache.abdera.i18n.templates.Evaluator
+3679,org.apache.abdera.i18n.templates.Operation
+4056,org.apache.abdera.protocol.client.util.BaseRequestEntity
+4057,org.apache.abdera.protocol.client.util.EntityProviderRequestEntity
+4058,org.apache.abdera.protocol.client.util.MethodHelper
+4059,org.apache.abdera.protocol.client.util.SimpleSSLProtocolSocketFactory
+4063,org.apache.abdera.protocol.client.CommonsResponse
+4164,org.apache.abdera.protocol.server.impl.SimpleSubjectResolver
+4200,org.apache.abdera.protocol.server.adapters.hibernate.TestSuite
+4207,org.apache.abdera.protocol.server.adapters.hibernate.HibernateCollectionAdapterTest
+4209,org.apache.abdera.security.util.filters.DHEncryptedRequestFilter
+4233,org.apache.abdera.security.util.Constants
+4234,org.apache.abdera.security.util.filters.AbstractEncryptedRequestFilter
+4261,org.apache.abdera.i18n.templates.AbstractContext
+4299,org.apache.abdera.util.MimeTypeParseException
+4312,org.apache.abdera.ext.media.MediaCredit
+4327,org.apache.abdera.ext.serializer.impl.CollectionSerializer
+4330,org.apache.abdera.test.client.cache.CacheTest
+4457,org.apache.abdera.protocol.server.test.customer.CustomerAdapter
+4531,org.apache.abdera.protocol.server.impl.AbstractEntityCollectionAdapter
+4532,org.apache.abdera.protocol.server.test.customer.Customer
+4553,org.apache.abdera.examples.unicode.SlugSanitization
+4559,org.apache.abdera.i18n.text.Normalizer
+4609,org.apache.abdera.i18n.iri.HttpScheme
+4626,org.apache.abdera.i18n.text.CharUtils
+4627,org.apache.abdera.i18n.iri.AbstractScheme
+4659,org.apache.abdera.parser.stax.util.FOMSniffingInputStream
+4672,org.apache.abdera.i18n.text.io.CharsetSniffingInputStream
+4673,org.apache.abdera.i18n.text.io.PeekAheadInputStream
+4680,org.apache.abdera.protocol.client.util.NonOpTrustManager
+4691,org.apache.abdera.ext.json.JSONStream
+4752,org.apache.abdera.parser.stax.FOMSource
+5016,org.apache.abdera.i18n.iri.IRIHelper
+5017,org.apache.abdera.parser.stax.util.FOMHelper
+5018,org.apache.abdera.parser.stax.FOMFeed
+5148,org.apache.abdera.protocol.server.processors.MultipartRelatedServiceRequestProcessor
+5173,org.apache.abdera.protocol.server.processors.ServiceRequestProcessor
+5200,org.apache.abdera.test.ext.serializer.SerializerTest
+5238,org.apache.abdera.ext.serializer.impl.EntrySerializer
+5240,org.apache.abdera.ext.serializer.AbstractSerializationContext
+5261,org.apache.abdera.protocol.server.test.couchdb.CouchDbTest
+5304,org.apache.abdera.examples.ext.Sharing
+5318,org.apache.abdera.ext.sharing.Conflicts
+5319,org.apache.abdera.ext.sharing.SharingHelper
+5320,org.apache.abdera.ext.sharing.Sync
+5332,org.apache.abdera.i18n.templates.Route
+5444,org.apache.abdera.i18n.templates.HashMapContext
+5450,org.apache.abdera.ext.sharing.History
+5470,org.apache.abdera.examples.ext.Thread
+5478,org.apache.abdera.ext.thread.InReplyTo
+5479,org.apache.abdera.ext.thread.ThreadHelper
+5488,org.apache.abdera.parser.stax.FOMCategories
+5570,org.apache.abdera.ext.opensearch.server.impl.SimpleOpenSearchQueryInfo
+5583,org.apache.abdera.ext.opensearch.model.Query
+5594,org.apache.abdera.i18n.templates.DelegatingContext
+5603,org.apache.abdera.protocol.server.provider.managed.AbstractServerConfiguration
+5628,org.apache.abdera.protocol.server.provider.managed.FeedConfiguration
+5651,org.apache.abdera.spring.RegexTargetResolverDefinitionParser
+5703,org.apache.abdera.spring.AbstractSingleBeanDefinitionParser
+5704,org.apache.abdera.spring.RegexTargetResolverFactoryBean
+5720,org.apache.abdera.util.Discover
+5721,org.apache.abdera.ext.serializer.SerializerProvider
+5726,org.apache.abdera.protocol.client.util.LocalizationHelper
+5800,org.apache.abdera.i18n.rfc4646.Range
+5801,org.apache.abdera.i18n.rfc4646.SubtagSet
+5816,org.apache.abdera.security.util.KeyHelper
+5977,org.apache.abdera.examples.extension.Example
+5984,org.apache.abdera.examples.extension.Bar
+5985,org.apache.abdera.examples.extension.FooExtensionFactory
+5998,org.apache.abdera.i18n.rfc4646.enums.Language
+7033,org.apache.abdera.protocol.server.impl.SimpleCategoriesInfo
+7274,org.apache.abdera.ext.license.LicenseHelper
+7282,org.apache.abdera.util.MimeTypeHelperTest
+7328,org.apache.abdera.protocol.server.context.EntityProviderResponseContext
+7407,org.apache.abdera.xpath.XPathException
+7459,org.apache.abdera.protocol.server.test.JettyServer
+7466,org.apache.abdera.protocol.client.cache.CachedResponseBase
+7499,org.apache.abdera.protocol.client.AbstractClientResponse
+7624,org.apache.abdera.parser.stax.util.FOMElementIteratorWrapper
+7625,org.apache.abdera.parser.stax.util.FOMExtensionIterator
+7626,org.apache.abdera.parser.stax.util.FOMList
+7657,org.apache.abdera.test.parser.EncodingTest
+7707,org.apache.abdera.protocol.server.impl.AbstractWorkspaceManager
+7717,org.apache.abdera.ext.rss.RssImage
+7752,org.apache.abdera.i18n.test.iri.TestIRI
+7787,org.apache.abdera.i18n.test.iri.TestBase
+8123,org.apache.abdera.factory.ExtensionFactoryMap
+8124,org.apache.abdera.parser.stax.FOMParser
+8125,org.apache.abdera.parser.stax.FOMWorkspace
+8126,org.apache.abdera.parser.stax.FOMCollection
+8127,org.apache.abdera.parser.stax.FOMMultipartCollection
+8128,org.apache.abdera.parser.stax.FOMContent
+8129,org.apache.abdera.parser.stax.FOMGenerator
+8130,org.apache.abdera.parser.stax.FOMIRI
+8131,org.apache.abdera.parser.stax.FOMLink
+8132,org.apache.abdera.parser.stax.FOMPerson
+8133,org.apache.abdera.parser.stax.FOMText
+8134,org.apache.abdera.parser.stax.FOMControl
+8135,org.apache.abdera.parser.stax.FOMDiv
+8136,org.apache.abdera.parser.stax.FOMComment
+8137,org.apache.abdera.parser.stax.FOMProcessingInstruction
+8184,org.apache.abdera.test.security.filter.CustomProvider
+8196,org.apache.abdera.protocol.server.impl.AbstractWorkspaceProvider
+8197,org.apache.abdera.protocol.server.impl.SimpleWorkspaceInfo
+8198,org.apache.abdera.security.util.filters.SignedRequestFilter
+8199,org.apache.abdera.security.util.filters.SignedResponseFilter
+8248,org.apache.abdera.protocol.server.servlet.ServletRequestContext
+8260,org.apache.abdera.spring.NamespaceHandler
+8264,org.apache.abdera.spring.WorkspaceDefinitionParser
+8265,org.apache.abdera.spring.DefaultProviderDefinitionParser
+8267,org.apache.abdera.ext.serializer.impl.ContentSerializer
+8309,org.apache.abdera.ext.features.FeatureSelector
+8455,org.apache.abdera.protocol.server.test.custom.SimpleAdapter
+8638,org.apache.abdera.ext.serializer.impl.FOMSerializer
+8653,org.apache.abdera.ext.geo.Box
+8680,org.apache.abdera.parser.stax.util.FOMXmlRestrictedCharReader
+8716,org.apache.abdera.util.XmlRestrictedCharReader
+8717,org.apache.abdera.util.XmlUtil
+8718,org.apache.abdera.parser.stax.util.FOMXmlVersionReader
+8719,org.apache.abdera.parser.stax.util.FOMXmlVersionInputStream
+8759,org.apache.abdera.i18n.test.iri.TestPunycode
+8801,org.apache.abdera.i18n.text.Punycode
+8809,org.apache.abdera.i18n.text.CodepointIterator
+8989,org.apache.abdera.i18n.text.Codepoint
+8990,org.apache.abdera.i18n.text.InvalidCharacterException
+8991,org.apache.abdera.i18n.text.DelegatingCodepointIterator
+9014,org.apache.abdera.ext.opensearch.model.OpenSearchDescription
+9017,org.apache.abdera.test.parser.ServiceDocumentTest
+9041,org.apache.abdera.util.AbstractWriter
+9092,org.apache.abdera.protocol.util.PoolManager
+9132,org.apache.abdera.test.parser.stax.FOMDivTest
+9139,org.apache.abdera.test.parser.stax.FOMTest
+9142,org.apache.abdera.i18n.iri.IDNA
+9182,org.apache.abdera.i18n.text.Nameprep
+9189,org.apache.abdera.protocol.client.cache.LRUMap
+9201,org.apache.abdera.protocol.server.test.filesystem.TestSuite
+9225,org.apache.abdera.i18n.lang.InvalidLangTagSyntax
+9250,org.apache.abdera.protocol.server.provider.basic.BasicAdapter
+9321,org.apache.abdera.protocol.server.provider.managed.ManagedCollectionAdapter
+9456,org.apache.abdera.util.AbderaSource
+9457,org.apache.abdera.util.filter.WhiteListParseFilter
+9543,org.apache.abdera.ext.sharing.Sharing
+9570,org.apache.abdera.ext.sharing.Related
+9579,org.apache.abdera.examples.appserver.employee.EmployeeCollectionAdapter
+9638,org.apache.abdera.examples.appserver.employee.Employee
+9735,org.apache.abdera.ext.serializer.impl.FeedSerializer
+9817,org.apache.abdera.ext.serializer.AbstractConventions
+9842,org.apache.abdera.i18n.text.io.FilteredCharReader
+10326,org.apache.abdera.parser.stax.FOMWriterFactory
+10361,org.apache.abdera.util.AbderaDataSource
+10539,org.apache.abdera.protocol.client.util.ClientAuthSSLProtocolSocketFactory
+10611,org.apache.abdera.ext.features.FeaturesExtensionFactory
+10613,org.apache.abdera.util.AbstractExtensionFactory
+10625,org.apache.abdera.examples.extension.Geo
+10667,org.apache.abdera.ext.rss.RssSource
+10843,org.apache.abdera.ext.rss.RssLink
+10909,org.apache.abdera.protocol.util.AbstractItemManager
+10925,org.apache.abdera.util.filter.AbstractListParseFilter
+10931,org.apache.abdera.examples.uritemplates.URITemplates
+11038,org.apache.abdera.examples.simple.PrintTitles
+11053,org.apache.abdera.util.AbderaConfiguration
+11153,org.apache.abdera.factory.StreamBuilder
+11326,org.apache.abdera.util.MultiIterator
+11328,org.apache.abdera.ext.serializer.impl.ControlSerializer
+11331,org.apache.abdera.test.ext.opensearch.server.impl.SimpleOpenSearchInfoTest
+11347,org.apache.abdera.test.ext.opensearch.server.AbstractOpenSearchServerTest
+11364,org.apache.abdera.i18n.text.io.CompressionUtilTest
+11612,org.apache.abdera.i18n.text.Rfc2047Helper
+11617,org.apache.abdera.ext.rss.RssSkipHours
+11631,org.apache.abdera.ext.rss.RssText
+11650,org.apache.abdera.protocol.server.processors.CollectionRequestProcessor
+11686,org.apache.abdera.i18n.test.iri.TestNameprep
+11792,org.apache.abdera.util.filter.SafeContentWhiteListParseFilter
+11955,org.apache.abdera.util.filter.AbstractParseFilter
+11958,org.apache.abdera.security.util.filters.AESEncryptedResponseFilter
+11985,org.apache.abdera.security.util.filters.AbstractEncryptedResponseFilter
+12202,org.apache.abdera.protocol.server.context.MediaResponseContext
+12328,org.apache.abdera.test.ext.rss.RssTest
+12396,org.apache.abdera.i18n.text.data.UnicodeCharacterDatabase
+12519,org.apache.abdera.ext.rss.RssEnclosure
+12586,org.apache.abdera.security.util.SignatureBase
+12595,org.apache.abdera.security.SecurityException
+12596,org.apache.abdera.security.util.SecurityBase
+12656,org.apache.abdera.examples.simple.Create
+12761,org.apache.abdera.protocol.server.processors.CategoriesRequestProcessor
+12762,org.apache.abdera.protocol.server.processors.MediaRequestProcessor
+12782,org.apache.abdera.ext.media.MediaText
+12810,org.apache.abdera.ext.rss.RssUriElement
+12859,org.apache.abdera.protocol.server.adapters.couchdb.JsonObjectResponseContext
+12994,org.apache.abdera.parser.stax.util.ResolveFunction
+13021,org.apache.abdera.parser.stax.util.FOMLinkIterator
+13034,org.apache.abdera.parser.stax.util.FOMElementIterator
+13058,org.apache.abdera.test.ext.opensearch.server.impl.AbstractOpenSearchUrlAdapterTest
+13119,org.apache.abdera.ext.opensearch.server.impl.AbstractOpenSearchUrlAdapter
+13120,org.apache.abdera.ext.opensearch.server.impl.SimpleOpenSearchUrlInfo
+13121,org.apache.abdera.ext.opensearch.server.processors.OpenSearchUrlRequestProcessor
+13122,org.apache.abdera.protocol.server.impl.DefaultWorkspaceManager
+13135,org.apache.abdera.i18n.text.io.InputStreamDataSource
+13149,org.apache.abdera.protocol.error.ErrorExtensionFactory
+13236,org.apache.abdera.ext.media.MediaCategory
+13316,org.apache.abdera.ext.html.HtmlCleaner
+13406,org.apache.abdera.protocol.server.filters.OpenSearchFilter
+13453,org.apache.abdera.protocol.client.util.DataSourceRequestEntity
+13470,org.apache.abdera.protocol.server.test.basic.SampleBasicAdapter
+13560,org.apache.abdera.examples.ext.Bidi
+13597,org.apache.abdera.examples.simple.StreamBuilderExample
+13685,org.apache.abdera.examples.ext.Paging
+13693,org.apache.abdera.ext.serializer.impl.ServiceSerializer
+13695,org.apache.abdera.parser.stax.FOMAttribute
+13823,org.apache.abdera.examples.simple.LangTagExample
+13837,org.apache.abdera.test.security.DigitalSignatureTest
+13884,org.apache.abdera.util.filter.CompoundParseFilter
+13986,org.apache.abdera.parser.stax.FOMWriterOptions
+13987,org.apache.abdera.util.AbstractWriterOptions
+13989,org.apache.abdera.examples.simple.Parse
+13998,org.apache.abdera.examples.simple.EntityProviderExample
+14075,org.apache.abdera.ext.media.MediaKeywords
+14115,org.apache.abdera.test.security.filter.SecurityFilterTest
+14144,org.apache.abdera.test.security.filter.JettyServer
+14263,org.apache.abdera.examples.xsltxpath.XPathFunctionsExample
+14287,org.apache.abdera.parser.stax.FOMXPath
+14288,org.apache.abdera.util.AbstractXPath
+14318,org.apache.abdera.i18n.rfc4646.enums.Singleton
+14525,org.apache.abdera.parser.stax.FOMWriter
+14576,org.apache.abdera.ext.opensearch.model.Url
+14577,org.apache.abdera.ext.opensearch.model.StringElement
+14586,org.apache.abdera.security.util.EncryptionBase
+14600,org.apache.abdera.ext.serializer.impl.CategoriesSerializer
+14844,org.apache.abdera.ext.rss.RssDateTime
+14870,org.apache.abdera.model.DateTimeWrapper
+14880,org.apache.abdera.i18n.test.iri.TestText
+14913,org.apache.abdera.ext.media.MediaDescription
+14924,org.apache.abdera.ext.gdata.GoogleLoginAuthCredentials
+14936,org.apache.abdera.ext.gdata.GoogleLoginAuthScheme
+14939,org.apache.abdera.security.xmlsec.XmlEncryptionOptions
+14980,org.apache.abdera.util.AbstractParserOptionsTest
+14994,org.apache.abdera.protocol.server.test.couchdb.TestSuite
+15062,org.apache.abdera.spring.ProviderFactoryBean
+15140,org.apache.abdera.ext.rss.RssSkipDays
+15165,org.apache.abdera.test.ext.opensearch.model.OpenSearchDescriptionTest
+15196,org.apache.abdera.test.ext.opensearch.model.OpenSearchAtomTest
+15215,org.apache.abdera.protocol.server.adapters.jcr.SessionPoolManager
+15230,org.apache.abdera.ext.oauth.OAuthSchemeTest
+15237,org.apache.abdera.ext.oauth.OAuthCredentials
+15238,org.apache.abdera.ext.oauth.OAuthScheme
+15769,org.apache.abdera.util.AbstractStreamWriter
+15930,org.apache.abdera.ext.serializer.ObjectResponseContext
+16066,org.apache.abdera.parser.stax.StaxStreamWriter
+16319,org.apache.abdera.ext.thread.ThreadExtensionFactory
+16321,org.apache.abdera.ext.thread.Total
+16330,org.apache.abdera.parser.stax.util.PrettyWriter
+16449,org.apache.abdera.util.AbstractNamedWriter
+16480,org.apache.abdera.ext.json.JSONServlet
+16666,org.apache.abdera.util.XmlRestrictedCharReaderTest
+16726,org.apache.abdera.i18n.rfc4646.enums.Region
+17115,org.apache.abdera.protocol.server.impl.SimpleCategoryInfo
+17185,org.apache.abdera.ext.rss.RssGuid
+17257,org.apache.abdera.examples.simple.StreamWriterExample
+17264,org.apache.abdera.i18n.test.iri.TestNFKC
+17363,org.apache.abdera.test.ext.opensearch.server.processors.OpenSearchDescriptionRequestProcessorTest
+17380,org.apache.abdera.ext.opensearch.server.processors.OpenSearchDescriptionRequestProcessor
+17562,org.apache.abdera.ext.sharing.Unpublished
+17660,org.apache.abdera.ext.media.MediaPlayer
+17679,org.apache.abdera.test.parser.stax.EntryLinkTest
+18035,org.apache.abdera.util.filter.NonOpParseFilter
+18080,org.apache.abdera.protocol.server.processors.MediaRequestProcessorTest
+18135,org.apache.abdera.ext.opensearch.server.impl.SimpleOpenSearchInfo
+18136,org.apache.abdera.ext.opensearch.server.impl.SimpleOpenSearchUrlParameterInfo
+18220,org.apache.abdera.protocol.server.filters.CompressionFilter
+18262,org.apache.abdera.i18n.test.iri.TestTemplate
+18438,org.apache.abdera.ext.media.MediaExtensionFactory
+18440,org.apache.abdera.ext.media.MediaCopyright
+18441,org.apache.abdera.ext.media.MediaRating
+18442,org.apache.abdera.ext.media.MediaRestriction
+18443,org.apache.abdera.ext.media.MediaThumbnail
+18741,org.apache.abdera.i18n.rfc4646.enums.Variant
+18798,org.apache.abdera.test.ext.features.FeatureTest
+18823,org.apache.abdera.ext.features.AcceptSelector
+18824,org.apache.abdera.ext.features.XPathSelector
+18928,org.apache.abdera.i18n.text.io.PipeChannel
+19026,org.apache.abdera.examples.ext.Json
+19098,org.apache.abdera.ext.geo.Position
+19108,org.apache.abdera.examples.ext.Geo
+19117,org.apache.abdera.ext.geo.GeoHelper
+19126,org.apache.abdera.test.ext.serializer.TestSuite
+19131,org.apache.abdera.util.ServiceUtil
+19167,org.apache.abdera.i18n.test.iri.TestIO
+19378,org.apache.abdera.examples.uritemplates.AtomLinkTemplate
+19398,org.apache.abdera.ext.opensearch.model.OpenSearchExtensionFactory
+19491,org.apache.abdera.i18n.iri.SchemeRegistry
+19509,org.apache.abdera.i18n.iri.HttpsScheme
+19510,org.apache.abdera.i18n.iri.FtpScheme
+19511,org.apache.abdera.i18n.iri.DefaultScheme
+19615,org.apache.abdera.test.ext.opensearch.server.processors.OpenSearchUrlRequestProcessorTest
+19830,org.apache.abdera.test.parser.stax.FeedValidatorTest
+21311,org.apache.abdera.protocol.client.util.AutoReleasingInputStream
+21353,org.apache.abdera.i18n.test.iri.TestIDNA
+21513,org.apache.abdera.test.parser.stax.ConcurrencyTest
+21534,org.apache.abdera.test.parser.stax.ParserTest
+21536,org.apache.abdera.protocol.server.provider.managed.Configuration
+21548,org.apache.abdera.protocol.server.provider.managed.CollectionAdapterConfiguration
+21676,org.apache.abdera.examples.appclient.Services
+21768,org.apache.abdera.protocol.server.test.custom.CustomProvider
+21779,org.apache.abdera.protocol.server.context.RequestContextWrapper
+21780,org.apache.abdera.protocol.server.impl.TemplateTargetBuilder
+21821,org.apache.abdera.model.AtomDateTest
+21911,org.apache.abdera.ext.tombstones.TombstonesExtensionFactory
+21914,org.apache.abdera.ext.tombstones.TombstonesHelper
+21915,org.apache.abdera.ext.tombstones.Tombstone
+21939,org.apache.abdera.test.ext.features.TestSuite
+21993,org.apache.abdera.protocol.server.adapters.couchdb.CouchDbAdapter
+22165,org.apache.abdera.ext.rss.RssItem
+22417,org.apache.abdera.ext.rss.RssChannel
+22418,org.apache.abdera.ext.rss.RssFeed
+22547,org.apache.abdera.ext.serializer.impl.GeneratorSerializer
+22550,org.apache.abdera.protocol.server.processors.EntryRequestProcessorTest
+22571,org.apache.abdera.ext.json.JSONWriter
+22593,org.apache.abdera.ext.json.JSONUtil
+22857,org.apache.abdera.protocol.server.adapters.jcr.JcrCollectionAdapter
+23287,org.apache.abdera.protocol.server.multipart.MultipartInputStream
+23332,org.apache.abdera.protocol.server.adapters.hibernate.DummyData
+23355,org.apache.abdera.spring.DummyFilter
+23360,org.apache.abdera.examples.unicode.NormalizationExample
+23876,org.apache.abdera.test.ext.opensearch.model.TestSelectNodes
+23996,org.apache.abdera.test.client.app.AppTest
+24137,org.apache.abdera.examples.appserver.custom.AppServer
+24146,org.apache.abdera.examples.appserver.custom.CustomProvider
+24153,org.apache.abdera.ext.sharing.SharingExtensionFactory
+24158,org.apache.abdera.protocol.server.provider.managed.ManagedWorkspace
+24161,org.apache.abdera.examples.appclient.Main
+24214,org.apache.abdera.examples.html.HtmlExample
+24231,org.apache.abdera.test.parser.stax.XhtmlTest
+24242,org.apache.abdera.examples.appserver.custom.SimpleAdapter
+24314,org.apache.abdera.i18n.test.iri.TestLang
+24338,org.apache.abdera.examples.xsltxpath.XsltExample
+24364,org.apache.abdera.protocol.server.impl.SimpleCollectionInfo
+24520,org.apache.abdera.parser.stax.FOMMetaFactory
+24535,org.apache.abdera.examples.appserver.employee.AppServer
+24562,org.apache.abdera.protocol.util.AbstractEntityProvider
+24740,org.apache.abdera.test.client.TestSuite
+24883,org.apache.abdera.test.parser.stax.AtomConformanceTest
+24926,org.apache.abdera.examples.ext.Features
+25093,org.apache.abdera.test.security.TestSuite
+25099,org.apache.abdera.test.security.EncryptionTest
+25412,org.apache.abdera.parser.stax.FOMParserFactory
+25428,org.apache.abdera.examples.appclient.SSLExample
+25480,org.apache.abdera.ext.rss.RssExtensionFactory
+25482,org.apache.abdera.ext.rss.RssGenerator
+25483,org.apache.abdera.ext.rss.RssCloud
+25972,org.apache.abdera.examples.simple.i18nExample
+25996,org.apache.abdera.security.util.filters.DHEncryptedResponseFilter
+26033,org.apache.abdera.protocol.server.adapters.hibernate.AtomEntryResultTransformer
+26057,org.apache.abdera.protocol.server.adapters.filesystem.FilesystemAdapter
+26243,org.apache.abdera.ext.wsse.WSSEAuthScheme
+26382,org.apache.abdera.protocol.server.filters.MethodOverrideFilter
+26831,org.apache.abdera.test.ext.sharing.SharingTest
+27394,org.apache.abdera.security.xmlsec.XmlEncryption
+27432,org.apache.abdera.util.filter.AbstractListParseFilterTest
+27535,org.apache.abdera.i18n.test.templates.TestTemplate
+27595,org.apache.abdera.util.ConfigurationTest
+27807,org.apache.abdera.test.ext.sharing.TestSuite
+27812,org.apache.abdera.jcr.JcrCollectionAdapterTest
+28422,org.apache.abdera.protocol.server.adapters.ibatis.IBatisCollectionAdapter
+28564,org.apache.abdera.protocol.server.adapters.hibernate.HibernateCollectionAdapter
+28648,org.apache.abdera.spring.TestSuite
+29030,org.apache.abdera.examples.ext.License
+29040,org.apache.abdera.i18n.text.data.Generator
+29121,org.apache.abdera.examples.xsltxpath.XPathExample
+29131,org.apache.abdera.test.ext.opensearch.TestSuite
+29280,org.apache.abdera.security.xmlsec.XmlSignature
+29496,org.apache.abdera.examples.ext.Serializer
+*Edges: 1374
+239 644 1
+239 11053 1
+24161 644 7
+24161 740 8
+24161 239 2
+25428 740 11
+25428 239 4
+25428 10539 1
+21676 14924 2
+21676 644 3
+21676 742 3
+21676 740 17
+21676 239 7
+21676 5017 3
+21676 2227 4
+24146 906 1
+24146 8197 3
+24146 904 5
+24146 8196 4
+24146 24242 1
+24146 21780 5
+24242 980 2
+24242 1544 2
+24242 1546 1
+24242 644 9
+24242 1542 2
+24242 239 3
+24242 1537 1
+24242 1538 25
+24242 1545 2
+9579 9638 19
+9579 644 1
+9579 1542 1
+9579 239 1
+9579 4531 1
+13560 239 3
+13560 1308 7
+24926 644 1
+24926 8309 1
+24926 239 2
+24926 2833 8
+24926 2797 4
+24926 2832 1
+19108 2059 2
+19108 239 2
+19108 19117 4
+19108 1117 1
+19026 239 2
+29030 239 2
+29030 7274 8
+13685 239 2
+13685 2341 18
+29496 201 2
+29496 239 5
+29496 5240 2
+29496 5238 1
+5304 5319 7
+5304 239 3
+5304 5320 1
+5304 5318 1
+5470 239 3
+5470 5479 4
+5470 5478 1
+5984 2718 2
+5984 830 5
+5977 831 1
+5977 239 2
+5977 5984 2
+5977 2718 2
+2718 831 5
+5985 10613 4
+10625 239 2
+24214 239 3
+2100 1665 2
+2100 239 4
+2100 2126 7
+1632 1665 2
+1632 239 3
+3582 1665 2
+3582 239 3
+12656 644 1
+12656 239 1
+13998 239 2
+13823 5800 2
+13823 472 6
+13823 192 6
+13989 239 1
+11038 239 1
+11038 9457 1
+13597 239 2
+13597 11153 31
+17257 239 2
+2418 239 1
+25972 239 2
+25972 1308 2
+23360 4559 3
+4553 2686 3
+506 239 2
+506 526 1
+19378 239 2
+19378 526 1
+10931 5444 1
+10931 526 6
+29121 239 3
+14263 14288 1
+14263 14287 2
+14263 239 3
+24338 239 1
+24338 9456 4
+1308 1311 4
+1308 4626 2
+1308 192 1
+18823 2887 1
+2832 644 8
+2832 831 8
+2832 830 4
+2832 746 1
+8309 2833 1
+8309 2887 1
+2797 644 6
+2797 831 5
+2797 830 7
+2797 2832 9
+10611 10613 4
+2833 644 1
+2833 740 2
+2833 239 2
+2833 2797 10
+2833 830 2
+2833 2832 3
+18824 239 2
+18824 2887 1
+14924 14936 1
+14936 14924 2
+14936 742 1
+14936 740 6
+8653 2059 3
+8653 2058 13
+8653 1025 13
+8653 1117 3
+1025 1117 16
+19117 2059 5
+19117 19098 24
+19117 2058 3
+19117 8653 5
+19117 1025 3
+19117 1117 8
+3024 2059 2
+3024 2058 13
+3024 1025 1
+3024 1117 1
+2058 2059 4
+2058 19098 4
+2058 1025 17
+2058 1117 7
+2059 19098 4
+2059 1117 12
+2036 2059 2
+2036 2058 14
+2036 1025 1
+2036 1117 1
+2341 644 7
+1150 740 2
+1150 239 14
+1150 13316 2
+1150 746 1
+1122 1149 1
+1122 3503 1
+1122 239 1
+1122 1150 2
+1122 1148 2
+1149 874 1
+1149 871 1
+1149 873 1
+1149 870 1
+1746 1538 1
+1746 1777 2
+16480 740 3
+16480 239 2
+16480 584 1
+4691 644 2
+4691 584 2
+4691 2227 1
+3638 644 1
+3638 239 3
+22593 5479 1
+22593 2341 2
+22593 1150 2
+22593 644 3
+22593 239 1
+22593 1308 3
+22593 5478 4
+22593 4691 168
+22571 16449 2
+22571 22593 1
+7274 644 6
+3431 831 3
+13236 644 4
+13236 831 9
+818 644 4
+818 831 30
+818 830 3
+18440 644 4
+18440 831 6
+4312 644 4
+4312 831 9
+14913 831 7
+18438 10613 17
+819 830 3
+1789 831 7
+14075 831 3
+17660 644 4
+17660 831 10
+18441 644 4
+18441 831 8
+18442 831 11
+12782 831 16
+18443 644 4
+18443 831 13
+820 831 7
+15238 15237 12
+15238 740 4
+15230 15237 2
+15230 15238 2
+1450 831 4
+9014 14576 1
+9014 239 2
+9014 14577 4
+9014 830 12
+9014 5583 1
+19398 10613 11
+5583 831 25
+5583 239 2
+5583 830 3
+14577 831 5
+14576 831 17
+14576 239 2
+13119 644 1
+13119 1541 1
+13119 239 1
+13119 1450 3
+18135 9014 7
+5570 5583 4
+13120 14576 4
+13120 644 1
+17380 1541 1
+13121 1538 2
+3441 644 2
+3441 831 3
+3441 830 3
+22417 7626 1
+22417 7717 1
+22417 644 9
+22417 239 1
+22417 831 10
+22417 17185 1
+22417 830 37
+22417 5017 3
+22417 13034 1
+22417 22165 1
+25483 831 8
+2844 644 2
+2844 831 5
+14844 14870 3
+14844 831 1
+14844 2227 2
+12519 644 3
+12519 831 3
+12519 830 3
+25480 10613 55
+22418 644 7
+22418 831 8
+22418 22417 91
+22418 830 17
+25482 644 2
+25482 831 3
+17185 644 5
+17185 831 3
+17185 830 3
+7717 644 4
+7717 831 1
+7717 830 13
+22165 7626 1
+22165 22417 1
+22165 22418 1
+22165 644 14
+22165 831 7
+22165 830 31
+22165 17185 2
+22165 5017 3
+22165 13034 1
+10843 644 3
+10843 831 2
+10843 830 3
+3049 831 1
+3049 3085 3
+15140 830 4
+11617 830 4
+10667 644 7
+10667 10843 2
+10667 831 1
+10667 830 3
+11631 831 4
+3238 644 1
+3238 830 7
+12810 644 3
+12810 831 4
+5240 8638 1
+5240 197 5
+5240 239 4
+5240 202 3
+5240 200 15
+19 201 1
+19 197 6
+19 191 1
+19 190 1
+19 202 1
+19 200 21
+201 2007 1
+201 239 3
+201 202 1
+201 2005 3
+201 5240 3
+2007 9817 3
+2005 239 1
+2005 5720 1
+2005 5240 3
+200 197 3
+200 202 1
+200 5240 1
+15930 19 5
+15930 2007 1
+15930 1543 3
+15930 239 7
+15930 200 6
+15930 1545 3
+15930 2227 2
+197 200 2
+5721 197 1
+14600 19 3
+14600 1438 2
+14600 1417 1
+1417 19 9
+1417 1438 2
+1417 200 6
+4327 19 5
+4327 191 1
+4327 1438 2
+4327 2932 1
+4327 14600 1
+8267 19 8
+8267 239 2
+8267 1438 2
+8267 200 9
+11328 197 1
+11328 19 3
+11328 191 1
+11328 1438 2
+11328 200 3
+2933 19 3
+2933 1438 3
+2933 200 2
+2933 2227 2
+1438 19 3
+1438 200 1
+5238 2933 3
+5238 8267 1
+5238 1438 2
+5238 11328 1
+5238 2932 3
+5238 2934 1
+5238 19 15
+5238 2935 2
+5238 1417 1
+5238 2080 1
+190 19 2
+190 1438 3
+8638 19 1
+8638 239 1
+8638 200 1
+9735 19 1
+9735 2914 3
+9735 5238 1
+22547 19 6
+22547 1438 2
+22547 200 5
+2080 19 3
+2080 1438 3
+2080 200 1
+2934 19 13
+2934 1438 2
+2934 200 9
+2935 19 7
+2935 191 3
+2935 1438 3
+2935 200 1
+13693 19 3
+13693 1438 2
+13693 3022 1
+191 19 2
+191 1438 2
+2914 2933 1
+2914 1438 3
+2914 2932 3
+2914 2934 1
+2914 19 13
+2914 2935 2
+2914 1417 1
+2914 2080 3
+2932 19 5
+2932 239 1
+2932 1438 3
+2932 200 6
+3022 19 4
+3022 4327 1
+3022 1438 2
+5318 830 5
+5450 5319 1
+5450 831 11
+5450 2227 2
+9570 644 4
+9570 831 11
+9543 9570 6
+9543 831 10
+9543 830 5
+9543 2227 6
+24153 10613 8
+5319 644 1
+5319 9543 6
+5319 831 7
+5319 239 3
+5319 5450 23
+5319 5320 39
+5319 5318 3
+5319 17562 3
+5320 5319 2
+5320 831 15
+5320 5450 7
+5320 5318 3
+5320 830 8
+17562 830 5
+5478 644 16
+5478 831 16
+16319 10613 4
+5479 644 6
+5479 16321 5
+5479 5478 21
+5479 2227 10
+16321 831 4
+21915 644 2
+21915 831 8
+21915 830 6
+21915 2227 6
+21911 10613 3
+21914 21915 41
+21914 2227 2
+26243 740 4
+26243 2227 4
+11153 644 8
+11153 239 6
+11153 15769 157
+11153 192 1
+4627 644 2
+19511 4627 3
+19510 4609 2
+4609 644 11
+4609 4627 4
+4609 1537 2
+19509 4609 2
+9142 9182 2
+9142 8801 2
+9142 4626 3
+644 4559 1
+644 8990 2
+644 2747 2
+644 19491 6
+644 1537 3
+644 12396 1
+644 9182 1
+644 4626 9
+644 9142 3
+5016 644 4
+19491 19510 1
+19491 19509 1
+19491 19511 1
+19491 4609 1
+203 8990 2
+203 9225 3
+203 4626 2
+192 5801 4
+192 5800 5
+192 472 51
+5800 5801 9
+5800 472 37
+5800 192 12
+472 14318 3
+472 480 5
+472 18741 5
+472 16726 5
+472 271 5
+472 5998 5
+5801 472 12
+480 472 5
+5998 472 5
+16726 472 5
+271 472 5
+14318 472 5
+18741 472 5
+1383 4261 1
+5594 1383 1
+3652 3679 6
+1333 4261 1
+1333 1383 1
+3679 4559 2
+3679 1537 3
+3679 526 1
+5332 5444 1
+5332 3652 3
+5332 1333 1
+5332 4626 1
+526 5444 2
+526 3652 4
+526 1333 1
+526 4626 5
+21353 9142 2
+21353 7787 1
+19167 2444 2
+19167 18928 9
+19167 4672 27
+19167 7787 1
+19167 4673 2
+19167 2478 7
+7752 644 128
+7752 7787 1
+24314 5801 1
+24314 5800 16
+24314 472 4
+24314 9225 1
+24314 7787 1
+24314 192 10
+24314 203 17
+17264 4559 2
+17264 7787 5
+11686 9182 1
+11686 7787 1
+8759 8801 2
+8759 7787 1
+18262 5444 22
+18262 526 13
+18262 7787 1
+14880 2686 2
+14880 8809 3
+14880 7787 1
+14880 4626 29
+14880 8989 5
+27535 526 2
+1311 472 2
+1311 192 4
+4626 8809 27
+4626 8989 30
+8989 4626 12
+8809 8990 4
+8809 4626 13
+8809 8989 5
+8991 8809 17
+9182 4559 1
+9182 8809 2
+9182 4626 4
+9182 8989 1
+4559 12396 6
+4559 8809 6
+4559 4626 5
+4559 8989 3
+8801 8809 10
+8801 4626 1
+8801 8989 3
+2686 4559 1
+1537 4626 4
+12396 4626 1
+4672 4673 3
+11364 1697 1
+4673 2444 5
+4673 2478 2
+18928 8809 4
+2444 2478 7
+27812 742 2
+27812 740 6
+27812 22857 6
+27812 1544 1
+27812 644 8
+27812 8197 3
+27812 239 4
+27812 903 3
+21821 2227 32
+14870 831 13
+14870 2227 16
+831 644 3
+831 192 1
+830 831 4
+3085 644 1
+3085 831 3
+3085 830 9
+1806 1948 1
+1806 980 3
+1806 873 5
+1806 1951 1
+1806 1949 1
+5488 644 11
+5488 1950 19
+5488 873 3
+5488 1283 1
+5488 649 7
+5488 5017 1
+594 644 4
+594 1950 15
+594 649 7
+8126 644 4
+8126 1950 23
+8126 873 4
+8126 649 9
+8126 746 3
+8136 873 1
+8128 644 7
+8128 1950 46
+8128 831 1
+8128 873 1
+8128 8135 1
+8128 649 7
+8128 870 1
+8134 1950 8
+8134 649 7
+2173 1950 15
+2173 2227 18
+8135 1950 15
+8135 649 5
+1283 873 5
+1283 584 4
+1283 9041 1
+1283 192 2
+1283 644 3
+1283 14525 1
+1283 239 8
+1283 831 1
+1283 8717 1
+1950 7626 2
+1950 7624 2
+1950 873 8
+1950 9041 1
+1950 192 2
+1950 14525 1
+1950 644 18
+1950 239 8
+1950 831 1
+1950 5016 4
+3138 1950 72
+3138 873 31
+3138 649 7
+3138 2227 9
+3138 644 14
+3138 13135 2
+3138 1283 1
+3138 5017 3
+3138 746 4
+874 980 5
+649 7626 3
+649 7625 2
+649 7624 1
+649 1950 20
+649 831 3
+649 873 3
+873 8132 1
+873 8128 1
+873 8123 9
+873 5018 1
+873 1214 1
+873 649 2
+873 3138 1
+873 1806 6
+873 1283 1
+873 8133 1
+873 8125 1
+873 5017 1
+873 8136 1
+873 8134 1
+873 594 1
+873 746 1
+873 8137 1
+873 8126 1
+873 2173 1
+873 8135 1
+873 8129 1
+873 1951 1
+873 4752 1
+873 8130 2
+873 8127 1
+873 239 5
+873 5488 1
+873 8124 1
+5018 644 2
+5018 1950 12
+5018 873 4
+5018 4752 6
+5018 1283 1
+8129 644 5
+8129 1950 17
+8130 644 5
+8130 1950 11
+8131 644 5
+8131 1950 28
+8131 649 7
+8127 1950 7
+8127 8126 8
+8127 649 2
+8124 4672 1
+8124 873 2
+8124 870 2
+8124 644 3
+8124 1697 1
+8124 3503 7
+8124 4659 1
+8124 239 1
+8124 1806 3
+8124 864 1
+8124 8680 3
+25412 3503 1
+25412 239 6
+864 874 1
+864 871 1
+864 873 1
+864 870 1
+8132 644 1
+8132 1950 18
+8132 873 3
+8132 649 5
+8137 873 1
+1214 1950 4
+1214 873 2
+1214 1283 1
+1214 649 7
+4752 5018 1
+4752 1950 68
+4752 873 23
+4752 649 7
+4752 2227 3
+4752 644 9
+4752 5016 4
+4752 5017 3
+8133 644 2
+8133 1950 29
+8133 8135 1
+1951 873 1
+1949 874 2
+1949 870 1
+1948 874 2
+1948 870 1
+8125 1950 9
+8125 873 3
+8125 649 7
+14525 239 1
+14525 9041 3
+14525 746 4
+10326 239 8
+10326 870 1
+13986 13987 1
+14287 14288 3
+14287 13695 2
+14287 831 1
+14287 239 1
+16066 239 4
+16066 15769 6
+16066 5017 1
+7624 873 3
+7625 873 2
+5017 7626 2
+5017 13034 1
+5017 13021 1
+13021 8131 2
+13021 13034 3
+4659 4672 4
+4659 4673 1
+8680 8716 2
+8680 8717 6
+8680 8718 6
+8680 8719 12
+8719 4673 2
+16330 16449 2
+16330 831 1
+16330 9041 2
+12994 644 2
+740 742 42
+740 4057 3
+740 1412 2
+740 985 2
+740 584 1
+740 3139 1
+740 3146 1
+740 4056 3
+740 1389 1
+740 4063 1
+740 239 11
+740 4058 2
+740 243 1
+740 3212 6
+740 4059 2
+7499 1546 3
+7499 644 4
+7499 239 3
+7499 3212 5
+7499 3146 1
+4063 1697 1
+4063 21311 1
+4063 239 1
+4063 7499 4
+742 985 2
+742 584 10
+742 192 2
+742 11612 4
+742 3146 2
+742 870 1
+2311 742 3
+2311 239 2
+2311 3212 2
+2311 985 3
+2311 3146 1
+7466 1546 2
+7466 239 1
+7466 3212 1
+7466 7499 3
+2294 239 1
+2294 2313 1
+2294 2311 2
+2313 7466 2
+2313 239 1
+2313 4058 1
+2313 3146 1
+243 9189 1
+243 239 2
+243 2294 2
+232 239 2
+232 243 1
+4056 746 1
+10539 870 1
+4057 239 3
+5726 5801 2
+5726 5800 15
+5726 192 7
+4058 742 13
+4058 985 1
+3139 644 1
+3139 746 2
+1412 1389 1
+1412 239 4
+1412 830 10
+13149 10613 3
+1389 239 1
+1389 1412 12
+1538 2686 1
+1538 584 2
+1538 2227 2
+1538 1732 2
+1538 870 20
+1538 644 8
+1538 1541 1
+1538 239 6
+1538 1545 9
+1538 746 3
+743 239 3
+743 5720 1
+743 870 4
+21993 2686 1
+21993 9321 2
+21993 1538 11
+21993 239 2
+21993 12859 3
+21993 5628 4
+21993 1545 4
+12859 3620 1
+12859 1543 3
+12859 239 3
+12859 5628 11
+12859 1545 1
+26057 3620 1
+26057 2686 1
+26057 5628 8
+26057 644 8
+26057 239 3
+26057 1538 12
+26057 9321 2
+26057 526 4
+26033 644 3
+26033 201 1
+26033 1538 1
+26033 239 4
+26033 5240 1
+26033 5238 1
+28564 9250 3
+28564 3620 2
+28564 644 1
+28564 9321 2
+28564 239 1
+28564 26033 2
+28564 5628 14
+4207 644 2
+4207 740 10
+4207 239 2
+28422 9250 5
+28422 3620 4
+28422 644 1
+28422 239 2
+28422 5628 11
+28422 21548 1
+22857 2686 1
+22857 1732 1
+22857 644 1
+22857 1542 5
+22857 239 4
+22857 15215 1
+22857 4531 1
+22857 1545 1
+22857 9092 2
+15215 9092 1
+15215 10909 2
+914 984 1
+914 644 12
+914 239 5
+914 3212 1
+914 985 1
+914 870 4
+914 746 1
+1545 1546 5
+1545 3212 6
+1545 584 3
+1545 11612 4
+1545 870 1
+1541 1546 1
+1541 3212 1
+1541 1545 4
+1541 746 1
+1732 2163 1
+1732 1545 3
+7328 1543 4
+7328 239 3
+7328 1545 3
+12202 2163 1
+12202 584 3
+12202 1545 2
+21779 644 6
+21779 239 1
+21779 584 2
+1542 1732 3
+1778 644 2
+1778 584 2
+2163 1545 1
+1543 2163 2
+1543 239 7
+18220 1538 1
+18220 1777 3
+26382 1777 2
+13406 983 1
+13406 1777 2
+13406 1545 1
+1544 980 1
+1544 584 1
+1544 2227 1
+1544 1732 1
+1544 1546 1
+1544 644 1
+1544 1541 3
+1544 1542 4
+1544 239 3
+1544 1537 1
+1544 1538 12
+1544 1545 8
+4531 980 2
+4531 584 1
+4531 1544 29
+4531 2227 1
+4531 1732 26
+4531 644 21
+4531 12202 1
+4531 1542 14
+4531 239 2
+4531 1538 4
+4531 1545 2
+4531 746 1
+906 1542 2
+906 1538 4
+906 239 4
+8196 906 1
+903 906 1
+903 7707 2
+903 3617 6
+13122 7707 1
+904 983 4
+3617 5444 1
+3617 1333 1
+3617 983 4
+3617 5332 9
+7033 239 1
+17115 239 1
+24364 239 1
+984 644 1
+984 983 5
+8197 239 1
+21780 5444 1
+21780 1333 1
+21780 526 5
+1733 644 1
+1733 23287 5
+1733 239 1
+1733 980 4
+1733 1544 1
+1733 746 3
+12761 1538 1
+11650 1538 3
+2252 1538 1
+22550 2252 7
+12762 1538 2
+18080 12762 7
+5148 5173 1
+5148 1545 1
+5173 1545 1
+9250 644 2
+9250 9321 2
+9250 1538 16
+9250 239 4
+9250 5628 7
+9250 746 2
+744 3619 3
+744 8196 2
+744 3618 1
+744 3622 1
+744 3617 3
+5603 3620 1
+5603 5628 1
+3618 5603 2
+21548 3620 4
+21548 21536 2
+3622 3620 6
+3622 239 3
+3622 5628 5
+5628 3620 5
+5628 239 1
+5628 21536 6
+5628 21548 4
+9321 239 3
+9321 5628 6
+9321 1544 1
+3619 3620 1
+3619 8196 2
+3619 3622 2
+3619 24158 1
+24158 3619 3
+24158 239 1
+24158 3622 1
+3620 21536 1
+3620 5628 1
+745 743 6
+745 239 2
+745 1412 1
+745 8248 1
+745 1777 2
+8248 644 2
+8248 239 2
+8248 914 3
+8248 870 1
+258 644 3
+258 7459 4
+258 742 1
+258 740 12
+258 239 3
+13470 9250 6
+13470 644 2
+13470 239 2
+13470 5628 4
+5261 644 3
+5261 742 1
+5261 740 12
+5261 239 3
+21768 906 2
+21768 8197 3
+21768 13406 13
+21768 904 6
+21768 8196 4
+21768 8455 1
+21768 21780 6
+259 644 4
+259 7459 4
+259 742 1
+259 740 15
+259 239 2
+8455 980 2
+8455 1544 2
+8455 1546 1
+8455 644 7
+8455 1542 2
+8455 239 3
+8455 1537 1
+8455 1538 25
+8455 1545 2
+4457 4532 21
+4457 644 1
+4457 1542 1
+4457 239 1
+4457 4531 1
+260 644 14
+260 8197 3
+260 742 2
+260 740 9
+260 903 3
+260 239 4
+260 1544 1
+679 644 3
+679 742 1
+679 740 12
+679 239 3
+1704 1538 5
+1704 980 1
+1704 1733 2
+1704 1732 4
+1704 746 1
+261 644 1
+261 740 3
+261 239 3
+262 5444 6
+262 3617 5
+262 5332 57
+24562 584 1
+10909 9092 4
+3212 644 2
+3212 1537 2
+3212 11612 2
+985 3212 6
+985 584 4
+1546 644 2
+1546 3212 11
+1546 584 2
+3146 1546 17
+3146 3212 5
+3146 985 21
+1665 239 5
+1665 5720 2
+14586 239 1
+14586 12596 2
+12596 239 3
+12586 239 1
+12586 12596 2
+11958 5816 2
+11958 11985 1
+4234 1777 3
+11985 1777 3
+4209 4234 4
+4209 2126 4
+25996 11985 2
+25996 2126 6
+8198 1665 2
+8198 1538 1
+8198 1777 2
+8198 870 1
+8199 1665 2
+8199 239 1
+8199 1777 2
+27394 239 2
+27394 12596 4
+27394 14939 1
+27394 14586 4
+14939 239 1
+14939 2782 2
+2782 239 3
+29280 644 7
+29280 12586 4
+29280 239 2
+29280 12596 8
+29280 2750 1
+2750 239 1
+2750 2782 2
+8265 5703 5
+23355 1777 2
+885 906 1
+885 903 2
+15062 906 1
+15062 903 4
+5651 5703 2
+5704 904 3
+5704 983 1
+2017 745 3
+2894 1544 1
+8264 5703 1
+23996 742 33
+23996 740 23
+23996 985 9
+23996 584 23
+23996 644 8
+23996 538 5
+23996 239 3
+23996 3212 3
+23996 746 1
+4330 742 7
+4330 740 21
+4330 538 4
+4330 985 6
+3104 644 1
+3104 3138 1
+3104 3139 1
+1678 644 4
+1302 239 3
+1302 1308 13
+18798 8309 1
+18798 18823 1
+18798 18824 1
+18798 2833 10
+18798 2797 3
+18798 2832 2
+18798 239 7
+18798 831 2
+3268 644 1
+3268 239 4
+3268 2341 28
+3269 239 6
+3269 7274 15
+798 644 1
+798 831 3
+798 239 3
+798 830 3
+798 820 2
+798 818 15
+15196 239 5
+15196 1450 6
+15196 5583 4
+15165 14576 5
+15165 9014 6
+15165 239 4
+15165 14577 3
+15165 5583 5
+23876 239 6
+23876 1450 2
+11347 5570 2
+11347 13120 4
+11347 18135 5
+11347 18136 5
+13058 906 1
+13058 740 2
+13058 13120 1
+13058 7707 1
+13058 11347 2
+13058 644 1
+13058 903 4
+13058 1450 1
+13058 13121 2
+13058 2323 3
+13058 3617 5
+11331 644 1
+11331 239 1
+11331 11347 2
+17363 17380 2
+17363 906 1
+17363 740 2
+17363 7707 1
+17363 11347 2
+17363 903 4
+17363 2323 3
+17363 3617 5
+19615 906 1
+19615 740 5
+19615 13120 2
+19615 7707 1
+19615 11347 2
+19615 903 4
+19615 13121 2
+19615 2323 3
+19615 3617 7
+12328 644 6
+12328 239 2
+5200 644 4
+5200 201 2
+5200 239 6
+5200 5240 2
+5200 5238 1
+26831 5319 26
+26831 5450 15
+26831 5318 2
+26831 17562 2
+26831 2227 5
+26831 9570 4
+26831 644 2
+26831 239 12
+26831 9543 5
+26831 5320 25
+3270 239 2
+3270 5479 1
+3270 5478 1
+7657 239 14
+9017 8127 2
+9017 239 4
+9017 8126 2
+24883 644 40
+24883 1206 6
+1206 644 5
+1206 239 2
+21513 239 1
+17679 644 1
+17679 239 3
+9132 239 2
+9139 644 42
+9139 472 2
+9139 239 19
+9139 9457 1
+9139 192 3
+9139 9456 4
+9139 2227 9
+1166 644 7
+1166 1206 6
+19830 644 333
+19830 1206 2
+19830 2227 25
+21534 239 2
+24231 239 5
+13837 1665 2
+13837 239 3
+25099 1665 2
+25099 644 1
+25099 239 3
+8184 906 1
+8184 8197 3
+8184 8196 4
+8184 8199 1
+8184 3617 3
+8184 1469 1
+14115 1665 4
+14115 740 4
+14115 239 2
+14115 14144 4
+1469 980 2
+1469 1544 2
+1469 1546 1
+1469 644 7
+1469 1542 2
+1469 239 3
+1469 1537 1
+1469 1538 25
+1469 1545 2
+11053 239 14
+11053 5720 11
+11053 870 1
+10361 746 1
+2268 239 4
+1148 3503 2
+1148 239 1
+1148 746 1
+16449 9041 1
+16449 746 1
+3503 239 6
+14980 871 2
+15769 5801 1
+15769 644 13
+15769 239 2
+15769 192 2
+15769 2227 3
+9041 1697 1
+27595 11053 2
+584 870 2
+570 584 33
+7282 746 26
+19131 239 15
+19131 5720 12
+8716 9842 2
+8717 4626 1
+10925 11955 2
+27432 10925 4
+2435 10925 3
+13884 11955 2
+18035 11955 1
+11792 11955 2
+9457 10925 3

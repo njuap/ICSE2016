@@ -1,0 +1,1471 @@
+*Vertics: 543
+4,org.apache.hadoop.gateway.encrypturi.impl.EncryptUriProcessor
+36,org.apache.hadoop.gateway.encrypturi.EncryptStepContextParams
+37,org.apache.hadoop.gateway.encrypturi.api.EncryptUriDescriptor
+41,org.apache.hadoop.gateway.filter.rewrite.spi.UrlRewriteStepStatus
+44,org.apache.hadoop.gateway.services.security.EncryptionResult
+45,org.apache.hadoop.gateway.util.urltemplate.Expander
+46,org.apache.hadoop.gateway.util.urltemplate.Parser
+47,org.apache.hadoop.gateway.util.urltemplate.Template
+90,org.apache.hadoop.gateway.GatewayLdapGroupFuncTest
+217,org.apache.hadoop.gateway.config.impl.GatewayConfigImpl
+218,org.apache.hadoop.gateway.security.ldap.SimpleLdapDirectoryServer
+219,org.apache.hadoop.gateway.services.DefaultGatewayServices
+220,org.apache.hadoop.gateway.services.ServiceLifecycleException
+222,org.apache.hadoop.gateway.util.KnoxCLI
+227,org.apache.hadoop.gateway.GatewayServer
+228,org.apache.hadoop.gateway.GatewayTestConfig
+248,org.apache.hadoop.gateway.svcregfunc.impl.ServicePathFunctionProcessor
+270,org.apache.hadoop.gateway.svcregfunc.api.ServicePathFunctionDescriptor
+271,org.apache.hadoop.gateway.util.urltemplate.Path
+273,org.apache.hadoop.gateway.svcregfunc.impl.ServiceRegistryFunctionProcessorBase
+274,org.apache.hadoop.gateway.util.urltemplate.Segment
+286,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteStepProcessorHolder
+348,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteStepFlow
+350,org.apache.hadoop.gateway.i18n.messages.MessagesFactory
+353,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteStepProcessorState
+355,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteStepProcessorFactory
+371,org.apache.hadoop.gateway.svcregfunc.api.ServiceHostFunctionDescriptorTest
+382,org.apache.hadoop.gateway.svcregfunc.api.ServiceHostFunctionDescriptor
+387,org.apache.hadoop.gateway.security.ldap.SimpleDirectoryServiceFactory
+392,org.apache.hadoop.gateway.security.ldap.BaseDirectoryServiceFactory
+393,org.apache.hadoop.gateway.security.ldap.SimpleDirectoryService
+417,org.apache.hadoop.gateway.i18n.messages.loggers.jdk.JdkMessageLoggerFactory
+418,org.apache.hadoop.gateway.i18n.messages.loggers.sout.SoutMessageLoggerFactory
+424,org.apache.hadoop.gateway.i18n.messages.MessagesInvoker
+427,org.apache.hadoop.gateway.filter.rewrite.ext.UrlRewriteActionRewriteProcessorExt
+439,org.apache.hadoop.gateway.filter.rewrite.ext.UrlRewriteActionRewriteDescriptorExt
+440,org.apache.hadoop.gateway.filter.rewrite.spi.UrlRewriteActionDescriptorBase
+582,org.apache.hadoop.gateway.services.token.impl.DefaultTokenAuthorityService
+626,org.apache.hadoop.gateway.services.security.token.impl.JWTToken
+667,org.apache.hadoop.gateway.security.ShiroEmbeddedLdapTest
+753,org.apache.hadoop.gateway.service.admin.TopologyMarshaller
+820,org.apache.hadoop.gateway.topology.Topology
+825,org.apache.hadoop.gateway.shell.hdfs.Get
+853,org.apache.hadoop.gateway.shell.AbstractRequest
+854,org.apache.hadoop.gateway.shell.BasicResponse
+855,org.apache.hadoop.gateway.shell.Hadoop
+859,org.apache.hadoop.gateway.shell.hdfs.Hdfs
+867,org.apache.hadoop.gateway.filter.rewrite.impl.form.FormWriter
+879,org.apache.hadoop.gateway.filter.rewrite.impl.form.FormPair
+888,org.apache.hadoop.gateway.service.admin.VersionMarshaller
+916,org.apache.hadoop.gateway.service.admin.VersionResource
+924,org.apache.hadoop.gateway.shell.workflow.Submit
+952,org.apache.hadoop.gateway.shell.workflow.Workflow
+956,org.apache.hadoop.gateway.util.urltemplate.Scheme
+964,org.apache.hadoop.gateway.util.urltemplate.Token
+969,org.apache.hadoop.gateway.descriptor.impl.FilterParamDescriptorImpl
+996,org.apache.hadoop.gateway.util.urltemplate.Password
+1105,org.apache.hadoop.gateway.shell.HadoopException
+1106,org.apache.hadoop.gateway.shell.ErrorResponse
+1124,org.apache.hadoop.gateway.ha.provider.HaServletContextListener
+1136,org.apache.hadoop.gateway.shell.hbase.table.TableSchema
+1152,org.apache.hadoop.gateway.shell.hbase.HBase
+1156,org.apache.hadoop.gateway.hbase.HBaseDeploymentContributorTest
+1164,org.apache.hadoop.gateway.hbase.HBaseDeploymentContributor
+1258,org.apache.hadoop.gateway.audit.StoreAndForwardAppenderTest
+1277,org.apache.hadoop.test.log.CollectAppender
+1288,org.apache.hadoop.gateway.dispatch.UrlConnectionDispatch
+1335,org.apache.hadoop.gateway.audit.api.Action
+1336,org.apache.hadoop.gateway.audit.api.ActionOutcome
+1337,org.apache.hadoop.gateway.audit.api.AuditServiceFactory
+1339,org.apache.hadoop.gateway.audit.api.ResourceType
+1340,org.apache.hadoop.gateway.audit.log4j.audit.AuditConstants
+1341,org.apache.hadoop.gateway.i18n.resources.ResourcesFactory
+1343,org.apache.hadoop.gateway.util.urltemplate.Rewriter
+1347,org.apache.hadoop.gateway.dispatch.AbstractGatewayDispatch
+1355,org.apache.hadoop.gateway.dispatch.DispatchParamResolver
+1374,org.apache.hadoop.gateway.util.JsonUtils
+1403,org.apache.hadoop.gateway.shell.hbase.table.TableRegions
+1418,org.apache.hadoop.gateway.topology.builder.property.interpreter.ServiceParameterPropertyInterpreter
+1428,org.apache.hadoop.gateway.topology.Param
+1429,org.apache.hadoop.gateway.topology.Service
+1430,org.apache.hadoop.gateway.topology.builder.property.interpreter.AbstractInterpreter
+1431,org.apache.hadoop.gateway.topology.builder.property.interpreter.InterpretException
+1455,org.apache.hadoop.gateway.i18n.messages.MessageLevel
+1462,org.apache.hadoop.gateway.GatewayAdminFuncTest
+1508,org.apache.hadoop.gateway.hadoopauth.deploy.HadoopAuthDeploymentContributor
+1529,org.apache.hadoop.gateway.deploy.ProviderDeploymentContributorBase
+1531,org.apache.hadoop.gateway.topology.Provider
+1562,org.apache.hadoop.gateway.filter.rewrite.ext.UrlRewriteCheckDescriptorExt
+1589,org.apache.hadoop.gateway.filter.rewrite.spi.UrlRewriteFlowDescriptorBase
+1602,org.apache.hadoop.gateway.audit.log4j.appender.JdbmStoreAndForwardAppender
+1642,org.apache.hadoop.gateway.audit.log4j.appender.JdbmQueue
+1652,org.apache.hadoop.gateway.oozie.OozieDeploymentContributor
+1692,org.apache.hadoop.gateway.deploy.ServiceDeploymentContributorBase
+1694,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteRulesDescriptorFactory
+1722,org.apache.hadoop.gateway.descriptor.xml.XmlGatewayDescriptorImporter
+1739,org.apache.hadoop.gateway.descriptor.xml.XmlGatewayDescriptorRules
+1743,org.apache.hadoop.gateway.webhcat.WebHCatDeploymentContributor
+1772,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteRuleProcessorHolder
+1804,org.apache.hadoop.gateway.service.admin.TopologyContextResolverJSON
+1806,org.apache.hadoop.gateway.service.admin.TopologyContextResolver
+1810,org.apache.hadoop.gateway.identityasserter.filter.IdentityAssertionHttpServletRequestWrapperTest
+1875,org.apache.hadoop.test.mock.MockHttpServletRequest
+1876,org.apache.hadoop.test.mock.MockServletInputStream
+1878,org.apache.hadoop.gateway.identityasserter.filter.IdentityAsserterHttpServletRequestWrapper
+1889,org.apache.hadoop.gateway.securequery.SecureQueryEncryptProcessor
+1912,org.apache.hadoop.gateway.securequery.SecureQueryEncryptDescriptor
+1917,org.apache.hadoop.gateway.filter.SessionFilter
+1923,org.apache.hadoop.gateway.filter.AbstractGatewayFilter
+1926,org.apache.hadoop.gateway.TestProviderDeploymentContributor
+1936,org.apache.hadoop.gateway.TestServiceDispatchFilter
+1938,org.apache.hadoop.gateway.securequery.SecureQueryDecodeProcessor
+1964,org.apache.hadoop.gateway.util.urltemplate.Builder
+1965,org.apache.hadoop.gateway.util.urltemplate.Query
+1966,org.apache.hadoop.gateway.securequery.SecureQueryDecodeDescriptor
+1974,org.apache.hadoop.gateway.audit.log4j.correlation.Log4jCorrelationContext
+2016,org.apache.hadoop.gateway.svcregfunc.impl.ServiceUrlFunctionProcessorTest
+2055,org.apache.hadoop.gateway.svcregfunc.api.ServiceUrlFunctionDescriptor
+2057,org.apache.hadoop.gateway.svcregfunc.impl.ServiceUrlFunctionProcessor
+2067,org.apache.hadoop.gateway.topology.builder.PropertyTopologyBuilderTest
+2112,org.apache.hadoop.gateway.topology.builder.property.Property
+2113,org.apache.hadoop.test.log.NoOpAppender
+2115,org.apache.hadoop.gateway.topology.builder.PropertyTopologyBuilder
+2124,org.apache.hadoop.gateway.encrypturi.api.EncryptUriDescriptorTest
+2131,org.apache.hadoop.gateway.filter.rewrite.spi.UrlRewriteStepDescriptorBase
+2135,org.apache.hadoop.gateway.audit.log4j.correlation.Log4jCorrelationService
+2199,org.apache.hadoop.gateway.security.ldap.BaseDirectoryService
+2782,org.apache.hadoop.gateway.GatewayFilterTest
+2810,org.apache.hadoop.gateway.GatewayFilter
+2825,org.apache.hadoop.gateway.hdfs.NameNodeHaDispatchDeploymentContributorTest
+2832,org.apache.hadoop.gateway.hdfs.NameNodeHaDispatchDeploymentContributor
+2838,org.apache.hadoop.gateway.services.security.impl.DefaultAliasService
+2903,org.apache.hadoop.gateway.services.security.KeystoreServiceException
+3041,org.apache.hadoop.test.mock.MockResponseProvider
+3101,org.apache.hadoop.gateway.i18n.messages.MessagesTest
+3106,org.apache.hadoop.gateway.i18n.messages.loggers.test.TestMessageLogger
+3107,org.apache.hadoop.gateway.i18n.messages.loggers.test.TestMessageLoggerFactory
+3108,org.apache.hadoop.gateway.i18n.messages.loggers.test.TestMessageRecord
+3118,org.apache.hadoop.gateway.topology.xml.AmbariFormatXmlTopologyRules
+3132,org.apache.hadoop.gateway.svcregfunc.impl.ServiceMappedAddressFunctionProcessorTest
+3156,org.apache.hadoop.gateway.svcregfunc.api.ServiceMappedAddressFunctionDescriptor
+3157,org.apache.hadoop.gateway.svcregfunc.impl.ServiceMappedAddressFunctionProcessor
+3167,org.apache.hadoop.gateway.descriptor.xml.XmlGatewayDescriptorFactory
+3170,org.apache.hadoop.gateway.descriptor.GatewayDescriptorFactory
+3174,org.apache.hadoop.gateway.filter.rewrite.impl.json.JsonFilterReaderTest
+3271,org.apache.hadoop.test.TestUtils
+3273,org.apache.hadoop.gateway.filter.rewrite.impl.json.JsonFilterReader
+3274,org.apache.hadoop.gateway.filter.rewrite.impl.json.TestJsonFilterReader
+3285,org.apache.hadoop.gateway.services.security.CryptoServiceTest
+3337,org.apache.hadoop.gateway.services.security.impl.AESEncryptor
+3338,org.apache.hadoop.gateway.services.security.impl.DefaultCryptoService
+3348,org.apache.hadoop.gateway.util.X500PrincipalParser
+3402,org.apache.hadoop.gateway.GatewayServlet
+3461,org.apache.hadoop.gateway.GatewayFactory
+3488,org.apache.hadoop.gateway.dispatch.PartiallyRepeatableHttpEntity
+3529,org.apache.hadoop.gateway.shell.hdfs.Rm
+3548,org.apache.hadoop.gateway.shell.EmptyResponse
+3553,org.apache.hadoop.gateway.audit.JdbmQueueTest
+3646,org.apache.hadoop.gateway.svcregfunc.impl.ServiceMappedUrlFunctionProcessorTest
+3670,org.apache.hadoop.gateway.svcregfunc.api.ServiceMappedUrlFunctionDescriptor
+3671,org.apache.hadoop.gateway.svcregfunc.impl.ServiceMappedUrlFunctionProcessor
+3685,org.apache.hadoop.gateway.services.security.impl.X509CertificateUtil
+3774,org.apache.hadoop.gateway.mock.MockConsoleFactory
+3781,org.apache.hadoop.test.mock.MockServlet
+3850,org.apache.hadoop.gateway.util.CredentialsProvider
+3868,org.apache.hadoop.gateway.i18n.messages.loggers.log4j.Log4jMessageLoggerFactory
+3873,org.apache.hadoop.gateway.i18n.messages.loggers.log4j.Log4jMessageLogger
+3936,org.apache.hadoop.gateway.services.GatewayServicesContextListener
+3945,org.apache.hadoop.gateway.ha.provider.impl.HaDescriptorManagerTest
+3972,org.apache.hadoop.gateway.ha.provider.impl.HaDescriptorManager
+3974,org.apache.hadoop.gateway.ha.provider.impl.HaDescriptorFactory
+3994,org.apache.hadoop.gateway.descriptor.impl.GatewayParamDescriptorImpl
+4031,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteStepDescriptorFactory
+4049,org.apache.hadoop.gateway.TestJerseyServiceDeploymentContributor
+4054,org.apache.hadoop.gateway.jersey.JerseyServiceDeploymentContributorBase
+4061,org.apache.hadoop.gateway.services.security.impl.JettySSLService
+4129,org.apache.hadoop.gateway.GatewayLdapDynamicGroupFuncTest
+4186,org.apache.hadoop.gateway.services.security.impl.DefaultKeystoreService
+4291,org.apache.hadoop.gateway.services.security.impl.BaseKeystoreService
+4308,org.apache.hadoop.gateway.shell.workflow.Status
+4326,org.apache.hadoop.gateway.provider.federation.jwt.filter.JWTAccessTokenAssertionFilter
+4367,org.apache.hadoop.gateway.filter.security.AbstractIdentityAssertionFilter
+4379,org.apache.hadoop.gateway.filter.BasicAuthChallengeFilter
+4396,org.apache.hadoop.gateway.ha.provider.impl.HaDescriptorFactoryTest
+4407,org.apache.hadoop.gateway.shell.hbase.table.scanner.DeleteScanner
+4476,org.apache.hadoop.gateway.shell.hdfs.Ls
+4477,org.apache.hadoop.gateway.shell.hdfs.Put
+4478,org.apache.hadoop.gateway.shell.hdfs.Mkdir
+4480,org.apache.hadoop.gateway.hdfs.WebHdfsDeploymentContributor
+4518,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteServletFilter
+4525,org.apache.hadoop.gateway.i18n.messages.loggers.sl4j.Sl4jMessageLogger
+4644,org.apache.hadoop.gateway.util.urltemplate.Fragment
+4645,org.apache.hadoop.gateway.util.urltemplate.Host
+4646,org.apache.hadoop.gateway.util.urltemplate.Port
+4647,org.apache.hadoop.gateway.util.urltemplate.Username
+4657,org.apache.hadoop.gateway.hbase.HBaseHttpClientDispatch
+4660,org.apache.hadoop.gateway.dispatch.HttpClientDispatch
+4661,org.apache.hadoop.gateway.hbase.HBaseCookieManager
+4665,org.apache.hadoop.gateway.securequery.SecureQueryDeploymentContributor
+4692,org.apache.hadoop.gateway.filter.rewrite.impl.xml.XmlUrlRewriteStreamFilter
+4711,org.apache.hadoop.gateway.filter.rewrite.impl.xml.XmlUrlRewriteFilterReader
+4716,org.apache.hadoop.gateway.ha.provider.impl.DefaultHaProviderTest
+4735,org.apache.hadoop.gateway.ha.provider.impl.DefaultHaProvider
+4736,org.apache.hadoop.gateway.ha.provider.impl.DefaultHaDescriptor
+4737,org.apache.hadoop.gateway.ha.provider.impl.DefaultHaServiceConfig
+4753,org.apache.hadoop.gateway.encrypturi.api.DecryptUriDescriptorTest
+4760,org.apache.hadoop.gateway.encrypturi.api.DecryptUriDescriptor
+4764,org.apache.hadoop.gateway.topology.xml.KnoxFormatXmlTopologyRules
+4790,org.apache.hadoop.gateway.topology.builder.BeanPropertyTopologyBuilder
+4792,org.apache.hadoop.gateway.preauth.filter.PreAuthFederationFilter
+4842,org.apache.hadoop.gateway.security.PrimaryPrincipal
+4844,org.apache.hadoop.gateway.preauth.filter.PreAuthValidationException
+4845,org.apache.hadoop.gateway.preauth.filter.IPValidator
+4849,org.apache.hadoop.gateway.shell.hbase.table.row.Column
+4863,org.apache.hadoop.gateway.identityasserter.filter.DefaultIdentityAsserterDeploymentContributor
+4865,org.apache.hadoop.gateway.identityasserter.filter.IdentityAsserterDeploymentContributor
+4868,org.apache.hadoop.gateway.deploy.DeploymentContributorBase
+4881,org.apache.hadoop.gateway.shell.job.Status
+4897,org.apache.hadoop.gateway.shell.job.Job
+4929,org.apache.hadoop.gateway.svcregfunc.impl.ServiceAddressFunctionProcessor
+4946,org.apache.hadoop.gateway.svcregfunc.api.ServiceAddressFunctionDescriptor
+4950,org.apache.hadoop.test.log.NoOpLogger
+4989,org.apache.hadoop.gateway.shell.hbase.table.Family
+5011,org.apache.hadoop.gateway.ha.deploy.HaProviderDeploymentContributorTest
+5017,org.apache.hadoop.gateway.ha.deploy.HaProviderDeploymentContributor
+5019,org.apache.hadoop.gateway.topology.builder.property.interpreter.ProviderPropertyInterpreter
+5036,org.apache.hadoop.gateway.topology.builder.property.interpreter.ProviderParameterPropertyInterpreter
+5050,org.apache.hadoop.gateway.util.MimeTypeMap
+5083,org.apache.hadoop.gateway.deploy.impl.ShiroConfig
+5108,org.apache.hadoop.gateway.shell.job.Pig
+5169,org.apache.hadoop.gateway.filter.rewrite.impl.form.FormUrlRewriteStreamFilter
+5181,org.apache.hadoop.gateway.filter.rewrite.impl.form.FormUrlRewriteFilterReader
+5207,org.apache.hadoop.gateway.GatewayForwardingServlet
+5271,org.apache.hadoop.gateway.audit.log4j.audit.Log4jAuditService
+5529,org.apache.hadoop.gateway.services.topology.impl.DefaultTopologyService
+5530,org.apache.hadoop.gateway.services.hostmap.impl.DefaultHostMapperService
+5531,org.apache.hadoop.gateway.services.registry.impl.DefaultServiceRegistryService
+5532,org.apache.hadoop.gateway.services.security.impl.DefaultMasterService
+5536,org.apache.hadoop.gateway.services.DefaultServerInfoService
+5573,org.apache.hadoop.gateway.shell.hbase.table.Table
+5577,org.apache.hadoop.gateway.shell.hbase.SystemVersion
+5578,org.apache.hadoop.gateway.shell.hbase.ClusterVersion
+5579,org.apache.hadoop.gateway.shell.hbase.Status
+5583,org.apache.hadoop.gateway.svcregfunc.impl.ServiceSchemeFunctionProcessorTest
+5605,org.apache.hadoop.gateway.svcregfunc.api.ServiceSchemeFunctionDescriptor
+5606,org.apache.hadoop.gateway.svcregfunc.impl.ServiceSchemeFunctionProcessor
+5613,org.apache.hadoop.gateway.hdfs.dispatch.WebHdfsHaHttpClientDispatch
+5666,org.apache.hadoop.gateway.hdfs.dispatch.HdfsDispatch
+5667,org.apache.hadoop.gateway.hdfs.dispatch.StandbyException
+5668,org.apache.hadoop.gateway.hdfs.dispatch.SafeModeException
+5686,org.apache.hadoop.gateway.filter.rewrite.impl.html.HtmlUrlRewriteStreamFilter
+5700,org.apache.hadoop.gateway.filter.rewrite.impl.html.HtmlUrlRewriteFilterReader
+5704,org.apache.hadoop.gateway.GatewayAdminTopologyFuncTest
+5823,org.apache.hadoop.gateway.hadoopauth.filter.HadoopAuthFilter
+5836,org.apache.hadoop.gateway.shell.hbase.table.TableList
+5850,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteResponseStream
+5863,org.apache.hadoop.gateway.util.JsonUtilsTest
+5873,org.apache.hadoop.gateway.audit.log4j.audit.Log4jAuditor
+5922,org.apache.hadoop.gateway.launcher.ConfigTest
+5933,org.apache.hadoop.gateway.launcher.Config
+5941,org.apache.hadoop.gateway.WebHdfsHaFuncTest
+5986,org.apache.hadoop.test.mock.MockServer
+5987,org.apache.hadoop.gateway.GatewayFuncTestDriver
+5988,org.apache.hadoop.test.mock.MockRequestMatcher
+6011,org.apache.hadoop.gateway.shell.hbase.table.scanner.CreateScanner
+6114,org.apache.hadoop.gateway.filter.rewrite.ext.UrlRewriteMatchDescriptorExt
+6149,org.apache.hadoop.gateway.shell.yarn.SubmitApp
+6169,org.apache.hadoop.gateway.shell.yarn.Yarn
+6192,org.apache.hadoop.gateway.hostmap.impl.HostmapDeploymentContributorTest
+6214,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteRulesDescriptorImpl
+6215,org.apache.hadoop.gateway.hostmap.api.HostmapFunctionDescriptor
+6217,org.apache.hadoop.gateway.hostmap.impl.HostmapDeploymentContributor
+6331,org.apache.hadoop.gateway.shell.job.Java
+6360,org.apache.hadoop.gateway.shell.hbase.table.row.DeleteRows
+6389,org.apache.hadoop.gateway.provider.federation.jwt.filter.JWTFederationFilter
+6426,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteUtil
+6573,org.apache.hadoop.gateway.topology.TopologyEvent
+6596,org.apache.hadoop.gateway.shell.yarn.KillApp
+6811,org.apache.hadoop.gateway.util.JsonPath
+6821,org.apache.hadoop.gateway.launcher.Forker
+6824,org.apache.hadoop.gateway.launcher.Command
+6831,org.apache.hadoop.test.mock.MockServletContext
+6938,org.apache.hadoop.gateway.filter.rewrite.impl.xml.XmlUrlRewriteRulesExporterTest
+7116,org.apache.hadoop.gateway.descriptor.xml.XmlGatewayDescriptorExporterTest
+7146,org.apache.hadoop.test.Console
+7147,org.apache.hadoop.gateway.descriptor.xml.XmlGatewayDescriptorExporter
+7172,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteRequest
+7173,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteResponse
+7174,org.apache.hadoop.gateway.util.MimeTypes
+7202,org.apache.hadoop.gateway.provider.federation.jwt.deploy.JWTAccessTokenAssertionContributor
+7224,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteStreamFilterFactory
+7269,org.apache.hadoop.gateway.util.IpAddressValidatorTest
+7281,org.apache.hadoop.gateway.util.IpAddressValidator
+7285,org.apache.hadoop.gateway.jersey.JerseyDispatchDeploymentContributor
+7341,org.apache.hadoop.gateway.jetty.SslSocketTest
+7386,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteFilterContentDescriptorImpl
+7398,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteFilterGroupDescriptorBase
+7399,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteFilterBufferDescriptorImpl
+7469,org.apache.hadoop.gateway.security.GroupPrincipal
+7475,org.apache.hadoop.gateway.securequery.SecureQueryDecodeDescriptorTest
+7523,org.apache.hadoop.gateway.filter.rewrite.impl.xml.XmlUrlRewriteRulesExporter
+7524,org.apache.hadoop.gateway.filter.rewrite.impl.xml.XmlUrlRewriteRulesImporter
+7532,org.apache.hadoop.gateway.deploy.impl.DispatchDeploymentContributor
+7551,org.apache.hadoop.gateway.hive.HiveHttpClientDispatch
+7586,org.apache.hadoop.gateway.filter.InvalidACLException
+7591,org.apache.hadoop.gateway.services.security.impl.CMFKeystoreServiceTest
+7606,org.apache.hadoop.gateway.services.security.impl.CMFKeystoreService
+7615,org.apache.hadoop.gateway.filter.rewrite.impl.json.JsonUrlRewriteStreamFilter
+7627,org.apache.hadoop.gateway.filter.rewrite.impl.json.JsonUrlRewriteFilterReader
+7635,org.apache.hadoop.gateway.jetty.JettyHttpsTest
+7715,org.apache.hadoop.gateway.filter.rewrite.impl.xml.XmlFilterReaderTest
+7973,org.apache.hadoop.gateway.filter.rewrite.impl.xml.XmlFilterReader
+7977,org.apache.hadoop.gateway.filter.rewrite.impl.xml.XmlRewriteRulesDigester
+8036,org.apache.hadoop.gateway.deploy.impl.AclsAuthzDeploymentContributor
+8099,org.apache.hadoop.gateway.launcher.Streamer
+8114,org.apache.hadoop.gateway.dispatch.ServletDispatch
+8145,org.apache.hadoop.gateway.shell.hbase.table.row.Row
+8146,org.apache.hadoop.gateway.shell.hbase.table.scanner.Scanner
+8150,org.apache.hadoop.gateway.shell.hbase.table.CreateTable
+8151,org.apache.hadoop.gateway.shell.hbase.table.UpdateTable
+8152,org.apache.hadoop.gateway.shell.hbase.table.DeleteTable
+8162,org.apache.hadoop.gateway.provider.federation.jwt.deploy.AccessTokenFederationContributor
+8206,org.apache.hadoop.gateway.util.urltemplate.Matcher
+8217,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteProcessorTest
+8268,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteProcessor
+8280,org.apache.hadoop.gateway.svcregfunc.api.ServicePortFunctionDescriptorTest
+8287,org.apache.hadoop.gateway.svcregfunc.api.ServicePortFunctionDescriptor
+8290,org.apache.hadoop.gateway.identityasserter.function.UsernameFunctionDescriptor
+8477,org.apache.hadoop.gateway.filter.rewrite.ext.UrlRewriteMatchProcessorExt
+8492,org.apache.hadoop.gateway.descriptor.impl.GatewayDescriptorImpl
+8511,org.apache.hadoop.gateway.descriptor.impl.ResourceDescriptorImpl
+8514,org.apache.hadoop.gateway.service.admin.TopologyCollectionMarshaller
+8540,org.apache.hadoop.gateway.service.admin.TopologiesResource
+8576,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteFunctionDescriptorFactory
+8597,org.apache.hadoop.gateway.svcregfunc.impl.ServiceMappedHostFunctionProcessorTest
+8621,org.apache.hadoop.gateway.svcregfunc.api.ServiceMappedHostFunctionDescriptor
+8622,org.apache.hadoop.gateway.svcregfunc.impl.ServiceMappedHostFunctionProcessor
+8634,org.apache.hadoop.gateway.services.security.impl.CMFMasterService
+8642,org.apache.hadoop.gateway.audit.AuditLayoutTest
+8691,org.apache.hadoop.gateway.audit.api.CorrelationServiceFactory
+8692,org.apache.hadoop.gateway.audit.log4j.layout.AuditLayout
+8703,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteFilterDetectDescriptorImpl
+8706,org.apache.hadoop.gateway.filter.security.AbstractIdentityAssertionBase
+8708,org.apache.hadoop.gateway.security.SubjectUtils
+8711,org.apache.hadoop.gateway.filter.AclsAuthorizationFilter
+8759,org.apache.hadoop.gateway.security.ImpersonatedPrincipal
+8761,org.apache.hadoop.gateway.filter.AclParser
+8783,org.apache.hadoop.gateway.services.security.impl.TestCMFMasterService
+8792,org.apache.hadoop.gateway.service.vault.CredentialResource
+8836,org.apache.hadoop.gateway.GatewayLocalServiceFuncTest
+8883,org.apache.hadoop.gateway.service.admin.TopologyContextResolverXML
+8976,org.apache.hadoop.gateway.identityasserter.function.UsernameFunctionDescriptorTest
+8990,org.apache.hadoop.gateway.dispatch.AppCookieManager
+9000,org.apache.hadoop.gateway.shell.hbase.table.scanner.ScannerGetNext
+9036,org.apache.hadoop.gateway.hdfs.JobTrackerDeploymentContributor
+9068,org.apache.hadoop.gateway.filter.rewrite.impl.html.HtmlFilterReader
+9073,org.apache.hadoop.gateway.deploy.impl.GenericProviderDeploymentContributor
+9101,org.apache.hadoop.gateway.util.Urls
+9128,org.apache.hadoop.gateway.i18n.messages.loggers.sout.SoutMessageLogger
+9145,org.apache.hadoop.gateway.util.urltemplate.SegmentTest
+9172,org.apache.hadoop.gateway.provider.federation.CSRFTest
+9448,org.apache.hadoop.gateway.encrypturi.impl.EncryptDecryptUriProcessorTest
+9483,org.apache.hadoop.gateway.encrypturi.impl.DecryptUriProcessor
+9488,org.apache.hadoop.gateway.svcregfunc.api.ServiceSchemeFunctionDescriptorTest
+9571,org.apache.hadoop.gateway.shell.hbase.table.Attribute
+9610,org.apache.hadoop.gateway.descriptor.impl.FilterDescriptorImpl
+9611,org.apache.hadoop.gateway.descriptor.impl.ResourceParamDescriptorImpl
+9625,org.apache.hadoop.gateway.services.HssoGatewayServices
+9668,org.apache.hadoop.gateway.provider.federation.jwt.deploy.JWTAuthCodeAssertionContributor
+9697,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteServletContextListenerTest
+9718,org.apache.hadoop.test.mock.MockInteraction
+9719,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteServletFilterTest
+9720,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteServletContextListener
+9785,org.apache.hadoop.gateway.launcher.Invoker
+9788,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteContextImplTest
+9798,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteContextImpl
+9802,org.apache.hadoop.gateway.svcregfunc.api.ServicePathFunctionDescriptorTest
+9915,org.apache.hadoop.gateway.hadoopauth.filter.HadoopAuthPostFilter
+9955,org.apache.hadoop.gateway.dispatch.CappedBufferHttpEntityTest
+10191,org.apache.hadoop.gateway.dispatch.CappedBufferHttpEntity
+10202,org.apache.hadoop.gateway.as.ASDeploymentContributor
+10229,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteDeploymentContributor
+10264,org.apache.hadoop.gateway.util.PrincipalCredentials
+10277,org.apache.hadoop.gateway.hive.HiveDispatchDeploymentContributorTest
+10282,org.apache.hadoop.gateway.hive.HiveDispatchDeploymentContributor
+10284,org.apache.hadoop.gateway.shell.yarn.AppState
+10323,org.apache.hadoop.gateway.dispatch.PartiallyRepeatableHttpEntityTest
+10577,org.apache.hadoop.gateway.audit.AuditServiceTest
+10659,org.apache.hadoop.gateway.TestServiceDeploymentContributor
+10667,org.apache.hadoop.gateway.shell.hbase.table.row.StoreRow
+10712,org.apache.hadoop.gateway.shell.hbase.table.row.InsertableColumn
+10725,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteFilterSelectorDescriptorBase
+10726,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteFilterApplyDescriptorImpl
+10729,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteRulesDescriptorFactoryTest
+10791,org.apache.hadoop.gateway.webappsec.filter.CSRFPreventionFilter
+10827,org.apache.hadoop.gateway.GatewayForwardingServletTest
+10956,org.apache.hadoop.gateway.services.registry.impl.Registry
+10957,org.apache.hadoop.gateway.services.registry.impl.RegEntry
+11010,org.apache.hadoop.gateway.provider.federation.PreAuthSSOTest
+11013,org.apache.hadoop.gateway.filter.JaasLoginFilter
+11020,org.apache.hadoop.gateway.deploy.DeploymentFactoryFuncTest
+11094,org.apache.hadoop.gateway.deploy.DeploymentException
+11095,org.apache.hadoop.gateway.deploy.DeploymentFactory
+11099,org.apache.hadoop.gateway.Knox242FuncTest
+11281,org.apache.hadoop.gateway.filter.rewrite.ext.UrlRewriteCheckProcessorExt
+11336,org.apache.hadoop.gateway.securequery.SecureQueryDeploymentContributorTest
+11349,org.apache.hadoop.gateway.ha.provider.impl.URLManagerTest
+11363,org.apache.hadoop.gateway.ha.provider.impl.URLManager
+11369,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteRequestStream
+11375,org.apache.hadoop.gateway.preauth.filter.AbstractPreAuthFederationFilter
+11413,org.apache.hadoop.gateway.filter.rewrite.ext.UrlRewriteControlProcessorExt
+11422,org.apache.hadoop.gateway.services.hostmap.FileBasedHostMapperTest
+11426,org.apache.hadoop.gateway.services.hostmap.FileBasedHostMapper
+11432,org.apache.hadoop.gateway.filter.AclParserTest
+11451,org.apache.hadoop.gateway.filter.ResponseCookieFilter
+11724,org.apache.hadoop.gateway.security.principal.PrincipalMappingException
+11741,org.apache.hadoop.gateway.filter.rewrite.impl.html.HtmlFilterReaderBase
+11828,org.apache.hadoop.gateway.identityasserter.function.UsernameFunctionProcessorTest
+11886,org.apache.hadoop.gateway.identityasserter.function.UsernameFunctionProcessor
+11895,org.apache.hadoop.gateway.util.urltemplate.ExpanderTest
+11930,org.apache.hadoop.gateway.util.urltemplate.MockParams
+12086,org.apache.hadoop.gateway.securequery.SecureQueryEncodeProcessor
+12103,org.apache.hadoop.gateway.securequery.SecureQueryEncodeDescriptor
+12106,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteServletEnvironmentTest
+12116,org.apache.hadoop.gateway.filter.rewrite.api.UrlRewriteServletEnvironment
+12265,org.apache.hadoop.gateway.GatewayCommandLine
+12284,org.apache.hadoop.gateway.shell.Shell
+12312,org.apache.hadoop.gateway.provider.federation.JWTTokenTest
+12329,org.apache.hadoop.gateway.i18n.resources.ResourcesTest
+12481,org.apache.hadoop.gateway.shell.yarn.NewApp
+12495,org.apache.hadoop.test.mock.MockFilterConfig
+12600,org.apache.hadoop.gateway.GatewayGlobalConfigTest
+12620,org.apache.hadoop.gateway.security.principal.SimplePrincipalMapper
+12671,org.apache.hadoop.gateway.filter.GatewayResponseWrapper
+12685,org.apache.hadoop.gateway.filter.rewrite.ext.UrlRewriteControlDescriptorExt
+12716,org.apache.hadoop.gateway.filter.TraceFilter
+12761,org.apache.hadoop.gateway.jetty.JettyPathMapTest
+12768,org.apache.hadoop.gateway.util.urltemplate.MatcherTest
+12884,org.apache.hadoop.gateway.i18n.messages.loggers.jdk.JdkMessageLogger
+12912,org.apache.hadoop.gateway.services.security.impl.CMFMasterServiceTest
+12921,org.apache.hadoop.gateway.svcregfunc.api.ServiceUrlFunctionDescriptorTest
+12933,HiveJDBCSample
+12961,org.apache.hadoop.gateway.encrypturi.impl.EncryptUriDeploymentContributor
+12986,org.apache.hadoop.gateway.i18n.resources.ResourcesInvoker
+13037,org.apache.hadoop.gateway.util.urltemplate.FunctionTest
+13053,org.apache.hadoop.gateway.util.urltemplate.Function
+13171,org.apache.hadoop.gateway.svcregfunc.impl.ServicePortFunctionProcessor
+13182,org.apache.hadoop.gateway.hostmap.impl.HostmapFunctionProcessorTest
+13263,org.apache.hadoop.gateway.hostmap.impl.HostmapFunctionProcessor
+13265,org.apache.hadoop.gateway.util.urltemplate.ParserTest
+13436,org.apache.hadoop.gateway.hdfs.dispatch.WebHdfsHaHttpClientDispatchTest
+13490,org.apache.hadoop.gateway.deploy.impl.GenericProviderDeploymentContributorTest
+13609,org.apache.hadoop.gateway.webhcat.WebHCatDeploymentContributorTest
+13633,org.apache.hadoop.gateway.svcregfunc.impl.ServiceHostFunctionProcessorTest
+13655,org.apache.hadoop.gateway.svcregfunc.impl.ServiceHostFunctionProcessor
+13666,org.apache.hadoop.gateway.preauth.filter.HeaderPreAuthFederationFilter
+13687,org.apache.hadoop.gateway.GatewayBasicFuncTest
+13999,org.apache.hadoop.gateway.filter.rewrite.impl.form.FormReader
+14039,org.apache.hadoop.gateway.yarn.rm.ResourceManagerDeploymentContributor
+14088,org.apache.hadoop.gateway.shirorealm.KnoxLdapRealmTest
+14112,org.apache.hadoop.gateway.shirorealm.KnoxLdapRealm
+14129,org.apache.hadoop.gateway.hdfs.WebHdfsDispatchDeploymentContributor
+14194,org.apache.hadoop.gateway.util.MimeTypeMapTest
+14203,org.apache.hadoop.gateway.securequery.SecureQueryDecryptProcessor
+14230,org.apache.hadoop.gateway.securequery.SecureQueryDecryptDescriptor
+14233,org.apache.hadoop.gateway.shell.job.Queue
+14246,org.apache.hadoop.gateway.jersey.JerseyDeploymentContributorTest
+14309,org.apache.hadoop.gateway.webappsec.deploy.WebAppSecContributor
+14332,org.apache.hadoop.gateway.service.admin.deploy.AdminServiceDeploymentContributor
+14360,org.apache.hadoop.gateway.TempletonDemo
+14373,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteRuleDescriptorImpl
+14523,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteStepProcessorStateTest
+14656,org.apache.hadoop.gateway.filter.GatewayRequestWrapper
+14747,org.apache.hadoop.gateway.services.topology.DefaultTopologyServiceTest
+14819,org.apache.hadoop.gateway.filter.rewrite.impl.form.FormFilterReader
+14833,org.apache.hadoop.gateway.launcher.Launcher
+15036,org.apache.hadoop.gateway.shell.job.Hive
+15063,org.apache.hadoop.gateway.service.vault.deploy.VaultServiceDeploymentContributor
+15131,org.apache.hadoop.gateway.audit.log4j.audit.Log4jAuditContext
+15163,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteFunctionProcessorFactory
+15236,org.apache.hadoop.gateway.hive.HiveDeploymentContributor
+15270,org.apache.hadoop.gateway.hdfs.NameNodeDeploymentContributor
+15346,org.apache.hadoop.gateway.util.urltemplate.TemplateTest
+15364,org.apache.hadoop.gateway.oozie.OozieDeploymentContributorTest
+15377,org.apache.hadoop.gateway.descriptor.xml.XmlGatewayDescriptorImporterTest
+15405,org.apache.hadoop.gateway.security.principal.PrincipalMapperTest
+15428,org.apache.hadoop.gateway.svcregfunc.api.ServiceAddressFunctionDescriptorTest
+15436,org.apache.hadoop.gateway.svcregfunc.impl.ServiceRegistryFunctionsTest
+15484,org.apache.hadoop.gateway.provider.federation.jwt.filter.JWTAuthCodeAssertionFilter
+15529,org.apache.hadoop.examples.WordCount
+15567,org.apache.hadoop.gateway.GatewayDeployFuncTest
+15655,org.apache.hadoop.gateway.util.JsonPathTest
+15781,org.apache.hadoop.gateway.identityasserter.filter.IdentityAsserterFilter
+15920,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteFilterDescriptorImpl
+16009,org.apache.hadoop.gateway.hbase.HBaseDispatchDeploymentContributor
+16024,org.apache.hadoop.gateway.hbase.HBaseDispatchDeploymentContributorTest
+16034,org.apache.hadoop.gateway.preauth.deploy.HeaderPreAuthContributor
+16052,org.apache.hadoop.gateway.dispatch.AppCookieManagerTest
+16139,org.apache.hadoop.gateway.svcregfunc.impl.ServicePortFunctionProcessorTest
+16168,org.apache.hadoop.gateway.svcregfunc.impl.ServiceAddressFunctionProcessorTest
+16192,org.apache.hadoop.gateway.securequery.SecureQueryEncodeProcessorTest
+16218,org.apache.hadoop.gateway.hostmap.api.HostmapFunctionDescriptorTest
+16236,org.apache.hadoop.gateway.TestJerseyService
+16538,org.apache.hadoop.gateway.filter.rewrite.spi.UrlRewriteFunctionProcessorBase
+16583,org.apache.hadoop.gateway.topology.builder.property.interpreter.ServicePropertyInterpreter
+16603,org.apache.hadoop.gateway.security.ldap.SimpleLdapServerTest
+16618,org.apache.hadoop.gateway.topology.builder.property.interpreter.GatewayPropertyInterpreter
+16636,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteRuleProcessorImpl
+16652,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteResponseTest
+16668,org.apache.hadoop.gateway.topology.xml.TopologyRulesModuleTest
+16837,org.apache.hadoop.gateway.util.urltemplate.TokenTest
+16901,org.apache.hadoop.gateway.securequery.SecureQueryDecodeProcessorTest
+16956,org.apache.hadoop.gateway.services.CLIGatewayServices
+16993,org.apache.hadoop.gateway.services.security.impl.CLIMasterService
+16999,org.apache.hadoop.test.mock.MockHttpServletResponse
+17069,org.apache.hadoop.gateway.AuditLoggingTest
+17160,org.apache.hadoop.gateway.shell.hbase.table.row.QueryRows
+17203,org.apache.hadoop.gateway.topology.builder.property.interpreter.TopologyPropertyInterpreter
+17218,HiveJDBCSample
+17410,org.apache.hadoop.gateway.tgs.TGSDeploymentContributor
+17505,org.apache.hadoop.gateway.securequery.SecureQueryEncryptDecryptProcessorTest
+17525,org.apache.hadoop.gateway.filter.rewrite.impl.html.HtmlFilterReaderBaseTest
+17698,org.apache.hadoop.gateway.filter.rewrite.impl.noop.NoOpUrlRewriteStreamFilter
+17712,org.apache.hadoop.gateway.filter.ShiroSubjectIdentityAdapter
+18202,org.apache.hadoop.gateway.filter.rewrite.impl.UrlRewriteFilterScopeDescriptorImpl
+18381,org.apache.hadoop.gateway.deploy.DeploymentContextImpl
+18516,org.apache.hadoop.gateway.shirorealm.KnoxLdapContextFactory
+18553,org.apache.hadoop.gateway.topology.builder.property.interpreter.PropertyInterpreter
+18557,org.apache.hadoop.gateway.svcregfunc.impl.ServicePathFunctionProcessorTest
+18586,org.apache.hadoop.gateway.deploy.DeploymentFactoryTest
+18600,org.apache.hadoop.gateway.deploy.impl.ShiroDeploymentContributor
+18632,org.apache.hadoop.gateway.provider.federation.jwt.filter.AccessTokenFederationFilter
+18669,org.apache.hadoop.gateway.yarn.rm.ResourceManagerDeploymentContributorTest
+18685,org.apache.hadoop.gateway.util.urltemplate.RewriterTest
+18754,org.apache.hadoop.gateway.dispatch.HttpClientDispatchTest
+18803,org.apache.hadoop.gateway.provider.federation.jwt.deploy.JWTFederationContributor
+18822,org.apache.hadoop.gateway.deploy.impl.ShiroDeploymentContributorTest
+19014,org.apache.hadoop.gateway.i18n.messages.loggers.sl4j.Sl4jMessageLoggerFactory
+19018,org.apache.hadoop.gateway.securequery.SecureQueryEncodeDescriptorTest
+19022,org.apache.hadoop.gateway.util.KnoxCLITest
+19100,org.apache.hadoop.gateway.encrypturi.impl.EncryptUriDeploymentContributorTest
+19125,org.apache.hadoop.gateway.descriptor.GatewayDescriptorTest
+19141,org.apache.hadoop.gateway.GatewaySampleFuncTest
+*Edges: 926
+17069 2810 9
+17069 4660 1
+1462 218 4
+1462 227 5
+1462 219 2
+1462 220 1
+1462 228 3
+5704 820 12
+5704 1428 12
+5704 227 7
+5704 219 2
+5704 220 1
+5704 1531 14
+5704 1429 1
+5704 228 3
+5704 218 4
+13687 5986 66
+13687 3041 178
+13687 227 6
+13687 3271 3
+13687 5988 287
+13687 5987 453
+13687 228 1
+15567 218 4
+15567 227 7
+15567 219 2
+15567 220 1
+15567 228 3
+3461 2810 5
+2810 8691 1
+2810 8206 5
+2810 46 1
+2782 2810 13
+10827 5207 1
+5987 5986 29
+5987 227 5
+5987 219 2
+5987 220 1
+5987 228 4
+5987 3041 38
+5987 218 4
+5987 5988 111
+12600 217 6
+4129 218 4
+4129 227 6
+4129 219 2
+4129 220 1
+4129 228 3
+90 218 4
+90 227 6
+90 219 2
+90 220 1
+90 228 3
+8836 218 4
+8836 227 5
+8836 219 2
+8836 220 1
+8836 2113 2
+8836 228 3
+19141 218 4
+19141 227 5
+19141 219 2
+19141 220 1
+19141 228 3
+227 820 10
+227 217 1
+227 12265 3
+227 220 1
+227 11095 1
+3402 3170 1
+3402 3461 1
+3402 2810 9
+11099 218 4
+11099 227 6
+11099 219 2
+11099 220 1
+11099 228 3
+4049 4054 1
+1926 1529 1
+1926 1531 1
+1926 1429 1
+10659 1692 4
+10659 1429 2
+5941 5986 39
+5941 3041 48
+5941 5988 86
+5941 5987 32
+5941 228 1
+10202 1692 3
+10202 1429 2
+8642 8692 4
+3553 1642 16
+1602 1642 5
+5271 5873 1
+2135 1974 1
+18381 820 4
+18381 1531 5
+18381 1429 1
+18381 11095 1
+11095 3170 2
+11095 820 18
+11095 18381 1
+11095 11094 7
+11095 1531 7
+11095 1429 7
+11020 820 18
+11020 1428 10
+11020 219 8
+11020 220 4
+11020 2113 2
+11020 1531 41
+11020 1429 8
+11020 228 4
+11020 11095 8
+11020 11094 1
+18586 820 1
+18586 217 1
+18586 11095 1
+1529 4868 1
+1529 1531 1
+1692 4868 1
+1692 820 1
+1692 1531 2
+1692 1429 6
+8036 1529 2
+8036 1531 2
+8036 1429 1
+7532 1529 1
+7532 1531 1
+7532 1429 1
+9073 1529 1
+9073 1531 4
+9073 1429 1
+5083 1531 2
+18600 820 1
+18600 1529 1
+18600 5083 2
+18600 1531 2
+18600 1429 1
+18822 3338 1
+18822 820 1
+18822 1529 2
+18822 18600 3
+18822 1531 4
+3170 8492 1
+19125 3170 4
+9610 969 1
+8492 8511 1
+8492 3994 1
+8511 969 1
+8511 9611 1
+8511 9610 1
+7116 3170 6
+7116 7146 2
+7116 7147 1
+3167 3170 1
+15377 3170 3
+15377 1722 1
+1347 1923 1
+16052 8990 5
+9955 10191 94
+4660 10191 1
+4660 1347 6
+4660 8990 5
+4660 1923 1
+18754 4660 4
+10323 3488 102
+1288 1355 1
+1288 1347 1
+1288 1343 1
+1288 1923 3
+1288 46 2
+4760 440 2
+4753 2131 1
+4753 4760 2
+37 440 2
+2124 2131 1
+2124 37 2
+9483 44 1
+9483 4760 2
+9483 36 2
+9483 46 1
+9483 45 1
+9483 41 1
+9448 37 3
+9448 4 2
+9448 3338 1
+9448 4760 2
+9448 36 6
+9448 9483 2
+12961 820 1
+12961 1529 2
+12961 1531 1
+12961 1429 1
+19100 12961 6
+19100 3338 1
+19100 820 1
+19100 1529 1
+19100 1531 3
+4 37 3
+4 44 1
+4 36 2
+4 46 1
+4 45 1
+4 41 1
+8761 7586 1
+8761 7281 3
+11432 8761 36
+11432 7586 8
+11432 7281 24
+8711 8761 2
+8711 7281 3
+4379 1923 1
+14656 7174 1
+12671 7174 1
+11013 1923 1
+11451 1923 1
+1917 1923 1
+12716 1923 1
+8268 9798 1
+8268 286 2
+8268 8206 8
+8268 8576 1
+8268 15163 1
+8268 1772 1
+8268 47 2
+8217 8268 25
+8217 1694 5
+8217 47 10
+8217 46 8
+10729 1694 9
+9720 12116 1
+9720 8268 3
+9720 1694 1
+9697 9718 1
+9697 3781 1
+12106 12116 6
+4518 7173 1
+4518 7172 1
+4518 1923 3
+9719 3041 30
+9719 2113 2
+9719 9718 39
+9719 5988 61
+9719 3781 1
+7224 7174 1
+439 440 6
+427 439 1
+427 47 1
+427 440 2
+427 46 2
+427 45 2
+427 41 1
+1562 1589 2
+11281 41 1
+12685 1589 2
+11413 41 1
+6114 1589 2
+6114 47 4
+6114 46 1
+8477 8206 3
+8477 41 1
+9798 47 6
+9788 9798 2
+9788 46 1
+10229 1529 1
+10229 1694 2
+10229 1531 1
+10229 1429 1
+10726 10725 1
+7399 7398 2
+7386 7398 2
+15920 7386 2
+15920 5050 4
+8703 7398 1
+7398 10725 1
+18202 7398 1
+15163 8576 1
+7172 6426 2
+7172 7224 1
+7172 14656 3
+7172 11369 1
+7172 47 5
+7172 9720 1
+7172 46 2
+7173 12671 3
+7173 9101 1
+7173 46 1
+7173 6426 5
+7173 7224 1
+7173 5850 1
+7173 47 1
+7173 9720 1
+16652 7173 2
+14373 1589 2
+14373 47 4
+14373 46 1
+1772 286 2
+16636 6114 1
+16636 8477 4
+16636 41 1
+6214 15920 1
+6214 8576 1
+6214 14373 1
+286 353 15
+286 355 1
+286 41 5
+353 286 7
+353 41 5
+14523 353 39
+14523 286 8
+14819 6426 1
+14819 13999 4
+14819 879 5
+14819 867 3
+13999 879 5
+5181 14819 2
+5181 47 1
+5181 46 1
+5169 5181 1
+867 879 3
+9068 11741 2
+5700 9068 2
+5700 47 1
+5700 46 1
+5686 5700 1
+3174 3271 6
+3174 1694 7
+3174 3274 12
+7627 3273 2
+7627 47 1
+7627 46 1
+7615 7627 1
+3274 3273 2
+7715 3271 6
+7715 1694 11
+7977 8576 1
+7977 4031 1
+4711 7973 2
+4711 47 1
+4711 46 1
+6938 1694 14
+6938 440 1
+4692 4711 1
+440 2131 2
+1589 2131 2
+1589 348 4
+1589 4031 1
+8706 8708 1
+4367 7469 1
+4367 11724 1
+4367 4842 1
+4367 8759 1
+4367 8706 1
+5017 3972 1
+5017 1529 1
+5017 1531 3
+5017 1429 1
+5017 3974 2
+1124 3972 1
+1124 4735 1
+4735 11363 1
+4716 4737 1
+4716 4736 3
+4716 4735 4
+3974 4737 6
+3974 4736 1
+4396 3974 3
+3972 3974 2
+3945 3972 3
+3945 3974 3
+11349 11363 20
+1508 1529 2
+1508 1531 2
+1508 1429 1
+9915 4842 1
+4661 8990 1
+1164 1692 21
+1164 1694 1
+1164 1429 8
+16009 1529 1
+16009 1531 1
+16009 1429 1
+4657 4660 2
+9036 1692 1
+9036 1429 1
+15270 1692 1
+15270 1429 1
+2832 1529 1
+2832 1531 2
+2832 1429 1
+4480 1692 32
+4480 1694 1
+4480 1531 2
+4480 1429 9
+14129 1529 1
+14129 1531 1
+14129 1429 1
+5666 4660 1
+5613 5667 1
+5613 5666 2
+5613 1347 1
+5613 5668 1
+5613 1124 1
+5613 4660 3
+13436 4737 1
+13436 4736 2
+13436 5613 4
+13436 4735 2
+13436 3974 2
+15236 1692 5
+15236 1429 7
+15236 439 1
+10282 1529 1
+10282 1531 1
+10282 1429 1
+7551 4660 2
+16218 6215 8
+6217 1529 1
+6217 6215 1
+6217 1531 4
+6217 1429 1
+6192 6217 4
+6192 1529 2
+6192 6214 1
+6192 6215 1
+6192 1531 4
+13263 11426 1
+13263 6215 1
+13182 8268 21
+13182 274 7
+13182 3271 7
+13182 1694 7
+13182 439 7
+13182 47 21
+13182 46 7
+350 424 1
+424 1455 1
+424 12986 3
+3101 350 1
+3101 3107 2
+12884 1455 3
+417 12884 1
+3873 1455 3
+3868 3873 1
+4525 1455 2
+19014 4525 1
+9128 1455 2
+418 9128 1
+3106 1455 2
+3106 3108 1
+3107 3106 1
+3108 1455 2
+3108 3106 2
+1341 12986 1
+12329 1341 3
+4863 4865 1
+4865 1529 1
+4865 1531 3
+4865 1429 1
+15781 1878 1
+15781 4367 2
+15781 8706 1
+1810 1878 24
+1810 1875 24
+1810 1876 5
+8976 8290 1
+11886 8708 2
+11886 8290 1
+11828 3041 1
+11828 11886 3
+11828 4842 1
+11828 9718 3
+11828 5988 8
+11828 3781 1
+14246 7285 2
+14246 820 2
+14246 1692 2
+14246 4054 1
+14246 1531 4
+14246 1429 3
+14246 3170 1
+14246 1529 2
+7285 1529 1
+7285 1531 1
+7285 1429 1
+4054 1692 4
+4054 1429 2
+6824 6821 1
+6824 9785 1
+5922 5933 46
+6821 6824 1
+9785 6824 1
+14833 6824 3
+1652 1692 13
+1652 1694 1
+1652 1429 8
+15364 1652 1
+15364 1429 3
+16034 1529 2
+16034 1531 2
+16034 1429 1
+11375 4842 1
+11375 4845 1
+11375 4844 1
+13666 7469 1
+13666 11375 2
+4845 7281 3
+4792 4845 1
+4792 4844 1
+12312 626 9
+8162 1529 1
+8162 1531 1
+8162 1429 1
+7202 1529 2
+7202 1531 1
+7202 1429 1
+9668 1529 1
+9668 1531 1
+9668 1429 1
+18803 1529 1
+18803 1531 1
+18803 1429 1
+18632 626 5
+18632 4842 1
+4326 626 2
+4326 4367 2
+4326 8706 1
+4326 1374 1
+15484 626 5
+15484 4367 2
+15484 8706 1
+15484 1374 1
+6389 626 4
+1966 440 2
+7475 2131 1
+7475 1966 2
+1938 274 1
+1938 1964 5
+1938 1966 1
+1938 41 1
+16901 1938 4
+16901 1966 2
+16901 46 2
+14230 440 2
+14203 14230 1
+14203 274 1
+14203 1964 5
+14203 44 1
+14203 41 1
+4665 820 1
+4665 1529 2
+4665 1531 2
+4665 1429 1
+11336 4665 6
+11336 3338 1
+11336 820 1
+11336 1529 1
+11336 1531 4
+12103 440 2
+19018 2131 1
+19018 12103 2
+12086 12103 1
+12086 47 1
+12086 46 1
+12086 41 1
+16192 12086 2
+16192 3338 1
+16192 12103 1
+16192 46 1
+17505 14203 2
+17505 14230 1
+17505 3338 1
+17505 1889 2
+17505 274 2
+17505 1912 1
+17505 46 1
+1912 440 2
+1889 1912 1
+1889 44 1
+1889 47 1
+1889 46 1
+1889 41 1
+667 218 4
+8708 4842 1
+393 2199 1
+387 392 1
+387 393 1
+16603 218 4
+15405 12620 1
+15405 11724 6
+12620 11724 1
+8540 820 10
+1804 1806 2
+8883 1806 2
+753 820 3
+14332 4054 1
+15063 4054 1
+16956 16993 5
+16956 5529 3
+16956 4186 4
+16956 3338 3
+16956 2838 4
+16956 4291 1
+16956 1531 2
+16956 1429 1
+219 5532 5
+219 5529 3
+219 4186 6
+219 582 2
+219 5530 1
+219 3338 3
+219 820 1
+219 2838 4
+219 4291 1
+219 1531 2
+219 1429 1
+219 2903 1
+219 5536 1
+219 5531 3
+219 4061 4
+5536 227 2
+3936 227 1
+9625 5532 5
+9625 4186 6
+9625 582 2
+9625 5530 1
+9625 3338 3
+9625 820 1
+9625 2838 4
+9625 4291 1
+9625 1531 2
+9625 1429 1
+9625 2903 1
+9625 5531 3
+9625 4061 4
+11422 11426 17
+11422 3271 1
+5531 10957 5
+5531 220 1
+5531 10956 1
+3285 3338 1
+3285 3337 10
+3337 44 3
+4291 2903 5
+16993 8634 3
+7606 3685 1
+7606 4291 11
+7606 2903 4
+7591 7606 9
+7591 220 1
+7591 4291 1
+7591 2903 1
+8634 44 1
+8634 3337 2
+8634 220 1
+12912 220 1
+12912 8783 2
+12912 8634 2
+2838 2903 5
+3338 44 1
+3338 3337 4
+3338 220 1
+3338 2903 2
+4186 3685 2
+4186 220 1
+4186 4291 12
+4186 2903 4
+5532 8634 3
+4061 3348 2
+4061 220 6
+4061 2903 2
+8783 8634 2
+582 626 11
+582 220 1
+14747 820 12
+14747 1428 2
+14747 3271 1
+14747 6573 2
+14747 1531 3
+5529 820 19
+5529 220 2
+5529 6573 3
+853 855 7
+3548 854 3
+855 1105 1
+855 1106 1
+1152 855 3
+1152 5573 6
+4989 9571 1
+5573 855 3
+5573 8146 4
+5573 8145 4
+10712 4849 3
+8145 5573 8
+8146 5573 8
+859 855 5
+4897 855 5
+952 855 2
+6169 855 4
+18516 227 1
+14088 14112 33
+15428 4946 1
+371 382 1
+9802 270 1
+8280 8287 1
+9488 5605 1
+12921 2055 1
+4929 274 2
+4929 273 2
+4929 47 2
+4929 46 1
+16168 4929 2
+16168 4946 1
+16168 273 11
+13655 274 1
+13655 273 2
+13655 47 1
+13655 46 1
+13633 13655 2
+13633 382 1
+13633 273 11
+3157 274 2
+3157 273 5
+3157 47 2
+3157 3156 1
+3157 46 1
+3132 3157 7
+3132 273 6
+3132 3156 1
+8622 274 1
+8622 273 5
+8622 8621 1
+8622 47 1
+8622 46 1
+8597 8622 7
+8597 273 6
+8597 8621 1
+3671 3670 1
+3671 273 5
+3646 3671 7
+3646 3670 1
+3646 273 6
+248 274 1
+248 273 2
+248 47 1
+248 46 1
+18557 248 1
+18557 270 1
+18557 273 11
+13171 274 1
+13171 273 2
+13171 47 1
+13171 46 1
+16139 13171 2
+16139 273 11
+16139 8287 1
+15436 3041 2
+15436 3271 4
+15436 9718 5
+15436 5988 10
+15436 3781 1
+5606 274 1
+5606 273 2
+5606 47 1
+5606 46 1
+5583 5605 1
+5583 5606 2
+5583 273 11
+2057 273 2
+2016 2055 1
+2016 273 11
+2016 2057 2
+17410 1692 3
+17410 1429 2
+1531 1428 5
+1429 1428 5
+820 1531 4
+820 1429 4
+6573 820 3
+4790 820 4
+4790 1531 1
+4790 1429 1
+2115 820 1
+2115 1431 1
+2115 18553 2
+2115 2112 4
+2067 820 2
+2067 2115 51
+2067 2113 2
+2067 2112 17
+16618 820 2
+16618 1431 2
+16618 1430 1
+16618 5019 2
+18553 820 2
+18553 17203 2
+18553 1431 2
+18553 1430 1
+5036 1431 2
+5036 1430 1
+5036 1428 2
+5036 1531 3
+5019 820 4
+5019 1431 4
+5019 1430 1
+5019 5036 2
+5019 1531 4
+1418 1431 2
+1418 1430 1
+1418 1428 2
+1418 1429 3
+16583 820 4
+16583 1431 4
+16583 1430 1
+16583 1418 2
+16583 1429 3
+17203 820 3
+17203 16618 2
+17203 1431 2
+17203 1430 1
+17203 16583 2
+16668 820 30
+16668 1531 22
+16668 1429 35
+7269 7281 21
+15655 6811 43
+5863 1374 2
+222 217 2
+19022 217 11
+19022 222 25
+14194 5050 13
+1964 4644 7
+1964 996 7
+1964 4647 7
+1964 956 7
+1964 274 2
+1964 271 3
+1964 964 12
+1964 4645 6
+1964 4646 6
+1964 1965 9
+1964 47 19
+45 13053 10
+45 274 10
+45 271 1
+45 1965 2
+45 47 27
+45 46 1
+11895 11930 46
+11895 47 1
+11895 46 35
+11895 45 37
+4644 274 5
+4644 964 2
+13037 13053 73
+4645 274 5
+4645 964 2
+8206 274 8
+8206 1965 6
+8206 47 37
+12768 8206 222
+12768 46 157
+46 274 2
+46 1964 40
+46 964 11
+46 47 2
+13265 274 116
+13265 964 24
+13265 1965 13
+13265 47 361
+13265 46 116
+13265 45 4
+996 274 5
+996 964 2
+271 274 5
+271 964 2
+4646 274 5
+4646 964 2
+1965 274 6
+1965 964 2
+1343 8206 4
+1343 47 5
+1343 46 1
+1343 45 1
+18685 11930 1
+18685 1343 24
+18685 46 48
+956 274 5
+956 964 2
+274 964 4
+9145 274 35
+47 956 3
+47 4644 3
+47 996 3
+47 274 17
+47 4645 3
+47 4646 3
+47 1965 6
+47 4647 3
+15346 274 12
+15346 47 39
+15346 46 22
+16837 964 4
+4647 274 5
+4647 964 2
+14309 820 1
+14309 1529 2
+14309 1531 4
+14309 1429 1
+1743 1692 11
+1743 1694 1
+1743 1429 6
+14039 1692 7
+14039 1694 1
+14039 1429 5
+9718 3041 2
+9718 5988 2
+5988 3041 3
+5986 3041 1
+5986 9718 2
+5986 5988 1
+5986 3781 1
+3781 3041 1
+3781 9718 2
+3781 5988 1

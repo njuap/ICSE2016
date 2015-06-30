@@ -1,0 +1,3873 @@
+*Vertics: 640
+3,org.apache.pivot.tests.MenuBarTest
+38,org.apache.pivot.beans.BXMLSerializer
+40,org.apache.pivot.wtk.Action
+41,org.apache.pivot.wtk.Alert
+43,org.apache.pivot.wtk.ApplicationContext
+44,org.apache.pivot.wtk.BoxPane
+45,org.apache.pivot.wtk.Component
+46,org.apache.pivot.wtk.DesktopApplicationContext
+47,org.apache.pivot.wtk.Display
+48,org.apache.pivot.wtk.Frame
+49,org.apache.pivot.wtk.MenuBar
+51,org.apache.pivot.wtk.Orientation
+52,org.apache.pivot.wtk.TextInput
+58,org.apache.pivot.wtk.Container
+59,org.apache.pivot.wtk.Window
+79,org.apache.pivot.util.Version
+92,org.apache.pivot.web.PutQuery
+117,org.apache.pivot.web.Query
+119,org.apache.pivot.web.QueryException
+143,org.apache.pivot.util.Vote
+145,org.apache.pivot.wtk.Rollup
+148,org.apache.pivot.demos.tables.FixedColumnTableDemo
+202,org.apache.pivot.util.Resources
+203,org.apache.pivot.wtk.Span
+204,org.apache.pivot.wtk.TableView
+207,org.apache.pivot.wtk.content.TableViewRowComparator
+210,org.apache.pivot.util.ListenerList
+233,org.apache.pivot.examples.scripting.JavaWindow
+247,org.apache.pivot.wtk.Button
+249,org.apache.pivot.wtk.Prompt
+250,org.apache.pivot.wtk.PushButton
+287,org.apache.pivot.wtk.ListButton
+289,org.apache.pivot.wtk.skin.ListButtonSkin
+434,org.apache.pivot.wtk.Bounds
+438,org.apache.pivot.wtk.FocusTraversalDirection
+439,org.apache.pivot.wtk.Keyboard
+443,org.apache.pivot.wtk.ListView
+444,org.apache.pivot.wtk.Mouse
+446,org.apache.pivot.wtk.skin.ButtonSkin
+453,org.apache.pivot.wtk.skin.ComponentSkin
+583,org.apache.pivot.wtk.MessageType
+587,org.apache.pivot.wtk.effects.RotationDecorator
+630,org.apache.pivot.tests.MessageBusTest
+643,org.apache.pivot.util.MessageBus
+650,org.apache.pivot.tests.SheetTest
+690,org.apache.pivot.collections.ArrayList
+692,org.apache.pivot.wtk.HorizontalAlignment
+693,org.apache.pivot.wtk.Label
+694,org.apache.pivot.wtk.Sheet
+695,org.apache.pivot.wtk.TablePane
+696,org.apache.pivot.wtk.VerticalAlignment
+697,org.apache.pivot.wtk.media.Image
+698,org.apache.pivot.wtk.media.Picture
+813,org.apache.pivot.wtk.skin.StackPaneSkin
+853,org.apache.pivot.wtk.Dimensions
+854,org.apache.pivot.wtk.Insets
+855,org.apache.pivot.wtk.StackPane
+856,org.apache.pivot.wtk.skin.ContainerSkin
+882,org.apache.pivot.serialization.test.ByteArraySerializerTest
+912,org.apache.pivot.serialization.ByteArraySerializer
+913,org.apache.pivot.serialization.SerializationException
+921,org.apache.pivot.demos.suggest.SuggestionDemo
+968,org.apache.pivot.json.JSON
+969,org.apache.pivot.util.concurrent.Task
+971,org.apache.pivot.web.GetQuery
+972,org.apache.pivot.wtk.ActivityIndicator
+973,org.apache.pivot.wtk.SuggestionPopup
+975,org.apache.pivot.wtk.TaskAdapter
+980,org.apache.pivot.web.QueryDictionary
+1006,org.apache.pivot.wtk.skin.GridPaneSkin
+1229,org.apache.pivot.wtk.GraphicsUtilities
+1230,org.apache.pivot.wtk.GridPane
+1276,org.apache.pivot.collections.HashMap
+1284,org.apache.pivot.wtk.MenuButton
+1308,org.apache.pivot.wtk.content.ButtonDataRenderer
+1310,org.apache.pivot.wtk.Menu
+1314,org.apache.pivot.wtk.WTKListenerList
+1323,org.apache.pivot.examples.wrapping.WrappingButtonDataRenderer
+1361,org.apache.pivot.wtk.ImageView
+1363,org.apache.pivot.wtk.BindType
+1365,org.apache.pivot.wtk.skin.terra.TerraTooltipSkin
+1463,org.apache.pivot.wtk.Theme
+1464,org.apache.pivot.wtk.Tooltip
+1465,org.apache.pivot.wtk.effects.DropShadowDecorator
+1466,org.apache.pivot.wtk.effects.Transition
+1468,org.apache.pivot.wtk.skin.WindowSkin
+1469,org.apache.pivot.wtk.skin.terra.TerraTheme
+1471,org.apache.pivot.wtk.skin.terra.FadeWindowTransition
+1501,org.apache.pivot.wtk.validation.FloatRangeValidator
+1531,org.apache.pivot.wtk.validation.FloatValidator
+1568,org.apache.pivot.wtk.ScrollPane
+1571,org.apache.pivot.wtk.skin.GridPaneFillerSkin
+1587,org.apache.pivot.wtk.skin.terra.TerraTextAreaSkin
+1610,org.apache.pivot.wtk.skin.TextAreaSkin
+1620,org.apache.pivot.wtk.skin.terra.TerraMenuBarSkin
+1734,org.apache.pivot.wtk.content.TreeViewNodeRenderer
+1778,org.apache.pivot.wtk.TreeView
+1782,org.apache.pivot.wtk.content.TreeBranch
+1783,org.apache.pivot.wtk.content.TreeNode
+1802,org.apache.pivot.wtk.validation.DoubleRangeValidator
+1829,org.apache.pivot.wtk.validation.DoubleValidator
+1833,org.apache.pivot.wtk.skin.terra.TerraScrollPaneSkin
+1837,org.apache.pivot.wtk.skin.ScrollPaneSkin
+1854,org.apache.pivot.collections.test.ArrayListTest
+1896,org.apache.pivot.wtk.validation.ComparableRangeValidator
+1924,org.apache.pivot.wtk.validation.ComparableValidator
+1929,org.apache.pivot.json.test.SampleBean2List
+1932,org.apache.pivot.json.test.SampleBean2
+1947,org.apache.pivot.wtk.DropAction
+1948,org.apache.pivot.wtk.LocalManifest
+1949,org.apache.pivot.wtk.Point
+1952,org.apache.pivot.wtk.content.MenuItemData
+1971,org.apache.pivot.wtk.content.ButtonData
+1976,org.apache.pivot.demos.rss.RSSItemRenderer
+2008,org.apache.pivot.xml.Element
+2009,org.apache.pivot.xml.TextNode
+2010,org.apache.pivot.xml.XML
+2019,org.apache.pivot.wtk.validation.IntValidator
+2024,org.apache.pivot.wtk.validation.DecimalValidator
+2028,org.apache.pivot.wtk.Slider
+2092,org.apache.pivot.collections.ArrayAdapter
+2130,org.apache.pivot.wtk.skin.terra.TerraCalendarSkin
+2418,org.apache.pivot.util.CalendarDate
+2419,org.apache.pivot.wtk.ButtonGroup
+2421,org.apache.pivot.wtk.Calendar
+2422,org.apache.pivot.wtk.Cursor
+2423,org.apache.pivot.wtk.Spinner
+2425,org.apache.pivot.wtk.content.NumericSpinnerData
+2426,org.apache.pivot.wtk.content.SpinnerItemRenderer
+2427,org.apache.pivot.wtk.skin.CalendarSkin
+2500,org.apache.pivot.wtk.TextPane
+2502,org.apache.pivot.examples.deployment.DeploymentExample
+2518,org.apache.pivot.tutorials.databinding.DataBinding
+2544,org.apache.pivot.beans.BeanAdapter
+2545,org.apache.pivot.json.JSONSerializer
+2546,org.apache.pivot.wtk.Form
+2547,org.apache.pivot.tutorials.databinding.Contact
+2549,org.apache.pivot.tutorials.databinding.Address
+2551,org.apache.pivot.tutorials.databinding.IMAccount
+2814,org.apache.pivot.io.EchoReader
+2815,org.apache.pivot.io.EchoWriter
+2837,org.apache.pivot.wtk.effects.TagDecorator
+2907,org.apache.pivot.collections.adapter.SetAdapter
+2954,org.apache.pivot.util.ImmutableIterator
+2998,org.apache.pivot.wtk.FileBrowserSheet
+3014,org.apache.pivot.wtk.content.TableViewRowEditor
+3106,org.apache.pivot.wtk.CardPane
+3108,org.apache.pivot.wtk.Viewport
+3110,org.apache.pivot.wtk.skin.CardPaneSkin
+3167,org.apache.pivot.wtk.skin.terra.TerraDialogSkin
+3249,org.apache.pivot.wtk.Dialog
+3252,org.apache.pivot.wtk.skin.terra.TerraFrameSkin
+3276,org.apache.pivot.tests.LinkButtonTest
+3306,org.apache.pivot.wtk.LinkButton
+3309,org.apache.pivot.demos.styles.ColorSchemeBuilder
+3318,org.apache.pivot.demos.styles.ColorSchemeBuilderWindow
+3324,org.apache.pivot.wtk.skin.terra.TerraPaletteSkin
+3496,org.apache.pivot.wtk.Palette
+3536,org.apache.pivot.wtk.text.TextNode
+3559,org.apache.pivot.wtk.TextArea
+3561,org.apache.pivot.wtk.CornerRadii
+3631,org.apache.pivot.util.Service
+3632,org.apache.pivot.wtk.skin.BorderSkin
+3633,org.apache.pivot.wtk.skin.BoxPaneSkin
+3634,org.apache.pivot.wtk.skin.ColorChooserButtonSkin
+3635,org.apache.pivot.wtk.skin.FillPaneSkin
+3636,org.apache.pivot.wtk.skin.FlowPaneSkin
+3637,org.apache.pivot.wtk.skin.ImageViewSkin
+3638,org.apache.pivot.wtk.skin.LabelSkin
+3639,org.apache.pivot.wtk.skin.MovieViewSkin
+3640,org.apache.pivot.wtk.skin.PanelSkin
+3641,org.apache.pivot.wtk.skin.SeparatorSkin
+3642,org.apache.pivot.wtk.skin.TablePaneFillerSkin
+3643,org.apache.pivot.wtk.skin.TablePaneSkin
+3644,org.apache.pivot.wtk.skin.TextPaneSkin
+3647,org.apache.pivot.wtk.ThemeNotFoundException
+3648,org.apache.pivot.wtk.Border
+3651,org.apache.pivot.wtk.FillPane
+3652,org.apache.pivot.wtk.FlowPane
+3654,org.apache.pivot.wtk.MovieView
+3655,org.apache.pivot.wtk.Panel
+3656,org.apache.pivot.wtk.Separator
+3700,org.apache.pivot.wtk.Limits
+3834,org.apache.pivot.util.EmptyIterator
+3837,org.apache.pivot.collections.LinkedList
+3892,org.apache.pivot.wtk.Accordion
+3894,org.apache.pivot.wtk.skin.TextPaneSkinBulletedListView
+3911,org.apache.pivot.wtk.text.BulletedList
+3913,org.apache.pivot.wtk.skin.TextPaneSkinListView
+3914,org.apache.pivot.wtk.skin.TextPaneSkinListItemView
+3927,org.apache.pivot.wtk.skin.TextPaneSkinNodeView
+3970,org.apache.pivot.demos.swing.SwingDemo
+4025,org.apache.pivot.demos.roweditor.RowEditorDemo
+4046,org.apache.pivot.charts.ProviderNotFoundException
+4080,org.apache.pivot.tutorials.explorer.tools.EventLoggerSkin
+4181,org.apache.pivot.tutorials.explorer.tools.EventLogger
+4218,org.apache.pivot.demos.text.TextPaneDemo
+4450,org.apache.pivot.wtk.Checkbox
+4451,org.apache.pivot.wtk.ColorChooserButton
+4454,org.apache.pivot.wtk.content.ListButtonDataRenderer
+4455,org.apache.pivot.wtk.content.ListViewItemRenderer
+4456,org.apache.pivot.wtk.text.Document
+4457,org.apache.pivot.wtk.text.Element
+4458,org.apache.pivot.wtk.text.Node
+4459,org.apache.pivot.wtk.text.Paragraph
+4460,org.apache.pivot.wtk.text.PlainTextSerializer
+4461,org.apache.pivot.wtk.text.TextSpan
+4462,org.apache.pivot.wtk.text.Block
+4604,org.apache.pivot.tutorials.bxmlexplorer.tools.ComponentPropertyInspectorSkin
+4644,org.apache.pivot.beans.BeanMonitor
+4646,org.apache.pivot.tutorials.bxmlexplorer.tools.ComponentInspectorSkin
+4648,org.apache.pivot.tutorials.bxmlexplorer.tools.ComponentInspector
+4962,org.apache.pivot.tests.issues.Pivot734
+5021,org.apache.pivot.web.server.QueryServlet
+5221,org.apache.pivot.wtk.content.ColorItem
+5242,org.apache.pivot.wtk.content.TableViewBooleanCellRenderer
+5244,org.apache.pivot.wtk.content.TableViewCheckboxCellRenderer
+5248,org.apache.pivot.serialization.test.PropertiesSerializerTest
+5267,org.apache.pivot.serialization.PropertiesSerializer
+5269,org.apache.pivot.tests.CalendarTest
+5309,org.apache.pivot.wtk.CalendarButton
+5318,org.apache.pivot.tests.BorderTest
+5366,org.apache.pivot.tutorials.bxmlexplorer.FakeWindow
+5368,org.apache.pivot.tests.issues.Pivot841
+5410,org.apache.pivot.wtk.skin.terra.TerraTableViewSkin
+5924,org.apache.pivot.wtk.Platform
+5925,org.apache.pivot.wtk.SortDirection
+6024,org.apache.pivot.wtk.skin.DisplaySkin
+6025,org.apache.pivot.wtk.Automation
+6259,org.apache.pivot.wtk.text.NumberedList
+6287,org.apache.pivot.wtk.text.List
+6293,org.apache.pivot.tests.TestUtils
+6301,org.apache.pivot.collections.EnumSet
+6358,org.apache.pivot.tutorials.bxmlexplorer.BXMLExplorerWindow
+6442,org.apache.pivot.wtk.SplitPane
+6443,org.apache.pivot.wtk.TabPane
+6447,org.apache.pivot.tutorials.bxmlexplorer.BXMLExplorer
+6454,org.apache.pivot.tutorials.bxmlexplorer.BXMLExplorerDocument
+6475,org.apache.pivot.examples.effects.BorderDecorator
+6541,org.apache.pivot.tests.issues.Pivot838
+6580,org.apache.pivot.util.Console
+6594,org.apache.pivot.tests.issues.Pivot835
+6605,org.apache.pivot.demos.rest.server.RESTDemoServlet
+7071,org.apache.pivot.wtk.ScrollBar
+7109,org.apache.pivot.tests.issues.Pivot832
+7150,org.apache.pivot.wtk.skin.terra.TerraTextInputSkin
+7573,org.apache.pivot.text.CharSequenceCharacterIterator
+7642,org.apache.pivot.wtk.text.ImageNode
+7690,org.apache.pivot.wtk.RangeSelection
+7770,org.apache.pivot.collections.immutable.ImmutableList
+7777,org.apache.pivot.wtk.content.TableViewCellRenderer
+7812,org.apache.pivot.wtk.content.ListItem
+7974,org.apache.pivot.tests.issues.Pivot714
+8020,org.apache.pivot.collections.LinkedStack
+8124,org.apache.pivot.wtk.BrowserApplicationContext
+8242,org.apache.pivot.collections.immutable.ImmutableMap
+8269,org.apache.pivot.wtk.skin.terra.TerraLabelSkin
+8284,org.apache.pivot.tests.issues.Pivot734WithWorkaround
+8363,org.apache.pivot.wtk.skin.MenuButtonSkin
+8427,org.apache.pivot.wtk.MenuPopup
+8438,org.apache.pivot.wtk.media.BufferedImageSerializer
+8736,org.apache.pivot.wtk.content.MenuButtonDataRenderer
+8744,org.apache.pivot.tests.issues.pivot861.LeakTestWindow
+8763,org.apache.pivot.tests.issues.pivot861.TestDialog
+8768,org.apache.pivot.tutorials.progress.ActivityIndicators
+8784,org.apache.pivot.wtk.validation.IntRangeValidator
+8810,org.apache.pivot.tutorials.navigation.Ruler
+8823,org.apache.pivot.tutorials.navigation.RulerSkin
+8829,org.apache.pivot.tests.SplashScreenTest
+8877,org.apache.pivot.util.concurrent.TaskExecutionException
+8878,org.apache.pivot.wtk.Meter
+8885,org.apache.pivot.tests.issues.Pivot811
+9034,org.apache.pivot.tutorials.webqueries.DateBindMapping
+9043,org.apache.pivot.wtk.content.CalendarDateSpinnerData
+9050,org.apache.pivot.charts.ChartView
+9270,org.apache.pivot.charts.content.Candlestick
+9296,org.apache.pivot.tutorials.boundedrange.Sliders
+9310,org.apache.pivot.wtk.skin.terra.TerraPromptSkin
+9361,org.apache.pivot.wtk.skin.terra.TerraSheetSkin
+9387,org.apache.pivot.util.test.ParentResourcesTest
+9500,org.apache.pivot.util.Time
+9507,org.apache.pivot.tutorials.webqueries.server.ExpenseServlet
+9544,org.apache.pivot.serialization.CSVSerializer
+9545,org.apache.pivot.tutorials.webqueries.server.Expense
+9752,org.apache.pivot.wtk.RadioButton
+9769,org.apache.pivot.wtk.TableViewHeader
+9829,org.apache.pivot.tests.LabelAntialiasTest
+9859,org.apache.pivot.wtk.skin.terra.TerraRadioButtonSkin
+9949,org.apache.pivot.wtk.skin.RadioButtonSkin
+10052,org.apache.pivot.wtk.effects.FadeTransition
+10064,org.apache.pivot.wtk.effects.FadeDecorator
+10088,org.apache.pivot.tutorials.explorer.ComponentExplorer
+10100,org.apache.pivot.tutorials.explorer.ComponentExplorerWindow
+10104,org.apache.pivot.tests.issues.Pivot800
+10124,org.apache.pivot.tutorials.explorer.tools.ComponentStyleInspector
+10128,org.apache.pivot.tutorials.explorer.tools.ComponentInspector
+10129,org.apache.pivot.tutorials.explorer.tools.ComponentStyleInspectorSkin
+10656,org.apache.pivot.wtk.effects.ShadeDecorator
+10662,org.apache.pivot.wtk.LocalManifestAdapter
+10664,org.apache.pivot.wtk.RemoteManifest
+10714,org.apache.pivot.wtk.validation.BigDecimalValidator
+10788,org.apache.pivot.wtk.media.Movie
+11070,org.apache.pivot.json.test.SampleBean1
+11128,org.apache.pivot.serialization.test.StringSerializerTest
+11145,org.apache.pivot.serialization.StringSerializer
+11152,org.apache.pivot.tests.EnumBeanTest
+11169,org.apache.pivot.tests.EnumBean
+11179,org.apache.pivot.xml.Node
+11246,org.apache.pivot.tutorials.bxmlexplorer.FakeWindowSkin
+11251,org.apache.pivot.wtk.content.TableViewImageCellRenderer
+11277,org.apache.pivot.tests.TableViewCellRendererCustom
+11287,org.apache.pivot.tutorials.backgroundtasks.SleepTask
+11339,org.apache.pivot.wtk.content.ListViewColorItemRenderer
+11715,org.apache.pivot.wtk.skin.terra.TerraLinkButtonSkin
+11766,org.apache.pivot.wtk.skin.LinkButtonSkin
+11768,org.apache.pivot.tutorials.layout.TablePanes
+12018,org.apache.pivot.wtk.TextDecoration
+12058,org.apache.pivot.collections.concurrent.SynchronizedStack
+12095,org.apache.pivot.demos.xml.XMLViewer
+12150,org.apache.pivot.io.FileList
+12151,org.apache.pivot.wtk.Clipboard
+12152,org.apache.pivot.wtk.effects.OverlayDecorator
+12153,org.apache.pivot.xml.XMLSerializer
+12157,org.apache.pivot.collections.adapter.ListAdapter
+12179,org.apache.pivot.tutorials.layout.Forms
+12198,org.apache.pivot.tutorials.menus.MenuBars
+12649,org.apache.pivot.wtk.content.ListButtonColorItemRenderer
+12681,org.apache.pivot.collections.adapter.MapAdapter
+12700,org.apache.pivot.tutorials.webqueries.AmountBindMapping
+12826,org.apache.pivot.wtk.content.CalendarButtonDataRenderer
+12840,org.apache.pivot.tutorials.layout.FillPanes
+12882,org.apache.pivot.tests.FileBrowserWithCharsetTest
+12914,org.apache.pivot.wtk.skin.terra.TerraFileBrowserSheetSkin
+12924,org.apache.pivot.io.FileSerializer
+12947,org.apache.pivot.demos.decorator.DecoratorDemo
+13153,org.apache.pivot.wtk.FileBrowser
+13181,org.apache.pivot.tests.SaturationDecoratorTest
+13205,org.apache.pivot.tests.ActionMappingTest
+13280,org.apache.pivot.util.concurrent.AbortException
+13286,org.apache.pivot.wtk.skin.terra.TerraAlertSkin
+13359,org.apache.pivot.demos.dnd.DragAndDropDemo
+13554,org.apache.pivot.examples.sheets.SheetExampleWindow
+13570,org.apache.pivot.examples.sheets.EditGreetingSheet
+13572,org.apache.pivot.tutorials.webqueries.ExpenseSheet
+13596,org.apache.pivot.tutorials.bxmlexplorer.CreateHighlightedXML
+13746,org.apache.pivot.tests.DragDropTest
+13944,org.apache.pivot.wtk.skin.terra.TerraMenuBarItemSkin
+13979,org.apache.pivot.wtk.skin.MenuBarItemSkin
+14009,org.apache.pivot.collections.concurrent.SynchronizedList
+14068,org.apache.pivot.wtk.content.LinkButtonDataRenderer
+14091,org.apache.pivot.tests.JavascriptConsoleTest
+14138,org.apache.pivot.wtk.skin.terra.TerraCalendarButtonSkin
+14308,org.apache.pivot.wtk.skin.CalendarButtonSkin
+14912,org.apache.pivot.beans.PropertyNotFoundException
+15369,org.apache.pivot.serialization.BinarySerializer
+15372,org.apache.pivot.beans.NamespaceBinding
+15375,org.apache.pivot.beans.BindException
+15673,org.apache.pivot.collections.test.SynchronizedStackTest
+15692,org.apache.pivot.collections.ArrayStack
+16367,org.apache.pivot.tests.SliderTest
+16390,org.apache.pivot.web.BasicAuthentication
+16402,org.apache.pivot.util.Base64
+16415,org.apache.pivot.wtk.skin.terra.TerraPushButtonSkin
+16565,org.apache.pivot.wtk.skin.PushButtonSkin
+16570,org.apache.pivot.wtk.effects.BaselineDecorator
+16588,org.apache.pivot.tests.ApplicationHandlerTest
+16680,org.apache.pivot.wtk.skin.terra.TerraColorChooserButtonSkin
+16825,org.apache.pivot.wtk.ColorChooser
+16875,org.apache.pivot.demos.json.JSONViewer
+16931,org.apache.pivot.wtk.content.TableViewNumberCellRenderer
+17074,org.apache.pivot.collections.test.HashSetTest
+17086,org.apache.pivot.collections.HashSet
+17096,org.apache.pivot.tests.ShutdownTest
+17240,org.apache.pivot.wtk.skin.TextPaneSkinTextNodeView
+17411,org.apache.pivot.wtk.text.Span
+17422,org.apache.pivot.tests.ContextMenusSampleMenuHandlerAdapter
+17927,org.apache.pivot.json.test.JSONSerializerTest
+17974,org.apache.pivot.tutorials.explorer.Ruler
+17986,org.apache.pivot.tutorials.explorer.RulerSkin
+17990,org.apache.pivot.wtk.skin.terra.TerraFillPaneSkin
+18014,org.apache.pivot.eclipse.PivotApplicationLaunchShortcut
+18088,org.apache.pivot.eclipse.PivotPlugin
+18092,org.apache.pivot.tests.issues.Pivot751WithoutGUI
+18107,org.apache.pivot.serialization.test.CSVSerializerTest
+18207,org.apache.pivot.collections.test.StackTest
+18217,org.apache.pivot.tutorials.lists.ListViews
+18303,org.apache.pivot.wtk.effects.GrayscaleDecorator
+18423,org.apache.pivot.wtk.skin.TextPaneSkinElementView
+18432,org.apache.pivot.tutorials.bxmlexplorer.ComponentNode
+18559,org.apache.pivot.collections.EnumMap
+18609,org.apache.pivot.wtk.effects.easing.Quintic
+18631,org.apache.pivot.wtk.content.TreeViewNodeEditor
+18690,org.apache.pivot.tests.issues.Pivot765
+18722,org.apache.pivot.tests.ListViewSelectionTest
+18744,org.apache.pivot.tutorials.menus.MenuButtons
+18761,org.apache.pivot.tutorials.navigation.TabPanes
+18804,org.apache.pivot.tests.CheckedListViewTest
+18848,org.apache.pivot.wtk.skin.terra.TerraScrollPaneCornerSkin
+18872,org.apache.pivot.wtk.effects.easing.Sine
+18889,org.apache.pivot.collections.test.LinkedListTest
+18922,org.apache.pivot.charts.content.Interval
+18927,org.apache.pivot.charts.content.Point
+18929,org.apache.pivot.demos.memorygame.MemGameButtonData
+18940,org.apache.pivot.web.PostQuery
+19001,org.apache.pivot.wtk.validation.RegexTextValidator
+19016,org.apache.pivot.wtk.content.TableViewTextAreaCellRenderer
+19044,org.apache.pivot.wtk.ScriptApplication
+19095,org.apache.pivot.beans.test.BeanAdapterTest
+19123,org.apache.pivot.beans.test.BeanAdapterSampleObject
+19131,org.apache.pivot.tests.issues.Pivot862
+19251,org.apache.pivot.wtk.skin.FileBrowserSkin
+19256,org.apache.pivot.tests.ButtonGroupTest
+19331,org.apache.pivot.wtk.Expander
+19391,org.apache.pivot.wtk.text.ComponentNode
+19426,org.apache.pivot.wtk.effects.easing.Circular
+19444,org.apache.pivot.wtk.effects.easing.Cubic
+19476,org.apache.pivot.tutorials.layout.FlowPanes
+19517,org.apache.pivot.tutorials.webqueries.WebQueries
+19975,org.apache.pivot.wtk.effects.TranslationDecorator
+19976,org.apache.pivot.wtk.effects.easing.Quadratic
+19993,org.apache.pivot.tutorials.layout.SimpleTablePanes
+20018,org.apache.pivot.demos.dnd.FileDropTargetDemo
+20089,org.apache.pivot.tests.issues.pivot894.Pivot894
+20120,org.apache.pivot.wtk.skin.terra.TerraMenuItemSkin
+20179,org.apache.pivot.wtk.skin.MenuItemSkin
+20185,org.apache.pivot.xml.test.XMLSerializerTest
+20221,org.apache.pivot.tutorials.text.TextInputs
+20324,org.apache.pivot.collections.test.HashMapTest
+20356,org.apache.pivot.demos.rss.RSSFeedDemo
+20387,org.apache.pivot.tests.issues.Pivot738
+20424,org.apache.pivot.collections.concurrent.SynchronizedSet
+20465,org.apache.pivot.wtk.skin.terra.TerraMenuSkin
+20770,org.apache.pivot.tests.ColorListButtonTest
+20782,org.apache.pivot.wtk.effects.ReflectionDecorator
+20806,org.apache.pivot.tutorials.explorer.ComponentNode
+20820,org.apache.pivot.wtk.skin.terra.TerraBorderSkin
+20895,org.apache.pivot.wtk.validation.FormattedValidator
+20900,org.apache.pivot.tests.CardPaneTest
+21208,org.apache.pivot.demos.roweditor.AmountBindMapping
+21217,org.apache.pivot.wtk.effects.ScaleDecorator
+21575,org.apache.pivot.tutorials.filebrowsing.FileBrowsing
+21596,org.apache.pivot.tests.issues.Pivot721
+21610,org.apache.pivot.charts.LineChartView
+21613,org.apache.pivot.wtk.skin.terra.TerraBoxPaneSkin
+21618,org.apache.pivot.tests.ColorPaletteTest
+21640,org.apache.pivot.tutorials.lists.ListButtons
+21657,org.apache.pivot.tutorials.scripting.Scripting
+21674,org.apache.pivot.util.concurrent.test.TaskTest
+21707,org.apache.pivot.util.concurrent.TaskGroup
+21708,org.apache.pivot.util.concurrent.TaskSequence
+21742,org.apache.pivot.examples.keyboard.ComponentKeyListenerExample
+21857,org.apache.pivot.demos.itunes.SearchDemo
+21916,org.apache.pivot.tests.PushButtonTest
+21937,org.apache.pivot.wtk.skin.TextPaneSkinSpanView
+22008,org.apache.pivot.tests.SplitPaneTest
+22046,org.apache.pivot.tests.issues.Pivot718
+22156,org.apache.pivot.collections.test.EnumListTest
+22166,org.apache.pivot.collections.EnumList
+22173,org.apache.pivot.charts.content.ValueSeries
+22184,org.apache.pivot.examples.sheets.SheetSlideDirectionWindow
+22483,org.apache.pivot.tutorials.stocktracker.ChangeMapping
+22574,org.apache.pivot.wtk.Panorama
+22575,org.apache.pivot.wtk.skin.terra.TerraAccordionSkin
+22576,org.apache.pivot.wtk.skin.terra.TerraActivityIndicatorSkin
+22577,org.apache.pivot.wtk.skin.terra.TerraCheckboxSkin
+22578,org.apache.pivot.wtk.skin.terra.TerraColorChooserSkin
+22579,org.apache.pivot.wtk.skin.terra.TerraExpanderSkin
+22580,org.apache.pivot.wtk.skin.terra.TerraFileBrowserSkin
+22581,org.apache.pivot.wtk.skin.terra.TerraFormSkin
+22582,org.apache.pivot.wtk.skin.terra.TerraGridPaneSkin
+22583,org.apache.pivot.wtk.skin.terra.TerraListButtonSkin
+22584,org.apache.pivot.wtk.skin.terra.TerraListViewSkin
+22585,org.apache.pivot.wtk.skin.terra.TerraMenuButtonSkin
+22586,org.apache.pivot.wtk.skin.terra.TerraMenuPopupSkin
+22587,org.apache.pivot.wtk.skin.terra.TerraMeterSkin
+22588,org.apache.pivot.wtk.skin.terra.TerraPanelSkin
+22589,org.apache.pivot.wtk.skin.terra.TerraPanoramaSkin
+22590,org.apache.pivot.wtk.skin.terra.TerraRollupSkin
+22591,org.apache.pivot.wtk.skin.terra.TerraScrollBarSkin
+22592,org.apache.pivot.wtk.skin.terra.TerraSeparatorSkin
+22593,org.apache.pivot.wtk.skin.terra.TerraSliderSkin
+22594,org.apache.pivot.wtk.skin.terra.TerraSpinnerSkin
+22595,org.apache.pivot.wtk.skin.terra.TerraSplitPaneSkin
+22596,org.apache.pivot.wtk.skin.terra.TerraSuggestionPopupSkin
+22597,org.apache.pivot.wtk.skin.terra.TerraTablePaneSkin
+22598,org.apache.pivot.wtk.skin.terra.TerraTableViewHeaderSkin
+22599,org.apache.pivot.wtk.skin.terra.TerraTabPaneSkin
+22600,org.apache.pivot.wtk.skin.terra.TerraTextPaneSkin
+22601,org.apache.pivot.wtk.skin.terra.TerraTreeViewSkin
+22704,org.apache.pivot.tutorials.explorer.tools.ComponentPropertyInspector
+22711,org.apache.pivot.wtk.skin.CheckboxSkin
+22887,org.apache.pivot.tutorials.buttons.RadioButtons
+22900,org.apache.pivot.tutorials.buttons.PushButtons
+22996,org.apache.pivot.tests.BaselineTest
+23007,org.apache.pivot.tutorials.effects.Transitions
+23030,org.apache.pivot.tutorials.effects.CollapseTransition
+23051,org.apache.pivot.wtk.skin.TextPaneSkinVerticalElementView
+23057,org.apache.pivot.wtk.validation.BigIntegerValidator
+23068,org.apache.pivot.tests.TablePaneTest
+23079,org.apache.pivot.serialization.test.BinarySerializerTest
+23089,org.apache.pivot.tutorials.webqueries.IDBindMapping
+23220,org.apache.pivot.tutorials.webqueries.AmountValidator
+23250,org.apache.pivot.wtk.content.TableViewFileSizeCellRenderer
+23257,org.apache.pivot.text.FileSizeFormat
+23408,org.apache.pivot.tutorials.layout.BoxPanes
+23458,org.apache.pivot.json.test.SampleBean2DictionarySubclass
+23460,org.apache.pivot.json.test.SampleBean2Dictionary
+23479,org.apache.pivot.wtk.media.SVGDiagramSerializer
+23627,org.apache.pivot.charts.content.CategorySeries
+23647,org.apache.pivot.json.test.SampleBean2ListSubclass
+23696,org.apache.pivot.io.IOTask
+23698,org.apache.pivot.wtk.media.Drawing
+23953,org.apache.pivot.charts.HighLowChartView
+24102,org.apache.pivot.demos.dom.DOMInteractionDemo
+24857,org.apache.pivot.wtk.effects.easing.Exponential
+25087,org.apache.pivot.util.test.MIMETypeTest
+25090,org.apache.pivot.util.MIMEType
+25188,org.apache.pivot.wtk.content.TableViewMultiCellRenderer
+25314,org.apache.pivot.wtk.skin.TextPaneSkinDocumentView
+25327,org.apache.pivot.charts.BarChartView
+25460,org.apache.pivot.tutorials.bxmlexplorer.tools.ComponentPropertyInspector
+25461,org.apache.pivot.tutorials.bxmlexplorer.tools.ComponentStyleInspector
+25467,org.apache.pivot.examples.builder.BuilderExample
+25482,org.apache.pivot.examples.builder.MyWindow
+25695,org.apache.pivot.wtk.RadioButtonGroup
+26194,org.apache.pivot.tests.WindowFocusTest
+26677,org.apache.pivot.tests.issues.Pivot694
+26731,org.apache.pivot.wtk.validation.NotEmptyTextValidator
+26939,org.apache.pivot.tests.WindowTest
+26982,org.apache.pivot.tutorials.HelloBXML
+27233,org.apache.pivot.wtk.skin.SliderSkin
+27238,org.apache.pivot.eclipse.PivotScriptApplicationLaunchShortcut
+27410,org.apache.pivot.tutorials.tableviews.OlympicStanding
+27437,org.apache.pivot.collections.LinkedQueue
+27636,org.apache.pivot.json.test.BindTest
+27678,org.apache.pivot.util.TypeLiteral
+27679,org.apache.pivot.json.test.SampleBean2Map
+27680,org.apache.pivot.json.test.SampleBean2Sequence
+27681,org.apache.pivot.json.test.SampleBean2SequenceSubclass
+27682,org.apache.pivot.json.test.SampleBean2MapSubclass
+27688,org.apache.pivot.tests.TableViewTest2
+27705,org.apache.pivot.tests.issues.Pivot686
+27727,org.apache.pivot.tests.CustomPanel
+28327,org.apache.pivot.tutorials.explorer.tools.ComponentPropertyInspectorSkin
+28331,org.apache.pivot.tutorials.KitchenSink
+28729,org.apache.pivot.wtk.content.TableViewHeaderData
+29044,org.apache.pivot.demos.memorygame.MemGame
+29262,org.apache.pivot.wtk.effects.easing.Quartic
+29991,org.apache.pivot.wtk.effects.ClipDecorator
+30113,org.apache.pivot.wtk.content.MenuBarItemDataRenderer
+30121,org.apache.pivot.tutorials.webqueries.Expenses
+30142,org.apache.pivot.tutorials.webqueries.ExpensesWindow
+30290,org.apache.pivot.wtk.content.MenuItemDataRenderer
+30296,org.apache.pivot.tutorials.text.SuggestionPopups
+30359,org.apache.pivot.tutorials.explorer.tools.ComponentInspectorSkin
+30366,org.apache.pivot.tests.PanoramaTest
+30584,org.apache.pivot.tutorials.lists.RepeatableListButtons
+30610,org.apache.pivot.tests.ListViewTest2
+30666,org.apache.pivot.collections.concurrent.SynchronizedMap
+30718,org.apache.pivot.web.DeleteQuery
+30802,org.apache.pivot.tutorials.windows.Windows
+31138,org.apache.pivot.wtk.skin.TextPaneSkinComponentNodeView
+31277,org.apache.pivot.tutorials.menus.ContextMenus
+31516,org.apache.pivot.wtk.skin.ExpanderSkin
+31525,org.apache.pivot.wtk.content.AccordionHeaderDataRenderer
+31855,org.apache.pivot.tutorials.navigation.Accordions
+31906,org.apache.pivot.wtk.skin.TextAreaSkinParagraphView
+32087,org.apache.pivot.collections.concurrent.SynchronizedQueue
+32121,org.apache.pivot.tests.ContextMenuTest
+32190,org.apache.pivot.collections.immutable.ImmutableSet
+32604,org.apache.pivot.tutorials.bxmlexplorer.tools.ComponentStyleInspectorSkin
+32764,org.apache.pivot.wtk.skin.ColorChooserSkin
+34084,org.apache.pivot.wtk.skin.RollupSkin
+34095,org.apache.pivot.tests.ExpanderTest
+34106,org.apache.pivot.wtk.content.TableViewHeaderDataRenderer
+34183,org.apache.pivot.tests.SuggestionPopupTest
+34221,org.apache.pivot.tests.LabelTest
+34307,org.apache.pivot.demos.rest.RESTDemoTest
+34646,org.apache.pivot.wtk.content.TableViewTriStateCellRenderer
+34652,org.apache.pivot.web.server.ProxyServlet
+34826,org.apache.pivot.wtk.content.ListViewItemEditor
+34896,org.apache.pivot.sql.ResultList
+34975,org.apache.pivot.tests.FormTest
+34986,org.apache.pivot.wtk.effects.easing.Linear
+35305,org.apache.pivot.tests.issues.Pivot837
+36064,org.apache.pivot.tutorials.HelloJava
+36077,org.apache.pivot.tests.GridPaneTest
+36103,org.apache.pivot.tutorials.localization.Localization
+36151,org.apache.pivot.wtk.skin.ActivityIndicatorSkin
+36201,org.apache.pivot.tests.WatermarkDecoratorTest
+36212,org.apache.pivot.tutorials.stocktracker.ValueMapping
+36256,org.apache.pivot.demos.million.LargeData
+36335,org.apache.pivot.util.test.TimeTest
+36472,org.apache.pivot.tests.ResolveTest
+36501,org.apache.pivot.tests.IterationTest
+36589,org.apache.pivot.tutorials.databinding.PropertyBinding
+36602,org.apache.pivot.wtk.effects.WatermarkDecorator
+36770,org.apache.pivot.collections.test.EnumMapTest
+36798,org.apache.pivot.tutorials.navigation.CardPanes
+36838,org.apache.pivot.tests.TextInputValidatorTest
+36876,org.apache.pivot.wtk.validation.EmptyTextValidator
+37025,org.apache.pivot.collections.test.SynchronizedQueueTest
+37044,org.apache.pivot.collections.ArrayQueue
+37047,org.apache.pivot.tests.PromptTest
+37068,org.apache.pivot.demos.roweditor.CurrencyValidator
+37400,org.apache.pivot.wtk.skin.TextPaneSkinImageNodeView
+37548,org.apache.pivot.wtk.effects.SaturationDecorator
+37629,org.apache.pivot.tests.ResultListTest
+38457,org.apache.pivot.tutorials.backgroundtasks.BackgroundTasks
+38484,org.apache.pivot.collections.test.QueueTest
+38742,org.apache.pivot.tests.DataBindingTest
+39257,org.apache.pivot.tests.issues.pivot861.Pivot861
+39267,org.apache.pivot.tutorials.stocktracker.VolumeMapping
+39357,org.apache.pivot.wtk.content.TableViewDateCellRenderer
+39375,org.apache.pivot.tests.NamespaceTest
+39485,org.apache.pivot.charts.skin.ChartViewSkin
+39542,org.apache.pivot.tutorials.stocktracker.StockQuote
+39626,org.apache.pivot.wtk.skin.TextPaneSkinParagraphView
+39755,org.apache.pivot.wtk.skin.TextPaneSkinBlockView
+39761,org.apache.pivot.web.test.QueryDictionaryTest
+40399,org.apache.pivot.tests.BXMLDictionaryTest
+40430,org.apache.pivot.tests.issues.pivot859.Pivot859
+40549,org.apache.pivot.util.concurrent.TimeoutException
+40628,org.apache.pivot.tests.NativeDragDropTest
+40712,org.apache.pivot.demos.xml.NodeRenderer
+40765,org.apache.pivot.tutorials.stocktracker.StockTracker
+40779,org.apache.pivot.tutorials.stocktracker.StockTrackerWindow
+40897,org.apache.pivot.wtk.skin.TextPaneSkinNumberedListView
+40955,org.apache.pivot.charts.AreaChartView
+40958,org.apache.pivot.tests.ContextMenus
+40972,org.apache.pivot.tests.ListViewTest
+41383,org.apache.pivot.wtk.effects.BlurDecorator
+41421,org.apache.pivot.tests.SpinnerFocusTest
+41619,org.apache.pivot.tests.JSONBeanTest
+41633,org.apache.pivot.charts.PieChartView
+42137,org.apache.pivot.tutorials.progress.Meters
+42420,org.apache.pivot.demos.roweditor.CustomTableRow
+42558,org.apache.pivot.tutorials.stocktracker.ChangeCellRenderer
+42585,org.apache.pivot.tests.TagDecoratorTest
+42596,org.apache.pivot.tutorials.webqueries.ResultItemRenderer
+*Edges: 3231
+38 968 6
+38 913 35
+38 202 6
+38 3837 4
+38 15372 4
+38 1276 17
+38 15375 2
+38 2544 16
+2544 14912 2
+2544 210 1
+4644 17086 3
+4644 1276 4
+4644 210 1
+4644 2544 2
+15372 968 4
+15372 210 4
+15372 4644 5
+15372 2544 2
+19095 19123 17
+19095 2545 1
+40955 9050 1
+25327 9050 1
+9050 45 3
+9050 210 5
+9050 690 2
+23953 9050 1
+21610 9050 1
+41633 9050 1
+23627 1276 2
+18922 18927 1
+22173 690 1
+39485 9050 18
+39485 210 3
+39485 453 18
+690 210 1
+37044 2954 1
+37044 210 1
+37044 690 15
+15692 2954 1
+15692 210 1
+15692 690 14
+22166 210 1
+18559 210 1
+18559 6301 12
+6301 210 1
+1276 2954 1
+1276 210 1
+1276 3837 9
+1276 690 16
+17086 1276 13
+17086 210 1
+3837 210 1
+27437 2954 1
+27437 210 1
+27437 3837 14
+8020 2954 1
+8020 210 1
+8020 3837 13
+12157 2954 1
+12157 210 1
+12681 2954 1
+12681 210 1
+2907 2954 1
+2907 210 1
+14009 2954 1
+14009 210 1
+30666 2954 1
+30666 210 1
+32087 2954 1
+32087 210 1
+20424 2954 1
+20424 210 1
+12058 2954 1
+12058 210 1
+7770 2954 1
+7770 210 1
+8242 2954 1
+8242 210 1
+32190 2954 1
+32190 210 1
+1854 690 38
+22156 22166 4
+36770 18559 12
+20324 1276 47
+17074 17086 33
+18889 3837 53
+18889 690 3
+38484 37044 2
+38484 27437 2
+18207 15692 1
+18207 8020 1
+37025 37044 1
+37025 27437 1
+37025 969 3
+37025 32087 1
+15673 12058 1
+15673 15692 1
+15673 969 3
+15673 8020 1
+12947 38 1
+12947 48 1
+12947 59 5
+12947 45 2
+12947 10064 1
+12947 46 1
+12947 210 1
+12947 47 1
+13359 250 6
+13359 202 1
+13359 59 1
+13359 693 1
+13359 443 2
+13359 12150 1
+13359 1361 1
+13359 247 6
+13359 45 6
+13359 210 6
+20018 250 1
+20018 202 1
+20018 59 1
+20018 12157 1
+20018 247 1
+20018 12150 2
+20018 45 2
+20018 210 3
+20018 204 2
+24102 3648 1
+24102 250 2
+24102 59 5
+24102 43 1
+24102 247 1
+24102 45 3
+24102 44 1
+24102 58 1
+24102 210 1
+21857 697 5
+21857 38 3
+21857 971 2
+21857 117 6
+21857 1361 2
+21857 980 4
+21857 58 1
+21857 204 2
+21857 52 1
+21857 975 2
+21857 250 2
+21857 972 2
+21857 59 3
+21857 969 2
+21857 693 2
+21857 247 3
+21857 45 2
+21857 46 1
+21857 44 1
+21857 47 1
+16875 38 3
+16875 12151 1
+16875 249 4
+16875 1947 1
+16875 58 1
+16875 2545 3
+16875 1782 6
+16875 12152 2
+16875 59 6
+16875 693 1
+16875 12157 2
+16875 1778 3
+16875 45 4
+16875 46 1
+16875 47 1
+16875 1783 9
+29044 250 3
+29044 38 3
+29044 59 3
+29044 247 14
+29044 45 3
+29044 41 2
+29044 46 1
+29044 210 1
+29044 18929 7
+18929 697 1
+18929 1971 5
+36256 250 2
+36256 38 6
+36256 690 1
+36256 59 3
+36256 969 1
+36256 693 2
+36256 43 1
+36256 247 2
+36256 46 1
+36256 210 4
+36256 204 3
+36256 975 1
+36256 287 4
+34307 117 1
+34307 968 3
+34307 18940 3
+34307 30718 2
+34307 2545 1
+34307 971 5
+34307 92 3
+6605 5021 2
+6605 913 3
+6605 119 15
+6605 2545 4
+42420 2418 4
+4025 202 3
+4025 38 1
+4025 46 1
+4025 59 3
+20356 202 1
+20356 59 1
+20356 969 1
+20356 971 1
+20356 693 1
+20356 443 1
+20356 12153 1
+20356 117 2
+20356 980 1
+20356 45 1
+20356 3106 1
+20356 210 1
+20356 975 1
+1976 2008 2
+1976 2009 1
+1976 854 1
+1976 693 6
+1976 443 1
+1976 2010 3
+1976 45 20
+1976 44 2
+1976 58 3
+3309 38 1
+3309 59 2
+3309 3318 1
+3318 913 2
+3318 1469 3
+3318 695 7
+3318 38 1
+3318 12151 1
+3318 4451 6
+3318 249 1
+3318 2425 1
+3318 58 4
+3318 2545 1
+3318 3648 5
+3318 2426 1
+3318 250 2
+3318 202 1
+3318 59 1
+3318 690 9
+3318 693 2
+3318 1948 1
+3318 247 2
+3318 45 16
+3318 2423 15
+3318 210 6
+3318 44 2
+3318 1463 2
+921 973 1
+921 202 1
+921 972 2
+921 59 2
+921 969 3
+921 971 2
+921 117 3
+921 980 3
+921 45 2
+921 210 1
+921 52 3
+921 975 1
+3970 913 1
+3970 38 1
+3970 690 1
+3970 59 1
+3970 43 1
+148 202 1
+148 210 4
+148 204 6
+148 59 1
+4218 4457 27
+4218 203 9
+4218 38 2
+4218 4451 4
+4218 2425 1
+4218 58 1
+4218 4450 1
+4218 692 1
+4218 250 9
+4218 4456 1
+4218 2500 9
+4218 59 4
+4218 690 1
+4218 4461 12
+4218 4458 14
+4218 247 11
+4218 3536 18
+4218 45 4
+4218 210 14
+4218 46 1
+4218 4462 1
+4218 287 10
+40712 1778 1
+40712 2008 2
+40712 45 11
+40712 2009 2
+40712 693 2
+12095 2008 5
+12095 38 3
+12095 12151 1
+12095 3559 2
+12095 249 4
+12095 12153 3
+12095 1947 1
+12095 1276 9
+12095 58 1
+12095 204 4
+12095 12152 2
+12095 59 6
+12095 690 7
+12095 2009 1
+12095 12157 2
+12095 693 1
+12095 1778 5
+12095 45 4
+12095 46 1
+12095 3106 3
+12095 47 1
+18014 18088 2
+27238 18088 2
+25467 25482 2
+25467 1276 1
+25467 59 2
+25482 968 1
+25482 202 1
+25482 59 1
+25482 6443 2
+2502 38 1
+2502 59 3
+2502 47 1
+6475 434 2
+6475 45 7
+21742 202 1
+21742 45 1
+21742 210 1
+21742 59 1
+233 250 1
+233 247 1
+233 202 1
+233 45 1
+233 210 1
+233 59 2
+233 249 1
+13570 2546 4
+13570 250 2
+13570 247 2
+13570 202 3
+13570 210 2
+13570 694 3
+13570 52 3
+13554 250 1
+13554 247 1
+13554 202 1
+13554 210 1
+13554 13570 1
+13554 59 1
+22184 695 1
+22184 202 1
+22184 59 2
+22184 2546 1
+22184 247 1
+22184 45 2
+22184 58 2
+22184 210 2
+22184 694 1
+22184 287 2
+1323 247 1
+1323 45 3
+1323 693 2
+12150 12157 4
+23696 969 3
+968 12681 3
+968 690 1
+968 2544 3
+2545 2815 1
+2545 913 26
+2545 2814 1
+2545 1276 1
+2545 210 1
+2545 690 1
+2545 2544 7
+27636 11070 9
+27636 968 16
+27636 690 6
+27636 1276 1
+27636 27680 2
+27636 1932 4
+27636 2545 6
+27636 27678 2
+17927 968 3
+17927 913 1
+17927 210 2
+17927 2545 12
+11070 1276 3
+11070 690 6
+23460 1276 5
+23460 1932 4
+23458 23460 1
+1929 690 1
+23647 1929 1
+27679 1276 1
+27682 27679 1
+27680 690 9
+27680 1932 7
+27681 27680 1
+9544 2815 1
+9544 913 7
+9544 2814 1
+9544 2092 1
+9544 210 1
+9544 690 12
+9544 2544 2
+5267 12681 1
+18107 9544 18
+18107 1276 5
+18107 210 1
+18107 690 4
+11128 11145 2
+34896 2092 1
+34896 210 1
+34896 690 2
+13205 38 1
+13205 58 1
+13205 46 1
+13205 59 4
+13205 40 2
+16588 38 1
+16588 46 1
+16588 59 3
+40399 38 1
+40399 2545 1
+22996 38 1
+22996 46 1
+22996 59 6
+5318 45 1
+5318 38 1
+5318 48 2
+5318 46 1
+5318 59 3
+19256 250 4
+19256 2419 1
+19256 59 5
+19256 247 8
+19256 44 1
+19256 46 1
+19256 58 4
+19256 210 1
+5269 38 2
+5269 5309 2
+5269 210 1
+5269 46 1
+5269 59 3
+5269 2421 2
+20900 38 3
+20900 2419 2
+20900 48 2
+20900 59 3
+20900 43 1
+20900 45 3
+20900 3106 1
+20900 44 1
+20900 46 1
+20900 210 1
+20900 694 1
+18804 45 1
+18804 210 1
+18804 46 1
+18804 59 6
+18804 2545 1
+18804 443 5
+20770 45 2
+20770 38 2
+20770 48 2
+20770 46 1
+20770 59 3
+20770 287 2
+21618 3648 3
+21618 695 5
+21618 59 6
+21618 693 2
+21618 45 9
+21618 44 1
+21618 46 1
+21618 58 3
+21618 855 1
+32121 45 1
+32121 38 2
+32121 46 1
+32121 59 3
+40958 202 1
+40958 45 1
+40958 59 1
+17422 247 4
+17422 45 5
+17422 40 1
+17422 1310 1
+27727 6293 1
+27727 202 1
+27727 59 1
+27727 52 4
+38742 45 2
+38742 38 1
+38742 1276 5
+38742 46 1
+38742 59 5
+38742 2545 1
+13746 697 1
+13746 1361 3
+13746 45 10
+13746 48 2
+13746 46 1
+13746 59 8
+11169 692 3
+11169 12018 3
+11169 5925 3
+11169 2422 3
+11169 51 4
+11169 143 3
+11169 583 3
+11169 1947 3
+11169 438 3
+11169 1363 3
+11169 696 3
+11152 11169 3
+11152 913 1
+11152 38 1
+11152 2544 7
+34095 38 1
+34095 46 1
+34095 59 3
+12882 2998 2
+12882 250 1
+12882 48 2
+12882 690 4
+12882 59 3
+12882 693 1
+12882 12914 1
+12882 247 1
+12882 45 2
+12882 44 2
+12882 46 1
+12882 58 3
+12882 210 1
+12882 47 1
+12882 287 4
+34975 45 1
+34975 38 1
+34975 48 2
+34975 46 1
+34975 59 3
+36077 38 1
+36077 46 1
+36077 59 3
+41619 2545 1
+14091 913 1
+14091 202 3
+14091 38 11
+14091 46 1
+14091 59 6
+14091 47 1
+9829 45 4
+9829 46 1
+9829 59 7
+9829 693 3
+34221 48 2
+34221 59 4
+34221 854 1
+34221 693 3
+34221 45 11
+34221 44 1
+34221 46 1
+34221 58 3
+3276 697 1
+3276 59 4
+3276 45 4
+3276 44 1
+3276 46 1
+3276 58 3
+3276 210 2
+3276 3306 3
+3276 1971 1
+18722 203 16
+18722 210 1
+18722 46 1
+18722 690 7
+18722 443 23
+18722 7770 1
+40972 46 1
+40972 690 1
+40972 59 4
+40972 443 6
+30610 45 2
+30610 38 1
+30610 46 1
+30610 59 7
+3 38 2
+3 48 3
+3 59 6
+3 45 5
+3 44 1
+3 46 1
+3 58 3
+3 52 6
+3 40 1
+630 643 4
+39375 968 2
+39375 38 3
+39375 46 1
+39375 59 3
+40628 45 5
+40628 48 2
+40628 46 1
+40628 59 2
+40628 693 1
+30366 3108 1
+30366 38 1
+30366 48 4
+30366 59 7
+30366 1361 1
+30366 45 2
+30366 46 1
+30366 22574 1
+37047 3648 1
+37047 250 2
+37047 59 5
+37047 247 1
+37047 45 4
+37047 44 1
+37047 46 1
+37047 58 1
+37047 210 1
+21916 250 1
+21916 45 2
+21916 58 1
+21916 46 1
+21916 44 1
+21916 59 6
+36472 38 2
+36472 46 1
+36472 59 3
+37629 34896 9
+37629 2545 4
+13181 38 1
+13181 46 1
+13181 59 3
+650 697 1
+650 695 6
+650 48 2
+650 249 1
+650 41 1
+650 58 2
+650 250 2
+650 59 5
+650 693 3
+650 247 2
+650 45 13
+650 698 1
+650 210 4
+650 46 2
+650 44 2
+650 694 2
+17096 46 1
+17096 41 2
+17096 690 3
+17096 47 1
+17096 3249 2
+16367 2028 4
+16367 38 5
+16367 210 2
+16367 46 1
+16367 59 6
+16367 693 2
+41421 38 2
+41421 2423 1
+41421 58 1
+41421 48 2
+41421 46 1
+41421 59 3
+41421 40 1
+8829 58 1
+8829 46 1
+8829 969 1
+8829 975 1
+22008 38 1
+22008 46 1
+22008 59 6
+34183 973 1
+34183 38 2
+34183 210 1
+34183 46 1
+34183 59 3
+34183 52 2
+34183 693 1
+23068 38 1
+23068 46 1
+23068 59 3
+11277 968 1
+11277 7777 1
+27688 45 2
+27688 38 2
+27688 46 1
+27688 204 2
+27688 59 4
+27688 3559 2
+27688 3014 3
+42585 2837 1
+42585 697 1
+42585 45 2
+42585 48 2
+42585 46 1
+42585 59 3
+36838 38 14
+36838 1531 1
+36838 19001 1
+36838 26731 1
+36838 52 34
+36838 1501 1
+36838 8784 1
+36838 59 6
+36838 1896 2
+36838 693 2
+36838 36876 1
+36838 1829 1
+36838 210 2
+36838 46 1
+36838 2024 2
+36838 10714 1
+36201 38 1
+36201 46 1
+36201 59 3
+26194 45 2
+26194 58 7
+26194 48 4
+26194 46 1
+26194 44 2
+26194 59 4
+26194 52 8
+26939 45 25
+26939 210 1
+26939 48 8
+26939 46 1
+26939 59 26
+26939 3496 2
+26939 693 3
+26939 43 2
+27705 250 1
+27705 38 4
+27705 59 3
+27705 247 1
+27705 45 4
+27705 46 1
+27705 210 1
+27705 52 1
+26677 250 2
+26677 38 16
+26677 5309 2
+26677 59 3
+26677 443 2
+26677 1778 2
+26677 247 2
+26677 45 5
+26677 2423 2
+26677 46 1
+26677 210 2
+26677 204 2
+26677 287 2
+7974 913 1
+7974 38 3
+7974 5309 1
+7974 48 2
+7974 690 3
+7974 59 7
+7974 3249 3
+7974 45 1
+7974 46 1
+7974 210 1
+7974 287 1
+22046 1778 2
+22046 250 2
+22046 247 2
+22046 38 7
+22046 210 4
+22046 46 1
+22046 59 3
+22046 443 2
+21596 247 2
+21596 38 3
+21596 46 1
+21596 59 3
+21596 1308 2
+4962 1778 2
+4962 250 2
+4962 247 2
+4962 45 1
+4962 38 5
+4962 210 3
+4962 46 1
+4962 59 3
+8284 1778 2
+8284 250 2
+8284 247 2
+8284 45 1
+8284 38 5
+8284 210 3
+8284 46 1
+8284 59 3
+20387 45 2
+20387 38 1
+20387 46 1
+20387 59 4
+18092 210 1
+18092 6443 11
+18092 693 4
+18690 247 1
+18690 1284 2
+18690 210 1
+18690 46 1
+18690 59 3
+10104 2998 2
+10104 210 1
+10104 46 1
+10104 59 5
+8885 3108 2
+8885 48 1
+8885 690 1
+8885 59 4
+8885 854 1
+8885 693 1
+8885 443 4
+8885 1568 3
+8885 45 6
+8885 44 2
+8885 46 1
+8885 58 4
+8885 210 2
+8885 47 1
+7109 250 2
+7109 247 2
+7109 38 2
+7109 210 2
+7109 46 1
+7109 59 2
+6594 38 1
+6594 46 1
+6594 59 1
+35305 38 1
+35305 46 1
+35305 59 1
+6541 46 1
+6541 59 2
+5368 210 2
+5368 46 1
+5368 59 2
+5368 3559 4
+19131 250 2
+19131 247 2
+19131 38 2
+19131 210 2
+19131 46 1
+19131 59 2
+40430 11145 1
+40430 250 2
+40430 247 2
+40430 38 7
+40430 210 2
+40430 46 1
+40430 59 3
+40430 52 3
+40430 3559 3
+40430 693 2
+8744 250 1
+8744 247 1
+8744 202 1
+8744 38 1
+8744 59 2
+8744 43 1
+39257 8744 1
+39257 46 1
+39257 59 1
+8763 913 1
+8763 250 1
+8763 247 1
+8763 202 1
+8763 38 1
+8763 210 1
+8763 3249 1
+20089 45 1
+20089 3106 1
+20089 46 1
+20089 59 2
+20089 43 1
+26982 38 1
+26982 46 1
+26982 59 3
+26982 47 1
+36064 45 4
+36064 46 1
+36064 59 7
+36064 47 1
+36064 693 2
+28331 79 1
+28331 38 17
+28331 59 3
+28331 249 1
+28331 43 3
+28331 46 1
+28331 145 30
+28331 210 15
+28331 47 1
+38457 250 2
+38457 247 2
+38457 202 1
+38457 972 1
+38457 210 2
+38457 59 1
+11287 969 1
+9296 2028 3
+9296 202 1
+9296 210 1
+9296 59 1
+9296 693 2
+22900 250 1
+22900 247 1
+22900 202 1
+22900 210 1
+22900 59 1
+22887 250 1
+22887 247 1
+22887 202 1
+22887 210 1
+22887 59 1
+6447 6358 1
+6447 38 2
+6447 46 1
+6447 41 1
+6447 59 3
+6447 3559 3
+6454 695 1
+6454 38 3
+6454 5366 1
+6454 25460 1
+6454 58 1
+6454 2544 3
+6454 1782 9
+6454 250 1
+6454 202 1
+6454 2500 2
+6454 25461 1
+6454 1778 8
+6454 247 1
+6454 45 2
+6454 210 3
+6454 3106 2
+6454 1783 9
+6358 2998 2
+6358 250 1
+6358 202 1
+6358 59 1
+6358 6443 3
+6358 6442 2
+6358 1568 1
+6358 247 2
+6358 210 1
+6358 40 5
+18432 1783 1
+13596 4459 1
+13596 4457 5
+13596 4456 3
+13596 46 1
+13596 4461 2
+5366 45 4
+5366 210 2
+5366 58 3
+5366 59 10
+5366 11246 1
+11246 697 5
+11246 1469 7
+11246 695 4
+11246 5366 15
+11246 1361 5
+11246 58 7
+11246 856 4
+11246 1465 2
+11246 434 1
+11246 693 2
+11246 854 4
+11246 1229 3
+11246 853 1
+11246 45 29
+11246 210 1
+11246 44 2
+11246 1463 1
+11246 453 10
+4648 45 3
+4648 210 1
+4648 58 1
+4646 4451 4
+4646 249 1
+4646 1531 1
+4646 2546 17
+4646 1276 16
+4646 58 80
+4646 4450 1
+4646 52 125
+4646 856 2
+4646 3652 19
+4646 5309 4
+4646 59 1
+4646 690 3
+4646 4648 2
+4646 693 19
+4646 1829 1
+4646 247 3
+4646 45 102
+4646 210 28
+4646 44 7
+4646 453 2
+4646 287 5
+4646 2019 20
+25460 45 2
+25460 4648 2
+4604 2546 1
+4604 1276 3
+4604 210 2
+4604 4646 3
+4604 4644 5
+4604 4648 1
+4604 2544 4
+25461 45 2
+25461 32604 1
+25461 4648 2
+32604 2546 1
+32604 45 3
+32604 210 2
+32604 4646 3
+32604 690 1
+32604 4648 1
+2547 2551 4
+2547 2549 3
+2518 250 3
+2518 202 1
+2518 2547 1
+2518 59 1
+2518 693 1
+2518 247 3
+2518 2546 1
+2518 210 3
+36589 202 1
+36589 59 1
+36589 15372 4
+23030 10064 2
+23030 45 8
+23030 1466 7
+23007 23030 1
+23007 250 4
+23007 247 4
+23007 202 1
+23007 210 4
+23007 59 1
+10088 38 2
+10088 46 1
+10088 59 2
+10088 10100 2
+10100 4181 1
+10100 3648 1
+10100 202 1
+10100 2419 4
+10100 59 2
+10100 3559 1
+10100 6442 3
+10100 43 1
+10100 1568 1
+10100 1778 5
+10100 247 10
+10100 45 2
+10100 10124 1
+10100 210 4
+10100 1783 1
+10100 22704 1
+20806 1783 1
+17974 45 2
+17974 210 1
+17974 51 3
+17986 210 1
+17986 453 8
+17986 17974 5
+10128 45 3
+10128 210 1
+10128 58 1
+30359 4451 4
+30359 10128 2
+30359 249 1
+30359 1531 1
+30359 2546 17
+30359 1276 16
+30359 58 80
+30359 4450 1
+30359 52 125
+30359 856 2
+30359 3652 19
+30359 5309 4
+30359 59 1
+30359 690 3
+30359 693 19
+30359 1829 1
+30359 247 3
+30359 45 102
+30359 210 28
+30359 44 7
+30359 453 2
+30359 287 5
+30359 2019 20
+22704 45 2
+22704 10128 2
+28327 2546 1
+28327 1276 3
+28327 210 2
+28327 30359 3
+28327 4644 5
+28327 10128 1
+28327 2544 4
+10124 45 2
+10124 10128 2
+10124 10129 1
+10129 2546 1
+10129 45 3
+10129 210 2
+10129 30359 3
+10129 690 1
+10129 10128 1
+4181 17086 5
+4181 45 7
+4181 1276 4
+4181 210 1
+4181 58 1
+4080 4181 7
+4080 913 1
+4080 38 4
+4080 690 3
+4080 43 1
+4080 1778 8
+4080 45 8
+4080 1276 5
+4080 58 1
+4080 210 2
+4080 204 3
+4080 856 2
+4080 1782 1
+4080 453 2
+21575 250 1
+21575 247 1
+21575 202 1
+21575 2419 1
+21575 210 1
+21575 59 1
+23408 9752 8
+23408 247 18
+23408 202 1
+23408 45 3
+23408 210 9
+23408 44 2
+23408 4450 1
+23408 59 1
+12840 9752 2
+12840 247 4
+12840 3651 2
+12840 202 1
+12840 210 2
+12840 59 1
+19476 9752 3
+19476 3652 1
+19476 202 1
+19476 59 1
+19476 247 8
+19476 45 2
+19476 210 4
+19476 4450 1
+12179 250 1
+12179 247 1
+12179 202 1
+12179 210 1
+12179 44 1
+12179 59 1
+12179 52 2
+12179 693 1
+19993 695 1
+19993 202 1
+19993 45 1
+19993 210 1
+19993 59 1
+11768 695 1
+11768 202 1
+11768 45 1
+11768 59 1
+11768 40 1
+21640 1361 1
+21640 202 1
+21640 210 1
+21640 59 1
+21640 287 3
+18217 202 1
+18217 210 1
+18217 59 1
+18217 693 1
+18217 443 2
+30584 202 1
+30584 690 1
+30584 59 1
+30584 247 1
+30584 44 1
+30584 58 1
+30584 210 1
+30584 4450 1
+30584 40 3
+30584 287 1
+36103 202 1
+36103 38 1
+36103 46 1
+36103 1463 3
+36103 59 3
+31277 202 1
+31277 45 1
+31277 59 1
+12198 2998 1
+12198 202 1
+12198 48 1
+12198 40 5
+12198 6443 1
+18744 202 1
+18744 44 1
+18744 59 1
+18744 40 3
+31855 202 1
+31855 45 1
+31855 210 1
+31855 59 1
+31855 3892 4
+36798 9752 7
+36798 202 1
+36798 59 1
+36798 247 19
+36798 45 8
+36798 58 1
+36798 210 11
+36798 3106 3
+36798 4450 1
+36798 3306 2
+8810 45 2
+8810 210 1
+8810 51 3
+8823 210 1
+8823 8810 5
+8823 453 8
+18761 9752 2
+18761 202 1
+18761 59 1
+18761 249 1
+18761 6443 8
+18761 247 7
+18761 45 2
+18761 44 1
+18761 210 5
+18761 4450 2
+8768 250 1
+8768 247 2
+8768 202 1
+8768 972 4
+8768 210 1
+8768 59 1
+42137 250 1
+42137 247 3
+42137 202 1
+42137 8878 1
+42137 210 1
+42137 59 1
+21657 38 4
+21657 46 1
+21657 59 3
+42558 45 1
+42558 39542 1
+42558 16931 1
+42558 7777 1
+40765 40779 1
+40765 38 1
+40765 46 1
+40765 59 2
+40779 971 2
+40779 43 1
+40779 117 3
+40779 5924 1
+40779 980 2
+40779 58 1
+40779 204 7
+40779 52 2
+40779 2544 1
+40779 975 1
+40779 202 1
+40779 9544 1
+40779 59 3
+40779 690 12
+40779 969 3
+40779 693 1
+40779 247 6
+40779 45 3
+40779 44 1
+40779 210 7
+40779 40 3
+27410 697 4
+27410 8877 1
+30296 973 2
+30296 202 1
+30296 45 1
+30296 210 1
+30296 690 53
+30296 59 2
+30296 52 2
+20221 202 1
+20221 45 1
+20221 210 1
+20221 690 53
+20221 59 2
+20221 52 2
+9034 2418 1
+9034 9043 1
+13572 250 2
+13572 202 4
+13572 2418 1
+13572 2546 4
+13572 247 2
+13572 2423 2
+13572 58 1
+13572 210 2
+13572 52 2
+13572 694 2
+13572 287 2
+30121 38 2
+30121 46 1
+30121 59 2
+30121 30142 2
+30121 43 1
+30142 968 2
+30142 913 1
+30142 38 2
+30142 249 2
+30142 971 1
+30142 58 2
+30142 13572 2
+30142 204 4
+30142 975 1
+30142 202 4
+30142 972 2
+30142 59 2
+30142 690 1
+30142 969 1
+30142 210 1
+30142 44 1
+30142 30121 6
+30142 694 3
+30142 40 4
+42596 968 7
+42596 45 17
+42596 58 3
+42596 44 2
+42596 854 1
+42596 693 7
+42596 443 1
+19517 38 3
+19517 59 3
+19517 969 1
+19517 971 1
+19517 693 1
+19517 443 1
+19517 117 2
+19517 980 2
+19517 46 1
+19517 975 1
+9507 5021 2
+9507 913 1
+9507 9544 2
+9507 1276 1
+9507 119 6
+9507 9545 3
+30802 913 1
+30802 45 1
+30802 38 3
+30802 58 2
+30802 46 1
+30802 59 4
+30802 47 2
+2418 9500 2
+25090 2954 1
+25090 1276 8
+643 1276 6
+643 210 3
+202 2954 1
+202 2545 2
+21707 17086 6
+21707 2954 1
+21707 969 11
+21708 13280 1
+21708 2954 1
+21708 690 11
+21708 969 13
+21674 21707 4
+21674 969 2
+21674 21708 4
+25087 25090 5
+9387 202 26
+36335 9500 21
+16390 117 2
+16390 980 1
+16390 16402 1
+30718 117 2
+971 117 2
+18940 117 5
+18940 980 1
+92 117 3
+117 913 1
+117 980 13
+117 23696 2
+117 210 1
+117 119 1
+980 1276 12
+980 690 17
+119 8877 3
+5021 913 4
+5021 980 10
+5021 119 12
+39761 980 24
+3892 45 13
+3892 210 3
+3892 58 3
+3892 690 4
+40 45 1
+40 1276 1
+40 210 2
+972 45 2
+972 210 1
+41 913 1
+41 583 12
+41 202 8
+41 45 11
+41 210 1
+41 690 5
+41 59 13
+41 2545 1
+41 3249 3
+43 1947 7
+43 913 1
+43 79 4
+43 1276 1
+43 58 1
+43 690 2
+43 2545 2
+6025 45 2
+6025 1276 4
+3648 45 5
+3648 210 1
+3648 58 5
+434 913 1
+434 853 3
+434 1949 5
+434 2545 1
+44 45 1
+44 210 1
+44 58 1
+44 51 4
+8124 690 2
+8124 43 1
+247 968 9
+247 45 2
+247 2419 8
+247 210 6
+247 40 9
+247 1363 9
+2419 17086 5
+2419 247 14
+2419 2954 1
+2419 210 1
+2421 968 3
+2421 913 1
+2421 2418 7
+2421 45 1
+2421 58 1
+2421 210 3
+2421 1363 3
+2421 2545 1
+5309 968 3
+5309 913 1
+5309 59 1
+5309 2418 8
+5309 247 3
+5309 45 3
+5309 210 2
+5309 1363 3
+5309 2545 1
+3106 45 3
+3106 210 1
+3106 58 5
+4450 247 10
+4450 45 1
+12151 10662 1
+12151 10664 1
+12151 1948 3
+16825 968 3
+16825 45 1
+16825 210 2
+16825 58 1
+16825 1363 3
+4451 968 3
+4451 247 3
+4451 45 3
+4451 210 2
+4451 59 1
+4451 1363 3
+45 43 1
+45 1276 10
+45 58 20
+45 2545 1
+45 2544 2
+45 6025 2
+45 3700 12
+45 434 15
+45 3108 7
+45 3837 2
+45 59 3
+45 690 1
+45 2422 3
+45 444 1
+45 853 10
+45 210 11
+45 1949 15
+45 1463 3
+45 47 4
+45 438 1
+58 434 5
+58 2954 1
+58 690 14
+58 444 3
+58 5924 1
+58 45 118
+58 210 2
+58 438 1
+3561 913 1
+3561 2545 1
+46 1276 3
+46 41 1
+46 690 3
+46 59 1
+46 3559 3
+46 47 3
+46 43 4
+3249 45 6
+3249 210 2
+3249 48 2
+3249 59 10
+3249 47 2
+853 913 1
+853 2545 1
+47 6025 2
+47 45 3
+47 58 4
+47 6024 1
+19331 45 4
+19331 210 1
+19331 58 5
+13153 12150 4
+13153 45 2
+13153 210 1
+13153 58 1
+13153 690 1
+13153 12157 6
+13153 7770 2
+2998 12150 3
+2998 45 1
+2998 210 1
+2998 694 1
+2998 690 1
+2998 12157 3
+2998 7770 2
+3651 45 1
+3651 210 1
+3651 58 1
+3651 51 4
+3652 45 1
+3652 58 1
+2546 583 2
+2546 45 28
+2546 210 2
+2546 58 3
+2546 690 1
+48 49 3
+48 45 7
+48 210 1
+48 58 4
+48 3837 4
+48 59 7
+1229 968 21
+1229 913 1
+1229 51 2
+1229 2545 1
+1230 434 2
+1230 45 7
+1230 210 1
+1230 58 3
+1230 690 2
+1361 697 6
+1361 968 3
+1361 690 2
+1361 43 1
+1361 45 3
+1361 210 2
+1361 1276 4
+1361 1363 3
+1361 975 1
+854 913 1
+854 2545 1
+439 1947 1
+693 968 3
+693 45 3
+693 210 2
+693 1363 3
+3700 913 1
+3700 2545 1
+3306 247 3
+3306 45 1
+287 968 6
+287 913 2
+287 690 3
+287 59 1
+287 247 3
+287 45 4
+287 210 6
+287 1363 6
+287 2545 2
+443 968 13
+443 913 3
+443 434 1
+443 203 5
+443 690 24
+443 45 7
+443 210 7
+443 7690 17
+443 1363 12
+443 2545 3
+443 7770 3
+1948 697 3
+1948 12150 3
+1948 1276 4
+10662 698 1
+10662 690 5
+10662 12157 1
+10662 1948 9
+1310 45 1
+1310 210 2
+1310 58 3
+1310 690 1
+49 45 1
+49 210 1
+49 58 3
+49 690 8
+1284 247 2
+1284 45 3
+1284 210 1
+1284 59 1
+1284 1310 4
+8427 45 3
+8427 1949 2
+8427 210 2
+8427 59 10
+8427 47 3
+8427 1310 4
+8878 45 2
+8878 210 1
+8878 51 4
+444 45 17
+444 58 2
+444 2422 1
+444 47 3
+3654 45 2
+3654 210 1
+3654 10788 4
+3496 45 3
+3496 59 4
+3655 45 1
+3655 58 1
+22574 3108 2
+22574 45 2
+1949 913 1
+1949 2545 1
+249 913 1
+249 202 2
+249 690 5
+249 59 5
+249 583 9
+249 45 8
+249 210 1
+249 694 2
+249 2545 1
+250 247 13
+250 45 1
+9752 247 7
+9752 45 1
+9752 2419 2
+25695 247 5
+25695 45 3
+25695 2954 1
+25695 2419 8
+25695 210 1
+25695 690 1
+7690 203 21
+7690 690 53
+7690 7770 2
+10664 697 1
+10664 12150 4
+10664 698 1
+145 45 9
+145 210 2
+145 58 7
+19044 202 1
+19044 38 2
+19044 46 1
+19044 59 3
+19044 47 1
+19044 43 1
+7071 203 5
+7071 45 1
+7071 210 2
+7071 58 1
+7071 51 4
+1568 3108 5
+1568 45 11
+1568 210 1
+1568 58 7
+3656 45 2
+3656 210 1
+694 45 3
+694 210 1
+694 59 12
+694 47 1
+2028 203 3
+2028 45 1
+2028 210 2
+2028 58 1
+2028 51 4
+203 913 1
+203 2545 1
+2423 968 6
+2423 913 1
+2423 434 1
+2423 690 2
+2423 45 4
+2423 58 1
+2423 210 6
+2423 1363 6
+2423 2545 1
+2423 7770 1
+6442 45 19
+6442 210 1
+6442 58 7
+6442 51 5
+855 45 1
+855 58 1
+973 45 3
+973 210 6
+973 690 1
+973 59 7
+973 52 4
+6443 45 17
+6443 210 3
+6443 58 5
+6443 690 6
+695 434 2
+695 45 17
+695 210 2
+695 58 3
+695 690 6
+204 968 9
+204 913 4
+204 434 3
+204 203 5
+204 5925 2
+204 690 21
+204 45 9
+204 210 8
+204 1276 6
+204 7690 17
+204 2545 4
+204 1363 9
+204 7770 1
+9769 434 1
+9769 45 5
+9769 210 2
+9769 204 4
+975 969 2
+975 43 2
+3559 968 3
+3559 434 1
+3559 203 4
+3559 12151 2
+3559 3837 7
+3559 690 17
+3559 1948 1
+3559 45 18
+3559 210 4
+3559 1363 3
+52 968 3
+52 434 1
+52 203 4
+52 12151 2
+52 3837 7
+52 1948 1
+52 45 7
+52 210 4
+52 1363 3
+2500 697 1
+2500 4457 40
+2500 203 4
+2500 12151 3
+2500 19391 2
+2500 58 4
+2500 434 1
+2500 4456 4
+2500 3837 7
+2500 4458 9
+2500 4460 3
+2500 1948 2
+2500 3536 5
+2500 45 11
+2500 4459 6
+2500 210 5
+1463 1276 4
+1464 45 2
+1464 59 2
+1778 434 1
+1778 45 7
+1778 210 5
+1778 690 41
+1778 7770 3
+3108 434 1
+3108 45 5
+3108 210 1
+3108 58 6
+1314 210 1
+59 697 1
+59 692 2
+59 434 3
+59 690 14
+59 439 1
+59 45 31
+59 1949 1
+59 1276 2
+59 58 22
+59 210 4
+59 40 2
+59 47 2
+59 696 2
+31525 45 1
+31525 1308 1
+1971 697 6
+1308 1361 3
+1308 247 1
+1308 45 31
+1308 58 2
+1308 44 1
+1308 1971 3
+1308 693 2
+12826 2418 1
+12826 45 1
+12826 5309 1
+12826 1308 2
+9043 2418 13
+9043 210 1
+5221 1229 1
+14068 1361 2
+14068 247 1
+14068 695 4
+14068 45 17
+14068 1971 3
+14068 693 2
+12649 1361 2
+12649 247 1
+12649 45 3
+12649 5221 1
+12649 1229 1
+4454 7812 2
+4454 45 1
+4454 1971 1
+4454 1308 2
+7812 697 6
+11339 7812 2
+11339 45 1
+11339 5221 4
+11339 4455 3
+11339 1229 1
+34826 434 2
+34826 59 7
+34826 4455 3
+34826 443 10
+34826 7812 2
+34826 45 12
+34826 58 3
+34826 210 2
+34826 52 5
+4455 434 1
+4455 854 1
+4455 693 2
+4455 443 2
+4455 7812 3
+4455 1361 2
+4455 45 28
+4455 44 1
+4455 58 2
+30113 854 1
+30113 693 2
+30113 247 1
+30113 1361 2
+30113 45 20
+30113 44 1
+30113 58 2
+30113 1971 3
+8736 45 1
+8736 1308 2
+1952 697 3
+1952 1971 2
+30290 695 4
+30290 1952 1
+30290 854 2
+30290 693 4
+30290 247 2
+30290 1361 2
+30290 45 26
+30290 44 1
+30290 58 2
+30290 1971 3
+2425 210 1
+2426 45 10
+2426 2423 2
+2426 854 1
+2426 693 2
+5242 5244 2
+7777 968 1
+7777 45 8
+7777 204 2
+7777 854 1
+7777 693 2
+5244 247 6
+5244 45 6
+5244 58 1
+5244 44 1
+5244 4450 1
+5244 204 1
+39357 2418 1
+39357 968 1
+39357 7777 1
+23250 968 1
+23250 45 2
+23250 854 1
+23250 23257 2
+23250 7777 1
+28729 697 6
+34106 9769 1
+34106 854 1
+34106 693 2
+34106 1361 2
+34106 45 16
+34106 44 1
+34106 58 2
+34106 28729 3
+11251 1361 2
+11251 968 1
+11251 45 5
+11251 204 1
+25188 968 2
+25188 853 2
+25188 1276 5
+25188 204 1
+16931 968 1
+16931 45 2
+16931 854 1
+16931 7777 1
+207 204 3
+207 2544 2
+3014 3108 4
+3014 695 4
+3014 59 7
+3014 1568 2
+3014 1361 1
+3014 45 20
+3014 3106 5
+3014 58 6
+3014 210 4
+3014 1276 2
+3014 52 3
+3014 204 10
+19016 968 1
+19016 45 7
+19016 204 2
+19016 3559 2
+19016 854 1
+34646 247 1
+34646 5244 2
+1782 697 8
+1782 2954 1
+1782 210 1
+1782 690 19
+1782 1783 18
+1783 697 6
+1783 1782 3
+18631 1778 11
+18631 434 2
+18631 45 12
+18631 210 2
+18631 58 3
+18631 59 7
+18631 52 5
+18631 1734 3
+18631 1783 2
+1734 434 1
+1734 693 2
+1734 1778 1
+1734 1361 2
+1734 45 29
+1734 44 2
+1734 58 2
+1734 1783 4
+1734 1782 1
+16570 434 2
+16570 45 9
+16570 1229 1
+41383 434 2
+41383 45 7
+29991 853 2
+29991 434 2
+29991 45 3
+29991 1949 2
+1465 434 4
+1465 45 8
+1465 1229 1
+10064 434 2
+10064 45 5
+10052 10064 2
+10052 45 6
+10052 1466 5
+18303 434 2
+18303 45 7
+12152 434 2
+12152 45 13
+20782 434 2
+20782 45 9
+587 434 2
+587 45 9
+37548 434 2
+37548 45 7
+21217 692 3
+21217 5924 1
+21217 434 2
+21217 45 14
+21217 696 3
+10656 434 2
+10656 45 8
+10656 1229 1
+2837 692 4
+2837 434 3
+2837 45 7
+2837 696 4
+1466 43 1
+19975 434 3
+19975 45 8
+19975 1949 3
+36602 697 5
+36602 913 1
+36602 434 2
+36602 693 4
+36602 1361 4
+36602 45 23
+36602 44 1
+36602 58 3
+36602 1463 1
+36602 2545 1
+23698 697 1
+697 853 2
+697 210 1
+697 8877 1
+697 969 1
+697 43 2
+10788 853 2
+10788 210 1
+10788 43 1
+698 697 1
+36151 972 1
+36151 210 1
+36151 453 2
+3632 3648 14
+3632 1229 3
+3632 854 6
+3632 5924 7
+3632 853 1
+3632 45 7
+3632 210 1
+3632 1463 3
+3632 856 3
+3632 453 19
+3632 3561 6
+3633 692 3
+3633 854 6
+3633 853 2
+3633 45 34
+3633 44 7
+3633 58 15
+3633 210 1
+3633 856 2
+3633 453 13
+3633 696 3
+446 247 11
+446 45 1
+446 2419 1
+446 210 3
+446 40 1
+446 453 13
+14308 5309 13
+14308 59 12
+14308 2418 1
+14308 247 1
+14308 446 5
+14308 45 6
+14308 58 1
+14308 210 6
+14308 453 11
+14308 2421 11
+2427 210 2
+2427 856 2
+2427 2421 2
+3110 854 6
+3110 1466 10
+3110 143 2
+3110 853 1
+3110 45 20
+3110 58 4
+3110 210 1
+3110 3106 11
+3110 856 4
+3110 453 13
+22711 446 1
+22711 45 1
+22711 4450 2
+22711 453 4
+3634 16825 3
+3634 4451 3
+3634 59 10
+3634 247 1
+3634 446 5
+3634 45 6
+3634 58 1
+3634 210 4
+3634 453 11
+32764 16825 2
+32764 210 1
+32764 856 2
+453 1464 1
+453 913 1
+453 434 1
+453 2422 1
+453 59 1
+453 693 1
+453 439 1
+453 853 2
+453 45 59
+453 58 1
+453 210 7
+453 1463 1
+453 2545 1
+856 210 2
+856 58 11
+856 1229 3
+856 453 5
+6024 45 7
+6024 59 1
+6024 856 2
+6024 453 1
+31516 143 2
+31516 45 1
+31516 210 1
+31516 856 2
+31516 19331 7
+19251 210 1
+19251 856 2
+19251 13153 1
+3635 3651 7
+3635 854 6
+3635 853 2
+3635 45 25
+3635 58 16
+3635 210 1
+3635 856 2
+3635 453 10
+3636 692 3
+3636 853 1
+3636 45 27
+3636 58 12
+3636 690 10
+3636 856 1
+3636 854 6
+3636 453 11
+1571 453 1
+1006 434 4
+1006 1229 4
+1006 854 6
+1006 853 1
+1006 45 12
+1006 1230 20
+1006 210 1
+1006 856 3
+1006 453 29
+3637 697 7
+3637 692 3
+3637 1229 1
+3637 853 2
+3637 1361 11
+3637 210 4
+3637 453 19
+3637 696 3
+3638 692 3
+3638 12018 3
+3638 690 6
+3638 1229 3
+3638 854 6
+3638 693 8
+3638 5924 6
+3638 853 1
+3638 45 1
+3638 210 1
+3638 1463 3
+3638 453 23
+3638 696 3
+11766 446 1
+11766 247 1
+11766 453 2
+289 434 3
+289 59 13
+289 443 9
+289 439 1
+289 247 4
+289 446 5
+289 45 8
+289 58 1
+289 210 5
+289 453 18
+289 287 31
+13979 49 1
+13979 59 2
+13979 247 1
+13979 446 4
+13979 45 6
+13979 58 1
+13979 210 3
+13979 8427 6
+13979 453 9
+13979 1310 1
+8363 1284 4
+8363 59 6
+8363 247 1
+8363 446 4
+8363 45 3
+8363 210 3
+8363 8427 7
+8363 453 12
+8363 1310 1
+20179 59 4
+20179 43 1
+20179 446 5
+20179 45 10
+20179 58 1
+20179 210 2
+20179 8427 5
+20179 453 10
+20179 1310 1
+3639 692 3
+3639 10788 4
+3639 1229 1
+3639 3654 9
+3639 853 2
+3639 210 4
+3639 453 16
+3639 696 3
+3640 856 1
+16565 446 4
+16565 250 2
+16565 453 11
+9949 9752 2
+9949 446 1
+9949 45 1
+9949 453 4
+34084 143 2
+34084 210 2
+34084 145 4
+34084 856 2
+1837 434 2
+1837 3108 41
+1837 1568 33
+1837 439 1
+1837 853 1
+1837 45 111
+1837 46 1
+1837 58 12
+1837 210 4
+1837 856 3
+1837 47 1
+1837 7071 26
+1837 453 28
+3641 1229 2
+3641 854 7
+3641 853 1
+3641 5924 4
+3641 210 1
+3641 1463 3
+3641 453 14
+3641 3656 6
+27233 2028 2
+27233 210 2
+27233 856 2
+813 853 1
+813 45 5
+813 856 1
+813 854 6
+813 453 7
+3642 453 1
+3643 434 6
+3643 695 45
+3643 1229 5
+3643 854 6
+3643 853 1
+3643 45 19
+3643 210 2
+3643 856 3
+3643 453 37
+1610 434 4
+1610 690 32
+1610 3559 110
+1610 1229 7
+1610 854 7
+1610 43 2
+1610 439 8
+1610 5924 6
+1610 444 6
+1610 853 4
+1610 45 14
+1610 210 5
+1610 31906 52
+1610 1463 3
+1610 453 46
+31906 434 2
+31906 7573 2
+31906 203 3
+31906 690 18
+31906 3559 4
+31906 1610 10
+31906 5924 4
+31906 45 2
+31906 453 3
+3644 3894 1
+3644 4457 11
+3644 25314 3
+3644 43 2
+3644 21937 1
+3644 23051 8
+3644 5924 3
+3644 58 1
+3644 17240 1
+3644 856 3
+3644 40897 1
+3644 434 4
+3644 31138 1
+3644 4456 1
+3644 2500 68
+3644 3927 10
+3644 4458 1
+3644 854 6
+3644 1229 6
+3644 18423 6
+3644 439 14
+3644 444 6
+3644 853 1
+3644 45 12
+3644 39626 1
+3644 210 2
+3644 1463 3
+3644 3914 1
+3644 453 31
+3644 37400 1
+39755 18423 4
+39755 692 1
+39755 210 2
+39755 3927 3
+39755 4462 4
+3894 18423 2
+3894 23051 1
+3894 3913 2
+3894 210 2
+3894 3927 4
+3894 3911 5
+3894 3914 3
+31138 853 2
+31138 434 1
+31138 45 14
+31138 210 5
+31138 3927 15
+31138 19391 10
+25314 23051 2
+25314 4456 1
+25314 3644 2
+25314 3927 2
+25314 453 2
+18423 434 6
+18423 4457 12
+18423 3644 7
+18423 2954 1
+18423 210 2
+18423 3927 44
+18423 690 9
+18423 4458 1
+37400 697 8
+37400 7642 10
+37400 853 2
+37400 434 1
+37400 210 5
+37400 3927 17
+3914 18423 3
+3914 23051 2
+3914 3536 3
+3914 3927 12
+3914 17240 3
+3913 23051 2
+3913 6287 1
+3927 18423 3
+3927 853 3
+3927 434 3
+3927 4457 1
+3927 3644 1
+3927 1949 2
+3927 210 2
+3927 4458 13
+40897 18423 2
+40897 6259 5
+40897 23051 1
+40897 3913 2
+40897 210 2
+40897 3927 4
+40897 3914 6
+39626 434 8
+39626 3644 2
+39626 3927 50
+39626 690 44
+39626 18423 2
+39626 21937 1
+39626 853 1
+39626 5924 2
+39626 4459 1
+39626 17240 1
+39626 39755 2
+21937 18423 20
+21937 853 1
+21937 4457 1
+21937 3927 14
+21937 17240 2
+21937 4461 1
+17240 434 1
+17240 7573 20
+17240 4457 4
+17240 3644 7
+17240 203 3
+17240 2500 3
+17240 3927 31
+17240 4458 8
+17240 5924 5
+17240 853 1
+17240 3536 13
+17240 45 2
+17240 210 2
+17240 453 1
+23051 18423 13
+23051 853 1
+23051 4457 1
+23051 3927 30
+1468 697 2
+1468 434 2
+1468 59 24
+1468 143 4
+1468 853 1
+1468 45 6
+1468 58 1
+1468 210 2
+1468 856 3
+1468 47 1
+1468 453 7
+1471 1465 4
+1471 45 4
+1471 10052 4
+1471 1466 1
+22575 1469 11
+22575 2419 3
+22575 1466 5
+22575 143 2
+22575 5924 1
+22575 58 2
+22575 856 4
+22575 3892 29
+22575 690 8
+22575 854 14
+22575 1229 5
+22575 439 2
+22575 853 1
+22575 247 5
+22575 29991 6
+22575 45 37
+22575 210 6
+22575 1463 5
+22575 453 23
+22576 36151 1
+22576 1469 3
+22576 972 3
+22576 1463 3
+22576 1229 2
+22576 453 5
+22576 43 1
+13286 250 2
+13286 1469 2
+13286 38 5
+13286 59 2
+13286 693 2
+13286 3167 3
+13286 1361 2
+13286 583 1
+13286 247 2
+13286 45 8
+13286 41 14
+13286 44 2
+13286 58 8
+13286 210 3
+13286 1463 2
+13286 3252 1
+20820 1469 3
+20820 3632 3
+20820 1463 3
+20820 856 1
+21613 1469 1
+21613 1463 1
+21613 3633 1
+21613 856 1
+14138 1465 2
+14138 3648 2
+14138 434 2
+14138 1469 17
+14138 59 4
+14138 1229 6
+14138 854 7
+14138 1466 1
+14138 247 10
+14138 853 1
+14138 14308 2
+14138 45 6
+14138 210 1
+14138 1463 8
+14138 453 17
+2130 968 1
+2130 913 1
+2130 1469 11
+2130 695 17
+2130 2419 3
+2130 2427 2
+2130 2425 2
+2130 58 1
+2130 856 1
+2130 2421 22
+2130 202 1
+2130 693 2
+2130 854 1
+2130 1229 8
+2130 2418 5
+2130 247 7
+2130 45 18
+2130 210 5
+2130 2423 16
+2130 1463 2
+2130 453 17
+22577 853 1
+22577 247 13
+22577 1469 10
+22577 45 2
+22577 1463 2
+22577 1229 4
+22577 453 12
+22577 22711 1
+16680 1465 2
+16680 3648 2
+16680 434 2
+16680 1469 11
+16680 59 4
+16680 1229 6
+16680 854 7
+16680 1466 1
+16680 3634 1
+16680 247 10
+16680 853 1
+16680 45 7
+16680 210 1
+16680 1463 2
+16680 453 16
+22578 16825 1
+22578 695 4
+22578 45 9
+22578 32764 2
+22578 58 1
+22578 453 3
+3167 59 4
+3167 1468 3
+3167 3249 7
+3167 143 2
+3167 45 10
+3167 58 3
+3167 210 3
+3167 453 1
+3167 3252 5
+22579 697 2
+22579 1469 9
+22579 695 5
+22579 31516 2
+22579 1466 2
+22579 58 4
+22579 856 2
+22579 19331 18
+22579 693 2
+22579 854 8
+22579 1229 7
+22579 247 5
+22579 853 1
+22579 29991 2
+22579 45 34
+22579 210 2
+22579 44 4
+22579 1463 2
+22579 453 19
+12914 913 1
+12914 695 2
+12914 38 3
+12914 143 1
+12914 2546 3
+12914 58 13
+12914 52 6
+12914 13153 16
+12914 250 2
+12914 2998 17
+12914 59 1
+12914 9361 5
+12914 247 5
+12914 45 11
+12914 210 6
+12914 44 1
+12914 694 1
+12914 453 2
+12914 7770 1
+22580 913 1
+22580 203 1
+22580 38 3
+22580 19251 2
+22580 1568 1
+22580 5924 1
+22580 1230 1
+22580 58 5
+22580 52 4
+22580 204 17
+22580 975 1
+22580 13153 16
+22580 250 3
+22580 3108 2
+22580 5925 1
+22580 972 4
+22580 690 11
+22580 969 2
+22580 439 1
+22580 247 7
+22580 45 14
+22580 210 10
+22580 453 7
+22580 287 8
+17990 1469 1
+17990 1463 1
+17990 856 1
+17990 3635 1
+22581 697 4
+22581 1469 18
+22581 2546 26
+22581 58 4
+22581 856 3
+22581 1465 1
+22581 59 2
+22581 690 32
+22581 693 6
+22581 854 8
+22581 1229 2
+22581 853 4
+22581 45 63
+22581 210 5
+22581 1463 1
+22581 453 31
+22581 3656 2
+3252 697 5
+3252 49 3
+3252 1469 13
+3252 695 4
+3252 48 7
+3252 1361 6
+3252 58 9
+3252 856 2
+3252 1465 2
+3252 434 4
+3252 59 19
+3252 1468 3
+3252 1229 3
+3252 854 9
+3252 693 2
+3252 439 1
+3252 247 4
+3252 444 5
+3252 853 1
+3252 45 89
+3252 1949 5
+3252 210 3
+3252 44 2
+3252 1463 2
+3252 453 26
+22582 1469 3
+22582 1006 3
+22582 1463 3
+22582 856 1
+8269 1469 3
+8269 1463 3
+8269 3638 4
+11715 247 10
+11715 11766 1
+11715 1469 5
+11715 1463 4
+11715 1229 2
+11715 453 11
+22583 1469 17
+22583 1466 1
+22583 1465 2
+22583 434 3
+22583 3648 2
+22583 59 4
+22583 854 7
+22583 1229 6
+22583 247 10
+22583 853 1
+22583 45 31
+22583 210 1
+22583 22574 2
+22583 1463 8
+22583 453 20
+22583 289 1
+22583 287 4
+22584 434 11
+22584 1469 18
+22584 203 2
+22584 690 9
+22584 1229 9
+22584 854 6
+22584 443 118
+22584 439 7
+22584 5924 1
+22584 247 2
+22584 45 28
+22584 210 4
+22584 4450 1
+22584 1463 11
+22584 453 73
+13944 247 8
+13944 45 8
+13944 13979 2
+13944 453 7
+1620 49 8
+1620 1469 10
+1620 1229 4
+1620 853 1
+1620 45 12
+1620 210 1
+1620 1463 7
+1620 856 3
+1620 453 14
+22585 8363 2
+22585 434 2
+22585 1469 17
+22585 59 3
+22585 1229 6
+22585 854 7
+22585 247 10
+22585 853 1
+22585 45 14
+22585 210 1
+22585 1463 8
+22585 8427 1
+22585 453 23
+20120 697 2
+20120 20179 2
+20120 853 1
+20120 247 8
+20120 1469 1
+20120 45 10
+20120 453 7
+22586 1469 1
+22586 43 1
+22586 1466 4
+22586 143 2
+22586 1471 1
+22586 58 3
+22586 8427 11
+22586 856 1
+22586 1310 5
+22586 1465 2
+22586 3648 2
+22586 3108 3
+22586 59 3
+22586 1468 4
+22586 45 12
+22586 210 7
+22586 22574 2
+22586 1463 1
+22586 453 2
+20465 1469 8
+20465 59 1
+20465 1229 4
+20465 247 2
+20465 853 1
+20465 45 18
+20465 58 1
+20465 210 4
+20465 1463 2
+20465 856 4
+20465 1310 21
+20465 453 26
+22587 1469 7
+22587 1229 6
+22587 853 2
+22587 5924 5
+22587 210 1
+22587 8878 18
+22587 1463 2
+22587 453 19
+3324 697 2
+3324 1469 11
+3324 695 4
+3324 1361 1
+3324 58 4
+3324 3306 1
+3324 856 2
+3324 1465 2
+3324 434 3
+3324 59 10
+3324 1468 5
+3324 693 2
+3324 854 8
+3324 1229 3
+3324 444 5
+3324 247 1
+3324 853 1
+3324 45 64
+3324 1949 5
+3324 210 4
+3324 44 2
+3324 1463 3
+3324 453 21
+22588 3640 1
+22588 1469 1
+22588 1463 1
+22588 856 1
+22589 434 2
+22589 3108 25
+22589 1469 2
+22589 1229 2
+22589 439 1
+22589 853 1
+22589 45 44
+22589 58 4
+22589 210 5
+22589 1463 2
+22589 856 2
+22589 453 20
+9310 250 2
+9310 1469 1
+9310 38 5
+9310 59 2
+9310 249 14
+9310 693 2
+9310 9361 4
+9310 1361 2
+9310 583 1
+9310 247 2
+9310 45 8
+9310 44 2
+9310 58 8
+9310 210 3
+9310 1463 1
+16415 1469 17
+16415 1229 6
+16415 854 7
+16415 247 11
+16415 853 1
+16415 45 9
+16415 1463 8
+16415 453 22
+16415 16565 3
+9859 853 1
+9859 247 11
+9859 1469 10
+9859 45 2
+9859 9949 1
+9859 1463 2
+9859 1229 2
+9859 453 12
+22590 1469 4
+22590 1229 2
+22590 1466 3
+22590 45 35
+22590 58 1
+22590 145 19
+22590 210 2
+22590 1463 3
+22590 453 14
+22590 34084 2
+22591 1469 15
+22591 51 1
+22591 1229 10
+22591 853 1
+22591 45 57
+22591 58 3
+22591 210 2
+22591 1463 9
+22591 856 4
+22591 7071 29
+22591 453 27
+18848 853 1
+18848 1469 2
+18848 1463 2
+18848 1229 1
+18848 453 4
+1833 1469 1
+1833 1463 1
+1833 856 1
+1833 1837 1
+22592 1469 4
+22592 1463 3
+22592 3641 5
+9361 697 1
+9361 1469 4
+9361 1466 3
+9361 143 2
+9361 1361 1
+9361 58 4
+9361 856 2
+9361 1465 3
+9361 434 2
+9361 19976 1
+9361 59 14
+9361 1468 5
+9361 854 7
+9361 1229 3
+9361 19975 1
+9361 444 4
+9361 853 1
+9361 45 42
+9361 1949 3
+9361 210 5
+9361 694 6
+9361 1463 1
+9361 453 26
+22593 1469 5
+22593 1229 3
+22593 27233 2
+22593 853 1
+22593 2028 14
+22593 45 6
+22593 1949 1
+22593 58 1
+22593 1463 1
+22593 856 1
+22593 453 18
+22594 434 1
+22594 1469 8
+22594 1229 8
+22594 45 22
+22594 2423 7
+22594 58 3
+22594 210 2
+22594 1463 2
+22594 856 4
+22594 453 15
+22595 1469 4
+22595 6442 24
+22595 1229 2
+22595 444 1
+22595 853 1
+22595 45 19
+22595 58 1
+22595 210 1
+22595 1463 3
+22595 856 2
+22595 453 17
+22596 973 24
+22596 1466 5
+22596 143 2
+22596 1471 1
+22596 58 2
+22596 52 1
+22596 1465 3
+22596 3648 2
+22596 59 2
+22596 1468 4
+22596 443 7
+22596 1229 2
+22596 45 36
+22596 210 11
+22596 1463 1
+22596 22574 2
+22596 453 3
+22599 1469 16
+22599 2419 5
+22599 51 3
+22599 6443 38
+22599 43 1
+22599 1466 4
+22599 143 4
+22599 5924 1
+22599 58 8
+22599 856 3
+22599 434 1
+22599 3108 1
+22599 854 14
+22599 1229 5
+22599 439 1
+22599 247 5
+22599 853 3
+22599 29991 2
+22599 45 83
+22599 210 6
+22599 44 2
+22599 22574 1
+22599 1463 7
+22599 453 26
+22597 1469 4
+22597 1463 4
+22597 3643 4
+22597 856 1
+22598 434 2
+22598 9769 17
+22598 5410 3
+22598 1469 17
+22598 5925 2
+22598 690 7
+22598 1229 6
+22598 439 1
+22598 853 1
+22598 444 5
+22598 45 4
+22598 210 7
+22598 1463 8
+22598 204 27
+22598 453 47
+5410 434 11
+5410 1469 25
+5410 203 2
+5410 690 26
+5410 1229 16
+5410 439 5
+5410 5924 1
+5410 853 1
+5410 45 11
+5410 210 6
+5410 1463 15
+5410 204 90
+5410 453 84
+1587 1610 8
+1587 1469 7
+1587 1463 7
+7150 1469 31
+7150 43 2
+7150 143 4
+7150 5924 7
+7150 52 107
+7150 692 3
+7150 434 4
+7150 7573 1
+7150 854 7
+7150 1229 15
+7150 439 15
+7150 444 7
+7150 853 3
+7150 45 19
+7150 210 3
+7150 1463 15
+7150 438 1
+7150 453 61
+22600 3644 7
+22600 1469 7
+22600 1463 7
+22600 856 1
+1469 697 5
+1469 913 2
+1469 583 4
+1469 45 1
+1469 1276 9
+1469 1463 1
+1469 690 12
+1469 8877 1
+1469 2545 4
+1365 1465 2
+1365 1469 1
+1365 59 4
+1365 1468 5
+1365 1229 1
+1365 854 2
+1365 1466 4
+1365 1471 1
+1365 853 1
+1365 45 9
+1365 58 2
+1365 210 4
+1365 1463 1
+1365 856 2
+1365 453 8
+22601 434 3
+22601 1469 27
+22601 690 3
+22601 1229 14
+22601 1778 78
+22601 439 4
+22601 5924 1
+22601 247 2
+22601 45 25
+22601 210 5
+22601 4450 1
+22601 1463 15
+22601 453 64
+4462 692 3
+4462 4457 3
+4462 210 1
+3911 210 1
+3911 6287 3
+19391 45 4
+19391 210 1
+19391 4458 1
+4456 4457 1
+4456 4462 3
+4457 913 1
+4457 2954 1
+4457 690 26
+4457 4458 68
+4457 1229 2
+4457 210 1
+4457 1463 1
+4457 2545 1
+7642 697 5
+7642 210 1
+7642 4458 1
+6287 4457 1
+6287 4462 3
+4458 4457 5
+4458 210 1
+6259 210 1
+6259 6287 3
+4459 3536 2
+4459 4457 13
+4459 690 1
+4459 4462 4
+4460 3536 1
+4460 4459 1
+4460 4457 1
+4460 4456 6
+17411 4461 4
+3536 210 1
+3536 4458 3
+4461 3536 1
+4461 4457 6
+10714 1924 3
+23057 1924 3
+1896 1924 5
+1924 2024 4
+1924 20895 1
+2024 20895 5
+1802 2024 1
+1802 20895 1
+1802 1829 3
+1829 2024 3
+1501 2024 1
+1501 1531 4
+1531 2024 4
+1531 20895 1
+8784 2024 1
+8784 20895 1
+8784 2019 3
+2019 2024 2
+2008 11179 14
+2008 2954 1
+2008 1276 5
+2008 210 2
+2008 690 13
+2008 2009 1
+11179 2008 3
+11179 210 1
+2009 11179 1
+2010 2008 9
+2010 690 2
+12153 11179 1
+12153 2008 22
+12153 913 1
+12153 210 1
+12153 2009 3
+20185 12153 4
+20185 2010 17
+20185 2008 9
+20185 210 2

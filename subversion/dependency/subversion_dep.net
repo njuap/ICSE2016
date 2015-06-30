@@ -1,0 +1,285 @@
+*Vertics: 80
+12,org.tigris.subversion.javahl.SVNClient
+1018,org.apache.subversion.javahl.SVNClient
+1020,org.apache.subversion.javahl.ClientException
+1022,org.tigris.subversion.javahl.BlameCallbackImpl
+1023,org.tigris.subversion.javahl.Revision
+1029,org.tigris.subversion.javahl.CopySource
+1032,org.tigris.subversion.javahl.Mergeinfo
+1033,org.apache.subversion.javahl.SubversionException
+1034,org.apache.subversion.javahl.types.Mergeinfo
+1036,org.tigris.subversion.javahl.Version
+1037,org.tigris.subversion.javahl.Info
+1038,org.tigris.subversion.javahl.Info2
+1040,org.tigris.subversion.javahl.DirEntry
+1042,org.tigris.subversion.javahl.LogMessage
+1043,org.tigris.subversion.javahl.RevisionRange
+1046,org.tigris.subversion.javahl.PropertyData
+1047,org.tigris.subversion.javahl.ProplistCallbackImpl
+1049,org.tigris.subversion.javahl.SubversionException
+1053,org.tigris.subversion.javahl.Status
+1055,org.apache.subversion.javahl.NativeResources
+1056,org.tigris.subversion.javahl.ClientException
+1057,org.tigris.subversion.javahl.Depth
+1059,org.apache.subversion.javahl.types.RevisionRange
+1060,org.apache.subversion.javahl.types.CopySource
+1061,org.tigris.subversion.javahl.ConflictResult
+1062,org.apache.subversion.javahl.ConflictResult
+1066,org.tigris.subversion.javahl.Path
+1067,org.apache.subversion.javahl.types.Info
+1068,org.apache.subversion.javahl.types.Revision
+1069,org.apache.subversion.javahl.types.Depth
+1073,org.apache.subversion.javahl.CommitItem
+1077,org.apache.subversion.javahl.DiffSummary
+1078,org.tigris.subversion.javahl.DiffSummary
+1139,org.apache.subversion.javahl.CommitInfo
+1143,org.tigris.subversion.javahl.CommitItem
+1201,org.apache.subversion.javahl.types.ChangePath
+1202,org.tigris.subversion.javahl.ChangePath
+1230,org.tigris.subversion.javahl.Lock
+1231,org.tigris.subversion.javahl.NodeKind
+1241,org.apache.subversion.javahl.types.DirEntry
+1242,org.apache.subversion.javahl.types.Lock
+1251,org.tigris.subversion.javahl.LogDate
+1275,org.tigris.subversion.javahl.NotifyInformation
+1288,org.apache.subversion.javahl.ClientNotifyInformation
+1343,org.apache.subversion.javahl.ConflictDescriptor
+1344,org.tigris.subversion.javahl.ConflictDescriptor
+1352,org.apache.subversion.javahl.ProgressEvent
+1353,org.tigris.subversion.javahl.ProgressEvent
+1371,org.apache.subversion.javahl.types.Status
+1427,org.apache.subversion.javahl.NativeException
+1444,org.tigris.subversion.javahl.ConflictVersion
+1461,org.apache.subversion.javahl.types.ConflictVersion
+1609,org.apache.subversion.javahl.types.Version
+1611,org.apache.subversion.javahl.types.Checksum
+1628,org.tigris.subversion.javahl.BasicTests
+2108,org.tigris.subversion.javahl.SVNTests
+2110,org.tigris.subversion.javahl.WC
+2117,org.tigris.subversion.javahl.NativeException
+2239,org.apache.subversion.javahl.WC
+2367,org.apache.subversion.javahl.types.NodeKind
+2538,org.apache.subversion.javahl.types.DiffOptions
+2707,org.tigris.subversion.javahl.SVNAdmin
+2708,org.tigris.subversion.javahl.SVNClientSynchronized
+3008,org.tigris.subversion.javahl.ErrorCodes
+3238,org.apache.subversion.javahl.ReposNotifyInformation
+3298,org.tigris.subversion.javahl.SVNOutputStream
+3337,org.apache.subversion.javahl.RunTests
+3377,org.apache.subversion.javahl.SVNTests
+3378,org.apache.subversion.javahl.SVNReposTests
+3379,org.apache.subversion.javahl.BasicTests
+3427,org.apache.subversion.javahl.types.LogDate
+3680,org.apache.subversion.javahl.types.VersionExtended
+3725,org.apache.subversion.javahl.types.Tristate
+4541,org.apache.subversion.javahl.JNIError
+4546,org.apache.subversion.javahl.types.Property
+5808,org.apache.subversion.javahl.SVNRepos
+5823,org.tigris.subversion.javahl.SVNAdminTests
+6710,org.tigris.subversion.javahl.Operation
+6721,org.tigris.subversion.javahl.SVNInputStream
+8482,org.tigris.subversion.javahl.RunTests
+*Edges: 203
+3379 2239 288
+3379 1201 3
+3379 1018 2
+3379 1077 4
+3379 1020 22
+3379 1427 8
+3379 4541 1
+3379 2538 3
+3379 1059 7
+3379 1069 4
+3379 1241 1
+3379 3427 3
+3379 1343 11
+3379 1461 10
+3379 1371 19
+3379 1067 18
+3379 1609 1
+3379 3377 60
+3379 1068 28
+3379 1034 5
+3379 3680 2
+3379 1060 3
+1020 1427 2
+1288 2367 3
+1288 1242 3
+1288 1059 3
+1139 3427 2
+1073 2367 3
+1343 1461 6
+1343 2367 3
+1077 2367 3
+1427 1033 2
+1055 1609 4
+1018 1020 5
+1018 1609 1
+1018 1055 1
+1018 1068 71
+1018 1034 1
+1018 3680 1
+1018 2538 4
+1018 1069 36
+5808 1068 9
+5808 1609 1
+5808 1069 1
+5808 1055 1
+3378 1068 3
+3378 1067 3
+3378 3377 4
+3377 5808 1
+3377 2239 23
+3377 2367 1
+3377 1018 1
+3377 1033 1
+2239 1241 10
+2239 2367 3
+2239 1371 18
+1201 2367 3
+1201 3725 6
+1461 2367 4
+1060 1068 6
+1241 1068 1
+1241 2367 3
+1067 1611 3
+1067 2367 3
+1067 1242 3
+1067 1069 3
+1034 1059 2
+1059 1068 17
+1371 1068 3
+1371 2367 6
+1371 1242 6
+1628 1046 2
+1628 1042 13
+1628 1444 7
+1628 1078 4
+1628 1022 2
+1628 1202 4
+1628 1037 5
+1628 1344 8
+1628 1029 2
+1628 1251 3
+1628 2117 4
+1628 1023 14
+1628 1056 18
+1628 1043 9
+1628 1036 1
+1628 1066 6
+1628 2108 57
+1628 1053 15
+1628 1032 5
+1628 2110 285
+1628 1038 12
+1628 1047 1
+1202 1201 9
+1202 1231 1
+1056 1427 3
+1056 2117 3
+1056 1020 1
+1143 1073 7
+1143 1231 1
+1344 1343 18
+1344 1444 8
+1344 1231 1
+1061 1062 1
+1444 1461 5
+1444 1231 2
+1029 1023 8
+1029 1060 1
+1057 1069 2
+1078 1231 1
+1078 1077 5
+1040 1241 9
+1040 1231 1
+1040 1023 1
+1037 1231 1
+1037 1067 19
+1038 1344 5
+1038 1611 3
+1038 1343 9
+1038 1231 1
+1038 1230 4
+1038 1067 30
+1038 1057 1
+1230 1242 9
+1042 1023 1
+1042 1202 4
+1032 1034 3
+1032 1043 5
+2117 1049 2
+1231 2367 1
+1275 1288 16
+1275 1231 1
+1275 1230 4
+1275 1043 4
+1353 1352 3
+1023 1068 3
+1043 1023 21
+1043 1059 4
+2707 1023 18
+2707 1020 13
+2707 1056 14
+2707 1055 1
+2707 1036 2
+2707 5808 3
+2707 1033 2
+2707 1230 2
+2707 1049 1
+2707 1057 1
+5823 2108 4
+5823 1046 2
+5823 1038 3
+5823 1023 2
+5823 2707 2
+12 1046 12
+12 1042 4
+12 1018 12
+12 1022 2
+12 1020 46
+12 1037 2
+12 1029 4
+12 1033 3
+12 1057 42
+12 1023 157
+12 1056 48
+12 1043 6
+12 1036 2
+12 1040 2
+12 1055 1
+12 1066 1
+12 1053 4
+12 1032 2
+12 1038 2
+12 1049 4
+12 1047 1
+2708 1046 8
+2708 1042 4
+2708 12 127
+2708 1023 109
+2708 1043 2
+2708 1037 1
+2708 1040 2
+2708 1036 1
+2708 1029 2
+2708 1053 4
+2708 1032 1
+2708 1038 1
+2108 2708 1
+2108 2110 23
+2108 2707 5
+1053 1343 4
+1053 1018 2
+1053 1371 26
+1053 1023 4
+1053 1020 1
+1053 1067 4
+1053 1344 4
+1053 1242 5
+1053 1231 4
+1053 1230 4
+1049 1033 1
+1036 1609 4
+2110 1053 17
+2110 1040 10

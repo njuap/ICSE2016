@@ -1,0 +1,2267 @@
+*Vertics: 448
+2,org.apache.wiki.PageSorterTest
+30,org.apache.wiki.util.comparators.HumanComparator
+31,org.apache.wiki.util.comparators.LocaleComparator
+33,org.apache.wiki.PageSorter
+45,org.apache.wiki.rss.RSSGeneratorTest
+80,org.apache.wiki.TestEngine
+81,org.apache.wiki.WikiContext
+82,org.apache.wiki.WikiEngine
+83,org.apache.wiki.plugin.WeblogEntryPlugin
+84,org.apache.wiki.plugin.WeblogPlugin
+85,org.apache.wiki.providers.FileSystemProvider
+88,org.apache.wiki.rss.Feed
+89,org.apache.wiki.rss.RSSGenerator
+91,org.apache.wiki.providers.AbstractFileProvider
+92,org.apache.wiki.rss.RSS10Feed
+93,org.apache.wiki.rss.RSS20Feed
+110,org.apache.wiki.ui.AbstractCommand
+155,org.apache.wiki.util.TextUtil
+158,org.apache.wiki.ui.PageCommand
+173,org.apache.wiki.ui.GroupCommand
+177,org.apache.wiki.ui.WikiCommand
+188,org.apache.wiki.ui.RedirectCommand
+202,org.apache.wiki.content.AllTests
+209,org.apache.wiki.content.PageRenamerTest
+216,org.apache.wiki.diff.ContextualDiffProvider
+342,org.apache.wiki.api.exceptions.NoRequiredPropertyException
+365,org.apache.wiki.WikiPage
+366,org.apache.wiki.auth.permissions.PagePermission
+367,org.apache.wiki.auth.permissions.PermissionFactory
+381,org.apache.wiki.providers.VerySimpleProvider
+423,org.apache.wiki.api.exceptions.ProviderException
+424,org.apache.wiki.search.QueryItem
+450,org.apache.wiki.parser.Heading
+458,org.apache.wiki.auth.login.UserDatabaseLoginModule
+482,org.apache.wiki.auth.NoSuchPrincipalException
+483,org.apache.wiki.auth.WikiPrincipal
+488,org.apache.wiki.auth.login.AbstractLoginModule
+489,org.apache.wiki.auth.login.UserDatabaseCallback
+500,org.apache.wiki.auth.AuthenticationManagerTest
+559,org.apache.wiki.WikiSession
+560,org.apache.wiki.WikiSessionTest
+561,org.apache.wiki.auth.authorize.Group
+562,org.apache.wiki.auth.authorize.GroupManager
+563,org.apache.wiki.auth.authorize.Role
+565,org.apache.wiki.auth.login.CookieAssertionLoginModule
+567,org.apache.wiki.auth.AuthenticationManager
+568,org.apache.wiki.auth.SecurityEventTrap
+569,org.apache.wiki.auth.AuthorizationManager
+570,org.apache.wiki.auth.Users
+571,org.apache.wiki.auth.GroupPrincipal
+573,org.apache.wiki.auth.WikiSecurityException
+614,org.apache.wiki.util.CryptoUtil
+675,org.apache.wiki.auth.authorize.GroupTest
+728,org.apache.wiki.tags.InsertPageTag
+752,org.apache.wiki.tags.WikiTagBase
+769,org.apache.wiki.util.TimedCounterList
+833,org.apache.wiki.filters.SpamFilter
+1111,org.apache.wiki.InternalWikiException
+1113,org.apache.wiki.api.exceptions.RedirectException
+1114,org.apache.wiki.api.filters.BasicPageFilter
+1115,org.apache.wiki.attachment.Attachment
+1116,org.apache.wiki.ui.EditorManager
+1117,org.apache.wiki.util.FileUtil
+1118,org.apache.wiki.util.HttpUtil
+1121,org.apache.wiki.attachment.AttachmentManager
+1164,org.apache.wiki.tags.ContentTag
+1203,org.apache.wiki.ui.TemplateManager
+1224,org.apache.wiki.auth.permissions.AllPermissionTest
+1241,org.apache.wiki.auth.permissions.AllPermission
+1242,org.apache.wiki.auth.permissions.WikiPermission
+1252,org.apache.wiki.plugin.BugReportHandler
+1319,org.apache.wiki.api.exceptions.PluginException
+1320,org.apache.wiki.api.exceptions.WikiException
+1322,org.apache.wiki.parser.MarkupParser
+1323,org.apache.wiki.preferences.Preferences
+1341,org.apache.wiki.tags.PluginTag
+1374,org.apache.wiki.tags.WikiBodyTag
+1386,org.apache.wiki.WatchDog
+1480,org.apache.wiki.WikiBackgroundThread
+1493,org.apache.wiki.tags.TabbedSectionTag
+1520,org.apache.wiki.util.CommentedProperties
+1577,org.apache.wiki.workflow.AllTests
+1583,org.apache.wiki.workflow.ApprovalWorkflowTest
+1584,org.apache.wiki.workflow.DecisionQueueTest
+1585,org.apache.wiki.workflow.FactTest
+1586,org.apache.wiki.workflow.OutcomeTest
+1587,org.apache.wiki.workflow.SimpleDecisionTest
+1588,org.apache.wiki.workflow.TaskTest
+1589,org.apache.wiki.workflow.WorkflowManagerTest
+1590,org.apache.wiki.workflow.WorkflowTest
+1610,org.apache.wiki.i18n.InternationalizationManager
+1612,org.apache.wiki.workflow.NoSuchOutcomeException
+1613,org.apache.wiki.workflow.Outcome
+1630,org.apache.wiki.render.CustomXMLOutputProcessor
+1751,org.apache.wiki.parser.PluginContent
+1753,org.apache.wiki.PageManager
+1768,org.apache.wiki.ui.CommandResolverTest
+1799,org.apache.wiki.ui.CommandResolver
+1839,org.apache.wiki.auth.user.DuplicateUserException
+1841,org.apache.wiki.ui.progress.ProgressManager
+1863,org.apache.wiki.rpc.json.JSONRPCManager
+1866,org.apache.wiki.ui.progress.ProgressItem
+1890,org.apache.wiki.xmlrpc.RPCHandlerUTF8
+1954,org.apache.wiki.LinkCollector
+1955,org.apache.wiki.xmlrpc.AbstractRPCHandler
+1975,org.apache.wiki.util.TextUtilTest
+2082,org.apache.wiki.tags.HistoryIteratorTag
+2097,org.apache.wiki.tags.IteratorTag
+2105,org.apache.wiki.tags.CheckLockTag
+2128,org.apache.wiki.PageLock
+2133,org.apache.wiki.WikiEngineTest
+2294,org.apache.wiki.providers.BasicAttachmentProvider
+2295,org.apache.wiki.providers.CachingProvider
+2296,org.apache.wiki.ReferenceManager
+2352,org.apache.wiki.rss.Entry
+2372,org.apache.wiki.auth.permissions.GroupPermission
+2452,org.apache.wiki.tags.AdminBeanIteratorInfo
+2477,org.apache.wiki.TestAuthorizer
+2494,org.apache.wiki.url.AllTests
+2498,org.apache.wiki.url.ShortViewURLConstructorTest
+2499,org.apache.wiki.url.ShortURLConstructorTest
+2500,org.apache.wiki.url.DefaultURLConstructorTest
+2545,org.apache.wiki.auth.acl.DefaultAclManager
+2606,org.apache.wiki.auth.PrincipalComparator
+2607,org.apache.wiki.render.RenderingManager
+2610,org.apache.wiki.auth.acl.AclImpl
+2611,org.apache.wiki.auth.acl.AclEntryImpl
+2632,org.apache.wiki.ui.admin.beans.PluginBean
+2661,org.apache.wiki.Release
+2663,org.apache.wiki.ui.admin.SimpleAdminBean
+2664,org.apache.wiki.plugin.DefaultPluginManager
+2666,org.apache.wiki.modules.WikiModuleInfo
+2687,org.apache.wiki.providers.VersioningFileProvider
+2821,org.apache.wiki.providers.NoSuchVersionException
+2968,org.apache.wiki.event.WikiEvent
+2970,org.apache.wiki.event.WikiSecurityEvent
+2972,org.apache.wiki.auth.SessionMonitor
+2973,org.apache.wiki.auth.UserManager
+3006,org.apache.wiki.ui.Editor
+3031,org.apache.wiki.attachment.AttachmentServlet
+3200,org.apache.wiki.ui.InputValidator
+3241,org.apache.wiki.forms.FormInput
+3262,org.apache.wiki.forms.FormElement
+3263,org.apache.wiki.forms.FormInfo
+3271,org.apache.wiki.workflow.AbstractStep
+3317,org.apache.wiki.workflow.Workflow
+3339,org.apache.wiki.auth.login.PrincipalWrapper
+3375,org.apache.wiki.filters.DefaultFilterManagerTest
+3398,org.apache.wiki.filters.TestFilter
+3399,org.apache.wiki.filters.DefaultFilterManager
+3400,org.apache.wiki.filters.ProfanityFilter
+3405,org.apache.wiki.tags.LinkToTag
+3426,org.apache.wiki.tags.WikiLinkTag
+3450,org.apache.wiki.auth.permissions.AllPermissionCollection
+3463,org.apache.wiki.event.WikiPageRenameEvent
+3477,org.apache.wiki.event.WikiPageEvent
+3484,org.apache.wiki.auth.login.HttpRequestCallback
+3495,org.apache.wiki.auth.login.WikiCallbackHandler
+3511,org.apache.wiki.auth.login.WikiEngineCallback
+3515,org.apache.wiki.ReleaseTest
+3548,org.apache.wiki.plugin.ReferringPagesPluginTest
+3595,org.apache.wiki.tags.BreadcrumbsTag
+3744,org.apache.wiki.util.PropertyReader
+3759,org.apache.wiki.util.MailUtilTest
+3785,org.apache.wiki.util.MailUtil
+3794,org.apache.wiki.auth.login.WebContainerLoginModule
+3808,org.apache.wiki.plugin.Image
+3848,org.apache.wiki.stress.Benchmark
+3854,org.apache.wiki.plugin.UndefinedPagesPluginTest
+3884,org.apache.wiki.htmltowiki.XHtmlElementToWikiTranslator
+4031,org.apache.wiki.htmltowiki.XHtmlToWikiConfig
+4032,org.apache.wiki.htmltowiki.WhitespaceTrimWriter
+4033,org.apache.wiki.htmltowiki.ForgetNullValuesLinkedHashMap
+4034,org.apache.wiki.htmltowiki.PersistentMapDecorator
+4047,org.apache.wiki.plugin.ListLocksPlugin
+4126,org.apache.wiki.workflow.SimpleNotification
+4134,org.apache.wiki.workflow.Decision
+4139,org.apache.wiki.render.CreoleRendererTest
+4182,org.apache.wiki.parser.JSPWikiMarkupParser
+4183,org.apache.wiki.parser.WikiDocument
+4184,org.apache.wiki.render.CreoleRenderer
+4198,org.apache.wiki.auth.authorize.WebContainerAuthorizer
+4278,org.apache.wiki.providers.RepositoryModifiedException
+4410,org.apache.wiki.tags.TemplateDirTag
+4415,org.apache.wiki.plugin.ReferringUndefinedPagesPluginTest
+4822,org.apache.wiki.VariableManager
+4823,org.apache.wiki.render.CleanTextRenderer
+4824,org.apache.wiki.parser.LinkParser
+4825,org.apache.wiki.parser.ParseException
+4827,org.apache.wiki.parser.VariableContent
+4885,org.apache.wiki.providers.CachingProviderTest
+4907,org.apache.wiki.providers.CounterProvider
+5033,org.apache.wiki.api.exceptions.FilterException
+5141,org.apache.wiki.auth.user.XMLUserDatabase
+5311,org.apache.wiki.util.Serializer
+5312,org.apache.wiki.auth.user.AbstractUserDatabase
+5343,org.apache.wiki.tags.CookieTag
+5423,org.apache.wiki.plugin.DefaultPluginManagerTest
+5465,org.apache.wiki.plugin.JavaScriptPlugin
+5466,org.apache.wiki.plugin.SamplePlugin
+5493,org.apache.wiki.management.SimpleMBean
+5504,org.apache.wiki.tags.InsertDiffTag
+5568,org.apache.wiki.plugin.TableOfContents
+5778,org.apache.wiki.event.WikiEventUtils
+5810,org.apache.wiki.api.exceptions.NoSuchVariableException
+5813,org.apache.wiki.util.UtilJ2eeCompatTest
+5819,org.apache.wiki.util.UtilJ2eeCompat
+5824,org.apache.wiki.filters.AllTests
+5833,org.apache.wiki.PropertyReaderTest
+5843,org.apache.wiki.tags.UserNameTag
+5853,org.apache.wiki.auth.login.UserDatabaseLoginModuleTest
+5879,org.apache.wiki.plugin.IfPluginTest
+5918,org.apache.wiki.auth.user.JDBCUserDatabase
+6097,org.apache.wiki.plugin.GroupsTest
+6109,org.apache.wiki.tags.CheckLockInfo
+6114,org.apache.wiki.util.comparators.HumanComparatorTest
+6123,org.apache.wiki.util.FileUtilTest
+6169,org.apache.wiki.render.WikiRenderer
+6174,org.apache.wiki.plugin.Search
+6222,org.apache.wiki.util.XmlUtil
+6294,org.apache.wiki.forms.FormClose
+6334,org.apache.wiki.htmltowiki.PropertiesUtils
+6425,org.apache.wiki.rpc.RPCManager
+6496,org.apache.wiki.ui.InputValidatorTest
+6512,org.apache.wiki.auth.authorize.XMLGroupDatabase
+6623,org.apache.wiki.util.comparators.CollatorComparator
+6635,org.apache.wiki.Util
+6643,org.apache.wiki.auth.authorize.JDBCGroupDatabaseTest
+6690,org.apache.wiki.auth.authorize.JDBCGroupDatabase
+6691,org.apache.wiki.HsqlDbUtils
+6692,org.apache.wiki.TestJNDIContext
+6693,org.apache.wiki.TestJDBCDataSource
+6720,org.apache.wiki.search.LuceneSearchProvider
+6931,org.apache.wiki.util.ClassUtil
+6943,org.apache.wiki.workflow.SystemPrincipal
+6971,org.apache.wiki.web.TestContainer
+7054,org.apache.wiki.auth.UserManagerTest
+7118,org.apache.wiki.workflow.DecisionRequiredException
+7119,org.apache.wiki.workflow.DecisionQueue
+7120,org.apache.wiki.workflow.WorkflowManager
+7121,org.apache.wiki.workflow.Fact
+7139,org.apache.wiki.tags.RSSImageLinkTag
+7161,org.apache.wiki.forms.FormOutput
+7178,org.apache.wiki.util.FormUtil
+7186,org.apache.wiki.parser.JSPWikiMarkupParserTest
+7691,org.apache.wiki.render.XHTMLRenderer
+7745,org.apache.wiki.modules.ModuleManager
+7794,org.apache.wiki.plugin.WeblogArchivePlugin
+7840,org.apache.wiki.plugin.TableOfContentsTest
+7880,org.apache.wiki.tags.PageVersionTag
+7890,org.apache.wiki.providers.BasicAttachmentProviderTest
+8020,org.apache.wiki.auth.acl.UnresolvedPrincipal
+8021,org.apache.wiki.event.WorkflowEvent
+8034,org.apache.wiki.tags.HistoryIteratorInfo
+8039,org.apache.wiki.util.AllTests
+8044,org.apache.wiki.util.ClassUtilTest
+8045,org.apache.wiki.util.CommentedPropertiesTest
+8046,org.apache.wiki.util.CryptoUtilTest
+8047,org.apache.wiki.util.comparators.AllTests
+8048,org.apache.wiki.util.PriorityListTest
+8049,org.apache.wiki.util.SerializerTest
+8050,org.apache.wiki.util.TimedCounterListTest
+8051,org.apache.wiki.util.XmlUtilTest
+8061,org.apache.wiki.auth.login.CookieAssertionLoginModuleTest
+8083,org.apache.wiki.auth.login.WebContainerCallbackHandler
+8088,org.apache.wiki.rss.AllTests
+8092,org.apache.wiki.plugin.SessionsPlugin
+8111,org.apache.wiki.tags.UserProfileTag
+8165,org.apache.wiki.plugin.ReferringUndefinedPagesPlugin
+8185,org.apache.wiki.plugin.AbstractReferralPlugin
+8262,org.apache.wiki.event.WikiEventManager
+8273,org.apache.wiki.util.PriorityList
+8294,org.apache.wiki.tags.ParentPageNameTag
+8396,org.apache.wiki.ui.Installer
+8401,org.apache.wiki.tags.PageTypeTag
+8411,org.apache.wiki.tags.CheckRequestContextTag
+8428,org.apache.wiki.plugin.InsertPage
+8476,org.apache.wiki.forms.FormSelect
+8509,org.apache.wiki.diff.DifferenceManager
+8536,org.apache.wiki.diff.TraditionalDiffProvider
+8558,org.apache.wiki.attachment.AllTests
+8563,org.apache.wiki.attachment.AttachmentManagerTest
+8566,org.apache.wiki.tags.PreviousVersionTag
+8604,org.apache.wiki.tags.CommentLinkTag
+8743,org.apache.wiki.tags.PageExistsTag
+8746,org.apache.wiki.tags.NoSuchPageTag
+8749,org.apache.wiki.plugin.Note
+8869,org.apache.wiki.workflow.Task
+8871,org.apache.wiki.workflow.SimpleDecision
+8874,org.apache.wiki.auth.user.JDBCUserDatabaseTest
+8937,org.apache.wiki.web.StreamRedirector
+8967,org.apache.wiki.attachment.DynamicAttachment
+9044,org.apache.wiki.plugin.AllTests
+9049,org.apache.wiki.plugin.CounterPluginTest
+9050,org.apache.wiki.plugin.InsertPageTest
+9051,org.apache.wiki.plugin.RecentChangesPluginTest
+9052,org.apache.wiki.plugin.PageViewPluginTest
+9187,org.apache.wiki.auth.acl.AclEntryImplTest
+9217,org.apache.wiki.auth.SecurityVerifier
+9379,org.apache.wiki.auth.permissions.AllTests
+9384,org.apache.wiki.auth.permissions.AllPermissionCollectionTest
+9385,org.apache.wiki.auth.permissions.GroupPermissionTest
+9386,org.apache.wiki.auth.permissions.PagePermissionTest
+9387,org.apache.wiki.auth.permissions.WikiPermissionTest
+9426,org.apache.wiki.tags.SearchResultIteratorTag
+9453,org.apache.wiki.tags.PermissionTag
+9499,org.apache.wiki.search.SearchManagerTest
+9539,org.apache.wiki.search.SearchManager
+9576,org.apache.wiki.url.ShortViewURLConstructor
+9577,org.apache.wiki.url.ShortURLConstructor
+9598,org.apache.wiki.event.WikiEngineEvent
+9639,org.apache.wiki.plugin.IndexPlugin
+9674,org.apache.wiki.tags.IfNoSearchResultsTag
+9679,org.apache.wiki.diff.ExternalDiffProvider
+9719,org.apache.wiki.search.AllTests
+9750,org.apache.wiki.tags.CheckVersionTag
+9771,org.apache.wiki.ui.admin.beans.CoreBean
+9808,org.apache.wiki.ui.admin.beans.UserBean
+9851,org.apache.wiki.auth.user.DefaultUserProfile
+9918,org.apache.wiki.i18n.InternationalizationManagerTest
+9935,org.apache.wiki.WikiServlet
+9956,org.apache.wiki.url.DefaultURLConstructor
+9962,org.apache.wiki.tags.AdminBeanIteratorTag
+10086,org.apache.wiki.tags.LinkTag
+10189,org.apache.wiki.tags.DiffLinkTag
+10196,org.apache.wiki.tags.NextVersionTag
+10202,org.apache.wiki.ui.WikiCommandTest
+10295,org.apache.wiki.search.BasicSearchProvider
+10299,org.apache.wiki.tags.VariableTag
+10372,org.apache.wiki.web.AllTests
+10378,org.apache.wiki.plugin.Counter
+10548,org.apache.wiki.tags.FeedDiscoveryTag
+10666,org.apache.wiki.workflow.WorkflowBuilder
+10711,SamplePlugin2
+10721,org.apache.wiki.auth.GroupManagerTest
+10836,org.apache.wiki.htmltowiki.HtmlStringToWikiTranslatorTest
+10861,org.apache.wiki.htmltowiki.HtmlStringToWikiTranslator
+10935,org.apache.wiki.tags.SetPaginationTag
+11085,org.apache.wiki.util.comparators.PageTimeComparator
+11086,org.apache.wiki.rss.AtomFeed
+11103,org.apache.wiki.tags.PageNameTag
+11115,org.apache.wiki.tags.CalendarTag
+11179,org.apache.wiki.parser.MarkupParserTest
+11190,org.apache.wiki.event.PageEventFilter
+11242,org.apache.wiki.render.AllTests
+11247,org.apache.wiki.render.RenderingManagerTest
+11248,org.apache.wiki.render.WysiwygEditingRendererTest
+11263,org.apache.wiki.tags.AttachmentsIteratorInfo
+11319,org.apache.catalina.util.HexUtils
+11330,org.apache.wiki.providers.FileSystemProviderTest
+11388,org.apache.wiki.tags.PageDateTag
+11432,org.apache.wiki.forms.FormOpen
+11452,org.apache.wiki.providers.VersioningFileProviderTest
+11694,org.apache.wiki.tags.AuthorTag
+11819,org.apache.wiki.auth.login.AnonymousLoginModule
+11820,org.apache.wiki.auth.login.CookieAuthenticationLoginModule
+11897,org.apache.wiki.search.SearchMatcher
+11898,org.apache.wiki.search.SearchResultComparator
+11902,org.apache.wiki.tags.PageSizeTag
+12015,org.apache.wiki.tags.SearchResultIteratorInfo
+12020,org.apache.wiki.ui.admin.WikiFormAdminBean
+12038,org.apache.wiki.tags.IncludeResourcesTag
+12130,org.apache.wiki.tags.UserCheckTag
+12155,org.apache.wiki.parser.AllTests
+12160,org.apache.wiki.parser.CreoleToJSPWikiTranslatorTest
+12163,org.apache.wiki.VariableManagerTest
+12281,org.apache.wiki.plugin.UnusedPagesPlugin
+12298,org.apache.wiki.auth.authorize.AllTests
+12303,org.apache.wiki.auth.authorize.WebContainerAuthorizerTest
+12304,org.apache.wiki.auth.authorize.XMLGroupDatabaseTest
+12313,org.apache.wiki.ui.GroupCommandTest
+12372,org.apache.wiki.auth.user.AllTests
+12377,org.apache.wiki.auth.user.UserProfileTest
+12378,org.apache.wiki.auth.user.XMLUserDatabaseTest
+12381,org.apache.wiki.tags.TabTag
+12410,org.apache.wiki.htmltowiki.AllTests
+12416,org.apache.wiki.PageManagerTest
+12430,org.apache.wiki.tags.LinkToParentTag
+12444,org.apache.wiki.auth.AllTests
+12449,org.apache.wiki.auth.AuthorizationManagerTest
+12450,org.apache.wiki.auth.acl.AllTests
+12451,org.apache.wiki.auth.login.AllTests
+12531,org.apache.wiki.parser.CreoleToJSPWikiTranslator
+12811,org.apache.wiki.util.comparators.JavaNaturalComparator
+12814,org.apache.wiki.plugin.ReferringPagesPlugin
+12833,org.apache.wiki.tags.SearchResultsSizeTag
+12839,org.apache.wiki.filters.PingWeblogsComFilter
+13069,org.apache.wiki.ui.WikiServletFilter
+13098,org.apache.wiki.ui.WikiRequestWrapper
+13104,org.apache.wiki.xmlrpc.RPCServlet
+13189,org.apache.wiki.ui.WikiJSPFilter
+13290,org.apache.wiki.plugin.ReferredPagesPlugin
+13339,org.apache.wiki.diff.AllTests
+13342,org.apache.wiki.diff.ContextualDiffProviderTest
+13376,org.apache.wiki.tags.ContentEncodingTag
+13540,org.apache.wiki.render.WysiwygEditingRenderer
+13572,org.apache.wiki.tags.AttachmentsIteratorTag
+13589,org.apache.wiki.tags.BaseURLTag
+13605,org.apache.wiki.plugin.IfPlugin
+13697,org.apache.wiki.tags.PageInfoLinkTag
+13742,org.apache.wiki.rss.RSSThread
+13802,org.apache.wiki.rpc.atom.AtomAPIServlet
+14135,org.apache.wiki.ui.RedirectCommandTest
+14144,org.apache.wiki.xmlrpc.AllTests
+14149,org.apache.wiki.xmlrpc.RPCHandlerTest
+14152,org.apache.wiki.tags.IncludeTag
+14166,org.apache.wiki.plugin.SamplePlugin3
+14187,org.apache.wiki.forms.FormSet
+14282,org.apache.wiki.AllTests
+14288,org.apache.wiki.ReferenceManagerTest
+14289,org.apache.wiki.providers.AllTests
+14290,org.apache.wiki.ui.AllTests
+14295,org.apache.wiki.plugin.Groups
+14308,org.apache.wiki.tags.MessagesTag
+14620,org.apache.wiki.content.PageRenamer
+14661,org.apache.wiki.auth.login.AnonymousLoginModuleTest
+14681,org.apache.wiki.tags.ParamTag
+14831,org.apache.wiki.tags.SearchResultsTag
+14854,org.apache.wiki.plugin.RecentChangesPlugin
+14921,org.apache.wiki.forms.FormTextarea
+15057,org.apache.wiki.tags.EditLinkTag
+15076,org.apache.wiki.ui.PageCommandTest
+15089,org.apache.wiki.ui.admin.beans.SearchManagerBean
+15118,org.apache.wiki.plugin.PageViewPlugin
+15367,org.apache.wiki.stress.StressTestVersioningProvider
+15423,org.apache.wiki.stress.MassiveRepositoryTest
+15727,org.apache.wiki.tags.RequestResourceTag
+15743,org.apache.wiki.auth.acl.AclImplTest
+15744,org.apache.wiki.auth.acl.DefaultAclManagerTest
+15784,org.apache.wiki.auth.login.WebContainerLoginModuleTest
+15849,org.apache.wiki.xmlrpc.RPCHandler
+15896,org.apache.wiki.api.exceptions.WikiI18nException
+15904,org.apache.wiki.tags.TranslateTag
+15934,org.apache.wiki.auth.login.AuthorizerCallback
+15970,org.apache.wiki.plugin.RPCSamplePlugin
+16226,org.apache.wiki.ui.admin.DefaultAdminBeanManager
+16294,org.apache.wiki.xmlrpc.MetaWeblogHandler
+16473,org.apache.wiki.plugin.Denounce
+16538,org.apache.wiki.tags.EditorIteratorTag
+16548,org.apache.wiki.filters.CreoleFilter
+17018,org.apache.wiki.tags.EditorIteratorInfo
+17167,org.apache.wiki.plugin.UndefinedPagesPlugin
+17176,org.apache.wiki.plugin.CurrentTimePlugin
+17193,org.apache.wiki.tags.UploadLinkTag
+17627,org.apache.wiki.tags.EditorTag
+17855,org.apache.wiki.providers.CachingAttachmentProvider
+18090,org.apache.wiki.ui.admin.beans.PlainEditorAdminBean
+18175,org.apache.wiki.tags.HasAttachmentsTag
+*Edges: 1817
+10711 81 1
+10711 82 1
+14282 8039 1
+14282 2494 1
+14282 2133 1
+14282 14144 1
+14282 12163 1
+14282 12410 1
+14282 8088 1
+14282 3515 1
+14282 12416 1
+14282 11242 1
+14282 14289 1
+14282 13339 1
+14282 14288 1
+14282 202 1
+14282 12444 1
+14282 9044 1
+14282 5824 1
+14282 14290 1
+14282 1577 1
+14282 8558 1
+14282 9719 1
+14282 12155 1
+14282 560 1
+14282 2 1
+1954 81 1
+2128 365 2
+1753 7745 2
+1753 6931 1
+1753 9539 2
+1753 423 7
+1753 4278 2
+1753 1320 4
+1753 8262 2
+1753 2128 8
+1753 342 1
+1753 82 10
+1753 3477 1
+1753 2296 2
+1753 365 25
+1753 2968 2
+1753 573 1
+1753 483 4
+1753 155 2
+1753 2611 1
+1753 2970 1
+12416 1753 4
+12416 80 2
+33 6931 1
+33 365 10
+2 33 18
+5833 3744 3
+2296 1753 1
+2296 423 1
+2296 1121 1
+2296 1114 1
+2296 2968 2
+2296 155 2
+2296 82 18
+2296 81 2
+2296 1111 2
+2296 5778 1
+2296 3477 1
+2296 365 23
+14288 80 31
+14288 6635 1
+14288 2296 42
+14288 82 16
+3515 2661 17
+2477 559 2
+2477 563 1
+2477 82 1
+80 3744 2
+80 559 9
+80 2972 4
+80 155 3
+80 1115 1
+80 567 4
+80 365 2
+80 82 12
+4822 81 11
+4822 5810 3
+4822 365 2
+4822 82 1
+12163 81 2
+12163 80 2
+12163 4822 14
+12163 5810 1
+12163 365 1
+1386 1480 2
+1386 82 4
+1480 1111 1
+1480 2968 2
+1480 82 4
+81 569 1
+81 110 1
+81 82 19
+81 2973 1
+81 559 4
+81 482 1
+81 1799 3
+81 365 18
+81 1241 2
+82 6931 16
+82 1753 13
+82 13742 1
+82 9539 3
+82 7118 1
+82 5033 2
+82 81 23
+82 3477 1
+82 559 1
+82 7121 5
+82 2607 6
+82 1203 2
+82 567 3
+82 569 3
+82 1121 14
+82 89 3
+82 1841 3
+82 155 20
+82 14620 3
+82 3463 1
+82 2973 3
+82 1954 1
+82 1322 6
+82 423 8
+82 1320 11
+82 1386 2
+82 8262 8
+82 562 3
+82 9598 1
+82 1116 3
+82 3317 1
+82 4822 5
+82 2296 4
+82 10666 2
+82 365 23
+82 3744 1
+82 5810 1
+82 8509 4
+82 1111 6
+82 2661 1
+82 7120 4
+82 33 4
+82 1799 8
+82 1610 2
+82 1115 2
+2133 1753 4
+2133 81 4
+2133 1121 7
+2133 80 58
+2133 2295 1
+2133 2296 16
+2133 155 2
+2133 1115 6
+2133 365 18
+2133 82 84
+365 2610 1
+365 33 1
+365 82 4
+9935 9956 1
+9935 82 7
+559 2968 4
+559 483 2
+559 2972 8
+559 562 3
+559 82 12
+559 561 5
+559 2973 2
+559 482 1
+559 2970 12
+559 567 2
+560 13069 1
+560 80 20
+560 559 50
+560 11820 4
+560 483 2
+560 567 2
+560 82 3
+5033 1320 2
+342 1320 2
+5810 1320 2
+1319 1320 3
+423 1320 2
+1113 5033 2
+15896 1320 2
+1114 81 4
+1114 82 3
+8558 8563 1
+1115 365 4
+1115 82 1
+1121 6931 1
+1121 1753 1
+1121 9539 2
+1121 423 1
+1121 1320 2
+1121 342 1
+1121 82 11
+1121 81 5
+1121 33 1
+1121 1322 2
+1121 8967 3
+1121 2296 2
+1121 365 8
+1121 1115 12
+8563 423 1
+8563 81 6
+8563 1121 29
+8563 80 10
+8563 1115 12
+8563 365 55
+8563 82 7
+3031 423 4
+3031 1121 5
+3031 569 2
+3031 1320 1
+3031 1841 2
+3031 155 4
+3031 1113 9
+3031 82 16
+3031 81 10
+3031 1323 2
+3031 1118 2
+3031 559 2
+3031 1115 5
+3031 365 11
+3031 367 2
+8967 1115 2
+8967 82 1
+12444 12450 1
+12444 10721 1
+12444 500 1
+12444 12449 1
+12444 9379 1
+12444 12372 1
+12444 12451 1
+12444 12298 1
+567 569 3
+567 1320 2
+567 573 2
+567 8083 1
+567 4198 1
+567 769 4
+567 8262 4
+567 2972 2
+567 155 5
+567 82 10
+567 3495 1
+567 559 10
+567 2970 1
+500 483 13
+500 562 14
+500 82 5
+500 561 4
+500 568 1
+500 80 9
+500 571 1
+500 559 34
+500 563 7
+500 482 1
+500 560 4
+500 567 6
+569 6931 1
+569 1320 4
+569 8262 4
+569 562 1
+569 342 1
+569 82 9
+569 81 16
+569 559 15
+569 563 3
+569 567 5
+569 365 1
+569 8020 2
+569 573 2
+569 1323 1
+569 2973 1
+569 482 1
+569 366 1
+569 2970 1
+569 1241 1
+12449 423 3
+12449 562 39
+12449 82 22
+12449 80 14
+12449 559 4
+12449 563 10
+12449 365 2
+12449 367 10
+12449 8020 1
+12449 1121 4
+12449 569 213
+12449 573 3
+12449 483 13
+12449 561 16
+12449 2973 3
+12449 571 3
+12449 366 2
+12449 560 35
+12449 1241 2
+12449 1115 2
+10721 2968 2
+10721 483 7
+10721 562 22
+10721 82 1
+10721 561 9
+10721 568 6
+10721 80 3
+10721 571 31
+10721 559 1
+10721 2970 1
+10721 482 2
+10721 560 8
+482 573 2
+568 2968 1
+568 2970 3
+9217 1320 1
+9217 562 2
+9217 82 12
+9217 559 48
+9217 563 2
+9217 367 1
+9217 567 1
+9217 569 5
+9217 2372 1
+9217 573 7
+9217 4198 3
+9217 483 2
+9217 1242 1
+9217 561 1
+9217 1111 1
+9217 2973 1
+9217 1241 1
+2972 2606 1
+2972 1863 1
+2972 559 6
+2972 2970 1
+2972 8262 4
+2972 82 3
+2973 6931 1
+2973 1320 1
+2973 8262 4
+2973 342 1
+2973 7118 1
+2973 82 13
+2973 81 9
+2973 3317 2
+2973 1863 1
+2973 559 16
+2973 10666 2
+2973 7121 4
+2973 567 5
+2973 569 1
+2973 833 1
+2973 573 3
+2973 1839 2
+2973 155 1
+2973 1242 1
+2973 7120 1
+2973 3200 8
+2973 1323 1
+2973 2970 1
+2973 482 5
+2973 1241 1
+7054 1753 4
+7054 3271 2
+7054 4134 4
+7054 562 13
+7054 7118 2
+7054 82 16
+7054 3317 2
+7054 80 14
+7054 559 5
+7054 7121 8
+7054 365 16
+7054 367 8
+7054 569 8
+7054 483 36
+7054 1839 2
+7054 7119 2
+7054 561 14
+7054 7120 2
+7054 2973 13
+7054 560 1
+573 1320 3
+9187 2611 4
+9187 367 1
+15743 2610 12
+15743 483 12
+15743 2611 6
+15743 562 7
+15743 82 1
+15743 561 7
+15743 80 2
+15743 559 1
+15743 571 1
+15743 560 1
+12450 15744 1
+12450 15743 1
+12450 9187 1
+2545 1753 3
+2545 423 1
+2545 569 2
+2545 2610 2
+2545 573 3
+2545 2611 1
+2545 82 8
+2545 81 2
+2545 365 13
+2545 367 2
+2545 1115 1
+15744 423 1
+15744 8020 2
+15744 2610 1
+15744 483 4
+15744 2611 2
+15744 82 8
+15744 80 5
+15744 365 4
+15744 367 10
+15744 2545 2
+561 571 1
+562 6931 1
+562 1320 2
+562 8262 4
+562 342 1
+562 82 6
+562 81 5
+562 559 6
+562 567 1
+562 2968 3
+562 573 9
+562 483 5
+562 561 41
+562 3200 5
+562 571 2
+562 2973 1
+562 482 5
+562 2970 2
+675 561 44
+675 80 2
+675 483 25
+675 82 1
+6690 561 31
+6690 573 4
+6690 482 5
+6690 483 1
+6690 342 1
+6690 82 4
+6643 6691 3
+6643 6690 10
+6643 483 16
+6643 6692 2
+6643 82 1
+6643 561 53
+6643 80 2
+6643 482 2
+6643 6693 1
+4198 1111 2
+4198 559 2
+4198 563 9
+4198 82 4
+12303 80 2
+12303 563 5
+12303 4198 10
+12303 82 1
+6512 561 26
+6512 573 2
+6512 482 1
+6512 483 1
+6512 82 5
+12304 561 53
+12304 80 2
+12304 482 2
+12304 483 16
+12304 6512 10
+12304 82 1
+11819 488 1
+11819 1118 1
+11819 483 2
+11819 3484 1
+14661 80 5
+14661 8083 2
+14661 483 2
+14661 342 1
+565 488 1
+565 1118 1
+565 483 1
+565 155 2
+565 3484 1
+8061 80 5
+8061 8083 2
+8061 483 2
+8061 342 1
+8061 567 1
+8061 82 1
+11820 3511 1
+11820 488 1
+11820 1118 1
+11820 1117 1
+11820 483 1
+11820 155 2
+11820 3484 1
+11820 82 6
+458 488 1
+458 489 1
+458 482 1
+458 483 1
+5853 3495 3
+5853 80 2
+5853 483 3
+5853 342 1
+5853 82 1
+8083 3511 1
+8083 3484 1
+8083 82 2
+3794 488 1
+3794 483 1
+3794 3484 1
+15784 80 5
+15784 8083 2
+15784 483 2
+15784 342 1
+3495 3511 1
+3495 2973 1
+3495 489 1
+3495 3484 1
+3495 82 3
+3511 82 3
+1241 2372 1
+1241 366 2
+1241 1242 1
+3450 1241 2
+9384 3450 100
+9384 366 31
+9384 1242 31
+9384 1241 31
+1224 366 8
+1224 1242 4
+1224 1241 26
+2372 366 2
+9385 2372 132
+9385 571 3
+9385 366 1
+9385 483 1
+366 365 3
+9386 366 199
+367 366 4
+367 365 3
+1242 366 1
+9387 1242 75
+5312 11319 1
+5312 614 2
+5312 573 1
+5312 482 7
+5312 9851 1
+5312 483 3
+5312 82 1
+9851 5312 1
+1839 15896 3
+5918 5312 4
+5918 5311 3
+5918 573 7
+5918 1839 1
+5918 483 1
+5918 342 1
+5918 82 1
+5918 482 5
+8874 6691 3
+8874 5312 7
+8874 573 1
+8874 1839 1
+8874 6692 2
+8874 5918 36
+8874 482 13
+8874 614 3
+8874 6693 1
+12377 80 2
+12377 2973 1
+12377 82 1
+5141 5312 5
+5141 5311 2
+5141 573 3
+5141 482 7
+5141 1839 1
+5141 483 1
+5141 82 2
+12378 5312 6
+12378 573 1
+12378 1839 1
+12378 483 8
+12378 5141 34
+12378 80 2
+12378 482 13
+12378 614 2
+202 209 1
+14620 1753 3
+14620 9539 2
+14620 423 2
+14620 1121 5
+14620 1320 5
+14620 8262 1
+14620 155 2
+14620 82 27
+14620 81 9
+14620 1111 1
+14620 3463 1
+14620 1322 3
+14620 2296 4
+14620 365 21
+209 81 8
+209 1121 4
+209 80 59
+209 1320 2
+209 2296 16
+209 82 57
+13339 13342 1
+216 81 1
+216 155 2
+216 82 1
+13342 81 1
+13342 80 2
+13342 216 4
+13342 365 1
+8509 6931 1
+8509 81 1
+8509 342 1
+8509 82 2
+9679 81 1
+9679 1117 3
+9679 342 1
+9679 155 3
+9679 82 2
+8536 81 1
+8536 155 2
+8536 82 1
+11190 81 3
+11190 1114 1
+11190 3477 2
+11190 8262 4
+11190 365 1
+9598 2968 8
+9598 82 3
+8262 2968 1
+5778 3477 1
+5778 2968 2
+5778 8262 9
+5778 9598 1
+5778 82 2
+3477 2968 6
+3463 3477 3
+2970 2968 7
+8021 2968 5
+5824 3375 1
+16548 81 5
+16548 1114 1
+16548 12531 2
+16548 82 2
+3399 7745 3
+3399 6931 1
+3399 6222 2
+3399 2666 2
+3399 8262 2
+3399 82 4
+3399 5033 1
+3399 81 6
+3399 3477 2
+3399 8273 2
+3399 365 1
+3375 80 2
+3375 3399 2
+12839 81 3
+12839 1114 1
+12839 365 1
+12839 82 3
+3400 1114 1
+3400 155 1
+833 423 1
+833 1121 2
+833 1114 1
+833 155 9
+833 1113 3
+833 82 8
+833 1116 1
+833 81 49
+833 1111 2
+833 1118 6
+833 559 1
+833 365 16
+3398 1114 1
+6294 81 1
+6294 3263 1
+6294 1323 1
+6294 3262 3
+3262 81 4
+3262 3263 2
+3241 81 2
+3241 3263 2
+3241 1323 1
+3241 1319 1
+3241 155 1
+3241 3262 2
+3241 82 1
+11432 81 4
+11432 3263 7
+11432 1323 1
+11432 1319 2
+11432 3262 3
+11432 365 1
+11432 82 1
+7161 7178 1
+7161 81 7
+7161 3263 11
+7161 1323 1
+7161 1319 1
+7161 3262 3
+7161 365 1
+7161 82 1
+8476 81 2
+8476 3263 2
+8476 1323 1
+8476 1319 1
+8476 3262 2
+8476 82 1
+14187 81 3
+14187 3263 4
+14921 81 2
+14921 3263 2
+14921 1323 1
+14921 1319 1
+14921 3262 2
+14921 82 1
+12410 10836 1
+10861 3884 2
+10861 4031 3
+10861 81 1
+10836 10861 78
+3884 4032 3
+3884 4031 14
+3884 4034 1
+4031 81 8
+4031 365 1
+1610 82 1
+9918 1610 3
+7745 2661 2
+7745 2666 3
+7745 82 2
+12155 11179 1
+12155 7186 1
+12155 12160 1
+12160 12531 18
+4182 423 2
+4182 4825 1
+4182 82 16
+4182 81 25
+4182 4822 2
+4182 450 4
+4182 4827 1
+4182 365 8
+4182 1121 1
+4182 4183 2
+4182 4824 2
+4182 573 1
+4182 155 6
+4182 1319 1
+4182 1751 2
+4182 1111 4
+4182 1323 6
+4182 2973 1
+4182 4823 2
+4182 1322 70
+7186 1121 5
+7186 7691 4
+7186 155 8
+7186 82 9
+7186 81 4
+7186 80 23
+7186 1954 4
+7186 1322 12
+7186 4182 7
+7186 3848 2
+7186 365 26
+7186 1115 5
+4824 4825 6
+1322 81 3
+1322 4183 1
+1322 82 1
+11179 1322 3
+4825 1320 2
+1751 1111 1
+1751 81 7
+1751 4183 1
+1751 1323 2
+1751 4822 1
+1751 4182 1
+1751 1319 3
+1751 82 4
+4827 81 2
+4827 4183 1
+4827 4822 1
+4827 5810 1
+4827 4182 1
+4827 82 1
+4183 81 2
+4183 365 3
+8185 1319 3
+8185 155 1
+8185 82 6
+8185 6623 1
+8185 81 6
+8185 1323 1
+8185 33 5
+8185 1322 3
+8185 2607 2
+8185 365 2
+9044 6097 1
+9044 5879 1
+9044 3854 1
+9044 9052 1
+9044 9050 1
+9044 5423 1
+9044 7840 1
+9044 3548 1
+9044 9051 1
+9044 9049 1
+1252 81 9
+1252 1323 1
+1252 1320 1
+1252 1322 1
+1252 1319 2
+1252 1113 2
+1252 365 1
+1252 82 2
+10378 81 3
+10378 155 1
+9049 81 1
+9049 80 2
+9049 6169 1
+9049 4182 1
+9049 1322 1
+9049 7691 1
+9049 365 1
+17176 81 1
+17176 1323 2
+17176 1319 1
+2664 7745 3
+2664 6222 1
+2664 2666 2
+2664 1319 9
+2664 155 2
+2664 82 2
+2664 81 2
+2664 1111 1
+2664 1323 2
+5423 81 2
+5423 80 1
+5423 2664 19
+5423 365 1
+5423 82 4
+16473 81 2
+16473 1319 1
+14295 81 2
+14295 562 1
+14295 82 2
+6097 80 3
+6097 82 2
+13605 81 17
+13605 569 2
+13605 1118 1
+13605 1319 1
+13605 155 2
+13605 82 6
+5879 81 1
+5879 80 8
+5879 559 1
+5879 567 1
+5879 365 1
+5879 82 10
+3808 423 1
+3808 81 3
+3808 1121 1
+3808 1319 2
+3808 155 2
+3808 365 1
+3808 82 1
+9639 423 1
+9639 81 5
+9639 33 1
+9639 2296 1
+9639 1319 1
+9639 8185 1
+9639 82 2
+8428 423 1
+8428 569 1
+8428 1319 1
+8428 155 3
+8428 82 6
+8428 81 10
+8428 365 3
+8428 367 1
+9050 80 18
+9050 82 8
+5465 81 1
+5465 82 1
+4047 1753 1
+4047 81 2
+4047 1323 3
+4047 2128 4
+4047 82 1
+8749 81 4
+8749 155 1
+8749 1203 1
+8749 82 3
+15118 81 1
+15118 8185 1
+15118 82 1
+9052 81 15
+9052 80 18
+9052 2664 1
+9052 82 32
+15970 81 1
+15970 1863 2
+14854 81 9
+14854 1323 3
+14854 155 1
+14854 8185 3
+14854 365 7
+14854 82 3
+9051 81 4
+9051 80 9
+9051 2664 1
+9051 365 3
+13290 81 8
+13290 2296 1
+13290 1319 3
+13290 155 1
+13290 365 1
+13290 82 5
+12814 81 5
+12814 1323 1
+12814 2296 1
+12814 155 1
+12814 8185 6
+12814 365 4
+12814 82 2
+3548 81 3
+3548 80 20
+3548 2664 1
+3548 1319 1
+3548 365 3
+8165 81 2
+8165 1323 1
+8165 2296 2
+8165 155 1
+8165 8185 5
+8165 82 1
+4415 81 1
+4415 80 10
+4415 2664 1
+4415 365 1
+5466 1751 2
+5466 81 2
+14166 81 1
+14166 82 1
+6174 81 8
+6174 365 2
+6174 82 2
+8092 81 2
+8092 559 3
+5568 1319 2
+5568 155 2
+5568 82 4
+5568 81 8
+5568 1111 2
+5568 1323 1
+5568 4822 1
+5568 4182 2
+5568 450 1
+5568 1322 1
+5568 365 1
+7840 81 1
+7840 80 12
+7840 82 3
+17167 81 2
+17167 2296 1
+17167 1319 1
+17167 8185 5
+17167 82 1
+3854 81 3
+3854 80 7
+3854 2664 1
+3854 1319 1
+3854 365 2
+3854 82 1
+12281 81 2
+12281 2296 1
+12281 155 1
+12281 8185 5
+12281 82 1
+7794 423 1
+7794 81 4
+7794 84 1
+7794 155 1
+7794 365 2
+7794 82 2
+83 1753 4
+83 81 4
+83 1323 1
+83 84 3
+83 365 5
+83 82 3
+84 1753 3
+84 423 1
+84 569 1
+84 1319 1
+84 155 8
+84 82 8
+84 1751 1
+84 81 16
+84 1323 1
+84 366 1
+84 365 11
+1323 3744 1
+1323 1111 1
+1323 81 11
+1323 1118 1
+1323 1610 5
+1323 155 9
+1323 82 3
+91 11897 2
+91 1111 2
+91 424 1
+91 1117 2
+91 155 4
+91 365 5
+91 82 2
+14289 4885 1
+14289 7890 1
+14289 11452 1
+14289 11330 1
+2294 423 6
+2294 424 1
+2294 1117 1
+2294 155 3
+2294 1115 25
+2294 365 16
+2294 82 3
+7890 2294 14
+7890 80 10
+7890 155 1
+7890 1115 11
+7890 365 22
+7890 82 3
+17855 6931 1
+17855 424 1
+17855 155 1
+17855 1115 11
+17855 365 16
+17855 82 1
+2295 6931 1
+2295 423 3
+2295 155 1
+2295 82 3
+2295 81 1
+2295 424 1
+2295 1322 1
+2295 2607 1
+2295 365 18
+4885 1753 1
+4885 80 10
+4885 2295 1
+4885 82 4
+4907 424 1
+4907 365 12
+4907 82 1
+85 423 1
+85 91 12
+85 365 10
+11330 91 4
+11330 80 3
+11330 85 11
+11330 1117 6
+11330 365 10
+2821 423 2
+4278 423 2
+2687 1111 1
+2687 423 4
+2687 91 16
+2687 1117 3
+2687 2821 3
+2687 365 16
+11452 1753 2
+11452 81 7
+11452 80 25
+11452 2821 1
+11452 365 23
+11452 82 33
+381 424 1
+381 365 6
+381 82 2
+11242 11247 1
+11242 4139 1
+11242 11248 1
+4823 81 1
+4823 4183 1
+4823 6169 2
+4184 1751 3
+4184 81 1
+4184 4183 1
+4184 6169 2
+4139 81 1
+4139 80 3
+4139 4184 2
+4139 4182 2
+4139 365 1
+2607 4183 5
+2607 2968 2
+2607 1320 1
+2607 82 3
+2607 81 7
+2607 5778 1
+2607 3477 1
+2607 6169 2
+2607 4182 1
+2607 1322 2
+2607 2296 1
+2607 365 2
+11247 81 2
+11247 80 4
+11247 1322 1
+11247 2607 5
+11247 82 5
+6169 81 2
+6169 4183 3
+13540 4031 3
+13540 81 3
+13540 4183 2
+13540 6169 2
+13540 82 2
+11248 81 1
+11248 80 7
+11248 13540 2
+11248 4182 2
+11248 365 1
+7691 81 1
+7691 4183 2
+7691 6169 2
+13802 1753 1
+13802 88 1
+13802 1320 1
+13802 155 3
+13802 82 11
+13802 83 1
+13802 81 2
+13802 365 11
+1863 81 7
+1863 6425 4
+1863 1203 2
+8088 45 1
+11086 88 4
+11086 423 1
+11086 1121 2
+11086 2352 9
+11086 82 7
+11086 81 7
+11086 365 6
+11086 1115 1
+2352 365 3
+88 81 5
+88 4822 1
+88 5810 1
+88 155 3
+88 2352 1
+88 365 1
+88 82 2
+92 88 7
+92 81 2
+92 2352 6
+92 365 7
+92 82 2
+93 88 6
+93 423 1
+93 1121 2
+93 2352 4
+93 82 6
+93 81 5
+93 365 4
+93 1115 1
+89 88 25
+89 569 1
+89 342 1
+89 155 4
+89 92 2
+89 2352 17
+89 82 27
+89 81 13
+89 559 1
+89 366 1
+89 11086 1
+89 1115 3
+89 93 1
+89 365 34
+45 84 2
+45 89 2
+45 92 1
+45 82 6
+45 83 4
+45 81 2
+45 80 9
+45 93 1
+13742 1480 3
+13742 1386 3
+13742 1117 1
+13742 89 5
+13742 82 3
+9719 9499 1
+10295 11897 2
+10295 1753 2
+10295 423 3
+10295 1121 2
+10295 424 2
+10295 365 5
+10295 82 6
+6720 6931 1
+6720 1753 2
+6720 423 6
+6720 1121 4
+6720 155 4
+6720 82 12
+6720 365 22
+6720 1115 2
+9539 6931 1
+9539 1114 1
+9539 2968 2
+9539 342 1
+9539 155 1
+9539 82 5
+9539 81 1
+9539 5778 1
+9539 3477 1
+9539 1863 1
+9539 365 3
+9499 9539 5
+9499 80 15
+9499 365 6
+9499 82 4
+11897 424 2
+11897 82 2
+11898 365 2
+15423 80 6
+15423 3848 6
+15423 155 3
+15423 82 3
+15367 1753 1
+15367 80 4
+15367 3848 6
+15367 365 1
+15367 82 4
+9962 81 2
+9962 2097 1
+9962 82 2
+13572 423 1
+13572 81 6
+13572 1121 2
+13572 2097 1
+13572 82 2
+11694 155 1
+11694 82 2
+11694 81 2
+11694 752 1
+11694 1323 1
+11694 1322 1
+11694 2607 2
+11694 365 1
+13589 81 1
+13589 752 1
+13589 82 1
+3595 81 5
+3595 752 2
+3595 365 1
+3595 82 1
+11115 81 7
+11115 752 2
+11115 155 3
+11115 365 2
+11115 82 2
+2105 1753 1
+2105 81 2
+2105 752 2
+2105 365 1
+2105 82 1
+8411 81 1
+8411 752 2
+9750 1111 1
+9750 81 2
+9750 752 2
+9750 365 6
+9750 82 2
+8604 1111 1
+8604 81 2
+8604 3426 1
+8604 365 1
+13376 81 1
+13376 752 1
+13376 82 1
+1164 81 4
+1164 752 1
+1164 1203 1
+1164 82 1
+10189 81 8
+10189 3426 2
+10189 365 7
+10189 82 3
+15057 81 4
+15057 3426 2
+15057 365 2
+15057 82 1
+16538 1116 1
+16538 81 2
+16538 2097 3
+16538 3006 1
+16538 82 1
+17627 1116 1
+17627 81 2
+17627 1374 1
+17627 1203 1
+17627 82 2
+10548 88 1
+10548 81 2
+10548 752 1
+10548 155 1
+10548 365 2
+10548 82 5
+18175 423 1
+18175 81 2
+18175 1121 2
+18175 752 1
+18175 82 2
+2082 423 1
+2082 81 8
+2082 2097 1
+2082 365 1
+2082 82 2
+9674 752 1
+12038 752 2
+12038 1203 1
+14152 81 2
+14152 752 2
+14152 155 1
+14152 1203 1
+14152 82 1
+5504 81 4
+5504 752 2
+5504 82 2
+728 81 4
+728 752 2
+728 365 1
+728 82 4
+2097 81 4
+10086 81 9
+10086 4182 1
+10086 1322 2
+10086 155 3
+10086 3426 2
+10086 365 7
+10086 82 14
+12430 81 1
+12430 3405 2
+12430 3426 3
+12430 1115 1
+12430 365 1
+3405 81 3
+3405 3426 4
+3405 365 1
+14308 81 1
+14308 752 2
+14308 559 4
+14308 155 2
+10196 81 1
+10196 752 1
+10196 365 1
+8746 81 2
+8746 752 2
+8746 365 2
+8746 82 2
+11388 81 1
+11388 1323 1
+11388 752 2
+11388 365 1
+8743 8746 2
+13697 81 3
+13697 3426 1
+13697 365 1
+13697 82 1
+11103 81 3
+11103 752 1
+11103 1115 1
+11103 82 1
+11902 423 1
+11902 81 2
+11902 752 1
+11902 365 4
+11902 82 2
+8401 81 1
+8401 752 2
+8401 365 1
+7880 81 1
+7880 752 1
+7880 365 1
+8294 81 2
+8294 752 1
+8294 1115 1
+8294 365 1
+8294 82 2
+9453 2372 1
+9453 569 4
+9453 1242 1
+9453 82 3
+9453 81 6
+9453 752 2
+9453 571 1
+9453 365 5
+9453 367 1
+9453 1241 1
+1341 81 1
+1341 1374 1
+1341 82 1
+8566 81 1
+8566 752 1
+8566 365 1
+7139 81 3
+7139 1323 1
+7139 752 2
+7139 89 1
+7139 365 1
+7139 82 3
+15727 752 2
+15727 1203 1
+9426 81 3
+9426 2097 3
+12833 752 1
+14831 752 1
+10935 752 2
+10935 155 2
+12381 752 2
+12381 155 3
+12381 1493 7
+4410 81 1
+4410 752 1
+15904 81 2
+15904 82 1
+17193 81 3
+17193 3426 1
+17193 365 1
+12130 81 2
+12130 752 2
+12130 559 2
+12130 567 2
+12130 82 1
+5843 81 1
+5843 1323 1
+5843 752 1
+5843 559 2
+5843 155 1
+8111 155 1
+8111 82 3
+8111 81 9
+8111 752 2
+8111 1323 2
+8111 559 4
+8111 2973 1
+8111 567 2
+10299 81 1
+10299 752 2
+10299 4822 1
+10299 5810 1
+10299 155 1
+10299 82 1
+1374 81 1
+3426 752 2
+752 81 1
+752 155 1
+110 155 1
+14290 15076 1
+14290 1768 1
+14290 14135 1
+14290 12313 1
+14290 10202 1
+14290 6496 1
+1799 1753 1
+1799 1111 1
+1799 423 1
+1799 571 1
+1799 1322 2
+1799 155 2
+1799 365 2
+1799 82 9
+1768 80 14
+1768 571 1
+1768 1799 26
+1768 365 1
+1768 82 7
+3006 1116 2
+3006 81 5
+3006 82 1
+1116 7745 3
+1116 6222 1
+1116 81 3
+1116 1323 1
+1116 4822 1
+1116 5810 1
+1116 82 2
+173 2372 1
+173 571 3
+173 110 7
+12313 2372 3
+12313 80 2
+12313 571 1
+3200 81 3
+3200 1323 2
+3200 559 5
+6496 81 1
+6496 3200 20
+6496 80 3
+6496 365 1
+8396 573 1
+8396 1520 1
+8396 483 1
+8396 562 3
+8396 155 3
+8396 82 5
+8396 561 1
+8396 2973 2
+8396 559 11
+8396 482 3
+158 110 7
+158 367 1
+158 365 2
+15076 80 4
+15076 367 4
+15076 365 1
+15076 82 2
+188 110 6
+1203 7745 2
+1203 6931 1
+1203 1111 1
+1203 81 11
+1203 1323 3
+1203 82 5
+177 110 7
+177 1242 1
+177 1241 1
+10202 80 3
+10202 1242 4
+10202 82 1
+13189 1386 4
+13189 8262 2
+13189 155 1
+13189 82 3
+13189 13069 4
+13189 9956 1
+13189 81 3
+13189 559 1
+13189 3477 1
+13189 1203 4
+13189 5819 1
+13098 559 6
+13098 563 2
+13098 2972 2
+13098 82 1
+13069 81 1
+13069 13098 1
+13069 559 1
+13069 573 1
+13069 2972 2
+13069 567 1
+13069 82 6
+16226 9771 1
+16226 15089 1
+16226 2968 2
+16226 2666 1
+16226 82 5
+16226 1116 1
+16226 2632 1
+16226 9808 1
+2663 5493 4
+2663 81 2
+2663 82 2
+12020 81 5
+12020 1322 1
+12020 2607 2
+12020 82 1
+9771 2663 1
+9771 82 3
+18090 5493 1
+18090 81 4
+18090 155 4
+18090 82 1
+2632 2661 2
+2632 81 1
+2632 2663 1
+2632 2666 4
+2632 82 3
+15089 81 4
+15089 2663 3
+15089 1480 1
+15089 559 1
+15089 1841 1
+15089 82 2
+9808 81 4
+9808 2663 2
+9808 2973 4
+9808 559 7
+9808 573 2
+9808 482 2
+9808 82 2
+1841 1866 4
+1841 1863 1
+2494 2500 1
+2494 2499 1
+2494 2498 1
+9956 1799 1
+9956 155 4
+9956 82 6
+2500 80 2
+9577 9956 24
+9577 1111 1
+9577 155 1
+9577 82 1
+2499 80 2
+9576 9956 4
+9576 9577 2
+2498 80 2
+8039 8045 1
+8039 5813 1
+8039 6123 1
+8039 8044 1
+8039 8050 1
+8039 8048 1
+8039 1975 1
+8039 8049 1
+8039 8047 1
+8039 3759 1
+8039 8046 1
+8039 8051 1
+8039 5833 1
+6931 1320 5
+8044 6931 6
+1520 1117 2
+1520 155 3
+8045 1520 2
+8046 614 20
+6123 80 1
+6123 1117 5
+3785 155 1
+3759 81 4
+3759 80 1
+3759 3785 1
+3759 365 1
+3759 82 2
+8048 8273 42
+3744 155 1
+8049 5311 2
+155 342 1
+1975 342 1
+1975 155 63
+8050 769 13
+5813 5819 7
+8051 6222 14
+8047 6114 1
+6114 30 11
+31 6623 1
+11085 365 7
+6971 6691 2
+3271 3317 6
+3271 1613 10
+1583 3271 6
+1583 1320 1
+1583 483 4
+1583 7119 6
+1583 4134 6
+1583 7118 2
+1583 82 10
+1583 4126 1
+1583 7120 2
+1583 80 11
+1583 3317 31
+1583 10666 4
+1583 7121 6
+4134 7120 2
+4134 3317 6
+4134 3271 8
+4134 7121 1
+4134 7119 2
+4134 1613 5
+7119 3271 1
+7119 559 4
+7119 4134 11
+7119 1613 1
+1584 3271 3
+1584 483 5
+1584 7119 29
+1584 4134 5
+1584 82 3
+1584 8871 4
+1584 7120 1
+1584 80 5
+1584 3317 8
+1584 559 5
+1584 571 1
+7118 1320 2
+1585 7121 9
+1612 1320 2
+1613 1612 1
+1586 80 2
+1586 1610 4
+1586 1612 2
+1586 1613 29
+1586 82 1
+8871 3317 1
+8871 3271 1
+8871 4134 2
+1587 8871 3
+1587 3317 2
+1587 3271 30
+1587 483 7
+1587 7121 3
+1587 4134 14
+4126 3317 1
+4126 4134 3
+8869 3317 1
+8869 3271 5
+1588 8871 2
+1588 8869 3
+1588 3317 2
+1588 3271 44
+1588 483 4
+3317 7120 4
+3317 1320 3
+3317 8262 4
+3317 7119 1
+3317 8021 1
+3317 1613 2
+10666 3271 6
+10666 4134 1
+10666 82 4
+10666 8871 1
+10666 4126 1
+10666 3317 7
+10666 7120 2
+10666 8869 2
+10666 7121 2
+7120 8020 1
+7120 569 1
+7120 2968 3
+7120 1320 2
+7120 7119 2
+7120 82 4
+7120 3317 11
+7120 559 3
+1589 3271 1
+1589 1320 1
+1589 483 3
+1589 4134 1
+1589 82 3
+1589 8871 1
+1589 80 2
+1589 3317 11
+1589 7120 16
+1589 571 2
+1590 8871 1
+1590 8869 2
+1590 7120 1
+1590 3317 109
+1590 3271 2
+1590 571 2
+1590 483 3
+1590 4134 11
+1955 81 4
+1955 569 1
+1955 365 2
+1955 82 3
+14144 14149 1
+16294 423 1
+16294 569 1
+16294 84 1
+16294 573 1
+16294 82 16
+16294 83 1
+16294 81 19
+16294 1115 1
+16294 365 16
+16294 367 1
+16294 567 1
+15849 81 5
+15849 1954 3
+15849 1955 6
+15849 155 2
+15849 367 1
+15849 365 7
+15849 82 15
+14149 81 1
+14149 1121 2
+14149 80 12
+14149 15849 10
+14149 1115 2
+14149 365 7
+14149 82 5
+1890 81 5
+1890 1954 3
+1890 1955 5
+1890 367 1
+1890 365 7
+1890 82 15
+13104 82 3

@@ -1,0 +1,2808 @@
+*Vertics: 1187
+5,org.apache.deltaspike.scheduler.impl.SchedulerProducer
+15,org.apache.deltaspike.scheduler.impl.SchedulerExtension
+18,org.apache.deltaspike.jsf.impl.injection.proxy.ConverterInvocationHandler
+31,org.apache.deltaspike.jsf.impl.injection.proxy.DefaultPartialStateHolder
+35,org.apache.deltaspike.data.impl.audit.AuditEntityListenerTest
+78,org.apache.deltaspike.data.test.TransactionalTestCase
+79,org.apache.deltaspike.data.test.domain.AuditedEntity
+80,org.apache.deltaspike.data.test.domain.Principal
+87,org.apache.deltaspike.data.test.util.TestDeployments
+88,org.apache.deltaspike.data.impl.audit.AuditEntityListener
+104,org.apache.deltaspike.test.core.api.config.propertyconfigsource.ConfigPropertyEARTest
+132,org.apache.deltaspike.test.util.ArchiveUtils
+135,org.apache.deltaspike.test.core.api.config.propertyconfigsource.BaseTestConfigProperty
+136,org.apache.deltaspike.test.core.api.config.propertyconfigsource.MyBean
+137,org.apache.deltaspike.test.core.api.config.propertyconfigsource.MyCustomEarPropertyFileConfig
+145,org.apache.deltaspike.security.impl.extension.Authorizer
+247,org.apache.deltaspike.core.util.metadata.builder.InjectableMethod
+248,org.apache.deltaspike.security.api.authorization.AccessDeniedException
+250,org.apache.deltaspike.security.api.authorization.SecurityDefinitionException
+253,org.apache.deltaspike.security.impl.authorization.SecurityParameterValueRedefiner
+254,org.apache.deltaspike.security.impl.util.SecurityUtils
+259,org.apache.deltaspike.security.impl.extension.AuthorizationParameter
+273,org.apache.deltaspike.test.core.api.scope.viewaccess.ViewAccessScopedBeanX
+303,org.apache.deltaspike.example.scope.SessionScopedBean
+307,org.apache.deltaspike.example.scope.ScopedBean
+311,org.apache.deltaspike.test.jpa.api.transactional.defaultinjection.DefaultEntityManagerInjectionTest
+338,org.apache.deltaspike.core.api.projectstage.ProjectStage
+339,org.apache.deltaspike.core.util.ProjectStageProducer
+340,org.apache.deltaspike.jpa.impl.transaction.context.TransactionBeanStorage
+341,org.apache.deltaspike.jpa.impl.transaction.context.TransactionContextExtension
+343,org.apache.deltaspike.test.jpa.api.shared.TestEntityManager
+344,org.apache.deltaspike.test.jpa.api.shared.TestEntityTransaction
+345,org.apache.deltaspike.test.jpa.api.shared.TestException
+351,org.apache.deltaspike.test.jpa.api.transactional.defaultinjection.TestEntityManagerProducer
+352,org.apache.deltaspike.test.jpa.api.transactional.defaultinjection.FailedFlushTransactionalBean
+353,org.apache.deltaspike.test.jpa.api.transactional.defaultinjection.TransactionalBean
+367,org.apache.deltaspike.test.security.impl.authorization.secured.SecuredBean2
+373,org.apache.deltaspike.test.api.util.IncompatibleCustomException
+383,org.apache.deltaspike.core.util.metadata.builder.DummyInjectionTarget
+402,org.apache.deltaspike.test.core.impl.activation.ClassDeactivationEarFileTest
+410,org.apache.deltaspike.test.core.impl.activation.ClassDeactivationTest
+411,org.apache.deltaspike.test.core.impl.activation.ClassDeactivationWarFileTest
+420,org.apache.deltaspike.security.api.SecurityException
+429,org.apache.deltaspike.jsf.impl.scope.viewaccess.ViewAccessScopedAwareNavigationHandler
+451,org.apache.deltaspike.core.api.provider.BeanProvider
+452,org.apache.deltaspike.core.impl.scope.DeltaSpikeContextExtension
+453,org.apache.deltaspike.core.impl.scope.viewaccess.ViewAccessContext
+462,org.apache.deltaspike.test.testcontrol.uc011.InterceptedBeanTest
+470,org.apache.deltaspike.testcontrol.api.junit.CdiTestRunner
+472,org.apache.deltaspike.test.testcontrol.uc011.InterceptedBeanClassLevel
+473,org.apache.deltaspike.test.testcontrol.uc011.InterceptedBeanMethodLevel
+474,org.apache.deltaspike.test.testcontrol.uc011.InterceptionResultStorage
+525,org.apache.deltaspike.data.api.AbstractEntityRepository
+534,org.apache.deltaspike.data.api.QueryInvocationException
+538,org.apache.deltaspike.data.api.SingleResultType
+546,org.apache.deltaspike.data.api.mapping.SimpleQueryInOutMapperBase
+547,org.apache.deltaspike.data.impl.RepositoryDefinitionException
+548,org.apache.deltaspike.data.impl.RepositoryExtension
+549,org.apache.deltaspike.data.impl.builder.QueryBuilder
+550,org.apache.deltaspike.data.impl.criteria.QueryCriteria
+551,org.apache.deltaspike.data.impl.handler.QueryHandler
+552,org.apache.deltaspike.data.impl.meta.RepositoryComponents
+554,org.apache.deltaspike.data.impl.param.Parameters
+555,org.apache.deltaspike.data.impl.tx.TransactionalQueryRunner
+556,org.apache.deltaspike.data.impl.util.EntityUtils
+559,org.apache.deltaspike.jpa.impl.transaction.EnvironmentAwareTransactionStrategy
+573,org.apache.deltaspike.data.test.util.Logging
+574,org.apache.deltaspike.data.test.util.TestData
+578,org.apache.deltaspike.test.testcontrol.mock.uc014.TypedBeanProducer
+582,org.apache.deltaspike.test.testcontrol.mock.uc014.TypedBean1and2
+583,org.apache.deltaspike.test.testcontrol.mock.uc014.TypedBean3
+590,org.apache.deltaspike.core.api.literal.SingletonLiteral
+595,org.apache.deltaspike.data.impl.util.cl.AggregatedClassLoader
+636,org.apache.deltaspike.jsf.impl.scope.view.ViewScopedExtension
+649,org.apache.deltaspike.core.util.ClassDeactivationUtils
+650,org.apache.deltaspike.jsf.impl.util.JsfUtils
+652,org.apache.deltaspike.jsf.impl.scope.view.ViewScopedContext
+657,org.apache.deltaspike.test.security.impl.authorization.secured.TestAccessDecisionVoter2
+688,org.apache.deltaspike.core.impl.scope.conversation.ConversationBeanHolder
+689,org.apache.deltaspike.core.impl.scope.conversation.GroupedConversationContext
+690,org.apache.deltaspike.core.impl.scope.viewaccess.ViewAccessBeanAccessHistory
+691,org.apache.deltaspike.core.impl.scope.viewaccess.ViewAccessBeanHolder
+692,org.apache.deltaspike.core.impl.scope.viewaccess.ViewAccessViewHistory
+693,org.apache.deltaspike.core.impl.scope.window.WindowBeanHolder
+694,org.apache.deltaspike.core.impl.scope.window.WindowContextImpl
+695,org.apache.deltaspike.core.impl.scope.window.WindowIdHolder
+705,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.uc003.TestBeanX
+710,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.shared.TestBaseBean
+725,org.apache.deltaspike.data.test.domain.Simple
+726,org.apache.deltaspike.data.test.domain.dto.BooleanWrapper
+727,org.apache.deltaspike.data.test.domain.dto.SimpleDto
+728,org.apache.deltaspike.data.test.domain.dto.SimpleId
+731,org.apache.deltaspike.data.test.service.SimpleMapper
+732,org.apache.deltaspike.data.test.service.WrappedMapper
+734,org.apache.deltaspike.test.jpa.api.transactional.getRollbackOnly.multipleinjection.auto.MultipleEntityManagerInjectionRollbackOnlyTest
+748,org.apache.deltaspike.test.jpa.api.transactional.getRollbackOnly.multipleinjection.auto.TestEntityManagerProducer
+749,org.apache.deltaspike.test.jpa.api.transactional.getRollbackOnly.multipleinjection.auto.MultiTransactionBean
+763,org.apache.deltaspike.data.test.domain.mapped.MappedTwo
+778,org.apache.deltaspike.data.impl.param.IndexedParameter
+793,org.apache.deltaspike.data.impl.param.Parameter
+802,org.apache.deltaspike.test.jpa.datasource.DummyJdbcDriver
+822,org.apache.deltaspike.test.jpa.datasource.DummyConnection
+824,org.apache.deltaspike.test.core.api.alternative.local.BaseBean2
+828,org.apache.deltaspike.test.core.api.config.propertyconfigsource.ConfigPropertyWARTest
+834,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.auto.MultiTransactionBean
+866,org.apache.deltaspike.test.jsf.impl.scope.viewaccess.beans.ViewAccessScopedBeanX
+875,org.apache.deltaspike.data.impl.param.NamedParameter
+886,org.apache.deltaspike.core.api.literal.ConversationScopedLiteral
+889,org.apache.deltaspike.scheduler.impl.CdiAwareJobFactory
+910,org.apache.deltaspike.core.util.ClassUtils
+918,org.apache.deltaspike.test.security.impl.authorization.secured.TestAccessDecisionVoter
+920,org.apache.deltaspike.data.impl.builder.part.OrQueryPart
+935,org.apache.deltaspike.data.impl.builder.QueryBuilderContext
+936,org.apache.deltaspike.data.impl.meta.RepositoryComponent
+937,org.apache.deltaspike.data.impl.builder.part.ConnectingQueryPart
+938,org.apache.deltaspike.data.impl.builder.part.AndQueryPart
+939,org.apache.deltaspike.data.impl.util.QueryUtils
+941,org.apache.deltaspike.data.impl.builder.part.QueryPart
+951,org.apache.deltaspike.test.jpa.api.transactional.getRollbackOnly.multipleinjection.nested.NestedTransactionBean
+959,org.apache.deltaspike.test.jpa.api.transactionscoped.defaultinjection.TestEntityManagerProducer
+974,org.apache.deltaspike.test.jsf.impl.scope.mapped.beans.JsfApplicationScopedBackingBean
+983,org.apache.deltaspike.test.jsf.impl.injection.uc002.MyBean
+998,org.apache.deltaspike.test.jsf.impl.injection.uc002.AnotherBean
+1034,org.apache.deltaspike.test.core.api.exclude.DevDbBean
+1040,org.apache.deltaspike.data.impl.meta.MethodPrefix
+1088,org.apache.deltaspike.test.core.api.scope.viewaccess.ViewAccessScopedBeanY
+1095,org.apache.deltaspike.data.test.domain.mapped.MappedId
+1108,org.apache.deltaspike.test.security.impl.authorization.secured.SecuredBean3
+1114,org.apache.deltaspike.core.impl.scope.AbstractBeanHolder
+1115,org.apache.deltaspike.core.impl.scope.conversation.ConversationKey
+1127,org.apache.deltaspike.test.core.api.provider.TestBean
+1136,org.apache.deltaspike.cdise.servlet.test.EmbeddedServletContainer
+1170,org.apache.deltaspike.cdise.api.CdiContainerLoader
+1179,org.apache.deltaspike.test.jpa.api.transactional.getRollbackOnly.multipleinjection.auto.MultipleEntityManagerInjectionRollbackOnly1Test
+1194,org.apache.deltaspike.test.core.api.provider.BeanManagerProviderEarFileTest
+1198,org.apache.deltaspike.test.core.api.provider.BeanManagerProviderTest
+1199,org.apache.deltaspike.test.core.api.provider.BeanManagerProviderWarFileTest
+1206,org.apache.deltaspike.testcontrol.impl.mock.DefaultMockFilter
+1256,org.apache.deltaspike.test.core.impl.exception.control.flow.HandledExceptionHandlerTest
+1267,org.apache.deltaspike.core.api.exception.control.event.ExceptionToCatchEvent
+1269,org.apache.deltaspike.test.core.impl.exception.control.flow.ExceptionHandledHandler
+1277,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc004.ViewConfigTest
+1308,org.apache.deltaspike.core.api.config.view.metadata.CallbackDescriptor
+1315,org.apache.deltaspike.jsf.impl.config.view.ViewConfigExtension
+1316,org.apache.deltaspike.jsf.impl.config.view.ViewConfigResolverProducer
+1320,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc004.SimpleTestAccessDecisionVoter
+1321,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc004.SimplePageConfig
+1325,org.apache.deltaspike.core.api.config.view.metadata.ExecutableCallbackDescriptor
+1343,org.apache.deltaspike.jpa.impl.transaction.ContainerManagedTransactionStrategy
+1352,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.uc003.TestBeanY
+1355,org.apache.deltaspike.jsf.impl.listener.request.DeltaSpikeLifecycleFactoryWrapper
+1381,org.apache.deltaspike.core.util.ExceptionUtils
+1382,org.apache.deltaspike.jsf.api.config.JsfModuleConfig
+1384,org.apache.deltaspike.jsf.impl.listener.request.DeltaSpikeLifecycleWrapper
+1391,org.apache.deltaspike.test.testcontrol.mock.uc009.TypedBean3
+1407,org.apache.deltaspike.test.category.DeltaSpikeTest
+1414,org.apache.deltaspike.jsf.api.listener.phase.JsfPhaseId
+1416,org.apache.deltaspike.core.util.bean.ImmutablePassivationCapableBeanWrapper
+1434,org.apache.deltaspike.core.util.bean.ImmutableBeanWrapper
+1437,org.apache.deltaspike.test.jpa.api.transactionscoped.nested.NestedTransactionBean
+1443,org.apache.deltaspike.data.impl.criteria.predicate.IsNotNull
+1458,org.apache.deltaspike.data.impl.criteria.predicate.NoValueBuilder
+1463,org.apache.deltaspike.test.core.api.util.context.DummyBean
+1471,org.apache.deltaspike.proxy.api.DeltaSpikeProxyFactory
+1551,org.apache.deltaspike.core.util.ServiceUtils
+1574,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.flush.auto.MultiTransactionBean
+1581,org.apache.deltaspike.test.jsf.impl.scope.viewaccess.beans.ViewAccessScopedBeanY
+1598,org.apache.deltaspike.core.util.ProxyUtils
+1599,org.apache.deltaspike.core.util.context.ContextualStorage
+1606,org.apache.deltaspike.test.testcontrol.mock.uc013.TypedBean1and2
+1616,org.apache.deltaspike.test.jpa.api.transactionscoped.nested.TestEntityManagerProducer
+1859,org.apache.deltaspike.core.api.provider.BeanManagerProvider
+1861,org.apache.deltaspike.testcontrol.api.literal.TestControlLiteral
+1871,org.apache.deltaspike.testcontrol.api.junit.CdiTestSuiteRunner
+1903,org.apache.deltaspike.data.impl.meta.extractor.TypeMetadataExtractor
+1923,org.apache.deltaspike.data.impl.meta.RepositoryEntity
+1930,org.apache.deltaspike.test.jpa.api.transactional.exception.catched.multipleinjection.nested.TestEntityManagerProducer
+1951,org.apache.deltaspike.core.impl.config.BaseConfigSource
+1968,org.apache.deltaspike.data.impl.meta.unit.OrmXmlBasedRepositoryTest
+1981,org.apache.deltaspike.data.test.domain.mapped.MappedOne
+1982,org.apache.deltaspike.data.test.service.MappedOneRepository
+1988,org.apache.deltaspike.test.jpa.api.transactionscoped.defaultinjection.TransactionalBean
+2004,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc002.PageBean002
+2013,org.apache.deltaspike.test.testcontrol.uc011.TestInterceptorImplementation
+2020,org.apache.deltaspike.core.impl.exception.control.DefaultExceptionEvent
+2047,org.apache.deltaspike.core.api.exception.control.ExceptionHandlingFlow
+2048,org.apache.deltaspike.core.api.exception.control.event.ExceptionStackEvent
+2084,org.apache.deltaspike.security.api.authorization.AccessDecisionState
+2086,org.apache.deltaspike.test.jpa.api.transactional.getRollbackOnly.multipleinjection.nested.TestEntityManagerProducer
+2099,org.apache.deltaspike.test.core.impl.custom.spi.ServiceUtilsWarFileTest
+2105,org.apache.deltaspike.test.core.impl.custom.spi.ServiceUtilsTest
+2107,org.apache.deltaspike.test.core.impl.custom.spi.MyImpl
+2109,org.apache.deltaspike.data.impl.audit.TimestampsProviderTest
+2121,org.apache.deltaspike.data.impl.audit.TimestampsProvider
+2122,org.apache.deltaspike.data.impl.audit.AuditPropertyException
+2127,org.apache.deltaspike.test.core.api.exclude.uc001.Entity1
+2129,org.apache.deltaspike.test.core.api.exclude.uc001.BaseEntity1
+2131,org.apache.deltaspike.test.core.impl.exception.control.flow.ProceedCauseHandler
+2155,org.apache.deltaspike.data.impl.criteria.predicate.Eq
+2165,org.apache.deltaspike.data.impl.criteria.predicate.SingleValueBuilder
+2169,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc003.PageBean003
+2178,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc003.SimplePageConfig
+2180,org.apache.deltaspike.test.security.impl.authorization.secured.SecuredBean4
+2186,org.apache.deltaspike.core.util.metadata.builder.AnnotationBuilder
+2213,org.apache.deltaspike.core.util.metadata.builder.AnnotationStore
+2217,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.nested.TestEntityManagerProducer
+2223,org.apache.deltaspike.data.impl.mapping.MappedRepositoryTest
+2261,org.apache.deltaspike.data.test.service.SimpleQueryInOutMapper
+2279,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc004.PageBean004
+2282,org.apache.deltaspike.core.api.literal.DestroyedLiteral
+2288,org.apache.deltaspike.test.jpa.api.transactional.transactionhelper.TransactionScopedEntityManagerProducer
+2296,org.apache.deltaspike.data.impl.meta.MethodType
+2395,org.apache.deltaspike.jsf.api.literal.ViewLiteral
+2396,org.apache.deltaspike.jsf.util.NamingConventionUtils
+2412,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.uc003.TestBeanZ
+2416,org.apache.deltaspike.data.impl.criteria.selection.temporal.CurrentTimestamp
+2436,org.apache.deltaspike.test.utils.CdiContainerUnderTest
+2440,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc005.PageBean005
+2444,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.nested.NestedMultiTransactionUncatchedExceptionTest
+2457,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.nested.TestEntityManagerProducer
+2458,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.nested.FirstLevelTransactionBean
+2463,org.apache.deltaspike.core.util.metadata.builder.AnnotatedMethodImpl
+2473,org.apache.deltaspike.core.util.metadata.builder.AnnotatedCallableImpl
+2476,org.apache.deltaspike.test.core.impl.exception.control.traversal.Exceptions
+2507,org.apache.deltaspike.jsf.impl.component.window.DisableClientWindowComponent
+2519,org.apache.deltaspike.test.security.impl.authorization.util.IndirectCycle
+2523,org.apache.deltaspike.security.impl.extension.SecurityInterceptor
+2531,org.apache.deltaspike.data.impl.util.bean.DependentProviderDestroyable
+2537,org.apache.deltaspike.core.api.provider.DependentProvider
+2542,org.apache.deltaspike.data.impl.property.PropertyFromMethodTest
+2569,org.apache.deltaspike.data.impl.property.Properties
+2570,org.apache.deltaspike.data.impl.property.ClassToIntrospect
+2578,org.apache.deltaspike.cdise.tck.beans.CarRepair
+2587,org.apache.deltaspike.cdise.tck.beans.Car
+2589,org.apache.deltaspike.jsf.impl.config.view.AbstractConfigNode
+2613,org.apache.deltaspike.test.core.api.exclude.ExcludeTestProjectStageWarFileDevelopment
+2619,org.apache.deltaspike.test.core.api.exclude.ExcludeTestProjectStageDevelopment
+2621,org.apache.deltaspike.test.jpa.api.transactional.exception.catched.nested.NestedTransactionCatchedExceptionTest
+2631,org.apache.deltaspike.test.jpa.api.transactional.exception.catched.nested.TestEntityManagerProducer
+2632,org.apache.deltaspike.test.jpa.api.transactional.exception.catched.nested.FirstLevelTransactionBean
+2636,org.apache.deltaspike.test.core.impl.exception.control.handler.UnMuteHandlerTest
+2642,org.apache.deltaspike.test.core.impl.exception.control.handler.UnMuteHandler
+2646,org.apache.deltaspike.test.security.impl.authorization.securitybinding.CustomAuthorizer
+2653,org.apache.deltaspike.test.security.impl.authorization.securitybinding.SecuredBean1
+2657,org.apache.deltaspike.core.api.config.view.DefaultErrorView
+2662,org.apache.deltaspike.test.core.api.alternative.global.BaseInterface1DefaultImplementation
+2676,org.apache.deltaspike.beanvalidation.test.InjectableConstraintValidator
+2678,org.apache.deltaspike.data.impl.handler.EntityManagerDelegateHandler
+2787,org.apache.deltaspike.test.core.impl.jmx.SimpleRegistrationEarFileTest
+2792,org.apache.deltaspike.test.core.impl.jmx.SimpleRegistrationTest
+2793,org.apache.deltaspike.test.core.impl.jmx.SimpleRegistrationWarFileTest
+2799,org.apache.deltaspike.test.core.api.exclude.uc001.Entity2
+2800,org.apache.deltaspike.test.core.api.exclude.uc001.BaseEntity2
+2802,org.apache.deltaspike.security.impl.authorization.DefaultAccessDecisionVoterContext
+2835,org.apache.deltaspike.data.impl.handler.AbstractDelegateQueryHandler
+2840,org.apache.deltaspike.data.impl.handler.CdiQueryInvocationContext
+2844,org.apache.deltaspike.data.impl.property.query.PropertyQueryTest
+2863,org.apache.deltaspike.data.impl.property.query.NamedPropertyCriteria
+2864,org.apache.deltaspike.data.impl.property.query.PropertyQueries
+2865,org.apache.deltaspike.data.impl.property.query.PropertyQuery
+2866,org.apache.deltaspike.data.impl.property.query.TypedPropertyCriteria
+2873,org.apache.deltaspike.test.security.impl.authorization.secured.SecuredBean5
+2878,org.apache.deltaspike.test.core.api.message.broken.BrokenMessageBundleClass
+2899,org.apache.deltaspike.jsf.impl.config.view.DefaultViewConfigResolver
+2900,org.apache.deltaspike.jsf.impl.config.view.FolderConfigNode
+2908,org.apache.deltaspike.data.impl.util.ClassUtils
+2919,org.apache.deltaspike.test.core.impl.util.JndiUtilsTest
+2926,org.apache.deltaspike.core.impl.util.JndiUtils
+2943,org.apache.deltaspike.example.viewconfig.DenyAllAccessDecisionVoter
+2955,org.apache.deltaspike.test.api.util.metadata.Stooge
+2973,org.apache.deltaspike.test.core.api.message.FixedEnglishLocalResolver
+2977,org.apache.deltaspike.core.impl.config.PropertyFileConfigSource
+2983,org.apache.deltaspike.core.util.PropertyFileUtils
+2984,org.apache.deltaspike.core.impl.config.PropertiesConfigSource
+2998,org.apache.deltaspike.test.servlet.impl.producer.ServletObjectInjectionServlet
+3015,org.apache.deltaspike.test.servlet.impl.producer.ServletObjectInjectionBean
+3025,org.apache.deltaspike.data.impl.util.jpa.QueryStringExtractorFactoryTest
+3052,org.apache.deltaspike.data.impl.util.jpa.QueryStringExtractorFactory
+3055,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc001.ViewConfigTest
+3065,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc001.SimplePageConfig
+3069,org.apache.deltaspike.test.core.api.exclude.ExcludeEarFileTest
+3073,org.apache.deltaspike.test.core.api.exclude.ExcludeTest
+3074,org.apache.deltaspike.test.core.api.exclude.ExcludeWarFileTest
+3078,org.apache.deltaspike.test.arquillian.DeltaSpikeServerUtilAppender
+3082,org.apache.deltaspike.test.utils.Serializer
+3088,org.apache.deltaspike.example.config.LocationId
+3097,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.nested.FirstLevelTransactionBean
+3102,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.nested.NestedTransactionBean
+3121,org.apache.deltaspike.data.impl.property.FieldPropertyImpl
+3122,org.apache.deltaspike.data.impl.property.MethodPropertyImpl
+3133,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc001.NoNavigationParameterWarFileTest
+3144,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.shared.TestClassDeactivator
+3145,org.apache.deltaspike.test.jsf.impl.util.ArchiveUtils
+3146,org.apache.deltaspike.test.jsf.impl.util.FileUtils
+3149,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc001.PageBean001
+3170,org.apache.deltaspike.test.servlet.impl.event.session.SessionEventsTest
+3204,org.apache.deltaspike.test.servlet.impl.util.ArchiveUtils
+3206,org.apache.deltaspike.test.servlet.impl.event.session.SessionEventsObserver
+3207,org.apache.deltaspike.test.servlet.impl.event.session.CreateSessionServlet
+3208,org.apache.deltaspike.test.servlet.impl.event.session.DestroySessionServlet
+3216,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc003.SimplePageConfig
+3219,org.apache.deltaspike.data.impl.builder.postprocessor.LockModePostProcessor
+3231,org.apache.deltaspike.test.core.api.partialbean.uc001.PartialBeanAsInterfaceEarFileTest
+3235,org.apache.deltaspike.test.core.api.partialbean.uc001.PartialBeanAsInterfaceTest
+3236,org.apache.deltaspike.test.core.api.partialbean.uc001.PartialBeanAsInterfaceWarFileTest
+3239,org.apache.deltaspike.example.security.requestedpage.cdi.AuthenticationListener
+3249,org.apache.deltaspike.example.security.requestedpage.cdi.LoggedInAccessDecisionVoter
+3255,org.apache.deltaspike.example.security.requestedpage.cdi.UserEvent
+3259,org.apache.deltaspike.playground.windowhandling.ViewActionController
+3273,org.apache.deltaspike.core.impl.scope.conversation.GroupedConversationArtifactProducer
+3281,org.apache.deltaspike.core.impl.util.ConversationUtils
+3284,org.apache.deltaspike.core.impl.scope.conversation.InjectableGroupedConversationManager
+3285,org.apache.deltaspike.core.impl.scope.conversation.InjectableGroupedConversation
+3312,org.apache.deltaspike.test.core.impl.exception.control.event.EventTest
+3327,org.apache.deltaspike.test.core.impl.exception.control.event.literal.EventQualifierLiteral
+3332,org.apache.deltaspike.data.impl.meta.unit.PersistentClassDescriptor
+3377,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc005.ValidPageConfig
+3381,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc005.TestValidConfigDescriptorValidator
+3383,org.apache.deltaspike.data.impl.builder.OrderDirection
+3395,org.apache.deltaspike.test.core.api.exclude.uc001.Entity3
+3396,org.apache.deltaspike.test.core.api.exclude.uc001.BaseEntity3
+3528,org.apache.deltaspike.core.api.literal.AnyLiteral
+3532,org.apache.deltaspike.test.scheduler.custom.CustomSchedulerTest
+3540,org.apache.deltaspike.test.scheduler.custom.TestJobManager
+3541,org.apache.deltaspike.test.scheduler.custom.AutoRegisteredJob
+3542,org.apache.deltaspike.test.scheduler.custom.ManualJob
+3543,org.apache.deltaspike.test.scheduler.custom.MockedScheduler
+3558,org.apache.deltaspike.test.core.api.exclude.SimpleTestExpressionInterpreter
+3567,org.apache.deltaspike.test.core.api.exclude.AlwaysActiveBean
+3569,org.apache.deltaspike.data.impl.criteria.predicate.NotEq
+3588,org.apache.deltaspike.data.impl.tx.ThreadLocalEntityManagerHolder
+3595,org.apache.deltaspike.jpa.impl.entitymanager.DefaultEntityManagerHolder
+3602,org.apache.deltaspike.data.impl.spi.CdiQuerySpiTest
+3611,org.apache.deltaspike.data.test.service.MyEntityRepositoryDelegate
+3617,org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension
+3746,org.apache.deltaspike.core.api.config.ConfigResolver
+3748,org.apache.deltaspike.core.impl.util.AnnotationInstanceUtils
+3749,org.apache.deltaspike.core.util.metadata.builder.AnnotatedTypeBuilder
+3752,org.apache.deltaspike.core.impl.interpreter.PropertyExpressionInterpreter
+3768,org.apache.deltaspike.test.core.api.partialbean.uc005.ScopedPartialBeanTest
+3782,org.apache.deltaspike.test.core.api.partialbean.util.ArchiveUtils
+3784,org.apache.deltaspike.test.core.api.partialbean.uc005.ApplicationScopedPartialBean
+3786,org.apache.deltaspike.test.core.api.partialbean.uc005.AbstractSuper
+3792,org.apache.deltaspike.data.impl.meta.unit.EntityDescriptor
+3810,org.apache.deltaspike.servlet.impl.produce.ServletContextHolder
+3838,org.apache.deltaspike.jsf.impl.scope.mapped.Jsf2BeanWrapper
+3865,org.apache.deltaspike.core.util.metadata.AnnotationInstanceProvider
+3869,org.apache.deltaspike.test.jpa.api.transactional.getRollbackOnly.multipleinjection.nested.NestedMultiTransactionRollbackOnlyTest
+3880,org.apache.deltaspike.test.jpa.api.transactional.getRollbackOnly.multipleinjection.nested.FirstLevelTransactionBean
+3889,org.apache.deltaspike.test.jsf.impl.scope.window.MyWindowScopedBean
+3900,org.apache.deltaspike.jsf.impl.navigation.DeltaSpikeNavigationHandlerWrapper
+3917,org.apache.deltaspike.jsf.impl.navigation.DeltaSpikeNavigationHandler
+3923,org.apache.deltaspike.test.security.impl.authorization.securityparameterbinding.MockObject
+3931,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc005.InvalidPageConfig
+3932,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc005.TestInvalidConfigDescriptorValidator
+3934,org.apache.deltaspike.core.impl.scope.viewaccess.ViewAccessContextArtifactProducer
+3937,org.apache.deltaspike.core.impl.scope.viewaccess.InjectableViewAccessContextManager
+3953,org.apache.deltaspike.core.util.context.ContextualInstanceInfo
+3967,org.apache.deltaspike.jsf.impl.injection.proxy.ValidatorInvocationHandler
+3974,org.apache.deltaspike.jsf.impl.config.view.DefaultConfigNodeConverter
+4047,org.apache.deltaspike.core.util.AnnotationUtils
+4048,org.apache.deltaspike.jsf.impl.util.ViewConfigUtils
+4049,org.apache.deltaspike.jsf.impl.config.view.DefaultFolderConfigDescriptor
+4050,org.apache.deltaspike.jsf.impl.config.view.DefaultViewPathConfigDescriptor
+4085,org.apache.deltaspike.jpa.impl.transaction.context.TransactionContext
+4087,org.apache.deltaspike.test.core.api.alternative.local.BdaAlternativeWarFileTest
+4092,org.apache.deltaspike.test.core.api.alternative.local.BdaAlternativeTest
+4096,org.apache.deltaspike.data.test.domain.OneToOne
+4100,org.apache.deltaspike.data.test.domain.NamedEntity
+4104,org.apache.deltaspike.data.impl.criteria.predicate.IsNotEmpty
+4114,org.apache.deltaspike.test.testcontrol.shared.RequestScopedBean
+4133,org.apache.deltaspike.test.jsf.impl.config.view.validation.ViewConfigPathValidatorTest
+4163,org.apache.deltaspike.jsf.impl.config.view.ViewConfigPathValidator
+4171,org.apache.deltaspike.core.util.metadata.builder.AnnotatedConstructorImpl
+4184,org.apache.deltaspike.core.util.metadata.builder.AnnotatedTypeImpl
+4196,org.apache.deltaspike.data.impl.criteria.predicate.Like
+4243,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.auto.MultiTransactionBean
+4286,org.apache.deltaspike.core.util.context.AbstractContext
+4308,org.apache.deltaspike.test.testcontrol.InternalTestMockFilter
+4314,org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean
+4325,org.apache.deltaspike.test.core.api.scope.viewaccess.ViewAccessScopedTest
+4345,org.apache.deltaspike.core.util.metadata.builder.AnnotatedMemberImpl
+4361,org.apache.deltaspike.core.util.metadata.builder.AnnotatedImpl
+4364,org.apache.deltaspike.test.jpa.api.transactional.nested.NestedTransactionBean
+4375,org.apache.deltaspike.cdise.tck.beans.TestUser
+4377,org.apache.deltaspike.test.core.impl.scope.window.DefaultWindowContextTest
+4384,org.apache.deltaspike.test.core.impl.scope.window.SomeWindowScopedBean
+4388,org.apache.deltaspike.test.core.api.config.SecretTestConfigFilter
+4436,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.nested.NestedTransactionBean
+4441,org.apache.deltaspike.data.impl.criteria.predicate.Between
+4462,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc005.ViewConfigPathTest
+4584,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc005.ViewConfigPreProcessorWithoutValidation
+4640,org.apache.deltaspike.example.message.LanguageView
+4659,org.apache.deltaspike.jsf.impl.util.SecurityUtils
+4710,org.apache.deltaspike.security.api.authorization.ErrorViewAwareAccessDeniedException
+4723,org.apache.deltaspike.test.core.api.exclude.CustomExpressionBasedNoBean
+4729,org.apache.deltaspike.test.testcontrol.uc002.SessionScopePerTestClassTest
+4741,org.apache.deltaspike.test.testcontrol.shared.ApplicationScopedBean
+4742,org.apache.deltaspike.test.testcontrol.shared.SessionScopedBean
+4743,org.apache.deltaspike.test.testcontrol.shared.TestUtils
+4759,org.apache.deltaspike.test.jsf.impl.scope.window.WindowMaxCountTest
+4779,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.shared.TestBeanA
+4780,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.shared.TestBeanC
+4806,org.apache.deltaspike.jpa.impl.transaction.context.TransactionBeanEntry
+4813,org.apache.deltaspike.core.impl.message.DefaultMessageInterpolator
+4826,org.apache.deltaspike.example.scheduler.SimpleSchedulerJob1
+4833,org.apache.deltaspike.example.scheduler.GlobalResultHolder
+4836,org.apache.deltaspike.example.security.requestedpage.picketlink.AuthenticationListener
+4847,org.apache.deltaspike.example.security.requestedpage.picketlink.LoggedInAccessDecisionVoter
+4858,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.manual.ManualTransactionBean
+4868,org.apache.deltaspike.jpa.impl.transaction.context.EntityManagerEntry
+4882,org.apache.deltaspike.jsf.impl.security.AccessDeniedExceptionBroadcaster
+4890,org.apache.deltaspike.core.impl.scope.window.InjectableWindowContext
+4908,org.apache.deltaspike.test.core.api.config.injectable.SettingsBean
+4989,org.apache.deltaspike.core.util.ReflectionUtils
+4995,org.apache.deltaspike.test.testcontrol.mock.uc006.QualifiedBean
+5002,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.auto.TestEntityManagerProducer
+5029,org.apache.deltaspike.core.util.metadata.InjectionPointWrapper
+5050,org.apache.deltaspike.jsf.impl.config.view.AbstractPathConfigDescriptor
+5100,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc005.SimpleTestAccessDecisionVoter1
+5108,org.apache.deltaspike.test.jsf.impl.injection.uc001.AnotherBean
+5123,org.apache.deltaspike.test.scheduler.custom.CustomSchedulerWarFileTest
+5129,org.apache.deltaspike.test.scheduler.custom.CustomConfigSource
+5131,org.apache.deltaspike.test.scheduler.custom.QuartzDeactivator
+5267,org.apache.deltaspike.core.impl.config.ConfigurationExtension
+5301,org.apache.deltaspike.core.impl.config.EnvironmentPropertyConfigSourceProvider
+5306,org.apache.deltaspike.test.core.api.partialbean.uc002.TestPartialBeanHandler
+5319,org.apache.deltaspike.test.core.api.partialbean.shared.TestBean
+5324,org.apache.deltaspike.test.testcontrol.mock.shared.ApplicationScopedBean
+5329,org.apache.deltaspike.test.core.api.partialbean.uc005.TestPartialBeanHandler
+5343,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc006.NavigationParameterTest
+5354,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc006.PageBean006
+5358,org.apache.deltaspike.jpa.impl.transaction.BeanManagedUserTransactionStrategy
+5426,org.apache.deltaspike.jpa.impl.transaction.ResourceLocalTransactionStrategy
+5462,org.apache.deltaspike.test.api.metadata.Cat
+5481,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc005.NavigationParameterTest
+5492,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc005.PageBean005
+5505,org.apache.deltaspike.example.viewconfig.PageController
+5515,org.apache.deltaspike.data.impl.builder.result.DefaultQueryResult
+5593,org.apache.deltaspike.data.impl.builder.postprocessor.CountQueryPostProcessor
+5594,org.apache.deltaspike.data.impl.builder.postprocessor.FirstResultPostProcessor
+5595,org.apache.deltaspike.data.impl.builder.postprocessor.FlushModePostProcessor
+5596,org.apache.deltaspike.data.impl.builder.postprocessor.HintPostProcessor
+5597,org.apache.deltaspike.data.impl.builder.postprocessor.MaxResultPostProcessor
+5598,org.apache.deltaspike.data.impl.builder.postprocessor.OrderByQueryStringPostProcessor
+5646,org.apache.deltaspike.core.impl.message.MessageBundleExtension
+5691,org.apache.deltaspike.core.api.literal.DefaultLiteral
+5692,org.apache.deltaspike.core.util.bean.BeanBuilder
+5694,org.apache.deltaspike.core.impl.message.MessageBundleInvocationHandler
+5729,org.apache.deltaspike.test.security.impl.authorization.securityparameterbinding.SecuredBean1
+5736,org.apache.deltaspike.test.security.impl.authorization.securityparameterbinding.MockObject2
+5740,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc004.NavigationParameterTest
+5748,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc004.SimplePageConfig
+5749,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc004.PageBean004
+5766,org.apache.deltaspike.test.servlet.impl.producer.ServletContextInjectionTest
+5776,org.apache.deltaspike.example.scheduler.SimpleSchedulerJob2
+5782,org.apache.deltaspike.core.api.literal.RequestScopedLiteral
+5805,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc003.NavigationParameterTest
+5812,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc003.PageBean003
+5814,org.apache.deltaspike.test.core.api.message.MessageUser
+5818,org.apache.deltaspike.jsf.impl.listener.phase.BeforePhaseBinding
+5837,org.apache.deltaspike.test.core.impl.exception.control.flow.AbortingDepthHandler
+5851,org.apache.deltaspike.cdise.servlet.test.TomcatTest
+5875,org.apache.deltaspike.cdise.servlet.CdiServletContextListener
+5876,org.apache.deltaspike.cdise.servlet.test.content.RequestServlet
+5904,org.apache.deltaspike.data.impl.meta.unit.PersistenceUnits
+5905,org.apache.deltaspike.data.impl.meta.verifier.EntityVerifier
+5906,org.apache.deltaspike.data.impl.property.query.AnnotatedPropertyCriteria
+5917,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc002.SimplePageConfig
+5920,org.apache.deltaspike.test.testcontrol.uc012.ApplicationScopedTestBeanClient
+5924,org.apache.deltaspike.test.testcontrol.uc012.ApplicationScopedTestBean
+5928,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc007.ViewConfigTest
+5943,org.apache.deltaspike.testcontrol.impl.mock.MockAwareInjectionTargetWrapper
+5989,org.apache.deltaspike.test.security.impl.authorization.nonbinding.SecurityParameterWithNonbindingMemberTest
+5999,org.apache.deltaspike.test.security.impl.authorization.nonbinding.SecuredBean
+6000,org.apache.deltaspike.test.security.impl.authorization.nonbinding.ParameterValue
+6004,org.apache.deltaspike.test.testcontrol.uc003.SessionScopePerTestClassTest
+6012,org.apache.deltaspike.example.metadata.NamingConventionAwareMetadataFilter
+6023,org.apache.deltaspike.core.api.literal.NamedLiteral
+6027,org.apache.deltaspike.testcontrol.impl.mock.SimpleApplicationMockManager
+6028,org.apache.deltaspike.testcontrol.impl.mock.AbstractMockManager
+6030,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc010.ViewConfigTest
+6050,org.apache.deltaspike.data.impl.util.jpa.EclipseLinkEjbQueryStringExtractor
+6054,org.apache.deltaspike.data.impl.util.jpa.BaseQueryStringExtractor
+6058,org.apache.deltaspike.jsf.impl.util.RequestParameter
+6068,org.apache.deltaspike.security.impl.extension.SecurityInterceptorBindingLiteral
+6071,org.apache.deltaspike.data.impl.criteria.predicate.LessThanOrEqual
+6082,org.apache.deltaspike.test.core.api.exclude.StdBean
+6085,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc005.SimpleTestAccessDecisionVoter2
+6097,org.apache.deltaspike.data.impl.meta.unit.PersistenceUnitReader
+6133,org.apache.deltaspike.data.impl.meta.unit.EntityDescriptorReader
+6134,org.apache.deltaspike.data.impl.meta.unit.DescriptorReader
+6135,org.apache.deltaspike.data.impl.meta.unit.Descriptor
+6136,org.apache.deltaspike.data.impl.meta.unit.PersistenceUnit
+6137,org.apache.deltaspike.data.impl.meta.unit.MappedSuperclassDescriptor
+6138,org.apache.deltaspike.data.impl.meta.unit.DescriptorHierarchyBuilder
+6154,org.apache.deltaspike.test.core.api.util.bean.SimpleClass
+6192,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.manual.TestEntityManagerProducer
+6210,org.apache.deltaspike.data.impl.builder.part.PropertyQueryPart
+6215,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc001.SimplePageConfig001
+6226,org.apache.deltaspike.test.utils.ShrinkWrapArchiveUtil
+6403,org.apache.deltaspike.jsf.impl.injection.ManagedArtifactResolver
+6424,org.apache.deltaspike.jsf.impl.injection.AbstractBeanStorage
+6425,org.apache.deltaspike.jsf.impl.injection.RequestDependentBeanStorage
+6426,org.apache.deltaspike.jsf.impl.injection.DependentBeanEntry
+6430,org.apache.deltaspike.test.core.impl.exception.control.flow.AbortingBreadthFirstHandler
+6441,org.apache.deltaspike.data.test.service.HomeRepository
+6444,org.apache.deltaspike.data.test.domain.Home
+6447,org.apache.deltaspike.test.testcontrol.mock.uc015.InterceptedBeanTest
+6453,org.apache.deltaspike.test.testcontrol.mock.uc015.InterceptedBeanClassLevel
+6454,org.apache.deltaspike.test.testcontrol.mock.uc015.InterceptedBeanMethodLevel
+6455,org.apache.deltaspike.test.testcontrol.mock.uc015.InterceptionResultStorage
+6460,org.apache.deltaspike.test.core.api.message.Jay
+6472,org.apache.deltaspike.test.core.api.projectstage.TestProjectStages
+6478,org.apache.deltaspike.test.jpa.api.transactional.nested.NestedTransactionTest
+6487,org.apache.deltaspike.test.jpa.api.transactional.nested.TestEntityManagerProducer
+6488,org.apache.deltaspike.test.jpa.api.transactional.nested.FirstLevelTransactionBean
+6492,org.apache.deltaspike.proxy.impl.AsmProxyClassGenerator
+6660,org.apache.deltaspike.proxy.impl.invocation.DelegateManualInvocationHandler
+6661,org.apache.deltaspike.proxy.impl.invocation.InterceptManualInvocationHandler
+6665,org.apache.deltaspike.testcontrol.impl.mock.MockAwareProducerWrapper
+6690,org.apache.deltaspike.test.security.impl.authorization.securityparameterbinding.SecuredBean2
+6700,org.apache.deltaspike.test.security.impl.authorization.securityparameterbinding.MethodInvocationParameter
+6703,org.apache.deltaspike.test.core.api.message.FixedGermanLocaleResolver
+6749,org.apache.deltaspike.core.impl.exception.control.HandlerMethodImpl
+6804,org.apache.deltaspike.core.util.BeanUtils
+6805,org.apache.deltaspike.core.util.metadata.builder.ImmutableInjectionPoint
+6806,org.apache.deltaspike.core.impl.exception.control.OutboundParameterValueRedefiner
+6817,org.apache.deltaspike.test.servlet.impl.producer.ServletObjectInjectionTest
+6830,org.apache.deltaspike.example.echo.ToLowerCaseEchoService
+6839,org.apache.deltaspike.example.scope.ViewScopedBean
+6843,org.apache.deltaspike.jsf.impl.config.view.navigation.NavigationCaseMapWrapper
+6970,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc007.ViewConfigTest
+6990,org.apache.deltaspike.test.testcontrol.mock.uc012.MockedRequestScopedBeanWithInjection
+6994,org.apache.deltaspike.test.testcontrol.mock.shared.SessionScopedBean
+6997,org.apache.deltaspike.test.core.api.partialbean.uc008.ClassLevelInterceptorTest
+7011,org.apache.deltaspike.test.core.api.partialbean.shared.CustomInterceptorImpl
+7012,org.apache.deltaspike.test.core.api.partialbean.shared.CustomInterceptorState
+7013,org.apache.deltaspike.test.core.api.partialbean.uc008.PartialBean
+7034,org.apache.deltaspike.test.scheduler.custom.ScopeNotStartedTest
+7042,org.apache.deltaspike.test.scheduler.custom.CustomDeactivatedConfigSource
+7044,org.apache.deltaspike.data.impl.meta.extractor.AnnotationMetadataExtractorTest
+7057,org.apache.deltaspike.data.impl.meta.extractor.AnnotationMetadataExtractor
+7089,org.apache.deltaspike.data.impl.builder.result.QueryProcessorFactory
+7128,org.apache.deltaspike.servlet.impl.produce.RequestResponseHolderListener
+7136,org.apache.deltaspike.servlet.impl.produce.RequestResponseHolder
+7141,org.apache.deltaspike.test.testcontrol.mock.uc001.MockedRequestScopedBeanTest
+7194,org.apache.deltaspike.data.impl.property.Reflections
+7303,org.apache.deltaspike.test.jsf.impl.util.JsfUtilsTest
+7339,org.apache.deltaspike.jsf.impl.message.JsfAwareLocaleResolver
+7351,org.apache.deltaspike.core.impl.message.DefaultLocaleResolver
+7354,org.apache.deltaspike.test.testcontrol.mock.uc015.TestInterceptorImplementation
+7406,org.apache.deltaspike.jsf.api.literal.FolderLiteral
+7427,org.apache.deltaspike.cdise.tck.ContainerCtrlTckTest
+7478,org.apache.deltaspike.cdise.tck.control.VersionControlRule
+7479,org.apache.deltaspike.test.utils.CdiImplementation
+7492,org.apache.deltaspike.test.core.impl.exception.control.handler.ExtensionExceptionHandler
+7528,org.apache.deltaspike.test.core.impl.exception.control.extension.Account
+7531,org.apache.deltaspike.test.core.impl.activation.ActivatedClass
+7538,org.apache.deltaspike.test.jsf.impl.scope.mapped.beans.JsfRequestScopedBackingBean
+7545,org.apache.deltaspike.security.api.authorization.SimpleSecurityViolation
+7573,org.apache.deltaspike.test.jpa.api.transactional.stereotype.TransactionalBean
+7577,org.apache.deltaspike.test.core.impl.exception.control.flow.RethrowTest
+7586,org.apache.deltaspike.test.core.impl.exception.control.flow.RethrowHandler
+7589,org.apache.deltaspike.test.testcontrol.mock.uc014.MockedTypedProducedBeanTest
+7623,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.uc002.GroupedConversationSubGroupTest
+7635,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.shared.TestBeanB
+7639,org.apache.deltaspike.test.core.api.message.MessageTest
+7649,org.apache.deltaspike.test.core.api.message.TestMessageInterpolator
+7665,org.apache.deltaspike.test.core.api.partialbean.uc004.ScopedPartialBeanTest
+7681,org.apache.deltaspike.test.core.api.partialbean.uc004.ApplicationScopedPartialBean
+7682,org.apache.deltaspike.test.core.api.partialbean.uc004.DependentScopedPartialBean
+7699,org.apache.deltaspike.test.core.api.scope.conversation.grouped.implicit.ImplicitlyGroupedConversationsTest
+7715,org.apache.deltaspike.test.core.api.scope.conversation.grouped.implicit.ImplicitlyGroupedBean
+7724,org.apache.deltaspike.test.testcontrol.mock.uc009.MockedTypedProducedBeanTest
+7740,org.apache.deltaspike.test.testcontrol.mock.uc009.TypedBean1and2
+7743,org.apache.deltaspike.test.jsf.impl.scope.window.WindowScopedContextTest
+7752,org.apache.deltaspike.test.jsf.impl.config.TestJsfModuleConfig
+7753,org.apache.deltaspike.test.jsf.impl.scope.window.beans.WindowScopedBackingBean
+7757,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.nested.NestedMultiTransactionScopedTransactionTest
+7769,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.nested.TestEntityManagerProducer
+7770,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.nested.FirstLevelTransactionBean
+7777,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.flush.nested.FirstLevelTransactionBean
+7782,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.flush.nested.NestedTransactionBean
+7785,org.apache.deltaspike.test.testcontrol.mock.uc007.ProducedBeanProducer
+7788,org.apache.deltaspike.test.testcontrol.mock.uc007.ProducedBean
+7790,org.apache.deltaspike.core.api.literal.AlternativeLiteral
+7794,org.apache.deltaspike.test.jsf.impl.injection.uc001.InjectionDroneTest
+7810,org.apache.deltaspike.test.jsf.impl.injection.uc001.MyBean
+7812,org.apache.deltaspike.test.testcontrol.mock.uc010.MockedRequestScopedBeanTest
+7825,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc004.ViewConfigTest
+7836,org.apache.deltaspike.test.testcontrol.uc010.JsfContainerPerTestMethodTest
+7847,org.apache.deltaspike.jsf.impl.resource.DeltaSpikeResource
+7914,org.apache.deltaspike.test.core.api.exclude.CustomExpressionBasedBean
+7932,org.apache.deltaspike.test.core.impl.exception.control.flow.ProceedCauseHandlerTest
+7938,org.apache.deltaspike.test.servlet.impl.resourceloader.WebResourceProviderTest
+7950,org.apache.deltaspike.servlet.api.resourceloader.WebResourceProvider
+7969,org.apache.deltaspike.jsf.impl.listener.request.DeltaSpikeFacesContextWrapper
+8008,org.apache.deltaspike.jsf.impl.config.view.DefaultErrorViewAwareExceptionHandlerWrapper
+8009,org.apache.deltaspike.jsf.impl.injection.InjectionAwareApplicationWrapper
+8010,org.apache.deltaspike.jsf.impl.message.FacesMessageEntry
+8011,org.apache.deltaspike.jsf.impl.exception.control.BridgeExceptionHandlerWrapper
+8012,org.apache.deltaspike.jsf.impl.navigation.NavigationHandlerAwareApplication
+8013,org.apache.deltaspike.jsf.impl.security.SecurityAwareViewHandler
+8015,org.apache.deltaspike.jsf.impl.listener.request.JsfRequestBroadcaster
+8016,org.apache.deltaspike.jsf.impl.listener.request.DeltaSpikeExternalContextWrapper
+8027,org.apache.deltaspike.test.jsf.impl.injection.uc002.MyBeanValidator
+8037,org.apache.deltaspike.beanvalidation.test.ArrayChecker
+8053,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.nested.NestedTransactionBean
+8070,org.apache.deltaspike.test.core.impl.activation.DeactivatedClass
+8072,org.apache.deltaspike.test.jsf.impl.injection.uc002.AnotherBeanConverter
+8114,org.apache.deltaspike.test.core.api.exclude.ProdDbBean
+8118,org.apache.deltaspike.core.api.resourceloader.FileResourceProvider
+8128,org.apache.deltaspike.core.api.resourceloader.AbstractResourceProvider
+8141,org.apache.deltaspike.test.core.api.exclude.ExcludeTestProjectStageEarFileDevelopment
+8154,org.apache.deltaspike.test.api.config.TestConfigSourceProvider
+8178,org.apache.deltaspike.jsf.impl.component.token.RequestTokenHtmlRenderer
+8202,org.apache.deltaspike.jsf.impl.token.PostRequestTokenManager
+8204,org.apache.deltaspike.jsf.impl.component.token.PostRequestTokenComponent
+8210,org.apache.deltaspike.jsf.impl.component.window.WindowIdComponent
+8213,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc003.ViewConfigTest
+8233,org.apache.deltaspike.core.api.interpreter.BasePropertyExpressionInterpreter
+8236,org.apache.deltaspike.test.core.api.partialbean.uc007.PartialBean
+8243,org.apache.deltaspike.core.api.literal.ModelLiteral
+8246,org.apache.deltaspike.example.config.ConfigExample
+8254,org.apache.deltaspike.example.config.SettingsBean
+8261,org.apache.deltaspike.data.impl.QueryResultTest
+8336,org.apache.deltaspike.data.test.domain.SimpleBuilder
+8337,org.apache.deltaspike.data.test.service.SimpleRepository
+8427,org.apache.deltaspike.jpa.impl.transaction.TransactionStrategyHelper
+8440,org.apache.deltaspike.data.impl.builder.MethodExpressionException
+8454,org.apache.deltaspike.data.impl.criteria.selection.SingularAttributeSelection
+8463,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc007.ViewConfigForIncludeViewParams
+8466,org.apache.deltaspike.core.api.literal.TypedLiteral
+8476,org.apache.deltaspike.data.impl.criteria.processor.OrderBy
+8493,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc001.SimplePageConfig
+8503,org.apache.deltaspike.example.scheduler.RequestScopedNumberProvider
+8506,org.apache.deltaspike.test.jpa.api.transactionscoped.defaultnested.TestEntityManagerProducer
+8535,org.apache.deltaspike.data.impl.meta.RepositoryMethod
+8547,org.apache.deltaspike.core.impl.config.EnvironmentPropertyConfigSource
+8551,org.apache.deltaspike.core.impl.config.MapConfigSource
+8579,org.apache.deltaspike.jsf.impl.config.view.navigation.ViewConfigAwareNavigationHandler
+8597,org.apache.deltaspike.example.scheduler.SimpleSchedulerExample
+8640,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.manual.ManualTransactionBean
+8648,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc002.ViewConfigTest
+8659,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc002.SimplePageConfig
+8661,org.apache.deltaspike.data.impl.criteria.predicate.GreaterThan
+8697,org.apache.deltaspike.security.impl.extension.DefaultSecurityStrategy
+8725,org.apache.deltaspike.security.impl.authorization.SkipInternalProcessingException
+8726,org.apache.deltaspike.security.impl.extension.SecurityExtension
+8727,org.apache.deltaspike.security.impl.extension.SecurityMetaDataStorage
+8732,org.apache.deltaspike.core.api.resourceloader.ClasspathResourceProvider
+8786,org.apache.deltaspike.test.jsf.impl.injection.uc001.MyBeanValidator
+8798,org.apache.deltaspike.test.core.api.exclude.uc001.EntityExcludeTest
+8838,org.apache.deltaspike.security.api.authorization.AbstractAccessDecisionVoter
+8843,org.apache.deltaspike.test.servlet.impl.producer.EarlyRequestInjectionFilter
+8876,org.apache.deltaspike.test.util.FileUtils
+8890,org.apache.deltaspike.data.impl.handler.QualifiedEntityManagerTestProducer
+8969,org.apache.deltaspike.core.impl.message.DefaultMessageResolver
+8996,org.apache.deltaspike.core.impl.message.MessageFormatMessageInterpolator
+9007,org.apache.deltaspike.data.test.service.ParentRepository
+9034,org.apache.deltaspike.data.test.domain.OneToMany
+9035,org.apache.deltaspike.data.test.domain.Parent
+9046,org.apache.deltaspike.core.util.securitymanaged.SetAccessiblePrivilegedAction
+9136,org.apache.deltaspike.core.util.metadata.builder.AnnotatedParameterImpl
+9251,org.apache.deltaspike.test.testcontrol.uc009.JsfContainerTest
+9276,org.apache.deltaspike.data.impl.param.ToUpperStringParameterUpdate
+9284,org.apache.deltaspike.core.impl.scope.window.DefaultWindowContextQuotaHandler
+9292,org.apache.deltaspike.core.impl.scope.window.WindowContextQuotaHandlerCache
+9297,org.apache.deltaspike.test.core.api.provider.ManualBean
+9301,org.apache.deltaspike.test.core.api.message.MessageFormattedMessageTest
+9332,org.apache.deltaspike.jsf.impl.injection.proxy.ConverterAndValidatorProxyFactory
+9347,org.apache.deltaspike.test.jsf.impl.injection.uc003.AbstractStateHolder
+9359,org.apache.deltaspike.test.scheduler.custom.RequestScopedJob
+9366,org.apache.deltaspike.test.jpa.api.transactional.defaultnested.TestEntityManagerProducer
+9398,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc002.PageBean002
+9403,org.apache.deltaspike.test.jsf.impl.message.beans.JsfMessageBackingBean
+9419,org.apache.deltaspike.jsf.impl.config.view.navigation.DefaultViewNavigationHandler
+9477,org.apache.deltaspike.jsf.impl.injection.AbstractContextualReferenceWrapper
+9519,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc004.DynamicNavigationParameterWarFileTest
+9529,org.apache.deltaspike.test.core.api.message.MessageContextTest
+9564,org.apache.deltaspike.test.core.api.message.TestMessageResolver
+9575,org.apache.deltaspike.data.impl.builder.MethodQueryBuilder
+9585,org.apache.deltaspike.data.impl.builder.part.QueryRoot
+9606,org.apache.deltaspike.core.api.literal.ViewControllerRefLiteral
+9757,org.apache.deltaspike.test.testcontrol.mock.uc008.TypedBean1and2
+9788,org.apache.deltaspike.data.impl.property.PropertyFromFieldTest
+9793,org.apache.deltaspike.test.core.api.partialbean.uc006.AbstractSuper
+9799,org.apache.deltaspike.test.core.api.partialbean.uc006.AbstractSuperSuper
+9845,org.apache.deltaspike.data.api.mapping.SimpleQueryInOutMapperBaseTest
+9880,org.apache.deltaspike.test.core.impl.exception.control.extension.literal.CatchQualifierLiteral
+9884,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc001.PageBean001
+9890,org.apache.deltaspike.test.core.api.util.context.AbstractContextTest
+9896,org.apache.deltaspike.test.core.api.util.context.DummyScopeExtension
+9898,org.apache.deltaspike.data.impl.criteria.selection.numeric.CountDistinct
+9913,org.apache.deltaspike.jsf.impl.listener.phase.JsfRequestLifecycleBroadcaster
+9965,org.apache.deltaspike.jsf.impl.listener.phase.AfterPhaseBinding
+9968,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc005.ViewConfigTest
+10046,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc002.PageBean002
+10260,org.apache.deltaspike.data.impl.criteria.predicate.EqIgnoreCase
+10261,org.apache.deltaspike.data.impl.criteria.predicate.FetchBuilder
+10262,org.apache.deltaspike.data.impl.criteria.predicate.GreaterThanOrEqual
+10263,org.apache.deltaspike.data.impl.criteria.predicate.In
+10264,org.apache.deltaspike.data.impl.criteria.predicate.IsEmpty
+10265,org.apache.deltaspike.data.impl.criteria.predicate.IsNull
+10266,org.apache.deltaspike.data.impl.criteria.predicate.JoinBuilder
+10267,org.apache.deltaspike.data.impl.criteria.predicate.LessThan
+10268,org.apache.deltaspike.data.impl.criteria.predicate.NotEqIgnoreCase
+10269,org.apache.deltaspike.data.impl.criteria.predicate.NotLike
+10270,org.apache.deltaspike.data.impl.criteria.predicate.OrBuilder
+10289,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc003.PageBean003
+10298,org.apache.deltaspike.test.core.impl.exception.control.traversal.TraversalPathTest
+10305,org.apache.deltaspike.test.core.impl.exception.control.traversal.ExceptionHandlerMethods
+10309,org.apache.deltaspike.test.core.api.partialbean.uc007.TestPartialBeanHandler
+10326,org.apache.deltaspike.data.impl.builder.QueryOperator
+10327,org.apache.deltaspike.data.impl.builder.part.BasePropertyQueryPart
+10337,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc004.PageBean004
+10341,org.apache.deltaspike.data.impl.util.jpa.HibernateQueryStringExtractor
+10350,org.apache.deltaspike.data.impl.RepositoryExtensionTest
+10357,org.apache.deltaspike.example.echo.NoEchoService
+10363,org.apache.deltaspike.test.jsf.impl.injection.uc003.InjectionDroneTest
+10379,org.apache.deltaspike.test.jsf.impl.injection.uc003.MyBean
+10382,org.apache.deltaspike.jsf.impl.listener.system.JsfSystemEventBroadcaster
+10402,org.apache.deltaspike.test.jpa.api.transactionscoped.defaultnested.DefaultTransactionScopedNestedTransactionTest
+10410,org.apache.deltaspike.test.jpa.api.transactionscoped.defaultnested.FirstLevelTransactionBean
+10414,org.apache.deltaspike.servlet.impl.produce.RequestResponseHolderFilter
+10427,org.apache.deltaspike.test.jsf.impl.injection.uc004.AnotherBeanConverter
+10439,org.apache.deltaspike.test.jsf.impl.injection.uc004.AnotherBean
+10443,org.apache.deltaspike.test.testcontrol.uc004.ProjectStageTestControlTest
+10448,org.apache.deltaspike.test.testcontrol.uc001.RequestAndSessionScopePerTestMethodTest
+10451,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.manual.ManualTransactionTest
+10465,org.apache.deltaspike.data.impl.audit.PrincipalProvider
+10488,org.apache.deltaspike.data.impl.audit.AuditProvider
+10496,org.apache.deltaspike.test.jsf.impl.config.view.folder.uc001.ViewConfigTest
+10509,org.apache.deltaspike.data.test.domain.Simple2
+10540,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc002.ViewConfigTestDrone
+10551,org.apache.deltaspike.test.jsf.impl.config.view.navigation.event.uc001.PreViewConfigNavigateEventTest
+10558,org.apache.deltaspike.test.jsf.impl.config.view.navigation.event.uc001.PageBean002
+10612,org.apache.deltaspike.data.impl.builder.part.OrderByQueryPart
+10618,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.uc001.GroupedConversationSubGroupTest
+10630,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc004.ViewConfigTestDrone
+10639,org.apache.deltaspike.data.impl.criteria.selection.numeric.Min
+10652,org.apache.deltaspike.data.test.domain.mapped.MappedThree
+10657,org.apache.deltaspike.data.test.domain.mapped.MappedSuperclass
+10659,org.apache.deltaspike.data.test.service.SimpleFetchRepository
+10661,org.apache.deltaspike.test.jpa.api.transactional.noentitymanager.TransactionalBean
+10679,org.apache.deltaspike.test.api.util.ExceptionUtilsTest
+10694,org.apache.deltaspike.test.api.util.CustomException
+10697,org.apache.deltaspike.servlet.impl.event.EventBridgeSessionListener
+10705,org.apache.deltaspike.core.api.literal.InitializedLiteral
+10706,org.apache.deltaspike.servlet.impl.event.EventBroadcaster
+10711,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.manual.TestEntityManagerProducer
+10734,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc006.ViewConfigTestDrone
+10780,org.apache.deltaspike.core.api.exception.control.ExceptionStackItem
+10785,org.apache.deltaspike.test.core.impl.exception.control.flow.ThrowingNewHandler
+10792,org.apache.deltaspike.cdise.owb.OpenWebBeansContextControl
+10840,org.apache.deltaspike.cdise.owb.OwbHelper
+10844,org.apache.deltaspike.test.testcontrol.mock.uc007.MockedProducedQualifiedBeanTest
+10858,org.apache.deltaspike.jsf.impl.token.DoubleSubmitAwarePhaseListener
+10881,org.apache.deltaspike.test.servlet.impl.event.request.RequestResponseEventsObserver
+10897,org.apache.deltaspike.test.core.api.message.TestLocalResolver
+10941,org.apache.deltaspike.cdise.servlet.test.JettyTest
+10956,org.apache.deltaspike.cdise.servlet.CdiServletRequestListener
+10958,org.apache.deltaspike.test.core.api.exclude.DevBean
+10964,org.apache.deltaspike.test.jpa.api.transactional.noentitymanager.NoEntityManagerProducerTest
+10975,org.apache.deltaspike.test.core.api.alternative.global.GlobalAlternativeTest
+10987,org.apache.deltaspike.test.core.api.alternative.global.qualifier.AlternativeBaseBeanB
+10988,org.apache.deltaspike.test.core.api.alternative.global.qualifier.BaseBeanA
+10991,org.apache.deltaspike.test.core.api.alternative.global.BaseBean1
+10992,org.apache.deltaspike.test.core.api.alternative.global.BaseInterface1AlternativeImplementation
+10993,org.apache.deltaspike.test.core.api.alternative.global.SubBaseBean2
+11000,org.apache.deltaspike.jsf.impl.config.view.ViewControllerActionListener
+11009,org.apache.deltaspike.jsf.impl.util.ViewControllerUtils
+11012,org.apache.deltaspike.core.impl.message.MessageBundleContext
+11030,org.apache.deltaspike.test.core.api.interpreter.PropertyExpressionInterpreterTest
+11059,org.apache.deltaspike.testcontrol.impl.mock.BeanCacheKey
+11065,org.apache.deltaspike.data.impl.meta.QueryInvocationLiteral
+11072,org.apache.deltaspike.data.test.domain.Simple3
+11082,org.apache.deltaspike.test.core.api.util.bean.BeanBuilderTest
+11098,org.apache.deltaspike.test.core.api.util.bean.WithInjectionPoint
+11128,org.apache.deltaspike.test.jsf.impl.scope.viewaccess.ViewAccessScopedWithFViewActionWebAppTest
+11141,org.apache.deltaspike.test.core.api.partialbean.uc004.AbstractSuper
+11146,org.apache.deltaspike.proxy.impl.invocation.ManualInvocationThrowableWrapperException
+11150,org.apache.deltaspike.example.config.CustomConfigPropertyProducer
+11164,org.apache.deltaspike.core.spi.config.BaseConfigPropertyProducer
+11173,org.apache.deltaspike.test.core.impl.exception.control.flow.ThrowingNewExceptionTest
+11180,org.apache.deltaspike.jpa.api.transaction.TransactionHelper
+11204,org.apache.deltaspike.data.impl.util.EntityUtilsTest
+11209,org.apache.deltaspike.data.test.domain.Tee
+11210,org.apache.deltaspike.data.test.domain.Tee2
+11211,org.apache.deltaspike.data.test.domain.TeeId
+11213,org.apache.deltaspike.data.impl.util.jpa.OpenJpaQueryStringExtractor
+11217,org.apache.deltaspike.jpa.impl.entitymanager.PersistenceConfigurationProviderImpl
+11221,org.apache.deltaspike.core.api.config.PropertyLoader
+11224,org.apache.deltaspike.test.core.api.config.injectable.CustomConfigAnnotationWithMetaDataProducer
+11246,org.apache.deltaspike.core.api.interpreter.SimpleOperationEnum
+11280,org.apache.deltaspike.test.core.impl.activation.TestClassDeactivator
+11286,org.apache.deltaspike.test.core.api.util.context.DummyContext
+11288,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc002.PageBean002
+11350,org.apache.deltaspike.test.testcontrol.mock.uc013.TypedBeanProducer
+11353,org.apache.deltaspike.test.testcontrol.mock.uc013.TypedBean3
+11431,org.apache.deltaspike.core.util.Annotateds
+11432,org.apache.deltaspike.core.util.metadata.builder.DelegatingContextualLifecycle
+11433,org.apache.deltaspike.core.util.bean.ImmutableBean
+11434,org.apache.deltaspike.core.util.bean.ImmutablePassivationCapableBean
+11440,org.apache.deltaspike.core.impl.jmx.MBeanExtension
+11493,org.apache.deltaspike.core.impl.jmx.DynamicMBeanWrapper
+11501,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc003.PageBean003
+11508,org.apache.deltaspike.core.api.literal.SpecializesLiteral
+11550,org.apache.deltaspike.test.testcontrol.mock.uc012.MockedRequestScopedBeanWithInjectionTest
+11572,org.apache.deltaspike.jsf.impl.resource.DeltaSpikeResourceHandler
+11589,org.apache.deltaspike.test.jpa.api.transactional.defaultnested.DefaultNestedTransactionTest
+11598,org.apache.deltaspike.test.jpa.api.transactional.defaultnested.FirstLevelTransactionBean
+11602,org.apache.deltaspike.example.scope.ApplicationScopedBean
+11605,org.apache.deltaspike.data.impl.criteria.selection.strings.Lower
+11619,org.apache.deltaspike.testcontrol.impl.jsf.MyFacesContainerAdapter
+11687,org.apache.deltaspike.data.impl.handler.QueryHandlerTest
+11814,org.apache.deltaspike.test.jsf.impl.injection.uc004.MyBean
+11828,org.apache.deltaspike.core.impl.resourceloader.ResourceLoaderExtension
+11837,org.apache.deltaspike.core.impl.resourceloader.InjectableResourceProducer
+11859,org.apache.deltaspike.jsf.impl.listener.request.JsfClientWindowAwareLifecycleWrapper
+11889,org.apache.deltaspike.jsf.impl.scope.window.ClientWindowAdapter
+11896,org.apache.deltaspike.jsf.impl.listener.phase.JsfRequestLifecyclePhaseListener
+11907,org.apache.deltaspike.jsf.impl.message.JsfMessageBundleInvocationHandler
+11964,org.apache.deltaspike.test.core.api.projectstage.ProjectStageTest
+11972,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc002.StaticNavigationParameterWarFileTest
+11990,org.apache.deltaspike.test.jpa.api.transactionscoped.stereotype.TestEntityTransactionHolder
+11998,org.apache.deltaspike.test.core.impl.util.JndiUtilsEarFileTest
+12002,org.apache.deltaspike.test.core.impl.util.JndiUtilsWarFileTest
+12005,org.apache.deltaspike.core.impl.scope.window.WindowContextProducer
+12099,org.apache.deltaspike.example.message.ControllerView
+12119,org.apache.deltaspike.core.util.bean.WrappingBeanBuilder
+12129,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc002.ViewConfigTestDrone
+12143,org.apache.deltaspike.test.core.impl.exception.control.handler.BadInjectionPointHandler
+12156,org.apache.deltaspike.test.jpa.api.transactionscoped.stereotype.TestEntityManagerProducer
+12165,org.apache.deltaspike.data.impl.criteria.CriteriaTest
+12260,org.apache.deltaspike.data.test.service.SimpleCriteriaRepository
+12261,org.apache.deltaspike.data.test.service.Statistics
+12262,org.apache.deltaspike.data.test.domain.SuperSimple
+12306,org.apache.deltaspike.test.core.impl.jmx.MyMBean
+12326,org.apache.deltaspike.test.jpa.api.transactionscoped.nested.FirstLevelTransactionBean
+12348,org.apache.deltaspike.test.jpa.api.transactional.exception.catched.multipleinjection.nested.FirstLevelTransactionBean
+12353,org.apache.deltaspike.test.jpa.api.transactional.exception.catched.multipleinjection.nested.NestedTransactionBean
+12356,org.apache.deltaspike.test.core.impl.resourceloader.FileResourceTest
+12378,org.apache.deltaspike.jsf.impl.component.window.WindowIdHtmlRenderer
+12393,org.apache.deltaspike.jsf.impl.util.ClientWindowHelper
+12398,org.apache.deltaspike.test.core.api.config.propertyconfigsource.MyCustomBootTimePropertyFileConfig
+12405,org.apache.deltaspike.cdise.owb.MockHttpSession
+12442,org.apache.deltaspike.test.core.api.message.locale.ConfigurableLocaleMessageTest
+12460,org.apache.deltaspike.test.core.api.message.locale.ConfigurableLocaleResolver
+12538,org.apache.deltaspike.test.jpa.api.transactional.defaultinjection.FailedTransactionalBean
+12541,org.apache.deltaspike.data.impl.handler.NonQualifiedEntityManagerTestProducer
+12547,org.apache.deltaspike.test.api.util.metadata.AnnotationInstanceProviderTest
+12610,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc005.ViewConfigTest
+12624,org.apache.deltaspike.data.impl.criteria.selection.temporal.CurrentDate
+12633,org.apache.deltaspike.playground.PlaygroundClientWindowConfig
+12641,org.apache.deltaspike.jsf.spi.scope.window.DefaultClientWindowConfig
+12644,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.nested.FirstLevelTransactionBean
+12649,org.apache.deltaspike.test.core.impl.exception.control.handler.CallingHandlersTest
+12659,org.apache.deltaspike.test.core.impl.exception.control.handler.CalledExceptionHandler
+12670,org.apache.deltaspike.cdise.owb.OpenWebBeansContainerControl
+12694,org.apache.deltaspike.jsf.impl.view.DeltaSpikeViewHandler
+12726,org.apache.deltaspike.core.api.literal.InjectableResourceLiteral
+12744,org.apache.deltaspike.core.api.config.view.navigation.event.PreViewConfigNavigateEvent
+12749,org.apache.deltaspike.core.impl.jmx.JmxBroadcasterLifecycle
+12761,org.apache.deltaspike.test.api.util.StringUtilsTest
+12763,org.apache.deltaspike.core.util.StringUtils
+12790,org.apache.deltaspike.test.api.config.ConfigResolverTest
+12811,org.apache.deltaspike.jsf.impl.config.view.navigation.NavigationParameterListInterceptor
+12832,org.apache.deltaspike.data.impl.handler.EntityRepositoryHandler
+12952,org.apache.deltaspike.data.test.service.SimpleRepositoryWithEntityManagerResolver
+12956,org.apache.deltaspike.data.test.service.SimplisticEntityManagerResolver
+12958,org.apache.deltaspike.test.core.api.partialbean.uc003.TestPartialBeanHandler
+12971,org.apache.deltaspike.test.core.api.partialbean.uc006.TestPartialBeanHandler
+12994,org.apache.deltaspike.core.impl.exception.control.ExceptionHandlerComparator
+13010,org.apache.deltaspike.core.util.HierarchyDiscovery
+13014,org.apache.deltaspike.test.core.api.config.propertyconfigsource.MyNotPickedUpPropertyFileConfig
+13031,org.apache.deltaspike.test.core.api.alternative.local.SubBaseBean2
+13033,org.apache.deltaspike.data.impl.criteria.selection.temporal.CurrentTime
+13043,org.apache.deltaspike.core.api.literal.SessionScopeLiteral
+13048,org.apache.deltaspike.jsf.impl.config.view.PageViewConfigNode
+13108,org.apache.deltaspike.test.jpa.api.transactionscoped.defaultnested.NestedTransactionBean
+13112,org.apache.deltaspike.test.security.impl.authorization.securityparameterbinding.CustomAuthorizer
+13123,org.apache.deltaspike.test.security.impl.authorization.util.SecurityUtilsTest
+13130,org.apache.deltaspike.test.security.impl.authorization.util.DirectCycle
+13131,org.apache.deltaspike.test.security.impl.authorization.util.IndirectCycleWithAnnotationMemberValues
+13135,org.apache.deltaspike.jsf.impl.util.SharedStringBuilder
+13144,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc005.ViewConfigTest
+13166,org.apache.deltaspike.data.impl.handler.EntityManagerTest
+13176,org.apache.deltaspike.core.util.metadata.builder.AnnotatedFieldImpl
+13184,org.apache.deltaspike.test.core.api.scope.conversation.grouped.explicit.ExplicitlyGroupedBeanX
+13232,org.apache.deltaspike.data.impl.criteria.selection.numeric.Modulo
+13303,org.apache.deltaspike.beanvalidation.impl.CDIAwareConstraintValidatorFactory
+13321,org.apache.deltaspike.jpa.impl.transaction.TransactionalInterceptor
+13404,org.apache.deltaspike.data.impl.meta.RepositoryComponentsFactory
+13409,org.apache.deltaspike.core.impl.config.DefaultConfigSourceProvider
+13419,org.apache.deltaspike.core.impl.config.SystemPropertyConfigSource
+13420,org.apache.deltaspike.core.impl.config.LocalJndiConfigSource
+13480,org.apache.deltaspike.core.impl.jmx.BroadcasterProducer
+13493,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.manual.ManualTransactionScopedTransactionTest
+13508,org.apache.deltaspike.core.api.literal.DeltaSpikeLiteral
+13512,org.apache.deltaspike.core.impl.exception.control.HandlerMethodStorageImpl
+13548,org.apache.deltaspike.test.jpa.api.transactional.stereotype.TestEntityManagerProducer
+13648,org.apache.deltaspike.jsf.impl.config.view.DefaultViewConfigInheritanceStrategy
+13651,org.apache.deltaspike.jsf.impl.scope.window.JsfWindowContextQuotaHandler
+13705,org.apache.deltaspike.jsf.impl.listener.phase.WindowMetaData
+13717,org.apache.deltaspike.test.arquillian.DeltaSpikeTestUtilExtension
+13724,org.apache.deltaspike.test.arquillian.TestUtilDependenciesAppender
+13726,org.apache.deltaspike.data.impl.builder.part.QueryRootTest
+13767,org.apache.deltaspike.jsf.impl.injection.ValidatorWrapper
+13788,org.apache.deltaspike.testcontrol.impl.request.ContextControlDecorator
+13815,org.apache.deltaspike.test.core.impl.resourceloader.ClasspathWebProfileTest
+13828,org.apache.deltaspike.jsf.impl.listener.phase.DeltaSpikePhaseListener
+13870,org.apache.deltaspike.jsf.impl.security.ViewRootAccessHandler
+13874,org.apache.deltaspike.test.testcontrol.InternalTestClassDeactivator
+13878,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc011.ViewConfigTest
+13897,org.apache.deltaspike.test.testcontrol.mock.uc006.MockedRequestScopedQualifiedBeanTest
+13905,org.apache.deltaspike.test.core.api.exclude.NoBean
+13907,org.apache.deltaspike.data.impl.criteria.selection.strings.Upper
+13928,org.apache.deltaspike.test.jpa.api.transactionscoped.nested.NestedTransactionScopedTransactionTest
+13956,org.apache.deltaspike.cdise.owb.MockServletContext
+14018,org.apache.deltaspike.example.viewconfig.MyBean
+14022,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc001.PageBean001
+14030,org.apache.deltaspike.test.core.api.scope.conversation.grouped.explicit.ExplicitlyGroupedBeanY
+14050,org.apache.deltaspike.beanvalidation.test.BasicPojo
+14056,org.apache.deltaspike.test.core.api.util.ProxyUtilsTest
+14074,org.apache.deltaspike.test.core.api.util.MyBean
+14075,org.apache.deltaspike.test.core.api.util.MyInterfaceImpl
+14080,org.apache.deltaspike.test.jsf.impl.injection.uc002.InjectionDroneTest
+14103,org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension
+14117,org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorWrapper
+14120,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.auto.MultipleEntityManagerInjectionUncatchedExceptionTest
+14134,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.auto.TestEntityManagerProducer
+14149,org.apache.deltaspike.test.jpa.api.transactionscoped.multipleinjection.auto.MultipleTransactionScopedEntityManagerInjectionTest
+14164,org.apache.deltaspike.jpa.impl.entitymanager.EntityManagerFactoryProducer
+14185,org.apache.deltaspike.core.util.ParameterizedTypeImpl
+14309,org.apache.deltaspike.test.testcontrol.mock.uc003.MockedSessionScopedBeanAcrossMethodsTest
+14317,org.apache.deltaspike.test.testcontrol.mock.uc003.MockedSessionScopedBean
+14334,org.apache.deltaspike.cdise.servlet.test.content.RequestScopedBean
+14405,org.apache.deltaspike.data.impl.meta.verifier.EntityVerifierTest
+14431,org.apache.deltaspike.test.core.api.message.MinimalMessagesTest
+14470,org.apache.deltaspike.core.util.bean.BaseImmutableBean
+14473,org.apache.deltaspike.test.core.impl.exception.control.handler.HandlerWhichThrowsExceptions
+14478,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc008.ViewConfigTest
+14491,org.apache.deltaspike.core.api.literal.NewLiteral
+14509,org.apache.deltaspike.core.api.config.view.metadata.SimpleCallbackDescriptor
+14529,org.apache.deltaspike.test.jsf.impl.injection.uc003.AnotherBean
+14545,org.apache.deltaspike.test.servlet.impl.event.context.ServletContextEventsObserver
+14556,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc001.ViewConfigTest
+14625,org.apache.deltaspike.jsf.impl.component.window.DisableClientWindowHtmlRenderer
+14635,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.auto.MultiTransactionBean
+14642,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc001.SimplePageConfig
+14646,org.apache.deltaspike.test.testcontrol.mock.uc008.MockedTypedBeanTest
+14662,org.apache.deltaspike.test.testcontrol.mock.uc008.TypedBean3
+14703,org.apache.deltaspike.partialbean.impl.PartialBeanBindingExtension
+14739,org.apache.deltaspike.proxy.api.DeltaSpikeProxyContextualLifecycle
+14740,org.apache.deltaspike.partialbean.impl.PartialBeanDescriptor
+14741,org.apache.deltaspike.partialbean.impl.PartialBeanProxyFactory
+14756,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.nested.NestedTransactionBean
+14760,org.apache.deltaspike.test.testcontrol.mock.uc004.MockedApplicationScopedBeanTest
+14766,org.apache.deltaspike.test.testcontrol.mock.uc004.MockedApplicationScopedBean
+14768,org.apache.deltaspike.security.impl.authorization.AccessDeniedExceptionBroadcaster
+14780,org.apache.deltaspike.cdise.weld.WeldContainerControl
+14806,org.apache.deltaspike.test.util.ArchiveUtils
+14827,org.apache.deltaspike.test.security.impl.authorization.secured.TestAccessDecisionVoter1
+14829,org.apache.deltaspike.test.testcontrol.InternalMyFacesTestContainerAdapter
+14850,org.apache.deltaspike.test.testcontrol.uc005.MockedJsfContainerTest
+14851,org.apache.deltaspike.test.testcontrol.uc006.SkipExternalContainerTest
+14852,org.apache.deltaspike.testcontrol.impl.jsf.MockedJsf2TestContainer
+14853,org.apache.deltaspike.testcontrol.impl.jsf.MyFacesContainerPerTestMethodAdapter
+14892,org.apache.deltaspike.data.test.domain.EmbeddedSimple
+14894,org.apache.deltaspike.test.testcontrol.uc007.BaseTest
+14900,org.apache.deltaspike.test.api.config.PropertyLoaderTest
+14910,org.apache.deltaspike.test.testcontrol.uc013.ContainerConfigTest
+14932,org.apache.deltaspike.data.impl.criteria.selection.numeric.Avg
+14944,org.apache.deltaspike.core.api.literal.MessageContextConfigLiteral
+14967,org.apache.deltaspike.cdise.openejb.OpenEjbContainerControl
+15017,org.apache.deltaspike.example.window.SampleClientWindowConfig
+15025,org.apache.deltaspike.jsf.impl.listener.request.DeltaSpikeFacesContextFactory
+15055,org.apache.deltaspike.cdise.weld.WeldContextControl
+15197,org.apache.deltaspike.core.impl.jmx.AttributeAccessor
+15210,org.apache.deltaspike.test.jpa.api.transactional.aggregation.AggregatedDefaultEntityManagerInjectionTest
+15220,org.apache.deltaspike.test.jpa.api.transactional.aggregation.TestEntityManagerProducer
+15221,org.apache.deltaspike.test.jpa.api.transactional.aggregation.TransactionalBean
+15238,org.apache.deltaspike.test.core.api.alternative.local.BaseInterface2DefaultImplementation
+15240,org.apache.deltaspike.data.impl.builder.QueryBuilderFactory
+15250,org.apache.deltaspike.data.impl.builder.WrappedQueryBuilder
+15254,org.apache.deltaspike.jsf.impl.listener.action.DeltaSpikeActionListener
+15302,org.apache.deltaspike.test.core.impl.exception.control.flow.BreadthFirstAbortControlTest
+15314,org.apache.deltaspike.data.impl.builder.AnnotatedQueryBuilder
+15337,org.apache.deltaspike.test.security.impl.authorization.securitybinding.SecuredBean2
+15348,org.apache.deltaspike.test.core.api.scope.conversation.grouped.explicit.ExplicitlyGroupedConversationsTest
+15406,org.apache.deltaspike.core.util.ArraysUtils
+15465,org.apache.deltaspike.test.testcontrol.mock.uc002.MockedSessionScopedBeanTest
+15511,org.apache.deltaspike.test.jsf.impl.scope.view.beans.ViewScopedBackingBean
+15519,org.apache.deltaspike.test.testcontrol.mock.uc005.ProducedBeanProducer
+15522,org.apache.deltaspike.test.testcontrol.mock.uc005.ProducedBean
+15524,org.apache.deltaspike.beanvalidation.test.ArchiveUtils
+15528,org.apache.deltaspike.core.impl.config.DefaultConfigPropertyProducer
+15551,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.nested.TestEntityManagerProducer
+15563,org.apache.deltaspike.test.jpa.api.transactional.aggregation.BeanA
+15564,org.apache.deltaspike.test.jpa.api.transactional.aggregation.BeanB
+15579,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.nested.NestedTransactionWithExceptionTest
+15615,org.apache.deltaspike.jsf.impl.injection.proxy.ConverterAndValidatorProxyExtension
+15669,org.apache.deltaspike.data.impl.handler.CriteriaSupportHandler
+15721,org.apache.deltaspike.data.impl.criteria.selection.AttributeQuerySelection
+15722,org.apache.deltaspike.data.impl.criteria.selection.numeric.Abs
+15723,org.apache.deltaspike.data.impl.criteria.selection.numeric.Count
+15724,org.apache.deltaspike.data.impl.criteria.selection.numeric.Max
+15725,org.apache.deltaspike.data.impl.criteria.selection.numeric.Neg
+15726,org.apache.deltaspike.data.impl.criteria.selection.numeric.Sum
+15727,org.apache.deltaspike.data.impl.criteria.selection.strings.SubstringFrom
+15728,org.apache.deltaspike.data.impl.criteria.selection.strings.SubstringFromTo
+15738,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc004.ViewConfigTest
+15765,org.apache.deltaspike.cdise.openejb.bean.Foo
+15769,org.apache.deltaspike.test.testcontrol.uc007.ExtendedTest
+15775,org.apache.deltaspike.data.impl.RepositoryDeactivator
+15815,org.apache.deltaspike.jsf.impl.injection.ConverterWrapper
+15837,org.apache.deltaspike.test.core.api.alternative.global.qualifier.BaseBeanB
+15840,org.apache.deltaspike.test.core.api.scope.conversation.subgroup.uc003.GroupedConversationSubGroupTest
+15871,org.apache.deltaspike.proxy.impl.invocation.AbstractManualInvocationHandler
+16090,org.apache.deltaspike.beanvalidation.test.InjectedValidationTest
+16106,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc003.ViewConfigTest
+16127,org.apache.deltaspike.example.security.requestedpage.cdi.LoginController
+16131,org.apache.deltaspike.data.impl.meta.unit.DescriptorHierarchyBuilderTest
+16146,org.apache.deltaspike.test.jpa.api.transactionscoped.stereotype.TransactionalBean
+16152,org.apache.deltaspike.core.impl.exception.control.ExceptionHandlerBroadcaster
+16183,org.apache.deltaspike.test.jpa.api.entitymanager.SampleEntityManagerProducer
+16255,org.apache.deltaspike.security.impl.authorization.SecuredAnnotationAuthorizer
+16462,org.apache.deltaspike.test.jsf.impl.injection.uc004.InjectionDroneTest
+16482,org.apache.deltaspike.test.jsf.impl.injection.uc004.MyBeanValidator
+16503,org.apache.deltaspike.playground.scope.viewaccess.ViewAccessScopedBean
+16517,org.apache.deltaspike.test.jpa.api.transactionscoped.defaultinjection.DefaultTransactionScopedEntityManagerInjectionTest
+16582,org.apache.deltaspike.test.jpa.api.transactionscoped.stereotype.StereotypeTransactionScopedTransactionalTest
+16610,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.flush.auto.MultipleEntityManagerInjectionUncatchedFlushExceptionTest
+16624,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.flush.auto.TestEntityManagerProducer
+16699,org.apache.deltaspike.test.jsf.impl.scope.viewaccess.ViewAccessScopedWebAppTest
+16721,org.apache.deltaspike.data.impl.util.bean.BeanDestroyable
+16737,org.apache.deltaspike.test.testcontrol.uc008.BeforeAndAfterInjectionTest
+16746,org.apache.deltaspike.test.jpa.api.transactional.noentitymanager.TestEntityManagerProducer
+16766,org.apache.deltaspike.data.impl.handler.CdiQueryContextHolder
+16810,org.apache.deltaspike.test.core.api.projectstage.ProjectStageProducerTest
+16861,org.apache.deltaspike.example.echo.ToUpperCaseEchoService
+16865,org.apache.deltaspike.test.core.api.config.ConfigSourceTest
+16896,org.apache.deltaspike.test.core.api.alternative.global.SubBaseBean1
+16925,org.apache.deltaspike.servlet.impl.event.EventBridgeFilter
+16948,org.apache.deltaspike.test.core.api.partialbean.uc008.TestPartialBeanHandler
+16954,org.apache.deltaspike.playground.PlaygroundJsfModuleConfig
+16974,org.apache.deltaspike.test.core.api.partialbean.uc007.MethodLevelInterceptorTest
+16988,org.apache.deltaspike.test.jsf.impl.injection.uc003.MyBeanValidator
+17000,org.apache.deltaspike.test.testcontrol.mock.uc013.MockedTypedProducedBeanTest
+17017,org.apache.deltaspike.core.impl.message.DefaultMessage
+17060,org.apache.deltaspike.test.core.impl.custom.spi.PartialBeanAsInterfaceEarFileTest
+17066,org.apache.deltaspike.servlet.impl.produce.ServletObjectProducer
+17088,org.apache.deltaspike.scheduler.impl.QuartzSchedulerProducer
+17176,org.apache.deltaspike.data.impl.tx.TransactionalQueryRunnerTest
+17191,org.apache.deltaspike.data.impl.tx.TransactionalQueryRunnerWrapper
+17198,org.apache.deltaspike.test.security.impl.authorization.secured.SecuredAnnotationWarFileTest
+17202,org.apache.deltaspike.test.security.impl.authorization.secured.SecuredAnnotationTest
+17204,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc006.TestConfigPreProcessor
+17209,org.apache.deltaspike.core.impl.message.DefaultMessageContext
+17237,org.apache.deltaspike.test.jsf.impl.scope.view.ViewScopedContextTest
+17246,org.apache.deltaspike.test.jsf.impl.scope.mapped.MappedJsfContextTest
+17253,org.apache.deltaspike.core.api.literal.DependentScopeLiteral
+17275,org.apache.deltaspike.test.jsf.impl.injection.uc001.AnotherBeanConverter
+17287,org.apache.deltaspike.test.core.api.message.SimpleMessageTest
+17354,org.apache.deltaspike.test.jpa.api.transactional.exception.catched.multipleinjection.nested.NestedMultiTransactionCatchedExceptionTest
+17381,org.apache.deltaspike.scheduler.impl.QuartzScheduler
+17504,org.apache.deltaspike.test.jpa.api.transactional.stereotype.StereotypeTransactionalTest
+17554,org.apache.deltaspike.test.jpa.api.transactional.exception.catched.nested.NestedTransactionBean
+17557,org.apache.deltaspike.core.impl.exception.control.HandlerMethodStorageProducer
+17560,org.apache.deltaspike.core.impl.exception.control.extension.ExceptionControlExtension
+17565,org.apache.deltaspike.example.echo.DefaultEchoService
+17570,org.apache.deltaspike.test.api.config.TypedResolverTest
+17586,org.apache.deltaspike.test.api.config.TestConfigSource
+17588,org.apache.deltaspike.example.config.CustomPropertyFileConfig
+17621,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc002.SimplePageConfig002
+17665,org.apache.deltaspike.test.servlet.impl.producer.EarlyRequestInjectionTest
+17676,org.apache.deltaspike.test.core.impl.resourceloader.ClasspathResourceTest
+17695,org.apache.deltaspike.security.api.authorization.AbstractDecisionVoter
+17697,org.apache.deltaspike.test.testcontrol.mock.uc005.MockedProducedBeanTest
+17707,org.apache.deltaspike.jsf.impl.message.JsfMessageProducer
+17721,org.apache.deltaspike.jsf.impl.message.DefaultJsfMessage
+17749,org.apache.deltaspike.test.core.api.config.injectable.numberconfig.NumberConfiguredBean
+17771,org.apache.deltaspike.test.core.api.config.injectable.numberconfig.NumberConfigPropertyProducer
+17908,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.auto.MultipleEntityManagerInjectionTest
+17921,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.auto.TestEntityManagerProducer
+18001,org.apache.deltaspike.test.core.api.config.injectable.InjectableConfigPropertyTest
+18203,org.apache.deltaspike.test.util.ArchiveUtils
+18228,org.apache.deltaspike.example.message.CustomMessageResolver
+18238,org.apache.deltaspike.jsf.impl.message.JsfMessageResolver
+18267,org.apache.deltaspike.data.impl.handler.EntityManagerLookup
+18271,org.apache.deltaspike.example.message.MessageFormatMessageInterpolator
+18302,org.apache.deltaspike.playground.exception.TestExceptionHandler
+18305,org.apache.deltaspike.playground.exception.TestException
+18352,org.apache.deltaspike.data.impl.tx.InvocationContextWrapper
+18356,org.apache.deltaspike.test.jpa.api.transactional.transactionhelper.TransactionHelperTest
+18369,org.apache.deltaspike.test.core.api.partialbean.uc003.PartialBeanTest
+18381,org.apache.deltaspike.test.core.api.provider.MBean01
+18383,org.apache.deltaspike.servlet.impl.produce.ServletContextHolderListener
+18421,org.apache.deltaspike.test.core.api.alternative.local.BdaAlternativeEarFileTest
+18426,org.apache.deltaspike.data.impl.meta.extractor.TypeMetadataExtractorTest
+18523,org.apache.deltaspike.jsf.impl.scope.window.DefaultClientWindow
+18726,org.apache.deltaspike.jsf.impl.config.view.navigation.DefaultNavigationParameterStrategy
+18765,org.apache.deltaspike.test.jpa.api.transactional.defaultnested.NestedTransactionBean
+18782,org.apache.deltaspike.core.api.literal.ApplicationScopedLiteral
+18796,org.apache.deltaspike.example.security.requestedpage.picketlink.Initializer
+18869,org.apache.deltaspike.jsf.impl.scope.mapped.MappedJsf2ScopeExtension
+18893,org.apache.deltaspike.test.core.impl.exception.control.handler.HandlerComparatorTest
+19008,org.apache.deltaspike.test.testcontrol.mock.uc011.MockedRequestScopedBeanWithInjection
+19082,org.apache.deltaspike.core.api.literal.MessageBundleLiteral
+19104,org.apache.deltaspike.test.core.api.config.propertyconfigsource.PropertyConfigSourceTest
+19114,org.apache.deltaspike.test.core.api.provider.MBean02
+19178,org.apache.deltaspike.jsf.impl.config.view.navigation.DefaultNavigationParameterContext
+19190,org.apache.deltaspike.test.testcontrol.uc003.TestSuite
+19194,org.apache.deltaspike.test.testcontrol.uc003.RequestAndSessionScopePerTestMethodTest
+19196,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.flush.nested.TestEntityManagerProducer
+19229,org.apache.deltaspike.data.impl.meta.NonEntityException
+19269,org.apache.deltaspike.data.impl.builder.DelegateQueryBuilder
+19293,org.apache.deltaspike.data.impl.handler.EntityManagerDelegateHandlerTest
+19353,org.apache.deltaspike.testcontrol.impl.mock.SimpleMockManager
+19362,org.apache.deltaspike.test.scheduler.custom.CustomSchedulerEarFileTest
+19395,org.apache.deltaspike.test.jsf.impl.scope.mapped.beans.JsfSessionScopedBackingBean
+19417,org.apache.deltaspike.test.security.impl.authorization.nonbinding.CustomAuthorizer
+19442,org.apache.deltaspike.test.jsf.impl.injection.uc003.AnotherBeanConverter
+19488,org.apache.deltaspike.test.jsf.impl.config.view.navigation.parameter.uc007.PageBean007
+19507,org.apache.deltaspike.test.core.api.partialbean.uc001.TestPartialBeanHandler
+19566,org.apache.deltaspike.test.jpa.api.transactional.getRollbackOnly.multipleinjection.auto.MultipleEntityManagerInjectionRollbackOnly2Test
+19581,org.apache.deltaspike.test.core.api.partialbean.uc004.TestPartialBeanHandler
+19653,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc006.ViewConfigTest
+19676,org.apache.deltaspike.servlet.impl.event.EventBridgeContextListener
+19695,org.apache.deltaspike.test.core.api.alternative.local.BaseInterface2AlternativeImplementation
+19697,org.apache.deltaspike.data.impl.handler.EntityRepositoryHandlerTest
+19758,org.apache.deltaspike.test.jpa.api.transactional.exception.uncatched.multipleinjection.flush.nested.NestedMultiTransactionUncatchedFlushExceptionTest
+19771,org.apache.deltaspike.example.beanmanagement.SimpleBeanLookupExample
+19788,org.apache.deltaspike.testcontrol.impl.transaction.TransactionStatementDecoratorFactory
+19831,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc006.PageBean006
+19834,org.apache.deltaspike.test.core.api.alternative.global.qualifier.BaseBeanB2
+19892,org.apache.deltaspike.proxy.impl.invocation.ManualInvocationContext
+19898,org.apache.deltaspike.test.testcontrol.mock.uc009.TypedBeanProducer
+19902,org.apache.deltaspike.playground.exception.TestExceptionController
+19911,org.apache.deltaspike.test.jpa.api.entitymanager.TestPersistenceProviderResolver
+19956,org.apache.deltaspike.example.scope.ViewAccessScopedBean
+19959,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc006.ViewConfigTest
+20090,org.apache.deltaspike.test.security.impl.authorization.secured.SecuredBean1
+20095,org.apache.deltaspike.test.servlet.impl.event.context.ServletContextEventsTest
+20155,org.apache.deltaspike.test.security.impl.authorization.securitybinding.SecurityBindingTest
+20167,org.apache.deltaspike.testcontrol.impl.jsf.MockedJsfTestContainerAdapter
+20198,org.apache.deltaspike.test.util.ArchiveUtils
+20217,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc001.ViewConfigTestDrone
+20225,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc003.ViewConfigTestDrone
+20234,org.apache.deltaspike.test.core.api.config.propertyconfigsource.MyCustomPropertyFileConfig
+20309,org.apache.deltaspike.data.impl.DisabledRepositoryTest
+20320,org.apache.deltaspike.test.core.api.partialbean.uc002.PartialBeanAsAbstractClassTest
+20329,org.apache.deltaspike.test.core.api.partialbean.uc002.PartialBean
+20340,org.apache.deltaspike.test.core.api.partialbean.shared.ThrowExceptionPartialBeanHandler
+20362,org.apache.deltaspike.test.security.impl.authorization.secured.SecuredAnnotationEarFileTest
+20367,org.apache.deltaspike.test.core.impl.exception.control.flow.DepthAbortControlTest
+20377,org.apache.deltaspike.data.impl.handler.CdiQueryContextHolderTest
+20443,org.apache.deltaspike.test.jsf.impl.config.view.custom.uc004.PageBean004
+20446,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc006.ViewConfigBasePathValidationTest
+20543,org.apache.deltaspike.test.jsf.impl.config.view.navigation.destination.uc003.ViewConfigTest
+20646,org.apache.deltaspike.cdise.openejb.OpenEJbContainerControlConfigurationTest
+20668,org.apache.deltaspike.test.servlet.impl.event.request.RequestResponseEventsTest
+20701,org.apache.deltaspike.example.scope.WindowScopedBean
+20704,org.apache.deltaspike.example.scope.RequestScopedBean
+20716,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc009.ViewConfigTest
+20728,org.apache.deltaspike.test.api.metadata.AnnotatedTypeBuilderTest
+20802,org.apache.deltaspike.test.jsf.impl.message.JsfMessageTest
+20812,org.apache.deltaspike.test.testcontrol.uc012.ApplicationScopedBeanTest
+20821,org.apache.deltaspike.test.jsf.impl.config.view.navigation.syntax.uc002.ViewConfigTest
+20875,org.apache.deltaspike.test.security.impl.authorization.securityparameterbinding.SecurityParameterBindingTest
+20927,org.apache.deltaspike.test.jpa.api.entitymanager.EntityManagerFactoryProducerTest
+20938,org.apache.deltaspike.test.testcontrol.mock.uc011.MockedRequestScopedBeanWithInjectionTest
+20975,org.apache.deltaspike.data.impl.meta.unit.PersistenceUnitsTest
+20994,org.apache.deltaspike.core.util.ContextUtils
+21003,org.apache.deltaspike.test.core.api.message.broken.BrokenMessageBundleOnClassTest
+21025,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc001.ViewConfigTest
+21059,org.apache.deltaspike.test.core.api.partialbean.uc006.ScopedPartialBeanTest
+21068,org.apache.deltaspike.test.core.api.partialbean.uc006.ApplicationScopedPartialBean
+21097,org.apache.deltaspike.jsf.impl.config.view.navigation.NavigationParameterInterceptor
+21119,org.apache.deltaspike.test.jpa.api.transactional.multipleinjection.nested.NestedMultiTransactionTest
+21131,org.apache.deltaspike.test.core.api.provider.DependentTestBean
+21142,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc001.ViewConfigTestDrone
+21148,org.apache.deltaspike.testcontrol.impl.mock.MockExtension
+21222,org.apache.deltaspike.test.jsf.impl.config.view.controller.uc003.ViewConfigTestDrone
+21228,org.apache.deltaspike.test.core.api.provider.BeanProviderTest
+*Edges: 1760
+13303 451 1
+15524 6226 1
+2676 8037 2
+16090 15524 1
+16090 14050 1
+16090 13303 1
+20646 1170 2
+12670 10840 2
+12670 10792 2
+10792 10840 5
+10840 13956 2
+10840 12405 1
+10956 1170 1
+1136 1170 1
+10941 1136 2
+5851 1136 2
+5876 14334 2
+5876 1170 1
+7427 2587 14
+7427 2578 13
+7427 1170 4
+7427 4375 9
+7427 7478 1
+2587 4375 2
+2578 2587 2
+3746 910 4
+3746 1551 3
+3746 338 2
+3746 339 2
+11221 910 1
+11221 338 1
+11221 339 2
+1308 451 2
+1325 1308 5
+1325 1381 2
+14509 1325 4
+2048 10780 4
+8233 11246 4
+1859 910 4
+451 1859 2
+451 2537 6
+2537 1859 4
+8732 910 1
+8732 8128 1
+8118 8128 1
+5267 910 2
+5267 3746 2
+5267 649 1
+5267 5301 2
+15528 11164 4
+13409 13420 1
+13409 8547 1
+13409 13419 1
+13409 1551 1
+13409 5301 4
+8547 8551 2
+8547 1951 1
+5301 2977 1
+5301 2983 1
+13420 2926 2
+13420 1951 2
+8551 1951 1
+2984 1951 1
+2977 2984 2
+2977 2983 1
+2977 1951 1
+13419 2984 2
+13419 1951 1
+2020 2048 2
+2020 2047 2
+16152 2048 7
+16152 2020 12
+16152 1267 20
+12994 13010 2
+6749 451 1
+6749 6806 1
+6749 6805 1
+6749 247 3
+13512 13010 2
+17557 17560 2
+17557 13512 1
+6806 6749 4
+6806 1859 2
+17560 6749 3
+17560 649 1
+3617 910 2
+3617 3748 1
+3617 3746 1
+3617 338 3
+3617 649 3
+3617 3749 6
+3617 339 3
+14103 14117 1
+14103 3748 1
+14103 649 1
+3752 8233 1
+3752 3746 1
+13480 11440 2
+11493 3746 1
+11493 15197 1
+11493 1859 2
+12749 11493 2
+11440 11493 1
+11440 3746 1
+11440 649 1
+17209 17017 1
+8969 2983 1
+5646 5692 9
+5646 649 1
+5694 910 3
+11837 451 3
+1114 4286 1
+1114 1599 3
+452 689 4
+452 649 1
+452 694 4
+452 453 4
+688 1114 1
+3273 452 2
+3273 3281 1
+3273 3285 1
+3273 3284 1
+689 4286 5
+689 1599 4
+689 3281 2
+689 688 2
+689 1114 5
+689 1115 1
+689 694 3
+3285 1115 4
+3284 1599 1
+691 1114 1
+453 4286 5
+453 1599 3
+453 1114 2
+453 692 4
+453 690 6
+453 694 4
+453 691 2
+3934 452 2
+3934 3937 1
+9284 9292 3
+693 1599 1
+693 1114 2
+693 649 1
+693 1598 1
+694 4286 3
+694 693 3
+694 1114 1
+694 695 6
+12005 452 2
+12005 4890 1
+3748 910 2
+3748 3865 1
+3281 1115 2
+2926 910 1
+2926 1381 2
+11164 6804 1
+11164 3746 3
+4047 4989 1
+4047 1598 1
+6804 6805 1
+649 910 2
+649 3746 1
+20994 1859 2
+13010 14185 2
+339 3746 1
+339 338 6
+2983 910 2
+4989 9046 1
+4989 1381 2
+1551 649 1
+1551 1381 1
+14470 15406 1
+14470 5029 1
+5692 11432 1
+5692 11434 1
+5692 11433 1
+5692 11431 1
+11433 14470 2
+1434 14470 2
+11434 11433 2
+1416 1434 2
+12119 5692 3
+12119 1416 1
+12119 1434 1
+4286 3953 5
+4286 1599 12
+1599 3953 6
+2473 4345 2
+2473 2213 1
+2473 2186 2
+2473 9136 1
+4171 2213 1
+4171 4184 1
+4171 2473 2
+13176 4345 2
+13176 2213 1
+4361 2213 6
+4361 13010 4
+4345 2213 1
+4345 4361 2
+2463 2213 1
+2463 2473 2
+9136 2213 1
+9136 4361 2
+3749 4989 2
+3749 4184 1
+3749 2186 39
+3749 9046 2
+4184 2213 1
+4184 13176 2
+4184 4361 2
+4184 2463 2
+4184 4171 2
+2186 2213 4
+247 6804 1
+247 4989 1
+9845 546 5
+20309 87 1
+20309 8337 1
+8261 87 1
+8261 8337 16
+8261 78 1
+8261 725 4
+8261 8336 44
+548 552 1
+548 13404 1
+548 649 2
+548 547 2
+548 5904 2
+10350 87 1
+88 1859 4
+35 87 1
+35 78 1
+35 80 3
+35 79 15
+10465 2122 1
+10465 10488 4
+10465 3865 1
+10465 2864 1
+10465 5906 1
+10465 2865 2
+2121 2122 1
+2121 10488 3
+2121 2864 2
+2121 5906 2
+2121 2865 4
+2109 2121 5
+2109 725 1
+2109 79 10
+15314 3052 2
+15314 554 4
+15314 2840 10
+15314 549 2
+15314 939 1
+19269 2908 2
+19269 2840 7
+19269 549 1
+19269 534 1
+19269 16721 1
+19269 451 1
+9575 554 2
+9575 8535 1
+9575 9585 2
+9575 2840 7
+9575 549 2
+549 554 4
+549 2840 8
+15240 15250 1
+15240 8535 3
+15240 2531 1
+15240 2840 2
+15240 549 1
+15240 2537 2
+15250 5515 1
+15250 549 3
+938 935 1
+938 6210 1
+938 941 1
+938 937 2
+10327 2864 1
+10327 941 1
+10327 2863 1
+10327 2865 2
+10327 8440 2
+10327 936 4
+937 941 1
+920 935 1
+920 941 1
+920 938 2
+920 939 1
+920 937 2
+10612 935 2
+10612 10327 2
+10612 939 1
+6210 9276 1
+6210 935 3
+6210 10326 6
+6210 10327 3
+6210 939 2
+941 935 2
+941 936 1
+9585 1040 5
+9585 920 2
+9585 8440 1
+9585 935 5
+9585 549 1
+9585 941 3
+9585 10612 1
+9585 939 2
+9585 936 3
+13726 1040 3
+13726 9585 11
+13726 936 2
+5593 3052 2
+5593 554 1
+5593 2840 6
+5593 939 1
+5594 2840 1
+5595 2840 1
+5596 2840 1
+3219 2840 1
+5597 2840 1
+5598 3383 4
+5515 5594 1
+5515 5596 1
+5515 2840 15
+5515 5595 1
+5515 5598 5
+5515 549 5
+5515 3219 1
+5515 5597 1
+12165 9035 28
+12165 87 1
+12165 9034 3
+12165 78 1
+12165 12262 2
+12165 4100 3
+12165 4096 1
+12165 12261 2
+12165 725 9
+12165 12260 17
+12165 9007 7
+550 10263 1
+550 10267 1
+550 3569 1
+550 1443 1
+550 4441 1
+550 2155 1
+550 10269 2
+550 10265 1
+550 10264 1
+550 6071 1
+550 10270 1
+550 8661 1
+550 10266 5
+550 4104 1
+550 10261 4
+550 10260 1
+550 4196 2
+550 10262 1
+550 10268 1
+550 8476 2
+4441 2165 3
+4441 1458 1
+2155 2165 3
+2155 1458 1
+10260 2165 3
+10260 1458 1
+8661 2165 3
+8661 1458 1
+10262 2165 3
+10262 1458 1
+10264 1458 3
+4104 1458 3
+1443 1458 3
+10265 1458 3
+10267 2165 3
+10267 1458 1
+6071 2165 3
+6071 1458 1
+4196 2165 4
+4196 1458 2
+3569 2165 3
+3569 1458 1
+10268 2165 3
+10268 1458 1
+10269 2165 4
+10269 1458 2
+2165 1458 2
+8476 3383 2
+15721 8454 3
+15722 8454 2
+14932 8454 2
+15724 8454 2
+10639 8454 2
+13232 8454 2
+15725 8454 2
+15726 8454 2
+11605 8454 3
+15727 8454 3
+15728 15727 3
+15728 8454 1
+13907 8454 3
+2835 2840 3
+16766 2840 3
+20377 16766 12
+20377 8535 2
+20377 2840 2
+20377 1923 1
+20377 936 2
+2840 554 4
+2840 8535 9
+2840 538 1
+2840 936 2
+15669 13232 1
+15669 15724 1
+15669 550 3
+15669 11605 1
+15669 15725 1
+15669 15723 1
+15669 15727 1
+15669 15726 1
+15669 15722 1
+15669 10639 1
+15669 14932 1
+15669 9898 1
+15669 15728 1
+15669 2835 6
+15669 15721 1
+15669 13907 1
+19293 87 1
+19293 78 1
+19293 725 1
+19293 574 1
+18267 451 2
+18267 2537 3
+18267 936 6
+13166 87 1
+13166 12952 2
+12832 2864 1
+12832 549 2
+12832 556 2
+12832 2863 1
+12832 2865 2
+12832 939 1
+19697 87 1
+19697 78 1
+19697 725 24
+19697 574 25
+551 552 3
+551 16766 3
+551 8535 1
+551 15240 2
+551 2840 3
+551 18267 2
+551 534 1
+551 1598 1
+551 936 2
+11687 87 1
+11687 8337 24
+11687 78 1
+11687 725 14
+11687 10509 5
+11687 8336 32
+2223 87 1
+2223 78 1
+2223 725 15
+2223 728 2
+2223 726 1
+2223 727 14
+1040 538 1
+11065 2296 3
+936 8535 3
+936 2296 1
+936 1923 5
+936 556 1
+936 1859 2
+552 8535 1
+552 1923 1
+552 547 1
+552 936 4
+13404 552 3
+8535 1040 3
+8535 538 1
+8535 2840 2
+8535 8440 1
+8535 7089 2
+8535 9585 5
+8535 2296 3
+8535 2531 1
+8535 451 2
+8535 939 2
+8535 1859 2
+8535 2537 1
+8535 936 7
+7057 1923 2
+7057 556 1
+7044 7057 3
+7044 1923 2
+1903 1923 4
+1903 556 1
+18426 1923 2
+6138 3332 7
+16131 6137 4
+16131 3792 2
+16131 6138 2
+6134 6135 4
+6134 595 1
+3792 3332 13
+3792 939 1
+6133 6135 2
+6133 6134 3
+6137 3332 13
+6137 939 1
+1968 87 1
+1968 1982 2
+1968 1981 7
+1968 78 1
+6136 3792 2
+6097 6133 2
+6097 6136 1
+6097 6135 3
+6097 6138 2
+6097 6134 3
+5904 6097 1
+5904 6136 1
+5904 1923 2
+5904 3332 1
+5904 3792 5
+20975 87 3
+20975 1923 3
+20975 573 1
+20975 5904 22
+3332 2864 1
+3332 2863 1
+3332 2865 2
+5905 5904 2
+778 793 3
+875 793 3
+554 875 1
+554 793 5
+554 778 1
+3121 7194 3
+3122 7194 5
+2569 3122 3
+2569 3121 2
+9788 2569 1
+2542 2569 4
+2864 2865 2
+2865 2569 2
+2844 2866 2
+2844 2864 3
+2844 2863 1
+2844 2865 6
+3602 87 1
+3602 78 1
+3602 725 2
+18352 2840 5
+3588 3595 1
+555 8535 1
+555 2908 2
+555 2840 7
+555 549 4
+17176 87 1
+17176 17191 6
+17176 725 2
+17191 555 3
+556 5905 1
+556 2864 1
+556 5906 2
+556 2863 1
+556 5904 6
+556 2865 3
+11204 556 2
+2531 2537 3
+6050 6054 3
+10341 6054 3
+11213 6054 2
+3025 3052 2
+3025 87 1
+78 574 2
+79 80 2
+9034 4100 3
+4096 4100 3
+9035 9034 1
+9035 4100 5
+9035 4096 3
+725 14892 3
+725 12262 1
+8336 725 7
+11209 11211 3
+727 728 3
+10657 1095 1
+10652 10657 1
+6441 525 1
+1982 1981 1
+1982 525 1
+9007 9035 1
+9007 525 1
+12260 12261 1
+12260 725 3
+12260 525 1
+10659 525 1
+731 725 7
+731 728 3
+731 727 7
+2261 725 8
+2261 728 2
+2261 546 1
+2261 727 10
+8337 725 9
+8337 525 2
+12952 525 1
+732 731 5
+732 725 1
+732 726 1
+574 725 4
+87 573 1
+19771 1170 1
+19771 451 2
+8246 1170 1
+8246 8254 4
+11150 11164 6
+11150 3088 1
+8254 3088 2
+18228 8969 1
+18228 18238 1
+6012 6023 1
+6012 3749 5
+4833 8503 2
+8597 1170 1
+8597 4833 2
+4826 4833 2
+5776 4833 2
+11602 307 2
+20704 307 2
+303 307 2
+19956 307 2
+6839 307 2
+20701 307 2
+3239 3249 2
+3249 16127 2
+3249 8838 1
+4836 4847 2
+4847 8838 1
+15017 12641 1
+11217 11221 1
+5358 4868 1
+5358 5426 2
+559 4868 3
+559 5426 1
+559 5358 4
+5426 340 11
+5426 4868 10
+5426 8427 3
+5426 1598 1
+8427 4047 1
+340 4868 1
+340 4806 3
+4085 340 9
+4085 4806 3
+341 649 1
+1382 910 1
+7406 910 1
+2395 910 3
+8178 8202 3
+12378 12393 3
+2589 1308 2
+5050 1308 3
+3974 910 2
+3974 3865 2
+3974 1381 1
+3974 3746 1
+3974 4047 2
+3974 4048 1
+3974 4050 1
+3974 4049 1
+8008 339 4
+4049 5050 2
+13648 4048 1
+2899 2395 1
+2899 7406 1
+2899 4048 1
+4050 5050 2
+2900 2589 5
+13048 2589 2
+1315 910 2
+1315 13048 1
+1315 2900 3
+1315 2899 1
+1315 649 1
+1315 4048 5
+1315 1381 4
+4163 649 1
+4163 1381 2
+1316 1315 6
+1316 2900 1
+1316 2899 2
+11000 11009 1
+11000 649 1
+19178 650 1
+6843 6058 2
+6843 650 1
+8579 910 1
+8579 12744 7
+8579 650 1
+8579 1859 2
+8011 248 1
+8011 4659 2
+8011 650 1
+8011 1267 6
+8011 4710 1
+6424 6426 4
+9477 910 2
+9477 451 1
+15815 9477 4
+8009 1382 4
+8009 15815 1
+8009 13767 1
+8009 6403 2
+8009 1598 2
+6403 6424 1
+6403 1859 4
+6403 6426 1
+6425 6424 1
+13767 9477 3
+15615 9332 1
+15615 14739 1
+15615 5692 8
+15615 649 1
+15615 3749 2
+9332 1471 1
+18 31 1
+3967 31 1
+15254 649 1
+15254 11000 1
+13828 13705 2
+13828 11009 3
+13828 4659 1
+13828 650 1
+13828 649 1
+13828 4710 1
+9913 649 1
+9913 1598 1
+11896 9913 3
+11896 649 1
+8016 12393 2
+8016 650 1
+15025 649 1
+15025 7969 1
+7969 8011 1
+7969 1382 2
+7969 8012 1
+7969 3865 1
+7969 8009 1
+7969 649 6
+7969 8010 1
+7969 8015 2
+7969 8008 1
+7969 8016 1
+7969 1859 2
+1355 1384 2
+1355 910 3
+1355 650 1
+1355 649 1
+1355 1381 1
+1384 8015 2
+1384 452 2
+1384 649 1
+1384 453 1
+11859 1384 1
+11859 11889 1
+11859 1381 1
+8015 910 2
+8015 3865 2
+10382 649 1
+10382 1859 2
+17721 11907 1
+17721 910 1
+17721 5694 2
+7339 7351 2
+11907 5694 3
+17707 5694 2
+17707 17721 1
+18238 8969 2
+3917 910 1
+3917 6843 1
+3917 8579 1
+3917 429 1
+3917 650 2
+3917 649 2
+3900 3917 5
+8012 910 2
+8012 3917 1
+8012 650 1
+8012 1381 1
+11572 910 1
+11572 7847 1
+11572 649 1
+11572 339 2
+3838 3865 1
+18869 3838 1
+18869 910 1
+18869 650 1
+18869 649 1
+18869 339 2
+652 4286 6
+652 1599 1
+636 650 1
+636 649 1
+636 652 1
+429 452 2
+429 453 1
+18523 1382 2
+18523 12763 3
+18523 11889 1
+18523 12393 3
+18523 650 2
+13651 9284 1
+4882 248 2
+8013 4882 1
+8013 4659 2
+8013 649 1
+8013 1381 1
+8013 13870 1
+8013 4710 3
+13870 4659 1
+10858 8202 3
+8202 1382 2
+12393 650 2
+650 1382 2
+650 910 1
+650 13705 2
+650 6058 3
+650 13135 1
+650 8010 3
+4659 248 3
+4659 4710 3
+11009 1325 1
+12694 8013 1
+12694 12393 1
+12694 649 1
+12641 1382 2
+12641 910 1
+12641 338 1
+12641 1381 1
+14703 14741 1
+14703 14740 14
+14703 14739 1
+14703 5692 5
+14703 649 1
+14703 3749 2
+14741 1471 1
+12633 12641 1
+16954 1382 1
+14739 451 1
+14739 1859 2
+14739 1471 2
+14739 1381 1
+1471 910 2
+1471 1551 1
+15871 19892 4
+15871 11146 1
+15871 1859 2
+6660 15871 2
+6661 15871 2
+6661 1471 1
+19892 15871 3
+19892 11146 1
+19892 1859 2
+889 910 1
+889 451 1
+17381 910 1
+17381 1381 9
+17381 2983 1
+17088 5 2
+15 910 1
+15 1551 1
+15 649 1
+5 15 2
+8838 17695 1
+17695 7545 1
+4710 248 2
+250 420 4
+14768 248 2
+14768 8725 2
+2802 2084 3
+16255 248 1
+16255 451 1
+16255 254 2
+16255 14768 2
+253 4047 2
+8725 248 3
+259 250 2
+145 248 1
+145 253 1
+145 259 2
+145 254 2
+145 250 5
+145 247 3
+8697 248 3
+8697 145 4
+8697 8727 1
+8697 1598 1
+8697 8726 2
+8697 8725 2
+8726 145 2
+8726 8727 10
+8726 649 1
+8726 259 1
+8726 254 6
+8726 3749 6
+8726 250 3
+8727 145 7
+8727 259 1
+8727 254 2
+8727 250 2
+254 4989 1
+7950 8128 1
+19676 10706 5
+16925 10706 7
+10697 10706 5
+10706 649 1
+10706 1859 2
+10414 7136 5
+7128 7136 2
+3810 910 3
+18383 3810 2
+17066 3810 1
+17066 7136 5
+12790 3746 38
+12790 339 3
+14900 11221 3
+14900 339 1
+17570 3746 24
+17570 339 1
+20728 6023 1
+20728 8466 1
+20728 3749 25
+10679 10694 1
+10679 373 2
+10679 1381 4
+12761 12763 4
+12547 6023 3
+12547 3865 34
+10975 20198 4
+16896 10991 1
+10993 16896 1
+18421 4092 1
+18421 4087 1
+4092 451 1
+4087 4092 1
+4087 20198 4
+13031 824 1
+16865 3746 9
+11224 11164 5
+18001 4908 15
+18001 8876 1
+18001 20198 4
+18001 17749 3
+17771 11164 3
+135 136 11
+104 20198 4
+104 135 2
+828 20198 4
+828 135 1
+19104 3746 2
+19104 20198 4
+3069 3074 1
+3069 3073 1
+8141 2619 1
+8141 2613 1
+2613 2619 1
+2613 20198 4
+2613 339 1
+3074 8876 1
+3074 20198 4
+3074 3073 1
+3074 339 1
+2127 2129 1
+2799 2800 1
+3395 3396 1
+8798 20198 4
+8798 339 1
+9529 3082 1
+9529 9564 6
+9529 20198 4
+9301 20198 4
+7639 6460 2
+7639 20198 4
+14431 451 2
+14431 20198 4
+17287 3082 1
+17287 5814 3
+17287 20198 4
+10897 7351 1
+9564 2983 1
+21003 20198 4
+21003 2878 2
+12442 12460 2
+12442 20198 4
+7011 7012 2
+3231 3235 1
+3231 3236 1
+3236 3235 1
+3236 3782 1
+19507 5319 2
+20329 5319 2
+20320 20329 3
+20320 3782 1
+5306 5319 2
+18369 2436 2
+18369 3782 1
+12958 5319 2
+7681 11141 1
+7665 3782 1
+7665 7681 3
+19581 5319 2
+3784 3786 1
+3768 3786 1
+3768 3784 2
+3768 2436 2
+3768 3782 1
+5329 5319 2
+9793 9799 1
+21068 9793 1
+21059 21068 1
+21059 9793 2
+21059 3782 1
+12971 5319 2
+16974 7012 2
+16974 2436 3
+16974 3782 2
+16974 8236 2
+6997 7013 2
+6997 7012 2
+6997 2436 3
+6997 3782 2
+3782 6226 1
+16810 339 5
+11964 338 3
+1194 1199 1
+1194 1198 1
+1198 1859 2
+1199 20198 4
+1199 1198 1
+21228 9297 5
+21228 3082 1
+21228 1127 7
+21228 2436 2
+21228 20198 4
+21228 451 7
+21228 21131 5
+21228 2537 3
+9297 1127 2
+15348 13184 22
+15348 20198 4
+15348 14030 20
+7699 7715 26
+7699 20198 4
+4779 710 1
+7635 710 1
+4780 710 1
+10618 4779 1
+10618 7635 1
+10618 20198 4
+10618 710 9
+10618 4780 1
+7623 4779 1
+7623 7635 1
+7623 20198 4
+7623 710 9
+7623 4780 1
+15840 705 1
+15840 2412 1
+15840 20198 4
+15840 1352 1
+15840 710 9
+705 710 1
+1352 710 1
+2412 710 1
+4325 452 23
+4325 20198 4
+4325 1088 32
+4325 453 22
+4325 273 35
+14056 14074 1
+14056 20198 4
+14056 1598 7
+11082 5692 10
+11082 20198 4
+9890 1463 3
+9890 20198 4
+11286 4286 3
+11286 1599 2
+9896 11286 2
+402 411 1
+402 410 1
+410 649 2
+411 410 1
+411 8876 1
+411 20198 4
+17060 2099 1
+17060 2105 1
+2105 2436 2
+2105 1551 5
+2099 20198 4
+2099 2105 1
+3312 20198 4
+3312 1267 1
+15302 20198 4
+15302 6430 3
+20367 5837 3
+20367 20198 4
+1256 1269 5
+1256 20198 4
+1256 1267 2
+7932 20198 4
+7932 2131 5
+7577 7586 1
+7577 20198 4
+7577 1267 2
+11173 20198 4
+12649 20198 4
+12649 12659 9
+7492 7528 1
+18893 6749 10
+18893 20198 4
+2636 20198 4
+2636 2642 3
+10298 20198 4
+10298 10305 1
+2787 2793 1
+2787 2792 1
+2792 12306 6
+2793 20198 4
+2793 2792 1
+17676 20198 4
+13815 20198 4
+12356 20198 4
+12356 1381 1
+4377 20198 4
+4377 4384 8
+11998 12002 1
+11998 2919 1
+2919 2926 1
+12002 20198 4
+12002 2919 1
+20927 19911 1
+20927 343 1
+16183 343 3
+15210 340 1
+15210 344 8
+15210 15221 2
+15210 15220 2
+15210 339 1
+15210 343 2
+15220 343 2
+15221 15564 2
+15221 15563 2
+311 340 3
+311 344 24
+311 352 2
+311 345 2
+311 339 1
+311 351 4
+311 353 4
+311 343 6
+12538 353 1
+351 343 4
+11589 340 1
+11589 9366 2
+11589 11598 2
+11589 344 8
+11589 339 1
+11589 343 3
+11598 18765 2
+9366 343 2
+12348 12353 2
+12348 345 1
+17354 340 1
+17354 12348 2
+17354 344 16
+17354 1930 3
+17354 339 1
+17354 343 6
+1930 343 4
+2632 17554 2
+2632 345 1
+2621 340 1
+2621 2631 2
+2621 2632 2
+2621 344 8
+2621 339 1
+2621 343 3
+2631 343 2
+14120 340 1
+14120 14134 4
+14120 344 24
+14120 4243 2
+14120 345 1
+14120 339 1
+14120 343 9
+14134 343 6
+16610 340 1
+16610 16624 4
+16610 1574 2
+16610 344 24
+16610 345 1
+16610 339 1
+16610 343 9
+16624 343 6
+7777 7782 2
+19758 340 1
+19758 19196 3
+19758 344 16
+19758 7777 2
+19758 345 1
+19758 339 1
+19758 343 6
+19196 343 4
+2458 14756 2
+2444 340 1
+2444 2458 2
+2444 344 16
+2444 2457 3
+2444 345 1
+2444 339 1
+2444 343 6
+2457 343 4
+12644 4436 2
+15579 340 1
+15579 344 8
+15579 2217 2
+15579 12644 2
+15579 345 1
+15579 339 1
+15579 343 3
+2217 343 2
+1179 748 4
+1179 340 1
+1179 344 24
+1179 749 2
+1179 339 1
+1179 343 9
+19566 748 4
+19566 340 1
+19566 344 24
+19566 749 2
+19566 339 1
+19566 343 9
+734 748 4
+734 340 1
+734 344 24
+734 749 2
+734 339 1
+734 343 9
+748 343 6
+3880 951 2
+3869 340 1
+3869 3880 2
+3869 344 16
+3869 339 1
+3869 2086 3
+3869 343 6
+2086 343 4
+17908 340 1
+17908 17921 4
+17908 344 24
+17908 339 1
+17908 14635 2
+17908 343 9
+17921 343 6
+10451 340 1
+10451 8640 4
+10451 344 36
+10451 6192 4
+10451 339 1
+10451 343 12
+6192 343 6
+3097 3102 2
+21119 340 1
+21119 344 16
+21119 15551 3
+21119 3097 2
+21119 339 1
+21119 343 6
+15551 343 4
+6488 4364 2
+6478 340 1
+6478 6488 2
+6478 344 8
+6478 6487 2
+6478 339 1
+6478 343 3
+6487 343 2
+10964 10661 2
+10964 339 1
+16746 343 1
+17504 340 1
+17504 7573 2
+17504 344 8
+17504 339 1
+17504 13548 2
+17504 343 2
+18356 340 1
+18356 11180 2
+2288 343 1
+16517 340 3
+16517 1988 2
+16517 344 4
+16517 959 3
+16517 339 1
+16517 343 1
+959 343 3
+10402 10410 2
+10402 340 1
+10402 8506 3
+10402 344 4
+10402 339 1
+10402 343 1
+10410 13108 2
+8506 343 3
+14149 340 1
+14149 344 12
+14149 834 2
+14149 339 1
+14149 5002 7
+14149 343 6
+5002 343 9
+13493 340 1
+13493 4858 4
+13493 344 12
+13493 10711 7
+13493 339 1
+13493 343 6
+10711 343 9
+7770 8053 2
+7757 340 1
+7757 344 8
+7757 7769 5
+7757 7770 2
+7757 339 1
+7757 343 4
+7769 343 6
+12326 1437 2
+13928 340 1
+13928 344 4
+13928 12326 2
+13928 1616 3
+13928 339 1
+13928 343 1
+1616 343 3
+16582 340 1
+16582 344 4
+16582 12156 2
+16582 16146 2
+16582 11990 2
+16582 339 1
+12156 343 2
+11990 344 3
+16146 11990 2
+7752 1382 1
+21025 1315 5
+21025 1316 3
+21142 3145 2
+8648 1315 5
+8648 1316 3
+12129 3145 2
+16106 1315 9
+16106 1316 3
+21222 3145 2
+1277 1315 7
+1277 1325 1
+1277 1316 4
+9968 1315 20
+9968 1325 2
+9968 1308 6
+9968 1316 6
+3055 1315 5
+3055 1316 3
+12610 1315 4
+12610 1316 4
+17204 2395 1
+19653 1315 5
+19653 3746 1
+19653 1316 3
+5928 1315 7
+5928 1316 3
+10496 1315 6
+20217 3145 2
+10540 3145 2
+20543 1315 8
+20543 1316 3
+20225 3145 2
+7825 1315 9
+7825 1316 4
+10630 3145 2
+4462 1315 48
+4462 3746 1
+4462 1316 16
+20446 1315 4
+20446 1316 4
+10734 3145 2
+10558 12744 3
+10551 3145 2
+3133 3146 1
+3133 3149 2
+3133 3145 3
+11972 9398 3
+11972 3146 1
+11972 3145 3
+5805 3145 3
+9519 3146 1
+9519 5749 4
+9519 3145 3
+5740 3145 2
+5481 3145 2
+5343 3145 2
+14556 1315 5
+14556 1316 3
+20821 1315 5
+20821 1316 3
+8213 1315 13
+8213 1316 3
+15738 1315 21
+15738 1316 3
+13144 1315 21
+13144 1316 3
+19959 1315 21
+19959 1316 3
+6970 1315 9
+6970 1316 3
+14478 1315 11
+14478 1316 3
+20716 1315 20
+20716 1316 3
+6030 1315 9
+6030 1316 3
+13878 1315 10
+13878 1316 3
+4133 1315 5
+4133 1316 5
+17275 5108 3
+7794 3145 2
+7810 5108 3
+8786 7810 2
+8072 998 3
+14080 3145 2
+983 998 3
+8027 983 2
+19442 9347 1
+19442 14529 3
+10363 3145 2
+10379 14529 3
+16988 10379 2
+16988 9347 1
+10427 10439 3
+16462 3145 2
+11814 10439 3
+16482 11814 2
+20802 3145 2
+17246 3145 2
+17237 3145 2
+16699 3145 2
+11128 3145 2
+4759 3145 2
+7743 3145 2
+3145 6226 2
+7303 650 11
+19362 5123 1
+19362 3532 1
+3532 3540 26
+5123 3532 1
+3543 3540 21
+7034 3540 4
+19417 6000 2
+5999 6000 2
+5989 248 1
+5989 6000 1
+5989 5999 1
+20362 17202 1
+20362 17198 1
+17202 20090 2
+17202 367 2
+17202 248 4
+17202 657 2
+17202 2873 2
+17202 14827 2
+17202 1108 2
+17202 2180 1
+17198 17202 1
+20155 2653 2
+20155 248 2
+20155 15337 2
+13112 3923 4
+13112 5736 2
+5729 3923 4
+5729 5736 2
+6690 3923 4
+6690 6700 4
+20875 6690 5
+20875 3923 6
+20875 248 6
+20875 5736 1
+20875 6700 2
+20875 5729 5
+13123 254 3
+20095 14545 3
+20095 3204 1
+20668 10881 5
+20668 3204 1
+3170 3206 6
+3170 3204 1
+17665 3204 1
+5766 3204 1
+2998 3015 6
+6817 3204 1
+7938 3204 1
+3204 6226 1
+4308 1206 2
+7141 4314 7
+15465 6994 7
+14317 6994 1
+14309 14317 3
+14309 6994 7
+14766 5324 1
+14760 5324 4
+17697 15522 7
+15519 15522 1
+13897 4995 4
+13897 3865 1
+10844 3865 2
+10844 7788 7
+7785 7788 1
+19898 7740 1
+19898 1391 1
+7812 4314 9
+19008 6994 2
+19008 4314 1
+20938 451 1
+20938 6994 3
+20938 4314 5
+6990 6994 2
+6990 4314 1
+11550 451 2
+11550 6994 7
+11550 4314 9
+11350 11353 1
+11350 1606 1
+578 583 1
+578 582 1
+6447 6455 5
+6447 6454 2
+6447 6453 2
+7354 6455 2
+10448 4742 7
+10448 4114 10
+10448 4743 1
+10448 4741 3
+4729 4742 3
+4729 4114 10
+4729 4743 1
+4729 4741 3
+19194 4742 7
+19194 4114 7
+19194 4741 3
+6004 4742 3
+6004 4114 7
+6004 4741 3
+19190 4741 3
+10443 10448 1
+10443 338 1
+14850 4742 7
+14850 4114 7
+14894 4742 1
+14894 4114 1
+14894 4741 1
+15769 4742 1
+15769 4114 3
+15769 14894 1
+15769 4741 1
+16737 4741 2
+9251 4742 7
+9251 4114 7
+462 472 2
+462 474 5
+462 473 2
+2013 474 2
+20812 5924 3
+20812 5920 2
+5920 5924 3
+14910 1871 4
+14910 1381 1
+20198 6226 4
+2436 7479 3
+470 1551 1
+470 451 1
+470 1871 2
+470 1859 2
+470 1381 1
+1871 11221 1
+1871 1170 1
+1871 3746 1
+1861 3865 1
+14852 3746 1
+11619 3746 1
+14853 11619 1
+6028 11059 3
+11059 4989 2
+21148 6665 1
+21148 5943 1
+21148 1551 1
+21148 649 1
+6027 6028 1
+19353 6028 1
+13788 470 5

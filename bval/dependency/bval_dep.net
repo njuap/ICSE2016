@@ -1,0 +1,732 @@
+*Vertics: 267
+2,org.apache.bval.jsr303.groups.BillableUser
+23,org.apache.bval.jsr303.groups.BillableCreditCard
+28,org.apache.bval.jsr303.extensions.ParameterDescriptorImpl
+45,org.apache.bval.jsr303.ElementDescriptorImpl
+46,org.apache.bval.model.MetaBean
+60,org.apache.bval.constraints.HasStringValidator
+115,org.apache.bval.constraints.NotEmptyValidatorForString
+126,org.apache.bval.extras.constraints.checkdigit.IBANCheckDigitTest
+158,org.apache.bval.extras.constraints.checkdigit.AbstractCheckDigitTest
+159,org.apache.bval.extras.constraints.checkdigit.IBANValidator
+174,org.apache.bval.util.KeyedAccess
+219,org.apache.bval.util.AccessStrategy
+227,org.apache.bval.jsr303.resolver.SimpleTraversableResolver
+253,org.apache.bval.ValidationResults
+324,org.apache.bval.json.JSONGenerator
+357,org.apache.bval.jsr303.ConstraintDescriptorImpl
+395,org.apache.bval.xml.XMLMetaFeature
+427,org.apache.bval.jsr303.example.MaxTestEntity
+450,org.apache.bval.xml.XMLMetaBeanInfos
+454,org.apache.bval.constraints.SizeValidatorForArrayOfBoolean
+460,org.apache.bval.constraints.SizeValidator
+465,org.apache.bval.jsr303.xml.AnnotationProxyBuilder
+531,org.apache.bval.jsr303.ConstraintAnnotationAttributes
+532,org.apache.bval.jsr303.util.SecureActions
+534,org.apache.bval.util.PrivilegedActions
+535,org.apache.bval.jsr303.xml.AnnotationProxy
+558,org.apache.bval.constraints.EmailValidator
+569,org.apache.bval.extras.constraints.file.DirectoryValidator
+571,org.apache.bval.constraints.NullValidatorTest
+583,org.apache.bval.constraints.NullValidator
+599,org.apache.bval.extras.constraints.checkdigit.EAN13Validator
+601,org.apache.bval.xml.XMLMetaValidator
+623,org.apache.bval.jsr303.DefaultMessageInterpolator
+746,org.apache.bval.jsr303.ConstraintViolationImpl
+789,org.apache.bval.jsr303.util.PathImpl
+853,org.apache.bval.jsr303.util.NodeImpl
+854,org.apache.bval.jsr303.util.PathNavigation
+870,org.apache.bval.jsr303.groups.implicit.Order
+893,org.apache.bval.jsr303.util.IOUtils
+900,org.apache.bval.constraints.SizeValidatorForArrayOfFloat
+907,org.apache.bval.jsr303.CircularReferencesTest
+938,org.apache.bval.xml.XMLMapper
+949,org.apache.bval.xml.XMLFeaturesCapable
+950,org.apache.bval.xml.XMLMetaBean
+951,org.apache.bval.xml.XMLMetaBeanReference
+952,org.apache.bval.xml.XMLMetaElement
+953,org.apache.bval.xml.XMLMetaProperty
+954,org.apache.bval.xml.XMLMetaValidatorReference
+1005,org.apache.bval.jsr303.ConstraintDefinitionsTest
+1081,org.apache.bval.constraints.NotNullValidator
+1083,org.apache.bval.util.BValVersion
+1141,org.apache.bval.extras.constraints.net.InetAddressValidatorTest
+1150,org.apache.bval.extras.constraints.net.InetAddressValidator
+1153,org.apache.bval.extras.constraints.checkdigit.VerhoeffCheckDigitTest
+1157,org.apache.bval.extras.constraints.checkdigit.VerhoeffValidator
+1159,org.apache.bval.BeanValidator
+1218,org.apache.bval.model.MetaProperty
+1219,org.apache.bval.util.PropertyAccess
+1220,org.apache.bval.util.ValidationHelper
+1223,org.apache.bval.MetaBeanManagerFactory
+1224,org.apache.bval.BeanValidationContext
+1225,org.apache.bval.model.FeaturesCapable
+1256,org.apache.bval.extras.constraints.net.DomainValidator
+1260,org.apache.bval.constraints.DecimalMaxValidatorForNumber
+1275,org.apache.bval.jsr303.xml.MetaConstraint
+1292,org.apache.bval.util.FieldAccess
+1293,org.apache.bval.util.MethodAccess
+1304,org.apache.bval.jsr303.groups.GroupSequenceTest
+1343,org.apache.bval.jsr303.ApacheValidatorFactory
+1344,org.apache.bval.jsr303.util.TestUtils
+1345,org.apache.bval.jsr303.example.Author
+1346,org.apache.bval.jsr303.example.Book
+1347,org.apache.bval.jsr303.ApacheFactoryContext
+1349,org.apache.bval.jsr303.groups.Group
+1350,org.apache.bval.jsr303.groups.GClass1
+1351,org.apache.bval.jsr303.groups.GClass2
+1352,org.apache.bval.jsr303.groups.GClass3
+1374,org.apache.bval.constraints.DigitsValidatorForNumber
+1397,org.apache.bval.model.ExampleEnum
+1407,org.apache.bval.jsr303.BeanDescriptorTest
+1465,org.apache.bval.jsr303.example.Continent
+1470,org.apache.bval.jsr303.example.Country
+1474,org.apache.bval.jsr303.example.FrenchAddress
+1492,org.apache.bval.extras.constraints.checkdigit.LuhnValidator
+1501,org.apache.bval.extras.constraints.checkdigit.ModulusValidator
+1514,org.apache.bval.jsr303.extensions.ConstructorDescriptorImpl
+1535,org.apache.bval.jsr303.extensions.MethodValidatorImpl
+1635,org.apache.bval.jsr303.BeanDescriptorImpl
+1636,org.apache.bval.jsr303.ClassValidator
+1637,org.apache.bval.jsr303.ConstraintValidation
+1638,org.apache.bval.jsr303.ConstraintValidationListener
+1640,org.apache.bval.jsr303.groups.Groups
+1641,org.apache.bval.jsr303.extensions.MethodBeanDescriptorImpl
+1642,org.apache.bval.jsr303.extensions.MethodValidatorMetaBeanFactory
+1643,org.apache.bval.jsr303.extensions.MethodDescriptorImpl
+1672,org.apache.bval.jsr303.ApacheValidationProvider
+1699,org.apache.bval.jsr303.ConfigurationImpl
+1748,org.apache.bval.jsr303.xml.TestMessageInterpolator
+1751,org.apache.bval.jsr303.UnknownPropertyException
+1762,org.apache.bval.jsr303.extensions.ReturnAccess
+1781,org.apache.bval.jsr303.extensions.ExampleMethodService
+1848,org.apache.bval.json.JSONGeneratorTest
+1876,org.apache.bval.example.BusinessEnum
+1877,org.apache.bval.example.BusinessObject
+1878,org.apache.bval.example.BusinessObjectAddress
+1879,org.apache.bval.model.DynaTypeEnum
+1880,org.apache.bval.xml.XMLMetaBeanManager
+1881,org.apache.bval.xml.XMLMetaBeanURLLoader
+1883,org.apache.bval.MetaBeanManager
+1884,org.apache.bval.MetaBeanCache
+1895,org.apache.bval.jsr303.example.Customer
+1980,org.apache.bval.constraints.NotEmptyValidatorForCollection
+2013,org.apache.bval.jsr303.xml.ValidationMappingParser
+2219,org.apache.bval.jsr303.util.EnumerationConverter
+2220,org.apache.bval.jsr303.xml.AnnotationIgnores
+2221,org.apache.bval.jsr303.xml.ValidationParser
+2222,org.apache.bval.jsr303.ConstraintCached
+2223,org.apache.bval.jsr303.ConstraintDefaults
+2247,org.apache.bval.constraints.FutureValidatorForDate
+2256,org.apache.bval.extras.constraints.checkdigit.SedolValidator
+2288,org.apache.bval.IntrospectorMetaBeanFactory
+2332,org.apache.bval.constraints.SizeValidatorForMap
+2339,org.apache.bval.extras.constraints.file.NotDirectoryValidator
+2422,org.apache.bval.MetaBeanBuilder
+2423,org.apache.bval.xml.XMLMetaBeanBuilder
+2424,org.apache.bval.xml.XMLMetaBeanFactory
+2425,org.apache.bval.jsr303.Jsr303MetaBeanFactory
+2442,org.apache.bval.jsr303.ValidationTest
+2599,org.apache.bval.jsr303.example.AccessTestBusinessObject
+2600,org.apache.bval.jsr303.example.AccessTestBusinessObjectSub
+2601,org.apache.bval.jsr303.example.Address
+2602,org.apache.bval.jsr303.example.BusinessAddress
+2603,org.apache.bval.jsr303.example.RecursiveFoo
+2650,org.apache.bval.constraints.DecimalMinValidatorForNumber
+2659,org.apache.bval.routines.NOPValidation
+2690,org.apache.bval.model.MetaPropertyTest
+2700,org.apache.bval.jsr303.groups.DefaultGroupSequenceTest
+2781,org.apache.bval.constraints.FutureValidatorForCalendar
+2829,org.apache.bval.jsr303.extensions.ParameterAccess
+2842,org.apache.bval.jsr303.CustomValidatorFactoryTest
+2879,org.apache.bval.constraints.EmailValidatorTest
+2897,org.apache.bval.guice.ValidatorFactoryProvider
+2904,org.apache.bval.extras.constraints.net.DomainValidatorTest
+2973,org.apache.bval.DynamicMetaBean
+2986,org.apache.bval.jsr303.ComposedConstraintsTest
+3005,org.apache.bval.jsr303.example.CompanyAddress
+3012,org.apache.bval.constraints.NotEmptyValidatorForMap
+3013,org.apache.bval.constraints.NotEmptyValidator
+3021,org.apache.bval.guice.GuiceAwareConstraintValidatorFactory
+3047,org.apache.bval.jsr303.ConstraintFinderImpl
+3093,org.apache.bval.jsr303.groups.GroupsComputer
+3120,org.apache.bval.routines.EMailValidation
+3128,org.apache.bval.routines.EMailValidationUtils
+3132,org.apache.bval.jsr303.groups.GroupsComputerTest
+3165,org.apache.bval.jsr303.AnnotationConstraintBuilder
+3252,org.apache.bval.jsr303.resolver.DefaultTraversableResolver
+3285,org.apache.bval.jsr303.util.ClassHelper
+3286,org.apache.bval.jsr303.resolver.CachingTraversableResolver
+3290,org.apache.bval.guice.Country
+3310,org.apache.bval.jsr303.groups.redefining.Address
+3380,org.apache.bval.jsr303.PropertyDescriptorImpl
+3478,org.apache.bval.extras.constraints.checkdigit.CUSIPValidator
+3496,org.apache.bval.jsr303.AnnotationProcessor
+3603,org.apache.bval.jsr303.util.ConstraintDefinitionValidator
+3605,org.apache.bval.jsr303.AppendValidationToBuilder
+3642,org.apache.bval.jsr303.util.ValidationContextTraversal
+3677,org.apache.bval.util.IndexedAccess
+3688,org.apache.bval.constraints.FrenchZipcodeValidator
+3726,org.apache.bval.constraints.ZipCodeCityCoherenceValidator
+3728,org.apache.bval.jsr303.GroupValidationContextImpl
+3784,org.apache.bval.jsr303.ConstraintValidatorIdentity
+3785,org.apache.bval.jsr303.GraphBeanIdentity
+3806,org.apache.bval.jsr303.groups.implicit.ImplicitGroupingTest
+3813,org.apache.bval.jsr303.DefaultMessageInterpolatorTest
+3843,org.apache.bval.jsr303.example.PreferredGuest
+3866,org.apache.bval.extras.constraints.checkdigit.ABANumberValidator
+3933,org.apache.bval.jsr303.IncompatiblePropertyValueException
+3946,org.apache.bval.constraints.PatternValidator
+3961,org.apache.bval.jsr303.groups.inheritance.GroupInheritanceTest
+3968,org.apache.bval.jsr303.groups.inheritance.BillableUser
+3971,org.apache.bval.jsr303.example.SizeTestEntity
+3986,org.apache.bval.constraints.DecimalMinMaxValidatorsTest
+4018,org.apache.bval.jsr303.example.IllustratedBook
+4037,org.apache.bval.constraints.MaxValidatorForString
+4046,org.apache.bval.jsr303.xml.TestConstraintValidatorFactory
+4047,org.apache.bval.jsr303.DefaultConstraintValidatorFactory
+4049,org.apache.bval.guice.ValidatorProvider
+4055,org.apache.bval.jsr303.groups.GroupSequenceIsolationTest
+4103,org.apache.bval.example.BusinessObjectBeanInfo
+4112,org.apache.bval.example.ExplicitBeanInfo
+4121,org.apache.bval.constraints.PastValidatorForCalendar
+4186,org.apache.bval.jsr303.ConstraintValidatorContextImpl
+4191,org.apache.bval.jsr303.example.Library
+4205,org.apache.bval.jsr303.example.Employee
+4207,org.apache.bval.jsr303.groups.redefining.InvalidRedefinedDefaultGroupAddress
+4217,org.apache.bval.jsr303.util.EnumerationConverterTestCase
+4228,org.apache.bval.extras.constraints.checkdigit.CUSIPValidatorTest
+4354,org.apache.bval.jsr303.AppendValidationToMeta
+4377,org.apache.bval.extras.constraints.file.SymlinkValidator
+4379,org.apache.bval.jsr303.xml.ValidationParserTest
+4398,org.apache.bval.jsr303.example.XmlEntitySampleBean
+4443,org.apache.bval.xml.BeanValidatorTest
+4460,org.apache.bval.xml.XMLMetaBeanManagerFactory
+4731,org.apache.bval.guice.GuiceAwareValidationTestCase
+4750,org.apache.bval.guice.DummyCountryDao
+4751,org.apache.bval.guice.ValidationModule
+4752,org.apache.bval.guice.DummyException
+4833,org.apache.bval.jsr303.ConstraintCompositionTest
+4941,org.apache.bval.jsr303.ExceptionsContractTest
+4982,org.apache.bval.jsr303.CustomConstraintValidatorFactoryTest
+5062,org.apache.bval.constraints.MinValidatorForString
+5072,org.apache.bval.jsr303.ConstraintValidatorContextTest
+5114,org.apache.bval.jsr303.example.Engine
+5135,org.apache.bval.jsr303.BootstrapTest
+5190,org.apache.bval.constraints.AssertTrueValidator
+5198,org.apache.bval.jsr303.DefaultValidationProviderResolver
+5220,org.apache.bval.constraints.PastValidatorForDate
+5229,org.apache.bval.routines.StandardValidation
+5328,org.apache.bval.jsr303.util.NodeBuilderDefinedContextImpl
+5341,org.apache.bval.jsr303.FooTest
+5366,org.apache.bval.extras.constraints.checkdigit.ISBN10Validator
+5385,org.apache.bval.extras.constraints.checkdigit.EAN13CheckDigitTest
+5390,org.apache.bval.jsr303.extensions.MethodValidatorImplTest
+5464,org.apache.bval.jsr303.groups.GroupValidationTest
+5620,org.apache.bval.jsr303.BaseAppendValidation
+5632,org.apache.bval.jsr303.PayloadTest
+5697,org.apache.bval.jsr303.extensions.AppendValidationToList
+5769,org.apache.bval.jsr303.util.NodeContextBuilderImpl
+5788,org.apache.bval.jsr303.util.NodeBuilderCustomizableContextImpl
+5791,org.apache.bval.constraints.NotNullValidatorTest
+5940,org.apache.bval.jsr303.util.PathImplTest
+6003,org.apache.bval.constraints.SizeValidatorForArrayOfLong
+6048,org.apache.bval.guice.ValidateMethodInterceptor
+6090,org.apache.bval.constraints.DigitsValidatorForString
+6115,org.apache.bval.constraints.AssertTrueValidatorTest
+6153,org.apache.bval.extras.constraints.checkdigit.SedolCheckDigitTest
+6172,org.apache.bval.constraints.MaxValidatorForNumber
+6340,org.apache.bval.constraints.SizeValidatorForArrayOfInt
+6361,org.apache.bval.extras.constraints.checkdigit.LuhnCheckDigitTest
+6371,org.apache.bval.constraints.AssertFalseValidatorTest
+6377,org.apache.bval.constraints.AssertFalseValidator
+6391,org.apache.bval.constraints.SizeValidatorForArrayOfObject
+6397,org.apache.bval.jsr303.resolver.JPATraversableResolver
+6416,org.apache.bval.constraints.DecimalMinValidatorForString
+6520,org.apache.bval.ValidationResultsTest
+6551,org.apache.bval.constraints.MinValidatorForNumber
+6629,org.apache.bval.constraints.SizeValidatorForArrayOfDouble
+6654,org.apache.bval.jsr303.TckReproducerTest
+6676,org.apache.bval.constraints.DigitsValidatorTest
+6692,org.apache.bval.jsr303.groups.CollectionValidationTest
+6736,org.apache.bval.xml.XMLMetaBeanInfosTest
+6759,org.apache.bval.constraints.DecimalMaxValidatorForString
+6820,org.apache.bval.constraints.SizeValidatorForArrayOfChar
+6826,org.apache.bval.xml.XMLMetaBeanManagerTest
+6854,org.apache.bval.jsr303.ValidatorResolutionTest
+6878,org.apache.bval.constraints.SizeValidatorForArrayOfByte
+6884,org.apache.bval.extras.constraints.checkdigit.ABANumberValidatorTest
+6903,org.apache.bval.extras.constraints.checkdigit.ISBN10CheckDigitTest
+6962,org.apache.bval.constraints.MinMaxValidatorsForNumberTest
+6972,org.apache.bval.guice.ConfigurationStateProvider
+6996,org.apache.bval.constraints.SizeValidatorForCollection
+7031,org.apache.bval.jsr303.Jsr303Test
+7067,org.apache.bval.constraints.SizeValidatorForString
+7068,org.apache.bval.jsr303.example.NoValidatorTestEntity
+7110,org.apache.bval.jsr303.groups.redefining.RedefiningDefaultGroupTest
+7139,org.apache.bval.routines.StandardValidationTest
+7183,org.apache.bval.constraints.SizeValidatorForArrayOfShort
+*Edges: 463
+1224 46 5
+1224 1225 1
+1224 219 5
+1224 1219 1
+1224 1218 8
+1159 46 2
+1159 1225 1
+1159 1224 1
+1159 1223 1
+1159 1220 6
+1159 1219 1
+1159 1218 4
+2973 46 1
+2288 46 7
+2288 1225 4
+2288 1218 6
+2422 46 4
+1884 46 14
+1883 46 4
+1883 1884 6
+1883 1225 3
+1883 2973 1
+1883 2422 6
+1883 1218 3
+1223 1883 2
+6520 253 8
+6520 1224 4
+6520 1218 2
+6371 6377 3
+6115 5190 3
+6676 6090 8
+6676 1374 14
+558 3128 1
+2879 1895 6
+2879 1343 2
+5791 1081 2
+571 583 2
+454 460 1
+6878 460 1
+6820 460 1
+6629 460 1
+900 460 1
+6340 460 1
+6003 460 1
+6391 460 1
+7183 460 1
+6996 460 1
+2332 460 1
+7067 460 1
+1877 1876 3
+1877 1878 3
+1878 1877 3
+4103 4112 1
+3866 1501 2
+6884 158 1
+6884 3866 1
+3478 1501 3
+4228 3478 1
+4228 158 1
+5385 158 1
+5385 599 1
+599 1501 2
+126 158 1
+6903 158 1
+6903 5366 1
+5366 1501 3
+6361 158 1
+6361 1492 1
+1492 1501 2
+6153 158 1
+6153 2256 1
+2256 1501 2
+1153 158 1
+2904 1256 40
+1141 1150 20
+6972 1699 4
+4750 3290 5
+4731 3290 3
+4731 4750 5
+2897 1672 1
+324 46 1
+1848 324 3
+1848 1881 2
+1848 46 4
+1848 1884 1
+1848 1883 2
+1848 1880 4
+1848 1879 1
+1848 1218 4
+3165 1637 19
+3165 3093 1
+3165 219 1
+3496 1347 5
+3496 46 1
+3496 1225 3
+3496 2223 1
+3496 3605 3
+3496 2222 1
+3496 1343 3
+3496 1218 6
+3496 531 1
+3496 1637 9
+3496 219 9
+3496 3603 1
+3496 3165 11
+3496 534 1
+1347 1636 2
+1347 532 1
+1347 2425 1
+1347 2422 1
+1347 1883 1
+1347 1343 12
+1672 1699 2
+1343 2220 2
+1343 1347 3
+1343 2013 2
+1343 1275 1
+1343 219 1
+1343 2223 2
+1343 2222 2
+3605 1637 8
+3605 531 2
+3605 5620 1
+3605 3165 7
+3605 465 4
+4354 1225 3
+4354 5620 1
+5620 1637 5
+1635 1347 2
+1635 45 4
+1635 46 6
+1635 1225 9
+1635 3380 1
+1635 1218 3
+1407 1344 1
+5135 1895 1
+5135 1343 8
+5135 623 2
+1636 1638 11
+1636 3093 1
+1636 46 9
+1636 1225 6
+1636 3642 7
+1636 3728 2
+1636 3285 1
+1636 1349 2
+1636 1343 2
+1636 1218 6
+1636 1640 5
+1636 1224 1
+1636 1347 5
+1636 2973 1
+1636 854 1
+1636 219 3
+1636 1220 4
+1636 1635 2
+1636 853 1
+1636 789 2
+2986 3005 3
+2986 1474 3
+2986 1344 3
+1699 2221 2
+1699 532 1
+3047 1637 7
+3047 1640 1
+3047 46 5
+3047 1225 1
+3047 219 1
+3047 1349 3
+1637 1638 5
+1637 46 1
+1637 4186 4
+1637 1349 1
+1637 357 1
+1637 531 3
+1637 219 4
+1637 789 3
+1638 1637 1
+1638 219 1
+1638 746 1
+1638 789 1
+4186 1637 3
+5072 4186 9
+5072 789 5
+623 532 1
+3813 1343 2
+3813 623 7
+45 46 3
+45 3047 1
+5341 1343 2
+3728 1638 1
+3728 46 3
+3728 3286 1
+3728 1349 4
+3728 1218 2
+3728 1637 4
+3728 3785 1
+3728 1640 3
+3728 3784 1
+3728 1224 11
+3728 789 14
+3728 853 9
+2425 4354 4
+2425 2220 1
+2425 46 16
+2425 1225 2
+2425 3285 1
+2425 1349 1
+2425 1343 6
+2425 1218 5
+2425 531 2
+2425 3496 7
+2425 1293 2
+2425 1275 3
+2425 1347 8
+2425 1292 1
+2425 532 2
+2425 219 7
+7031 427 4
+7031 1344 4
+5632 1344 2
+3380 45 2
+3380 1225 2
+3380 1218 5
+6654 1219 1
+2442 1345 23
+2442 2601 57
+2442 2599 10
+2442 2603 5
+2442 1470 22
+2442 2602 1
+2442 1344 2
+2442 2600 9
+2442 1346 6
+2600 2599 2
+2601 1470 3
+1346 1345 3
+2602 2601 1
+4018 1346 1
+3843 1895 1
+5697 5620 1
+1514 45 3
+1514 46 2
+1641 1347 1
+1641 46 1
+1641 1635 2
+1643 45 4
+1643 46 1
+1535 1643 4
+1535 1642 2
+1535 1347 3
+1535 45 6
+1535 1638 7
+1535 46 1
+1535 1637 4
+1535 1636 16
+1535 1640 8
+1535 1641 6
+1535 1514 2
+1535 1220 4
+1535 28 3
+5390 1781 7
+1642 1643 3
+1642 1347 3
+1642 45 4
+1642 2829 2
+1642 46 2
+1642 2425 2
+1642 5697 5
+1642 1343 2
+1642 1762 1
+1642 531 2
+1642 3496 1
+1642 1641 7
+1642 219 3
+1642 1514 1
+1642 28 2
+2829 219 1
+28 45 3
+28 46 1
+1762 219 1
+2 23 3
+6692 4191 10
+6692 1345 17
+6692 2601 18
+6692 1344 6
+6692 1346 10
+6692 4205 3
+6692 1470 4
+2700 1640 10
+2700 1349 17
+1351 1350 1
+1304 1345 11
+1304 1347 4
+1304 1344 3
+1304 1346 11
+1304 1225 4
+1304 1349 2
+1304 1343 8
+5464 1344 4
+5464 1343 2
+1640 1349 2
+3093 1640 8
+3093 1349 3
+3132 1640 1
+3132 3093 1
+3806 1344 9
+3806 1343 2
+3968 23 3
+3961 1344 3
+3961 1343 2
+7110 3310 5
+7110 1344 5
+7110 1343 2
+3252 3286 1
+3252 534 1
+3603 531 3
+3603 532 1
+4217 2219 1
+5788 5769 1
+5788 4186 3
+5788 853 4
+5788 789 4
+5328 5788 1
+5328 4186 3
+5328 789 2
+5769 5788 1
+5769 5328 2
+5769 4186 3
+5769 853 4
+5769 789 6
+789 854 1
+789 853 10
+5940 853 4
+5940 789 28
+532 1699 1
+532 534 1
+3642 46 8
+3642 2425 1
+3642 1218 5
+3642 174 2
+3642 219 2
+3642 3677 2
+3642 1219 2
+3642 1751 2
+535 532 1
+535 465 6
+465 531 3
+465 532 1
+465 535 1
+465 534 1
+1275 1292 1
+1275 1293 1
+1275 219 4
+4046 4047 1
+1748 623 1
+2013 2221 1
+2013 2220 4
+2013 893 1
+2013 2223 1
+2013 2222 2
+2013 1343 15
+2013 531 1
+2013 1292 1
+2013 2219 1
+2013 532 3
+2013 1293 1
+2013 1275 2
+2013 465 9
+2221 532 1
+2221 893 1
+2221 1699 17
+2221 534 2
+4379 4398 5
+4379 2221 5
+4379 1699 1
+46 1225 3
+46 1218 7
+1218 46 7
+1218 1225 4
+2690 1879 2
+2690 1218 7
+3120 3128 1
+5229 1225 8
+5229 1218 1
+7139 1225 10
+7139 1224 14
+7139 5229 22
+7139 1218 14
+1083 534 2
+1292 219 1
+3677 219 1
+174 219 1
+1293 219 1
+1219 219 1
+1220 46 1
+1220 1225 2
+1220 2973 5
+4443 1159 13
+4443 4460 4
+4443 253 8
+4443 1881 2
+4443 46 1
+4443 1877 19
+4443 1878 4
+949 954 1
+949 395 7
+949 1225 4
+950 951 5
+950 952 6
+950 953 5
+950 949 1
+2423 46 1
+2423 1225 1
+2423 2424 7
+2423 2422 6
+2423 950 5
+2423 450 2
+2424 46 9
+2424 1225 8
+2424 952 5
+2424 950 8
+2424 450 1
+2424 1218 3
+2424 954 2
+2424 601 5
+2424 949 5
+2424 5229 4
+450 601 6
+450 950 3
+6736 952 22
+6736 950 15
+6736 450 9
+6736 951 2
+6736 601 4
+6736 938 6
+6736 949 6
+6736 953 2
+1880 2423 4
+1880 1881 1
+1880 46 3
+1880 1884 5
+1880 1225 1
+1880 2422 1
+1880 450 1
+1880 1218 2
+1880 1883 4
+1880 534 1
+4460 1880 2
+6826 1881 3
+6826 46 13
+6826 1225 1
+6826 1880 5
+6826 1218 11
+951 1225 1
+951 952 2
+1881 938 2
+1881 450 2
+952 1225 6
+952 949 2
+952 1218 2
+953 1225 4
+953 952 2

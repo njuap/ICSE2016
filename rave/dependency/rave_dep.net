@@ -1,0 +1,1702 @@
+*Vertics: 576
+6,org.apache.rave.portal.repository.impl.MongoDbWidgetRatingRepositoryTest
+120,org.apache.rave.portal.model.impl.WidgetImpl
+121,org.apache.rave.portal.model.impl.WidgetRatingImpl
+127,org.apache.rave.portal.repository.impl.MongoDbWidgetRepository
+157,org.apache.rave.portal.model.JpaActivityStreamsMediaLink
+214,org.apache.rave.util.JsonUtils
+234,org.apache.rave.portal.repository.impl.JpaWidgetCommentRepositoryTest
+276,org.apache.rave.portal.model.JpaWidgetComment
+279,org.apache.rave.portal.model.impl.UserImpl
+280,org.apache.rave.portal.model.impl.WidgetCommentImpl
+305,org.apache.rave.portal.util.LocalizationUtils
+372,org.apache.rave.portal.model.util.LocalizedString
+390,org.apache.rave.portal.model.JpaWidget
+527,org.apache.rave.portal.model.conversion.ConvertingListProxyFactory
+529,org.apache.rave.model.WidgetStatus
+530,org.apache.rave.portal.model.JpaWidgetRating
+532,org.apache.rave.portal.model.JpaWidgetTag
+534,org.apache.rave.portal.model.JpaCategory
+574,org.apache.rave.portal.repository.impl.JpaActivityStreamsRepository
+601,org.apache.rave.persistence.jpa.util.JpaUtil
+603,org.apache.rave.portal.model.JpaActivityStreamsEntry
+604,org.apache.rave.portal.model.conversion.JpaActivityStreamsEntryConverter
+606,org.apache.rave.util.CollectionUtils
+609,org.apache.rave.portal.model.JpaActivityStreamsItem
+634,org.apache.rave.portal.web.controller.RegionWidgetController
+654,org.apache.rave.portal.web.util.ModelKeys
+655,org.apache.rave.portal.web.util.ViewNames
+665,org.apache.rave.portal.repository.impl.JpaOAuthTokenInfoRepositoryTest
+694,org.apache.rave.portal.model.JpaOAuthTokenInfo
+710,org.apache.rave.portal.model.impl.ActivityStreamsObjectImpl
+1015,org.apache.rave.portal.repository.RepositoryTestUtils
+1049,org.apache.rave.model.PageType
+1052,org.apache.rave.portal.model.conversion.JpaPersonPropertyConverterTest
+1064,org.apache.rave.portal.model.JpaPersonProperty
+1066,org.apache.rave.portal.model.impl.PersonPropertyImpl
+1067,org.apache.rave.portal.model.conversion.JpaPersonPropertyConverter
+1089,org.apache.rave.portal.model.conversion.JpaGroupConverterTest
+1109,org.apache.rave.portal.model.JpaGroup
+1111,org.apache.rave.portal.model.impl.GroupImpl
+1112,org.apache.rave.portal.model.impl.PersonImpl
+1113,org.apache.rave.portal.model.conversion.JpaGroupConverter
+1126,org.apache.rave.portal.model.conversion.JpaRegionConverterTest
+1137,org.apache.rave.portal.model.JpaPage
+1138,org.apache.rave.portal.model.JpaRegion
+1139,org.apache.rave.portal.model.impl.RegionImpl
+1140,org.apache.rave.portal.model.conversion.JpaRegionConverter
+1160,org.apache.rave.portal.repository.impl.JpaCategoryRepository
+1182,org.apache.rave.portal.model.conversion.JpaCategoryConverter
+1195,org.apache.rave.portal.model.conversion.JpaPageTemplateRegionConverterTest
+1205,org.apache.rave.portal.model.JpaPageTemplate
+1206,org.apache.rave.portal.model.JpaPageTemplateRegion
+1209,org.apache.rave.portal.model.impl.PageTemplateImpl
+1210,org.apache.rave.portal.model.impl.PageTemplateRegionImpl
+1211,org.apache.rave.portal.model.conversion.JpaPageTemplateRegionConverter
+1227,org.apache.rave.portal.web.controller.util.CategoryEditorTest
+1239,org.apache.rave.portal.model.impl.CategoryImpl
+1241,org.apache.rave.portal.web.controller.util.CategoryEditor
+1250,org.apache.rave.portal.service.impl.DefaultTagService
+1274,org.apache.rave.portal.web.api.rpc.PageApiTest
+1353,org.apache.rave.portal.web.api.rpc.model.RpcResult
+1355,org.apache.rave.portal.web.api.rpc.PageApi
+1356,org.apache.rave.portal.model.impl.PageImpl
+1357,org.apache.rave.portal.model.impl.RegionWidgetImpl
+1393,org.apache.rave.portal.web.security.LdapUserDetailsContextMapperTest
+1441,org.apache.rave.portal.web.security.LdapUserDetailsContextMapper
+1449,org.apache.rave.provider.w3c.service.impl.W3CWidget
+1479,org.apache.rave.provider.w3c.service.impl.WookieWidgetService
+1591,org.apache.rave.portal.model.conversion.impl.MongoDbWidgetConverterTest
+1637,org.apache.rave.portal.model.conversion.impl.MongoDbWidgetConverter
+1638,org.apache.rave.portal.model.MongoDbWidget
+1639,org.apache.rave.portal.model.impl.WidgetTagImpl
+1704,org.apache.rave.portal.model.impl.ExternalWidgetImpl
+1717,org.apache.rave.portal.web.validator.UserProfileValidator
+1763,org.apache.rave.commoncontainer.ConfigurablePropertiesModule
+1831,org.apache.rave.portal.model.util.omdl.OmdlInputAdapter
+1869,org.apache.rave.portal.model.util.omdl.OmdlWidgetReference
+1876,org.apache.rave.portal.web.api.rest.AbstractRestApi
+1904,org.apache.rave.portal.web.tag.RegisterInitializationScriptTag
+1929,org.apache.rave.portal.web.renderer.ScriptLocation
+1936,org.apache.rave.portal.model.conversion.impl.MongoDbPortalPreferenceConverter
+1943,org.apache.rave.portal.model.MongoDbPortalPreference
+1946,org.apache.rave.portal.model.impl.PortalPreferenceImpl
+1956,org.apache.rave.portal.model.JpaPortalPreference
+1994,org.apache.rave.exception.NotSupportedException
+2003,org.apache.rave.portal.web.validator.NewAccountValidatorTest
+2046,org.apache.rave.portal.web.model.UserForm
+2048,org.apache.rave.portal.web.validator.NewAccountValidator
+2060,org.apache.rave.provider.opensocial.repository.ShindigGadgetMetadataRepositoryTest
+2086,org.apache.rave.provider.opensocial.repository.impl.ShindigGadgetMetadataRepository
+2093,org.apache.rave.portal.model.UserTest
+2121,org.apache.rave.portal.model.JpaUser
+2122,org.apache.rave.portal.model.JpaAuthority
+2146,org.apache.rave.portal.security.impl.RavePermissionEvaluatorTest
+2219,org.apache.rave.portal.security.impl.RavePermissionEvaluator
+2220,org.apache.rave.portal.security.impl.AbstractModelPermissionEvaluator
+2233,org.apache.rave.portal.web.controller.ProfileControllerTest
+2300,org.apache.rave.portal.model.impl.PageLayoutImpl
+2301,org.apache.rave.portal.web.controller.ProfileController
+2332,org.apache.rave.portal.model.util.omdl.BadOmdlXmlFormatException
+2422,org.apache.rave.integrationtests.stories.PortalStories
+2513,org.apache.rave.provider.opensocial.Constants
+2519,org.apache.rave.portal.security.impl.DefaultWidgetPermissionEvaluatorTest
+2590,org.apache.rave.portal.security.util.AuthenticationUtils
+2592,org.apache.rave.portal.security.impl.DefaultWidgetPermissionEvaluator
+2593,org.apache.rave.portal.security.impl.RaveSecurityContext
+2608,org.apache.rave.portal.security.impl.DefaultCategoryPermissionEvaluatorTest
+2658,org.apache.rave.portal.security.impl.DefaultCategoryPermissionEvaluator
+2667,org.apache.rave.inject.SpringContextProvider
+2690,org.apache.rave.portal.util.LocalizationUtilsTest
+2706,org.apache.rave.portal.repository.impl.JpaOAuthTokenInfoRepository
+2724,org.apache.rave.portal.model.conversion.JpaOAuthTokenInfoConverter
+2760,org.apache.rave.persistence.jpa.PopulatedLocalContainerEntityManagerFactoryTest
+2776,org.apache.rave.jdbc.util.DataSourcePopulator
+2778,org.apache.rave.persistence.jpa.PopulatedLocalContainerEntityManagerFactory
+2783,org.apache.rave.portal.web.validator.NewWidgetValidatorTest
+2806,org.apache.rave.portal.web.validator.NewWidgetValidator
+2807,org.apache.rave.portal.web.validator.WidgetValidator
+2856,org.apache.rave.portal.web.tag.ModelContextTag
+2888,org.apache.rave.portal.web.tag.AbstractContextAwareSingletonBeanDependentTag
+2922,org.apache.rave.portal.model.conversion.impl.TagImplConverter
+2929,org.apache.rave.portal.model.impl.TagImpl
+2931,org.apache.rave.portal.model.util.MongoDbModelUtil
+2936,org.apache.rave.portal.repository.impl.MongoUserTemplate
+2938,org.apache.rave.portal.model.MongoDbUser
+2942,org.apache.rave.portal.repository.impl.MongoModelTemplate
+2943,org.apache.rave.portal.repository.util.CollectionNames
+3001,org.apache.rave.jdbc.util.SqlFileParser
+3005,org.apache.rave.provider.w3c.repository.impl.WookieWidgetMetadataRepository
+3024,org.apache.rave.portal.web.controller.admin.AdminHomeController
+3030,org.apache.rave.portal.web.controller.admin.AdminControllerUtil
+3035,org.apache.rave.portal.model.conversion.impl.MongoDbPageConverterTest
+3097,org.apache.rave.portal.model.MongoDbPage
+3098,org.apache.rave.portal.model.impl.PageUserImpl
+3099,org.apache.rave.portal.model.impl.RegionWidgetPreferenceImpl
+3101,org.apache.rave.portal.model.conversion.impl.MongoDbPageConverter
+3103,org.apache.rave.model.PageInvitationStatus
+3169,org.apache.rave.portal.model.conversion.JpaAuthorityConverter
+3190,org.apache.rave.portal.repository.impl.MongoDbPageRepositoryTest
+3288,org.apache.rave.portal.repository.impl.MongoDbPageRepository
+3291,org.apache.rave.portal.model.impl.PageTemplateWidgetImpl
+3323,org.apache.rave.portal.model.conversion.impl.MongoDbPageTemplateConverterTest
+3405,org.apache.rave.portal.model.conversion.impl.MongoDbPageTemplateConverter
+3406,org.apache.rave.portal.model.MongoDbPageTemplate
+3407,org.apache.rave.portal.model.MongoDbPageLayout
+3460,org.apache.rave.portal.web.controller.admin.WidgetControllerTest
+3523,org.apache.rave.portal.model.util.SearchResult
+3525,org.apache.rave.portal.web.util.PortalPreferenceKeys
+3526,org.apache.rave.portal.web.validator.UpdateWidgetValidator
+3527,org.apache.rave.portal.web.controller.admin.WidgetController
+3556,org.apache.rave.portal.repository.impl.MongoPageTemplate
+3562,org.apache.rave.portal.model.JpaPageTemplateWidget
+3590,org.apache.rave.portal.model.conversion.JpaConverter
+3622,org.apache.rave.portal.model.conversion.impl.MongoDbGroupConverterTest
+3638,org.apache.rave.portal.model.MongoDbGroup
+3639,org.apache.rave.portal.model.conversion.impl.MongoDbGroupConverter
+3649,org.apache.rave.portal.web.renderer.RenderServiceTest
+3681,org.apache.rave.portal.web.renderer.impl.DefaultRenderService
+3682,org.apache.rave.portal.web.renderer.model.RegionWidgetWrapper
+3683,org.apache.rave.portal.web.renderer.model.RenderContext
+3697,org.apache.rave.portal.model.MongoDbWidgetTest
+3728,org.apache.rave.portal.web.api.rpc.model.RpcResultTest
+3733,org.apache.rave.portal.model.conversion.impl.MongoDbUserConverter
+3760,org.apache.rave.portal.model.MongoDbPersonAssociation
+3814,org.apache.rave.opensocial.service.impl.DefaultGroupService
+3837,org.apache.rave.portal.web.controller.admin.PortalPreferenceControllerTest
+3878,org.apache.rave.portal.web.model.PortalPreferenceForm
+3879,org.apache.rave.portal.web.validator.PortalPreferenceFormValidator
+3880,org.apache.rave.portal.web.controller.admin.PortalPreferenceController
+3934,org.apache.rave.portal.model.util.SearchResultTest
+3951,org.apache.rave.provider.opensocial.web.model.OpenSocialRegionWidget
+3970,org.apache.rave.rest.model.RegionWidget
+3993,org.apache.rave.rest.impl.DefaultCategoriesResource
+4032,org.apache.rave.rest.model.Category
+4033,org.apache.rave.rest.model.CategoryList
+4047,org.apache.rave.portal.model.util.WidgetMarketplaceSearchResult
+4075,org.apache.rave.portal.web.api.rpc.model.RpcOperation
+4087,org.apache.rave.exception.DuplicateItemException
+4092,org.apache.rave.portal.activities.model.impl.ActivityStreamsEntryTest
+4100,org.apache.rave.portal.model.impl.ActivityStreamsEntryImpl
+4112,org.apache.rave.integrationtests.steps.CategoryAdminSteps
+4171,org.apache.rave.integrationtests.pages.Portal
+4176,org.apache.rave.portal.web.controller.util.ControllerUtils
+4234,org.apache.rave.portal.web.model.NavigationItem
+4235,org.apache.rave.portal.web.model.NavigationMenu
+4254,org.apache.rave.opensocial.service.DefaultActivityStreamsServiceTest
+4336,org.apache.rave.opensocial.service.impl.DefaultActivityStreamsService
+4337,org.apache.rave.portal.model.impl.ActivityStreamsMediaLinkImpl
+4338,org.apache.rave.util.ActivityConversionUtil
+4362,org.apache.rave.portal.model.impl.OAuthConsumerStoreImpl
+4428,org.apache.rave.portal.model.conversion.JpaTagConverterTest
+4437,org.apache.rave.portal.model.JpaTag
+4438,org.apache.rave.portal.model.conversion.JpaTagConverter
+4488,org.apache.rave.portal.repository.impl.MongoDbActivityStreamsRepository
+4513,org.apache.rave.portal.model.MongoDbActivityStreamsEntry
+4518,org.apache.rave.portal.model.conversion.JpaOrganizationConverter
+4530,org.apache.rave.portal.model.JpaOrganization
+4557,org.apache.rave.portal.web.validator.UserProfileValidatorTest
+4583,org.apache.rave.portal.security.impl.DefaultWidgetRatingPermissionEvaluator
+4634,org.apache.rave.persistence.jpa.impl.H2OpenJpaDialect
+4650,org.apache.rave.persistence.impl.TranslatedH2Exception
+4661,org.apache.rave.service.impl.DefaultStaticContentFetcherService
+4698,org.apache.rave.model.StaticContent
+4715,org.apache.rave.portal.model.conversion.JpaAddressConverterTest
+4725,org.apache.rave.portal.model.JpaAddress
+4726,org.apache.rave.portal.model.impl.AddressImpl
+4727,org.apache.rave.portal.model.conversion.JpaAddressConverter
+4776,org.apache.rave.portal.model.conversion.impl.MongoDbConverter
+4799,org.apache.rave.integrationtests.steps.CommonSteps
+4826,org.apache.rave.portal.repository.impl.MongoDbPortalPreferenceRepositoryTest
+4854,org.apache.rave.portal.repository.impl.MongoDbPortalPreferenceRepository
+4952,org.apache.rave.portal.util.ModelUtil
+4965,org.apache.rave.jdbc.util.DataSourcePopulatorTest
+4995,org.apache.rave.commoncontainer.ConfigurablePropertiesModuleTest
+5029,org.apache.rave.portal.web.api.rest.RegionWidgetApi
+5050,org.apache.rave.portal.web.model.RegionWidgetPreferenceListWrapper
+5058,org.apache.rave.portal.repository.impl.MongoDbGroupRepositoryTest
+5082,org.apache.rave.portal.repository.impl.MongoDbGroupRepository
+5093,org.apache.rave.portal.repository.impl.JpaPersonRepositoryTest
+5168,org.apache.rave.portal.model.JpaPerson
+5241,org.apache.rave.portal.model.conversion.JpaOAuthConsumerStoreConverter
+5252,org.apache.rave.portal.model.JpaOAuthConsumerStore
+5262,org.apache.rave.rest.impl.DefaultPageResource
+5352,org.apache.rave.rest.model.Page
+5353,org.apache.rave.rest.model.PageList
+5383,org.apache.rave.portal.service.impl.DefaultPageLayoutServiceTest
+5397,org.apache.rave.portal.service.impl.DefaultPageLayoutService
+5403,org.apache.rave.integrationtests.stories.DefaultAccountStories
+5467,org.apache.rave.provider.w3c.service.impl.WookieWidgetMetadataResolverTest
+5485,org.apache.rave.provider.w3c.service.impl.WookieWidgetMetadataResolver
+5491,org.apache.rave.portal.model.util.ModelUtilsTest
+5499,org.apache.rave.portal.model.util.ModelUtils
+5564,org.apache.rave.service.impl.DefaultLockServiceTest
+5623,org.apache.rave.service.impl.DefaultLockService
+5677,org.apache.rave.portal.repository.impl.JpaUserRepositoryTest
+5777,org.apache.rave.portal.events.RaveEventManager
+5795,org.apache.rave.provider.w3c.web.renderer.W3cWidgetRendererTest
+5827,org.apache.rave.provider.w3c.Constants
+5829,org.apache.rave.provider.w3c.web.renderer.W3cWidgetWrapperRenderer
+5873,org.apache.rave.portal.web.renderer.RenderScope
+5927,org.apache.rave.portal.web.controller.handler.OpenIDAuthenticationFailureHandlerTest
+5950,org.apache.rave.portal.web.controller.handler.OpenIDAuthenticationFailureHandler
+5953,org.apache.rave.portal.model.util.InternationalString
+6074,org.apache.rave.portal.model.JpaPageLayout
+6075,org.apache.rave.portal.model.JpaPageUser
+6083,org.apache.rave.integrationtests.stories.NewUserStories
+6087,org.apache.rave.portal.web.tag.PersonTagTest
+6123,org.apache.rave.portal.web.tag.PersonTag
+6127,org.apache.rave.provider.w3c.service.impl.WookieWidgetServiceTest
+6166,org.apache.rave.portal.web.api.rest.WidgetApiTest
+6226,org.apache.rave.portal.web.api.rest.WidgetApi
+6249,org.apache.rave.portal.repository.impl.JpaGroupRepository
+6281,org.apache.rave.portal.repository.impl.MongoDbAuthorityRepository
+6306,org.apache.rave.portal.model.MongoDbAuthority
+6307,org.apache.rave.portal.model.impl.AuthorityImpl
+6326,org.apache.rave.portal.model.conversion.impl.MongoDbAuthorityConverter
+6345,org.apache.rave.portal.web.tag.RegisterInitializationScriptTagTest
+6364,org.apache.rave.portal.web.controller.WidgetStoreController
+6497,org.apache.rave.portal.model.conversion.JpaPageConverter
+6513,org.apache.rave.portal.model.AuthorityTest
+6527,org.apache.rave.portal.util.DataImporterTest
+6542,org.apache.rave.portal.util.data.DataImporter
+6562,org.apache.rave.portal.web.validator.NewPasswordValidator
+6576,org.apache.rave.portal.web.tag.StaticContentTagTest
+6590,org.apache.rave.portal.web.tag.StaticContentTag
+6662,org.apache.rave.portal.web.api.rpc.WidgetApi
+6713,org.apache.rave.portal.service.impl.DefaultNewAccountService
+6751,org.apache.rave.portal.service.impl.DefaultGroupService
+6769,org.apache.rave.gadgets.oauth.service.DefaultOAuthConsumerStoreServiceTest
+6783,org.apache.rave.gadgets.oauth.service.impl.DefaultOAuthConsumerStoreService
+6788,org.apache.rave.portal.model.conversion.JpaWidgetTagConverterTest
+6797,org.apache.rave.portal.model.conversion.JpaWidgetTagConverter
+6815,org.apache.rave.portal.repository.impl.JpaOAuthConsumerStoreRepositoryTest
+6845,org.apache.rave.portal.model.JpaApplicationData
+6878,org.apache.rave.portal.activities.model.impl.JpaActivityStreamsEntryTest
+6883,org.apache.rave.portal.activities.model.impl.JpaActivityStreamsObjectTest
+6896,org.apache.rave.portal.repository.impl.JpaPersonRepository
+6994,org.apache.rave.model.FriendRequestStatus
+6995,org.apache.rave.portal.model.conversion.JpaPersonConverter
+6996,org.apache.rave.portal.model.JpaPersonAssociation
+7025,org.apache.rave.portal.model.conversion.JpaOrganizationConverterTest
+7035,org.apache.rave.portal.model.impl.OrganizationImpl
+7100,org.apache.rave.portal.model.conversion.JpaApplicationDataConverterTest
+7109,org.apache.rave.portal.model.impl.ApplicationDataImpl
+7110,org.apache.rave.portal.model.conversion.JpaApplicationDataConverter
+7131,org.apache.rave.portal.service.impl.DefaultPortalPreferenceServiceTest
+7179,org.apache.rave.portal.service.impl.DefaultPortalPreferenceService
+7280,org.apache.rave.portal.repository.impl.MongoDbWidgetCommentRepositoryTest
+7321,org.apache.rave.gadgets.oauth.inject.DefaultOAuthStore
+7391,org.apache.rave.portal.model.impl.OAuthTokenInfoImpl
+7399,org.apache.rave.exception.EmailException
+7410,org.apache.rave.exception.DataSerializationException
+7420,org.apache.rave.portal.model.conversion.JpaRegionWidgetConverter
+7432,org.apache.rave.portal.model.JpaRegionWidget
+7446,org.apache.rave.portal.repository.impl.JpaPortalPreferenceRepository
+7462,org.apache.rave.portal.model.conversion.JpaPortalPreferenceConverter
+7467,org.apache.rave.portal.repository.impl.MongoWidgetTemplate
+7471,org.apache.rave.portal.model.MongoDbCategory
+7482,org.apache.rave.portal.service.impl.DefaultPageService
+7808,org.apache.rave.portal.repository.impl.JpaApplicationDataRepository
+7896,org.apache.rave.portal.web.validator.PortalPreferenceFormValidatorTest
+7990,org.apache.rave.portal.web.interceptors.CommonModelHandlerInterceptor
+8012,org.apache.rave.portal.model.util.omdl.OmdlModelUtils
+8133,org.apache.rave.rest.model.PersonList
+8137,org.apache.rave.rest.model.Person
+8179,org.apache.rave.opensocial.service.impl.DefaultOAuth2Service
+8209,org.apache.rave.portal.web.controller.admin.CategoryController
+8268,org.apache.rave.opensocial.service.GroupServiceTest
+8291,org.apache.rave.portal.model.WidgetTest
+8344,org.apache.rave.portal.repository.impl.MongoDbTagRepository
+8362,org.apache.rave.portal.web.renderer.impl.DefaultScriptManager
+8503,org.apache.rave.portal.web.controller.admin.UserControllerTest
+8609,org.apache.rave.portal.web.controller.admin.UserController
+8633,org.apache.rave.portal.web.api.rpc.model.RpcOperationTest
+8686,org.apache.rave.synchronization.SynchronizingAspect
+8784,org.apache.rave.portal.web.renderer.ScriptManagerTest
+8843,org.apache.rave.portal.model.util.WidgetStatistics
+8862,org.apache.rave.portal.security.impl.DefaultWidgetCommentPermissionEvaluator
+8909,org.apache.rave.portal.web.tag.JavaScriptDebugModeTag
+8922,org.apache.rave.util.CollectionUtilsTest
+9063,org.apache.rave.portal.repository.impl.JpaRegionRepositoryTest
+9106,org.apache.rave.integrationtests.steps.DefaultAccountSteps
+9227,org.apache.rave.rest.model.ModelTest
+9235,org.apache.rave.portal.service.impl.DefaultWidgetMarketplaceServiceTest
+9251,org.apache.rave.portal.service.impl.DefaultWidgetMarketplaceService
+9258,org.apache.rave.portal.web.controller.MessageBundleControllerTest
+9294,org.apache.rave.portal.web.controller.MessageBundleController
+9298,org.apache.rave.portal.model.conversion.JpaWidgetCommentConverterTest
+9307,org.apache.rave.portal.model.conversion.JpaWidgetCommentConverter
+9315,org.apache.rave.portal.repository.impl.JpaOAuthConsumerStoreRepository
+9349,org.apache.rave.portal.model.MongoDbPersonAssociationTest
+9379,org.apache.rave.portal.service.impl.DefaultGroupServiceTest
+9432,org.apache.rave.portal.web.tag.RegionWidgetTagTest
+9473,org.apache.rave.portal.web.tag.RegionWidgetTag
+9480,org.apache.rave.provider.opensocial.web.renderer.OpenSocialWidgetWrapperRenderer
+9554,org.apache.rave.portal.web.controller.util.MockHttpUtil
+9620,org.apache.rave.portal.repository.impl.MongoDbOAuthTokenInfoRepository
+9657,org.apache.rave.opensocial.service.impl.OpenSocialActivityService
+9695,org.apache.rave.portal.web.controller.PageController
+9791,org.apache.rave.portal.repository.impl.JpaCategoryRepositoryTest
+9839,org.apache.rave.portal.web.validator.UpdateWidgetValidatorTest
+9863,org.apache.rave.portal.service.impl.DefaultRegionWidgetService
+9899,org.apache.rave.portal.repository.impl.JpaRegionWidgetRepositoryTest
+9943,org.apache.rave.portal.model.JpaRegionWidgetPreference
+9984,org.apache.rave.portal.repository.impl.MongoDbPageTemplateRepository
+10012,org.apache.rave.portal.security.util.AuthenticationUtilsTest
+10075,org.apache.rave.rest.model.Region
+10133,org.apache.rave.portal.repository.impl.JpaApplicationDataRepositoryTest
+10174,org.apache.rave.portal.repository.impl.MongoDbOAuthTokenInfoRepositoryTest
+10202,org.apache.rave.portal.repository.impl.MongoDbPersonRepository
+10341,org.apache.rave.portal.web.controller.UserProfileController
+10362,org.apache.rave.portal.web.controller.util.ModelUtils
+10368,org.apache.rave.portal.repository.impl.MongoDbApplicationDataRepository
+10388,org.apache.rave.portal.repository.impl.JpaWidgetRepositoryTest
+10529,org.apache.rave.portal.repository.impl.MongoTagTemplate
+10533,org.apache.rave.portal.web.tag.ShowStackTraceTag
+10545,org.apache.rave.portal.repository.impl.MongoDbApplicationDataRepositoryTest
+10605,org.apache.rave.portal.service.impl.mock.MockCategoryRepository
+10626,org.apache.rave.opensocial.service.FieldRestrictingPersonTest
+10883,org.apache.rave.opensocial.service.impl.FieldRestrictingPerson
+10929,org.apache.rave.portal.web.controller.admin.CategoryControllerTest
+11078,org.apache.rave.portal.model.conversion.JpaWidgetRatingConverterTest
+11088,org.apache.rave.portal.model.conversion.JpaWidgetRatingConverter
+11103,org.apache.rave.portal.model.conversion.JpaPageTemplateConverterTest
+11113,org.apache.rave.portal.model.conversion.JpaPageTemplateConverter
+11116,org.apache.rave.portal.model.WidgetTagTest
+11169,org.apache.rave.portal.service.impl.DefaultCategoryServiceTest
+11202,org.apache.rave.portal.service.impl.DefaultCategoryService
+11206,org.apache.rave.portal.repository.impl.MongoDbPageLayoutRepositoryTest
+11235,org.apache.rave.portal.repository.impl.MongoDbPageLayoutRepository
+11247,org.apache.rave.portal.repository.impl.JpaPageRepositoryTest
+11324,org.apache.rave.portal.model.MongoDbAuthorityTest
+11340,org.apache.rave.portal.model.PortalPreferenceTest
+11436,org.apache.rave.portal.repository.impl.MongoDbOauthConsumerStoreRepository
+11468,org.apache.rave.portal.repository.impl.MongoDbCategoryRepository
+11506,org.apache.rave.portal.model.conversion.JpaRegionWidgetPreferenceConverterTest
+11516,org.apache.rave.portal.model.conversion.JpaRegionWidgetPreferenceConverter
+11523,org.apache.rave.provider.opensocial.service.OpenSocialServiceTest
+11544,org.apache.rave.exception.ResourceNotFoundException
+11545,org.apache.rave.provider.opensocial.service.impl.DefaultOpenSocialService
+11550,org.apache.rave.opensocial.repository.impl.DecoratingOpenSocialPersonRepository
+11691,org.apache.rave.portal.model.util.WidgetMarketplaceWidgetResult
+11696,org.apache.rave.portal.model.JpaActivityStreamsObject
+11705,org.apache.rave.inject.SpringBindingModuleTest
+11724,org.apache.rave.opensocial.service.impl.DefaultPersonService
+11725,org.apache.rave.inject.SpringBindingModule
+11746,org.apache.rave.portal.security.impl.DefaultPagePermissionEvaluatorTest
+11827,org.apache.rave.portal.security.impl.DefaultPagePermissionEvaluator
+11832,org.apache.rave.portal.model.conversion.JpaActivityStreamsMediaLinkConverter
+11847,org.apache.rave.portal.repository.impl.JpaPortalPreferenceRepositoryTest
+11931,org.apache.rave.portal.security.impl.RaveMethodSecurityExpressionHandler
+11939,org.apache.rave.portal.web.controller.admin.AdminHomeControllerTest
+11998,org.apache.rave.portal.security.impl.AbstractModelPermissionEvaluatorTest
+12022,org.apache.rave.portal.model.conversion.impl.MongoDbAuthorityConverterTest
+12034,org.apache.rave.provider.opensocial.exception.SecurityTokenException
+12202,org.apache.rave.portal.util.data.ModelWrapper
+12249,org.apache.rave.portal.model.conversion.JpaPageTemplateWidgetConverter
+12265,org.apache.rave.portal.model.MongoDbCategoryTest
+12280,org.apache.rave.portal.repository.impl.MongoDbCategoryRepositoryTest
+12343,org.apache.rave.portal.web.validator.ChangePasswordValidator
+12389,org.apache.rave.provider.opensocial.web.renderer.OpenSocialWidgetRendererTest
+12435,org.apache.rave.portal.repository.impl.MongoDbAuthorityRepositoryTest
+12473,org.apache.rave.portal.web.controller.util.ViewNamesTest
+12477,org.apache.rave.portal.security.impl.DefaultRegionPermissionEvaluator
+12537,org.apache.rave.portal.web.api.rest.AbstractRestApiTest
+12683,org.apache.rave.portal.repository.impl.MongoDbActivityStreamsRepositoryTest
+12708,org.apache.rave.portal.service.impl.DefaultOmdlService
+12804,org.apache.rave.portal.model.util.omdl.OmdlOutputAdapter
+12815,org.apache.rave.portal.service.impl.DefaultEmailService
+12853,org.apache.rave.portal.web.tag.ScriptTagTest
+12880,org.apache.rave.portal.web.tag.ScriptTag
+12911,org.apache.rave.portal.repository.impl.MongoDbPageTemplateRepositoryTest
+12949,org.apache.rave.portal.service.impl.ReCaptchaService
+12990,org.apache.rave.persistence.jpa.util.JpaUtilTest
+13019,org.apache.rave.portal.web.api.rpc.MarketplaceAPI
+13038,org.apache.rave.portal.model.conversion.JpaActivityStreamsEntryConverterTest
+13082,org.apache.rave.integrationtests.steps.LifecycleSteps
+13109,org.apache.rave.portal.repository.impl.JpaPageLayoutRepositoryTest
+13159,org.apache.rave.portal.repository.impl.MongoDbRegionRepositoryTest
+13192,org.apache.rave.portal.repository.impl.MongoDbRegionRepository
+13215,org.apache.rave.portal.service.impl.DefaultUserServiceTest
+13310,org.apache.rave.portal.service.impl.DefaultUserService
+13318,org.apache.rave.portal.repository.impl.JpaPageTemplateRepository
+13343,org.apache.rave.portal.security.impl.DefaultRegionWidgetPermissionEvaluatorTest
+13406,org.apache.rave.portal.security.impl.DefaultRegionWidgetPermissionEvaluator
+13411,org.apache.rave.portal.model.MongoDbUserTest
+13514,org.apache.rave.opensocial.util.ActivityConversionUtilTest
+13549,org.apache.rave.portal.repository.impl.MonogoDbMapReduceStatisticsAggregatorTest
+13618,org.apache.rave.portal.model.WidgetRatingsMapReduceResult
+13619,org.apache.rave.portal.model.WidgetUsersMapReduceResult
+13620,org.apache.rave.portal.repository.impl.MongoDbMapReduceStatisticsAggregator
+13709,org.apache.rave.portal.model.conversion.JpaWidgetConverterTest
+13720,org.apache.rave.portal.model.conversion.JpaWidgetConverter
+13741,org.apache.rave.integrationtests.stories.AdminStories
+13794,org.apache.rave.rest.model.PageUser
+13813,org.apache.rave.synchronization.SynchronizingAspectTest
+13903,org.apache.rave.portal.repository.impl.MongoDbUserRepository
+13960,org.apache.rave.portal.repository.impl.JpaAuthorityRepositoryTest
+13988,org.apache.rave.portal.model.conversion.JpaPersonConverterTest
+13999,org.apache.rave.portal.repository.impl.JpaTagRepository
+14075,org.apache.rave.portal.model.conversion.JpaConverterTest
+14091,org.apache.rave.opensocial.service.impl.DefaultMediaItemService
+14161,org.apache.rave.portal.model.conversion.impl.MongoDbActivityStreamsEntryConverterTest
+14190,org.apache.rave.portal.model.conversion.impl.MongoDbActivityStreamsEntryConverter
+14193,org.apache.rave.portal.model.conversion.JpaAuthorityConverterTest
+14210,org.apache.rave.provider.opensocial.controller.SecurityTokenController
+14241,org.apache.rave.portal.web.model.PortalPreferenceFormTest
+14310,org.apache.rave.portal.repository.impl.JpaPageTemplateRepositoryTest
+14355,org.apache.rave.opensocial.service.MultiFormatActivityServiceTest
+14423,org.apache.rave.portal.repository.impl.JpaPageRepository
+14492,org.apache.rave.portal.web.controller.ChangePasswordControllerTest
+14509,org.apache.rave.portal.web.controller.ChangePasswordController
+14515,org.apache.rave.portal.web.controller.WidgetMarketplaceController
+14567,org.apache.rave.portal.repository.impl.MongoDbRegionWidgetRepositoryTest
+14647,org.apache.rave.portal.repository.impl.MongoDbRegionWidgetRepository
+14710,org.apache.rave.portal.web.api.rpc.PersonApi
+14913,org.apache.rave.integrationtests.steps.ProfileSteps
+14947,org.apache.rave.rest.impl.DefaultUsersResource
+14960,org.apache.rave.rest.model.User
+15019,org.apache.rave.portal.web.controller.ReminderController
+15070,org.apache.rave.portal.web.api.rest.PageApi
+15096,org.apache.rave.portal.web.controller.PageControllerTest
+15231,org.apache.rave.gadgets.oauth.inject.OAuthGuiceModule
+15244,org.apache.rave.portal.service.impl.DefaultWidgetServiceTest
+15368,org.apache.rave.portal.service.impl.DefaultWidgetService
+15408,org.apache.rave.portal.web.tag.RenderInitializationScriptTag
+15439,org.apache.rave.portal.events.PortalPreferenceJavascriptDebugModeSaveEvent
+15448,org.apache.rave.portal.model.MongoDbActivityStreamsObject
+15584,org.apache.rave.portal.repository.impl.JpaTagRepositoryTest
+15632,org.apache.rave.portal.web.validator.WidgetValidatorTest
+15644,org.apache.rave.portal.model.MongoDbActivityStreamsMediaLink
+15653,org.apache.rave.portal.web.controller.admin.AdminControllerUtilTest
+15666,org.apache.rave.gadgets.oauth.inject.DefaultOAuthStoreTest
+15700,org.apache.rave.portal.repository.impl.JpaRegionRepository
+15749,org.apache.rave.portal.model.conversion.ConvertingListProxyFactoryTest
+15805,org.apache.rave.portal.model.MongoDbPageLayoutTest
+15827,org.apache.rave.portal.security.ModelPermissionEvaluatorTest
+15998,org.apache.rave.portal.model.conversion.impl.MongoDbCategoryConverterTest
+16015,org.apache.rave.portal.model.conversion.impl.MongoDbCategoryConverter
+16021,org.apache.rave.portal.repository.impl.JpaPageLayoutRepository
+16037,org.apache.rave.portal.model.conversion.JpaPageLayoutConverter
+16092,org.apache.rave.portal.repository.impl.JpaAuthorityRepository
+16117,org.apache.rave.portal.service.impl.DefaultAuthorityServiceTest
+16144,org.apache.rave.portal.service.impl.DefaultAuthorityService
+16220,org.apache.rave.portal.web.model.NavigationMenuTest
+16416,org.apache.rave.persistence.impl.TranslatedH2ExceptionTest
+16427,org.apache.rave.opensocial.service.AppDataServiceTest
+16557,org.apache.rave.opensocial.service.impl.DefaultAppDataService
+16568,renderer.RenderServiceIntegrationTest
+16653,org.apache.rave.portal.security.impl.DefaultWidgetRatingPermissionEvaluatorTest
+16714,org.apache.rave.portal.repository.impl.MongoDbPersonRepositoryTest
+16805,org.apache.rave.portal.web.controller.util.ControllerUtilsTest
+16823,org.apache.rave.portal.model.conversion.JpaUserConverterTest
+16833,org.apache.rave.portal.model.conversion.JpaUserConverter
+16836,org.apache.rave.provider.opensocial.service.OpenSocialWidgetMetadataResolverTest
+16849,org.apache.rave.provider.opensocial.service.impl.OpenSocialWidgetMetadataResolver
+16865,org.apache.rave.portal.model.conversion.JpaPageUserConverter
+16883,org.apache.rave.portal.web.context.RaveContextLoaderListenerTest
+16894,org.apache.rave.portal.web.context.RaveContextLoaderListener
+16900,org.apache.rave.util.OverridablePropertyPlaceholderConfigurerTest
+16908,org.apache.rave.util.OverridablePropertyPlaceholderConfigurer
+17037,org.apache.rave.portal.model.PageTest
+17069,org.apache.rave.portal.model.WidgetRatingTest
+17129,org.apache.rave.portal.web.interceptors.CommonModelHandlerInterceptorTest
+17169,org.apache.rave.portal.web.tag.RenderInitializationScriptTagTest
+17725,org.apache.rave.portal.repository.impl.JpaWidgetRatingRepositoryTest
+17748,org.apache.rave.portal.service.impl.DefaultTagServiceTest
+17768,org.apache.rave.portal.repository.impl.JpaGroupRepositoryTest
+17810,org.apache.rave.portal.service.impl.DefaultNewAccountServiceTest
+17876,org.apache.rave.portal.model.conversion.JpaActivityStreamsObjectConverterTest
+17886,org.apache.rave.portal.model.conversion.JpaActivityStreamsObjectConverter
+17911,org.apache.rave.portal.model.conversion.JpaPortalPreferenceConverterTest
+17922,org.apache.rave.portal.service.impl.DefaultRemoteWidgetResolverService
+17981,org.apache.rave.portal.repository.impl.MongoDbOauthConsumerStoreRepositoryTest
+18019,org.apache.rave.portal.repository.impl.JpaRegionWidgetRepository
+18033,org.apache.rave.inject.GuiceBindingSpringContextLoaderListener
+18069,org.apache.rave.portal.web.controller.ReminderControllerTest
+18085,org.apache.rave.portal.model.util.omdl.OmdlTest
+18092,org.apache.rave.portal.web.model.MaterializedBeanObjectMapperFactory
+18248,org.apache.rave.portal.web.controller.NewAccountController
+18300,org.apache.rave.portal.security.impl.DefaultWidgetCommentPermissionEvaluatorTest
+18343,org.apache.rave.portal.model.conversion.impl.MongoDbPortalPreferenceConverterTest
+18365,org.apache.rave.portal.web.model.NavigationItemTest
+18497,org.apache.rave.portal.security.impl.DefaultRegionPermissionEvaluatorTest
+18624,org.apache.rave.persistence.jpa.impl.H2OpenJpaDialectTest
+18640,org.apache.rave.portal.web.tag.WidgetTag
+18723,org.apache.rave.portal.model.conversion.impl.MongoDbUserConverterTest
+18750,org.apache.rave.exception.DuplicateItemExceptionTest
+18786,org.apache.rave.portal.repository.impl.MongoDbUserRepositoryTest
+18843,org.apache.rave.portal.repository.impl.JpaWidgetRepository
+19072,org.apache.rave.integrationtests.steps.NewUserSteps
+19123,org.apache.rave.portal.activities.repository.JpaActivityEntryRepositoryTest
+19155,org.apache.rave.portal.web.api.rest.RegionWidgetApiTest
+19185,org.apache.rave.portal.activities.model.impl.JpaActivityStreamsMediaLinkTest
+19228,org.apache.rave.portal.web.controller.WidgetStoreControllerTest
+19390,org.apache.rave.rest.impl.DefaultPeopleResource
+19439,org.apache.rave.portal.service.impl.DefaultRegionService
+19446,org.apache.rave.integrationtests.steps.PageOperationsSteps
+19533,org.apache.rave.provider.opensocial.service.SecurityTokenServiceTest
+19573,org.apache.rave.provider.opensocial.service.impl.EncryptedBlobSecurityTokenService
+19590,org.apache.rave.portal.model.TagTest
+19594,org.apache.rave.opensocial.service.PersonServiceTest
+19759,org.apache.rave.portal.model.conversion.JpaPageTemplateWidgetConverterTest
+19808,org.apache.rave.portal.service.impl.DefaultRegionWidgetServiceTest
+19862,org.apache.rave.portal.repository.impl.MongoDbWidgetTagRepositoryTest
+19939,org.apache.rave.portal.web.tag.AbstractContextAwareSingletonBeanDependentTagTest
+20164,org.apache.rave.service.impl.DefaultStaticContentFetcherServiceTest
+20217,org.apache.rave.provider.opensocial.config.OpenSocialEnvironment
+20419,org.apache.rave.portal.repository.impl.JpaUserRepository
+20464,org.apache.rave.portal.model.conversion.JpaRegionWidgetConverterTest
+20474,org.apache.rave.portal.model.MongoDbPortalPreferenceTest
+20577,org.apache.rave.portal.repository.impl.MongoDbWidgetRepositoryTest
+20709,org.apache.rave.exception.NotSupportedExceptionTest
+20737,org.apache.rave.gadgets.oauth.service.impl.DefaultOAuthTokenInfoService
+20757,org.apache.rave.portal.model.conversion.JpaActivityStreamsMediaLinkConverterTest
+20798,org.apache.rave.portal.model.MongoDbPageTemplateTest
+20805,org.apache.rave.inject.GuiceBindingSpringContextLoaderListenerTest
+20813,org.apache.rave.portal.model.util.InternationalStringTest
+20846,org.apache.rave.portal.repository.impl.MongoGroupTemplate
+20967,org.apache.rave.portal.model.conversion.JpaOAuthConsumerStoreConverterTest
+20982,org.apache.rave.portal.repository.impl.JpaWidgetTagRepositoryTest
+21024,org.apache.rave.portal.model.conversion.JpaPageConverterTest
+21034,org.apache.rave.provider.opensocial.web.renderer.OpenSocialRegionWidgetRenderer
+21141,org.apache.rave.portal.activities.model.impl.ActivityStreamsObjectTest
+21362,org.apache.rave.portal.service.impl.DefaultPageServiceTest
+21647,org.apache.rave.integrationtests.steps.UserAdminSteps
+21703,org.apache.rave.gadgets.oauth.service.DefaultOAuthTokenInfoServiceTest
+21724,org.apache.rave.portal.model.conversion.impl.MongDbConverterTest
+21747,org.apache.rave.portal.model.conversion.JpaCategoryConverterTest
+21772,org.apache.rave.portal.model.conversion.JpaOAuthTokenInfoConverterTest
+22003,org.apache.rave.portal.web.tag.ShowStackTraceTagTest
+22040,org.apache.rave.portal.activities.model.impl.ActivityStreamsMediaLinkTest
+22045,org.apache.rave.portal.activities.util.ModelUtilTest
+22096,org.apache.rave.portal.web.controller.NewAccountControllerTest
+22204,org.apache.rave.portal.web.tag.JavaScriptDebugModeTagTest
+22230,org.apache.rave.portal.web.api.rest.PageApiTest
+22247,org.apache.rave.portal.repository.impl.MongoDbTagRepositoryTest
+*Edges: 1124
+4995 1763 8
+18750 4087 4
+20709 1994 8
+7321 7391 1
+15666 7321 5
+15666 7391 1
+6769 6783 1
+21703 7391 1
+21703 20737 1
+20805 18033 1
+11725 2667 1
+11705 11725 1
+4112 4171 11
+4799 4171 11
+9106 4171 10
+19072 4171 10
+19446 4171 10
+14913 4171 9
+21647 4171 8
+13741 2422 1
+5403 2422 1
+6083 2422 1
+2776 3001 2
+4965 2776 17
+11550 1994 3
+16427 7109 9
+16427 16557 1
+4254 4337 1
+4254 4338 7
+4254 710 12
+4254 4336 12
+4254 4100 17
+10626 10883 132
+10626 1066 17
+19594 11724 1
+19594 1112 5
+19594 1066 2
+4336 4337 1
+4336 4338 8
+4336 4100 2
+16557 7109 1
+11724 606 2
+11724 10883 1
+10883 606 3
+10883 1994 59
+13514 4337 8
+13514 4338 9
+13514 710 14
+13514 4100 18
+16416 4650 4
+2778 2776 3
+2760 2778 4
+2760 2776 2
+4634 4650 2
+4634 4087 1
+18624 4650 2
+18624 4634 4
+601 1994 1
+12990 601 7
+4092 4100 10
+22040 4337 3
+21141 710 15
+6878 6883 2
+6878 609 5
+6878 603 6
+19185 157 4
+6883 157 2
+6883 11696 3
+19123 609 1
+19123 603 6
+22045 4952 2
+6513 2122 1
+603 609 1
+603 157 1
+603 11696 5
+603 3590 12
+609 214 2
+157 214 1
+11696 609 1
+11696 157 1
+11696 3590 4
+11696 527 1
+2122 2121 1
+2122 527 1
+534 527 1
+4530 4725 1
+4530 3590 2
+1137 3590 4
+1137 527 3
+1137 6074 2
+1137 1049 4
+1205 3590 4
+1205 527 2
+1205 6074 1
+1205 1049 3
+1206 3590 2
+1206 527 1
+1206 1205 2
+3562 1206 1
+3562 3590 2
+6075 3103 3
+6075 1137 1
+6075 3590 2
+5168 527 3
+6996 5168 6
+6996 6994 3
+1956 1994 1
+1138 1137 3
+1138 3590 2
+1138 527 1
+7432 1138 4
+7432 3590 2
+7432 527 1
+2121 5168 13
+2121 606 1
+2121 2122 2
+2121 3590 6
+2121 1112 14
+2121 6074 1
+390 527 4
+390 529 4
+276 2121 2
+4513 4100 1
+15644 4337 1
+15448 710 1
+6306 6307 1
+11324 6306 2
+7471 1239 4
+12265 7471 5
+12265 1239 6
+3638 1111 1
+3097 1356 5
+3407 2300 3
+15805 3407 16
+3406 1209 3
+20798 2300 1
+20798 3406 4
+3760 6994 4
+9349 3760 5
+1943 1946 1
+20474 1943 2
+2938 279 11
+13411 279 7
+13411 6307 5
+13411 2938 33
+13411 2300 2
+1638 120 9
+3697 120 8
+3697 1638 17
+3697 1239 2
+17037 1139 2
+17037 2300 1
+17037 3098 4
+17037 2121 6
+17037 1356 4
+11340 1956 12
+19590 4437 1
+2093 2122 5
+2093 2121 42
+17069 530 18
+11116 532 10
+8291 390 26
+8291 4437 4
+8291 530 1
+8291 532 2
+8291 529 1
+15749 3590 4
+15749 527 4
+604 609 8
+604 601 1
+604 603 39
+13038 604 4
+13038 603 12
+13038 4100 1
+11832 157 8
+11832 601 1
+20757 4337 1
+20757 11832 4
+20757 157 5
+17886 609 8
+17886 11696 38
+17886 601 1
+17876 17886 4
+17876 11696 10
+17876 710 1
+4727 4725 13
+4727 601 1
+4715 4725 5
+4715 4726 1
+4715 4727 4
+7110 6845 9
+7100 7110 4
+7100 7109 1
+7100 6845 6
+3169 2122 7
+3169 601 1
+14193 279 1
+14193 6307 1
+14193 3169 4
+14193 2122 4
+1182 534 12
+21747 534 9
+21747 1239 1
+21747 1182 4
+14075 4726 1
+14075 3590 13
+1113 1109 7
+1113 601 1
+1089 1109 4
+1089 1113 4
+5241 5252 11
+20967 5252 9
+20967 5241 4
+2724 694 13
+21772 2724 4
+21772 7391 1
+21772 694 10
+4518 601 1
+4518 4530 14
+7025 4726 1
+7025 4530 11
+7025 4518 4
+6497 1137 15
+21024 6497 4
+21024 1137 10
+21024 2300 1
+21024 1356 2
+16037 601 1
+16037 6074 7
+11113 1205 13
+11103 11113 4
+11103 2300 1
+11103 1209 2
+11103 1205 10
+1211 1206 8
+1195 1206 4
+1195 1210 1
+1195 1209 1
+1195 1211 4
+12249 3562 9
+19759 390 2
+19759 12249 4
+19759 3562 6
+19759 1210 1
+19759 3291 1
+16865 6075 11
+6995 5168 17
+6995 601 1
+13988 5168 14
+13988 6995 4
+1067 1064 10
+1052 1064 7
+1052 1067 4
+1052 1066 1
+7462 601 1
+7462 1956 6
+17911 1946 1
+17911 7462 4
+17911 1956 3
+1140 1138 9
+1140 601 1
+1126 1139 1
+1126 1137 1
+1126 1138 7
+1126 1140 4
+7420 601 1
+7420 7432 13
+20464 1139 1
+20464 7420 4
+20464 1357 1
+20464 7432 11
+11516 9943 7
+11516 601 1
+11506 9943 4
+11506 3099 1
+11506 11516 4
+4438 4437 5
+4438 601 1
+4428 4437 3
+4428 4438 3
+4428 2929 2
+16833 5168 12
+16833 6307 1
+16833 2121 20
+16823 5168 11
+16823 279 1
+16823 16833 4
+16823 2300 1
+16823 2121 16
+9307 276 11
+9298 276 7
+9298 280 1
+9298 9307 4
+13720 390 23
+13709 120 34
+13709 390 1
+13709 13720 4
+11088 530 8
+11078 11088 4
+11078 530 3
+11078 121 1
+6797 601 1
+6797 532 8
+6788 1639 1
+6788 390 3
+6788 6797 3
+6788 4437 4
+6788 2121 4
+6788 532 8
+21724 4776 10
+14190 4337 5
+14190 15644 1
+14190 710 43
+14190 4513 2
+14190 4100 7
+14190 2931 3
+14161 14190 4
+14161 4100 1
+6326 6307 2
+6326 6306 2
+12022 6326 5
+12022 6307 6
+16015 7471 4
+16015 1239 6
+16015 2931 1
+15998 7471 2
+15998 16015 6
+15998 1239 10
+3639 3638 2
+3639 1111 5
+3639 2931 1
+3622 1111 8
+3622 3639 5
+3101 3099 1
+3101 1139 1
+3101 3098 8
+3101 1356 16
+3101 3097 5
+3101 1357 12
+3101 2931 5
+3035 3099 1
+3035 3101 11
+3035 1139 7
+3035 1356 29
+3035 2300 4
+3035 3098 13
+3035 1357 41
+3035 3097 6
+3405 1210 7
+3405 3406 5
+3405 3291 8
+3405 1209 13
+3405 2931 3
+3323 3406 5
+3323 3405 9
+3323 3407 2
+3323 120 2
+3323 2300 6
+3323 1210 8
+3323 1209 23
+3323 3291 11
+3323 1049 2
+1936 1946 2
+1936 1943 2
+18343 1946 6
+18343 1943 1
+18343 1936 5
+3733 279 10
+3733 2938 11
+3733 1112 14
+3733 2931 1
+3733 1066 1
+18723 279 12
+18723 2938 13
+18723 1112 18
+18723 6307 2
+18723 2300 2
+18723 4726 1
+18723 1066 2
+18723 3733 11
+1637 120 20
+1637 1638 10
+1637 121 1
+1637 280 7
+1637 2931 3
+1591 1639 5
+1591 120 34
+1591 1638 11
+1591 1637 9
+1591 121 3
+1591 280 5
+1591 1239 1
+2922 2931 1
+2922 2929 3
+1704 120 2
+1356 1049 3
+1209 1049 3
+3098 3103 3
+1946 1994 1
+279 606 1
+279 1112 32
+120 529 3
+5953 372 5
+5953 305 2
+20813 5953 29
+20813 372 21
+5491 5499 2
+5491 3099 4
+3934 3523 17
+4047 3523 2
+1831 1869 1
+8012 1831 3
+12804 8012 4
+18085 8012 17
+18085 1831 11
+574 604 2
+574 606 3
+574 609 1
+574 601 1
+574 603 4
+7808 7110 2
+7808 606 1
+7808 601 2
+7808 6845 8
+10133 7109 1
+10133 6845 10
+16092 606 2
+16092 3169 3
+16092 2122 1
+16092 601 2
+13960 2122 2
+13960 2121 1
+1160 606 1
+1160 534 1
+1160 601 1
+1160 1182 2
+9791 534 13
+9791 390 3
+9791 2121 2
+9791 1239 1
+6249 1109 1
+6249 606 1
+6249 1113 3
+6249 601 2
+17768 1109 6
+9315 5252 1
+9315 5241 3
+9315 601 2
+6815 5252 11
+2706 2724 3
+2706 601 2
+2706 694 1
+665 694 10
+16021 16037 3
+16021 606 2
+16021 601 2
+16021 6074 2
+13109 6074 11
+14423 6497 2
+14423 1138 6
+14423 601 1
+14423 6075 2
+14423 606 2
+14423 1137 7
+14423 1049 3
+14423 7432 1
+11247 2121 4
+11247 1356 1
+13318 606 1
+13318 601 1
+13318 3590 2
+13318 1205 1
+13318 1049 1
+14310 1206 37
+14310 1205 49
+6896 6996 16
+6896 5168 1
+6896 601 12
+6896 1109 3
+6896 606 4
+6896 6995 6
+6896 6994 3
+6896 1994 4
+5093 5168 8
+5093 1112 1
+7446 606 1
+7446 7462 3
+7446 601 2
+7446 1956 1
+11847 1956 3
+15700 1138 1
+15700 1140 2
+15700 601 1
+9063 1139 1
+9063 1138 16
+9063 7432 2
+18019 601 1
+18019 7420 2
+18019 7432 1
+9899 9943 7
+9899 1357 1
+9899 7432 4
+13999 606 1
+13999 4437 2
+13999 601 2
+13999 4438 2
+15584 4437 8
+15584 2929 2
+20419 606 3
+20419 16833 3
+20419 2121 1
+20419 601 7
+5677 2121 12
+234 279 1
+234 276 7
+234 280 1
+17725 530 1
+18843 11088 4
+18843 530 3
+18843 601 16
+18843 8843 9
+18843 529 5
+18843 276 2
+18843 390 1
+18843 606 7
+18843 6797 2
+18843 9307 3
+18843 13720 3
+18843 532 1
+10388 534 1
+10388 390 2
+10388 530 2
+10388 2121 3
+10388 8843 20
+20982 4437 2
+20982 532 17
+4488 606 2
+12683 4488 1
+12683 4100 5
+10368 606 1
+10545 7109 5
+10545 10368 9
+6281 606 2
+6281 1994 1
+12435 606 3
+12435 6281 16
+11468 7471 2
+11468 606 1
+11468 1239 4
+12280 606 1
+12280 11468 10
+12280 1239 6
+5058 5082 7
+13620 13618 3
+13620 13619 5
+13620 8843 11
+10174 7391 5
+10174 9620 6
+17981 11436 8
+11235 606 2
+11206 606 2
+11206 11235 10
+3288 1139 1
+3288 3098 2
+3288 1356 2
+3288 1357 1
+3288 1049 5
+3190 279 5
+3190 1356 12
+3190 3288 14
+3190 120 1
+3190 2300 1
+3190 1210 2
+3190 3098 17
+3190 3291 1
+3190 1209 2
+9984 606 1
+9984 1049 2
+12911 9984 6
+12911 606 1
+12911 1209 1
+12911 1049 2
+10202 279 4
+10202 2938 19
+10202 6994 5
+10202 3760 13
+16714 1139 1
+16714 279 1
+16714 2938 23
+16714 1356 1
+16714 10202 10
+16714 1112 2
+16714 120 1
+16714 1357 1
+16714 3760 12
+4854 1943 2
+4854 606 1
+4826 1946 6
+4826 1943 2
+4826 606 1
+4826 4854 10
+13159 1139 6
+13159 1356 6
+13159 13192 8
+14567 1139 16
+14567 1356 11
+14567 3097 2
+14567 1357 27
+14567 14647 17
+22247 8344 10
+22247 2929 7
+18786 279 10
+18786 13903 16
+7280 120 4
+7280 280 6
+7280 127 6
+6 120 15
+6 121 32
+6 127 16
+127 8843 1
+127 1994 1
+127 529 7
+20577 120 22
+20577 279 2
+20577 121 2
+20577 2929 1
+20577 127 19
+19862 127 2
+20846 2942 2
+2942 606 1
+3556 2942 2
+10529 2942 2
+2936 2942 2
+7467 2942 2
+13549 13620 4
+13549 13618 12
+13549 13619 15
+13549 8843 16
+2220 2590 1
+11998 2220 4
+2658 2593 4
+2658 2220 2
+2608 2593 3
+2608 279 5
+2608 1239 1
+2608 2658 12
+2608 1112 2
+11827 2593 4
+11827 2220 2
+11746 2593 3
+11746 279 10
+11746 1356 4
+11746 11827 17
+11746 1112 2
+12477 2593 4
+12477 2220 2
+18497 2593 3
+18497 1139 1
+18497 279 7
+18497 1356 1
+18497 12477 13
+18497 1112 2
+13406 2593 4
+13406 2220 2
+13343 2593 3
+13343 1139 1
+13343 279 7
+13343 13406 13
+13343 1356 1
+13343 1357 1
+13343 1112 2
+8862 2593 4
+8862 2220 2
+18300 2593 2
+18300 279 8
+18300 280 2
+18300 8862 18
+18300 1112 2
+2592 2593 4
+2592 2220 2
+2519 2593 3
+2519 120 1
+2519 279 7
+2519 2592 14
+2519 1356 1
+2519 1112 2
+4583 2593 4
+4583 2220 2
+16653 2593 3
+16653 279 6
+16653 121 1
+16653 4583 13
+16653 1112 2
+2146 2219 14
+10012 2590 6
+16144 3523 4
+16117 6307 8
+16117 16144 1
+16117 3523 4
+11202 1239 1
+11169 279 2
+11169 11202 1
+11169 1239 5
+12815 7399 2
+9379 1111 1
+9379 6751 1
+6713 279 1
+6713 3523 1
+17810 6713 1
+17810 279 16
+17810 6307 2
+17810 2300 3
+17810 3523 2
+17810 1112 11
+12708 1869 7
+12708 2332 3
+12708 8012 1
+12708 12804 3
+12708 1831 17
+5383 5397 1
+5383 2300 1
+7482 3103 1
+7482 1139 3
+7482 3098 3
+7482 1356 2
+7482 1357 1
+7482 1049 1
+21362 1139 14
+21362 279 40
+21362 1356 29
+21362 1112 1
+21362 7482 1
+21362 120 5
+21362 2300 8
+21362 3098 6
+21362 1209 4
+21362 1357 14
+7179 15439 1
+7179 1946 1
+7179 5777 3
+7131 1946 11
+7131 7179 1
+7131 5777 1
+9863 5499 2
+9863 606 1
+19808 9863 1
+19808 3099 5
+19808 1357 5
+17748 1250 1
+17748 2929 1
+13310 3523 16
+13215 13310 1
+13215 279 17
+13215 6307 1
+13215 1356 2
+13215 3523 6
+13215 1209 1
+9251 11691 1
+9251 4047 1
+9251 3523 7
+9235 3523 4
+9235 9251 3
+15368 3523 32
+15368 8843 1
+15368 4087 1
+15368 529 2
+15244 1639 2
+15244 120 22
+15244 279 3
+15244 121 5
+15244 280 3
+15244 1239 1
+15244 3523 20
+15244 15368 1
+15244 529 1
+6527 279 1
+6527 4100 1
+6527 120 1
+6527 1946 1
+6527 6307 1
+6527 2300 1
+6527 1239 1
+6527 1209 1
+6527 6542 5
+305 372 11
+2690 372 11
+2690 305 3
+12537 1876 2
+15070 1876 1
+15070 12804 1
+22230 3099 1
+22230 1139 1
+22230 15070 5
+22230 1356 2
+22230 1357 1
+5029 1876 1
+5029 5050 5
+19155 3099 7
+19155 5029 8
+19155 5050 7
+19155 1357 1
+6226 1639 1
+6226 121 1
+6226 1876 1
+6226 280 2
+6226 2929 1
+6166 1639 5
+6166 120 4
+6166 279 4
+6166 121 1
+6166 6226 18
+6166 280 3
+6166 2929 12
+13019 4075 1
+13019 2806 2
+13019 1353 1
+1355 4075 15
+1355 1353 15
+1274 1139 1
+1274 1356 3
+1274 1355 21
+1274 1357 3
+1274 1353 74
+14710 4075 6
+14710 1353 6
+6662 4075 3
+6662 1353 3
+4075 1353 4
+4075 4087 1
+8633 4075 4
+8633 1353 8
+3728 1353 4
+16894 16908 1
+16883 16894 2
+14509 12343 2
+14509 279 1
+14509 10362 1
+14509 2046 2
+14492 12343 2
+14492 14509 8
+14492 2046 7
+9258 9294 6
+18248 279 1
+18248 10362 1
+18248 2048 3
+18248 2046 1
+22096 12949 1
+22096 18248 13
+22096 279 1
+22096 2048 1
+22096 2046 40
+9695 4176 4
+9695 655 2
+15096 9554 5
+15096 279 5
+15096 2300 1
+15096 655 4
+15096 3098 2
+15096 1356 2
+15096 9695 7
+2301 4176 1
+2301 4235 5
+2301 655 1
+2301 4234 3
+2301 2046 7
+2233 279 7
+2233 2300 5
+2233 1356 6
+2233 2301 7
+2233 1112 2
+2233 2046 7
+15019 279 1
+15019 10362 2
+15019 6562 2
+15019 2046 2
+18069 15019 9
+18069 12949 1
+18069 6562 1
+18069 2046 6
+10341 1717 3
+10341 10362 1
+10341 2046 1
+14515 4176 1
+6364 4176 5
+6364 120 8
+6364 2807 2
+6364 2806 2
+19228 120 21
+19228 6364 11
+19228 2806 1
+19228 279 10
+19228 3523 7
+19228 8843 1
+3030 4235 13
+3030 4234 25
+15653 3030 6
+3024 3030 1
+11939 3024 2
+8209 3030 12
+8209 1239 4
+10929 3030 4
+10929 279 15
+10929 8209 22
+10929 1239 59
+3880 3878 3
+3880 3030 6
+3880 3879 3
+3837 3878 4
+3837 3030 2
+3837 1946 1
+3837 3880 9
+8609 3030 13
+8609 1717 3
+8609 279 1
+8609 3523 1
+8609 10362 1
+8609 2048 3
+8609 2046 1
+8503 3030 3
+8503 1717 1
+8503 279 11
+8503 6307 2
+8503 8609 20
+8503 3523 4
+8503 1112 1
+8503 2048 1
+8503 2046 10
+3527 3030 7
+3527 3526 2
+3527 2807 1
+3527 1241 2
+3527 529 1
+3460 3527 13
+3460 3030 2
+3460 120 11
+3460 3526 2
+3460 1239 2
+3460 3523 2
+3460 1241 2
+5950 279 1
+5927 5950 2
+1227 1239 1
+1227 1241 5
+4176 4235 20
+4176 4234 17
+16805 4176 7
+16805 9554 2
+16805 279 1
+10362 606 1
+10362 279 1
+10362 2046 18
+12473 655 1
+17129 7990 4
+18365 4234 31
+4235 4234 1
+16220 4235 9
+16220 4234 1
+3878 1946 7
+14241 3878 10
+14241 1946 4
+3649 120 12
+3649 3683 1
+3649 3682 3
+3649 3681 2
+3649 1357 3
+8784 8362 1
+8784 3683 2
+3681 3683 1
+3681 10075 3
+3681 3682 3
+3681 3970 11
+3681 5352 5
+3681 1994 2
+8362 5873 1
+8362 1929 7
+8362 3683 6
+8362 1994 1
+1441 279 1
+1393 279 4
+1393 1441 9
+2888 3683 2
+19939 3683 1
+19939 2888 8
+8909 2888 4
+22204 1946 4
+22204 8909 7
+2856 2888 4
+6123 2856 2
+6123 2888 1
+6087 2856 14
+6087 6123 2
+9473 3682 1
+9473 2888 8
+9432 120 14
+9432 1139 2
+9432 3683 1
+9432 3682 1
+9432 9473 16
+9432 1357 5
+1904 1929 2
+6345 1904 11
+15408 1929 2
+17169 15408 11
+12880 1929 3
+12880 2888 5
+12853 3683 2
+12853 12880 11
+10533 2888 4
+22003 1946 4
+22003 10533 7
+6590 2888 4
+6576 6590 9
+18640 2856 2
+12343 2048 5
+12343 2046 1
+2048 2046 11
+2003 2048 11
+2003 2046 43
+6562 2048 5
+2806 2807 2
+2783 120 10
+2783 2807 4
+2783 2806 2
+3879 3878 3
+7896 3878 4
+7896 1946 3
+7896 3879 5
+3526 2807 2
+9839 120 15
+9839 3526 2
+9839 2807 4
+4557 1717 7
+4557 279 4
+15632 2807 2
+20217 5777 2
+2060 2086 2
+11523 120 3
+11523 1356 1
+11523 11545 1
+16836 16849 1
+19533 120 2
+19533 1139 1
+19533 279 2
+19533 1356 1
+19533 19573 1
+19533 1357 1
+11545 1139 1
+11545 11544 1
+11545 3970 4
+11545 1357 1
+19573 12034 5
+19573 120 1
+19573 1139 1
+19573 1356 1
+19573 1357 1
+16849 120 1
+3951 3970 13
+21034 3683 1
+21034 3951 1
+21034 3970 5
+12389 3099 3
+12389 1139 2
+12389 1356 3
+12389 120 12
+12389 3683 1
+12389 9480 1
+12389 3682 3
+12389 1357 3
+9480 3683 1
+9480 3682 5
+9480 1994 1
+3005 1479 4
+1449 120 2
+5485 3005 1
+5467 5485 1
+5467 120 1
+5467 1479 4
+1479 120 1
+1479 1449 8
+5795 120 5
+5795 1449 2
+5795 1139 1
+5795 279 1
+5795 3683 1
+5795 5829 1
+5795 3682 2
+5795 1356 2
+5795 1357 2
+5829 120 1
+5829 1449 4
+5829 3683 1
+5829 3682 5
+5829 1994 1
+3993 4033 1
+3993 4032 8
+5262 5353 1
+5262 3970 2
+5262 5352 8
+19390 8137 1
+14947 14960 3
+5352 10075 1
+5352 13794 1
+5352 1049 1
+13794 3103 1
+10075 3970 1
+5564 5623 13
+4661 4698 10
+20164 4698 10
+20164 4661 42
+13813 8686 7
+4338 4337 1
+4338 710 1
+4338 4952 8
+4338 4100 4
+8922 606 16
+16900 16908 2
+16568 120 6
+16568 1139 1
+16568 279 1
+16568 3683 1
+16568 3682 1
+16568 1356 1
+16568 2086 1
+16568 1357 1

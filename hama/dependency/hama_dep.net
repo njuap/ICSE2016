@@ -1,0 +1,1249 @@
+*Vertics: 360
+8,org.apache.hama.bsp.FileInputFormat
+280,org.apache.hama.bsp.BSPJob
+283,org.apache.hama.bsp.BSPJobContext
+284,org.apache.hama.bsp.FileSplit
+295,org.apache.hama.bsp.KillJobAction
+309,org.apache.hama.bsp.GroomServerAction
+319,org.apache.hama.bsp.message.bundle.WritableMessageBundle
+349,org.apache.hama.bsp.message.bundle.POJOMessageBundle
+355,org.apache.hama.bsp.TextArrayWritable
+358,org.apache.hama.ipc.Status
+375,org.apache.hama.MiniBSPCluster
+460,org.apache.hama.bsp.BSPMaster
+461,org.apache.hama.bsp.GroomServer
+462,org.apache.hama.HamaConfiguration
+535,org.apache.hama.bsp.BSPRunner
+574,org.apache.hama.util.BSPNetUtils
+576,org.apache.hama.bsp.Counters
+577,org.apache.hama.bsp.TaskAttemptID
+578,org.apache.hama.bsp.BSPPeerImpl
+579,org.apache.hama.bsp.BSPTask
+580,org.apache.hama.bsp.BSP
+581,org.apache.hama.bsp.ID
+598,org.apache.hama.bsp.NullInputFormat
+636,org.apache.hama.bsp.sync.SyncServerRunner
+649,org.apache.hama.bsp.sync.SyncServiceFactory
+656,org.apache.hama.monitor.TestConfigurator
+666,org.apache.hama.monitor.Monitor
+667,org.apache.hama.monitor.Configurator
+931,org.apache.hama.ipc.RPC
+932,org.apache.hama.ipc.Server
+934,org.apache.hama.bsp.sync.ZKSyncBSPMasterClient
+935,org.apache.hama.http.HttpServer
+939,org.apache.hama.monitor.fd.FDProvider
+941,org.apache.hama.monitor.fd.UDPSupervisor
+946,org.apache.hama.bsp.BSPJobID
+947,org.apache.hama.bsp.JobInProgress
+948,org.apache.hama.bsp.GroomServerStatus
+949,org.apache.hama.bsp.JobInProgressListener
+950,org.apache.hama.bsp.TaskCompletionEvent
+951,org.apache.hama.bsp.TaskScheduler
+952,org.apache.hama.bsp.JobStatus
+953,org.apache.hama.bsp.ClusterStatus
+954,org.apache.hama.bsp.JobProfile
+955,org.apache.hama.bsp.Directive
+956,org.apache.hama.bsp.SimpleTaskScheduler
+957,org.apache.hama.bsp.ReportGroomStatusDirective
+960,org.apache.hama.bsp.TaskInProgress
+961,org.apache.hama.bsp.TaskStatus
+962,org.apache.hama.bsp.DirectiveException
+964,org.apache.hama.bsp.KillTaskAction
+965,org.apache.hama.bsp.DispatchTasksDirective
+1067,org.apache.hama.bsp.sync.ZKSyncEventListener
+1089,org.apache.hama.bsp.sync.SyncEventListener
+1090,org.apache.hama.bsp.sync.ZKSyncClient
+1092,org.apache.hama.bsp.sync.ZKSyncEventFactory
+1115,org.apache.hama.examples.MindistSearch
+1159,org.apache.hama.bsp.Combiner
+1160,org.apache.hama.bsp.HashPartitioner
+1161,org.apache.hama.bsp.TextInputFormat
+1162,org.apache.hama.bsp.TextOutputFormat
+1163,org.apache.hama.graph.Edge
+1164,org.apache.hama.graph.GraphJob
+1165,org.apache.hama.graph.Vertex
+1166,org.apache.hama.graph.VertexInputReader
+1258,org.apache.hama.bsp.LocalBSPRunner
+1440,org.apache.hama.bsp.message.AbstractMessageManager
+1442,org.apache.hama.bsp.message.MessageManagerFactory
+1443,org.apache.hama.bsp.sync.BSPPeerSyncClient
+1444,org.apache.hama.bsp.sync.SyncException
+1445,org.apache.hama.bsp.BSPJobClient
+1448,org.apache.hama.bsp.TaskID
+1457,org.apache.hama.bsp.BSPMessageBundle
+1486,org.apache.hama.bsp.Task
+1509,org.apache.hama.examples.LinearRegressionTest
+1513,org.apache.hama.examples.GradientDescentExample
+1534,org.apache.hama.bsp.LineRecordReader
+1588,org.apache.hama.ml.math.SquaredError
+1596,org.apache.hama.ml.math.DoubleDoubleFunction
+1616,org.apache.hama.bsp.FileOutputFormat
+1617,org.apache.hama.ml.regression.GradientDescentBSP
+1618,org.apache.hama.ml.regression.LogisticRegressionModel
+1620,org.apache.hama.ml.regression.VectorDoubleFileInputFormat
+1621,org.apache.hama.ml.writable.VectorWritable
+1638,org.apache.hama.util.DistCacheUtils
+1662,org.apache.hama.bsp.message.io.DirectByteBufferOutputStream
+1676,org.apache.hama.bsp.message.io.ByteBufferOutputStream
+1681,org.apache.hama.bsp.message.io.CombineSpilledDataProcessor
+1709,org.apache.hama.util.ReflectionUtils
+1710,org.apache.hama.bsp.message.io.WriteSpilledDataProcessor
+1711,org.apache.hama.bsp.message.io.ReusableByteBuffer
+1712,org.apache.hama.bsp.message.io.SpilledByteBuffer
+1823,org.apache.hama.bsp.TestTaskAllocation
+1850,org.apache.hama.bsp.taskallocation.BSPResource
+1851,org.apache.hama.bsp.taskallocation.BestEffortDataLocalTaskAllocator
+1902,org.apache.hama.util.TestBytes
+1948,org.apache.hama.util.Bytes
+2014,org.apache.hama.monitor.plugin.JvmTask
+2101,org.apache.hama.monitor.Metric
+2102,org.apache.hama.monitor.MetricsRecord
+2120,org.apache.hama.zookeeper.ZKServerTool
+2132,org.apache.hama.zookeeper.QuorumPeer
+2157,org.apache.hama.examples.util.SparseVectorWritable
+2222,org.apache.hama.util.KeyValuePair
+2223,org.apache.hama.bsp.PartitioningRunner
+2225,org.apache.hama.graph.GraphJobRunner
+2247,org.apache.hama.ml.regression.LinearRegressionModel
+2275,org.apache.hama.ml.ann.TestSmallLayeredNeuralNetwork
+2428,org.apache.hama.ml.MLTestBase
+2431,org.apache.hama.ml.math.DenseDoubleMatrix
+2432,org.apache.hama.ml.math.DenseDoubleVector
+2434,org.apache.hama.ml.math.FunctionFactory
+2436,org.apache.hama.ml.ann.AbstractLayeredNeuralNetwork
+2437,org.apache.hama.ml.ann.SmallLayeredNeuralNetwork
+2438,org.apache.hama.ml.ann.NeuralNetwork
+2480,org.apache.hama.pipes.protocol.BinaryProtocol
+2575,org.apache.hama.pipes.Submitter
+2576,org.apache.hama.pipes.protocol.UplinkReader
+2579,org.apache.hama.pipes.protocol.MessageType
+2607,org.apache.hama.bsp.message.CompressableMessageManager
+2612,org.apache.hama.bsp.message.compress.BSPMessageCompressor
+2613,org.apache.hama.bsp.message.compress.BSPMessageCompressorFactory
+2805,org.apache.hama.bsp.ft.AsyncRcvdMsgCheckpointImpl
+2843,org.apache.hama.monitor.MetricsTag
+3009,org.apache.hama.util.ZKUtil
+3294,org.apache.hama.ipc.Client
+3318,org.apache.hama.ml.math.TestDenseDoubleMatrix
+3430,org.apache.hama.ml.math.DoubleFunction
+3438,org.apache.hama.pipes.PipesBSP
+3461,org.apache.hama.pipes.PipesApplication
+3468,org.apache.hama.bsp.message.MessageTransferQueueFactory
+3487,org.apache.hama.bsp.message.queue.MemoryQueue
+3517,org.apache.hama.bsp.message.io.DirectByteBufferInputStream
+3534,org.apache.hama.bsp.message.io.ByteBufferInputStream
+3548,org.apache.hama.bsp.TestCheckpoint
+3802,org.apache.hama.bsp.KeyValueLineRecordReader
+3836,org.apache.hama.ml.semiclustering.SemiClusterTextReader
+3858,org.apache.hama.ZooKeeperRunner
+3921,org.apache.hama.util.VersionInfo
+3955,org.apache.hama.bsp.TaskRunner
+4066,org.apache.hama.util.RunJar
+4113,org.apache.hama.bsp.message.io.SyncReadByteBufferInputStream
+4140,org.apache.hama.bsp.message.io.DuplexByteArrayChannel
+4153,org.apache.hama.examples.CombineExampleTest
+4157,org.apache.hama.examples.CombineExample
+4160,org.apache.hama.bsp.message.HadoopMessageManagerImpl
+4201,org.apache.hama.bsp.message.compress.BSPCompressedBundle
+4202,org.apache.hama.util.LRUCache
+4221,org.apache.hama.ml.kmeans.KMeansBSP
+4372,org.apache.hama.ml.distance.EuclidianDistance
+4374,org.apache.hama.ml.kmeans.CenterMessage
+4375,org.apache.hama.bsp.SequenceFileInputFormat
+4376,org.apache.hama.bsp.SequenceFileOutputFormat
+4393,org.apache.hama.ml.perception.PerceptronTrainer
+4409,org.apache.hama.ml.perception.MLPMessage
+4460,org.apache.hama.bsp.message.io.BufferReadStatus
+4469,org.apache.hama.bsp.message.io.ReadIndexStatus
+4475,org.apache.hama.graph.TestAbsDiffAggregator
+4478,org.apache.hama.graph.AbsDiffAggregator
+4479,org.apache.hama.graph.AbstractAggregator
+4484,org.apache.hama.bsp.UpdatePeerAction
+4573,org.apache.hama.bsp.message.compress.TestBSPCompressBundle
+4589,org.apache.hama.examples.util.FastGraphGen
+4621,org.apache.hama.bsp.TestBSPMasterGroomServer
+4646,org.apache.hama.HamaCluster
+4647,org.apache.hama.bsp.message.compress.SnappyCompressor
+4648,org.apache.hama.bsp.message.queue.DiskQueue
+4649,org.apache.hama.examples.ClassSerializePrinting
+4650,org.apache.hama.bsp.sync.ZooKeeperSyncClientImpl
+4663,org.apache.hama.ml.math.CrossEntropy
+4714,org.apache.hama.examples.DynamicGraph
+4749,org.apache.hama.bsp.RecoverTaskAction
+4774,org.apache.hama.bsp.message.type.BSPMessage
+4786,org.apache.hama.util.RandomVariable
+4847,org.apache.hama.examples.LogisticRegressionTest
+4858,org.apache.hama.bsp.message.TestMessageIO
+4954,org.apache.hama.bsp.message.io.SpilledDataInputBuffer
+4956,org.apache.hama.bsp.message.io.SpillingDataOutputBuffer
+4957,org.apache.hama.bsp.message.io.SyncFlushByteBufferOutputStream
+4985,org.apache.hama.bsp.BSPApplicationMaster
+5121,org.apache.hama.bsp.JobImpl
+5132,org.apache.hama.util.StringArrayWritable
+5145,org.apache.hama.ml.writable.MatrixWritable
+5165,org.apache.hama.GroomServerRunner
+5195,org.apache.hama.bsp.SequenceFileRecordReader
+5198,org.apache.hama.ml.ann.SmallLayeredNeuralNetworkTrainer
+5246,org.apache.hama.ml.ann.SmallLayeredNeuralNetworkMessage
+5413,org.apache.hama.graph.IDSkippingIterator
+5414,org.apache.hama.graph.GraphJobMessage
+5415,org.apache.hama.graph.AggregationRunner
+5418,org.apache.hama.graph.VertexMessageIterable
+5420,org.apache.hama.graph.ListVerticesInfo
+5563,org.apache.hama.bsp.BSPTaskLauncher
+5577,org.apache.hama.bsp.KeyValueTextInputFormat
+5651,org.apache.hama.bsp.message.queue.ByteArrayMessageQueue
+5659,org.apache.hama.bsp.FCFSQueue
+5676,org.apache.hama.ml.perception.SmallMLPTrainer
+5739,org.apache.hama.ml.ann.NeuralNetworkTrainer
+5740,org.apache.hama.ml.perception.SmallMultiLayerPerceptron
+5741,org.apache.hama.ml.perception.SmallMLPMessage
+5766,org.apache.hama.util.ClusterUtil
+6033,org.apache.hama.ml.math.Tuple
+6042,org.apache.hama.pipes.util.DistributedCacheUtil
+6103,org.apache.hama.monitor.TestFederator
+6128,org.apache.hama.monitor.Federator
+6135,org.apache.hama.bsp.NonSplitSequenceFileInputFormat
+6144,org.apache.hama.monitor.ZKCollector
+6285,org.apache.hama.bsp.message.queue.POJOMessageQueue
+6337,org.apache.hama.HamaTestCase
+6373,org.apache.hama.examples.NeuralNetworkTest
+6411,org.apache.hama.examples.NeuralNetwork
+6529,org.apache.hama.pipes.PipesPartitioner
+6530,org.apache.hama.bsp.SuperstepBSP
+6536,org.apache.hama.bsp.Superstep
+6541,org.apache.hama.bsp.JobChangeEvent
+6560,org.apache.hama.ml.ann.TestSmallLayeredNeuralNetworkMessage
+6615,org.apache.hama.examples.SuperstepPiEstimator
+6651,org.apache.hama.bsp.message.type.DoubleMessage
+6659,org.apache.hama.ml.math.TestDenseDoubleVector
+6756,org.apache.hama.ml.regression.TestLogisticRegression
+6787,org.apache.hama.ml.regression.LogisticRegression
+6830,org.apache.hama.bsp.BSPTaskRunner
+6832,org.apache.hama.graph.AverageAggregator
+6838,org.apache.hama.ml.math.Sigmoid
+6839,org.apache.hama.ml.math.Tanh
+6840,org.apache.hama.ml.math.IdentityFunction
+6843,org.apache.hama.bsp.TaskAttemptContext
+6859,org.apache.hama.pipes.protocol.StreamingProtocol
+6974,org.apache.hama.ml.perception.TestSmallMLPMessage
+7029,org.apache.hama.examples.util.TextPair
+7048,org.apache.hama.graph.MinAggregator
+7057,org.apache.hama.bsp.message.io.DualChannelByteBufferStream
+7130,org.apache.hama.bsp.message.queue.SingleLockQueue
+7151,org.apache.hama.bsp.YARNBSPJobClient
+7210,org.apache.hama.bsp.YARNBSPJob
+7221,org.apache.hama.bsp.TestZooKeeper
+7254,org.apache.hama.bsp.sync.ZooKeeperSyncServerImpl
+7290,org.apache.hama.util.TestZKUtil
+7723,org.apache.hama.ipc.ConnectionHeader
+7731,org.apache.hama.bsp.CommitTaskAction
+7941,org.apache.hama.util.SocketInputStream
+7972,org.apache.hama.util.SocketIOWithTimeout
+8117,org.apache.hama.bsp.NullOutputFormat
+8153,org.apache.hama.ml.perception.MultiLayerPerceptron
+8194,org.apache.hama.bsp.QueueManager
+8243,org.apache.hama.graph.DiskVerticesInfo
+8363,org.apache.hama.util.ProgramDriver
+8393,org.apache.hama.bsp.message.TestDiskQueue
+8513,org.apache.hama.bsp.TestPartitioning
+8535,org.apache.hama.bsp.message.io.PreFetchCache
+8595,org.apache.hama.bsp.message.io.SpilledDataReadStatus
+8603,org.apache.hama.bsp.message.TestMessageBundle
+8774,org.apache.hama.examples.RandBenchTest
+8779,org.apache.hama.examples.RandBench
+8782,org.apache.hama.bsp.message.type.IntegerDoubleMessage
+8800,org.apache.hama.examples.Kmeans
+8943,org.apache.hama.monitor.fd.NodeStatus
+8949,org.apache.hama.bsp.LaunchTaskAction
+9039,org.apache.hama.bsp.TestBSPTaskFaults
+9201,org.apache.hama.bsp.message.TestAvroMessageManager
+9224,org.apache.hama.bsp.message.type.BooleanMessage
+9225,org.apache.hama.bsp.message.type.IntegerMessage
+9226,org.apache.hama.bsp.message.AvroMessageManagerImpl
+9234,org.apache.hama.bsp.message.queue.SpillingQueue
+9319,org.apache.hama.bsp.message.bundle.HeapByteArrayBSPMessageBundle
+9370,org.apache.hama.ml.semiclustering.SemiClusteringVertex
+9437,org.apache.hama.ml.semiclustering.SemiClusterMessage
+9438,org.apache.hama.ml.semiclustering.SemiClusterDetails
+9498,org.apache.hama.bsp.TaskLogServlet
+9558,org.apache.hama.bsp.TaskLog
+9568,org.apache.hama.ml.regression.TestLinearRegression
+9602,org.apache.hama.ml.regression.LinearRegression
+9611,org.apache.hama.bsp.message.queue.SortedMessageQueue
+9844,org.apache.hama.graph.MaxAggregator
+9856,org.apache.hama.graph.OffHeapVerticesInfo
+9928,org.apache.hama.bsp.message.AvroBSPMessageBundle
+10153,org.apache.hama.examples.PiEstimator
+10187,org.apache.hama.BSPMasterRunner
+10323,org.apache.hama.examples.MindistSearchTest
+10422,org.apache.hama.graph.TestSubmitGraphJob
+10454,org.apache.hama.graph.example.PageRank
+10497,org.apache.hama.bsp.TaskLogAppender
+10643,org.apache.hama.examples.SymmetricMatrixGenTest
+10656,org.apache.hama.examples.util.SymmetricMatrixGen
+10715,org.apache.hama.ml.perception.TestSmallMultiLayerPerceptron
+11003,org.apache.hama.bsp.ReinitGroomAction
+11018,org.apache.hama.monitor.fd.UDPSensor
+11029,org.apache.hama.bsp.SequenceFileRecordWriter
+11070,org.apache.hama.examples.PageRank
+11204,org.apache.hama.bsp.message.io.SpillWriteIndexStatus
+11249,org.apache.hama.ml.math.Function
+11394,org.apache.hama.graph.SumAggregator
+11406,org.apache.hama.graph.TestSumAggregator
+11411,org.apache.hama.ipc.RemoteException
+11435,org.apache.hama.bsp.CombineFileInputFormat
+11572,org.apache.hama.bsp.CombineFileSplit
+11575,org.apache.hama.util.BSPServletUtil
+11604,org.apache.hama.bsp.message.compress.TestBSPMessageCompressor
+11617,org.apache.hama.graph.TestDiskVerticesInfo
+11640,org.apache.hama.bsp.TestFileInputFormat
+11650,org.apache.hama.examples.util.DenseVectorWritable
+11675,org.apache.hama.graph.TestOffHeapVerticesInfo
+11734,org.apache.hama.ml.ann.AutoEncoder
+11771,org.apache.hama.util.SocketOutputStream
+11834,org.apache.hama.monitor.fd.TestFD
+11837,org.apache.hama.examples.util.Generator
+12234,org.apache.hama.MiniZooKeeperCluster
+12288,org.apache.hama.util.TestRandomVariable
+12337,org.apache.hama.pipes.PipesNonJavaInputFormat
+12358,org.apache.hama.bsp.message.type.ByteMessage
+12376,org.apache.hama.ml.regression.LinearRegressionModelTest
+12395,org.apache.hama.pipes.util.SequenceFileDumper
+12442,org.apache.hama.examples.InlinkCount
+12735,org.apache.hama.ipc.RetryPolicies
+12738,org.apache.hama.examples.BipartiteMatchingTest
+12775,org.apache.hama.examples.BipartiteMatching
+12779,org.apache.hama.ml.ann.TestAutoEncoder
+12839,org.apache.hama.zookeeper.TestZKTools
+12866,org.apache.hama.ml.distance.CosineDistance
+12887,org.apache.hama.examples.ExampleDriver
+12892,org.apache.hama.examples.SSSP
+12893,org.apache.hama.examples.SemiClusterJobDriver
+12973,org.apache.hama.examples.SemiClusterMatchingTest
+13050,org.apache.hama.ml.semiclustering.SemiClusterVertexOutputWriter
+13071,org.apache.hama.examples.FastGraphGenTest
+13086,org.apache.hama.graph.TestMinMaxAggregator
+13092,org.apache.hama.ml.regression.VectorDoubleFileInputFormatTest
+13103,org.apache.hama.bsp.message.bundle.ByteBufferBSPMessageBundle
+13129,org.apache.hama.HamaClusterTestCase
+13134,org.apache.hama.examples.PageRankTest
+13171,org.apache.hama.bsp.message.TestSpillingQueue
+13215,org.apache.hama.bsp.message.TestHadoopMessageManager
+13234,org.apache.hama.bsp.message.queue.DiskTransferProtocolQueue
+13235,org.apache.hama.bsp.message.queue.MemoryTransferProtocol
+13237,org.apache.hama.bsp.TestLocalRunner
+13437,org.apache.hama.bsp.TestMessages
+13868,org.apache.hama.graph.TestAverageAggregator
+13957,org.apache.hama.bsp.YarnSerializePrinting
+14081,org.apache.hama.examples.SpMV
+14415,org.apache.hama.graph.DefaultVertexOutputWriter
+14629,org.apache.hama.bsp.TrackedRecordReader
+14662,org.apache.hama.bsp.TestClusterStatus
+15087,org.apache.hama.bsp.sync.BSPMasterSyncClient
+15522,org.apache.hama.bsp.TestKeyValueTextInputFormat
+15567,org.apache.hama.ipc.TestRPC
+15666,org.apache.hama.bsp.message.queue.SpillingQueueTransferProtocol
+15969,org.apache.hama.graph.TestGraphJobMessage
+16210,org.apache.hama.ipc.TestIPC
+16392,org.apache.hama.bsp.taskallocation.RawSplitResource
+16533,org.apache.hama.bsp.message.type.LongMessage
+16578,org.apache.hama.ml.regression.LogisticRegressionModelTest
+16749,org.apache.hama.bsp.TestBSPMessageBundle
+17013,org.apache.hama.examples.SSSPTest
+17039,org.apache.hama.ml.kmeans.TestKMeansBSP
+17075,org.apache.hama.bsp.message.compress.Bzip2Compressor
+17099,org.apache.hama.util.TestNumeric
+17104,org.apache.hama.bsp.sync.TestSyncServiceFactory
+17154,org.apache.hama.examples.PiEstimatorTest
+17160,org.apache.hama.examples.SpMVTest
+17471,org.apache.hama.examples.DynamicGraphTest
+17486,org.apache.hama.ml.math.TestFunctionFactory
+*Edges: 887
+10187 460 2
+5165 461 2
+4646 462 2
+4646 13129 4
+13129 6337 8
+13129 375 4
+13129 12234 5
+6337 462 2
+6337 1948 6
+375 462 4
+375 460 1
+3858 2132 1
+4985 5121 5
+4985 462 1
+4985 946 2
+4985 1445 1
+4985 579 2
+4985 577 6
+4985 649 1
+4985 1486 1
+4985 574 3
+4985 961 4
+4985 576 2
+4985 636 3
+280 462 6
+280 3461 5
+280 946 2
+280 1445 5
+280 577 2
+280 283 3
+280 6042 1
+1445 462 3
+1445 946 7
+1445 953 6
+1445 577 3
+1445 1258 1
+1445 952 14
+1445 931 1
+1445 460 1
+1445 283 32
+1445 284 2
+1445 950 3
+1445 280 54
+1445 576 3
+283 462 1
+283 946 5
+946 581 5
+460 462 6
+460 946 11
+460 952 12
+460 955 1
+460 947 18
+460 950 2
+460 949 4
+460 948 13
+460 954 3
+460 577 1
+460 953 1
+460 931 2
+460 935 4
+460 939 1
+460 951 4
+460 932 4
+578 1457 4
+578 577 14
+578 1159 2
+578 2222 5
+578 649 1
+578 6042 2
+578 581 1
+578 1442 1
+578 1638 1
+578 1486 1
+578 14629 1
+578 961 8
+578 280 5
+578 576 10
+535 462 2
+535 578 3
+535 577 2
+535 574 2
+535 580 3
+535 576 1
+535 280 1
+579 946 1
+579 578 2
+579 577 1
+579 580 3
+579 283 3
+579 6830 1
+579 1486 4
+579 280 4
+5563 946 3
+6830 579 1
+6830 3955 2
+6830 461 1
+6830 280 1
+953 948 2
+11435 11572 1
+11435 283 1
+11435 280 2
+11435 8 2
+11572 283 1
+11572 280 4
+7731 577 6
+7731 309 3
+965 955 5
+965 309 7
+5659 947 3
+8 283 16
+8 280 16
+1616 283 11
+1616 280 15
+284 280 1
+461 462 2
+461 946 4
+461 1448 1
+461 957 1
+461 955 1
+461 666 1
+461 460 1
+461 948 4
+461 1486 29
+461 961 14
+461 280 7
+461 8949 2
+461 577 11
+461 931 4
+461 283 4
+461 11411 1
+461 2132 1
+461 935 8
+461 4749 3
+461 574 2
+461 939 1
+461 932 7
+309 7731 1
+309 4749 1
+309 8949 1
+309 4484 1
+309 11003 1
+309 964 1
+309 295 1
+948 961 4
+6541 947 3
+5121 5563 5
+5121 946 2
+947 946 6
+947 960 28
+947 1448 2
+947 952 19
+947 460 9
+947 950 4
+947 948 4
+947 1486 3
+947 961 9
+947 280 1
+947 954 13
+947 1445 1
+947 577 1
+947 283 7
+947 1709 2
+947 576 3
+949 947 3
+954 946 6
+952 946 9
+952 576 8
+3802 284 1
+3802 1534 8
+5577 3802 1
+5577 8 1
+295 309 3
+964 577 6
+964 309 3
+8949 1486 5
+8949 579 1
+8949 309 3
+1534 284 5
+1258 462 1
+1258 946 7
+1258 1445 1
+1258 953 2
+1258 577 1
+1258 952 8
+1258 950 1
+1258 954 2
+1258 280 2
+1258 576 2
+6135 4375 1
+598 280 2
+8117 280 2
+2223 580 1
+2223 2222 7
+8194 5659 1
+8194 947 5
+4749 1486 5
+4749 579 1
+4749 309 3
+11003 309 2
+957 948 6
+957 955 5
+4375 283 2
+4375 5195 1
+4375 280 1
+4375 8 2
+4376 11029 1
+4376 1616 1
+4376 280 1
+5195 284 6
+11029 283 1
+11029 280 1
+956 8194 1
+956 946 1
+956 934 1
+956 951 7
+956 947 1
+956 460 1
+956 6128 1
+6530 580 1
+6530 6536 5
+1486 6830 1
+1486 946 6
+1486 578 1
+1486 577 8
+1486 461 1
+1486 576 2
+1486 280 3
+6843 577 4
+6843 283 2
+577 946 1
+577 1448 12
+577 581 5
+950 577 9
+1448 946 11
+1448 581 5
+960 946 4
+960 579 3
+960 1448 6
+960 577 21
+960 952 1
+960 947 5
+960 948 9
+960 1486 3
+960 961 7
+9558 462 1
+9558 577 3
+10497 9558 1
+10497 577 1
+9498 9558 1
+9498 577 3
+3955 946 1
+3955 579 1
+3955 577 2
+3955 461 5
+3955 283 3
+3955 1486 11
+3955 961 1
+3955 280 4
+951 946 1
+951 947 1
+961 946 6
+961 577 6
+961 576 8
+4621 462 2
+4621 6337 5
+4621 1445 2
+4621 953 1
+4621 4646 2
+4621 13129 1
+4621 280 10
+16749 1457 19
+9039 462 2
+9039 577 1
+9039 574 1
+9039 931 2
+9039 932 9
+3548 1457 2
+3548 946 3
+3548 1448 3
+3548 577 3
+3548 574 3
+3548 649 3
+3548 283 5
+3548 280 1
+14662 948 1
+14662 953 13
+11640 462 1
+11640 283 1
+11640 280 1
+11640 8 4
+15522 462 1
+15522 1445 2
+15522 953 1
+15522 280 13
+13237 462 1
+13237 4621 1
+13237 280 10
+13437 12358 6
+13437 1948 2
+8513 462 3
+8513 6337 1
+8513 4646 2
+8513 13129 1
+8513 2223 1
+8513 280 8
+1823 948 1
+1823 946 1
+1823 960 1
+1823 947 1
+1823 283 2
+7221 462 2
+7221 946 3
+7221 1448 2
+7221 934 3
+7221 577 2
+7221 649 2
+7221 1090 4
+7221 4650 3
+7221 574 2
+7221 7254 1
+1161 1534 1
+1161 283 2
+1161 8 1
+1162 1616 5
+1162 283 4
+1162 280 1
+4484 577 11
+4484 309 3
+7210 462 1
+7210 946 1
+7210 1445 1
+7210 7151 5
+7210 280 2
+7151 462 1
+7151 946 1
+7151 1445 4
+7151 7210 3
+7151 283 5
+7151 280 2
+13957 462 1
+13957 7210 3
+13957 280 4
+2805 946 1
+2805 960 1
+2805 577 1
+2805 280 1
+1440 1457 2
+1440 3468 2
+1440 4648 1
+1440 577 2
+1440 574 1
+1440 7130 2
+9226 1457 7
+9226 4201 2
+9226 1440 3
+9226 2612 2
+9226 9928 3
+9226 4202 1
+9226 2607 2
+2607 1440 1
+2607 2612 1
+2607 2613 1
+4160 1457 3
+4160 4201 1
+4160 1440 4
+4160 2612 2
+4160 931 2
+4160 2607 2
+4160 4202 1
+4160 932 5
+9201 9224 1
+9201 1457 5
+9201 1442 1
+9201 578 1
+9201 577 1
+9201 574 2
+9201 6651 1
+9201 9225 1
+8393 4648 13
+8393 1448 1
+8393 577 1
+13215 1457 2
+13215 1442 1
+13215 578 1
+13215 577 1
+13215 574 2
+8603 319 2
+8603 349 12
+4858 4957 3
+4858 1681 5
+4858 462 3
+4858 1711 6
+4858 1710 2
+4858 4954 2
+4858 4956 8
+4858 1662 18
+4858 1712 16
+4858 3517 14
+4858 4113 1
+13171 462 2
+13171 1448 2
+13171 577 2
+13171 9234 12
+319 349 1
+2612 1457 2
+2612 4201 2
+2613 2612 1
+17075 1457 5
+17075 4201 4
+17075 2612 1
+4647 1457 5
+4647 4201 4
+4647 2612 1
+4573 4201 5
+11604 1457 3
+11604 2612 2
+11604 4774 1
+11604 9225 1
+11604 2613 2
+4460 4469 1
+1681 1712 1
+1681 1711 4
+1681 1710 5
+1681 1709 2
+1681 1159 2
+1681 1662 7
+3517 1712 4
+3517 3534 7
+1662 1676 4
+7057 4957 3
+7057 3517 4
+7057 1662 3
+7057 4113 2
+7057 1676 1
+8535 8595 6
+8535 4954 1
+1711 1712 2
+1711 3517 4
+8595 4469 1
+4956 1710 2
+4956 4954 2
+4957 1676 1
+4113 4140 3
+4113 3534 3
+1710 1712 2
+4648 946 1
+4648 1448 1
+4648 577 6
+4648 6285 1
+3487 577 1
+3487 6285 1
+7130 577 1
+9611 577 1
+9234 5651 1
+9234 1681 1
+9234 4954 3
+9234 577 1
+9234 8535 5
+9234 4956 5
+9234 9319 1
+9224 4774 3
+12358 4774 3
+6651 4774 3
+8782 4774 3
+9225 4774 3
+16533 4774 3
+15087 462 1
+1443 946 5
+1443 577 6
+636 649 1
+649 636 2
+17104 1092 1
+17104 946 1
+17104 1448 1
+17104 577 1
+17104 574 1
+17104 649 4
+934 462 1
+934 1090 6
+1090 946 2
+1090 1089 5
+1090 577 3
+1090 1067 2
+1067 1092 1
+1067 1090 2
+1067 1089 1
+4650 2132 1
+4650 1444 2
+4650 946 6
+4650 1090 11
+4650 577 18
+4650 581 2
+7254 2132 1
+7254 574 2
+1850 960 1
+1851 948 8
+1851 960 6
+1851 1850 3
+16392 1850 1
+12775 462 2
+12775 1164 9
+12775 280 10
+12738 462 1
+12738 12775 1
+12738 280 1
+4649 580 1
+4157 462 2
+4157 1616 1
+4157 280 9
+4153 4157 1
+4714 462 2
+4714 1164 7
+4714 280 8
+17471 4714 1
+12887 8363 15
+13071 4589 1
+13071 355 1
+1513 462 2
+1513 1616 1
+1513 280 10
+12442 462 1
+12442 1165 7
+12442 1164 6
+12442 280 11
+8800 4221 3
+8800 280 1
+1509 1513 1
+4847 1513 1
+1115 462 1
+1115 1164 9
+1115 280 11
+10323 1115 1
+10323 280 4
+6411 2438 3
+6411 2434 4
+6411 2437 6
+6411 2436 3
+6411 2432 1
+6373 6411 2
+6373 1621 1
+6373 2432 1
+11070 462 2
+11070 1164 8
+11070 280 12
+13134 4589 1
+13134 11070 1
+10153 462 2
+10153 1616 1
+10153 1445 2
+10153 953 1
+10153 280 9
+17154 10153 2
+8779 462 1
+8779 1445 2
+8779 953 1
+8779 280 6
+8774 8779 2
+12892 462 1
+12892 1164 7
+12892 280 11
+17013 12892 1
+12893 462 3
+12893 1164 7
+12893 280 12
+12973 462 1
+12973 1164 7
+12973 280 12
+14081 462 3
+14081 11650 3
+14081 1616 1
+14081 1445 2
+14081 953 1
+14081 280 12
+17160 462 3
+17160 11650 14
+17160 14081 6
+17160 12887 1
+17160 2157 15
+6615 462 2
+6615 1616 1
+6615 1445 2
+6615 953 1
+6615 280 9
+10643 355 1
+10643 10656 1
+4589 462 1
+4589 1616 1
+4589 280 8
+11837 4589 1
+11837 10656 1
+10656 462 1
+10656 1616 1
+10656 280 8
+4478 4479 1
+4478 1165 2
+5415 4479 7
+5415 5414 1
+5415 1165 3
+5415 2225 4
+6832 4479 1
+6832 4478 2
+14415 1165 5
+8243 1165 25
+8243 946 1
+8243 1163 13
+8243 5413 1
+8243 577 4
+8243 2225 7
+1164 462 1
+1164 283 7
+1164 280 11
+5414 2225 3
+2225 1165 23
+2225 5413 6
+2225 1159 2
+2225 580 1
+2225 2222 1
+2225 5418 5
+2225 1709 6
+2225 5414 18
+2225 5415 19
+2225 1163 2
+5413 1165 1
+5420 1165 5
+5420 5413 1
+5420 577 2
+5420 2225 1
+9844 4479 1
+9844 1165 1
+7048 4479 1
+7048 1165 1
+9856 1165 4
+9856 5413 1
+9856 577 2
+9856 2225 2
+11394 4479 1
+11394 1165 1
+4475 4479 1
+4475 4478 4
+13868 4479 4
+13868 6832 1
+13868 4478 3
+11617 1165 19
+11617 1163 5
+11617 8243 16
+11617 5413 6
+11617 577 1
+15969 5414 11
+13086 7048 3
+13086 9844 3
+11675 1165 16
+11675 1163 3
+11675 5413 5
+11675 577 1
+11675 9856 19
+10422 1445 2
+10422 953 1
+10422 4646 1
+10422 355 1
+10422 1164 7
+10422 6337 1
+10422 4621 2
+10422 280 10
+11406 11394 3
+1165 5414 5
+1165 5415 1
+1165 1163 9
+1165 2225 33
+1166 1165 3
+1166 2222 9
+1166 2225 1
+5418 5414 4
+10454 462 2
+10454 1164 8
+10454 280 12
+3294 574 1
+931 3294 1
+931 574 2
+932 7723 3
+932 358 1
+16210 3294 5
+16210 574 2
+16210 932 4
+15567 931 4
+15567 932 2
+2436 1596 2
+2436 11249 1
+2436 2438 4
+2436 2434 1
+2436 3430 1
+11734 2438 3
+11734 2434 4
+11734 2437 11
+11734 2436 8
+11734 2432 1
+5739 580 1
+2437 1596 1
+2437 462 1
+2437 3430 3
+2437 2432 2
+2437 2434 1
+2437 2438 2
+2437 5145 2
+2437 2431 7
+2437 2436 4
+2437 280 12
+5246 5145 4
+5198 2438 2
+5198 2431 1
+5198 580 1
+5198 5246 10
+5198 2437 13
+5198 1621 2
+12779 2428 3
+12779 11734 16
+12779 1621 1
+12779 2432 4
+2275 2437 63
+2275 2432 22
+2275 2434 38
+2275 2438 22
+2275 2428 3
+2275 2431 8
+2275 1621 1
+2275 2436 24
+6560 2431 12
+6560 5246 15
+4374 1621 2
+4221 462 1
+4221 1709 1
+4221 580 1
+4221 1621 14
+4221 4374 7
+4221 2432 2
+4221 280 13
+17039 4221 3
+17039 280 1
+4663 1596 1
+2431 1596 2
+2431 6033 6
+2431 3430 2
+2431 2432 9
+2432 1596 2
+2432 6033 1
+2432 3430 2
+1596 11249 1
+3430 11249 1
+2434 1596 1
+2434 3430 1
+6840 3430 1
+6838 3430 1
+1588 1596 1
+6839 3430 1
+3318 2431 28
+3318 2432 4
+6659 2431 2
+6659 2432 26
+17486 1596 2
+17486 11249 4
+17486 2434 5
+17486 3430 3
+8153 1596 1
+8153 2434 2
+8153 3430 1
+8153 5739 1
+4393 580 1
+5741 5145 4
+5741 2431 7
+5741 4409 2
+5676 5740 10
+5676 5741 6
+5676 2431 8
+5676 5739 1
+5676 4409 2
+5676 1621 2
+5740 8153 3
+5740 1596 1
+5740 462 1
+5740 3430 3
+5740 2432 1
+5740 2434 2
+5740 2431 23
+5740 5145 3
+5740 280 12
+6974 5741 13
+6974 2431 9
+6974 4409 1
+10715 8153 10
+10715 5740 22
+10715 5145 1
+10715 2431 3
+10715 1621 1
+10715 2432 21
+1617 580 1
+1617 2222 4
+1617 1621 12
+1617 2432 2
+9602 2438 5
+9602 2434 3
+9602 2437 9
+9602 2436 5
+12376 2247 4
+12376 2432 4
+6787 2438 5
+6787 2434 3
+6787 2437 8
+6787 2436 5
+16578 1618 4
+16578 2432 4
+9568 9602 11
+9568 2432 4
+6756 6787 6
+6756 2432 2
+1620 283 1
+1620 8 1
+13092 1620 1
+13092 1621 1
+13092 2432 1
+13092 280 1
+9437 1165 3
+9437 9438 2
+3836 1166 1
+3836 1165 3
+3836 1163 1
+13050 1165 3
+13050 9437 1
+9370 1165 10
+9370 1163 5
+9370 9438 2
+9370 9437 16
+1621 2432 1
+667 462 1
+6128 462 1
+2102 2843 2
+2102 2101 1
+656 462 1
+656 667 1
+6103 462 1
+6103 6128 3
+6144 2101 1
+6144 2102 7
+939 462 2
+939 941 1
+939 11018 1
+11834 4646 1
+11018 462 1
+941 462 1
+2014 2102 18
+3461 9558 10
+3461 6859 1
+3438 3461 10
+3438 580 1
+12337 283 3
+12337 280 2
+6529 3461 4
+2575 462 5
+2575 1616 1
+2575 1445 1
+2575 283 24
+2575 6042 1
+2575 280 21
+2480 2576 5
+2480 2575 2
+6859 2480 3
+6859 2579 2
+2576 2480 33
+2576 2222 3
+6042 1638 1
+12395 462 1
+574 7972 1
+574 7941 1
+574 932 2
+574 11771 1
+11575 953 2
+11575 952 8
+11575 460 1
+5766 460 4
+7941 7972 5
+11771 7972 6
+1902 1948 26
+17099 1948 2
+12288 4786 3
+2132 462 2
+2132 460 1
+12839 462 1
+2120 2132 1
+2120 462 1

@@ -1,0 +1,1692 @@
+*Vertics: 513
+2,backtype.storm.security.auth.authorizer.DenyAuthorizer
+22,backtype.storm.Config
+24,backtype.storm.security.auth.ReqContext
+45,backtype.storm.messaging.netty.Client
+242,backtype.storm.messaging.TaskMessage
+243,backtype.storm.utils.StormBoundedExponentialBackoffRetry
+244,backtype.storm.utils.Utils
+245,backtype.storm.messaging.ConnectionWithStatus
+250,backtype.storm.messaging.netty.MessageBatch
+252,backtype.storm.messaging.netty.StormClientPipelineFactory
+335,backtype.storm.tuple.Fields
+338,backtype.storm.metric.api.MultiCountMetric
+352,backtype.storm.metric.api.CountMetric
+362,org.apache.storm.hbase.topology.WordCountClient
+383,org.apache.storm.hbase.topology.WordSpout
+392,backtype.storm.generated.GlobalStreamId
+394,backtype.storm.tuple.MessageId
+396,storm.kafka.FailedFetchException
+403,backtype.storm.serialization.types.ArrayListSerializer
+420,storm.trident.partition.IdentityGrouping
+440,backtype.storm.task.WorkerTopologyContext
+443,backtype.storm.task.GeneralTopologyContext
+470,backtype.storm.task.TopologyContext
+471,backtype.storm.multilang.ShellMsg
+472,backtype.storm.multilang.BoltMsg
+473,backtype.storm.multilang.SpoutMsg
+474,backtype.storm.multilang.NoOutputException
+506,backtype.storm.drpc.JoinResult
+530,backtype.storm.task.OutputCollector
+532,backtype.storm.topology.base.BaseRichBolt
+533,backtype.storm.tuple.Values
+543,backtype.storm.topology.base.BasePartitionedTransactionalSpout
+547,backtype.storm.topology.base.BaseComponent
+555,backtype.storm.utils.IndifferentAccessMap
+634,storm.trident.Stream
+643,org.apache.storm.hbase.common.ColumnList
+648,backtype.storm.hooks.BaseTaskHook
+666,backtype.storm.hooks.info.BoltAckInfo
+667,backtype.storm.hooks.info.BoltExecuteInfo
+668,backtype.storm.hooks.info.BoltFailInfo
+669,backtype.storm.hooks.info.EmitInfo
+670,backtype.storm.hooks.info.SpoutAckInfo
+671,backtype.storm.hooks.info.SpoutFailInfo
+686,storm.trident.topology.TridentBoltExecutor
+830,backtype.storm.Constants
+831,backtype.storm.coordination.BatchOutputCollector
+832,backtype.storm.coordination.BatchOutputCollectorImpl
+833,backtype.storm.generated.Grouping
+835,backtype.storm.topology.FailedException
+837,backtype.storm.topology.ReportedFailedException
+838,backtype.storm.utils.RotatingMap
+843,storm.trident.topology.BatchInfo
+889,backtype.storm.generated.JavaObject
+1039,backtype.storm.generated.JavaObjectArg
+1057,backtype.storm.generated.InvalidTopologyException
+1058,backtype.storm.generated.StormTopology
+1067,backtype.storm.utils.ListDelegate
+1130,backtype.storm.metric.api.CombinedMetric
+1144,org.apache.storm.hbase.trident.WordCountTrident
+1167,backtype.storm.StormSubmitter
+1168,org.apache.storm.hbase.bolt.mapper.HBaseProjectionCriteria
+1170,org.apache.storm.hbase.topology.WordCountValueMapper
+1171,org.apache.storm.hbase.trident.mapper.SimpleTridentHBaseMapper
+1172,org.apache.storm.hbase.trident.state.HBaseQuery
+1173,org.apache.storm.hbase.trident.state.HBaseState
+1174,org.apache.storm.hbase.trident.state.HBaseStateFactory
+1175,org.apache.storm.hbase.trident.state.HBaseUpdater
+1176,storm.trident.TridentState
+1177,storm.trident.TridentTopology
+1179,storm.trident.testing.FixedBatchSpout
+1187,org.apache.storm.hbase.trident.PrintFunction
+1215,storm.trident.planner.processor.FreshCollector
+1232,storm.trident.planner.ProcessorContext
+1237,storm.trident.tuple.TridentTupleView
+1238,storm.trident.planner.processor.TridentContext
+1251,storm.kafka.StringKeyValueScheme
+1259,storm.kafka.StringScheme
+1266,org.apache.storm.maven.shade.clojure.ClojureTransformer
+1295,storm.trident.state.BaseQueryFunction
+1298,storm.trident.operation.BaseOperation
+1306,storm.starter.ReachTopology
+1375,backtype.storm.drpc.LinearDRPCTopologyBuilder
+1376,backtype.storm.topology.BasicOutputCollector
+1377,backtype.storm.topology.base.BaseBasicBolt
+1378,backtype.storm.topology.base.BaseBatchBolt
+1406,storm.trident.planner.processor.AggregateProcessor
+1431,storm.trident.operation.TridentOperationContext
+1466,backtype.storm.topology.BaseConfigurationDeclarer
+1497,backtype.storm.messaging.netty.StormServerPipelineFactory
+1505,backtype.storm.messaging.netty.Server
+1506,backtype.storm.messaging.netty.MessageDecoder
+1507,backtype.storm.messaging.netty.MessageEncoder
+1508,backtype.storm.messaging.netty.StormServerHandler
+1896,backtype.storm.drpc.DRPCSpout
+1899,storm.trident.drpc.ReturnResultsReducer
+1900,storm.trident.fluent.GroupedStream
+1902,storm.trident.fluent.UniqueIdGen
+1903,storm.trident.graph.GraphGrouper
+1904,storm.trident.graph.Group
+1907,storm.trident.operation.impl.FilterExecutor
+1908,storm.trident.operation.impl.GroupedMultiReducerExecutor
+1909,storm.trident.operation.impl.IdentityMultiReducer
+1910,storm.trident.operation.impl.JoinerMultiReducer
+1911,storm.trident.operation.impl.TrueFilter
+1912,storm.trident.planner.Node
+1913,storm.trident.planner.NodeStateInfo
+1914,storm.trident.planner.PartitionNode
+1915,storm.trident.planner.ProcessorNode
+1916,storm.trident.planner.SpoutNode
+1917,storm.trident.planner.SubtopologyBolt
+1918,storm.trident.planner.processor.EachProcessor
+1919,storm.trident.planner.processor.MultiReducerProcessor
+1920,storm.trident.spout.BatchSpoutExecutor
+1924,storm.trident.spout.OpaquePartitionedTridentSpoutExecutor
+1925,storm.trident.spout.PartitionedTridentSpoutExecutor
+1926,storm.trident.spout.RichSpoutBatchExecutor
+1927,storm.trident.state.StateSpec
+1928,storm.trident.topology.TridentTopologyBuilder
+1929,storm.trident.util.ErrorEdgeFactory
+1930,storm.trident.util.IndexedEdge
+1931,storm.trident.util.TridentUtils
+1938,storm.trident.JoinType
+2021,storm.trident.util.LRUMap
+2031,storm.trident.state.BaseStateUpdater
+2035,storm.trident.state.map.MapReducerAggStateUpdater
+2069,storm.trident.state.ReducerValueUpdater
+2071,storm.trident.tuple.ComboList
+2080,backtype.storm.spout.NothingEmptyEmitStrategy
+2090,backtype.storm.metric.MetricsConsumerBolt
+2118,storm.kafka.ZkHosts
+2136,storm.trident.operation.impl.SingleEmitAggregator
+2469,backtype.storm.ConfigValidation
+2514,backtype.storm.scheduler.ExecutorDetails
+2515,backtype.storm.scheduler.WorkerSlot
+2517,backtype.storm.topology.base.BaseTransactionalBolt
+2518,backtype.storm.transactional.TransactionAttempt
+2523,storm.starter.bolt.RollingCountBolt
+2568,storm.starter.tools.NthLastModifiedTimeTracker
+2569,storm.starter.tools.SlidingWindowCounter
+2570,storm.starter.util.TupleHelpers
+2583,backtype.storm.utils.ServiceRegistry
+2617,backtype.storm.generated.ExecutorStats
+2781,backtype.storm.generated.ExecutorSpecificStats
+2786,backtype.storm.metric.api.MultiReducedMetric
+2798,backtype.storm.metric.api.ReducedMetric
+2801,backtype.storm.generated.TopologySummary
+2972,storm.trident.operation.impl.GroupCollector
+3050,storm.trident.topology.TransactionAttempt
+3051,storm.trident.topology.state.RotatingTransactionalState
+3052,storm.trident.topology.state.TransactionalState
+3097,backtype.storm.testing.TestPlannerBolt
+3109,backtype.storm.metric.api.rpc.AssignableShellMetric
+3115,backtype.storm.metric.api.AssignableMetric
+3123,org.apache.storm.hdfs.bolt.SequenceFileTopology
+3177,backtype.storm.spout.SpoutOutputCollector
+3178,backtype.storm.topology.TopologyBuilder
+3179,backtype.storm.topology.base.BaseRichSpout
+3182,org.apache.storm.hdfs.bolt.rotation.FileSizeRotationPolicy
+3184,org.apache.storm.hdfs.bolt.sync.CountSyncPolicy
+3186,org.apache.storm.hdfs.common.rotation.MoveFileAction
+3189,org.apache.storm.hdfs.bolt.SequenceFileBolt
+3191,org.apache.storm.hdfs.bolt.format.DefaultSequenceFormat
+3192,org.apache.storm.hdfs.bolt.format.DefaultFileNameFormat
+3217,storm.trident.operation.BaseAggregator
+3220,backtype.storm.generated.SupervisorSummary
+3359,backtype.storm.testing.AckFailMapTracker
+3371,backtype.storm.utils.RegisteredGlobalState
+3391,backtype.storm.generated.RebalanceOptions
+3513,backtype.storm.testing.KeyedCountingCommitterBolt
+3515,backtype.storm.testing.KeyedCountingBatchBolt
+3610,storm.trident.operation.impl.GroupedAggregator
+3611,storm.trident.state.map.MapCombinerAggStateUpdater
+3612,storm.trident.fluent.ChainedAggregatorDeclarer
+3636,storm.trident.operation.impl.ChainedResult
+3647,storm.trident.operation.impl.CaptureCollector
+3674,storm.starter.spout.RandomSentenceSpout
+3695,backtype.storm.generated.SpoutSpec
+3787,backtype.storm.generated.ComponentCommon
+3788,backtype.storm.generated.ComponentObject
+3798,backtype.storm.generated.StateSpoutSpec
+3892,backtype.storm.transactional.TransactionalSpoutBatchExecutor
+3917,backtype.storm.transactional.TransactionalSpoutCoordinator
+3939,backtype.storm.task.ShellBolt
+4045,backtype.storm.generated.ShellComponent
+4046,backtype.storm.utils.ShellProcess
+4114,backtype.storm.utils.TransferDrainer
+4142,storm.starter.tools.RankableObjectWithFields
+4183,storm.kafka.trident.ZkBrokerReader
+4199,storm.kafka.DynamicBrokersReader
+4201,storm.kafka.trident.GlobalPartitionInformation
+4223,backtype.storm.scheduler.Topologies
+4225,backtype.storm.scheduler.SupervisorDetails
+4227,org.apache.storm.hbase.bolt.HBaseLookupBolt
+4253,org.apache.storm.hbase.bolt.AbstractHBaseBolt
+4254,org.apache.storm.hbase.common.HBaseClient
+4294,storm.kafka.Broker
+4295,storm.kafka.Partition
+4357,backtype.storm.testing.FixedTupleSpout
+4407,backtype.storm.testing.FixedTuple
+4424,backtype.storm.metric.SystemBolt
+4483,backtype.storm.utils.StormBoundedExponentialBackoffRetryTest
+4531,backtype.storm.testing.IdentityBolt
+4542,storm.trident.testing.TuplifyArgs
+4551,storm.trident.operation.BaseFunction
+4558,backtype.storm.messaging.netty.StormClientErrorHandler
+4568,org.apache.storm.hbase.bolt.HBaseBolt
+4728,storm.trident.operation.impl.ChainedAggregatorImpl
+4729,storm.trident.operation.impl.CombinerAggregatorCombineImpl
+4730,storm.trident.operation.impl.CombinerAggregatorInitImpl
+4731,storm.trident.operation.impl.ReducerAggregatorImpl
+4822,backtype.storm.utils.Monitor
+4911,backtype.storm.generated.ExecutorSummary
+4913,backtype.storm.generated.ClusterSummary
+4914,backtype.storm.generated.TopologyInfo
+4920,backtype.storm.generated.Nimbus
+4924,storm.starter.tools.SlidingWindowCounterTest
+4959,storm.kafka.TridentKafkaTest
+4981,storm.kafka.trident.TridentKafkaState
+4982,storm.kafka.trident.mapper.FieldNameBasedTupleToKafkaMapper
+4984,storm.kafka.trident.selector.DefaultTopicSelector
+4986,storm.kafka.KafkaTestBroker
+4987,storm.kafka.TestUtils
+5014,backtype.storm.state.SynchronizeOutputCollector
+5020,storm.trident.state.map.NonTransactionalMap
+5055,storm.trident.planner.BridgeReceiver
+5063,storm.trident.tuple.ConsList
+5067,backtype.storm.generated.TopologyInitialStatus
+5084,storm.trident.testing.MemoryMapState
+5152,storm.trident.state.OpaqueValue
+5156,storm.trident.state.map.SnapshottableMap
+5157,storm.trident.state.map.OpaqueMap
+5179,backtype.storm.testing.CompleteTopologyParam
+5196,backtype.storm.testing.MockedSources
+5198,storm.trident.state.StateType
+5206,backtype.storm.testing.TestSerObject
+5216,backtype.storm.generated.ErrorInfo
+5338,storm.trident.testing.FeederCommitterBatchSpout
+5371,storm.trident.testing.FeederBatchSpout
+5416,org.apache.storm.hdfs.bolt.AbstractHdfsBolt
+5459,org.apache.storm.hdfs.bolt.rotation.TimedRotationPolicy
+5460,org.apache.storm.hdfs.common.security.HdfsSecurityUtil
+5466,storm.starter.ExclamationTopology
+5482,backtype.storm.testing.TestWordSpout
+5485,storm.trident.spout.TridentSpoutCoordinator
+5512,storm.trident.topology.MasterBatchCoordinator
+5539,storm.trident.operation.impl.Result
+5547,backtype.storm.serialization.GzipSerializationDelegate
+5573,backtype.storm.utils.MutableInt
+5584,storm.trident.operation.TridentMultiReducerContext
+5782,backtype.storm.utils.LocalState
+5820,backtype.storm.utils.VersionedStore
+5859,storm.kafka.bolt.mapper.FieldNameBasedTupleToKafkaMapper
+5882,backtype.storm.nimbus.DefaultTopologyValidator
+5890,storm.kafka.trident.TridentKafkaConfig
+5899,storm.kafka.KafkaConfig
+5901,storm.kafka.trident.DefaultCoordinator
+5911,backtype.storm.testing.TestEventLogSpout
+5956,org.apache.storm.hdfs.trident.HdfsState
+6090,org.apache.storm.hdfs.trident.rotation.TimedRotationPolicy
+6102,org.apache.storm.hbase.security.HBaseSecurityUtil
+6123,backtype.storm.state.StateSpoutOutputCollector
+6130,backtype.storm.planner.TaskBundle
+6274,backtype.storm.spout.SchemeAsMultiScheme
+6285,storm.kafka.bolt.selector.DefaultTopicSelector
+6386,storm.trident.state.CombinerValueUpdater
+6389,backtype.storm.serialization.DefaultKryoFactory
+6411,backtype.storm.serialization.SerializableSerializer
+6420,backtype.storm.utils.DisruptorQueue
+6506,backtype.storm.utils.MutableObject
+6654,backtype.storm.generated.ExecutorInfo
+6688,storm.kafka.DynamicPartitionConnections
+6737,backtype.storm.clojure.RichShellSpout
+6749,backtype.storm.generated.StreamInfo
+6750,backtype.storm.spout.ShellSpout
+6796,storm.trident.state.map.CachedBatchReadsMap
+6908,storm.kafka.trident.TridentKafkaStateFactory
+6981,backtype.storm.messaging.netty.ControlMessage
+7005,backtype.storm.metric.api.StateMetric
+7011,backtype.storm.generated.BoltStats
+7276,storm.starter.tools.SlotBasedCounter
+7346,backtype.storm.security.auth.authorizer.NoopAuthorizer
+7355,storm.starter.bolt.RollingCountBoltTest
+7392,storm.starter.tools.MockTupleHelpers
+7396,backtype.storm.testing.MkTupleParam
+7411,backtype.storm.testing.TupleCaptureBolt
+7439,org.apache.storm.hbase.topology.WordCounter
+7469,backtype.storm.testing.TestConfBolt
+7487,backtype.storm.utils.Container
+7500,backtype.storm.generated.DistributedRPC
+7798,backtype.storm.generated.DRPCExecutionException
+7805,backtype.storm.testing.BatchNumberList
+7823,backtype.storm.testing.PythonShellMetricsSpout
+7835,backtype.storm.metric.api.rpc.CountShellMetric
+7844,storm.starter.trident.TridentReach
+7891,storm.trident.operation.builtin.MapGet
+7892,storm.trident.operation.builtin.Sum
+7893,storm.trident.state.ReadOnlyState
+7900,storm.trident.spout.TridentSpoutExecutor
+7955,storm.kafka.trident.TridentKafkaUpdater
+7966,backtype.storm.coordination.CoordinatedBolt
+7968,backtype.storm.generated.DistributedRPCInvocations
+8581,backtype.storm.generated.DRPCRequest
+8588,storm.trident.state.JSONTransactionalSerializer
+8598,storm.trident.state.TransactionalValue
+8606,storm.trident.operation.builtin.FirstN
+8684,storm.kafka.TridentKafkaTopology
+8702,backtype.storm.testing.TestPlannerSpout
+8728,backtype.storm.generated.NullStruct
+8794,backtype.storm.utils.DisruptorQueueTest
+8847,storm.starter.util.StormRunner
+8860,backtype.storm.generated.AlreadyAliveException
+8866,storm.kafka.KafkaUtils
+8981,storm.kafka.trident.StaticBrokerReader
+8982,storm.kafka.KafkaError
+8983,storm.kafka.StaticHosts
+8984,storm.kafka.UpdateOffsetException
+8985,storm.kafka.KeyValueSchemeAsMultiScheme
+9033,backtype.storm.scheduler.Cluster
+9145,backtype.storm.scheduler.SchedulerAssignmentImpl
+9146,backtype.storm.scheduler.TopologyDetails
+9213,backtype.storm.drpc.DRPCInvocationsClient
+9250,storm.kafka.PartitionManager
+9329,backtype.storm.metric.api.MeanReducer
+9332,storm.kafka.trident.MaxMetric
+9333,storm.kafka.KafkaSpout
+9334,storm.kafka.SpoutConfig
+9335,storm.kafka.ZkState
+9370,storm.starter.WordCountTopologyNode
+9397,storm.kafka.StringKeyValueSchemeTest
+9409,backtype.storm.serialization.GzipBridgeSerializationDelegate
+9423,backtype.storm.serialization.DefaultSerializationDelegate
+9468,storm.trident.operation.BaseMultiReducer
+9543,backtype.storm.utils.Time
+9602,storm.kafka.KafkaErrorTest
+9623,backtype.storm.drpc.PrepareRequest
+9641,backtype.storm.utils.ThriftTopologyUtils
+9653,backtype.storm.generated.Bolt
+9660,backtype.storm.clojure.ClojureSpout
+9708,storm.trident.operation.builtin.TupleCollectionGet
+9958,backtype.storm.security.auth.digest.ClientCallbackHandler
+9997,backtype.storm.security.auth.AuthUtils
+10018,backtype.storm.transactional.partitioned.OpaquePartitionedTransactionalSpoutExecutor
+10077,backtype.storm.transactional.state.RotatingTransactionalState
+10078,backtype.storm.transactional.state.TransactionalState
+10098,backtype.storm.testing.PrepareBatchBolt
+10155,backtype.storm.serialization.KryoValuesDeserializer
+10156,backtype.storm.serialization.KryoValuesSerializer
+10166,storm.starter.tools.RankableObjectWithFieldsTest
+10239,backtype.storm.metric.api.rpc.ReducedShellMetric
+10307,backtype.storm.transactional.partitioned.PartitionedTransactionalSpoutExecutor
+10371,org.apache.storm.hdfs.trident.format.DefaultFileNameFormat
+10439,storm.kafka.bolt.KafkaBolt
+10470,storm.kafka.trident.Coordinator
+10506,backtype.storm.serialization.KryoTupleSerializer
+10518,backtype.storm.serialization.SerializationFactory
+10542,storm.trident.state.JSONNonTransactionalSerializer
+10550,backtype.storm.utils.ClojureTimerTask
+10644,backtype.storm.serialization.types.ListDelegateSerializer
+10645,backtype.storm.serialization.types.HashMapSerializer
+10646,backtype.storm.serialization.types.HashSetSerializer
+10655,storm.trident.spout.RichSpoutBatchId
+10667,backtype.storm.utils.TimeCacheMap
+10756,backtype.storm.utils.InprocMessaging
+10798,storm.starter.bolt.PrinterBolt
+10805,org.apache.storm.hdfs.trident.FixedBatchSpout
+10834,backtype.storm.messaging.netty.Context
+10869,backtype.storm.messaging.netty.NettyRenameThreadFactory
+11028,storm.trident.state.map.TransactionalMap
+11071,backtype.storm.ui.InvalidRequestException
+11082,backtype.storm.testing.MemoryTransactionalSpout
+11146,backtype.storm.testing.MemoryTransactionalSpoutMeta
+11152,org.apache.storm.hdfs.bolt.HdfsBolt
+11188,storm.starter.tools.NthLastModifiedTimeTrackerTest
+11248,org.apache.storm.hdfs.trident.format.DefaultSequenceFormat
+11266,backtype.storm.testing.KeyedSummingBatchBolt
+11285,storm.trident.operation.impl.ReducerAggStateUpdater
+11323,storm.trident.testing.Split
+11343,storm.trident.tuple.ValuePointer
+11456,backtype.storm.planner.CompoundSpout
+11463,org.apache.storm.hdfs.bolt.format.DelimitedRecordFormat
+11482,backtype.storm.serialization.GzipBridgeSerializationDelegateTest
+11508,backtype.storm.utils.WritableUtils
+11615,storm.starter.PrintSampleStream
+11628,storm.starter.spout.TwitterSampleSpout
+12153,storm.trident.spout.RichSpoutBatchTriggerer
+12235,backtype.storm.testing.BatchProcessWord
+12242,storm.starter.bolt.TotalRankingsBoltTest
+12280,storm.starter.tools.Rankings
+12281,storm.starter.bolt.TotalRankingsBolt
+12282,storm.starter.bolt.AbstractRankerBolt
+12301,org.apache.storm.hdfs.bolt.HdfsFileTopology
+12358,backtype.storm.testing.OpaqueMemoryTransactionalSpout
+12419,backtype.storm.testing.TestEventOrderCheckBolt
+12448,backtype.storm.clojure.ClojureBolt
+12486,storm.starter.TransactionalGlobalCount
+12535,backtype.storm.transactional.TransactionalTopologyBuilder
+12540,storm.trident.operation.builtin.Negate
+12577,org.apache.storm.hbase.topology.PersistentWordCount
+12591,org.apache.storm.hbase.bolt.mapper.SimpleHBaseMapper
+12610,org.apache.storm.hdfs.trident.rotation.FileSizeRotationPolicy
+12674,storm.trident.operation.impl.GlobalBatchToPartition
+12738,storm.trident.spout.RichSpoutBatchIdSerializer
+12743,org.apache.storm.hbase.trident.state.HBaseMapState
+12833,storm.trident.state.JSONOpaqueSerializer
+12834,storm.trident.state.map.CachedMap
+12837,backtype.storm.testing.AckTracker
+12848,storm.trident.planner.processor.ProjectedProcessor
+12962,storm.trident.operation.builtin.SnapshotGet
+13352,backtype.storm.coordination.BatchBoltExecutor
+13355,backtype.storm.topology.BasicBoltExecutor
+13414,backtype.storm.topology.OutputFieldsGetter
+13522,backtype.storm.utils.WindowedTimeThrottler
+13710,storm.starter.trident.TridentWordCount
+13728,storm.trident.operation.builtin.Count
+13729,storm.trident.operation.builtin.FilterNull
+13765,storm.starter.BasicDRPCTopology
+13789,backtype.storm.serialization.KryoTupleDeserializer
+13806,backtype.storm.tuple.TupleImpl
+13963,backtype.storm.utils.DRPCClient
+14252,org.apache.storm.hdfs.trident.HdfsUpdater
+14258,backtype.storm.testing.FeederSpout
+14346,storm.kafka.StaticCoordinator
+14347,storm.kafka.ZkCoordinator
+14377,backtype.storm.testing.SpoutTracker
+14476,backtype.storm.security.auth.SaslTransportPlugin
+14558,backtype.storm.security.auth.SimpleTransportPlugin
+14678,backtype.storm.utils.BufferFileInputStream
+14691,storm.kafka.bolt.KafkaBoltTest
+14809,backtype.storm.testing.TestAggregatesCounter
+14826,backtype.storm.testing.TestWordCounter
+14831,org.apache.storm.hdfs.trident.format.DelimitedRecordFormat
+14880,backtype.storm.generated.KillOptions
+14981,storm.trident.partition.GlobalGrouping
+15076,backtype.storm.generated.SpoutStats
+15259,backtype.storm.testing.NGrouping
+15311,backtype.storm.utils.MutableLong
+15538,storm.trident.operation.impl.CombinerAggStateUpdater
+15539,storm.trident.operation.impl.IndexHashBatchToPartition
+15540,storm.trident.partition.IndexHashGrouping
+15541,storm.trident.planner.processor.PartitionPersistProcessor
+15542,storm.trident.planner.processor.StateQueryProcessor
+15615,backtype.storm.testing.TestKryoDecorator
+15619,backtype.storm.spout.RawScheme
+15742,backtype.storm.testing.CountingBatchBolt
+15777,backtype.storm.testing.MkClusterParam
+15808,storm.trident.operation.builtin.Equals
+15814,storm.trident.operation.BaseFilter
+15833,org.apache.storm.hdfs.trident.TridentFileTopology
+15850,org.apache.storm.hdfs.trident.HdfsStateFactory
+15912,storm.starter.tools.RankingsTest
+16032,org.apache.storm.hdfs.trident.sync.CountSyncPolicy
+16042,backtype.storm.testing.BatchRepeatA
+16088,backtype.storm.topology.base.BaseTransactionalSpout
+16091,org.apache.storm.hbase.topology.LookupWordCount
+16107,org.apache.storm.hbase.topology.TotalWordCounter
+16140,storm.starter.SingleJoinExample
+16151,storm.starter.bolt.SingleJoinBolt
+16172,storm.trident.state.map.MicroBatchIBackingMap
+16248,org.apache.storm.hbase.common.Utils
+16263,backtype.storm.testing.TrackedTopology
+16268,storm.trident.testing.MemoryBackingMap
+16281,backtype.storm.coordination.BatchSubtopologyBuilder
+16528,backtype.storm.spout.RawMultiScheme
+16582,storm.kafka.StaticPartitionConnections
+16594,backtype.storm.metric.LoggingMetricsConsumer
+16610,storm.kafka.trident.OpaqueTridentKafkaSpout
+16623,storm.kafka.trident.TridentKafkaEmitter
+16640,storm.starter.TransactionalWords
+16853,storm.starter.RollingTopWords
+16878,storm.starter.bolt.IntermediateRankingsBolt
+16881,storm.starter.tools.SlotBasedCounterTest
+16928,backtype.storm.testing.TestGlobalCount
+16943,backtype.storm.generated.NotAliveException
+17043,backtype.storm.clojure.RichShellBolt
+17056,storm.trident.testing.TrueFilter
+17064,backtype.storm.multilang.JsonSerializer
+17127,backtype.storm.utils.ZookeeperAuthInfo
+17285,backtype.storm.security.auth.digest.ServerCallbackHandler
+17418,backtype.storm.testing.CountingCommitBolt
+17445,backtype.storm.testing.NonRichBoltTracker
+17460,backtype.storm.metric.api.rpc.CombinedShellMetric
+17477,backtype.storm.drpc.KeyedFairBolt
+17502,backtype.storm.utils.KeyedRoundRobinQueue
+17506,storm.kafka.KafkaUtilsTest
+17703,backtype.storm.testing.BoltTracker
+21475,backtype.storm.generated.SubmitOptions
+21712,storm.trident.testing.LRUMemoryMapState
+21854,backtype.storm.metric.api.MeanReducerState
+22041,backtype.storm.utils.NimbusClient
+22058,org.apache.storm.hdfs.trident.TridentSequenceTopology
+22118,storm.trident.planner.processor.AppendCollector
+22216,backtype.storm.testing.PythonShellMetricsBolt
+22229,storm.kafka.ZkCoordinatorTest
+22304,backtype.storm.planner.CompoundTask
+22430,backtype.storm.utils.CRC32OutputStream
+22442,backtype.storm.topology.base.BaseOpaquePartitionedTransactionalSpout
+22523,backtype.storm.spout.SleepSpoutWaitStrategy
+22531,storm.trident.testing.CountAsAggregator
+22845,org.apache.storm.hdfs.trident.rotation.NoRotationPolicy
+22851,storm.trident.operation.builtin.Debug
+22864,storm.kafka.trident.TransactionalTridentKafkaSpout
+23032,backtype.storm.drpc.ReturnResults
+23040,storm.trident.testing.StringLength
+23398,backtype.storm.security.auth.ThriftClient
+23583,org.apache.storm.hdfs.bolt.rotation.NoRotationPolicy
+23589,backtype.storm.security.auth.ThriftServer
+23666,backtype.storm.messaging.TransportFactory
+23776,storm.kafka.DynamicBrokersReaderTest
+24217,storm.starter.ManualDRPC
+24234,storm.starter.bolt.IntermediateRankingsBoltTest
+24332,storm.starter.WordCountTopology
+24391,backtype.storm.security.auth.digest.DigestSaslTransportPlugin
+24559,backtype.storm.security.serialization.BlowfishTupleSerializer
+*Edges: 1177
+1167 23398 3
+1167 14678 2
+1167 244 3
+1167 2801 1
+1167 1058 5
+1167 22041 9
+1167 4913 1
+1167 8860 1
+1167 21475 3
+1167 1057 2
+12448 6749 2
+12448 244 2
+12448 530 1
+12448 470 1
+12448 335 1
+9660 6749 2
+9660 3177 1
+9660 244 2
+9660 470 1
+9660 335 1
+17043 3939 1
+17043 6749 3
+17043 335 2
+6737 6750 1
+6737 6749 3
+6737 335 2
+13352 835 1
+13352 832 4
+13352 244 2
+13352 530 1
+13352 470 2
+832 530 7
+832 831 1
+16281 3178 1
+16281 13352 1
+16281 7966 2
+16281 13355 2
+7966 835 1
+7966 244 2
+7966 10667 9
+7966 335 1
+7966 443 3
+7966 530 9
+7966 470 2
+7966 533 1
+7966 392 1
+9213 8581 1
+1896 3177 2
+1896 244 2
+1896 3179 1
+1896 335 1
+1896 9213 6
+1896 8581 8
+1896 443 1
+1896 470 3
+1896 533 2
+1896 2583 2
+506 530 4
+506 470 1
+506 335 1
+506 533 1
+506 532 1
+17477 17502 2
+17477 530 1
+17477 470 1
+17477 13355 1
+1375 3178 5
+1375 13414 1
+1375 1058 3
+1375 506 1
+1375 1896 3
+1375 13352 1
+1375 7966 1
+1375 392 1
+1375 13355 1
+9623 1376 1
+9623 335 2
+9623 1377 1
+9623 533 3
+23032 244 1
+23032 530 4
+23032 470 1
+23032 9213 2
+23032 2583 1
+23032 532 1
+9653 3787 9
+9653 3788 7
+7011 392 15
+4913 2801 5
+4913 3220 5
+3787 833 3
+3787 6749 4
+3787 392 4
+3788 889 6
+3788 4045 6
+2781 7011 6
+2781 15076 6
+2617 2781 7
+4911 2617 8
+4911 6654 9
+833 889 6
+833 8728 30
+889 1039 3
+3695 3787 9
+3695 3788 7
+3798 3787 9
+3798 3788 7
+1058 3695 4
+1058 9653 4
+1058 3798 4
+21475 5067 7
+4914 5216 4
+4914 4911 5
+648 670 1
+648 667 1
+648 666 1
+648 470 1
+648 671 1
+648 669 1
+648 668 1
+45 244 6
+45 252 1
+45 245 1
+45 242 1
+45 250 9
+45 243 2
+10834 10869 3
+10834 244 2
+10834 1505 1
+10834 45 1
+250 6981 2
+250 242 11
+1506 6981 1
+1506 242 2
+1507 6981 1
+1507 250 1
+1505 10869 2
+1505 244 3
+1505 245 1
+1505 242 1
+1505 1497 1
+252 4558 1
+252 45 2
+1508 1505 5
+1497 1508 1
+1497 1505 2
+16594 470 1
+2090 530 3
+2090 470 1
+4424 530 1
+4424 470 7
+9329 21854 4
+338 352 2
+2786 2798 2
+3109 3115 3
+17460 1130 3
+7835 352 3
+10239 2798 3
+17064 471 14
+17064 440 1
+17064 470 1
+17064 473 3
+17064 472 6
+5882 1058 1
+9033 2515 9
+9033 9146 12
+9033 9145 6
+9033 4223 2
+9033 4225 10
+9145 2515 4
+9145 2514 1
+4223 9146 3
+9146 1058 4
+23398 9997 2
+23589 9997 2
+2 24 6
+7346 24 6
+24391 9958 1
+24391 17285 1
+24391 14476 1
+24559 1067 2
+9409 9423 3
+9409 5547 4
+11482 9423 1
+11482 9409 1
+11482 5547 1
+13789 10155 3
+13789 13806 1
+13789 394 1
+13789 443 4
+10506 10156 3
+10506 394 1
+10506 443 2
+10155 10518 1
+10155 1067 1
+10156 10518 1
+10156 1067 3
+10518 244 1
+10644 1067 1
+16528 244 1
+16528 335 1
+15619 244 1
+15619 335 1
+6274 335 1
+6750 3177 5
+6750 471 13
+6750 470 3
+6750 4046 11
+6750 473 7
+6750 4045 3
+6123 5014 1
+443 244 2
+443 335 2
+443 3787 5
+443 9641 2
+443 392 6
+443 1058 4
+3939 471 15
+3939 530 5
+3939 470 3
+3939 4046 9
+3939 837 1
+3939 472 6
+3939 4045 3
+470 1130 2
+470 440 2
+470 335 1
+470 2798 2
+470 1058 1
+470 443 7
+440 1058 1
+440 443 2
+3359 3371 6
+7805 1378 1
+7805 470 1
+7805 335 1
+7805 831 3
+7805 533 1
+12235 1376 2
+12235 335 1
+12235 1377 1
+12235 533 1
+16042 1376 1
+16042 335 2
+16042 1377 1
+16042 533 2
+17703 17445 2
+5179 22 3
+5179 5196 3
+15742 1378 1
+15742 470 1
+15742 335 1
+15742 831 3
+15742 533 1
+17418 2518 2
+17418 2517 1
+17418 470 1
+17418 335 1
+17418 831 3
+17418 533 1
+14258 3177 3
+14258 3179 1
+14258 470 1
+14258 335 2
+14258 533 1
+14258 10756 3
+4357 3177 3
+4357 244 5
+4357 470 4
+4357 4407 1
+4357 443 1
+4531 1376 2
+4531 335 2
+4531 1377 1
+3515 1378 1
+3515 244 1
+3515 470 1
+3515 335 1
+3515 831 3
+3515 533 1
+3513 3515 1
+11266 1378 1
+11266 244 1
+11266 470 1
+11266 335 1
+11266 831 3
+11266 533 1
+11082 3371 6
+11082 470 2
+11082 335 4
+11082 22 1
+5196 4407 1
+5196 533 2
+15259 440 1
+15259 392 1
+17445 3371 1
+17445 530 1
+17445 470 1
+12358 3371 8
+12358 470 2
+12358 335 4
+12358 22 1
+10098 1376 2
+10098 244 1
+10098 335 2
+10098 1377 1
+22216 3939 2
+22216 470 1
+7823 6750 2
+7823 470 1
+14377 3371 2
+14377 3177 2
+14377 3179 1
+14377 470 1
+14809 244 1
+14809 530 4
+14809 470 1
+14809 532 1
+7469 1376 2
+7469 335 1
+7469 1377 1
+7469 533 1
+5911 3177 2
+5911 244 4
+5911 3179 1
+5911 470 3
+5911 335 1
+5911 533 1
+5911 443 1
+12419 530 3
+12419 470 1
+12419 335 1
+12419 533 1
+12419 532 1
+16928 530 3
+16928 470 1
+16928 335 1
+16928 533 1
+16928 532 1
+3097 530 1
+3097 470 1
+3097 335 2
+3097 532 1
+8702 3177 1
+8702 244 1
+8702 3179 1
+8702 470 1
+8702 335 5
+14826 1376 2
+14826 244 1
+14826 335 1
+14826 1377 1
+5482 3177 3
+5482 244 1
+5482 3179 1
+5482 470 1
+5482 533 1
+16263 1058 1
+7411 530 3
+7411 470 1
+7411 4407 1
+13355 1376 5
+13355 835 1
+13355 530 1
+13355 470 1
+1376 530 5
+13414 6749 1
+13414 335 5
+837 835 5
+3178 244 2
+3178 13414 1
+3178 3695 1
+3178 3788 2
+3178 1058 2
+3178 3787 7
+3178 9653 1
+3178 13355 1
+1377 470 1
+1377 547 1
+1378 547 1
+22442 547 1
+543 547 1
+532 547 1
+3179 547 1
+2517 1378 1
+16088 547 1
+3892 835 1
+3892 832 6
+3892 2518 4
+3892 530 1
+3892 470 1
+3917 10077 5
+3917 3177 2
+3917 835 1
+3917 244 2
+3917 2518 9
+3917 3179 1
+3917 335 1
+3917 22 1
+3917 10078 6
+3917 470 1
+3917 533 2
+12535 3178 3
+12535 1058 1
+12535 3892 1
+12535 3917 1
+12535 10018 1
+12535 10307 1
+12535 13352 2
+12535 7966 2
+12535 13355 1
+10018 470 2
+10307 470 2
+10077 10078 10
+10078 10156 3
+10078 10155 3
+10078 244 2
+13806 335 9
+13806 394 5
+13806 392 2
+13806 555 2
+13806 443 7
+13963 7798 1
+6420 6506 2
+8794 6420 3
+5782 244 2
+5782 5820 7
+4822 4914 2
+4822 2801 4
+4822 2617 2
+4822 4913 2
+4822 4911 3
+22041 23398 2
+22041 244 1
+4046 471 1
+4046 474 2
+4046 440 1
+4046 470 3
+4046 473 1
+4046 472 1
+4483 243 3
+9641 3695 1
+9641 9653 1
+9641 3798 1
+9641 3787 1
+9641 1058 4
+244 9543 1
+244 22041 3
+244 17127 1
+244 3787 1
+244 3788 4
+244 1058 7
+244 243 1
+5820 9543 1
+4253 4254 2
+4253 530 2
+4253 470 1
+4253 532 1
+4568 4254 2
+4568 4253 2
+4568 530 2
+4227 4254 2
+4227 4253 2
+4227 530 3
+4227 1168 2
+12591 16248 3
+12591 335 4
+12591 643 3
+4254 6102 1
+4254 1168 3
+4254 643 5
+16091 12591 2
+16091 3178 3
+16091 1167 1
+16091 1168 2
+16091 383 1
+16091 4227 3
+12577 12591 5
+12577 3178 3
+12577 1167 1
+12577 4568 2
+12577 383 1
+16107 1376 2
+16107 244 1
+16107 470 1
+1170 335 1
+1170 533 1
+7439 1376 2
+7439 244 1
+7439 470 1
+7439 335 1
+383 3177 2
+383 470 1
+383 533 1
+1187 4551 1
+1144 1174 1
+1144 1179 2
+1144 1177 4
+1144 335 5
+1144 634 3
+1144 22 2
+1144 1168 2
+1144 1058 1
+1144 533 4
+1144 1167 1
+1144 1171 5
+1171 16248 3
+1171 335 4
+1171 643 3
+12743 835 3
+12743 6102 1
+1172 1295 1
+1172 1173 2
+1173 4254 6
+1174 1173 2
+1175 1173 2
+1175 2031 1
+5416 530 3
+5416 470 2
+5416 5460 1
+5416 5459 1
+5416 532 1
+11152 530 2
+11152 5416 2
+12301 3184 1
+12301 3178 3
+12301 3192 2
+12301 11152 7
+12301 3186 1
+12301 1167 1
+12301 22 1
+12301 5459 1
+12301 11463 1
+3189 530 2
+3189 5416 2
+3123 3184 1
+3123 3178 3
+3123 3182 1
+3123 3189 9
+3123 22 1
+3123 3192 2
+3123 3191 1
+3123 1167 1
+3123 3186 1
+3192 470 3
+11463 335 4
+10805 470 1
+10805 335 3
+10805 22 1
+15850 5956 2
+14252 5956 2
+14252 2031 1
+15833 12610 1
+15833 14831 1
+15833 1177 3
+15833 15850 2
+15833 10805 2
+15833 335 3
+15833 634 1
+15833 22 2
+15833 1058 1
+15833 10371 3
+15833 533 5
+15833 1167 1
+22058 12610 1
+22058 1177 3
+22058 15850 2
+22058 10805 2
+22058 335 3
+22058 634 1
+22058 22 2
+22058 1058 1
+22058 10371 3
+22058 11248 1
+22058 533 5
+22058 1167 1
+22058 3186 1
+14831 335 4
+4199 244 4
+4199 4201 4
+4199 4294 2
+23776 4199 11
+23776 4201 17
+6688 4295 3
+6688 5899 2
+6688 4201 1
+6688 4294 2
+9602 8982 5
+9333 6688 2
+9333 3177 2
+9333 14347 1
+9333 9334 2
+9333 3179 1
+9333 9250 3
+9333 8866 1
+9333 443 1
+9333 470 6
+9333 9335 3
+9333 396 1
+9333 14346 1
+8866 4183 1
+8866 8982 1
+8866 244 3
+8866 4201 2
+8866 8981 1
+8866 4295 2
+8866 8983 1
+8866 5899 4
+8866 396 2
+8866 8985 1
+17506 4986 14
+17506 6274 2
+17506 244 1
+17506 4201 3
+17506 4987 2
+17506 8866 15
+17506 4294 7
+17506 4295 6
+17506 8983 1
+17506 5899 3
+17506 8985 2
+8985 6274 2
+4295 4294 3
+9250 6688 4
+9250 3177 2
+9250 1130 4
+9250 9334 2
+9250 352 8
+9250 8866 5
+9250 2798 4
+9250 4295 11
+9250 8984 1
+9250 9335 4
+9334 5899 2
+14346 4295 1
+14346 8983 1
+14346 6688 1
+14346 9334 1
+14346 9335 1
+14346 9250 2
+14346 8866 1
+8983 4201 3
+16582 8983 2
+16582 5899 2
+16582 4201 1
+1251 1259 4
+1251 533 1
+9397 1259 1
+9397 335 2
+9397 1251 1
+1259 335 1
+1259 533 1
+4987 4986 7
+4987 244 2
+4987 4201 6
+4987 22 1
+4987 8866 1
+4987 4294 3
+4987 4295 1
+4987 8983 1
+4987 5899 3
+4959 4986 4
+4959 335 1
+4959 22 1
+4959 4987 3
+4959 1237 1
+4959 4984 1
+4959 4982 1
+4959 4981 5
+8684 6908 2
+8684 1179 2
+8684 1177 3
+8684 335 2
+8684 634 1
+8684 22 1
+8684 1058 1
+8684 4984 1
+8684 533 4
+8684 4982 1
+14347 4295 1
+14347 6688 3
+14347 4199 5
+14347 9334 4
+14347 9335 3
+14347 9250 3
+14347 8866 5
+22229 4986 3
+22229 6688 2
+22229 14347 3
+22229 9334 2
+22229 2118 1
+22229 4987 3
+22229 4199 4
+22229 9335 2
+9335 244 3
+10439 530 4
+10439 6285 1
+10439 470 1
+10439 5859 1
+10439 532 1
+14691 10439 7
+14691 4986 9
+14691 3178 2
+14691 244 2
+14691 4201 2
+14691 13806 2
+14691 22 1
+14691 8866 1
+14691 4294 2
+14691 4295 1
+14691 8983 1
+14691 5899 2
+14691 530 2
+14691 533 2
+10470 5890 2
+10470 4201 1
+10470 8866 1
+4201 4295 1
+4201 4294 2
+16610 16623 2
+16610 5890 2
+16610 470 2
+16610 335 1
+8981 4201 3
+22864 16623 2
+22864 5890 2
+22864 470 2
+22864 335 1
+5890 5899 3
+16623 6688 6
+16623 3050 4
+16623 1130 2
+16623 4201 2
+16623 8866 5
+16623 2798 2
+16623 4295 6
+16623 470 4
+16623 5890 2
+16623 396 1
+4981 835 1
+4981 530 1
+6908 4981 3
+7955 2031 1
+7955 4981 2
+4183 4199 5
+4183 2118 1
+4183 4201 2
+13765 1375 3
+13765 1167 1
+13765 22 1
+5466 3178 3
+5466 244 1
+5466 1167 1
+5466 22 2
+5466 5482 1
+24217 3178 2
+24217 1896 1
+11615 3178 3
+11615 244 1
+11615 11628 1
+1306 1375 4
+1306 335 1
+1306 1167 1
+1306 22 2
+16853 3178 5
+16853 12281 1
+16853 8847 2
+16853 2523 1
+16853 16878 1
+16853 22 3
+16853 5482 1
+16140 16151 1
+16140 3178 4
+16140 244 1
+16140 335 3
+16140 533 2
+16140 22 1
+16140 14258 4
+12486 11082 1
+12486 12535 2
+12486 22 2
+16640 11082 1
+16640 12535 2
+16640 22 2
+24332 3178 3
+24332 1167 1
+24332 22 3
+9370 3178 3
+9370 1167 1
+9370 22 3
+12282 1376 3
+12282 2570 1
+12282 12280 5
+12282 1377 1
+12282 533 1
+16878 4142 1
+16878 12282 5
+16878 12280 1
+24234 12282 4
+24234 7392 2
+24234 16878 8
+10798 1376 1
+10798 1377 1
+2523 2570 1
+2523 335 1
+2523 532 1
+2523 530 4
+2523 470 1
+2523 533 1
+2523 2569 4
+2523 2568 4
+7355 7392 3
+7355 2523 11
+16151 10667 6
+16151 530 3
+16151 470 3
+16151 335 5
+16151 532 1
+16151 392 3
+16151 443 1
+12281 12282 6
+12281 12280 2
+12242 12282 4
+12242 7392 2
+12242 12281 8
+3674 3177 3
+3674 244 1
+3674 3179 1
+3674 470 1
+3674 533 1
+11628 3177 3
+11628 244 1
+11628 3179 1
+11628 470 1
+11628 533 1
+11628 22 1
+2568 9543 1
+11188 9543 5
+11188 2568 7
+10166 4142 88
+15912 4142 14
+15912 12280 61
+2569 7276 6
+4924 2569 7
+16881 7276 38
+7844 1177 5
+7844 634 7
+7844 1900 1
+7844 1058 1
+13710 1179 2
+13710 1177 4
+13710 634 7
+13710 22 2
+13710 1900 2
+13710 1058 1
+13710 533 5
+13710 1167 1
+13710 1176 1
+8847 1167 1
+8847 22 2
+8847 1058 2
+634 1912 2
+634 3612 9
+634 244 1
+634 1931 2
+634 1918 1
+634 1900 2
+634 1914 1
+634 1927 14
+634 15542 1
+634 1406 1
+634 1915 5
+634 1177 14
+634 335 60
+634 8728 3
+634 1913 1
+634 15540 1
+634 1907 1
+634 15541 1
+634 833 6
+634 12848 1
+634 11285 1
+634 15538 1
+634 1176 18
+1176 1912 2
+1176 1177 2
+1176 634 2
+1177 1924 1
+1177 1912 11
+1177 1925 1
+1177 244 5
+1177 1931 6
+1177 1930 4
+1177 1928 3
+1177 1902 5
+1177 634 52
+1177 1918 1
+1177 1900 6
+1177 1058 1
+1177 1914 4
+1177 1910 1
+1177 1908 1
+1177 1917 1
+1177 1927 2
+1177 1926 1
+1177 1915 2
+1177 1903 14
+1177 1938 3
+1177 1920 1
+1177 335 31
+1177 1913 1
+1177 1907 1
+1177 833 5
+1177 1896 4
+1177 1919 1
+1177 1904 11
+1177 1916 4
+1177 392 1
+1177 1176 6
+1899 5584 1
+1899 244 1
+1899 9213 2
+1899 2583 1
+3612 4728 1
+3612 4730 1
+3612 4731 2
+3612 335 28
+3612 2136 1
+3612 634 1
+3612 4729 2
+1900 3612 8
+1900 3611 1
+1900 1931 6
+1900 335 33
+1900 634 21
+1900 2035 1
+1900 3610 1
+1900 1927 8
+1900 1176 10
+1903 1912 1
+1903 1904 11
+1904 1912 1
+1904 1931 2
+3217 1298 1
+15814 1298 1
+4551 1298 1
+9468 5584 1
+1298 1431 1
+5584 335 1
+1431 1130 2
+1431 470 7
+1431 335 1
+1431 2798 2
+1431 443 1
+22851 15814 1
+15808 15814 1
+13729 15814 1
+8606 634 6
+7891 1295 1
+7891 533 1
+12540 1431 1
+12962 1295 1
+12962 533 1
+9708 1295 1
+4728 1431 3
+4728 335 2
+4728 3636 6
+3636 3647 1
+15538 1431 1
+15538 533 1
+15538 6386 1
+4729 5539 3
+4729 1431 1
+4729 533 1
+4730 1431 1
+4730 533 1
+1907 1431 1
+3610 2972 1
+3610 1431 4
+3610 335 5
+1908 5584 4
+1909 5584 1
+15539 15540 1
+1910 5584 1
+11285 2069 1
+11285 1431 1
+11285 533 1
+4731 5539 3
+4731 1431 1
+4731 533 1
+2136 1431 3
+1911 1431 1
+14981 440 1
+14981 392 1
+420 440 1
+420 392 2
+420 443 1
+15540 440 1
+15540 392 1
+5055 5063 1
+5055 831 3
+5055 1232 1
+1912 335 2
+1912 1913 1
+1913 1927 2
+1914 1912 2
+1914 833 2
+1914 1931 2
+1914 335 1
+1915 1912 2
+1915 335 3
+1916 1912 2
+1916 335 1
+1917 1238 1
+1917 1931 3
+1917 335 1
+1917 831 1
+1917 1232 1
+1917 443 2
+1917 470 6
+1917 5055 1
+1917 843 2
+1917 392 1
+1406 1215 6
+1406 1238 6
+1406 1431 1
+1406 470 1
+1406 335 2
+1406 1232 3
+22118 1238 7
+22118 831 1
+22118 1232 2
+1918 1238 3
+1918 22118 4
+1918 1431 1
+1918 470 1
+1918 335 2
+1918 1232 3
+1215 1238 6
+1215 831 1
+1215 1232 2
+1919 5584 1
+1919 1215 6
+1919 1238 7
+1919 470 1
+1919 1232 3
+15541 1215 4
+15541 3050 1
+15541 1238 6
+15541 1431 1
+15541 470 2
+15541 335 2
+15541 1232 3
+12848 1238 6
+12848 470 1
+12848 335 2
+12848 1232 3
+15542 1238 6
+15542 22118 4
+15542 1431 1
+15542 470 2
+15542 335 2
+15542 1232 3
+1238 335 3
+1238 831 3
+1920 470 2
+1920 335 1
+1924 470 2
+1924 335 1
+1925 470 2
+1925 335 1
+1926 1931 1
+1926 470 2
+1926 335 1
+12738 10655 3
+12153 3177 2
+12153 244 2
+12153 1931 2
+12153 335 1
+12153 22 1
+12153 443 1
+12153 686 1
+12153 470 2
+5485 3052 3
+5485 3050 3
+5485 1376 1
+5485 3051 6
+5485 470 1
+5485 335 1
+5485 533 1
+5485 22 1
+7900 3050 5
+7900 835 1
+7900 470 1
+7900 335 2
+7900 843 2
+7900 831 1
+1295 1298 1
+2031 1298 1
+12833 5152 3
+8588 8598 5
+12834 2021 2
+3611 1431 3
+3611 335 8
+3611 533 1
+3611 6386 1
+2035 2069 1
+2035 1431 3
+2035 335 5
+2035 533 1
+5157 6796 7
+5157 5152 6
+11028 8598 7
+11028 6796 8
+22531 533 1
+22531 3217 1
+5371 3371 4
+5371 1928 1
+5371 470 4
+5371 335 3
+5371 443 1
+5338 5371 8
+5338 470 2
+5338 335 1
+1179 470 1
+1179 335 3
+1179 22 1
+21712 5156 10
+21712 5157 1
+21712 533 1
+5084 5156 10
+5084 5157 1
+5084 533 1
+11323 4551 1
+11323 533 1
+23040 4551 1
+23040 533 1
+17056 15814 1
+4542 4551 1
+5512 3052 6
+5512 3177 2
+5512 3050 9
+5512 13522 4
+5512 3179 1
+5512 470 1
+5512 533 3
+5512 22 2
+686 835 3
+686 832 1
+686 244 2
+686 335 1
+686 831 1
+686 838 7
+686 443 3
+686 530 11
+686 470 5
+686 843 1
+686 533 1
+686 392 1
+1928 3178 5
+1928 5512 1
+1928 1920 1
+1928 5485 1
+1928 1058 1
+1928 686 4
+1928 12153 1
+1928 392 11
+1928 7900 1
+3051 3052 9
+3051 244 1
+3052 244 2
+1237 335 8
+1237 11343 4
+11343 335 4
+1931 6749 2
+1931 13414 1
+1931 335 15

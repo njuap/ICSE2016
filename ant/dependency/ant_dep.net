@@ -1,0 +1,5329 @@
+*Vertics: 1149
+11,org.apache.tools.ant.BuildException
+22,org.apache.tools.zip.ZipEncodingHelper
+71,org.apache.tools.zip.FallbackZipEncoding
+72,org.apache.tools.zip.NioZipEncoding
+73,org.apache.tools.zip.Simple8BitZipEncoding
+78,org.apache.tools.ant.taskdefs.optional.sos.SOSCheckin
+87,org.apache.tools.ant.types.Commandline
+89,org.apache.tools.ant.taskdefs.optional.sos.SOS
+128,org.apache.tools.ant.Project
+660,org.apache.tools.ant.input.DefaultInputHandler
+662,org.apache.tools.ant.helper.DefaultExecutor
+663,org.apache.tools.ant.types.FilterSet
+664,org.apache.tools.ant.types.FilterSetCollection
+665,org.apache.tools.ant.types.Description
+666,org.apache.tools.ant.types.Path
+667,org.apache.tools.ant.types.Resource
+669,org.apache.tools.ant.types.resources.FileResource
+670,org.apache.tools.ant.util.CollectionUtils
+671,org.apache.tools.ant.util.FileUtils
+672,org.apache.tools.ant.util.JavaEnvUtils
+673,org.apache.tools.ant.util.StringUtils
+674,org.apache.tools.ant.util.VectorSet
+679,org.apache.tools.ant.Target
+681,org.apache.tools.ant.Task
+682,org.apache.tools.ant.AntClassLoader
+683,org.apache.tools.ant.BuildEvent
+695,org.apache.tools.ant.ProjectComponent
+697,org.apache.tools.ant.ComponentHelper
+698,org.apache.tools.ant.MagicNames
+699,org.apache.tools.ant.Main
+700,org.apache.tools.ant.launch.Locator
+701,org.apache.tools.ant.PropertyHelper
+703,org.apache.tools.ant.TaskAdapter
+705,org.apache.tools.ant.UnknownElement
+706,org.apache.tools.ant.IntrospectionHelper
+807,org.apache.tools.ant.taskdefs.optional.TraXLiaisonTest
+854,org.apache.tools.ant.util.JAXPUtils
+856,org.apache.tools.ant.taskdefs.optional.AbstractXSLTLiaisonTest
+857,org.apache.tools.ant.taskdefs.optional.TraXLiaison
+870,org.apache.tools.ant.util.FlatFileNameMapper
+888,org.apache.tools.ant.taskdefs.optional.unix.Symlink
+1008,org.apache.tools.ant.DirectoryScanner
+1009,org.apache.tools.ant.dispatch.DispatchTask
+1010,org.apache.tools.ant.dispatch.DispatchUtils
+1011,org.apache.tools.ant.taskdefs.Execute
+1012,org.apache.tools.ant.taskdefs.LogOutputStream
+1013,org.apache.tools.ant.types.FileSet
+1014,org.apache.tools.ant.util.SymbolicLinkUtils
+1017,org.apache.tools.ant.types.AbstractFileSet
+1040,org.apache.tools.ant.util.CompositeMapper
+1049,org.apache.tools.ant.util.ContainerMapper
+1052,org.apache.tools.ant.taskdefs.CopyfileTest
+1065,org.apache.tools.ant.BuildFileTest
+1074,org.apache.tools.ant.taskdefs.condition.XorTest
+1088,org.apache.tools.ant.taskdefs.optional.EchoPropertiesTest
+1143,org.apache.tools.ant.util.regexp.RegexpMatcherFactory
+1152,org.apache.tools.ant.taskdefs.PathConvert
+1246,org.apache.tools.ant.taskdefs.condition.Os
+1247,org.apache.tools.ant.types.Mapper
+1248,org.apache.tools.ant.types.Reference
+1250,org.apache.tools.ant.types.EnumeratedAttribute
+1251,org.apache.tools.ant.types.resources.Resources
+1252,org.apache.tools.ant.types.resources.Union
+1253,org.apache.tools.ant.util.IdentityMapper
+1272,org.apache.tools.ant.taskdefs.Manifest
+1488,org.apache.tools.ant.taskdefs.ManifestException
+1492,org.apache.tools.ant.taskdefs.SleepTest
+1519,org.apache.tools.ant.types.AssertionsTest
+1539,org.apache.tools.ant.util.IdentityStack
+1563,org.apache.tools.ant.taskdefs.optional.depend.Depend
+1757,org.apache.tools.ant.taskdefs.MatchingTask
+1758,org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter
+1759,org.apache.tools.ant.taskdefs.rmic.WLRmic
+1763,org.apache.tools.ant.taskdefs.optional.depend.AntAnalyzer
+1764,org.apache.tools.ant.taskdefs.optional.depend.ClassFileUtils
+1783,org.apache.tools.ant.taskdefs.JavacTest
+1816,org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory
+1817,org.apache.tools.ant.taskdefs.compilers.Javac13
+1818,org.apache.tools.ant.taskdefs.compilers.JavacExternal
+1820,org.apache.tools.ant.taskdefs.Javac
+1843,org.apache.tools.ant.taskdefs.optional.junit.TestListenerWrapper
+1872,org.example.junit.TestNotMissed
+1933,org.apache.tools.ant.taskdefs.optional.sos.SOSTest
+1983,org.apache.tools.ant.taskdefs.optional.sos.SOSCheckout
+1984,org.apache.tools.ant.taskdefs.optional.sos.SOSGet
+1985,org.apache.tools.ant.taskdefs.optional.sos.SOSLabel
+2009,org.apache.tools.ant.taskdefs.DeleteTest
+2031,org.apache.tools.ant.types.DirSetTest
+2047,org.apache.tools.ant.types.AbstractFileSetTest
+2048,org.apache.tools.ant.types.DirSet
+2060,org.apache.tools.ant.types.FileList
+2089,org.apache.tools.ant.types.resources.FileResourceIterator
+2090,org.apache.tools.ant.types.DataType
+2101,org.apache.tools.ant.taskdefs.optional.depend.constantpool.ClassCPInfo
+2114,org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantPoolEntry
+2115,org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantPool
+2116,org.apache.tools.ant.taskdefs.optional.depend.constantpool.Utf8CPInfo
+2124,org.apache.tools.mail.SmtpResponseReader
+2139,Junk1
+2146,org.apache.tools.ant.listener.SimpleBigProjectLogger
+2152,org.apache.tools.ant.NoBannerLogger
+2156,org.apache.tools.ant.taskdefs.optional.extension.DeweyDecimal
+2163,org.apache.tools.ant.util.DeweyDecimal
+2167,org.apache.tools.ant.types.resolver.ApacheCatalogResolver
+2199,org.apache.tools.ant.types.XMLCatalog
+2200,org.apache.tools.ant.types.ResourceLocation
+2201,org.apache.tools.ant.types.resolver.ApacheCatalog
+2209,org.apache.tools.ant.taskdefs.Echo
+2238,org.apache.tools.ant.util.ResourceUtils
+2239,org.apache.tools.ant.types.LogLevel
+2241,org.apache.tools.ant.types.resources.LogOutputResource
+2242,org.apache.tools.ant.types.resources.StringResource
+2251,org.apache.tools.ant.taskdefs.TarTest
+2287,org.apache.tools.ant.taskdefs.cvslib.RedirectingOutputStream
+2294,org.apache.tools.ant.util.LineOrientedOutputStream
+2295,org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser
+2413,org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter
+2441,org.apache.tools.ant.taskdefs.Apt
+2442,org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter
+2458,org.apache.tools.ant.taskdefs.optional.RpmTest
+2474,org.apache.tools.ant.taskdefs.optional.Rpm
+2481,org.apache.tools.ant.filters.LineContainsTest
+2494,org.apache.tools.ant.taskdefs.condition.HasMethod
+2544,org.apache.tools.ant.filters.SuffixLines
+2563,org.apache.tools.ant.types.Parameter
+2564,org.apache.tools.ant.filters.BaseParamFilterReader
+2581,org.apache.tools.ant.taskdefs.optional.clearcase.CCRmtype
+2631,org.apache.tools.ant.taskdefs.optional.clearcase.ClearCase
+2642,org.apache.tools.ant.util.OutputStreamFunneler
+2677,org.apache.tools.ant.types.resources.selectors.Size
+2691,org.apache.tools.ant.types.Comparison
+2698,org.apache.tools.ant.types.resources.TarResourceTest
+2706,org.apache.tools.ant.util.depend.AbstractAnalyzer
+2761,AssertionTest
+2768,org.apache.tools.ant.taskdefs.optional.extension.LibFileSet
+2791,org.apache.tools.zip.ZipOutputStream
+3030,org.apache.tools.zip.ZipEntry
+3031,org.apache.tools.zip.Zip64Mode
+3032,org.apache.tools.zip.Zip64ExtendedInformationExtraField
+3033,org.apache.tools.zip.ZipEightByteInteger
+3034,org.apache.tools.zip.ZipLong
+3035,org.apache.tools.zip.GeneralPurposeBit
+3038,org.apache.tools.zip.ZipConstants
+3039,org.apache.tools.zip.Zip64RequiredException
+3040,org.apache.tools.zip.ZipShort
+3041,org.apache.tools.zip.ZipUtil
+3047,org.apache.tools.zip.UnicodePathExtraField
+3048,org.apache.tools.zip.UnicodeCommentExtraField
+3107,org.apache.tools.ant.types.optional.ScriptMapper
+3119,org.apache.tools.ant.types.optional.AbstractScriptComponent
+3120,org.apache.tools.ant.util.ScriptRunnerBase
+3126,org.apache.tools.ant.taskdefs.condition.ParserSupports
+3164,org.apache.tools.ant.taskdefs.optional.clearcase.CCMkattr
+3224,org.apache.tools.ant.taskdefs.Tar
+3384,org.apache.tools.ant.types.ArchiveFileSet
+3385,org.apache.tools.ant.types.resources.ArchiveResource
+3386,org.apache.tools.ant.types.selectors.SelectorUtils
+3387,org.apache.tools.ant.types.resources.TarResource
+3388,org.apache.tools.ant.util.MergingMapper
+3389,org.apache.tools.ant.util.SourceFileScanner
+3390,org.apache.tools.bzip2.CBZip2OutputStream
+3391,org.apache.tools.tar.TarEntry
+3392,org.apache.tools.tar.TarOutputStream
+3395,org.apache.tools.ant.types.TarFileSet
+3396,org.apache.tools.ant.taskdefs.Copy
+3468,org.apache.tools.ant.taskdefs.VerifyJar
+3508,org.apache.tools.ant.types.RedirectorElement
+3509,org.apache.tools.ant.types.FilterChain
+3510,org.apache.tools.ant.taskdefs.AbstractJarSignerTask
+3511,org.apache.tools.ant.taskdefs.ExecTask
+3529,org.apache.tools.ant.taskdefs.optional.junit.Sleeper
+3536,org.apache.tools.tar.TarEntryTest
+3544,org.apache.tools.ant.input.InputRequest
+3546,org.apache.tools.ant.taskdefs.optional.j2ee.AbstractHotDeploymentTool
+3573,org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy
+3579,org.apache.tools.ant.taskdefs.CallTarget
+3611,org.apache.tools.ant.types.PropertySet
+3612,org.apache.tools.ant.taskdefs.Ant
+3615,org.apache.tools.ant.taskdefs.Property
+3633,org.example.junit.AbstractJUnit3TestNotMissed
+3639,org.apache.tools.ant.taskdefs.optional.splash.SplashTask
+3705,org.apache.tools.ant.util.Base64Converter
+3706,org.apache.tools.ant.taskdefs.optional.net.SetProxy
+3708,org.apache.tools.ant.taskdefs.optional.splash.SplashScreen
+3716,org.apache.tools.ant.taskdefs.BZip2Test
+3731,org.apache.tools.bzip2.CBZip2InputStream
+3740,org.apache.tools.ant.taskdefs.JDBCTask
+3932,org.apache.tools.ant.AntTypeDefinition
+4014,org.apache.tools.ant.listener.CommonsLoggingListener
+4106,org.apache.tools.ant.taskdefs.TaskdefTest
+4122,org.apache.tools.ant.util.Base64ConverterTest
+4135,org.apache.tools.ant.taskdefs.compilers.Sj
+4147,org.apache.tools.tar.TarOutputStreamTest
+4153,Junk1
+4159,org.apache.tools.tar.TarArchiveSparseEntry
+4165,org.apache.tools.tar.TarUtils
+4168,Task1
+4170,org.apache.tools.zip.UnrecognizedExtraField
+4209,org.apache.tools.ant.util.optional.WeakishReference12
+4213,org.apache.tools.ant.util.WeakishReference
+4220,org.apache.tools.ant.taskdefs.SQLExec
+4427,org.apache.tools.ant.util.KeepAliveOutputStream
+4429,org.apache.tools.ant.types.resources.BaseResourceCollectionContainer
+4430,org.apache.tools.ant.taskdefs.StreamPumper
+4442,org.apache.tools.ant.util.regexp.JakartaRegexpRegexpTest
+4452,org.apache.tools.ant.util.regexp.RegexpTest
+4453,org.apache.tools.ant.util.regexp.JakartaRegexpRegexp
+4461,org.apache.tools.ant.taskdefs.optional.javah.Gcjh
+4472,org.apache.tools.ant.taskdefs.optional.Javah
+4489,org.apache.tools.ant.types.PolyTest
+4507,org.apache.tools.ant.types.PathTest
+4590,org.apache.tools.ant.util.LeadPipeInputStream
+4621,org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckin
+4624,org.apache.tools.ant.taskdefs.optional.ccm.CCMCheck
+4630,org.apache.tools.ant.util.XmlConstants
+4643,org.apache.tools.ant.taskdefs.MakeUrl
+4700,org.apache.tools.ant.taskdefs.email.EmailAddress
+4730,org.apache.tools.ant.taskdefs.condition.Not
+4732,org.apache.tools.ant.taskdefs.condition.ConditionBase
+4736,org.apache.tools.ant.types.Assertions
+4789,org.apache.tools.ant.types.CommandlineJava
+4795,org.apache.tools.ant.taskdefs.BUnzip2Test
+4812,org.apache.tools.ant.filters.BaseFilterReader
+4980,org.apache.tools.ant.taskdefs.XSLTProcess
+5009,org.apache.tools.zip.ZipShortTest
+5034,org.apache.tools.ant.taskdefs.InputTest
+5053,org.apache.tools.ant.input.PropertyFileInputHandler
+5087,org.apache.tools.ant.taskdefs.optional.junit.TestFormatter
+5117,org.apache.tools.ant.taskdefs.optional.junit.JUnitTest
+5124,Alpha
+5460,org.apache.tools.bzip2.BlockSort
+5461,org.apache.tools.bzip2.CRC
+5481,org.apache.tools.ant.filters.FixCrLfFilter
+5664,org.apache.tools.ant.taskdefs.ProtectedJarMethodsTest
+5682,org.apache.tools.ant.taskdefs.Jar
+5686,org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckinDefault
+5691,AssertionMain
+5695,org.apache.tools.ant.taskdefs.optional.ejb.BorlandDeploymentTool
+5810,org.apache.tools.ant.taskdefs.Java
+5811,org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool
+5812,org.apache.tools.ant.taskdefs.optional.ejb.BorlandGenerateClient
+5813,org.apache.tools.ant.taskdefs.optional.ejb.DescriptorHandler
+5816,org.apache.tools.ant.taskdefs.optional.ejb.EjbJar
+5863,org.apache.tools.ant.types.selectors.DateSelectorTest
+5888,org.apache.tools.ant.types.selectors.BaseSelectorTest
+5889,org.apache.tools.ant.types.selectors.BaseSelector
+5891,org.apache.tools.ant.types.selectors.DateSelector
+5916,org.apache.tools.ant.DummyTaskWithoutDefaultConstructor
+5936,org.apache.tools.ant.util.ClasspathUtils
+5937,org.apache.tools.ant.taskdefs.compilers.Jikes
+5938,org.apache.tools.ant.taskdefs.compilers.Jvc
+5939,org.apache.tools.ant.taskdefs.compilers.Kjc
+5940,org.apache.tools.ant.taskdefs.compilers.Gcj
+5944,org.apache.tools.ant.launch.Launcher
+6027,org.apache.tools.ant.launch.LaunchException
+6032,org.apache.tools.ant.taskdefs.optional.RhinoScriptTest
+6040,org.apache.tools.ant.util.ChainedMapper
+6051,org.apache.tools.ant.DefaultDefinitions
+6072,org.apache.tools.ant.ProjectHelper
+6077,org.apache.tools.ant.types.resources.comparators.Reverse
+6092,org.apache.tools.ant.types.resources.comparators.ResourceComparator
+6168,org.apache.tools.ant.taskdefs.AbstractCvsTask
+6170,org.apache.tools.ant.taskdefs.cvslib.CVSEntry
+6413,org.apache.tools.ant.util.facade.ImplementationSpecificArgument
+6520,org.apache.tools.ant.types.resources.PropertyResource
+6546,org.apache.tools.ant.util.PropertyOutputStream
+6548,org.apache.tools.ant.types.resources.ImmutableResourceException
+6587,org.apache.tools.ant.taskdefs.optional.ccm.CCMReconfigure
+6610,org.apache.tools.ant.taskdefs.optional.ccm.Continuus
+6616,org.apache.tools.ant.types.resources.CompressedResource
+6622,org.apache.tools.ant.types.resources.ContentTransformingResource
+6625,Junk1
+6631,org.apache.tools.ant.taskdefs.optional.junit.JUnitTestListenerTest
+6651,org.apache.tools.ant.taskdefs.optional.junit.JUnitTask
+6767,org.apache.tools.ant.types.Environment
+6781,org.apache.tools.ant.taskdefs.Local
+6786,org.apache.tools.ant.property.LocalProperties
+6794,org.apache.tools.zip.ZipFile
+7003,Simple
+7082,org.apache.tools.ant.taskdefs.optional.javah.JavahAdapterFactory
+7083,org.apache.tools.ant.util.facade.FacadeTaskHelper
+7094,org.apache.tools.ant.util.ResourceUtilsTest
+7112,org.apache.tools.ant.taskdefs.optional.clearcase.CCMkdir
+7160,org.apache.tools.ant.util.DOMUtils
+7198,org.apache.tools.ant.types.resources.Difference
+7225,org.apache.tools.ant.taskdefs.LogStreamHandler
+7230,org.apache.tools.ant.taskdefs.optional.ssh.ScpToMessage
+7309,org.apache.tools.ant.taskdefs.optional.ssh.AbstractSshMessage
+7310,org.apache.tools.ant.taskdefs.optional.ssh.Directory
+7325,org.apache.tools.ant.types.resources.comparators.DelegatedResourceComparator
+7346,org.apache.tools.ant.taskdefs.optional.junit.JUnitTaskMirrorImpl
+7387,org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner
+7388,org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter
+7396,org.apache.tools.ant.ImmutableTest
+7408,org.apache.tools.ant.util.regexp.Jdk14RegexpRegexp
+7431,org.apache.tools.ant.util.regexp.Jdk14RegexpMatcher
+7432,org.apache.tools.ant.util.regexp.RegexpUtil
+7437,org.apache.tools.ant.taskdefs.Cvs
+7441,org.apache.tools.ant.taskdefs.launcher.WinNTCommandLauncher
+7453,org.apache.tools.ant.taskdefs.launcher.CommandLauncherProxy
+7455,org.apache.tools.ant.taskdefs.launcher.CommandLauncher
+7459,org.apache.tools.ant.types.resources.AbstractResourceCollectionWrapper
+7483,org.apache.tools.ant.types.resources.FailFast
+7489,org.apache.tools.ant.taskdefs.FixCrLfTest
+7534,org.apache.tools.ant.taskdefs.FixCRLF
+7540,org.apache.tools.ant.taskdefs.optional.junit.DOMUtil
+7620,org.apache.tools.ant.taskdefs.ReplaceTest
+7800,org.apache.tools.ant.types.resources.BaseResourceCollectionWrapper
+7807,org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector
+7967,org.apache.tools.ant.types.selectors.BaseExtendSelector
+7970,org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache
+7971,org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm
+7972,org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator
+7973,org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm
+7974,org.apache.tools.ant.types.selectors.modifiedselector.ChecksumAlgorithm
+7995,org.apache.tools.ant.taskdefs.ManifestTask
+8044,org.apache.tools.ant.taskdefs.ProcessDestroyer
+8090,org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter
+8113,org.apache.tools.ant.util.DOMElementWriter
+8114,org.apache.tools.ant.taskdefs.cvslib.RCSFile
+8127,Junk1
+8133,org.apache.tools.ant.taskdefs.ProjectHelperTask
+8142,org.apache.tools.ant.ProjectHelperRepository
+8145,org.apache.tools.ant.types.resources.selectors.Compare
+8167,org.apache.tools.ant.types.Quantifier
+8171,org.apache.tools.ant.taskdefs.optional.depend.constantpool.LongCPInfo
+8177,org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantCPInfo
+8183,AptExample
+8190,org.apache.tools.ant.taskdefs.optional.j2ee.GenericHotDeploymentTool
+8209,org.apache.tools.ant.taskdefs.optional.windows.Attrib
+8250,org.apache.tools.ant.taskdefs.ExecuteOn
+8270,org.apache.tools.ant.taskdefs.optional.net.MimeMail
+8272,org.apache.tools.ant.taskdefs.email.EmailTask
+8275,org.apache.tools.ant.DirectoryScannerTest
+8383,org.apache.tools.ant.types.selectors.TokenizedPath
+8396,org.apache.tools.ant.taskdefs.compilers.AptExternalCompilerAdapter
+8407,org.apache.tools.ant.types.resources.JavaConstantResource
+8425,org.apache.tools.ant.types.resources.AbstractClasspathResource
+8428,org.apache.tools.ant.taskdefs.ZipExtraFieldTest
+8450,org.apache.tools.ant.types.resources.ZipResource
+8451,org.apache.tools.zip.JarMarker
+8453,org.apache.tools.ant.taskdefs.Zip
+8508,org.apache.tools.ant.taskdefs.GzipTest
+8523,org.apache.tools.ant.taskdefs.optional.extension.ExtensionAdapter
+8553,org.apache.tools.ant.taskdefs.optional.extension.Extension
+8558,org.apache.tools.ant.util.LazyHashtable
+8632,org.apache.tools.ant.taskdefs.optional.RhinoReferenceTest
+8643,org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii
+8659,org.apache.tools.ant.taskdefs.optional.Native2Ascii
+8660,org.apache.tools.ant.taskdefs.optional.native2ascii.DefaultNative2Ascii
+8665,org.example.tasks.TaskdefTestContainerTask
+8668,org.apache.tools.ant.taskdefs.Sequential
+8670,org.apache.tools.ant.taskdefs.Pack
+9047,org.apache.tools.ant.PathTokenizer
+9054,org.apache.tools.ant.TaskContainerTest
+9063,org.apache.tools.ant.taskdefs.condition.IsSet
+9069,org.apache.tools.ant.types.resources.ResourceListTest
+9085,org.apache.tools.ant.types.resources.ResourceList
+9190,org.apache.tools.ant.taskdefs.optional.depend.constantpool.FieldRefCPInfo
+9191,org.apache.tools.ant.taskdefs.optional.depend.constantpool.InterfaceMethodRefCPInfo
+9192,org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodRefCPInfo
+9193,org.apache.tools.ant.taskdefs.optional.depend.constantpool.NameAndTypeCPInfo
+9228,Junk1
+9234,org.apache.tools.ant.taskdefs.TaskdefsTest
+9240,org.example.junit.JUnit4Skippable
+9252,org.apache.tools.ant.types.resources.selectors.InstanceOf
+9472,org.apache.tools.ant.types.ZipFileSet
+9473,org.apache.tools.ant.types.spi.Service
+9511,org.apache.tools.ant.types.selectors.NoneSelector
+9520,org.apache.tools.ant.types.selectors.BaseSelectorContainer
+9527,org.apache.tools.ant.taskdefs.DefaultExcludesTest
+9547,org.apache.tools.ant.taskdefs.optional.Script
+9567,org.apache.tools.ant.util.ScriptRunnerHelper
+9580,org.apache.tools.ant.taskdefs.optional.sound.AntSoundPlayer
+9665,org.apache.tools.ant.taskdefs.optional.junit.JUnitReportTest
+9710,org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator
+9716,org.apache.tools.ant.types.optional.ScriptMapperTest
+9735,org.apache.tools.ant.taskdefs.optional.ssh.Scp
+9830,org.apache.tools.ant.taskdefs.optional.ssh.SSHBase
+9831,org.apache.tools.ant.taskdefs.optional.ssh.ScpFromMessage
+9832,org.apache.tools.ant.taskdefs.optional.ssh.ScpFromMessageBySftp
+9833,org.apache.tools.ant.taskdefs.optional.ssh.ScpToMessageBySftp
+9834,org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo
+9860,org.apache.tools.ant.taskdefs.launcher.PerlScriptCommandLauncher
+9877,org.apache.tools.ant.taskdefs.optional.script.ScriptDef
+9944,org.apache.tools.ant.taskdefs.DefBase
+9945,org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase
+9958,org.apache.tools.tar.TarInputStream
+10070,org.apache.tools.tar.TarBuffer
+10093,org.apache.tools.ant.XmlLogger
+10188,org.apache.tools.ant.DefaultLogger
+10189,org.apache.tools.ant.Location
+10195,org.apache.tools.ant.taskdefs.AvailableTest
+10229,org.apache.tools.ant.util.optional.NoExitSecurityManager
+10234,org.apache.tools.ant.ExitException
+10340,org.apache.tools.ant.taskdefs.condition.IsReachable
+10381,org.apache.tools.ant.taskdefs.DynamicTask
+10398,org.apache.tools.ant.types.resources.SizeLimitCollection
+10410,org.apache.tools.ant.filters.ConcatFilter
+10436,org.apache.tools.ant.util.UUEncoder
+10470,org.apache.tools.ant.taskdefs.optional.depend.JarFileIterator
+10485,org.apache.tools.ant.taskdefs.optional.depend.ClassFile
+10677,org.apache.tools.ant.property.NullReturn
+10679,org.apache.tools.ant.property.ParseProperties
+10694,org.apache.tools.ant.taskdefs.optional.extension.ExtraAttribute
+10707,org.apache.tools.ant.taskdefs.SendEmail
+10835,org.apache.tools.ant.property.ResolvePropertyMap
+10840,AntTimestamp
+10846,org.apache.tools.ant.util.DateUtils
+10851,org.apache.tools.ant.filters.StripJavaComments
+10864,org.apache.tools.ant.taskdefs.condition.TypeFoundTest
+10878,org.apache.tools.ant.taskdefs.ExecTaskTest
+11011,org.apache.tools.ant.helper.ProjectHelper2
+11012,org.apache.tools.ant.util.LoaderUtils
+11019,A
+11022,B
+11024,org.apache.tools.ant.attribute.BaseIfAttribute
+11042,org.apache.tools.ant.RuntimeConfigurable
+11051,Junk1
+11057,org.apache.tools.ant.taskdefs.optional.j2ee.JonasHotDeploymentTool
+11091,org.apache.tools.ant.types.resources.comparators.Name
+11096,org.apache.tools.ant.DummyTaskOkNonTask
+11100,org.apache.tools.ant.taskdefs.condition.IsFailure
+11145,org.apache.tools.ant.types.TimeComparison
+11150,org.apache.tools.ant.taskdefs.MakeUrlTest
+11289,org.apache.tools.ant.taskdefs.optional.clearcase.CCMkbl
+11338,org.apache.tools.ant.types.resources.MappedResource
+11358,org.apache.tools.ant.types.resources.ResourceDecorator
+11384,org.apache.tools.ant.types.resources.selectors.None
+11391,org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer
+11398,org.apache.tools.ant.IntrospectionHelperTest
+11635,org.apache.tools.ant.taskdefs.optional.jdepend.JDependTest
+11665,org.apache.tools.ant.util.TeeOutputStream
+11686,org.apache.tools.ant.taskdefs.optional.XMLValidateTask
+11823,org.apache.tools.ant.types.DTDLocation
+11827,org.apache.tools.ant.taskdefs.launcher.ScriptCommandLauncher
+11842,org.apache.tools.ant.taskdefs.optional.script.ScriptDefTest
+11875,org.apache.tools.zip.ZipOutputStreamTest
+11901,org.apache.tools.ant.taskdefs.optional.net.RExecTask
+11998,org.apache.tools.ant.taskdefs.optional.jdepend.JDependTask
+12112,org.apache.tools.ant.taskdefs.ExecuteWatchdog
+12113,org.apache.tools.ant.types.PatternSet
+12127,org.apache.tools.ant.types.optional.image.Rotate
+12157,org.apache.tools.ant.types.optional.image.TransformOperation
+12161,org.apache.tools.ant.types.optional.image.ImageOperation
+12169,org.apache.tools.ant.taskdefs.EchoXMLTest
+12178,org.apache.tools.ant.taskdefs.AugmentReference
+12199,org.apache.tools.ant.taskdefs.optional.extension.JarLibDisplayTask
+12219,org.apache.tools.ant.taskdefs.optional.extension.LibraryDisplayer
+12460,org.apache.tools.ant.listener.SilentLogger
+12461,org.apache.tools.ant.util.ProxySetup
+12462,org.apache.tools.ant.ArgumentProcessorRegistry
+12463,org.apache.tools.ant.ExitStatusException
+12464,org.apache.tools.ant.Diagnostics
+12465,org.apache.tools.ant.DemuxInputStream
+12466,org.apache.tools.ant.DemuxOutputStream
+12483,org.example.junit.ThreadedOutput
+12496,org.apache.tools.ant.filters.ConcatFilterTest
+12529,B
+12531,org.apache.tools.ant.types.optional.depend.ClassfileSet
+12565,org.apache.tools.ant.types.optional.depend.DependScanner
+12574,org.apache.tools.ant.types.resources.comparators.Content
+12585,org.apache.tools.ant.taskdefs.condition.TypeFound
+12603,org.apache.tools.ant.taskdefs.optional.ssh.ScpTest
+12647,org.apache.tools.ant.taskdefs.condition.FilesMatch
+12648,org.apache.tools.ant.types.selectors.FilenameSelector
+12659,org.apache.tools.ant.filters.HeadTailTest
+12712,Junk1
+12737,org.apache.tools.ant.property.LocalPropertyStack
+12761,org.apache.tools.ant.filters.SortFilter
+12995,DistributedAnnotationProcessor
+13023,org.apache.tools.ant.filters.TailFilter
+13058,org.apache.tools.ant.util.LineTokenizer
+13061,org.apache.tools.ant.taskdefs.optional.vss.MSVSSCREATE
+13072,org.apache.tools.ant.taskdefs.optional.vss.MSVSS
+13085,org.apache.tools.ant.types.selectors.AbstractSelectorContainer
+13151,org.apache.tools.ant.types.selectors.AndSelector
+13152,org.apache.tools.ant.types.selectors.ContainsSelector
+13153,org.apache.tools.ant.types.selectors.ContainsRegexpSelector
+13154,org.apache.tools.ant.types.selectors.ExtendSelector
+13155,org.apache.tools.ant.types.selectors.DependSelector
+13156,org.apache.tools.ant.types.selectors.DepthSelector
+13157,org.apache.tools.ant.types.selectors.DifferentSelector
+13158,org.apache.tools.ant.types.selectors.MajoritySelector
+13159,org.apache.tools.ant.types.selectors.NotSelector
+13160,org.apache.tools.ant.types.selectors.OrSelector
+13161,org.apache.tools.ant.types.selectors.PresentSelector
+13162,org.apache.tools.ant.types.selectors.ReadableSelector
+13163,org.apache.tools.ant.types.selectors.SelectSelector
+13164,org.apache.tools.ant.types.selectors.SizeSelector
+13165,org.apache.tools.ant.types.selectors.TypeSelector
+13166,org.apache.tools.ant.types.selectors.WritableSelector
+13192,org.apache.tools.ant.taskdefs.Replace
+13436,org.apache.tools.ant.taskdefs.optional.extension.Compatibility
+13502,org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer
+13512,org.apache.tools.ant.types.resources.Tokens
+13532,org.apache.tools.ant.util.ConcatResourceInputStream
+13539,org.apache.tools.zip.ZipEntryTest
+13575,org.apache.tools.zip.AsiExtraField
+13576,org.apache.tools.zip.ExtraFieldUtilsTest
+13623,org.apache.tools.ant.util.ReflectWrapper
+13646,org.apache.tools.ant.util.ReflectUtil
+13654,org.apache.tools.ant.taskdefs.optional.net.FTPConfigurator
+13682,org.apache.tools.ant.types.optional.ScriptFilter
+13709,org.apache.tools.ant.filters.TokenFilter
+13713,org.apache.tools.ant.taskdefs.optional.clearcase.CCLock
+13761,org.apache.tools.ant.taskdefs.LoadFileTest
+13791,org.apache.tools.ant.types.spi.Provider
+13796,org.apache.tools.ant.util.StringUtilsTest
+13848,org.example.types.TypedefTestType
+13853,org.apache.tools.ant.types.optional.image.Rectangle
+13884,org.apache.tools.ant.types.optional.image.BasicShape
+13885,org.apache.tools.ant.types.optional.image.ColorMapper
+13892,org.apache.tools.ant.taskdefs.optional.EchoProperties
+13997,Junk1
+14003,org.example.junit.Output
+14008,org.apache.tools.ant.types.optional.depend.ClassFileSetTest
+14052,org.apache.tools.ant.taskdefs.ManifestTest
+14139,org.apache.tools.ant.taskdefs.optional.ejb.WeblogicTOPLinkDeploymentTool
+14155,org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool
+14160,org.apache.tools.ant.DummyTaskPackage
+14163,org.apache.tools.ant.ProjectTest
+14243,org.apache.tools.ant.MockBuildListener
+14244,org.apache.tools.ant.DummyTaskOk
+14245,org.apache.tools.ant.DummyTaskAbstract
+14247,org.apache.tools.ant.DummyTaskWithoutPublicConstructor
+14248,org.apache.tools.ant.DummyTaskWithoutExecute
+14249,org.apache.tools.ant.DummyTaskWithNonPublicExecute
+14250,org.apache.tools.ant.DummyTaskWithNonVoidExecute
+14255,org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodTypeCPInfo
+14267,org.apache.tools.ant.ProjectComponentTest
+14282,org.apache.tools.ant.taskdefs.PreSetDefTest
+14314,org.apache.tools.ant.types.mappers.GlobMapperTest
+14322,org.apache.tools.ant.util.XMLFragmentTest
+14339,org.apache.tools.ant.util.XMLFragment
+14342,org.apache.tools.ant.types.TarScanner
+14356,org.apache.tools.ant.types.ArchiveScanner
+14364,org.apache.tools.ant.filters.LineContains
+14447,org.apache.tools.ant.util.regexp.RegexpFactory
+14457,org.apache.tools.ant.LoaderRefTest
+14465,org.example.junit.TestWithSuiteNotMissed
+14471,org.example.junit.JUnit3TestNotMissed
+14473,org.apache.tools.ant.filters.TokenFilterTest
+14544,org.apache.tools.ant.types.selectors.ContainsRegexpTest
+14709,org.apache.tools.ant.taskdefs.optional.unix.SymlinkTest
+14736,org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc
+14994,org.apache.tools.ant.taskdefs.condition.Equals
+15024,org.apache.tools.ant.util.ScriptRunnerCreator
+15052,org.apache.tools.ant.util.ScriptFixBSFPath
+15060,org.apache.tools.bzip2.CBZip2StreamTest
+15081,org.apache.tools.ant.types.selectors.MappingSelector
+15105,org.apache.tools.ant.taskdefs.Rmic
+15141,org.apache.tools.ant.util.LayoutPreservingPropertiesTest
+15207,org.apache.tools.ant.util.LayoutPreservingProperties
+15218,org.apache.tools.ant.util.facade.ImplementationSpecificArgumentTest
+15225,org.apache.tools.ant.IncludeTest
+15338,org.apache.tools.ant.types.ResourceOutputTest
+15374,org.apache.tools.ant.types.resources.URLResource
+15419,org.apache.tools.ant.types.resources.selectors.Date
+15448,Junk1
+15454,org.apache.tools.ant.taskdefs.TypeAdapterTest
+15496,RemoteTimestampImpl
+15499,org.apache.tools.ant.types.selectors.SizeSelectorTest
+15585,org.apache.tools.ant.types.optional.image.Draw
+15610,org.apache.tools.ant.types.optional.image.Arc
+15611,org.apache.tools.ant.types.optional.image.Ellipse
+15612,org.apache.tools.ant.types.optional.image.Text
+15671,org.apache.tools.ant.types.resources.comparators.Size
+15677,org.apache.tools.ant.filters.LineContainsRegExp
+15713,org.apache.tools.ant.types.RegularExpression
+15739,org.apache.tools.ant.util.regexp.Jdk14RegexpRegexpTest
+15756,org.apache.tools.ant.PickOneTask
+15823,org.apache.tools.ant.taskdefs.condition.Contains
+15835,org.apache.tools.ant.taskdefs.PumpStreamHandler
+15909,org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet
+15929,org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil
+15933,org.apache.tools.ant.taskdefs.rmic.ForkingSunRmic
+15944,org.apache.tools.ant.taskdefs.rmic.SunRmic
+15951,org.apache.tools.ant.taskdefs.CopyPath
+15987,org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapterTest
+16029,org.apache.tools.ant.types.optional.ScriptSelectorTest
+16070,org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter
+16150,org.apache.tools.ant.taskdefs.optional.junit.JUnitVersionHelper
+16182,org.apache.tools.ant.util.ScriptRunner
+16183,org.apache.tools.ant.util.optional.ScriptRunner
+16304,org.apache.tools.ant.ExtensionPoint
+16340,org.apache.tools.ant.types.FlexIntegerTest
+16356,org.apache.tools.ant.types.FlexInteger
+16359,org.apache.tools.ant.taskdefs.UnzipTest
+16391,org.apache.tools.ant.taskdefs.Expand
+16394,org.apache.tools.ant.types.selectors.PresentSelectorTest
+16422,org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter
+16431,org.apache.tools.ant.taskdefs.condition.IsFalse
+16437,org.apache.tools.ant.taskdefs.condition.ResourcesMatch
+16452,org.apache.tools.ant.util.VectorSetTest
+16526,org.apache.tools.ant.taskdefs.LoadResource
+16557,org.apache.tools.ant.filters.util.ChainReaderHelper
+16567,org.apache.tools.ant.taskdefs.Antlib
+16596,org.apache.tools.ant.taskdefs.AntlibDefinition
+16605,org.apache.tools.ant.taskdefs.condition.IsFileSelectedTest
+16640,org.apache.tools.ant.taskdefs.condition.Matches
+16662,org.apache.tools.ant.taskdefs.SignJarTest
+16686,org.apache.tools.ant.taskdefs.SignJar
+16695,org.apache.tools.ant.taskdefs.CommandLauncherTask
+16741,org.apache.tools.ant.taskdefs.condition.IsReachableTest
+16847,org.apache.tools.ant.taskdefs.optional.junit.BaseTest
+16848,org.apache.tools.ant.taskdefs.optional.junit.FormatterElement
+16856,org.apache.tools.ant.taskdefs.TimeProcess
+16861,ExampleTest
+16864,org.apache.tools.ant.util.LazyFileOutputStream
+16900,org.apache.tools.ant.taskdefs.AttributeNamespaceDef
+16904,org.apache.tools.ant.attribute.AttributeNamespace
+16906,org.apache.tools.ant.AntClassLoaderDelegationTest
+17011,org.apache.tools.ant.UnknownElementTest
+17056,org.apache.tools.ant.types.optional.ScriptSelector
+17095,org.apache.tools.ant.types.EnumeratedAttributeTest
+17140,org.apache.tools.ant.helper.ProjectHelperImpl
+17145,org.apache.tools.ant.taskdefs.optional.junit.NoVmCrash
+17153,org.apache.tools.zip.ZipLongTest
+17172,org.apache.tools.ant.taskdefs.CallTargetTest
+17240,org.apache.tools.ant.taskdefs.Delete
+17241,org.apache.tools.ant.taskdefs.TempFile
+17261,org.apache.tools.ant.taskdefs.condition.Http
+17336,org.apache.tools.ant.taskdefs.ImportTask
+17390,org.apache.tools.ant.taskdefs.launcher.MacCommandLauncher
+17399,org.apache.tools.ant.types.mappers.MapperResult
+17421,task.UUDecodeTask
+17429,task.BaseTask
+17439,org.apache.tools.ant.taskdefs.AntlibTest
+17465,org.apache.tools.ant.taskdefs.condition.IsLastModified
+17504,org.apache.tools.ant.taskdefs.Touch
+17520,org.apache.tools.ant.taskdefs.email.MimeMailer
+17617,org.apache.tools.ant.taskdefs.email.Mailer
+17618,org.apache.tools.ant.taskdefs.email.Header
+17619,org.apache.tools.ant.taskdefs.email.Message
+17669,org.apache.tools.ant.filters.UniqFilter
+17674,org.apache.tools.ant.util.UnicodeUtil
+17681,org.apache.tools.ant.taskdefs.optional.vss.MSVSSTest
+17762,org.apache.tools.ant.taskdefs.Tstamp
+17764,org.apache.tools.ant.taskdefs.optional.vss.MSVSSADD
+17765,org.apache.tools.ant.taskdefs.optional.vss.MSVSSCHECKIN
+17767,org.apache.tools.ant.taskdefs.optional.vss.MSVSSCHECKOUT
+17768,org.apache.tools.ant.taskdefs.optional.vss.MSVSSCP
+17769,org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET
+17771,org.apache.tools.ant.taskdefs.optional.vss.MSVSSHISTORY
+17773,org.apache.tools.ant.taskdefs.optional.vss.MSVSSLABEL
+17851,org.apache.tools.ant.util.JAXPUtilsTest
+18111,org.apache.tools.ant.helper.AntXMLContext
+18189,org.apache.tools.ant.taskdefs.AntStructure
+18281,org.apache.tools.ant.AntClassLoaderPerformance
+18293,org.apache.tools.ant.ExecutorTest
+18341,org.apache.tools.ant.taskdefs.JarTest
+18419,org.apache.tools.ant.taskdefs.optional.clearcase.CCUpdate
+18464,org.apache.tools.ant.taskdefs.optional.Xalan2TraceSupport
+18487,org.apache.tools.ant.types.AntFilterReader
+18510,org.apache.tools.ant.LocationTest
+18526,org.apache.tools.ant.taskdefs.ConditionTask
+18557,org.apache.tools.ant.taskdefs.Copydir
+18591,org.apache.tools.ant.taskdefs.Retry
+18609,org.apache.tools.ant.taskdefs.optional.Cab
+18679,org.apache.tools.ant.taskdefs.FailTest
+18710,org.apache.tools.ant.taskdefs.optional.jsp.compilers.JspCompilerAdapterFactory
+18728,org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler
+18729,org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler
+18732,org.apache.tools.ant.taskdefs.optional.jsp.compilers.JasperC
+18774,org.example.junit.XmlParserTest
+18785,org.apache.tools.ant.taskdefs.condition.ParserSupportsTest
+18797,org.apache.tools.ant.types.resources.selectors.Or
+18805,etc.testcases.taskdefs.javadoc.java.ClassToJavadoc
+18813,org.apache.tools.ant.taskdefs.optional.extension.JarLibManifestTask
+18878,org.apache.tools.ant.PropertyFileCLITest
+18893,org.apache.tools.ant.taskdefs.optional.junit.TearDownOnVmCrashTest
+18898,org.apache.tools.ant.util.LoaderUtilsTest
+19017,org.apache.tools.ant.types.selectors.TokenizedPattern
+19055,org.apache.tools.ant.taskdefs.optional.XmlValidateCatalogTest
+19064,org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregatorTest
+19088,org.apache.tools.ant.util.ConcatFileInputStream
+19113,org.apache.tools.ant.CaseTest
+19120,org.apache.tools.ant.taskdefs.Sync
+19231,org.apache.tools.ant.types.resources.Restrict
+19232,org.apache.tools.ant.types.resources.selectors.Exists
+19254,org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration
+19262,org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration
+19269,org.apache.tools.ant.taskdefs.optional.junit.Enumerations
+19276,org.apache.tools.ant.taskdefs.optional.junit.BatchTestTest
+19354,org.apache.tools.ant.types.ZipScanner
+19397,org.apache.tools.ant.taskdefs.AntLikeTasksAtTopLevelTest
+19407,org.apache.tools.ant.util.SplitClassLoader
+19425,org.apache.tools.ant.taskdefs.optional.unix.AbstractAccessTask
+19440,org.apache.tools.ant.filters.HeadFilter
+19488,org.apache.tools.ant.types.resources.LazyResourceCollectionWrapper
+19495,org.apache.tools.ant.taskdefs.ManifestClassPath
+19718,org.apache.tools.ant.util.LinkedHashtable
+19724,org.apache.tools.ant.taskdefs.AbstractCvsTaskTest
+19742,org.apache.tools.ant.util.KeepAliveInputStream
+19748,org.apache.tools.ant.taskdefs.Sleep
+19935,org.apache.tools.ant.taskdefs.Transform
+19937,org.apache.tools.ant.taskdefs.optional.sound.SoundTask
+19968,org.apache.tools.ant.taskdefs.Chmod
+20014,org.apache.tools.ant.taskdefs.SQLExecTest
+20095,org.apache.tools.ant.taskdefs.optional.pvcs.PvcsProject
+20103,org.example.Foo
+20110,test.SpecialSeq
+20187,org.apache.tools.ant.taskdefs.optional.clearcase.CCMklbtype
+20245,org.apache.tools.ant.loader.AntClassLoader2
+20257,org.apache.tools.ant.taskdefs.rmic.XNewRmic
+20264,org.apache.tools.ant.taskdefs.optional.image.ImageTest
+20325,org.apache.tools.ant.taskdefs.optional.depend.constantpool.StringCPInfo
+20335,org.apache.tools.ant.types.resources.selectors.Not
+20345,org.apache.tools.ant.taskdefs.ConcatTest
+20437,org.example.junit.Timeout
+20441,org.apache.tools.ant.taskdefs.optional.junit.VmCrash
+20468,org.apache.tools.ant.taskdefs.condition.ContainsTest
+20474,org.apache.tools.ant.types.PatternSetTest
+20508,org.apache.tools.ant.types.selectors.MockAlgorithm
+20514,org.apache.tools.ant.types.CommandlineJavaTest
+20701,org.apache.tools.ant.taskdefs.optional.junit.XMLFormatterWithCDATAOnSystemOut
+20745,org.apache.tools.ant.taskdefs.condition.AntVersion
+20800,org.apache.tools.ant.types.resources.FileResourceTest
+20828,org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory
+20843,org.apache.tools.ant.taskdefs.rmic.KaffeRmic
+20850,org.apache.tools.ant.util.ReaderInputStreamTest
+20887,org.apache.tools.ant.util.ReaderInputStream
+20928,org.apache.tools.ant.filters.ClassConstants
+20955,org.apache.tools.ant.types.resources.Last
+21163,org.apache.tools.ant.taskdefs.Redirector
+21192,org.apache.tools.ant.taskdefs.optional.native2ascii.KaffeNative2Ascii
+21206,org.apache.tools.ant.taskdefs.ExecuteJava
+21211,org.apache.tools.ant.taskdefs.optional.net.TelnetTask
+21286,org.apache.tools.ant.taskdefs.optional.ccm.CCMCreateTask
+21342,org.apache.tools.ant.types.XMLCatalogBuildFileTest
+21522,org.apache.tools.ant.taskdefs.Get
+21696,org.apache.tools.ant.attribute.IfBlankAttribute
+21703,org.apache.tools.ant.util.regexp.JakartaRegexpMatcher
+21764,org.apache.tools.ant.input.MultipleChoiceInputRequest
+21813,org.apache.tools.ant.taskdefs.WaitFor
+21866,org.apache.tools.ant.util.regexp.JakartaOroMatcher
+21909,org.apache.tools.ant.taskdefs.condition.IsFailureTest
+21915,org.apache.tools.ant.util.regexp.JakartaOroRegexp
+21938,org.apache.tools.ant.taskdefs.ProcessDestroyerTest
+21949,org.apache.tools.zip.AsiExtraFieldTest
+21986,org.apache.tools.ant.taskdefs.XmlPropertyTest
+22073,org.apache.tools.ant.taskdefs.XmlProperty
+22094,org.apache.tools.ant.types.ZipFileSetTest
+22110,org.apache.tools.ant.taskdefs.RenameTest
+22132,org.apache.tools.ant.DefaultLoggerTest
+22147,org.apache.tools.ant.taskdefs.dir2.A
+22173,org.apache.tools.ant.taskdefs.condition.IsReference
+22249,org.apache.tools.ant.types.selectors.MockCache
+22287,org.apache.tools.ant.taskdefs.Parallel
+22371,org.apache.tools.ant.taskdefs.Filter
+22396,org.apache.tools.ant.util.LazyFileOutputStreamTest
+22478,org.apache.tools.ant.taskdefs.optional.PropertyFileTest
+22528,org.apache.tools.ant.taskdefs.optional.PropertyFile
+22532,org.apache.tools.ant.taskdefs.optional.splash.SplashScreenTest
+22540,org.example.tasks.TaskdefTestSimpleTask
+22551,org.apache.tools.ant.filters.ReplaceTokensTest
+22600,org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader
+22612,org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool
+22639,test.MethodParam
+22641,test.ContainsOnlyInner
+22653,org.apache.tools.ant.taskdefs.UntarTest
+22672,org.apache.tools.ant.types.selectors.ContainsSelectorTest
+22693,org.apache.tools.ant.util.DOMElementWriterTest
+22761,org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckout
+22827,org.apache.tools.ant.taskdefs.optional.javah.SunJavah
+22844,org.apache.tools.ant.taskdefs.KeySubst
+22888,org.apache.tools.bzip2.BlockSortTest
+22977,org.apache.tools.ant.taskdefs.CloseResources
+23036,org.apache.tools.ant.types.optional.image.Scale
+23038,org.apache.tools.ant.taskdefs.cvslib.CvsTagDiff
+23139,org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry
+23154,org.apache.tools.ant.util.LinkedHashtableTest
+23197,org.apache.tools.zip.AbstractUnicodeExtraField
+23212,org.apache.tools.ant.types.resources.comparators.Exists
+23218,org.apache.tools.ant.taskdefs.condition.Or
+23321,org.apache.tools.ant.taskdefs.Unpack
+23350,org.apache.tools.ant.types.resources.BZip2Resource
+23366,org.apache.tools.ant.listener.MailLogger
+23467,org.apache.tools.mail.MailMessage
+23493,org.apache.tools.ant.taskdefs.WhichResourceTest
+23502,org.apache.tools.ant.taskdefs.GetTest
+23546,org.apache.tools.mail.MailMessageTest
+23673,org.apache.tools.ant.filters.ExpandProperties
+23736,A
+23738,D
+23740,org.apache.tools.ant.taskdefs.BuildNumber
+23775,org.apache.tools.ant.types.DescriptionTest
+23785,org.apache.tools.ant.types.resources.LazyResourceCollectionTest
+23925,org.apache.tools.ant.loader.AntClassLoader5
+23956,org.apache.tools.ant.ExtendedTaskdefTest
+23968,org.apache.tools.ant.taskdefs.optional.junit.JUnitClassLoaderTest
+24021,org.apache.tools.ant.types.resources.selectors.Majority
+24038,org.apache.tools.ant.taskdefs.optional.BeanShellScriptTest
+24044,org.apache.tools.ant.taskdefs.optional.unix.Chown
+24091,org.apache.tools.ant.taskdefs.Untar
+24138,org.apache.tools.ant.taskdefs.Exec
+24188,org.apache.tools.ant.taskdefs.DiagnosticsTask
+24274,org.apache.tools.ant.types.selectors.FilenameSelectorTest
+24498,org.apache.tools.ant.types.Permissions
+24551,org.apache.tools.ant.taskdefs.optional.junit.Constants
+24574,org.apache.tools.ant.TopLevelTaskTest
+24581,org.apache.tools.ant.taskdefs.GenerateKey
+24649,org.apache.tools.ant.taskdefs.EchoXML
+24856,org.apache.tools.ant.types.selectors.TypeSelectorTest
+24873,org.apache.tools.ant.types.Substitution
+24884,org.apache.tools.ant.types.resources.comparators.Date
+24890,C
+24935,org.apache.tools.ant.taskdefs.WarTest
+24944,org.apache.tools.ant.taskdefs.condition.IsSigned
+24976,org.apache.tools.ant.util.depend.bcel.DependencyVisitor
+25029,org.apache.tools.ant.taskdefs.optional.javah.Kaffeh
+25032,org.apache.tools.ant.util.SymlinkUtilsTest
+25036,org.apache.tools.ant.taskdefs.DirnameTest
+25051,org.apache.tools.ant.util.StringTokenizer
+25084,org.apache.tools.ant.filters.util.JavaClassHelper
+25099,org.apache.tools.ant.types.selectors.DependSelectorTest
+25118,org.apache.tools.ant.types.resources.comparators.FileSystem
+25128,org.apache.tools.ant.types.PermissionsTest
+25311,org.apache.tools.ant.taskdefs.launcher.OS2CommandLauncher
+25712,org.apache.tools.ant.util.GlobPatternMapper
+25724,org.example.junit.JUnit3NonTestMissed
+25735,org.apache.tools.ant.taskdefs.InitializeClassTest
+25747,org.apache.tools.ant.taskdefs.ChecksumTest
+25766,org.apache.tools.ant.taskdefs.compilers.Javac12
+25782,org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool
+25944,org.apache.tools.ant.taskdefs.optional.junit.TearDownOnVmCrash
+25981,org.apache.tools.ant.taskdefs.LoadFile
+25985,org.apache.tools.ant.types.resources.Sort
+25997,org.apache.tools.ant.taskdefs.ConditionTest
+26053,org.apache.tools.ant.taskdefs.Patch
+26087,org.apache.tools.ant.taskdefs.GUnzipTest
+26102,org.apache.tools.ant.taskdefs.email.MessageTest
+26139,org.apache.tools.ant.util.WorkerAnt
+26250,org.apache.tools.ant.taskdefs.optional.ejb.IPlanetDeploymentTool
+26251,org.apache.tools.ant.taskdefs.optional.ejb.JbossDeploymentTool
+26252,org.apache.tools.ant.taskdefs.optional.ejb.JonasDeploymentTool
+26465,org.apache.tools.ant.taskdefs.optional.NetRexxC
+26672,org.apache.tools.ant.taskdefs.optional.Native2AsciiTest
+26682,org.apache.tools.ant.taskdefs.MultiMapTest
+26948,org.apache.tools.ant.taskdefs.Rename
+27080,org.apache.tools.ant.taskdefs.SyncTest
+27140,org.apache.tools.ant.util.Watchdog
+27163,org.apache.tools.ant.util.PackageNameMapperTest
+27172,org.apache.tools.ant.util.PackageNameMapper
+27325,org.apache.tools.ant.taskdefs.JikesOutputParser
+27393,org.apache.tools.zip.ExtraFieldUtils
+27395,org.apache.tools.zip.UnparseableExtraFieldData
+27468,org.apache.tools.ant.filters.StringInputStream
+27476,org.apache.tools.ant.taskdefs.CVSPassTest
+27556,org.apache.tools.ant.taskdefs.Available
+27557,org.apache.tools.ant.taskdefs.Checksum
+27558,org.apache.tools.ant.taskdefs.UpToDate
+27559,org.apache.tools.ant.taskdefs.condition.And
+27560,org.apache.tools.ant.taskdefs.condition.IsFileSelected
+27561,org.apache.tools.ant.taskdefs.condition.IsTrue
+27562,org.apache.tools.ant.taskdefs.condition.Socket
+27564,org.apache.tools.ant.taskdefs.optional.net.FTP
+28070,org.apache.tools.ant.util.RetryHandler
+28099,org.apache.tools.ant.taskdefs.optional.jlink.jlink
+28256,A
+28260,org.apache.tools.ant.taskdefs.condition.ResourceContains
+28287,org.apache.tools.ant.taskdefs.Exit
+28384,org.apache.tools.ant.taskdefs.optional.jsp.JspC
+28386,org.apache.tools.ant.helper.SingleCheckExecutor
+28392,org.apache.tools.ant.taskdefs.CopyTest
+28452,org.apache.tools.ant.taskdefs.cvslib.RedirectingStreamHandler
+28461,org.apache.tools.ant.taskdefs.optional.junit.FailureRecorder
+28571,org.apache.tools.ant.taskdefs.RmicTest
+28586,org.apache.tools.ant.types.FilterSetTest
+28636,org.apache.tools.ant.taskdefs.SubAntTest
+28680,org.apache.tools.ant.taskdefs.Taskdef
+28682,org.apache.tools.ant.taskdefs.Typedef
+28689,org.apache.tools.ant.taskdefs.Dirname
+28790,org.apache.tools.ant.taskdefs.optional.ssh.SSHExec
+29103,org.apache.tools.ant.types.mappers.FilterMapper
+29117,org.apache.tools.ant.UnsupportedAttributeException
+29214,org.apache.tools.ant.taskdefs.TaskOutputStream
+29617,org.apache.tools.ant.taskdefs.optional.depend.DirectoryIterator
+29638,org.apache.tools.ant.launch.LocatorTest
+29683,org.apache.tools.tar.TarRoundTripTest
+29697,org.apache.tools.ant.taskdefs.optional.extension.resolvers.LocationResolver
+29708,org.example.junit.AbstractTestMissed
+29711,org.apache.tools.ant.taskdefs.Recorder
+29763,org.apache.tools.ant.taskdefs.RecorderEntry
+29783,org.apache.tools.ant.taskdefs.AntStructureTest
+29812,org.apache.tools.mail.ErrorInQuitException
+29818,B
+29820,org.apache.tools.ant.taskdefs.condition.ResourceExists
+29827,org.apache.tools.ant.types.FileSetTest
+29832,org.apache.tools.ant.types.resources.First
+29839,org.apache.tools.ant.types.resources.Archives
+29939,org.apache.tools.ant.types.resources.JavaResource
+30111,org.apache.tools.ant.taskdefs.optional.junit.Printer
+30116,Beta
+30122,E
+30128,org.apache.tools.ant.taskdefs.optional.PvcsTest
+30139,org.apache.tools.ant.taskdefs.condition.IsSignedTest
+30256,org.apache.tools.ant.types.optional.ScriptCondition
+30263,org.apache.tools.ant.taskdefs.Mkdir
+30544,org.apache.tools.ant.taskdefs.GUnzip
+30597,org.apache.tools.ant.util.FirstMatchMapper
+30604,org.apache.tools.ant.taskdefs.TouchTest
+30643,org.apache.tools.ant.attribute.IfTrueAttribute
+30652,org.apache.tools.ant.taskdefs.email.PlainMailer
+30682,org.apache.tools.ant.taskdefs.optional.ssh.SSHSession
+30901,org.apache.tools.ant.types.resources.selectors.Type
+30913,org.apache.tools.ant.taskdefs.ExecuteWatchdogTest
+30974,org.apache.tools.ant.AntClassLoaderTest
+31025,org.apache.tools.ant.util.regexp.Jdk14RegexpMatcherTest
+31037,org.apache.tools.ant.util.regexp.RegexpMatcherTest
+31079,org.apache.tools.ant.types.FileListTest
+31103,org.apache.tools.ant.taskdefs.Javadoc
+31623,org.apache.tools.ant.taskdefs.BindTargets
+31643,org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl
+31974,org.apache.tools.ant.taskdefs.optional.net.FTPTask
+32101,org.apache.tools.ant.util.optional.JavaxScriptRunner
+32151,org.apache.tools.ant.input.GreedyInputHandler
+32258,org.apache.tools.ant.taskdefs.PreSetDef
+32259,org.apache.tools.ant.UnsupportedElementException
+32803,org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckin
+32847,org.apache.tools.ant.filters.DynamicFilterTest
+33017,org.apache.tools.ant.util.LineOrientedOutputStreamRedirector
+33020,org.apache.tools.ant.taskdefs.UpToDateTest
+33234,org.apache.tools.ant.types.resources.BCFileSet
+33244,org.apache.tools.ant.taskdefs.TypedefTest
+33269,org.apache.tools.ant.taskdefs.Nice
+33285,org.apache.tools.ant.DispatchTaskTest
+33291,org.apache.tools.ant.taskdefs.optional.javacc.JJTree
+33380,org.apache.tools.ant.taskdefs.optional.javacc.JavaCC
+33438,org.apache.tools.ant.taskdefs.XmlnsTest
+33451,org.apache.tools.ant.util.depend.bcel.AncestorAnalyzer
+33882,org.apache.tools.ant.taskdefs.optional.junit.BatchTest
+33887,org.apache.tools.ant.util.CollectionUtilsTest
+33897,org.apache.tools.ant.types.resources.Intersect
+33909,org.apache.tools.ant.taskdefs.optional.depend.constantpool.IntegerCPInfo
+33916,org.apache.tools.ant.taskdefs.optional.clearcase.CCMkelem
+33972,org.apache.tools.ant.taskdefs.optional.SchemaValidateTest
+33986,org.apache.tools.ant.taskdefs.optional.SchemaValidate
+33994,test.Outer
+34019,org.apache.tools.ant.taskdefs.MoveTest
+34048,org.apache.tools.ant.taskdefs.Truncate
+34121,org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriterTest
+34165,org.apache.tools.ant.taskdefs.optional.native2ascii.Native2AsciiAdapterFactory
+34178,org.apache.tools.ant.types.RedirectorElementTest
+34270,org.apache.tools.ant.taskdefs.optional.javacc.JJDoc
+34317,org.apache.tools.ant.taskdefs.PathConvertTest
+34330,org.apache.tools.ant.taskdefs.RmicAdvancedTest
+34388,org.example.junit.MultilineAsserts
+34550,org.apache.tools.ant.taskdefs.optional.ANTLR
+34622,org.apache.tools.ant.taskdefs.Deltree
+34718,org.apache.tools.ant.types.resources.MappedResourceCollection
+34841,org.apache.tools.ant.util.ClasspathUtilsTest
+34854,org.apache.tools.ant.taskdefs.AntTest
+35033,org.apache.tools.ant.taskdefs.NiceTest
+35241,org.apache.tools.ant.taskdefs.Ear
+35263,org.apache.tools.ant.taskdefs.ExecuteJavaTest
+35293,org.apache.tools.ant.util.regexp.JakartaRegexpMatcherTest
+35304,Junk1
+35310,org.apache.tools.ant.taskdefs.Length
+35389,org.apache.tools.ant.taskdefs.TStampTest
+35414,org.apache.tools.ant.filters.EscapeUnicode
+35428,org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter
+35526,org.apache.tools.ant.types.CommandlineTest
+35551,org.apache.tools.ant.types.resources.selectors.And
+35559,org.apache.tools.ant.taskdefs.DemuxOutputTask
+35681,org.apache.tools.ant.taskdefs.MacroInstance
+35682,org.apache.tools.ant.taskdefs.MacroDef
+35688,org.apache.tools.ant.taskdefs.optional.XmlValidateTest
+35747,org.apache.tools.ant.util.regexp.JakartaOroRegexpTest
+35752,org.apache.tools.ant.taskdefs.optional.JspcTest
+35924,org.apache.tools.ant.taskdefs.optional.extension.Specification
+35931,DistributedAnnotationFactory
+35940,org.apache.tools.ant.types.mappers.CutDirsMapper
+35973,org.apache.tools.ant.taskdefs.DeltreeTest
+35980,org.apache.tools.ant.taskdefs.optional.extension.JarLibAvailableTask
+36241,org.apache.tools.ant.taskdefs.optional.i18n.TranslateTest
+36264,org.apache.tools.ant.listener.ProfileLogger
+36295,org.apache.tools.zip.UnsupportedZipFeatureException
+36313,org.apache.tools.ant.taskdefs.optional.jsp.WLJspc
+36364,org.apache.tools.ant.taskdefs.EchoTest
+36387,org.apache.tools.ant.util.facade.FacadeTaskHelperTest
+36395,org.apache.tools.ant.taskdefs.PropertyTest
+36418,org.apache.tools.ant.taskdefs.optional.clearcase.CCUnlock
+36447,org.apache.tools.ant.taskdefs.optional.jlink.JlinkTask
+36470,Junk1
+36477,org.apache.tools.ant.util.GlobPatternMapperTest
+36497,org.apache.tools.ant.taskdefs.optional.depend.DependTest
+36691,org.apache.tools.ant.taskdefs.Jikes
+36713,org.apache.tools.ant.taskdefs.optional.junit.JUnit4TestMethodAdapter
+36767,org.apache.tools.ant.taskdefs.optional.junit.CustomJUnit4TestAdapterCache
+36802,org.apache.tools.ant.taskdefs.launcher.Java13CommandLauncher
+36804,org.apache.tools.ant.taskdefs.launcher.VmsCommandLauncher
+36816,org.apache.tools.ant.filters.StripLineComments
+36852,org.apache.tools.ant.util.UnPackageNameMapperTest
+36862,org.apache.tools.ant.util.UnPackageNameMapper
+37178,org.apache.tools.ant.util.LineOrientedOutputStreamTest
+37208,org.apache.tools.ant.filters.ReplaceTokens
+37330,org.apache.tools.ant.taskdefs.optional.j2ee.WebLogicHotDeploymentTool
+37371,org.apache.tools.ant.taskdefs.RecorderTest
+37421,org.apache.tools.ant.taskdefs.optional.jsp.compilers.DefaultJspCompilerAdapter
+37428,org.apache.tools.ant.taskdefs.optional.junit.SuiteMethodTest
+37435,org.apache.tools.ant.taskdefs.Concat
+37611,org.apache.tools.ant.taskdefs.StyleTest
+37649,org.apache.tools.ant.listener.Log4jListener
+37698,Junk1
+37720,org.apache.tools.ant.types.resources.JavaResourceTest
+37732,org.apache.tools.ant.taskdefs.BUnzip2
+37765,org.apache.tools.ant.util.FileTokenizer
+37789,org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckout
+37794,org.apache.tools.ant.types.selectors.ModifiedSelectorTest
+38010,org.apache.tools.ant.taskdefs.Basename
+38024,org.apache.tools.ant.PropertyExpansionTest
+38334,org.apache.tools.ant.taskdefs.PropertyHelperTask
+38357,org.apache.tools.ant.types.resources.GZipResource
+38367,org.apache.tools.ant.taskdefs.Copyfile
+38493,org.apache.tools.ant.loader.AntClassLoader5Test
+38525,org.apache.tools.ant.taskdefs.optional.extension.resolvers.AntResolver
+38548,org.apache.tools.ant.taskdefs.condition.AntVersionTest
+38577,org.apache.tools.ant.listener.AnsiColorLogger
+38790,org.apache.tools.ant.filters.PrefixLines
+38791,org.apache.tools.ant.filters.StripLineBreaks
+38792,org.apache.tools.ant.filters.TabsToSpaces
+38854,org.apache.tools.ant.taskdefs.optional.pvcs.Pvcs
+38966,org.apache.tools.ant.util.DeweyDecimalTest
+39018,org.apache.tools.ant.taskdefs.GZip
+39048,Junk1
+39054,org.apache.tools.ant.taskdefs.Input
+39098,org.apache.tools.ant.input.SecureInputHandler
+39102,org.apache.tools.ant.types.MapperTest
+39152,org.apache.tools.ant.taskdefs.War
+39182,org.apache.tools.ant.taskdefs.CopydirTest
+39195,org.apache.tools.ant.taskdefs.ParallelTest
+39635,org.apache.tools.mail.MailPrintStream
+39653,org.apache.tools.ant.taskdefs.optional.ANTLRTest
+39677,org.apache.tools.ant.taskdefs.optional.CalcFileFilter
+39682,org.apache.tools.ant.taskdefs.optional.HTMLFilter
+39687,org.apache.tools.ant.types.selectors.SignedSelector
+39787,org.apache.tools.ant.taskdefs.email.EmailAddressTest
+39919,org.apache.tools.ant.taskdefs.FilterTest
+39963,org.apache.tools.ant.taskdefs.ResourceCount
+39984,org.apache.tools.ant.taskdefs.BZip2
+39992,org.apache.tools.ant.taskdefs.condition.HttpTest
+40001,org.apache.tools.ant.TaskConfigurationChecker
+40015,org.apache.tools.ant.taskdefs.DynamicTest
+40021,org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter
+40165,org.apache.tools.ant.taskdefs.DependSet
+40234,org.apache.tools.ant.taskdefs.email.UUMailer
+40242,org.apache.tools.ant.types.selectors.SignedSelectorTest
+40250,Junk1
+40256,org.apache.tools.ant.taskdefs.WhichResource
+40279,org.apache.tools.ant.taskdefs.JavaTest
+40530,org.apache.tools.ant.taskdefs.Classloader
+40565,org.apache.tools.ant.taskdefs.optional.junit.JUnitTaskTest
+40633,org.apache.tools.ant.taskdefs.Definer
+40809,org.apache.tools.ant.filters.NoNewLineTest
+40819,org.apache.tools.ant.taskdefs.MkdirTest
+40891,org.apache.tools.ant.util.FileUtilsTest
+40966,org.apache.tools.ant.types.AddTypeTest
+41124,org.apache.tools.ant.taskdefs.optional.junit.IgnoredTestResult
+41128,org.apache.tools.ant.taskdefs.optional.unix.Chgrp
+41137,org.apache.tools.ant.taskdefs.optional.depend.constantpool.DoubleCPInfo
+41144,org.apache.tools.ant.taskdefs.email.EmailTaskTest
+41151,org.apache.tools.ant.listener.BigProjectLogger
+41183,org.apache.tools.ant.listener.TimestampedLogger
+41528,org.apache.tools.ant.taskdefs.BasenameTest
+41548,org.apache.tools.ant.taskdefs.optional.RenameExtensions
+41566,org.apache.tools.ant.taskdefs.Move
+41569,org.apache.tools.ant.taskdefs.ZipTest
+41614,org.apache.tools.ant.taskdefs.optional.i18n.Translate
+41757,org.apache.tools.ant.taskdefs.cvslib.CvsVersion
+41789,org.apache.tools.ant.types.selectors.TokenizedPatternTest
+41799,A
+41801,APrivate
+41819,org.apache.tools.ant.types.TarFileSetTest
+41832,org.apache.tools.ant.taskdefs.CVSPass
+41913,org.apache.tools.ant.taskdefs.optional.junit.JUnitVersionHelperTest
+41937,Junk1
+41965,org.apache.tools.ant.taskdefs.optional.image.Image
+42178,org.apache.tools.ant.taskdefs.condition.IsReferenceTest
+42333,org.apache.tools.ant.taskdefs.optional.junit.TestIgnored
+42499,org.apache.tools.ant.taskdefs.optional.JavahTest
+42661,org.apache.tools.ant.taskdefs.dir1.B
+42665,org.apache.tools.ant.util.UnicodeUtilTest
+42669,org.apache.tools.ant.taskdefs.optional.depend.constantpool.FloatCPInfo
+42676,org.apache.tools.ant.taskdefs.condition.Xor
+42996,org.apache.tools.ant.taskdefs.optional.extension.resolvers.URLResolver
+43022,org.apache.tools.ant.util.DateUtilsTest
+43047,org.apache.tools.ant.taskdefs.optional.extension.Compatability
+43053,B
+43063,org.apache.tools.ant.taskdefs.optional.testing.Funtest
+43155,org.apache.tools.ant.taskdefs.optional.testing.BlockFor
+43156,org.apache.tools.ant.taskdefs.optional.testing.BuildTimeoutException
+43158,org.apache.tools.ant.filters.StripJavaCommentsTest
+43210,Junk1
+43236,org.apache.tools.ant.ProjectHelperRepositoryTest
+43312,org.apache.tools.ant.filters.EscapeUnicodeTest
+43322,org.apache.tools.ant.taskdefs.condition.HasFreeSpace
+43338,org.apache.tools.ant.taskdefs.optional.depend.constantpool.InvokeDynamicCPInfo
+43351,org.apache.tools.ant.types.XMLCatalogTest
+43594,org.apache.tools.ant.util.JavaEnvUtilsTest
+43612,org.apache.tools.ant.taskdefs.DefaultExcludes
+43685,org.apache.tools.ant.taskdefs.optional.extension.JarLibResolveTask
+43733,org.apache.tools.ant.util.depend.bcel.FullAnalyzer
+43903,org.apache.tools.ant.taskdefs.Componentdef
+43925,org.apache.tools.ant.taskdefs.condition.EqualsTest
+44052,org.example.junit.AbstractJUnit3TestMissed
+44206,org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunnerTest
+44300,org.apache.tools.ant.taskdefs.cvslib.CvsUser
+44411,org.apache.tools.ant.taskdefs.ImportTest
+44481,org.apache.tools.zip.ZipEncodingTest
+44514,org.apache.tools.ant.attribute.IfSetAttribute
+44520,Junk1
+44526,org.apache.tools.ant.types.resources.selectors.Name
+44557,org.apache.tools.ant.util.TaskLogger
+44572,org.apache.tools.ant.taskdefs.optional.clearcase.CCUnCheckout
+45051,org.apache.tools.ant.taskdefs.MacroDefTest
+45080,org.apache.tools.ant.util.regexp.JakartaOroMatcherTest
+45085,org.apache.tools.zip.UTF8ZipFilesTest
+45142,org.apache.tools.ant.taskdefs.optional.ReplaceRegExp
+45342,org.example.junit.NonTestMissed
+45456,org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter
+45459,org.apache.tools.ant.taskdefs.optional.net.FTPTest
+45702,org.apache.tools.ant.types.resources.comparators.Type
+45974,org.apache.tools.ant.taskdefs.optional.ReplaceRegExpTest
+46074,org.apache.tools.ant.taskdefs.HostInfo
+46129,org.apache.tools.ant.taskdefs.cvslib.ChangeLogParserTest
+46172,org.apache.tools.ant.util.java15.ProxyDiagnostics
+46200,Junk1
+46218,org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodHandleCPInfo
+46221,org.apache.tools.ant.types.selectors.MockComparator
+46290,org.apache.tools.ant.taskdefs.optional.clearcase.CCMklabel
+46358,org.apache.tools.ant.taskdefs.optional.XsltTest
+46370,org.apache.tools.ant.taskdefs.cvslib.ChangeLogTask
+46520,org.apache.tools.ant.helper.IgnoreDependenciesExecutor
+46532,org.apache.tools.ant.util.RegexpPatternMapper
+46557,org.apache.tools.ant.types.selectors.DepthSelectorTest
+46574,org.apache.tools.ant.taskdefs.ManifestClassPathTest
+46598,org.apache.tools.ant.types.resources.Files
+46674,org.example.junit.AbstractTestNotMissed
+46678,org.apache.tools.ant.taskdefs.JavadocTest
+46708,org.apache.tools.ant.taskdefs.LoadProperties
+46856,task.EchoLocation
+46859,org.apache.tools.ant.taskdefs.optional.junit.DOMUtilTest
+46869,org.apache.tools.ant.taskdefs.TestProcess
+46895,org.apache.tools.ant.types.mappers.RegexpPatternMapperTest
+47031,org.apache.tools.ant.taskdefs.SubAnt
+47177,org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbcTask
+47259,task.UUEncodeTask
+*Edges: 4184
+41799 41801 4
+41801 43053 4
+10840 10846 1
+30116 5124 2
+35931 12995 1
+4168 681 1
+682 700 1
+682 13646 1
+682 683 10
+682 11 1
+682 670 3
+682 128 12
+682 11012 5
+682 671 8
+682 672 1
+682 666 8
+16906 128 3
+16906 671 3
+16906 682 4
+16906 666 2
+18281 671 2
+18281 682 3
+18281 666 2
+30974 128 27
+30974 671 2
+30974 682 12
+30974 666 13
+30974 1065 36
+3932 128 12
+3932 682 2
+12462 11012 1
+683 695 1
+683 128 3
+683 679 4
+683 681 4
+11 10189 7
+1065 128 12
+1065 11 4
+1065 6072 1
+19113 1065 5
+697 695 3
+697 11 4
+697 9944 1
+697 3932 45
+697 703 1
+697 40633 4
+697 16596 1
+697 6051 2
+697 128 18
+697 671 1
+697 6072 3
+697 705 2
+697 681 10
+6051 697 4
+6051 6072 3
+6051 3932 8
+10188 10846 1
+10188 128 1
+10188 679 2
+10188 683 20
+10188 673 2
+10188 681 1
+22132 10188 1
+22132 6072 3
+22132 10189 5
+12465 128 4
+12466 128 4
+12464 128 6
+12464 672 4
+12464 11 2
+12464 854 2
+12464 699 1
+1008 19017 17
+1008 670 2
+1008 671 8
+1008 1014 4
+1008 8383 34
+1008 669 1
+1008 674 8
+1008 3386 7
+1008 667 1
+8275 128 38
+8275 1008 114
+8275 8383 1
+8275 1014 2
+8275 1065 41
+8275 1246 2
+33285 1065 4
+14245 681 1
+14244 681 1
+14160 681 1
+5916 681 1
+14247 681 1
+18293 128 16
+18293 683 7
+18293 11 5
+18293 1065 6
+12463 11 4
+12463 10189 1
+23956 1065 7
+16304 679 3
+16304 11 2
+7396 128 9
+7396 1065 10
+15225 11 12
+15225 10189 8
+15225 1065 25
+706 697 9
+706 29117 3
+706 11 2
+706 3932 5
+706 128 16
+706 32259 3
+706 705 4
+706 6072 7
+11398 128 4
+11398 11 37
+11398 706 40
+11398 1246 3
+14457 1065 5
+10189 671 2
+18510 695 9
+18510 128 6
+18510 10189 6
+18510 703 1
+18510 1065 15
+699 12466 2
+699 11 8
+699 701 2
+699 671 2
+699 679 8
+699 12463 2
+699 12462 8
+699 6072 3
+699 12461 2
+699 10188 1
+699 5936 3
+699 10835 2
+699 128 34
+699 12465 1
+699 12464 1
+699 660 1
+699 8142 4
+14243 128 2
+14243 683 16
+2152 10188 2
+2152 679 1
+2152 683 6
+15756 1009 1
+128 697 21
+128 695 2
+128 11 9
+128 663 4
+128 701 28
+128 699 1
+128 679 20
+128 672 3
+128 671 14
+128 666 2
+128 669 1
+128 664 1
+128 706 1
+128 674 1
+128 665 1
+128 681 14
+128 667 1
+128 700 1
+128 683 21
+128 670 1
+128 703 1
+128 682 4
+128 660 1
+695 128 4
+695 10189 3
+14267 695 7
+14267 128 1
+6072 11 7
+6072 10189 2
+6072 701 3
+6072 128 14
+6072 11012 2
+6072 679 1
+6072 669 1
+6072 705 1
+6072 8142 4
+6072 706 5
+6072 667 3
+8142 11012 2
+8142 6072 4
+8142 667 2
+43236 11 2
+43236 2242 2
+43236 669 2
+43236 8142 11
+14163 128 45
+14163 14243 7
+14163 5053 1
+14163 11 2
+14163 1065 1
+14163 1246 4
+38024 128 2
+38024 1065 3
+18878 671 5
+701 128 23
+701 10679 4
+11042 697 4
+11042 695 4
+11042 29117 2
+11042 11 2
+11042 35682 1
+11042 35681 1
+11042 701 2
+11042 128 5
+11042 705 1
+11042 6072 3
+11042 706 4
+11042 681 1
+679 695 4
+679 128 9
+679 4732 4
+679 6786 3
+679 10189 3
+679 681 6
+679 11042 3
+681 695 26
+681 128 5
+681 679 4
+681 1010 1
+681 11 4
+681 705 8
+681 11042 12
+703 695 3
+703 128 4
+703 1010 1
+703 11 2
+703 681 1
+40001 695 1
+40001 681 3
+9054 1065 14
+24574 1065 8
+705 697 6
+705 695 22
+705 11 2
+705 128 2
+705 679 3
+705 32259 3
+705 6072 3
+705 706 7
+705 681 39
+705 11042 31
+17011 128 1
+17011 1065 5
+29117 11 2
+32259 11 2
+10093 695 1
+10093 10188 3
+10093 683 23
+10093 673 2
+10093 10189 1
+10093 128 2
+10093 671 1
+10093 679 1
+10093 8113 2
+10093 705 1
+10093 681 3
+11024 695 2
+11024 128 1
+11024 705 2
+11024 11042 1
+21696 705 1
+21696 11024 2
+44514 695 1
+44514 128 1
+44514 705 1
+44514 11024 2
+30643 128 1
+30643 705 1
+30643 11024 2
+1009 681 1
+1010 11 1
+1010 705 3
+4812 128 3
+4812 671 1
+2564 4812 4
+2564 2563 3
+20928 11 1
+20928 4812 4
+10410 128 2
+10410 2564 4
+10410 4812 5
+10410 2563 4
+12496 128 3
+12496 671 6
+12496 1065 9
+32847 128 1
+32847 671 4
+32847 1065 7
+35414 2564 3
+35414 4812 3
+35414 17674 1
+43312 128 2
+43312 671 4
+43312 1065 7
+23673 3611 3
+23673 4812 7
+23673 10679 2
+23673 701 3
+5481 2564 3
+19440 13058 2
+19440 2564 4
+19440 4812 3
+19440 2563 4
+12659 128 22
+12659 671 34
+12659 1065 37
+14364 128 1
+14364 2564 4
+14364 4812 4
+14364 2563 4
+15677 128 2
+15677 15713 4
+15677 2564 4
+15677 4812 5
+15677 7432 2
+15677 2563 6
+2481 128 2
+2481 671 4
+2481 1065 8
+40809 1065 5
+38790 2564 4
+38790 4812 4
+38790 2563 2
+37208 671 1
+37208 2564 4
+37208 669 1
+37208 4812 3
+37208 2563 8
+37208 667 4
+22551 128 2
+22551 671 7
+22551 1065 10
+12761 2564 4
+12761 4812 5
+12761 2563 3
+27468 20887 3
+10851 4812 3
+43158 128 2
+43158 671 4
+43158 1065 7
+38791 2564 4
+38791 4812 3
+38791 2563 2
+36816 2564 4
+36816 4812 5
+36816 2563 2
+2544 2564 4
+2544 4812 4
+2544 2563 2
+38792 2564 4
+38792 4812 3
+38792 2563 2
+13023 13058 2
+13023 2564 4
+13023 4812 3
+13023 2563 4
+13709 13058 1
+13709 4812 5
+13709 673 1
+13709 7432 1
+14473 128 1
+14473 671 4
+14473 1065 16
+16557 695 1
+16557 128 5
+16557 671 1
+16557 18487 4
+16557 3509 1
+16557 4812 1
+18111 128 4
+18111 679 12
+18111 671 2
+18111 11042 3
+662 28386 1
+662 128 3
+662 11 1
+46520 28386 1
+46520 128 3
+46520 679 1
+46520 11 1
+11011 18111 21
+11011 700 1
+11011 11 3
+11011 854 1
+11011 10189 1
+11011 6794 3
+11011 128 6
+11011 671 4
+11011 679 8
+11011 705 1
+11011 6072 4
+11011 667 3
+17140 128 5
+17140 679 3
+17140 671 2
+17140 11 4
+17140 854 2
+17140 6072 1
+17140 10189 1
+28386 128 4
+660 21764 1
+660 19742 1
+660 3544 6
+32151 4430 3
+32151 671 1
+32151 660 3
+32151 3544 3
+21764 3544 5
+5053 3544 6
+39098 13646 2
+39098 660 3
+39098 3544 3
+5944 700 9
+5944 6027 6
+29638 700 8
+29638 1246 2
+38577 10188 1
+41151 2152 2
+41151 128 1
+41151 10188 9
+41151 683 8
+41151 2146 1
+4014 128 2
+4014 679 6
+4014 683 29
+4014 705 2
+4014 681 3
+37649 679 2
+37649 683 27
+37649 681 3
+23366 695 1
+23366 10188 2
+23366 683 4
+23366 11 1
+23366 17619 3
+23366 5936 1
+23366 23467 10
+23366 10846 1
+23366 128 6
+23366 671 1
+23366 17617 16
+23366 4700 2
+36264 10188 5
+36264 679 2
+36264 683 12
+36264 681 2
+12460 10188 2
+12460 683 1
+2146 2152 2
+2146 10188 1
+41183 10188 5
+20245 682 1
+23925 128 1
+23925 682 4
+23925 666 1
+38493 682 4
+38493 666 3
+38493 23925 2
+6786 128 3
+6786 12737 9
+6786 701 5
+12737 701 3
+10679 128 4
+10835 128 1
+10835 10679 3
+6168 695 7
+6168 11 1
+6168 6767 6
+6168 1011 10
+6168 128 1
+6168 87 20
+6168 671 2
+6168 15835 1
+6168 1012 2
+6168 681 3
+19724 128 2
+19724 1065 9
+3510 695 5
+3510 15713 2
+3510 1017 2
+3510 15677 3
+3510 6767 3
+3510 3508 6
+3510 128 1
+3510 1013 2
+3510 672 1
+3510 666 8
+3510 3509 1
+3510 681 2
+3510 3511 11
+3612 695 26
+3612 10188 4
+3612 11 3
+3612 1248 1
+3612 3615 7
+3612 128 44
+3612 671 3
+3612 679 3
+3612 3611 2
+3612 6072 3
+3612 681 17
+19397 11 3
+19397 1065 5
+18189 695 11
+18189 128 6
+18189 11 1
+18189 681 1
+29783 1065 7
+34854 695 3
+34854 128 28
+34854 5053 1
+34854 666 4
+34854 1065 48
+16567 697 3
+16567 695 6
+16567 128 2
+16567 15374 1
+16567 8142 2
+16567 6072 2
+16567 705 6
+16567 681 6
+16567 16596 2
+16596 681 1
+17439 128 1
+17439 1065 9
+2441 695 1
+2441 672 2
+2441 666 6
+2441 1248 1
+2441 1820 7
+2441 681 2
+16900 697 2
+16900 695 1
+16900 6072 1
+16900 3932 5
+16900 16596 2
+12178 695 3
+12178 128 2
+12178 681 6
+12178 11042 4
+27556 695 11
+27556 128 3
+27556 671 2
+27556 682 7
+27556 666 14
+27556 1248 1
+27556 1250 1
+27556 701 3
+27556 681 3
+10195 128 23
+10195 1065 32
+37732 695 3
+37732 3731 2
+37732 671 1
+37732 11 1
+37732 23321 1
+37732 667 1
+4795 128 2
+4795 671 2
+4795 1065 6
+39984 695 1
+39984 11 1
+39984 8670 3
+39984 3390 1
+3716 128 2
+3716 3731 2
+3716 1065 9
+38010 695 3
+38010 128 1
+38010 681 1
+41528 128 6
+41528 1065 12
+31623 695 2
+31623 128 1
+31623 679 1
+31623 6072 1
+31623 681 3
+23740 695 2
+23740 128 2
+23740 671 3
+23740 11 2
+23740 681 1
+41832 681 1
+27476 11 2
+27476 1065 12
+3579 695 2
+3579 128 1
+3579 3611 1
+3579 3615 1
+3579 3612 17
+3579 681 6
+17172 128 3
+17172 1065 8
+27557 1757 1
+27557 695 10
+27557 11 2
+27557 19231 3
+27557 128 4
+27557 1013 1
+27557 671 2
+27557 681 1
+27557 667 2
+25747 1065 17
+19968 12113 1
+19968 695 12
+19968 11 1
+19968 1017 12
+19968 1011 1
+19968 1246 1
+19968 1013 2
+19968 87 3
+19968 8250 6
+19968 681 4
+19968 3511 9
+40530 695 8
+40530 128 6
+40530 682 4
+40530 666 7
+40530 1248 2
+40530 681 1
+22977 4429 1
+22977 1252 1
+22977 681 1
+22977 667 1
+16695 695 2
+16695 681 1
+16695 7455 4
+43903 40633 2
+37435 695 8
+37435 1251 4
+37435 2060 1
+37435 19231 4
+37435 1013 1
+37435 671 2
+37435 666 2
+37435 16557 5
+37435 3509 1
+37435 669 1
+37435 681 1
+37435 667 2
+37435 1250 1
+37435 2238 1
+37435 4429 3
+37435 2242 1
+37435 2241 1
+37435 3386 1
+20345 128 3
+20345 671 4
+20345 1065 40
+18526 695 5
+18526 4732 7
+18526 701 4
+25997 1065 54
+3396 695 10
+3396 11 9
+3396 663 2
+3396 3389 2
+3396 1013 1
+3396 1008 3
+3396 671 6
+3396 3509 1
+3396 669 4
+3396 664 6
+3396 681 5
+3396 667 12
+3396 1017 3
+3396 1247 5
+3396 128 3
+3396 2238 3
+15951 695 3
+15951 671 2
+15951 666 7
+15951 11 4
+15951 1248 1
+15951 681 1
+28392 128 15
+28392 671 5
+28392 1065 72
+18557 1757 2
+18557 695 5
+18557 128 1
+18557 1008 1
+18557 11 1
+39182 1065 11
+38367 695 4
+38367 128 2
+38367 11 1
+38367 681 1
+1052 1065 11
+7437 6168 1
+9944 682 1
+9944 666 3
+9944 1248 2
+9944 5936 1
+9944 681 1
+9944 16596 3
+43612 1008 4
+43612 681 1
+9527 128 4
+9527 1008 3
+9527 1065 3
+40633 697 2
+40633 695 14
+40633 11 10
+40633 9944 2
+40633 16567 4
+40633 10189 1
+40633 3932 8
+40633 1250 2
+40633 16596 8
+40633 671 3
+40633 6072 2
+40633 681 8
+17240 25985 1
+17240 1757 32
+17240 695 11
+17240 1251 13
+17240 11 1
+17240 1017 4
+17240 6092 1
+17240 19231 2
+17240 1013 2
+17240 671 2
+17240 1008 3
+17240 1014 3
+17240 7459 1
+17240 681 1
+17240 667 1
+2009 1065 20
+34622 695 3
+34622 11 1
+34622 681 1
+35973 1065 5
+35559 11 2
+35559 681 1
+40165 1757 1
+40165 695 1
+40165 15419 3
+40165 6092 4
+40165 2060 2
+40165 1252 3
+40165 19231 4
+40165 1013 2
+40165 4429 3
+40165 666 7
+40165 17240 1
+40165 681 2
+40165 667 9
+24188 12464 1
+24188 681 1
+28689 695 3
+28689 128 1
+28689 681 1
+25036 128 3
+25036 1065 8
+25036 1246 2
+10381 695 1
+10381 128 1
+10381 681 1
+40015 128 4
+40015 1065 4
+35241 695 1
+35241 671 2
+35241 8453 7
+35241 1017 1
+35241 5682 4
+35241 9472 2
+35241 3384 2
+2209 695 4
+2209 128 1
+2209 2238 1
+2209 2239 1
+2209 669 1
+2209 2242 1
+2209 2241 1
+2209 681 1
+2209 667 3
+36364 695 2
+36364 128 6
+36364 671 2
+36364 2209 5
+36364 681 2
+24649 671 1
+24649 8113 2
+24649 11 2
+24649 14339 2
+24649 1012 1
+12169 1065 7
+24138 695 11
+24138 128 7
+24138 11 1
+24138 681 3
+3511 695 12
+3511 11 2
+3511 21163 11
+3511 6767 4
+3511 3508 3
+3511 1011 15
+3511 1246 1
+3511 12112 1
+3511 128 6
+3511 87 8
+3511 671 3
+3511 666 3
+3511 681 6
+10878 128 4
+10878 671 2
+10878 1065 5
+1011 695 3
+1011 8044 3
+1011 7225 1
+1011 1246 16
+1011 12112 6
+1011 128 5
+1011 87 1
+1011 15835 3
+1011 681 2
+1011 7455 3
+21206 695 3
+21206 27140 5
+21206 11 2
+21206 21163 3
+21206 4789 7
+21206 1011 8
+21206 1246 1
+21206 128 6
+21206 24498 4
+21206 87 6
+21206 672 1
+21206 666 3
+21206 682 8
+35263 128 4
+35263 87 4
+35263 666 2
+35263 21206 15
+8250 695 12
+8250 11 1
+8250 3508 4
+8250 2060 4
+8250 3389 2
+8250 1013 1
+8250 2048 1
+8250 87 8
+8250 1008 7
+8250 669 2
+8250 681 7
+8250 3511 9
+8250 667 6
+8250 21163 7
+8250 1017 2
+8250 1247 5
+8250 1252 2
+8250 1250 1
+8250 1011 9
+8250 2238 1
+8250 15835 1
+8250 4429 1
+12112 27140 6
+30913 12112 11
+30913 672 1
+30913 1011 1
+28287 695 3
+28287 128 1
+28287 4732 1
+28287 11 1
+28287 12463 1
+28287 701 4
+28287 681 1
+16391 12113 3
+16391 695 7
+16391 11 1
+16391 1252 1
+16391 1247 5
+16391 6794 4
+16391 1013 1
+16391 671 6
+16391 4429 1
+16391 3386 2
+16391 3030 3
+16391 681 3
+16391 667 4
+18679 128 5
+18679 11 4
+18679 1065 21
+22371 695 3
+22371 128 2
+22371 663 2
+22371 681 1
+39919 1065 14
+7534 1757 2
+7534 695 1
+7534 11 1
+7534 1017 1
+7534 1250 10
+7534 671 7
+7534 1008 1
+7534 3509 1
+7534 5481 12
+7489 1065 38
+30544 695 1
+30544 671 1
+30544 11 1
+30544 23321 1
+30544 667 1
+26087 128 2
+26087 671 2
+26087 1065 7
+39018 695 1
+39018 11 1
+39018 8670 3
+24581 672 1
+24581 681 3
+24581 3511 5
+21522 695 9
+21522 1251 5
+21522 11 1
+21522 15374 1
+21522 1247 5
+21522 128 1
+21522 671 1
+21522 681 2
+21522 667 3
+23502 1065 13
+8508 1065 13
+46074 695 1
+46074 128 1
+46074 681 3
+17336 695 16
+17336 11 2
+17336 15374 1
+17336 1252 2
+17336 10189 6
+17336 128 6
+17336 671 2
+17336 679 1
+17336 4429 4
+17336 669 1
+17336 8142 2
+17336 6072 21
+17336 681 4
+17336 667 4
+44411 128 3
+44411 11 3
+44411 10189 1
+44411 1065 28
+25735 128 1
+25735 671 2
+25735 1065 4
+39054 695 4
+39054 128 4
+39054 21764 1
+39054 673 1
+39054 3544 3
+39054 681 2
+5034 128 4
+5034 5053 1
+5034 1065 16
+3740 695 10
+3740 128 1
+3740 682 3
+3740 666 7
+3740 11 3
+3740 1248 1
+3740 3615 3
+3740 681 1
+5682 695 13
+5682 2791 7
+5682 8453 24
+5682 11 4
+5682 1488 3
+5682 3384 5
+5682 1250 5
+5682 9473 4
+5682 6794 2
+5682 1272 24
+5682 671 1
+5682 666 5
+5682 9472 1
+5682 3030 2
+5682 667 2
+18341 1272 2
+18341 128 6
+18341 671 2
+18341 1065 48
+5810 695 17
+5810 11 6
+5810 1248 1
+5810 21206 8
+5810 3508 3
+5810 4789 43
+5810 1246 1
+5810 24498 4
+5810 10234 2
+5810 4736 1
+5810 87 1
+5810 666 7
+5810 12463 1
+5810 681 9
+5810 21163 23
+5810 19742 1
+5810 6767 4
+5810 1011 15
+5810 128 6
+5810 12112 1
+5810 3611 1
+40279 5810 5
+40279 695 1
+40279 128 14
+40279 671 2
+40279 1065 27
+1820 1757 2
+1820 695 21
+1820 11 1
+1820 1248 3
+1820 1816 2
+1820 7083 14
+1820 3389 2
+1820 6413 1
+1820 128 8
+1820 671 2
+1820 672 6
+1820 1008 1
+1820 666 43
+1820 25712 1
+1820 681 2
+1783 1757 2
+1783 128 13
+1783 1820 51
+1783 1816 2
+31103 12113 5
+31103 2294 2
+31103 695 31
+31103 11 7
+31103 1248 4
+31103 1013 2
+31103 2048 2
+31103 1008 8
+31103 87 100
+31103 671 10
+31103 672 1
+31103 666 45
+31103 681 3
+31103 667 1
+31103 1017 11
+31103 1250 1
+31103 1011 5
+31103 128 5
+31103 15835 1
+46678 11 12
+46678 1065 19
+36691 128 3
+36691 671 2
+36691 27325 2
+36691 1011 5
+27325 681 3
+22844 681 1
+35310 2691 3
+35310 695 1
+35310 1251 3
+35310 11 1
+35310 6546 1
+35310 1250 1
+35310 1013 1
+35310 669 1
+35310 1012 1
+35310 681 1
+35310 667 3
+25981 669 1
+25981 16526 2
+13761 128 6
+13761 1065 14
+46708 695 4
+46708 11 1
+46708 1248 1
+46708 3615 4
+46708 8425 4
+46708 666 3
+46708 16557 5
+46708 669 1
+46708 3509 1
+46708 29939 2
+46708 681 2
+46708 667 4
+16526 695 3
+16526 11 3
+16526 128 1
+16526 671 1
+16526 3509 1
+16526 16557 6
+16526 681 3
+16526 667 4
+6781 695 1
+6781 6786 2
+6781 681 1
+1012 2294 2
+1012 695 4
+1012 681 1
+7225 695 1
+7225 15835 5
+7225 1012 2
+7225 681 1
+35682 697 2
+35682 695 4
+35682 10189 1
+35682 3932 2
+35682 16596 10
+35682 705 7
+35682 6072 1
+35682 681 1
+35682 11042 2
+45051 11 1
+45051 1065 26
+35681 695 10
+35681 679 2
+35681 6786 3
+35681 11 2
+35681 35682 13
+35681 6072 2
+35681 705 23
+35681 681 13
+35681 11042 13
+4643 695 3
+4643 11 2
+4643 1017 1
+4643 128 2
+4643 1013 1
+4643 671 2
+4643 1008 2
+4643 666 2
+4643 681 3
+11150 128 1
+11150 1065 14
+1272 671 1
+1272 1488 3
+1272 670 1
+19495 700 1
+19495 695 2
+19495 128 2
+19495 671 4
+19495 666 3
+19495 681 1
+46574 1143 2
+46574 128 1
+46574 1065 32
+46574 1246 3
+7995 1272 10
+7995 695 4
+7995 11 4
+7995 1488 2
+7995 1250 2
+7995 681 1
+14052 1272 17
+14052 128 5
+14052 1065 34
+1757 12113 1
+1757 5891 1
+1757 695 3
+1757 13163 1
+1757 13159 1
+1757 1013 2
+1757 1008 1
+1757 13160 1
+1757 681 1
+1757 13155 1
+1757 13161 1
+1757 13157 1
+1757 7807 1
+1757 13153 1
+1757 13152 1
+1757 13154 1
+1757 1017 38
+1757 13151 1
+1757 13164 1
+1757 128 1
+1757 13156 1
+1757 13158 1
+1757 9511 1
+1757 12648 1
+1757 13165 1
+30263 695 2
+30263 11 1
+30263 681 1
+40819 1065 7
+41566 695 8
+41566 11 3
+41566 1017 2
+41566 128 1
+41566 1013 1
+41566 671 9
+41566 1008 2
+41566 3396 24
+41566 664 3
+34019 128 19
+34019 671 3
+34019 1065 42
+26682 1065 10
+33269 695 1
+33269 128 1
+33269 681 1
+35033 1065 9
+8670 695 3
+8670 669 2
+8670 681 3
+8670 667 10
+22287 11 3
+22287 12463 2
+22287 10189 1
+22287 681 2
+39195 128 8
+39195 12466 2
+39195 12463 4
+39195 1065 14
+26053 695 7
+26053 128 1
+26053 87 15
+26053 7225 1
+26053 11 1
+26053 1011 6
+26053 681 3
+1152 695 5
+1152 1251 6
+1152 11 1
+1152 1248 4
+1152 1252 1
+1152 1247 5
+1152 1250 2
+1152 128 1
+1152 666 2
+1152 681 2
+34317 1065 6
+32258 697 3
+32258 695 1
+32258 6072 2
+32258 705 3
+32258 3932 1
+32258 681 1
+32258 16596 2
+14282 1065 16
+21938 8044 6
+8133 8142 1
+8133 6072 1
+8133 681 1
+3615 695 16
+3615 11 1
+3615 1248 6
+3615 1011 1
+3615 701 6
+3615 10835 2
+3615 128 5
+3615 671 1
+3615 666 8
+3615 682 1
+3615 681 1
+38334 695 3
+38334 128 1
+38334 701 4
+38334 681 1
+36395 128 5
+36395 671 2
+36395 11 3
+36395 1065 15
+5664 128 1
+5664 5682 9
+5664 1065 6
+15835 4430 6
+29711 29763 12
+29711 695 6
+29711 128 4
+29711 2239 1
+29711 683 10
+29711 1250 1
+29711 681 1
+29763 128 5
+29763 679 4
+29763 683 21
+29763 681 1
+37371 128 12
+37371 671 7
+37371 1065 10
+21163 695 15
+21163 19088 2
+21163 16864 2
+21163 4430 2
+21163 2642 3
+21163 4590 4
+21163 1011 1
+21163 20887 3
+21163 11665 5
+21163 128 2
+21163 33017 2
+21163 15835 1
+21163 16557 12
+21163 1012 2
+21163 681 1
+21163 4427 2
+26948 695 3
+26948 128 1
+26948 671 2
+26948 11 1
+26948 681 1
+22110 1065 7
+13192 1757 2
+13192 695 8
+13192 11 6
+13192 1252 2
+13192 671 5
+13192 1008 1
+13192 4429 1
+13192 669 3
+13192 667 10
+7620 128 3
+7620 1065 17
+39963 2691 3
+39963 695 1
+39963 128 1
+39963 11 4
+39963 1248 3
+39963 681 1
+18591 695 1
+18591 681 6
+15105 1757 2
+15105 695 11
+15105 11 3
+15105 1248 1
+15105 673 1
+15105 7083 8
+15105 3389 2
+15105 6413 1
+15105 128 3
+15105 1008 1
+15105 671 3
+15105 666 16
+15105 682 3
+15105 20828 1
+15105 664 1
+34330 1065 46
+28571 1757 1
+28571 128 6
+28571 15105 12
+4220 3740 5
+4220 695 7
+4220 4430 2
+4220 1252 2
+4220 673 1
+4220 1250 2
+4220 128 2
+4220 1013 1
+4220 4429 1
+4220 669 1
+4220 4427 1
+4220 667 5
+20014 3740 17
+20014 695 1
+20014 128 1
+20014 4220 41
+20014 666 1
+20014 11 3
+20014 1250 2
+10707 8272 1
+8668 695 1
+8668 6786 3
+8668 681 3
+16686 24944 1
+16686 11 7
+16686 3510 25
+16686 671 4
+16686 2238 1
+16686 669 4
+16686 667 1
+16686 3511 2
+16662 3510 12
+16662 695 1
+16662 128 3
+16662 672 1
+16662 1065 15
+16662 16686 2
+19748 681 2
+1492 1065 9
+4430 671 1
+37611 128 6
+37611 671 9
+37611 1065 18
+47031 695 3
+47031 11 5
+47031 1248 1
+47031 2060 1
+47031 3615 26
+47031 128 2
+47031 1013 1
+47031 2048 1
+47031 3611 1
+47031 666 11
+47031 3612 21
+47031 681 7
+28636 128 9
+28636 1065 13
+19120 12113 2
+19120 695 8
+19120 9520 1
+19120 1251 3
+19120 1017 11
+19120 19231 2
+19120 1013 1
+19120 1008 7
+19120 3396 12
+19120 9511 1
+19120 681 7
+27080 128 18
+27080 1065 44
+35389 695 2
+35389 128 6
+35389 10189 1
+35389 17762 8
+3224 1757 1
+3224 695 23
+3224 3391 14
+3224 11 1
+3224 3389 2
+3224 1013 1
+3224 671 3
+3224 1008 2
+3224 669 5
+3224 3392 12
+3224 3387 4
+3224 667 13
+3224 3385 1
+3224 1017 3
+3224 1250 1
+3224 3384 19
+3224 3395 20
+3224 3388 1
+3224 2238 1
+3224 3386 1
+2251 128 2
+2251 671 2
+2251 1065 18
+29214 681 3
+28680 28682 1
+28680 40633 2
+4106 1065 14
+9234 1065 2
+17241 695 2
+17241 128 2
+17241 671 2
+17241 681 1
+17504 695 5
+17504 11 2
+17504 1017 2
+17504 2060 1
+17504 1252 2
+17504 1247 2
+17504 1013 1
+17504 128 1
+17504 671 3
+17504 1008 1
+17504 4429 1
+17504 669 1
+17504 681 2
+17504 667 7
+30604 671 2
+30604 1065 13
+19935 8250 1
+34048 695 1
+34048 671 2
+34048 666 4
+34048 11 1
+34048 669 1
+34048 681 2
+34048 667 1
+17762 695 3
+17762 128 1
+17762 681 1
+15454 1065 9
+28682 40633 1
+33244 128 2
+33244 1065 13
+23321 695 3
+23321 128 2
+23321 669 1
+23321 681 1
+23321 667 8
+24091 9958 2
+24091 695 6
+24091 3391 3
+24091 11 2
+24091 671 2
+24091 16391 4
+24091 681 2
+24091 667 6
+22653 128 4
+22653 671 2
+22653 1065 10
+16359 128 4
+16359 671 2
+16359 1065 25
+27558 695 7
+27558 1017 2
+27558 1252 3
+27558 1247 6
+27558 3389 4
+27558 3388 1
+27558 128 1
+27558 1013 1
+27558 2238 1
+27558 1008 1
+27558 4429 2
+27558 681 1
+33020 1065 8
+3468 3510 12
+3468 11 2
+3468 3509 1
+3468 3508 2
+3468 3511 1
+3468 667 1
+21813 695 4
+21813 128 1
+21813 4732 11
+39152 671 2
+39152 8453 9
+39152 1017 1
+39152 5682 4
+39152 9472 4
+39152 3384 4
+24935 128 1
+24935 1065 6
+40256 695 7
+40256 128 4
+40256 682 3
+40256 666 10
+40256 1248 1
+40256 681 1
+23493 128 3
+23493 1065 9
+4980 1757 2
+4980 695 14
+4980 1251 3
+4980 11 2
+4980 1248 1
+4980 1008 2
+4980 671 3
+4980 666 7
+4980 669 6
+4980 2199 4
+4980 681 3
+4980 667 13
+4980 6767 1
+4980 1247 5
+4980 1252 1
+4980 128 3
+4980 3611 1
+4980 2238 1
+4980 4429 2
+4980 682 4
+22073 695 11
+22073 128 8
+22073 671 2
+22073 666 4
+22073 669 2
+22073 2199 3
+22073 681 4
+22073 667 10
+21986 695 1
+21986 128 13
+21986 671 2
+21986 22073 8
+21986 1065 13
+33438 1065 9
+8453 1757 2
+8453 695 31
+8453 11 2
+8453 8450 2
+8453 19354 2
+8453 1013 6
+8453 671 9
+8453 1008 8
+8453 14356 4
+8453 669 2
+8453 9472 3
+8453 681 1
+8453 667 34
+8453 3385 1
+8453 2791 28
+8453 1017 7
+8453 1252 2
+8453 1250 2
+8453 3384 21
+8453 3388 2
+8453 6794 7
+8453 2238 3
+8453 4429 1
+8453 3030 13
+8428 6794 3
+8428 8453 4
+8428 5682 1
+8428 3030 3
+41569 6794 8
+41569 128 8
+41569 3030 4
+41569 1065 39
+2413 2442 3
+2413 87 11
+2413 11 2
+2413 2441 7
+8396 2442 5
+8396 2413 1
+8396 87 4
+8396 2441 2
+1816 695 1
+1816 128 1
+1816 672 1
+1816 666 1
+1816 5936 1
+1816 681 2
+2442 695 2
+2442 7225 1
+2442 11 2
+2442 1820 38
+2442 10189 1
+2442 1011 7
+2442 1246 1
+2442 128 3
+2442 87 49
+2442 671 2
+2442 672 3
+2442 666 29
+15987 1757 1
+15987 128 1
+15987 2442 1
+15987 87 2
+15987 1820 3
+5940 2442 8
+5940 87 15
+5940 666 7
+5940 1820 6
+25766 2442 2
+25766 672 1
+25766 671 1
+25766 87 1
+25766 11 1
+25766 1012 1
+1817 2442 2
+1817 87 1
+1817 11 1
+1818 2442 10
+1818 672 1
+1818 671 1
+1818 87 7
+1818 1820 1
+1818 1246 1
+5937 128 8
+5937 2442 7
+5937 87 34
+5937 666 8
+5937 1820 5
+5938 128 2
+5938 2442 8
+5938 87 14
+5938 666 7
+5938 1820 1
+5939 2442 6
+5939 87 13
+5939 666 7
+5939 21206 2
+4135 2442 4
+4135 87 3
+4135 1820 1
+27559 4732 2
+20745 695 2
+20745 128 5
+20745 2163 9
+20745 681 1
+38548 1065 5
+4732 27558 1
+4732 695 1
+4732 23218 1
+4732 22173 1
+4732 14994 1
+4732 12647 1
+4732 1246 1
+4732 27557 1
+4732 17261 1
+4732 15823 1
+4732 27559 1
+4732 27556 1
+4732 27562 1
+4732 16431 1
+4732 9063 1
+4732 4730 1
+4732 27560 1
+4732 27561 1
+20468 15823 5
+43925 14994 12
+12647 671 2
+43322 672 1
+43322 673 1
+43322 13623 2
+2494 695 3
+2494 128 1
+2494 682 6
+2494 666 7
+2494 1248 1
+17261 695 3
+39992 1065 10
+11100 1011 1
+21909 1065 4
+16431 695 1
+27560 695 2
+27560 128 1
+27560 671 2
+27560 13085 4
+16605 1065 8
+17465 695 3
+17465 11 1
+17465 1250 6
+17465 667 3
+10340 695 8
+10340 11 3
+16741 1065 12
+22173 695 5
+22173 128 4
+22173 1248 3
+42178 1065 11
+9063 695 2
+9063 128 1
+24944 6794 5
+24944 695 3
+24944 2090 1
+24944 3030 1
+30139 1065 7
+27561 695 1
+16640 695 2
+16640 15713 5
+16640 7432 1
+4730 4732 4
+23218 4732 2
+3126 695 5
+3126 128 1
+3126 11 3
+3126 854 2
+18785 1065 10
+28260 128 5
+28260 671 1
+28260 669 1
+28260 667 3
+29820 695 1
+29820 667 3
+16437 2238 1
+16437 4429 3
+16437 1252 2
+16437 667 2
+27562 695 2
+12585 697 3
+12585 695 4
+12585 6072 1
+12585 3932 1
+10864 1065 10
+42676 4732 2
+1074 1065 10
+6170 8114 2
+2295 6170 3
+46129 6170 4
+46129 2295 13
+46370 695 5
+46370 11 4
+46370 8090 1
+46370 1017 1
+46370 28452 2
+46370 2295 2
+46370 128 2
+46370 1013 1
+46370 6168 25
+46370 6170 8
+46370 1008 1
+46370 41757 2
+46370 681 3
+46370 44300 4
+8090 8114 3
+8090 6170 7
+8090 8113 4
+8090 7160 9
+34121 6170 3
+34121 8090 2
+34121 854 1
+23038 6168 18
+23038 671 2
+23038 8113 4
+23038 7160 5
+23038 670 1
+23038 23139 14
+23038 681 3
+44300 11 2
+41757 6168 5
+41757 695 2
+41757 128 2
+2287 2294 1
+2287 2295 3
+28452 15835 6
+28452 2295 1
+28452 2287 1
+42661 22147 1
+39787 4700 23
+8272 695 8
+8272 11 4
+8272 17619 9
+8272 5936 2
+8272 1250 1
+8272 17618 1
+8272 128 1
+8272 1013 1
+8272 666 6
+8272 669 1
+8272 17617 22
+8272 4700 13
+8272 681 1
+8272 667 1
+41144 1065 5
+17617 10846 1
+17617 17619 2
+17617 4700 2
+17617 681 2
+17619 695 3
+17619 128 2
+26102 695 1
+26102 128 1
+26102 671 2
+26102 17619 3
+17520 17619 6
+17520 17617 5
+17520 4700 7
+17520 681 1
+17520 17618 2
+30652 17619 5
+30652 17617 3
+30652 4700 1
+30652 681 1
+30652 23467 13
+30652 17618 2
+40234 10436 2
+40234 30652 1
+7455 128 11
+7455 671 1
+7455 87 1
+7453 7455 4
+36802 128 2
+36802 87 1
+36802 7455 2
+17390 7453 4
+17390 7455 1
+25311 128 1
+25311 7453 4
+25311 7455 1
+9860 128 3
+9860 671 1
+9860 7453 4
+9860 7455 1
+11827 128 3
+11827 671 1
+11827 7453 4
+11827 7455 1
+36804 36802 1
+36804 671 1
+36804 7455 1
+7441 128 1
+7441 7453 4
+7441 7455 1
+34550 695 7
+34550 4789 21
+34550 1011 5
+34550 1246 1
+34550 11665 1
+34550 128 2
+34550 11012 1
+34550 671 2
+34550 672 1
+34550 15835 1
+34550 666 3
+34550 682 2
+34550 1012 2
+34550 681 2
+39653 1065 29
+856 671 2
+24038 1065 4
+18609 2294 2
+18609 1757 2
+18609 695 8
+18609 4430 4
+18609 11 2
+18609 1017 2
+18609 1011 2
+18609 1246 1
+18609 128 1
+18609 1013 1
+18609 671 4
+18609 1008 2
+18609 1012 2
+18609 3511 15
+13892 695 14
+13892 11 6
+13892 1250 1
+13892 128 1
+13892 671 1
+13892 3611 4
+13892 8113 2
+13892 681 7
+1088 1143 1
+1088 128 1
+1088 1065 23
+4472 695 9
+4472 7082 3
+4472 1248 2
+4472 1017 1
+4472 7083 8
+4472 6413 2
+4472 1013 1
+4472 87 4
+4472 1008 1
+4472 666 20
+4472 681 1
+42499 128 2
+42499 1065 8
+35752 18710 2
+35752 1065 7
+8659 1757 2
+8659 695 4
+8659 1247 5
+8659 7083 8
+8659 3389 2
+8659 34165 3
+8659 128 1
+8659 6413 2
+8659 1008 1
+8659 666 1
+26672 128 2
+26672 671 2
+26672 1065 7
+26465 1757 2
+26465 695 33
+26465 128 63
+26465 1008 1
+26465 671 2
+26465 1250 4
+26465 681 8
+22528 695 3
+22528 671 2
+22528 15207 1
+22528 681 1
+22478 695 1
+22478 128 11
+22478 22528 2
+22478 1065 9
+30128 1065 9
+41548 1757 1
+41548 695 2
+41548 1017 1
+41548 1247 3
+41548 1250 1
+41548 3396 5
+41548 41566 1
+41548 681 5
+45142 695 5
+45142 11 1
+45142 15713 8
+45142 1252 2
+45142 7432 1
+45142 24873 8
+45142 1013 1
+45142 671 5
+45142 4429 1
+45142 681 2
+45142 667 1
+45974 128 3
+45974 671 3
+45974 1065 14
+8632 1065 4
+6032 1065 14
+2474 695 7
+2474 7225 2
+2474 11 1
+2474 1011 8
+2474 1246 1
+2474 128 1
+2474 87 12
+2474 671 2
+2474 15835 1
+2474 666 2
+2474 1012 4
+2474 681 2
+2458 695 1
+2458 11 1
+2458 2474 3
+33986 11686 12
+33986 11 6
+33986 681 2
+33972 1065 12
+9547 695 1
+9547 666 2
+9547 3120 1
+9547 1248 1
+9547 9567 11
+9547 681 1
+857 695 2
+857 128 5
+857 671 6
+857 854 3
+857 669 2
+857 4980 6
+857 667 11
+807 854 1
+807 856 6
+807 857 2
+11686 695 10
+11686 11 6
+11686 1248 1
+11686 1017 2
+11686 854 2
+11686 11823 1
+11686 1013 1
+11686 128 1
+11686 671 2
+11686 1008 1
+11686 666 7
+11686 682 2
+11686 2199 4
+11686 681 3
+19055 1065 5
+35688 11 2
+35688 1065 17
+46358 1065 10
+4624 1013 1
+4624 695 3
+4624 1008 1
+4624 87 10
+4624 11 1
+4624 1017 2
+4624 1011 1
+4624 6610 4
+4621 4624 3
+4621 6610 1
+5686 4624 3
+5686 6610 1
+37789 4624 2
+37789 6610 1
+21286 695 2
+21286 87 21
+21286 11 2
+21286 1011 1
+21286 681 1
+21286 6610 7
+6587 695 1
+6587 87 9
+6587 11 1
+6587 1011 1
+6587 6610 5
+6610 695 3
+6610 128 1
+6610 671 1
+6610 87 3
+6610 7225 1
+6610 1011 5
+6610 681 1
+32803 2631 9
+32803 695 3
+32803 128 2
+32803 87 17
+32803 11 1
+32803 1011 1
+22761 2631 13
+22761 695 4
+22761 128 3
+22761 87 31
+22761 11 1
+22761 1011 1
+13713 2631 7
+13713 695 3
+13713 128 2
+13713 87 17
+13713 11 1
+13713 1011 1
+3164 2631 9
+3164 695 3
+3164 128 2
+3164 87 22
+3164 11 1
+3164 1011 1
+3164 1246 1
+11289 2631 7
+11289 695 3
+11289 128 2
+11289 87 17
+11289 11 1
+11289 1011 1
+7112 2631 9
+7112 695 3
+7112 128 2
+7112 87 14
+7112 11 1
+7112 1011 1
+33916 2631 9
+33916 695 3
+33916 128 2
+33916 87 21
+33916 11 1
+33916 1011 1
+46290 2631 9
+46290 695 3
+46290 128 2
+46290 87 20
+46290 11 1
+46290 1011 1
+20187 2631 5
+20187 695 2
+20187 128 1
+20187 87 18
+20187 11 1
+20187 1011 1
+2581 2631 5
+2581 695 2
+2581 128 1
+2581 87 16
+2581 11 1
+2581 1011 1
+44572 2631 9
+44572 695 3
+44572 128 2
+44572 87 8
+44572 11 1
+44572 1011 1
+36418 2631 14
+36418 695 3
+36418 128 2
+36418 87 12
+36418 11 1
+36418 1011 1
+18419 2631 9
+18419 695 4
+18419 128 3
+18419 87 16
+18419 11 1
+18419 1011 1
+2631 695 3
+2631 128 2
+2631 671 1
+2631 87 6
+2631 7225 1
+2631 1011 5
+2631 681 1
+2631 3511 5
+1763 2706 4
+1763 671 1
+1763 10485 2
+10485 1764 2
+10485 2101 3
+10485 2114 1
+10485 2115 7
+1563 1757 2
+1563 695 6
+1563 1248 1
+1563 1763 1
+1563 128 2
+1563 1764 2
+1563 671 4
+1563 1008 1
+1563 666 19
+1563 682 2
+36497 128 1
+36497 1008 1
+36497 1017 1
+36497 1065 14
+29617 10485 2
+10470 10485 2
+2101 2114 3
+2101 2116 1
+2101 2115 1
+8177 2114 2
+2115 2114 7
+2115 2116 1
+2115 9193 2
+2115 9190 3
+2115 2101 1
+2115 8177 1
+2115 9191 3
+2115 9192 3
+2114 46218 1
+2114 8171 1
+2114 33909 1
+2114 2116 1
+2114 41137 1
+2114 9193 1
+2114 9190 1
+2114 43338 1
+2114 2101 1
+2114 9191 1
+2114 2115 1
+2114 42669 1
+2114 14255 1
+2114 20325 1
+2114 9192 1
+41137 8177 4
+9190 2101 2
+9190 2114 4
+9190 2115 2
+9190 9193 3
+42669 8177 4
+33909 8177 4
+9191 2101 2
+9191 2114 4
+9191 2115 2
+9191 9193 3
+43338 8177 2
+43338 2114 2
+43338 2115 1
+43338 9193 4
+8171 8177 4
+46218 2114 6
+46218 2115 1
+9192 2101 2
+9192 2114 4
+9192 2115 2
+9192 9193 3
+14255 8177 2
+14255 2114 3
+14255 2116 1
+14255 2115 1
+9193 2114 4
+9193 2116 2
+9193 2115 2
+20325 8177 5
+20325 2114 1
+20325 2116 1
+20325 2115 1
+2116 2114 2
+5695 5813 3
+5695 5810 6
+5695 695 5
+5695 5811 35
+5695 11 1
+5695 2200 2
+5695 1011 6
+5695 128 3
+5695 87 14
+5695 666 1
+5695 5812 5
+5695 681 2
+5695 3511 10
+5812 5810 14
+5812 695 1
+5812 666 9
+5812 1248 1
+5812 681 1
+5812 3511 24
+5813 695 1
+5813 128 1
+5813 681 2
+5816 1757 2
+5816 695 1
+5816 5811 5
+5816 1250 8
+5816 5695 1
+5816 26252 1
+5816 26250 1
+5816 25782 1
+5816 14155 1
+5816 1013 2
+5816 26251 1
+5816 1008 2
+5816 666 4
+5816 14139 1
+5811 5813 8
+5811 695 5
+5811 11 2
+5811 1017 2
+5811 10189 1
+5811 1250 8
+5811 2200 2
+5811 128 1
+5811 1008 2
+5811 16422 1
+5811 666 8
+5811 681 4
+26250 5811 22
+26250 666 1
+26250 11 4
+26250 14736 9
+26250 2200 2
+47177 695 14
+47177 666 11
+47177 11 12
+47177 14736 5
+47177 681 1
+26251 5811 9
+26251 5816 4
+26252 5813 4
+26252 5810 23
+26252 695 5
+26252 5811 37
+26252 1250 1
+26252 128 1
+26252 666 10
+26252 682 4
+26252 681 1
+14155 5813 13
+14155 5810 19
+14155 695 4
+14155 5811 31
+14155 2200 2
+14155 128 2
+14155 671 3
+14155 666 9
+14155 682 1
+14155 681 1
+14139 14155 3
+14139 5813 2
+14139 5811 3
+25782 5813 5
+25782 5810 15
+25782 695 5
+25782 5811 42
+25782 2200 4
+25782 128 3
+25782 671 2
+25782 666 10
+25782 682 1
+25782 681 1
+2156 2163 3
+8553 13436 6
+8553 2163 11
+8523 2090 8
+8523 11 1
+8523 8553 3
+8523 2163 6
+15909 1013 1
+15909 695 1
+15909 128 1
+15909 2768 1
+15909 2090 21
+15909 15929 2
+15909 8553 1
+15909 8523 1
+15929 128 2
+15929 2768 2
+15929 1008 2
+15929 1017 1
+15929 8553 20
+15929 8523 1
+15929 2163 3
+10694 11 2
+35980 695 3
+35980 15929 1
+35980 11 5
+35980 15909 2
+35980 8523 3
+35980 128 2
+35980 8553 3
+35980 681 1
+12199 1013 1
+12199 695 1
+12199 1008 2
+12199 12219 2
+12199 11 3
+12199 1017 1
+12199 681 1
+18813 695 2
+18813 128 1
+18813 15909 3
+18813 10694 3
+18813 8553 3
+18813 8523 2
+18813 681 1
+43685 695 12
+43685 15929 1
+43685 11 9
+43685 8523 2
+43685 128 11
+43685 29697 1
+43685 8553 4
+43685 42996 1
+43685 681 1
+43685 38525 1
+2768 1013 1
+12219 15929 1
+12219 35924 5
+12219 8553 6
+35924 13436 6
+35924 2163 8
+38525 695 1
+38525 128 1
+38525 11 2
+38525 8553 1
+38525 3612 6
+29697 128 2
+29697 11 1
+29697 8553 1
+42996 695 1
+42996 128 1
+42996 11 3
+42996 8553 1
+42996 21522 3
+41614 1757 1
+41614 695 9
+41614 1017 1
+41614 128 1
+41614 1013 1
+41614 671 3
+41614 1008 2
+41614 13058 1
+36241 1065 5
+41965 1757 2
+41965 695 4
+41965 1017 2
+41965 1247 5
+41965 15585 1
+41965 1013 1
+41965 1008 2
+41965 12161 2
+41965 12127 1
+41965 23036 1
+41965 12157 1
+20264 671 2
+20264 1065 14
+3546 695 1
+3546 666 6
+3546 3573 5
+8190 5810 10
+8190 3546 5
+8190 3573 1
+11057 5810 15
+11057 695 2
+11057 8190 4
+11057 666 3
+11057 3546 8
+11057 3573 4
+3573 37330 1
+3573 8190 3
+3573 3546 1
+3573 681 1
+3573 11057 1
+37330 5810 7
+37330 3546 16
+37330 3573 6
+34270 695 2
+34270 7225 1
+34270 4789 11
+34270 1011 3
+34270 128 1
+34270 672 1
+34270 666 2
+34270 33380 2
+34270 681 2
+33291 695 2
+33291 7225 1
+33291 4789 13
+33291 1011 3
+33291 128 1
+33291 672 1
+33291 666 2
+33291 33380 2
+33291 681 2
+33380 695 1
+33380 672 1
+33380 682 5
+33380 666 7
+33380 4789 10
+33380 1011 1
+33380 681 1
+4461 695 1
+4461 672 1
+4461 87 12
+4461 666 5
+4461 11 1
+4461 4472 13
+4461 1011 1
+7082 695 3
+7082 128 1
+7082 672 4
+7082 666 1
+7082 5936 1
+25029 695 1
+25029 672 1
+25029 87 12
+25029 666 5
+25029 11 1
+25029 4472 13
+25029 1011 1
+22827 700 1
+22827 695 4
+22827 87 16
+22827 666 5
+22827 11 1
+22827 21206 3
+22827 4472 18
+11998 12113 4
+11998 695 11
+11998 7225 1
+11998 11 7
+11998 1248 1
+11998 4789 16
+11998 1250 1
+11998 1011 6
+11998 12112 3
+11998 11012 1
+11998 666 33
+11998 681 9
+11635 1065 9
+22600 22612 1
+36447 1757 1
+36447 695 3
+36447 666 18
+36447 28099 5
+28099 22600 2
+28384 1757 2
+28384 695 10
+28384 11 1
+28384 1248 1
+28384 18710 1
+28384 128 2
+28384 1008 1
+28384 666 20
+28384 682 1
+28384 681 1
+18728 673 1
+36313 5810 7
+36313 1757 2
+36313 695 3
+36313 1008 1
+36313 666 8
+36313 681 2
+37421 695 1
+37421 128 1
+37421 28384 4
+37421 4789 11
+18732 5810 8
+18732 695 1
+18732 11 1
+18732 4789 3
+18732 128 5
+18732 87 1
+18732 37421 20
+18732 666 4
+18732 682 2
+18732 28384 16
+18732 681 1
+18710 695 1
+18710 128 1
+18710 682 3
+18710 18732 2
+18710 681 2
+13502 695 5
+13502 15374 1
+13502 854 1
+13502 4980 7
+13502 1250 1
+13502 17241 3
+13502 128 5
+13502 671 2
+13502 17240 2
+13502 669 1
+13502 9710 1
+13502 681 5
+13502 667 1
+16847 16848 1
+33882 1013 1
+33882 695 2
+33882 128 2
+33882 1251 3
+33882 16847 15
+33882 5117 4
+33882 19269 1
+33882 667 2
+19276 5117 39
+40021 671 1
+40021 16150 1
+40021 7387 1
+40021 5117 8
+46859 7540 1
+46859 854 1
+19269 19262 1
+19269 19254 1
+28461 695 6
+28461 128 6
+28461 671 1
+28461 683 7
+28461 5117 2
+16848 695 1
+16848 128 2
+16848 1250 3
+16848 4427 1
+16848 701 3
+16848 681 1
+41124 42333 2
+36713 36767 3
+9665 671 15
+9665 1065 14
+6651 695 32
+6651 11 4
+6651 4789 44
+6651 19269 2
+6651 24498 3
+6651 16848 16
+6651 11012 2
+6651 4736 1
+6651 671 8
+6651 666 18
+6651 5117 43
+6651 681 12
+6651 33882 4
+6651 16847 27
+6651 6767 4
+6651 1250 3
+6651 1011 8
+6651 12112 5
+6651 128 13
+6651 3611 1
+6651 682 16
+6651 1012 2
+7346 7388 1
+7346 682 1
+7346 7387 1
+7346 5117 2
+7346 6651 2
+40565 128 3
+40565 672 1
+40565 11 1
+40565 1065 81
+5117 16848 1
+5117 128 1
+5117 16847 3
+5117 701 3
+6631 128 8
+6631 1065 26
+7387 16847 5
+7387 11 1
+7387 41124 10
+7387 673 1
+7387 24498 4
+7387 16848 10
+7387 128 8
+7387 11665 1
+7387 16150 4
+7387 1843 1
+7387 5117 29
+44206 7387 14
+44206 5117 2
+41913 16150 7
+45456 7388 3
+35428 671 1
+35428 16150 2
+35428 7387 1
+35428 5117 8
+7388 5117 8
+25944 5117 3
+18893 1065 6
+5087 5117 2
+20701 128 2
+20701 671 1
+20701 1065 6
+16070 10846 1
+16070 671 1
+16070 8113 2
+16070 16150 5
+16070 7387 1
+16070 5117 9
+9710 695 3
+9710 1017 1
+9710 673 1
+9710 13502 4
+9710 128 2
+9710 1013 1
+9710 671 2
+9710 1008 3
+9710 8113 2
+9710 7540 1
+9710 681 3
+19064 13502 1
+19064 1013 1
+19064 695 1
+19064 128 3
+19064 10188 2
+19064 1017 1
+19064 9710 4
+8660 695 2
+8660 87 9
+8660 8659 5
+21192 8660 2
+21192 695 1
+21192 87 1
+21192 21206 2
+21192 8659 1
+34165 695 3
+34165 128 1
+34165 672 4
+34165 666 1
+34165 5936 1
+8643 8660 2
+8643 695 1
+8643 87 3
+8643 11 1
+8643 8659 1
+27564 695 9
+27564 11 4
+27564 1017 3
+27564 1250 6
+27564 128 5
+27564 1013 2
+27564 671 6
+27564 1008 6
+27564 17240 2
+27564 681 7
+27564 13654 1
+27564 28070 7
+31974 695 5
+31974 11 1
+31974 1250 4
+31974 1013 1
+31974 11012 1
+31974 666 3
+31974 682 1
+31974 681 1
+31974 19407 1
+31643 695 6
+31643 11 4
+31643 1017 3
+31643 128 2
+31643 1013 1
+31643 671 4
+31643 1008 6
+31643 17240 2
+31643 31974 85
+31643 681 6
+31643 13654 1
+31643 28070 7
+45459 695 1
+45459 128 63
+45459 27564 1
+45459 1008 42
+45459 11 4
+45459 1017 4
+45459 1065 72
+8270 8272 2
+8270 681 1
+11901 681 1
+3706 681 1
+21211 681 1
+38854 695 7
+38854 7225 1
+38854 11 6
+38854 20095 2
+38854 1011 6
+38854 128 1
+38854 87 30
+38854 15835 1
+38854 1012 1
+38854 681 3
+9877 697 2
+9877 695 7
+9877 11 1
+9877 9944 4
+9877 9567 11
+9877 5936 2
+9877 3932 2
+9877 16596 2
+9877 128 5
+9877 3120 5
+9877 6072 1
+9877 9945 1
+9945 695 2
+9945 128 2
+9945 11 1
+9945 9877 4
+9945 681 4
+11842 128 2
+11842 1017 2
+11842 1065 18
+89 695 12
+89 7225 1
+89 11 2
+89 1011 6
+89 128 4
+89 87 23
+89 671 1
+89 666 2
+89 681 1
+78 87 10
+78 89 11
+1983 87 8
+1983 89 8
+1984 87 12
+1984 89 14
+1985 695 1
+1985 87 8
+1985 89 10
+1933 1983 5
+1933 695 6
+1933 1984 7
+1933 1065 23
+1933 128 9
+1933 87 8
+1933 666 3
+1933 1985 3
+1933 78 7
+1933 89 59
+9580 128 4
+9580 683 11
+19937 695 1
+19937 128 1
+19937 9580 3
+19937 681 1
+3708 683 8
+22532 695 1
+22532 128 2
+22532 3639 1
+3639 695 2
+3639 128 2
+3639 3708 2
+3639 681 1
+3639 3706 5
+9830 9834 12
+9830 681 3
+28790 695 2
+28790 11 3
+28790 11665 1
+28790 128 2
+28790 671 1
+28790 669 1
+28790 9830 14
+28790 9834 3
+28790 681 3
+28790 4427 1
+28790 667 2
+30682 11 1
+30682 9830 9
+30682 9834 3
+30682 681 3
+9735 695 6
+9735 11 4
+9735 1017 1
+9735 9832 1
+9735 7230 4
+9735 9831 2
+9735 128 4
+9735 1013 2
+9735 1008 3
+9735 7310 8
+9735 7309 3
+9735 9830 19
+9735 9834 3
+9735 9833 2
+9831 671 2
+9831 7309 18
+9832 9831 3
+9832 671 2
+9832 7309 6
+12603 695 1
+12603 11 1
+12603 9735 15
+12603 1017 2
+12603 12647 6
+12603 128 2
+12603 1013 1
+12603 9830 3
+12603 12648 2
+7230 7310 5
+7230 7309 20
+9833 7310 7
+9833 7309 11
+9833 7230 2
+43155 695 2
+43155 128 1
+43155 4732 1
+43155 43156 1
+43155 21813 4
+43156 11 7
+43156 10189 3
+43063 695 2
+43063 4732 1
+43063 11 11
+43063 22287 10
+43063 8668 13
+43063 703 1
+43063 21813 1
+43063 128 1
+43063 43155 2
+43063 26139 4
+43063 681 12
+19425 1013 1
+19425 695 3
+19425 8250 4
+19425 1017 1
+19425 681 3
+19425 3511 3
+19425 1246 1
+41128 695 2
+41128 8250 1
+41128 681 1
+41128 19425 1
+41128 3511 2
+24044 695 2
+24044 8250 1
+24044 681 1
+24044 19425 1
+24044 3511 2
+888 695 5
+888 1010 1
+888 11 2
+888 1017 4
+888 1011 1
+888 1013 1
+888 671 3
+888 1008 6
+888 1014 8
+888 1012 1
+888 681 4
+888 1009 2
+14709 128 38
+14709 1014 17
+14709 1065 22
+13072 695 9
+13072 7225 1
+13072 11 4
+13072 1250 4
+13072 1011 9
+13072 128 3
+13072 87 5
+13072 671 1
+13072 681 1
+17764 695 1
+17764 87 9
+17764 666 2
+17764 11 1
+17764 13072 11
+17765 695 1
+17765 87 10
+17765 666 2
+17765 11 1
+17765 13072 15
+17767 695 1
+17767 87 12
+17767 666 2
+17767 11 1
+17767 13072 21
+17768 695 1
+17768 87 6
+17768 11 1
+17768 13072 7
+13061 695 1
+13061 87 8
+13061 11 1
+13061 13072 11
+17769 695 1
+17769 87 13
+17769 666 2
+17769 13072 23
+17771 695 2
+17771 87 11
+17771 11 1
+17771 1250 2
+17771 13072 23
+17773 695 2
+17773 87 9
+17773 11 1
+17773 13072 13
+17681 695 13
+17681 17771 11
+17681 17764 4
+17681 17768 1
+17681 17773 8
+17681 13072 25
+17681 1065 20
+17681 87 12
+17681 666 2
+17681 13061 4
+17681 17767 6
+17681 1250 3
+17681 17762 1
+17681 128 8
+17681 17765 4
+17681 17769 9
+8209 1013 1
+8209 695 7
+8209 8250 4
+8209 1017 1
+8209 681 6
+8209 3511 5
+8209 1246 1
+1758 695 2
+1758 87 21
+1758 666 10
+1758 15105 25
+15933 695 1
+15933 128 1
+15933 672 1
+15933 87 2
+15933 7225 1
+15933 1758 3
+15933 1011 6
+15933 15105 1
+20843 695 1
+20843 87 3
+20843 1758 6
+20843 21206 2
+20843 681 1
+20828 695 1
+20828 128 1
+20828 666 1
+20828 20843 1
+20828 20257 1
+20828 5936 1
+20828 681 2
+15944 2294 1
+15944 695 2
+15944 87 1
+15944 11 2
+15944 1758 7
+15944 1012 1
+1759 695 3
+1759 128 1
+1759 87 1
+1759 682 1
+1759 11 2
+1759 1758 11
+1759 15105 3
+20257 15933 1
+20257 1758 1
+1017 13166 1
+1017 12113 25
+1017 5891 1
+1017 695 22
+1017 2090 77
+1017 13163 1
+1017 13159 1
+1017 1008 9
+1017 13160 1
+1017 13155 1
+1017 13161 1
+1017 13157 1
+1017 7807 1
+1017 13153 1
+1017 13152 1
+1017 13154 1
+1017 13151 1
+1017 13164 1
+1017 13162 1
+1017 128 9
+1017 13156 1
+1017 13158 1
+1017 9511 1
+1017 12648 1
+1017 13165 1
+2047 128 14
+2047 2090 15
+2047 11 17
+2047 1248 10
+2047 1017 30
+40966 1065 18
+18487 695 1
+18487 2090 29
+18487 666 8
+18487 1248 1
+18487 2563 2
+3384 695 11
+3384 2090 38
+3384 11 4
+3384 1248 1
+3384 1017 18
+3384 128 6
+3384 1013 8
+3384 14356 6
+3384 669 1
+3384 667 8
+14356 128 2
+14356 1008 11
+14356 2089 2
+14356 669 1
+14356 667 17
+4736 695 9
+4736 128 8
+4736 2090 9
+4736 1248 1
+4736 4789 3
+1519 1065 12
+4789 695 1
+4789 6767 1
+4789 1250 1
+4789 128 2
+4789 87 25
+4789 672 2
+4789 3611 2
+4789 4736 6
+4789 666 22
+20514 695 2
+20514 128 7
+20514 4736 1
+20514 3611 1
+20514 666 2
+20514 4789 28
+35526 87 37
+35526 11 2
+2691 1250 4
+11823 2200 1
+2090 697 1
+2090 695 10
+2090 128 6
+2090 1539 3
+2090 11 4
+2090 1248 6
+665 695 4
+665 128 9
+665 2090 1
+665 679 3
+665 705 1
+665 681 1
+665 11042 1
+23775 128 4
+23775 1065 6
+2048 695 8
+2048 2090 3
+2048 1008 3
+2048 2089 1
+2048 1017 11
+2031 1013 1
+2031 695 4
+2031 128 2
+2031 2048 3
+2031 11 2
+2031 1248 2
+2031 1017 6
+2031 2047 12
+17095 11 4
+17095 1250 10
+2060 695 5
+2060 128 3
+2060 2090 10
+2060 2089 1
+31079 128 11
+31079 11 8
+31079 1248 9
+31079 2060 29
+31079 1065 15
+1013 695 7
+1013 2090 3
+1013 1008 2
+1013 2089 1
+1013 1017 10
+29827 1013 1
+29827 2047 2
+3509 13023 1
+3509 2090 80
+3509 20928 1
+3509 38792 1
+3509 23673 1
+3509 19440 1
+3509 38790 1
+3509 14364 1
+3509 37208 1
+3509 36816 1
+3509 10851 1
+3509 18487 1
+3509 35414 1
+3509 15677 1
+3509 38791 1
+3509 13709 1
+3509 2544 1
+663 695 5
+663 3611 2
+663 2090 29
+663 11 1
+663 1250 1
+663 674 1
+664 663 4
+28586 128 4
+28586 663 35
+28586 1065 17
+16340 16356 3
+16340 128 5
+16340 1065 5
+2239 1250 3
+1247 695 5
+1247 128 3
+1247 2090 26
+1247 666 7
+1247 11 2
+1247 1248 3
+1247 1049 2
+39102 128 10
+39102 11 6
+39102 1248 9
+39102 1247 47
+39102 1250 3
+39102 3388 1
+666 695 26
+666 2090 31
+666 2089 1
+666 11 1
+666 1017 6
+666 2060 1
+666 1252 3
+666 128 7
+666 1013 4
+666 671 2
+666 672 1
+666 2048 1
+666 4429 5
+666 9047 3
+4507 1013 2
+4507 695 3
+4507 128 18
+4507 2048 2
+4507 666 102
+4507 11 13
+4507 1248 5
+4507 1017 4
+4507 2060 4
+12113 695 2
+12113 128 11
+12113 2090 31
+20474 12113 43
+20474 128 10
+20474 11 13
+20474 1248 9
+25128 24498 19
+25128 10234 2
+4489 1065 7
+3611 1143 2
+3611 695 3
+3611 128 2
+3611 2090 30
+3611 1247 10
+3611 1250 1
+8167 1250 3
+3508 695 8
+3508 128 1
+3508 2090 58
+3508 21163 19
+3508 3509 3
+3508 1247 13
+34178 128 1
+34178 1065 12
+1248 128 7
+15713 128 4
+15713 2090 4
+15713 14447 2
+667 2090 40
+15338 1757 2
+15338 8453 4
+15338 6520 2
+15338 15374 1
+15338 8450 2
+15338 1250 1
+15338 1065 10
+15338 128 6
+15338 671 2
+15338 2238 1
+15338 2242 5
+15338 6548 2
+15338 667 4
+24873 128 2
+24873 2090 3
+3395 1013 1
+3395 695 3
+3395 2090 16
+3395 11 1
+3395 1248 3
+3395 1017 1
+3395 3384 6
+41819 128 1
+41819 2090 5
+41819 11 5
+41819 1248 2
+41819 3384 23
+41819 3395 3
+41819 2047 13
+14342 9958 2
+14342 3391 2
+14342 14356 4
+14342 3387 1
+14342 667 2
+11145 671 3
+11145 1250 3
+2199 695 20
+2199 2090 37
+2199 1248 2
+2199 854 1
+2199 2200 15
+2199 128 5
+2199 671 6
+2199 666 20
+2199 682 2
+21342 1065 10
+43351 695 1
+43351 128 25
+43351 666 3
+43351 11 4
+43351 1248 8
+43351 854 1
+43351 2199 39
+43351 2200 22
+9472 1013 1
+9472 695 4
+9472 2090 8
+9472 11 1
+9472 14356 1
+9472 1248 3
+9472 3384 6
+22094 2090 5
+22094 11 5
+22094 1248 2
+22094 1017 2
+22094 3384 23
+22094 128 1
+22094 9472 1
+22094 2047 13
+19354 6794 3
+19354 14356 4
+19354 8450 1
+19354 3030 2
+19354 667 2
+29103 695 1
+29103 671 1
+29103 29117 2
+29103 11 1
+29103 16557 5
+29103 3509 1
+14314 1065 5
+17399 1247 2
+17399 681 1
+46895 1065 5
+3119 695 2
+3119 666 2
+3119 3120 3
+3119 1248 1
+3119 9567 12
+30256 3119 3
+13682 695 1
+13682 666 2
+13682 3120 2
+13682 1248 1
+13682 9567 11
+3107 3120 1
+3107 3119 4
+9716 1065 6
+17056 695 1
+17056 666 2
+17056 3120 5
+17056 1248 1
+17056 9567 11
+17056 5889 1
+16029 1065 10
+14008 128 5
+14008 1008 5
+14008 1017 5
+14008 1065 16
+12531 1013 3
+12531 695 1
+12531 2090 8
+12531 1008 2
+12531 1017 8
+12531 673 1
+12531 12565 4
+12565 1008 4
+12565 666 2
+15610 13885 2
+15610 13884 1
+15610 12157 1
+13884 12161 1
+15585 695 2
+15585 15611 1
+15585 15610 1
+15585 12157 2
+15611 13885 2
+15611 13884 1
+15611 12157 1
+12161 13853 1
+12161 2090 1
+12161 12127 1
+12161 23036 1
+12161 15585 1
+12161 15612 1
+13853 695 1
+13853 13885 2
+13853 13884 1
+13853 12157 1
+12127 12157 2
+23036 695 1
+23036 1250 1
+23036 12157 2
+15612 695 1
+15612 12161 1
+15612 13885 1
+12157 12161 1
+2201 2167 4
+2167 2199 4
+2167 2201 1
+2167 2200 6
+8425 695 5
+8425 2090 24
+8425 1248 6
+8425 128 3
+8425 671 1
+8425 666 9
+8425 682 1
+8425 667 4
+7459 695 1
+7459 128 2
+7459 2090 22
+7459 4429 1
+7459 11 1
+7459 7483 1
+7459 667 1
+3385 2090 26
+3385 669 1
+3385 667 25
+29839 695 2
+29839 2090 25
+29839 1252 4
+29839 670 1
+29839 3384 3
+29839 3395 1
+29839 4429 4
+29839 9472 1
+29839 667 1
+33234 1013 5
+33234 695 3
+33234 2090 2
+33234 1008 4
+33234 2089 3
+33234 1017 7
+23350 3731 1
+23350 6616 2
+23350 3390 1
+4429 695 2
+4429 128 3
+4429 2090 28
+4429 7483 3
+4429 667 1
+7800 7459 2
+6616 6622 1
+6616 11358 1
+6616 667 1
+6622 671 1
+6622 11358 8
+6622 667 4
+7198 4429 2
+7483 667 1
+669 695 2
+669 128 3
+669 2090 39
+669 671 8
+669 667 13
+2089 695 1
+2089 128 4
+2089 669 2
+2089 667 1
+20800 128 2
+20800 669 34
+20800 667 2
+46598 12113 26
+46598 695 9
+46598 128 3
+46598 2090 39
+46598 1008 16
+46598 2089 3
+46598 13085 5
+29832 7459 1
+29832 10398 2
+38357 6616 2
+33897 4429 2
+8407 8425 1
+8407 667 2
+29939 2090 4
+29939 666 3
+29939 1248 2
+29939 8425 11
+29939 667 14
+37720 128 2
+37720 29939 3
+37720 1065 6
+37720 667 2
+20955 695 1
+20955 11 1
+20955 7459 1
+20955 10398 2
+23785 2242 9
+23785 7459 6
+19488 7459 4
+19488 667 1
+2241 695 2
+2241 1012 3
+2241 667 3
+11338 2090 2
+11338 11358 8
+11338 667 4
+34718 695 4
+34718 2090 23
+34718 11338 2
+34718 1247 5
+34718 3388 1
+34718 667 1
+6520 695 4
+6520 128 2
+6520 2090 7
+6520 6548 1
+6520 6546 1
+6520 701 1
+6520 667 15
+11358 2090 16
+11358 667 15
+9085 695 4
+9085 2090 25
+9085 11 2
+9085 15374 1
+9085 1252 2
+9085 701 2
+9085 4429 4
+9085 16557 4
+9085 669 1
+9085 3509 1
+9085 667 4
+9069 695 3
+9069 128 1
+9069 9085 23
+9069 4429 1
+9069 11 7
+9069 1248 7
+9069 1252 1
+9069 1065 16
+1251 695 1
+1251 128 1
+1251 2090 16
+1251 7483 2
+19231 2090 19
+19231 11391 3
+19231 7459 7
+19231 19488 1
+19231 7483 1
+10398 7800 1
+10398 2090 1
+10398 11 1
+10398 7459 1
+25985 7800 1
+25985 2090 7
+25985 7325 2
+25985 7459 2
+25985 6092 1
+25985 670 1
+25985 7483 1
+2242 695 4
+2242 128 4
+2242 2090 11
+2242 6548 2
+2242 667 8
+3387 9958 4
+3387 695 1
+3387 3385 11
+3387 2090 12
+3387 3391 14
+3387 667 14
+2698 128 2
+2698 671 2
+2698 1065 5
+13512 7800 1
+13512 695 2
+13512 2090 7
+13512 2242 1
+13512 7459 2
+13512 13532 2
+15374 695 1
+15374 2090 26
+15374 671 3
+15374 667 9
+1252 128 3
+1252 2090 6
+1252 4429 5
+1252 667 2
+8450 6794 7
+8450 695 1
+8450 3385 9
+8450 2090 10
+8450 3030 8
+8450 667 12
+12574 2238 1
+12574 6092 1
+12574 667 2
+24884 6092 1
+24884 667 2
+7325 2090 12
+7325 6092 2
+7325 667 1
+23212 6092 1
+23212 667 2
+25118 671 4
+25118 6092 1
+25118 667 2
+11091 6092 1
+11091 667 2
+6092 2090 8
+6092 667 4
+6077 2090 6
+6077 11 1
+6077 6092 5
+6077 667 1
+15671 6092 1
+15671 667 2
+45702 6092 1
+45702 667 2
+35551 11391 3
+35551 667 1
+8145 2691 3
+8145 2090 21
+8145 11 1
+8145 7325 2
+8145 6092 2
+8145 1252 2
+8145 8167 3
+8145 667 1
+15419 11145 4
+15419 671 1
+15419 11 1
+15419 667 2
+19232 667 2
+9252 697 2
+9252 128 2
+9252 11 1
+9252 6072 1
+9252 3932 1
+9252 667 1
+24021 11391 4
+24021 667 1
+44526 128 2
+44526 15713 4
+44526 7432 1
+44526 3386 1
+44526 667 3
+11384 11391 3
+11384 667 1
+20335 667 1
+18797 11391 3
+18797 667 1
+11391 2090 18
+2677 2691 4
+2677 667 2
+30901 1250 1
+30901 667 2
+13085 13166 1
+13085 5891 1
+13085 2090 27
+13085 13163 1
+13085 13159 1
+13085 13160 1
+13085 5889 1
+13085 13155 1
+13085 13161 1
+13085 13157 1
+13085 7807 1
+13085 13153 1
+13085 13152 1
+13085 13154 1
+13085 13151 1
+13085 13164 1
+13085 13162 1
+13085 128 1
+13085 13156 1
+13085 9511 1
+13085 13158 1
+13085 12648 1
+13085 13165 1
+13151 9520 5
+7967 5889 1
+7967 2563 3
+5889 2090 5
+5889 11 1
+9520 13166 1
+9520 5891 1
+9520 2090 12
+9520 11 1
+9520 13163 1
+9520 13159 1
+9520 13160 1
+9520 5889 4
+9520 13155 1
+9520 13161 1
+9520 13157 1
+9520 7807 1
+9520 13153 1
+9520 13152 1
+9520 13154 1
+9520 13151 1
+9520 13164 1
+9520 13162 1
+9520 128 1
+9520 13156 1
+9520 9511 1
+9520 13158 1
+9520 12648 1
+9520 13165 1
+5888 695 1
+5888 128 5
+5888 11 1
+5888 5889 4
+13153 695 1
+13153 15713 4
+13153 7432 1
+13153 128 3
+13153 7967 2
+13153 669 1
+13153 5889 3
+13153 2563 5
+13153 667 6
+14544 128 3
+13152 128 2
+13152 7967 2
+13152 669 1
+13152 5889 3
+13152 3386 2
+13152 2563 4
+13152 667 6
+22672 128 1
+22672 13152 14
+22672 11 2
+22672 5888 10
+22672 2563 2
+5891 128 1
+5891 11145 4
+5891 7967 2
+5891 671 2
+5891 5889 8
+5891 1250 1
+5891 2563 10
+5863 5891 35
+5863 11 6
+5863 5888 16
+5863 1250 3
+5863 2563 10
+13155 2090 1
+13155 15081 1
+13155 3386 1
+25099 128 2
+25099 11 2
+25099 15081 17
+25099 5888 17
+25099 1247 14
+25099 1250 3
+25099 13155 1
+13156 7967 2
+13156 5889 6
+13156 2563 6
+46557 13156 18
+46557 11 5
+46557 5888 9
+46557 2563 6
+13157 671 2
+13157 15081 1
+13154 695 3
+13154 128 2
+13154 2090 6
+13154 666 8
+13154 1248 1
+13154 5889 9
+13154 2563 1
+12648 695 1
+12648 128 2
+12648 7967 2
+12648 15713 4
+12648 5889 4
+12648 7432 1
+12648 3386 1
+12648 2563 5
+24274 11 2
+24274 5888 9
+24274 12648 11
+24274 2563 4
+13158 9520 5
+15081 695 1
+15081 671 3
+15081 5889 4
+15081 1247 4
+37794 695 1
+37794 7807 28
+37794 13154 13
+37794 11 3
+37794 5888 37
+37794 1250 6
+37794 1065 1
+37794 128 1
+37794 671 2
+37794 666 2
+37794 5889 1
+37794 7974 2
+37794 7971 2
+37794 7970 8
+37794 2563 3
+9511 9520 5
+13159 9520 3
+13159 9511 2
+13159 5889 1
+13160 9520 5
+13161 695 1
+13161 2090 1
+13161 671 2
+13161 5889 4
+13161 1247 4
+13161 1250 1
+16394 13161 14
+16394 128 1
+16394 11 2
+16394 5888 14
+16394 1247 7
+16394 1250 4
+13162 667 2
+13163 695 1
+13163 9520 8
+13163 2090 7
+13163 5889 1
+13163 701 3
+3386 19017 2
+3386 671 5
+3386 8383 1
+3386 667 7
+39687 695 2
+39687 2090 1
+39687 24944 4
+40242 1065 6
+13164 2691 2
+13164 7967 2
+13164 5889 6
+13164 1250 4
+13164 2563 6
+15499 11 6
+15499 5888 11
+15499 13164 28
+15499 1250 6
+15499 2563 16
+8383 19017 2
+8383 671 5
+8383 1014 3
+8383 3386 3
+19017 8383 5
+19017 3386 4
+41789 19017 15
+41789 8383 1
+13165 7967 2
+13165 5889 3
+13165 1250 2
+13165 2563 2
+24856 11 1
+24856 5888 6
+24856 1250 2
+24856 13165 4
+13166 667 2
+7973 671 2
+7807 695 6
+7807 683 7
+7807 11 1
+7807 1250 9
+7807 128 4
+7807 7967 1
+7807 2238 1
+7807 671 2
+7807 666 2
+7807 669 4
+7807 5889 6
+7807 706 2
+7807 7970 2
+7807 2563 7
+7807 667 4
+13791 695 3
+9473 695 4
+9473 13791 4
+4122 3705 2
+6040 1049 2
+5936 695 1
+5936 128 12
+5936 682 2
+5936 666 4
+5936 1248 3
+34841 128 3
+34841 5936 1
+33887 670 3
+1040 1049 2
+19088 695 3
+19088 671 1
+19088 681 1
+13532 695 3
+13532 671 1
+13532 667 3
+1049 1247 2
+22693 8113 85
+22693 7160 13
+7160 854 1
+43022 10846 9
+38966 2163 14
+37765 695 1
+37765 671 1
+671 700 1
+671 128 6
+671 2238 3
+671 1014 3
+671 669 5
+671 664 14
+671 9047 3
+40891 671 125
+40891 11 2
+40891 1246 24
+30597 1049 2
+854 671 2
+854 11 1
+17851 854 1
+672 671 3
+43594 672 16
+43594 671 5
+43594 1246 6
+15207 10846 2
+15207 17674 1
+15141 671 1
+15141 15207 52
+22396 16864 10
+4590 695 3
+4590 681 1
+33017 2294 3
+37178 2294 12
+13058 695 1
+19718 670 2
+23154 19718 3
+23154 670 2
+11012 700 2
+11012 671 2
+11012 11 1
+18898 11012 2
+27172 25712 2
+27163 25712 1
+6546 128 4
+12461 128 6
+20850 20887 11
+13646 11 2
+13623 13646 4
+46532 1143 2
+46532 7432 1
+2238 695 12
+2238 15419 2
+2238 1252 5
+2238 19231 6
+2238 128 7
+2238 671 9
+2238 4429 5
+2238 16557 10
+2238 13058 1
+2238 669 2
+2238 2242 1
+2238 664 5
+2238 3386 1
+2238 667 59
+7094 695 1
+7094 128 1
+7094 2238 1
+7094 2209 1
+7094 667 3
+28070 681 2
+15052 11012 6
+15052 682 4
+16182 16183 1
+3120 695 4
+3120 128 7
+3120 671 1
+3120 11 1
+3120 667 3
+15024 128 2
+15024 13646 1
+15024 11012 1
+15024 3120 5
+15024 15052 1
+9567 695 3
+9567 1248 1
+9567 5936 1
+9567 1252 1
+9567 666 2
+9567 4429 1
+9567 15024 2
+9567 3120 7
+3389 2238 1
+3389 671 3
+3389 669 1
+3389 681 2
+3389 667 2
+19407 128 1
+19407 682 4
+19407 666 1
+25051 695 1
+25051 673 1
+13796 673 21
+1014 671 6
+1014 1011 1
+1014 681 1
+25032 1014 1
+25032 1246 1
+44557 681 7
+36862 25712 1
+36852 25712 1
+42665 17674 2
+16452 674 82
+26139 11 3
+26139 681 5
+14339 695 2
+14339 128 1
+14339 854 1
+14322 128 2
+14322 14339 2
+14322 1065 5
+2706 695 4
+2706 666 8
+33451 2706 4
+43733 2706 4
+43733 24976 1
+7083 6413 2
+7083 128 1
+7083 666 3
+36387 7083 22
+15218 6413 5
+32101 11 3
+32101 3120 14
+32101 13623 8
+10229 10234 1
+16183 128 1
+16183 13646 1
+16183 11 2
+16183 3120 24
+21866 7432 3
+45080 31037 2
+45080 21866 1
+21915 7432 1
+21915 21866 3
+35747 21915 1
+35747 4452 2
+21703 7432 3
+35293 31037 4
+4453 7432 1
+4453 21703 3
+4442 4452 2
+4442 4453 1
+4442 31037 2
+7431 7432 3
+31025 7431 1
+31025 31037 6
+7408 7431 3
+7408 7432 2
+15739 7408 1
+15739 4452 2
+15739 31037 4
+14447 7408 1
+14447 1143 1
+14447 128 2
+14447 5936 1
+1143 128 3
+1143 7431 1
+1143 11 1
+1143 5936 1
+4452 31037 5
+22888 5460 9
+3731 5461 7
+3390 5460 3
+3390 5461 4
+15060 3731 1
+15060 3390 2
+23467 39635 3
+23467 29812 1
+23467 2124 5
+4159 4165 1
+3391 4165 31
+3536 3391 1
+9958 3391 27
+9958 4159 2
+9958 10070 8
+9958 22 1
+3392 3391 28
+3392 10070 11
+3392 22 1
+4147 3392 3
+29683 9958 4
+29683 3391 3
+29683 3392 5
+23197 3034 2
+23197 3040 3
+13575 3034 4
+13575 3040 12
+21949 3040 3
+21949 13575 58
+27393 27395 2
+27393 4170 1
+27393 3040 10
+13576 4170 9
+13576 27393 10
+13576 3040 11
+13576 13575 12
+3035 3040 2
+8451 3040 5
+72 22 3
+73 22 2
+45085 6794 8
+45085 23197 2
+45085 3047 4
+45085 2791 14
+45085 3030 24
+45085 22 2
+3048 23197 3
+3048 3040 2
+3047 23197 3
+3047 3040 2
+27395 3041 2
+27395 3040 6
+4170 3041 4
+4170 3040 7
+36295 3030 4
+3032 3034 8
+3032 3033 26
+3032 3040 7
+3039 3030 2
+22 72 1
+22 71 2
+44481 22 1
+3030 3035 4
+3030 27395 2
+3030 27393 6
+3030 3040 2
+13539 4170 14
+13539 3030 40
+13539 3040 8
+13539 13575 9
+6794 3035 2
+6794 3041 4
+6794 3034 9
+6794 3033 6
+6794 3030 20
+6794 3040 9
+6794 3032 6
+6794 22 1
+17153 3034 19
+2791 3031 6
+2791 3039 7
+2791 3033 9
+2791 3040 15
+2791 3032 9
+2791 3047 1
+2791 3035 4
+2791 3048 1
+2791 3041 5
+2791 3034 23
+2791 3030 70
+2791 22 4
+11875 2791 4
+11875 3034 4
+5009 3040 19
+3041 23197 3
+3041 3035 1
+3041 36295 2
+3041 3034 4
+3041 3030 12
+8665 8668 1
+22540 681 1
+13848 695 1
+17429 671 3
+17429 681 1
+46856 695 1
+46856 10189 1
+46856 681 1
+17421 17429 1
+47259 17429 2
+47259 10436 2
+20110 1013 2
+20110 695 1
+20110 1017 1
+20110 2209 2
+20110 681 5

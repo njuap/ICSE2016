@@ -1,0 +1,1464 @@
+*Vertics: 465
+5,Quickstart
+26,org.apache.shiro.SecurityUtils
+28,org.apache.shiro.config.IniSecurityManagerFactory
+40,org.apache.shiro.authc.UnknownAccountException
+41,org.apache.shiro.authc.IncorrectCredentialsException
+42,org.apache.shiro.authc.LockedAccountException
+43,org.apache.shiro.authc.AuthenticationException
+44,org.apache.shiro.authc.UsernamePasswordToken
+62,org.apache.shiro.mgt.AbstractRememberMeManagerTest
+86,org.apache.shiro.subject.support.DefaultSubjectContext
+88,org.apache.shiro.mgt.AbstractRememberMeManager
+98,org.apache.shiro.subject.support.SubjectRunnable
+112,org.apache.shiro.subject.support.SubjectThreadState
+190,org.apache.shiro.UnavailableSecurityManagerException
+194,org.apache.shiro.util.CollectionUtils
+195,org.apache.shiro.util.MapContext
+196,org.apache.shiro.util.StringUtils
+236,org.apache.shiro.config.SimpleBeanFactory
+247,org.apache.shiro.config.SimpleBean
+253,org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO
+269,org.apache.shiro.cache.AbstractCacheManager
+271,org.apache.shiro.cache.CacheException
+272,org.apache.shiro.cache.MapCache
+274,org.apache.shiro.session.mgt.eis.CachingSessionDAO
+286,org.apache.shiro.samples.spring.ui.WebStartDriver
+293,org.apache.shiro.util.StringUtilsTest
+325,org.apache.shiro.authc.ExcessiveAttemptsException
+335,org.apache.shiro.authc.AccountException
+342,org.apache.shiro.crypto.hash.SimpleHashRequest
+366,org.apache.shiro.guice.LifecycleTypeListenerTest
+389,org.apache.shiro.ShiroException
+392,org.apache.shiro.guice.LifecycleTypeListener
+393,org.apache.shiro.guice.InitializableInjectionListener
+394,org.apache.shiro.guice.DestroyableInjectionListener
+400,org.apache.shiro.mgt.DefaultSubjectDAO
+436,org.apache.shiro.subject.support.DelegatingSubject
+439,org.apache.shiro.mgt.DefaultSessionStorageEvaluator
+449,org.apache.shiro.session.mgt.AbstractSessionManager
+463,org.apache.shiro.util.JdbcUtils
+490,org.apache.shiro.spring.remoting.SecureRemoteInvocationExecutor
+516,org.apache.shiro.subject.ExecutionException
+518,org.apache.shiro.spring.remoting.SecureRemoteInvocationFactory
+526,org.apache.shiro.web.mgt.DefaultWebSecurityManager
+590,org.apache.shiro.mgt.DefaultSecurityManager
+594,org.apache.shiro.util.LifecycleUtils
+595,org.apache.shiro.web.servlet.ShiroHttpServletRequest
+599,org.apache.shiro.web.subject.support.DefaultWebSubjectContext
+600,org.apache.shiro.web.util.WebUtils
+607,org.apache.shiro.web.session.mgt.DefaultWebSessionContext
+608,org.apache.shiro.web.mgt.DefaultWebSessionStorageEvaluator
+609,org.apache.shiro.web.mgt.DefaultWebSubjectFactory
+610,org.apache.shiro.web.mgt.CookieRememberMeManager
+611,org.apache.shiro.web.session.mgt.ServletContainerSessionManager
+613,org.apache.shiro.web.session.mgt.DefaultWebSessionManager
+614,org.apache.shiro.web.session.mgt.WebSessionKey
+653,org.apache.shiro.codec.Hex
+684,org.apache.shiro.codec.CodecSupport
+687,org.apache.shiro.config.CompositeBean
+741,org.apache.shiro.guice.web.PathMatchingFilterProviderTest
+750,org.apache.shiro.web.filter.PathMatchingFilter
+752,org.apache.shiro.guice.web.PathMatchingFilterProvider
+759,org.apache.shiro.session.UnknownSessionException
+768,org.apache.shiro.session.InvalidSessionException
+775,Standalone
+783,org.apache.shiro.authc.SimpleAccount
+877,org.apache.shiro.authz.SimpleAuthorizationInfo
+878,org.apache.shiro.subject.SimplePrincipalCollection
+883,org.apache.shiro.authc.SimpleAuthenticationInfo
+921,org.apache.shiro.web.servlet.SimpleCookieTest
+965,org.apache.shiro.web.servlet.SimpleCookie
+980,org.apache.shiro.authz.ModularRealmAuthorizerTest
+999,org.apache.shiro.realm.AuthorizingRealm
+1001,org.apache.shiro.authz.ModularRealmAuthorizer
+1011,org.apache.shiro.samples.sprhib.web.SignupCommand
+1031,org.apache.shiro.aspectj.DummyServiceTest
+1072,org.apache.shiro.authz.UnauthenticatedException
+1073,org.apache.shiro.authz.UnauthorizedException
+1075,org.apache.shiro.aspectj.AspectjAnnotationsAuthorizingMethodInterceptor
+1076,org.apache.shiro.aspectj.SecuredDummyService
+1077,org.apache.shiro.aspectj.RestrictedDummyService
+1084,org.apache.shiro.authc.ConcurrentAccessException
+1094,org.apache.shiro.session.SessionListenerAdapter
+1128,org.apache.shiro.test.ExampleShiroIntegrationTest
+1135,org.apache.shiro.test.AbstractShiroTest
+1141,org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator
+1149,org.apache.shiro.authz.permission.AllPermissionTest
+1152,org.apache.shiro.authz.permission.AllPermission
+1166,org.apache.shiro.config.ReflectionBuilder
+1367,org.apache.shiro.codec.Base64
+1368,org.apache.shiro.config.ConfigurationException
+1369,org.apache.shiro.util.ClassUtils
+1371,org.apache.shiro.config.UnresolveableReferenceException
+1452,org.apache.shiro.authz.aop.PermissionAnnotationMethodInterceptor
+1459,org.apache.shiro.authz.aop.AuthorizingAnnotationMethodInterceptor
+1460,org.apache.shiro.authz.aop.PermissionAnnotationHandler
+1468,org.apache.shiro.guice.web.FilterChainResolverProvider
+1492,org.apache.shiro.util.AntPathMatcher
+1496,org.apache.shiro.guice.web.SimpleFilterChainResolver
+1503,org.apache.shiro.aspectj.ShiroAnnotationAuthorizingAspect
+1515,org.apache.shiro.subject.DelegatingSubjectTest
+1555,org.apache.shiro.config.Ini
+1556,org.apache.shiro.util.ThreadContext
+1558,org.apache.shiro.mgt.SessionsSecurityManager
+1559,org.apache.shiro.util.AbstractFactory
+1583,org.apache.shiro.util.InstantiationException
+1601,org.apache.shiro.guice.DestroyableInjectionListenerTest
+1622,org.apache.shiro.io.DefaultSerializer
+1649,org.apache.shiro.io.SerializationException
+1650,org.apache.shiro.io.ClassResolvingObjectInputStream
+1656,org.apache.shiro.crypto.AesCipherServiceTest
+1684,org.apache.shiro.crypto.AesCipherService
+1685,org.apache.shiro.crypto.AbstractSymmetricCipherService
+1686,org.apache.shiro.crypto.JcaCipherService
+1700,org.apache.shiro.guice.ShiroModule
+1750,org.apache.shiro.session.mgt.DefaultSessionManager
+1752,org.apache.shiro.guice.BeanTypeListener
+1753,org.apache.shiro.session.mgt.AbstractNativeSessionManager
+1754,org.apache.shiro.guice.GuiceEnvironment
+1766,org.apache.shiro.web.env.EnvironmentLoader
+1806,org.apache.shiro.util.UnknownClassException
+1809,org.apache.shiro.web.env.IniWebEnvironment
+1867,org.apache.shiro.config.IniFactorySupport
+1868,org.apache.shiro.io.ResourceUtils
+1869,org.apache.shiro.web.config.IniFilterChainResolverFactory
+1870,org.apache.shiro.web.config.WebIniSecurityManagerFactory
+1872,org.apache.shiro.web.env.ResourceBasedWebEnvironment
+1946,org.apache.shiro.session.mgt.DefaultSessionKey
+1950,org.apache.shiro.authc.credential.DefaultPasswordService
+2003,org.apache.shiro.crypto.hash.DefaultHashService
+2011,org.apache.shiro.crypto.hash.format.Shiro1CryptFormat
+2012,org.apache.shiro.crypto.hash.format.DefaultHashFormatFactory
+2053,org.apache.shiro.authz.aop.RoleAnnotationMethodInterceptor
+2058,org.apache.shiro.authz.aop.RoleAnnotationHandler
+2070,org.apache.shiro.guice.aop.AopAllianceMethodInterceptorAdapter
+2082,org.apache.shiro.guice.aop.AopAllianceMethodInvocationAdapter
+2087,org.apache.shiro.session.mgt.eis.MemorySessionDAO
+2107,org.apache.shiro.session.mgt.eis.AbstractSessionDAO
+2178,org.apache.shiro.crypto.SecureRandomNumberGenerator
+2180,org.apache.shiro.crypto.hash.SimpleHash
+2203,org.apache.shiro.crypto.PaddingScheme
+2225,org.apache.shiro.samples.spring.realm.SaltAwareJdbcRealm
+2252,org.apache.shiro.realm.jdbc.JdbcRealm
+2272,org.apache.shiro.spring.web.ShiroFilterFactoryBeanTest
+2300,org.apache.shiro.web.filter.authc.FormAuthenticationFilter
+2301,org.apache.shiro.web.filter.mgt.DefaultFilterChainManager
+2303,org.apache.shiro.web.filter.mgt.PathMatchingFilterChainResolver
+2304,org.apache.shiro.web.servlet.AbstractShiroFilter
+2306,org.apache.shiro.spring.web.DummyFilter
+2307,org.apache.shiro.web.servlet.AbstractFilter
+2308,org.apache.shiro.web.servlet.OncePerRequestFilter
+2316,org.apache.shiro.samples.aspectj.bank.AccountNotFoundException
+2320,org.apache.shiro.samples.aspectj.bank.BankServiceException
+2419,org.apache.shiro.mgt.RealmSecurityManager
+2421,org.apache.shiro.realm.text.IniRealm
+2436,org.apache.shiro.samples.spring.web.SessionValueCommand
+2443,org.apache.shiro.guice.web.AbstractInjectionProviderTest
+2493,org.apache.shiro.guice.web.AbstractInjectionProvider
+2499,org.apache.shiro.authc.credential.Md2CredentialsMatcherTest
+2503,org.apache.shiro.crypto.hash.AbstractHash
+2504,org.apache.shiro.crypto.hash.Md2Hash
+2505,org.apache.shiro.authc.credential.AbstractHashedCredentialsMatcherTest
+2506,org.apache.shiro.authc.credential.Md2CredentialsMatcher
+2507,org.apache.shiro.authc.credential.SimpleCredentialsMatcher
+2508,org.apache.shiro.authc.credential.HashedCredentialsMatcher
+2513,org.apache.shiro.crypto.hash.Sha256Hash
+2534,org.apache.shiro.mgt.DefaultSubjectFactory
+2554,org.apache.shiro.authc.CredentialsException
+2580,org.apache.shiro.realm.AuthenticatingRealm
+2660,org.apache.shiro.authc.credential.AllowAllCredentialsMatcher
+2663,org.apache.shiro.realm.CachingRealm
+2677,org.apache.shiro.jndi.JndiObjectFactoryTest
+2709,org.apache.shiro.jndi.JndiObjectFactory
+2721,org.apache.shiro.web.tags.HasAnyRolesTag
+2731,org.apache.shiro.web.tags.RoleTag
+2735,org.apache.shiro.web.filter.authz.HttpMethodPermissionFilterTest
+2741,org.apache.shiro.web.filter.authz.HttpMethodPermissionFilter
+2748,org.apache.shiro.cache.ehcache.EhCacheManager
+2782,org.apache.shiro.cache.ehcache.EhCache
+2786,org.apache.shiro.web.servlet.NameableFilter
+2810,org.apache.shiro.guice.ShiroMatchers
+2813,org.apache.shiro.authz.permission.WildcardPermissionTest
+2834,org.apache.shiro.authz.permission.WildcardPermission
+2839,org.apache.shiro.authc.pam.AllSuccessfulStrategyTest
+2855,org.apache.shiro.realm.SimpleAccountRealm
+2856,org.apache.shiro.authc.pam.AllSuccessfulStrategy
+2857,org.apache.shiro.authc.pam.AbstractAuthenticationStrategy
+2858,org.apache.shiro.authc.pam.UnsupportedTokenException
+2863,org.apache.shiro.realm.activedirectory.ActiveDirectoryRealm
+2925,org.apache.shiro.realm.ldap.AbstractLdapRealm
+2927,org.apache.shiro.realm.ldap.LdapUtils
+2942,org.apache.shiro.tools.hasher.Hasher
+3070,org.apache.shiro.crypto.UnknownAlgorithmException
+3071,org.apache.shiro.util.JavaEnvironment
+3072,org.apache.shiro.crypto.hash.format.HexFormat
+3077,org.apache.shiro.web.filter.authz.SslFilter
+3089,org.apache.shiro.web.filter.authz.PortFilter
+3101,org.apache.shiro.util.SoftHashMap
+3199,org.apache.shiro.web.filter.authz.AuthorizationFilter
+3208,org.apache.shiro.session.mgt.eis.RandomSessionIdGenerator
+3239,org.apache.shiro.crypto.CryptoException
+3241,org.apache.shiro.authc.credential.PasswordMatcher
+3272,org.apache.shiro.authc.pam.FirstSuccessfulStrategy
+3285,org.apache.shiro.realm.text.PropertiesRealm
+3356,org.apache.shiro.realm.text.TextConfigurationRealm
+3365,org.apache.shiro.samples.aspectj.bank.InactiveAccountException
+3417,org.apache.shiro.web.filter.authz.PermissionsAuthorizationFilter
+3423,org.apache.shiro.guice.web.ShiroWebModuleTest
+3467,org.apache.shiro.guice.ShiroModuleTest
+3469,org.apache.shiro.guice.web.WebGuiceEnvironment
+3470,org.apache.shiro.guice.web.ShiroWebModule
+3485,org.apache.shiro.guice.aop.AopAllianceMethodInvocationAdapterTest
+3538,org.apache.shiro.web.servlet.AdviceFilter
+3551,org.apache.shiro.session.mgt.DelegatingSessionTest
+3564,org.apache.shiro.session.ExpiredSessionException
+3565,org.apache.shiro.session.mgt.DelegatingSession
+3566,org.apache.shiro.session.mgt.AbstractValidatingSessionManager
+3577,org.apache.shiro.spring.security.interceptor.DefaultTestService
+3603,org.apache.shiro.realm.text.IniRealmTest
+3721,org.apache.shiro.session.mgt.DefaultSessionContext
+3845,org.apache.shiro.mgt.DefaultSecurityManagerTest
+3868,org.apache.shiro.mgt.AbstractSecurityManagerTest
+3872,org.apache.shiro.web.filter.authc.BasicHttpAuthenticationFilter
+3933,org.apache.shiro.web.filter.authc.AuthenticatingFilter
+3943,org.apache.shiro.session.mgt.SimpleSessionTest
+3958,org.apache.shiro.session.mgt.SimpleSession
+3972,org.apache.shiro.codec.CodecException
+3982,org.apache.shiro.ExceptionTest
+3989,org.apache.shiro.authc.credential.Sha384CredentialsMatcherTest
+3993,org.apache.shiro.crypto.hash.Sha384Hash
+3994,org.apache.shiro.authc.credential.Sha384CredentialsMatcher
+4194,org.apache.shiro.guice.ShiroMatchersTest
+4310,org.apache.shiro.session.StoppedSessionException
+4371,org.apache.shiro.guice.ShiroSessionScopeTest
+4383,org.apache.shiro.guice.ShiroSessionScope
+4388,org.apache.shiro.web.util.SavedRequest
+4419,org.apache.shiro.web.subject.support.WebDelegatingSubject
+4514,org.apache.shiro.authz.AuthorizationException
+4543,org.apache.shiro.env.DefaultEnvironment
+4574,org.apache.shiro.env.RequiredTypeException
+4589,org.apache.shiro.web.filter.authc.PassThruAuthenticationFilter
+4593,org.apache.shiro.web.filter.authc.AuthenticationFilter
+4652,org.apache.shiro.samples.aspectj.bank.NotEnoughFundsException
+4789,org.apache.shiro.session.ProxiedSession
+4790,org.apache.shiro.session.SessionException
+4791,org.apache.shiro.subject.support.DisabledSessionException
+4792,org.apache.shiro.subject.support.SubjectCallable
+4821,org.apache.shiro.authz.annotation.Logical
+4867,org.apache.shiro.authz.SimpleRole
+4868,org.apache.shiro.util.PermissionUtils
+4881,org.apache.shiro.cache.MemoryConstrainedCacheManager
+5022,org.apache.shiro.web.filter.AccessControlFilter
+5023,org.apache.shiro.web.util.RedirectView
+5031,org.apache.shiro.samples.sprhib.web.SignupValidator
+5190,org.apache.shiro.authc.credential.Sha256CredentialsMatcherTest
+5194,org.apache.shiro.authc.credential.Sha256CredentialsMatcher
+5196,org.apache.shiro.cas.CasFilter
+5228,org.apache.shiro.cas.CasToken
+5265,org.apache.shiro.concurrent.SubjectAwareExecutorService
+5335,org.apache.shiro.concurrent.SubjectAwareExecutor
+5352,org.apache.shiro.web.servlet.ServletContextSupport
+5357,org.apache.shiro.session.mgt.quartz.QuartzSessionValidationScheduler
+5404,org.apache.shiro.session.mgt.quartz.QuartzSessionValidationJob
+5413,MyRealm
+5430,org.apache.shiro.realm.activedirectory.ActiveDirectoryRealmTest
+5461,org.apache.shiro.realm.UserIdPrincipal
+5462,org.apache.shiro.realm.UsernamePrincipal
+5474,org.apache.shiro.authz.aop.UserAnnotationMethodInterceptor
+5478,org.apache.shiro.authz.aop.UserAnnotationHandler
+5481,org.apache.shiro.authz.permission.DomainPermissionTest
+5513,org.apache.shiro.authz.permission.DomainPermission
+5523,org.apache.shiro.web.mgt.AbstractWebSecurityManagerTest
+5615,org.apache.shiro.web.filter.authc.LogoutFilter
+5666,org.apache.shiro.authz.aop.AuthorizingAnnotationHandler
+5677,org.apache.shiro.web.servlet.ProxiedFilterChain
+5689,org.apache.shiro.samples.spring.web.LoginCommand
+5730,org.apache.shiro.util.SimpleByteSource
+5768,org.apache.shiro.env.EnvironmentException
+5796,org.apache.shiro.dao.DataAccessException
+5804,org.apache.shiro.authc.AbstractAuthenticatorTest
+5842,org.apache.shiro.authc.AbstractAuthenticator
+5850,org.apache.shiro.mgt.AuthorizingSecurityManager
+5907,org.apache.shiro.mgt.AuthenticatingSecurityManager
+5912,org.apache.shiro.web.session.HttpServletSession
+5966,org.apache.shiro.web.servlet.ShiroHttpSession
+6002,org.apache.shiro.util.UnavailableConstructorException
+6012,org.apache.shiro.crypto.SecureRandomNumberGeneratorTest
+6041,org.apache.shiro.samples.aspectj.bank.AccountTransaction
+6093,org.apache.shiro.guice.InitializableInjectionListenerTest
+6098,org.apache.shiro.samples.sprhib.web.LoginCommand
+6115,org.apache.shiro.jndi.JndiTemplate
+6174,org.apache.shiro.web.env.DefaultWebEnvironment
+6177,org.apache.shiro.dao.InvalidResourceUsageException
+6184,org.apache.shiro.authz.AuthorizationExceptionTest
+6232,org.apache.shiro.test.AbstractContainerTest
+6272,org.apache.shiro.jndi.JndiLocator
+6330,org.apache.shiro.crypto.hash.format.ProvidedHashFormat
+6457,org.apache.shiro.web.filter.session.NoSessionCreationFilter
+6459,org.apache.shiro.web.filter.authc.AnonymousFilter
+6460,org.apache.shiro.web.filter.authz.RolesAuthorizationFilter
+6461,org.apache.shiro.web.filter.authc.UserFilter
+6462,org.apache.shiro.guice.web.GuiceShiroFilter
+6464,org.apache.shiro.authc.credential.Md5CredentialsMatcherTest
+6468,org.apache.shiro.crypto.hash.Md5Hash
+6469,org.apache.shiro.authc.credential.Md5CredentialsMatcher
+6476,org.apache.shiro.realm.ldap.JndiLdapRealmTest
+6506,org.apache.shiro.realm.ldap.JndiLdapRealm
+6507,org.apache.shiro.realm.ldap.JndiLdapContextFactory
+6517,org.apache.shiro.spring.security.interceptor.AbstractAuthorizationAnnotationTest
+6601,org.apache.shiro.samples.sprhib.model.Role
+6641,org.apache.shiro.samples.spring.web.LogoutController
+6650,org.apache.shiro.web.tags.SecureTag
+6660,org.apache.shiro.session.mgt.SimpleSessionFactory
+6691,org.apache.shiro.authc.IncorrectCredentialsExceptionTest
+6694,org.apache.shiro.concurrent.SubjectAwareExecutorServiceTest
+6711,org.apache.shiro.test.SecurityManagerTestSupport
+6713,org.apache.shiro.web.tags.AuthenticatedTag
+6773,org.apache.shiro.codec.H64
+6807,org.apache.shiro.samples.spring.web.IndexController
+6836,org.apache.shiro.subject.SimplePrincipalMap
+6911,org.apache.shiro.crypto.DefaultBlockCipherService
+6973,org.apache.shiro.crypto.OperationMode
+7107,org.apache.shiro.web.tags.HasRoleTag
+7193,org.apache.shiro.web.filter.mgt.DefaultFilter
+7194,org.apache.shiro.web.filter.mgt.SimpleNamedFilterList
+7209,org.apache.shiro.web.tags.GuestTag
+7213,org.apache.shiro.authc.credential.Sha512CredentialsMatcher
+7215,org.apache.shiro.crypto.hash.Sha512Hash
+7219,org.apache.shiro.aop.AnnotationHandler
+7228,org.apache.shiro.ldap.UnsupportedAuthenticationMechanismException
+7239,org.apache.shiro.guice.web.SimpleFilterChainResolverTest
+7267,org.apache.shiro.session.mgt.AbstractValidatingSessionManagerTest
+7411,org.apache.shiro.aop.AnnotationMethodInterceptor
+7481,org.apache.shiro.session.mgt.ExecutorServiceSessionValidationScheduler
+7548,org.apache.shiro.guice.aop.ShiroAopModule
+7565,org.apache.shiro.aop.DefaultAnnotationResolver
+7566,org.apache.shiro.authz.aop.AuthenticatedAnnotationMethodInterceptor
+7567,org.apache.shiro.authz.aop.GuestAnnotationMethodInterceptor
+7571,org.apache.shiro.authc.DisabledAccountException
+7581,org.apache.shiro.web.mgt.CookieRememberMeManagerTest
+7776,org.apache.shiro.session.mgt.ImmutableProxiedSession
+7829,org.apache.shiro.realm.jndi.JndiRealmFactory
+7850,org.apache.shiro.web.filter.authz.PortFilterTest
+7868,org.apache.shiro.session.mgt.DefaultSessionManagerTest
+7933,org.apache.shiro.guice.web.FilterChainResolverProviderTest
+8031,org.apache.shiro.guice.aop.ShiroAopModuleTest
+8091,org.apache.shiro.samples.sprhib.dao.HibernateUserDAO
+8115,org.apache.shiro.samples.sprhib.model.User
+8116,org.apache.shiro.samples.sprhib.dao.HibernateDao
+8127,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor
+8150,org.apache.shiro.spring.security.interceptor.AopAllianceAnnotationsAuthorizingMethodInterceptor
+8216,org.apache.shiro.web.WebTest
+8221,org.apache.shiro.authc.credential.HashedCredentialsMatcherTest
+8248,org.apache.shiro.crypto.hash.Sha1Hash
+8296,org.apache.shiro.cas.CasRealm
+8385,org.apache.shiro.cas.CasAuthenticationException
+8393,org.apache.shiro.guice.web.SimpleFilterChainTest
+8406,org.apache.shiro.guice.web.SimpleFilterChain
+8420,org.apache.shiro.mgt.VMSingletonDefaultSecurityManagerTest
+8447,org.apache.shiro.authz.aop.AnnotationsAuthorizingMethodInterceptor
+8448,org.apache.shiro.aspectj.BeforeAdviceMethodInvocationAdapter
+8457,org.apache.shiro.authz.aop.AuthenticatedAnnotationHandler
+8521,org.apache.shiro.crypto.BlowfishCipherService
+8531,org.apache.shiro.samples.sprhib.web.ManageUsersController
+8565,org.apache.shiro.samples.sprhib.web.EditUserValidator
+8566,org.apache.shiro.samples.sprhib.web.EditUserCommand
+8665,org.apache.shiro.web.filter.PathMatchingFilterTest
+8867,org.apache.shiro.authc.LockedAccountExceptionTest
+8906,org.apache.shiro.samples.aspectj.bank.SecureBankService
+8962,org.apache.shiro.samples.aspectj.bank.Account
+8974,org.apache.shiro.web.tags.NotAuthenticatedTag
+8978,org.apache.shiro.authc.ExpiredCredentialsException
+8988,org.apache.shiro.authz.aop.AuthorizingMethodInterceptor
+8992,org.apache.shiro.aop.MethodInterceptorSupport
+9005,org.apache.shiro.spring.LifecycleBeanPostProcessor
+9063,org.apache.shiro.crypto.hash.format.Base64Format
+9066,org.apache.shiro.util.RegExPatternMatcher
+9075,org.apache.shiro.samples.aspectj.bank.BankServerRunner
+9085,org.apache.shiro.authc.pam.AtLeastOneSuccessfulStrategy
+9099,org.apache.shiro.samples.sprhib.web.HomeController
+9122,org.apache.shiro.spring.aop.SpringAnnotationResolver
+9135,org.apache.shiro.util.RegExPatternMatcherTest
+9141,org.apache.shiro.web.filter.authc.AnonymousFilterTest
+9160,org.apache.shiro.mgt.CachingSecurityManager
+9186,org.apache.shiro.spring.security.interceptor.SchemaAuthorizationAnnotationTest
+9189,org.apache.shiro.authc.ConcurrentAccessExceptionTest
+9321,org.apache.shiro.web.filter.authz.AuthorizationFilterTest
+9364,org.apache.shiro.config.IniTest
+9477,org.apache.shiro.authc.credential.Sha1CredentialsMatcherTest
+9481,org.apache.shiro.authc.credential.Sha1CredentialsMatcher
+9498,org.apache.shiro.guice.web.FilterConfigTest
+9523,org.apache.shiro.authz.HostUnauthorizedExceptionTest
+9525,org.apache.shiro.authz.HostUnauthorizedException
+9529,org.apache.shiro.concurrent.SubjectAwareScheduledExecutorService
+9569,org.apache.shiro.cas.CasSubjectFactory
+9619,org.apache.shiro.realm.ldap.DefaultLdapContextFactory
+9685,org.apache.shiro.web.servlet.OncePerRequestFilterTest
+9705,org.apache.shiro.web.tags.LacksPermissionTag
+9709,org.apache.shiro.web.tags.PermissionTag
+9746,org.apache.shiro.samples.spring.web.LoginController
+9761,org.apache.shiro.concurrent.SubjectAwareExecutorTest
+9769,org.apache.shiro.authc.ExpiredCredentialsExceptionTest
+9780,org.apache.shiro.web.config.WebIniSecurityManagerFactoryTest
+9793,org.apache.shiro.authc.ExcessiveAttemptsExceptionTest
+9804,org.apache.shiro.guice.web.WebGuiceEnvironmentTest
+9814,org.apache.shiro.web.env.EnvironmentLoaderListener
+9859,org.apache.shiro.web.tags.LacksRoleTag
+9865,org.apache.shiro.aop.AnnotationResolverTest
+9947,org.apache.shiro.spring.remoting.SecureRemoteInvocationFactoryTest
+9973,org.apache.shiro.guice.web.DefaultFiltersTest
+10070,org.apache.shiro.web.filter.authz.HostFilterTest
+10087,org.apache.shiro.web.filter.authz.HostFilter
+10091,org.apache.shiro.crypto.BlowfishCipherServiceTest
+10112,org.apache.shiro.web.filter.mgt.PathMatchingFilterChainResolverTest
+10150,org.apache.shiro.samples.spring.DefaultSampleManager
+10180,org.apache.shiro.authz.permission.WildcardPermissionResolver
+10184,org.apache.shiro.web.servlet.IniShiroFilter
+10241,org.apache.shiro.spring.security.interceptor.DapcAuthorizationAnnotationTest
+10247,org.apache.shiro.authc.UnknownAccountExceptionTest
+10429,org.apache.shiro.authz.aop.GuestAnnotationHandler
+10456,org.apache.shiro.web.mgt.DefaultWebSecurityManagerTest
+10501,org.apache.shiro.web.tags.HasPermissionTag
+10545,org.apache.shiro.authc.credential.AllowAllCredentialsMatcherTest
+10552,org.apache.shiro.io.SerializationExceptionTest
+10967,org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest
+11041,org.apache.shiro.AtUnitTestBase
+11043,org.apache.shiro.guice.GuiceEnvironmentTest
+11322,org.apache.shiro.web.servlet.ShiroHttpServletResponse
+11357,org.apache.shiro.authc.SimpleAuthenticationInfoTest
+11386,org.apache.shiro.samples.sprhib.service.DefaultUserService
+11414,org.apache.shiro.io.XmlSerializer
+11436,org.apache.shiro.web.tags.PrincipalTag
+11489,org.apache.shiro.web.filter.authc.BasicHttpFilterAuthenticationTest
+11658,org.apache.shiro.config.InitializableBean
+11672,org.apache.shiro.authc.credential.Sha512CredentialsMatcherTest
+11689,org.apache.shiro.authz.UnauthenticatedExceptionTest
+11735,org.apache.shiro.cache.ehcache.EhCacheManagerTest
+11749,org.apache.shiro.samples.sprhib.web.LoginValidator
+11804,org.apache.shiro.guice.web.GuiceShiroFilterTest
+11820,org.apache.shiro.samples.spring.BootstrapDataPopulator
+11861,org.apache.shiro.spring.web.ShiroFilterFactoryBean
+11978,org.apache.shiro.authz.permission.InvalidPermissionStringException
+11985,org.apache.shiro.web.tags.UserTag
+12429,org.apache.shiro.test.ContainerIntegrationTest
+12473,org.apache.shiro.guice.BeanTypeListenerTest
+12507,org.apache.shiro.authc.pam.ModularRealmAuthenticator
+12540,org.apache.shiro.realm.jdbc.JDBCRealmTest
+12675,org.apache.shiro.samples.sprhib.security.SampleRealm
+12692,org.apache.shiro.web.servlet.ShiroFilter
+12712,org.apache.shiro.authz.aop.RoleAnnotationHandlerTest
+12739,org.apache.shiro.crypto.JcaCipherServiceTest
+12798,org.apache.shiro.web.filter.mgt.SimpleNamedFilterListTest
+12816,org.apache.shiro.guice.aop.AopAllianceMethodInterceptorAdapterTest
+12830,org.apache.shiro.config.HashMapCacheManager
+12883,org.apache.shiro.samples.spring.web.JnlpController
+12898,org.apache.shiro.realm.text.TextConfigurationRealmTest
+12980,org.apache.shiro.realm.AuthorizingRealmTest
+13073,org.apache.shiro.authz.UnauthorizedExceptionTest
+13088,org.apache.shiro.samples.spring.ui.WebStartView
+13134,org.apache.shiro.realm.ldap.JndiLdapContextFactoryTest
+13280,org.apache.shiro.samples.sprhib.web.SecurityController
+13448,org.apache.shiro.samples.sprhib.web.SignupController
+13503,org.apache.shiro.test.ExampleShiroUnitTest
+13540,org.apache.shiro.samples.sprhib.web.CurrentUserInterceptor
+13563,org.apache.shiro.authz.aop.PermissionAnnotationHandlerTest
+13579,org.apache.shiro.samples.sprhib.dao.BootstrapDataPopulator
+*Edges: 997
+5413 999 1
+5413 2663 2
+5 44 5
+5 26 2
+5 43 1
+5 28 1
+5 41 1
+5 42 1
+5 40 1
+775 26 2
+3982 1369 4
+26 1556 3
+26 190 1
+190 389 3
+7219 26 1
+7411 7219 6
+7411 8992 1
+9865 7565 1
+8992 26 1
+1075 8448 1
+1075 8988 1
+1075 8447 1
+1031 44 2
+1031 26 3
+1031 28 1
+1077 1076 3
+1503 1075 2
+5842 43 3
+5804 44 1
+5804 5842 11
+5804 43 2
+5804 883 1
+335 43 5
+43 389 5
+1084 335 5
+9189 3982 1
+2554 43 5
+7571 335 5
+325 335 5
+9793 3982 1
+8978 2554 5
+9769 3982 1
+41 2554 5
+6691 3982 1
+42 7571 5
+8867 3982 1
+783 878 5
+783 883 14
+783 877 22
+883 878 5
+11357 883 11
+40 335 5
+10247 3982 1
+2505 2503 2
+2505 1369 1
+2505 44 1
+2505 883 1
+10545 2660 1
+1950 2011 1
+1950 2012 1
+1950 2003 4
+2508 2507 2
+2508 2503 2
+2508 196 1
+2508 653 1
+2508 2180 2
+2508 1367 1
+2508 684 1
+8221 8248 3
+8221 2178 2
+8221 44 3
+8221 2180 2
+8221 883 1
+8221 2508 7
+2506 2508 3
+2499 2504 1
+2499 2505 1
+6469 2508 3
+6464 6468 1
+6464 2505 1
+3241 1950 1
+9481 2508 3
+9477 8248 1
+9477 2505 1
+5194 2508 3
+5190 2505 1
+5190 2513 1
+3994 2508 3
+3989 3993 1
+3989 2505 1
+7213 2508 3
+11672 7215 1
+11672 2505 1
+2507 684 5
+2857 883 1
+2856 43 1
+2856 2858 1
+2856 2857 2
+2856 40 1
+2839 2856 2
+2839 2855 1
+2839 2857 1
+9085 43 1
+9085 194 1
+9085 2857 1
+3272 194 1
+3272 2857 1
+12507 5842 2
+12507 2858 1
+12507 194 2
+12507 40 1
+2858 43 5
+4514 389 5
+6184 3982 1
+9525 1073 5
+9523 3982 1
+1001 1073 3
+980 999 4
+980 1001 4
+1072 4514 5
+11689 3982 1
+1073 4514 5
+13073 3982 1
+8447 2053 1
+8447 1459 1
+8447 7411 1
+8447 7567 1
+8447 8988 1
+8447 5474 1
+8447 7566 1
+8447 1452 1
+8457 7219 1
+8457 5666 2
+8457 1072 1
+7566 8457 2
+7566 1459 3
+5666 7219 2
+1459 7411 5
+1459 5666 3
+1459 4514 2
+8988 8992 1
+10429 7219 1
+10429 5666 2
+10429 1072 1
+7567 10429 2
+7567 1459 3
+1460 7219 4
+1460 5666 2
+13563 6711 1
+13563 1460 4
+1452 1460 2
+1452 1459 3
+2058 7219 4
+2058 5666 2
+12712 6711 1
+12712 2058 5
+2053 2058 2
+2053 1459 3
+5478 7219 1
+5478 5666 2
+5478 1072 1
+5474 5478 2
+5474 1459 3
+1149 1152 2
+5513 196 7
+5513 2834 3
+5481 5513 20
+5481 2834 5
+11978 389 2
+2834 194 2
+10180 2834 1
+2813 2834 110
+269 196 1
+269 594 1
+271 389 5
+272 194 1
+4881 272 1
+4881 269 1
+4881 3101 1
+2782 271 9
+2748 1868 1
+2748 2782 1
+2748 1368 1
+11735 2748 8
+11735 594 1
+8385 43 5
+5196 5022 1
+5196 3933 2
+5196 43 1
+5196 600 1
+5196 5228 1
+5196 4593 2
+8296 878 2
+8296 196 3
+8296 2663 1
+8296 877 5
+8296 2580 1
+8296 999 2
+8296 194 1
+8296 883 1
+8296 8385 1
+8296 5228 3
+9569 5228 1
+9569 609 2
+1367 684 4
+3972 389 5
+684 3972 4
+653 684 1
+5335 26 1
+5265 5335 6
+6694 6711 1
+6694 5265 2
+9761 6711 1
+9761 5335 2
+9529 5265 5
+9529 5335 3
+687 247 3
+1368 389 5
+12830 269 1
+1555 196 6
+1555 194 1
+1555 1868 1
+1867 1555 10
+1867 1868 1
+1867 1559 1
+28 590 1
+28 1867 2
+28 1555 12
+28 999 1
+28 2419 2
+28 2421 2
+28 194 3
+28 594 1
+28 1166 5
+28 1368 2
+9364 1555 10
+1166 1369 1
+1166 196 6
+1166 1371 1
+1166 653 1
+1166 1367 1
+1166 194 2
+1166 1368 11
+236 247 4
+1371 1368 5
+1685 1686 5
+1684 6911 2
+1656 1685 2
+1656 1684 2
+1656 1686 2
+1656 684 2
+8521 1686 1
+8521 6911 2
+10091 1685 2
+10091 1686 2
+10091 8521 2
+10091 684 2
+3239 389 4
+6911 1685 2
+6911 196 2
+6911 1686 3
+6911 2203 6
+6911 6973 2
+1686 196 1
+1686 3239 6
+6012 2178 12
+3070 3239 4
+2503 2504 1
+2503 3070 1
+2503 653 1
+2503 1367 1
+2503 684 3
+2003 2178 1
+2003 2180 5
+2504 653 1
+2504 2180 7
+2504 1367 1
+6468 653 1
+6468 2180 7
+6468 1367 1
+8248 653 1
+8248 2180 7
+8248 1367 1
+2513 653 1
+2513 2180 7
+2513 1367 1
+3993 653 1
+3993 2180 7
+3993 1367 1
+7215 653 1
+7215 2180 7
+7215 1367 1
+2180 2503 1
+2180 196 1
+2180 3070 1
+2180 653 1
+2180 1367 1
+2180 684 1
+2012 1369 2
+2012 196 3
+2012 6330 2
+2012 1806 1
+2011 196 1
+2011 2180 4
+2011 1367 2
+5796 389 3
+6177 5796 3
+4543 4574 1
+5768 389 3
+4574 5768 3
+12473 1752 1
+1601 394 2
+11043 1754 2
+6093 393 1
+392 394 1
+366 392 4
+4194 2810 1
+1700 392 1
+1700 1752 2
+1700 1368 1
+3467 26 1
+3467 883 1
+3467 1700 1
+3467 1558 2
+4371 1556 2
+4371 4383 3
+2070 2082 1
+12816 2082 1
+12816 2070 2
+3485 2082 8
+7548 7411 1
+7548 7567 1
+7548 2053 1
+7548 7566 1
+7548 5474 1
+7548 1452 1
+7548 2070 1
+2443 2493 3
+9973 7193 1
+1468 1496 1
+7933 1468 5
+9498 2304 1
+6462 2304 3
+11804 2304 2
+11804 6462 1
+752 2493 2
+741 752 2
+741 750 2
+3470 1468 1
+3470 752 1
+3470 1700 2
+3470 1368 2
+3423 1558 1
+1496 8406 1
+1496 600 2
+7239 1496 3
+8393 8406 2
+9804 3469 5
+1650 1369 1
+1650 1806 1
+1622 1650 1
+1622 1649 2
+1868 1369 1
+1649 389 5
+10552 3982 1
+6272 6115 8
+2709 6272 3
+2677 2709 10
+7228 6177 3
+88 43 1
+88 1684 1
+62 86 2
+62 88 2
+3868 1556 1
+3868 112 1
+5907 2419 5
+5907 594 1
+5907 12507 2
+5850 5907 4
+5850 2419 1
+5850 1001 2
+5850 594 1
+9160 594 1
+590 43 3
+590 400 1
+590 2534 1
+590 1946 1
+590 5907 2
+590 3721 3
+590 86 2
+590 2419 2
+590 768 1
+590 194 2
+590 195 1
+590 1558 3
+3845 26 5
+3845 590 2
+3845 1555 2
+3845 3868 2
+3845 44 3
+3845 3564 1
+3845 2419 1
+3845 2421 1
+3845 1558 1
+400 194 3
+2534 436 2
+2419 9160 4
+2419 594 1
+1558 5850 3
+1558 2419 1
+1558 9160 1
+1558 594 1
+1558 1750 1
+8420 1556 2
+8420 44 1
+8420 26 4
+8420 590 1
+8420 2419 1
+8420 2421 1
+8420 1555 2
+8420 1558 1
+2580 43 1
+2580 194 1
+2580 2663 10
+2580 41 1
+999 1073 2
+999 194 6
+999 2663 6
+999 2580 7
+12980 878 2
+12980 1073 6
+12980 5461 1
+12980 2580 2
+12980 44 2
+12980 999 17
+12980 2834 4
+12980 5462 4
+2663 194 3
+2855 44 1
+2855 999 2
+2855 8978 1
+2855 783 9
+2855 194 1
+2855 2663 3
+2855 4867 4
+2855 42 1
+2863 44 4
+2863 2925 1
+2863 2927 3
+2863 883 1
+2863 2663 2
+2863 877 1
+5430 26 3
+5430 590 2
+5430 5461 1
+5430 44 1
+5430 1556 2
+5430 999 2
+5430 5462 1
+5430 1558 1
+12540 26 2
+12540 590 1
+12540 1867 1
+12540 28 1
+12540 1555 5
+12540 2419 1
+12540 2252 13
+12540 2513 3
+12540 1558 1
+12540 43 1
+12540 41 3
+12540 463 8
+12540 44 11
+12540 1556 2
+12540 999 1
+12540 2180 2
+2252 4514 2
+2252 43 2
+2252 335 1
+2252 2663 2
+2252 877 2
+2252 463 8
+2252 40 1
+2252 44 1
+2252 999 1
+2252 883 1
+2252 1368 1
+7829 196 2
+7829 6272 2
+2925 4514 1
+2925 999 2
+2925 9619 5
+6507 196 1
+13134 6507 28
+6506 4514 1
+6506 196 2
+6506 7228 1
+6506 2663 1
+6506 6507 1
+6506 2580 2
+6506 999 1
+6506 883 1
+6506 2927 1
+6476 44 3
+6476 2580 6
+6476 6506 18
+2421 3356 5
+2421 196 2
+2421 1555 9
+2421 194 2
+3603 44 1
+3603 999 1
+3603 2855 2
+3603 2421 7
+3603 1555 1
+3603 2580 4
+3285 3356 6
+3285 389 1
+3285 1868 2
+3285 2580 1
+3356 196 2
+3356 2855 7
+3356 2663 1
+3356 4867 3
+3356 4868 1
+3356 999 2
+3356 783 5
+3356 1368 1
+12898 3356 2
+12898 2855 2
+8962 3365 1
+8962 6041 10
+8962 4652 1
+2316 2320 2
+9075 8906 4
+3365 2320 2
+4652 2320 2
+8906 3365 1
+8906 26 2
+8906 8962 28
+8906 6041 19
+8906 4652 2
+8906 2316 1
+10967 44 2
+10967 26 3
+10967 28 1
+10967 8906 22
+13579 2180 1
+13579 2513 1
+8091 8115 4
+8091 8116 7
+12675 8115 3
+12675 2663 2
+12675 877 3
+12675 2580 1
+12675 44 1
+12675 6601 2
+12675 999 2
+12675 883 1
+12675 5194 1
+11386 26 1
+11386 8115 6
+11386 2180 1
+11386 2513 1
+8566 8115 5
+8566 2180 1
+8566 2513 1
+8565 196 1
+8565 8566 2
+8531 8115 2
+8531 8565 2
+8531 8566 6
+13280 44 1
+13280 26 2
+13280 43 1
+13280 6098 5
+13280 11749 2
+13448 44 1
+13448 26 1
+13448 5031 2
+13448 1011 7
+5031 196 1
+5031 1011 2
+11820 2180 2
+11820 2513 2
+10150 26 2
+2225 43 2
+2225 335 1
+2225 2663 1
+2225 463 3
+2225 40 1
+2225 44 1
+2225 883 2
+2225 2252 1
+13088 4514 1
+6807 26 1
+6807 2436 2
+12883 26 1
+9746 44 1
+9746 26 1
+9746 5689 2
+9746 43 1
+6641 26 1
+3564 4310 5
+768 4790 5
+4790 389 5
+4310 768 5
+759 768 5
+1753 7776 1
+1753 759 1
+1753 768 1
+1753 449 2
+1753 3565 2
+1753 194 1
+1753 1946 2
+3566 3564 2
+3566 768 3
+3566 1753 6
+3566 594 1
+3566 7481 2
+3566 1946 1
+7267 3958 6
+7267 3566 2
+7267 1753 3
+7267 1750 3
+3721 196 1
+3721 195 7
+1750 759 1
+1750 3958 3
+1750 2087 1
+1750 3566 1
+7868 3958 2
+7868 1946 5
+7868 1750 4
+7868 1556 2
+7868 3564 1
+7868 449 3
+7868 768 1
+7868 1753 15
+7868 3566 1
+3551 1556 2
+3551 3564 1
+3551 3565 8
+3551 3566 1
+3551 1753 1
+3551 1946 1
+3551 1750 2
+7776 4789 2
+7776 768 1
+3958 3564 1
+3958 194 2
+3958 4310 1
+6660 3958 2
+3943 3958 14
+2107 759 1
+2107 3958 1
+274 2107 3
+253 274 2
+253 2107 2
+2087 2107 3
+2087 194 1
+490 26 1
+490 516 1
+518 26 2
+9947 1556 2
+9947 518 4
+9947 1946 1
+6517 878 2
+6517 112 1
+8150 7567 1
+8150 8988 1
+8150 2053 1
+8150 7566 1
+8150 5474 1
+8150 8447 2
+8150 1452 1
+8127 8150 1
+10241 6517 4
+9186 6517 1
+11861 196 3
+11861 3199 2
+11861 2303 2
+11861 1555 4
+11861 2304 2
+11861 2301 4
+11861 5022 2
+11861 194 2
+11861 4593 2
+2272 2307 1
+2272 2308 1
+2272 2303 1
+2272 2304 1
+2272 2301 1
+1515 878 4
+1515 590 1
+1515 28 1
+1515 1555 2
+1515 436 6
+1515 1556 10
+1515 44 1
+1515 194 3
+1515 1559 1
+1515 594 1
+1515 1558 1
+516 389 3
+878 196 1
+878 194 1
+6836 194 18
+86 196 1
+86 26 1
+86 194 4
+86 195 24
+86 190 1
+436 196 1
+436 4792 1
+436 4790 1
+436 4791 1
+436 3721 1
+436 98 1
+436 1072 1
+436 194 3
+436 516 1
+4791 4790 2
+4792 112 1
+98 112 1
+112 1556 9
+112 194 1
+112 436 1
+1135 26 3
+1135 594 1
+1135 190 1
+1135 112 1
+12429 6232 5
+1128 1135 5
+1128 28 1
+13503 1135 3
+6711 1556 3
+6711 26 1
+6711 590 1
+6711 2421 1
+6711 1555 2
+6711 594 1
+2942 2178 2
+2942 196 1
+2942 3071 1
+2942 3070 1
+2942 653 1
+2942 2180 1
+2942 1367 1
+2942 1868 2
+1492 196 4
+1369 1583 2
+1369 1806 2
+1583 389 5
+195 194 1
+4868 196 1
+5730 653 1
+5730 1367 1
+5730 684 2
+196 194 1
+293 196 8
+1556 194 1
+6002 389 5
+1806 389 5
+1869 1867 3
+1869 2303 3
+1869 1555 6
+1869 194 8
+1869 1166 2
+1870 7193 1
+1870 28 4
+1870 1555 1
+1870 526 1
+9780 7193 2
+9780 28 1
+9780 1555 2
+9780 1559 1
+9780 1870 1
+6174 4543 6
+1766 1369 2
+1766 196 1
+1766 1806 1
+1766 594 2
+1766 1368 3
+9814 1766 3
+1809 196 1
+1809 1869 1
+1809 28 1
+1809 1555 11
+1809 600 1
+1809 1870 2
+1809 1872 2
+1809 6174 3
+1809 194 1
+1809 1559 2
+1809 1868 2
+1809 1368 3
+1872 196 2
+1872 6174 1
+5022 26 1
+5022 600 2
+5022 750 2
+750 196 1
+750 2786 2
+750 2308 1
+750 3538 1
+750 600 2
+8665 2786 1
+8665 750 5
+6459 750 1
+9141 6459 1
+3933 44 1
+3933 5022 3
+3933 43 2
+3933 3538 1
+3933 4593 2
+4593 5022 2
+4593 600 1
+3872 3933 5
+3872 1367 1
+3872 600 2
+11489 44 4
+11489 3872 1
+11489 1367 1
+2300 5022 6
+2300 2786 1
+2300 3933 3
+2300 43 1
+2300 600 4
+2300 4593 1
+5615 26 1
+5615 4790 1
+5615 3538 1
+5615 600 1
+4589 5022 2
+4589 4593 1
+6461 5022 4
+3199 196 1
+3199 5022 3
+3199 600 2
+9321 6711 1
+9321 44 2
+9321 26 2
+9321 3199 1
+10087 196 4
+10087 3199 1
+2741 196 1
+2741 3417 2
+2735 2741 17
+3417 5022 1
+3417 3199 1
+3089 196 1
+3089 3199 1
+3089 600 3
+3089 1368 1
+7850 3089 1
+6460 5022 1
+6460 3199 1
+6460 194 1
+3077 3089 3
+7193 1369 1
+2301 196 9
+2301 7194 1
+2301 7193 2
+2301 194 1
+2301 1368 2
+2303 600 2
+2303 2301 2
+10112 2303 23
+10112 8216 2
+10112 2301 2
+7194 196 1
+7194 5677 1
+12798 7194 7
+12798 194 2
+12798 3077 1
+6457 750 1
+5523 1556 1
+610 965 2
+610 1367 2
+610 600 12
+610 88 1
+7581 44 2
+7581 3239 1
+7581 883 1
+7581 599 3
+7581 88 4
+7581 610 8
+526 590 10
+526 600 3
+526 400 2
+526 609 1
+526 599 2
+526 608 1
+526 614 1
+526 2419 2
+526 613 1
+526 611 2
+526 610 1
+526 594 1
+526 607 3
+526 1558 5
+10456 878 1
+10456 5523 2
+10456 1555 4
+10456 1870 1
+10456 44 1
+10456 3564 1
+10456 2419 1
+10456 449 1
+10456 2421 1
+10456 526 7
+10456 1559 1
+10456 1558 2
+608 439 2
+608 600 1
+609 4419 2
+609 2534 3
+2307 196 1
+2307 5352 2
+2304 26 2
+2304 595 2
+2304 2307 1
+2304 2308 1
+2304 526 1
+2304 11322 1
+2304 516 1
+2304 5352 2
+3538 2308 1
+10184 196 1
+10184 1867 1
+10184 1869 2
+10184 28 1
+10184 1555 16
+10184 600 1
+10184 2304 3
+10184 1870 2
+10184 2307 3
+10184 1559 2
+10184 1868 1
+10184 5352 2
+10184 1368 2
+2786 2307 2
+2786 5352 1
+2308 2786 6
+9685 2786 1
+9685 2308 5
+12692 600 1
+12692 2304 3
+12692 5352 1
+595 4791 2
+595 26 1
+595 5966 1
+595 600 1
+11322 595 6
+5966 768 7
+965 196 9
+921 965 6
+5912 196 1
+607 3721 3
+607 195 4
+613 614 2
+613 3565 2
+613 965 2
+613 600 20
+613 3566 2
+613 1753 4
+613 1750 2
+611 5912 1
+611 600 5
+614 1946 2
+599 86 5
+599 195 4
+4419 196 1
+4419 600 1
+4419 436 4
+4419 607 1
+6713 6650 3
+7209 6650 3
+2721 2731 1
+2721 6650 1
+10501 9709 2
+7107 2731 1
+7107 6650 2
+9705 9709 2
+9859 2731 1
+9859 6650 2
+8974 6650 3
+9709 6650 3
+11436 6650 4
+2731 6650 1
+6650 26 1
+11985 6650 3
+600 5023 2
+600 196 3
+600 26 3
+600 4388 5

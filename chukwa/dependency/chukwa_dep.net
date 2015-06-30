@@ -1,0 +1,1232 @@
+*Vertics: 392
+2,org.apache.hadoop.chukwa.extraction.engine.datasource.DataSourceFactory
+19,org.apache.hadoop.chukwa.extraction.engine.datasource.database.DatabaseDS
+20,org.apache.hadoop.chukwa.extraction.engine.datasource.record.ChukwaRecordDataSource
+25,org.apache.hadoop.chukwa.extraction.engine.datasource.DataSourceException
+27,org.apache.hadoop.chukwa.datacollection.agent.metrics.ChunkQueueActivityMBean
+47,org.apache.hadoop.chukwa.hicc.ViewsTag
+67,org.apache.hadoop.chukwa.hicc.Views
+85,org.apache.hadoop.chukwa.extraction.engine.ChukwaRecord
+101,org.apache.hadoop.chukwa.rest.bean.WidgetBean
+176,org.apache.hadoop.chukwa.datastore.WidgetStore
+177,org.apache.hadoop.chukwa.util.ExceptionUtil
+180,org.apache.hadoop.chukwa.rest.bean.ParametersBean
+189,org.apache.hadoop.chukwa.datacollection.adaptor.ChukwaTestAdaptor
+208,org.apache.hadoop.chukwa.datacollection.adaptor.AbstractAdaptor
+209,org.apache.hadoop.chukwa.datacollection.adaptor.AdaptorShutdownPolicy
+210,org.apache.hadoop.chukwa.datacollection.adaptor.AdaptorException
+219,org.apache.hadoop.chukwa.datastore.ChukwaHBaseStore
+388,org.apache.hadoop.chukwa.hicc.bean.Series
+396,edu.berkeley.chukwa_xtrace.TestXtrAdaptor
+417,org.apache.hadoop.chukwa.datacollection.agent.ChukwaAgent
+418,org.apache.hadoop.chukwa.datacollection.connector.ChunkCatcherConnector
+430,org.apache.hadoop.chukwa.datacollection.writer.ConsoleWriter
+464,org.apache.hadoop.chukwa.datacollection.writer.WriterException
+475,org.apache.hadoop.chukwa.hicc.ClusterConfig
+499,org.apache.hadoop.chukwa.extraction.demux.TestDemuxManager
+675,org.apache.hadoop.chukwa.conf.ChukwaConfiguration
+679,org.apache.hadoop.chukwa.extraction.demux.DemuxManager
+705,org.apache.hadoop.chukwa.extraction.engine.datasource.DsDirectory
+736,org.apache.hadoop.chukwa.inputtools.mdl.DataConfig
+741,org.apache.hadoop.chukwa.ChunkImplTest
+764,org.apache.hadoop.chukwa.ChunkBuilder
+765,org.apache.hadoop.chukwa.ChunkImpl
+781,org.apache.hadoop.chukwa.inputtools.log4j.TestTaskLogAppender
+806,org.apache.hadoop.chukwa.extraction.demux.processor.reducer.ReduceProcessorFactory
+825,org.apache.hadoop.chukwa.extraction.demux.processor.reducer.UnknownReduceTypeException
+826,org.apache.hadoop.chukwa.extraction.demux.processor.reducer.DuplicateReduceProcessorException
+837,org.apache.hadoop.chukwa.datacollection.sender.RetryListOfCollectors
+885,org.apache.hadoop.chukwa.tools.backfilling.BackfillingLoader
+920,org.apache.hadoop.chukwa.datacollection.DataFactory
+921,org.apache.hadoop.chukwa.datacollection.agent.AdaptorFactory
+925,org.apache.hadoop.chukwa.tools.backfilling.QueueToWriterConnector
+942,org.apache.hadoop.chukwa.datacollection.adaptor.jms.TestJMSAdaptor
+984,org.apache.hadoop.chukwa.datacollection.adaptor.jms.JMSAdaptor
+993,org.apache.hadoop.chukwa.datacollection.writer.hbase.Reporter
+1015,org.apache.hadoop.chukwa.rest.bean.ClientTraceBean
+1041,org.apache.hadoop.chukwa.database.TestDatabasePrepareStatement
+1089,org.apache.hadoop.chukwa.database.Macro
+1090,org.apache.hadoop.chukwa.util.DatabaseWriter
+1091,org.apache.hadoop.chukwa.database.TableCreator
+1102,org.apache.hadoop.chukwa.extraction.engine.datasource.record.ChukwaSequenceFileParser
+1136,org.apache.hadoop.chukwa.extraction.engine.ChukwaRecordKey
+1138,org.apache.hadoop.chukwa.extraction.engine.datasource.record.MalformedFileFormat
+1139,org.apache.hadoop.chukwa.extraction.engine.ChukwaRecordJT
+1147,org.apache.hadoop.chukwa.inputtools.hdfsusage.HDFSUsageMetrics
+1169,org.apache.hadoop.chukwa.datacollection.agent.metrics.AgentActivityMBean
+1176,org.apache.hadoop.chukwa.analysis.salsa.fsm.HDFSState
+1198,org.apache.hadoop.chukwa.dataloader.SocketDataLoader
+1243,org.apache.hadoop.chukwa.datacollection.writer.SocketTeeWriter
+1247,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveHourlyPartitioner
+1261,org.apache.hadoop.chukwa.ChukwaArchiveKey
+1266,org.apache.hadoop.chukwa.validationframework.interceptor.ChunkQueueInterceptor
+1278,org.apache.hadoop.chukwa.validationframework.interceptor.ChunkDumper
+1285,org.apache.hadoop.chukwa.datacollection.adaptor.RegExDirTailingAdaptor
+1289,org.apache.hadoop.chukwa.datacollection.adaptor.DirTailingAdaptor
+1297,org.apache.hadoop.chukwa.dataloader.MetricDataLoaderPool
+1324,org.apache.hadoop.chukwa.dataloader.DataLoaderFactory
+1325,org.apache.hadoop.chukwa.dataloader.MetricDataLoader
+1333,org.apache.hadoop.chukwa.datacollection.adaptor.WriteaheadBuffered
+1370,org.apache.hadoop.chukwa.datacollection.adaptor.AbstractWrapper
+1380,org.apache.hadoop.chukwa.inputtools.jplugin.ChukwaMetricsList
+1445,org.apache.hadoop.chukwa.extraction.engine.datasource.record.ChukwaFileParser
+1479,org.apache.hadoop.chukwa.TestLocalChukwaStorage
+1513,org.apache.hadoop.chukwa.util.GenerateTestFile
+1514,org.apache.hadoop.chukwa.PigTest
+1524,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.CharFileTailingAdaptorUTF8
+1539,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.FileTailingAdaptor
+1546,org.apache.hadoop.chukwa.pig.ChukwaLoader
+1616,org.apache.hadoop.chukwa.datacollection.TestOffsetStatsManager
+1631,org.apache.hadoop.chukwa.datacollection.OffsetStatsManager
+1636,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.TestLog4JMetricsContextChukwaRecord
+1644,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.Log4JMetricsContextProcessor
+1650,org.apache.hadoop.chukwa.inputtools.mdl.ErStreamHandler
+1669,org.apache.hadoop.chukwa.util.CopySequenceFile
+1706,org.apache.hadoop.chukwa.extraction.engine.datasource.record.RecordDS
+1737,org.apache.hadoop.chukwa.extraction.engine.Token
+1744,org.apache.hadoop.chukwa.inputtools.ChukwaInputFormat
+1785,org.apache.hadoop.chukwa.datacollection.agent.metrics.ChunkQueueMetrics
+1818,org.apache.hadoop.chukwa.datacollection.agent.metrics.AgentMetrics
+1847,org.apache.hadoop.chukwa.hicc.Workspace
+2010,org.apache.hadoop.chukwa.util.XssFilter
+2014,org.apache.hadoop.chukwa.inputtools.hdfsusage.Employee
+2024,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveDailyOutputFormat
+2035,org.apache.hadoop.chukwa.extraction.demux.ChukwaRecordOutputFormat
+2042,org.apache.hadoop.chukwa.extraction.demux.processor.Util
+2043,org.apache.hadoop.chukwa.extraction.engine.RecordUtil
+2065,org.apache.hadoop.chukwa.analysis.salsa.fsm.FSMBuilder
+2207,org.apache.hadoop.chukwa.extraction.demux.processor.ChukwaOutputCollector
+2208,org.apache.hadoop.chukwa.analysis.salsa.fsm.FSMIntermedEntryPartitioner
+2209,org.apache.hadoop.chukwa.analysis.salsa.fsm.FSMIntermedEntry
+2211,org.apache.hadoop.chukwa.analysis.salsa.fsm.StateType
+2234,org.apache.hadoop.chukwa.inputtools.hdfsusage.HDFSUsagePlugin
+2264,org.apache.hadoop.chukwa.inputtools.jplugin.JPluginStatusMetricsList
+2274,org.apache.hadoop.chukwa.inputtools.plugin.metrics.Exec
+2294,org.apache.hadoop.chukwa.util.DaemonWatcher
+2296,org.apache.hadoop.chukwa.inputtools.plugin.metrics.ExecHelper
+2301,org.apache.hadoop.chukwa.pig.ChukwaStorer
+2361,org.apache.hadoop.chukwa.datacollection.agent.TestCmd
+2397,org.apache.hadoop.chukwa.datacollection.test.ConsoleOutConnector
+2408,org.apache.hadoop.chukwa.datacollection.writer.localfs.LocalWriter
+2485,org.apache.hadoop.chukwa.datacollection.writer.localfs.LocalToRemoteHdfsMover
+2495,org.apache.hadoop.chukwa.datacollection.adaptor.FileAdaptor
+2542,org.apache.hadoop.chukwa.datacollection.adaptor.FileAdaptorTailer
+2574,org.apache.hadoop.chukwa.datacollection.collector.CaptureWriter
+2588,org.apache.hadoop.chukwa.rest.resource.WidgetContextResolver
+2606,org.apache.hadoop.chukwa.rest.bean.CatalogBean
+2607,org.apache.hadoop.chukwa.rest.bean.CategoryBean
+2646,org.apache.hadoop.chukwa.analysis.salsa.visualization.Swimlanes
+2984,org.apache.hadoop.chukwa.hicc.OfflineTimeHandler
+2985,org.apache.hadoop.chukwa.hicc.TimeHandler
+2995,org.apache.hadoop.chukwa.datastore.ViewStore
+3058,org.apache.hadoop.chukwa.hicc.HiccWebServer
+3059,org.apache.hadoop.chukwa.rest.bean.ViewBean
+3068,org.apache.hadoop.chukwa.util.TestXSSFilter
+3087,org.apache.hadoop.chukwa.datacollection.sender.ChukwaHttpSender
+3198,org.apache.hadoop.chukwa.datacollection.sender.metrics.HttpSenderMetrics
+3212,org.apache.hadoop.chukwa.extraction.demux.ChukwaRecordPartitioner
+3223,org.apache.hadoop.chukwa.util.TestFilter
+3236,org.apache.hadoop.chukwa.util.Filter
+3252,org.apache.hadoop.chukwa.analysis.salsa.fsm.TaskTrackerClientTraceMapper
+3288,org.apache.hadoop.chukwa.analysis.salsa.fsm.FSMType
+3291,org.apache.hadoop.chukwa.analysis.salsa.fsm.MapRedState
+3304,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.JPluginMapper
+3322,org.apache.hadoop.chukwa.inputtools.jplugin.GenericChukwaMetricsList
+3323,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.AbstractProcessor
+3324,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.LogEntry
+3336,org.apache.hadoop.chukwa.extraction.demux.RecordMerger
+3372,edu.berkeley.chukwa_xtrace.CausalGraph
+3469,edu.berkeley.chukwa_xtrace.XtrExtract
+3482,org.apache.hadoop.chukwa.datacollection.agent.rest.TestAdaptorController
+3553,org.apache.hadoop.chukwa.datacollection.agent.rest.AdaptorController
+3564,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.DefaultProcessor
+3575,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.JobLogHistoryProcessor
+3609,org.apache.hadoop.chukwa.datacollection.writer.hbase.Annotation
+3611,org.apache.hadoop.chukwa.datacollection.adaptor.jms.JMSMessagePropertyTransformer
+3644,org.apache.hadoop.chukwa.TimePartition
+3669,org.apache.hadoop.chukwa.database.TestDatabaseDataExpiration
+3718,org.apache.hadoop.chukwa.database.Aggregator
+3719,org.apache.hadoop.chukwa.database.DataExpiration
+3732,org.apache.hadoop.chukwa.database.TestDatabaseWebJson
+3809,org.apache.hadoop.chukwa.rest.resource.TestWidgetResource
+3818,org.apache.hadoop.chukwa.rest.bean.UserBean
+3819,org.apache.hadoop.chukwa.rest.resource.SetupTestEnv
+3832,org.apache.hadoop.chukwa.rest.resource.WidgetResource
+3850,org.apache.hadoop.chukwa.rest.bean.ReturnCodeBean
+3970,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.TsProcessor
+3999,org.apache.hadoop.chukwa.extraction.demux.Demux
+4002,org.apache.hadoop.chukwa.extraction.demux.TestPostDemuxTrigger
+4013,org.apache.hadoop.chukwa.datatrigger.TriggerEvent
+4015,org.apache.hadoop.chukwa.extraction.demux.PostProcessorManager
+4016,org.apache.hadoop.chukwa.extraction.demux.MockTriggerAction
+4027,org.apache.hadoop.chukwa.TestChunkBuilder
+4032,org.apache.hadoop.chukwa.datacollection.writer.test.demux.TextParser
+4192,org.apache.hadoop.chukwa.rest.bean.PagesBean
+4197,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.DuplicateProcessorException
+4208,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.Top
+4242,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveHourlyOutputFormat
+4265,org.apache.hadoop.chukwa.rest.resource.TestUserResource
+4324,org.apache.hadoop.chukwa.datacollection.writer.PipelineableWriter
+4332,org.apache.hadoop.chukwa.rest.resource.UserResource
+4346,org.apache.hadoop.chukwa.datastore.UserStore
+4513,org.apache.hadoop.chukwa.database.DatabaseConfig
+4514,org.apache.hadoop.chukwa.util.ClusterConfig
+4524,org.apache.hadoop.chukwa.util.DriverManagerUtil
+4668,org.apache.hadoop.chukwa.extraction.engine.ChukwaSearchResult
+4669,org.apache.hadoop.chukwa.extraction.engine.datasource.record.ChukwaDSInternalResult
+4685,org.apache.hadoop.chukwa.inputtools.log4j.TaskLogAppender
+4707,org.apache.hadoop.chukwa.datacollection.controller.ChukwaAgentController
+4708,org.apache.hadoop.chukwa.datacollection.controller.ClientFinalizer
+4709,org.apache.hadoop.chukwa.util.RecordConstants
+4717,org.apache.hadoop.chukwa.extraction.demux.processor.reducer.IdentityReducer
+4728,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.ChunkSaver
+4747,org.apache.hadoop.chukwa.rest.resource.TestClientTrace
+4759,org.apache.hadoop.chukwa.datacollection.writer.PipelineStageWriter
+4798,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveManager
+4869,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveBuilder
+4878,org.apache.hadoop.chukwa.validationframework.DemuxDirectoryValidator
+4915,org.apache.hadoop.chukwa.validationframework.util.DataOperations
+4920,org.apache.hadoop.chukwa.util.ConstRateAdaptor
+4967,org.apache.hadoop.chukwa.datacollection.adaptor.SyslogAdaptor
+5024,org.apache.hadoop.chukwa.datacollection.adaptor.UDPAdaptor
+5029,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.MapProcessorFactory
+5038,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.UnknownRecordTypeException
+5113,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.HadoopLogProcessor
+5132,org.apache.hadoop.chukwa.extraction.demux.TestDemuxMapperConfigs
+5144,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.ChukwaTestOutputCollector
+5221,org.apache.hadoop.chukwa.datacollection.adaptor.jms.JMSTextMessageTransformer
+5266,org.apache.hadoop.chukwa.rest.bean.ConfigBean
+5303,org.apache.hadoop.chukwa.datacollection.agent.TestAgent
+5340,org.apache.hadoop.chukwa.util.ConstRateValidator
+5447,org.apache.hadoop.chukwa.validationframework.ChukwaAgentToCollectorValidator
+5501,org.apache.hadoop.chukwa.datacollection.collector.CollectorStub
+5502,org.apache.hadoop.chukwa.validationframework.interceptor.SetupTestClasses
+5514,org.apache.hadoop.chukwa.datacollection.sender.TestAcksOnFailure
+5528,org.apache.hadoop.chukwa.inputtools.hdfsusage.HDFSUsagePluginTest
+5541,org.apache.hadoop.chukwa.util.TestCreateRecordFile
+5566,org.apache.hadoop.chukwa.util.CreateRecordFile
+5569,org.apache.hadoop.chukwa.util.DumpChunks
+5651,org.apache.hadoop.chukwa.datacollection.writer.TestHBaseWriter
+5685,org.apache.hadoop.chukwa.datacollection.writer.hbase.HBaseWriter
+5688,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.TestHadoopLogProcessor
+5729,org.apache.hadoop.chukwa.RecordMerger
+5743,org.apache.hadoop.chukwa.util.TempFileUtil
+5799,org.apache.hadoop.chukwa.rest.resource.ViewContextResolver
+5810,org.apache.hadoop.chukwa.inputtools.log4j.TestChukwaDailyRollingFileAppender
+5853,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.JobConfProcessor
+6060,org.apache.hadoop.chukwa.util.ClassUtils
+6061,org.apache.hadoop.chukwa.datacollection.writer.hbase.OutputCollector
+6067,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.FileTailer
+6087,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.LWFTAdaptor
+6091,org.apache.hadoop.chukwa.inputtools.log4j.Log4JMetricsContext
+6136,org.apache.hadoop.metrics.spi.AbstractMetricsContext
+6146,org.apache.hadoop.chukwa.util.PidFile
+6267,org.apache.hadoop.chukwa.tools.backfilling.TestBackfillingLoader
+6389,org.apache.hadoop.chukwa.validationframework.util.MD5
+6420,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveStreamNamePartitioner
+6430,org.apache.hadoop.chukwa.inputtools.mdl.LoaderServer
+6472,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.Torque
+6552,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.ProcessorFactory
+6566,org.apache.hadoop.chukwa.database.TestDatabaseTableCreator
+6619,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.SystemMetrics
+6765,org.apache.hadoop.chukwa.util.NagiosHelper
+6779,org.apache.hadoop.chukwa.ChukwaArchive
+6812,org.apache.hadoop.chukwa.hicc.AreaCalculatorTest
+6826,org.apache.hadoop.chukwa.hicc.AreaCalculator
+6831,org.apache.hadoop.chukwa.TestTimePartition
+6868,org.apache.hadoop.chukwa.database.TestDatabaseAggregator
+6890,org.apache.hadoop.chukwa.database.DatabaseSetup
+6900,org.apache.hadoop.chukwa.rest.bean.ColumnBean
+6917,org.apache.hadoop.chukwa.datatrigger.HttpTriggerAction
+7024,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveDailyPartitioner
+7025,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveDataTypePartitioner
+7026,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveDataTypeOutputFormat
+7027,org.apache.hadoop.chukwa.extraction.archive.ChukwaArchiveStreamNameOutputFormat
+7029,org.apache.hadoop.chukwa.datacollection.adaptor.jms.TestJMSMessagePropertyTransformer
+7071,org.apache.hadoop.chukwa.util.TestCopySequenceFile
+7319,org.apache.hadoop.chukwa.TestRecordMerger
+7368,org.apache.hadoop.chukwa.analysis.salsa.fsm.ParseUtilities
+7394,org.apache.hadoop.chukwa.datacollection.adaptor.TestDirTailingAdaptor
+7429,org.apache.hadoop.chukwa.inputtools.jplugin.JPluginAgent
+7461,org.apache.hadoop.chukwa.extraction.demux.processor.reducer.SystemMetrics
+7489,org.apache.hadoop.chukwa.inputtools.mdl.TorqueTimerTask
+7506,org.apache.hadoop.chukwa.util.DriverManagerUtilTest
+7527,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.JobSummary
+7568,org.apache.hadoop.chukwa.datacollection.sender.metrics.HttpSenderActivityMBean
+7577,org.apache.hadoop.chukwa.datacollection.writer.InMemoryWriter
+7601,org.apache.hadoop.chukwa.database.MetricsAggregation
+7629,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.SysLog
+7650,org.apache.hadoop.chukwa.inputtools.TestInputFormat
+7676,org.apache.hadoop.chukwa.hicc.JSONLoader
+7707,org.apache.hadoop.chukwa.rest.bean.OptionBean
+7726,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.TestStartAtOffset
+7785,org.apache.hadoop.chukwa.datacollection.adaptor.MemBuffered
+7824,org.apache.hadoop.chukwa.util.DumpArchive
+7854,org.apache.hadoop.chukwa.TestParseDouble
+7882,org.apache.hadoop.chukwa.PARSEDOUBLE
+7886,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.TProcessor
+7894,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.TestAbtractProcessor
+7970,org.apache.hadoop.chukwa.dataloader.TestDatabaseMetricDataLoader
+8021,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.JobLog
+8102,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.TestLogRotate
+8137,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.RCheckFTAdaptor
+8189,org.apache.hadoop.chukwa.datacollection.collector.TestDelayedAcks
+8253,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.TestRawAdaptor
+8254,org.apache.hadoop.chukwa.datacollection.agent.AdaptorResetThread
+8255,org.apache.hadoop.chukwa.datacollection.collector.servlet.CommitCheckServlet
+8256,org.apache.hadoop.chukwa.datacollection.collector.servlet.ServletCollector
+8257,org.apache.hadoop.chukwa.datacollection.connector.http.HttpConnector
+8258,org.apache.hadoop.chukwa.datacollection.writer.SeqFileWriter
+8259,org.apache.hadoop.chukwa.extraction.archive.SinkArchiver
+8264,org.apache.hadoop.chukwa.datacollection.sender.AsyncAckSender
+8296,org.apache.hadoop.chukwa.datacollection.collector.TestFailedCollectorAck
+8337,org.apache.hadoop.chukwa.extraction.demux.TestDemuxReducerConfigs
+8347,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.TestCharFileTailingAdaptorUTF8
+8361,org.apache.hadoop.chukwa.inputtools.log4j.ChukwaDailyRollingFileAppender
+8497,org.apache.hadoop.chukwa.inputtools.log4j.RollingCalendar
+8515,org.apache.hadoop.chukwa.util.AdaptorNamingUtils
+8521,org.apache.hadoop.chukwa.datacollection.writer.TestClientAck
+8527,org.apache.hadoop.chukwa.datacollection.writer.ClientAck
+8602,org.apache.hadoop.chukwa.extraction.demux.processor.reducer.ClientTrace
+8619,org.apache.hadoop.chukwa.util.DumpRecord
+8632,org.apache.hadoop.chukwa.datacollection.writer.ExtractorWriter
+8639,org.apache.hadoop.chukwa.datacollection.collector.servlet.LogDisplayServlet
+8648,org.apache.hadoop.chukwa.inputtools.plugin.ExecPlugin
+8651,org.apache.hadoop.chukwa.extraction.demux.HourlyChukwaRecordRolling
+8710,org.apache.hadoop.chukwa.util.MaxRateSender
+8773,org.apache.hadoop.chukwa.datacollection.writer.Dedup
+8808,org.apache.hadoop.chukwa.inputtools.mdl.TorqueInfoProcessor
+8975,org.apache.hadoop.chukwa.inputtools.plugin.Output
+8981,org.apache.hadoop.chukwa.inputtools.plugin.OutputReader
+8998,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.TerminatorThread
+9163,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.Iostat
+9220,org.apache.hadoop.chukwa.extraction.demux.DoMerge
+9235,org.apache.hadoop.chukwa.extraction.demux.EventFileFilter
+9238,org.apache.hadoop.chukwa.extraction.demux.MoveOrMergeRecordFile
+9273,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.HadoopMetricsProcessor
+9306,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.TestRCheckAdaptor
+9401,org.apache.hadoop.chukwa.dataloader.FSMDataLoader
+9455,org.apache.hadoop.chukwa.datacollection.agent.MemLimitQueue
+9461,org.apache.hadoop.chukwa.analysis.salsa.visualization.Heatmap
+9700,org.apache.hadoop.chukwa.extraction.demux.processor.reducer.JobLogHistoryReduceProcessor
+9715,org.apache.hadoop.mapred.ChukwaJobTrackerInstrumentation
+9744,org.apache.hadoop.chukwa.util.TestCRValidator
+9788,org.apache.hadoop.chukwa.datacollection.adaptor.TestUDPAdaptor
+9800,org.apache.hadoop.chukwa.hicc.Config
+9803,org.apache.hadoop.chukwa.inputtools.hdfsusage.HDFSUsageMetricsList
+9911,org.apache.hadoop.chukwa.hicc.Chart
+10013,org.apache.hadoop.chukwa.hicc.ColorPicker
+10062,org.apache.hadoop.chukwa.extraction.demux.processor.reducer.MockReduceProcessor
+10074,org.apache.hadoop.chukwa.rest.resource.TestViewResource
+10088,org.apache.hadoop.chukwa.datacollection.collector.TestAdaptorTimeout
+10104,org.apache.hadoop.chukwa.extraction.archive.TestArchive
+10143,org.apache.hadoop.chukwa.rest.resource.ViewResource
+10187,org.apache.hadoop.chukwa.dataloader.TestSocketDataLoader
+10197,org.apache.hadoop.chukwa.datacollection.test.SinkFileValidator
+10227,org.apache.hadoop.chukwa.datacollection.agent.WaitingQueue
+10253,org.apache.hadoop.chukwa.extraction.demux.processor.reducer.MRJobReduceProcessor
+10275,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.Df
+10298,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.DFInvalidRecord
+10301,org.apache.hadoop.chukwa.inputtools.mdl.TorqueDataLoader
+10322,org.apache.hadoop.chukwa.datacollection.sender.TestRetryListOfCollectors
+10341,org.apache.hadoop.chukwa.datacollection.collector.TestCollector
+10415,org.apache.hadoop.chukwa.datacollection.collector.servlet.ServletDiagnostics
+10482,org.apache.hadoop.chukwa.hicc.ImageSlicer
+10549,org.apache.hadoop.chukwa.hicc.XYData
+10563,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.TestJobLogEntry
+10653,org.apache.hadoop.chukwa.hicc.Iframe
+10680,org.apache.hadoop.chukwa.hicc.DatasetMapper
+10735,org.apache.hadoop.chukwa.datacollection.adaptor.SocketAdaptor
+10796,org.apache.hadoop.chukwa.hicc.rest.MetricsController
+10951,org.apache.hadoop.chukwa.extraction.demux.MoveToRepository
+10985,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.YWatch
+11158,org.apache.hadoop.chukwa.datacollection.agent.AgentControlSocketListener
+11167,org.apache.hadoop.chukwa.datacollection.controller.TestAgentClient
+11237,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.DebugOutputProcessor
+11248,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.CharFileTailingAdaptorUTF8NewLineEscaped
+11275,org.apache.hadoop.chukwa.analysis.salsa.fsm.JobHistoryTaskDataMapper
+11332,org.apache.hadoop.chukwa.extraction.demux.TestDemux
+11405,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.TestPsOutput
+11412,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.Ps
+11552,org.apache.hadoop.chukwa.datacollection.test.FileTailerStressTest
+11633,org.apache.hadoop.chukwa.datacollection.agent.TestAgentConfig
+11654,org.apache.hadoop.chukwa.extraction.engine.ChukwaSearchService
+11792,org.apache.hadoop.chukwa.tools.PigMover
+11830,org.apache.hadoop.chukwa.datacollection.adaptor.sigar.SystemMetrics
+11847,org.apache.hadoop.chukwa.datacollection.adaptor.sigar.SigarRunner
+11863,org.apache.hadoop.chukwa.inputtools.log4j.OneLineLogLayout
+11885,org.apache.hadoop.chukwa.datacollection.adaptor.TestBufferingWrappers
+11909,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.TestTsProcessor
+11957,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.MockMapProcessor
+11995,org.apache.hadoop.chukwa.inputtools.log4j.Log4jMetricsSink
+12167,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.PbsInvalidEntry
+12189,org.apache.hadoop.chukwa.rest.resource.ClientTrace
+12207,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.Sar
+12305,org.apache.hadoop.chukwa.datacollection.writer.NullWriter
+12371,org.apache.hadoop.chukwa.datacollection.collector.TestBackpressure
+12439,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.PbsNodes
+12486,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.TestFileTailingAdaptors
+12510,org.apache.hadoop.chukwa.datacollection.adaptor.TestSyslogAdaptor
+12523,org.apache.hadoop.chukwa.TestArchiveReader
+12558,org.apache.hadoop.chukwa.inputtools.plugin.pbsnode.PbsNodePlugin
+12703,org.apache.hadoop.chukwa.extraction.demux.DailyChukwaRecordRolling
+12810,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.TestFileExpirationPolicy
+12852,org.apache.hadoop.chukwa.datacollection.adaptor.TestFileAdaptor
+13012,org.apache.hadoop.chukwa.datacollection.writer.TestSocketTee
+13031,org.apache.hadoop.chukwa.analysis.salsa.fsm.DataNodeClientTraceMapper
+13181,edu.berkeley.chukwa_xtrace.XtrAdaptor
+13420,org.apache.hadoop.chukwa.datacollection.test.FilePerPostWriter
+13525,org.apache.hadoop.chukwa.inputtools.plugin.nodeactivity.NodeActivityPlugin
+13701,org.apache.hadoop.chukwa.datacollection.connector.TestFailedCollector
+13905,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.YwatchInvalidEntry
+13952,org.apache.hadoop.chukwa.datacollection.writer.TestChukwaWriters
+14031,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.ChukwaMetricsProcessor
+14049,org.apache.hadoop.chukwa.database.TestMacro
+14058,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.ClientTraceProcessor
+14126,org.apache.hadoop.chukwa.extraction.demux.processor.mapper.Log4jJobHistoryProcessor
+14156,org.apache.hadoop.chukwa.util.TestDumpChunks
+14178,org.apache.hadoop.chukwa.datacollection.adaptor.TestExecAdaptor
+14216,org.apache.hadoop.chukwa.hicc.TestChart
+14245,org.apache.hadoop.chukwa.util.TestRecordConsts
+14250,org.apache.hadoop.chukwa.analysis.salsa.fsm.TestFSMBuilder
+14380,org.apache.hadoop.chukwa.datacollection.adaptor.filetailer.TestFileTailingAdaptorBigRecord
+14410,org.apache.hadoop.chukwa.datacollection.adaptor.ExecAdaptor
+*Edges: 838
+396 418 3
+396 417 5
+13181 209 1
+13181 208 1
+13181 765 1
+6779 765 6
+764 765 2
+765 920 2
+741 764 12
+741 765 1
+12523 85 3
+12523 1514 1
+12523 1139 1
+12523 1136 3
+12523 5743 1
+4027 764 4
+1479 85 3
+1479 1514 1
+1479 1513 1
+1479 1139 1
+1479 1136 3
+7854 7882 4
+7319 5729 1
+6831 3644 10
+13031 3288 2
+13031 2209 4
+13031 2211 2
+13031 85 24
+13031 1176 7
+13031 1136 6
+2209 3288 3
+2209 2211 4
+2209 1176 5
+2209 3291 5
+2208 2209 1
+2208 1136 2
+11275 3288 1
+11275 2209 34
+11275 2211 13
+11275 85 32
+11275 7368 3
+11275 3291 10
+11275 1136 12
+7368 2209 2
+3252 3288 2
+3252 2209 6
+3252 2211 2
+3252 85 22
+3252 3291 4
+3252 1136 6
+14250 3087 2
+14250 920 2
+14250 8257 4
+14250 417 3
+14250 8256 1
+14250 4707 3
+14250 675 5
+14250 85 5
+14250 1136 2
+14250 177 1
+9461 2984 3
+9461 1089 2
+9461 2010 3
+9461 1090 3
+9461 2985 3
+2646 2984 3
+2646 1089 2
+2646 2010 2
+2646 1090 2
+2646 2985 3
+3718 1089 2
+3718 1090 5
+3719 4513 4
+3719 1090 4
+6890 1091 2
+6890 1090 7
+1089 4513 5
+1089 1090 9
+7601 4524 2
+7601 4513 10
+1091 4513 4
+1091 1090 5
+1091 177 1
+6868 6890 3
+6868 3718 4
+6868 1089 2
+6868 1090 5
+6868 675 1
+6868 177 3
+3669 1089 4
+3669 1091 2
+3669 1090 13
+3669 3719 2
+3669 675 1
+3669 177 2
+1041 1089 4
+1041 1091 2
+1041 1090 11
+1041 177 1
+6566 1089 4
+6566 1091 2
+6566 1090 13
+6566 675 1
+6566 177 2
+3732 1089 2
+3732 1090 4
+3732 177 4
+14049 1089 21
+920 837 1
+920 9455 1
+1616 1631 8
+1370 921 1
+1370 209 1
+189 209 1
+189 208 1
+1289 209 1
+1289 208 1
+14410 209 1
+14410 210 1
+14410 208 1
+14410 8648 2
+2495 209 1
+2495 208 3
+2495 765 2
+2495 2542 3
+2495 177 2
+2542 417 2
+2542 2495 3
+7785 1370 1
+1285 1289 1
+10735 209 1
+10735 210 1
+10735 208 1
+10735 177 2
+4967 5024 1
+4967 765 1
+4967 675 1
+11885 418 5
+11885 417 8
+7394 417 23
+14178 2397 1
+14178 418 2
+14178 417 6
+12852 418 4
+12852 417 12
+12852 5743 1
+12510 208 2
+12510 4967 1
+9788 208 2
+5024 209 1
+5024 208 1
+5024 765 1
+1333 1370 1
+1333 765 2
+1524 1539 1
+1524 765 2
+11248 1539 1
+11248 765 3
+6067 6087 3
+1539 209 1
+1539 8998 1
+1539 208 1
+1539 6087 3
+1539 6067 2
+1539 177 2
+6087 209 1
+6087 208 2
+6087 765 1
+6087 6067 4
+8137 208 1
+8137 6087 3
+8998 1539 3
+8998 177 1
+8347 418 3
+8347 417 4
+8347 5743 1
+12810 417 12
+12810 4707 2
+12810 675 2
+14380 418 3
+14380 417 6
+14380 4707 2
+14380 675 1
+12486 418 6
+12486 417 20
+12486 5743 2
+8102 418 6
+8102 417 4
+8102 4707 2
+8102 5743 2
+8102 675 1
+9306 418 7
+9306 208 1
+9306 7394 2
+9306 6087 1
+9306 417 3
+8253 418 4
+8253 417 4
+8253 5743 1
+7726 418 6
+7726 417 8
+7726 5743 1
+984 209 1
+984 208 1
+942 208 8
+7029 208 18
+11847 11830 2
+11847 765 1
+11847 177 1
+11830 209 1
+11830 11847 2
+11830 208 1
+8254 417 6
+11158 417 5
+11158 177 1
+417 1818 1
+417 209 2
+417 2397 1
+417 920 4
+417 11158 7
+417 8515 1
+417 8257 2
+417 2294 2
+417 1631 6
+417 921 1
+417 210 6
+417 177 1
+9455 1785 1
+5303 2397 3
+5303 417 9
+5303 4707 3
+11633 2397 2
+11633 417 24
+2361 2397 3
+2361 418 1
+2361 208 3
+2361 189 6
+2361 417 22
+1818 1169 3
+1785 27 3
+3553 210 1
+3553 417 20
+3553 1631 6
+3553 177 1
+3482 3553 9
+3482 417 14
+5501 8639 1
+5501 8255 1
+5501 8256 2
+5501 2294 2
+5501 430 1
+5501 675 4
+10088 8254 1
+10088 8296 1
+10088 8189 2
+10088 7394 1
+10088 8257 4
+10088 417 3
+10088 8256 1
+12371 837 2
+12371 8257 3
+12371 417 5
+12371 8256 1
+10341 3087 1
+10341 765 1
+10341 8256 1
+8189 8258 4
+8189 8254 4
+8189 8257 4
+8189 417 12
+8189 8256 3
+8189 418 3
+8189 8255 1
+8189 765 1
+8189 7394 1
+8189 5743 1
+8296 1261 1
+8296 8257 4
+8296 417 4
+8296 8256 2
+8296 837 3
+8296 8189 3
+8296 765 1
+8296 7394 1
+8256 8258 1
+8256 10415 4
+8256 765 1
+8256 2294 1
+8256 464 1
+10415 765 1
+418 920 2
+13701 8257 3
+13701 417 3
+13701 4707 3
+13701 5743 1
+13701 675 1
+8257 3087 1
+8257 920 6
+8257 8264 1
+8257 417 12
+8257 2294 2
+4708 4707 3
+11167 417 2
+11167 4707 4
+8264 8254 4
+8264 837 1
+8264 3087 4
+8264 920 2
+8264 417 4
+3087 3198 1
+5514 3087 1
+5514 765 1
+10322 837 12
+3198 7568 3
+2397 920 2
+2397 417 4
+13420 8258 2
+13420 1261 5
+11552 8257 2
+11552 417 1
+11552 8256 2
+11552 4707 2
+11552 430 1
+11552 675 1
+10197 1261 1
+10197 765 4
+8773 4324 1
+8632 8639 2
+8632 4324 1
+7577 765 1
+12305 177 1
+4759 4324 2
+4759 464 3
+8258 4324 1
+8258 1261 5
+8258 2294 3
+8258 464 2
+1243 4324 1
+13952 8258 7
+13952 1261 5
+13952 764 10
+13952 765 7
+8521 8527 5
+5651 5685 2
+5651 765 1
+5651 675 2
+13012 4759 1
+13012 765 9
+5685 993 2
+5685 4324 1
+5685 1261 1
+5685 6060 1
+5685 6061 5
+5685 2294 1
+5685 675 2
+5685 464 1
+5685 5029 1
+5685 177 4
+6061 85 3
+6061 1139 1
+6061 1136 3
+2485 1669 1
+2485 2294 1
+2408 1261 5
+2408 2485 3
+2408 2294 4
+2408 464 3
+4032 3323 2
+4032 85 3
+4032 1136 1
+1324 675 2
+9401 1324 1
+9401 1325 2
+9401 675 1
+9401 177 1
+1325 2043 1
+1325 4513 10
+1325 85 5
+1325 1139 5
+1325 1090 3
+1325 4514 2
+1325 1136 3
+1325 675 3
+1325 177 3
+1297 1324 1
+1297 1325 2
+1297 675 1
+1297 177 1
+1198 920 2
+1198 765 1
+1198 675 1
+1198 177 3
+7970 1089 2
+7970 1325 2
+7970 1091 2
+7970 1090 10
+7970 675 1
+7970 177 2
+10187 4759 1
+10187 1198 2
+10187 765 1
+219 388 3
+219 177 6
+4346 3058 1
+4346 3818 12
+4346 675 1
+4346 177 5
+2995 3059 18
+2995 3058 1
+2995 675 1
+2995 177 9
+176 3058 1
+176 2606 6
+176 101 5
+176 675 1
+176 177 4
+6917 4013 9
+4869 675 1
+2024 1261 3
+2024 765 1
+7024 1261 2
+7024 765 1
+7026 2043 1
+7026 1261 4
+7026 765 3
+7025 2043 1
+7025 1261 3
+7025 765 3
+4242 1261 3
+4242 765 1
+1247 1261 2
+1247 765 1
+4798 2294 2
+4798 675 2
+6420 1261 1
+6420 765 3
+8259 675 1
+10104 8259 1
+10104 5743 4
+2035 2043 1
+2035 85 1
+2035 1139 1
+2035 2042 1
+2035 1136 3
+3212 85 1
+3212 1136 4
+12703 3336 2
+12703 2294 1
+12703 675 3
+12703 177 1
+3999 675 1
+3999 177 1
+679 6765 4
+679 3999 1
+679 2294 2
+679 675 3
+9220 675 3
+8651 3336 2
+8651 2294 1
+8651 675 3
+4016 4013 1
+9238 9220 1
+9238 675 2
+10951 675 2
+4015 10951 1
+4015 1324 1
+4015 2294 2
+4015 675 3
+4015 177 2
+3336 675 2
+3336 177 1
+11332 1261 5
+11332 765 5
+499 679 6
+499 675 6
+5132 1261 1
+5132 764 2
+5132 1136 1
+8337 1136 1
+4002 4015 4
+4002 4016 5
+4002 675 2
+2207 85 1
+2207 1136 2
+3323 4728 1
+3323 1261 2
+3323 85 5
+3323 1139 1
+3323 4709 1
+3323 1136 3
+14031 9273 1
+4728 85 7
+4728 1139 1
+4728 1136 3
+4728 177 1
+14058 3323 2
+14058 85 8
+14058 1139 1
+14058 1136 2
+11237 3323 2
+11237 85 1
+11237 1136 1
+3564 3323 2
+3564 1261 1
+3564 85 1
+10275 10298 2
+10275 3323 2
+10275 85 6
+10275 1136 1
+5113 3323 5
+5113 85 1
+9273 3323 2
+9273 85 7
+9273 1139 1
+9273 1136 2
+9163 3323 3
+9163 85 4
+9163 1139 1
+9163 1136 2
+3304 3322 2
+3304 3323 2
+3304 1380 3
+3304 85 2
+3304 1139 1
+3304 1136 2
+3304 3324 2
+5853 3323 3
+5853 85 6
+5853 1136 1
+8021 3323 2
+8021 1261 1
+8021 85 1
+8021 1139 1
+8021 1136 2
+3575 3323 3
+3575 85 22
+3575 1139 11
+3575 1136 29
+7527 3323 1
+7527 85 8
+7527 1139 1
+7527 1136 2
+1644 3323 2
+14126 3323 3
+14126 85 20
+14126 1139 8
+14126 1136 26
+5029 5038 2
+11957 3323 1
+11957 85 1
+11957 1136 1
+12439 3323 3
+12439 85 12
+12439 1139 1
+12439 12167 2
+12439 1136 2
+6552 5038 2
+6552 4197 1
+11412 3323 2
+11412 85 1
+11412 1136 1
+11412 3324 3
+12207 3323 6
+12207 85 6
+12207 1136 6
+7629 3323 2
+7629 85 1
+6619 3323 7
+6619 85 7
+7886 3323 1
+7894 3323 1
+7894 764 4
+7894 4709 3
+5688 5113 1
+5688 765 1
+10563 8021 9
+1636 85 2
+11909 3323 1
+11909 764 2
+11909 3970 1
+11909 1139 2
+11909 1136 4
+4208 3323 3
+4208 85 4
+4208 1136 2
+6472 3323 3
+6472 85 3
+3970 3323 2
+3970 85 1
+10985 3323 2
+10985 85 5
+10985 1136 1
+8602 85 8
+8602 1139 1
+8602 1136 6
+4717 1136 1
+9700 85 11
+9700 1139 3
+9700 1136 5
+10253 85 7
+10253 1139 1
+10253 1136 4
+10062 85 2
+10062 1136 1
+806 825 1
+806 826 1
+7461 85 89
+7461 1139 2
+7461 1136 1
+85 1139 1
+4668 1737 3
+11654 1737 1
+11654 2 2
+705 736 3
+19 4524 1
+19 1737 1
+19 85 3
+19 1139 2
+19 177 2
+4669 1136 1
+1445 85 4
+1445 1139 1
+20 1737 3
+20 85 6
+20 1139 1
+20 4669 2
+20 1136 3
+20 736 1
+20 675 1
+1102 85 11
+1102 1139 1
+1102 1136 1
+1138 25 5
+1706 1737 1
+1706 1102 1
+1706 736 1
+1706 675 1
+6812 6826 3
+9911 10013 2
+9911 2010 6
+475 219 1
+10680 4524 2
+10680 177 4
+3058 2294 4
+3058 675 1
+3058 177 4
+10653 2010 7
+10482 10549 79
+10482 177 2
+7676 177 4
+14216 9911 12
+2985 2010 3
+67 177 7
+47 67 6
+1847 2010 9
+1847 177 3
+388 177 2
+10796 388 2
+10796 219 6
+10796 2985 12
+7650 1744 1
+7650 1261 1
+7650 765 2
+9803 1380 2
+2234 1380 4
+2234 2264 4
+2234 1147 5
+2234 2014 3
+5528 3322 1
+5528 2234 1
+5528 1380 5
+5528 1147 2
+3322 1380 5
+7429 2294 1
+7429 177 1
+2264 3322 2
+2264 1380 1
+8361 8497 6
+8361 8515 1
+8361 4709 2
+8361 4707 4
+8361 4708 2
+6091 6136 6
+6091 177 1
+4685 4709 1
+4685 4707 3
+4685 4708 2
+10301 8808 7
+10301 6146 4
+10301 736 2
+10301 177 1
+8808 1650 3
+8808 7489 3
+8808 736 1
+8648 8981 2
+8981 8975 2
+2274 2296 1
+2274 2294 1
+2296 8648 1
+13525 8648 1
+13525 736 3
+12558 8648 1
+12558 736 3
+1546 85 1
+1546 1139 2
+2301 85 4
+2301 1139 3
+2301 1136 3
+2606 101 5
+6900 101 6
+6900 177 2
+5266 177 1
+7707 177 2
+4192 6900 6
+4192 177 3
+180 7707 5
+180 177 1
+3818 177 4
+3059 4192 6
+3059 177 3
+101 180 9
+101 177 4
+101 176 1
+12189 1015 5
+12189 1198 5
+3819 3058 4
+4747 4759 1
+4747 1015 1
+4747 765 1
+4747 3819 1
+4747 464 1
+4747 177 2
+4265 3850 1
+4265 3819 1
+4265 3818 6
+4265 177 2
+10074 3059 4
+10074 3850 3
+10074 3819 1
+3809 3819 1
+3809 101 1
+3809 177 1
+4332 4346 5
+4332 3850 2
+4332 3818 3
+4332 177 3
+10143 3059 12
+10143 3850 8
+10143 2995 16
+10143 177 4
+3832 2606 1
+3832 3850 2
+3832 101 2
+3832 176 4
+885 921 1
+885 920 4
+885 765 1
+885 925 1
+885 675 1
+925 417 1
+925 2294 1
+6267 2043 1
+6267 1261 1
+6267 765 5
+6267 6389 2
+6267 885 8
+6060 177 1
+4920 209 1
+4920 208 1
+4920 765 2
+1669 1261 1
+1669 765 1
+5566 1261 5
+5566 3970 2
+5566 765 5
+2294 6146 2
+1090 4524 4
+1090 4514 2
+1090 177 4
+7506 4524 3
+7824 1261 5
+7824 765 10
+7824 675 1
+5569 1261 2
+5569 765 10
+5569 3236 3
+5569 675 1
+8619 85 3
+8619 1139 1
+8619 1136 3
+8619 675 1
+1513 85 65
+1513 1139 13
+1513 1136 15
+8710 209 1
+8710 765 1
+5743 1261 5
+5743 765 3
+9744 4920 6
+9744 1261 1
+9744 765 4
+9744 5743 1
+7071 1261 5
+7071 1669 1
+7071 765 5
+5541 85 5
+5541 3970 1
+5541 1139 1
+5541 5566 1
+5541 1136 3
+14156 1261 5
+14156 765 5
+14156 5569 1
+3223 765 11
+3223 3236 20
+14245 4709 2
+3068 2010 4
+2010 177 1
+5447 5501 1
+5447 5502 1
+5447 4915 10
+5447 417 3
+5447 4707 3
+5447 675 1
+4878 4915 2
+4878 675 1
+1266 1278 2
+5502 920 2
+5502 1266 1
+4915 1261 1
+4915 85 4
+4915 1139 1
+4915 765 3
+4915 6389 4
+4915 1136 11
+4915 675 1
+9715 4707 6
+9715 177 1

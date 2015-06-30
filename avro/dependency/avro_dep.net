@@ -1,0 +1,2128 @@
+*Vertics: 462
+13,org.apache.avro.hadoop.io.AvroSequenceFile
+159,org.apache.avro.Schema
+160,org.apache.avro.mapred.AvroKey
+161,org.apache.avro.mapred.AvroValue
+164,org.apache.avro.hadoop.io.AvroSerialization
+182,org.apache.avro.FooBarSpecificRecord
+245,org.apache.avro.specific.SpecificRecordBase
+248,org.apache.avro.TypeEnum
+251,org.apache.avro.AvroRuntimeException
+252,org.apache.avro.specific.SpecificRecordBuilderBase
+256,org.apache.avro.generic.GenericData
+293,org.apache.avro.ipc.TestNettyServerWithCallbacks
+489,org.apache.avro.AvroRemoteException
+490,org.apache.avro.ipc.specific.SpecificRequestor
+491,org.apache.avro.ipc.specific.SpecificResponder
+495,org.apache.avro.ipc.Transceiver
+496,org.apache.avro.ipc.CallFuture
+497,org.apache.avro.ipc.Responder
+498,org.apache.avro.ipc.NettyServer
+499,org.apache.avro.ipc.TestNettyServer
+500,org.apache.avro.ipc.NettyTransceiver
+518,example.GenericMain
+532,org.apache.avro.file.DataFileReader
+533,org.apache.avro.file.DataFileWriter
+534,org.apache.avro.generic.GenericDatumReader
+535,org.apache.avro.generic.GenericDatumWriter
+541,org.apache.avro.file.DataFileStream
+1172,org.apache.avro.JsonProperties
+1173,org.apache.avro.SchemaParseException
+1180,org.apache.avro.AvroTypeException
+1198,org.apache.trevni.avro.mapreduce.TestKeyValueWordCount
+1252,org.apache.avro.mapreduce.AvroJob
+1253,org.apache.avro.mapreduce.AvroKeyInputFormat
+1254,org.apache.trevni.avro.WordCountUtil
+1260,org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueOutputFormat
+1261,org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueInputFormat
+1262,org.apache.avro.mapred.AvroWrapper
+1281,org.apache.avro.ipc.trace.TraceNode
+1320,org.apache.avro.ipc.trace.Util
+1329,org.apache.avro.ipc.SaslSocketTransceiver
+1491,org.apache.avro.Protocol
+1492,org.apache.avro.util.ByteBufferOutputStream
+1512,org.apache.avro.generic.TestDeepCopy
+1540,org.apache.avro.specific.SpecificData
+1544,org.apache.avro.file.NullCodec
+1558,org.apache.avro.file.Codec
+1559,org.apache.avro.file.CodecFactory
+1560,org.apache.avro.file.DataFileConstants
+1571,org.apache.avro.ipc.stats.Histogram
+1681,org.apache.avro.SchemaNormalization
+1738,org.apache.avro.mapred.TestAvroMultipleOutputs
+1857,org.apache.avro.util.Utf8
+1858,org.apache.avro.mapred.AvroRecordReader
+1859,org.apache.avro.mapred.WordCountUtil
+1860,org.apache.avro.mapred.AvroJob
+1861,org.apache.avro.mapred.Pair
+1862,org.apache.avro.mapred.AvroOutputFormat
+1863,org.apache.avro.mapred.AvroMultipleOutputs
+1864,org.apache.avro.mapred.AvroMapper
+1865,org.apache.avro.mapred.AvroCollector
+1876,org.apache.avro.mapred.AvroReducer
+1897,org.apache.avro.mapred.AvroTextOutputFormat
+1943,org.apache.avro.reflect.ReflectDatumWriter
+1953,org.apache.avro.tool.RpcReceiveTool
+2006,org.apache.avro.io.EncoderFactory
+2007,org.apache.avro.io.JsonEncoder
+2008,org.apache.avro.ipc.Ipc
+2009,org.apache.avro.ipc.generic.GenericResponder
+2012,org.apache.avro.tool.Util
+2032,org.apache.trevni.avro.mapreduce.AvroTrevniRecordWriterBase
+2071,org.apache.avro.reflect.ReflectData
+2072,org.apache.trevni.ColumnFileMetaData
+2073,org.apache.trevni.MetaData
+2074,org.apache.trevni.avro.AvroColumnWriter
+2089,org.apache.avro.reflect.TestByteBuffer
+2138,org.apache.avro.AvroTestUtil
+2140,org.apache.avro.file.SeekableByteArrayInput
+2141,org.apache.avro.reflect.ReflectDatumReader
+2164,org.apache.avro.ipc.generic.GenericRequestor
+2197,org.apache.avro.io.Decoder
+2198,org.apache.avro.io.Encoder
+2199,org.apache.avro.ipc.Requestor
+2564,org.apache.avro.UnresolvedUnionException
+2565,org.apache.avro.io.BinaryData
+2566,org.apache.avro.io.BinaryDecoder
+2567,org.apache.avro.io.BinaryEncoder
+2568,org.apache.avro.io.DecoderFactory
+2569,org.apache.avro.io.parsing.ResolvingGrammarGenerator
+2589,org.apache.avro.ipc.DatagramTransceiver
+2626,org.apache.avro.mapred.tether.TetherKeySerialization
+2652,org.apache.avro.mapred.tether.TetherData
+2664,org.apache.avro.ipc.RPCContext
+2776,org.apache.avro.mapred.FsInput
+2791,org.apache.avro.mapreduce.TestKeyValueWordCount
+2827,org.apache.avro.hadoop.io.AvroKeyValue
+2828,org.apache.avro.specific.SpecificDatumReader
+2829,org.apache.avro.mapreduce.AvroKeyValueOutputFormat
+2838,org.apache.avro.ipc.SocketTransceiver
+2864,org.apache.avro.ipc.trace.TestBasicTracing
+2983,org.apache.avro.ipc.HttpServer
+2984,org.apache.avro.ipc.HttpTransceiver
+2985,org.apache.avro.ipc.RPCPlugin
+2987,org.apache.avro.ipc.trace.TracePlugin
+2988,org.apache.avro.ipc.trace.TracePluginConfiguration
+3010,org.apache.avro.tool.ToTextTool
+3034,org.apache.avro.TestDataFileConcat
+3078,org.apache.avro.RandomData
+3088,org.apache.avro.hadoop.io.AvroSerializer
+3110,org.apache.trevni.avro.TestShredder
+3169,org.apache.trevni.ValueType
+3170,org.apache.trevni.ColumnMetaData
+3171,org.apache.trevni.avro.AvroColumnReader
+3172,org.apache.trevni.avro.RandomData
+3173,org.apache.trevni.avro.AvroColumnator
+3200,org.apache.avro.tool.TrevniMetadataTool
+3226,org.apache.trevni.ColumnFileReader
+3227,org.apache.avro.tool.TrevniUtil
+3260,org.apache.avro.mapreduce.AvroSequenceFileInputFormat
+3302,org.apache.avro.ipc.reflect.ReflectResponder
+3339,org.apache.trevni.BZip2Codec
+3360,org.apache.trevni.Codec
+3365,org.apache.avro.specific.SpecificErrorBuilderBase
+3391,org.apache.avro.data.RecordBuilderBase
+3392,org.apache.avro.specific.SpecificExceptionBase
+3398,org.apache.avro.mapreduce.TestAvroKeyRecordWriter
+3426,org.apache.avro.mapreduce.AvroKeyRecordWriter
+3437,org.apache.avro.thrift.ThriftDatumWriter
+3454,org.apache.avro.thrift.ThriftData
+3460,org.apache.avro.ipc.trace.TestTraceConfigurations
+3481,org.apache.avro.compiler.idl.TestIdl
+3552,org.apache.trevni.avro.HadoopInput
+3553,org.apache.trevni.InputFile
+3558,org.apache.avro.TestProtocolDatagram
+3564,org.apache.avro.ipc.DatagramServer
+3565,org.apache.avro.TestProtocolSpecific
+3573,org.apache.avro.ipc.trace.TestSpanAggregation
+3642,org.apache.avro.ipc.trace.SpanAggregator
+3649,org.apache.avro.ipc.trace.Trace
+3651,org.apache.avro.mapred.HadoopCombiner
+3670,org.apache.avro.mapred.HadoopReducerBase
+3678,example.MapReduceColorCount
+3738,org.apache.avro.ipc.SocketServer
+3887,org.apache.avro.mapred.SequenceFileInputFormat
+3888,org.apache.avro.mapred.AvroInputFormat
+3889,org.apache.avro.mapred.HadoopMapper
+3890,org.apache.avro.mapred.HadoopReducer
+3891,org.apache.avro.mapred.AvroKeyComparator
+3892,org.apache.avro.mapred.AvroSerialization
+3894,org.apache.trevni.avro.mapreduce.AvroTrevniKeyOutputFormat
+3898,org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordWriter
+3968,org.apache.avro.file.SeekableFileInput
+3969,org.apache.avro.file.DataFileReader12
+3990,org.apache.avro.io.parsing.Parser
+4022,org.apache.avro.io.parsing.Symbol
+4035,org.apache.avro.tool.TestConcatTool
+4098,org.apache.avro.tool.ConcatTool
+4102,org.apache.avro.TestProtocolReflectMeta
+4106,org.apache.avro.ipc.reflect.ReflectRequestor
+4107,org.apache.avro.TestProtocolReflect
+4109,org.apache.avro.RPCMetaTestPlugin
+4117,org.apache.avro.TestNamespaceReflect
+4120,org.apache.avro.TestNamespaceSpecific
+4127,org.apache.avro.mapreduce.TestAvroKeyInputFormat
+4141,org.apache.avro.file.TestBZip2Codec
+4152,org.apache.avro.file.BZip2Codec
+4197,org.apache.trevni.TrevniRuntimeException
+4200,org.apache.avro.hadoop.file.HadoopCodecFactory
+4213,org.apache.avro.hadoop.file.SortedKeyValueFile
+4323,org.apache.avro.hadoop.util.AvroCharSequenceComparator
+4427,org.apache.avro.ipc.NettyTransportCodec
+4435,org.apache.avro.thrift.test.E
+4458,org.apache.avro.file.SnappyCodec
+4481,org.apache.avro.ipc.trace.TestStaticServlet
+4484,org.apache.avro.ipc.trace.StaticServlet
+4537,org.apache.avro.ipc.trace.TraceCollection
+4644,org.apache.avro.ipc.stats.FakeTicks
+4650,org.apache.avro.ipc.stats.Stopwatch
+4825,org.apache.avro.specific.SpecificDatumWriter
+4826,org.apache.avro.util.ByteBufferInputStream
+5156,org.apache.avro.reflect.TestReflectDatumReader
+5392,org.apache.avro.mapred.tether.TestWordCountTether
+5407,org.apache.avro.mapred.tether.TetherJob
+5411,org.apache.avro.mapreduce.AvroMultipleOutputs
+5548,org.apache.avro.hadoop.io.TestAvroKeyDeserializer
+5559,org.apache.avro.hadoop.io.AvroKeyDeserializer
+5560,org.apache.avro.hadoop.io.AvroDeserializer
+5568,org.apache.avro.util.CaseFinder
+5656,org.apache.trevni.InputBuffer
+5668,org.apache.trevni.OutputBuffer
+5974,org.apache.avro.mapreduce.AvroFiles
+5985,org.apache.trevni.TestInputBytes
+6000,org.apache.trevni.InputBytes
+6010,org.apache.avro.ipc.stats.TestHistogram
+6038,org.apache.avro.ipc.stats.FloatHistogram
+6051,org.apache.avro.ipc.stats.StatsServlet
+6124,org.apache.avro.ipc.stats.StatsPlugin
+6125,org.apache.avro.ipc.stats.IntegerHistogram
+6138,org.apache.avro.TestSchema
+6149,org.apache.avro.SchemaBuilder
+6169,org.apache.avro.mojo.TestSchemaMojo
+6178,org.apache.avro.mojo.AbstractAvroMojoTest
+6179,org.apache.avro.mojo.SchemaMojo
+6180,org.apache.avro.mojo.AbstractAvroMojo
+6184,org.apache.trevni.TestColumnFile
+6259,org.apache.trevni.ColumnFileWriter
+6260,org.apache.trevni.ColumnValues
+6261,org.apache.trevni.TestUtil
+6276,org.apache.avro.TestDataFileReflect
+6335,org.apache.avro.BarRecord
+6336,org.apache.avro.FooRecord
+6344,org.apache.avro.io.BufferedBinaryEncoder
+6420,org.apache.avro.io.TestResolvingIOResolving
+6447,org.apache.avro.io.TestValidatingIO
+6448,org.apache.avro.io.TestResolvingIO
+6458,org.apache.avro.mapred.tether.TetherInputFormat
+6468,org.apache.avro.mapred.tether.TetherRecordReader
+6475,org.apache.trevni.avro.TestCases
+6509,org.apache.trevni.BlockDescriptor
+6564,org.apache.trevni.ColumnDescriptor
+6580,org.apache.avro.specific.TestSpecificDatumWriter
+6595,org.apache.avro.TestSchema
+6847,org.apache.avro.data.Json
+6848,org.apache.avro.compiler.specific.TestSpecificCompiler
+6898,org.apache.avro.io.ValidatingEncoder
+6899,org.apache.avro.io.DirectBinaryEncoder
+6900,org.apache.avro.io.BlockingBinaryEncoder
+6916,org.apache.avro.ipc.TestNettyServerWithCompression
+6972,org.apache.avro.mapreduce.TestAvroKeyValueRecordWriter
+7030,org.apache.avro.hadoop.io.AvroDatumConverter
+7031,org.apache.avro.hadoop.io.AvroDatumConverterFactory
+7032,org.apache.avro.mapreduce.AvroKeyValueRecordWriter
+7041,org.apache.avro.compiler.TestSpecificCompiler
+7077,org.apache.avro.compiler.specific.SpecificCompiler
+7092,org.apache.avro.tool.TestRpcProtocolTool
+7108,org.apache.avro.tool.RpcProtocolTool
+7127,example.SpecificMain
+7147,org.apache.avro.mapred.tether.TetherKeyComparator
+7281,org.apache.avro.util.ClassUtils
+7285,org.apache.avro.io.TestBlockingIO
+7406,org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueRecordReader
+7416,org.apache.trevni.avro.mapreduce.AvroTrevniRecordReaderBase
+7427,org.apache.avro.io.ValidatingDecoder
+7484,org.apache.avro.io.parsing.ValidatingGrammarGenerator
+7485,org.apache.avro.io.ParsingDecoder
+7488,org.apache.avro.io.parsing.SkipParser
+7524,org.apache.avro.io.TestBlockingIO2
+7546,org.apache.trevni.avro.mapreduce.AvroTrevniKeyValueRecordWriter
+7549,org.apache.avro.file.TestLengthLimitedInputStream
+7559,org.apache.avro.file.LengthLimitedInputStream
+7565,org.apache.avro.ipc.stats.StatsServer
+7576,org.apache.avro.ipc.stats.StaticServlet
+7700,org.apache.avro.thrift.ThriftDatumReader
+7764,org.apache.avro.protobuf.ProtobufDatumReader
+7797,org.apache.avro.io.ResolvingDecoder
+7798,org.apache.avro.protobuf.ProtobufData
+7806,org.apache.avro.file.XZCodec
+7849,example.MapredColorCount
+7873,avro.examples.baseball.Position
+7891,org.apache.avro.tool.TestJsonToFromBinaryFragmentTools
+7921,org.apache.avro.tool.BinaryFragmentToJsonTool
+7922,org.apache.avro.tool.JsonToBinaryFragmentTool
+8009,org.apache.avro.TestSchemaCompatibility
+8135,org.apache.avro.SchemaCompatibility
+8142,org.apache.avro.mapreduce.AvroKeyValueRecordReader
+8155,org.apache.avro.mapreduce.AvroRecordReaderBase
+8185,org.apache.avro.tool.DataFileGetMetaTool
+8211,org.apache.avro.tool.CatTool
+8305,org.apache.avro.tool.TestDataFileTools
+8372,org.apache.avro.tool.DataFileReadTool
+8373,org.apache.avro.tool.DataFileGetSchemaTool
+8374,org.apache.avro.tool.DataFileWriteTool
+8437,org.apache.avro.hadoop.io.AvroValueDeserializer
+8441,org.apache.avro.mapred.tether.WordCountTask
+8455,org.apache.avro.mapred.tether.TetherTask
+8457,org.apache.avro.mapred.tether.TetherTaskRunner
+8467,org.apache.trevni.avro.AvroTrevniInputFormat
+8494,org.apache.trevni.avro.AvroTrevniOutputFormat
+8504,org.apache.avro.ipc.TestNettyServerWithSSL
+8573,org.apache.avro.io.DirectBinaryDecoder
+8632,org.apache.avro.specific.TestSpecificData
+8688,org.apache.avro.mapreduce.TestAvroMultipleOutputs
+8787,org.apache.avro.mapreduce.AvroKeyOutputFormat
+8793,org.apache.avro.tool.TetherTool
+8815,org.apache.avro.generic.TestGenericRecordBuilder
+8829,org.apache.avro.generic.GenericRecordBuilder
+8854,org.apache.avro.TestDataFileSpecific
+8914,org.apache.avro.reflect.FieldAccessor
+8915,org.apache.avro.reflect.ArrayAccessor
+8932,org.apache.avro.TestProtocol
+8944,org.apache.trevni.avro.mapreduce.TestKeyWordCount
+8982,org.apache.trevni.avro.mapreduce.AvroTrevniKeyInputFormat
+8984,org.apache.avro.mojo.TestProtocolMojo
+8990,org.apache.avro.mojo.ProtocolMojo
+8999,org.apache.avro.mapred.TestPair
+9282,org.apache.avro.reflect.ReflectionUtil
+9283,org.apache.avro.reflect.FieldAccess
+9306,org.apache.avro.TestDataFileDeflate
+9352,org.apache.avro.io.JsonDecoder
+9458,org.apache.avro.file.SyncableFileOutputStream
+9472,org.apache.avro.hadoop.io.TestAvroDatumConverterFactory
+9528,org.apache.avro.mapreduce.AvroKeyValueInputFormat
+9538,org.apache.avro.ipc.TestNettyServerConcurrentExecution
+9569,org.apache.avro.ipc.trace.TestTracingUtil
+9639,org.apache.avro.mapred.TestGenericJob
+9672,org.apache.avro.io.parsing.TestResolvingGrammarGenerator
+9710,org.apache.avro.specific.TestSpecificErrorBuilder
+9797,org.apache.avro.tool.TrevniCreateRandomTool
+9831,org.apache.avro.ipc.trace.TestTraceCollection
+9855,org.apache.avro.io.TestBinaryDecoder
+9991,org.apache.trevni.NullCodec
+9992,org.apache.trevni.DeflateCodec
+9993,org.apache.trevni.SnappyCodec
+10164,org.apache.avro.hadoop.io.AvroKeyComparator
+10333,org.apache.avro.hadoop.io.TestAvroSequenceFile
+10533,org.apache.avro.util.WeakIdentityHashMap
+10541,org.apache.avro.TestProtocolParsing
+10556,org.apache.avro.file.DeflateCodec
+10599,org.apache.avro.mapreduce.AvroKeyRecordReader
+10610,org.apache.avro.DataFileInteropTest
+10723,org.apache.avro.file.TestSeekableByteArrayInput
+10797,org.apache.avro.io.ParsingEncoder
+10809,org.apache.avro.tool.TestSpecificCompilerTool
+10841,org.apache.avro.tool.SpecificCompilerTool
+10852,org.apache.avro.tool.Main
+10870,org.apache.avro.tool.InduceSchemaTool
+10871,org.apache.avro.tool.CreateRandomFileTool
+10872,org.apache.avro.tool.IdlTool
+10873,org.apache.avro.tool.IdlToSchemataTool
+10874,org.apache.avro.tool.RecodecTool
+10875,org.apache.avro.tool.RpcSendTool
+10876,org.apache.avro.tool.FromTextTool
+10877,org.apache.avro.tool.ToTrevniTool
+10878,org.apache.avro.tool.TrevniToJsonTool
+10882,org.apache.avro.ipc.trace.SingletonTestingTracePlugin
+11066,org.apache.avro.io.parsing.JsonGrammarGenerator
+11167,org.apache.avro.ipc.trace.InMemorySpanStorage
+11168,org.apache.avro.ipc.trace.FileSpanStorage
+11169,org.apache.avro.ipc.trace.TraceClientServlet
+11225,org.apache.avro.file.TestCustomCodec
+11234,org.apache.avro.file.codec.CustomCodec
+11240,org.apache.avro.mapred.AvroUtf8InputFormat
+11275,org.apache.avro.mapred.TestAvroOutputFormat
+11354,org.apache.avro.TestBulkData
+11381,org.apache.avro.TestProtocolNetty
+11389,org.apache.avro.mapred.AvroAsTextRecordReader
+11415,org.apache.avro.tool.TestMain
+11449,org.apache.trevni.Checksum
+11499,org.apache.avro.SimpleException
+11521,org.apache.trevni.avro.TestEvolvedSchema
+11897,org.apache.avro.specific.TestSpecificRecordBuilder
+12066,org.apache.avro.SchemaBuilderException
+12073,org.apache.avro.ipc.TestLocalTransceiver
+12086,org.apache.avro.ipc.LocalTransceiver
+12089,org.apache.avro.TestProtocolGeneric
+12192,org.apache.avro.mapred.tether.TetherOutputService
+12224,org.apache.avro.mapred.tether.TetherMapRunner
+12225,org.apache.avro.mapred.tether.TetherPartitioner
+12230,org.apache.avro.mojo.TestIDLProtocolMojo
+12236,org.apache.avro.mojo.IDLProtocolMojo
+12499,org.apache.avro.TestProtocolSpecificMeta
+12508,org.apache.avro.reflect.TestReflect
+12862,org.apache.avro.reflect.DateAsLongEncoding
+12960,org.apache.avro.util.TestCaseFinder
+13108,org.apache.avro.mapreduce.AvroOutputFormatBase
+13115,org.apache.avro.protobuf.ProtobufDatumWriter
+13139,org.apache.avro.thrift.test.Nested
+13271,org.apache.avro.tool.TestCatTool
+13355,org.apache.avro.mapred.TestAvroTextSort
+13360,org.apache.avro.mapred.AvroAsTextInputFormat
+13362,org.apache.avro.io.Perf
+13979,org.apache.avro.RandomData
+14023,org.apache.avro.hadoop.io.TestAvroValueDeserializer
+14037,avro.examples.baseball.Player
+14107,avro.examples.baseball.Player
+14118,org.apache.avro.thrift.test.Error
+14329,org.apache.avro.tool.TestCreateRandomFileTool
+15060,org.apache.trevni.ArrayColumnOutputBuffer
+15074,org.apache.trevni.ColumnOutputBuffer
+15146,org.apache.avro.mapreduce.AvroSequenceFileOutputFormat
+15240,org.apache.avro.mapred.SequenceFileRecordReader
+15243,org.apache.avro.mapreduce.TestAvroKeyRecordReader
+15293,org.apache.avro.hadoop.file.TestHadoopCodecFactory
+15309,org.apache.avro.hadoop.file.TestSortedKeyValueFile
+15416,org.apache.avro.reflect.CustomEncoding
+15438,org.apache.avro.io.TestBinaryEncoderFidelity
+15467,org.apache.avro.io.LegacyBinaryEncoder
+15474,org.apache.avro.compiler.specific.ProtocolTask
+15512,org.apache.avro.ipc.stats.StatsPluginOverhead
+15539,org.apache.avro.hadoop.io.TestAvroSerializer
+15551,org.apache.avro.ipc.stats.TestStatsPluginAndServlet
+15658,org.apache.avro.mapred.tether.TetherReducer
+15659,org.apache.avro.mapred.tether.TetherOutputFormat
+15737,org.apache.avro.ipc.ResponderServlet
+15787,org.apache.avro.tool.TestRecodecTool
+16176,org.apache.avro.reflect.FieldAccessUnsafe
+16445,org.apache.avro.TestProtocolGenericMeta
+16787,org.apache.avro.mapred.TestAvroInputFormat
+16825,org.apache.avro.thrift.test.Test
+17137,org.apache.avro.mapreduce.TestWordCount
+17635,org.apache.trevni.NullChecksum
+17687,org.apache.avro.data.RecordBuilderBaseTest
+17701,org.apache.trevni.Crc32Checksum
+17720,org.apache.avro.ipc.trace.TestSpanTraceFormation
+17780,org.apache.avro.protobuf.TestProtobuf
+17797,org.apache.avro.protobuf.Test
+17871,org.apache.avro.ipc.trace.TestTraceSingletons
+17897,org.apache.avro.tool.TestTextFileTools
+17946,org.apache.avro.thrift.TestThrift
+17963,org.apache.avro.mapreduce.TestAvroKeyValueRecordReader
+18017,org.apache.avro.TestDataFile
+18142,example.GenerateData
+18179,org.apache.avro.io.TestJsonDecoder
+18209,org.apache.avro.mapred.SequenceFileReader
+18211,org.apache.avro.io.TestEncoders
+18273,org.apache.avro.TestDataFileMeta
+18390,org.apache.avro.hadoop.util.TestAvroCharSequenceComparator
+18464,org.apache.avro.tool.TestToTrevniTool
+18489,org.apache.avro.ipc.TestSaslDigestMd5
+18529,org.apache.avro.ipc.SaslSocketServer
+18909,org.apache.avro.TestSchemaNormalization
+18954,org.apache.trevni.avro.TestWordCount
+18992,example.AvroWordCount
+19027,org.apache.avro.mapreduce.TestKeyValueInput
+19065,org.apache.avro.mapreduce.TestAvroKeyOutputFormat
+19108,org.apache.avro.mapred.tether.TetheredProcess
+19151,org.apache.trevni.TestBZip2Codec
+19180,org.apache.avro.generic.TestGenericData
+19433,org.apache.avro.GenerateBlockingData
+19452,org.apache.avro.ipc.stats.TestStopwatch
+19658,avro.examples.baseball.Position
+19761,org.apache.avro.reflect.FieldAccessReflect
+19780,org.apache.avro.TestCompare
+19861,org.apache.avro.tool.TestIdlToSchemataTool
+19869,org.apache.avro.generic.TestGenericDatumWriter
+19997,org.apache.avro.compiler.specific.SchemaTask
+20116,org.apache.trevni.avro.mapreduce.AvroTrevniKeyRecordReader
+20170,org.apache.avro.TestSchemaBuilder
+20342,org.apache.avro.ipc.TestSaslAnonymous
+20359,org.apache.avro.tool.TestRpcReceiveAndSendTools
+20369,org.apache.avro.ipc.trace.TestFileSpanStorage
+20477,org.apache.avro.mapred.TestSequenceFileReader
+20541,org.apache.trevni.avro.TestMetadataFiltering
+20546,org.apache.avro.ipc.TestNettyTransceiverWhenServerStops
+20570,org.apache.avro.thrift.test.Foo
+21099,org.apache.avro.TestProtocolHttp
+21114,org.apache.avro.mapred.TestWordCount
+21234,org.apache.avro.hadoop.io.TestAvroSerialization
+21285,org.apache.avro.mapreduce.TestAvroMultipleOutputsSyncable
+21506,org.apache.avro.specific.SpecificFixed
+21511,org.apache.avro.mapred.TestAvroWrapper
+21516,org.apache.avro.mapred.TestReflectJob
+21647,org.apache.avro.TestProtocolHttps
+21659,org.apache.avro.ipc.TestRpcPluginOrdering
+21874,org.apache.avro.mapred.TestAvroTextOutputFormat
+21888,org.apache.avro.mapred.TestWeather
+21973,org.apache.avro.reflect.TestReflectionUtil
+22034,org.apache.avro.ipc.trace.TestEndToEndTracing
+22183,org.apache.avro.specific.TestSpecificData
+22226,org.apache.trevni.TestIOBuffers
+22369,org.apache.avro.specific.TestSpecificDatumReader
+23092,example.MapReduceAvroWordCount
+23134,org.apache.avro.util.TestUtf8
+*Edges: 1697
+14107 245 2
+14107 159 6
+19658 159 4
+18992 1861 1
+18992 1860 1
+18992 159 2
+18142 533 3
+518 532 1
+518 541 2
+518 533 5
+518 535 1
+518 534 1
+23092 1861 1
+23092 1252 1
+23092 159 2
+3678 1252 3
+3678 159 2
+7849 1861 1
+7849 1860 4
+7849 159 2
+7127 532 1
+7127 541 2
+7127 533 5
+1180 251 3
+10610 532 1
+182 245 1
+182 159 2
+182 248 4
+19433 2198 4
+19433 13979 2
+19433 2006 2
+19433 159 1
+19433 535 1
+1172 251 3
+1491 159 20
+1491 1173 13
+1491 1172 4
+4109 2985 1
+4109 2664 30
+13979 533 8
+13979 159 24
+13979 1857 10
+13979 535 2
+159 251 18
+159 1173 16
+159 1172 4
+6149 256 2
+6149 159 1
+12066 251 3
+8135 251 1
+8135 159 13
+1681 159 12
+1173 251 3
+11354 495 1
+11354 2984 1
+11354 2983 1
+19780 256 6
+19780 1540 4
+19780 2006 1
+19780 4825 2
+19780 1857 11
+19780 159 10
+19780 535 2
+19780 2565 9
+18017 1559 12
+18017 13979 12
+18017 534 11
+18017 532 19
+18017 3968 6
+18017 159 2
+18017 533 25
+18017 541 15
+18017 535 4
+3034 1559 24
+3034 13979 4
+3034 534 3
+3034 532 3
+3034 159 1
+3034 533 17
+3034 541 7
+3034 535 3
+9306 1559 1
+9306 541 6
+9306 533 8
+9306 159 1
+9306 1857 8
+9306 535 1
+9306 534 1
+18273 541 3
+18273 533 10
+18273 159 2
+18273 2138 1
+18273 535 4
+18273 534 1
+6276 2141 3
+6276 1943 2
+6276 1540 4
+6276 2071 2
+6276 532 3
+6276 3968 3
+6276 159 1
+6276 533 8
+6276 541 3
+6276 6335 5
+6276 6336 2
+8854 2828 1
+8854 532 1
+8854 541 1
+8854 533 4
+8854 159 1
+8854 535 1
+4117 3738 2
+4117 4120 1
+4120 495 2
+4120 3738 4
+8932 1491 9
+8932 1172 3
+3558 3564 1
+3558 3565 1
+12089 495 4
+12089 3738 6
+12089 159 11
+12089 2164 11
+12089 1491 18
+12089 1857 6
+12089 489 2
+16445 497 2
+16445 3738 2
+16445 12089 1
+16445 2199 2
+16445 2164 1
+16445 4109 4
+21099 2984 3
+21099 2983 1
+21099 159 3
+21099 3565 1
+21099 2164 3
+21099 1491 3
+21099 489 1
+21647 2984 1
+21647 3565 1
+11381 498 1
+11381 3565 1
+10541 1491 7
+4107 11499 1
+4107 3302 1
+4107 495 2
+4107 256 2
+4107 3738 1
+4107 4106 1
+4107 2071 2
+4102 497 2
+4102 4107 1
+4102 3738 1
+4102 2199 2
+4102 4109 4
+3565 491 2
+3565 497 2
+3565 495 4
+3565 256 2
+3565 1540 2
+3565 2984 1
+3565 3738 1
+3565 159 5
+3565 2199 1
+3565 490 2
+3565 2164 2
+3565 1491 3
+12499 497 2
+12499 3738 1
+12499 3565 1
+12499 2199 2
+12499 4109 4
+6595 1180 6
+6595 256 8
+6595 13979 4
+6595 2006 28
+6595 1173 2
+6595 1857 8
+6595 534 20
+6595 2568 34
+6595 251 2
+6595 6848 2
+6595 159 382
+6595 535 16
+6595 1172 24
+20170 6149 57
+20170 8829 6
+20170 534 1
+20170 532 1
+20170 159 54
+20170 533 5
+20170 541 2
+20170 535 1
+20170 1172 7
+8009 2568 4
+8009 2006 2
+8009 159 52
+8009 8135 12
+8009 535 1
+8009 534 1
+248 159 1
+2564 251 2
+2564 159 3
+7041 7077 24
+7041 2138 1
+15474 251 1
+15474 7077 3
+15474 1491 1
+19997 15474 2
+19997 7077 3
+7077 256 2
+7077 159 49
+7077 1491 19
+7077 1172 9
+6848 7077 107
+6848 159 133
+6848 10541 1
+6848 1491 3
+6848 2138 2
+6847 2198 23
+6847 251 2
+6847 2197 12
+6847 159 1
+3391 256 6
+3391 251 1
+3391 159 10
+17687 3391 7
+17687 159 9
+4152 1558 1
+1559 251 1
+1559 1558 2
+532 2568 1
+532 3969 1
+532 2197 1
+532 3968 2
+532 541 8
+532 2566 2
+3969 2568 1
+3969 2197 2
+3969 159 3
+3969 2566 7
+3969 1857 1
+541 2568 4
+541 2197 3
+541 1559 4
+541 159 2
+541 2566 12
+541 1857 1
+541 1558 2
+533 2198 3
+533 9458 2
+533 1559 8
+533 2006 2
+533 1558 3
+533 534 1
+533 251 3
+533 2567 6
+533 532 1
+533 3968 1
+533 159 5
+533 541 11
+10556 1558 1
+1544 1559 1
+1544 1558 1
+4458 1558 1
+4141 1559 2
+4141 1558 3
+11225 11234 4
+7549 7559 2
+10723 532 1
+10723 533 3
+10723 159 5
+10723 2140 1
+10723 4825 1
+10723 1857 1
+10723 534 1
+7806 1558 1
+11234 1558 5
+256 1180 5
+256 2569 1
+256 2006 2
+256 1857 2
+256 534 2
+256 2568 1
+256 251 5
+256 2564 1
+256 159 79
+256 535 1
+256 1172 1
+534 256 16
+534 2197 32
+534 7427 7
+534 7797 13
+534 1857 1
+534 2568 2
+534 251 1
+534 159 44
+534 10533 1
+534 1172 1
+535 2198 30
+535 1180 1
+535 256 8
+535 159 21
+8829 256 4
+8829 3391 22
+8829 159 6
+1512 256 5
+1512 1540 1
+1512 159 3
+19180 256 8
+19180 2006 4
+19180 159 47
+19180 2565 1
+19180 1857 1
+19180 535 5
+19869 2568 1
+19869 2006 5
+19869 159 3
+19869 535 4
+19869 534 1
+8815 251 1
+8815 8829 20
+8815 159 11
+4200 251 1
+4200 1559 2
+15293 4200 5
+15293 1559 4
+15309 1540 4
+15309 2071 1
+15309 1857 3
+15309 534 2
+15309 532 4
+15309 159 9
+15309 541 7
+15309 2827 12
+7030 159 1
+7031 1252 6
+7031 7030 1
+5560 2568 2
+5560 2141 1
+5560 159 8
+5560 2566 2
+5560 2071 1
+5560 1262 2
+10164 256 2
+10164 1252 1
+10164 160 2
+10164 164 1
+10164 159 1
+10164 2565 1
+10164 1262 2
+5559 5560 3
+5559 160 1
+5559 159 4
+5559 1262 1
+2827 159 5
+164 5559 1
+164 256 7
+164 8437 1
+164 3088 1
+164 159 16
+3088 2567 1
+3088 1943 1
+3088 2006 2
+3088 159 4
+3088 1262 2
+8437 5560 3
+8437 161 1
+8437 159 4
+8437 1262 1
+9472 161 1
+9472 1252 2
+9472 160 1
+9472 159 2
+9472 7031 13
+9472 7030 11
+5548 5560 6
+5548 5559 1
+5548 2006 2
+5548 159 2
+5548 1262 2
+5548 535 1
+10333 161 6
+10333 160 6
+10333 159 8
+10333 1262 8
+21234 256 1
+21234 3088 2
+21234 164 11
+21234 1262 1
+21234 534 1
+21234 5560 2
+21234 160 1
+21234 1252 6
+21234 159 6
+15539 2568 1
+15539 160 2
+15539 3088 6
+15539 159 2
+15539 534 1
+14023 5560 6
+14023 8437 1
+14023 2006 2
+14023 159 2
+14023 1262 2
+14023 535 1
+18390 4323 34
+18390 1857 33
+2565 251 4
+2565 2197 28
+2565 159 15
+2565 2566 15
+2565 534 3
+2566 251 1
+2566 2197 1
+2566 1857 5
+2567 2198 10
+2567 1857 2
+6900 1180 4
+6900 6344 19
+6900 2565 8
+6344 2198 1
+6344 251 1
+6344 2567 1
+6344 2565 5
+2197 1857 2
+2568 2197 2
+2568 8573 2
+2568 7427 2
+2568 159 5
+2568 2566 20
+2568 7797 2
+2568 9352 4
+8573 2566 2
+6899 2567 1
+6899 2565 4
+2198 1857 2
+2006 6899 2
+2006 2198 1
+2006 6898 2
+2006 2567 6
+2006 6344 2
+2006 159 4
+2006 6900 2
+2006 2007 6
+9352 7485 3
+9352 1180 9
+9352 11066 1
+9352 4022 7
+9352 159 3
+9352 3990 16
+9352 1857 1
+2007 10797 9
+2007 2198 1
+2007 1180 3
+2007 11066 1
+2007 4022 3
+2007 159 3
+2007 3990 28
+2007 1857 1
+15467 2198 1
+15467 1857 3
+7485 2197 13
+7485 7488 2
+7485 4022 1
+7485 3990 2
+10797 2198 1
+10797 1180 2
+13362 159 2
+7797 2568 4
+7797 1180 5
+7797 2569 1
+7797 2197 16
+7797 7488 1
+7797 7427 2
+7797 159 4
+7797 3990 17
+9855 2198 3
+9855 1492 4
+9855 2197 34
+9855 4826 2
+9855 8573 4
+9855 13979 2
+9855 2006 6
+9855 1857 1
+9855 534 7
+9855 2568 12
+9855 251 1
+9855 159 2
+9855 2566 11
+9855 535 3
+15438 2198 81
+15438 2567 1
+15438 15467 1
+15438 2006 4
+15438 1857 1
+7285 2198 14
+7285 2197 10
+7524 2568 2
+7524 2197 1
+7524 6447 3
+7524 2006 2
+18211 2568 10
+18211 6898 1
+18211 2006 16
+18211 159 5
+18211 2007 1
+18211 535 1
+18211 534 10
+18179 2568 2
+18179 159 1
+18179 534 1
+6448 2568 2
+6448 6447 6
+6448 159 2
+6448 7797 1
+6448 9352 1
+6420 6447 3
+6420 6448 1
+6447 2198 19
+6447 2197 27
+6447 7427 1
+6447 2006 4
+6447 7797 1
+6447 9352 1
+6447 1857 3
+6447 2568 2
+6447 159 6
+7427 7485 2
+7427 1180 2
+7427 2197 28
+7427 7488 2
+7427 7484 1
+7427 4022 5
+7427 159 2
+7427 3990 33
+6898 10797 7
+6898 2198 24
+6898 1180 2
+6898 7484 1
+6898 4022 4
+6898 159 1
+6898 3990 25
+11066 7484 2
+11066 4022 9
+11066 159 6
+3990 1180 1
+3990 4022 8
+2569 2198 19
+2569 1180 11
+2569 7484 4
+2569 4022 28
+2569 2006 2
+2569 159 57
+7488 4022 2
+7488 3990 5
+9672 1180 1
+9672 2569 1
+9672 6149 2
+9672 8829 3
+9672 2006 3
+9672 534 1
+9672 159 4
+9672 533 3
+9672 541 3
+9672 535 1
+7484 4022 14
+7484 159 12
+3564 497 3
+3564 495 3
+3564 2589 1
+2589 495 1
+2983 15737 6
+2983 497 3
+2984 495 1
+2008 18529 1
+2008 497 1
+2008 495 1
+2008 1329 1
+2008 2984 1
+12086 497 3
+12086 495 1
+498 497 5
+500 496 2
+500 495 1
+500 1491 1
+2985 2664 7
+2199 1492 2
+2199 2197 5
+2199 534 2
+2199 2568 1
+2199 2985 3
+2199 251 1
+2199 159 8
+2199 535 2
+2199 496 5
+2199 2198 4
+2199 495 17
+2199 4826 1
+2199 2006 2
+2199 2664 3
+2199 4825 1
+2199 2828 1
+2199 1491 7
+2199 489 1
+497 1492 10
+497 2197 3
+497 534 3
+497 2568 1
+497 2985 4
+497 251 3
+497 159 5
+497 535 3
+497 2198 5
+497 495 6
+497 4826 1
+497 2006 4
+497 2664 9
+497 4825 1
+497 1857 1
+497 2828 1
+497 2564 1
+497 1491 9
+15737 497 3
+15737 251 1
+15737 2984 3
+18529 497 3
+18529 3738 2
+18529 1329 1
+1329 495 2
+1329 1491 1
+3738 2838 1
+3738 497 2
+3738 495 1
+3738 1491 1
+2838 495 1
+2838 1491 1
+12073 12086 1
+12073 2164 2
+12073 1491 2
+12073 1857 2
+499 498 3
+499 497 1
+499 495 4
+9538 498 1
+9538 495 2
+9538 490 1
+293 498 6
+293 496 35
+293 495 5
+293 489 2
+6916 498 1
+6916 499 1
+8504 498 1
+8504 499 1
+20546 498 5
+20546 500 1
+21659 12086 1
+21659 497 1
+21659 2199 1
+20342 18529 2
+20342 3738 3
+20342 12089 1
+20342 1329 3
+20342 2164 1
+18489 18529 3
+18489 495 2
+18489 3738 2
+18489 12089 1
+18489 1329 1
+18489 2164 5
+18489 1491 2
+18489 1857 2
+495 1491 2
+2164 495 2
+2164 256 4
+2164 2199 4
+2164 1491 2
+2164 535 2
+2164 534 4
+2164 489 3
+2009 497 2
+2009 256 4
+2009 159 3
+2009 1491 2
+2009 535 1
+2009 534 1
+2009 489 1
+4106 2141 1
+4106 495 5
+4106 256 2
+4106 1943 1
+4106 490 3
+4106 2071 9
+4106 1491 2
+3302 491 4
+3302 2141 1
+3302 1943 1
+3302 2071 6
+3302 1491 2
+490 495 6
+490 256 2
+490 1540 10
+490 4825 1
+490 2828 1
+490 159 5
+490 2199 4
+490 1491 3
+490 489 1
+491 2828 1
+491 1540 7
+491 2009 3
+491 159 2
+491 1491 2
+491 4825 1
+6038 1571 3
+6125 1571 3
+6124 4650 8
+6124 2985 1
+6124 6038 2
+6124 6125 2
+6124 2664 16
+15512 497 1
+15512 495 1
+15512 6124 1
+15512 2984 1
+15512 2983 5
+15512 2164 2
+15512 1491 1
+7565 6124 2
+7565 6051 1
+6051 4650 2
+6051 6124 3
+6051 6038 2
+6051 1571 16
+6051 6125 4
+6051 2664 2
+6010 6038 3
+6010 1571 15
+15551 12086 2
+15551 497 3
+15551 495 1
+15551 6124 9
+15551 2984 1
+15551 2983 1
+15551 4644 2
+15551 2664 2
+15551 6051 2
+15551 2164 4
+15551 7565 1
+15551 1491 5
+19452 4650 20
+19452 4644 4
+11168 2828 1
+11168 532 2
+11168 541 2
+11168 1320 1
+11168 2988 1
+11168 4825 1
+11167 1320 1
+10882 2987 2
+10882 2988 1
+3642 4537 1
+3642 3649 4
+3642 1320 9
+2864 497 7
+2864 2987 12
+2864 2984 4
+2864 2983 24
+2864 1320 4
+2864 2164 8
+2864 2199 4
+2864 1491 5
+2864 2988 3
+22034 497 3
+22034 2987 4
+22034 2984 1
+22034 2983 13
+22034 3642 2
+22034 2164 2
+22034 2199 1
+22034 1491 2
+22034 2988 3
+20369 11168 26
+20369 1320 18
+20369 2988 5
+3573 159 2
+3573 1320 55
+3573 3642 4
+17720 3649 23
+17720 159 1
+17720 1320 37
+4481 4484 2
+9831 497 3
+9831 2987 4
+9831 2984 1
+9831 2983 13
+9831 3642 2
+9831 4537 2
+9831 2164 2
+9831 2199 1
+9831 1491 1
+9831 2988 1
+3460 2988 26
+17871 2987 9
+17871 10882 1
+17871 2988 5
+9569 1320 2
+3649 1281 5
+3649 1320 7
+11169 4537 2
+11169 2984 2
+11169 3642 3
+4537 3649 6
+4537 1281 4
+1281 1320 6
+2987 491 1
+2987 11167 2
+2987 11169 1
+2987 2983 3
+2987 2664 10
+2987 11168 1
+2987 251 1
+2987 2985 1
+2987 159 1
+2987 1320 11
+2987 2988 5
+1320 159 1
+13360 11389 1
+11389 532 1
+11389 2776 1
+11389 534 1
+3888 1858 1
+1860 256 4
+1860 159 10
+160 1262 2
+3891 1861 1
+3891 1860 1
+3891 256 1
+3891 159 1
+3891 2071 1
+3891 2565 1
+3891 1262 4
+1864 1865 2
+1863 1865 8
+1863 159 11
+1862 4200 2
+1862 1860 3
+1862 256 1
+1862 1559 5
+1862 533 4
+1858 1860 2
+1858 256 1
+1858 532 1
+1858 2776 1
+1858 1262 5
+1876 1861 3
+1876 1860 1
+1876 1865 2
+3892 2568 1
+3892 1861 4
+3892 1860 7
+3892 256 2
+1897 1943 1
+1897 533 1
+1897 159 1
+1897 1862 1
+161 1262 2
+3651 3670 1
+3889 1864 3
+3889 1262 2
+3890 3670 1
+3670 1876 4
+3670 160 1
+3670 1865 2
+3670 1262 1
+1861 256 6
+1861 251 2
+1861 1540 1
+1861 159 30
+1861 2071 1
+3887 15240 1
+18209 1861 7
+18209 159 2
+15240 1858 2
+16787 3888 2
+1738 1861 7
+1738 1860 12
+1738 1858 10
+1738 1859 4
+1738 1857 6
+1738 1262 12
+1738 1863 4
+1738 159 10
+11275 1559 7
+11275 1862 11
+21874 532 1
+21874 541 7
+21874 533 2
+21874 159 1
+21874 534 1
+13355 1859 2
+21511 1262 2
+9639 1861 1
+9639 1860 1
+9639 159 11
+8999 1861 1
+8999 251 1
+21516 1861 2
+21516 1860 6
+21516 2141 1
+21516 1943 1
+21516 1540 3
+21516 541 1
+21516 533 4
+21516 2071 3
+20477 18209 2
+20477 2828 3
+20477 1861 2
+20477 1860 8
+20477 532 3
+20477 159 1
+21888 2828 2
+21888 1861 1
+21888 1860 8
+21888 532 4
+21888 541 6
+21888 159 1
+21114 1861 3
+21114 1860 6
+21114 1858 2
+21114 1859 3
+21114 159 2
+21114 1857 1
+21114 1262 3
+1859 1861 3
+1859 1860 3
+1859 1857 3
+1859 534 1
+1859 2828 1
+1859 159 2
+1859 533 8
+1859 541 8
+1859 535 1
+5392 2828 1
+5392 1861 4
+5392 1860 1
+5392 1859 1
+5392 541 1
+5392 159 2
+5392 5407 2
+5392 1857 3
+6458 6468 1
+7147 1860 1
+7147 159 1
+7147 2652 4
+7147 2565 4
+2626 2568 1
+12224 1860 1
+12224 19108 3
+12224 159 1
+12224 12192 3
+12224 2652 4
+15659 1860 1
+15659 1559 1
+15659 533 2
+15659 535 1
+12192 12225 1
+12192 2652 1
+12225 1860 1
+12225 159 1
+12225 2652 2
+12225 2565 1
+6468 532 3
+6468 541 6
+6468 159 2
+6468 2776 5
+6468 2652 5
+6468 534 1
+15658 1860 2
+15658 19108 3
+15658 159 2
+15658 12192 1
+15658 2652 3
+8455 2828 4
+8455 2568 1
+8455 495 2
+8455 1329 1
+8455 2566 1
+8455 534 2
+8457 18529 2
+8457 8455 8
+8457 3738 2
+19108 18529 1
+19108 495 2
+19108 1329 1
+19108 12192 3
+8441 1861 4
+8441 8457 2
+8441 8455 1
+8441 1857 2
+5974 533 4
+5974 159 1
+5974 535 1
+1252 164 9
+1252 159 20
+1253 1252 1
+1253 10599 1
+8787 13108 4
+8787 1252 2
+8787 164 1
+10599 8155 4
+10599 160 3
+10599 159 1
+10599 1262 1
+3426 256 3
+3426 1559 2
+3426 160 1
+3426 533 8
+3426 159 2
+3426 1262 1
+9528 8142 1
+9528 1252 2
+2829 13108 4
+2829 7032 1
+2829 164 1
+2829 7031 3
+8142 161 3
+8142 8155 4
+8142 160 3
+8142 2827 4
+8142 159 2
+8142 1262 4
+7032 256 3
+7032 1559 2
+7032 2827 6
+7032 533 8
+7032 159 2
+7032 7030 10
+5411 1252 4
+5411 159 9
+13108 4200 2
+13108 1559 6
+8155 256 1
+8155 532 6
+8155 541 3
+8155 164 1
+8155 159 2
+8155 2776 1
+15146 1252 2
+15146 13 1
+4127 1253 1
+4127 1252 1
+4127 159 1
+19065 1559 9
+19065 1252 1
+19065 159 1
+19065 8787 2
+15243 3968 1
+15243 159 2
+15243 5974 1
+15243 1262 2
+3398 1559 2
+3398 3426 10
+3398 2776 1
+3398 2071 2
+3398 2828 2
+3398 532 3
+3398 160 4
+3398 159 3
+3398 541 12
+17963 3968 1
+17963 2827 9
+17963 159 4
+17963 5974 1
+17963 1262 4
+6972 2141 1
+6972 1559 3
+6972 1540 1
+6972 7031 9
+6972 2776 1
+6972 2071 4
+6972 2828 2
+6972 161 7
+6972 532 3
+6972 7032 13
+6972 1252 3
+6972 159 2
+6972 541 15
+6972 2827 22
+8688 5411 4
+8688 2776 8
+8688 1857 5
+8688 534 5
+8688 2828 3
+8688 532 8
+8688 1252 7
+8688 159 2
+8688 541 8
+21285 5411 4
+21285 2776 8
+21285 1857 5
+21285 534 5
+21285 2828 3
+21285 532 8
+21285 1252 7
+21285 159 2
+21285 541 8
+19027 2828 1
+19027 532 1
+19027 1252 3
+19027 2827 25
+19027 541 8
+19027 159 9
+19027 5974 1
+2791 2828 1
+2791 532 1
+2791 2827 12
+2791 541 8
+2791 159 2
+17137 2828 3
+17137 2141 2
+17137 532 6
+17137 1252 12
+17137 541 6
+17137 159 4
+17137 2776 6
+17137 1857 1
+17137 534 1
+12236 7077 6
+12236 6180 2
+12236 1491 2
+8990 7077 6
+8990 6180 2
+8990 1491 1
+6179 7077 6
+6179 6180 2
+12230 6180 1
+12230 6178 2
+8984 6180 1
+8984 6178 2
+6169 6180 1
+6169 6178 2
+7798 13115 1
+7798 256 3
+7798 1540 1
+7798 159 21
+7798 7764 1
+7798 7281 1
+7764 7798 6
+7764 1540 1
+7764 159 6
+7764 7281 1
+7764 534 5
+13115 7798 7
+13115 2198 2
+13115 159 3
+13115 535 7
+17780 7798 2
+17780 2568 1
+17780 1540 1
+17780 2006 2
+17780 535 1
+8915 2198 28
+8915 7427 11
+8915 7797 11
+15416 2198 1
+15416 2197 2
+15416 159 2
+12862 2198 1
+12862 2197 3
+12862 15416 1
+9283 8914 1
+19761 9283 1
+16176 251 1
+16176 9283 1
+16176 8914 1
+8914 2198 1
+8914 2197 1
+2071 2141 2
+2071 1180 7
+2071 256 7
+2071 1943 1
+2071 1540 10
+2071 7281 1
+2071 251 2
+2071 159 51
+2071 1491 6
+2071 8914 5
+2071 2565 1
+2071 1172 4
+2141 2197 2
+2141 1540 2
+2141 7427 3
+2141 7797 5
+2141 2071 10
+2141 534 8
+2141 2828 5
+2141 251 2
+2141 159 11
+2141 8915 1
+2141 8914 6
+2141 1172 1
+1943 2198 8
+1943 1540 1
+1943 2071 6
+1943 4825 3
+1943 251 3
+1943 159 7
+1943 8915 7
+1943 535 4
+1943 8914 5
+9282 9283 6
+2089 2141 1
+2089 1943 1
+2089 1540 1
+2089 2071 1
+2089 2138 1
+2089 532 1
+2089 159 2
+2089 533 4
+2089 2140 1
+12508 2141 6
+12508 256 3
+12508 1943 6
+12508 1540 26
+12508 2006 12
+12508 2071 45
+12508 534 3
+12508 2568 7
+12508 251 1
+12508 159 47
+12508 1491 10
+12508 535 9
+12508 1172 1
+5156 2568 4
+5156 1943 1
+5156 2006 2
+5156 535 1
+5156 534 2
+1540 1180 3
+1540 256 10
+1540 7281 1
+1540 4825 1
+1540 2828 2
+1540 251 3
+1540 159 26
+1540 1491 4
+1540 1172 1
+2828 256 1
+2828 1540 10
+2828 159 8
+2828 7281 1
+2828 1172 1
+2828 534 9
+4825 2198 1
+4825 1540 9
+4825 159 2
+4825 535 9
+3365 3391 4
+3365 1540 3
+3365 3392 1
+3365 159 1
+3365 489 1
+3392 256 2
+3392 1540 2
+3392 159 1
+3392 489 5
+21506 1540 2
+245 256 3
+245 1540 5
+245 159 3
+252 3391 4
+252 1540 3
+252 159 1
+22183 2828 6
+22183 245 2
+22183 256 2
+22183 1540 6
+22183 159 4
+22183 182 2
+22183 4825 6
+22369 2828 1
+22369 2568 4
+22369 2006 4
+22369 182 3
+22369 4825 1
+22369 535 2
+22369 534 2
+6580 2006 1
+6580 4825 1
+6580 2007 1
+6580 535 2
+11897 251 2
+17946 2568 1
+17946 3454 1
+17946 13139 1
+17946 2006 2
+17946 16825 18
+17946 535 1
+3454 256 3
+3454 251 1
+3454 1540 1
+3454 159 24
+3454 7700 1
+3454 7281 1
+3454 3437 1
+3454 1172 3
+7700 3454 6
+7700 2197 1
+7700 1540 1
+7700 159 6
+7700 7281 1
+7700 1172 2
+7700 534 4
+3437 3454 7
+3437 159 2
+3437 535 6
+16825 4435 6
+16825 13139 9
+7921 2568 2
+7921 2006 2
+7921 2566 1
+7921 2012 3
+7921 2007 1
+7921 535 1
+7921 534 1
+8211 1559 2
+8211 541 11
+8211 533 9
+8211 159 2
+8211 2012 2
+8211 535 1
+8211 534 1
+4098 1559 1
+4098 541 13
+4098 533 8
+4098 159 1
+4098 2012 2
+4098 535 1
+4098 534 1
+10871 533 4
+10871 3172 1
+10871 2012 5
+10871 535 1
+8185 532 1
+8185 541 3
+8185 2012 1
+8185 534 1
+8373 532 1
+8373 541 1
+8373 159 1
+8373 2012 1
+8373 534 1
+8372 532 1
+8372 2006 2
+8372 2012 1
+8372 2007 1
+8372 535 1
+8372 534 1
+8374 2568 1
+8374 533 4
+8374 2012 6
+8374 535 1
+8374 534 1
+10876 533 5
+10876 159 1
+10876 2012 5
+10873 159 3
+10872 1491 1
+10870 1540 1
+10870 159 1
+10870 2071 3
+10870 1491 1
+7922 2568 2
+7922 2006 2
+7922 2012 3
+7922 535 2
+7922 534 2
+10874 541 4
+10874 533 7
+10874 2012 4
+10874 535 1
+10874 534 1
+7108 2568 1
+7108 1492 2
+7108 495 2
+7108 4826 1
+7108 2006 2
+7108 1491 1
+7108 2008 1
+1953 2012 2
+1953 1491 2
+1953 2008 1
+10875 2006 2
+10875 159 1
+10875 2164 2
+10875 2012 2
+10875 1491 2
+10875 2008 1
+10875 535 1
+10841 7077 6
+10841 1491 1
+13271 1559 3
+13271 541 6
+13271 533 5
+13271 159 2
+13271 2138 8
+13271 535 1
+13271 534 2
+4035 1559 6
+4035 541 6
+4035 533 5
+4035 159 1
+4035 2138 5
+4035 535 1
+4035 534 2
+14329 10871 1
+14329 532 1
+14329 541 2
+14329 159 1
+14329 3172 1
+14329 534 1
+8305 532 2
+8305 541 2
+8305 533 5
+8305 159 8
+8305 2138 4
+8305 535 1
+8305 534 2
+19861 10873 1
+7891 2138 1
+11415 10852 1
+15787 532 1
+15787 541 1
+15787 533 4
+15787 159 1
+15787 2138 6
+15787 535 1
+15787 534 1
+7092 1953 2
+7092 1491 2
+20359 1953 2
+17897 532 1
+17897 159 2
+17897 2138 4
+17897 534 1
+18464 3171 3
+18464 533 4
+18464 159 1
+18464 3172 2
+18464 2012 1
+18464 535 1
+8793 5407 3
+3010 541 6
+3010 159 1
+3010 2012 2
+3010 534 1
+10877 2073 1
+10877 2074 3
+10877 541 3
+10877 2012 2
+10877 534 1
+9797 2074 3
+9797 159 1
+9797 3172 1
+3200 3227 1
+3200 2073 1
+3200 3226 7
+10878 6260 5
+10878 3227 1
+10878 3170 13
+10878 3226 8
+3227 3552 1
+3227 3553 1
+2012 2568 2
+2012 1559 5
+2012 532 1
+2012 541 2
+2012 159 2
+2012 2776 2
+2012 534 3
+23134 1857 12
+1857 2565 1
+15060 15074 12
+15060 5668 4
+15060 6259 1
+15060 3170 6
+3339 3360 1
+6509 5668 4
+6509 5656 4
+11449 2073 2
+11449 4197 1
+3360 2073 2
+3360 4197 1
+6564 6509 2
+6564 11449 2
+6564 3170 5
+6564 5656 4
+2072 2073 2
+2072 5656 1
+3226 6260 4
+3226 2073 1
+3226 6564 3
+3226 3553 1
+3226 3170 7
+3226 5656 8
+3226 4197 1
+3226 2072 3
+6259 15060 1
+6259 2073 3
+6259 15074 9
+6259 5668 4
+6259 3170 6
+6259 4197 2
+6259 2072 3
+3170 2073 14
+3170 3169 5
+3170 5656 1
+3170 4197 4
+3170 3226 2
+15074 6509 1
+15074 5668 9
+15074 6259 3
+15074 2073 1
+15074 11449 4
+15074 3170 7
+15074 3360 3
+15074 4197 1
+6260 6000 1
+6260 6564 11
+6260 3169 1
+6260 11449 5
+6260 3360 3
+6260 3170 8
+6260 5656 11
+6260 4197 4
+17701 11449 1
+9992 3360 1
+5656 6000 1
+5656 3169 2
+5656 4197 2
+2073 5668 3
+2073 5656 4
+2073 4197 1
+17635 11449 1
+9991 3360 1
+5668 3169 2
+5668 4197 2
+9993 3360 1
+19151 2073 1
+19151 3360 3
+6184 6260 4
+6184 2073 2
+6184 6261 17
+6184 6259 22
+6184 3170 9
+6184 3226 30
+6184 2072 1
+22226 5668 54
+22226 6261 21
+22226 5656 58
+5985 6000 1
+3171 6260 9
+3171 2073 1
+3171 256 7
+3171 3173 8
+3171 159 33
+3171 3170 2
+3171 4197 4
+3171 3226 5
+2074 2073 1
+2074 256 5
+2074 3173 6
+2074 6259 17
+2074 159 16
+2074 4197 1
+2074 2072 2
+3173 3169 2
+3173 159 19
+3173 3170 8
+3173 4197 3
+8467 1860 1
+8467 3552 1
+8467 2071 1
+8494 1860 2
+8494 2072 1
+3172 256 2
+3172 6261 3
+3172 533 4
+3172 159 11
+3172 1172 1
+3172 535 1
+6475 3171 3
+6475 2568 2
+6475 2074 3
+6475 159 4
+6475 534 1
+11521 3171 3
+11521 532 1
+11521 2074 3
+11521 541 2
+11521 533 5
+11521 159 3
+11521 535 1
+11521 534 2
+20541 8494 1
+3110 3171 3
+3110 2073 2
+3110 3173 2
+3110 2074 3
+3110 159 29
+3110 3172 2
+3110 3170 98
+18954 1861 1
+18954 1860 7
+18954 1254 7
+18954 159 3
+1254 3171 4
+1254 1861 3
+1254 1540 2
+1254 533 4
+1254 159 1
+1254 535 1
+3894 3898 1
+20116 160 2
+20116 7416 3
+20116 1262 1
+3898 2032 3
+3898 2074 2
+3898 1252 2
+3898 160 1
+3898 1262 1
+1260 7546 1
+7406 161 2
+7406 160 2
+7406 2827 3
+7406 7416 3
+7406 1262 2
+7546 7031 3
+7546 7030 4
+7546 1262 2
+7546 161 1
+7546 2032 3
+7546 160 1
+7546 2074 2
+7546 159 1
+7546 2827 6
+7416 3171 6
+7416 3552 1
+7416 1252 2
+7416 2071 1
+2032 2074 4
+2032 159 2
+2032 2071 2
+2032 2072 2
+1198 1252 3
+1198 1254 7
+1198 159 2
+8944 1861 1
+8944 1252 3
+8944 1254 7
+8944 159 3

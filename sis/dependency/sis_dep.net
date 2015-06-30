@@ -1,0 +1,4033 @@
+*Vertics: 965
+8,org.apache.sis.util.logging.LoggerAdapter
+199,org.apache.sis.metadata.iso.citation.DefaultSeries
+232,org.apache.sis.metadata.iso.ISOMetadata
+233,org.apache.sis.util.iso.Types
+242,org.apache.sis.referencing.cs.DefaultCartesianCSTest
+310,org.apache.sis.referencing.GeodeticObjectVerifier
+311,org.apache.sis.test.XMLTestCase
+314,org.apache.sis.test.Assert
+317,org.apache.sis.referencing.cs.DirectionAlongMeridianTest
+318,org.apache.sis.referencing.cs.AbstractCSTest
+319,org.apache.sis.referencing.cs.DefaultCartesianCS
+320,org.apache.sis.referencing.cs.DefaultCoordinateSystemAxis
+321,org.apache.sis.referencing.cs.HardCodedAxes
+322,org.apache.sis.referencing.cs.CoordinateSystems
+323,org.apache.sis.referencing.AbstractIdentifiedObject
+324,org.apache.sis.referencing.cs.AxesConvention
+325,org.apache.sis.referencing.cs.AbstractCS
+352,org.apache.sis.internal.jaxb.metadata.MD_Dimension
+365,org.apache.sis.metadata.iso.spatial.DefaultDimension
+366,org.apache.sis.internal.jaxb.gco.PropertyType
+376,org.apache.sis.referencing.CommonCRSTest
+442,org.apache.sis.internal.referencing.VerticalDatumTypes
+443,org.apache.sis.test.TestCase
+447,org.apache.sis.referencing.crs.DefaultGeodeticCRSTest
+449,org.apache.sis.referencing.datum.DefaultVerticalDatumTest
+450,org.apache.sis.referencing.StandardDefinitionsTest
+453,org.apache.sis.referencing.CommonCRS
+481,org.apache.sis.referencing.crs.DefaultCompoundCRSTest
+513,org.apache.sis.referencing.cs.DefaultCompoundCS
+514,org.apache.sis.io.wkt.Convention
+515,org.apache.sis.test.MetadataAssert
+517,org.apache.sis.referencing.crs.SubTypesTest
+518,org.apache.sis.referencing.crs.DefaultGeographicCRSTest
+519,org.apache.sis.referencing.crs.DefaultVerticalCRSTest
+520,org.apache.sis.referencing.crs.DefaultVerticalCRS
+521,org.apache.sis.referencing.crs.DefaultTemporalCRS
+522,org.apache.sis.referencing.crs.DefaultGeographicCRS
+523,org.apache.sis.referencing.crs.DefaultCompoundCRS
+524,org.apache.sis.referencing.crs.HardCodedCRS
+527,org.apache.sis.referencing.crs.AbstractCRS
+550,org.apache.sis.metadata.iso.acquisition.DefaultOperation
+623,org.apache.sis.internal.jaxb.NonMarshalledAuthority
+633,org.apache.sis.internal.jaxb.metadata.MI_Objective
+643,org.apache.sis.metadata.iso.acquisition.DefaultObjective
+646,org.apache.sis.metadata.iso.identification.DefaultResolution
+678,org.apache.sis.internal.jaxb.gco.GO_Distance
+679,org.apache.sis.internal.metadata.MetadataUtilities
+681,org.apache.sis.util.resources.Messages
+694,org.apache.sis.metadata.iso.DefaultMetadataTest
+712,org.apache.sis.xml.XML
+713,org.apache.sis.xml.Namespaces
+714,org.apache.sis.xml.MarshallerPool
+717,org.apache.sis.metadata.iso.DefaultMetadata
+728,org.apache.sis.internal.jaxb.metadata.MI_Plan
+738,org.apache.sis.metadata.iso.acquisition.DefaultPlan
+755,org.apache.sis.internal.jaxb.metadata.CI_Citation
+756,org.apache.sis.internal.jaxb.metadata.DQ_Element
+757,org.apache.sis.internal.jaxb.code.DQ_EvaluationMethodTypeCode
+758,org.apache.sis.internal.jaxb.metadata.DQ_Result
+759,org.apache.sis.internal.jaxb.metadata.DQ_Scope
+760,org.apache.sis.internal.jaxb.metadata.EX_Extent
+761,org.apache.sis.internal.jaxb.metadata.LI_Lineage
+762,org.apache.sis.internal.jaxb.metadata.MD_ContentInformation
+763,org.apache.sis.internal.jaxb.metadata.MD_Format
+764,org.apache.sis.internal.jaxb.metadata.MD_Identifier
+765,org.apache.sis.internal.jaxb.code.MD_ScopeCode
+766,org.apache.sis.internal.jaxb.metadata.MD_ScopeDescription
+767,org.apache.sis.internal.jaxb.metadata.MD_SpatialRepresentation
+768,org.apache.sis.internal.jaxb.code.MD_SpatialRepresentationTypeCode
+769,org.apache.sis.internal.jaxb.metadata.MX_DataFile
+770,org.apache.sis.internal.jaxb.gco.UnitAdapter
+771,org.apache.sis.internal.jaxb.gco.StringAdapter
+772,org.apache.sis.internal.jaxb.gco.InternationalStringAdapter
+773,org.apache.sis.internal.jaxb.gco.GO_DateTime
+774,org.apache.sis.internal.jaxb.gco.GO_RecordType
+775,org.apache.sis.internal.jaxb.gco.GO_Boolean
+781,org.apache.sis.xml.NilReasonMarshallingTest
+828,org.apache.sis.xml.NilReason
+843,org.apache.sis.test.mock.VerticalCRSMock
+885,org.apache.sis.test.mock.IdentifiedObjectMock
+899,org.apache.sis.util.collection.DefaultTreeTable
+1024,org.apache.sis.util.ArgumentChecks
+1025,org.apache.sis.util.resources.Errors
+1026,org.apache.sis.internal.util.Cloner
+1027,org.apache.sis.internal.util.UnmodifiableArrayList
+1034,org.apache.sis.internal.jdk7.Objects
+1038,org.apache.sis.util.collection.TableColumn
+1040,org.apache.sis.util.collection.Containers
+1041,org.apache.sis.util.collection.TreeTableFormat
+1042,org.apache.sis.util.collection.TreeNodeList
+1084,org.apache.sis.metadata.iso.constraint.DefaultLegalConstraints
+1113,org.apache.sis.metadata.iso.constraint.DefaultConstraints
+1116,org.apache.sis.metadata.iso.extent.DefaultExtent
+1158,org.apache.sis.internal.metadata.ReferencingServices
+1163,org.apache.sis.internal.jaxb.code.MD_KeywordTypeCode
+1173,org.apache.sis.internal.jaxb.gmd.CodeListAdapter
+1174,org.apache.sis.internal.jaxb.gmd.CodeListProxy
+1182,org.apache.sis.metadata.iso.quality.DefaultDomainConsistency
+1190,org.apache.sis.metadata.iso.quality.AbstractLogicalConsistency
+1196,org.apache.sis.setup.OptionKey
+1228,org.apache.sis.util.logging.Logging
+1232,org.apache.sis.internal.jaxb.gmi.MI_Metadata
+1248,org.apache.sis.util.resources.IndexedResourceBundleTest
+1300,org.apache.sis.util.resources.LoaderTest
+1301,org.apache.sis.util.resources.IndexedResourceBundle
+1316,org.apache.sis.referencing.cs.Normalizer
+1382,org.apache.sis.internal.referencing.AxisDirections
+1383,org.apache.sis.referencing.IdentifiedObjects
+1384,org.apache.sis.util.CharSequences
+1385,org.apache.sis.measure.Units
+1386,org.apache.sis.referencing.cs.DirectionAlongMeridian
+1584,org.apache.sis.util.Static
+1585,org.apache.sis.util.ComparisonMode
+1586,org.apache.sis.internal.util.Numerics
+1587,org.apache.sis.internal.jdk7.JDK7
+1589,org.apache.sis.referencing.operation.matrix.GeneralMatrix
+1590,org.apache.sis.referencing.operation.matrix.Matrix1
+1591,org.apache.sis.referencing.operation.matrix.Matrix2
+1592,org.apache.sis.referencing.operation.matrix.Matrix3
+1593,org.apache.sis.referencing.operation.matrix.Matrix4
+1594,org.apache.sis.referencing.operation.matrix.NonSquareMatrix
+1635,org.apache.sis.metadata.iso.content.DefaultImageDescription
+1706,org.apache.sis.internal.jaxb.gmi.MI_ImageDescription
+1707,org.apache.sis.metadata.iso.content.DefaultCoverageDescription
+1713,org.apache.sis.internal.referencing.NameToIdentifier
+1746,org.apache.sis.metadata.iso.citation.Citations
+1755,org.apache.sis.referencing.cs.SubTypes
+1761,org.apache.sis.referencing.cs.DefaultAffineCS
+1762,org.apache.sis.referencing.cs.DefaultSphericalCS
+1763,org.apache.sis.referencing.cs.DefaultEllipsoidalCS
+1764,org.apache.sis.referencing.cs.DefaultCylindricalCS
+1765,org.apache.sis.referencing.cs.DefaultPolarCS
+1766,org.apache.sis.referencing.cs.DefaultLinearCS
+1767,org.apache.sis.referencing.cs.DefaultVerticalCS
+1768,org.apache.sis.referencing.cs.DefaultTimeCS
+1769,org.apache.sis.referencing.cs.DefaultUserDefinedCS
+1781,org.apache.sis.internal.jaxb.referencing.CD_EngineeringDatum
+1793,org.apache.sis.referencing.datum.DefaultEngineeringDatum
+1797,org.apache.sis.test.GeoapiAssert
+1841,org.apache.sis.metadata.iso.acquisition.DefaultRequestedDate
+1863,org.apache.sis.xml.NilInternationalString
+1888,org.apache.sis.metadata.PropertyComparator
+1950,org.apache.sis.metadata.iso.quality.DefaultCoverageResult
+1986,org.apache.sis.metadata.iso.quality.AbstractResult
+1989,org.apache.sis.metadata.iso.extent.DefaultTemporalExtent
+2018,org.apache.sis.internal.util.TemporalUtilities
+2020,org.apache.sis.metadata.iso.extent.DefaultSpatialTemporalExtent
+2031,org.apache.sis.internal.jaxb.gco.InternationalStringConverter
+2038,org.apache.sis.util.iso.SimpleInternationalString
+2043,org.apache.sis.metadata.StandardImplementation
+2071,org.apache.sis.metadata.MetadataStandard
+2083,org.apache.sis.internal.storage.xml.MimeTypeDetectorTest
+2101,org.apache.sis.metadata.iso.extent.DefaultExtentTest
+2102,org.apache.sis.internal.storage.xml.MimeTypeDetector
+2103,org.apache.sis.internal.storage.xml.XMLStoreTest
+2111,org.apache.sis.metadata.iso.maintenance.DefaultScopeDescription
+2177,org.apache.sis.internal.metadata.ExcludedSet
+2180,org.apache.sis.internal.jaxb.Context
+2187,org.apache.sis.internal.jaxb.metadata.LE_NominalResolution
+2199,org.apache.sis.metadata.iso.lineage.DefaultNominalResolution
+2203,org.apache.sis.metadata.AbstractMetadataTest
+2209,org.apache.sis.metadata.MetadataStandardTest
+2210,org.apache.sis.metadata.AbstractMetadata
+2215,org.apache.sis.util.logging.QuietLogRecord
+2227,org.apache.sis.referencing.operation.matrix.NoninvertibleMatrixException
+2237,org.apache.sis.metadata.iso.distribution.DefaultDistribution
+2265,org.apache.sis.io.wkt.Symbols
+2375,org.apache.sis.internal.jaxb.gco.URIAdapter
+2387,org.apache.sis.internal.jaxb.gco.GO_CharacterString
+2388,org.apache.sis.xml.ValueConverter
+2389,org.apache.sis.internal.jaxb.gco.CharSequenceAdapter
+2409,org.apache.sis.parameter.ParameterBuilderTest
+2426,org.apache.sis.metadata.iso.citation.HardCodedCitations
+2427,org.apache.sis.referencing.BuilderTest
+2428,org.apache.sis.parameter.DefaultParameterDescriptorTest
+2429,org.apache.sis.parameter.DefaultParameterValueTest
+2430,org.apache.sis.parameter.ParameterBuilder
+2431,org.apache.sis.referencing.Builder
+2439,org.apache.sis.index.tree.NodeType
+2449,org.apache.sis.metadata.iso.lineage.DefaultProcessStepTest
+2454,org.apache.sis.metadata.iso.lineage.DefaultProcessStep
+2455,org.apache.sis.metadata.iso.lineage.DefaultProcessing
+2493,org.apache.sis.util.Utilities
+2501,org.apache.sis.metadata.iso.citation.DefaultCitationDateTest
+2509,org.apache.sis.metadata.iso.citation.DefaultCitationDate
+2516,org.apache.sis.io.WordWrapWithLineSeparatorTest
+2521,org.apache.sis.io.WordWrapTest
+2522,org.apache.sis.io.LineAppender
+2529,org.apache.sis.internal.util.DoubleDouble
+2682,org.apache.sis.math.MathFunctions
+2683,org.apache.sis.math.DecimalFunctions
+2690,org.apache.sis.internal.jaxb.metadata.MI_GeolocationInformation
+2700,org.apache.sis.metadata.iso.spatial.AbstractGeolocationInformation
+2703,org.apache.sis.util.iso.AbstractInternationalString
+2744,org.apache.sis.internal.netcdf.impl.GridGeometryInfo
+2771,org.apache.sis.util.ArraysExt
+2772,org.apache.sis.internal.netcdf.Axis
+2773,org.apache.sis.internal.netcdf.GridGeometry
+2774,org.apache.sis.storage.netcdf.AttributeNames
+2777,org.apache.sis.internal.netcdf.impl.Dimension
+2778,org.apache.sis.internal.netcdf.impl.VariableInfo
+2795,org.apache.sis.referencing.datum.DefaultEllipsoid
+2914,org.apache.sis.geometry.DirectPosition2D
+2915,org.apache.sis.internal.jaxb.gco.Measure
+2916,org.apache.sis.internal.jaxb.referencing.SecondDefiningParameter
+2917,org.apache.sis.internal.referencing.Formulas
+2918,org.apache.sis.io.wkt.Formatter
+2926,org.apache.sis.internal.referencing.NilReferencingObject
+2927,org.apache.sis.referencing.datum.Sphere
+2956,com.sun.xml.internal.bind.marshaller.NamespacePrefixMapper
+2970,org.apache.sis.internal.system.DefaultFactories
+2978,org.apache.sis.metadata.iso.acquisition.DefaultInstrument
+3009,org.apache.sis.internal.jaxb.metadata.MD_RangeDimension
+3021,org.apache.sis.internal.jaxb.gmi.MI_Band
+3022,org.apache.sis.metadata.iso.content.DefaultRangeDimension
+3026,org.apache.sis.internal.netcdf.impl.VariableInfoTest
+3031,org.apache.sis.internal.netcdf.Decoder
+3032,org.apache.sis.internal.netcdf.VariableTest
+3033,org.apache.sis.internal.netcdf.impl.ChannelDecoderTest
+3192,org.apache.sis.metadata.TreeNodeTest
+3246,org.apache.sis.metadata.iso.citation.DefaultAddress
+3247,org.apache.sis.metadata.iso.citation.DefaultContact
+3248,org.apache.sis.metadata.iso.citation.DefaultCitation
+3249,org.apache.sis.metadata.iso.citation.DefaultResponsibleParty
+3250,org.apache.sis.metadata.TreeNodeChildrenTest
+3251,org.apache.sis.metadata.TreeNode
+3252,org.apache.sis.metadata.TreeTableView
+3253,org.apache.sis.metadata.ValueExistencePolicy
+3254,org.apache.sis.metadata.TreeNodeChildren
+3304,org.apache.sis.internal.netcdf.IOTestCase
+3305,org.apache.sis.internal.netcdf.DecoderTest
+3307,org.apache.sis.storage.DataStoreException
+3315,org.apache.sis.parameter.MultiOccurrenceDescriptor
+3326,org.apache.sis.parameter.DefaultParameterDescriptor
+3330,org.apache.sis.internal.jaxb.metadata.LI_ProcessStep
+3341,org.apache.sis.internal.jaxb.gmi.LE_ProcessStep
+3344,org.apache.sis.internal.jaxb.gml.DummyInstant
+3356,org.apache.sis.util.resources.KeyConstants
+3386,org.apache.sis.internal.netcdf.impl.Attribute
+3408,com.sun.xml.bind.marshaller.NamespacePrefixMapper
+3424,org.apache.sis.io.TabularFormat
+3463,org.apache.sis.util.StringBuilders
+3464,org.apache.sis.io.CompoundFormat
+3471,org.apache.sis.referencing.operation.matrix.AffineTransforms2DTest
+3488,org.apache.sis.referencing.operation.matrix.AffineTransforms2D
+3496,org.apache.sis.metadata.MetadataTestCase
+3552,org.apache.sis.util.Numbers
+3553,org.apache.sis.internal.util.CollectionsExt
+3554,org.apache.sis.test.AnnotationsTestCase
+3555,org.apache.sis.metadata.PropertyAccessorTest
+3557,org.apache.sis.metadata.KeyNamePolicy
+3558,org.apache.sis.metadata.TypeValuePolicy
+3594,org.apache.sis.io.DefaultFormat
+3630,org.apache.sis.internal.util.LocalizedParseException
+3634,org.apache.sis.io.SingleCharAppendable
+3643,org.apache.sis.io.Appender
+3687,org.apache.sis.metadata.iso.acquisition.DefaultPlatform
+3688,org.apache.sis.metadata.iso.quality.AbstractCompleteness
+3689,org.apache.sis.metadata.InformationMapTest
+3690,org.apache.sis.metadata.NameMapTest
+3691,org.apache.sis.metadata.TypeMapTest
+3692,org.apache.sis.metadata.ValueMapTest
+3719,org.apache.sis.metadata.iso.ImmutableIdentifier
+3720,org.apache.sis.metadata.iso.extent.DefaultVerticalExtent
+3721,org.apache.sis.metadata.iso.extent.DefaultGeographicBoundingBox
+3723,org.apache.sis.referencing.AbstractIdentifiedObjectTest
+3724,org.apache.sis.referencing.AbstractReferenceSystem
+3735,org.apache.sis.internal.jaxb.gml.UniversalTimeAdapter
+3754,org.apache.sis.internal.jaxb.XmlUtilities
+3758,org.apache.sis.internal.jaxb.referencing.CS_AffineCS
+3770,org.apache.sis.storage.netcdf.NetcdfStoreProviderTest
+3787,org.apache.sis.internal.netcdf.TestCase
+3789,org.apache.sis.storage.ProbeResult
+3791,org.apache.sis.util.Version
+3793,org.apache.sis.storage.netcdf.NetcdfStoreProvider
+3810,org.apache.sis.internal.jaxb.gco.NameAdapter
+3833,org.apache.sis.util.iso.AbstractName
+3834,org.apache.sis.util.iso.DefaultTypeName
+3835,org.apache.sis.util.iso.DefaultMemberName
+3836,org.apache.sis.util.iso.DefaultNameFactory
+3897,org.apache.sis.referencing.operation.matrix.Matrix4Test
+3915,org.apache.sis.referencing.operation.matrix.SolverTest
+3916,org.apache.sis.referencing.operation.matrix.MatrixTestCase
+3926,org.apache.sis.math.StatisticsFormatTest
+3935,org.apache.sis.math.StatisticsFormat
+3936,org.apache.sis.math.Statistics
+3943,org.apache.sis.io.EchoAppendable
+3958,org.apache.sis.internal.jaxb.metadata.LE_ProcessStepReport
+3969,org.apache.sis.metadata.iso.lineage.DefaultProcessStepReport
+3986,org.apache.sis.internal.jaxb.referencing.CS_CoordinateSystemAxis
+4001,org.apache.sis.internal.system.ReferenceQueueConsumer
+4015,org.apache.sis.internal.system.DaemonThread
+4016,org.apache.sis.internal.system.Threads
+4018,org.apache.sis.internal.system.Supervisor
+4027,org.apache.sis.metadata.iso.spatial.DefaultGeorectifiedTest
+4036,org.apache.sis.metadata.iso.LoggingWatcher
+4037,org.apache.sis.metadata.iso.spatial.DefaultGeorectified
+4114,org.apache.sis.io.TableAppender
+4115,org.apache.sis.util.resources.Vocabulary
+4116,org.apache.sis.util.collection.BackingStoreException
+4152,org.apache.sis.internal.system.SystemListener
+4204,org.apache.sis.io.wkt.UnformattableObjectException
+4237,org.apache.sis.referencing.operation.matrix.MismatchedMatrixSizeException
+4243,org.apache.sis.internal.jaxb.gco.GO_Real
+4256,org.apache.sis.internal.jaxb.code.DS_AssociationTypeCode
+4312,org.apache.sis.util.iso.DefaultInternationalString
+4313,org.apache.sis.util.collection.DefaultTreeTableTest
+4322,org.apache.sis.internal.jaxb.metadata.MI_Event
+4332,org.apache.sis.metadata.iso.acquisition.DefaultEvent
+4338,org.apache.sis.internal.storage.ChannelImageInputStreamTest
+4408,org.apache.sis.internal.storage.ChannelDataInputTest
+4409,org.apache.sis.internal.storage.ChannelImageInputStream
+4413,org.apache.sis.internal.jaxb.gts.TM_PeriodDuration
+4415,org.apache.sis.internal.jaxb.metadata.CI_ResponsibleParty
+4416,org.apache.sis.internal.jaxb.code.MD_MaintenanceFrequencyCode
+4417,org.apache.sis.internal.jaxb.metadata.MD_MaintenanceInformation
+4424,org.apache.sis.util.iso.DefaultLocalName
+4427,org.apache.sis.storage.DataStores
+4438,org.apache.sis.internal.system.Modules
+4439,org.apache.sis.storage.DataStoreRegistry
+4440,org.apache.sis.storage.DataStore
+4442,org.apache.sis.storage.UnsupportedStorageException
+4447,org.apache.sis.internal.util.CheckedArrayListTest
+4466,org.apache.sis.util.NullArgumentException
+4467,org.apache.sis.internal.util.CheckedArrayList
+4524,org.apache.sis.util.Classes
+4525,org.apache.sis.io.wkt.ElementKind
+4526,org.apache.sis.measure.MeasurementRange
+4527,org.apache.sis.internal.referencing.WKTUtilities
+4529,org.apache.sis.parameter.Verifier
+4530,org.apache.sis.parameter.Parameters
+4531,org.apache.sis.parameter.DefaultParameterValue
+4555,org.apache.sis.console.MimeTypeSCTest
+4563,org.apache.sis.console.SubCommandTest
+4564,org.apache.sis.console.MimeTypeSC
+4565,org.apache.sis.console.SubCommand
+4571,org.apache.sis.storage.ProbeProviderPair
+4578,org.apache.sis.storage.DataStoreProvider
+4588,org.apache.sis.measure.DateRangeTest
+4618,org.apache.sis.measure.RangeTest
+4625,org.apache.sis.measure.NumberRangeTest
+4644,org.apache.sis.util.NumbersTest
+4646,org.apache.sis.measure.NumberRange
+4662,org.apache.sis.parameter.TensorParametersTest
+4698,org.apache.sis.parameter.ParametersTest
+4699,org.apache.sis.parameter.TensorParameters
+4700,org.apache.sis.parameter.ParameterValueGroupWrapper
+4750,org.apache.sis.internal.metadata.ReferencingUtilities
+4759,org.apache.sis.util.resources.ResourceInternationalString
+4815,org.apache.sis.internal.util.X364
+4891,org.apache.sis.math.FunctionProperty
+4907,org.apache.sis.storage.InputStreamAdapter
+4983,org.apache.sis.geometry.Envelope2DTest
+5004,org.apache.sis.test.ReferencingAssert
+5007,org.apache.sis.geometry.AbstractEnvelopeTest
+5008,org.apache.sis.geometry.Envelope2D
+5031,org.apache.sis.internal.jaxb.metadata.MD_StandardOrderProcess
+5042,org.apache.sis.metadata.iso.distribution.DefaultStandardOrderProcess
+5045,org.apache.sis.measure.AngleFormat
+5282,org.apache.sis.measure.FormattedCharacterIterator
+5283,org.apache.sis.measure.Angle
+5284,org.apache.sis.measure.FormatField
+5285,org.apache.sis.measure.Latitude
+5286,org.apache.sis.measure.Longitude
+5299,org.apache.sis.internal.profile.fra.SecurityConstraints
+5310,org.apache.sis.metadata.iso.constraint.DefaultSecurityConstraints
+5314,org.apache.sis.metadata.iso.quality.AbstractElement
+5405,org.apache.sis.metadata.iso.quality.AbstractPositionalAccuracy
+5406,org.apache.sis.metadata.iso.quality.AbstractThematicAccuracy
+5407,org.apache.sis.metadata.iso.quality.AbstractTemporalAccuracy
+5408,org.apache.sis.metadata.iso.quality.DefaultUsability
+5424,org.apache.sis.util.collection.RangeSet
+5820,org.apache.sis.referencing.crs.AbstractCRSTest
+5821,org.apache.sis.referencing.crs.SubTypes
+5829,org.apache.sis.referencing.datum.BursaWolfParameters
+5899,org.apache.sis.io.wkt.FormattableObject
+6047,org.apache.sis.util.collection.CodeListSet
+6048,org.apache.sis.internal.util.EmptyQueue
+6049,org.apache.sis.internal.util.EmptySortedSet
+6057,org.apache.sis.internal.jaxb.gco.GO_Measure
+6076,org.apache.sis.parameter.ParameterFormat
+6238,org.apache.sis.io.wkt.Colors
+6239,org.apache.sis.parameter.ParameterTableRow
+6267,org.apache.sis.internal.jaxb.gml.DateAdapter
+6289,org.apache.sis.internal.jaxb.metadata.EX_VerticalExtent
+6380,org.apache.sis.util.Exceptions
+6381,org.apache.sis.xml.MarshalContext
+6382,org.apache.sis.xml.ReferenceResolver
+6393,org.apache.sis.util.collection.DerivedMapTest
+6420,org.apache.sis.util.collection.DerivedSetTest
+6421,org.apache.sis.util.collection.DerivedMap
+6429,org.apache.sis.referencing.cs.HardCodedCS
+6472,org.apache.sis.internal.converter.FallbackConverter
+6534,org.apache.sis.util.UnconvertibleObjectException
+6535,org.apache.sis.internal.converter.SystemConverter
+6550,org.apache.sis.internal.jaxb.gmd.GO_URL
+6561,org.apache.sis.metadata.iso.extent.AbstractGeographicExtent
+6577,org.apache.sis.metadata.iso.extent.DefaultBoundingPolygon
+6578,org.apache.sis.metadata.iso.extent.DefaultGeographicDescription
+6583,org.apache.sis.internal.jaxb.code.MD_ProgressCode
+6597,org.apache.sis.geometry.AbstractDirectPosition
+6666,org.apache.sis.geometry.MismatchedReferenceSystemException
+6675,org.apache.sis.metadata.iso.quality.DefaultRelativeInternalPositionalAccuracy
+6698,org.apache.sis.internal.jaxb.gml.GMLAdapter
+6774,org.apache.sis.util.logging.DualLogger
+6817,org.apache.sis.internal.simple.SimpleCitation
+6861,org.apache.sis.internal.storage.xml.XMLStore
+6866,org.apache.sis.referencing.operation.matrix.MatricesTest
+6914,org.apache.sis.geometry.GeneralEnvelope
+6915,org.apache.sis.referencing.operation.matrix.Matrix1Test
+6916,org.apache.sis.referencing.operation.matrix.Matrix2Test
+6917,org.apache.sis.referencing.operation.matrix.Matrix3Test
+6918,org.apache.sis.referencing.operation.matrix.GeneralMatrixTest
+6919,org.apache.sis.referencing.operation.matrix.NonSquareMatrixTest
+6931,org.apache.sis.internal.jaxb.code.DS_InitiativeTypeCode
+6932,org.apache.sis.internal.jaxb.metadata.MD_AggregateInformation
+6933,org.apache.sis.internal.jaxb.metadata.MD_BrowseGraphic
+6934,org.apache.sis.internal.jaxb.code.MD_CharacterSetCode
+6935,org.apache.sis.internal.jaxb.metadata.MD_Constraints
+6936,org.apache.sis.internal.jaxb.metadata.MD_Keywords
+6937,org.apache.sis.internal.jaxb.metadata.MD_RepresentativeFraction
+6938,org.apache.sis.internal.jaxb.metadata.MD_Resolution
+6939,org.apache.sis.internal.jaxb.code.MD_TopicCategoryCode
+6940,org.apache.sis.internal.jaxb.metadata.MD_Usage
+6941,org.apache.sis.internal.jaxb.gmd.LocaleAdapter
+6949,org.apache.sis.index.tree.GeoRSSData
+6999,org.apache.sis.internal.jaxb.referencing.SC_VerticalCRS
+7012,org.apache.sis.internal.jaxb.gml.SC_VerticalCRS
+7020,org.apache.sis.internal.jaxb.referencing.CD_VerticalDatumType
+7023,org.apache.sis.internal.jaxb.gml.CodeListAdapter
+7026,org.apache.sis.geometry.GeneralDirectPosition
+7067,org.apache.sis.xml.ValueConverterTest
+7088,org.apache.sis.xml.PooledMarshaller
+7207,org.apache.sis.internal.system.XMLOutputFactory
+7208,org.apache.sis.xml.Pooled
+7209,org.apache.sis.xml.FilterVersion
+7210,org.apache.sis.xml.FilteredStreamWriter
+7234,org.apache.sis.internal.converter.ObjectToString
+7317,org.apache.sis.util.iso.DefaultScopedName
+7318,org.apache.sis.util.iso.DefaultNameSpace
+7391,org.apache.sis.internal.referencing.ExtentSelector
+7403,org.apache.sis.metadata.iso.extent.Extents
+7408,org.apache.sis.metadata.NameMap
+7421,org.apache.sis.metadata.PropertyMap
+7429,org.apache.sis.internal.converter.ConverterRegistry
+7508,org.apache.sis.internal.converter.ArrayConverter
+7509,org.apache.sis.internal.converter.IdentityConverter
+7520,org.apache.sis.util.collection.CodeListSetTest
+7561,org.apache.sis.util.iso.LargeCodeList
+7575,org.apache.sis.metadata.iso.identification.DefaultBrowseGraphicTest
+7616,org.apache.sis.metadata.iso.identification.DefaultBrowseGraphic
+7638,org.apache.sis.internal.jaxb.code.MD_ObligationCode
+7667,org.apache.sis.metadata.iso.content.DefaultBand
+7681,org.apache.sis.internal.jaxb.metadata.MI_GCP
+7691,org.apache.sis.metadata.iso.spatial.DefaultGCP
+7724,org.apache.sis.internal.metadata.MetadataTypes
+7727,org.apache.sis.internal.jaxb.TypeRegistration
+7730,org.apache.sis.console.Command
+7772,org.apache.sis.console.Option
+7773,org.apache.sis.console.InvalidCommandException
+7774,org.apache.sis.console.InvalidOptionException
+7775,org.apache.sis.console.HelpSC
+7776,org.apache.sis.console.AboutSC
+7777,org.apache.sis.console.MetadataSC
+7796,org.apache.sis.internal.util.XPaths
+7807,org.apache.sis.internal.jaxb.referencing.CS_RangeMeaning
+7813,org.apache.sis.internal.jaxb.code.MD_ClassificationCode
+7814,org.apache.sis.internal.jaxb.code.MD_RestrictionCode
+7827,org.apache.sis.internal.jaxb.gmi.MI_CoverageDescription
+7828,org.apache.sis.metadata.iso.content.AbstractContentInformation
+7833,org.apache.sis.io.TabulationExpansionTest
+7838,org.apache.sis.io.LineAppenderTest
+7847,org.apache.sis.internal.system.ServletListener
+7858,org.apache.sis.internal.system.Shutdown
+7890,org.apache.sis.util.logging.WarningListeners
+7891,org.apache.sis.internal.netcdf.Variable
+7895,org.apache.sis.metadata.iso.distribution.DefaultFormat
+8025,org.apache.sis.referencing.NamedIdentifier
+8046,org.apache.sis.xml.XLink
+8167,org.apache.sis.internal.storage.DripByteChannel
+8287,org.apache.sis.util.collection.DerivedSet
+8449,org.apache.sis.metadata.ObjectPair
+8451,org.apache.sis.metadata.SpecialCases
+8452,org.apache.sis.metadata.TypeMap
+8453,org.apache.sis.metadata.InformationMap
+8454,org.apache.sis.metadata.ValueMap
+8455,org.apache.sis.metadata.RecursivityGuard
+8487,org.apache.sis.io.wkt.WKTFormat
+8564,org.apache.sis.internal.jaxb.referencing.Code
+8566,org.apache.sis.referencing.datum.AbstractDatum
+8567,org.apache.sis.referencing.datum.DefaultPrimeMeridian
+8569,org.apache.sis.referencing.PropertiesConverter
+8570,org.apache.sis.referencing.SubTypes
+8571,org.apache.sis.referencing.NameIterator
+8588,org.apache.sis.metadata.iso.citation.Authority
+8712,org.apache.sis.util.Characters
+8713,org.apache.sis.io.IO
+8732,org.apache.sis.storage.ProbeResultTest
+8767,org.apache.sis.internal.jdk7.StandardCharsets
+8824,org.apache.sis.console.MetadataSCTest
+8847,org.apache.sis.io.ClassFormat
+8860,org.apache.sis.metadata.InvalidMetadataException
+8866,org.apache.sis.util.collection.WeakValueHashMap
+8951,org.apache.sis.util.collection.WeakEntry
+8966,org.apache.sis.metadata.PrunerTest
+8978,org.apache.sis.metadata.iso.identification.DefaultDataIdentification
+8979,org.apache.sis.metadata.iso.acquisition.DefaultAcquisitionInformation
+8981,org.apache.sis.metadata.iso.identification.AbstractIdentification
+9046,org.apache.sis.metadata.ModifiableMetadata
+9086,org.apache.sis.parameter.DefaultParameterDescriptorGroupTest
+9121,org.apache.sis.parameter.DefaultParameterDescriptorGroup
+9131,org.apache.sis.internal.netcdf.ucar.GridGeometryWrapper
+9189,org.apache.sis.referencing.crs.DefaultGeocentricCRS
+9190,org.apache.sis.referencing.crs.DefaultEngineeringCRS
+9191,org.apache.sis.referencing.crs.DefaultImageCRS
+9203,org.apache.sis.internal.jaxb.metadata.LE_Algorithm
+9204,org.apache.sis.internal.jaxb.metadata.LE_Processing
+9205,org.apache.sis.internal.jaxb.metadata.LI_Source
+9207,org.apache.sis.metadata.DomainRange
+9232,org.apache.sis.measure.RangeFormat
+9237,org.apache.sis.internal.jaxb.referencing.CD_Ellipsoid
+9278,org.apache.sis.util.collection.TableColumnTest
+9280,org.apache.sis.internal.jaxb.referencing.CS_PolarCS
+9420,org.apache.sis.util.Locales
+9452,org.apache.sis.internal.jaxb.referencing.CD_GeodeticDatum
+9453,org.apache.sis.internal.jaxb.referencing.CD_ImageDatum
+9454,org.apache.sis.internal.jaxb.referencing.CD_TemporalDatum
+9455,org.apache.sis.internal.jaxb.referencing.CD_VerticalDatum
+9456,org.apache.sis.internal.jaxb.referencing.CS_CartesianCS
+9457,org.apache.sis.internal.jaxb.referencing.CS_CylindricalCS
+9458,org.apache.sis.internal.jaxb.referencing.CS_EllipsoidalCS
+9459,org.apache.sis.internal.jaxb.referencing.CS_LinearCS
+9460,org.apache.sis.internal.jaxb.referencing.CS_SphericalCS
+9461,org.apache.sis.internal.jaxb.referencing.CS_TimeCS
+9462,org.apache.sis.internal.jaxb.referencing.CS_UserDefinedCS
+9463,org.apache.sis.internal.jaxb.referencing.CS_VerticalCS
+9486,org.apache.sis.internal.jaxb.code.CodeListMarshallingTest
+9514,org.apache.sis.internal.jaxb.Schemas
+9530,org.apache.sis.metadata.iso.CustomMetadataTest
+9655,org.apache.sis.util.iso.GlobalNameSpace
+9688,org.apache.sis.referencing.datum.DefaultGeodeticDatum
+9698,org.apache.sis.internal.simple.SimpleReferenceIdentifierTest
+9773,org.apache.sis.internal.util.CollectionsExtTest
+9794,org.apache.sis.util.ObjectConverters
+9799,org.apache.sis.metadata.iso.identification.DefaultAggregateInformation
+9856,org.apache.sis.referencing.operation.matrix.Solver
+9862,org.apache.sis.internal.jaxb.metadata.RS_Identifier
+9885,org.apache.sis.internal.jaxb.PrimitiveTypeProperties
+9898,org.apache.sis.internal.jaxb.gml.TimePeriod
+9907,org.apache.sis.internal.jaxb.gml.TimePeriodBound
+9910,org.apache.sis.internal.jaxb.LegacyNamespaces
+9915,org.apache.sis.metadata.iso.quality.DefaultQuantitativeResult
+10029,org.apache.sis.geometry.ImmutableEnvelope
+10050,org.apache.sis.geometry.ArrayEnvelope
+10086,org.apache.sis.test.TestRunner
+10087,org.apache.sis.test.TestConfiguration
+10144,org.apache.sis.internal.storage.xml.XMLStoreProvider
+10162,org.apache.sis.geometry.EnvelopesTest
+10172,org.apache.sis.geometry.GeneralEnvelopeTest
+10173,org.apache.sis.geometry.Envelopes
+10315,org.apache.sis.internal.jaxb.metadata.MD_FeatureTypeList
+10325,org.apache.sis.metadata.iso.DefaultFeatureTypeList
+10328,org.apache.sis.internal.jaxb.referencing.CD_PixelInCell
+10333,org.apache.sis.internal.jaxb.referencing.CS_AxisDirection
+10339,org.apache.sis.xml.NilObjectHandler
+10371,org.apache.sis.internal.jaxb.IdentifierMapAdapter
+10372,org.apache.sis.internal.jaxb.IdentifierMapWithSpecialCases
+10463,org.apache.sis.internal.jaxb.metadata.MI_Requirement
+10474,org.apache.sis.metadata.iso.acquisition.DefaultRequirement
+10477,org.apache.sis.internal.jaxb.geometry.GM_Object
+10534,org.apache.sis.internal.maven.PackInput
+10576,org.apache.sis.storage.netcdf.MetadataReader
+10775,org.apache.sis.metadata.iso.DefaultIdentifier
+10776,org.apache.sis.metadata.iso.lineage.DefaultLineage
+10777,org.apache.sis.metadata.iso.quality.DefaultDataQuality
+10778,org.apache.sis.metadata.iso.identification.DefaultKeywords
+10779,org.apache.sis.metadata.iso.citation.DefaultOnlineResource
+10780,org.apache.sis.metadata.iso.content.DefaultRangeElementDescription
+10781,org.apache.sis.metadata.iso.spatial.DefaultGridSpatialRepresentation
+10782,org.apache.sis.metadata.iso.distribution.DefaultDistributor
+10846,org.apache.sis.internal.referencing.ReferencingTypes
+10926,org.apache.sis.util.collection.WeakHashSet
+10932,org.apache.sis.internal.jaxb.metadata.MD_Metadata
+10943,org.apache.sis.internal.jaxb.code.MD_MediumNameCode
+11013,org.apache.sis.internal.jaxb.referencing.CD_PrimeMeridian
+11186,org.apache.sis.internal.util.Citations
+11308,org.apache.sis.internal.jaxb.code.MI_BandDefinition
+11319,org.apache.sis.console.AboutSCTest
+11337,org.apache.sis.internal.jaxb.metadata.MI_AcquisitionInformation
+11493,org.apache.sis.metadata.iso.acquisition.DefaultEnvironmentalRecord
+11564,org.apache.sis.io.IdentifiedObjectFormat
+11615,org.apache.sis.metadata.iso.AllMetadataTest
+11634,org.apache.sis.metadata.iso.identification.DefaultRepresentativeFraction
+11635,org.apache.sis.metadata.iso.identification.DefaultServiceIdentification
+11784,org.apache.sis.internal.storage.IOUtilities
+11858,org.apache.sis.test.XMLComparator
+12001,org.apache.sis.internal.jaxb.code.MI_ContextCode
+12002,org.apache.sis.internal.jaxb.metadata.MI_EnvironmentalRecord
+12003,org.apache.sis.internal.jaxb.code.MI_GeometryTypeCode
+12004,org.apache.sis.internal.jaxb.metadata.MI_Instrument
+12005,org.apache.sis.internal.jaxb.code.MI_ObjectiveTypeCode
+12006,org.apache.sis.internal.jaxb.metadata.MI_Operation
+12007,org.apache.sis.internal.jaxb.code.MI_OperationTypeCode
+12008,org.apache.sis.internal.jaxb.metadata.MI_Platform
+12009,org.apache.sis.internal.jaxb.metadata.MI_PlatformPass
+12010,org.apache.sis.internal.jaxb.code.MI_PriorityCode
+12011,org.apache.sis.internal.jaxb.metadata.MI_RequestedDate
+12012,org.apache.sis.internal.jaxb.code.MI_SequenceCode
+12013,org.apache.sis.internal.jaxb.code.MI_TriggerCode
+12016,org.apache.sis.xml.OGCNamespacePrefixMapperTest
+12034,org.apache.sis.xml.OGCNamespacePrefixMapper
+12035,org.apache.sis.xml.OGCNamespacePrefixMapper_Endorsed
+12083,org.apache.sis.internal.jaxb.gmi.MI_Georectified
+12110,org.apache.sis.internal.jaxb.gco.GO_GenericName
+12188,org.apache.sis.internal.system.DelayedExecutor
+12189,org.apache.sis.internal.system.DelayedRunnable
+12190,org.apache.sis.xml.PooledTemplate
+12191,org.apache.sis.xml.PooledUnmarshaller
+12213,org.apache.sis.geometry.AbstractDirectPositionTest
+12216,org.apache.sis.internal.maven.BundleCreator
+12230,org.apache.sis.internal.maven.Filenames
+12231,org.apache.sis.internal.maven.Packer
+12232,org.apache.sis.internal.maven.PackOutput
+12239,org.apache.sis.internal.jaxb.gco.PropertyTypeTest
+12260,org.apache.sis.test.mock.ReferenceResolverMock
+12261,org.apache.sis.internal.jaxb.IdentifierMapAdapterTest
+12263,org.apache.sis.internal.jaxb.gco.PropertyTypeMock
+12278,org.apache.sis.internal.test.XMLComparatorTest
+12340,org.apache.sis.internal.jaxb.referencing.RS_Identifier
+12346,org.apache.sis.internal.system.OSGiActivator
+12393,org.apache.sis.test.foreigner.SerializableTableColumn
+12420,org.apache.sis.referencing.CRS
+12421,org.apache.sis.geometry.AbstractEnvelope
+12434,org.apache.sis.metadata.iso.extent.DefaultGeographicBoundingBoxTest
+12448,org.apache.sis.metadata.iso.spatial.DefaultGCPCollection
+12451,org.apache.sis.geometry.DirectPosition2DTest
+12470,org.apache.sis.internal.taglet.Preformat
+12540,org.apache.sis.internal.taglet.InlineTaglet
+12656,org.apache.sis.geometry.SubEnvelope
+12666,org.apache.sis.internal.util.DefinitionURI
+12735,org.apache.sis.internal.converter.SurjectiveConverter
+12743,org.apache.sis.xml.FreeTextMarshallingTest
+12847,org.apache.sis.internal.jdk7.Files
+12848,org.apache.sis.internal.jdk7.StandardOpenOption
+12857,org.apache.sis.util.logging.MonolineFormatterTest
+13010,org.apache.sis.internal.referencing.VerticalDatumTypesTest
+13011,org.apache.sis.referencing.datum.DefaultVerticalDatum
+13031,org.apache.sis.metadata.iso.quality.DefaultQuantitativeAttributeAccuracy
+13042,org.apache.sis.internal.simple.SimpleCharacterIterator
+13120,org.apache.sis.storage.netcdf.NetcdfStore
+13127,org.apache.sis.util.VersionTest
+13141,org.apache.sis.internal.jaxb.gco.GO_LocalName
+13151,org.apache.sis.internal.taglet.Section
+13199,org.apache.sis.internal.jaxb.code.MD_ImagingConditionCode
+13210,org.apache.sis.geometry.ImmutableEnvelopeTest
+13218,org.apache.sis.util.resources.Loader
+13221,org.apache.sis.metadata.iso.DefaultIdentifierTest
+13231,org.apache.sis.metadata.iso.citation.DefaultCitationTest
+13352,org.apache.sis.internal.jaxb.metadata.CI_OnlineResource
+13353,org.apache.sis.internal.jaxb.metadata.DQ_DataQuality
+13354,org.apache.sis.internal.jaxb.metadata.MD_ApplicationSchemaInformation
+13355,org.apache.sis.internal.jaxb.code.MD_DatatypeCode
+13356,org.apache.sis.internal.jaxb.metadata.MD_Distribution
+13357,org.apache.sis.internal.jaxb.metadata.MD_ExtendedElementInformation
+13358,org.apache.sis.internal.jaxb.metadata.MD_Identification
+13359,org.apache.sis.internal.jaxb.metadata.MD_MetadataExtensionInformation
+13360,org.apache.sis.internal.jaxb.metadata.MD_PortrayalCatalogueReference
+13361,org.apache.sis.internal.jaxb.metadata.RS_ReferenceSystem
+13362,org.apache.sis.internal.jaxb.gco.GO_Integer
+13364,org.apache.sis.internal.jaxb.code.PT_Locale
+13386,org.apache.sis.internal.jaxb.gmd.Country
+13387,org.apache.sis.internal.jaxb.gmd.LanguageCode
+13417,org.apache.sis.metadata.iso.ImmutableIdentifierTest
+13549,org.apache.sis.internal.jaxb.code.MI_TransferFunctionTypeCode
+13561,org.apache.sis.metadata.iso.citation.DefaultTelephone
+13585,org.apache.sis.metadata.iso.quality.DefaultTemporalValidity
+13766,org.apache.sis.metadata.Cloner
+13768,org.apache.sis.metadata.UnmodifiableMetadataException
+13852,org.apache.sis.util.CharSequencesTest
+13853,org.apache.sis.internal.util.X364Test
+13854,org.apache.sis.io.AppenderTestCase
+13858,org.apache.sis.internal.jaxb.code.MD_CoverageContentTypeCode
+13859,org.apache.sis.internal.jaxb.code.MI_PolarizationOrientationCode
+13860,org.apache.sis.internal.jaxb.metadata.MI_RangeElementDescription
+13881,org.apache.sis.internal.util.NumericsTest
+14028,org.apache.sis.xml.XLinkMarshallingTest
+14047,org.apache.sis.referencing.datum.DefaultTemporalDatumTest
+14055,org.apache.sis.referencing.datum.DefaultTemporalDatum
+14102,org.apache.sis.referencing.crs.DefaultGeodeticCRS
+14135,org.apache.sis.internal.referencing.Legacy
+14140,org.apache.sis.util.iso.NameMarshallingTest
+14174,org.apache.sis.util.iso.DefaultNameFactoryTest
+14176,org.apache.sis.internal.util.DefinitionURITest
+14209,org.apache.sis.metadata.iso.quality.DefaultScope
+14211,org.apache.sis.util.ArraysExtTest
+14301,org.apache.sis.metadata.iso.identification.DefaultUsage
+14374,org.apache.sis.metadata.iso.quality.DefaultAbsoluteExternalPositionalAccuracy
+14375,org.apache.sis.metadata.iso.quality.DefaultGriddedDataPositionalAccuracy
+14379,org.apache.sis.referencing.datum.TimeDependentBWPTest
+14407,org.apache.sis.referencing.datum.BursaWolfParametersTest
+14408,org.apache.sis.referencing.datum.TimeDependentBWP
+14409,org.apache.sis.test.mock.GeodeticDatumMock
+14426,org.apache.sis.internal.profile.fra.LegalConstraints
+14516,org.apache.sis.util.iso.AbstractNameTest
+14538,org.apache.sis.metadata.iso.acquisition.DefaultPlatformPass
+14570,org.apache.sis.parameter.DefaultParameterValueGroupTest
+14642,org.apache.sis.parameter.DefaultParameterValueGroup
+14653,org.apache.sis.metadata.iso.quality.DefaultCompletenessOmission
+14699,org.apache.sis.test.integration.ReferencingInMetadataTest
+14739,org.apache.sis.metadata.iso.quality.DefaultConceptualConsistency
+14740,org.apache.sis.metadata.iso.quality.DefaultFormatConsistency
+14741,org.apache.sis.metadata.iso.quality.DefaultTopologicalConsistency
+14763,org.apache.sis.util.UnsupportedImplementationException
+14910,org.apache.sis.measure.FormattedCharacterIteratorTest
+14911,org.apache.sis.math.MathFunctionsTest
+14916,org.apache.sis.internal.jaxb.metadata.MD_GeometricObjects
+14926,org.apache.sis.metadata.iso.spatial.DefaultGeometricObjects
+14929,org.apache.sis.internal.jaxb.metadata.CI_Date
+14950,org.apache.sis.internal.profile.fra.DirectReferenceSystem
+14957,org.apache.sis.internal.jaxb.metadata.ReferenceSystemMetadata
+14988,org.apache.sis.io.AppendableWriter
+14992,org.apache.sis.internal.metadata.MetadataUtilitiesTest
+15005,org.apache.sis.metadata.iso.distribution.DefaultDataFile
+15038,org.apache.sis.metadata.iso.DefaultExtendedElementInformation
+15171,org.apache.sis.referencing.crs.DefaultGeocentricCRSTest
+15188,org.apache.sis.util.collection.DerivedIterator
+15202,org.apache.sis.geometry.DirectPosition1D
+15240,org.apache.sis.services.LocationServlet
+15395,org.apache.sis.distance.DistanceUtils
+15396,org.apache.sis.index.tree.QuadTree
+15397,org.apache.sis.index.tree.QuadTreeReader
+15398,org.apache.sis.index.tree.QuadTreeWriter
+15408,org.apache.sis.internal.jaxb.gml.TimeInstant
+15434,org.apache.sis.test.mock.PrimeMeridianMock
+15574,org.apache.sis.referencing.datum.HardCodedDatum
+15623,org.apache.sis.storage.StorageConnectorTest
+15673,org.apache.sis.util.collection.TreeTables
+15721,org.apache.sis.internal.test.AssertTest
+15727,org.apache.sis.util.iso.AbstractFactory
+15789,org.apache.sis.referencing.datum.DefaultImageDatum
+15793,org.apache.sis.internal.metadata.ReferencingUtilitiesTest
+15797,org.apache.sis.internal.jaxb.metadata.CI_Series
+15853,org.apache.sis.test.suite.ConsoleTestSuite
+15859,org.apache.sis.test.TestSuite
+15860,org.apache.sis.console.HelpSCTest
+15864,org.apache.sis.referencing.datum.DefaultEllipsoidTest
+15902,org.apache.sis.internal.referencing.FormulasTest
+15903,org.apache.sis.internal.jaxb.referencing.SecondDefiningParameterTest
+15910,org.apache.sis.util.logging.WarningListenersTest
+15924,org.apache.sis.measure.MeasurementRangeTest
+15941,org.apache.sis.storage.DataStoresTest
+15947,org.apache.sis.util.logging.EmptyWarningListeners
+16025,org.apache.sis.internal.jaxb.metadata.EX_TemporalExtent
+16036,org.apache.sis.metadata.iso.lineage.DefaultLineageTest
+16041,org.apache.sis.metadata.iso.lineage.DefaultSource
+16046,org.apache.sis.metadata.iso.DefaultPortrayalCatalogueReference
+16082,org.apache.sis.internal.jaxb.metadata.CI_Telephone
+16096,org.apache.sis.internal.netcdf.ucar.VariableWrapper
+16137,org.apache.sis.internal.system.OS
+16174,org.apache.sis.util.collection.CacheEntries
+16199,org.apache.sis.util.collection.Cache
+16248,org.apache.sis.io.wkt.KeywordCase
+16280,org.apache.sis.test.suite.FrenchProfileTestSuite
+16282,org.apache.sis.internal.profile.fra.DirectReferenceSystemTest
+16283,org.apache.sis.internal.profile.fra.DataIdentificationTest
+16284,org.apache.sis.profile.france.FrenchProfileTest
+16402,org.apache.sis.internal.jaxb.gmx.Anchor
+16416,org.apache.sis.metadata.TreeTableFormatTest
+16448,org.apache.sis.metadata.TreeTableViewTest
+16465,org.apache.sis.util.collection.WeakValueHashMapTest
+16510,org.apache.sis.xml.MarshallerPoolTest
+16556,org.apache.sis.profile.france.FrenchProfile
+16559,org.apache.sis.internal.jaxb.gco.GO_Decimal32
+16570,org.apache.sis.internal.taglet.SourceRepositoryURL
+16771,org.apache.sis.geometry.UnmodifiableGeometryException
+16973,org.apache.sis.internal.jaxb.code.MD_GeometricObjectTypeCode
+16984,org.apache.sis.util.resources.ResourceCompilerException
+17068,org.apache.sis.metadata.iso.identification.DefaultResolutionTest
+17079,org.apache.sis.metadata.iso.identification.DefaultRepresentativeFractionTest
+17084,org.apache.sis.internal.converter.AngleConverterTest
+17090,org.apache.sis.internal.converter.AngleConverter
+17187,org.apache.sis.util.collection.RangeSetTest
+17504,org.apache.sis.internal.profile.fra.ProfileTypes
+17507,org.apache.sis.internal.profile.fra.DataIdentification
+17508,org.apache.sis.internal.profile.fra.IndirectReferenceSystem
+17509,org.apache.sis.internal.profile.fra.Constraints
+17541,org.apache.sis.internal.jaxb.metadata.MD_DataIdentification
+17566,org.apache.sis.internal.jaxb.code.CI_RoleCode
+17577,org.apache.sis.util.collection.CacheTest
+17670,org.apache.sis.internal.converter.FallbackConverterTest
+17689,org.apache.sis.internal.converter.StringConverter
+17697,org.apache.sis.internal.jaxb.gml.TM_Primitive
+17735,org.apache.sis.internal.converter.CollectionConverter
+17899,org.apache.sis.internal.converter.ConverterRegistryTest
+17946,org.apache.sis.internal.converter.NumberConverter
+17950,org.apache.sis.metadata.Pruner
+17986,org.apache.sis.test.mock.MatrixMock
+18160,org.apache.sis.metadata.iso.quality.DefaultAccuracyOfATimeMeasurement
+18171,org.apache.sis.parameter.ParameterFormatTest
+18217,org.apache.sis.util.iso.DefaultRecordType
+18233,org.apache.sis.internal.jaxb.code.MD_TopologyLevelCode
+18262,org.apache.sis.measure.ElevationAngle
+18384,org.apache.sis.internal.jaxb.gmi.LE_Source
+18420,org.apache.sis.measure.SexagesimalConverter
+18532,org.apache.sis.internal.jaxb.IdentifierMapEntry
+18547,org.apache.sis.internal.jaxb.metadata.EX_GeographicExtent
+18558,org.apache.sis.internal.util.UtilitiesTest
+18591,org.apache.sis.test.suite.MetadataTestSuite
+18593,org.apache.sis.metadata.PropertyInformationTest
+18594,org.apache.sis.metadata.SpecialCasesTest
+18595,org.apache.sis.internal.jaxb.code.PT_LocaleTest
+18596,org.apache.sis.internal.jaxb.gml.TimePeriodTest
+18597,org.apache.sis.xml.AnchorMarshallingTest
+18599,org.apache.sis.metadata.iso.maintenance.DefaultScopeDescriptionTest
+18600,org.apache.sis.metadata.iso.extent.ExtentsTest
+18601,org.apache.sis.metadata.iso.identification.DefaultKeywordsTest
+18602,org.apache.sis.metadata.iso.identification.DefaultDataIdentificationTest
+18603,org.apache.sis.metadata.iso.quality.AbstractElementTest
+18604,org.apache.sis.metadata.iso.quality.AbstractPositionalAccuracyTest
+18605,org.apache.sis.metadata.iso.constraint.DefaultLegalConstraintsTest
+18606,org.apache.sis.io.wkt.ConventionTest
+18607,org.apache.sis.io.wkt.ColorsTest
+18608,org.apache.sis.io.wkt.FormatterTest
+18640,org.apache.sis.metadata.iso.DefaultApplicationSchemaInformation
+18679,org.apache.sis.referencing.BuilderMock
+18705,org.apache.sis.internal.jaxb.code.CI_OnLineFunctionCode
+18717,org.apache.sis.referencing.IdentifiedObjectsTest
+18779,org.apache.sis.internal.util.CheckedHashSet
+18827,org.apache.sis.internal.jaxb.gmx.FileName
+18828,org.apache.sis.internal.jaxb.gmx.MimeFileType
+18829,org.apache.sis.internal.jaxb.gmd.PT_FreeText
+18835,org.apache.sis.metadata.iso.DefaultMetadataExtensionInformation
+18853,org.apache.sis.internal.jaxb.metadata.MD_DigitalTransferOptions
+18863,org.apache.sis.metadata.iso.distribution.DefaultDigitalTransferOptions
+18888,org.apache.sis.internal.converter.CharSequenceConverter
+18902,org.apache.sis.internal.jdk8.JDK8
+18931,org.apache.sis.test.suite.ReferencingTestSuite
+18933,org.apache.sis.internal.referencing.AxisDirectionsTest
+18934,org.apache.sis.internal.jaxb.referencing.CodeTest
+18935,org.apache.sis.referencing.NamedIdentifierTest
+18936,org.apache.sis.parameter.TensorValuesTest
+18937,org.apache.sis.referencing.datum.DefaultPrimeMeridianTest
+18939,org.apache.sis.referencing.cs.DefaultCoordinateSystemAxisTest
+18940,org.apache.sis.referencing.cs.NormalizerTest
+18941,org.apache.sis.referencing.cs.DefaultEllipsoidalCSTest
+18942,org.apache.sis.referencing.cs.DefaultSphericalCSTest
+18943,org.apache.sis.referencing.cs.DefaultCompoundCSTest
+18944,org.apache.sis.referencing.cs.CoordinateSystemsTest
+18945,org.apache.sis.referencing.cs.HardCodedCSTest
+18946,org.apache.sis.referencing.crs.HardCodedCRSTest
+18947,org.apache.sis.referencing.CRSTest
+18948,org.apache.sis.geometry.DirectPosition1DTest
+18949,org.apache.sis.geometry.SubEnvelopeTest
+18950,org.apache.sis.distance.LatLonPointRadiusTest
+18952,org.apache.sis.internal.jaxb.gco.GO_Integer64
+18999,org.apache.sis.referencing.StandardDefinitions
+19015,org.apache.sis.internal.jaxb.gco.GO_Decimal
+19077,org.apache.sis.index.tree.Quadrant
+19092,org.apache.sis.index.GeoHashCoderTest
+19113,org.apache.sis.index.GeoHashCoder
+19118,org.apache.sis.metadata.iso.quality.DefaultConformanceResult
+19142,org.apache.sis.metadata.iso.maintenance.DefaultMaintenanceInformation
+19200,org.apache.sis.measure.SexagesimalConverterTest
+19240,org.apache.sis.referencing.datum.SubTypes
+19315,org.apache.sis.math.StatisticsTest
+19391,org.apache.sis.internal.jaxb.metadata.EX_GeographicBoundingBox
+19439,org.apache.sis.parameter.ParameterValueList
+19504,org.apache.sis.referencing.Properties
+19518,org.apache.sis.util.ExceptionsTest
+19722,org.apache.sis.internal.converter.ArrayConverterTest
+20112,org.apache.sis.index.tree.QuadTreeNode
+20123,org.apache.sis.internal.util.DoubleDoubleTest
+20206,org.apache.sis.math.DecimalFunctionsTest
+20484,org.apache.sis.internal.jaxb.code.MD_CellGeometryCode
+20543,org.apache.sis.measure.RangeFormatTest
+20631,org.apache.sis.internal.jaxb.gmx.MimeFileTypeAdapter
+20679,org.apache.sis.index.tree.TestQuadTreeNode
+20876,org.apache.sis.util.StringBuildersTest
+20901,org.apache.sis.internal.converter.PathConverterTest
+20929,org.apache.sis.internal.converter.PathConverter
+21054,org.apache.sis.util.iso.CodeListFilter
+21055,org.apache.sis.util.iso.ResourceInternationalString
+21065,org.apache.sis.util.logging.PerformanceLevelTest
+21073,org.apache.sis.util.logging.PerformanceLevel
+21387,org.apache.sis.internal.system.XMLInputFactory
+21388,org.apache.sis.xml.FilteredStreamReader
+21588,org.apache.sis.internal.jaxb.metadata.MD_Distributor
+21589,org.apache.sis.internal.jaxb.metadata.MD_Medium
+21590,org.apache.sis.internal.jaxb.code.MD_MediumFormatCode
+21592,org.apache.sis.internal.jaxb.XmlUtilitiesTest
+21596,org.apache.sis.internal.jaxb.code.MD_PixelOrientationCode
+21683,org.apache.sis.metadata.iso.quality.DefaultThematicClassificationCorrectness
+21684,org.apache.sis.metadata.iso.quality.DefaultNonQuantitativeAttributeAccuracy
+21851,org.apache.sis.parameter.TensorValues
+21951,org.apache.sis.internal.maven.Assembler
+21993,org.apache.sis.internal.jaxb.metadata.direct.CI_OnlineResource
+21996,org.apache.sis.internal.jaxb.metadata.direct.MetadataAdapter
+22011,org.apache.sis.internal.system.ReferenceQueueConsumerTest
+22015,org.apache.sis.util.logging.LoggerFactory
+22861,org.apache.sis.internal.jaxb.gmd.LanguageCodeTest
+22889,org.apache.sis.test.mock.MetadataMock
+22892,org.apache.sis.storage.netcdf.MetadataReaderTest
+23075,org.apache.sis.xml.FilteredNamespaces
+23284,org.apache.sis.internal.converter.NumberConverterTest
+23321,org.apache.sis.internal.converter.SystemRegistryTest
+23322,org.apache.sis.internal.converter.SystemRegistry
+23326,org.apache.sis.util.LocalesTest
+23785,org.apache.sis.internal.jaxb.gmi.MI_Georeferenceable
+23786,org.apache.sis.metadata.iso.spatial.AbstractSpatialRepresentation
+23890,org.apache.sis.util.resources.IndexedResourceCompiler
+24056,org.apache.sis.metadata.iso.quality.DefaultCompletenessCommission
+24190,org.apache.sis.measure.UnitsTest
+24210,org.apache.sis.internal.util.XPathsTest
+24211,org.apache.sis.measure.UnitsMap
+24948,org.apache.sis.util.collection.WeakHashSetTest
+25331,org.apache.sis.internal.jdk8.JDK8Test
+25340,org.apache.sis.internal.converter.DateConverter
+25378,org.apache.sis.test.suite.StorageTestSuite
+25380,org.apache.sis.internal.storage.IOUtilitiesTest
+25381,org.apache.sis.internal.storage.xml.XMLStoreProviderTest
+25383,org.apache.sis.internal.simple.SimpleIdentifiedObject
+25567,org.apache.sis.util.logging.DualLoggerFactory
+25659,org.apache.sis.internal.jaxb.code.CI_PresentationFormCode
+25670,org.apache.sis.test.suite.NetcdfTestSuite
+25672,org.apache.sis.internal.netcdf.GridGeometryTest
+25673,org.apache.sis.internal.netcdf.impl.GridGeometryInfoTest
+25674,org.apache.sis.storage.netcdf.NetcdfStoreTest
+25750,org.apache.sis.util.collection.TreeTablesTest
+25968,org.apache.sis.util.ArgumentChecksTest
+26017,org.apache.sis.metadata.iso.lineage.DefaultAlgorithm
+26140,org.apache.sis.metadata.iso.quality.DefaultTemporalConsistency
+26224,org.apache.sis.util.CharactersTest
+26226,org.apache.sis.internal.jaxb.metadata.CI_Address
+26227,org.apache.sis.internal.jaxb.metadata.CI_Contact
+26228,org.apache.sis.internal.jaxb.code.CI_DateTypeCode
+26338,org.apache.sis.internal.jaxb.code.MD_DimensionNameTypeCode
+26400,org.apache.sis.metadata.iso.distribution.DefaultMedium
+26452,org.apache.sis.distance.LatLonPointRadius
+26533,org.apache.sis.internal.jaxb.metadata.direct.MD_Keywords
+26694,org.apache.sis.xml.XLinkTest
+26860,org.apache.sis.metadata.iso.spatial.DefaultGeoreferenceable
+26943,org.apache.sis.internal.jaxb.geometry.ObjectFactory
+26956,org.apache.sis.internal.util.LocalizedParseExceptionTest
+27029,org.apache.sis.xml.NilReasonTest
+27219,org.apache.sis.util.ClassesTest
+27810,org.apache.sis.metadata.iso.spatial.DefaultVectorSpatialRepresentation
+28001,org.apache.sis.internal.taglet.Module
+28024,org.apache.sis.internal.jaxb.gco.MeasureTest
+28115,org.apache.sis.internal.test.TestUtilitiesTest
+28119,org.apache.sis.util.iso.TypesTest
+28313,org.apache.sis.util.logging.LoggerAdapterTest
+28321,org.apache.sis.util.logging.DummyLogger
+28556,org.apache.sis.setup.OptionKeyTest
+28758,org.apache.sis.setup.About
+29071,org.apache.sis.internal.jaxb.IdentifierMapWithSpecialCasesTest
+29274,org.apache.sis.test.suite.UtilityTestSuite
+29276,org.apache.sis.util.UtilitiesTest
+29277,org.apache.sis.io.LeftMarginTest
+29399,org.apache.sis.parameter.UninitializedParameter
+29418,org.apache.sis.internal.jaxb.gml.CodeListProxy
+29630,org.apache.sis.internal.jaxb.gco.ObjectReference
+29711,org.apache.sis.internal.storage.ImageInputStreamComparator
+29871,org.apache.sis.metadata.iso.content.DefaultFeatureCatalogueDescription
+30441,org.apache.sis.util.resources.ResourceCompilerMojo
+31267,org.apache.sis.internal.maven.JarCollector
+*Edges: 3066
+7776 28758 1
+7776 4115 1
+7776 1301 1
+7776 4565 4
+7776 1025 1
+11319 1384 1
+11319 7776 12
+11319 3791 2
+11319 443 1
+7730 7774 2
+7730 7776 1
+7730 7773 2
+7730 4565 5
+7730 1025 2
+7730 4564 1
+7730 7777 2
+7730 7775 2
+7775 4115 1
+7775 1301 2
+7775 4565 5
+7775 4114 8
+15860 4565 3
+15860 443 1
+15860 7775 5
+7777 714 2
+7777 3464 1
+7777 4565 3
+7777 1025 1
+7777 1041 2
+7777 8487 3
+7777 2071 1
+7777 7774 1
+7777 4427 1
+7777 4440 2
+8824 7777 4
+8824 443 1
+4564 4427 2
+4564 1384 1
+4564 4565 4
+4555 4564 2
+4555 2101 1
+4555 443 1
+7772 7774 1
+7772 1025 1
+4565 7774 5
+4565 7772 3
+4565 4815 1
+4565 9420 1
+4565 1025 8
+4565 6380 1
+4565 7775 2
+4563 7774 2
+4563 4565 4
+4563 443 1
+15395 2914 2
+26452 2914 5
+26452 5286 4
+26452 15395 3
+18950 2914 4
+18950 26452 7
+18950 443 1
+6597 1384 5
+6597 1025 2
+6597 1024 1
+6597 2771 1
+6597 3463 1
+6597 1034 2
+6597 6666 1
+6597 1586 1
+6597 2493 1
+12213 6597 2
+12213 443 1
+12421 6914 2
+12421 10050 2
+12421 1025 4
+12421 1024 9
+12421 16771 1
+12421 2682 10
+12421 3463 1
+12421 1034 2
+12421 6666 1
+12421 1586 1
+12421 2493 1
+5007 10029 1
+5007 12421 31
+5007 6914 12
+5007 2914 12
+5007 5008 1
+5007 443 1
+10050 1384 2
+10050 1383 1
+10050 1025 3
+10050 6597 1
+10050 1024 13
+10050 2917 1
+10050 453 1
+10050 12421 14
+10050 2771 3
+10050 2682 5
+10050 1034 1
+15202 1025 3
+15202 6597 4
+15202 1024 4
+15202 1034 1
+15202 1586 1
+18948 15202 7
+18948 7026 1
+18948 314 1
+18948 443 1
+2914 1025 3
+2914 6597 3
+2914 1024 6
+2914 1034 2
+2914 1586 2
+12451 7026 1
+12451 314 1
+12451 2914 7
+12451 443 1
+5008 12421 22
+5008 2914 4
+5008 2682 18
+5008 1025 1
+5008 1024 4
+5008 2917 1
+5008 1034 1
+5008 453 1
+4983 5008 7
+4983 443 1
+10173 1584 1
+10173 12421 1
+10173 6914 1
+10173 3463 1
+10173 1025 2
+10173 1024 1
+10162 6914 6
+10162 443 1
+10162 10173 3
+7026 1025 1
+7026 6597 5
+7026 1024 3
+7026 1034 1
+6914 12421 17
+6914 12656 1
+6914 2682 5
+6914 10050 36
+6914 1025 3
+6914 1024 11
+10172 12421 27
+10172 6914 59
+10172 2914 2
+10172 2682 3
+10172 10050 55
+10172 5008 10
+10172 443 1
+10029 10050 10
+10029 1024 3
+13210 10029 1
+13210 443 1
+12656 12421 1
+12656 6914 5
+12656 10050 5
+12656 1024 4
+18949 6914 6
+18949 10172 2
+18949 10050 1
+19113 2914 1
+19113 1025 1
+19113 1024 3
+19092 19113 4
+19092 443 1
+6949 2914 3
+15396 19077 13
+15396 2914 2
+15396 5008 2
+15396 20112 54
+15396 15395 1
+15396 26452 2
+20112 19077 2
+20112 2439 3
+15397 19077 1
+15397 2914 1
+15397 20112 31
+15397 15396 13
+15397 6949 1
+15398 19077 2
+15398 20112 34
+15398 15396 5
+20679 20112 2
+17090 5283 2
+17090 6535 3
+17084 5283 1
+17084 314 2
+17084 443 1
+7508 6535 2
+7508 3552 2
+19722 17946 1
+19722 7508 3
+19722 443 1
+18888 6535 2
+17735 6535 2
+7429 7509 1
+7429 7508 1
+7429 6535 2
+7429 4524 2
+7429 1025 2
+7429 1024 3
+7429 3552 2
+7429 6534 2
+7429 6472 2
+17899 7429 19
+17899 314 9
+17899 17946 3
+17899 17689 1
+17899 443 1
+17899 6534 2
+25340 6535 3
+6472 6535 2
+6472 4524 3
+6472 1024 2
+6472 6534 2
+17670 314 6
+17670 6472 5
+17670 443 1
+17670 6534 1
+7509 6535 3
+17946 7429 1
+17946 6535 3
+17946 1025 1
+17946 3552 2
+17946 6534 2
+23284 7429 1
+23284 314 9
+23284 443 1
+23284 6534 1
+7234 6535 6
+20929 6535 3
+20929 6534 1
+20901 2771 1
+20901 314 9
+20901 17689 3
+20901 443 1
+17689 1384 1
+17689 7234 1
+17689 6535 3
+17689 6534 2
+12735 4524 1
+12735 1025 1
+6535 7429 1
+6535 1025 2
+23322 7429 6
+23322 17946 1
+23322 7234 1
+23322 6535 1
+23322 18888 1
+23322 3552 1
+23322 6534 1
+23321 7429 15
+23321 314 15
+23321 443 1
+2180 681 1
+2180 3791 4
+2180 1025 1
+2180 6380 1
+2180 6381 1
+2180 2388 3
+2180 1228 1
+2180 1301 1
+2180 6382 3
+10371 1024 2
+10371 1034 3
+12261 10371 2
+12261 314 4
+12261 18532 7
+12261 443 1
+10372 8046 7
+10372 2180 2
+10372 2388 1
+10372 10371 16
+10372 1034 1
+29071 12261 1
+9910 3791 3
+623 2180 1
+623 6817 2
+623 1301 1
+623 1228 1
+623 1027 1
+623 1025 1
+3754 2180 6
+3754 4152 2
+21592 3754 1
+21592 311 2
+26228 1174 3
+26228 1173 2
+18705 1174 3
+18705 1173 2
+25659 1174 3
+25659 1173 2
+17566 1174 3
+17566 1173 2
+9486 714 4
+9486 311 7
+9486 8978 2
+9486 712 5
+757 1174 3
+757 1173 2
+4256 1174 3
+4256 1173 2
+6931 1174 3
+6931 1173 2
+20484 1174 3
+20484 1173 2
+6934 1174 3
+6934 1173 2
+7813 1174 3
+7813 1173 2
+13858 1174 3
+13858 1173 2
+13355 1174 3
+13355 1173 2
+26338 1174 3
+26338 1173 2
+16973 1174 3
+16973 1173 2
+13199 1174 3
+13199 1173 2
+1163 1174 3
+1163 1173 2
+4416 1174 3
+4416 1173 2
+21590 1174 3
+21590 1173 2
+10943 1174 3
+10943 1173 2
+7638 233 1
+21596 1174 3
+21596 1173 2
+6583 1174 3
+6583 1173 2
+7814 1174 3
+7814 1173 2
+765 1174 3
+765 1173 2
+768 1174 3
+768 1173 2
+6939 1174 3
+6939 1173 2
+18233 1174 3
+18233 1173 2
+11308 1174 3
+11308 1173 2
+12001 1174 3
+12001 1173 2
+12003 1174 3
+12003 1173 2
+12005 1174 3
+12005 1173 2
+12007 1174 3
+12007 1173 2
+13859 1174 3
+13859 1173 2
+12010 1174 3
+12010 1173 2
+12012 1174 3
+12012 1173 2
+13549 1174 3
+13549 1173 2
+12013 1174 3
+12013 1173 2
+13364 13386 1
+13364 2180 1
+18595 717 3
+18595 311 2
+2389 2180 7
+2389 1384 2
+2389 18829 1
+2389 6382 2
+2389 16402 2
+2389 2387 7
+775 366 2
+2387 2180 2
+2387 1384 4
+2387 18827 4
+2387 16402 2
+2387 18828 4
+773 3754 3
+773 2180 2
+19015 366 2
+16559 366 2
+678 2915 2
+12110 3833 2
+12110 3810 1
+13362 366 2
+18952 366 2
+13141 4424 2
+13141 3810 1
+6057 2915 2
+4243 366 2
+774 366 2
+774 18217 3
+772 2038 1
+772 2389 1
+772 2387 3
+2031 2038 1
+2915 2180 6
+2915 2388 1
+2915 1385 1
+28024 2915 13
+28024 443 1
+3810 3833 3
+3810 3834 2
+3810 3836 2
+3810 3835 2
+3810 1025 1
+29630 8046 2
+29630 2180 4
+29630 2771 1
+29630 6382 3
+366 29630 4
+366 9885 1
+366 2038 1
+366 828 2
+366 2180 9
+366 8046 15
+366 2388 3
+366 6382 2
+12263 366 2
+12239 12260 2
+12239 8046 4
+12239 366 18
+12239 2038 1
+12239 311 1
+12239 12263 2
+771 2180 3
+771 2389 1
+771 2387 4
+2375 2180 4
+2375 2388 1
+2375 771 1
+2375 2389 1
+2375 2387 2
+770 2180 2
+770 2388 1
+1173 2180 1
+1173 1174 7
+1173 233 2
+1174 2180 6
+1174 2388 1
+1174 233 3
+13386 13387 3
+13386 2180 8
+13386 1384 2
+13386 1174 3
+13386 2388 3
+13386 2389 1
+13386 2387 4
+6550 2180 2
+6550 2388 1
+13387 2180 7
+13387 1174 3
+13387 2388 2
+13387 2389 1
+13387 2387 3
+22861 714 11
+22861 22889 2
+22861 311 6
+6941 13387 4
+6941 2180 3
+6941 2388 1
+18829 2180 2
+18829 4312 4
+18829 2771 1
+18829 2038 1
+18829 2387 3
+3341 2454 3
+18384 16041 3
+3021 7667 3
+7827 1707 3
+12083 4037 3
+23785 26860 3
+1706 1635 3
+1232 717 3
+7023 29418 3
+7023 233 1
+29418 233 1
+6267 3754 3
+6267 2180 2
+7012 2180 2
+7012 366 2
+17697 3754 2
+17697 2180 5
+17697 366 2
+17697 9907 2
+17697 9898 3
+17697 6698 2
+17697 2018 2
+17697 15408 3
+15408 3754 2
+15408 2180 1
+15408 6698 1
+9898 2180 2
+9898 9907 4
+9898 6698 2
+18596 3754 4
+18596 714 10
+18596 3344 8
+18596 311 6
+18596 9907 4
+18596 9898 1
+18596 15408 1
+3735 3754 2
+3735 2180 2
+16402 8046 6
+16402 1034 2
+20631 2180 2
+20631 771 1
+20631 2389 1
+4413 3754 1
+4413 2180 1
+4413 366 2
+4413 2038 6
+4413 2018 1
+26226 366 2
+26226 3246 3
+755 366 2
+755 3248 3
+26227 366 2
+26227 3247 3
+14929 366 2
+14929 2509 3
+13352 366 2
+13352 10779 3
+4415 366 2
+4415 3249 3
+15797 366 2
+15797 199 3
+16082 366 2
+16082 13561 3
+13353 366 2
+13353 10777 3
+756 5314 3
+756 366 2
+758 366 2
+758 1986 3
+759 366 2
+759 14209 3
+760 366 2
+760 1116 3
+19391 366 2
+19391 3721 3
+18547 366 2
+18547 6561 3
+16025 366 2
+16025 1989 3
+6289 366 2
+6289 3720 3
+9203 366 2
+9203 26017 3
+2187 366 2
+2187 2199 3
+3958 366 2
+3958 3969 3
+9204 366 2
+9204 2455 3
+761 366 2
+761 10776 3
+3330 366 2
+3330 3341 1
+3330 2454 2
+9205 366 2
+9205 18384 1
+9205 16041 2
+6932 9799 3
+6932 366 2
+13354 366 2
+13354 18640 3
+6933 366 2
+6933 7616 3
+6935 366 2
+6935 1113 3
+762 366 2
+762 1706 1
+762 7828 3
+762 7827 1
+17541 366 2
+17541 8978 3
+18853 18863 3
+18853 366 2
+352 366 2
+352 365 3
+13356 366 2
+13356 2237 3
+21588 366 2
+21588 10782 3
+13357 366 2
+13357 15038 3
+10315 366 2
+10315 10325 3
+763 366 2
+763 7895 3
+14916 366 2
+14916 14926 3
+13358 366 2
+13358 8981 3
+764 366 2
+764 10775 3
+764 3719 3
+6936 366 2
+6936 10778 3
+4417 366 2
+4417 19142 3
+21589 366 2
+21589 26400 3
+10932 366 2
+10932 717 3
+13359 366 2
+13359 18835 3
+13360 366 2
+13360 16046 3
+3009 366 2
+3009 3021 1
+3009 3022 3
+6937 366 2
+6937 11634 3
+6938 366 2
+6938 646 3
+766 366 2
+766 2111 3
+767 366 2
+767 12083 1
+767 23785 1
+767 23786 3
+5031 366 2
+5031 5042 3
+6940 366 2
+6940 14301 3
+11337 366 2
+11337 8979 3
+12002 366 2
+12002 11493 3
+4322 366 2
+4322 4332 3
+7681 366 2
+7681 7691 3
+2690 366 2
+2690 2700 3
+12004 366 2
+12004 2978 3
+633 366 2
+633 643 3
+12006 366 2
+12006 550 3
+728 366 2
+728 738 3
+12008 366 2
+12008 3687 3
+12009 366 2
+12009 14538 3
+13860 366 2
+13860 10780 3
+12011 366 2
+12011 1841 3
+10463 366 2
+10463 10474 3
+769 366 2
+769 15005 3
+9862 366 2
+9862 3719 3
+13361 14957 3
+13361 366 2
+14957 25383 4
+21993 21996 1
+21993 10779 2
+26533 21996 1
+26533 10778 2
+9237 366 2
+9237 2795 3
+1781 366 2
+1781 1793 3
+9452 366 2
+9452 9688 3
+9453 366 2
+9453 15789 3
+10328 7023 1
+11013 366 2
+11013 8567 3
+9454 366 2
+9454 14055 3
+9455 366 2
+9455 13011 3
+7020 7023 1
+3758 366 2
+3758 1761 3
+10333 7023 1
+9456 366 2
+9456 319 3
+3986 366 2
+3986 320 3
+9457 1764 3
+9457 366 2
+9458 1763 3
+9458 366 2
+9459 1766 3
+9459 366 2
+9280 366 2
+9280 1765 3
+7807 7023 1
+9460 366 2
+9460 1762 3
+9461 366 2
+9461 1768 3
+9462 366 2
+9462 1769 3
+9463 366 2
+9463 1767 3
+8564 1746 3
+8564 12666 2
+8564 4750 1
+8564 8025 1
+18934 8564 7
+18934 443 1
+18934 3719 3
+12340 8564 4
+6999 7012 3
+6999 520 1
+2916 2180 2
+2916 2915 8
+15903 2916 1
+15903 311 2
+15903 2795 1
+18902 1384 1
+25331 18902 9
+25331 443 1
+21951 12230 1
+21951 12232 1
+21951 12231 2
+12216 12232 1
+12216 12231 2
+12232 10534 4
+12231 12230 1
+12231 12232 5
+12231 31267 1
+12231 10534 1
+2177 1025 1
+7724 7727 1
+679 1584 1
+679 9885 1
+679 1301 1
+679 681 1
+679 1025 2
+679 8860 1
+14992 443 1
+14992 679 4
+1158 1116 1
+1158 3720 1
+1158 1025 1
+1158 4152 3
+1158 1989 1
+1158 5899 1
+1158 2020 1
+1158 3721 1
+4750 1584 1
+15793 4750 23
+15793 443 1
+2772 2773 5
+2772 2771 1
+3031 7891 1
+3031 7890 4
+3031 2773 1
+3031 1385 1
+3031 1034 1
+3305 3787 13
+3305 3031 2
+2773 2772 1
+25672 3787 3
+25672 2773 4
+25672 3031 2
+3787 3031 7
+3787 3304 2
+3787 15947 1
+7891 4524 2
+3032 7891 21
+3032 3787 5
+3032 3031 4
+3386 2493 1
+3033 3305 1
+3033 3307 1
+3033 3031 1
+2744 2773 1
+2744 2772 1
+2744 2771 2
+2744 2778 3
+2744 2777 2
+25673 2773 2
+25673 2771 1
+25673 25672 1
+25673 3033 1
+2778 7891 1
+2778 3386 3
+2778 3307 2
+2778 2777 4
+2778 1025 2
+2778 2744 1
+3026 3032 1
+3026 3033 1
+9131 2773 1
+9131 2772 1
+9131 2771 2
+16096 7891 1
+17509 1113 2
+17509 9046 2
+17507 8978 2
+17507 9046 2
+16283 8981 1
+16283 17507 1
+16283 443 1
+16283 712 2
+14950 14957 3
+16282 717 3
+16282 3248 1
+16282 311 3
+16282 2210 1
+16282 3719 1
+17508 14957 3
+14426 9046 2
+14426 1084 2
+17504 7727 1
+5299 5310 2
+5299 9046 2
+1382 1584 1
+1382 1384 7
+18933 1382 112
+18933 443 1
+7391 7403 4
+2917 1584 1
+2917 2682 1
+15902 2917 4
+15902 443 1
+14135 1584 1
+14135 453 1
+1713 1746 1
+1713 1383 1
+1713 1024 1
+2926 828 1
+2926 4204 1
+10846 7727 1
+442 1383 1
+442 3463 1
+13010 2771 1
+13010 442 6
+13010 443 1
+4527 4115 1
+4527 8566 1
+4527 1383 2
+4527 320 1
+4527 9688 1
+4527 2795 1
+4527 1584 1
+4527 5899 7
+4527 4525 1
+4527 8567 1
+4527 1301 1
+4527 527 1
+4527 325 1
+4527 2918 8
+4527 4531 1
+13042 1024 2
+6817 2038 1
+6817 1034 2
+25383 1585 1
+25383 11186 1
+25383 1034 1
+25383 2493 1
+9698 6817 2
+9698 443 1
+4408 8167 4
+4408 443 1
+4409 1025 1
+4409 1024 1
+4338 4409 1
+4338 4408 1
+4338 443 1
+11784 1584 1
+11784 1384 2
+11784 1228 2
+11784 1025 4
+11784 6380 2
+11784 12847 1
+25380 1384 1
+25380 11784 37
+25380 443 1
+2102 3789 2
+2083 2102 2
+2083 2101 1
+2083 443 1
+6861 7890 1
+6861 717 2
+6861 3307 2
+6861 1025 2
+6861 4440 1
+6861 712 1
+10144 3789 1
+10144 4578 1
+10144 2102 2
+10144 6861 1
+25381 3789 2
+25381 10144 2
+25381 443 1
+2103 443 1
+2103 6861 4
+2970 3836 2
+2970 4152 2
+12188 1228 1
+12188 12189 3
+12188 4015 4
+12346 7858 1
+12346 4152 3
+4001 1228 1
+4001 4015 4
+22011 443 1
+7847 7858 1
+7858 1228 1
+7858 4016 1
+7858 4018 1
+4018 28758 1
+4018 1301 2
+4018 1228 3
+4018 4015 1
+4018 681 1
+4018 1025 1
+4152 2771 2
+4016 1584 1
+4016 4015 2
+21387 1584 1
+7207 1584 1
+12470 12540 2
+13151 12540 2
+16570 12540 2
+15721 314 4
+15721 443 1
+28115 443 1
+12278 11858 9
+12278 443 1
+4467 2180 2
+4467 2771 1
+4467 4466 1
+4467 4524 2
+4467 1025 1
+4467 1024 2
+4447 4466 2
+4447 4467 13
+4447 443 1
+18779 4466 1
+18779 1024 2
+18779 4467 1
+11186 1584 1
+11186 1384 6
+11186 1034 2
+1026 1025 1
+3553 1584 1
+3553 6047 2
+3553 1040 2
+3553 1025 2
+3553 1034 1
+9773 9794 1
+9773 314 1
+9773 443 1
+9773 3553 15
+12666 1384 11
+12666 1024 4
+14176 6817 1
+14176 12666 33
+14176 443 1
+2529 2683 1
+2529 2682 1
+20123 2683 1
+20123 2771 1
+20123 443 1
+20123 2529 44
+3630 1384 2
+3630 1301 2
+3630 1025 3
+26956 6380 2
+26956 443 1
+1586 1584 1
+1586 1585 1
+13881 443 1
+13881 1586 28
+2018 1584 1
+2018 1025 1
+2018 2970 1
+1027 1024 1
+1027 1034 2
+18558 443 1
+4815 1384 7
+4815 1025 1
+4815 1024 1
+13853 4815 9
+13853 443 1
+7796 1584 1
+7796 1384 6
+24210 7796 4
+24210 443 1
+14988 8713 3
+3643 1587 3
+3643 8712 1
+3643 8713 1
+3643 1024 1
+13854 314 1
+13854 8713 2
+13854 3634 1
+13854 443 1
+8847 4524 1
+3464 5045 1
+3464 2771 1
+3464 3594 1
+3464 1024 1
+3464 11564 1
+3464 9232 1
+3594 1384 3
+3594 3552 3
+3943 3643 2
+8713 1584 1
+8713 4115 1
+8713 14988 1
+11564 4115 1
+11564 11186 1
+11564 1301 1
+29277 7838 1
+29277 13854 1
+2522 1384 1
+2522 1587 1
+2522 8712 1
+2522 8713 1
+2522 3643 9
+2522 1024 4
+7838 2522 5
+7838 13854 3
+3634 3643 2
+4114 1384 3
+4114 1587 1
+4114 8712 3
+4114 4815 2
+4114 8713 1
+4114 1025 1
+4114 3643 12
+4114 1024 1
+3424 1587 1
+3424 3464 3
+3424 3463 5
+3424 1025 1
+3424 1024 2
+7833 7838 1
+7833 2522 2
+7833 13854 1
+2521 1587 1
+2521 7838 1
+2521 4815 2
+2521 2522 2
+2521 13854 1
+2516 2522 2
+2516 2521 1
+6238 4525 3
+6238 4815 2
+6238 1025 1
+18607 314 2
+18607 6238 11
+18607 443 1
+18606 443 1
+18606 514 15
+4525 3552 1
+5899 4815 1
+5899 1024 1
+5899 4204 1
+5899 2918 8
+5899 514 3
+2918 2683 1
+2918 4524 3
+2918 1025 4
+2918 1024 7
+2918 5899 3
+2918 2265 25
+2918 1158 4
+2918 6238 4
+2918 4646 2
+2918 514 14
+2918 1384 1
+2918 233 1
+2918 3552 1
+2918 3719 1
+2918 1385 5
+2918 4525 3
+2918 7403 3
+2918 1301 2
+2918 4204 1
+2918 4526 1
+18608 17986 1
+18608 515 11
+18608 4815 2
+18608 3721 2
+18608 443 1
+2265 1384 4
+2265 1587 1
+2265 1025 3
+2265 1024 12
+8487 3464 9
+8487 1025 1
+8487 1024 5
+8487 2265 8
+8487 16248 3
+8487 2918 10
+8487 6238 4
+8487 514 5
+2683 1584 1
+2683 2682 2
+2683 1024 1
+2683 1586 6
+20206 2683 111
+20206 443 1
+2682 2683 3
+2682 1584 1
+2682 2771 3
+2682 1025 1
+2682 1024 3
+2682 2529 10
+14911 2771 1
+14911 18902 1
+14911 2682 56
+14911 443 1
+3936 233 1
+3936 3935 1
+3936 1024 3
+3936 1034 1
+3935 3936 14
+3935 2683 1
+3935 4115 1
+3935 3464 2
+3935 1301 1
+3935 3424 2
+3935 1024 1
+3935 4114 11
+3926 3936 14
+3926 314 2
+3926 3935 3
+3926 443 1
+19315 3936 71
+19315 314 1
+19315 443 1
+5283 5045 2
+5283 2682 2
+5045 2683 1
+5045 1025 6
+5045 1024 8
+5045 5282 4
+5045 5283 7
+5045 2682 16
+5045 5285 2
+5045 5286 2
+5045 1034 6
+4588 443 1
+18262 5283 3
+5282 1040 1
+5282 13042 5
+5282 1024 2
+14910 13042 9
+14910 443 1
+14910 5282 8
+5285 5283 3
+5286 5283 3
+4526 1025 2
+4526 3552 8
+4526 1034 2
+4526 4646 9
+15924 314 2
+15924 4526 6
+15924 443 1
+15924 4646 4
+4646 1025 3
+4646 3552 23
+4646 1586 1
+4625 443 1
+4625 4646 36
+9232 1384 1
+9232 5045 3
+9232 1025 5
+9232 3552 7
+9232 6534 3
+9232 5282 3
+9232 4526 1
+9232 4646 1
+20543 9232 13
+20543 443 1
+20543 4646 27
+4618 314 1
+4618 443 1
+18420 2682 2
+19200 443 1
+1385 1384 4
+1385 1025 6
+1385 6380 1
+1385 1584 1
+1385 2771 1
+1385 12666 1
+1385 24211 2
+1385 7796 1
+24211 1584 1
+24190 1385 117
+24190 314 4
+24190 443 1
+2210 17950 2
+2210 1585 1
+2210 2071 6
+2203 2210 3
+2203 2209 3
+2203 443 1
+13766 1040 1
+13766 1026 2
+13766 9046 1
+13766 3553 2
+9207 9232 1
+9207 4646 6
+8453 3557 1
+8453 7421 2
+3689 18593 2
+3689 443 1
+3689 2071 3
+2071 1585 1
+2071 3557 5
+2071 8452 1
+2071 8449 1
+2071 4524 2
+2071 1025 2
+2071 7408 1
+2071 1024 16
+2071 3558 1
+2071 3252 1
+2071 6817 1
+2071 8451 2
+2071 8453 1
+2071 3253 2
+2071 8454 1
+2209 3248 3
+2209 2038 4
+2209 3687 5
+2209 2426 1
+2209 2071 14
+2209 2978 4
+2209 314 2
+2209 2210 2
+2209 443 1
+3496 2771 1
+3496 3554 3
+3496 2210 2
+3496 3552 3
+3496 3553 1
+3496 2071 5
+9046 13768 1
+9046 1025 2
+9046 4467 7
+9046 2071 1
+9046 2180 6
+9046 6047 1
+9046 1228 1
+9046 1040 6
+9046 2210 3
+9046 18779 4
+7408 3557 3
+7408 7421 2
+3690 443 1
+3690 2071 5
+8449 4524 2
+3555 3248 23
+3555 2038 13
+3555 2426 2
+3555 18593 2
+3555 443 1
+18593 314 1
+18593 443 1
+7421 3557 2
+17950 8455 1
+17950 2210 4
+17950 3253 1
+17950 3553 1
+17950 2071 3
+8966 1116 6
+8966 717 19
+8966 8978 6
+8966 8981 7
+8966 8979 2
+8966 2210 21
+8966 2209 1
+8966 3253 4
+8966 3721 6
+8966 443 1
+8451 5283 2
+8451 3558 1
+18594 5285 9
+18594 8451 1
+18594 5286 10
+18594 3721 14
+18594 6561 3
+18594 443 1
+18594 4646 2
+2043 1384 1
+2043 1228 1
+2043 2071 4
+3251 1384 1
+3251 1038 6
+3251 233 1
+3251 4524 4
+3251 1025 3
+3251 1024 4
+3251 3252 2
+3251 2071 5
+3251 3254 1
+3254 1038 1
+3254 3251 8
+3254 1587 1
+3254 1025 2
+3254 3253 2
+3250 3248 13
+3250 2038 4
+3250 3252 2
+3250 2071 1
+3250 899 1
+3250 2210 1
+3250 3254 29
+3250 3253 1
+3250 443 1
+3192 1038 2
+3192 3251 14
+3192 3247 2
+3192 3248 7
+3192 2038 1
+3192 3252 2
+3192 3246 2
+3192 3249 3
+3192 3254 1
+3192 2210 1
+3192 3253 1
+3192 3250 4
+3192 443 1
+16416 3248 15
+16416 2038 6
+16416 1707 2
+16416 8978 2
+16416 2455 4
+16416 1041 3
+16416 1635 1
+16416 7667 5
+16416 10778 2
+16416 314 4
+16416 8981 1
+16416 3249 5
+16416 2210 4
+16416 443 1
+3252 3251 2
+3252 3253 2
+3252 1041 2
+3252 2071 2
+16448 314 2
+16448 3253 1
+16448 3252 3
+16448 3192 1
+16448 443 1
+8452 3557 1
+8452 7421 2
+8452 3558 2
+3691 443 1
+3691 2071 7
+3253 828 1
+8454 3557 1
+8454 3253 5
+8454 7421 2
+3692 828 3
+3692 3248 15
+3692 3249 3
+3692 2038 1
+3692 443 1
+3692 2071 4
+11615 3496 4
+11615 4036 1
+11615 3554 1
+9530 717 3
+9530 311 1
+9530 712 2
+18640 9046 7
+18640 232 2
+15038 233 3
+15038 9046 21
+15038 232 2
+10325 9046 2
+10325 232 2
+10775 9046 3
+10775 232 2
+13221 1384 1
+13221 311 2
+13221 10775 6
+717 2180 2
+717 9046 55
+717 232 2
+717 679 4
+18835 9046 4
+18835 232 2
+694 714 2
+694 717 2
+694 311 3
+16046 9046 4
+16046 232 2
+232 1384 1
+232 1040 2
+232 10372 1
+232 9046 4
+3719 1384 1
+3719 233 1
+3719 1025 2
+3719 1024 2
+3719 5899 1
+3719 1746 3
+3719 1301 2
+3719 4750 2
+3719 1040 2
+3719 1034 5
+3719 2918 11
+3719 514 1
+13417 5899 1
+13417 515 2
+13417 2038 1
+13417 13221 1
+13417 443 1
+13417 3719 36
+8979 9046 19
+8979 232 2
+11493 9046 4
+11493 232 2
+4332 623 2
+4332 9046 13
+4332 232 2
+4332 679 3
+2978 623 2
+2978 9046 9
+2978 232 2
+643 623 3
+643 9046 21
+643 232 3
+550 623 2
+550 9046 21
+550 232 2
+738 9046 9
+738 232 2
+3687 623 2
+3687 9046 11
+3687 232 2
+14538 623 2
+14538 9046 7
+14538 232 2
+1841 9046 2
+1841 232 2
+1841 679 6
+10474 623 2
+10474 9046 16
+10474 232 2
+10474 679 3
+8588 6817 2
+1746 1584 1
+1746 1384 1
+1746 6817 1
+1746 11186 3
+3246 9046 10
+3246 232 2
+3248 623 3
+3248 233 1
+3248 2038 1
+3248 1040 4
+3248 9046 23
+3248 232 8
+3248 679 3
+2509 9046 2
+2509 232 2
+2509 679 4
+2501 2509 3
+2501 2210 2
+2501 443 1
+13231 3248 8
+13231 10775 4
+13231 443 1
+13231 232 1
+3247 9046 5
+3247 232 2
+10779 9046 6
+10779 232 2
+3249 9046 5
+3249 232 2
+199 233 1
+199 9046 3
+199 232 2
+13561 9046 6
+13561 232 2
+2426 1584 1
+2426 3248 14
+2426 10779 1
+2426 3249 1
+2426 2038 1
+1113 5310 1
+1113 233 1
+1113 9046 4
+1113 232 2
+1113 1084 1
+1084 1113 2
+1084 9046 9
+18605 714 2
+18605 311 3
+18605 1084 3
+5310 1113 2
+5310 9046 4
+7828 1707 1
+7828 29871 1
+7828 232 2
+7667 9046 13
+7667 3022 2
+1707 7828 2
+1707 9046 8
+1707 1635 1
+29871 7828 2
+29871 9046 11
+1635 1707 2
+1635 9046 12
+3022 7667 1
+3022 9046 2
+3022 232 2
+10780 9046 5
+10780 232 2
+15005 9046 4
+15005 232 2
+18863 9046 6
+18863 232 2
+2237 9046 9
+2237 232 2
+10782 9046 10
+10782 232 2
+7895 233 2
+7895 9046 8
+7895 232 2
+26400 9046 10
+26400 232 2
+5042 9046 4
+5042 232 2
+5042 679 3
+6561 6578 1
+6561 6577 1
+6561 3721 1
+6561 9046 1
+6561 232 2
+6577 9046 4
+6577 6561 1
+1116 233 1
+1116 1158 2
+1116 9046 14
+1116 232 2
+2101 1116 1
+2101 311 2
+2101 3721 1
+2101 1989 2
+2101 232 1
+3721 1025 2
+3721 1024 2
+3721 679 4
+3721 2682 2
+3721 5285 6
+3721 5286 4
+3721 2210 1
+3721 1158 2
+3721 9046 8
+3721 6561 8
+3721 1034 1
+12434 3721 55
+12434 443 1
+6578 10775 1
+6578 9046 1
+6578 6561 2
+2020 1158 2
+2020 9046 4
+2020 1989 2
+1989 2020 1
+1989 1158 2
+1989 9046 2
+1989 2018 3
+1989 232 2
+3720 1158 2
+3720 9046 4
+3720 232 2
+7403 1584 1
+7403 1116 1
+7403 3721 6
+7403 1024 1
+7403 4526 5
+7403 1989 8
+7403 679 1
+18600 1116 2
+18600 3720 5
+18600 7403 10
+18600 3721 10
+18600 12434 2
+18600 443 1
+18600 4526 1
+18600 4646 2
+8981 233 1
+8981 11635 1
+8981 8978 1
+8981 9046 33
+8981 232 2
+9799 9046 4
+9799 232 2
+7616 9046 3
+7616 232 2
+7575 7616 10
+7575 443 1
+7575 712 9
+8978 8981 3
+8978 9046 22
+18602 10778 2
+18602 3248 2
+18602 2509 1
+18602 314 1
+18602 8981 2
+18602 8978 4
+18602 2210 1
+18602 10775 1
+18602 443 1
+10778 233 1
+10778 9046 6
+10778 232 3
+18601 10778 2
+18601 2038 3
+18601 443 1
+11634 1384 1
+11634 1040 2
+11634 10372 1
+11634 1025 1
+11634 1024 3
+11634 4467 1
+17079 11634 8
+17079 443 1
+17079 712 2
+646 9046 2
+646 232 2
+646 679 1
+17068 11634 2
+17068 4036 1
+17068 646 15
+17068 443 1
+17068 712 2
+11635 8981 2
+14301 233 1
+14301 9046 7
+14301 232 2
+14301 679 3
+26017 9046 2
+26017 232 2
+10776 9046 7
+10776 232 2
+16036 2038 1
+16036 311 1
+16036 10776 2
+16036 16041 3
+16036 10775 1
+16036 712 2
+2199 9046 2
+2199 232 2
+2454 233 1
+2454 9046 16
+2454 232 2
+2454 679 3
+3969 9046 3
+3969 232 2
+2449 2038 1
+2449 311 3
+2449 2455 2
+2449 2454 1
+2455 623 2
+2455 9046 14
+2455 232 2
+16041 233 1
+16041 9046 12
+16041 232 2
+19142 9046 15
+19142 232 2
+19142 679 3
+2111 2180 1
+2111 2177 1
+2111 9046 6
+2111 232 2
+2111 679 1
+18599 4036 1
+18599 443 1
+18599 2111 12
+3688 5314 1
+3688 14653 1
+3688 24056 1
+5314 3688 1
+5314 1190 1
+5314 2180 1
+5314 5406 1
+5314 1040 1
+5314 5407 1
+5314 9046 13
+5314 232 2
+5314 5408 1
+5314 5405 1
+18603 5314 2
+18603 314 1
+18603 443 1
+1190 5314 1
+1190 14739 1
+1190 1182 1
+1190 14740 1
+1190 14741 1
+5405 14375 1
+5405 5314 2
+5405 14374 1
+5405 6675 1
+18604 5314 2
+18604 311 3
+1986 19118 1
+1986 9915 1
+1986 1950 1
+1986 232 2
+5407 5314 1
+5407 26140 1
+5407 13585 1
+5407 18160 1
+5406 21684 1
+5406 5314 1
+5406 13031 1
+5406 21683 1
+14374 5405 2
+18160 5407 2
+24056 3688 2
+14653 3688 2
+14739 1190 2
+19118 233 1
+19118 9046 3
+19118 1986 2
+1950 9046 5
+1950 1986 2
+10777 9046 5
+10777 232 2
+1182 1190 2
+14740 1190 2
+14375 5405 1
+21684 5406 2
+13031 5406 2
+9915 9046 6
+9915 1986 2
+6675 5405 1
+14209 9046 5
+14209 232 2
+26140 5407 2
+13585 5407 2
+21683 5406 2
+14741 1190 2
+5408 5314 1
+2700 12448 1
+2700 9046 3
+2700 232 2
+23786 27810 1
+23786 10781 1
+23786 232 2
+365 9046 3
+365 232 2
+7691 9046 4
+7691 232 2
+12448 2700 2
+12448 9046 6
+14926 9046 2
+14926 232 2
+4037 10781 2
+4037 9046 14
+4037 679 1
+4027 4036 1
+4027 2038 1
+4027 443 1
+4027 4037 8
+26860 10781 2
+26860 9046 10
+10781 26860 1
+10781 9046 7
+10781 23786 2
+10781 4037 1
+27810 9046 4
+27810 23786 2
+3326 1383 1
+3326 4524 1
+3326 1025 2
+3326 1024 2
+3326 3552 1
+3326 323 8
+3326 3553 2
+3326 4529 4
+3326 1301 2
+3326 4527 1
+3326 4530 1
+3326 4526 1
+3326 2918 4
+3326 1034 10
+3326 514 1
+3326 1586 2
+9121 14642 1
+9121 1383 2
+9121 1027 1
+9121 1025 4
+9121 1024 3
+9121 3326 1
+9121 323 5
+9121 1301 2
+9121 4527 1
+9121 2918 2
+9121 6076 2
+9121 2493 1
+9086 314 1
+9086 9121 13
+9086 3326 2
+9086 443 1
+9086 323 1
+2428 4526 2
+2428 3326 20
+2428 443 1
+2428 323 1
+2428 4646 1
+4531 5899 1
+4531 4529 8
+4531 4527 1
+4531 1025 6
+4531 1024 3
+4531 3552 2
+4531 2918 6
+4531 1034 3
+4531 1586 1
+4531 514 2
+14642 1383 2
+14642 1025 4
+14642 19439 15
+14642 1024 3
+14642 1034 2
+14642 6076 2
+14570 14642 32
+14570 515 1
+14570 9121 2
+14570 3326 2
+14570 443 1
+14570 4531 4
+2429 515 4
+2429 2428 6
+2429 443 1
+2429 4531 91
+3315 3326 2
+2430 2431 5
+2430 1024 3
+2430 9121 1
+2430 4526 1
+2430 3326 1
+2430 4646 3
+2409 2431 1
+2409 2430 2
+2409 443 1
+6076 4115 1
+6076 4815 4
+6076 3464 6
+6076 1025 2
+6076 6239 8
+6076 1024 3
+6076 4114 9
+6076 1040 1
+6076 4530 1
+6076 6238 4
+6076 1384 2
+6076 1383 1
+6076 3553 1
+6076 1301 6
+6076 1713 1
+6076 3424 3
+18171 2431 2
+18171 314 11
+18171 2430 3
+18171 443 1
+18171 6076 22
+6239 4525 1
+6239 4815 4
+6239 1713 3
+6239 6238 3
+19439 2771 1
+19439 1587 1
+19439 1025 5
+19439 1024 5
+19439 29399 1
+4530 1584 1
+4530 1025 2
+4530 4526 1
+4530 3326 1
+4530 4646 1
+4698 4530 3
+4698 2428 4
+4698 443 1
+4698 4646 1
+4699 1383 1
+4699 1027 1
+4699 1025 4
+4699 1024 7
+4699 3552 2
+4699 3326 1
+4699 21851 4
+4699 1034 1
+4699 4646 1
+4662 314 1
+4662 443 1
+4662 4700 1
+4662 4699 24
+21851 1384 2
+21851 1383 1
+21851 4524 1
+21851 1025 4
+21851 1024 2
+21851 323 9
+21851 4527 1
+21851 4530 1
+21851 6076 2
+21851 4699 14
+21851 1586 1
+21851 2493 2
+18936 515 1
+18936 4662 15
+18936 443 1
+18936 4699 2
+29399 1383 1
+4529 1385 4
+4529 1301 1
+4529 1025 5
+4529 3552 4
+4529 3326 1
+16556 1584 1
+16556 17508 1
+16556 14950 1
+16284 16556 10
+16284 443 1
+16284 3719 1
+323 8570 1
+323 4524 1
+323 1025 3
+323 1024 2
+323 8569 1
+323 679 1
+323 5899 1
+323 4527 1
+323 8025 2
+323 1586 2
+323 1585 1
+323 233 1
+323 1383 1
+323 8564 4
+323 1027 1
+323 3553 11
+323 4525 1
+323 1301 2
+323 4750 1
+323 1034 3
+323 2493 4
+3723 8566 1
+3723 314 1
+3723 8564 1
+3723 443 1
+3723 323 17
+3723 3719 1
+3724 233 1
+3724 1040 1
+3724 1034 3
+3724 323 4
+3724 2493 2
+2431 1746 1
+2431 3836 3
+2431 1025 1
+2431 1024 7
+2431 8025 3
+2431 1034 1
+2431 3719 2
+18679 2431 1
+2427 2431 14
+2427 1383 2
+2427 3836 6
+2427 443 1
+2427 3719 2
+12420 523 1
+12420 1383 2
+12420 1025 4
+12420 1024 1
+12420 522 1
+12420 453 8
+12420 1763 1
+12420 1382 2
+12420 1584 1
+12420 7403 1
+12420 12666 1
+12420 4750 1
+12420 2493 2
+12420 1767 1
+12420 520 1
+18947 12420 30
+18947 314 2
+18947 443 1
+18947 453 18
+453 4115 1
+453 1383 2
+453 1228 1
+453 522 3
+453 18999 7
+453 8025 1
+376 310 1
+376 443 1
+376 453 13
+1383 1584 1
+1383 1384 8
+1383 11186 7
+1383 1024 3
+1383 323 1
+1383 19504 1
+18717 1383 17
+18717 3836 1
+18717 885 3
+18717 443 1
+8025 1746 2
+8025 1713 1
+8025 1034 1
+8025 3719 11
+18935 4312 1
+18935 314 2
+18935 3836 3
+18935 8025 26
+18935 443 1
+18935 3719 18
+8569 9794 1
+8569 12735 1
+18999 320 1
+18999 13011 1
+18999 522 1
+18999 9688 1
+18999 2795 2
+18999 1763 2
+18999 8567 1
+18999 319 1
+18999 520 1
+18999 1767 1
+450 18999 6
+450 443 1
+450 453 1
+8570 8566 1
+8570 320 1
+8570 3326 1
+8570 2795 1
+8570 323 2
+8570 8567 1
+8570 527 1
+8570 9121 1
+8570 325 1
+527 1383 1
+527 5821 1
+527 1024 2
+527 324 1
+527 323 2
+527 679 1
+527 4750 2
+527 4527 2
+527 3724 4
+527 2918 15
+527 325 2
+527 1034 3
+527 514 1
+527 2493 2
+5820 527 7
+5820 443 1
+5820 325 2
+523 1383 1
+523 1027 2
+523 1025 1
+523 1024 3
+523 324 1
+523 4750 1
+523 4527 2
+523 527 8
+523 2918 4
+523 514 1
+523 2493 1
+481 523 15
+481 515 2
+481 527 3
+481 522 2
+481 443 1
+481 521 1
+481 520 1
+9190 527 19
+9190 1024 1
+9190 2918 1
+9190 324 1
+9190 514 1
+9189 527 1
+9189 14102 8
+9189 324 1
+15171 515 2
+15171 443 1
+14102 14135 1
+14102 4527 3
+14102 527 11
+14102 1024 1
+14102 2918 18
+14102 514 1
+447 310 1
+447 3724 1
+447 311 3
+522 527 2
+522 14102 6
+522 324 1
+518 515 4
+518 522 10
+518 443 1
+518 453 1
+9191 527 10
+9191 1024 1
+9191 324 1
+521 527 8
+521 1024 1
+521 324 1
+520 527 7
+520 1024 1
+520 2918 1
+520 324 1
+520 514 1
+519 515 2
+519 443 1
+524 523 1
+524 9190 2
+524 522 4
+524 9191 1
+524 9189 2
+524 521 1
+524 520 3
+18946 314 3
+18946 443 1
+5821 523 1
+5821 9190 1
+5821 1383 1
+5821 522 2
+5821 9191 1
+5821 521 1
+5821 527 2
+5821 520 1
+5821 9189 3
+517 443 1
+325 1025 3
+325 1024 6
+325 324 1
+325 323 5
+325 1382 2
+325 1755 1
+325 1301 3
+325 4750 1
+325 1316 3
+325 2918 2
+325 2493 1
+318 4115 1
+318 320 8
+318 314 1
+318 443 1
+318 325 12
+318 324 1
+322 1384 1
+322 4524 1
+322 1025 3
+322 1024 3
+322 1386 6
+322 1382 11
+322 1584 1
+322 5283 6
+322 1385 1
+322 1034 1
+18944 1763 4
+18944 5283 2
+18944 1383 2
+18944 322 33
+18944 320 2
+18944 319 3
+18944 443 1
+1761 1382 1
+1761 1385 1
+1761 319 1
+1761 325 5
+1761 324 1
+319 5283 1
+319 322 1
+319 1761 6
+319 1025 1
+319 325 3
+319 324 1
+242 320 2
+242 323 5
+242 310 1
+242 314 1
+242 322 1
+242 311 3
+242 319 9
+242 325 2
+513 5899 1
+513 233 1
+513 1027 2
+513 1024 2
+513 325 4
+513 2493 1
+18943 513 1
+18943 443 1
+320 1025 1
+320 1024 4
+320 1386 1
+320 679 2
+320 1382 3
+320 5899 1
+320 1040 3
+320 8025 1
+320 514 1
+320 1384 3
+320 1383 3
+320 323 7
+320 2180 2
+320 1385 1
+320 1301 1
+320 1034 10
+320 2918 8
+18939 515 19
+18939 1383 2
+18939 320 15
+18939 1386 2
+18939 443 1
+1764 1382 1
+1764 1385 1
+1764 325 4
+1764 324 1
+1763 1382 2
+1763 1385 2
+1763 1025 1
+1763 325 6
+1763 324 1
+18941 1763 9
+18941 310 1
+18941 311 3
+18941 325 8
+18941 323 3
+1766 1382 1
+1766 1385 1
+1766 325 4
+1766 324 1
+1765 1382 1
+1765 1385 2
+1765 325 4
+1765 324 1
+1762 1382 1
+1762 1385 2
+1762 325 4
+1762 324 1
+18942 1762 1
+18942 443 1
+1768 1382 1
+1768 1385 1
+1768 325 4
+1768 324 1
+1769 325 5
+1769 324 1
+1767 1382 1
+1767 325 4
+1767 324 1
+1386 1382 6
+1386 5899 1
+1386 233 1
+1386 5286 1
+1386 2918 1
+1386 1586 2
+317 515 1
+317 1386 20
+317 443 1
+321 320 33
+6429 1763 4
+6429 1768 3
+6429 1762 1
+6429 319 6
+6429 1767 3
+18945 314 4
+18945 443 1
+18945 325 9
+1316 1384 2
+1316 1383 3
+1316 320 2
+1316 1025 1
+1316 1386 3
+1316 513 1
+1316 1382 5
+1316 1385 3
+1316 325 11
+18940 4115 1
+18940 320 1
+18940 5004 2
+18940 1316 9
+18940 443 1
+1755 1768 1
+1755 1761 1
+1755 1769 1
+1755 1763 1
+1755 1764 1
+1755 1766 1
+1755 1765 1
+1755 1762 1
+1755 325 2
+1755 1767 1
+8566 1383 1
+8566 233 2
+8566 1040 2
+8566 19240 1
+8566 1034 4
+8566 323 9
+8566 2493 4
+8566 679 4
+5829 1383 3
+5829 1025 4
+5829 1024 7
+5829 2529 31
+5829 1593 1
+5829 5899 1
+5829 1034 2
+5829 2918 7
+5829 1586 7
+14407 5899 1
+14407 5829 24
+14407 1116 1
+14407 314 1
+14407 3721 1
+14407 443 1
+14407 1593 2
+2795 1383 1
+2795 1025 1
+2795 1024 7
+2795 2917 1
+2795 323 5
+2795 2916 4
+2795 2180 2
+2795 2915 6
+2795 2927 2
+2795 2914 2
+2795 2918 4
+2795 1034 2
+2795 514 2
+2795 1586 6
+15864 515 1
+15864 1383 1
+15864 2927 5
+15864 311 3
+15864 2795 24
+15864 323 2
+1793 8566 2
+1793 2918 2
+1793 323 1
+1793 514 1
+9688 5829 12
+9688 8566 4
+9688 1024 4
+9688 323 1
+9688 3553 2
+9688 7403 1
+9688 1228 1
+9688 4527 1
+9688 2227 1
+9688 1034 4
+9688 2918 6
+9688 7391 4
+9688 514 1
+9688 2493 3
+15789 8566 4
+15789 1024 1
+15789 2918 1
+15789 1034 3
+15789 323 1
+15789 514 1
+8567 1024 2
+8567 323 5
+8567 679 1
+8567 2915 5
+8567 1034 3
+8567 2918 4
+8567 514 2
+8567 1586 2
+18937 1384 1
+18937 714 4
+18937 515 4
+18937 8567 4
+18937 310 4
+18937 311 9
+18937 323 2
+14055 8566 4
+14055 1024 1
+14055 2918 2
+14055 1034 1
+14055 323 1
+14055 679 4
+14055 514 1
+14047 8566 1
+14047 14055 2
+14047 311 3
+14047 323 3
+14047 3719 1
+13011 8566 4
+13011 1024 1
+13011 323 1
+13011 679 1
+13011 2180 2
+13011 442 2
+13011 1034 1
+13011 2918 2
+13011 514 1
+449 714 4
+449 8566 3
+449 13011 6
+449 3791 1
+449 323 2
+449 515 4
+449 310 1
+449 311 6
+15574 8567 1
+15574 15789 1
+15574 14055 1
+15574 13011 2
+15574 1793 1
+15574 9688 3
+2927 2795 4
+19240 8566 2
+19240 15789 1
+19240 14055 1
+19240 13011 1
+19240 1793 1
+19240 9688 1
+14408 5829 9
+14408 1024 7
+14408 2529 5
+14408 1586 7
+14379 14408 2
+14379 5829 1
+14379 443 1
+3488 1584 1
+3488 1025 1
+3488 1024 9
+3488 1592 2
+3471 3488 35
+3471 443 1
+1589 2771 2
+1589 1594 1
+1589 1025 1
+1589 2529 23
+6918 3916 2
+6918 1589 2
+6866 6914 10
+6866 314 3
+6866 233 1
+6866 5008 4
+6866 443 1
+6866 2529 1
+6866 1593 1
+6866 1592 4
+1590 1586 2
+6915 3916 4
+6915 1590 2
+1591 1586 5
+6916 3916 4
+6916 6918 1
+6916 1591 3
+1592 2682 3
+1592 1586 9
+6917 3916 5
+6917 1592 4
+1593 2682 4
+1593 1586 16
+3897 3916 4
+3897 1593 4
+3916 3936 1
+3916 314 1
+3916 443 1
+1594 9856 2
+1594 2227 2
+1594 1025 1
+1594 1589 18
+6919 3916 4
+6919 1592 1
+6919 1589 1
+9856 2771 1
+9856 2227 3
+9856 1025 3
+9856 2529 33
+9856 1589 3
+3915 9856 5
+3915 3916 5
+3915 443 1
+3915 1589 1
+15240 15397 1
+15240 2914 4
+15240 5008 1
+15240 15398 1
+15240 15396 5
+15240 15395 2
+15240 6949 6
+28758 22015 1
+28758 1384 5
+28758 4115 1
+28758 1024 1
+28758 899 3
+28758 1228 3
+28758 1301 8
+28758 15673 2
+1196 1228 1
+1196 1024 2
+28556 314 3
+28556 443 1
+4440 7890 4
+4440 1024 1
+4578 3789 4
+4578 4440 1
+4439 3789 7
+4439 4578 3
+4439 4442 1
+4439 4571 4
+4439 1025 1
+4439 1024 3
+4439 4440 1
+4427 1584 1
+4427 4439 5
+4427 4440 1
+15941 4427 2
+15941 4440 1
+15941 443 1
+4571 3789 2
+4571 4578 2
+4571 4440 1
+3789 3791 3
+3789 1034 3
+8732 314 4
+8732 443 1
+15623 443 1
+4442 3307 5
+10576 10782 1
+10576 7890 3
+10576 2773 5
+10576 3720 1
+10576 10779 4
+10576 8981 10
+10576 10776 2
+10576 365 4
+10576 3721 1
+10576 10781 4
+10576 233 5
+10576 8978 7
+10576 1989 2
+10576 1635 2
+10576 10778 7
+10576 10775 2
+10576 6578 1
+10576 1116 7
+10576 2509 3
+10576 3248 7
+10576 2038 3
+10576 10777 2
+10576 7667 1
+10576 3246 2
+10576 3836 3
+10576 10780 3
+10576 2210 1
+10576 3022 2
+10576 7891 11
+10576 3247 3
+10576 717 13
+10576 3031 62
+10576 1707 3
+10576 1084 2
+10576 2237 2
+10576 3249 7
+10576 9046 1
+22892 717 1
+22892 314 1
+22892 10576 4
+22892 3304 2
+22892 3033 1
+22892 2210 1
+13120 3031 1
+13120 10576 2
+13120 1024 1
+13120 4440 1
+13120 3793 1
+3793 3789 3
+3793 7890 2
+3793 4578 1
+3793 3307 1
+3793 3031 2
+3793 1228 2
+3793 3791 1
+3793 13120 1
+3770 3789 6
+3770 3304 5
+3770 3791 1
+3770 3793 6
+25674 3304 2
+25674 22892 1
+25674 13120 5
+3554 713 1
+3554 2771 1
+3554 443 1
+314 1384 4
+314 11858 3
+314 1797 1
+314 1034 4
+314 2493 11
+515 314 2
+515 2265 1
+515 8487 2
+515 514 1
+5004 12421 18
+5004 7026 4
+5004 515 1
+10087 1584 1
+10086 2771 1
+10086 1040 1
+15859 7858 1
+15859 4524 1
+15859 4152 1
+11858 1384 1
+11858 1587 2
+11858 1024 2
+311 2180 4
+311 714 9
+311 1024 5
+311 443 1
+12393 1038 4
+14699 311 4
+14409 885 3
+17986 1024 2
+15434 885 2
+12260 2180 2
+12260 6382 1
+843 885 3
+15853 15859 3
+16280 15859 3
+18591 15859 3
+25670 15859 3
+18931 15859 3
+25378 15859 3
+29274 15859 3
+1024 1584 1
+1024 4466 3
+1024 1025 35
+25968 4466 2
+25968 1024 2
+25968 443 1
+2771 1584 1
+2771 1024 8
+2771 1034 2
+2771 1586 2
+14211 2771 61
+14211 443 1
+1384 1584 1
+1384 2771 2
+1384 1587 4
+1384 3463 6
+1384 1024 8
+13852 1384 139
+13852 2038 2
+13852 443 1
+8712 1584 1
+26224 8712 11
+26224 443 1
+4524 1584 1
+4524 2771 2
+4524 1040 1
+4524 3552 1
+27219 4524 46
+27219 443 1
+6380 1584 1
+6380 1384 3
+6380 1587 1
+19518 1587 1
+19518 6380 2
+19518 443 1
+9420 1584 1
+9420 1384 3
+9420 2771 1
+9420 1040 1
+9420 1025 1
+9420 1024 3
+23326 2771 7
+23326 9420 25
+23326 443 1
+3552 1584 1
+3552 1025 2
+3552 3553 2
+3552 1586 3
+4644 3552 81
+4644 443 1
+9794 1584 1
+9794 7509 1
+9794 7429 2
+9794 1040 4
+9794 6535 1
+9794 1024 6
+3463 1584 1
+3463 1025 1
+3463 1024 10
+20876 3463 10
+20876 443 1
+14763 1025 2
+2493 1584 1
+2493 1585 4
+2493 1034 1
+29276 1585 1
+29276 443 1
+29276 2493 10
+3791 1384 1
+3791 1025 1
+3791 1024 3
+13127 314 1
+13127 3791 54
+13127 443 1
+16199 12188 3
+16199 1040 1
+16199 16174 1
+16199 1025 2
+16199 1024 2
+17577 3936 5
+17577 1384 1
+17577 314 1
+17577 16465 2
+17577 3935 2
+17577 443 1
+17577 16199 17
+6047 233 2
+6047 4466 1
+6047 1025 1
+6047 10926 3
+6047 4467 1
+7520 6047 78
+7520 7561 1
+7520 443 1
+1040 6421 1
+1040 1584 1
+1040 1301 1
+1040 8287 1
+1040 1027 2
+1040 1025 1
+1040 1024 5
+899 1038 3
+899 1040 1
+899 1026 2
+899 1027 2
+899 1025 3
+899 1024 4
+899 1034 2
+4313 314 1
+4313 443 1
+4313 899 10
+6421 8287 2
+6421 1025 1
+6421 6534 1
+6393 6421 2
+6393 443 1
+8287 4891 1
+8287 1025 1
+8287 15188 1
+8287 6534 1
+6420 8287 2
+6420 443 1
+5424 2771 8
+5424 1025 5
+5424 1024 11
+5424 3552 2
+17187 5424 89
+17187 314 1
+17187 443 1
+17187 4646 31
+1038 233 1
+1038 1024 2
+9278 314 4
+9278 443 1
+1042 1025 3
+1042 1024 6
+1041 1384 1
+1041 1038 4
+1041 3464 2
+1041 1025 2
+1041 3424 3
+1041 1024 2
+1041 899 4
+15673 1584 1
+15673 1038 5
+15673 2771 1
+15673 3464 1
+15673 1041 2
+15673 1024 4
+25750 15673 8
+25750 314 2
+25750 2038 1
+25750 443 1
+25750 899 3
+8951 1301 1
+8951 2682 1
+8951 681 1
+10926 2771 1
+10926 1024 1
+10926 8951 8
+10926 1034 1
+10926 2493 1
+24948 314 2
+24948 10926 20
+24948 443 1
+24948 10087 1
+8866 4466 1
+8866 1025 1
+8866 8951 8
+8866 1034 1
+8866 2493 1
+16465 314 2
+16465 8866 20
+16465 443 1
+16465 10087 1
+15727 6817 1
+2703 1384 1
+3833 4424 1
+3833 3836 1
+3833 1025 2
+3833 1034 3
+14516 3833 1
+14516 7318 2
+14516 4424 8
+14516 314 3
+14516 3836 2
+14516 443 1
+21054 1384 1
+4312 2703 1
+4312 681 1
+4312 1025 2
+4312 1024 2
+4312 1228 1
+4312 1301 1
+4312 9420 2
+4312 1040 1
+4312 1034 1
+4424 3833 2
+4424 7318 1
+4424 233 1
+4424 3836 3
+4424 1024 1
+4424 1034 3
+3835 4424 2
+3835 1024 1
+3836 7318 2
+3836 3834 1
+3836 15727 1
+3836 4424 1
+3836 3835 1
+3836 2038 1
+3836 1025 3
+3836 10926 6
+3836 1024 3
+3836 4312 1
+14174 3836 2
+7318 3833 2
+7318 4424 4
+7318 1027 1
+7318 8866 8
+7318 1024 5
+7318 7317 1
+7318 1034 5
+18217 1025 1
+18217 1024 3
+18217 1034 3
+18217 3553 1
+7317 3833 3
+7317 7318 6
+7317 4424 2
+7317 1027 14
+7317 1025 3
+7317 1024 6
+3834 4424 2
+9655 7318 1
+14140 714 6
+14140 311 6
+14140 885 1
+21055 2703 1
+21055 1024 2
+2038 2703 1
+2038 1024 1
+2038 1034 1
+233 1584 1
+233 1384 2
+233 4312 3
+233 9420 1
+233 2038 1
+233 1025 1
+233 1024 1
+233 21054 1
+28119 233 34
+28119 443 1
+6774 8 2
+25567 22015 10
+25567 6774 4
+28321 8 2
+15947 7890 1
+15947 1228 1
+15947 1025 1
+15947 1024 1
+28313 8 3
+28313 443 1
+28313 28321 4
+22015 8866 4
+1228 22015 5
+1228 1584 1
+1228 4524 1
+1228 6380 1
+12857 1384 2
+12857 314 3
+12857 443 1
+21073 1024 1
+21065 21073 4
+21065 443 1
+7890 1025 2
+7890 6380 1
+7890 1024 4
+7890 2215 2
+15910 7890 9
+15910 443 1
+1025 1301 9
+1301 1384 3
+1301 1587 1
+1301 1228 3
+1301 233 1
+1301 3356 6
+1301 4524 2
+1301 6380 2
+1248 1301 12
+1248 314 2
+1248 1025 2
+1248 443 1
+23890 16984 1
+3356 2771 1
+13218 6380 1
+1300 443 1
+681 1301 8
+30441 16984 1
+30441 23890 1
+4759 1301 3
+4759 3356 3
+4759 2703 1
+4759 1034 1
+4759 2493 1
+4115 1301 4
+18597 8046 5
+18597 311 1
+18597 712 3
+23075 7209 2
+21388 7209 2
+21388 23075 1
+7210 7209 2
+7210 23075 3
+12743 4312 2
+12743 311 1
+12743 712 3
+6381 3791 1
+714 7727 1
+714 1024 1
+714 7088 1
+714 7208 1
+714 12188 1
+714 12190 3
+714 1228 1
+714 12191 1
+16510 714 5
+16510 443 1
+713 1584 1
+713 1024 1
+1863 828 4
+1863 1025 2
+10339 828 1
+10339 1585 1
+10339 10372 1
+10339 4524 1
+10339 1025 2
+10339 3552 1
+10339 1034 1
+828 1384 3
+828 9885 2
+828 1863 1
+828 1025 2
+828 10926 6
+828 1024 1
+828 10339 2
+828 8866 1
+781 828 10
+781 311 1
+781 712 18
+27029 828 67
+27029 2771 8
+27029 443 1
+12034 713 1
+12034 2956 1
+12016 12034 1
+12016 12035 1
+12016 3552 1
+12016 443 1
+12035 713 1
+12035 3408 1
+7208 3791 3
+7208 1025 3
+7208 3553 1
+7208 2180 2
+7208 2388 1
+7208 2771 1
+7208 7209 1
+7208 9420 1
+7208 6382 1
+7088 7208 30
+7088 7207 7
+7088 2180 10
+7088 7209 1
+7088 7210 2
+12190 7208 3
+12190 1025 1
+12191 7208 41
+12191 2180 15
+12191 21388 4
+12191 7209 2
+12191 21387 11
+6382 8046 3
+6382 10339 1
+6382 1025 1
+6382 1024 4
+6382 6381 6
+2388 1384 5
+2388 828 2
+2388 1385 1
+2388 9420 1
+2388 6381 10
+7067 2388 14
+7067 443 1
+8046 1228 1
+8046 4524 1
+8046 1025 4
+8046 1034 11
+14028 717 6
+14028 2038 1
+14028 8978 2
+14028 8046 5
+14028 8981 1
+14028 311 1
+14028 2210 1
+14028 232 2
+14028 712 2
+26694 8046 73
+26694 2038 3
+26694 443 1
+712 1584 1
+712 714 21
+712 1024 12

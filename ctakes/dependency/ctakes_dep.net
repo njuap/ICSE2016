@@ -1,0 +1,2524 @@
+*Vertics: 1010
+16,org.apache.ctakes.assertion.medfacts.cleartk.extractors.FedaFeatureFunction
+42,org.apache.ctakes.ytex.kernel.model.KernelEvaluationInstance
+79,org.apache.ctakes.sideeffect.util.PatternMatch
+133,org.apache.ctakes.temporal.ae.feature.DependencyFeatureExtractor
+183,org.apache.ctakes.coreference.util.SvmVectorCreator
+277,org.apache.ctakes.constituency.parser.treekernel.TreeExtractor
+278,org.apache.ctakes.constituency.parser.util.TreeUtils
+279,org.apache.ctakes.core.resource.FileLocator
+280,org.apache.ctakes.utils.tree.FragmentUtils
+281,org.apache.ctakes.utils.tree.SimpleTree
+282,org.apache.ctakes.utils.wiki.WikiIndex
+288,org.apache.ctakes.coreference.util.AnaphoricityAttributeCalculator
+289,org.apache.ctakes.coreference.util.SyntaxAttributeCalculator
+290,org.apache.ctakes.coreference.util.FeatureVector
+291,org.apache.ctakes.coreference.util.AttributeCalculator
+292,org.apache.ctakes.coreference.util.MarkableTreeUtils
+311,org.apache.ctakes.relationextractor.data.Stats
+359,org.apache.ctakes.core.util.Mapper
+360,org.apache.ctakes.relationextractor.knowtator.RelationInfo
+361,org.apache.ctakes.relationextractor.knowtator.XMLReader
+362,org.apache.ctakes.typesystem.type.constants.CONST
+366,org.apache.ctakes.relationextractor.data.Constants
+375,org.apache.ctakes.temporal.eval.I2B2Data
+420,org.apache.ctakes.relationextractor.ae.features.WordNetUtils
+501,org.apache.ctakes.dictionary.lookup.filter.FilterException
+505,org.apache.ctakes.dependency.parser.util.DependencyUtility
+644,org.apache.ctakes.dependency.parser.util.DependencyPath
+648,org.apache.ctakes.core.nlp.tokenizer.ContractionResult
+665,org.apache.ctakes.ytex.uima.DBCollectionReader
+808,org.apache.ctakes.ytex.uima.ApplicationContextHolder
+814,org.apache.ctakes.drugner.fsm.machines.elements.FormFSM
+872,org.apache.ctakes.core.fsm.condition.WordSetCondition
+873,org.apache.ctakes.core.fsm.state.NamedState
+875,org.apache.ctakes.drugner.fsm.output.elements.FormToken
+891,org.apache.ctakes.ytex.kernel.metric.PathMetric
+900,org.apache.ctakes.ytex.kernel.metric.BaseSimilarityMetric
+902,org.apache.ctakes.ytex.kernel.metric.SimilarityInfo
+912,org.apache.ctakes.core.ae.SimpleSegmentAnnotatorTests
+934,org.apache.ctakes.utils.test.TestUtil
+936,org.apache.ctakes.core.ae.SimpleSegmentAnnotator
+943,org.apache.ctakes.core.sentence.SentenceSpan
+982,org.apache.ctakes.drugner.elements.AssociatedSecondaryCodeElement
+999,org.apache.ctakes.smokingstatus.ae.ClassifiableEntries
+1165,org.apache.ctakes.smokingstatus.util.ClassifiableEntry
+1166,org.apache.ctakes.smokingstatus.util.TruthValue
+1169,org.apache.ctakes.smokingstatus.ae.ResolutionAnnotator
+1200,org.apache.ctakes.ytex.kernel.KernelUtilImpl
+1350,org.apache.ctakes.ytex.kernel.model.CrossValidationFold
+1351,org.apache.ctakes.ytex.kernel.model.KernelEvaluation
+1355,org.apache.ctakes.ytex.kernel.InstanceData
+1356,org.apache.ctakes.ytex.kernel.FileUtil
+1381,org.apache.ctakes.temporal.eval.EvaluationOfMetaTimeExpressionExtractor
+1474,org.apache.ctakes.temporal.ae.BackwardsTimeAnnotator
+1475,org.apache.ctakes.temporal.ae.CRFTimeAnnotator
+1476,org.apache.ctakes.temporal.ae.ConstituencyBasedTimeAnnotator
+1477,org.apache.ctakes.temporal.ae.MetaTimeAnnotator
+1478,org.apache.ctakes.temporal.ae.TimeAnnotator
+1480,org.apache.ctakes.temporal.eval.EvaluationOfAnnotationSpans_ImplBase
+1482,org.apache.ctakes.temporal.eval.EvaluationOfTimeSpans
+1485,org.apache.ctakes.temporal.eval.THYMEData
+1487,org.apache.ctakes.temporal.eval.Evaluation_ImplBase
+1532,org.apache.ctakes.assertion.medfacts.ConceptConverterAnalysisEngine
+1583,org.apache.ctakes.assertion.medfacts.ConceptLookup
+1590,org.apache.ctakes.core.cr.XMIReader
+1618,org.apache.ctakes.necontexts.ContextHit
+1621,org.apache.ctakes.dictionary.lookup.ae.DictionaryLookupAnnotator
+1676,org.apache.ctakes.dictionary.lookup.vo.LookupHit
+1678,org.apache.ctakes.dictionary.lookup.vo.LookupTokenComparator
+1682,org.apache.ctakes.dictionary.lookup.ae.LookupSpec
+1684,org.apache.ctakes.dictionary.lookup.ae.LookupParseUtilities
+1707,org.apache.ctakes.ytex.weka.ImportWekaResults
+1764,org.apache.ctakes.ytex.kernel.KernelContextHolder
+1779,org.apache.ctakes.regression.test.RegressionPipelineTest
+1852,org.apache.ctakes.assertion.medfacts.cleartk.extractors.ExtractorListFeatureFunctionConverter
+1863,org.apache.ctakes.drugner.elements.ConfidenceScoreElement
+1876,org.apache.ctakes.ytex.uima.model.AnnotationContainmentLink
+1896,org.apache.ctakes.dictionary.lookup.vo.LookupAnnotationToTokAdapter
+1910,org.apache.ctakes.core.nlp.tokenizer.Token
+1929,org.apache.ctakes.temporal.ae.I2B2TemporalXMLReader
+2005,org.apache.ctakes.temporal.ae.feature.ConjunctionRelationFeaturesExtractor
+2022,org.apache.ctakes.drugner.fsm.machines.elements.FrequencyFSM
+2123,org.apache.ctakes.core.fsm.condition.DisjoinCondition
+2124,org.apache.ctakes.core.fsm.condition.IntegerRangeCondition
+2125,org.apache.ctakes.core.fsm.condition.NumberCondition
+2126,org.apache.ctakes.core.fsm.condition.RangeCondition
+2127,org.apache.ctakes.core.fsm.state.NonTerminalEndState
+2128,org.apache.ctakes.drugner.fsm.elements.conditions.FrequencyUnitCondition
+2129,org.apache.ctakes.drugner.fsm.elements.conditions.RangeStrengthCondition
+2130,org.apache.ctakes.drugner.fsm.elements.conditions.RouteCondition
+2131,org.apache.ctakes.drugner.fsm.output.elements.FrequencyToken
+2132,org.apache.ctakes.drugner.fsm.states.util.IndentStartState
+2141,org.apache.ctakes.ytex.weka.DocumentResultInstanceImporter
+2164,org.apache.ctakes.ytex.uima.annotators.DateAnnotatorTest
+2176,org.apache.ctakes.ytex.uima.annotators.DateAnnotator
+2186,org.apache.ctakes.temporal.ae.EventEventRelationAnnotator
+2244,org.apache.ctakes.relationextractor.ae.RelationExtractorAnnotator
+2245,org.apache.ctakes.relationextractor.ae.features.PartOfSpeechFeaturesExtractor
+2246,org.apache.ctakes.relationextractor.ae.features.TokenFeaturesExtractor
+2247,org.apache.ctakes.temporal.ae.feature.CheckSpecialWordRelationExtractor
+2248,org.apache.ctakes.temporal.ae.feature.DependencyPathFeaturesExtractor
+2249,org.apache.ctakes.temporal.ae.feature.CoordinateFeaturesExtractor
+2250,org.apache.ctakes.temporal.ae.feature.DependingVerbsFeatureExtractor
+2251,org.apache.ctakes.temporal.ae.feature.SpecialAnnotationRelationExtractor
+2252,org.apache.ctakes.temporal.ae.feature.TemporalPETFlatExtractor
+2253,org.apache.ctakes.temporal.ae.feature.TokenPropertyFeaturesExtractor
+2254,org.apache.ctakes.temporal.ae.feature.DeterminerRelationFeaturesExtractor
+2255,org.apache.ctakes.temporal.ae.feature.EventArgumentPropertyExtractor
+2256,org.apache.ctakes.temporal.ae.feature.EventTimeRelationFeatureExtractor
+2257,org.apache.ctakes.temporal.ae.feature.EventPositionRelationFeaturesExtractor
+2258,org.apache.ctakes.temporal.ae.feature.NumberOfEventsInTheSameSentenceExtractor
+2259,org.apache.ctakes.temporal.ae.feature.NearbyVerbTenseRelationExtractor
+2260,org.apache.ctakes.temporal.ae.feature.NumberOfEventTimeBetweenCandidatesExtractor
+2261,org.apache.ctakes.temporal.ae.feature.OverlappedHeadFeaturesExtractor
+2262,org.apache.ctakes.temporal.ae.feature.SRLRelationFeaturesExtractor
+2263,org.apache.ctakes.temporal.ae.feature.TimeXRelationFeaturesExtractor
+2264,org.apache.ctakes.temporal.ae.feature.SectionHeaderRelationExtractor
+2265,org.apache.ctakes.temporal.ae.feature.UmlsFeatureExtractor
+2282,org.apache.ctakes.core.nlp.tokenizer.TokenizerHelper
+2312,org.apache.ctakes.smokingstatus.lookup.ae.SmokerNamedEntityLookupConsumerImpl
+2338,org.apache.ctakes.dictionary.lookup.ae.BaseLookupConsumerImpl
+2343,org.apache.ctakes.core.fsm.condition.SymbolValueCondition
+2354,org.apache.ctakes.coreference.util.CorefConsts
+2364,org.apache.ctakes.temporal.ae.feature.coreference.DistSemFeatureExtractor
+2392,org.apache.ctakes.utils.distsem.WordEmbeddings
+2393,org.apache.ctakes.utils.distsem.WordVector
+2394,org.apache.ctakes.utils.distsem.WordVectorReader
+2404,org.apache.ctakes.core.fsm.adapters.BaseTokenAdapter
+2412,org.apache.ctakes.coreference.util.HobbsTreeNavigator
+2461,org.apache.ctakes.coreference.util.FSIteratorToList
+2491,org.apache.ctakes.relationextractor.ae.baselines.Baseline2DegreeOfRelationExtractorAnnotator
+2524,org.apache.ctakes.relationextractor.ae.baselines.Utils
+2529,org.apache.ctakes.necontexts.negation.NegationContextHitConsumer
+2537,org.apache.ctakes.necontexts.NamedEntityContextHitConsumer
+2541,org.apache.ctakes.drugner.fsm.elements.conditions.TimeCondition
+2544,org.apache.ctakes.core.fsm.output.TimeToken
+2547,org.apache.ctakes.drugner.fsm.machines.util.SubSectionIndicatorFSM
+2611,org.apache.ctakes.core.fsm.condition.PunctuationValueCondition
+2612,org.apache.ctakes.core.fsm.condition.TextSetCondition
+2613,org.apache.ctakes.core.fsm.condition.TextValueCondition
+2614,org.apache.ctakes.drugner.fsm.output.util.SubSectionIndicator
+2626,org.apache.ctakes.dictionary.lookup2.util.collection.DefaultCollectionMap
+2726,org.apache.ctakes.core.resource.StringMapResourceImpl
+2747,org.apache.ctakes.assertion.train.JustJudgeStep
+2756,org.apache.ctakes.assertion.eval.AssertionEvaluation
+2757,org.apache.ctakes.assertion.pipelines.RunJudgeAttributeInstances
+2758,org.apache.ctakes.assertion.util.AssertionConst
+2766,org.apache.ctakes.chunker.ae.Chunker
+2820,org.apache.ctakes.dictionary.lookup.ae.NamedEntityLookupConsumerImpl
+2874,org.apache.ctakes.necontexts.StatusAnnotatorTests
+2887,org.apache.ctakes.necontexts.ContextAnnotator
+2891,org.apache.ctakes.relationextractor.data.GoldAnnotationAnalysisPipeline
+2908,org.apache.ctakes.relationextractor.eval.XMIReader
+2910,org.apache.ctakes.relationextractor.data.GoldAnnotationStatsCalculator
+2913,org.apache.ctakes.dictionary.lookup2.textspan.DefaultTextSpan
+2935,org.apache.ctakes.dictionary.lookup.strtable.StringTable
+2955,org.apache.ctakes.dictionary.lookup.strtable.StringTableRow
+2958,org.apache.ctakes.ytex.kernel.tree.TreeMappingInfo
+2980,org.apache.ctakes.ytex.kernel.tree.QueryMappingInfo
+2986,org.apache.ctakes.temporal.eval.EvaluationOfSelfEventTimeRelations
+3213,org.apache.ctakes.temporal.ae.EventTimeRelationAnnotator
+3214,org.apache.ctakes.temporal.ae.EventTimeSelfRelationAnnotator
+3215,org.apache.ctakes.temporal.ae.baselines.RecallBaselineEventTimeRelationAnnotator
+3218,org.apache.ctakes.temporal.utils.AnnotationIdCollection
+3219,org.apache.ctakes.temporal.utils.TLinkTypeArray2
+3220,org.apache.ctakes.relationextractor.eval.RelationExtractorEvaluation
+3222,org.apache.ctakes.temporal.eval.EvaluationOfEventTimeRelations
+3223,org.apache.ctakes.temporal.eval.EvaluationOfTemporalRelations_ImplBase
+3263,org.apache.ctakes.relationextractor.ae.baselines.Baseline3DegreeOfRelationExtractorAnnotator
+3307,org.apache.ctakes.sideeffect.cc.SideEffectCasConsumer
+3340,org.apache.ctakes.core.util.DocumentIDAnnotationUtil
+3341,org.apache.ctakes.sideeffect.util.SEUtil
+3345,org.apache.ctakes.necontexts.negation.NegationContextAnalyzer
+3354,org.apache.ctakes.core.fsm.machine.NegationFSM
+3355,org.apache.ctakes.core.fsm.output.NegationIndicator
+3357,org.apache.ctakes.necontexts.NamedEntityContextAnalyzer
+3359,org.apache.ctakes.core.fsm.output.BaseTokenImpl
+3372,org.apache.ctakes.core.fsm.output.MeasurementToken
+3399,org.apache.ctakes.utils.struct.CounterMap
+3405,org.apache.ctakes.assertion.medfacts.cleartk.extractors.DependencyPathRegexpFeatureExtractor
+3431,org.apache.ctakes.assertion.attributes.GenericAttributeAnalysisEngine
+3442,org.apache.ctakes.assertion.attributes.generic.GenericAttributeClassifier
+3446,org.apache.ctakes.core.ae.SentenceDetectorAnnotatorTest
+3459,org.apache.ctakes.core.ae.SentenceDetector
+3460,org.apache.ctakes.core.ae.CDASegmentAnnotator
+3574,org.apache.ctakes.ytex.kernel.metric.ConceptInfo
+3575,org.apache.ctakes.ytex.kernel.model.ClassifierEvaluation
+3576,org.apache.ctakes.ytex.kernel.model.FeatureEvaluation
+3577,org.apache.ctakes.ytex.kernel.model.FeatureParentChild
+3578,org.apache.ctakes.ytex.kernel.model.FeatureRank
+3590,org.apache.ctakes.coreference.eval.helpers.Span
+3633,org.apache.ctakes.coreference.eval.helpers.SpanOffsetComparator
+3636,org.apache.ctakes.necontexts.ContextAnalyzerAdapter
+3649,org.apache.ctakes.drugner.elements.FormElement
+3687,org.apache.ctakes.assertion.attributes.features.HistoryFeaturesExtractor
+3699,org.apache.ctakes.assertion.attributes.history.HistoryAttributeClassifier
+3704,org.apache.ctakes.relationextractor.ae.baselines.Baseline4DegreeOfRelationExtractorAnnotator
+3714,org.apache.ctakes.relationextractor.ae.DegreeOfRelationExtractorAnnotator
+3722,org.apache.ctakes.temporal.ae.feature.coreference.UMLSFeatureExtractor
+3746,org.apache.ctakes.ytex.kernel.evaluator.NormKernel
+3780,org.apache.ctakes.ytex.kernel.tree.Node
+3790,org.apache.ctakes.ytex.libsvm.LibSVMGramMatrixExporterImpl
+3889,org.apache.ctakes.ytex.uima.annotators.NamedEntityRegexTest
+3900,org.apache.ctakes.ytex.uima.model.NamedEntityRegex
+3901,org.apache.ctakes.ytex.uima.annotators.NamedEntityRegexAnnotator
+3909,org.apache.ctakes.temporal.utils.CorefConst
+3913,org.apache.ctakes.temporal.eval.EvaluationOfI2B2TemporalRelations
+4089,org.apache.ctakes.temporal.ae.ConsecutiveSentencesEventEventRelationAnnotator
+4090,org.apache.ctakes.temporal.ae.ConsecutiveSentencesEventTimeRelationAnnotator
+4091,org.apache.ctakes.temporal.ae.TemporalRelationRuleAnnotator
+4092,org.apache.ctakes.temporal.ae.DocTimeRelAnnotator
+4093,org.apache.ctakes.temporal.ae.EventAdmissionTimeAnnotator
+4094,org.apache.ctakes.temporal.ae.EventDischargeTimeAnnotator
+4107,org.apache.ctakes.assertion.train.TestAttributeModels
+4124,org.apache.ctakes.sideeffect.cc.SideEffectSentenceCasConsumer
+4148,org.apache.ctakes.ytex.libsvm.LibSVMParser
+4237,org.apache.ctakes.ytex.kernel.BaseClassifierEvaluationParser
+4238,org.apache.ctakes.ytex.kernel.model.ClassifierInstanceEvaluation
+4239,org.apache.ctakes.ytex.kernel.model.SVMClassifierEvaluation
+4273,org.apache.ctakes.ytex.sparsematrix.SparseMatrixFormatterFactory
+4327,org.apache.ctakes.ytex.kernel.BaseSparseDataFormatter
+4328,org.apache.ctakes.ytex.kernel.SparseData
+4332,org.apache.ctakes.ytex.libsvm.LibSVMFormatterFactory
+4355,org.apache.ctakes.preprocessor.test.TestDriver
+4384,org.apache.ctakes.preprocessor.ClinicalNotePreProcessor
+4385,org.apache.ctakes.preprocessor.DocumentMetaData
+4387,org.apache.ctakes.preprocessor.SegmentMetaData
+4389,org.apache.ctakes.preprocessor.IntegerRange
+4403,org.apache.ctakes.ytex.uima.model.SegmentRegex
+4405,org.apache.ctakes.drugner.fsm.output.util.SuffixFrequencyToken
+4409,org.apache.ctakes.drugner.fsm.output.elements.BaseTokenImpl
+4412,org.apache.ctakes.core.fsm.output.RomanNumeralToken
+4454,org.apache.ctakes.temporal.ae.feature.ClosestVerbExtractor
+4455,org.apache.ctakes.temporal.ae.feature.DateAndMeasurementExtractor
+4456,org.apache.ctakes.temporal.ae.feature.EventPropertyExtractor
+4457,org.apache.ctakes.temporal.ae.feature.NearbyVerbTenseXExtractor
+4458,org.apache.ctakes.temporal.ae.feature.SectionHeaderExtractor
+4459,org.apache.ctakes.temporal.ae.feature.TimeXExtractor
+4460,org.apache.ctakes.temporal.ae.feature.UmlsSingleFeatureExtractor
+4475,org.apache.ctakes.dictionary.lookup2.dictionary.MemRareWordDictionary
+4483,org.apache.ctakes.dictionary.lookup2.term.RareWordTerm
+4485,org.apache.ctakes.dictionary.lookup2.dictionary.AbstractRareWordDictionary
+4489,org.apache.ctakes.temporal.ae.feature.duration.DurationTimeUnitFeatureExtractor
+4510,org.apache.ctakes.temporal.duration.Utils
+4661,org.apache.ctakes.ytex.umls.model.MRSTY
+4697,org.apache.ctakes.core.fsm.condition.DecimalValueCondition
+4707,org.apache.ctakes.ytex.kernel.metric.ConceptPairSimilarity
+4726,org.apache.ctakes.ytex.kernel.metric.ConceptPair
+4728,org.apache.ctakes.temporal.eval.PrintRelations
+4761,org.apache.ctakes.temporal.ae.THYMEKnowtatorXMLReader
+4762,org.apache.ctakes.temporal.eval.CommandLine
+4765,org.apache.ctakes.ytex.uima.dao.DocumentDaoImpl
+4774,org.apache.ctakes.ytex.uima.model.Document
+4778,org.apache.ctakes.ytex.kernel.tree.NodeKey
+4794,org.apache.ctakes.drugner.fsm.output.elements.FrequencyUnitToken
+4796,org.apache.ctakes.ytex.kernel.dao.KernelEvaluationDaoImpl
+4861,org.apache.ctakes.ytex.dao.DBUtil
+4877,org.apache.ctakes.drugner.fsm.output.elements.DurationToken
+4884,org.apache.ctakes.dictionary.lookup2.util.collection.EnumSetMap
+4935,org.apache.ctakes.dictionary.lookup2.util.collection.CollectionCreatorFactory
+4940,org.apache.ctakes.coreference.ae.MipacqMarkableCreator
+4973,org.apache.ctakes.coreference.util.AnnotationSelector
+4979,org.apache.ctakes.core.nlp.tokenizer.ContractionsPTB
+5056,org.apache.ctakes.core.nlp.tokenizer.HyphenatedPTB
+5149,org.apache.ctakes.core.util.JCasUtil
+5154,org.apache.ctakes.dictionary.lookup.algorithms.FirstTokenPermutationImpl
+5324,org.apache.ctakes.dictionary.lookup.DictionaryEngine
+5327,org.apache.ctakes.dictionary.lookup.algorithms.PermutationUtil
+5333,org.apache.ctakes.drugner.elements.FrequencyElement
+5425,org.apache.ctakes.drugner.fsm.machines.elements.StrengthUnitFSM
+5518,org.apache.ctakes.drugner.fsm.elements.conditions.ContainsSetTextValueCondition
+5519,org.apache.ctakes.drugner.fsm.output.elements.StrengthUnitCombinedToken
+5520,org.apache.ctakes.drugner.fsm.output.elements.StrengthUnitToken
+5525,org.apache.ctakes.coreference.eval.helpers.Test
+5537,org.apache.ctakes.coreference.eval.helpers.SpanAlignment
+5574,org.apache.ctakes.assertion.cc.JudgeAttributeInstances
+5708,org.apache.ctakes.assertion.cr.NegExCorpusReader
+5756,org.apache.ctakes.assertion.medfacts.cleartk.AssertionComponents
+5757,org.apache.ctakes.core.cc.XmiWriterCasConsumerCtakes
+5760,org.apache.ctakes.assertion.cr.NegExAnnotation
+5774,org.apache.ctakes.relationextractor.pipelines.RelationExtractorPipeline
+5791,org.apache.ctakes.core.cr.FilesInDirectoryCollectionReader
+5807,org.apache.ctakes.drugner.fsm.output.elements.RouteToken
+5829,org.apache.ctakes.ytex.uima.mapper.MapperConfig
+5873,org.apache.ctakes.ytex.kernel.model.ConceptGraph
+5880,org.apache.ctakes.jdl.data.xml.jaxb.ObjectFactoryUtil
+5905,org.apache.ctakes.jdl.data.xml.jaxb.ObjectFactoryBind
+5934,org.apache.ctakes.assertion.attributes.features.selection.Chi2FeatureSelection
+6018,org.apache.ctakes.assertion.attributes.features.selection.FeatureSelection
+6025,org.apache.ctakes.ytex.weka.ExportBagOfWords
+6039,org.apache.ctakes.jdl.data.xml.ValidationTest
+6063,org.apache.ctakes.jdl.AppJdl
+6064,org.apache.ctakes.jdl.common.FileUtil
+6065,org.apache.ctakes.jdl.data.xml.DomUtil
+6066,org.apache.ctakes.jdl.data.xml.SchemaUtil
+6067,org.apache.ctakes.jdl.data.xml.Validation
+6068,org.apache.ctakes.jdl.test.Resources
+6145,org.apache.ctakes.ytex.uima.mapper.ISO8601Converter
+6161,org.apache.ctakes.temporal.ae.feature.treekernel.TemporalFTExtractor
+6181,org.apache.ctakes.constituency.parser.util.AnnotationTreeUtils
+6182,org.apache.ctakes.temporal.ae.feature.treekernel.TemporalPETExtractor
+6191,org.apache.ctakes.assertion.train.ReadAndPreprocessForAttributeModels
+6210,org.apache.ctakes.ytex.tools.SetupAuiFirstWord
+6279,org.apache.ctakes.core.nlp.tokenizer.TokenizerPTB
+6281,org.apache.ctakes.ytex.umls.model.UmlsAuiFirstWord
+6301,org.apache.ctakes.dictionary.lookup2.util.collection.HashSetMap
+6356,org.apache.ctakes.temporal.pipelines.EventExtractionPipeline
+6367,org.apache.ctakes.temporal.ae.EventAnnotator
+6368,org.apache.ctakes.temporal.pipelines.TemporalExtractionPipeline_ImplBase
+6375,org.apache.ctakes.temporal.ae.feature.NearestFlagFeatureExtractor
+6399,org.apache.ctakes.preprocessor.Utility
+6417,org.apache.ctakes.dictionary.lookup2.ae.DefaultJCasTermAnnotator
+6434,org.apache.ctakes.dictionary.lookup2.util.FastLookupToken
+6435,org.apache.ctakes.dictionary.lookup2.util.TokenMatchUtil
+6437,org.apache.ctakes.dictionary.lookup2.ae.AbstractJCasTermAnnotator
+6448,org.apache.ctakes.core.cc.CASConsumerTestDriver
+6559,org.apache.ctakes.coreference.util.AnnotOffsetComparator
+6598,org.apache.ctakes.necontexts.status.StatusContextHitConsumer
+6607,org.apache.ctakes.core.fsm.output.StatusIndicator
+6608,org.apache.ctakes.necontexts.status.StatusContextAnalyzer
+6623,org.apache.ctakes.coreference.util.EditDistance
+6650,org.apache.ctakes.temporal.data.analysis.GoldRelationViewer
+6694,org.apache.ctakes.relationextractor.data.Splitter
+6743,org.apache.ctakes.core.fsm.adapters.NumberTokenAdapter
+6758,org.apache.ctakes.ytex.umls.dao.UMLSDaoImpl
+6831,org.apache.ctakes.drugner.fsm.machines.elements.RangeStrengthFSM
+6913,org.apache.ctakes.core.fsm.condition.DecimalCondition
+6914,org.apache.ctakes.drugner.fsm.elements.conditions.FractionStrengthCondition
+6915,org.apache.ctakes.drugner.fsm.output.util.RangeStrengthToken
+6918,org.apache.ctakes.ytex.kernel.evaluator.CacheKernel
+6944,org.apache.ctakes.ytex.kernel.evaluator.SymmetricPairCacheKeyGenerator
+6949,org.apache.ctakes.dictionary.lookup.lucene.LuceneDocumentMetaDataHitImpl
+6971,org.apache.ctakes.dictionary.lookup.AbstractBaseMetaDataHit
+6984,org.apache.ctakes.chunker.ae.PhraseTypeChunkCreator
+7015,org.apache.ctakes.preprocessor.Annotation
+7019,org.apache.ctakes.ytex.kernel.SvmlinEvaluationParser
+7087,org.apache.ctakes.temporal.utils.RunCorpusDiagnostics
+7132,org.apache.ctakes.assertion.cr.Span
+7156,org.apache.ctakes.ytex.kernel.tree.NodeMappingInfo
+7158,org.apache.ctakes.coreference.eval.helpers.PairType
+7167,org.apache.ctakes.assertion.attributes.features.GenericFeaturesExtractor
+7179,org.apache.ctakes.core.ae.FilterAnnotator
+7196,org.apache.ctakes.ytex.kernel.AbstractBagOfWordsExporter
+7267,org.apache.ctakes.ytex.kernel.BagOfWordsData
+7276,org.apache.ctakes.utils.xcas_comparison.XcasDiff
+7319,org.apache.ctakes.utils.xcas_comparison.XcasFile
+7320,org.apache.ctakes.utils.xcas_comparison.XcasAnnotation
+7321,org.apache.ctakes.utils.xcas_comparison.Const
+7336,org.apache.ctakes.dependency.parser.DependencyNodeWriter
+7366,org.apache.ctakes.ytex.kernel.FoldGeneratorImpl
+7488,org.apache.ctakes.ytex.kernel.model.CrossValidationFoldInstance
+7493,org.apache.ctakes.dictionary.lookup2.util.TuiCodeUtil
+7518,org.apache.ctakes.assertion.medfacts.cleartk.extractors.ContextWordWindowExtractor
+7578,org.apache.ctakes.temporal.pipelines.TimeExtractionPipeline
+7590,org.apache.ctakes.ytex.kernel.CytoscapeHelperImpl
+7676,org.apache.ctakes.ytex.kernel.model.ConcRel
+7711,org.apache.ctakes.assertion.medfacts.CasIndexer
+7743,org.apache.ctakes.coreference.util.ParentPtrTree
+7792,org.apache.ctakes.temporal.eval.EvaluationOfEventEventRelations
+7905,org.apache.ctakes.necontexts.NegationAnnotatorTests
+7919,org.apache.ctakes.smokingstatus.lookup.ae.NonSmokerNamedEntityLookupConsumerImpl
+7967,org.apache.ctakes.core.ae.SHARPKnowtatorXMLReader
+7975,org.apache.ctakes.core.util.CtakesFileNamer
+7991,org.apache.ctakes.assertion.train.CrossValidateAttributeModels
+8000,org.apache.ctakes.assertion.medfacts.i2b2.api.CharacterOffsetToLineTokenConverterCtakesImpl
+8083,org.apache.ctakes.assertion.medfacts.i2b2.api.ConstraintConstructorFindContainedBy
+8084,org.apache.ctakes.assertion.medfacts.i2b2.api.ConstraintConstructorFindContainedWithin
+8085,org.apache.ctakes.assertion.medfacts.i2b2.api.ConstraintConstructor
+8096,org.apache.ctakes.utils.xcas_comparison.XcasProcessor
+8174,org.apache.ctakes.drugner.fsm.machines.elements.DecimalStrengthFSM
+8200,org.apache.ctakes.core.fsm.condition.IntegerValueCondition
+8201,org.apache.ctakes.drugner.fsm.output.util.DecimalStrengthToken
+8215,org.apache.ctakes.ytex.uima.mapper.DocumentMapperServiceImpl
+8705,org.apache.ctakes.ytex.uima.model.DocumentAnnotation
+8706,org.apache.ctakes.ytex.uima.model.UimaType
+8708,org.apache.ctakes.ytex.uima.mapper.AnnoMappingInfo
+8709,org.apache.ctakes.ytex.uima.mapper.ColumnMappingInfo
+8756,org.apache.ctakes.core.fsm.adapters.CharacterTokenAdapter
+8763,org.apache.ctakes.temporal.eval.EvaluationOfClearTKTimeSpans
+8805,org.apache.ctakes.relationextractor.ae.features.FlatTreeFeatureExtractor
+8823,org.apache.ctakes.drugner.elements.StrengthUnitElement
+8836,org.apache.ctakes.temporal.ae.feature.treekernel.DependencySingleTreeExtractor
+8870,org.apache.ctakes.relationextractor.ae.features.TreeFragmentFeatureExtractor
+9095,org.apache.ctakes.relationextractor.ae.LocationOfRelationExtractorAnnotator
+9097,org.apache.ctakes.relationextractor.eval.SHARPXMI
+9098,org.apache.ctakes.relationextractor.eval.ParameterSettings
+9126,org.apache.ctakes.temporal.ae.THYMEAnaforaXMLReader
+9259,org.apache.ctakes.dictionary.lookup2.textspan.MultiTextSpan
+9281,org.apache.ctakes.relationextractor.ae.baselines.Baseline4EntityMentionPairRelationExtractorAnnotator
+9322,org.apache.ctakes.clinicalpipeline.ClinicalPipelineWithUmls
+9333,org.apache.ctakes.temporal.ae.feature.duration.DurationDistributionFeatureExtractor
+9352,org.apache.ctakes.dictionary.lookup2.consumer.SemanticCleanupTermConsumer
+9388,org.apache.ctakes.dictionary.lookup2.concept.Concept
+9390,org.apache.ctakes.dictionary.lookup2.consumer.AbstractTermConsumer
+9391,org.apache.ctakes.dictionary.lookup2.consumer.PrecisionTermConsumer
+9402,org.apache.ctakes.smokingstatus.ae.KuRuleBasedClassifierAnnotator
+9434,org.apache.ctakes.core.fsm.machine.RangeFSM
+9477,org.apache.ctakes.core.fsm.condition.IntegerCondition
+9478,org.apache.ctakes.core.fsm.condition.RomanNumeralCondition
+9479,org.apache.ctakes.core.fsm.output.RangeToken
+9484,org.apache.ctakes.examples.ae.ExampleHelloWorldAnnotator
+9503,org.apache.ctakes.dependency.parser.util.AnnotationDepUtils
+9605,org.apache.ctakes.ytex.kernel.ClassifierEvaluationResults
+9626,org.apache.ctakes.ytex.kernel.ClassifierEvaluationResult
+9631,org.apache.ctakes.jdl.common.FileUtilTest
+9658,org.apache.ctakes.ytex.kernel.tree.InstanceTreeBuilderImpl
+9730,org.apache.ctakes.ytex.weka.WekaBagOfWordsExporterImpl
+9860,org.apache.ctakes.dictionary.lookup.DictionaryException
+9867,org.apache.ctakes.ytex.uima.resource.InitableJdbcConnectionResourceImpl
+9930,org.apache.ctakes.dictionary.lookup2.util.collection.ImmutableCollectionMap
+9983,org.apache.ctakes.core.cpe.CmdLineCpeRunner
+10019,org.apache.ctakes.assertion.medfacts.cleartk.extractors.DependencyWordsFragmentExtractor
+10032,org.apache.ctakes.assertion.pipelines.GenerateDependencyRepresentation
+10033,org.apache.ctakes.assertion.util.AssertionDepUtils
+10034,org.apache.ctakes.assertion.util.AssertionTreeUtils
+10035,org.apache.ctakes.assertion.medfacts.cleartk.extractors.TreeFragmentFeatureExtractor
+10046,org.apache.ctakes.jdl.common.PropertiesFileTest
+10055,org.apache.ctakes.jdl.common.PropertiesFile
+10067,org.apache.ctakes.relationextractor.knowtator.Span
+10080,org.apache.ctakes.drugner.elements.DosageElement
+10093,org.apache.ctakes.temporal.ae.feature.coreference.DistanceFeatureExtractor
+10183,org.apache.ctakes.ytex.uima.annotators.SentenceSpan
+10253,org.apache.ctakes.temporal.data.analysis.PrintInconsistentAnnotations
+10302,org.apache.ctakes.ytex.ConceptDaoTest
+10322,org.apache.ctakes.ytex.kernel.SimSvcContextHolder
+10331,org.apache.ctakes.jdl.data.loader.XmlLoaderTest
+10344,org.apache.ctakes.jdl.data.base.JdlConnection
+10345,org.apache.ctakes.jdl.data.loader.XmlLoader
+10353,org.apache.ctakes.temporal.utils.SMOTEplus
+10403,org.apache.ctakes.temporal.ae.feature.TemporalAttributeForMixEventTimeExtractor
+10412,org.apache.ctakes.ytex.kernel.metric.IntrinsicRadaMetric
+10430,org.apache.ctakes.temporal.ae.feature.PredicateArgumentExtractor
+10452,org.apache.ctakes.assertion.train.PolarityCotrainingTests
+10474,org.apache.ctakes.assertion.train.PolarityCotrainingTrain
+10521,org.apache.ctakes.temporal.duration.PreserveCertainEventsInGold
+10533,org.apache.ctakes.ytex.umls.dao.UMLSDaoTest
+10542,org.apache.ctakes.core.fsm.token.adapter.NumberTokenAdapter
+10553,org.apache.ctakes.core.fsm.token.adapter.BaseTokenAdapter
+10559,org.apache.ctakes.ytex.weka.WekaAttributeEvaluatorImpl
+10660,org.apache.ctakes.ytex.weka.WekaFormatterFactory
+10737,org.apache.ctakes.coreference.eval.helpers.KAlphaType
+10758,org.apache.ctakes.core.util.SHARPKnowtatorXMLDefaults
+10762,org.apache.ctakes.drugner.fsm.elements.conditions.RangeDosageCondition
+10766,org.apache.ctakes.core.resource.JdbcConnectionResourceImpl
+10793,org.apache.ctakes.dictionary.lookup2.consumer.DefaultTermConsumer
+10844,org.apache.ctakes.dictionary.lookup2.concept.ConceptCode
+10845,org.apache.ctakes.dictionary.lookup2.util.CuiCodeUtil
+10846,org.apache.ctakes.dictionary.lookup2.util.SemanticUtil
+10853,org.apache.ctakes.dictionary.lookup2.concept.AbstractConceptFactory
+10870,org.apache.ctakes.relationextractor.ae.baselines.Baseline2EntityMentionPairRelationExtractorAnnotator
+10893,org.apache.ctakes.coreference.ae.MipacqMarkableExpander
+10949,org.apache.ctakes.drugner.elements.DurationElement
+10968,org.apache.ctakes.core.fsm.machine.StatusIndicatorFSM
+11015,org.apache.ctakes.temporal.ae.ClearTKDocTimeRelAnnotator
+11038,org.apache.ctakes.utils.wiki.Cache
+11171,org.apache.ctakes.utils.wiki.ApproximateSimilarity
+11172,org.apache.ctakes.utils.wiki.SearchResult
+11173,org.apache.ctakes.utils.wiki.ApproximateMath
+11209,org.apache.ctakes.temporal.ae.feature.selection.BinaryAlphaFeatureSelection
+11287,org.apache.ctakes.temporal.ae.feature.selection.FeatureSelection
+11306,org.apache.ctakes.dictionary.lookup2.dictionary.BsvRareWordDictionary
+11343,org.apache.ctakes.dictionary.lookup2.util.LookupUtil
+11345,org.apache.ctakes.dictionary.lookup2.dictionary.RareWordTermMapCreator
+11387,org.apache.ctakes.drugner.fsm.output.util.HyphenatedDrugToken
+11392,org.apache.ctakes.drugner.fsm.machines.elements.DrugChangeStatusFSM
+11556,org.apache.ctakes.drugner.fsm.elements.conditions.StrengthCondition
+11557,org.apache.ctakes.drugner.fsm.output.elements.DrugChangeStatusToken
+11570,org.apache.ctakes.temporal.ae.NEPredicateEventAnnotator
+11585,org.apache.ctakes.temporal.ae.TemporalEntityAnnotator_ImplBase
+11588,org.apache.ctakes.assertion.attributes.features.SubjectFeaturesExtractor
+11599,org.apache.ctakes.assertion.attributes.subject.SubjectAttributeClassifier
+11604,org.apache.ctakes.drugner.elements.FrequencyUnitElement
+11625,org.apache.ctakes.assertion.cr.XMLReader
+11710,org.apache.ctakes.assertion.cr.ArgumentInfo
+11711,org.apache.ctakes.assertion.cr.RelationInfo
+11717,org.apache.ctakes.relationextractor.ae.ModifierExtractorAnnotator
+11843,org.apache.ctakes.core.fsm.adapters.TextTokenAdapter
+11846,org.apache.ctakes.temporal.utils.TlinkTypeSet
+11867,org.apache.ctakes.temporal.utils.TlinkType
+11924,org.apache.ctakes.relationextractor.ae.features.DependencyPathFeaturesExtractor
+11925,org.apache.ctakes.relationextractor.ae.features.DependencyTreeFeaturesExtractor
+11926,org.apache.ctakes.relationextractor.ae.features.NamedEntityFeaturesExtractor
+11927,org.apache.ctakes.relationextractor.ae.features.PhraseChunkingExtractor
+11945,org.apache.ctakes.jdl.data.base.JdlConnectionTest
+11967,org.apache.ctakes.ytex.kernel.metric.LinMetric
+12002,org.apache.ctakes.utils.wiki.TestCosineSimilarity
+12022,org.apache.ctakes.core.util.FSUtil
+12095,org.apache.ctakes.dictionary.lookup.strtable.StringTableRowMetaDataHitImpl
+12106,org.apache.ctakes.ytex.kernel.InfoContentEvaluatorImpl
+12181,org.apache.ctakes.ytex.ws.SimServiceInfo
+12441,org.apache.ctakes.jdl.AppTest
+12451,org.apache.ctakes.ytex.kernel.dao.ClassifierEvaluationDaoImpl
+12635,org.apache.ctakes.ytex.kernel.model.ClassifierEvaluationIRStat
+12734,org.apache.ctakes.core.sentence.EndOfSentenceScannerImpl
+12735,org.apache.ctakes.core.sentence.SentenceDetectorCtakes
+12741,org.apache.ctakes.assertion.medfacts.cleartk.PolarityCleartkAnalysisEngine
+12761,org.apache.ctakes.assertion.medfacts.cleartk.extractors.AboveLeftFragmentExtractor
+12762,org.apache.ctakes.assertion.medfacts.cleartk.extractors.AssertionAboveLeftTreeExtractor
+12763,org.apache.ctakes.assertion.medfacts.cleartk.extractors.AssertionDependencyTreeExtractor
+12764,org.apache.ctakes.assertion.medfacts.cleartk.extractors.NegationDependencyFeatureExtractor
+12765,org.apache.ctakes.assertion.medfacts.cleartk.AssertionCleartkAnalysisEngine
+12787,org.apache.ctakes.ytex.kernel.evaluator.ConvolutionKernel
+12809,org.apache.ctakes.utils.distsem.DistanceMetrics
+12824,org.apache.ctakes.ytex.web.search.ConceptLookupBean
+12889,org.apache.ctakes.ytex.web.search.ConceptFirstWord
+12898,org.apache.ctakes.drugner.fsm.output.elements.StrengthToken
+12906,org.apache.ctakes.dictionary.lookup2.dictionary.DictionaryDescriptorParser
+13010,org.apache.ctakes.dictionary.lookup2.util.DefaultDictionarySpec
+13014,org.apache.ctakes.preprocessor.ae.CdaCasInitializer
+13066,org.apache.ctakes.core.ci.HyphenTextModifierImpl
+13067,org.apache.ctakes.core.ci.TextModification
+13078,org.apache.ctakes.core.ae.SimpleSegmentWithTagsAnnotator
+13110,org.apache.ctakes.relationextractor.ae.RelationExtractorAnnotatorsTest
+13340,org.apache.ctakes.dictionary.lookup.filter.StringPreLookupFilterImpl
+13341,org.apache.ctakes.dictionary.lookup.jdbc.JdbcDictionaryImpl
+13342,org.apache.ctakes.dictionary.lookup.lucene.LuceneDictionaryImpl
+13343,org.apache.ctakes.dictionary.lookup.strtable.StringTableDictionaryImpl
+13344,org.apache.ctakes.dictionary.lookup.strtable.StringTableFactory
+13357,org.apache.ctakes.sideeffect.ae.SESentenceFeatureAnnotator
+13427,org.apache.ctakes.utils.build.BuildPipelinePears
+13442,org.apache.ctakes.utils.build.BuildPear
+13445,org.apache.ctakes.smokingstatus.context.NamedEntityContextAnalyzer
+13466,org.apache.ctakes.assertion.train.ReadPreprocessTrainTestJudge
+13471,org.apache.ctakes.assertion.train.TrainAttributeModels
+13474,org.mitre.medfacts.uima.CreateAssertionZonerDescriptors
+13506,org.mitre.medfacts.uima.ZoneAnnotator
+13509,org.apache.ctakes.core.util.ParamUtil
+13530,org.apache.ctakes.drugner.elements.AssociatedPrimaryCodeElement
+13544,org.apache.ctakes.core.fsm.adapters.ContractionTokenAdapter
+13556,org.apache.ctakes.ytex.kernel.evaluator.NamedEntityNegationKernel
+13575,org.apache.ctakes.drugner.elements.StartDateElement
+13588,org.apache.ctakes.ytex.web.search.DocumentSearchResult
+13666,org.apache.ctakes.clinicalpipeline.runtime.BagOfAnnotationsGenerator
+13703,org.apache.ctakes.chunker.ChunkAdjusterTests
+13708,org.apache.ctakes.temporal.ae.feature.ParseFeatureExtractor
+13753,org.apache.ctakes.temporal.eval.EvaluationOfEventSpans
+13807,org.apache.ctakes.temporal.ae.DocTimeRelAnnotatorTest
+13824,org.apache.ctakes.clinicalpipeline.ClinicalPipelineFactory
+13827,org.apache.ctakes.dependency.parser.ae.ClearNLPDependencyParserAE
+13833,org.apache.ctakes.ytex.kernel.evaluator.SemanticSimKernel
+13875,org.apache.ctakes.ytex.kernel.evaluator.LinKernel
+13951,org.apache.ctakes.assertion.medfacts.cleartk.PolarityFedaCleartkAnalysisEngine
+13979,org.apache.ctakes.core.knowtator.KnowtatorAnnotation
+14019,org.apache.ctakes.ytex.sparsematrix.InstanceDataExporterImpl
+14051,org.apache.ctakes.assertion.medfacts.cleartk.extractors.BrownClusterFeatureFunction
+14066,org.apache.ctakes.core.fsm.adapters.NewlineTokenAdapter
+14071,org.apache.ctakes.ytex.semil.SemiLEvaluationParser
+14132,org.apache.ctakes.ytex.kernel.model.SemiLClassifierEvaluation
+14143,org.apache.ctakes.dependency.parser.ae.util.WriteClearNLPDescriptors
+14182,org.apache.ctakes.dependency.parser.ae.ClearNLPSemanticRoleLabelerAE
+14188,org.apache.ctakes.constituency.parser.ae.ConstituencyParser
+14189,org.apache.ctakes.contexttokenizer.ae.ContextDependentTokenizerAnnotator
+14190,org.apache.ctakes.core.ae.TokenizerAnnotatorPTB
+14191,org.apache.ctakes.postagger.POSTagger
+14200,org.apache.ctakes.ytex.kernel.IRMetrics
+14235,org.apache.ctakes.temporal.data.analysis.EventContextAnalysisPipeline
+14286,org.apache.ctakes.ytex.uima.annotators.SentenceDetectorTest
+14323,org.apache.ctakes.postagger.TagDictionaryCreator
+14367,org.apache.ctakes.dictionary.lookup.tools.CreateLuceneIndexForExampleDrugs
+14425,org.apache.ctakes.temporal.duration.PreserveCertainEventTimeRelationsInGold
+14447,org.apache.ctakes.assertion.medfacts.cleartk.AssertionSampleFeatureGenerator
+14460,org.apache.ctakes.jdl.common.PropFileTest
+14464,org.apache.ctakes.jdl.common.PropFile
+14465,org.apache.ctakes.jdl.test.PropFileMaps
+14469,org.apache.ctakes.ytex.kernel.metric.SokalSneathMetric
+14481,org.apache.ctakes.assertion.train.CrossValidateChi2GridSearch
+14629,org.apache.ctakes.ytex.kernel.metric.LCSPath
+14631,org.apache.ctakes.temporal.data.analysis.CoreferenceLinkDistanceAnalyzer
+14711,org.apache.ctakes.temporal.eval.EvaluationOfEventCoreference
+14715,org.apache.ctakes.core.cc.TokenOffsetsCasConsumer
+14815,org.apache.ctakes.temporal.ae.feature.TimeWordTypeExtractor
+14834,org.apache.ctakes.drugner.fsm.output.util.FractionToken
+14839,org.apache.ctakes.temporal.ae.feature.EventTimeRelationsFeaturesExtractor
+14859,org.apache.ctakes.assertion.eval.XMIReader
+14877,org.apache.ctakes.jdl.App
+14915,org.apache.ctakes.core.cr.XmiCollectionReaderCtakes
+14938,org.apache.ctakes.sideeffect.ae.SESentenceClassifierAnnotator
+14978,org.apache.ctakes.temporal.data.analysis.RelationContextViewerPipeline
+15044,org.apache.ctakes.temporal.ae.BackwardsTimeAnnotatorTest
+15053,org.apache.ctakes.dictionary.lookup.ae.UmlsDictionaryLookupAnnotator
+15055,org.apache.ctakes.drugner.fsm.machines.elements.DurationFSM
+15145,org.apache.ctakes.dictionary.lookup.phrasebuilder.VariantPhraseBuilderImpl
+15173,org.apache.ctakes.ytex.ws.ConceptSimilarityWebServiceImpl
+15211,org.apache.ctakes.ytex.web.search.SemanticSimRegistryBean
+15270,org.apache.ctakes.temporal.ae.feature.TemporalAttributeFeatureExtractor
+15271,org.apache.ctakes.temporal.ae.feature.TimeXPropertyRelationFeaturesExtractor
+15273,org.apache.ctakes.ytex.kernel.metric.RadaMetric
+15301,org.apache.ctakes.core.fsm.output.DateToken
+15349,org.apache.ctakes.ytex.kernel.IntrinsicInfoContentEvaluatorImpl
+15539,org.apache.ctakes.ytex.uima.annotators.NegexAnnotator
+15765,org.apache.ctakes.constituency.parser.ae.ParserEvaluationAnnotator
+15801,org.apache.ctakes.core.cr.LinesFromFileCollectionReader
+15804,org.apache.ctakes.ytex.kernel.model.ObjPair
+15814,org.apache.ctakes.core.fsm.condition.WordValueCondition
+15827,org.apache.ctakes.drugner.fsm.machines.elements.FractionStrengthFSM
+15881,org.apache.ctakes.drugner.fsm.output.util.FractionStrengthToken
+15884,org.apache.ctakes.temporal.ae.EventToClearTKEventAnnotator
+15892,org.apache.ctakes.dictionary.lookup2.concept.BsvConceptFactory
+15946,org.apache.ctakes.dictionary.lookup2.concept.MemConceptFactory
+15951,org.apache.ctakes.relationextractor.ae.NamedEntityFeaturesExtractorTest
+15960,org.apache.ctakes.core.fsm.condition.CombineCondition
+15970,org.apache.ctakes.temporal.duration.EventEventDurationStatistics
+16005,org.apache.ctakes.dependency.parser.util.Delim
+16018,org.apache.ctakes.ytex.kernel.Pair
+16032,org.apache.ctakes.dictionary.lookup2.dictionary.UmlsJdbcRareWordDictionary
+16045,org.apache.ctakes.dictionary.lookup2.util.UmlsUserApprover
+16046,org.apache.ctakes.dictionary.lookup2.dictionary.JdbcRareWordDictionary
+16129,org.apache.ctakes.assertion.cr.MiPACQKnowtatorXMLReader
+16442,org.apache.ctakes.core.knowtator.KnowtatorXMLParser
+16459,org.apache.ctakes.core.ae.SectionSegmentAnnotator
+16483,org.apache.ctakes.core.util.DocumentSection
+16505,org.apache.ctakes.relationextractor.ae.features.WordNetFeatureExtractor
+16612,org.apache.ctakes.constituency.parser.MaxentParserWrapper
+16642,org.apache.ctakes.assertion.eval.MergeGoldViewFromOneCasIntoInitialViewOfAnotherCas
+16711,org.apache.ctakes.assertion.cr.GoldEntityAndAttributeReader
+16773,org.apache.ctakes.coreference.util.PairAttributeCalculator
+16900,org.apache.ctakes.coreference.util.AnnotationCounter
+16901,org.apache.ctakes.coreference.util.TextMatch
+16943,org.apache.ctakes.temporal.duration.EventDurationDistribution
+17032,org.apache.ctakes.jdl.data.xml.DomParserTest
+17042,org.apache.ctakes.jdl.data.xml.DomParser
+17124,org.apache.ctakes.coreference.treekernel.training.TreeKernelTrainer
+17169,org.apache.ctakes.constituency.parser.treekernel.TreeKernel
+17171,org.apache.ctakes.coreference.treekernel.training.RowFillerThread
+17177,org.apache.ctakes.temporal.ae.TimexDischargeTimeAnnotator
+17218,org.apache.ctakes.dictionary.lookup.ae.LookupAnnotationToJCasAdapter
+17233,org.apache.ctakes.dictionary.lookup.filter.PostLookupFilterGroupImpl
+17249,org.apache.ctakes.necontexts.ContextHitConsumerAdapter
+17323,org.apache.ctakes.constituency.parser.util.CommandLineParserUtil
+17335,org.apache.ctakes.temporal.ae.feature.coreference.TokenFeatureExtractor
+17379,org.apache.ctakes.temporal.eval.EvaluationOfNEPredicateEventSpans
+17415,org.apache.ctakes.ytex.web.search.SemanticSimServiceBean
+17429,org.apache.ctakes.ytex.web.search.ConceptSearchServiceImpl
+17514,org.apache.ctakes.dictionary.lookup.tools.CreateLuceneIndexForSnomedLikeSample
+17547,org.apache.ctakes.relationextractor.ae.IdentifiedAnnotationExpander
+17672,org.apache.ctakes.ytex.tools.SetupAuiFirstWordTest
+17676,org.apache.ctakes.dependency.parser.ae.util.TestClearNLPAnalysisEngines
+17693,org.apache.ctakes.dependency.parser.util.SRLUtility
+17703,org.apache.ctakes.examples.pipelines.ExampleAggregatePipeline
+17712,org.apache.ctakes.assertion.medfacts.cleartk.CreateAssertionDescriptor
+17750,org.apache.ctakes.assertion.medfacts.cleartk.ConditionalCleartkAnalysisEngine
+17751,org.apache.ctakes.assertion.medfacts.cleartk.UncertaintyCleartkAnalysisEngine
+17752,org.apache.ctakes.assertion.medfacts.cleartk.SubjectCleartkAnalysisEngine
+17753,org.apache.ctakes.assertion.medfacts.cleartk.GenericCleartkAnalysisEngine
+17941,org.apache.ctakes.relationextractor.ae.features.PunctuationFeatureExtractor
+18045,org.apache.ctakes.drugner.ae.impl.NegContextInitializerImpl
+18075,org.apache.ctakes.drugner.fsm.machines.util.NegIndicatorFSM
+18101,org.apache.ctakes.drugner.elements.StrengthElement
+18114,org.apache.ctakes.dictionary.lookup2.ae.OverlapJCasTermAnnotator
+18219,org.apache.ctakes.assertion.util.SemanticClasses
+18230,org.apache.ctakes.temporal.ae.feature.ParseSpanFeatureExtractor
+18246,org.apache.ctakes.dictionary.lookup.algorithms.DirectPassThroughImpl
+18270,org.apache.ctakes.temporal.ae.baselines.F1BaselineEventTimeRelationAnnotator
+18329,org.apache.ctakes.dictionary.lookup.ae.ThreadedDictionaryLookupAnnotator
+18414,org.apache.ctakes.dictionary.lookup.ae.UmlsToSnomedDbConsumerImpl
+18417,org.apache.ctakes.temporal.data.analysis.EventPrinterPipeline
+18463,org.apache.ctakes.utils.build.InstallPipelineFromPears
+18480,org.apache.ctakes.utils.build.InstallPearSilently
+18483,org.apache.ctakes.ytex.kernel.evaluator.EqualityKernel
+18488,org.apache.ctakes.temporal.ae.feature.ListFeaturesExtractor
+18515,org.apache.ctakes.smokingstatus.ae.SentenceAdjuster
+18567,org.apache.ctakes.core.resource.LinesFromFileStringsResourceImpl
+18639,org.apache.ctakes.ytex.kernel.OrderedPair
+18643,org.apache.ctakes.ytex.web.search.DocumentSearchServiceImpl
+18817,org.apache.ctakes.jdl.data.loader.Loader
+18881,org.apache.ctakes.ytex.uima.annotators.SegmentRegexAnnotator
+18989,org.apache.ctakes.core.fsm.condition.NegateCondition
+18993,org.apache.ctakes.drugner.fsm.output.util.SuffixStrengthToken
+18998,org.apache.ctakes.ytex.R.RGramMatrixExporterImpl
+19185,org.apache.ctakes.core.nlp.tokenizer.Tokenizer
+19190,org.apache.ctakes.coreference.treekernel.training.KernelMatrixCompositor
+19223,org.apache.ctakes.temporal.pipelines.EventAndTimeExtractionPipeline
+19260,org.apache.ctakes.ytex.tools.DBAnnotationViewerMain
+19631,org.apache.ctakes.postagger.test.CpeTests
+19668,org.apache.ctakes.core.cr.FilesInDirectoryCollectionCyclicalReads
+19689,org.apache.ctakes.ytex.uima.TestUtils
+19705,org.apache.ctakes.ytex.uima.annotators.DBConsumer
+19715,org.apache.ctakes.temporal.ae.ContextualModalityAnnotatorTest
+19725,org.apache.ctakes.temporal.ae.ContextualModalityAnnotator
+19747,org.apache.ctakes.temporal.eval.EvaluationOfClearTKEventSpans
+19780,org.apache.ctakes.utils.kernel.LinearKernel
+19785,org.apache.ctakes.utils.kernel.PolyKernel
+19788,org.apache.ctakes.assertion.pipelines.GenerateTreeRepresentation
+19833,org.apache.ctakes.drugner.ae.CopyDrugAnnotator
+19878,org.apache.ctakes.dictionary.lookup2.concept.JdbcConceptFactory
+19950,org.apache.ctakes.dictionary.lookup2.util.JdbcConnectionFactory
+19978,org.apache.ctakes.temporal.duration.ExtractDurationsUsingContainsRelation
+20022,org.apache.ctakes.smokingstatus.machine.NegationFSM
+20266,org.apache.ctakes.temporal.ae.feature.duration.DurationEventTimeFeatureExtractor
+20272,org.apache.ctakes.smokingstatus.cc.RecordResolutionCasConsumer
+20306,org.apache.ctakes.smokingstatus.patientLevel.PatientLevelSmokingStatus
+20334,org.apache.ctakes.utils.kernel.Kernel
+20338,org.apache.ctakes.jdl.data.xml.jaxb.ObjectFactoryUtilTest
+20359,org.apache.ctakes.ytex.kernel.dao.StringArrayUserType
+20432,org.apache.ctakes.relationextractor.ae.features.PETFeatureExtractor
+20443,org.apache.ctakes.smokingstatus.ae.PcsClassifierAnnotator_libsvm
+20498,org.apache.ctakes.coreference.ae.MarkableProb
+20504,org.apache.ctakes.coreference.ae.MipacqSvmChainCreator
+20587,org.apache.ctakes.coreference.util.AbstractClassifier
+20592,org.apache.ctakes.ytex.uima.annotators.MetaMapToCTakesAnnotator
+20698,org.apache.ctakes.dictionary.lookup.AbstractBaseDictionary
+20699,org.apache.ctakes.dictionary.lookup.GenericMetaDataHitImpl
+20716,org.apache.ctakes.dictionary.lookup.BaseDictionaryImpl
+20818,org.apache.ctakes.ytex.kernel.metric.IntrinsicLCHMetric
+20833,org.apache.ctakes.relationextractor.ae.features.DependencyParseUtils
+20870,org.apache.ctakes.assertion.pipelines.SharpCorpusSplit
+20889,org.apache.ctakes.core.ae.CopyAnnotator
+20928,org.apache.ctakes.ytex.web.search.SemanticSimBean
+21052,org.apache.ctakes.jdl.data.loader.CsvLoader
+21116,org.apache.ctakes.ytex.kernel.metric.ConceptSimilarityServiceImpl
+21358,org.apache.ctakes.ytex.kernel.metric.LCHMetric
+21359,org.apache.ctakes.ytex.kernel.metric.IntrinsicPathMetric
+21360,org.apache.ctakes.ytex.kernel.metric.JaccardMetric
+21361,org.apache.ctakes.ytex.kernel.metric.WuPalmerMetric
+21362,org.apache.ctakes.ytex.kernel.metric.PageRankMetric
+21410,org.apache.ctakes.relationextractor.ae.baselines.Baseline1DegreeOfRelationExtractorAnnotator
+21438,org.apache.ctakes.assertion.medfacts.ConvertXMIAssertionsToi2b2Format
+21493,org.apache.ctakes.postagger.OpenNLPPOSCollectionReader
+21524,org.apache.ctakes.core.fsm.adapters.IntegerTokenAdapter
+21536,org.apache.ctakes.core.fsm.machine.FractionFSM
+21570,org.apache.ctakes.core.fsm.output.FractionToken
+21678,org.apache.ctakes.drugner.fsm.machines.elements.StrengthFSM
+21787,org.apache.ctakes.drugner.fsm.elements.conditions.StrengthUnitCombinedCondition
+21788,org.apache.ctakes.drugner.fsm.elements.conditions.StrengthUnitCondition
+21790,org.apache.ctakes.temporal.eval.EvaluationOfEventEventThymeRelations
+22002,org.apache.ctakes.core.cc.TokenFreqCasConsumer
+22062,org.apache.ctakes.assertion.eval.AnnotationStatisticsCompact
+22230,org.apache.ctakes.relationextractor.pipelines.RelationExtractorConsumer
+22300,org.apache.ctakes.dictionary.lookup.ae.OrangeBookFilterConsumerImpl
+22354,org.apache.ctakes.core.fsm.token.adapter.PunctuationTokenAdapter
+22357,org.apache.ctakes.core.fsm.token.adapter.CharacterTokenAdapter
+22360,org.apache.ctakes.temporal.ae.feature.treekernel.EventTimeFlatTreeFeatureExtractor
+22444,org.apache.ctakes.ytex.tools.ExportCAS
+22494,org.apache.ctakes.ytex.kernel.ImputedFeatureEvaluatorImpl
+22847,org.apache.ctakes.temporal.ae.baselines.TimidBaselineEventTimeRelationAnnotator
+22868,org.apache.ctakes.core.fsm.adapters.WordTokenAdapter
+22887,org.apache.ctakes.core.ae.TokenizerAnnotator
+22896,org.apache.ctakes.ytex.umls.model.MRREL
+22930,org.apache.ctakes.ytex.svmlight.SVMLightFormatterFactory
+23119,org.apache.ctakes.core.nlp.tokenizer.OffsetComparator
+23226,org.apache.ctakes.ytex.uima.annotators.SenseDisambiguatorAnnotator
+23321,org.apache.ctakes.coreference.util.SvmUtils
+23330,org.apache.ctakes.postagger.ClearNLPPOSTaggerAE
+23362,org.apache.ctakes.dependency.parser.util.ClearDependencyUtility
+23394,org.apache.ctakes.drugner.elements.RouteElement
+23421,org.apache.ctakes.dictionary.lookup.ae.LookupParseUtilitiesRefactor
+23531,org.apache.ctakes.ytex.tools.RunCPE
+23564,org.apache.ctakes.dictionary.lookup.tools.CreateLuceneIndexFromDelimitedFile
+23665,org.apache.ctakes.dictionary.lookup.MetaDataHitComparator
+23684,org.apache.ctakes.assertion.medfacts.cleartk.extractors.AboveRightFragmentExtractor
+23703,org.apache.ctakes.temporal.ae.feature.DependencyParseUtils
+23711,org.apache.ctakes.lvg.ae.LvgBaseTokenAnnotator
+23846,org.apache.ctakes.core.util.ListFactory
+23852,org.apache.ctakes.ytex.svmlight.SVMLightParser
+23918,org.apache.ctakes.relationextractor.pipelines.RelationExtractorPipelineSingleCas
+23926,org.apache.ctakes.ytex.web.search.DocumentViewBean
+23967,org.apache.ctakes.ytex.kernel.evaluator.NodeAttributeKernel
+24005,org.apache.ctakes.temporal.ae.feature.UnexpandedTokenFeaturesExtractor
+24024,org.apache.ctakes.ytex.kernel.ClassifierEvaluationImporter
+24056,data.pos.training.GeniaPosTrainingDataExtractor
+24352,org.apache.ctakes.dependency.parser.cr.DependencyFileCollectionReader
+24422,org.apache.ctakes.dependency.parser.util.DependencyRegex
+24528,org.apache.ctakes.drugner.elements.DrugChangeStatusElement
+24548,org.apache.ctakes.coreference.eval.helpers.CEAFType
+24555,org.apache.ctakes.core.ae.DocumentIdPrinterAnalysisEngine
+24562,org.apache.ctakes.ytex.uima.dao.SegmentRegexDaoImpl
+24569,org.apache.ctakes.core.fsm.output.PersonTitleToken
+24574,data.pos.dictionary.ListTags
+24629,org.apache.ctakes.relationextractor.eval.ModifierExtractorEvaluation
+24668,org.apache.ctakes.drugner.fsm.machines.util.HyphenatedDrugFSM
+24720,org.apache.ctakes.relationextractor.ae.features.EntitySpanFeatureExtractor
+24729,org.apache.ctakes.temporal.ae.feature.ChunkingExtractor
+24772,org.apache.ctakes.core.fsm.machine.MeasurementFSM
+24859,org.apache.ctakes.ytex.svmlight.SGTFormatterFactory
+24878,org.apache.ctakes.ytex.semil.SemiLFormatterFactory
+24899,org.apache.ctakes.temporal.eval.EvaluationOfClearTKRelations
+24958,org.apache.ctakes.temporal.ae.ClearTKLinkToTHYMELinkAnnotator
+24959,org.apache.ctakes.temporal.ae.TimexToClearTKTimexAnnotator
+24963,org.apache.ctakes.assertion.pipelines.GoldEntityAndAttributeReaderPipelineForSeedCorpus
+25063,org.apache.ctakes.assertion.cr.I2B2Challenge2010CollectionReader
+25065,org.apache.ctakes.ytex.weka.WekaResultsImporterImpl
+25123,org.apache.ctakes.coreference.eval.helpers.B3Type
+25130,org.apache.ctakes.temporal.ae.TemporalSequenceAnnotator_ImplBase
+25138,org.apache.ctakes.jdl.data.xml.DomUtilTest
+25158,org.apache.ctakes.ytex.tools.docanalyzer.DBAnnotationViewerDialog
+25367,org.apache.ctakes.drugner.elements.TextMentionElement
+25380,org.apache.ctakes.assertion.util.NegationManualDepContextAnalyzer
+25403,org.apache.ctakes.assertion.util.NegationDepRegex
+25444,org.apache.ctakes.ytex.uima.annotators.SegmentRegexTest
+25491,org.apache.ctakes.ytex.web.search.FullTextSearchBean
+25514,org.apache.ctakes.clinicalpipeline.runtime.BagOfCUIsGenerator
+25571,org.apache.ctakes.utils.env.EnvironmentVariable
+25576,org.apache.ctakes.dictionary.lookup2.ae.DictionaryLookupFactory
+25641,org.apache.ctakes.core.fsm.adapters.DecimalTokenAdapter
+25693,org.apache.ctakes.core.util.DateParser
+25719,org.apache.ctakes.drugner.fsm.output.elements.AssociatedCodeToken
+25724,org.apache.ctakes.ytex.kernel.SVMLinFormatterFactory
+25811,org.apache.ctakes.dictionary.lookup2.util.collection.ArrayListMap
+25906,org.apache.ctakes.chunker.ae.adjuster.ChunkAdjuster
+25956,org.apache.ctakes.relationextractor.pipelines.SelectiveRelationAnnotationViewer
+26050,org.apache.ctakes.ytex.web.search.SearchConfigBean
+26082,org.apache.ctakes.core.fsm.token.adapter.IntegerTokenAdapter
+26095,org.apache.ctakes.coreference.ae.MipacqMarkablePairGenerator
+26160,org.apache.ctakes.ytex.kernel.RRFtoWideTab
+26172,org.apache.ctakes.ytex.uima.lookup.ae.StemmedLookupAnnotationToJCasAdapter
+26193,org.apache.ctakes.assertion.medfacts.Converti2b2AnnotationsToCTAKES
+26257,org.apache.ctakes.assertion.medfacts.AssertionAnalysisEngine
+26260,org.apache.ctakes.drugner.fsm.machines.elements.RouteFSM
+26424,org.apache.ctakes.ytex.uima.annotators.SentenceDetector
+26538,org.apache.ctakes.dictionary.lookup.ae.UmlsToSnomedConsumerImpl
+26556,org.apache.ctakes.temporal.ae.feature.DocTimeRelFeatureExtractor
+26567,org.apache.ctakes.utils.xcas_comparison.Compare
+26581,org.apache.ctakes.ytex.uima.annotators.SparseDataExporterTest
+26607,org.apache.ctakes.temporal.ae.feature.CoveredTextToValuesExtractor
+26644,org.apache.ctakes.assertion.medfacts.cleartk.HistoryCleartkAnalysisEngine
+26663,org.apache.ctakes.assertion.train.PolarityDomainAdaptationTests
+26685,org.apache.ctakes.assertion.train.PolarityDomainAdaptationTrain
+26700,data.pos.training.GeniaPosTrainingDataExtractorTests
+26716,org.apache.ctakes.temporal.eval.RemoveTreeAlignedMentions
+26736,org.apache.ctakes.temporal.ae.feature.treekernel.SyntaticSingleTreeExtractor
+26808,org.apache.ctakes.preprocessor.ClinicalNotePreProcessorTest
+26841,org.apache.ctakes.core.fsm.adapters.SymbolTokenAdapter
+26847,org.apache.ctakes.ytex.uima.annotators.DBCollectionReaderTest
+26884,org.apache.ctakes.temporal.eval.EvaluationOfEventProperties
+26986,org.apache.ctakes.dictionary.lookup.ae.DirectLookupInitializerImpl
+27033,org.apache.ctakes.temporal.ae.THYMETreebankReader
+27158,org.apache.ctakes.temporal.data.analysis.TimexTreeAlignmentStatistics
+27188,org.apache.ctakes.temporal.utils.CheckKnowtatorAnnotations
+27208,org.apache.ctakes.relationextractor.data.CategoricalDistribution
+27330,org.apache.ctakes.dictionary.lookup2.concept.UmlsJdbcConceptFactory
+27350,org.apache.ctakes.dictionary.lookup2.term.SpannedRareWordTerm
+27370,org.apache.ctakes.ytex.kernel.SparseDataExporterImpl
+27490,org.apache.ctakes.assertion.medfacts.cleartk.AlternateCuePhraseAnnotator
+27525,org.apache.ctakes.assertion.medfacts.cleartk.CuePhrase
+27537,org.apache.ctakes.temporal.ae.ClearTKDocumentCreationTimeAnnotator
+27545,org.apache.ctakes.drugner.cc.ConsumeNamedEntityRecordModel
+27756,org.apache.ctakes.temporal.ae.feature.duration.DurationExpectationFeatureExtractor
+28090,org.apache.ctakes.smokingstatus.MLutil.GenerateTrainingData
+28158,org.apache.ctakes.assertion.medfacts.cleartk.TrainAssertionModel
+28213,org.apache.ctakes.core.fsm.condition.DecimalRangeCondition
+28223,org.apache.ctakes.temporal.ae.feature.treekernel.TemporalPathExtractor
+28395,org.apache.ctakes.dictionary.lookup.ae.FirstTokenPermLookupInitializerImpl
+28469,org.apache.ctakes.sideeffect.ae.PSESentenceAnnotator
+28495,org.apache.ctakes.clinicalpipeline.ae.ExtractionPrepAnnotator
+28545,org.apache.ctakes.core.cc.FilesInDirectoryCasConsumer
+28562,org.apache.ctakes.assertion.cr.XmiCollectionReaderCtakes
+28581,org.apache.ctakes.temporal.ae.TimexAdmissionTimeAnnotator
+28627,org.apache.ctakes.ytex.weka.GramMatrixExporterImpl
+28721,org.apache.ctakes.smokingstatus.context.negation.NegationContextAnalyzer
+28732,org.apache.ctakes.postagger.test.TagDictionaryCreatorTests
+28752,org.apache.ctakes.relationextractor.ae.baselines.Baseline3EntityMentionPairRelationExtractorAnnotator
+28826,org.apache.ctakes.core.resource.FileResourceImpl
+29021,org.apache.ctakes.core.ae.TokenizerAnnotatorPTBTests
+29112,org.apache.ctakes.dictionary.lookup.BaseMetaDataHitImpl
+29120,org.apache.ctakes.postagger.test.POSTaggerTests
+29128,org.apache.ctakes.jdl.AppJdlTest
+29141,org.apache.ctakes.jdl.test.SqlJdl
+29149,org.apache.ctakes.dictionary.assertion.CreateAssertionLuceneIndexFromDelimitedFile
+29238,org.apache.ctakes.core.fsm.machine.TimeFSM
+29274,org.apache.ctakes.core.fsm.condition.DayNightWordCondition
+29275,org.apache.ctakes.core.fsm.condition.HourMinuteCondition
+29601,org.apache.ctakes.core.ae.TokenConverter
+29767,org.apache.ctakes.dictionary.lookup.ae.DebugConsumerImpl
+29784,org.apache.ctakes.core.ci.HyphenTextModifierImplTests
+29884,org.apache.ctakes.assertion.attributes.features.selection.MutualInformationFeatureSelection
+30085,org.apache.ctakes.ytex.kernel.evaluator.CorpusKernelEvaluatorImpl
+30251,org.apache.ctakes.core.cc.SentenceTokensPrinter
+30444,org.apache.ctakes.drugner.fsm.machines.elements.FrequencyUnitFSM
+30991,org.apache.ctakes.preprocessor.DTDloader
+30994,org.apache.ctakes.constituency.parser.uima.co.ParserTreeWriterConsumer
+31075,org.apache.ctakes.core.fsm.token.adapter.DecimalTokenAdapter
+31081,org.apache.ctakes.core.fsm.adapters.PunctuationTokenAdapter
+31085,org.apache.ctakes.ytex.tools.DBPing
+31097,org.apache.ctakes.temporal.ae.EventTimeRelationAnnotatorTest
+31441,org.apache.ctakes.dictionary.lookup.filter.MetaDataPostLookupFilterImpl
+31477,org.apache.ctakes.relationextractor.ae.baselines.Baseline1EntityMentionPairRelationExtractorAnnotator
+31505,org.apache.ctakes.jdl.AppMain
+31537,org.apache.ctakes.ytex.libsvm.LibSVMUtilImpl
+31562,org.apache.ctakes.coreference.util.MarkableDepUtils
+31573,org.apache.ctakes.temporal.ae.baselines.PrecisionBaselineEventTimeRelationAnnotator
+31596,org.apache.ctakes.utils.xcas_comparison.ConvertAndCompare
+31664,org.apache.ctakes.relationextractor.knowtator.ArgumentInfo
+31667,org.apache.ctakes.ytex.kernel.evaluator.MethodCachingInterceptor
+31698,org.apache.ctakes.drugner.fsm.machines.util.StatusIndicatorFSM
+31783,org.apache.ctakes.lvg.ae.LvgAnnotator
+31917,org.apache.ctakes.lvg.resource.LvgCmdApiResourceImpl
+31919,org.apache.ctakes.temporal.duration.PreserveUMLSEventEventRelationsInGold
+32059,org.apache.ctakes.dictionary.lookup.filter.SetValuePostLookupFilterImpl
+32094,org.apache.ctakes.template.filler.ae.TemplateFillerAnnotator
+32380,org.apache.ctakes.chunker.ae.DefaultChunkCreator
+32381,org.apache.ctakes.core.ae.OverlapAnnotator
+32382,org.apache.ctakes.core.resource.LuceneIndexReaderResourceImpl
+32385,org.apache.ctakes.drugner.fsm.elements.conditions.FractionCondition
+32449,org.apache.ctakes.drugner.fsm.output.util.RangeToken
+32454,org.apache.ctakes.necontexts.ContextAnnotatorTests
+32478,org.apache.ctakes.temporal.data.analysis.PrintFailedTimeNormalizations
+32579,org.apache.ctakes.ytex.kernel.ClassifierEvalUtil
+32742,org.apache.ctakes.drugner.elements.AssociatedCodeElement
+32755,org.apache.ctakes.drugner.fsm.elements.conditions.DecimalStrengthStatusCondition
+32776,org.apache.ctakes.jdl.data.xml.SaxParser
+32804,org.apache.ctakes.coreference.eval.helpers.MatType
+32818,data.chunk.genia.Genia2PTB
+32847,org.apache.ctakes.temporal.data.analysis.CompareFeatureStructures
+33001,org.apache.ctakes.ytex.uima.annotators.DBConsumerTest
+33030,org.apache.ctakes.dictionary.lookup.filter.TruncateCollectionFilterImpl
+33040,org.apache.ctakes.ytex.kernel.dao.ConceptDaoImpl
+33199,org.apache.ctakes.assertion.medfacts.i2b2.api.SingleDocumentProcessorCtakes
+33240,org.apache.ctakes.temporal.ae.feature.IdentifiedAnnotationFeatureExtractor
+33287,org.apache.ctakes.ytex.kernel.evaluator.TreePrinter
+33303,org.apache.ctakes.ytex.kernel.evaluator.AttributeProductKernel
+33311,org.apache.ctakes.ytex.kernel.dao.SortedSetUserType
+33371,org.apache.ctakes.relationextractor.eval.PrintRelationStatistics
+33407,org.apache.ctakes.relationextractor.ae.features.ArgumentOrderFeatureExtractor
+33418,org.apache.ctakes.core.cc.CasConsumer
+33526,org.apache.ctakes.dependency.parser.ae.util.XMIReader
+33540,org.apache.ctakes.drugner.fsm.elements.conditions.DosageCondition
+33543,org.apache.ctakes.drugner.fsm.output.elements.DosageToken
+33545,org.apache.ctakes.jdl.AppMainTest
+33565,data.chunk.Chunklink2OpenNLP
+33620,org.apache.ctakes.drugner.fsm.elements.conditions.DrugChangeStatusCondition
+33646,org.apache.ctakes.ytex.kernel.wsd.WordSenseDisambiguatorImpl
+33769,org.apache.ctakes.drugner.fsm.output.elements.ConfidenceScoreToken
+33774,org.apache.ctakes.core.fsm.machine.DateFSM
+33837,org.apache.ctakes.chunker.ChunkerTests
+33842,org.apache.ctakes.core.cr.JdbcCollectionReader
+33931,org.apache.ctakes.lvg.test.TestLvgAnnotator
+33942,org.apache.ctakes.core.fsm.machine.PersonTitleFSM
+33983,org.apache.ctakes.ytex.kernel.evaluator.ProductKernel
+33996,org.apache.ctakes.temporal.pipelines.EventPrintingPipeline
+34040,org.apache.ctakes.ytex.uima.model.DocumentClass
+34042,org.apache.ctakes.temporal.duration.PreserveUMLSEventTimeRelationsInGold
+34067,org.apache.ctakes.ytex.uima.lookup.ae.FirstTokenPermLookupInitializerImpl
+34151,org.apache.ctakes.temporal.duration.PreserveCertainEventEventRelationsInGold
+34167,org.apache.ctakes.temporal.ae.feature.duration.DurationEventEventFeatureExtractor
+34182,org.mitre.medfacts.uima.CreateZonerDescriptor
+34202,org.apache.ctakes.drugner.DrugMention
+34510,org.apache.ctakes.dictionary.lookup.strtable.FieldConstraintImpl
+34535,org.apache.ctakes.core.cc.HtmlTableCasConsumer
+34637,org.apache.ctakes.ytex.web.search.FullTextDocumentViewBean
+34660,org.apache.ctakes.dictionary.lookup.ae.ThreadedUmlsDictionaryLookupAnnotator
+34689,org.apache.ctakes.core.ae.NullAnnotator
+34693,org.apache.ctakes.utils.struct.CounterTreeMap
+34707,org.apache.ctakes.smokingstatus.lookup.ae.UnknownSmokerNamedEntityLookupConsumerImpl
+34729,org.apache.ctakes.ytex.uima.model.BooleanUtil
+34991,org.apache.ctakes.temporal.ae.EventCoreferenceAnnotator
+35056,org.apache.ctakes.temporal.ae.feature.coreference.StringMatchingFeatureExtractor
+35107,org.apache.ctakes.assertion.medfacts.cleartk.extractors.CueWordTest2
+35169,org.apache.ctakes.coreference.cc.PreprocessAndWriteXmi
+35386,org.apache.ctakes.assertion.medfacts.cleartk.extractors.UncertaintyFeatureExtractor
+35388,org.apache.ctakes.ytex.web.search.SemanticSearchBean
+35476,org.apache.ctakes.coreference.util.GoldStandardLabeler
+35529,org.apache.ctakes.assertion.medfacts.cleartk.extractors.SRLFeatureExtractor
+35562,org.apache.ctakes.assertion.attributes.SubjectAttributeAnalysisEngine
+35572,org.apache.ctakes.ytex.uima.annotators.SenseDisambiguatorAnnotatorTest
+35616,org.apache.ctakes.ytex.umls.model.MRCONSO
+35978,org.apache.ctakes.core.fsm.token.adapter.TokenConverter
+35988,org.apache.ctakes.core.fsm.token.adapter.WordTokenAdapter
+35991,org.apache.ctakes.core.cc.NormalizedFilesInDirectoryCasConsumer
+36012,org.apache.ctakes.temporal.ae.baselines.RecallBaselineEventEventRelationAnnotator
+36046,org.apache.ctakes.temporal.duration.EventTimeDurationStatistics
+36154,org.apache.ctakes.relationextractor.pipelines.RelationAnnotationViewer
+36223,org.mitre.medfacts.uima.RunZoner
+36265,org.apache.ctakes.core.cr.TextReader
+36268,org.apache.ctakes.drugner.fsm.machines.elements.DosagesFSM
+36358,org.apache.ctakes.drugner.fsm.elements.conditions.FormCondition
+36364,org.apache.ctakes.ytex.uima.dao.NamedEntityRegexDaoImpl
+36371,org.apache.ctakes.relationextractor.ae.features.PrepositionFeatureExtractor
+36471,org.apache.ctakes.temporal.eval.EvaluationOfClearTKEventProperties
+36626,org.apache.ctakes.core.fsm.machine.RomanNumeralFSM
+36702,org.apache.ctakes.temporal.ae.feature.FramesetCategoryExtractor
+36758,org.apache.ctakes.dictionary.lookup.ae.AssertionCuePhraseConsumerImpl
+36817,org.apache.ctakes.drugner.fsm.machines.util.SuffixFrequencyFSM
+37246,org.apache.ctakes.temporal.ae.CoreferenceChainAnnotator
+37341,org.apache.ctakes.temporal.ae.feature.selection.MutualInformationFeatureSelection
+37435,org.apache.ctakes.utils.kernel.RBFKernel
+37506,org.apache.ctakes.temporal.ae.feature.selection.Chi2FeatureSelection
+37667,org.apache.ctakes.ytex.kernel.evaluator.SemanticTypeKernel
+37717,org.apache.ctakes.drugner.ae.DrugMentionAnnotator
+38596,org.apache.ctakes.drugner.fsm.machines.util.SuffixStrengthFSM
+38600,org.apache.ctakes.assertion.medfacts.cleartk.extractors.SurroundingExtractor
+38622,org.apache.ctakes.drugner.fsm.machines.util.NonIndicatorFSM
+38657,org.apache.ctakes.drugner.fsm.output.util.NonIndicator
+38660,org.apache.ctakes.ytex.kernel.pagerank.PageRankServiceImpl
+38825,org.apache.ctakes.core.resource.StringIntegerMapResourceImpl
+39000,org.apache.ctakes.relationextractor.pipelines.TreeFeatureConsumer
+39055,org.apache.ctakes.temporal.data.analysis.PrintNormalizedTemporalExpressions
+39067,org.apache.ctakes.ytex.kernel.evaluator.SumKernel
+39216,org.apache.ctakes.assertion.eval.TestFeatureSelection
+39225,org.apache.ctakes.core.ae.TestCDASegmentAnnotator
+39259,org.apache.ctakes.dictionary.lookup.ae.UmlsToSnomedLuceneConsumerImpl
+39347,org.apache.ctakes.temporal.ae.EventAnnotatorTest
+39376,org.apache.ctakes.jdl.data.loader.CsvLoaderTest
+39391,org.apache.ctakes.coreference.treekernel.training.LinearKernelMatrixWriter
+39483,org.apache.ctakes.assertion.pipelines.GoldEntityAndAttributeReaderPipeline
+39524,org.apache.ctakes.assertion.medfacts.cleartk.extractors.CueWordTest
+39577,org.apache.ctakes.temporal.ae.feature.selection.OddsRatioFeatureSelection
+39658,org.apache.ctakes.jdl.common.Singleton
+39663,org.apache.ctakes.ytex.uima.annotators.DictionaryLookupAnnotatorTest
+39690,org.apache.ctakes.ytex.KernelLauncher
+39773,org.apache.ctakes.ytex.weka.ExportGramMatrix
+39778,org.apache.ctakes.temporal.ae.EventEventRelationAnnotatorTest
+39804,org.apache.ctakes.temporal.ae.feature.SyntacticParentFeatureExtractor
+39813,org.apache.ctakes.jdl.data.xml.jaxb.ObjectFactoryBindTest
+39838,org.apache.ctakes.relationextractor.pipelines.RelationExtractorTrain
+39896,org.apache.ctakes.ytex.kernel.evaluator.WeightedPolynomialMixingKernel
+39931,org.apache.ctakes.sideeffect.ae.SideEffectAnnotator
+40174,org.apache.ctakes.temporal.pipelines.FullTemporalExtractionPipeline
+40260,org.apache.ctakes.temporal.ae.baselines.TreeHeightBaseline
+40285,org.apache.ctakes.coreference.cc.ODIEVectorFileWriter
+40433,org.apache.ctakes.jdl.common.SingletonTest
+40586,org.apache.ctakes.postagger.test.OpenNLPPOSCollectionReaderTests
+*Edges: 1512
+26700 24056 3
+3431 3442 1
+35562 11599 1
+7167 3442 2
+7167 505 1
+3687 3699 2
+3687 505 1
+11588 11599 2
+11588 505 1
+5934 6018 5
+29884 6018 3
+3442 505 8
+3699 505 8
+11599 644 3
+11599 505 11
+5574 3340 1
+16711 359 2
+16711 11625 5
+16711 3340 1
+16129 13979 6
+16129 16442 1
+16129 10758 2
+5708 5760 1
+11625 7132 1
+11625 11710 3
+11625 11711 1
+2756 17753 3
+2756 12741 3
+2756 24963 5
+2756 17751 3
+2756 17752 3
+2756 26644 3
+2756 17750 3
+2756 6018 1
+2756 22062 27
+2756 3340 3
+16642 3340 1
+26257 7711 5
+26257 33199 2
+26257 8000 1
+1532 1583 1
+26193 26257 1
+26193 1583 1
+27490 27525 1
+27490 279 1
+12765 6018 2
+12765 16 7
+12765 3340 1
+17750 6018 1
+17750 5934 1
+17750 12765 2
+17753 7518 1
+17753 6018 1
+17753 5934 1
+17753 12765 2
+26644 7518 1
+26644 6018 1
+26644 5934 1
+26644 12765 2
+12741 7518 1
+12741 12764 1
+12741 6018 1
+12741 12762 1
+12741 5934 1
+12741 12763 1
+12741 12761 1
+12741 12765 2
+13951 7518 1
+13951 12764 1
+13951 12741 2
+13951 5934 1
+13951 12761 1
+13951 1852 4
+17752 6018 1
+17752 5934 1
+17752 12765 2
+17751 12762 1
+17751 12761 1
+17751 12765 2
+17751 7518 1
+17751 6018 1
+17751 5934 1
+17751 12763 1
+17751 10019 1
+12761 10035 2
+12761 278 1
+12761 19788 1
+12761 281 1
+23684 10035 2
+23684 278 1
+23684 10034 1
+23684 281 1
+12762 18219 2
+12762 10034 1
+12762 279 1
+12762 281 1
+12763 18219 2
+12763 10034 1
+12763 279 1
+12763 281 1
+12763 10033 1
+14051 279 1
+3405 644 1
+3405 279 1
+3405 505 4
+10019 10035 2
+10019 278 1
+10019 10034 1
+10019 281 1
+10019 10033 1
+12764 25380 4
+12764 505 2
+10035 280 1
+10035 18219 2
+10035 279 2
+8000 8083 2
+8000 8084 2
+8000 8085 3
+8083 8085 2
+8084 8085 2
+33199 8000 2
+10032 18219 2
+10032 10034 1
+10032 3340 1
+10032 279 1
+10032 281 1
+10032 10033 1
+19788 18219 4
+19788 10034 2
+19788 3340 1
+19788 279 1
+19788 281 7
+24963 20870 1
+7991 2756 1
+14481 2756 1
+2747 2757 1
+10452 2756 1
+10474 2756 1
+26663 12765 1
+26663 2756 1
+26685 2756 1
+6191 2756 1
+13466 13471 1
+13466 4107 1
+13466 6191 1
+13466 2757 1
+4107 2756 1
+13471 2756 1
+10033 281 10
+10033 505 2
+10034 6181 11
+10034 18219 5
+10034 281 9
+10034 277 6
+25403 24422 47
+25380 644 2
+25380 25403 2
+25380 505 1
+2766 279 1
+13824 2766 1
+13824 31783 1
+13824 17753 1
+13824 17751 2
+13824 936 1
+13824 17752 1
+13824 17750 1
+13824 14190 1
+13824 279 1
+13824 3459 1
+13824 15053 1
+13824 12741 2
+13824 25906 2
+13824 14191 1
+13824 26644 1
+13824 14189 1
+13824 13827 3
+9322 3340 1
+13666 3340 1
+25514 13666 3
+16612 278 4
+16612 3340 1
+14188 16612 1
+14188 279 1
+277 281 36
+17169 278 2
+17169 20334 1
+6181 278 2
+278 281 18
+14189 3359 14
+14189 22868 1
+14189 13544 1
+14189 33774 3
+14189 14066 1
+14189 33942 3
+14189 25641 1
+14189 21536 3
+14189 31081 1
+14189 36626 3
+14189 29238 3
+14189 26841 1
+14189 21524 1
+14189 24772 3
+14189 9434 3
+3460 3340 1
+3460 279 1
+20889 13509 1
+24555 3340 1
+32381 5149 2
+7967 13979 6
+7967 16442 1
+7967 10758 2
+16459 3340 1
+3459 12735 3
+3459 12734 4
+3459 943 10
+3459 279 1
+3446 3459 1
+3446 936 1
+936 3340 1
+912 936 2
+912 934 3
+13078 3340 1
+29601 1910 26
+22887 13509 1
+22887 29601 1
+22887 19185 4
+14190 6279 3
+29021 934 4
+33418 3340 1
+28545 3340 3
+34535 5149 2
+35991 3340 1
+30251 5149 1
+30251 3340 1
+14715 3340 1
+5757 3340 1
+13066 13067 14
+13066 19185 4
+13066 1910 5
+29784 279 1
+29784 13066 3
+19668 5791 4
+8756 2404 2
+13544 2404 2
+25641 6743 3
+21524 6743 3
+14066 8756 2
+6743 2404 2
+31081 8756 2
+26841 8756 2
+11843 2404 2
+22868 11843 2
+33774 2127 2
+33774 873 13
+33774 15960 3
+33774 15301 1
+33774 2611 6
+33774 18989 5
+33774 2124 5
+33774 872 2
+21536 873 5
+21536 2611 1
+21536 21570 1
+21536 872 2
+24772 873 7
+24772 2611 1
+24772 3372 1
+24772 2124 2
+24772 872 3
+3354 2127 3
+3354 2612 12
+3354 873 18
+3354 18989 1
+3354 3355 1
+3354 2123 4
+33942 873 3
+33942 2611 1
+33942 872 1
+33942 24569 1
+9434 873 6
+9434 2611 1
+9434 872 2
+9434 9479 1
+36626 873 2
+36626 4412 1
+10968 2613 5
+10968 6607 3
+10968 2612 3
+10968 873 9
+29238 873 5
+29238 2611 1
+29238 2544 1
+29238 2124 1
+29238 872 1
+29238 29275 1
+15301 3359 2
+21570 3359 2
+3372 3359 2
+3355 3359 2
+24569 3359 2
+9479 3359 2
+4412 3359 2
+6607 3359 2
+2544 3359 2
+2127 873 2
+10553 1910 4
+22357 10553 2
+22357 1910 2
+31075 10542 3
+31075 1910 2
+26082 10542 3
+26082 1910 2
+10542 10553 2
+10542 1910 2
+22354 22357 2
+22354 1910 1
+35978 26082 1
+35978 35988 1
+35978 22354 1
+35978 31075 1
+35978 1910 2
+35988 10553 2
+35988 1910 5
+16442 13979 2
+4979 5056 1
+4979 2282 3
+4979 648 29
+5056 2282 5
+23119 1910 10
+19185 23119 1
+19185 1910 89
+6279 5056 1
+6279 2282 2
+6279 648 2
+6279 4979 6
+6279 19185 1
+6279 1910 19
+32382 279 1
+7975 3340 1
+4940 4973 3
+10893 292 2
+10893 2461 3
+26095 291 1
+26095 3340 1
+26095 16773 2
+26095 2461 1
+20504 290 1
+20504 20587 4
+20504 292 2
+20504 20498 10
+20504 289 1
+20504 183 5
+20504 3340 1
+20504 2461 1
+40285 278 2
+40285 16773 1
+40285 292 2
+40285 281 1
+40285 183 4
+40285 279 2
+40285 3340 1
+40285 35476 3
+40285 2461 1
+40285 277 2
+32804 24548 1
+3590 3633 1
+5537 3590 7
+3633 3590 10
+5525 5537 3
+5525 3590 8
+39391 19785 1
+39391 19780 1
+39391 17171 3
+39391 37435 1
+39391 20334 1
+17171 20334 3
+17124 17169 2
+17124 17171 3
+288 291 8
+288 292 2
+288 2461 1
+4973 292 1
+291 292 2
+291 2461 1
+35476 5537 3
+35476 7743 3
+35476 3590 4
+2412 292 2
+2412 2461 1
+31562 292 1
+16773 16900 2
+16773 16901 4
+16773 4973 3
+16773 291 41
+183 280 1
+183 290 2
+183 288 1
+183 291 2
+183 278 1
+183 282 3
+183 292 2
+183 289 1
+183 279 1
+183 277 1
+289 282 5
+289 279 1
+289 16773 2
+289 292 2
+7336 3340 1
+13827 23362 1
+13827 279 4
+13827 505 1
+14182 23846 1
+14182 279 6
+17676 14143 1
+9503 281 22
+9503 505 2
+23362 505 1
+24422 644 2
+505 644 9
+29149 6279 5
+29149 1910 11
+20699 6971 1
+36758 2338 2
+36758 1676 5
+29767 1676 3
+1621 1682 4
+1621 1684 1
+1621 1676 5
+1621 1678 1
+26986 5324 1
+26986 18246 1
+26986 17218 2
+26986 15145 1
+28395 5149 2
+28395 5154 1
+28395 5324 1
+28395 17218 3
+28395 15145 1
+1684 13342 1
+1684 13340 1
+1684 5324 4
+1684 1682 1
+1684 13341 1
+1684 13343 1
+23421 13342 1
+23421 13340 1
+23421 5324 4
+23421 1682 1
+23421 13341 1
+23421 13343 1
+2820 2338 2
+2820 1676 2
+22300 2338 2
+22300 1676 1
+18329 18414 1
+18329 1682 5
+18329 1684 1
+18329 1676 2
+18329 1678 1
+34660 25571 4
+34660 18329 2
+15053 25571 4
+15053 279 1
+15053 1621 2
+26538 2338 2
+26538 1676 1
+18414 26538 2
+39259 13342 3
+39259 9860 1
+39259 26538 2
+18246 5324 3
+18246 1676 1
+5154 5327 1
+5154 5324 3
+5154 1676 1
+31441 9860 1
+31441 5324 3
+31441 501 2
+32059 501 2
+13341 20698 3
+13341 9860 2
+13341 20699 1
+13342 20698 1
+13342 9860 2
+13342 6949 1
+6949 6971 1
+2935 2955 4
+13343 20698 1
+13343 12095 1
+13343 2935 4
+13344 2955 1
+13344 2935 6
+12095 6971 1
+12095 2955 5
+23564 6279 5
+23564 1910 11
+1896 1910 5
+6437 12906 1
+6437 5149 1
+6437 6434 1
+6437 6301 2
+6417 2913 1
+6417 6434 1
+6417 6437 1
+6417 6435 1
+6417 4483 7
+18114 9259 1
+18114 2913 1
+18114 6434 1
+18114 6437 4
+18114 4483 15
+10853 9388 1
+15892 4884 1
+15892 9388 2
+15892 10845 1
+15892 11343 1
+15892 15946 1
+15892 7493 1
+9388 4884 1
+9388 9930 1
+9388 10846 1
+9388 10844 1
+19878 4884 1
+19878 9388 2
+19878 10845 1
+19878 19950 2
+19878 10853 2
+15946 9388 2
+15946 10845 1
+15946 10853 2
+27330 16045 1
+27330 9388 1
+27330 19878 1
+9390 9388 2
+9390 6301 1
+10793 9388 2
+10793 10845 1
+10793 10846 1
+10793 9390 2
+9391 9259 2
+9391 6301 1
+9391 10793 1
+9391 9390 2
+9352 9391 3
+9352 6301 2
+9352 9390 5
+4485 6434 5
+11306 6434 1
+11306 4475 1
+11306 11343 1
+11306 11345 1
+12906 13010 1
+16046 19950 2
+16046 4483 1
+16046 4485 2
+4475 4485 2
+11345 25811 1
+11345 11343 4
+11345 4483 1
+16032 16045 1
+16032 6434 1
+16032 16046 1
+27350 2913 1
+27350 4483 6
+6434 2913 1
+6435 4483 2
+16045 25571 4
+25811 2626 2
+25811 4935 2
+4884 2626 1
+4884 4935 1
+6301 2626 2
+6301 4935 2
+34202 5333 50
+34202 13575 4
+34202 11604 6
+34202 13530 6
+34202 18101 9
+34202 8823 5
+34202 3649 6
+34202 23394 6
+34202 24528 43
+34202 12022 20
+34202 15301 1
+34202 10949 6
+34202 25367 1
+34202 1863 3
+34202 10080 27
+19833 5149 1
+19833 12022 1
+19833 13509 2
+37717 5333 1
+37717 13509 1
+37717 25641 1
+37717 25693 1
+37717 26841 1
+37717 26260 3
+37717 21524 1
+37717 15055 3
+37717 4794 1
+37717 3359 11
+37717 22868 1
+37717 30444 3
+37717 6831 3
+37717 814 3
+37717 24528 4
+37717 12022 43
+37717 4409 28
+37717 5425 3
+37717 2022 3
+37717 38596 3
+37717 2614 1
+37717 5149 2
+37717 8174 3
+37717 36268 3
+37717 13544 1
+37717 34202 222
+37717 14066 1
+37717 2547 3
+37717 15827 3
+37717 31081 1
+37717 5807 1
+37717 11557 1
+37717 11392 3
+37717 21678 3
+18045 5149 1
+18045 3636 2
+18045 3359 2
+18045 1618 2
+18045 11843 1
+27545 12022 1
+8174 873 5
+8174 2611 2
+8174 8201 1
+8174 8200 1
+36268 2127 1
+36268 873 9
+36268 2123 5
+36268 872 4
+36268 2613 2
+36268 33543 2
+36268 2611 2
+36268 8200 1
+36268 2132 1
+11392 2613 4
+11392 873 57
+11392 2611 2
+11392 2123 3
+11392 872 37
+11392 11557 10
+15055 4877 2
+15055 873 15
+15055 2611 2
+15055 872 14
+814 875 1
+814 873 2
+814 872 1
+15827 873 15
+15827 5518 1
+15827 2611 6
+15827 15881 1
+15827 872 2
+2022 2131 3
+2022 2127 1
+2022 873 7
+2022 2124 1
+2022 2123 1
+2022 872 7
+2022 2132 1
+30444 4794 26
+30444 2127 14
+30444 873 117
+30444 15960 3
+30444 5518 2
+30444 18989 4
+30444 2124 9
+30444 2123 7
+30444 2613 68
+30444 2612 30
+30444 2611 49
+30444 8200 10
+30444 2132 5
+6831 873 19
+6831 2611 6
+6831 6915 2
+6831 872 10
+26260 2613 8
+26260 873 42
+26260 2611 12
+26260 5807 24
+26260 2123 4
+26260 872 27
+21678 2127 2
+21678 12898 3
+21678 873 8
+21678 2611 5
+21678 18989 1
+21678 872 1
+5425 5520 2
+5425 873 6
+5425 5518 2
+5425 2611 2
+5425 5519 2
+5425 2343 4
+5425 872 2
+5425 2132 2
+24668 873 3
+24668 11387 1
+24668 872 1
+18075 2613 5
+18075 2127 4
+18075 2612 16
+18075 873 26
+18075 18989 1
+18075 3355 2
+18075 2123 4
+38622 38657 2
+38622 2127 1
+38622 2612 2
+38622 873 6
+31698 2613 12
+31698 2127 1
+31698 6607 3
+31698 2612 5
+31698 873 20
+2547 2613 3
+2547 2127 3
+2547 2612 9
+2547 873 16
+2547 2611 5
+2547 2614 4
+36817 4405 2
+36817 2613 40
+36817 873 69
+36817 5518 1
+36817 2611 40
+36817 872 11
+38596 873 5
+38596 18993 1
+38596 2611 1
+38596 872 1
+25719 4409 2
+33769 4409 2
+33543 4409 2
+11557 4409 2
+4877 4409 2
+875 4409 2
+2131 4409 2
+4794 4409 2
+5807 4409 2
+12898 4409 2
+5519 4409 2
+5520 4409 2
+8201 4409 2
+15881 4409 2
+14834 4409 2
+11387 4409 2
+38657 3359 2
+6915 4409 2
+32449 4409 2
+2614 3359 2
+4405 4409 2
+18993 4409 2
+2132 873 2
+17703 13824 1
+17703 9484 1
+6063 10345 2
+6063 10344 2
+6063 6065 1
+6063 5880 2
+6063 21052 2
+6063 6066 1
+6063 6067 6
+29128 10344 4
+29128 6063 4
+29128 5880 1
+29128 29141 6
+31505 6063 2
+33545 10344 4
+33545 5880 1
+33545 29141 6
+33545 31505 4
+9631 6064 7
+14460 6064 1
+14460 14465 4
+14460 14464 2
+10046 10055 15
+10046 6064 2
+40433 39658 8
+11945 10344 12
+11945 5880 1
+21052 10344 5
+21052 18817 1
+39376 10344 1
+39376 5880 3
+39376 21052 4
+18817 10344 1
+10345 10344 8
+10345 6065 1
+10345 18817 2
+10331 10345 4
+10331 10344 1
+10331 6065 2
+10331 5880 3
+17032 6064 1
+17032 17042 4
+25138 6065 6
+25138 6064 2
+6067 6065 1
+6067 6066 1
+6067 6064 1
+6039 6065 2
+6039 6066 2
+6039 6064 2
+6039 6067 13
+39813 6064 1
+39813 5905 4
+5880 5905 5
+20338 5880 6
+20338 6064 1
+14465 14464 2
+31783 23846 1
+23711 23846 1
+33931 31783 1
+33931 14190 1
+33931 3459 1
+33931 936 1
+3636 1618 1
+2887 5149 3
+32454 2887 1
+32454 934 3
+1618 3359 2
+17249 1618 1
+3357 11843 1
+2537 3359 2
+2537 1618 2
+7905 934 1
+2874 934 1
+3345 3357 2
+3345 3359 2
+3345 1618 2
+3345 3354 2
+2529 2537 2
+6608 3357 2
+6608 6607 3
+6608 3359 6
+6608 1618 3
+6608 10968 2
+6598 1618 1
+6598 2537 2
+14191 279 1
+40586 934 23
+29120 934 2
+28732 14323 3
+4384 4385 46
+4384 30991 1
+26808 4385 1
+26808 4384 3
+4385 4387 2
+4385 7015 1
+4387 4389 1
+13014 4385 4
+13014 4384 1
+13014 13067 7
+4355 4385 4
+4355 4384 1
+3714 2244 1
+9095 2244 1
+11717 2244 1
+21410 3714 2
+21410 2524 1
+31477 2244 1
+31477 2524 1
+2491 2244 1
+2491 2524 2
+10870 2244 1
+10870 2524 2
+3263 2244 1
+28752 2244 1
+3704 3714 2
+3704 2524 3
+9281 2244 1
+9281 2524 3
+11924 20833 5
+11925 20833 1
+8805 6181 2
+8805 281 14
+8805 277 1
+20432 6181 4
+20432 281 1
+20432 277 3
+2246 6181 1
+8870 6181 4
+8870 280 1
+8870 278 1
+8870 279 1
+8870 281 1
+8870 277 3
+16505 420 2
+311 361 2
+311 359 1
+24629 9098 4
+24629 11717 2
+24629 9097 3
+3220 9098 4
+3220 9097 3
+9097 9098 1
+9097 3340 1
+361 31664 1
+361 10067 1
+361 360 2
+39838 24629 2
+39838 9097 2
+39838 3220 2
+39000 6181 4
+39000 281 2
+39000 277 5
+28469 3341 2
+28469 12022 2
+13357 12022 1
+13357 3340 1
+39931 3341 7
+39931 12022 5
+39931 3340 1
+39931 79 42
+3307 3341 1
+3307 3340 1
+4124 3341 1
+4124 3340 1
+3341 12022 7
+999 1169 3
+999 1165 1
+9402 279 2
+20272 20306 6
+13445 11843 1
+28721 13445 2
+28721 3359 2
+28721 1618 2
+28721 20022 2
+7919 2338 2
+7919 1676 3
+2312 2338 2
+2312 1676 3
+34707 2338 2
+34707 1676 3
+20022 2127 3
+20022 2612 12
+20022 873 18
+20022 18989 1
+20022 3355 1
+20022 2123 4
+1474 14815 1
+1474 11585 1
+1474 18230 2
+15044 13824 1
+15044 13827 1
+15044 1474 1
+1475 14815 1
+1475 18230 2
+1475 25130 1
+4089 2244 1
+4089 2247 1
+4090 2244 1
+1476 14815 1
+1476 11585 1
+19715 13824 1
+19715 6367 1
+19715 19725 1
+19715 13827 1
+19715 4092 1
+19715 1474 1
+4092 4459 3
+4092 4455 3
+4092 4457 3
+4092 4456 3
+4092 4454 3
+4092 4460 2
+4092 4458 3
+13807 13824 1
+13807 6367 1
+13807 13827 1
+13807 4092 1
+13807 1474 1
+4093 4459 3
+4093 4455 3
+4093 4457 3
+4093 4456 3
+4093 4454 3
+4093 4460 2
+4093 4458 3
+6367 11585 1
+6367 24729 3
+6367 10430 2
+6367 37506 1
+6367 11287 3
+6367 10353 3
+39347 13824 1
+39347 6367 1
+39347 13827 1
+34991 2244 2
+34991 2364 1
+4094 4459 3
+4094 4455 3
+4094 4457 3
+4094 4456 3
+4094 4454 3
+4094 4460 2
+4094 4458 3
+2186 2244 1
+2186 2247 1
+39778 13824 1
+39778 6367 1
+39778 2186 1
+39778 13827 1
+39778 1474 1
+3213 2244 1
+3213 2247 1
+31097 13824 1
+31097 6367 1
+31097 3213 1
+31097 13827 1
+31097 1474 1
+3214 2244 1
+3214 2247 1
+1477 1478 2
+1477 25130 1
+11570 11585 1
+4761 7967 1
+1478 14815 1
+1478 11585 1
+1478 18230 2
+1478 37506 1
+1478 11287 3
+1478 10353 3
+28581 4459 3
+28581 4455 3
+28581 4457 3
+28581 4454 3
+17177 4459 3
+17177 4455 3
+17177 4457 3
+17177 4454 3
+18270 2244 1
+31573 2244 1
+36012 2244 1
+3215 2244 1
+22847 2244 1
+40260 6181 1
+40260 2244 1
+2248 23703 4
+2250 23703 1
+2256 3340 1
+2261 2246 1
+13708 6181 2
+18230 6181 1
+39804 6181 2
+2252 6181 5
+2252 281 7
+2252 277 3
+4459 14815 3
+4459 15270 1
+2265 3399 4
+4460 3399 3
+24005 2246 1
+2364 2394 1
+2364 279 1
+2364 2393 2
+2364 2392 6
+2364 505 2
+3722 505 2
+34167 4510 4
+20266 4510 2
+27756 4510 2
+4489 4510 4
+11209 11287 5
+37506 11287 5
+37341 11287 3
+39577 11287 5
+8836 281 5
+22360 281 16
+26736 6181 3
+26736 6182 1
+26736 281 3
+26736 277 1
+6161 6181 4
+6161 6182 1
+6161 281 3
+6161 277 3
+6182 6181 5
+6182 281 6
+6182 277 3
+28223 6181 4
+28223 6182 1
+28223 281 3
+28223 277 1
+14631 2394 1
+14631 279 1
+14631 2393 1
+14631 2392 4
+6650 1485 1
+6650 4510 2
+32478 1485 2
+10253 1485 2
+39055 4510 1
+14978 1485 1
+27158 278 1
+27158 1485 2
+15970 1485 1
+15970 4510 2
+36046 1485 1
+36046 4510 2
+34151 4510 3
+14425 4510 5
+4510 279 1
+1480 1487 4
+36471 15884 1
+36471 11015 1
+36471 27537 1
+36471 1487 9
+19747 1487 4
+19747 1480 3
+24899 15884 1
+24899 24959 1
+24899 1487 4
+24899 24958 1
+24899 3223 2
+8763 1487 3
+8763 1480 3
+14711 34991 2
+14711 1487 5
+14711 37246 1
+14711 3223 6
+7792 2186 2
+7792 1487 5
+7792 3223 7
+21790 375 3
+21790 2186 2
+21790 1487 5
+21790 1485 3
+21790 3223 7
+21790 3215 1
+26884 19725 2
+26884 1487 10
+26884 4092 2
+13753 375 3
+13753 6367 4
+13753 1487 4
+13753 1480 3
+13753 1485 3
+13753 11287 1
+3222 3214 2
+3222 375 3
+3222 1487 5
+3222 1485 3
+3222 3223 7
+3222 3215 1
+3913 4089 2
+3913 4094 2
+3913 2186 2
+3913 4090 2
+3913 4092 2
+3913 3223 7
+3913 375 3
+3913 3214 2
+3913 4093 2
+3913 1487 4
+3913 1485 3
+3913 3215 1
+1381 1482 3
+1381 375 3
+1381 1477 3
+1381 1487 8
+1381 1480 3
+1381 1485 3
+17379 1487 5
+17379 1480 4
+17379 11570 1
+2986 3214 2
+2986 375 3
+2986 3213 2
+2986 1487 8
+2986 1485 3
+2986 3223 7
+3223 1487 3
+1482 1478 4
+1482 375 3
+1482 1477 2
+1482 1487 4
+1482 1480 4
+1482 1485 3
+1482 11287 1
+1487 31783 1
+1487 1929 1
+1487 27033 1
+1487 9126 2
+1487 279 1
+1487 1485 4
+1487 4761 1
+1487 15053 1
+4728 4761 1
+19223 6367 1
+19223 6368 2
+19223 1474 1
+6356 6367 1
+6356 6368 2
+40174 6367 1
+40174 3213 1
+40174 2186 1
+40174 6368 3
+40174 4092 1
+40174 1474 1
+6368 2766 1
+6368 936 1
+6368 14191 1
+6368 13824 1
+6368 14190 1
+6368 3459 1
+6368 13827 1
+6368 14189 1
+7578 6368 3
+7578 1474 1
+7087 3399 2
+7087 1485 1
+3219 11846 20
+3219 3218 9
+3219 11867 9
+11846 11867 3
+13427 13442 1
+18463 18480 1
+12809 2394 1
+12809 2392 4
+2392 2393 9
+2394 2392 6
+19780 19785 2
+19785 20334 2
+37435 20334 1
+280 281 4
+11171 11173 2
+12002 282 11
+12002 11173 1
+282 11172 1
+282 3399 2
+282 11173 1
+282 11038 1
+26567 7276 3
+26567 8096 3
+26567 7321 1
+31596 7276 3
+31596 8096 3
+31596 7319 1
+31596 7320 3
+31596 7321 1
+7276 7319 17
+7276 7320 10
+7319 8096 2
+7319 7320 17
+8096 7319 7
+8096 7320 4
+10302 10322 1
+10302 4707 4
+18998 1356 3
+18998 1355 6
+18998 1764 1
+7196 7267 16
+4237 1356 5
+4237 3575 15
+4237 4238 9
+4327 1356 2
+4327 1355 2
+4327 4328 13
+32579 1356 17
+24024 1764 1
+9605 9626 3
+7590 1356 1
+7590 5873 6
+7590 1764 1
+7590 7676 12
+7366 7488 1
+7366 1356 1
+7366 1350 1
+7366 1355 3
+7366 1764 1
+22494 1356 1
+22494 1355 8
+22494 1764 1
+22494 3578 11
+22494 1350 1
+22494 5873 11
+22494 7676 14
+22494 3576 12
+22494 3577 2
+12106 3578 2
+12106 1356 1
+12106 5873 3
+12106 1764 2
+12106 7676 7
+12106 3576 5
+15349 3578 1
+15349 1356 1
+15349 5873 14
+15349 1764 2
+15349 7676 33
+15349 3576 4
+1200 1356 1
+1200 1350 1
+1200 1355 4
+1200 1351 1
+27370 1355 9
+27370 1764 1
+27370 4328 20
+7019 4239 7
+7019 1356 1
+7019 3575 2
+7019 4237 13
+12451 4861 1
+12451 3578 5
+12451 3575 8
+12451 12635 2
+12451 1350 2
+12451 4238 10
+12451 3576 3
+12451 3577 1
+33040 5873 20
+33040 1764 1
+33040 7676 16
+4796 4861 3
+4796 1351 24
+4796 42 2
+12787 3780 4
+30085 2958 3
+30085 1351 7
+30085 42 3
+13875 13833 2
+13556 12787 2
+13556 3780 4
+23967 3780 4
+3746 3780 2
+33983 6918 1
+13833 6918 3
+13833 4707 1
+37667 6918 1
+39067 6918 1
+6944 18639 2
+33287 3780 2
+39896 3780 4
+900 902 14
+4707 4726 3
+4707 902 3
+21116 14469 1
+21116 5873 11
+21116 902 8
+21116 891 1
+21116 4707 8
+21116 4726 6
+21116 11967 2
+21116 14629 3
+21116 10322 1
+21116 21359 1
+21116 21362 1
+21116 3578 4
+21116 15273 1
+21116 21361 1
+21116 21360 1
+21116 20818 1
+21116 10412 1
+21116 7676 16
+21116 21358 1
+20818 900 3
+20818 902 1
+21359 900 3
+21359 902 1
+10412 900 3
+10412 902 1
+21360 900 3
+21360 902 1
+21358 900 3
+21358 902 3
+11967 900 3
+11967 5873 1
+11967 902 1
+21362 900 2
+21362 902 1
+891 900 3
+891 902 3
+15273 900 3
+15273 902 3
+14469 900 3
+14469 902 1
+21361 900 3
+21361 902 4
+12635 3575 4
+12635 4861 1
+4238 3575 3
+7676 15804 2
+7676 14629 4
+5873 7676 2
+1350 4861 2
+3576 4861 3
+3577 3578 6
+3578 3576 5
+4239 3575 1
+14132 3575 1
+38660 5873 19
+38660 1764 3
+38660 7676 15
+9658 4778 3
+9658 7156 4
+9658 2958 8
+9658 2980 13
+9658 3780 8
+4778 3780 3
+2958 2980 3
+33646 5873 1
+33646 7676 2
+33646 4707 2
+3790 1356 3
+3790 1355 8
+3790 1764 1
+4148 4239 13
+4148 3575 7
+4148 4237 17
+4148 4238 5
+14071 14132 9
+14071 3575 4
+14071 4237 15
+14071 1764 1
+14019 1355 8
+23852 4239 4
+23852 4148 2
+23852 3575 2
+23852 4237 3
+23852 4238 4
+22444 808 1
+6210 1764 2
+6210 6281 11
+6210 6279 3
+6210 1910 8
+17672 6281 1
+17672 6210 3
+665 808 3
+19689 4861 4
+26847 19689 1
+19705 808 1
+33001 19689 1
+33001 808 1
+2164 2176 1
+3901 3900 5
+3901 808 1
+3889 3900 4
+3889 3901 2
+18881 808 1
+18881 4403 1
+25444 18881 2
+25444 4403 10
+23226 808 3
+35572 23226 1
+35572 808 1
+26424 12735 3
+26424 12734 4
+26424 10183 11
+26424 279 1
+26424 13509 1
+26581 19689 2
+26581 4861 2
+26581 808 1
+4765 4774 1
+34067 5149 2
+34067 5154 1
+34067 5324 1
+34067 17218 2
+34067 15145 1
+8708 8709 6
+8215 4774 16
+8215 8709 19
+8215 8708 35
+8215 8706 3
+8215 8705 5
+8215 4861 1
+8705 4774 4
+8705 8706 4
+34040 4774 3
+9867 808 1
+12824 12889 15
+17429 12889 3
+35388 12889 14
+20928 14629 2
+20928 4726 3
+20928 15211 8
+20928 12824 18
+20928 12889 2
+20928 902 9
+20928 4707 3
+15211 17415 3
+6025 1764 1
+39773 1764 1
+28627 9730 1
+28627 1351 1
+1707 1764 2
+10559 3578 5
+10559 1356 4
+10559 1350 1
+10559 1764 1
+10559 3576 11
+9730 7267 14
+9730 7196 3
+25065 3575 6
+25065 2141 3
+15173 4726 1
+15173 15211 9
+15173 12181 3
+15173 4707 1

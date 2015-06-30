@@ -1,0 +1,114 @@
+*Vertics: 50
+22,org.apache.forrest.sourcetype.SourceTypeAction
+95,org.apache.forrest.sourcetype.SourceInfo
+96,org.apache.forrest.sourcetype.SourceType
+113,org.apache.forrest.forrestbot.webapp.action.BaseAction
+147,org.apache.forrest.forrestbot.webapp.Config
+148,org.apache.forrest.forrestbot.webapp.Constants
+156,org.apache.forrest.locationmap.WildcardLocationMapHintMatcher
+163,org.apache.forrest.locationmap.lm.LocationMap
+173,org.apache.forrest.sourceexists.SourceExistsSelector
+194,org.apache.forrest.forrestbot.webapp.action.LogoutAction
+226,org.apache.forrest.xni.XNIConfigurableFileGenerator
+284,org.apache.forrest.forrestbot.webapp.util.Executor
+302,org.apache.forrest.forrestbot.webapp.util.ExecutorThread
+322,org.apache.forrest.forrestbot.webapp.util.StreamGobbler
+373,org.apache.forrest.forrestbot.webapp.form.LoginForm
+380,org.apache.forrest.forrestbot.webapp.form.BaseDynaActionForm
+383,org.apache.forrest.locationmap.AbstractWrappingModule
+426,org.apache.forrest.locationmap.source.impl.LocationmapSourceFactory
+474,org.apache.forrest.sourcetype.DocDeclRule
+475,org.apache.forrest.sourcetype.ProcessingInstructionRule
+476,org.apache.forrest.sourcetype.XmlSchemaRule
+477,org.apache.forrest.sourcetype.DocumentElementRule
+483,org.apache.forrest.locationmap.lm.SelectNode
+515,org.apache.forrest.locationmap.lm.AbstractNode
+516,org.apache.forrest.locationmap.lm.LocatorNode
+517,org.apache.forrest.locationmap.lm.LocationNode
+518,org.apache.forrest.locationmap.lm.MatchNode
+519,org.apache.forrest.locationmap.lm.MountNode
+520,org.apache.forrest.locationmap.lm.ActNode
+539,org.apache.forrest.UncopiedFileSelector
+577,org.apache.forrest.locationmap.WildcardLocationMapMatcher
+658,org.apache.forrest.util.XPathTransformer
+759,org.apache.forrest.locationmap.RegexpLocationMapMatcher
+766,org.apache.forrest.forrestbot.webapp.action.ViewLogFrameAction
+776,org.apache.forrest.forrestbot.webapp.action.ViewLogBodyAction
+791,org.apache.forrest.forrestbot.webapp.util.Project
+798,org.apache.forrest.conf.ForrestConfModule
+884,org.apache.forrest.conf.AntProperties
+885,org.apache.forrest.conf.ForrestConfUtils
+932,org.apache.forrest.conf.SkinconfTransformer
+973,org.apache.forrest.forrestbot.webapp.action.ViewSummaryAction
+996,org.apache.forrest.forrestbot.webapp.dto.ProjectDTO
+1002,org.apache.forrest.forrestbot.webapp.action.ExecuteAction
+1095,org.apache.forrest.log.ForrestLogTargetFactory
+1107,org.apache.forrest.forrestbot.webapp.action.ViewLogHeaderAction
+1151,org.apache.forrest.locationmap.LocationMapModule
+1292,org.apache.forrest.util.IdGeneratorTransformer
+1354,org.apache.forrest.conf.AntPropertiesModule
+1435,org.apache.forrest.util.XPathTransformer
+1501,org.apache.forrest.locationmap.AbstractWrappingModule
+*Edges: 62
+1354 884 1
+798 885 5
+798 884 16
+885 884 3
+113 147 1
+113 148 1
+1002 996 4
+1002 284 2
+1002 791 8
+1002 113 3
+194 113 2
+776 147 2
+776 791 1
+776 113 2
+766 113 2
+1107 147 1
+1107 113 2
+973 791 4
+973 113 3
+373 380 2
+284 147 4
+284 302 1
+302 322 2
+791 147 4
+791 996 17
+322 147 1
+1151 163 9
+520 517 1
+520 518 1
+520 516 3
+520 483 1
+520 515 7
+163 519 4
+163 516 4
+517 516 2
+517 515 2
+516 518 1
+516 483 1
+516 163 5
+516 520 1
+516 515 6
+518 517 1
+518 516 3
+518 483 1
+518 520 1
+518 515 7
+519 163 8
+519 515 2
+483 519 1
+483 517 1
+483 518 1
+483 516 3
+483 520 1
+483 515 7
+1095 885 1
+474 95 2
+477 95 5
+475 95 5
+96 95 1
+22 95 6
+22 96 4
+476 95 5

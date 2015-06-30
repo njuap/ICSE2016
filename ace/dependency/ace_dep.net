@@ -1,0 +1,954 @@
+*Vertics: 407
+5,org.apache.ace.configurator.MockConfiguration
+33,org.apache.ace.client.repository.impl.ChangeNotifierManager
+51,org.apache.ace.client.repository.impl.ChangeNotifierImpl
+56,org.apache.ace.obr.servlet.MockBundleStore
+80,org.apache.ace.scheduler.SchedulerTask
+116,org.apache.ace.scheduler.Executer
+122,org.apache.ace.agent.logging.LogImpl
+141,org.apache.ace.log.LogEvent
+152,org.apache.ace.client.repository.impl.Artifact2FeatureAssociationImpl
+180,org.apache.ace.client.repository.impl.AssociationImpl
+181,org.apache.ace.client.repository.impl.ArtifactRepositoryImpl
+182,org.apache.ace.client.repository.impl.FeatureRepositoryImpl
+205,org.apache.ace.client.repository.impl.FilebasedBackupRepositoryTest
+219,org.apache.ace.repository.ext.impl.FilebasedBackupRepository
+220,org.apache.ace.test.utils.TestUtils
+224,org.apache.ace.client.repository.impl.AdminTestUtil
+234,org.apache.ace.client.repository.helper.bundle.impl.BundleHelperImpl
+365,org.apache.ace.client.repository.RepositoryUtil
+373,org.apache.ace.client.repository.helper.bundle.impl.VersionRange
+419,org.apache.ace.client.rest.RepositoryObjectSerializer
+494,org.apache.felix.framework.util.VersionRange
+533,org.apache.ace.processlauncher.impl.ProcessLauncherServiceImpl
+586,org.apache.ace.processlauncher.impl.LaunchConfigurationFactory
+596,org.apache.ace.log.server.ui.Activator
+621,org.apache.ace.log.server.ui.LogViewerExtension
+627,org.apache.ace.webui.vaadin.AddArtifactWindow
+946,org.apache.ace.webui.domain.OBREntry
+949,org.apache.ace.webui.vaadin.ResourceTable
+950,org.apache.ace.webui.vaadin.ArtifactTable
+971,org.apache.ace.webui.vaadin.VaadinResourceHandler
+998,org.apache.ace.processlauncher.impl.LaunchConfigurationImpl
+1048,org.apache.ace.agent.logging.LogFactory
+1068,org.apache.ace.agent.spi.ComponentFactoryBase
+1080,org.apache.ace.log.server.servlet.Activator
+1114,org.apache.ace.log.server.servlet.LogServlet
+1118,org.apache.ace.log.listener.MockLog
+1137,org.apache.ace.scheduler.Activator
+1164,org.apache.ace.scheduler.Scheduler
+1173,org.apache.ace.connectionfactory.impl.ConnectionFactoryImplTest
+1204,org.apache.ace.connectionfactory.impl.ConnectionFactoryImpl
+1205,org.apache.ace.connectionfactory.impl.UrlCredentials
+1206,org.apache.ace.connectionfactory.impl.UrlCredentialsFactory
+1221,org.apache.ace.target.management.ui.Activator
+1231,org.apache.ace.target.management.ui.TargetManagementExtension
+1233,org.apache.ace.log.target.LogImpl
+1243,org.apache.ace.authentication.impl.Activator
+1254,org.apache.ace.authentication.impl.AuthenticationServiceImpl
+1270,org.apache.ace.launcher.Main
+1394,org.apache.ace.useradmin.ui.editor.GroupNotFoundException
+1402,org.apache.ace.client.rest.Workspace
+1530,org.apache.ace.client.rest.RepositoryValueObject
+1559,org.apache.ace.client.repository.impl.TargetObjectImpl
+1587,org.apache.ace.client.repository.impl.RepositoryObjectImpl
+1602,org.apache.ace.log.target.LogSyncConfigurator
+1628,org.apache.ace.log.target.task.LogSyncTask
+1635,org.apache.ace.webui.domain.NamedDistributionObject
+1655,org.apache.ace.client.repository.impl.Activator
+1713,org.apache.ace.client.repository.stateful.impl.StatefulTargetRepositoryImpl
+1715,org.apache.ace.client.repository.impl.RepositoryAdminImpl
+1732,org.apache.ace.deployment.provider.repositorybased.DeploymentPackageVersionCollector
+1740,org.apache.ace.deployment.provider.repositorybased.BaseRepositoryHandler
+1745,org.apache.ace.deployment.provider.filebased.FileBasedProvider
+1866,org.apache.ace.deployment.provider.impl.ArtifactDataImpl
+1888,org.apache.ace.client.rest.Activator
+1899,org.apache.ace.client.rest.RESTClientServlet
+1903,org.apache.ace.location.upnp.ProvisioningDevice
+1960,org.apache.ace.location.upnp.UPnPLocationServiceWrapper
+1972,org.apache.ace.scheduler.ExecuterTest
+1999,org.apache.felix.framework.wiring.BundleCapabilityImpl
+2053,org.apache.felix.framework.capabilityset.SimpleFilter
+2054,org.apache.felix.framework.util.Util
+2055,org.apache.felix.framework.util.manifestparser.ManifestParser
+2063,org.apache.ace.agent.discovery.PropertyBasedDiscoveryFactory
+2077,org.apache.ace.agent.spi.OneComponentFactoryBase
+2141,org.apache.ace.deployment.verifier.impl.Activator
+2151,org.apache.ace.deployment.verifier.impl.VerifierServiceImpl
+2245,org.apache.ace.log.LogDescriptor
+2246,org.apache.ace.range.SortedRangeSet
+2260,org.apache.ace.agent.impl.Activator
+2283,org.apache.ace.agent.scheduler.impl.Scheduler
+2286,org.apache.ace.agent.impl.ManagementAgentFactoryImpl
+2290,org.apache.ace.agent.scheduler.impl.SchedulerTask
+2322,org.apache.ace.agent.scheduler.impl.Executer
+2329,org.apache.ace.authentication.processor.clientcert.ClientCertAuthenticationProcessor
+2397,org.apache.ace.it.repositoryadmin.BaseRepositoryAdminTest
+2536,org.apache.ace.it.IntegrationTestBase
+2571,org.apache.ace.it.authentication.AuthenticationTestBase
+2603,org.apache.ace.log.target.store.impl.LogStoreImpl
+2722,org.apache.ace.configurator.useradmin.task.Activator
+2733,org.apache.ace.configurator.useradmin.task.UpdateUserAdminTask
+2737,org.apache.ace.client.repository.helper.bundle.impl.BundleHelperTest
+2812,org.apache.ace.it.repository.Utils
+2868,org.apache.ace.log.target.store.impl.GatewayLogStoreTest
+2895,org.apache.ace.range.RangeIterator
+2903,org.apache.ace.range.Range
+2908,org.apache.ace.client.repository.helper.configuration.impl.ConfigurationHelperImpl
+2977,org.apache.ace.client.repository.helper.base.VelocityArtifactPreprocessor
+3090,org.apache.ace.log.util.Codec
+3095,org.apache.ace.log.target.store.impl.Activator
+3198,org.apache.felix.framework.resolver.Candidates
+3399,org.apache.felix.framework.wiring.BundleRequirementImpl
+3401,org.apache.felix.framework.resolver.ResolveException
+3402,org.apache.felix.framework.resolver.HostBundleRevision
+3403,org.apache.felix.framework.resolver.HostedCapability
+3404,org.apache.felix.framework.resolver.HostedRequirement
+3421,org.apache.ace.webui.domain.NamedTargetObject
+3444,org.apache.ace.consolelogger.Activator
+3452,org.apache.ace.consolelogger.Logger
+3459,org.apache.ace.log.target.Activator
+3467,org.apache.ace.log.target.LogConfigurator
+3471,org.apache.ace.webui.vaadin.LoginWindow
+3509,org.apache.ace.client.rest.RESTClientTest
+3530,org.apache.ace.discovery.property.Activator
+3563,org.apache.ace.discovery.property.PropertyBasedDiscovery
+3666,org.apache.ace.nodelauncher.amazon.JcloudsNodeLauncherConfig
+3782,org.apache.ace.connectionfactory.impl.UrlCredentialsFactoryTest
+3811,org.apache.ace.useradmin.ui.editor.impl.UserEditorImpl
+3889,org.apache.ace.useradmin.ui.editor.UserAlreadyExistsException
+3890,org.apache.ace.useradmin.ui.editor.UserDTO
+3891,org.apache.ace.useradmin.ui.editor.UserNotFoundException
+3917,org.apache.ace.authentication.processor.password.PasswordAuthenticationProcessor
+3962,org.apache.felix.framework.util.manifestparser.R4LibraryClause
+4046,org.apache.felix.framework.Logger
+4050,org.apache.ace.obr.metadata.bindex.Activator
+4058,org.apache.ace.obr.metadata.bindex.BIndexMetadataGenerator
+4060,org.apache.ace.client.repository.impl.DistributionRepositoryImpl
+4071,org.apache.ace.client.repository.impl.DistributionObjectImpl
+4072,org.apache.ace.client.repository.impl.ObjectRepositoryImpl
+4081,org.apache.ace.it.http.EchoServlet
+4092,org.apache.ace.agent.deployment.DeploymentServiceImpl
+4172,org.osgi.impl.bundle.obr.resource.ManifestEntry
+4199,org.osgi.impl.bundle.obr.resource.VersionRange
+4200,org.osgi.impl.bundle.obr.resource.Parameter
+4210,org.apache.ace.agent.impl.ConfigurationHelper
+4286,org.apache.ace.deployment.servlet.DeploymentServletTest
+4345,org.apache.ace.deployment.servlet.DeploymentServlet
+4351,org.apache.ace.log.LogEventTest
+4377,org.apache.ace.obr.storage.file.Activator
+4386,org.apache.ace.obr.storage.file.BundleFileStore
+4388,org.apache.ace.processlauncher.test.util.InputStreamRedirectorTest
+4432,org.apache.ace.processlauncher.util.InputStreamRedirector
+4435,org.apache.ace.processlauncher.test.impl.TestUtil
+4441,org.apache.ace.deployment.provider.filebased.FileBasedProviderTest
+4512,org.apache.ace.deployment.util.test.BundleStreamGenerator
+4513,org.apache.ace.test.utils.FileUtils
+4520,org.apache.ace.identification.property.PropertyBasedIdentificationTest
+4542,org.apache.ace.identification.property.PropertyBasedIdentification
+4548,org.apache.ace.nodelauncher.amazon.PortParseTest
+4557,org.apache.ace.nodelauncher.amazon.AmazonNodeLauncher
+4562,org.apache.ace.resourceprocessor.useradmin.impl.Processor
+4601,org.apache.ace.resourceprocessor.useradmin.impl.ResourceStore
+4615,org.apache.ace.deployment.verifier.impl.VerifyEnvironmentImpl
+4626,org.apache.ace.deployment.provider.repositorybased.RepositoryBasedProviderTest
+4793,org.apache.ace.deployment.provider.repositorybased.RepositoryBasedProvider
+4794,org.apache.ace.deployment.provider.repositorybased.MockDeploymentRepository
+4818,org.apache.ace.client.repository.impl.FeatureObjectImpl
+4980,org.apache.ace.deployment.verifier.ui.Activator
+4989,org.apache.ace.deployment.verifier.ui.ACEVerifierExtension
+4991,org.apache.ace.test.utils.NetUtils
+5008,org.apache.ace.identification.ifconfig.IfconfigIdentification
+5035,org.apache.ace.agent.deployment.DeploymentCheckTaskFactory
+5043,org.apache.ace.agent.deployment.DeploymentCheckTask
+5045,org.apache.ace.nodelauncher.ui.Activator
+5054,org.apache.ace.nodelauncher.ui.NodeLauncherPanelFactory
+5089,org.apache.ace.log.server.task.LogSyncTask
+5203,org.apache.ace.http.redirector.Activator
+5225,org.apache.ace.http.redirector.RedirectServlet
+5229,org.apache.ace.client.repository.helper.configuration.impl.Activator
+5257,org.apache.ace.log.server.store.impl.ServerLogStoreTester
+5284,org.apache.ace.log.server.store.impl.LogStoreImpl
+5312,org.apache.felix.framework.util.SecureAction
+5751,org.apache.ace.deployment.deploymentadmin.Activator
+5761,org.apache.ace.deployment.deploymentadmin.DeploymentAdminDeployer
+5763,org.apache.ace.log.target.task.LogSyncTaskTest
+5820,org.apache.ace.location.upnp.util.HostUtil
+5832,org.apache.ace.client.repository.impl.Distribution2TargetAssociationImpl
+5850,org.apache.ace.client.repository.impl.TargetRepositoryImpl
+5853,org.apache.ace.it.http.MockHttpService
+5875,org.apache.ace.processlauncher.test.impl.LaunchConfigurationTest
+5928,org.osgi.impl.bundle.obr.resource.RequirementImpl
+5985,org.osgi.impl.bundle.obr.resource.FilterImpl
+5987,org.osgi.impl.bundle.obr.resource.Tag
+6011,org.apache.ace.nodelauncher.ui.NodePanel
+6176,org.apache.ace.it.repositoryadmin.StatefulTargetRepositoryTest
+6349,org.apache.ace.location.upnp.LocationServiceImpl
+6382,org.apache.ace.webui.vaadin.component.MainActionToolbar
+6470,org.apache.ace.webui.vaadin.component.ConfirmationDialog
+6556,org.apache.ace.log.listener.ListenerImpl
+6646,org.apache.ace.log.server.store.mongo.MongoLogStore
+6726,org.apache.ace.builder.ArtifactData
+6771,org.apache.ace.client.repository.helper.user.impl.Activator
+6783,org.apache.ace.client.repository.helper.user.impl.UserHelperImpl
+6892,org.apache.felix.framework.resolver.ResolverImpl
+6893,org.apache.felix.framework.util.MapToDictionary
+6894,org.apache.ace.deployment.verifier.impl.VerifierBundleRevision
+6895,org.apache.ace.deployment.verifier.impl.VerifierResolverState
+6906,org.apache.ace.webui.domain.NamedFeatureObject
+7009,org.apache.ace.client.repository.helper.base.ArtifactPreprocessorBase
+7018,org.apache.ace.agent.deployment.DeploymentUpdateTaskFactory
+7025,org.apache.ace.agent.deployment.DeploymentUpdateTask
+7029,org.osgi.impl.bundle.bindex.Index
+7102,org.osgi.impl.bundle.obr.resource.BundleInfo
+7103,org.osgi.impl.bundle.obr.resource.RepositoryImpl
+7104,org.osgi.impl.bundle.obr.resource.ResourceImpl
+7116,org.apache.ace.client.repository.impl.ArtifactTest
+7141,org.apache.ace.client.repository.impl.MockHelper
+7172,org.apache.ace.agent.connection.ConnectionFactoryImpl
+7222,org.apache.ace.agent.connection.UrlCredentials
+7223,org.apache.ace.agent.connection.UrlCredentialsFactory
+7232,org.apache.ace.deployment.util.test.TestProvider
+7256,org.apache.ace.deployment.util.test.TestData
+7259,org.apache.ace.deployment.service.impl.Activator
+7288,org.apache.ace.deployment.service.impl.DeploymentServiceImpl
+7290,org.apache.ace.client.repository.stateful.impl.LogEventComparator
+7299,org.apache.ace.repository.ext.impl.RemoteRepository
+7349,org.apache.ace.location.upnp.actions.GetServerTypeAction
+7376,org.apache.ace.location.upnp.actions.StateVar
+7380,org.apache.ace.deployment.provider.repositorybased.BaseRepositoryHandlerTest
+7465,org.apache.ace.deployment.provider.repositorybased.DeploymentArtifactCollector
+7516,org.apache.felix.framework.capabilityset.CapabilitySet
+7517,org.apache.felix.framework.resolver.CandidateComparator
+7518,org.apache.felix.framework.util.manifestparser.R4Library
+7527,org.apache.ace.webui.vaadin.EditWindow
+7569,org.apache.ace.deployment.provider.filebased.Activator
+7578,org.apache.ace.log.server.store.mongo.Activator
+7603,org.apache.ace.authentication.impl.AuthenticationServiceImplTest
+7661,org.apache.ace.repository.task.Activator
+7670,org.apache.ace.repository.task.RepositoryReplicationTask
+7781,org.osgi.impl.bundle.obr.resource.CapabilityImpl
+7808,org.apache.ace.processlauncher.test.osgi.ProcessLauncherServiceIntegrationTest
+7890,org.apache.ace.webui.vaadin.component.TargetsPanel
+7936,org.apache.ace.webui.vaadin.Associations
+7937,org.apache.ace.webui.vaadin.component.BaseObjectPanel
+7963,org.apache.ace.repository.servlet.Activator
+7973,org.apache.ace.repository.servlet.RepositoryServlet
+7974,org.apache.ace.repository.servlet.RepositoryReplicationServlet
+7996,org.apache.ace.client.repository.impl.RepositoryAdminLoginContextImpl
+8068,org.apache.ace.processlauncher.test.impl.ProcessManagerImplTest
+8119,org.apache.ace.processlauncher.impl.ProcessManagerImpl
+8127,org.apache.ace.log.listener.LogCache
+8253,org.apache.ace.repository.ext.impl.CachedRepositoryImpl
+8255,org.apache.ace.deployment.provider.repositorybased.LRUMap
+8267,org.apache.ace.builder.DeploymentPackageBuilder
+8526,org.apache.ace.discovery.property.SimpleDiscoveryTest
+8543,org.apache.ace.location.upnp.util.Inspector
+8580,org.apache.ace.managementagent.Activator
+8651,org.apache.ace.deployment.task.Activator
+8652,org.apache.ace.connectionfactory.impl.Activator
+8653,org.apache.ace.identification.property.Activator
+8654,org.apache.ace.log.listener.Activator
+8656,org.apache.ace.configurator.Configurator
+8782,org.apache.ace.deployment.streamgenerator.impl.StreamTest
+8871,org.apache.ace.deployment.streamgenerator.impl.StreamGeneratorImpl
+9057,org.apache.ace.client.rest.LogEventSerializer
+9059,org.apache.ace.webui.vaadin.component.DistributionsPanel
+9105,org.apache.felix.framework.wiring.BundleWireImpl
+9124,org.osgi.impl.bundle.obr.resource.Manifest
+9243,org.osgi.impl.bundle.obr.resource.Native
+9416,org.apache.ace.deployment.servlet.AceRestException
+9440,org.apache.ace.deployment.provider.repositorybased.Activator
+9449,org.apache.ace.webui.vaadin.component.FeaturesPanel
+9483,org.apache.ace.repository.servlet.RepositoryServletBase
+9572,org.apache.ace.client.repository.impl.AssociationRepositoryImpl
+9646,org.apache.ace.client.repository.impl.DeploymentVersionRepositoryImpl
+9683,org.apache.ace.client.repository.impl.DeploymentVersionObjectImpl
+9684,org.apache.ace.client.repository.impl.DeploymentArtifactImpl
+9696,org.apache.ace.webui.vaadin.GenericAddWindow
+9725,org.apache.ace.bnd.LibraryIndexer
+9782,org.apache.ace.deployment.rp.autoconf.AutoConfTest
+9805,org.apache.ace.webui.vaadin.VaadinClient
+10147,org.apache.ace.webui.vaadin.component.ArtifactsPanel
+10151,org.apache.ace.discovery.upnp.Activator
+10160,org.apache.ace.discovery.upnp.UPnPBasedDiscovery
+10207,org.apache.ace.authentication.processor.basicauth.BasicHttpAuthenticationProcessor
+10242,org.apache.ace.authentication.processor.password.PasswordAuthenticationProcessorTest
+10290,org.apache.ace.client.repository.impl.TargetPropertyResolver
+10309,org.apache.ace.client.repository.impl.RepositoryPropertyResolver
+10342,org.apache.ace.it.repositoryadmin.ClientAutomationTest
+10362,org.apache.ace.it.http.ServletConfiguratorIntegrationTest
+10591,org.apache.ace.deployment.streamgenerator.impl.Activator
+10651,org.osgi.impl.bundle.obr.resource.StringSet
+10657,org.apache.ace.processlauncher.test.impl.StringSplitterTest
+10716,org.apache.ace.processlauncher.impl.StringSplitter
+10741,org.apache.ace.client.repository.impl.ACE308Test
+10776,org.apache.ace.tageditor.Activator
+10785,org.apache.ace.tageditor.ACETagEditorExtension
+10810,org.apache.ace.obr.servlet.Activator
+10818,org.apache.ace.obr.servlet.BundleServlet
+10821,org.apache.ace.ant.deploymentpackage.DeploymentPackageTask
+10885,org.apache.ace.connectionfactory.impl.UrlCredentialsTest
+10903,org.apache.ace.log.server.servlet.LogServletTest
+10953,org.apache.ace.deployment.DeploymentTest
+10978,org.osgi.service.obr.RepositoryPermission
+11007,org.apache.ace.scheduler.SchedulerTest
+11111,org.apache.ace.authentication.processor.clientcert.Activator
+11120,org.apache.ace.client.automation.AutoTargetOperator
+11197,org.apache.ace.resourceprocessor.useradmin.impl.UserAdminStore
+11317,org.apache.ace.client.repository.impl.RepositorySerializer
+11359,org.apache.ace.client.repository.impl.RepositorySet
+11381,org.apache.ace.location.upnp.Activator
+11447,org.apache.ace.log.server.store.tests.MongoLogStoreTest
+11536,org.apache.ace.it.ExampleTest
+11556,org.apache.ace.agent.logging.EventLoggerFactory
+11575,org.apache.ace.agent.logging.EventLoggerImpl
+11578,org.apache.ace.deployment.provider.repositorybased.RepositoryBasedProviderPerformanceTest
+11643,org.apache.ace.agent.identification.IfconfigIdentification
+11687,org.apache.ace.processlauncher.impl.ProcessLauncher
+11803,org.apache.ace.it.deployment.DeploymentIntegrationTest
+11896,org.apache.ace.deployment.servlet.Activator
+11900,org.apache.ace.agent.logging.LogStoreImpl
+12046,org.apache.ace.log.listener.LogTest
+12077,org.apache.ace.log.listener.LogProxy
+12108,org.apache.ace.webui.vaadin.VaadinServlet
+12173,org.apache.ace.agent.identification.ifconfigBasedIdentificationFactory
+12195,org.apache.ace.client.repository.impl.Distribution2TargetAssociationRepositoryImpl
+12219,org.apache.ace.client.repository.impl.RepositoryAdminLoginContextImplTest
+12296,org.apache.ace.agent.deployment.DeploymentServiceFactory
+12303,org.apache.ace.agent.itest.ManagementAgentTest
+12338,org.apache.ace.identification.ifconfig.Activator
+12369,org.apache.ace.authentication.processor.basicauth.BasicHttpAuthenticationProcessorTest
+12412,org.apache.ace.client.repository.impl.ModelTest
+12573,org.apache.ace.client.repository.impl.Artifact2FeatureAssociationRepositoryImpl
+12574,org.apache.ace.client.repository.impl.Feature2DistributionAssociationRepositoryImpl
+12605,org.apache.ace.client.repository.impl.CachedRepositoryImplTest
+12629,org.apache.ace.client.repository.impl.MockRepository
+12630,org.apache.ace.client.repository.impl.MockBackupRepository
+12640,org.apache.ace.it.repositoryadmin.TemplateProcessorTest
+12769,org.apache.ace.log.server.store.impl.Activator
+12908,org.apache.ace.authentication.processor.password.Activator
+12919,org.apache.ace.discovery.upnp.SimpleDiscoveryTest
+13111,org.apache.ace.webui.domain.NamedArtifactObject
+13258,org.apache.ace.deployment.verifier.ui.VerificationResult
+13350,org.apache.ace.client.repository.impl.Feature2DistributionAssociationImpl
+13369,org.apache.ace.client.automation.Activator
+13377,org.apache.ace.client.repository.impl.ArtifactObjectImpl
+13427,org.apache.ace.location.upnp.actions.GetServerLoadAction
+13763,org.apache.ace.client.repository.stateful.impl.StatefulTargetObjectImpl
+13777,org.apache.ace.obr.metadata.bindeximpl.BindexMetadataTest
+13800,org.apache.ace.useradmin.ui.test.UserEditorTest
+13951,org.apache.ace.deployment.service.impl.DeploymentServiceImplTest
+14048,org.apache.ace.identification.property.SimpleIdentificationTest
+14055,org.apache.ace.identification.ifconfig.IfconfigIdentificationTest
+14060,org.apache.ace.log.listener.LogTracker
+14196,org.apache.ace.location.upnp.actions.GetLocationAction
+14226,org.apache.ace.agent.deployment.DeploymentAdminDeployer
+14271,org.apache.ace.configurator.Activator
+14289,org.apache.ace.it.repository.RepositoryTest
+14358,org.apache.ace.log.LogDescriptorTest
+14490,org.apache.felix.framework.util.StringComparator
+14671,org.apache.ace.processlauncher.osgi.Activator
+14878,org.apache.ace.client.repository.helper.configuration.impl.ConfigurationHelperImplTest
+14918,org.apache.ace.processlauncher.test.impl.LaunchConfigurationFactoryTest
+15112,org.apache.ace.agent.launcher.Main
+15171,org.apache.ace.repository.impl.RepositoryImpl
+15231,org.apache.ace.configurator.serveruseradmin.Activator
+15270,org.apache.ace.client.repository.impl.MockCachedRepository
+15303,org.apache.ace.webui.vaadin.Activator
+15327,org.apache.ace.obr.servlet.BundleServletTest
+15411,org.apache.ace.http.listener.Activator
+15605,org.apache.ace.useradmin.ui.vaadin.UserAdminWindow
+15772,org.apache.ace.configurator.ConfiguratorTest
+15852,org.apache.ace.configurator.MockConfigAdmin
+15854,org.apache.ace.log.server.task.LogTaskTest
+15937,org.apache.ace.test.utils.Util
+15968,org.apache.ace.repository.impl.Activator
+15976,org.apache.ace.repository.impl.RepositoryFactory
+16102,org.apache.ace.tageditor.TagTableEntry
+16655,org.apache.ace.authentication.processor.clientcert.MemoryKeyStore
+16713,org.apache.ace.it.authentication.LogAuthenticationTest
+16762,org.apache.ace.client.repository.helper.base.VelocityArtifactPreprocessorTest
+16812,org.apache.ace.agent.identification.PropertyBasedIdentificationFactory
+16824,org.apache.ace.deployment.provider.repositorybased.CacheTest
+16839,org.apache.ace.discovery.property.PropertyBasedDiscoveryTest
+16992,org.apache.ace.agent.logging.LogSyncTask
+17038,org.apache.ace.obr.metadata.bindeximpl.VersionRangeTest
+17042,org.apache.ace.deployment.verifier.impl.VerifierTest
+17083,org.apache.ace.authentication.processor.basicauth.Activator
+17098,org.apache.ace.resourceprocessor.useradmin.impl.Activator
+17423,org.apache.felix.framework.resolver.ResolverWireImpl
+17426,org.apache.ace.it.useradminconfigurator.ConfiguratorTest
+17607,org.apache.ace.builder.DeploymentPackageBuilderTest
+17698,org.apache.ace.deployment.task.DeploymentUpdateTask
+17708,org.apache.ace.agent.identification.IdentifierBasedIdentificationFactory
+17741,org.apache.ace.useradmin.ui.osgi.Activator
+17754,org.apache.ace.useradmin.ui.vaadin.UserAdminButton
+17776,org.apache.ace.agent.deployment.DeploymentAdminDeployerFactory
+17783,org.apache.ace.repository.impl.RepositoryImplTest
+17851,org.apache.ace.deployment.task.DeploymentCheckTask
+17881,org.apache.felix.framework.util.manifestparser.ParsedHeaderClause
+17933,org.apache.ace.agent.logging.LogSyncTaskFactory
+17953,org.apache.ace.processlauncher.test.impl.ProcessLauncherServiceImplTest
+17972,org.apache.ace.it.log.LogIntegrationTest
+17996,org.apache.ace.nodelauncher.amazon.Activator
+18077,org.apache.ace.it.authentication.ObrAuthenticationTest
+18123,org.apache.ace.range.SortedRangeSetTest
+18141,org.apache.ace.agent.connection.ConnectionFactoryFactory
+18166,org.apache.ace.client.repository.helper.bundle.impl.Activator
+18289,org.apache.ace.obr.storage.file.MockMetadataGenerator
+18343,org.apache.ace.authentication.processor.clientcert.ClientCertAuthenticationProcessorTest
+18564,org.apache.ace.processlauncher.test.impl.ProcessLauncherTest
+19048,org.apache.ace.processlauncher.test.osgi.ProcessLauncherRespawnIntegrationTest
+19184,org.apache.ace.it.repositoryadmin.RepositoryAdminTest
+19306,org.apache.ace.client.rest.itest.RESTClientTest
+19518,org.apache.ace.agent.logging.LogStoreFactory
+19537,org.apache.ace.obr.storage.file.BundleFileStoreTest
+19698,org.apache.ace.log.server.task.Activator
+19740,org.apache.felix.framework.resolver.ResourceNotFoundException
+*Edges: 545
+18141 7172 1
+18141 1068 1
+18141 7223 1
+18141 2077 1
+7172 7222 6
+7172 7223 1
+7223 7222 3
+17776 1068 1
+17776 2077 1
+5035 1068 2
+5035 2077 1
+12296 1068 5
+12296 2077 1
+7018 1068 2
+7018 2077 1
+2063 1068 1
+2063 2077 1
+17708 1068 2
+17708 2077 1
+16812 1068 1
+16812 2077 1
+12173 1068 1
+12173 2077 1
+2260 2283 3
+2286 4210 8
+12303 2536 4
+11556 1068 3
+1048 1068 3
+122 141 4
+19518 1068 4
+19518 11900 1
+11900 141 5
+16992 2245 3
+16992 141 4
+16992 2895 4
+16992 2246 4
+17933 1068 9
+17933 16992 1
+2283 2290 10
+2290 2322 5
+2077 1068 1
+10821 8267 3
+1243 1254 1
+7603 1254 16
+12369 10207 16
+11111 2329 1
+18343 16655 8
+18343 2329 24
+10242 3917 21
+8267 6726 16
+17607 8267 16
+2977 7009 4
+16762 2977 14
+234 373 8
+234 365 4
+2737 234 8
+5229 2908 1
+2908 2977 2
+14878 2908 10
+6783 2977 2
+10741 7290 1
+10741 141 4
+1655 1713 1
+1655 1715 2
+152 182 3
+152 181 3
+152 180 4
+12573 9572 2
+12573 182 2
+12573 152 6
+12573 181 2
+13377 1587 14
+13377 181 5
+181 13377 6
+181 10290 2
+181 4072 9
+181 365 1
+7116 220 4
+7116 4072 3
+7116 7141 2
+7116 181 11
+180 4072 14
+180 1587 22
+9572 4072 5
+12605 224 14
+12605 8253 6
+33 51 1
+9683 1587 5
+9683 9684 2
+9646 9683 8
+9646 4072 5
+9646 9684 2
+9646 365 1
+5832 4060 3
+5832 5850 3
+5832 180 4
+12195 4060 2
+12195 9572 3
+12195 4072 1
+12195 5832 6
+12195 5850 2
+4071 1587 10
+4060 4072 2
+4060 4071 6
+13350 4060 3
+13350 182 3
+13350 180 4
+12574 4060 2
+12574 13350 6
+12574 9572 2
+12574 182 2
+4818 1587 10
+182 4072 2
+182 4818 6
+205 224 6
+205 219 6
+12630 224 3
+15270 2246 1
+12629 224 1
+12629 2246 2
+12412 12573 2
+12412 4072 41
+12412 1715 3
+12412 4060 2
+12412 220 13
+12412 182 2
+12412 365 1
+12412 5850 2
+12412 12195 2
+12412 11359 6
+12412 181 15
+12412 12574 2
+12412 9646 10
+12412 9572 12
+12412 11317 12
+12412 9684 2
+12412 234 1
+4072 1587 6
+1715 12573 2
+1715 12195 2
+1715 4072 3
+1715 11359 21
+1715 219 1
+1715 7996 6
+1715 8253 1
+1715 181 4
+1715 12574 2
+1715 4060 2
+1715 9646 2
+1715 33 10
+1715 7299 1
+1715 182 2
+1715 5850 2
+12219 7996 9
+1587 365 1
+11317 4072 8
+11317 11359 8
+11359 4072 6
+11359 11317 2
+1559 1587 9
+10290 10309 11
+5850 1559 6
+5850 4072 2
+7290 141 8
+13763 2245 1
+13763 141 4
+13763 2246 1
+13763 1713 18
+1713 2245 10
+1713 2246 1
+1713 13763 23
+1713 365 1
+9057 141 6
+1899 1402 24
+1899 1530 3
+3509 1899 7
+1402 1530 1
+19306 2536 20
+14271 8656 1
+15772 4513 3
+15772 220 4
+15772 5 2
+15772 8656 4
+2733 219 1
+2733 8253 1
+8652 1204 1
+1204 1206 1
+1204 1205 5
+1173 1204 26
+1173 1205 2
+1206 1205 3
+3782 1206 13
+10885 1205 18
+10953 220 4
+10953 5761 7
+1745 1866 3
+4441 4513 10
+4441 4512 1
+4441 220 1
+4441 1745 14
+7380 1732 4
+7380 7465 10
+16824 8255 2
+7465 1740 3
+1732 1740 2
+4794 2246 2
+4793 2246 1
+4793 219 1
+4793 7465 2
+4793 8253 1
+4793 1732 2
+4793 1866 8
+4793 2895 2
+4793 7299 1
+4793 8255 1
+11578 4793 4
+11578 220 2
+11578 4794 1
+4626 4513 12
+4626 4512 2
+4626 4793 26
+4626 220 3
+4626 1866 2
+4626 4794 2
+9782 2536 2
+13951 7288 5
+13951 220 8
+4345 9416 11
+4286 220 6
+4286 4345 7
+8782 8871 3
+8782 220 3
+8782 7232 5
+7232 7256 1
+6894 1999 1
+6894 4046 1
+6894 2055 7
+6895 6894 2
+6895 3401 2
+6895 2054 2
+6895 7516 7
+6895 3399 1
+6895 2053 2
+2151 4615 1
+4615 6892 1
+4615 6895 2
+4615 4046 4
+4615 6894 1
+4989 13258 13
+3530 3563 2
+16839 3563 5
+8526 3563 7
+12919 10160 8
+5203 5225 2
+14055 220 1
+14055 5008 13
+8653 4542 2
+4520 4542 9
+14048 220 1
+14048 4542 4
+11536 2536 3
+2536 15937 2
+2571 2536 1
+2571 2246 1
+16713 141 4
+16713 2536 21
+16713 2571 5
+18077 4513 1
+18077 2536 14
+18077 4991 2
+18077 2571 5
+11803 4512 1
+11803 2536 10
+10362 5853 3
+10362 2536 1
+17972 141 6
+17972 2536 21
+14289 2536 5
+14289 2812 15
+2397 2536 20
+10342 2397 8
+10342 141 2
+19184 2397 56
+6176 2397 38
+6176 141 10
+12640 2397 17
+12640 2536 1
+17426 2536 9
+17426 2246 1
+11381 6349 1
+11381 5820 1
+11381 1903 2
+1903 1960 8
+1960 14196 1
+1960 13427 1
+1960 7349 1
+2245 3090 4
+2245 2246 5
+14358 2245 17
+14358 2246 4
+141 3090 4
+4351 141 17
+8654 6556 4
+8654 14060 1
+8654 12077 1
+12077 8127 3
+12046 6556 5
+12046 220 1
+12046 1118 10
+12046 12077 10
+14060 12077 4
+1080 1114 1
+1114 2245 6
+1114 141 2
+1114 2246 1
+10903 2245 9
+10903 220 2
+10903 141 8
+10903 1114 7
+12769 5284 1
+5284 2245 9
+5284 141 10
+5284 2246 3
+5284 2903 2
+5257 2245 3
+5257 220 1
+5257 141 4
+5257 5284 15
+7578 6646 1
+6646 2245 7
+6646 141 7
+6646 2246 2
+6646 2903 2
+11447 2245 2
+11447 141 9
+11447 2536 7
+19698 5089 1
+5089 2245 14
+5089 141 2
+5089 2895 1
+5089 2246 4
+15854 2245 8
+15854 2895 12
+15854 2246 7
+15854 5089 12
+621 141 7
+1233 141 4
+1602 1628 1
+3095 2603 1
+2868 220 3
+2868 141 2
+2868 2603 11
+2603 141 5
+1628 2245 3
+1628 141 4
+1628 2895 4
+1628 2246 4
+5763 2245 2
+5763 1628 4
+5763 220 5
+5763 141 2
+5763 2246 2
+4557 3666 67
+4548 4557 7
+5054 6011 1
+6011 5054 4
+6011 3666 18
+4058 7029 1
+13777 4512 1
+17038 4199 2
+15327 4513 1
+15327 220 4
+15327 10818 9
+15327 56 2
+19537 4513 1
+19537 220 1
+19537 4386 21
+19537 18289 14
+586 998 1
+586 10716 1
+11687 4432 5
+533 586 1
+8119 11687 14
+14671 533 3
+14671 8119 1
+14918 586 11
+14918 4435 1
+5875 998 9
+17953 220 1
+17953 533 30
+18564 11687 29
+18564 998 1
+18564 4435 5
+8068 998 1
+8068 220 1
+8068 8119 34
+8068 4435 19
+10657 10716 26
+19048 4435 10
+7808 4435 11
+4388 4435 1
+4388 4432 11
+2895 2903 5
+2246 2895 4
+2246 2903 16
+18123 2895 8
+18123 2246 21
+18123 2903 26
+8253 2895 2
+8253 2246 2
+7299 2246 2
+15968 15976 1
+15976 15171 2
+15171 2246 2
+17783 15171 17
+7974 9483 2
+7973 9483 2
+9483 2246 2
+7670 2895 2
+7670 2246 2
+17098 11197 1
+17098 4562 1
+4562 4601 9
+11197 4601 4
+1137 1164 3
+1972 116 7
+1164 80 10
+80 116 5
+11007 220 1
+11007 80 20
+11007 1164 16
+10785 16102 5
+3811 3889 3
+3811 3890 20
+3811 1394 3
+3811 3891 4
+13800 3890 27
+13800 2536 8
+13800 2246 1
+17754 15605 1
+15605 3890 5
+627 950 1
+627 949 1
+627 946 9
+7936 13111 1
+7936 3421 2
+7936 1635 1
+7936 6906 1
+9805 10147 2
+9805 3471 1
+9805 7937 8
+9805 7936 5
+9805 9449 2
+9805 7890 2
+9805 627 1
+9805 9059 2
+12108 9805 1
+10147 7937 7
+10147 7936 1
+7937 7527 2
+7937 7936 5
+9059 7937 7
+9059 7936 1
+9449 7937 7
+9449 7936 1
+7890 7937 16
+7890 7936 1
+7516 1999 1
+7516 14490 1
+7516 5312 3
+7516 2053 37
+2053 494 7
+3198 3404 1
+3198 3401 12
+3198 3402 3
+3198 2054 5
+3198 3403 2
+3198 3399 2
+3402 3404 2
+3402 3403 2
+3403 1999 12
+3404 3399 13
+3404 2053 1
+6892 3198 44
+6892 3404 4
+6892 7516 2
+6892 3403 3
+6892 3399 7
+6892 2053 1
+6892 1999 2
+6892 17423 3
+6892 4046 2
+6892 3401 12
+6892 2054 12
+6892 3402 2
+2054 5312 3
+2054 4046 1
+2054 7516 1
+2054 3399 3
+2055 1999 15
+2055 4046 14
+2055 494 13
+2055 7518 1
+2055 3962 13
+2055 17881 6
+2055 3399 4
+2055 2053 8
+7518 2055 1
+3962 4046 1
+3962 494 4
+1999 2055 3
+1999 2054 1
+1999 2053 4
+3399 7516 1
+3399 2053 5
+7029 7103 3
+7029 7102 2
+7029 5987 7
+7029 7104 8
+7102 7103 2
+7102 4172 27
+7102 4199 4
+7102 9124 24
+7102 5928 25
+7102 7781 18
+7102 7104 33
+7781 4199 1
+7781 5987 8
+9124 4172 13
+9124 4199 5
+9124 4200 7
+9124 9243 5
+4172 4199 6
+4172 4200 1
+7103 4199 5
+7103 5928 5
+7103 7781 3
+7103 7104 14
+5928 5985 3
+5928 5987 10
+7104 7103 6
+7104 4199 12
+7104 5987 13
+7104 5928 6
+7104 7781 3

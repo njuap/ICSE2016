@@ -1,0 +1,5359 @@
+*Vertics: 997
+5,org.apache.phoenix.iterate.SequenceResultIterator
+21,org.apache.phoenix.compile.SequenceManager
+26,org.apache.phoenix.iterate.DelegateResultIterator
+34,org.apache.phoenix.query.DelegateQueryServices
+48,org.apache.phoenix.optimize.QueryOptimizer
+49,org.apache.phoenix.util.ReadOnlyProps
+63,org.apache.phoenix.iterate.ScanningResultIterator
+78,org.apache.phoenix.schema.tuple.ResultTuple
+79,org.apache.phoenix.util.ServerUtil
+93,org.apache.phoenix.hbase.index.covered.LocalTableState
+179,org.apache.phoenix.hbase.index.covered.data.IndexMemStore
+181,org.apache.phoenix.hbase.index.covered.update.ColumnReference
+182,org.apache.phoenix.hbase.index.covered.update.ColumnTracker
+185,org.apache.phoenix.hbase.index.scanner.ScannerBuilder
+192,org.apache.phoenix.hbase.index.covered.CoveredColumns
+194,org.apache.phoenix.hbase.index.covered.IndexUpdate
+219,org.apache.phoenix.jdbc.PhoenixResultSetMetadataTest
+239,org.apache.phoenix.query.BaseConnectionlessQueryTest
+241,org.apache.phoenix.jdbc.PhoenixResultSetMetaData
+242,org.apache.phoenix.jdbc.PhoenixConnection
+247,org.apache.phoenix.query.HBaseFactoryProvider
+254,org.apache.phoenix.util.InstanceResolver
+273,org.apache.phoenix.iterate.LimitingResultIterator
+287,org.apache.phoenix.mapreduce.PhoenixOutputCommitter
+307,org.apache.hadoop.hbase.regionserver.LocalIndexSplitter
+392,org.apache.phoenix.hbase.index.util.VersionUtil
+393,org.apache.phoenix.parse.AlterIndexStatement
+394,org.apache.phoenix.parse.ParseNodeFactory
+395,org.apache.phoenix.schema.MetaDataClient
+396,org.apache.phoenix.schema.types.PBoolean
+397,org.apache.phoenix.schema.PIndexState
+400,org.apache.phoenix.util.IndexUtil
+401,org.apache.phoenix.util.MetaDataUtil
+402,org.apache.phoenix.util.PhoenixRuntime
+403,org.apache.phoenix.util.QueryUtil
+404,org.apache.phoenix.util.SchemaUtil
+411,org.apache.hadoop.hbase.regionserver.IndexSplitTransaction
+413,org.apache.phoenix.parse.TableName
+447,org.apache.phoenix.execute.HashJoinPlan
+617,org.apache.phoenix.compile.ExplainPlan
+618,org.apache.phoenix.compile.FromCompiler
+620,org.apache.phoenix.compile.RowProjector
+621,org.apache.phoenix.compile.ScanRanges
+622,org.apache.phoenix.compile.StatementContext
+623,org.apache.phoenix.compile.WhereCompiler
+624,org.apache.phoenix.exception.SQLExceptionCode
+625,org.apache.phoenix.exception.SQLExceptionInfo
+626,org.apache.phoenix.expression.Determinism
+628,org.apache.phoenix.expression.InListExpression
+629,org.apache.phoenix.expression.LiteralExpression
+630,org.apache.phoenix.expression.RowValueConstructorExpression
+631,org.apache.phoenix.iterate.FilterResultIterator
+633,org.apache.phoenix.join.HashCacheClient
+634,org.apache.phoenix.join.HashJoinInfo
+636,org.apache.phoenix.parse.ParseNode
+637,org.apache.phoenix.parse.SQLParser
+638,org.apache.phoenix.parse.SelectStatement
+640,org.apache.phoenix.query.QueryServicesOptions
+641,org.apache.phoenix.schema.types.PArrayDataType
+642,org.apache.phoenix.schema.types.PDataType
+644,org.apache.phoenix.util.SQLCloseables
+646,org.apache.phoenix.cache.ServerCacheClient
+650,org.apache.phoenix.job.JobManager
+652,org.apache.phoenix.execute.DelegateQueryPlan
+653,org.apache.phoenix.execute.BaseQueryPlan
+654,org.apache.phoenix.schema.TableRef
+656,org.apache.phoenix.hbase.index.util.ImmutableBytesPtr
+657,org.apache.phoenix.schema.ValueSchema
+658,org.apache.phoenix.parse.TableNode
+728,org.apache.phoenix.hbase.index.covered.data.TestIndexMemStore
+773,org.apache.phoenix.schema.stats.StatisticsCollector
+876,org.apache.phoenix.coprocessor.MetaDataProtocol
+877,org.apache.phoenix.util.ByteUtil
+882,org.apache.phoenix.schema.stats.StatisticsWriter
+883,org.apache.phoenix.schema.stats.GuidePostsInfo
+885,org.apache.phoenix.schema.stats.StatisticsUtil
+886,org.apache.phoenix.schema.stats.StatisticsScanner
+910,org.apache.phoenix.end2end.ReadIsolationLevelIT
+954,org.apache.phoenix.util.PropertiesUtil
+955,org.apache.phoenix.end2end.BaseClientManagedTimeIT
+956,org.apache.phoenix.util.TestUtil
+965,org.apache.phoenix.hbase.index.covered.example.CoveredColumnIndexCodec
+1092,org.apache.phoenix.index.BaseIndexCodec
+1094,org.apache.phoenix.hbase.index.covered.example.ColumnGroup
+1095,org.apache.phoenix.hbase.index.covered.example.CoveredColumn
+1096,org.apache.phoenix.hbase.index.covered.example.CoveredColumnIndexSpecifierBuilder
+1115,org.apache.phoenix.expression.aggregator.DistinctCountClientAggregator
+1124,org.apache.phoenix.schema.types.PLong
+1125,org.apache.phoenix.schema.SortOrder
+1126,org.apache.phoenix.expression.aggregator.DistinctValueWithCountClientAggregator
+1136,org.apache.phoenix.expression.function.UpperFunction
+1150,org.apache.phoenix.parse.FunctionParseNode
+1151,org.apache.phoenix.schema.types.PVarchar
+1157,org.apache.phoenix.expression.function.ScalarFunction
+1499,org.apache.phoenix.hbase.index.builder.BaseIndexBuilder
+1518,org.apache.phoenix.hbase.index.covered.CoveredColumnsIndexBuilder
+1527,org.apache.phoenix.expression.DivideExpression
+1559,org.apache.phoenix.expression.ArithmeticExpression
+1576,org.apache.phoenix.end2end.QueryMoreIT
+1684,org.apache.phoenix.end2end.BaseHBaseManagedTimeIT
+1691,org.apache.phoenix.end2end.index.DropViewIT
+1725,org.apache.phoenix.jdbc.PhoenixTestDriver
+1734,org.apache.phoenix.end2end.index.ImmutableIndexIT
+1818,org.apache.phoenix.schema.PTableKey
+1819,org.apache.phoenix.util.DateUtil
+1834,org.apache.phoenix.end2end.SkipScanQueryIT
+1908,org.apache.phoenix.parse.StringConcatParseNode
+1921,org.apache.phoenix.parse.CompoundParseNode
+1931,org.apache.phoenix.schema.tuple.DelegateTuple
+1958,org.apache.phoenix.expression.ILikeExpressionTest
+1975,org.apache.phoenix.parse.LikeParseNode
+1976,org.apache.phoenix.expression.LikeExpression
+1983,org.apache.phoenix.hbase.index.table.CachingHTableFactory
+2085,org.apache.phoenix.exception.PhoenixIOException
+2094,org.apache.phoenix.jdbc.PhoenixParameterMetaData
+2144,org.apache.phoenix.parse.BindParseNode
+2145,org.apache.phoenix.schema.TypeMismatchException
+2160,org.apache.phoenix.expression.DoubleAddExpression
+2176,org.apache.phoenix.schema.types.PDouble
+2177,org.apache.phoenix.expression.AddExpression
+2187,org.apache.phoenix.end2end.IsNullIT
+2204,org.apache.phoenix.parse.ConcreteTableNode
+2542,org.apache.phoenix.expression.AndExpression
+2543,org.apache.phoenix.expression.ComparisonExpression
+2544,org.apache.phoenix.expression.KeyValueColumnExpression
+2545,org.apache.phoenix.expression.NotExpression
+2546,org.apache.phoenix.expression.OrExpression
+2547,org.apache.phoenix.expression.RowKeyColumnExpression
+2548,org.apache.phoenix.expression.function.SubstrFunction
+2549,org.apache.phoenix.filter.MultiCQKeyValueComparisonFilter
+2550,org.apache.phoenix.filter.MultiKeyValueComparisonFilter
+2551,org.apache.phoenix.filter.RowKeyComparisonFilter
+2552,org.apache.phoenix.filter.SingleCQKeyValueComparisonFilter
+2553,org.apache.phoenix.filter.SingleKeyValueComparisonFilter
+2554,org.apache.phoenix.jdbc.PhoenixDatabaseMetaData
+2555,org.apache.phoenix.jdbc.PhoenixPreparedStatement
+2556,org.apache.phoenix.query.KeyRange
+2558,org.apache.phoenix.schema.RowKeyValueAccessor
+2563,org.apache.phoenix.coprocessor.generated.MetaDataProtos
+2566,org.apache.phoenix.jdbc.PhoenixStatement
+2599,org.apache.phoenix.trace.TracingIterator
+2615,org.apache.phoenix.end2end.QueryDatabaseMetaDataIT
+2833,org.apache.phoenix.coprocessor.GroupedAggregateRegionObserver
+2834,org.apache.phoenix.coprocessor.ServerCachingEndpointImpl
+2835,org.apache.phoenix.coprocessor.UngroupedAggregateRegionObserver
+2836,org.apache.phoenix.schema.types.PChar
+2837,org.apache.phoenix.schema.ColumnNotFoundException
+2838,org.apache.phoenix.schema.types.PDecimal
+2839,org.apache.phoenix.schema.types.PInteger
+2841,org.apache.phoenix.schema.PTableType
+2842,org.apache.phoenix.schema.ReadOnlyTableException
+2843,org.apache.phoenix.schema.TableNotFoundException
+2844,org.apache.phoenix.util.StringUtil
+2868,org.apache.phoenix.compile.QueryOptimizerTest
+3058,org.apache.phoenix.compile.OrderByCompiler
+3075,org.apache.phoenix.end2end.InMemoryOrderByIT
+3079,org.apache.phoenix.end2end.OrderByIT
+3085,org.apache.phoenix.end2end.SortOrderFIT
+3342,org.apache.phoenix.expression.function.EncodeFunction
+3364,org.apache.phoenix.schema.IllegalDataException
+3365,org.apache.phoenix.util.Base62Encoder
+3367,org.apache.phoenix.expression.function.EncodeFormat
+3376,org.apache.phoenix.end2end.BaseOwnClusterIT
+3380,org.apache.phoenix.query.BaseTest
+3385,org.apache.phoenix.end2end.index.IndexTestUtil
+3453,org.apache.phoenix.hbase.index.util.KeyValueBuilder
+3456,org.apache.phoenix.schema.RowKeySchema
+3484,org.apache.phoenix.pig.util.SqlQueryToColumnInfoFunctionTest
+3506,org.apache.phoenix.util.ColumnInfo
+3507,org.apache.phoenix.pig.util.SqlQueryToColumnInfoFunction
+3512,org.apache.phoenix.end2end.AutoCommitIT
+3523,org.apache.phoenix.mapreduce.util.PhoenixMapReduceUtil
+3552,org.apache.phoenix.mapreduce.PhoenixInputFormat
+3553,org.apache.phoenix.mapreduce.PhoenixOutputFormat
+3555,org.apache.phoenix.mapreduce.util.PhoenixConfigurationUtil
+3566,org.apache.phoenix.iterate.FilterAggregatingResultIterator
+3585,org.apache.phoenix.schema.types.PUnsignedIntArray
+3631,org.apache.phoenix.schema.types.PhoenixArray
+3632,org.apache.phoenix.schema.types.PUnsignedInt
+3655,org.apache.phoenix.compile.DropSequenceCompiler
+3670,org.apache.phoenix.execute.MutationState
+3671,org.apache.phoenix.parse.DropSequenceStatement
+3701,org.apache.phoenix.end2end.salted.SaltedTableIT
+3773,org.apache.phoenix.compile.PostIndexDDLCompiler
+3836,org.apache.phoenix.expression.OrderByExpression
+3837,org.apache.phoenix.parse.OrderByNode
+3838,org.apache.phoenix.compile.GroupByCompiler
+3839,org.apache.phoenix.compile.TrackOrderPreservingExpressionCompiler
+3840,org.apache.phoenix.compile.ExpressionCompiler
+3868,org.apache.phoenix.hbase.index.write.recovery.PerRegionIndexWriteCache
+3880,org.apache.phoenix.hbase.index.table.HTableInterfaceReference
+3932,org.apache.phoenix.compile.LimitCompiler
+3960,org.apache.phoenix.parse.LimitNode
+3961,org.apache.phoenix.parse.LiteralParseNode
+3962,org.apache.phoenix.parse.TraverseNoParseNodeVisitor
+3963,org.apache.phoenix.compile.BindManager
+4250,org.apache.phoenix.call.CallRunner
+4251,org.apache.phoenix.expression.function.FunctionArgumentType
+4253,org.apache.phoenix.query.DelegateConnectionQueryServices
+4256,org.apache.phoenix.schema.types.PDate
+4257,org.apache.phoenix.schema.types.PTime
+4258,org.apache.phoenix.schema.types.PTimestamp
+4259,org.apache.phoenix.schema.types.PUnsignedDate
+4260,org.apache.phoenix.schema.types.PUnsignedTime
+4261,org.apache.phoenix.schema.types.PUnsignedTimestamp
+4262,org.apache.phoenix.trace.util.Tracing
+4263,org.apache.phoenix.util.JDBCUtil
+4264,org.apache.phoenix.util.NumberUtil
+4268,org.apache.phoenix.jdbc.Jdbc7Shim
+4357,org.apache.phoenix.expression.aggregator.ServerAggregators
+4403,org.apache.phoenix.expression.ExpressionType
+4404,org.apache.phoenix.expression.function.SingleAggregateFunction
+4405,org.apache.phoenix.expression.aggregator.Aggregators
+4446,org.apache.phoenix.end2end.ReverseFunctionIT
+4478,org.apache.phoenix.parse.ExplainStatement
+4496,org.apache.phoenix.expression.CoerceExpression
+4554,org.apache.phoenix.expression.BaseSingleExpression
+4574,org.apache.phoenix.iterate.GroupedAggregatingResultIterator
+4584,org.apache.phoenix.schema.tuple.SingleKeyValueTuple
+4585,org.apache.phoenix.iterate.BaseGroupedAggregatingResultIterator
+4597,org.apache.phoenix.iterate.SpoolingResultIterator
+4687,org.apache.phoenix.util.ResultUtil
+4688,org.apache.phoenix.util.TupleUtil
+4689,org.apache.phoenix.iterate.SpoolTooBigToDiskException
+4748,org.apache.phoenix.expression.DeterminismTest
+4754,org.apache.phoenix.hbase.index.covered.TestCoveredColumns
+4761,org.apache.phoenix.query.QueryPlanTest
+4793,org.apache.phoenix.expression.AndOrExpression
+4800,org.apache.phoenix.parse.IndexExpressionParseNodeRewriter
+4834,org.apache.phoenix.compile.IndexStatementRewriter
+4835,org.apache.phoenix.parse.ParseNodeRewriter
+4836,org.apache.phoenix.parse.NamedTableNode
+4838,org.apache.phoenix.parse.ColumnDef
+4839,org.apache.phoenix.parse.ColumnParseNode
+4840,org.apache.phoenix.parse.StatelessTraverseAllParseNodeVisitor
+4841,org.apache.phoenix.parse.NamedParseNode
+4860,org.apache.phoenix.schema.PNameFactory
+4875,org.apache.phoenix.schema.PNameImpl
+4879,org.apache.phoenix.end2end.BaseTenantSpecificTablesIT
+4896,org.apache.phoenix.end2end.BaseOwnClusterClientManagedTimeIT
+4898,org.apache.phoenix.expression.function.SQLViewTypeFunction
+4911,org.apache.phoenix.schema.types.PUnsignedTinyint
+4915,org.apache.phoenix.expression.DateAddExpression
+4938,org.apache.phoenix.hbase.index.IndexQosCompat
+4957,org.apache.phoenix.hbase.index.ipc.PhoenixIndexRpcSchedulerFactory
+4961,org.apache.phoenix.expression.function.FloorDecimalExpression
+4984,org.apache.phoenix.expression.function.RoundDecimalExpression
+4985,org.apache.phoenix.expression.function.FloorFunction
+5001,org.apache.phoenix.expression.function.RoundDateExpression
+5085,org.apache.phoenix.expression.function.TimeUnit
+5107,org.apache.phoenix.compile.WhereOptimizer
+5537,org.apache.phoenix.expression.BaseExpression
+5539,org.apache.phoenix.expression.BaseTerminalExpression
+5540,org.apache.phoenix.expression.IsNullExpression
+5541,org.apache.phoenix.expression.visitor.StatelessTraverseNoExpressionVisitor
+5543,org.apache.phoenix.schema.SaltingUtil
+5544,org.apache.phoenix.schema.types.PVarbinary
+5545,org.apache.phoenix.util.ScanUtil
+5546,org.apache.phoenix.expression.function.FunctionExpression
+5547,org.apache.phoenix.parse.HintNode
+5552,org.apache.phoenix.expression.BaseCompoundExpression
+5650,org.apache.phoenix.parse.ExistsParseNode
+5669,org.apache.phoenix.parse.UnaryParseNode
+5676,org.apache.phoenix.end2end.DynamicFamilyIT
+5783,org.apache.phoenix.exception.PhoenixParserException
+5784,org.apache.phoenix.schema.ColumnFamilyNotFoundException
+5789,org.apache.phoenix.memory.GlobalMemoryManager
+5831,org.apache.phoenix.memory.InsufficientMemoryException
+5846,org.apache.phoenix.trace.util.ConfigurationAdapter
+5865,org.apache.phoenix.compile.IndexExpressionCompiler
+5874,org.apache.phoenix.expression.ColumnExpression
+5875,org.apache.phoenix.schema.ColumnRef
+5949,org.apache.phoenix.end2end.BaseViewIT
+5972,org.apache.phoenix.end2end.BaseOwnClusterHBaseManagedTimeIT
+5975,org.apache.phoenix.schema.types.PUnsignedSmallint
+6041,org.apache.phoenix.schema.types.PSmallint
+6080,org.apache.phoenix.util.FirstLastNthValueDataContainer
+6125,org.apache.phoenix.mapreduce.PhoenixRecordReader
+6163,org.apache.phoenix.iterate.ConcatResultIterator
+6164,org.apache.phoenix.iterate.LookAheadResultIterator
+6165,org.apache.phoenix.iterate.TableResultIterator
+6166,org.apache.phoenix.jdbc.PhoenixResultSet
+6167,org.apache.phoenix.mapreduce.PhoenixInputSplit
+6211,org.apache.phoenix.coprocessor.generated.StatCollectorProtos
+6607,org.apache.phoenix.expression.aggregator.StddevSampAggregator
+6612,org.apache.phoenix.expression.aggregator.BaseStddevAggregator
+6617,org.apache.phoenix.query.ConnectionlessTest
+6669,org.apache.phoenix.jdbc.PhoenixDriver
+6680,org.apache.phoenix.trace.MetricsInfoImpl
+6765,org.apache.phoenix.schema.types.PUnsignedLong
+6789,org.apache.phoenix.hbase.index.parallel.ThreadPoolBuilder
+6818,org.apache.phoenix.parse.ArithmeticParseNode
+6829,org.apache.phoenix.util.PhoenixContextExecutor
+6878,org.apache.phoenix.parse.TerminalParseNode
+6883,org.apache.phoenix.expression.function.RegexpReplaceFunction
+6909,org.apache.phoenix.end2end.MinMaxAggregateFunctionIT
+6915,org.apache.phoenix.flume.DefaultKeyGenerator
+6945,org.apache.phoenix.parse.FirstValueAggregateParseNode
+6953,org.apache.phoenix.expression.function.FirstValueFunction
+6954,org.apache.phoenix.parse.DelegateConstantToCountParseNode
+6961,org.apache.phoenix.end2end.RegexpSplitFunctionIT
+7049,org.apache.phoenix.hbase.index.parallel.QuickFailingTaskRunner
+7057,org.apache.phoenix.hbase.index.parallel.BaseTaskRunner
+7063,org.apache.phoenix.schema.SaltingUtilTest
+7074,org.apache.phoenix.end2end.BaseQueryIT
+7119,org.apache.phoenix.expression.TimestampSubtractExpression
+7140,org.apache.phoenix.expression.SubtractExpression
+7147,org.apache.phoenix.parse.AddParseNode
+7159,org.apache.phoenix.schema.TableProperty
+7221,org.apache.phoenix.schema.types.PBooleanArray
+7324,org.apache.phoenix.coprocessor.DelegateRegionScanner
+7353,org.apache.phoenix.schema.types.PUnsignedDouble
+7427,org.apache.phoenix.compile.SequenceValueExpression
+7449,org.apache.phoenix.schema.SequenceKey
+7450,org.apache.phoenix.parse.SequenceValueParseNode
+7461,org.apache.phoenix.hbase.index.covered.filter.TestNewerTimestampFilter
+7474,org.apache.phoenix.hbase.index.covered.filter.NewerTimestampFilter
+7479,org.apache.phoenix.hbase.index.scanner.FilteredKeyValueScanner
+7530,org.apache.phoenix.compile.PostDDLCompiler
+7591,org.apache.phoenix.coprocessor.BaseScannerRegionObserver
+7592,org.apache.phoenix.execute.AggregatePlan
+7593,org.apache.phoenix.schema.AmbiguousColumnException
+7597,org.apache.phoenix.compile.ProjectionCompiler
+7623,org.apache.phoenix.end2end.CastAndCoerceIT
+7676,org.apache.phoenix.end2end.QueryIT
+7879,org.apache.phoenix.cache.GlobalCache
+7881,org.apache.phoenix.cache.aggcache.SpillableGroupByCache
+7882,org.apache.phoenix.execute.TupleProjector
+7883,org.apache.phoenix.index.IndexMaintainer
+7884,org.apache.phoenix.schema.tuple.MultiKeyValueTuple
+7885,org.apache.phoenix.util.Closeables
+7886,org.apache.phoenix.util.KeyValueUtil
+7887,org.apache.phoenix.util.LogUtil
+7888,org.apache.phoenix.util.SizedUtil
+7891,org.apache.phoenix.coprocessor.HashJoinRegionScanner
+7902,org.apache.phoenix.coprocessor.BaseRegionScanner
+7937,org.apache.phoenix.iterate.ChunkedResultIterator
+7999,org.apache.phoenix.end2end.DerivedTableIT
+8073,org.apache.phoenix.filter.SkipScanFilterTest
+8141,org.apache.phoenix.filter.SkipScanFilter
+8153,org.apache.phoenix.trace.PhoenixTracingEndToEndIT
+8277,org.apache.phoenix.metrics.Metrics
+8281,org.apache.phoenix.trace.TraceReader
+8282,org.apache.phoenix.trace.BaseTracingTestIT
+8283,org.apache.phoenix.trace.DisableableMetricsWriter
+8284,org.apache.phoenix.trace.PhoenixMetricsSink
+8285,org.apache.phoenix.trace.TracingTestUtil
+8286,org.apache.phoenix.trace.TraceMetricSource
+8287,org.apache.phoenix.trace.TracingUtils
+8288,org.apache.phoenix.trace.DelegatingConnection
+8318,org.apache.phoenix.compile.JoinQueryCompilerTest
+8337,org.apache.phoenix.compile.JoinCompiler
+8339,org.apache.phoenix.compile.SubselectRewriter
+8340,org.apache.phoenix.compile.StatementNormalizer
+8341,org.apache.phoenix.compile.SubqueryRewriter
+8395,org.apache.phoenix.expression.function.ToTimeFunction
+8404,org.apache.phoenix.parse.ToTimeParseNode
+8407,org.apache.phoenix.expression.function.ToDateFunction
+8425,org.apache.phoenix.end2end.CountDistinctCompressionIT
+8438,org.apache.phoenix.compile.DeleteCompiler
+8606,org.apache.phoenix.index.IndexMetaDataCacheClient
+8607,org.apache.phoenix.index.PhoenixIndexCodec
+8608,org.apache.phoenix.parse.AliasedNode
+8609,org.apache.phoenix.parse.DeleteStatement
+8610,org.apache.phoenix.schema.MetaDataEntityNotFoundException
+8611,org.apache.phoenix.parse.SingleTableStatement
+8612,org.apache.phoenix.compile.MutatingParallelIteratorFactory
+8657,org.apache.phoenix.parse.CreateSequenceStatement
+8688,org.apache.phoenix.parse.MutableStatement
+8693,org.apache.phoenix.iterate.MaterializedResultIterator
+8717,org.apache.phoenix.flume.FlumeConstants
+8735,org.apache.phoenix.parse.BetweenParseNode
+8760,org.apache.phoenix.end2end.SequenceIT
+8949,org.apache.phoenix.schema.SequenceAlreadyExistsException
+8950,org.apache.phoenix.schema.SequenceNotFoundException
+8951,org.apache.phoenix.util.SequenceUtil
+8964,org.apache.phoenix.compile.WhereOptimizerTest
+9756,org.apache.phoenix.parse.AndParseNode
+9773,org.apache.phoenix.end2end.index.LocalIndexIT
+9950,org.apache.hadoop.hbase.regionserver.IndexHalfStoreFileReaderGenerator
+9951,org.apache.phoenix.hbase.index.IndexRegionSplitPolicy
+9999,org.apache.phoenix.flume.SchemaHandler
+10036,org.apache.phoenix.hbase.index.covered.example.TestCoveredIndexSpecifierBuilder
+10061,org.apache.phoenix.parse.CastParseNode
+10102,org.apache.phoenix.end2end.RowValueConstructorIT
+10412,org.apache.phoenix.protobuf.ProtobufUtil
+10454,org.apache.phoenix.coprocessor.generated.ServerCachingProtos
+10455,org.apache.phoenix.coprocessor.generated.PTableProtos
+10479,org.apache.phoenix.hbase.index.parallel.WaitForCompletionTaskRunner
+10487,org.apache.phoenix.expression.DecimalAddExpression
+10510,org.apache.phoenix.exception.ValueTypeIncompatibleException
+10524,org.apache.phoenix.schema.ConstraintViolationException
+10529,org.apache.phoenix.query.KeyRangeIntersectTest
+10540,org.apache.phoenix.expression.CaseExpression
+10592,org.apache.phoenix.util.ExpressionUtil
+10600,org.apache.phoenix.schema.RowKeySchemaTest
+10651,org.apache.phoenix.parse.CurrentTimeParseNode
+10659,org.apache.phoenix.expression.function.CurrentTimeFunction
+10667,org.apache.phoenix.schema.types.PDataTypeTest
+10944,org.apache.phoenix.schema.types.PFloat
+10945,org.apache.phoenix.schema.types.PUnsignedFloat
+10946,org.apache.phoenix.schema.types.PTinyint
+10947,org.apache.phoenix.schema.types.PBinary
+10948,org.apache.phoenix.schema.types.PCharArray
+10949,org.apache.phoenix.schema.types.PBinaryArray
+10950,org.apache.phoenix.schema.types.PDataTypeFactory
+11011,org.apache.phoenix.mapreduce.CsvBulkImportUtil
+11025,org.apache.phoenix.mapreduce.CsvToKeyValueMapper
+11036,org.apache.phoenix.compile.QueryMetaDataTest
+11287,org.apache.phoenix.expression.function.ArrayElemRefExpression
+11303,org.apache.phoenix.util.BitSet
+11359,org.apache.phoenix.schema.types.PDecimalArray
+11405,org.apache.phoenix.expression.function.IndexStateNameFunction
+11421,org.apache.phoenix.end2end.TenantSpecificViewIndexSaltedIT
+11427,org.apache.phoenix.end2end.BaseTenantSpecificViewIndexIT
+11626,org.apache.phoenix.parse.BindTableNode
+11627,org.apache.phoenix.parse.CreateTableStatement
+11628,org.apache.phoenix.parse.DMLStatement
+11629,org.apache.phoenix.parse.DerivedTableNode
+11630,org.apache.phoenix.parse.FamilyWildcardParseNode
+11631,org.apache.phoenix.parse.JoinTableNode
+11632,org.apache.phoenix.parse.TableWildcardParseNode
+11633,org.apache.phoenix.parse.WildcardParseNode
+11634,org.apache.phoenix.schema.AmbiguousTableException
+11635,org.apache.phoenix.schema.PColumnFamilyImpl
+11636,org.apache.phoenix.schema.PColumnImpl
+11637,org.apache.phoenix.schema.PTableImpl
+11638,org.apache.phoenix.parse.ColumnName
+11692,org.apache.phoenix.parse.AddColumnStatement
+11706,org.apache.phoenix.parse.AlterTableStatement
+11932,org.apache.phoenix.flume.serializer.BaseEventSerializer
+12057,org.apache.phoenix.schema.stats.PTableStatsImpl
+12070,org.apache.hadoop.hbase.regionserver.wal.IndexedWALEditCodec
+12118,org.apache.phoenix.hbase.index.wal.IndexedKeyValue
+12119,org.apache.phoenix.hbase.index.wal.KeyValueCodec
+12182,org.apache.hadoop.hbase.regionserver.IndexKeyValueSkipListSet
+12186,org.apache.phoenix.hbase.index.covered.example.TestColumnTracker
+12200,org.apache.phoenix.expression.aggregator.UnsignedLongSumAggregator
+12204,org.apache.phoenix.expression.aggregator.NumberSumAggregator
+12208,org.apache.phoenix.end2end.AggregateQueryIT
+12676,org.apache.phoenix.coprocessor.generated.PGuidePostsProtos
+12678,org.apache.phoenix.util.TrustedByteArrayOutputStream
+12685,org.apache.phoenix.schema.ColumnAlreadyExistsException
+12833,org.apache.phoenix.parse.AggregateFunctionParseNode
+12905,org.apache.phoenix.expression.ArrayConstructorExpression
+12906,org.apache.phoenix.expression.ModulusExpression
+12907,org.apache.phoenix.expression.MultiplyExpression
+12908,org.apache.phoenix.expression.ProjectedColumnExpression
+12909,org.apache.phoenix.expression.StringConcatExpression
+12910,org.apache.phoenix.expression.function.ArrayAnyComparisonExpression
+12911,org.apache.phoenix.expression.visitor.TraverseNoExpressionVisitor
+12982,org.apache.phoenix.mapreduce.CsvBulkLoadToolTest
+12997,org.apache.phoenix.mapreduce.CsvBulkLoadTool
+13025,org.apache.phoenix.schema.SortOrderTest
+13047,org.apache.phoenix.expression.aggregator.UnsignedIntSumAggregator
+13052,org.apache.phoenix.compile.ExpressionProjector
+13077,org.apache.phoenix.schema.DelegateTable
+13140,org.apache.phoenix.schema.types.PUnsignedLongArray
+13190,org.apache.phoenix.parse.DistinctCountParseNode
+13203,org.apache.phoenix.expression.function.DistinctCountAggregateFunction
+13208,org.apache.phoenix.util.csv.CsvUpsertExecutor
+13279,org.apache.phoenix.util.csv.StringToArrayConverter
+13289,org.apache.phoenix.iterate.DistinctAggregatingResultIterator
+13335,org.apache.phoenix.parse.ParseException
+13345,org.apache.phoenix.exception.UnknownFunctionException
+13352,org.apache.phoenix.pig.util.TableSchemaParserFunction
+13362,org.apache.phoenix.end2end.StoreNullsIT
+13512,org.apache.phoenix.iterate.BaseResultIterators
+13710,org.apache.phoenix.filter.ColumnProjectionFilter
+13711,org.apache.phoenix.schema.StaleRegionBoundaryCacheException
+13712,org.apache.phoenix.iterate.ExplainTable
+13767,org.apache.phoenix.hbase.index.write.recovery.StoreFailuresInCachePolicy
+13784,org.apache.phoenix.hbase.index.exception.MultiIndexWriteFailureException
+13786,org.apache.phoenix.hbase.index.write.KillServerOnFailurePolicy
+14169,org.apache.phoenix.expression.DateSubtractExpression
+14170,org.apache.phoenix.expression.DecimalDivideExpression
+14171,org.apache.phoenix.expression.DecimalMultiplyExpression
+14172,org.apache.phoenix.expression.DecimalSubtractExpression
+14173,org.apache.phoenix.expression.DoubleDivideExpression
+14174,org.apache.phoenix.expression.DoubleMultiplyExpression
+14175,org.apache.phoenix.expression.DoubleSubtractExpression
+14176,org.apache.phoenix.expression.LongAddExpression
+14177,org.apache.phoenix.expression.LongDivideExpression
+14178,org.apache.phoenix.expression.LongMultiplyExpression
+14179,org.apache.phoenix.expression.LongSubtractExpression
+14180,org.apache.phoenix.expression.TimestampAddExpression
+14181,org.apache.phoenix.expression.function.ArrayAllComparisonExpression
+14182,org.apache.phoenix.expression.function.RoundTimestampExpression
+14183,org.apache.phoenix.parse.ArrayAllComparisonNode
+14184,org.apache.phoenix.parse.ArrayAnyComparisonNode
+14185,org.apache.phoenix.parse.ArrayConstructorNode
+14186,org.apache.phoenix.parse.ArrayElemRefNode
+14187,org.apache.phoenix.parse.CaseParseNode
+14188,org.apache.phoenix.parse.ComparisonParseNode
+14189,org.apache.phoenix.parse.DivideParseNode
+14190,org.apache.phoenix.parse.InListParseNode
+14191,org.apache.phoenix.parse.IsNullParseNode
+14192,org.apache.phoenix.parse.ModulusParseNode
+14193,org.apache.phoenix.parse.MultiplyParseNode
+14194,org.apache.phoenix.parse.NotParseNode
+14195,org.apache.phoenix.parse.OrParseNode
+14196,org.apache.phoenix.parse.RowValueConstructorParseNode
+14197,org.apache.phoenix.parse.SubqueryParseNode
+14198,org.apache.phoenix.parse.SubtractParseNode
+14199,org.apache.phoenix.parse.UnsupportedAllParseNodeVisitor
+14200,org.apache.phoenix.schema.DelegateDatum
+14201,org.apache.phoenix.schema.LocalIndexDataColumnRef
+14202,org.apache.phoenix.compile.ExpressionManager
+14316,org.apache.phoenix.schema.types.PUnsignedTinyintArray
+14362,org.apache.phoenix.expression.function.RegexpSubstrFunction
+14398,org.apache.phoenix.expression.function.PrefixFunction
+14408,org.apache.phoenix.hbase.index.exception.IndexWriteException
+14411,org.apache.phoenix.expression.function.TimezoneOffsetFunction
+14431,org.apache.phoenix.expression.function.InvertFunction
+14459,org.apache.phoenix.expression.function.ArrayLengthFunction
+14742,org.apache.phoenix.end2end.MappingTableDataTypeIT
+14780,org.apache.phoenix.parse.LessThanParseNode
+14789,org.apache.phoenix.filter.SkipScanFilterIntersectTest
+14849,org.apache.phoenix.end2end.CoalesceFunctionIT
+14904,org.apache.phoenix.parse.ArrayAllAnyComparisonNode
+14915,org.apache.phoenix.expression.function.AggregateFunction
+14931,org.apache.phoenix.pig.util.TypeUtil
+14998,org.apache.phoenix.pig.writable.PhoenixPigDBWritable
+15002,org.apache.phoenix.expression.aggregator.StddevPopAggregator
+15008,org.apache.phoenix.end2end.salted.SaltedTableUpsertSelectIT
+15049,org.apache.phoenix.parse.GreaterThanParseNode
+15305,org.apache.phoenix.parse.TraverseAllParseNodeVisitor
+15306,org.apache.phoenix.parse.InParseNode
+15372,org.apache.phoenix.iterate.SerialIterators
+15406,org.apache.phoenix.end2end.GroupByCaseIT
+15447,org.apache.phoenix.expression.RoundFloorCeilExpressionsTest
+15634,org.apache.phoenix.expression.function.CeilDateExpression
+15635,org.apache.phoenix.expression.function.CeilDecimalExpression
+15636,org.apache.phoenix.expression.function.FloorDateExpression
+15675,org.apache.phoenix.parse.NamedNode
+15758,org.apache.hadoop.hbase.regionserver.wal.WALReplayWithIndexWritesAndUncompressedWALInHBase_094_9_IT
+15762,org.apache.phoenix.hbase.index.util.IndexManagementUtil
+15763,org.apache.phoenix.util.ConfigUtil
+15764,org.apache.hadoop.hbase.regionserver.wal.WALReplayWithIndexWritesAndCompressedWALIT
+15765,org.apache.hadoop.hbase.regionserver.wal.IndexedHLogReader
+15773,org.apache.phoenix.compile.LimitCompilerTest
+15812,org.apache.phoenix.end2end.index.IndexExpressionIT
+16051,org.apache.phoenix.execute.CommitException
+16067,org.apache.phoenix.schema.types.PDateArray
+16068,org.apache.phoenix.schema.types.PDoubleArray
+16069,org.apache.phoenix.schema.types.PFloatArray
+16070,org.apache.phoenix.schema.types.PIntegerArray
+16071,org.apache.phoenix.schema.types.PLongArray
+16072,org.apache.phoenix.schema.types.PTimeArray
+16073,org.apache.phoenix.schema.types.PTimestampArray
+16074,org.apache.phoenix.schema.types.PSmallintArray
+16075,org.apache.phoenix.schema.types.PTinyintArray
+16076,org.apache.phoenix.schema.types.PUnsignedDateArray
+16077,org.apache.phoenix.schema.types.PUnsignedDoubleArray
+16078,org.apache.phoenix.schema.types.PUnsignedFloatArray
+16079,org.apache.phoenix.schema.types.PUnsignedSmallintArray
+16080,org.apache.phoenix.schema.types.PUnsignedTimeArray
+16081,org.apache.phoenix.schema.types.PUnsignedTimestampArray
+16082,org.apache.phoenix.schema.types.PVarbinaryArray
+16083,org.apache.phoenix.schema.types.PVarcharArray
+16104,org.apache.phoenix.hbase.index.balancer.IndexLoadBalancer
+16345,org.apache.phoenix.expression.function.CeilTimestampExpression
+16412,org.apache.phoenix.expression.function.RTrimFunction
+16449,org.apache.phoenix.execute.DegenerateQueryPlan
+16465,org.apache.phoenix.logging.PerformanceLog
+16499,org.apache.phoenix.hbase.index.covered.filter.TestApplyAndFilterDeletesFilter
+16542,org.apache.phoenix.hbase.index.covered.filter.ApplyAndFilterDeletesFilter
+16548,org.apache.phoenix.query.QueryServicesImpl
+16551,org.apache.phoenix.query.BaseQueryServicesImpl
+16555,org.apache.phoenix.iterate.MergeSortTopNResultIterator
+16579,org.apache.phoenix.iterate.MergeSortResultIterator
+16601,org.apache.phoenix.end2end.TruncateFunctionIT
+16623,org.apache.phoenix.hbase.index.write.IndexWriter
+16676,org.apache.phoenix.hbase.index.write.ParallelWriterIndexCommitter
+16765,org.apache.phoenix.end2end.PhoenixRuntimeIT
+16921,org.apache.phoenix.expression.function.ArrayIndexFunction
+16922,org.apache.phoenix.expression.function.CeilFunction
+16923,org.apache.phoenix.expression.function.CoalesceFunction
+16924,org.apache.phoenix.expression.function.ConvertTimezoneFunction
+16925,org.apache.phoenix.expression.function.CountAggregateFunction
+16926,org.apache.phoenix.expression.function.DecodeFunction
+16927,org.apache.phoenix.expression.function.DistinctValueAggregateFunction
+16928,org.apache.phoenix.expression.function.ExternalSqlTypeIdFunction
+16929,org.apache.phoenix.expression.function.LTrimFunction
+16930,org.apache.phoenix.expression.function.LastValueFunction
+16931,org.apache.phoenix.expression.function.LengthFunction
+16932,org.apache.phoenix.expression.function.LowerFunction
+16933,org.apache.phoenix.expression.function.LpadFunction
+16934,org.apache.phoenix.expression.function.MD5Function
+16935,org.apache.phoenix.expression.function.MaxAggregateFunction
+16936,org.apache.phoenix.expression.function.MinAggregateFunction
+16937,org.apache.phoenix.expression.function.NthValueFunction
+16938,org.apache.phoenix.expression.function.PercentRankAggregateFunction
+16939,org.apache.phoenix.expression.function.PercentileContAggregateFunction
+16940,org.apache.phoenix.expression.function.PercentileDiscAggregateFunction
+16941,org.apache.phoenix.expression.function.RandomFunction
+16942,org.apache.phoenix.expression.function.RegexpSplitFunction
+16943,org.apache.phoenix.expression.function.ReverseFunction
+16944,org.apache.phoenix.expression.function.RoundFunction
+16945,org.apache.phoenix.expression.function.SQLIndexTypeFunction
+16946,org.apache.phoenix.expression.function.SQLTableTypeFunction
+16947,org.apache.phoenix.expression.function.SqlTypeNameFunction
+16948,org.apache.phoenix.expression.function.StddevPopFunction
+16949,org.apache.phoenix.expression.function.StddevSampFunction
+16950,org.apache.phoenix.expression.function.SumAggregateFunction
+16951,org.apache.phoenix.expression.function.ToCharFunction
+16952,org.apache.phoenix.expression.function.ToNumberFunction
+16953,org.apache.phoenix.expression.function.ToTimestampFunction
+16954,org.apache.phoenix.expression.function.TrimFunction
+16955,org.apache.phoenix.expression.function.TruncFunction
+16980,org.apache.phoenix.util.QueryUtilTest
+17003,org.apache.phoenix.expression.aggregator.DistinctValueWithCountServerAggregator
+17043,org.apache.phoenix.expression.aggregator.BaseAggregator
+17055,org.apache.phoenix.jdbc.PhoenixEmbeddedDriver
+17340,org.apache.phoenix.expression.BaseAddSubtractExpression
+17366,org.apache.phoenix.filter.MultiCFCQKeyValueComparisonFilter
+17427,org.apache.phoenix.hbase.index.util.TestIndexManagementUtil
+17437,org.apache.phoenix.end2end.SpooledSortMergeJoinIT
+17443,org.apache.phoenix.end2end.SortMergeJoinIT
+17497,org.apache.phoenix.parse.LessThanOrEqualParseNode
+17508,org.apache.phoenix.index.IndexMaintainerTest
+17619,org.apache.phoenix.hbase.index.util.GenericKeyValueBuilder
+17671,org.apache.phoenix.index.PhoenixIndexFailurePolicy
+17691,org.apache.phoenix.end2end.index.MutableIndexFailureIT
+17773,org.apache.phoenix.hbase.index.master.IndexMasterObserver
+17782,org.apache.phoenix.parse.RoundParseNode
+17799,org.apache.phoenix.parse.SumAggregateParseNode
+17814,org.apache.phoenix.flume.PhoenixSinkIT
+17850,org.apache.phoenix.flume.serializer.EventSerializers
+17851,org.apache.phoenix.flume.sink.PhoenixSink
+17858,org.apache.phoenix.pig.util.TableSchemaParserFunctionTest
+17869,org.apache.phoenix.end2end.ConnectionQueryServicesTestImpl
+17880,org.apache.phoenix.query.ConnectionQueryServicesImpl
+17985,org.apache.hadoop.hbase.regionserver.IndexHalfStoreFileReader
+18023,org.apache.phoenix.parse.AvgAggregateParseNode
+18033,org.apache.phoenix.expression.function.AvgAggregateFunction
+18038,org.apache.phoenix.end2end.FirstValueFunctionIT
+18108,org.apache.phoenix.exception.BatchUpdateExecution
+18127,org.apache.phoenix.expression.aggregator.PercentRankClientAggregator
+18128,org.apache.phoenix.expression.function.DistinctValueWithCountAggregateFunction
+18134,org.apache.phoenix.end2end.UpsertSelectAutoCommitIT
+18162,org.apache.phoenix.expression.aggregator.PercentileDiscClientAggregator
+18267,org.apache.phoenix.schema.KeyValueSchema
+18279,org.apache.phoenix.parse.FloorParseNode
+18281,org.apache.phoenix.util.JDBCUtilTest
+18307,org.apache.phoenix.end2end.DynamicColumnIT
+18364,org.apache.phoenix.execute.ClientProcessingPlan
+18392,org.apache.phoenix.end2end.DynamicUpsertIT
+18453,org.apache.phoenix.filter.BooleanExpressionFilter
+18481,org.apache.phoenix.index.PhoenixIndexBuilder
+18511,org.apache.phoenix.execute.ScanPlan
+18564,org.apache.phoenix.coprocessor.ScanRegionObserver
+18565,org.apache.phoenix.iterate.MergeSortRowKeyResultIterator
+18566,org.apache.phoenix.iterate.ParallelIterators
+18585,org.apache.phoenix.flume.RegexEventSerializerIT
+18758,org.apache.phoenix.util.UpgradeUtil
+18959,org.apache.phoenix.parse.ToDateParseNode
+19477,org.apache.phoenix.compile.CreateIndexCompiler
+19478,org.apache.phoenix.compile.CreateSequenceCompiler
+19479,org.apache.phoenix.compile.CreateTableCompiler
+19480,org.apache.phoenix.compile.QueryCompiler
+19481,org.apache.phoenix.compile.UpsertCompiler
+19482,org.apache.phoenix.parse.CreateIndexStatement
+19483,org.apache.phoenix.parse.DropColumnStatement
+19484,org.apache.phoenix.parse.DropIndexStatement
+19485,org.apache.phoenix.parse.DropTableStatement
+19486,org.apache.phoenix.parse.IndexKeyConstraint
+19487,org.apache.phoenix.parse.PrimaryKeyConstraint
+19488,org.apache.phoenix.parse.UpdateStatisticsStatement
+19489,org.apache.phoenix.parse.UpsertStatement
+19490,org.apache.phoenix.schema.ExecuteQueryNotApplicableException
+19491,org.apache.phoenix.schema.ExecuteUpdateNotApplicableException
+19492,org.apache.phoenix.schema.Sequence
+19493,org.apache.phoenix.schema.stats.StatisticsCollectionScope
+19550,org.apache.phoenix.end2end.CompareDecimalToLongIT
+19614,org.apache.phoenix.flume.serializer.RegexEventSerializer
+19654,org.apache.phoenix.end2end.index.IndexHandlerIT
+19694,org.apache.phoenix.hbase.index.IndexQosRpcControllerFactory
+19695,org.apache.phoenix.hbase.index.TableName
+19705,org.apache.phoenix.parse.NotEqualParseNode
+19712,org.apache.phoenix.expression.visitor.RowKeyExpressionVisitor
+19715,org.apache.phoenix.expression.visitor.StatelessTraverseAllExpressionVisitor
+20014,org.apache.phoenix.mapreduce.util.ColumnInfoToStringEncoderDecoder
+20015,org.apache.phoenix.mapreduce.util.ConnectionUtil
+20075,org.apache.phoenix.hbase.index.exception.SingleIndexWriteFailureException
+20076,org.apache.phoenix.hbase.index.parallel.EarlyExitFailure
+20077,org.apache.phoenix.hbase.index.parallel.Task
+20078,org.apache.phoenix.hbase.index.parallel.TaskBatch
+20079,org.apache.phoenix.hbase.index.parallel.ThreadPoolManager
+20080,org.apache.phoenix.hbase.index.write.IndexWriterUtils
+20336,org.apache.phoenix.expression.visitor.TraverseAllExpressionVisitor
+20346,org.apache.phoenix.mapreduce.CsvBulkImportUtilTest
+20369,org.apache.phoenix.end2end.TimezoneOffsetFunctionIT
+20448,org.apache.phoenix.schema.tuple.BaseTuple
+20542,org.apache.phoenix.pig.PhoenixHBaseLoaderIT
+20682,org.apache.phoenix.pig.PhoenixHBaseLoader
+20683,org.apache.phoenix.pig.PhoenixHBaseStorage
+20689,org.apache.hadoop.hbase.ipc.PhoenixIndexRpcSchedulerTest
+20723,org.apache.hadoop.hbase.ipc.PhoenixIndexRpcScheduler
+20727,org.apache.phoenix.expression.aggregator.MinAggregator
+20754,org.apache.phoenix.parse.ToTimestampParseNode
+20756,org.apache.phoenix.trace.util.NullSpan
+20788,org.apache.phoenix.hbase.index.write.recovery.TestPerRegionIndexWriteCache
+20846,org.apache.phoenix.end2end.CreateTableIT
+20929,org.apache.phoenix.schema.TableAlreadyExistsException
+21020,org.apache.phoenix.util.CSVCommonsLoader
+21107,org.apache.phoenix.coprocessor.generated.ServerCacheFactoryProtos
+21135,org.apache.phoenix.end2end.EvaluationOfORIT
+21146,org.apache.phoenix.util.GeneratePerformanceData
+21197,org.apache.phoenix.schema.SequenceInfo
+21204,org.apache.phoenix.iterate.BaseResultIterator
+21264,org.apache.phoenix.hbase.index.covered.CoveredIndexCodecForTesting
+21281,org.apache.phoenix.compile.ViewCompilerTest
+21326,org.apache.phoenix.end2end.TenantSpecificTablesDDLIT
+21431,org.apache.phoenix.end2end.UpsertBigValuesIT
+21483,org.apache.phoenix.end2end.TenantSpecificViewIndexIT
+21515,org.apache.phoenix.util.MinVersionTestRunner
+21539,org.apache.phoenix.jdbc.PhoenixDriverTest
+21559,org.apache.phoenix.hbase.index.covered.example.EndtoEndIndexingWithCompressionIT
+21562,org.apache.phoenix.hbase.index.IndexTestingUtils
+21563,org.apache.phoenix.hbase.index.Indexer
+21564,org.apache.phoenix.hbase.index.covered.example.EndToEndCoveredIndexingIT
+22170,org.apache.phoenix.expression.aggregator.FirstLastValueBaseClientAggregator
+22171,org.apache.phoenix.expression.aggregator.FirstLastValueServerAggregator
+22172,org.apache.phoenix.parse.LastValueAggregateParseNode
+22173,org.apache.phoenix.expression.function.FirstLastValueBaseFunction
+22183,org.apache.phoenix.end2end.KeyOnlyIT
+22230,org.apache.phoenix.end2end.ViewIT
+22321,org.apache.phoenix.parse.NthValueAggregateParseNode
+22393,org.apache.phoenix.expression.LikeExpressionTest
+23201,org.apache.phoenix.coprocessor.MetaDataEndpointImpl
+23202,org.apache.phoenix.coprocessor.MetaDataRegionObserver
+23203,org.apache.phoenix.coprocessor.SequenceRegionObserver
+23209,org.apache.phoenix.schema.EmptySequenceCacheException
+23210,org.apache.phoenix.schema.MetaDataSplitPolicy
+23211,org.apache.phoenix.schema.NewerTableAlreadyExistsException
+23212,org.apache.phoenix.schema.PMetaDataImpl
+23214,org.apache.phoenix.query.ChildQueryServices
+23369,org.apache.phoenix.index.IndexMetaDataCacheFactory
+23678,org.apache.phoenix.end2end.SubqueryIT
+23769,org.apache.phoenix.parse.MinAggregateParseNode
+23770,org.apache.phoenix.expression.function.DelegateConstantToCountAggregateFunction
+24347,org.apache.phoenix.coprocessor.SuffixFilter
+24404,org.apache.phoenix.compile.HavingCompilerTest
+24488,org.apache.phoenix.trace.PhoenixTraceReaderIT
+24536,org.apache.phoenix.metrics.MetricInfo
+24549,org.apache.phoenix.compile.QueryCompilerTest
+25008,org.apache.phoenix.expression.aggregator.CountAggregator
+25051,org.apache.phoenix.hbase.index.StubAbortable
+25059,org.apache.phoenix.end2end.ToCharFunctionIT
+25288,org.apache.phoenix.schema.ValueBitSet
+25304,org.apache.phoenix.end2end.ReverseScanIT
+25327,org.apache.phoenix.pig.util.PhoenixPigSchemaUtilTest
+25345,org.apache.phoenix.pig.util.PhoenixPigSchemaUtil
+25601,org.apache.phoenix.hbase.index.covered.example.CoveredColumnIndexer
+25752,org.apache.phoenix.end2end.PointInTimeQueryIT
+25814,org.apache.phoenix.memory.ChildMemoryManager
+25815,org.apache.phoenix.cache.TenantCacheImpl
+25953,org.apache.phoenix.compile.AggregationManager
+25999,org.apache.phoenix.end2end.CustomEntityDataIT
+26076,org.apache.phoenix.jdbc.PhoenixEmbeddedDriverTest
+26183,org.apache.phoenix.end2end.StatsCollectorWithSplitsAndMultiCFIT
+26226,org.apache.phoenix.end2end.StatsCollectorAbstractIT
+26232,org.apache.phoenix.expression.BaseDecimalAddSubtractExpression
+26240,org.apache.phoenix.join.MaxServerCacheSizeExceededException
+26501,org.apache.hadoop.hbase.regionserver.LocalIndexMerger
+26508,org.apache.phoenix.expression.aggregator.DoubleSumAggregator
+26558,org.apache.phoenix.hbase.index.parallel.TestThreadPoolBuilder
+26569,org.apache.phoenix.end2end.ReadOnlyIT
+26580,org.apache.phoenix.parse.ColumnFamilyDef
+26728,org.apache.phoenix.memory.DelegatingMemoryManager
+26869,org.apache.phoenix.parse.BaseParseNodeVisitor
+26904,org.apache.phoenix.end2end.NotQueryIT
+26997,org.apache.hadoop.metrics2.impl.ExposedMetricsRecordImpl
+27042,org.apache.hadoop.metrics2.impl.ExposedMetricCounterLong
+27043,org.apache.hadoop.metrics2.lib.ExposedMetricsInfoImpl
+27046,org.apache.phoenix.trace.PhoenixTagImpl
+27055,org.apache.phoenix.mapreduce.util.PhoenixConfigurationUtilTest
+27087,org.apache.phoenix.metrics.LoggingSink
+27100,org.apache.phoenix.end2end.ToDateFunctionIT
+27133,org.apache.phoenix.end2end.index.BaseMutableIndexIT
+27242,org.apache.phoenix.util.PhoenixContextExecutorTest
+27257,org.apache.phoenix.cache.aggcache.SpillFile
+27342,org.apache.phoenix.schema.ArgumentTypeMismatchException
+27405,org.apache.phoenix.parse.BinaryParseNode
+27710,org.apache.phoenix.end2end.ColumnProjectionOptimizationIT
+27813,org.apache.phoenix.end2end.index.SaltedIndexIT
+27870,org.apache.phoenix.exception.UndecodableByteException
+27880,org.apache.phoenix.hbase.index.covered.example.FailWithoutRetriesIT
+27910,org.apache.phoenix.schema.tuple.ValueGetterTuple
+28033,org.apache.phoenix.hbase.index.covered.data.LocalTable
+28034,org.apache.phoenix.hbase.index.covered.update.IndexUpdateManager
+28035,org.apache.phoenix.hbase.index.covered.Batch
+28098,org.apache.phoenix.parse.GreaterThanOrEqualParseNode
+28279,org.apache.phoenix.end2end.EncodeFunctionIT
+28315,org.apache.phoenix.expression.CoerceExpressionTest
+28349,org.apache.phoenix.hbase.index.balancer.IndexLoadBalancerIT
+28505,org.apache.phoenix.expression.aggregator.DistinctValueClientAggregator
+28539,org.apache.phoenix.iterate.MergeSortResultIteratorTest
+28558,org.apache.phoenix.util.AssertResults
+28572,org.apache.phoenix.end2end.SkipScanAfterManualSplitIT
+28635,org.apache.phoenix.expression.function.CompositeAggregateFunction
+28657,org.apache.phoenix.expression.visitor.BaseExpressionVisitor
+28695,org.apache.phoenix.util.csv.CsvUpsertExecutorTest
+28731,org.apache.phoenix.expression.visitor.CloneExpressionVisitor
+28832,org.apache.phoenix.expression.DelegateExpression
+28862,org.apache.hadoop.hbase.regionserver.wal.ReadWriteKeyValuesWithCodecIT
+28972,org.apache.phoenix.join.HashCacheFactory
+29045,org.apache.phoenix.expression.aggregator.MaxAggregator
+29053,org.apache.phoenix.end2end.index.IndexMetadataIT
+29153,org.apache.phoenix.iterate.OrderedAggregatingResultIterator
+29164,org.apache.phoenix.iterate.OrderedResultIterator
+29272,org.apache.phoenix.iterate.MappedByteBufferSortedQueue
+29273,org.apache.phoenix.iterate.MappedByteBufferQueue
+29984,org.apache.phoenix.hbase.index.builder.IndexBuildManager
+29985,org.apache.phoenix.hbase.index.write.recovery.TrackingParallelWriterIndexCommitter
+30335,org.apache.phoenix.end2end.HashJoinIT
+30643,org.apache.phoenix.end2end.ArrayIT
+31177,org.apache.phoenix.util.MetaDataUtilTest
+31218,org.apache.phoenix.end2end.LpadFunctionIT
+31269,org.apache.phoenix.schema.DelegateColumn
+31380,org.apache.phoenix.hbase.index.scanner.EmptyScanner
+32008,org.apache.phoenix.parse.BooleanParseNodeVisitor
+32009,org.apache.phoenix.parse.EqualParseNode
+32158,org.apache.phoenix.parse.BuiltInFunctionInfoTest
+32217,org.apache.phoenix.expression.aggregator.ClientAggregators
+32241,org.apache.phoenix.hbase.index.write.TestIndexWriter
+32323,org.apache.phoenix.hbase.index.write.FakeTableFactory
+32398,org.apache.phoenix.expression.aggregator.LongSumAggregator
+32443,org.apache.phoenix.parse.CeilParseNode
+32654,org.apache.phoenix.end2end.DisableLocalIndexIT
+32785,org.apache.phoenix.iterate.RegionScannerResultIterator
+32870,org.apache.phoenix.end2end.PercentileIT
+33050,org.apache.phoenix.expression.function.ExternalSqlTypeIdFunctionTest
+33069,org.apache.phoenix.end2end.RegexpSubstrFunctionIT
+33187,org.apache.phoenix.end2end.ModulusExpressionIT
+33313,org.apache.phoenix.parse.MaxAggregateParseNode
+33323,org.apache.phoenix.end2end.ExtendedQueryExecIT
+33605,org.apache.phoenix.parse.PropertyName
+33844,org.apache.phoenix.schema.PDataTypeForArraysTest
+34349,org.apache.phoenix.schema.RowKeyValueAccessorTest
+34407,org.apache.phoenix.parse.AggregateFunctionWithinGroupParseNode
+34490,org.apache.phoenix.mapreduce.CsvBulkLoadToolIT
+34636,org.apache.phoenix.parse.ToCharParseNode
+35725,org.apache.phoenix.hbase.index.CapturingAbortable
+35731,org.apache.phoenix.end2end.ProductMetricsIT
+36764,org.apache.phoenix.end2end.UpsertSelectIT
+37017,org.apache.phoenix.util.PhoenixEncodeDecodeTest
+37319,org.apache.phoenix.end2end.StatsCollectorIT
+37370,org.apache.phoenix.util.PropertiesUtilTest
+37380,org.apache.phoenix.schema.ValueBitSetTest
+37438,org.apache.phoenix.util.DateUtilTest
+37656,org.apache.phoenix.filter.SingleCFCQKeyValueComparisonFilter
+38045,org.apache.phoenix.util.PhoenixRuntimeTest
+38086,org.apache.phoenix.compile.TenantSpecificViewIndexCompileTest
+38157,org.apache.phoenix.end2end.ToNumberFunctionIT
+38308,org.apache.hadoop.hbase.regionserver.PhoenixIndexRpcSchedulerFactoryTest
+38430,org.apache.phoenix.cache.aggcache.SpillManager
+38580,org.apache.phoenix.end2end.HashJoinLocalIndexIT
+38613,org.apache.phoenix.end2end.DistinctCountIT
+38708,org.apache.phoenix.hbase.index.write.TestCachingHTableFactory
+38773,org.apache.phoenix.expression.aggregator.DecimalStddevPopAggregator
+38778,org.apache.phoenix.expression.aggregator.BaseDecimalStddevAggregator
+38864,org.apache.phoenix.expression.visitor.KeyValueExpressionVisitor
+38870,org.apache.phoenix.hbase.index.write.TestParalleIndexWriter
+38909,org.apache.phoenix.end2end.AlterTableIT
+39296,org.apache.phoenix.end2end.TopNIT
+39354,org.apache.phoenix.end2end.NthValueFunctionIT
+39416,org.apache.phoenix.end2end.ParallelIteratorsIT
+39650,org.apache.phoenix.schema.PLongColumn
+39652,org.apache.phoenix.schema.PBaseColumn
+39654,org.apache.phoenix.compile.StatementHintsCompilationTest
+40442,org.apache.phoenix.compile.WhereCompilerTest
+41087,org.apache.phoenix.expression.RowKeyExpression
+41163,org.apache.phoenix.util.SequenceUtilTest
+41176,org.apache.phoenix.Sandbox
+41470,org.apache.phoenix.end2end.index.MutableIndexReplicationIT
+41533,org.apache.phoenix.end2end.MD5FunctionIT
+41621,org.apache.phoenix.compile.ScanRangesTest
+41669,org.apache.phoenix.iterate.AggregateResultScannerTest
+41706,org.apache.phoenix.query.ParallelIteratorsSplitTest
+41826,org.apache.phoenix.end2end.RoundFloorCeilFunctionsEnd2EndIT
+42005,org.apache.phoenix.expression.aggregator.PercentileClientAggregator
+42032,org.apache.phoenix.hbase.index.covered.EndToEndCoveredColumnsIndexBuilderIT
+42370,org.apache.phoenix.end2end.index.GlobalMutableIndexIT
+42373,org.apache.phoenix.parse.SelectStatementRewriter
+42444,org.apache.phoenix.expression.function.CurrentDateFunction
+42455,org.apache.phoenix.expression.CurrentDateTimeFunction
+42456,org.apache.phoenix.parse.CurrentDateParseNode
+42476,org.apache.phoenix.expression.aggregator.DecimalStddevSampAggregator
+42481,org.apache.phoenix.parse.ParseContext
+42534,org.apache.phoenix.end2end.index.DropIndexDuringUpsertIT
+42674,org.apache.phoenix.mapreduce.PhoenixRecordWriter
+42697,org.apache.phoenix.query.QueryServicesTestImpl
+42809,org.apache.phoenix.mapreduce.CsvToKeyValueMapperTest
+42864,org.apache.phoenix.util.ScanUtilTest
+42919,org.apache.phoenix.end2end.FunkyNamesIT
+42965,org.apache.phoenix.iterate.UngroupedAggregatingResultIterator
+43500,org.apache.phoenix.pig.util.QuerySchemaParserFunction
+43793,org.apache.phoenix.schema.PIntegerColumn
+43925,org.apache.phoenix.jdbc.PhoenixPreparedStatementTest
+43945,org.apache.phoenix.end2end.DeleteIT
+44461,org.apache.phoenix.end2end.GroupByIT
+44618,org.apache.phoenix.job.AbstractRoundRobinQueue
+44695,org.apache.phoenix.util.ByteUtilTest
+44769,org.apache.phoenix.end2end.ArithmeticQueryIT
+44887,org.apache.phoenix.execute.ClientScanPlan
+44904,org.apache.phoenix.expression.visitor.SingleAggregateFunctionVisitor
+44908,org.apache.phoenix.end2end.index.LocalMutableIndexIT
+44936,org.apache.phoenix.query.HBaseFactoryProviderTest
+44944,org.apache.phoenix.iterate.ConcatResultIteratorTest
+44996,org.apache.phoenix.end2end.SaltedViewIT
+45025,org.apache.phoenix.expression.SortOrderExpressionTest
+45269,org.apache.phoenix.end2end.CSVCommonsLoaderIT
+45446,org.apache.phoenix.end2end.QueryTimeoutIT
+45463,org.apache.phoenix.mapreduce.util.ColumnInfoToStringEncoderDecoderTest
+45558,org.apache.phoenix.end2end.MultiCfQueryExecIT
+45628,org.apache.phoenix.schema.PDateColumn
+45632,org.apache.phoenix.query.ConnectionlessQueryServicesImpl
+45838,org.apache.phoenix.pig.util.QuerySchemaParserFunctionTest
+45855,org.apache.phoenix.hbase.index.covered.update.TestIndexUpdateManager
+45884,org.apache.phoenix.end2end.TenantSpecificTablesDMLIT
+46049,org.apache.phoenix.util.LogUtilTest
+46089,org.apache.phoenix.end2end.StddevIT
+46139,org.apache.phoenix.schema.ConcurrentTableMutationException
+46151,org.apache.phoenix.end2end.LastValueFunctionIT
+46225,org.apache.phoenix.hbase.index.parallel.TestThreadPoolManager
+46274,org.apache.phoenix.iterate.LimitingPeekingResultIterator
+46282,org.apache.phoenix.query.KeyRangeCoalesceTest
+46299,org.apache.phoenix.hbase.index.covered.TestLocalTableState
+46389,org.apache.phoenix.execute.ClientAggregatePlan
+46443,org.apache.phoenix.parse.ToNumberParseNode
+46458,org.apache.phoenix.util.csv.StringToArrayConverterTest
+46511,org.apache.phoenix.hbase.index.covered.filter.TestFamilyOnlyFilter
+46536,org.apache.phoenix.hbase.index.covered.filter.FamilyOnlyFilter
+46550,org.apache.phoenix.trace.PhoenixTableMetricsWriterIT
+46728,org.apache.phoenix.parse.QueryParserTest
+46903,org.apache.phoenix.end2end.SpooledOrderByIT
+46907,org.apache.phoenix.execute.SortMergeJoinPlan
+47081,org.apache.phoenix.iterate.SpoolingResultIteratorTest
+47096,org.apache.phoenix.end2end.salted.SaltedTableVarLengthRowKeyIT
+47157,org.apache.phoenix.expression.aggregator.DecimalSumAggregator
+47629,org.apache.phoenix.end2end.index.ViewIndexIT
+47730,org.apache.phoenix.util.LikeExpressionTest
+50044,org.apache.phoenix.end2end.End2EndTestDriver
+50206,org.apache.phoenix.hbase.index.write.TestWALRecoveryCaching
+50292,org.apache.phoenix.end2end.InListIT
+50486,org.apache.phoenix.end2end.QueryExecWithoutSCNIT
+50496,org.apache.phoenix.compile.HavingCompiler
+50648,org.apache.phoenix.schema.SchemaUtilTest
+50663,org.apache.phoenix.pig.PhoenixHBaseStorerIT
+51210,org.apache.phoenix.hbase.index.table.CoprocessorHTableFactory
+51308,org.apache.phoenix.hbase.index.covered.filter.ColumnTrackingNextLargestTimestampFilter
+51342,org.apache.phoenix.compile.SelectStatementRewriterTest
+51428,org.apache.phoenix.end2end.ServerExceptionIT
+51529,org.apache.phoenix.end2end.UpsertValuesIT
+51651,org.apache.phoenix.schema.PMetaDataImplTest
+51687,org.apache.phoenix.memory.MemoryManagerTest
+52281,org.apache.phoenix.hbase.index.covered.filter.MaxTimestampFilter
+52347,org.apache.phoenix.util.BigDecimalUtil
+52411,org.apache.phoenix.expression.ColumnExpressionTest
+52651,org.apache.phoenix.execute.TupleProjectionPlan
+52893,org.apache.phoenix.hbase.index.covered.update.SortedCollection
+52949,org.apache.phoenix.end2end.CaseStatementIT
+53049,org.apache.phoenix.end2end.VariableLengthPKIT
+54252,org.apache.phoenix.expression.ArithmeticOperationTest
+54313,org.apache.phoenix.schema.ValueRangeExcpetion
+54322,org.apache.phoenix.end2end.SubqueryUsingSortMergeJoinIT
+54379,org.apache.phoenix.end2end.index.GlobalIndexOptimizationIT
+54424,org.apache.phoenix.query.KeyRangeUnionTest
+54761,org.apache.phoenix.end2end.ScanQueryIT
+54876,org.apache.phoenix.end2end.BinaryRowKeyIT
+55114,org.apache.phoenix.hbase.index.builder.IndexBuildingFailureException
+55115,org.apache.phoenix.hbase.index.covered.data.LazyValueGetter
+55180,org.apache.phoenix.end2end.SpillableGroupByIT
+55660,org.apache.phoenix.hbase.index.FailForUnsupportedHBaseVersionsIT
+55723,org.apache.phoenix.schema.ColumnModifier
+55848,org.apache.phoenix.util.StringUtilTest
+56048,org.apache.phoenix.schema.PStringColumn
+56565,org.apache.phoenix.end2end.SpooledTmpFileDeleteIT
+56601,org.apache.phoenix.hbase.index.covered.example.TestCoveredColumnIndexCodec
+56791,org.apache.phoenix.trace.TraceMetricsSourceTest
+56886,org.apache.phoenix.end2end.NativeHBaseTypesIT
+57055,org.apache.phoenix.end2end.StatementHintsIT
+57509,org.apache.phoenix.hbase.index.write.TestParalleWriterIndexCommitter
+57593,org.apache.phoenix.end2end.ClientTimeArithmeticQueryIT
+57958,org.apache.phoenix.cache.aggcache.SpillMap
+58429,org.apache.phoenix.compile.ScanRangesIntersectTest
+58500,org.apache.phoenix.util.ColumnInfoTest
+58508,org.apache.phoenix.expression.aggregator.IntSumAggregator
+58513,org.apache.phoenix.util.IndexUtilTest
+58654,org.apache.phoenix.end2end.DecodeFunctionIT
+58697,org.apache.phoenix.end2end.ConvertTimezoneFunctionIT
+59090,org.apache.phoenix.end2end.ExecuteStatementsIT
+59251,org.apache.phoenix.end2end.ContextClassloaderIT
+59298,org.apache.phoenix.util.Base62EncoderTest
+59882,org.apache.phoenix.end2end.QueryWithLimitIT
+*Edges: 4360
+20689 20723 6
+17985 7883 2
+9950 17985 1
+9950 242 3
+9950 402 2
+9950 394 3
+9950 403 2
+9950 395 2
+9950 400 1
+9950 642 1
+9950 877 1
+9950 413 1
+9950 401 3
+26501 404 1
+26501 401 1
+307 242 2
+307 402 1
+307 404 1
+307 394 3
+307 403 1
+307 392 1
+307 395 2
+307 400 1
+307 413 1
+307 411 1
+307 401 1
+38308 4957 7
+28862 21562 1
+28862 12118 1
+15764 1094 2
+15764 21562 1
+15764 1096 2
+15764 1095 1
+15764 19695 1
+15764 15763 1
+15758 15764 2
+15758 15763 1
+41176 3380 1
+7879 25815 4
+7879 25814 1
+7879 5789 1
+646 242 5
+646 49 1
+646 5545 1
+646 644 1
+646 621 2
+646 7885 2
+646 654 4
+25815 656 3
+25815 7885 1
+27257 7885 1
+38430 27257 1
+38430 4357 3
+38430 18267 2
+38430 4405 4
+38430 7885 2
+38430 656 5
+38430 4584 1
+38430 57958 3
+38430 7886 1
+38430 4404 2
+38430 4688 1
+38430 25288 2
+57958 656 9
+57958 27257 3
+7881 2833 1
+7881 4357 3
+7881 4405 1
+7881 7885 3
+7881 656 1
+7881 7879 1
+7881 38430 2
+7881 5831 1
+25953 32217 3
+25953 4405 1
+3963 636 1
+3963 2144 3
+3963 2094 3
+3963 625 2
+19477 2566 3
+19477 622 1
+19477 618 1
+19477 625 3
+19477 21 1
+19477 3840 1
+19477 395 1
+19477 636 3
+19477 19482 5
+19477 629 1
+19478 242 1
+19478 8657 15
+19478 3963 5
+19478 2566 3
+19478 49 1
+19478 624 2
+19478 622 8
+19478 8951 6
+19478 3840 1
+19478 395 1
+19478 636 7
+19478 642 2
+19478 413 12
+19479 622 2
+19479 618 1
+19479 403 1
+19479 21 1
+19479 8340 1
+19479 629 1
+19479 654 3
+19479 637 2
+19479 242 3
+19479 2566 3
+19479 625 2
+19479 638 2
+19479 11627 5
+19479 395 1
+19479 636 6
+19479 3840 1
+19479 877 1
+19479 413 2
+8438 5547 2
+8438 3670 8
+8438 5545 1
+8438 6166 5
+8438 622 4
+8438 8340 2
+8438 620 1
+8438 242 11
+8438 7597 1
+8438 1818 1
+8438 394 4
+8438 8611 3
+8438 625 1
+8438 1125 1
+8438 642 1
+8438 621 1
+8438 413 2
+8438 8341 1
+8438 8610 1
+8438 618 2
+8438 8609 8
+8438 2842 1
+8438 401 1
+8438 654 14
+8438 2566 5
+8438 49 2
+8438 638 1
+8438 7592 1
+8438 656 2
+8438 395 2
+8438 48 2
+8438 2204 2
+3655 2566 3
+3655 395 1
+3655 622 1
+3655 3671 1
+3840 11287 1
+3840 5875 7
+3840 14186 2
+3840 629 20
+3840 14200 1
+3840 14181 1
+3840 2546 1
+3840 4839 5
+3840 400 1
+3840 4841 3
+3840 413 2
+3840 630 1
+3840 1921 17
+3840 14191 2
+3840 626 1
+3840 4496 1
+3840 14192 1
+3840 7147 1
+3840 12905 1
+3840 10061 2
+3840 1976 3
+3840 14196 2
+3840 6818 1
+3840 1150 6
+3840 14197 2
+3840 4984 1
+3840 636 14
+3840 14199 1
+3840 12909 1
+3840 2545 2
+3840 5784 1
+3840 3963 14
+3840 396 1
+3840 9756 1
+3840 622 37
+3840 14201 1
+3840 2145 4
+3840 2837 2
+3840 14202 1
+3840 14190 2
+3840 2542 1
+3840 242 1
+3840 1908 2
+3840 14195 1
+3840 1125 1
+3840 625 6
+3840 5540 1
+3840 642 23
+3840 628 1
+3840 1975 6
+3840 14194 1
+3840 5650 2
+3840 641 1
+3840 404 1
+3840 14185 1
+3840 12910 1
+3840 14198 1
+3840 14183 1
+3840 14189 1
+3840 14188 2
+3840 2558 1
+3840 2144 1
+3840 654 2
+3840 7450 3
+3840 10592 10
+3840 14193 1
+3840 14182 1
+3840 14187 2
+3840 14184 1
+3840 3961 3
+3840 2543 3
+3840 3631 1
+3840 10540 1
+13052 642 2
+618 4836 3
+618 242 8
+618 11636 1
+618 404 1
+618 2843 2
+618 8611 3
+618 7885 1
+618 638 2
+618 11627 4
+618 658 1
+618 620 2
+618 11637 1
+618 11628 1
+618 413 2
+618 654 7
+3838 3839 5
+3838 622 1
+3838 8608 1
+3838 7882 1
+3838 638 6
+3838 625 1
+3838 636 1
+3838 3840 1
+3838 4496 1
+3838 642 5
+50496 42373 1
+50496 622 3
+50496 2145 1
+50496 638 5
+50496 625 1
+50496 636 2
+50496 3840 2
+50496 629 2
+24404 5001 1
+24404 239 2
+24404 956 7
+24404 16925 4
+24404 622 1
+24404 954 1
+24404 2547 1
+24404 7592 1
+24404 2555 2
+24404 2558 1
+24404 18453 1
+24404 629 2
+5865 3840 5
+5865 5875 3
+5865 622 1
+5865 4839 1
+4834 5875 3
+4834 11632 3
+4834 4839 5
+4834 394 2
+4834 3961 1
+4834 4835 7
+4834 638 4
+4834 636 3
+4834 11630 1
+4834 400 2
+4834 642 1
+4834 4841 1
+4834 413 5
+4834 654 5
+8337 5547 2
+8337 3837 2
+8337 5875 2
+8337 404 2
+8337 622 2
+8337 8608 2
+8337 21 1
+8337 658 2
+8337 2542 1
+8337 654 12
+8337 242 1
+8337 2566 12
+8337 4834 1
+8337 11632 1
+8337 394 10
+8337 638 34
+8337 636 10
+8337 3840 2
+8337 48 1
+8337 413 3
+8337 19480 2
+8318 242 2
+8318 239 3
+8318 8341 1
+8318 954 1
+8318 618 2
+8318 8337 1
+8318 403 1
+8318 8339 1
+8318 8340 2
+8318 637 2
+3932 636 1
+3932 3960 1
+3932 622 1
+3932 394 1
+15773 2555 2
+15773 239 2
+15773 956 1
+15773 877 3
+15773 622 3
+15773 1151 6
+15773 954 1
+8612 4584 1
+8612 242 8
+8612 7886 1
+8612 3670 4
+8612 49 1
+8612 622 2
+3058 242 1
+3058 3839 5
+3058 3837 3
+3058 49 1
+3058 622 5
+3058 625 1
+3058 3840 2
+3058 636 1
+3058 3836 1
+3058 621 1
+3058 654 2
+7530 242 3
+7530 2566 1
+7530 622 2
+3773 242 3
+3773 2566 2
+3773 400 2
+3773 654 4
+7597 3963 1
+7597 5875 11
+7597 404 8
+7597 622 18
+7597 2843 1
+7597 8608 7
+7597 14201 2
+7597 4496 1
+7597 2837 3
+7597 13052 5
+7597 620 3
+7597 629 1
+7597 654 27
+7597 242 6
+7597 18267 1
+7597 1818 3
+7597 11632 2
+7597 638 5
+7597 636 6
+7597 3840 3
+7597 11630 1
+7597 642 6
+7597 400 3
+7597 4841 1
+7597 413 2
+7597 657 1
+7597 25288 2
+7597 11633 1
+7597 5784 2
+19480 5107 1
+19480 5547 3
+19480 5545 7
+19480 622 55
+19480 18511 1
+19480 8340 2
+19480 447 3
+19480 52651 2
+19480 629 1
+19480 46389 1
+19480 242 2
+19480 27405 4
+19480 7597 1
+19480 394 7
+19480 50496 2
+19480 46907 1
+19480 44887 1
+19480 8341 1
+19480 630 2
+19480 3932 3
+19480 618 5
+19480 8337 2
+19480 21 9
+19480 623 1
+19480 3838 1
+19480 637 2
+19480 654 5
+19480 2566 15
+19480 638 27
+19480 634 2
+19480 7592 1
+19480 7882 5
+19480 656 2
+19480 3058 1
+19480 14197 2
+19480 8339 1
+19480 48 1
+24549 239 60
+24549 956 1
+24549 624 38
+24549 404 3
+24549 622 2
+24549 403 2
+24549 2555 1
+24549 2837 2
+24549 3380 12
+24549 242 4
+24549 2566 1
+24549 4357 1
+24549 10524 1
+24549 1818 2
+24549 4405 1
+24549 12685 4
+24549 954 24
+24549 7593 2
+24549 877 4
+11036 239 33
+11036 954 33
+2868 239 35
+2868 2566 3
+2868 402 5
+2868 404 1
+2868 654 23
+2868 403 1
+620 2837 1
+620 28731 1
+620 13052 1
+620 404 3
+620 7593 1
+621 2556 20
+621 5545 12
+621 404 1
+621 8141 8
+621 3456 9
+621 5543 2
+58429 2556 1
+58429 8141 1
+58429 3456 1
+58429 1151 3
+58429 621 4
+58429 1125 1
+41621 2556 9
+41621 642 138
+41621 5545 1
+41621 877 2
+41621 621 5
+41621 1125 2
+51342 2555 2
+51342 239 2
+51342 956 6
+51342 622 1
+51342 954 1
+21 7450 6
+21 242 4
+21 2566 6
+21 7427 5
+21 413 2
+21 7449 1
+7427 642 2
+7427 5539 1
+7427 404 1
+7427 1124 1
+7427 7449 4
+622 242 6
+622 3963 3
+622 2566 9
+622 49 5
+622 1819 3
+622 25953 3
+622 638 3
+622 21 5
+622 395 2
+622 14202 3
+622 621 4
+622 654 5
+39654 2555 2
+39654 239 3
+39654 956 1
+39654 622 4
+39654 954 1
+39654 403 1
+8340 1921 6
+8340 404 1
+8340 4839 8
+8340 394 9
+8340 8608 1
+8340 14188 1
+8340 4835 9
+8340 638 17
+8340 636 3
+8340 658 1
+8340 4841 8
+8340 413 1
+8341 5650 3
+8341 242 3
+8341 27405 1
+8341 15306 3
+8341 1921 2
+8341 394 76
+8341 8608 9
+8341 14188 3
+8341 4835 8
+8341 638 31
+8341 625 1
+8341 14197 4
+8341 636 8
+8341 658 1
+8339 5547 1
+8339 3837 6
+8339 404 3
+8339 3932 2
+8339 8608 6
+8339 618 1
+8339 4835 4
+8339 658 1
+8339 242 1
+8339 11629 1
+8339 394 11
+8339 4839 3
+8339 11632 1
+8339 638 62
+8339 636 10
+8339 413 1
+38086 239 7
+38086 403 5
+3839 242 1
+3839 5875 7
+3839 622 3
+3839 4839 1
+3839 2547 1
+3839 7882 3
+3839 1125 1
+3839 3840 9
+3839 5546 1
+19481 5547 2
+19481 3670 4
+19481 5875 5
+19481 5545 1
+19481 6166 1
+19481 622 2
+19481 2145 1
+19481 8340 2
+19481 620 5
+19481 629 1
+19481 242 12
+19481 7597 1
+19481 2835 2
+19481 11638 2
+19481 8611 2
+19481 1125 1
+19481 625 4
+19481 642 7
+19481 400 1
+19481 413 2
+19481 8341 1
+19481 404 5
+19481 8610 2
+19481 8608 3
+19481 618 3
+19481 21 2
+19481 19489 7
+19481 11637 1
+19481 2842 1
+19481 401 1
+19481 654 14
+19481 4836 1
+19481 2566 5
+19481 11636 1
+19481 49 2
+19481 3961 3
+19481 7592 1
+19481 638 12
+19481 656 1
+19481 636 2
+19481 395 4
+19481 8339 1
+19481 877 1
+19481 48 2
+19481 19480 2
+19481 2204 2
+21281 242 14
+21281 239 4
+21281 2837 1
+21281 624 1
+21281 954 3
+623 5107 1
+623 5545 1
+623 404 1
+623 2549 1
+623 622 11
+623 2145 1
+623 2552 1
+623 17366 1
+623 2551 1
+623 2542 2
+623 629 2
+623 654 2
+623 394 1
+623 625 1
+623 636 8
+623 3840 1
+623 37656 1
+623 621 2
+40442 239 44
+40442 956 34
+40442 2548 2
+40442 622 38
+40442 8141 10
+40442 1151 19
+40442 2547 2
+40442 2555 41
+40442 2844 3
+40442 3380 4
+40442 2558 2
+40442 4264 3
+40442 2551 1
+40442 18453 1
+40442 5543 4
+40442 629 4
+40442 242 4
+40442 2566 3
+40442 1819 1
+40442 954 39
+40442 1124 6
+40442 2556 6
+40442 642 2
+40442 877 13
+40442 621 1
+5107 242 1
+5107 5547 2
+5107 5545 1
+5107 630 3
+5107 622 16
+5107 3456 1
+5107 2556 5
+5107 642 4
+5107 621 5
+5107 628 1
+5107 657 1
+5107 629 2
+5107 401 2
+5107 654 2
+8964 239 17
+8964 956 33
+8964 2836 48
+8964 622 108
+8964 8141 1
+8964 1151 135
+8964 4256 16
+8964 2555 4
+8964 2844 46
+8964 2837 1
+8964 3380 4
+8964 1819 17
+8964 954 2
+8964 2556 8
+8964 642 4
+8964 877 72
+8964 621 11
+7591 18267 1
+7591 5545 2
+7591 7883 2
+7591 181 2
+7591 25288 1
+7591 7882 2
+7591 79 1
+2833 5545 9
+2833 4403 1
+2833 7885 1
+2833 4688 1
+2833 7591 2
+2833 7888 1
+2833 4357 4
+2833 7891 1
+2833 4405 2
+2833 7883 1
+2833 634 1
+2833 1125 1
+2833 7882 1
+2833 642 1
+2833 400 5
+2833 7884 2
+7891 7882 7
+7891 634 24
+7891 7879 1
+7891 642 1
+7891 3364 1
+7891 78 1
+7891 4688 2
+7891 25288 4
+23201 4860 3
+23201 24347 1
+23201 404 22
+23201 397 2
+23201 2841 3
+23201 7879 24
+23201 7886 2
+23201 8277 1
+23201 11637 7
+23201 78 2
+23201 401 24
+23201 11636 1
+23201 4262 1
+23201 15762 1
+23201 79 9
+23201 1125 13
+23201 876 1
+23201 656 13
+23201 10412 12
+23201 885 1
+23201 642 12
+23201 877 1
+23202 7879 2
+18564 16921 1
+18564 5545 3
+18564 32785 1
+18564 7879 1
+18564 2544 1
+18564 3836 3
+18564 29164 6
+18564 7591 2
+18564 7891 1
+18564 18267 1
+18564 7883 1
+18564 79 1
+18564 634 1
+18564 7882 1
+18564 400 4
+18564 25288 2
+23203 624 4
+23203 19492 14
+23203 1124 1
+23203 2839 1
+23203 1125 7
+23203 79 2
+23203 8951 1
+23203 642 9
+23203 7886 5
+23203 401 1
+2834 7879 2
+2834 10412 3
+2835 5545 9
+2835 404 1
+2835 4403 2
+2835 7886 1
+2835 11637 2
+2835 7591 4
+2835 401 1
+2835 10510 1
+2835 7891 1
+2835 4357 1
+2835 10524 1
+2835 4405 3
+2835 7883 3
+2835 7882 1
+2835 79 1
+2835 634 1
+2835 1125 1
+2835 656 1
+2835 642 3
+2835 400 5
+2835 7884 5
+2835 877 1
+2835 773 9
+2835 3453 1
+12208 7074 4
+12208 3380 11
+12208 954 6
+12208 401 1
+38909 242 4
+38909 956 3
+38909 1818 3
+38909 624 23
+38909 2843 1
+38909 954 49
+38909 5972 1
+38909 3380 63
+44769 1684 1
+44769 3380 43
+44769 624 5
+44769 954 9
+30643 955 1
+30643 2844 6
+30643 3631 2
+30643 3380 271
+30643 404 3
+30643 954 53
+3512 1684 1
+3512 3380 3
+3512 954 1
+955 3380 6
+1684 3380 5
+4896 3376 1
+4896 3380 3
+5972 3376 1
+5972 3380 2
+3376 3380 2
+7074 955 2
+7074 3380 5
+7074 877 1
+7074 954 1
+4879 3380 13
+4879 4896 1
+11427 1684 1
+11427 3380 3
+11427 403 2
+5949 5972 1
+5949 956 5
+5949 3380 3
+5949 403 3
+54876 1684 1
+54876 3380 6
+54876 954 4
+45269 21020 24
+45269 1684 1
+45269 242 27
+45269 641 1
+45269 402 14
+45269 1725 1
+45269 1819 2
+45269 3380 16
+52949 7074 3
+52949 3380 11
+52949 954 9
+7623 7074 3
+7623 3380 8
+7623 954 7
+57593 7074 8
+57593 3380 37
+57593 954 29
+14849 1684 1
+14849 3380 14
+14849 624 1
+14849 954 1
+27710 955 1
+27710 242 3
+27710 3380 12
+27710 404 3
+27710 1151 2
+27710 954 2
+19550 955 1
+19550 3380 19
+17869 17880 6
+59251 1725 1
+59251 3380 4
+58697 1684 1
+58697 3380 6
+8425 5972 1
+8425 3380 6
+8425 954 1
+20846 955 1
+20846 2566 1
+20846 20929 1
+20846 1725 7
+20846 3380 32
+20846 624 3
+25999 955 1
+25999 3380 18
+25999 954 3
+58654 1684 1
+58654 3380 6
+58654 624 4
+43945 1684 1
+43945 3380 8
+43945 403 1
+43945 401 1
+7999 955 1
+7999 3380 19
+7999 954 9
+7999 403 2
+32654 1684 1
+32654 3380 3
+32654 624 2
+32654 954 1
+38613 955 1
+38613 20929 1
+38613 3380 43
+38613 954 9
+18307 955 1
+18307 1725 2
+18307 3380 11
+18307 404 1
+18307 954 7
+5676 1684 1
+5676 1725 1
+5676 624 1
+5676 404 1
+5676 954 9
+5676 2839 3
+5676 4257 7
+5676 3380 10
+18392 955 1
+18392 3380 8
+18392 624 1
+18392 954 8
+28279 1684 1
+28279 3364 2
+28279 3342 2
+28279 956 2
+28279 3380 6
+21135 1684 1
+21135 3380 1
+21135 954 1
+59090 1684 1
+59090 402 1
+59090 3380 13
+59090 624 2
+33323 955 1
+33323 3380 16
+33323 954 4
+18038 1684 1
+18038 3380 7
+42919 955 1
+42919 2837 1
+42919 3380 9
+42919 954 4
+15406 955 1
+15406 3380 7
+15406 954 4
+44461 7074 6
+44461 3380 26
+44461 954 13
+30335 1684 1
+30335 20929 1
+30335 3380 38
+30335 624 2
+30335 954 35
+30335 403 24
+38580 1684 1
+38580 20929 1
+38580 3380 5
+38580 954 2
+38580 403 3
+50292 1684 1
+50292 642 5
+50292 3380 3
+50292 954 2
+3075 955 1
+3075 3380 1
+3075 3079 1
+2187 955 1
+2187 3380 9
+22183 956 5
+22183 3380 22
+22183 4896 1
+22183 954 4
+22183 403 1
+46151 1684 1
+46151 3380 11
+31218 1684 1
+31218 956 1
+31218 3380 10
+41533 1684 1
+41533 3380 2
+14742 1684 1
+14742 242 2
+14742 3380 2
+14742 624 1
+14742 954 2
+6909 1684 1
+6909 3380 1
+6909 954 1
+33187 1684 1
+33187 3380 5
+45558 956 2
+45558 3380 28
+45558 4896 1
+45558 954 7
+56886 955 1
+56886 242 2
+56886 1725 2
+56886 3380 11
+56886 404 2
+56886 954 9
+26904 7074 3
+26904 3380 11
+26904 954 11
+39354 1684 1
+39354 3380 11
+3079 955 1
+3079 3380 8
+3079 954 2
+39416 5972 1
+39416 2556 1
+39416 956 20
+39416 642 1
+39416 3380 7
+32870 955 1
+32870 3380 71
+32870 1819 1
+32870 954 15
+16765 1684 1
+16765 402 6
+16765 642 1
+16765 3380 2
+16765 954 1
+16765 2841 2
+16765 78 2
+25752 8950 2
+25752 7074 4
+25752 3380 11
+25752 954 2
+35731 4256 2
+35731 955 1
+35731 3380 188
+35731 404 1
+35731 1819 1
+35731 954 65
+2615 955 2
+2615 242 12
+2615 624 1
+2615 404 59
+2615 2843 1
+2615 954 2
+2615 2841 12
+2615 2844 2
+2615 2837 5
+2615 642 12
+2615 3380 112
+2615 2842 5
+50486 1684 1
+50486 3380 5
+7676 7074 13
+7676 3380 23
+7676 624 1
+7676 954 17
+7676 4258 2
+1576 1684 1
+1576 402 2
+1576 3380 7
+45446 5972 1
+45446 2566 2
+45446 3380 2
+45446 624 1
+45446 954 1
+59882 5972 1
+59882 3380 7
+59882 954 2
+59882 403 1
+910 955 1
+910 3380 12
+910 954 1
+26569 1684 1
+26569 3380 3
+26569 954 1
+6961 1684 1
+6961 3380 11
+33069 1684 1
+33069 3380 5
+4446 1684 1
+4446 3380 5
+25304 1684 1
+25304 3380 10
+25304 954 2
+41826 1684 1
+41826 956 1
+41826 3380 31
+41826 1819 41
+10102 955 1
+10102 3380 147
+10102 1819 2
+10102 954 25
+10102 403 1
+44996 5949 3
+54761 7074 3
+54761 3380 20
+54761 954 17
+8760 955 2
+8760 624 18
+8760 954 1
+8760 8949 1
+8760 403 1
+8760 8950 4
+8760 8951 2
+8760 3380 3
+51428 1684 1
+51428 3380 3
+51428 954 1
+28572 1684 1
+28572 3380 5
+1834 1684 1
+1834 402 1
+1834 3380 11
+1834 954 1
+17443 1684 1
+17443 20929 1
+17443 3380 38
+17443 624 2
+17443 954 35
+17443 403 1
+3085 1684 1
+3085 3380 3
+3085 954 1
+55180 5972 1
+55180 3380 8
+55180 954 2
+46903 955 1
+46903 3380 1
+46903 3079 1
+17437 17443 2
+17437 3380 1
+56565 1684 1
+56565 3380 2
+57055 1684 1
+57055 3380 5
+57055 954 3
+26226 5972 1
+26226 3380 1
+37319 956 4
+37319 3380 7
+37319 954 3
+37319 26226 1
+26183 883 7
+26183 956 10
+26183 3380 3
+26183 954 2
+26183 26226 3
+26183 403 4
+46089 1684 1
+46089 3380 20
+13362 1684 1
+13362 3380 7
+13362 404 1
+23678 1684 1
+23678 20929 1
+23678 3380 14
+23678 954 9
+23678 403 6
+54322 1684 1
+54322 20929 1
+54322 3380 18
+54322 954 7
+54322 403 4
+21326 1725 1
+21326 624 13
+21326 404 1
+21326 2843 2
+21326 954 1
+21326 2841 2
+21326 2837 1
+21326 2844 4
+21326 20929 1
+21326 4879 1
+21326 3380 64
+45884 4879 1
+45884 956 15
+45884 3380 32
+45884 2843 1
+45884 954 1
+21483 11427 5
+21483 2837 1
+21483 3380 4
+21483 403 3
+11421 11427 5
+20369 1684 1
+20369 3364 1
+20369 3380 6
+25059 955 1
+25059 3380 6
+25059 954 1
+27100 1684 1
+27100 3380 3
+38157 955 1
+38157 3380 6
+38157 954 1
+39296 955 1
+39296 3380 13
+39296 954 3
+16601 955 1
+16601 3380 5
+16601 1819 2
+21431 1684 1
+21431 3380 12
+18134 1684 1
+18134 3380 6
+18134 954 2
+36764 955 2
+36764 3380 71
+36764 954 1
+36764 403 1
+51529 955 1
+51529 956 26
+51529 3380 64
+51529 624 1
+51529 1819 2
+53049 955 1
+53049 10524 4
+53049 3380 159
+53049 624 2
+53049 1819 3
+53049 954 52
+22230 956 2
+22230 3380 15
+22230 624 7
+22230 2843 3
+22230 2842 6
+22230 5949 5
+22230 403 1
+27133 4836 1
+27133 1684 1
+27133 3380 24
+27133 954 15
+27133 413 1
+27133 403 34
+27133 401 1
+42534 2844 1
+42534 1725 2
+42534 3380 4
+42534 954 1
+42534 2841 1
+1691 1684 1
+1691 1725 2
+1691 3380 4
+1691 954 2
+54379 1684 1
+54379 3380 7
+54379 403 11
+42370 27133 2
+1734 1684 1
+1734 242 2
+1734 1818 1
+1734 624 2
+1734 1819 3
+1734 954 8
+1734 403 2
+1734 3380 20
+15812 16051 1
+15812 1684 1
+15812 3380 23
+15812 624 1
+15812 1819 4
+15812 954 13
+15812 403 16
+19654 19695 6
+29053 1684 1
+29053 242 4
+29053 1818 2
+29053 624 6
+29053 404 2
+29053 2843 1
+29053 954 5
+29053 7593 1
+29053 2841 7
+29053 2844 8
+29053 3385 6
+29053 3380 14
+3385 2837 1
+3385 642 1
+3385 400 2
+3385 404 1
+3385 3456 2
+3385 3453 2
+3385 401 1
+9773 1684 1
+9773 2566 2
+9773 1725 11
+9773 1818 3
+9773 622 1
+9773 2843 2
+9773 2841 2
+9773 403 14
+9773 2844 2
+9773 3380 40
+9773 401 22
+9773 654 1
+44908 27133 2
+17691 2844 7
+17691 1725 3
+17691 3380 4
+17691 954 2
+17691 2841 7
+17691 403 1
+17691 401 1
+41470 1725 1
+41470 3380 5
+41470 954 1
+27813 1684 1
+27813 242 2
+27813 3380 3
+27813 1818 1
+27813 954 2
+27813 403 4
+47629 1684 1
+47629 1725 2
+47629 3380 6
+47629 401 1
+3701 955 1
+3701 3380 20
+3701 954 8
+3701 403 1
+15008 1684 1
+15008 3380 21
+15008 954 5
+47096 1684 1
+47096 3380 4
+47096 954 2
+18108 624 3
+18108 625 1
+2085 624 3
+5783 624 3
+5783 13345 1
+5783 625 1
+624 625 1
+625 624 4
+625 404 1
+10510 3364 1
+10510 642 3
+10510 624 1
+10510 625 1
+7592 18565 1
+7592 653 3
+7592 3963 1
+7592 18566 1
+7592 622 11
+7592 13289 1
+7592 4574 1
+7592 2839 1
+7592 21 1
+7592 620 1
+7592 42965 1
+7592 654 1
+7592 242 2
+7592 2833 1
+7592 29153 1
+7592 49 1
+7592 2835 1
+7592 5 1
+7592 4405 1
+7592 273 1
+7592 25953 2
+7592 13512 1
+7592 6163 1
+7592 3566 1
+653 5547 1
+653 5545 5
+653 622 21
+653 618 1
+653 620 3
+653 12908 1
+653 617 3
+653 654 9
+653 242 4
+653 2599 1
+653 18267 1
+653 4262 1
+653 394 2
+653 7883 1
+653 7887 1
+653 400 1
+653 877 2
+653 48 1
+653 413 1
+653 657 2
+46389 6164 4
+46389 622 9
+46389 13289 1
+46389 4574 1
+46389 21 3
+46389 3836 1
+46389 18364 3
+46389 620 3
+46389 29164 1
+46389 640 2
+46389 617 3
+46389 42965 1
+46389 654 1
+46389 242 2
+46389 29153 1
+46389 49 2
+46389 4357 1
+46389 5 1
+46389 4405 2
+46389 273 1
+46389 25953 1
+46389 631 1
+46389 3566 1
+18364 652 2
+18364 620 2
+18364 622 2
+18364 654 2
+44887 242 1
+44887 49 1
+44887 622 6
+44887 5 1
+44887 273 1
+44887 21 3
+44887 18364 2
+44887 631 1
+44887 620 2
+44887 29164 1
+44887 617 3
+44887 654 1
+16051 3670 6
+16449 653 2
+16449 622 2
+16449 654 1
+652 620 1
+652 622 1
+652 654 1
+447 653 1
+447 652 3
+447 622 6
+447 618 1
+447 623 2
+447 617 3
+447 654 1
+447 637 2
+447 242 1
+447 49 1
+447 634 8
+447 638 5
+447 633 2
+447 631 1
+447 644 1
+447 628 1
+3670 8606 2
+3670 242 15
+3670 646 1
+3670 4262 3
+3670 624 1
+3670 7883 1
+3670 79 3
+3670 16051 1
+3670 656 1
+3670 395 2
+3670 7887 1
+3670 877 1
+3670 654 11
+18511 18565 1
+18511 653 3
+18511 3963 1
+18511 16555 1
+18511 15372 1
+18511 404 2
+18511 18566 1
+18511 622 14
+18511 21 1
+18511 18564 1
+18511 620 2
+18511 654 5
+18511 242 4
+18511 49 4
+18511 5 1
+18511 273 1
+18511 883 2
+18511 885 1
+18511 6163 1
+46907 18267 4
+46907 620 1
+46907 404 1
+46907 622 3
+46907 617 4
+46907 657 1
+46907 654 3
+52651 652 2
+52651 631 1
+52651 617 3
+52651 7882 2
+7882 18267 7
+7882 620 2
+7882 404 1
+7882 4403 1
+7882 657 3
+7882 25288 19
+2177 17340 2
+2177 5537 1
+2542 626 1
+2542 4793 2
+2542 629 2
+2542 5537 1
+2542 2145 1
+4793 5552 3
+4793 642 2
+1559 5552 2
+1559 642 2
+54252 10510 7
+54252 14170 4
+54252 28731 3
+54252 16941 2
+54252 14172 8
+54252 642 1
+54252 2160 4
+54252 10487 9
+54252 629 14
+54252 14171 6
+54252 14175 1
+12905 12678 4
+12905 5552 6
+12905 641 5
+12905 642 11
+12905 5537 1
+17340 1559 2
+5552 626 2
+5552 4403 1
+5552 5537 1
+5537 626 1
+5537 642 1
+5537 630 3
+5537 629 2
+5537 2145 1
+5537 1125 2
+4554 4403 1
+4554 5537 2
+5539 5537 1
+10540 10592 1
+10540 5552 8
+10540 4496 1
+10540 642 10
+10540 629 1
+10540 5537 1
+10540 625 1
+4496 642 12
+4496 4554 10
+4496 5537 1
+4496 1125 7
+28315 4496 15
+28315 642 13
+28315 629 1
+5874 642 4
+5874 5539 1
+5874 1125 3
+52411 2544 8
+52411 11636 4
+52411 5874 11
+52411 1125 4
+2543 10592 2
+2543 630 1
+2543 5540 2
+2543 5537 6
+2543 2145 1
+2543 403 1
+2543 626 1
+2543 5552 6
+2543 2844 2
+2543 642 7
+2543 2545 1
+2543 877 2
+2543 629 9
+2543 2542 1
+42455 1157 2
+4915 642 9
+4915 5537 1
+4915 2177 2
+14169 642 9
+14169 7140 2
+14169 5537 1
+10487 17340 2
+10487 10510 1
+10487 2838 1
+10487 642 2
+10487 4264 1
+10487 2177 2
+10487 1559 6
+14170 10510 1
+14170 2838 1
+14170 1527 8
+14170 642 2
+14170 4264 1
+14171 12907 8
+14171 10510 1
+14171 2838 1
+14171 642 2
+14171 4264 1
+14171 5537 1
+14172 17340 2
+14172 10510 1
+14172 2838 1
+14172 642 4
+14172 7140 2
+14172 4264 1
+14172 1559 6
+28832 626 1
+28832 642 1
+28832 1125 1
+4748 626 6
+1527 5537 1
+1527 1559 8
+2160 642 4
+2160 2177 2
+14173 1527 2
+14173 642 4
+14174 12907 2
+14174 642 4
+14175 642 4
+14175 7140 2
+1958 642 1
+1958 629 2
+1958 1976 3
+628 10592 2
+628 4554 4
+628 5537 1
+628 1125 1
+628 656 9
+628 2543 1
+628 642 3
+628 2545 1
+628 629 2
+5540 10592 1
+5540 642 1
+5540 4554 7
+5540 5537 1
+2544 5874 5
+2544 404 1
+1976 5552 5
+1976 2844 2
+1976 642 3
+1976 629 3
+1976 5537 1
+22393 642 1
+22393 629 2
+22393 1976 3
+629 626 15
+629 2844 1
+629 3631 1
+629 642 39
+629 5539 1
+629 2145 1
+629 1125 12
+14176 642 3
+14176 1124 1
+14176 2177 2
+14177 1527 2
+14177 642 3
+14177 1124 1
+14178 12907 2
+14178 642 4
+14179 642 5
+14179 7140 2
+12906 642 4
+12906 1124 1
+12906 5537 1
+12906 1559 2
+12907 5537 1
+12907 1559 8
+2545 642 3
+2545 4554 4
+2545 629 1
+2545 5537 1
+2545 2145 1
+2546 4793 2
+2546 5537 1
+3836 4403 3
+12908 5874 6
+12908 18267 6
+12908 404 1
+12908 657 2
+12908 25288 5
+12908 7882 1
+15447 5001 4
+15447 2838 8
+15447 1157 6
+15447 1819 14
+15447 4961 4
+15447 656 2
+15447 4984 5
+15447 2556 24
+15447 642 17
+15447 3364 1
+15447 15634 2
+15447 15636 2
+15447 15635 4
+15447 629 16
+2547 5874 9
+2547 642 6
+2547 2558 14
+41087 642 1
+41087 5539 1
+630 12678 6
+630 5552 7
+630 642 7
+630 404 1
+630 877 1
+630 5537 1
+45025 14176 1
+45025 5001 1
+45025 14170 1
+45025 14178 1
+45025 2548 2
+45025 16931 1
+45025 16954 1
+45025 16947 1
+45025 16932 1
+45025 16951 1
+45025 1136 1
+45025 16933 1
+45025 16929 2
+45025 14175 4
+45025 14173 4
+45025 629 3
+45025 16412 1
+45025 6883 1
+45025 14362 1
+45025 8407 1
+45025 1819 1
+45025 14172 1
+45025 2543 4
+45025 642 12
+45025 12909 2
+45025 14177 1
+45025 16952 1
+45025 2160 4
+45025 10487 1
+45025 14174 4
+45025 14179 1
+45025 14171 1
+12909 5552 2
+12909 642 3
+12909 5537 2
+7140 17340 2
+7140 5537 1
+14180 642 8
+14180 1819 1
+14180 4258 1
+14180 5537 1
+14180 2177 2
+7119 642 8
+7119 7140 2
+7119 1819 1
+7119 4258 1
+7119 5537 1
+4405 18267 4
+4405 4404 3
+4405 25288 2
+17043 25008 1
+17043 5539 1
+17043 1125 2
+38778 2838 1
+38778 5874 2
+38778 1126 3
+38778 52347 1
+38778 1125 1
+6612 2838 1
+6612 1126 3
+6612 1125 1
+32217 18267 2
+32217 4404 1
+32217 4405 3
+32217 4688 1
+32217 25288 4
+25008 12204 1
+25008 642 4
+25008 17043 3
+25008 32398 1
+25008 5537 1
+25008 1125 1
+38773 38778 2
+38773 1125 1
+42476 38778 2
+42476 1125 1
+47157 642 8
+47157 17043 3
+47157 5537 1
+47157 1125 1
+1115 1126 3
+1115 1124 1
+1115 1125 1
+28505 641 1
+28505 642 5
+28505 1126 2
+28505 1125 1
+1126 656 1
+1126 642 5
+1126 17043 2
+1126 5537 1
+1126 1125 1
+17003 7888 1
+17003 1126 1
+17003 5537 1
+17003 1125 1
+17003 656 1
+17003 642 1
+17003 17043 3
+17003 877 3
+26508 642 7
+26508 17043 4
+26508 5537 1
+26508 1125 1
+22170 642 1
+22170 17043 2
+22170 6080 3
+22170 1125 1
+22171 642 3
+22171 17043 3
+22171 6080 6
+22171 1125 3
+58508 12204 2
+58508 1125 1
+32398 12204 2
+32398 1125 1
+29045 20727 3
+29045 1125 1
+20727 642 1
+20727 17043 3
+20727 5537 1
+20727 1125 1
+12204 642 6
+12204 17043 4
+12204 5537 1
+12204 1125 2
+18127 2838 1
+18127 5874 2
+18127 642 1
+18127 1126 4
+18127 629 3
+18127 1125 1
+42005 2838 1
+42005 5874 1
+42005 1126 4
+42005 629 2
+42005 1125 1
+18162 2838 1
+18162 5874 5
+18162 642 2
+18162 1126 3
+18162 629 2
+18162 1125 1
+4357 4404 5
+4357 4405 2
+4357 4403 1
+15002 6612 2
+15002 1125 1
+6607 6612 2
+6607 1125 1
+13047 12204 2
+13047 1125 1
+12200 12204 2
+12200 1125 1
+14915 5546 2
+14181 12910 2
+12910 11287 1
+12910 5552 3
+12910 641 1
+12910 642 3
+12910 5537 1
+11287 5552 4
+11287 641 1
+11287 642 3
+11287 5537 1
+16921 641 1
+16921 1157 2
+16921 642 4
+14459 641 1
+14459 1157 2
+14459 642 4
+14459 2839 1
+18033 16950 4
+18033 2838 2
+18033 16925 3
+18033 1125 1
+18033 5552 1
+18033 642 3
+18033 4404 3
+18033 28635 3
+18033 629 1
+15634 5001 4
+15635 4984 5
+15635 2838 2
+15635 2556 1
+15635 642 2
+16922 1157 2
+16345 5001 4
+16345 4496 1
+16345 642 5
+16345 15634 3
+16345 629 1
+16345 5537 1
+16923 10592 1
+16923 656 1
+16923 4496 1
+16923 1157 2
+16923 642 7
+16923 5537 1
+16923 625 1
+28635 14915 2
+16924 4256 1
+16924 5552 1
+16924 1157 2
+16924 642 2
+16924 5537 1
+16925 12204 1
+16925 5552 2
+16925 25008 2
+16925 4404 5
+16925 32398 1
+42444 4256 1
+42444 642 2
+42444 42455 1
+10659 4257 1
+10659 642 2
+10659 42455 1
+16926 1157 2
+16926 642 3
+16926 625 3
+23770 642 1
+23770 4404 5
+23770 16925 2
+13203 5552 2
+13203 23770 3
+13203 17003 2
+13203 4404 5
+13203 1126 1
+13203 16925 1
+13203 1115 2
+16927 28505 1
+16927 642 6
+16927 17003 1
+16927 4404 5
+16927 18128 2
+18128 17003 1
+18128 4404 2
+18128 1126 2
+3342 3367 1
+3342 3364 2
+3342 1157 2
+3342 642 3
+3342 3365 1
+3342 1151 1
+16928 3364 1
+16928 1157 2
+16928 642 4
+33050 1157 1
+33050 642 3
+33050 16928 3
+22173 23770 3
+22173 4404 2
+22173 16925 1
+6953 22170 2
+6953 22173 2
+6953 16925 1
+6953 22171 2
+6953 629 1
+15636 5001 4
+15636 4496 1
+4961 4984 5
+4961 2838 2
+4961 2556 1
+4961 642 2
+4985 1157 2
+5546 5552 2
+11405 1157 2
+11405 642 1
+11405 397 2
+14431 1157 2
+14431 642 1
+14431 1125 1
+16929 2844 1
+16929 1157 2
+16929 642 1
+16930 22170 2
+16930 22173 2
+16930 16925 1
+16930 22171 2
+16930 629 1
+16931 2844 1
+16931 1157 2
+16931 642 1
+16931 27870 1
+16932 1157 2
+16932 642 2
+16933 2844 3
+16933 1157 2
+16933 642 2
+16933 1125 2
+16934 1157 2
+16934 642 1
+16935 4404 2
+16935 16925 1
+16935 16936 2
+16936 23770 3
+16936 4404 4
+16936 16925 1
+16937 22170 3
+16937 22173 2
+16937 16925 1
+16937 22171 2
+16937 629 3
+16938 17003 1
+16938 4404 1
+16938 18128 2
+16938 18127 1
+16939 17003 1
+16939 4404 1
+16939 42005 1
+16939 18128 2
+16940 18162 1
+16940 17003 1
+16940 4404 1
+16940 18128 2
+14398 1157 2
+14398 5546 1
+16412 2844 1
+16412 1157 2
+16412 642 1
+16941 5552 4
+16941 1157 2
+16941 642 1
+16941 2176 1
+16941 629 1
+6883 5552 1
+6883 1157 2
+6883 642 3
+6883 1151 1
+6883 629 2
+16942 5552 1
+16942 16083 1
+16942 1157 2
+16942 642 3
+16942 629 1
+14362 5552 1
+14362 642 4
+14362 14398 2
+14362 1151 1
+14362 629 3
+16943 5552 2
+16943 2844 1
+16943 1157 2
+16943 642 1
+5001 5552 2
+5001 1157 2
+5001 642 5
+5001 5085 4
+5001 629 2
+5001 5537 1
+4984 5552 2
+4984 2838 3
+4984 2556 2
+4984 1157 2
+4984 642 5
+4984 2839 1
+4984 629 2
+16944 1157 2
+14182 5001 5
+14182 4496 1
+14182 642 5
+14182 629 2
+14182 5537 1
+16945 1157 2
+16945 642 1
+16946 1157 2
+16946 642 1
+16946 2841 1
+4898 1157 2
+4898 642 1
+1157 877 1
+1157 5546 2
+1157 5537 1
+4404 14915 2
+4404 5552 1
+4404 642 1
+4404 5537 1
+16947 3364 1
+16947 1157 2
+16947 642 4
+16948 17003 1
+16948 4404 2
+16948 38773 1
+16948 18128 2
+16948 15002 1
+16949 42476 1
+16949 17003 1
+16949 4404 2
+16949 18128 2
+16949 6607 1
+2548 5552 1
+2548 2844 3
+2548 642 5
+2548 14398 2
+2548 629 4
+16950 2838 1
+16950 642 7
+16950 23770 4
+16950 4404 5
+16950 16925 1
+16950 47157 1
+16950 629 1
+16950 1125 3
+14411 5552 1
+14411 1157 2
+14411 642 2
+14411 5537 1
+16951 5552 2
+16951 4251 3
+16951 1157 2
+16951 642 3
+8407 5552 5
+8407 1157 2
+8407 642 4
+8407 1819 1
+8407 629 2
+16952 5552 4
+16952 4251 3
+16952 1157 2
+16952 642 7
+8395 8407 2
+16953 8407 2
+16954 2844 2
+16954 1157 2
+16954 642 2
+16955 1157 2
+1136 1157 2
+1136 642 2
+28657 11287 1
+28657 7140 1
+28657 630 1
+28657 12910 1
+28657 12906 1
+28657 4496 1
+28657 4404 1
+28657 12905 1
+28657 2542 1
+28657 1976 1
+28657 12907 1
+28657 1527 1
+28657 1157 1
+28657 2546 1
+28657 2177 1
+28657 5540 1
+28657 2543 1
+28657 12909 1
+28657 2545 1
+28657 10540 1
+28657 628 1
+28731 14915 1
+28731 11287 2
+28731 7140 1
+28731 630 2
+28731 12910 2
+28731 2547 1
+28731 12906 2
+28731 20336 1
+28731 5552 16
+28731 4496 2
+28731 2544 1
+28731 4404 1
+28731 12908 1
+28731 12905 2
+28731 2542 2
+28731 629 1
+28731 1976 2
+28731 12907 1
+28731 1527 1
+28731 1157 2
+28731 2546 2
+28731 7427 1
+28731 5540 2
+28731 5537 4
+28731 2177 1
+28731 2543 2
+28731 12909 2
+28731 2545 2
+28731 10540 2
+28731 628 2
+28731 1559 4
+38864 2544 1
+38864 19715 1
+19712 19715 1
+19712 2547 1
+44904 19715 1
+19715 11287 1
+19715 7140 1
+19715 630 1
+19715 12910 1
+19715 2547 1
+19715 12906 1
+19715 20336 1
+19715 4496 1
+19715 2544 1
+19715 4404 1
+19715 12908 1
+19715 12905 1
+19715 629 1
+19715 2542 1
+19715 1976 1
+19715 12907 1
+19715 1527 1
+19715 1157 1
+19715 2546 1
+19715 7427 1
+19715 2177 1
+19715 5540 1
+19715 2543 1
+19715 12909 1
+19715 2545 1
+19715 10540 1
+19715 628 1
+5541 11287 1
+5541 7140 1
+5541 630 1
+5541 12910 1
+5541 2547 1
+5541 12906 1
+5541 4496 1
+5541 2544 1
+5541 4404 1
+5541 12908 1
+5541 12905 1
+5541 629 1
+5541 2542 1
+5541 1976 1
+5541 12911 1
+5541 12907 1
+5541 1527 1
+5541 1157 1
+5541 2546 1
+5541 7427 1
+5541 2177 1
+5541 5540 1
+5541 2543 1
+5541 12909 1
+5541 2545 1
+5541 10540 1
+5541 628 1
+20336 28657 1
+12911 28657 1
+18453 3364 1
+18453 642 1
+18453 4403 3
+18453 79 2
+13710 656 4
+17366 2550 2
+2549 656 3
+2549 2550 2
+2550 18453 6
+2551 18453 6
+37656 2553 2
+2552 2553 2
+2553 4584 5
+2553 18453 6
+8141 2556 5
+8141 642 1
+8141 5545 9
+8141 404 1
+8141 877 1
+8141 3456 14
+8141 657 3
+14789 2556 10
+14789 642 168
+14789 8141 4
+14789 3456 1
+14789 1125 1
+8073 2556 1
+8073 642 47
+8073 877 1
+8073 8141 2
+8073 1125 1
+17814 17851 11
+17814 1684 1
+17814 1725 1
+17814 3380 7
+18585 17851 24
+18585 1684 1
+18585 3380 6
+18585 954 3
+11932 2844 2
+11932 9999 1
+11932 6915 2
+11932 3506 3
+11932 404 7
+11932 625 3
+11932 403 2
+19614 642 6
+19614 3506 3
+19614 11932 1
+17851 17850 3
+55660 1094 2
+55660 21562 2
+55660 1096 2
+55660 3380 1
+55660 1095 1
+55660 15763 1
+55660 21563 5
+21563 8287 1
+21563 392 1
+21563 16623 9
+21563 12118 6
+21563 15762 3
+21563 29984 8
+21563 3868 2
+28349 21562 1
+28349 15763 1
+29984 20078 2
+29984 7057 2
+29984 6789 4
+29984 20079 1
+29984 7049 3
+192 181 1
+1518 93 21
+1518 182 9
+1518 194 7
+1518 1499 1
+1518 28035 7
+1518 28034 14
+1518 28033 1
+21264 1092 1
+21264 194 2
+42032 21562 1
+42032 1518 1
+42032 3380 1
+42032 19695 2
+42032 181 2
+42032 21563 2
+194 182 4
+93 185 3
+93 179 1
+93 182 1
+93 194 1
+93 192 3
+4754 192 3
+4754 181 1
+46299 93 7
+46299 181 3
+46299 28033 3
+179 12182 3
+55115 656 3
+55115 181 4
+28033 15762 1
+728 179 13
+1094 1095 4
+1094 181 1
+1095 181 3
+965 1094 6
+965 1096 1
+965 1092 1
+965 194 6
+965 1095 1
+965 181 4
+1096 1094 8
+1096 1095 2
+1096 21563 1
+25601 93 2
+25601 1518 4
+25601 28035 4
+25601 28034 1
+21564 1094 19
+21564 21562 47
+21564 1096 2
+21564 3380 1
+21564 1095 3
+21564 19695 3
+21564 965 28
+21564 25601 1
+21559 21562 1
+21559 3380 1
+21559 21564 1
+27880 1094 2
+27880 21562 1
+27880 1096 2
+27880 3380 1
+27880 1095 1
+27880 19695 3
+27880 15762 1
+12186 182 12
+56601 1094 2
+56601 93 5
+56601 194 5
+56601 1095 1
+56601 965 17
+10036 1094 8
+10036 1096 4
+10036 1095 3
+16542 656 2
+51308 182 3
+16499 656 1
+16499 16542 38
+46511 46536 14
+7461 7474 4
+181 656 2
+28034 656 1
+28034 52893 1
+45855 28034 11
+13784 14408 1
+20075 14408 3
+4957 20723 1
+17773 16104 8
+17773 401 2
+7057 20076 1
+7057 20078 4
+7049 7057 2
+20078 20077 2
+26558 6789 14
+26558 19695 5
+46225 6789 5
+46225 19695 6
+46225 20079 8
+20079 6789 10
+10479 7057 2
+185 656 1
+185 182 1
+185 51308 1
+185 7479 2
+185 16542 1
+185 181 4
+1983 656 2
+51210 656 3
+51210 4938 2
+3880 656 5
+17619 656 4
+17619 3453 2
+15762 55114 1
+15762 181 5
+15762 55115 1
+17427 15762 4
+12118 656 5
+12119 12118 3
+32323 656 1
+16623 656 1
+16623 3880 1
+20080 51210 1
+20080 15762 1
+16676 20076 1
+16676 20078 2
+16676 16623 1
+16676 7057 2
+16676 20075 2
+16676 20080 1
+16676 20079 1
+16676 1983 2
+16676 6789 3
+16676 3453 4
+16676 7049 2
+38708 1983 5
+32241 16676 6
+32241 656 4
+32241 16623 9
+32241 20075 1
+32241 19695 10
+32241 13786 3
+32241 32323 3
+38870 16676 7
+38870 656 1
+38870 3880 1
+38870 19695 6
+38870 32323 2
+57509 16676 7
+57509 656 1
+57509 3880 1
+57509 19695 6
+57509 32323 2
+50206 1094 2
+50206 21562 1
+50206 1096 3
+50206 3380 1
+50206 1095 1
+50206 19695 6
+50206 15762 1
+50206 25601 1
+3868 3880 1
+13767 13786 5
+13767 13784 1
+13767 3868 3
+20788 3880 3
+20788 3868 11
+29985 20076 1
+29985 20078 2
+29985 16623 1
+29985 10479 1
+29985 35725 2
+29985 20080 1
+29985 20079 1
+29985 1983 2
+29985 6789 3
+29985 13784 1
+7883 404 6
+7883 622 1
+7883 11303 11
+7883 4403 4
+7883 3456 13
+7883 618 1
+7883 2837 1
+7883 2544 1
+7883 5543 2
+7883 654 1
+7883 401 2
+7883 637 1
+7883 242 4
+7883 12678 8
+7883 2566 1
+7883 5865 3
+7883 181 27
+7883 1125 5
+7883 656 10
+7883 3840 1
+7883 636 1
+7883 400 9
+7883 642 16
+7883 27910 1
+7883 657 22
+7883 3453 6
+17508 242 4
+17508 239 2
+17508 402 1
+17508 1818 2
+17508 404 6
+17508 7883 4
+17508 181 1
+17508 3453 1
+8606 242 3
+8606 646 4
+8606 49 1
+8606 5545 1
+8606 23369 2
+8606 621 1
+8606 654 2
+23369 7883 1
+18481 1518 1
+18481 8607 2
+18481 642 1
+18481 15762 1
+18481 7883 3
+18481 621 3
+8607 182 1
+8607 646 1
+8607 194 5
+8607 15762 1
+8607 7883 11
+8607 625 1
+8607 79 1
+8607 7879 1
+8607 656 1
+8607 1092 1
+8607 3453 1
+8607 401 1
+17671 242 1
+17671 3880 4
+17671 402 1
+17671 404 1
+17671 397 1
+17671 7883 1
+17671 403 1
+17671 642 1
+17671 13786 3
+17671 401 2
+41669 28558 1
+41669 18565 1
+41669 239 2
+41669 16950 1
+41669 2566 1
+41669 622 2
+41669 4574 1
+41669 954 1
+41669 25953 2
+41669 8693 4
+41669 21 1
+41669 4584 7
+41669 2544 1
+41669 32217 1
+4585 7886 1
+4585 4405 9
+13512 13712 3
+13512 5547 2
+13512 5545 9
+13512 404 3
+13512 622 18
+13512 13710 1
+13512 620 1
+13512 654 2
+13512 242 4
+13512 2566 1
+13512 49 1
+13512 79 6
+13512 625 3
+13512 13711 1
+13512 656 1
+13512 883 1
+13512 395 2
+13512 2556 1
+13512 644 1
+13512 6163 1
+13512 621 3
+7937 5545 3
+7937 877 1
+7937 622 2
+7937 6165 2
+7937 654 4
+6163 79 3
+44944 28558 2
+44944 18565 1
+44944 8693 6
+44944 4584 16
+44944 6163 1
+13289 620 4
+13712 242 1
+13712 5547 3
+13712 622 10
+13712 1125 1
+13712 2556 4
+13712 2844 1
+13712 642 2
+13712 621 13
+13712 657 1
+13712 654 6
+3566 642 1
+631 6164 1
+631 642 1
+4574 4584 1
+4574 4585 2
+4574 4405 2
+46274 273 2
+46274 26 1
+273 26 5
+29272 29273 2
+16579 644 1
+16579 79 3
+28539 28558 1
+28539 18565 1
+28539 8693 3
+28539 4584 8
+18565 16579 2
+18565 4688 1
+16555 3836 4
+16555 16579 4
+29153 29164 4
+29164 3836 2
+29164 29272 1
+29164 29273 1
+18566 13512 2
+18566 242 1
+18566 4262 1
+18566 622 1
+18566 654 1
+32785 21204 1
+32785 7884 2
+32785 79 1
+63 78 1
+63 79 1
+5 21 4
+5 26 4
+15372 13512 2
+15372 242 1
+15372 5545 1
+15372 4262 1
+15372 622 1
+15372 654 1
+4597 4689 1
+4597 49 3
+4597 4688 1
+4597 79 1
+47081 28558 1
+47081 8693 1
+47081 4584 4
+47081 26728 1
+47081 5789 1
+47081 4597 1
+6165 13712 3
+6165 242 1
+6165 622 5
+6165 63 1
+6165 7885 1
+6165 654 4
+6165 79 2
+42965 4584 1
+42965 7886 1
+42965 4585 1
+42965 4405 4
+42965 4574 2
+242 4251 1
+242 641 1
+242 4263 5
+242 3670 5
+242 4250 1
+242 2555 5
+242 2554 1
+242 2566 7
+242 49 7
+242 4262 2
+242 1819 3
+242 954 1
+242 625 1
+242 642 2
+242 644 1
+242 3453 1
+2554 242 23
+2554 2566 2
+2554 6166 2
+2554 2841 2
+2554 1125 2
+2554 625 1
+2554 8693 1
+2554 2844 16
+2554 620 1
+6669 45632 1
+6669 16548 1
+6669 644 1
+6669 17880 1
+6669 17055 6
+21539 239 4
+21539 1725 3
+17055 49 3
+17055 954 1
+26076 6669 1
+26076 624 1
+2094 642 5
+2094 2144 3
+2094 2145 1
+2094 625 3
+2555 242 2
+2555 2566 12
+2555 1819 1
+2555 625 5
+2555 241 1
+2555 642 3
+2555 19490 1
+2555 19491 1
+43925 239 4
+43925 624 2
+6166 241 1
+6166 2566 7
+6166 642 1
+6166 620 23
+6166 1819 1
+6166 625 6
+241 242 3
+241 642 5
+241 620 15
+241 625 1
+219 239 2
+2566 242 10
+2566 49 2
+2566 4262 1
+2566 6166 6
+2566 18108 1
+2566 4250 2
+2566 625 4
+2566 79 1
+2566 2555 2
+2566 19490 2
+2566 642 1
+2566 6829 2
+2566 620 2
+2566 644 1
+2566 48 2
+2566 19491 2
+1725 45632 1
+1725 49 2
+1725 42697 2
+1725 17869 1
+1725 17055 6
+650 44618 2
+633 242 2
+633 12678 5
+633 646 4
+633 49 1
+633 630 1
+633 4403 1
+633 79 1
+633 28972 1
+633 642 2
+633 621 1
+633 4688 1
+633 629 4
+633 654 1
+28972 79 1
+634 656 6
+634 18267 10
+634 404 1
+634 4403 6
+634 657 4
+11011 11025 1
+20346 11025 2
+20346 642 1
+20346 3506 1
+20346 11011 2
+12997 21020 1
+12997 650 1
+12997 2844 2
+12997 402 1
+12997 404 3
+12997 11011 1
+12997 401 1
+34490 6669 1
+34490 12997 5
+34490 3380 1
+34490 1819 2
+12982 12997 9
+11025 242 3
+11025 402 1
+11025 13208 3
+42809 11025 9
+42809 642 6
+42809 3506 6
+3552 6167 1
+3552 2566 1
+3552 20015 1
+3552 6125 1
+3552 3555 2
+6167 2556 5
+3553 287 1
+3553 42674 1
+6125 6164 1
+6125 6166 3
+6125 622 3
+6125 5 1
+6125 6167 1
+6125 21 1
+6125 620 1
+6125 6163 1
+6125 6165 1
+42674 20015 1
+42674 3555 2
+45463 642 3
+45463 3506 5
+45463 20014 4
+20015 403 1
+3555 242 1
+3555 402 2
+3555 20015 3
+3555 20014 4
+3555 403 3
+27055 239 9
+27055 404 3
+27055 954 4
+27055 3555 9
+3523 3555 12
+25814 26728 4
+51687 26728 19
+51687 25814 45
+51687 5789 7
+51687 5831 6
+48 8341 1
+48 5547 5
+48 622 8
+48 618 4
+48 4835 1
+48 21 2
+48 2837 2
+48 8340 1
+48 620 3
+48 4800 1
+48 654 8
+48 242 1
+48 2566 17
+48 49 1
+48 4834 1
+48 4839 2
+48 394 13
+48 638 21
+48 636 1
+48 400 2
+48 621 2
+48 19480 8
+11692 4836 1
+11692 11706 2
+11692 2841 1
+7147 1921 1
+7147 6818 2
+12833 1150 2
+34407 636 1
+34407 12833 2
+34407 1921 1
+34407 1150 1
+8608 636 4
+8608 404 2
+393 4836 1
+393 397 3
+393 8611 2
+11706 4836 1
+11706 2841 3
+11706 8611 2
+9756 1921 4
+6818 1921 3
+14904 27405 1
+14904 636 2
+14904 1921 3
+14904 14188 1
+14904 403 1
+14183 636 1
+14183 1921 1
+14183 14904 2
+14183 14188 1
+14184 636 1
+14184 1921 1
+14184 14904 2
+14184 14188 1
+14185 1921 4
+14186 1921 4
+18023 16950 1
+18023 16925 1
+18023 622 3
+18023 5552 1
+18023 12833 2
+18023 4404 1
+18023 14202 2
+18023 18033 1
+18023 5546 1
+26869 636 4
+26869 1921 2
+8735 636 3
+8735 1921 6
+27405 636 4
+27405 1921 4
+2144 4841 4
+11626 658 2
+11626 413 2
+11626 2204 3
+32008 14186 2
+32008 14190 2
+32008 26869 1
+32008 15306 2
+32008 1908 2
+32008 14195 2
+32008 4839 1
+32008 11630 1
+32008 14194 2
+32008 1975 2
+32008 11633 1
+32008 5650 2
+32008 14185 2
+32008 14183 2
+32008 14189 2
+32008 14191 2
+32008 14198 2
+32008 14188 2
+32008 7147 2
+32008 14192 2
+32008 2144 1
+32008 10061 2
+32008 7450 1
+32008 14193 2
+32008 14196 2
+32008 14187 2
+32008 11632 1
+32008 14184 2
+32008 8735 2
+32008 3961 1
+32008 1150 2
+32008 636 4
+32008 14197 1
+14187 1921 4
+10061 636 2
+10061 642 10
+10061 1921 4
+10061 404 1
+10061 5669 2
+32443 642 2
+32443 16345 1
+32443 15634 1
+32443 622 1
+32443 15635 1
+32443 1150 2
+4838 642 7
+4838 404 3
+4838 15675 1
+4838 11638 12
+4838 1125 4
+4838 625 7
+26580 404 1
+11638 404 1
+11638 15675 20
+4839 5875 2
+4839 404 1
+4839 4841 6
+4839 413 8
+14188 27405 2
+14188 636 2
+14188 1921 2
+14188 403 1
+1921 636 3
+2204 658 2
+2204 404 1
+2204 413 5
+19482 4836 1
+19482 15675 2
+19482 19486 3
+19482 413 4
+19482 8611 2
+19482 2204 1
+8657 636 15
+8657 3961 2
+8657 413 4
+8657 8688 1
+11627 19487 3
+11627 636 3
+11627 2841 3
+11627 413 7
+11627 8688 1
+42456 42444 1
+42456 622 2
+42456 1150 2
+42456 5546 1
+10651 10659 1
+10651 622 2
+10651 1150 2
+10651 5546 1
+11628 4836 1
+11628 8611 2
+6954 12833 3
+6954 1921 1
+6954 16925 2
+6954 14202 1
+6954 622 3
+6954 5546 1
+8609 4836 1
+8609 636 3
+8609 5547 3
+8609 3960 3
+8609 11628 2
+11629 658 2
+11629 404 1
+11629 638 6
+13190 636 1
+13190 13203 1
+13190 1921 1
+13190 6954 3
+14189 1921 1
+14189 6818 2
+19483 4836 1
+19483 11706 2
+19483 2841 1
+19484 15675 3
+19484 413 3
+19484 8688 1
+3671 413 3
+3671 8688 1
+19485 2841 3
+19485 413 3
+19485 8688 1
+32009 636 2
+32009 14188 2
+5650 636 1
+5650 1921 4
+5650 5669 2
+11630 4841 6
+6945 6953 1
+6945 6954 3
+18279 642 2
+18279 15636 1
+18279 622 1
+18279 4961 1
+18279 1150 2
+1150 54313 2
+1150 3963 3
+1150 1921 7
+1150 404 1
+1150 622 6
+1150 636 1
+1150 642 3
+1150 10950 6
+1150 629 13
+28098 636 2
+28098 14188 2
+15049 636 2
+15049 14188 2
+5547 404 1
+14190 636 1
+14190 1921 6
+14190 625 1
+15306 27405 2
+15306 636 2
+15306 1921 5
+4800 4836 1
+4800 242 1
+4800 2566 1
+4800 4834 1
+4800 622 1
+4800 4839 1
+4800 394 1
+4800 618 1
+4800 4835 2
+4800 3840 1
+4800 636 3
+4800 400 2
+4800 413 1
+4800 637 1
+14191 636 1
+14191 1921 4
+14191 5669 2
+11631 658 8
+11631 636 4
+22172 16930 1
+22172 6954 3
+17497 636 2
+17497 14188 2
+14780 636 2
+14780 14188 2
+1975 27405 2
+1975 636 2
+1975 1921 4
+3960 636 3
+3960 2144 4
+3960 3961 4
+3961 636 5
+3961 642 12
+3961 6878 1
+33313 16935 1
+33313 6954 3
+23769 16936 1
+23769 6954 3
+14192 1921 1
+14192 6818 2
+14193 1921 1
+14193 6818 2
+15675 404 2
+4841 15675 7
+4841 6878 1
+4836 658 2
+4836 413 4
+4836 2204 6
+19705 636 2
+19705 14188 2
+14194 636 1
+14194 1921 2
+14194 5669 2
+22321 16937 1
+22321 6954 3
+14195 1921 4
+3837 636 5
+394 19485 2
+394 3837 2
+394 19705 2
+394 397 1
+394 15675 4
+394 13345 1
+394 2841 4
+394 12833 1
+394 3960 7
+394 14186 2
+394 33605 4
+394 14780 2
+394 13190 1
+394 15306 2
+394 11638 6
+394 4839 2
+394 19486 3
+394 11627 2
+394 4838 4
+394 11630 2
+394 19484 2
+394 413 15
+394 19487 3
+394 15049 2
+394 14191 2
+394 658 5
+394 19489 2
+394 14192 2
+394 7147 2
+394 10061 8
+394 19483 2
+394 4836 11
+394 14196 1
+394 32009 2
+394 19493 1
+394 1150 5
+394 8735 2
+394 638 147
+394 14197 2
+394 393 2
+394 636 60
+394 34407 1
+394 8657 2
+394 5547 8
+394 9756 2
+394 4403 2
+394 2145 2
+394 14190 2
+394 11629 2
+394 1908 2
+394 11692 2
+394 14195 2
+394 1125 2
+394 19488 2
+394 17497 2
+394 642 13
+394 19482 2
+394 1975 2
+394 14194 1
+394 3671 2
+394 11633 1
+394 5650 3
+394 4478 2
+394 404 4
+394 14185 2
+394 8608 2
+394 14183 4
+394 14189 2
+394 14198 2
+394 14188 3
+394 8609 2
+394 28098 2
+394 2144 3
+394 7450 4
+394 14193 3
+394 14187 2
+394 11632 2
+394 14184 4
+394 3961 12
+394 11626 2
+394 11631 2
+4835 9756 1
+4835 3837 3
+4835 2837 1
+4835 14186 1
+4835 14190 1
+4835 15305 1
+4835 15306 1
+4835 1908 1
+4835 14195 1
+4835 394 4
+4835 4839 5
+4835 11630 1
+4835 4841 3
+4835 14194 1
+4835 1975 1
+4835 11633 1
+4835 5650 1
+4835 1921 2
+4835 14185 1
+4835 14198 1
+4835 14191 1
+4835 8608 6
+4835 14183 1
+4835 14189 1
+4835 14188 1
+4835 658 1
+4835 14192 1
+4835 7147 1
+4835 2144 1
+4835 10061 1
+4835 7450 1
+4835 14193 1
+4835 14196 1
+4835 14187 1
+4835 11632 1
+4835 14184 1
+4835 3961 1
+4835 1150 1
+4835 7593 1
+4835 8735 1
+4835 638 14
+4835 14197 1
+4835 636 44
+19487 15675 4
+19487 11638 2
+33605 404 1
+33605 15675 3
+46728 19487 2
+46728 11627 4
+46728 624 9
+46728 1125 2
+46728 637 10
+17782 5001 1
+17782 4984 1
+17782 14182 1
+17782 642 3
+17782 622 1
+17782 1150 2
+14196 636 1
+14196 1921 4
+637 636 2
+637 394 4
+637 3961 1
+637 5783 10
+637 638 1
+638 11629 1
+638 9756 1
+638 5547 7
+638 3837 1
+638 8608 1
+638 636 10
+638 658 4
+638 3960 6
+42373 636 3
+42373 1921 1
+42373 394 5
+42373 4835 1
+42373 638 7
+7450 413 5
+7450 6878 1
+8611 4836 3
+8611 8688 1
+4840 5650 1
+4840 9756 1
+4840 14185 1
+4840 14198 1
+4840 14191 1
+4840 14189 1
+4840 14183 1
+4840 14188 1
+4840 14192 1
+4840 7147 1
+4840 14186 1
+4840 14190 1
+4840 10061 1
+4840 15305 1
+4840 14193 1
+4840 15306 1
+4840 14196 1
+4840 1908 1
+4840 14195 1
+4840 14187 1
+4840 14184 1
+4840 1150 1
+4840 8735 1
+4840 14194 1
+4840 1975 1
+1908 1921 4
+14197 6878 1
+14197 638 6
+14198 1921 1
+14198 6818 2
+17799 16950 1
+17799 6954 3
+413 404 4
+11632 4841 5
+11632 413 7
+6878 636 1
+34636 4251 2
+34636 642 3
+34636 16951 1
+34636 622 4
+34636 1150 2
+34636 629 1
+34636 5546 1
+18959 8407 1
+18959 622 3
+18959 1150 2
+18959 629 2
+18959 5546 1
+46443 4251 2
+46443 642 3
+46443 16952 1
+46443 622 3
+46443 1150 2
+46443 629 1
+46443 5546 1
+8404 622 3
+8404 8395 1
+8404 1150 2
+8404 629 2
+8404 5546 1
+20754 622 3
+20754 16953 1
+20754 1150 2
+20754 629 2
+20754 5546 1
+15305 9756 1
+15305 14186 1
+15305 14190 1
+15305 26869 1
+15305 15306 1
+15305 1908 1
+15305 14195 1
+15305 4839 1
+15305 11630 1
+15305 14194 1
+15305 1975 1
+15305 11633 1
+15305 5650 1
+15305 14185 1
+15305 14183 1
+15305 14189 1
+15305 14191 1
+15305 14198 1
+15305 14188 1
+15305 7147 1
+15305 14192 1
+15305 2144 1
+15305 10061 1
+15305 7450 1
+15305 14193 1
+15305 14196 1
+15305 14187 1
+15305 11632 1
+15305 14184 1
+15305 8735 1
+15305 3961 1
+15305 1150 1
+15305 636 1
+15305 14197 1
+3962 9756 2
+3962 14186 2
+3962 14190 2
+3962 26869 1
+3962 15306 2
+3962 1908 2
+3962 14195 2
+3962 4839 1
+3962 11630 1
+3962 14194 2
+3962 1975 2
+3962 11633 1
+3962 5650 2
+3962 14185 2
+3962 14183 2
+3962 14189 2
+3962 14191 2
+3962 14198 2
+3962 14188 2
+3962 7147 2
+3962 14192 2
+3962 2144 1
+3962 10061 2
+3962 7450 1
+3962 14193 2
+3962 14196 2
+3962 14187 2
+3962 11632 1
+3962 14184 2
+3962 8735 2
+3962 3961 1
+3962 1150 2
+3962 14197 1
+5669 636 1
+5669 1921 2
+14199 5650 2
+14199 9756 2
+14199 14185 2
+14199 14198 2
+14199 14191 2
+14199 14189 2
+14199 14183 2
+14199 14188 2
+14199 14192 2
+14199 7147 2
+14199 14190 2
+14199 2144 1
+14199 10061 2
+14199 7450 1
+14199 26869 1
+14199 14193 2
+14199 15306 2
+14199 14195 2
+14199 14184 2
+14199 4839 1
+14199 11632 1
+14199 1150 2
+14199 3961 1
+14199 8735 2
+14199 14197 1
+14199 636 47
+14199 11630 1
+14199 14194 2
+14199 1975 2
+14199 11633 1
+19488 4836 1
+19488 19493 2
+19488 8611 2
+19489 4836 1
+19489 5547 3
+19489 11628 2
+19489 638 3
+11633 6878 1
+20682 14931 1
+20682 3552 2
+20682 43500 2
+20682 13352 1
+20682 3555 7
+20682 25345 1
+20542 3380 1
+20542 954 1
+20683 14998 2
+20683 3553 1
+20683 3555 4
+50663 1684 3
+50663 3380 2
+25345 14931 1
+25345 3507 2
+25345 642 1
+25345 3506 2
+25345 3555 3
+25327 3506 3
+25327 20014 2
+25327 25345 2
+43500 2566 1
+43500 620 1
+43500 20015 1
+43500 654 1
+45838 239 5
+45838 3380 3
+45838 43500 6
+3507 2566 1
+3507 620 1
+3507 20015 1
+3484 239 3
+3484 3507 3
+3484 3506 3
+3484 3380 1
+17858 13352 4
+14931 14998 2
+14931 642 21
+14998 14931 1
+14998 642 1
+14998 3506 4
+10412 2841 2
+239 242 2
+239 1725 5
+239 49 1
+239 5875 18
+239 1818 1
+239 954 1
+239 17055 1
+239 3380 13
+239 637 4
+239 654 9
+16551 650 1
+16551 5789 1
+16551 49 3
+16551 640 7
+16551 48 3
+3380 1725 7
+3380 49 9
+3380 404 2
+3380 2843 1
+3380 954 4
+3380 17055 1
+3380 2841 2
+3380 403 1
+3380 20929 1
+3380 23211 1
+3380 15763 1
+23214 25814 1
+23214 49 1
+23214 4253 2
+23214 34 1
+17880 7159 3
+17880 3670 1
+17880 2843 2
+17880 2841 7
+17880 247 4
+17880 20929 2
+17880 23212 1
+17880 2085 2
+17880 23214 1
+17880 242 12
+17880 1818 4
+17880 19492 25
+17880 21563 1
+17880 625 22
+17880 642 1
+17880 4860 1
+17880 404 40
+17880 7449 7
+17880 7885 5
+17880 2842 1
+17880 5543 1
+17880 401 19
+17880 49 15
+17880 79 33
+17880 34 4
+17880 656 6
+17880 6829 1
+17880 877 1
+17880 15763 1
+17880 3453 3
+17880 5784 1
+17880 23209 3
+45632 4860 1
+45632 4263 1
+45632 3670 2
+45632 404 5
+45632 2843 1
+45632 8949 1
+45632 2841 3
+45632 7449 9
+45632 8951 1
+45632 8950 3
+45632 20929 1
+45632 23212 1
+45632 11637 1
+45632 23211 2
+45632 401 3
+45632 21197 1
+45632 242 9
+45632 49 2
+45632 1818 2
+45632 19492 1
+45632 954 1
+45632 34 4
+45632 625 2
+45632 3453 2
+6617 402 1
+6617 624 1
+4253 242 3
+4253 3670 1
+4253 2841 3
+4253 7449 1
+4253 3453 1
+4253 34 3
+34 49 1
+34 48 1
+247 254 3
+44936 247 3
+2556 1125 2
+46282 2556 5
+46282 642 28
+10529 2556 8
+10529 642 14
+54424 2556 8
+54424 642 15
+41706 239 4
+41706 5545 1
+41706 18566 1
+41706 622 3
+41706 8141 2
+41706 3456 1
+41706 21 1
+41706 3380 1
+41706 654 3
+41706 242 4
+41706 2566 1
+41706 1818 1
+41706 954 2
+41706 1125 1
+41706 13512 1
+41706 2556 7
+41706 642 4
+41706 877 1
+41706 621 6
+4761 239 4
+4761 403 5
+16548 49 1
+16548 640 1
+16548 16551 2
+640 49 4
+640 247 1
+42697 49 3
+42697 640 25
+42697 16551 2
+7593 624 7
+7593 625 3
+11634 624 7
+11634 625 1
+27342 642 6
+27342 624 5
+27342 625 2
+12685 624 3
+12685 625 1
+5784 624 3
+5784 8610 2
+5784 625 1
+2837 624 3
+2837 8610 2
+2837 625 1
+5875 2544 1
+5875 5874 2
+5875 404 2
+5875 12908 1
+5875 2558 1
+5875 2547 1
+5875 654 16
+46139 624 3
+46139 625 1
+31269 14200 3
+14200 642 1
+14200 1125 1
+13077 242 2
+13077 1818 1
+13077 397 1
+13077 7883 1
+13077 3456 1
+13077 2841 1
+13077 3453 2
+23209 624 3
+23209 625 1
+19490 624 7
+19490 625 3
+19491 624 7
+19491 625 3
+3364 10524 4
+18267 642 2
+18267 877 2
+18267 657 8
+18267 25288 13
+14201 5875 7
+14201 404 1
+14201 622 8
+14201 394 2
+14201 618 1
+14201 400 2
+14201 12908 1
+14201 413 1
+14201 654 4
+395 19485 6
+395 8657 5
+395 7159 1
+395 3670 39
+395 5875 11
+395 622 9
+395 397 2
+395 15675 2
+395 3773 2
+395 2843 9
+395 1151 2
+395 8949 1
+395 2841 5
+395 2547 4
+395 2837 7
+395 20929 1
+395 8340 1
+395 23211 3
+395 242 164
+395 11692 4
+395 1818 3
+395 5865 3
+395 12685 3
+395 11638 29
+395 7883 3
+395 181 4
+395 394 15
+395 19486 1
+395 8611 6
+395 1125 4
+395 625 43
+395 19488 3
+395 11627 17
+395 4838 44
+395 3840 1
+395 400 14
+395 642 11
+395 46139 5
+395 19484 5
+395 19482 10
+395 413 24
+395 3671 4
+395 19487 6
+395 4860 17
+395 5874 7
+395 404 36
+395 7530 15
+395 618 8
+395 7449 3
+395 8950 1
+395 11706 3
+395 2558 3
+395 11637 7
+395 19483 4
+395 401 23
+395 654 26
+395 4836 2
+395 2566 3
+395 11636 1
+395 49 9
+395 636 2
+395 393 4
+395 877 1
+395 5784 2
+395 2204 4
+23210 404 1
+23211 20929 2
+11635 7888 2
+11635 2837 2
+11636 4860 1
+11636 642 7
+11636 1125 6
+33844 14316 1
+33844 16072 1
+33844 641 114
+33844 16073 1
+33844 16078 1
+33844 7221 1
+33844 1151 17
+33844 16070 1
+33844 16077 5
+33844 16071 3
+33844 16067 1
+33844 16076 1
+33844 16075 1
+33844 16079 1
+33844 13140 1
+33844 16081 1
+33844 3585 1
+33844 11359 1
+33844 1124 1
+33844 10948 1
+33844 16080 1
+33844 16074 1
+33844 16083 41
+33844 642 34
+33844 16069 1
+33844 16068 1
+45628 642 1
+45628 39652 1
+397 1151 1
+43793 642 1
+43793 39652 1
+39650 642 1
+39650 39652 1
+23212 11636 1
+23212 1818 8
+23212 11637 5
+23212 2843 1
+51651 1818 3
+51651 23212 1
+4860 4875 3
+4860 404 1
+4875 656 2
+56048 642 1
+56048 39652 1
+11637 11635 1
+11637 4860 12
+11637 404 5
+11637 397 9
+11637 3456 2
+11637 1151 1
+11637 2841 6
+11637 2844 1
+11637 2837 3
+11637 5543 1
+11637 242 2
+11637 12678 5
+11637 7888 6
+11637 11636 3
+11637 1818 4
+11637 12685 1
+11637 7883 4
+11637 7593 1
+11637 883 1
+11637 10412 1
+11637 642 3
+11637 12057 1
+11637 657 1
+11637 3453 3
+11637 5784 2
+2841 4860 1
+2842 624 9
+3456 642 7
+3456 657 14
+10600 242 2
+10600 239 2
+10600 402 1
+10600 642 4
+10600 1818 1
+10600 404 3
+10600 3456 5
+10600 657 3
+2558 642 5
+2558 877 2
+34349 242 2
+34349 239 2
+34349 402 1
+34349 642 4
+34349 1818 1
+34349 404 3
+34349 2558 3
+34349 1125 1
+5543 2556 7
+5543 11636 2
+5543 642 1
+5543 3456 1
+7063 5543 2
+50648 624 2
+50648 404 8
+19492 624 4
+19492 7449 19
+19492 1125 4
+19492 625 4
+19492 8951 1
+19492 642 4
+19492 7886 12
+19492 23209 2
+8949 624 3
+8949 625 1
+7449 5543 1
+8950 624 3
+8950 8610 2
+8950 625 1
+13025 642 4
+13025 1125 20
+13711 624 3
+13711 404 4
+13711 625 1
+20929 624 3
+20929 625 1
+2843 624 3
+2843 8610 2
+2843 625 1
+7159 624 6
+7159 2841 2
+7159 625 3
+654 400 3
+654 5875 2
+654 404 2
+2145 642 10
+2145 624 3
+2145 625 1
+25288 657 9
+37380 18267 2
+37380 657 6
+37380 25288 31
+54313 624 3
+54313 625 1
+657 7888 1
+657 642 2
+883 12678 2
+12057 7888 2
+773 883 6
+773 656 6
+773 885 1
+773 882 7
+773 877 1
+773 886 1
+886 656 2
+886 882 6
+886 773 3
+885 883 2
+885 656 3
+885 642 1
+885 404 1
+885 877 1
+885 12057 1
+885 1125 1
+885 401 1
+882 1125 2
+882 79 1
+882 656 3
+882 883 11
+882 4256 1
+882 885 4
+882 642 2
+882 5544 1
+882 773 10
+7884 7886 1
+7884 20448 1
+78 20448 1
+4584 20448 1
+27910 656 1
+27910 181 1
+27910 20448 1
+641 12678 5
+641 3631 13
+641 642 74
+641 877 1
+641 1125 10
+10947 10510 1
+10947 642 10
+10947 5544 4
+10947 1125 1
+10949 641 9
+10949 642 1
+396 642 10
+396 1125 1
+7221 641 9
+7221 642 1
+2836 10510 1
+2836 2844 2
+2836 642 12
+2836 1151 6
+2836 1125 1
+10948 641 9
+10948 642 1
+642 2556 3
+642 3631 2
+642 877 1
+642 10950 6
+642 1125 36
+642 625 5
+10950 642 3
+10667 6041 21
+10667 6765 11
+10667 5975 20
+10667 4259 2
+10667 956 6
+10667 624 1
+10667 1151 2
+10667 2839 22
+10667 10944 59
+10667 4256 6
+10667 10945 23
+10667 4261 1
+10667 2838 42
+10667 3632 13
+10667 10524 1
+10667 2176 55
+10667 1124 54
+10667 4258 4
+10667 7353 23
+10667 1125 83
+10667 3631 2
+10667 642 115
+10667 4257 4
+10667 4911 20
+10667 4260 1
+10667 10950 2
+10667 10946 21
+4256 2844 1
+4256 642 22
+4256 1819 2
+4256 1124 1
+4256 1125 1
+16067 641 9
+16067 642 1
+2838 642 47
+2838 4264 2
+2838 1124 1
+2838 1125 1
+11359 641 9
+11359 642 1
+2176 642 28
+2176 1125 1
+16068 641 8
+16068 642 1
+10944 642 27
+10944 2176 2
+10944 1125 1
+16069 641 8
+16069 642 1
+2839 642 17
+2839 1124 3
+2839 1125 1
+16070 641 8
+16070 642 1
+1124 642 31
+1124 1125 1
+16071 641 8
+16071 642 1
+6041 642 13
+6041 1124 2
+6041 2839 2
+6041 1125 1
+16074 641 8
+16074 642 1
+4257 4256 6
+4257 642 15
+4257 1819 2
+4257 1124 1
+4257 1125 1
+16072 641 9
+16072 642 1
+4258 4256 1
+4258 642 24
+4258 1819 4
+4258 1124 2
+4258 1125 1
+16073 641 9
+16073 642 1
+10946 6041 1
+10946 642 13
+10946 1124 2
+10946 2839 1
+10946 1125 1
+16075 641 8
+16075 642 1
+4259 4256 7
+4259 6765 1
+4259 642 12
+16076 641 9
+16076 642 1
+7353 642 9
+7353 2176 6
+16077 641 12
+16077 642 1
+10945 10944 7
+10945 642 9
+10945 7353 1
+16078 641 9
+16078 642 1
+3632 6765 1
+3632 642 11
+3632 1124 1
+3632 2839 4
+3585 641 9
+3585 642 1
+6765 642 10
+6765 1124 4
+13140 641 9
+13140 642 1
+5975 6041 3
+5975 3632 1
+5975 642 10
+5975 1124 1
+16079 641 9
+16079 642 1
+4260 6765 1
+4260 4259 5
+4260 4257 4
+4260 642 8
+16080 641 9
+16080 642 1
+4261 6765 1
+4261 4259 2
+4261 642 11
+4261 1124 1
+4261 4258 5
+16081 641 9
+16081 642 1
+4911 5975 1
+4911 642 10
+4911 1124 1
+4911 10946 3
+14316 641 9
+14316 642 1
+5544 642 7
+5544 1125 2
+16082 641 9
+16082 642 1
+1151 2844 1
+1151 642 9
+1151 1125 1
+16083 641 9
+16083 642 1
+3631 642 24
+8282 8287 1
+8282 1684 1
+8282 27042 4
+8282 26997 1
+8282 4262 1
+8282 27046 2
+8282 2843 1
+8282 954 2
+8282 27043 2
+8282 3380 1
+8283 8284 7
+8284 8277 1
+8284 24536 2
+8284 403 1
+46550 8284 7
+46550 8282 4
+46550 8281 2
+27046 6680 1
+24488 3380 1
+24488 8284 8
+24488 8282 3
+24488 8281 2
+8153 8287 1
+8153 8283 8
+8153 8284 3
+8153 8282 12
+8153 8285 1
+8153 8286 1
+8153 8277 1
+8153 8281 2
+8286 8287 2
+8286 8277 1
+8286 6680 2
+56791 8287 1
+56791 8286 6
+8281 7887 1
+8281 8284 1
+2599 26 4
+8285 8277 1
+4262 8286 1
+4262 242 7
+4262 2844 2
+4262 49 1
+4262 5846 1
+59298 3365 3
+11303 877 2
+877 656 1
+877 12678 2
+877 2556 1
+877 642 6
+877 1125 2
+44695 877 5
+21020 242 8
+21020 2844 1
+21020 642 4
+21020 13208 2
+21020 3506 2
+21020 625 2
+3506 642 5
+58500 3506 5
+58500 624 1
+1819 642 5
+37438 1819 19
+10592 642 1
+10592 629 4
+400 404 3
+400 622 1
+400 618 2
+400 403 1
+400 2837 2
+400 2544 1
+400 7886 1
+400 623 1
+400 78 1
+400 654 1
+400 637 2
+400 401 4
+400 242 3
+400 2566 1
+400 402 1
+400 18267 3
+400 4834 1
+400 7883 3
+400 181 11
+400 7882 6
+400 625 1
+400 638 1
+400 636 1
+400 642 9
+400 877 1
+400 657 2
+400 5784 1
+400 3453 1
+58513 642 2
+58513 400 1
+58513 10950 2
+4263 4860 1
+4263 49 2
+18281 4263 12
+7886 3453 2
+47730 1976 5
+7887 242 7
+46049 242 3
+401 242 10
+401 404 6
+401 2843 2
+401 2841 1
+401 7449 2
+401 1125 1
+401 656 1
+401 392 4
+401 642 3
+401 877 2
+401 3453 6
+31177 656 3
+31177 392 16
+31177 3453 5
+31177 401 11
+21515 392 3
+27242 6829 1
+37017 239 2
+37017 402 2
+402 21020 2
+402 3670 1
+402 404 8
+402 3456 2
+402 2843 1
+402 2547 1
+402 2837 1
+402 2558 1
+402 629 1
+402 654 2
+402 242 9
+402 12678 4
+402 18267 4
+402 1818 1
+402 7593 1
+402 395 2
+402 642 11
+402 400 1
+402 3506 4
+402 657 3
+402 25288 4
+38045 239 4
+38045 402 13
+38045 642 14
+38045 2843 1
+38045 954 1
+37370 954 1
+403 3506 1
+403 404 2
+16980 3506 2
+16980 403 9
+5545 4860 1
+5545 8141 3
+5545 3456 12
+5545 2556 19
+5545 400 1
+5545 642 7
+5545 877 4
+5545 621 2
+5545 18453 1
+5545 657 5
+42864 5545 2
+42864 2836 18
+42864 3456 1
+42864 1151 1
+42864 1125 2
+42864 2556 1
+42864 642 46
+42864 877 1
+404 242 9
+404 3456 3
+404 7593 1
+404 625 1
+404 656 1
+404 2844 3
+404 2556 2
+404 2837 3
+404 642 13
+404 877 4
+404 5543 1
+404 657 2
+404 5784 1
+8951 21197 1
+8951 624 1
+8951 625 1
+41163 8951 8
+79 392 1
+79 624 5
+79 2085 1
+79 625 1
+2844 27870 1
+2844 1125 8
+55848 2844 1
+956 2549 1
+956 2548 1
+956 622 2
+956 2547 1
+956 2555 8
+956 2552 1
+956 2544 2
+956 2550 1
+956 2558 1
+956 2551 2
+956 629 7
+956 2542 1
+956 654 1
+956 1976 2
+956 242 1
+956 2566 2
+956 2546 1
+956 954 1
+956 2553 1
+956 2556 2
+956 2543 3
+956 2545 1
+956 628 2
+4688 656 4
+4688 12678 5
+4688 642 2
+18758 242 10
+18758 4860 1
+18758 7886 3
+18758 404 2
+18758 5543 2
+18758 7449 1
+18758 401 1
+18758 79 6
+13208 242 2
+13208 642 5
+13208 3506 1
+13208 13279 1
+13208 403 1
+28695 239 2
+28695 641 3
+28695 642 1
+28695 13208 7
+28695 3506 4
+13279 642 4
+46458 239 2
+46458 13279 7

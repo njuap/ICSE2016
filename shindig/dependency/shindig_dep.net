@@ -1,0 +1,3942 @@
+*Vertics: 884
+7,org.apache.shindig.protocol.conversion.xstream.StackWriterWrapper
+48,org.apache.shindig.protocol.conversion.xstream.NamespaceSet
+57,org.apache.shindig.social.core.oauth.OAuthSecurityToken
+85,org.apache.shindig.auth.AbstractSecurityToken
+86,org.apache.shindig.auth.AuthenticationMode
+106,org.apache.shindig.gadgets.oauth2.persistence.sample.NoOpEncrypterTest
+147,org.apache.shindig.gadgets.oauth2.persistence.sample.NoOpEncrypter
+152,org.apache.shindig.protocol.conversion.xstream.ImplicitCollectionFieldMapping
+177,org.apache.shindig.gadgets.http.AbstractHttpCacheTest
+337,org.apache.shindig.auth.BasicSecurityToken
+339,org.apache.shindig.common.uri.Uri
+340,org.apache.shindig.gadgets.AuthType
+341,org.apache.shindig.gadgets.oauth.OAuthArguments
+350,org.apache.shindig.gadgets.http.HttpRequest
+351,org.apache.shindig.gadgets.http.HttpResponse
+352,org.apache.shindig.gadgets.http.CacheKeyBuilder
+354,org.apache.shindig.gadgets.http.AbstractHttpCache
+355,org.apache.shindig.gadgets.http.HttpResponseBuilder
+413,org.apache.shindig.gadgets.servlet.OAuthCallbackServletTest
+432,org.apache.shindig.common.crypto.BasicBlobCrypter
+434,org.apache.shindig.gadgets.oauth.OAuthCallbackState
+436,org.apache.shindig.gadgets.servlet.ServletTestFixture
+437,org.apache.shindig.gadgets.servlet.OAuthCallbackServlet
+438,org.apache.shindig.common.servlet.HttpServletResponseRecorder
+454,org.apache.shindig.gadgets.oauth2.OAuth2MessageModuleTest
+459,org.apache.shindig.gadgets.oauth2.OAuth2MessageModule
+461,org.apache.shindig.social.core.model.AlbumImpl
+527,org.apache.shindig.protocol.HandlerPreconditions
+546,org.apache.shindig.protocol.ProtocolException
+551,org.apache.shindig.common.xml.DomUtil
+595,org.apache.shindig.gadgets.oauth.OAuthGadgetContext
+607,org.apache.shindig.gadgets.GadgetContext
+616,org.apache.shindig.gadgets.oauth2.handler.MacTokenHandlerTest
+652,org.apache.shindig.gadgets.oauth2.MockUtils
+654,org.apache.shindig.gadgets.oauth2.OAuth2Error
+656,org.apache.shindig.gadgets.oauth2.handler.MacTokenHandler
+657,org.apache.shindig.gadgets.oauth2.handler.OAuth2HandlerError
+673,org.apache.shindig.gadgets.parse.CompactHtmlSerializerTest
+700,org.apache.shindig.gadgets.parse.AbstractParsingTestBase
+701,org.apache.shindig.gadgets.parse.GadgetHtmlParser
+702,org.apache.shindig.gadgets.parse.CompactHtmlSerializer
+713,org.apache.shindig.social.core.oauth2.OAuth2ServiceImpl
+770,org.apache.shindig.social.core.oauth2.validators.AccessTokenRequestValidator
+771,org.apache.shindig.social.core.oauth2.validators.AuthorizationCodeRequestValidator
+772,org.apache.shindig.social.core.oauth2.validators.DefaultResourceRequestValidator
+775,org.apache.shindig.social.core.oauth2.OAuth2Client
+776,org.apache.shindig.social.core.oauth2.OAuth2Types
+780,org.apache.shindig.social.core.oauth2.OAuth2NormalizedRequest
+781,org.apache.shindig.social.core.oauth2.OAuth2NormalizedResponse
+782,org.apache.shindig.social.core.oauth2.OAuth2Code
+783,org.apache.shindig.social.core.oauth2.OAuth2Exception
+839,org.apache.shindig.gadgets.rewrite.js.ClosureJsCompiler
+1020,org.apache.shindig.common.util.HashUtil
+1021,org.apache.shindig.gadgets.features.ApiDirective
+1023,org.apache.shindig.gadgets.js.JsContent
+1024,org.apache.shindig.gadgets.js.JsResponse
+1025,org.apache.shindig.gadgets.js.JsResponseBuilder
+1030,org.apache.shindig.gadgets.features.FeatureRegistry
+1034,org.apache.shindig.gadgets.rewrite.js.DefaultJsCompiler
+1035,org.apache.shindig.gadgets.rewrite.js.CompileResult
+1037,org.apache.shindig.gadgets.uri.ProxyUriBase
+1087,org.apache.shindig.gadgets.templates.tags.DefaultTagRegistry
+1094,org.apache.shindig.social.core.oauth.OAuth2AuthCodeFlowTest
+1246,org.apache.shindig.common.testing.FakeHttpServletRequest
+1247,org.apache.shindig.social.core.oauth2.OAuth2AuthenticationHandler
+1248,org.apache.shindig.social.core.oauth2.OAuth2Servlet
+1249,org.apache.shindig.social.dataservice.integration.AbstractLargeRestfulTests
+1253,org.apache.shindig.social.core.oauth.MockServletOutputStream
+1269,org.apache.shindig.common.servlet.HttpServletUserAgentProviderTest
+1291,org.apache.shindig.common.EasyMockTestCase
+1294,org.apache.shindig.common.servlet.HttpServletUserAgentProvider
+1295,org.apache.shindig.common.servlet.UserAgent
+1305,org.apache.shindig.gadgets.oauth.BasicOAuthStore
+1423,org.apache.shindig.gadgets.GadgetException
+1425,org.apache.shindig.gadgets.oauth.BasicOAuthStoreConsumerKeyAndSecret
+1428,org.apache.shindig.gadgets.oauth.BasicOAuthStoreConsumerIndex
+1430,org.apache.shindig.gadgets.oauth.BasicOAuthStoreTokenIndex
+1461,org.apache.shindig.gadgets.variables.MessageSubstituterTest
+1470,org.apache.shindig.gadgets.render.FakeMessageBundleFactory
+1471,org.apache.shindig.gadgets.spec.GadgetSpec
+1472,org.apache.shindig.gadgets.variables.Substitutions
+1474,org.apache.shindig.gadgets.variables.MessageSubstituter
+1484,org.apache.shindig.gadgets.js.JsLoadProcessorTest
+1510,org.apache.shindig.gadgets.js.JsLoadProcessor
+1511,org.apache.shindig.gadgets.js.JsRequest
+1512,org.apache.shindig.gadgets.js.JsException
+1529,org.apache.shindig.protocol.conversion.BeanJsonConverter
+1668,org.apache.shindig.common.JsonSerializer
+1669,org.apache.shindig.protocol.ContentTypes
+1671,org.apache.shindig.protocol.model.EnumImpl
+1690,org.apache.shindig.gadgets.js.ExportJsProcessorTest
+1777,org.apache.shindig.gadgets.JsCompileMode
+1781,org.apache.shindig.gadgets.js.ExportJsProcessor
+1802,org.apache.shindig.protocol.model.ExtendableBeanImpl
+1805,org.apache.shindig.gadgets.render.GadgetRewritersProvider
+1814,org.apache.shindig.gadgets.DefaultGadgetSpecFactory
+1839,org.apache.shindig.common.xml.XmlException
+1840,org.apache.shindig.common.xml.XmlUtil
+1842,org.apache.shindig.gadgets.spec.SpecParserException
+1843,org.apache.shindig.gadgets.AbstractSpecFactory
+1922,org.apache.shindig.social.core.model.OrganizationImpl
+1928,org.apache.shindig.gadgets.servlet.ProxyServlet
+1976,org.apache.shindig.auth.AuthInfoUtil
+1978,org.apache.shindig.common.servlet.InjectedServlet
+1979,org.apache.shindig.common.uri.UriBuilder
+1981,org.apache.shindig.gadgets.oauth2.OAuth2Arguments
+1984,org.apache.shindig.gadgets.servlet.ProxyHandler
+1987,org.apache.shindig.gadgets.servlet.ServletUtil
+2018,org.apache.shindig.common.uri.UriTest
+2118,org.apache.shindig.gadgets.js.AnonFuncWrappingProcessorTest
+2130,org.apache.shindig.gadgets.js.AnonFuncWrappingProcessor
+2137,org.apache.shindig.common.servlet.GuiceServletContextListener
+2200,org.apache.shindig.gadgets.uri.DefaultAccelUriManagerTest
+2220,org.apache.shindig.config.BasicContainerConfig
+2223,org.apache.shindig.gadgets.uri.DefaultAccelUriManager
+2226,org.apache.shindig.gadgets.uri.DefaultProxyUriManager
+2240,org.apache.shindig.common.servlet.ServletRequestContext
+2259,org.apache.shindig.gadgets.oauth.OAuthError
+2281,org.apache.shindig.gadgets.servlet.AccelHandler
+2320,org.apache.shindig.gadgets.Gadget
+2321,org.apache.shindig.gadgets.rewrite.DomWalker
+2325,org.apache.shindig.gadgets.rewrite.RewritingException
+2326,org.apache.shindig.gadgets.uri.UriUtils
+2357,org.apache.shindig.gadgets.oauth2.persistence.OAuth2CacheException
+2361,org.apache.shindig.gadgets.oauth2.persistence.OAuth2PersistenceException
+2364,org.apache.shindig.gadgets.rewrite.StyleAdjacencyContentRewriter
+2367,org.apache.shindig.gadgets.rewrite.StyleAdjacencyVisitor
+2395,org.apache.shindig.gadgets.spec.Feature
+2396,org.apache.shindig.gadgets.admin.ContainerAdminData
+2397,org.apache.shindig.gadgets.admin.GadgetAdminData
+2398,org.apache.shindig.gadgets.admin.ServerAdminData
+2400,org.apache.shindig.protocol.conversion.BeanFilter
+2473,org.apache.shindig.protocol.conversion.BeanDelegator
+2482,org.apache.shindig.gadgets.preload.ConcurrentPreloaderService
+2486,org.apache.shindig.social.core.util.atom.AtomAttributeConverter
+2498,org.apache.shindig.social.core.util.atom.AtomAttribute
+2588,org.apache.shindig.common.util.DateUtil
+2589,org.apache.shindig.common.JsonUtil
+2593,org.apache.shindig.social.core.oauth2.OAuth2AuthorizationHandler
+2610,org.apache.shindig.social.core.oauth2.OAuth2Utils
+2632,org.apache.shindig.gadgets.preload.PreloadModule
+2635,org.apache.shindig.gadgets.parse.caja.CajaCssLexerParser
+2712,org.apache.shindig.gadgets.templates.DefaultTemplateProcessor
+2854,org.apache.shindig.expressions.Expressions
+2855,org.apache.shindig.gadgets.GadgetELResolver
+2856,org.apache.shindig.gadgets.parse.HtmlSerialization
+2857,org.apache.shindig.gadgets.templates.tags.RepeatTagHandler
+2860,org.apache.shindig.gadgets.templates.TemplateContext
+2861,org.apache.shindig.gadgets.templates.TemplateELResolver
+2862,org.apache.shindig.gadgets.templates.ElementELResolver
+2883,org.apache.shindig.gadgets.spec.ApplicationManifest
+2934,org.apache.shindig.protocol.DefaultHandlerRegistry
+3021,org.apache.shindig.expressions.juel.JuelProvider
+3022,org.apache.shindig.expressions.juel.JuelTypeConverter
+3024,org.apache.shindig.expressions.Functions
+3027,org.apache.shindig.expressions.JsonELResolver
+3032,org.apache.shindig.gadgets.preload.ConcurrentPreloads
+3059,org.apache.shindig.gadgets.preload.PreloadException
+3067,org.apache.shindig.gadgets.render.DefaultRpcServiceLookup
+3074,org.apache.shindig.gadgets.parse.ParseTreeSerializerBenchmark
+3128,org.apache.shindig.gadgets.parse.caja.CajaHtmlParser
+3129,org.apache.shindig.gadgets.parse.nekohtml.NekoSimplifiedHtmlParser
+3133,org.apache.shindig.gadgets.parse.ParseModule
+3176,org.apache.shindig.gadgets.parse.caja.CajaCssUtils
+3202,org.apache.shindig.common.cache.ehcache.EhConfiguredCache
+3254,org.apache.shindig.social.opensocial.service.AppDataHandler
+3282,org.apache.shindig.social.opensocial.spi.UserId
+3288,org.apache.shindig.social.opensocial.service.SocialRequestItem
+3289,org.apache.shindig.protocol.BaseRequestItem
+3299,org.apache.shindig.auth.AuthInfo
+3359,org.apache.shindig.gadgets.oauth.OAuthFetcherConfig
+3377,org.apache.shindig.common.util.TimeSource
+3379,org.apache.shindig.gadgets.oauth.GadgetOAuthTokenStore
+3381,org.apache.shindig.gadgets.oauth2.OAuth2CallbackState
+3410,org.apache.shindig.common.crypto.BlobCrypterException
+3411,org.apache.shindig.gadgets.oauth2.logger.FilteredLogger
+3413,org.apache.shindig.gadgets.oauth2.OAuth2CallbackStateToken
+3432,org.apache.shindig.gadgets.variables.SubstitutionsTest
+3499,org.apache.shindig.gadgets.templates.TemplateResource
+3501,org.apache.shindig.gadgets.rewrite.ConcatVisitorTest
+3773,org.apache.shindig.gadgets.parse.DefaultHtmlSerializer
+3774,org.apache.shindig.gadgets.parse.caja.CajaHtmlSerializer
+3778,org.apache.shindig.gadgets.rewrite.DomWalkerTestBase
+3782,org.apache.shindig.gadgets.rewrite.ConcatVisitor
+3783,org.apache.shindig.gadgets.rewrite.ContentRewriterFeature
+3802,org.apache.shindig.gadgets.oauth.GadgetOAuthCallbackGenerator
+3839,org.apache.shindig.gadgets.process.ProcessingException
+3840,org.apache.shindig.gadgets.process.Processor
+3843,org.apache.shindig.gadgets.oauth.OAuthResponseParams
+3844,org.apache.shindig.gadgets.oauth.OAuthRequestException
+3857,org.apache.shindig.social.sample.oauth.SampleOAuthDataStore
+3898,org.apache.shindig.common.crypto.Crypto
+3900,org.apache.shindig.social.opensocial.oauth.OAuthEntry
+3901,org.apache.shindig.social.sample.spi.JsonDbOpensocialService
+3958,org.apache.shindig.gadgets.admin.FeatureAdminData
+3959,org.apache.shindig.gadgets.admin.RpcAdminData
+3965,org.apache.shindig.gadgets.oauth.BasicOAuthStoreTest
+3994,org.apache.shindig.common.testing.FakeGadgetToken
+4001,org.apache.shindig.gadgets.http.DefaultInvalidationServiceTest
+4031,org.apache.shindig.common.cache.LruCacheProvider
+4032,org.apache.shindig.gadgets.rewrite.DefaultResponseRewriterRegistry
+4037,org.apache.shindig.gadgets.http.DefaultRequestPipeline
+4038,org.apache.shindig.gadgets.http.DefaultInvalidationService
+4040,org.apache.shindig.gadgets.http.DefaultHttpCache
+4042,org.apache.shindig.gadgets.http.DefaultRequestPipelineTest
+4043,org.apache.shindig.gadgets.http.HttpResponseMetadataHelper
+4068,org.apache.shindig.protocol.multipart.CommonsFormDataItem
+4098,org.apache.shindig.common.util.StringEncodingTest
+4114,org.apache.shindig.common.util.StringEncoding
+4142,org.apache.shindig.gadgets.oauth2.persistence.sample.InMemoryCache
+4173,org.apache.shindig.gadgets.oauth2.persistence.MapCache
+4175,org.apache.shindig.gadgets.oauth2.persistence.OAuth2Client
+4186,org.apache.shindig.social.dataservice.integration.RestfulXmlDataTest
+4223,org.apache.shindig.social.opensocial.util.XSDValidator
+4287,org.apache.shindig.social.opensocial.service.ResponseItemTest
+4297,org.apache.shindig.protocol.ResponseItem
+4303,org.apache.shindig.gadgets.uri.DefaultJsUriManager
+4354,org.apache.shindig.common.util.Utf8UrlCoder
+4356,org.apache.shindig.gadgets.uri.UriStatus
+4359,org.apache.shindig.gadgets.RenderingContext
+4442,org.apache.shindig.gadgets.oauth2.handler.OAuth2HandlerModule
+4459,org.apache.shindig.gadgets.oauth2.handler.CodeAuthorizationResponseHandler
+4460,org.apache.shindig.gadgets.oauth2.handler.BasicAuthenticationHandler
+4461,org.apache.shindig.gadgets.oauth2.handler.StandardAuthenticationHandler
+4462,org.apache.shindig.gadgets.oauth2.handler.ClientCredentialsGrantTypeHandler
+4463,org.apache.shindig.gadgets.oauth2.handler.CodeGrantTypeHandler
+4464,org.apache.shindig.gadgets.oauth2.handler.TokenAuthorizationResponseHandler
+4465,org.apache.shindig.gadgets.oauth2.handler.BearerTokenHandler
+4472,org.apache.shindig.gadgets.process.ProcessorTest
+4528,org.apache.shindig.config.JsonContainerConfig
+4530,org.apache.shindig.gadgets.variables.VariableSubstituter
+4531,org.apache.shindig.gadgets.spec.View
+4545,org.apache.shindig.gadgets.rewrite.RewriterTestBase
+4642,org.apache.shindig.common.PropertiesModule
+4643,org.apache.shindig.gadgets.spec.ModulePrefs
+4645,org.apache.shindig.gadgets.rewrite.MutableContent
+4666,org.apache.shindig.gadgets.FeedProcessorImpl
+4724,org.apache.shindig.auth.AnonymousSecurityToken
+4726,org.apache.shindig.gadgets.oauth2.OAuth2Utils
+4774,org.apache.shindig.gadgets.oauth2.BasicOAuth2StoreTest
+4789,org.apache.shindig.gadgets.oauth2.BasicOAuth2Store
+4807,org.apache.shindig.gadgets.js.GetJsContentProcessorTest
+4864,org.apache.shindig.gadgets.features.DefaultFeatureRegistryProvider
+4865,org.apache.shindig.gadgets.js.GetJsContentProcessor
+4866,org.apache.shindig.gadgets.js.JsGadgetContext
+4886,org.apache.shindig.gadgets.uri.ProxyUriBaseTest
+4925,org.apache.shindig.social.core.util.atom.AtomKeyValue
+4931,org.apache.shindig.gadgets.oauth2.handler.ClientCredentialsGrantTypeHandlerTest
+4983,org.apache.shindig.gadgets.oauth2.OAuth2RequestException
+4997,org.apache.shindig.gadgets.templates.tags.IfTagHandler
+5007,org.apache.shindig.gadgets.templates.tags.AbstractTagHandler
+5012,org.apache.shindig.gadgets.spec.ExternalServices
+5043,org.apache.shindig.gadgets.features.DefaultFeatureFile
+5071,org.apache.shindig.common.util.ResourceLoader
+5086,org.apache.shindig.gadgets.config.OsapiServicesConfigContributor
+5109,org.apache.shindig.auth.OAuthConstants
+5119,org.apache.shindig.gadgets.templates.DefaultTemplateProcessorTest
+5212,org.apache.shindig.expressions.RootELResolver
+5213,org.apache.shindig.gadgets.parse.SocialDataTags
+5214,org.apache.shindig.gadgets.render.SanitizingGadgetRewriter
+5223,org.apache.shindig.protocol.model.FilterOperation
+5264,org.apache.shindig.social.opensocial.util.BeanXStreamAtomConverterTest
+5317,org.apache.shindig.social.SocialApiTestsGuiceModule
+5318,org.apache.shindig.social.core.model.ActivityImpl
+5319,org.apache.shindig.social.core.model.AddressImpl
+5320,org.apache.shindig.social.core.model.ListFieldImpl
+5321,org.apache.shindig.social.core.model.MediaItemImpl
+5322,org.apache.shindig.social.core.model.NameImpl
+5323,org.apache.shindig.social.core.model.PersonImpl
+5324,org.apache.shindig.social.core.util.BeanXStreamAtomConverter
+5325,org.apache.shindig.social.core.util.xstream.XStream081Configuration
+5408,org.apache.shindig.common.cache.SoftExpiringCache
+5422,org.apache.shindig.gadgets.oauth2.handler.CodeAuthorizationResponseHandlerTest
+5599,org.apache.shindig.gadgets.GadgetELResolverTest
+5619,org.apache.shindig.gadgets.UserPrefs
+5624,org.apache.shindig.gadgets.uri.PassthruManager
+5687,org.apache.shindig.protocol.conversion.xstream.GuiceBeanProvider
+5781,org.apache.shindig.gadgets.spec.LinkSpec
+5811,org.apache.shindig.gadgets.features.DefaultFeatureFileSystem
+5814,org.apache.shindig.auth.BasicSecurityTokenCodecTest
+5823,org.apache.shindig.auth.BasicSecurityTokenCodec
+5931,org.apache.shindig.protocol.RestfulCollection
+5932,org.apache.shindig.social.opensocial.spi.CollectionOptions
+5933,org.apache.shindig.social.opensocial.spi.GroupId
+5935,org.apache.shindig.protocol.DataServiceServletTest
+5989,org.apache.shindig.protocol.DataServiceServlet
+5992,org.apache.shindig.protocol.TestHandler
+5993,org.apache.shindig.protocol.ApiServlet
+6010,org.apache.shindig.protocol.model.Model
+6078,org.apache.shindig.social.core.util.atom.AtomLink
+6091,org.apache.shindig.social.opensocial.spi.CollectionOptionsTest
+6163,org.apache.shindig.common.util.CharsetUtil
+6169,org.apache.shindig.gadgets.rewrite.image.GIFOptimizer
+6190,org.apache.shindig.gadgets.rewrite.image.PNGOptimizer
+6191,org.apache.shindig.gadgets.rewrite.image.OptimizerConfig
+6192,org.apache.shindig.gadgets.rewrite.image.ImageUtils
+6205,org.apache.shindig.gadgets.render.SanitizingResponseRewriterTest
+6263,org.apache.shindig.gadgets.parse.caja.CajaCssParser
+6264,org.apache.shindig.gadgets.parse.caja.CajaCssSanitizer
+6266,org.apache.shindig.gadgets.render.SanitizingResponseRewriter
+6274,org.apache.shindig.social.core.oauth2.OAuth2ServiceImplTest
+6312,org.apache.shindig.gadgets.HashLockedDomainServiceTest
+6351,org.apache.shindig.gadgets.uri.HashShaLockedDomainPrefixGenerator
+6352,org.apache.shindig.gadgets.HashLockedDomainService
+6353,org.apache.shindig.gadgets.AbstractLockedDomainService
+6366,org.apache.shindig.gadgets.rewrite.StyleTagExtractorVisitor
+6390,org.apache.shindig.gadgets.rewrite.CssResponseRewriter
+6398,org.apache.shindig.social.core.oauth2.OAuth2TokenHandlerTest
+6405,org.apache.shindig.social.core.oauth2.OAuth2TokenHandler
+6430,org.apache.shindig.sample.shiro.SampleShiroRealm
+6453,org.apache.shindig.gadgets.oauth.GadgetOAuthCallbackGeneratorTest
+6512,org.apache.shindig.gadgets.oauth.OAuthFetcherConfigTest
+6519,org.apache.shindig.gadgets.rewrite.StyleTagProxyEmbeddedUrlsRewriter
+6530,org.apache.shindig.gadgets.rewrite.StyleTagProxyEmbeddedUrlsVisitor
+6583,org.apache.shindig.config.ExpressionContainerConfigTest
+6590,org.apache.shindig.config.BasicContainerConfigTest
+6592,org.apache.shindig.config.ExpressionContainerConfig
+6622,org.apache.shindig.gadgets.templates.tags.CompositeTagRegistry
+6630,org.apache.shindig.gadgets.templates.tags.AbstractTagRegistry
+6632,org.apache.shindig.gadgets.render.RenderingException
+6646,org.apache.shindig.gadgets.render.Renderer
+6678,org.apache.shindig.gadgets.render.HtmlRenderer
+6679,org.apache.shindig.gadgets.render.RenderingResults
+6695,org.apache.shindig.common.servlet.InjectedFilter
+6702,org.apache.shindig.social.opensocial.model.NetworkPresence
+6808,org.apache.shindig.gadgets.js.AddJslLoadedVariableProcessorTest
+6829,org.apache.shindig.gadgets.js.AddJslLoadedVariableProcessor
+6835,org.apache.shindig.gadgets.templates.FakeTemplateProcessor
+6860,org.apache.shindig.gadgets.variables.BidiSubstituterTest
+6879,org.apache.shindig.gadgets.variables.BidiSubstituter
+6891,org.apache.shindig.gadgets.oauth2.BasicOAuth2Request
+7082,org.apache.shindig.gadgets.oauth2.OAuth2FetcherConfig
+7084,org.apache.shindig.gadgets.oauth2.OAuth2ResponseParams
+7085,org.apache.shindig.gadgets.oauth2.GadgetOAuth2TokenStore
+7086,org.apache.shindig.gadgets.oauth2.BasicOAuth2Accessor
+7151,org.apache.shindig.common.uri.UriBuilderTest
+7259,org.apache.shindig.common.AllTests
+7277,org.apache.shindig.gadgets.oauth2.OAuth2ModuleTest
+7280,org.apache.shindig.gadgets.oauth2.OAuth2Module
+7351,org.apache.shindig.social.core.model.ActivityEntryImpl
+7359,org.apache.shindig.gadgets.admin.RpcAdminDataTest
+7387,org.apache.shindig.gadgets.rewrite.ScriptConcatContentRewriter
+7403,org.apache.shindig.gadgets.rewrite.CacheEnforcementVisitor
+7410,org.apache.shindig.gadgets.features.FeatureRegistryTest
+7721,org.apache.shindig.gadgets.features.TestFeatureRegistry
+7787,org.apache.shindig.gadgets.oauth2.persistence.OAuth2EncryptionException
+7845,org.apache.shindig.gadgets.oauth2.persistence.sample.JSONOAuth2Persister
+7846,org.apache.shindig.gadgets.oauth2.BasicOAuth2RequestParameterGenerator
+8038,org.apache.shindig.protocol.conversion.BeanJsonConverterInjectedClassTest
+8060,org.apache.shindig.gadgets.oauth2.persistence.sample.OAuth2Provider
+8092,org.apache.shindig.social.opensocial.spi.LocalId
+8108,org.apache.shindig.gadgets.uri.DefaultProxyUriManagerTest
+8353,org.apache.shindig.gadgets.uri.UriManagerTestBase
+8377,org.apache.shindig.gadgets.http.MultipleResourceHttpFetcher
+8420,org.apache.shindig.common.Pair
+8429,org.apache.shindig.common.util.CharsetUtilTest
+8500,org.apache.shindig.social.core.util.atom.AtomLinkConverter
+8534,org.apache.shindig.gadgets.GadgetTest
+8571,org.apache.shindig.gadgets.spec.LocaleSpec
+8572,org.apache.shindig.gadgets.spec.MessageBundle
+8584,org.apache.shindig.gadgets.oauth.OAuthResponseParamsTest
+8637,org.apache.shindig.gadgets.oauth.OAuthClientState
+8658,org.apache.shindig.gadgets.oauth.OAuthCallbackStateToken
+8679,org.apache.shindig.gadgets.render.ProxyRendererTest
+8778,org.apache.shindig.common.JsonAssert
+8779,org.apache.shindig.gadgets.preload.PipelineExecutor
+8780,org.apache.shindig.gadgets.spec.PipelinedData
+8781,org.apache.shindig.gadgets.render.ProxyRenderer
+8799,org.apache.shindig.config.JsonContainerConfigLoaderTest
+8882,org.apache.shindig.config.ContainerConfigException
+8883,org.apache.shindig.config.JsonContainerConfigLoader
+8895,org.apache.shindig.common.servlet.HostFilter
+8906,org.apache.shindig.gadgets.http.HttpResponseTest
+9050,org.apache.shindig.common.servlet.HttpUtil
+9051,org.apache.shindig.common.util.FakeTimeSource
+9087,org.apache.shindig.gadgets.config.DefaultConfigProcessor
+9224,org.apache.shindig.protocol.DataCollection
+9244,org.apache.shindig.gadgets.rewrite.image.BasicImageRewriter
+9442,org.apache.shindig.gadgets.rewrite.image.BaseOptimizer
+9444,org.apache.shindig.gadgets.rewrite.image.JpegImageUtils
+9445,org.apache.shindig.gadgets.rewrite.image.JPEGOptimizer
+9446,org.apache.shindig.gadgets.rewrite.image.BMPOptimizer
+9475,org.apache.shindig.auth.DefaultSecurityTokenCodec
+9476,org.apache.shindig.auth.SecurityTokenException
+9478,org.apache.shindig.gadgets.rewrite.RewriteModuleTest
+9498,org.apache.shindig.gadgets.DefaultGuiceModule
+9499,org.apache.shindig.gadgets.admin.GadgetAdminModule
+9500,org.apache.shindig.gadgets.oauth.OAuthModule
+9501,org.apache.shindig.gadgets.oauth2.persistence.sample.OAuth2PersistenceModule
+9502,org.apache.shindig.gadgets.render.CajaResponseRewriter
+9503,org.apache.shindig.gadgets.rewrite.ContextAwareRegistry
+9504,org.apache.shindig.gadgets.rewrite.AbsolutePathReferenceRewriter
+9505,org.apache.shindig.gadgets.rewrite.StyleTagExtractorContentRewriter
+9506,org.apache.shindig.gadgets.rewrite.ProxyingContentRewriter
+9512,org.apache.shindig.gadgets.servlet.GadgetRenderingServlet
+9573,org.apache.shindig.gadgets.servlet.HttpGadgetContext
+9591,org.apache.shindig.gadgets.parse.nekohtml.NekoCompactHtmlSerializerTest
+9594,org.apache.shindig.gadgets.rewrite.StyleAdjacencyContentRewriterTest
+9598,org.apache.shindig.sample.container.SampleContainerGuiceModule
+9606,org.apache.shindig.sample.container.SampleContainerHandler
+9608,org.apache.shindig.gadgets.oauth2.persistence.sample.OAuth2PersistenceModuleTest
+9639,org.apache.shindig.server.endtoend.EndToEndServer
+9722,org.apache.shindig.auth.AuthenticationServletFilter
+9723,org.apache.shindig.gadgets.servlet.ConcatProxyServlet
+9724,org.apache.shindig.gadgets.servlet.JsServlet
+9725,org.apache.shindig.gadgets.servlet.MakeRequestServlet
+9726,org.apache.shindig.protocol.JsonRpcServlet
+9727,org.apache.shindig.social.core.config.SocialApiGuiceModule
+9728,org.apache.shindig.social.sample.SampleModule
+9731,org.apache.shindig.server.endtoend.EndToEndTest
+9732,org.apache.shindig.server.endtoend.AllJsFilter
+9917,org.apache.shindig.common.cache.NullCache
+9919,org.apache.shindig.common.crypto.BlobCrypterTest
+9968,org.apache.shindig.common.util.HMACType
+9976,org.apache.shindig.gadgets.rewrite.MutableContentTest
+10101,org.apache.shindig.protocol.conversion.xstream.DataCollectionConverter
+10172,org.apache.shindig.social.opensocial.service.PersonHandler
+10209,org.apache.shindig.social.opensocial.spi.CollectionOptionsFactory
+10232,org.apache.shindig.common.cache.ehcache.EhCacheModule
+10237,org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider
+10271,org.apache.shindig.social.opensocial.service.SocialRequestItemTest
+10282,org.apache.shindig.protocol.conversion.xstream.InterfaceClassMapper
+10326,org.apache.shindig.protocol.conversion.xstream.ClassFieldMapping
+10331,org.apache.shindig.gadgets.preload.ConcurrentPreloadsTest
+10440,org.apache.shindig.gadgets.http.HttpResponseMetadataHelperTest
+10464,org.apache.shindig.gadgets.js.CajaJsSubtractingProcessorTest
+10495,org.apache.shindig.gadgets.js.CajaJsSubtractingProcessor
+10499,org.apache.shindig.gadgets.rewrite.image.GIFOptimizerTest
+10512,org.apache.shindig.gadgets.rewrite.image.BaseOptimizerTest
+10632,org.apache.shindig.gadgets.js.DefaultJsServingPipelineTest
+10638,org.apache.shindig.gadgets.js.DefaultJsServingPipeline
+10644,org.apache.shindig.social.opensocial.model.LookingFor
+10697,org.apache.shindig.gadgets.rewrite.RewriterUtils
+10734,org.apache.shindig.sample.shiro.ShiroGuiceModule
+10737,org.apache.shindig.social.opensocial.spi.GlobalId
+10765,org.apache.shindig.social.opensocial.spi.DomainName
+10770,org.apache.shindig.gadgets.rewrite.AbsolutePathReferenceVisitorTest
+10841,org.apache.shindig.gadgets.rewrite.AbsolutePathReferenceVisitor
+10855,org.apache.shindig.gadgets.oauth2.OAuth2RequestExceptionTest
+10899,org.apache.shindig.gadgets.spec.OAuthSpecTest
+10918,org.apache.shindig.gadgets.spec.OAuthSpec
+10919,org.apache.shindig.gadgets.spec.OAuthService
+11114,org.apache.shindig.gadgets.oauth.OAuthRequest
+11115,org.apache.shindig.gadgets.http.NoOpInvalidationService
+11125,org.apache.shindig.gadgets.render.DefaultServiceFetcherTest
+11167,org.apache.shindig.gadgets.render.DefaultServiceFetcher
+11240,org.apache.shindig.gadgets.render.RenderModule
+11247,org.apache.shindig.auth.UrlParameterAuthenticationHandlerTest
+11268,org.apache.shindig.auth.UrlParameterAuthenticationHandler
+11276,org.apache.shindig.gadgets.rewrite.RewritePath
+11293,org.apache.shindig.gadgets.features.FeatureResourceLoaderTest
+11379,org.apache.shindig.gadgets.features.FeatureResourceLoader
+11389,org.apache.shindig.gadgets.rewrite.BaseRewriterTestCase
+11475,org.apache.shindig.protocol.conversion.BeanXStreamConverter
+11518,org.apache.shindig.protocol.conversion.xstream.StackDriver
+11519,org.apache.shindig.protocol.conversion.xstream.ThreadSafeWriterStack
+11534,org.apache.shindig.social.dataservice.integration.RestfulJsonPeopleTest
+11621,org.apache.shindig.social.core.model.BodyTypeImpl
+11622,org.apache.shindig.social.core.model.UrlImpl
+11624,org.apache.shindig.social.opensocial.model.Drinker
+11626,org.apache.shindig.social.opensocial.model.Smoker
+11851,org.apache.shindig.gadgets.rewrite.ProxyingVisitor
+11874,org.apache.shindig.gadgets.rewrite.ResourceMutateVisitor
+11886,org.apache.shindig.social.core.util.atom.AtomContent
+12156,org.apache.shindig.gadgets.oauth2.OAuth2ErrorTest
+12290,org.apache.shindig.social.core.util.atom.AtomSource
+12483,org.apache.shindig.gadgets.admin.BasicGadgetAdminStoreTest
+12617,org.apache.shindig.gadgets.admin.BasicGadgetAdminStore
+12642,org.apache.shindig.gadgets.AuthTypeTest
+12755,org.apache.shindig.social.dataservice.integration.RestfulJsonDataTest
+12788,org.apache.shindig.expressions.FunctionsTest
+12837,org.apache.shindig.gadgets.config.DefaultConfigProcessorTest
+12918,org.apache.shindig.gadgets.rewrite.ImageResizeRewriterTest
+12939,org.apache.shindig.gadgets.rewrite.ImageResizeRewriter
+12943,org.apache.shindig.gadgets.spec.UserPref
+13021,org.apache.shindig.common.servlet.BasicAuthorityTest
+13035,org.apache.shindig.common.servlet.BasicAuthority
+13100,org.apache.shindig.protocol.conversion.BeanDelegatorTest
+13210,org.apache.shindig.gadgets.preload.PipelinedDataPreloader
+13313,org.apache.shindig.gadgets.preload.HttpPreloader
+13325,org.apache.shindig.gadgets.servlet.HttpGadgetContextTest
+13347,org.apache.shindig.social.dataservice.integration.RestfulJsonActivityEntryTest
+13379,org.apache.shindig.social.dataservice.integration.TestUtils
+13480,org.apache.shindig.gadgets.templates.TemplateParserException
+13489,org.apache.shindig.gadgets.oauth2.handler.OAuth2HandlerModuleTest
+13521,org.apache.shindig.gadgets.servlet.ModuleCacheKeys
+13538,org.apache.shindig.gadgets.servlet.ModuleCacheKey
+13580,org.apache.shindig.gadgets.servlet.GadgetsHandlerTest
+13877,org.apache.shindig.common.testing.ImmediateExecutorService
+13878,org.apache.shindig.gadgets.js.JsRequestBuilder
+13881,org.apache.shindig.gadgets.servlet.CajaContentRewriter
+13882,org.apache.shindig.gadgets.servlet.FakeProcessor
+13883,org.apache.shindig.gadgets.servlet.FakeIframeUriManager
+13884,org.apache.shindig.gadgets.servlet.GadgetsHandler
+13885,org.apache.shindig.gadgets.servlet.GadgetsHandlerService
+13891,org.apache.shindig.gadgets.servlet.ModuleIdManagerImpl
+13892,org.apache.shindig.gadgets.servlet.GadgetsHandlerApi
+13929,org.apache.shindig.protocol.multipart.DefaultMultipartFormParser
+13931,org.apache.shindig.gadgets.uri.JsUriManagerTest
+13999,org.apache.shindig.config.DynamicConfigProperty
+14018,org.apache.shindig.gadgets.oauth.AccessorInfo
+14264,org.apache.shindig.gadgets.servlet.GadgetsHandlerServiceTest
+14496,org.apache.shindig.gadgets.uri.DefaultIframeUriManager
+14593,org.apache.shindig.gadgets.oauth.OAuthClientStateTest
+14614,org.apache.shindig.social.dataservice.integration.RestfulJsonActivityTest
+14642,org.apache.shindig.protocol.conversion.xstream.MapConverter
+14670,org.apache.shindig.gadgets.templates.tags.IfTagHandlerTest
+14688,org.apache.shindig.gadgets.servlet.ETaggingHttpResponse
+14744,org.apache.shindig.gadgets.oauth2.persistence.sample.OAuth2GadgetBinding
+14764,org.apache.shindig.gadgets.spec.Icon
+14807,org.apache.shindig.social.core.model.GroupImpl
+14880,org.apache.shindig.gadgets.servlet.HtmlAccelServletTest
+14986,org.apache.shindig.gadgets.rewrite.CaptureRewriter
+14987,org.apache.shindig.gadgets.servlet.HtmlAccelServlet
+14998,org.apache.shindig.social.core.oauth.OAuth2AuthenticationHandlerTest
+15011,org.apache.shindig.gadgets.http.DefaultHttpCacheTest
+15051,org.apache.shindig.gadgets.render.OpenSocialI18NGadgetRewriter
+15087,org.apache.shindig.protocol.BaseRequestItemTest
+15116,org.apache.shindig.protocol.model.SortOrder
+15132,org.apache.shindig.common.util.GenericDigestUtils
+15167,org.apache.shindig.common.util.DigestType
+15171,org.apache.shindig.gadgets.servlet.ConcatProxyServletTest
+15306,org.apache.shindig.expressions.OpensocialFunctions
+15347,org.apache.shindig.common.cache.LruCache
+15351,org.apache.shindig.gadgets.preload.HttpPreloaderTest
+15426,org.apache.shindig.gadgets.preload.PreloaderTestFixture
+15436,org.apache.shindig.social.core.model.MediaLinkImpl
+15470,org.apache.shindig.common.util.HashUtilTest
+15523,org.apache.shindig.gadgets.templates.tags.FlashTagHandler
+15727,org.apache.shindig.social.core.oauth2.validators.AuthCodeGrantValidator
+15728,org.apache.shindig.social.core.oauth2.validators.ClientCredentialsGrantValidator
+15733,org.apache.shindig.gadgets.spec.IconTest
+15763,org.apache.shindig.auth.ForwardingSecurityToken
+15786,org.apache.shindig.gadgets.servlet.HttpRequestHandler
+15953,org.apache.shindig.gadgets.http.EchoServer
+15981,org.apache.shindig.gadgets.http.FakeHttpServer
+15988,org.apache.shindig.gadgets.preload.ConcurrentPreloaderServiceTest
+16058,org.apache.shindig.gadgets.oauth2.BasicOAuth2Message
+16124,org.apache.shindig.gadgets.render.CajaResponseRewriterTest
+16156,org.apache.shindig.gadgets.features.BrowserSpecificFeatureResource
+16257,org.apache.shindig.protocol.SystemHandler
+16267,org.apache.shindig.gadgets.spec.BaseOAuthService
+16321,org.apache.shindig.social.core.util.atom.AtomGenerator
+16464,org.apache.shindig.gadgets.uri.DefaultOAuthUriManagerTest
+16483,org.apache.shindig.gadgets.uri.DefaultOAuthUriManager
+16507,org.apache.shindig.expressions.jasper.JasperModule
+16510,org.apache.shindig.expressions.jasper.JasperProvider
+16576,org.apache.shindig.protocol.conversion.xstream.ExtendableBeanConverter
+16577,org.apache.shindig.protocol.conversion.xstream.GuiceBeanConverter
+16578,org.apache.shindig.protocol.conversion.xstream.InterfaceFieldAliasMapping
+16579,org.apache.shindig.protocol.conversion.xstream.InterfaceFieldAliasingMapper
+16580,org.apache.shindig.protocol.conversion.xstream.RestfullCollectionConverter
+16581,org.apache.shindig.social.core.util.atom.AtomEntry
+16582,org.apache.shindig.social.core.util.atom.AtomFeed
+16583,org.apache.shindig.social.core.util.atom.AtomSummaryConverter
+16626,org.apache.shindig.gadgets.templates.MessageELResolver
+16668,org.apache.shindig.auth.OAuthUtil
+16962,org.apache.shindig.gadgets.spec.OAuth2Spec
+16963,org.apache.shindig.gadgets.spec.Preload
+16973,org.apache.shindig.gadgets.js.SeparatorCommentingProcessorTest
+17020,org.apache.shindig.gadgets.js.SeparatorCommentingProcessor
+17039,org.apache.shindig.gadgets.render.OpenSocialI18NGadgetRewriterTest
+17060,org.apache.shindig.social.opensocial.model.PersonTest
+17118,org.apache.shindig.gadgets.rewrite.StyleTagExtractorContentRewriterTest
+17121,org.apache.shindig.gadgets.js.AddJslInfoVariableProcessorTest
+17141,org.apache.shindig.gadgets.js.AddJslInfoVariableProcessor
+17147,org.apache.shindig.gadgets.rewrite.ProxyingContentRewriterTest
+17150,org.apache.shindig.gadgets.templates.tags.VarTagHandlerTest
+17179,org.apache.shindig.gadgets.templates.tags.VarTagHandler
+17237,org.apache.shindig.common.crypto.BlobExpiredException
+17253,org.apache.shindig.gadgets.parse.caja.CajaSocialMarkupHtmlParserTest
+17256,org.apache.shindig.gadgets.parse.AbstractSocialMarkupHtmlParserTest
+17352,org.apache.shindig.gadgets.servlet.GadgetRenderingServletTest
+17633,org.apache.shindig.social.opensocial.service.MessageHandlerTest
+17646,org.apache.shindig.social.core.model.MessageImpl
+17647,org.apache.shindig.social.opensocial.service.MessageHandler
+17656,org.apache.shindig.gadgets.servlet.ETagFilter
+17700,org.apache.shindig.social.core.oauth.AuthenticationHandlerProvider
+17708,org.apache.shindig.auth.AnonymousAuthenticationHandler
+17709,org.apache.shindig.social.core.oauth.OAuthAuthenticationHandler
+17711,org.apache.shindig.gadgets.js.ConfigInjectionProcessor
+17768,org.apache.shindig.gadgets.spec.OAuthServiceTest
+17977,org.apache.shindig.gadgets.rewrite.BaseTagRemoverRewriterTest
+18022,org.apache.shindig.gadgets.rewrite.BaseTagRemoverRewriter
+18025,org.apache.shindig.protocol.ContentTypesTest
+18041,org.apache.shindig.gadgets.oauth2.handler.BearerTokenHandlerTest
+18073,org.apache.shindig.social.core.oauth.OAuthValidatorProvider
+18106,org.apache.shindig.gadgets.rewrite.js.ClosureJsCompilerTest
+18210,org.apache.shindig.gadgets.rewrite.DefaultContentRewriterRegistryTest
+18276,org.apache.shindig.config.ContainerConfigELResolver
+18279,org.apache.shindig.social.opensocial.spi.GlobalIdTest
+18288,org.apache.shindig.expressions.jasper.JasperConversionModule
+18290,org.apache.shindig.expressions.jasper.JasperTypeConverter
+18337,org.apache.shindig.gadgets.oauth2.persistence.sample.OAuth2ProviderTest
+18375,org.apache.shindig.gadgets.uri.HashShaLockedDomainPrefixGeneratorTest
+18459,org.apache.shindig.protocol.multipart.DefaultMultipartFormParserTest
+18543,org.apache.shindig.social.core.util.atom.AtomAuthor
+18544,org.apache.shindig.social.core.util.atom.AtomSummary
+18577,org.apache.shindig.gadgets.oauth.testing.MakeRequestClient
+18647,org.apache.shindig.gadgets.oauth.testing.FakeOAuthServiceProvider
+18658,org.apache.shindig.gadgets.servlet.CajaContentRewriterTest
+18784,org.apache.shindig.gadgets.parse.caja.CajaCssParserTest
+18818,org.apache.shindig.gadgets.http.InvalidationHandler
+18834,org.apache.shindig.gadgets.oauth.OAuthRequestTest
+19317,org.apache.shindig.gadgets.FakeGadgetSpecFactory
+19319,org.apache.shindig.gadgets.oauth.GadgetTokenStoreTest
+19686,org.apache.shindig.common.util.DateUtilTest
+19723,org.apache.shindig.gadgets.uri.DefaultJsVersioner
+19743,org.apache.shindig.gadgets.parse.caja.CajaCompactHtmlSerializerTest
+19757,org.apache.shindig.gadgets.uri.DefaultConcatUriManager
+19861,org.apache.shindig.auth.BlobCrypterSecurityTokenTest
+19884,org.apache.shindig.auth.BlobCrypterSecurityToken
+19903,org.apache.shindig.gadgets.DefaultMessageBundleFactoryTest
+19993,org.apache.shindig.gadgets.DefaultMessageBundleFactory
+20001,org.apache.shindig.common.cache.LruCacheTest
+20010,org.apache.shindig.gadgets.features.FeatureParserTest
+20025,org.apache.shindig.gadgets.features.FeatureParser
+20035,org.apache.shindig.gadgets.servlet.MakeRequestServletTest
+20071,org.apache.shindig.gadgets.servlet.MakeRequestHandler
+20096,org.apache.shindig.gadgets.templates.TemplateLibraryFactory
+20113,org.apache.shindig.gadgets.templates.XmlTemplateLibrary
+20124,org.apache.shindig.gadgets.render.RenderingGadgetRewriter
+20287,org.apache.shindig.gadgets.UnsupportedFeatureException
+20288,org.apache.shindig.common.util.OpenSocialVersion
+20300,org.apache.shindig.auth.AuthInfoUtilTest
+20483,org.apache.shindig.gadgets.oauth.OAuthProtocolException
+20507,org.apache.shindig.gadgets.config.DefaultConfigContributorModule
+20513,org.apache.shindig.gadgets.config.CoreUtilConfigContributor
+20514,org.apache.shindig.gadgets.config.ShindigAuthConfigContributor
+20515,org.apache.shindig.gadgets.config.XhrwrapperConfigContributor
+20517,org.apache.shindig.gadgets.rewrite.image.OptimizerConfigTest
+20525,org.apache.shindig.gadgets.rewrite.ContentRewriterFeatureTestCase
+20716,org.apache.shindig.gadgets.templates.tags.CompositeTagRegistryTest
+20842,org.apache.shindig.common.util.Base32
+20850,org.apache.shindig.gadgets.servlet.ModuleCacheTest
+21030,org.apache.shindig.social.core.config.SocialApiGuiceModuleTest
+21043,org.apache.shindig.gadgets.FetchResponseUtils
+21193,org.apache.shindig.gadgets.servlet.RpcServlet
+21245,org.apache.shindig.gadgets.servlet.JsonRpcHandler
+21246,org.apache.shindig.gadgets.servlet.RpcException
+21542,org.apache.shindig.gadgets.rewrite.image.PNGOptimizerTest
+21555,org.apache.shindig.gadgets.spec.PipelinedDataTest
+21657,org.apache.shindig.gadgets.spec.OAuth2Service
+21697,org.apache.shindig.gadgets.oauth.BasicOAuthStoreTokenIndexTest
+21709,org.apache.shindig.gadgets.variables.UserPrefSubstituterTest
+21734,org.apache.shindig.gadgets.variables.UserPrefSubstituter
+21847,org.apache.shindig.gadgets.uri.ProxyUriManagerTest
+21870,org.apache.shindig.gadgets.servlet.JsonRpcGadgetContext
+22218,org.apache.shindig.gadgets.rewrite.StyleConcatContentRewriter
+22236,org.apache.shindig.social.opensocial.service.ActivityStreamHandlerTest
+22291,org.apache.shindig.social.opensocial.service.ActivityStreamHandler
+22334,org.apache.shindig.gadgets.spec.PreloadTest
+22383,org.apache.shindig.gadgets.http.InvalidationHandlerTest
+22408,org.apache.shindig.gadgets.rewrite.js.DefaultJsCompilerTest
+22446,org.apache.shindig.social.opensocial.spi.ObjectIdTest
+22455,org.apache.shindig.social.opensocial.spi.ObjectId
+22475,org.apache.shindig.gadgets.rewrite.ImageAttributeRewriterTest
+22517,org.apache.shindig.gadgets.rewrite.ImageAttributeRewriter
+22546,org.apache.shindig.gadgets.js.JsCompilerModule
+22547,org.apache.shindig.gadgets.js.JsServingPipelineModule
+22548,org.apache.shindig.gadgets.rewrite.RewriteModule
+22549,org.apache.shindig.gadgets.templates.TemplateModule
+22550,org.apache.shindig.gadgets.uri.UriModule
+22551,org.apache.shindig.gadgets.variables.SubstituterModule
+22553,org.apache.shindig.gadgets.oauth2.persistence.sample.JSONOAuth2PersisterTest
+22589,org.apache.shindig.gadgets.servlet.MakeRequestHandlerTest
+22767,org.apache.shindig.common.servlet.HttpUtilTest
+22935,org.apache.shindig.gadgets.servlet.ETagFilterTest
+22965,org.apache.shindig.gadgets.templates.TemplateLibraryFactoryTest
+23009,org.apache.shindig.gadgets.parse.caja.VanillaCajaHtmlParser
+23034,org.apache.shindig.gadgets.parse.caja.VanillaCajaHtmlSerializer
+23036,org.apache.shindig.expressions.OpensocialFunctionsTest
+23113,org.apache.shindig.gadgets.oauth2.OAuth2GadgetContext
+23131,org.apache.shindig.protocol.JsonRpcServletTest
+23283,org.apache.shindig.gadgets.render.SanitizingProxyUriManager
+23314,org.apache.shindig.gadgets.js.DefaultJsProcessorRegistry
+23329,org.apache.shindig.gadgets.servlet.RpcServletTest
+23405,org.apache.shindig.gadgets.oauth2.OAuth2ResponseParamsTest
+23535,org.apache.shindig.auth.BlobCrypterSecurityTokenCodec
+23592,org.apache.shindig.protocol.conversion.BeanJsonConverterTest
+23671,org.apache.shindig.social.opensocial.service.ActivityHandlerTest
+23718,org.apache.shindig.social.opensocial.service.ActivityHandler
+23725,org.apache.shindig.gadgets.rewrite.TemplateRewriterTest
+23806,org.apache.shindig.gadgets.templates.ContainerTagLibraryFactory
+23807,org.apache.shindig.gadgets.rewrite.TemplateRewriter
+23813,org.apache.shindig.social.core.oauth.FakeOAuthRequest
+23972,org.apache.shindig.social.core.oauth.OAuth2ImplicitFlowTest
+24054,org.apache.shindig.gadgets.templates.tags.HtmlTagHandlerTest
+24063,org.apache.shindig.gadgets.templates.tags.HtmlTagHandler
+24082,org.apache.shindig.gadgets.preload.PipelineExecutorTest
+24205,org.apache.shindig.protocol.DefaultHandlerRegistryTest
+24271,org.apache.shindig.gadgets.spec.ViewTest
+24556,org.apache.shindig.gadgets.js.CompilationProcessorTest
+24580,org.apache.shindig.gadgets.js.CompilationProcessor
+24584,org.apache.shindig.gadgets.render.HtmlRendererTest
+24834,org.apache.shindig.gadgets.admin.ServerAdminDataTest
+24901,org.apache.shindig.social.core.model.AccountImpl
+24903,org.apache.shindig.gadgets.spec.GadgetSpecTest
+25501,org.apache.shindig.gadgets.uri.DefaultConcatUriManagerTest
+25716,org.apache.shindig.social.dataservice.integration.RestfulXmlActivityEntryTest
+25764,org.apache.shindig.common.util.JsonConversionUtil
+25814,org.apache.shindig.gadgets.servlet.ServletUtilTest
+25931,org.apache.shindig.gadgets.parse.caja.VanillaCajaHtmlParserTest
+25956,org.apache.shindig.social.opensocial.util.BeanXStreamConverterTest
+26146,org.apache.shindig.gadgets.oauth2.persistence.OAuth2TokenPersistence
+26206,org.apache.shindig.gadgets.rewrite.ProxyingVisitorTest
+26282,org.apache.shindig.social.core.oauth.OAuth2ClientCredentialFlowTest
+26605,org.apache.shindig.gadgets.servlet.OAuth2CallbackServlet
+26661,org.apache.shindig.expressions.jasper.JasperExpressionsTest
+26665,org.apache.shindig.expressions.ExpressionsTest
+26671,org.apache.shindig.gadgets.spec.MessageBundleTest
+26732,org.apache.shindig.gadgets.oauth2.handler.StandardAuthenticationHandlerTest
+26825,org.apache.shindig.social.opensocial.service.MediaItemHandlerTest
+26849,org.apache.shindig.social.opensocial.service.MediaItemHandler
+26856,org.apache.shindig.protocol.RestfulCollectionTest
+27455,org.apache.shindig.social.opensocial.spi.UserIdTest
+27474,org.apache.shindig.common.crypto.CryptoTest
+27547,org.apache.shindig.gadgets.servlet.RpcSwfServlet
+27578,org.apache.shindig.gadgets.oauth2.handler.CodeGrantTypeHandlerTest
+27627,org.apache.shindig.gadgets.rewrite.StyleConcatContentRewriterTest
+27667,org.apache.shindig.social.core.model.MessageCollectionImpl
+27668,org.apache.shindig.social.opensocial.model.EnumUtil
+27928,org.apache.shindig.gadgets.templates.tags.TemplateBasedTagHandler
+27966,org.apache.shindig.common.JsonSerializerTest
+28055,org.apache.shindig.social.core.model.ActivityObjectImpl
+28139,org.apache.shindig.gadgets.oauth2.handler.TokenAuthorizationResponseHandlerTest
+28191,org.apache.shindig.gadgets.rewrite.ScriptConcatContentRewriterTest
+28194,org.apache.shindig.gadgets.parse.caja.CajaCssLexerParserTest
+28208,org.apache.shindig.gadgets.rewrite.image.BMPOptimizerTest
+28240,org.apache.shindig.gadgets.templates.NullTemplateLibrary
+28244,org.apache.shindig.gadgets.rewrite.CssResponseRewriterTest
+28338,org.apache.shindig.gadgets.admin.GadgetAdminDataTest
+28365,org.apache.shindig.gadgets.variables.VariableSubstituterTest
+28396,org.apache.shindig.gadgets.variables.ModuleSubstituter
+28457,org.apache.shindig.gadgets.rewrite.ContextAwareRegistryTest
+28512,org.apache.shindig.gadgets.rewrite.StyleTagExtractorVisitorTest
+28590,org.apache.shindig.gadgets.oauth2.OAuth2FetcherConfigTest
+28818,org.apache.shindig.common.util.JsonConversionUtilTest
+28894,org.apache.shindig.common.cache.ehcache.EhCacheCacheProviderTest
+29101,org.apache.shindig.gadgets.rewrite.image.JpegImageUtilsTest
+29120,org.apache.shindig.social.opensocial.service.AlbumHandlerTest
+29137,org.apache.shindig.social.opensocial.service.AlbumHandler
+29211,org.apache.shindig.gadgets.rewrite.OsTemplateXmlLoaderRewriter
+29290,org.apache.shindig.protocol.DataServiceServletFetcher
+29291,org.apache.shindig.social.opensocial.service.GroupHandler
+29293,org.apache.shindig.gadgets.spec.UserPrefTest
+29413,org.apache.shindig.gadgets.js.AddOnloadFunctionProcessorTest
+29428,org.apache.shindig.gadgets.js.AddOnloadFunctionProcessor
+29434,org.apache.shindig.gadgets.templates.tags.FlashTagHandlerTest
+29498,org.apache.shindig.gadgets.rewrite.XPathWrapper
+29504,org.apache.shindig.gadgets.parse.HtmlParserTest
+29562,org.apache.shindig.gadgets.rewrite.OsTemplateXmlLoaderRewriterTest
+29783,org.apache.shindig.common.xml.XmlUtilTest
+29952,org.apache.shindig.gadgets.js.DefaultJsProcessorRegistryTest
+29993,org.apache.shindig.gadgets.admin.ContainerAdminDataTest
+30028,org.apache.shindig.gadgets.parse.caja.VanillaCajaHtmlSerializerTest
+30039,org.apache.shindig.gadgets.servlet.JsonRpcGadgetContextTest
+30054,org.apache.shindig.social.dataservice.integration.RestfulXmlPeopleTest
+30159,org.apache.shindig.social.sample.spi.JsonDbOpensocialServiceTest
+30258,org.apache.shindig.gadgets.parse.DefaultHtmlSerializerTest
+30306,org.apache.shindig.gadgets.rewrite.PipelineDataGadgetRewriter
+30341,org.apache.shindig.gadgets.render.RendererTest
+30429,org.apache.shindig.gadgets.oauth2.handler.BasicAuthenticationHandlerTest
+30458,org.apache.shindig.gadgets.parse.nekohtml.NekoParserAndSerializeTest
+30473,org.apache.shindig.gadgets.parse.AbstractParserAndSerializerTest
+30481,org.apache.shindig.gadgets.servlet.JsonRpcHandlerTest
+30575,org.apache.shindig.gadgets.variables.ModuleSubstituterTest
+30587,org.apache.shindig.gadgets.admin.FeatureAdminDataTest
+30619,org.apache.shindig.expressions.ShindigTypeConverter
+30638,org.apache.shindig.gadgets.js.IfModifiedSinceProcessor
+30715,org.apache.shindig.common.xml.DomUtilTest
+30726,org.apache.shindig.gadgets.oauth2.persistence.sample.OAuth2GadgetBindingTest
+30753,org.apache.shindig.gadgets.spec.LocaleSpecTest
+30783,org.apache.shindig.gadgets.js.JsRequestBuilderTest
+30842,org.apache.shindig.gadgets.parse.HtmlSerializationTest
+30901,org.apache.shindig.common.util.VersionComparator
+30907,org.apache.shindig.gadgets.js.ConfigInjectionProcessorTest
+30988,org.apache.shindig.gadgets.js.IfModifiedSinceProcessorTest
+31219,org.apache.shindig.gadgets.servlet.ModuleCache
+31222,org.apache.shindig.gadgets.oauth2.persistence.OAuth2ClientTest
+31348,org.apache.shindig.gadgets.spec.LinkSpecTest
+31385,org.apache.shindig.gadgets.http.BasicHttpFetcher
+31683,org.apache.shindig.gadgets.servlet.HttpRequestHandlerTest
+31852,org.apache.shindig.common.servlet.UserAgentTest
+31904,org.apache.shindig.gadgets.oauth2.persistence.OAuth2CacheExceptionTest
+32035,org.apache.shindig.gadgets.rewrite.StyleTagProxyEmbeddedUrlsVisitorTest
+32336,org.apache.shindig.gadgets.js.JsResponseBuilderTest
+32344,org.apache.shindig.gadgets.oauth.OAuthArgumentsTest
+32423,org.apache.shindig.gadgets.js.DeferJsProcessorTest
+32481,org.apache.shindig.gadgets.js.DeferJsProcessor
+32602,org.apache.shindig.common.util.Utf8UrlCoderTest
+32620,org.apache.shindig.gadgets.rewrite.ContentRewriterFeatureTestCaseOS9
+32643,org.apache.shindig.gadgets.uri.AllJsIframeVersionerTest
+32665,org.apache.shindig.gadgets.uri.AllJsIframeVersioner
+32740,org.apache.shindig.gadgets.http.HttpRequestTest
+32894,org.apache.shindig.gadgets.oauth2.GadgetOAuth2TokenStoreTest
+32914,org.apache.shindig.gadgets.templates.tags.RenderTagHandlerTest
+32952,org.apache.shindig.gadgets.templates.tags.RenderTagHandler
+32955,org.apache.shindig.social.opensocial.util.XSDValidatorTest
+32979,org.apache.shindig.gadgets.oauth2.handler.OAuth2HandlerErrorTest
+33071,org.apache.shindig.gadgets.servlet.JsServletTest
+33127,org.apache.shindig.gadgets.uri.DefaultJsVersionerTest
+33181,org.apache.shindig.gadgets.encoding.EncodingDetector
+33343,org.apache.shindig.gadgets.oauth.OAuthCommandLine
+33382,org.apache.shindig.gadgets.oauth2.OAuth2GadgetContextTest
+33546,org.apache.shindig.protocol.conversion.BeanFilterTest
+33580,org.apache.shindig.gadgets.encoding.EncodingDetectorTest
+33611,org.apache.shindig.gadgets.http.MultipleResourceHttpFetcherTest
+33753,org.apache.shindig.social.dataservice.integration.RestfulXmlActivityTest
+33777,org.apache.shindig.social.opensocial.spi.GroupIdTest
+33801,org.apache.shindig.common.cache.SoftExpiringCacheTest
+33898,org.apache.shindig.common.JsonUtilTest
+33950,org.apache.shindig.gadgets.js.BaseSurfaceJsProcessor
+34013,org.apache.shindig.gadgets.FetchResponseUtilsTest
+34253,org.apache.shindig.social.opensocial.service.PersonHandlerTest
+34623,org.apache.shindig.gadgets.JsCompileModeTest
+34631,org.apache.shindig.gadgets.oauth2.OAuth2ArgumentsTest
+34677,org.apache.shindig.gadgets.servlet.ETaggingHttpResponseTest
+34727,org.apache.shindig.gadgets.rewrite.StyleAdjacencyVisitorTest
+34803,org.apache.shindig.gadgets.servlet.ProxyServletTest
+34951,org.apache.shindig.gadgets.rewrite.image.JPEGOptimizerTest
+35038,org.apache.shindig.gadgets.spec.FeatureTest
+35089,org.apache.shindig.gadgets.uri.UriUtilsTest
+35424,org.apache.shindig.social.opensocial.spi.LocalIdTest
+35575,org.apache.shindig.gadgets.oauth.AccessorInfoBuilder
+35590,org.apache.shindig.social.sample.oauth.SampleOAuthServlet
+35664,org.apache.shindig.auth.AuthenticationServletFilterTest
+35785,org.apache.shindig.gadgets.servlet.AuthenticationModule
+35887,org.apache.shindig.gadgets.render.RenderingGadgetRewriterTest
+36393,org.apache.shindig.social.core.oauth2.OAuth2DataServiceImpl
+36395,org.apache.shindig.social.opensocial.service.AppDataHandlerTest
+36474,org.apache.shindig.gadgets.spec.ApplicationManifestTest
+36554,org.apache.shindig.gadgets.templates.MessageELResolverTest
+36568,org.apache.shindig.gadgets.uri.DefaultIframeUriManagerTest
+36892,org.apache.shindig.gadgets.FeedProcessorImplTest
+37055,org.apache.shindig.gadgets.servlet.ProxyHandlerTest
+37274,org.apache.shindig.common.uri.DefaultUriParser
+37403,org.apache.shindig.gadgets.rewrite.PipelineDataGadgetRewriterTest
+37462,org.apache.shindig.social.opensocial.spi.DomainNameTest
+37469,org.apache.shindig.gadgets.parse.caja.CajaCssSanitizerTest
+37518,org.apache.shindig.extras.ShindigExtrasGuiceModule
+37960,org.apache.shindig.gadgets.render.SanitizingProxyUriManagerTest
+38050,org.apache.shindig.gadgets.render.DefaultRpcServiceLookupTest
+38149,org.apache.shindig.gadgets.DefaultGadgetSpecFactoryTest
+38243,org.apache.shindig.gadgets.spec.ModulePrefsTest
+38379,org.apache.shindig.gadgets.oauth2.persistence.OAuth2PersistenceExceptionTest
+38408,org.apache.shindig.expressions.juel.JuelExpressionsTest
+38424,org.apache.shindig.auth.BlobCrypterSecurityTokenCodecTest
+38484,org.apache.shindig.common.PairTest
+38565,org.apache.shindig.expressions.juel.JuelModule
+38673,org.apache.shindig.gadgets.oauth2.logger.FilteredLoggerTest
+38875,org.apache.shindig.gadgets.http.CacheKeyBuilderTest
+38891,org.apache.shindig.gadgets.rewrite.image.ImageRewriterTest
+39052,org.apache.shindig.gadgets.http.HttpResponseBuilderTest
+39267,org.apache.shindig.gadgets.templates.XmlTemplateLibraryTest
+39300,org.apache.shindig.gadgets.uri.DefaultJsUriManagerTest
+39506,org.apache.shindig.gadgets.rewrite.DomWalkerTest
+39603,org.apache.shindig.config.JsonContainerConfigTest
+39717,org.apache.shindig.gadgets.rewrite.CacheEnforcementVisitorTest
+40015,org.apache.shindig.protocol.DataCollectionTest
+40022,org.apache.shindig.gadgets.preload.PipelinedDataPreloaderTest
+40237,org.apache.shindig.social.core.oauth.OAuthAuthenticationHanderTest
+40347,org.apache.shindig.gadgets.rewrite.ContentTypeCharsetRemoverRewriter
+40349,org.apache.shindig.gadgets.rewrite.ContentTypeCharsetRemoverVisitor
+40351,org.apache.shindig.gadgets.rewrite.ContentTypeCharsetRemoverRewriterTest
+40374,org.apache.shindig.social.dataservice.integration.RestfulAtomActivityEntryTest
+40407,org.apache.shindig.gadgets.http.AbstractHttpFetcherTest
+40499,org.apache.shindig.gadgets.rewrite.RewriterUtilsTest
+40593,org.apache.shindig.social.core.oauth.AuthenticationProviderHandlerTest
+40765,org.apache.shindig.common.cache.LruCacheProviderTest
+40808,org.apache.shindig.gadgets.parse.caja.CajaParserAndSerializerTest
+40894,org.apache.shindig.gadgets.oauth2.persistence.OAuth2TokenPersistenceTest
+41232,org.apache.shindig.gadgets.templates.tags.AbstractTagHandlerTest
+41431,org.apache.shindig.gadgets.templates.tags.RepeatTagHandlerTest
+41533,org.apache.shindig.common.OpenSocialVersionTest
+41658,org.apache.shindig.gadgets.oauth2.persistence.sample.InMemoryCacheTest
+41693,org.apache.shindig.gadgets.templates.tags.DefaultTagRegistryTest
+41713,org.apache.shindig.gadgets.templates.tags.TemplateBasedTagHandlerTest
+41768,org.apache.shindig.auth.DefaultSecurityTokenCodecTest
+41790,org.apache.shindig.gadgets.render.SanitizingGadgetRewriterTest
+41907,org.apache.shindig.gadgets.http.BasicHttpFetcherTest
+41950,org.apache.shindig.gadgets.templates.tags.VariableTagHandler
+41961,org.apache.shindig.gadgets.oauth2.persistence.OAuth2EncryptionExceptionTest
+41966,org.apache.shindig.gadgets.parse.nekohtml.SocialMarkupHtmlParserTest
+*Edges: 3056
+85 3377 6
+85 17237 2
+17708 4724 1
+4724 85 9
+3299 1976 2
+20300 3994 1
+20300 1976 4
+20300 1246 2
+9722 6695 1
+9722 1976 2
+35664 9722 4
+35664 1291 4
+35664 438 3
+337 85 10
+5823 4724 1
+5823 9476 1
+5823 337 2
+5823 85 6
+5823 3410 1
+5823 4354 14
+5814 5823 4
+19884 85 13
+23535 19884 2
+23535 4724 1
+23535 432 1
+23535 9476 4
+23535 85 8
+23535 3410 2
+38424 19884 5
+38424 432 1
+38424 9476 6
+38424 9051 3
+38424 23535 7
+38424 85 9
+19861 19884 9
+19861 432 12
+19861 3898 4
+19861 9051 1
+19861 85 25
+9475 23535 1
+9475 5823 1
+41768 9475 6
+11268 9476 1
+11247 337 1
+11247 1246 18
+11247 11268 14
+8778 1668 2
+1668 2588 1
+1668 2589 1
+27966 8778 11
+27966 1668 17
+33898 2589 13
+41533 20288 31
+38484 8420 1
+4642 5071 1
+4031 15347 1
+40765 4031 3
+40765 15347 1
+20001 15347 7
+5408 3377 4
+33801 5408 9
+33801 9051 3
+33801 15347 1
+10237 5071 1
+10237 3202 1
+28894 10237 3
+432 3377 1
+432 15132 1
+432 6163 5
+432 3898 4
+432 9968 10
+432 3410 3
+432 4354 4
+9919 432 14
+9919 3898 1
+9919 9051 2
+9919 3410 1
+17237 3410 2
+27474 432 1
+27474 3898 13
+27474 9051 1
+27474 9968 9
+13035 2240 3
+13021 13035 6
+13021 1291 1
+8895 2240 1
+438 2588 1
+1294 1295 1
+1269 1295 2
+1269 1294 6
+1269 1291 7
+9050 3377 4
+9050 2588 1
+9050 8420 5
+22767 9051 1
+22767 2588 1
+22767 9050 9
+22767 438 8
+31852 1295 8
+3994 85 11
+37274 339 2
+339 1979 26
+1979 339 11
+1979 4354 4
+7151 1979 206
+7151 339 4
+2018 1979 11
+2018 339 104
+20842 4114 3
+8429 6163 4
+19686 2588 8
+9051 3377 1
+15470 1020 6
+28818 25764 29
+28818 1246 1
+4098 3898 5
+4098 4114 7
+32602 4354 4
+30901 20288 2
+30715 1840 3
+30715 551 8
+1840 339 12
+1840 1839 2
+29783 339 3
+29783 1840 22
+2220 1668 1
+13999 2854 2
+6592 18276 1
+6592 2854 5
+6592 2220 2
+6583 6592 1
+6583 2854 1
+6583 6590 1
+4528 8883 2
+4528 6592 4
+4528 2854 3
+8883 5071 4
+8883 8882 3
+8799 8883 1
+8799 6592 4
+8799 2854 1
+8799 2220 26
+39603 2854 11
+39603 2220 1
+2854 3024 3
+26665 5212 1
+26665 2854 4
+12788 3024 7
+12788 2854 4
+15306 6163 2
+15306 4354 2
+23036 5212 1
+23036 3024 1
+23036 2854 14
+26661 26665 11
+26661 2854 1
+18290 30619 1
+38408 5212 1
+38408 2854 4
+3022 30619 2
+6353 2320 8
+6353 607 1
+1843 5408 5
+1843 4724 1
+1843 351 3
+1843 339 4
+1843 1423 1
+1843 350 6
+1843 1839 1
+1843 1842 1
+12642 340 12
+1814 339 3
+1814 607 7
+1814 1839 1
+1814 1471 4
+1814 1843 3
+1814 1842 1
+1814 1840 2
+38149 5408 6
+38149 351 13
+38149 350 11
+38149 355 8
+38149 339 9
+38149 1814 23
+38149 607 2
+38149 1423 2
+38149 1471 10
+38149 4531 8
+38149 1842 1
+19993 339 1
+19993 8572 5
+19993 1471 4
+19993 1843 3
+19993 8571 3
+19993 4643 1
+19903 5408 1
+19903 351 13
+19903 350 1
+19903 19993 18
+19903 8572 40
+19903 355 4
+19903 339 5
+19903 1423 1
+19903 1471 4
+19317 339 2
+19317 607 4
+19317 1471 7
+21043 351 7
+34013 8778 4
+34013 355 19
+34013 21043 4
+2320 20288 1
+2320 607 7
+2320 1471 9
+2320 1030 3
+2320 4531 6
+2320 8571 1
+2320 4643 5
+607 339 1
+607 4359 1
+607 5619 1
+2855 607 4
+2855 5619 1
+5599 2854 9
+5599 2855 1
+5599 5619 2
+8534 2320 20
+8534 8572 1
+8534 1030 3
+8534 8571 1
+8534 339 4
+8534 1471 7
+8534 1291 7
+8534 4531 1
+8534 4643 3
+6352 339 2
+6352 2320 6
+6352 1423 1
+6352 2395 1
+6352 1471 2
+6352 6353 13
+6352 4643 1
+6312 2320 8
+6312 1030 1
+6312 6353 14
+6312 339 1
+6312 607 1
+6312 1423 1
+6312 6351 1
+6312 1471 1
+6312 1291 6
+6312 6352 51
+34623 1777 4
+20287 1423 2
+12617 2398 11
+12617 2320 10
+12617 3958 16
+12617 2397 7
+12617 2395 4
+12617 1030 2
+12617 339 1
+12617 3959 5
+12617 607 2
+12617 1423 1
+12617 1471 2
+12617 2396 8
+12617 4643 1
+12483 2398 4
+12483 2320 3
+12483 3958 13
+12483 2397 17
+12483 2395 3
+12483 1030 4
+12483 12617 78
+12483 339 1
+12483 3959 8
+12483 607 2
+12483 1471 3
+12483 2396 14
+12483 1291 26
+12483 4643 2
+2396 2397 4
+29993 3959 3
+29993 3958 4
+29993 2397 7
+29993 2396 85
+30587 3958 85
+2397 3959 8
+2397 3958 8
+28338 3959 13
+28338 3958 11
+28338 2397 60
+7359 3959 61
+2398 2396 3
+24834 2398 62
+24834 3959 3
+24834 3958 4
+24834 2397 5
+24834 2396 4
+20513 339 6
+20513 2320 4
+20513 607 2
+20513 2395 5
+20513 1030 3
+9087 2320 2
+12837 9087 9
+12837 2320 2
+5086 2320 2
+5086 607 2
+20514 4724 1
+20514 2320 2
+20514 607 1
+20514 9476 1
+20515 1981 2
+20515 339 1
+20515 2320 2
+20515 1423 1
+20515 341 4
+20515 4531 6
+33580 33181 7
+16156 1295 2
+5043 5071 1
+5811 5071 1
+5811 5043 1
+4864 1423 1
+4864 1030 3
+20025 339 3
+20025 1839 1
+20025 1030 1
+20025 1840 1
+20025 1021 1
+20010 339 7
+20010 20025 2
+1030 1979 8
+1030 339 10
+1030 1423 2
+1030 607 9
+1030 11379 6
+1030 20025 2
+7410 1979 4
+7410 339 62
+7410 1423 9
+7410 607 2
+7410 4359 5
+7410 1030 36
+7410 7721 22
+11379 3377 2
+11379 339 6
+11293 350 3
+11293 355 4
+11293 339 8
+11293 1979 8
+11293 1423 1
+11293 9051 6
+11293 11379 12
+11293 8420 3
+7721 1030 2
+354 351 16
+354 350 53
+354 341 5
+354 352 17
+354 355 8
+177 351 23
+177 339 6
+177 350 55
+177 341 4
+177 352 52
+177 337 3
+177 354 57
+177 355 32
+40407 1979 37
+40407 351 32
+40407 339 9
+40407 1423 8
+40407 350 32
+40407 15953 1
+40407 15981 2
+31385 339 12
+31385 350 10
+31385 355 5
+41907 1979 8
+41907 351 4
+41907 339 4
+41907 31385 10
+41907 350 3
+41907 15953 1
+41907 15981 2
+38875 339 1
+38875 352 25
+4040 354 1
+15011 351 3
+15011 339 1
+15011 350 3
+15011 354 6
+15011 4040 1
+4038 351 4
+4038 350 16
+4038 341 2
+4038 355 3
+4001 4038 2
+4001 3994 10
+4001 351 12
+4001 4037 15
+4001 350 15
+4001 341 6
+4001 355 21
+4001 4031 17
+4001 339 1
+4001 4032 1
+4001 4040 1
+4037 3377 1
+4037 351 27
+4037 350 20
+4037 2588 2
+4037 355 7
+4037 2325 2
+4037 339 7
+4037 1423 2
+4037 9050 1
+4037 4043 3
+4037 4354 1
+4042 351 24
+4042 4037 5
+4042 350 34
+4042 2588 9
+4042 355 57
+4042 4645 2
+4042 339 1
+4042 4032 2
+4042 8906 1
+4042 9051 7
+4042 4043 1
+15953 15981 1
+350 1981 4
+350 339 13
+350 6163 1
+350 341 4
+350 340 3
+32740 4724 1
+32740 339 2
+32740 350 52
+32740 341 7
+351 3377 5
+351 2588 4
+351 9050 2
+351 355 9
+351 33181 1
+355 4645 26
+355 351 9
+355 6163 1
+355 2588 1
+355 701 2
+39052 351 8
+39052 355 92
+4043 351 7
+4043 6163 1
+4043 20842 1
+4043 355 3
+10440 351 10
+10440 355 14
+10440 4043 4
+8906 4645 1
+8906 3377 2
+8906 351 86
+8906 9051 14
+8906 2588 9
+8906 9050 2
+8906 355 199
+18818 546 3
+18818 339 1
+18818 3289 10
+22383 1529 1
+22383 3994 7
+22383 339 1
+22383 2934 1
+22383 18818 2
+22383 1291 9
+8377 350 3
+8377 8420 1
+33611 339 3
+33611 8377 4
+33611 350 1
+33611 355 4
+33611 1291 6
+11115 351 3
+11115 350 2
+17141 1423 1
+17141 1511 2
+17141 1030 1
+17141 1025 3
+17121 1024 2
+17121 339 1
+17121 17141 4
+17121 1511 2
+17121 1030 2
+17121 1025 4
+6829 1423 1
+6829 1511 2
+6829 1030 1
+6829 1025 2
+6808 6829 4
+6808 1024 2
+6808 339 1
+6808 1511 2
+6808 1030 2
+6808 1025 4
+29428 1512 1
+29428 1511 2
+29428 1025 3
+29413 1512 2
+29413 1024 3
+29413 1511 2
+29413 1025 6
+29413 29428 6
+2130 1511 2
+2130 1025 3
+2118 1024 2
+2118 1777 1
+2118 1511 1
+2118 1025 4
+2118 2130 1
+33950 1512 1
+33950 1423 2
+33950 1030 3
+33950 1023 1
+10495 1024 1
+10495 1511 2
+10495 1025 4
+10495 1037 1
+10495 1023 2
+10464 1024 4
+10464 10495 3
+10464 1511 2
+10464 1025 4
+10464 1037 1
+10464 1023 4
+24580 1024 6
+24580 1511 2
+24580 1025 9
+24580 1023 1
+24556 1024 8
+24556 24580 4
+24556 1511 2
+24556 1025 22
+24556 1023 4
+17711 1512 1
+17711 1668 1
+17711 1423 2
+17711 607 2
+17711 1511 3
+17711 1030 1
+17711 1025 6
+17711 4866 1
+30907 17711 7
+30907 1024 5
+30907 9087 1
+30907 1511 6
+30907 1030 5
+30907 1037 2
+30907 4359 6
+30907 1025 8
+23314 1511 1
+23314 1025 1
+29952 1024 1
+29952 23314 7
+29952 1511 1
+29952 1025 3
+10638 1512 1
+10638 1024 4
+10638 1511 1
+10638 1025 2
+10632 10638 2
+32481 33950 6
+32481 1511 5
+32481 1030 2
+32481 1025 3
+32481 1023 1
+32423 1024 2
+32423 1511 2
+32423 1030 8
+32423 1777 1
+32423 32481 4
+32423 607 1
+32423 1025 4
+32423 1021 4
+1781 1024 1
+1781 33950 6
+1781 1511 2
+1781 1025 5
+1781 1023 2
+1690 1024 5
+1690 1777 2
+1690 607 1
+1690 1781 7
+1690 1511 5
+1690 1030 2
+1690 1025 18
+1690 1023 10
+1690 1021 4
+4865 1512 1
+4865 4356 1
+4865 1511 2
+4865 1030 2
+4865 4866 1
+4865 1037 1
+4865 1423 2
+4865 1025 9
+4807 1024 2
+4807 4356 2
+4807 1511 2
+4807 1030 3
+4807 4864 1
+4807 1037 3
+4807 1023 3
+4807 1025 6
+4807 4865 10
+30638 1511 3
+30638 1025 3
+30638 1037 1
+30988 30638 4
+30988 1511 6
+30988 1025 3
+30988 1037 2
+4866 607 1
+4866 4359 1
+4866 1037 2
+1510 1512 1
+1510 1979 3
+1510 339 2
+1510 1511 2
+1510 1025 5
+1510 1037 2
+1484 1512 2
+1484 1024 1
+1484 1510 5
+1484 339 3
+1484 1511 2
+1484 1025 5
+1484 1037 2
+1511 1030 4
+13878 1979 2
+13878 1511 4
+13878 1030 2
+30783 1423 2
+30783 13878 6
+30783 1511 11
+30783 1030 3
+1024 1023 1
+1025 1024 12
+1025 1023 9
+32336 1024 3
+32336 1025 17
+22547 17711 1
+22547 6829 1
+22547 17141 1
+22547 1781 1
+22547 24580 1
+22547 17020 1
+22547 10495 1
+22547 30638 1
+22547 2130 1
+22547 32481 1
+22547 1510 2
+22547 4865 1
+22547 29428 1
+17020 1024 1
+17020 1511 1
+17020 1025 4
+17020 1023 3
+16973 1024 8
+16973 17020 7
+16973 1025 8
+16973 1023 12
+35575 14018 2
+35575 3844 2
+35575 3843 1
+1305 1425 15
+1305 1430 6
+1305 1423 1
+1305 1428 5
+3965 1425 2
+3965 3994 13
+3965 1305 20
+3965 1423 1
+21697 1430 8
+3802 350 4
+3802 341 1
+3802 3839 1
+3802 3840 3
+3802 339 9
+3802 1979 6
+3802 3359 1
+3802 3844 1
+3802 434 3
+3802 3843 3
+3802 3410 1
+3802 595 1
+6453 3802 8
+6453 2320 1
+6453 350 24
+6453 341 7
+6453 337 1
+6453 3840 7
+6453 339 20
+6453 3359 2
+6453 607 1
+6453 3844 4
+6453 434 6
+6453 3843 2
+3379 14018 1
+3379 10918 2
+3379 341 26
+3379 35575 23
+3379 10919 5
+3379 339 5
+3379 3359 2
+3379 8637 10
+3379 1423 5
+3379 3844 5
+3379 1471 2
+3379 3843 10
+3379 4643 1
+3379 595 1
+3379 1842 1
+19319 14018 93
+19319 1425 8
+19319 3994 12
+19319 341 55
+19319 1428 14
+19319 1305 12
+19319 3359 2
+19319 8637 8
+19319 3379 28
+19319 3844 4
+19319 9051 1
+19319 3843 2
+341 1423 1
+341 340 3
+32344 339 1
+32344 1423 1
+32344 341 86
+32344 16963 1
+32344 1246 5
+32344 1840 1
+434 8658 7
+434 85 1
+434 3410 1
+8658 85 3
+8637 85 10
+8637 3410 1
+14593 432 1
+14593 8637 38
+14593 9051 3
+33343 351 1
+33343 31385 1
+33343 350 13
+33343 11114 2
+33343 16668 2
+33343 339 4
+33343 1979 4
+33343 6163 1
+3359 3377 3
+3359 3379 3
+6512 3359 5
+6512 1291 5
+595 339 2
+595 607 1
+595 341 2
+20483 16668 1
+11114 14018 49
+11114 3377 3
+11114 350 63
+11114 355 19
+11114 339 7
+11114 3359 13
+11114 8637 11
+11114 1423 1
+11114 3844 12
+11114 3379 3
+11114 351 14
+11114 341 11
+11114 20483 9
+11114 16668 16
+11114 1979 4
+11114 4724 2
+11114 6163 2
+11114 3843 26
+3844 2259 6
+18834 1425 3
+18834 351 223
+18834 341 32
+18834 337 1
+18834 1428 2
+18834 18577 277
+18834 1305 24
+18834 3359 15
+18834 6163 2
+18834 1423 1
+18834 18647 161
+18834 3379 3
+18834 9051 8
+3843 351 3
+3843 8637 5
+3843 350 4
+3843 3844 5
+3843 355 5
+3843 8420 1
+3843 3410 1
+8584 351 9
+8584 339 5
+8584 8637 3
+8584 350 9
+8584 3844 7
+8584 3843 42
+8584 355 27
+18647 5408 5
+18647 3377 3
+18647 351 8
+18647 15132 1
+18647 350 24
+18647 3898 6
+18647 355 27
+18647 16668 6
+18647 339 4
+18647 1979 3
+18647 6163 1
+18647 1423 2
+18647 15347 1
+18577 3359 2
+18577 351 9
+18577 339 4
+18577 6163 1
+18577 350 21
+18577 341 18
+18577 18647 3
+18577 11114 7
+7086 654 4
+7086 3381 9
+16058 3411 3
+16058 339 4
+16058 654 4
+6891 351 10
+6891 7084 9
+6891 4983 14
+6891 350 15
+6891 4726 4
+6891 355 16
+6891 7085 1
+6891 1981 1
+6891 3411 87
+6891 4724 1
+6891 339 1
+6891 657 23
+6891 1423 8
+6891 7086 1
+6891 654 9
+6891 7082 5
+7846 350 1
+4789 26146 1
+4789 3411 64
+4789 2357 4
+4789 7086 14
+4789 2361 7
+4789 4175 18
+4789 3381 6
+4774 4789 2
+4774 652 5
+4774 4175 1
+4774 4142 1
+7085 16962 2
+7085 4983 5
+7085 1981 7
+7085 3411 18
+7085 23113 1
+7085 339 14
+7085 21657 3
+7085 1423 2
+7085 7086 5
+7085 1471 2
+7085 4643 1
+32894 7085 7
+32894 1981 1
+32894 339 3
+32894 652 6
+652 4789 1
+652 7845 2
+652 4464 1
+652 4142 3
+652 1981 2
+652 26146 41
+652 7086 24
+652 4175 26
+1981 340 1
+34631 1981 29
+34631 652 1
+3381 3411 3
+3381 85 1
+3381 3410 1
+3381 3413 13
+3413 85 3
+654 3411 4
+12156 654 1
+7082 7085 4
+28590 7085 5
+28590 7082 10
+23113 1981 3
+23113 339 2
+23113 607 1
+33382 1981 1
+33382 23113 6
+33382 339 3
+33382 652 3
+33382 607 11
+7280 3411 1
+4983 654 5
+10855 4983 3
+10855 654 1
+7084 3411 2
+7084 351 2
+7084 350 2
+7084 355 10
+7084 8420 1
+23405 339 1
+23405 7084 82
+23405 350 1
+23405 355 19
+4726 3411 3
+4726 339 5
+4460 657 4
+4460 350 2
+4460 654 1
+30429 4460 6
+30429 657 9
+30429 339 3
+30429 652 4
+30429 350 4
+4465 657 4
+4465 339 2
+4465 350 4
+4465 4726 1
+4465 654 1
+18041 4465 6
+18041 657 15
+18041 339 3
+18041 652 4
+18041 350 5
+4462 4724 1
+4462 657 5
+4462 339 1
+4462 4983 11
+4462 350 5
+4462 4726 2
+4462 654 1
+4931 652 9
+4931 350 4
+4931 4462 19
+4459 3411 23
+4459 4724 1
+4459 657 14
+4459 351 4
+4459 339 1
+4459 1423 1
+4459 350 6
+4459 4726 3
+5422 4459 16
+5422 657 10
+5422 351 2
+5422 652 20
+5422 350 1
+4463 4983 5
+4463 350 1
+4463 4726 1
+4463 654 1
+4463 3410 1
+4463 3381 1
+27578 4463 17
+27578 652 6
+656 657 5
+656 339 5
+656 350 9
+656 3898 1
+656 654 1
+656 9968 1
+616 657 12
+616 656 7
+616 339 4
+616 652 6
+616 350 7
+657 654 4
+32979 657 11
+32979 654 1
+4442 4459 1
+4442 4463 1
+4442 4464 1
+4442 3411 3
+4442 4460 1
+4442 4465 1
+4442 656 1
+4442 4461 1
+4442 4462 1
+13489 4459 1
+13489 4464 2
+13489 4442 5
+13489 4462 1
+4461 657 4
+4461 350 5
+4461 654 1
+26732 4461 6
+26732 657 9
+26732 339 4
+26732 652 4
+26732 350 8
+4464 3411 11
+4464 657 4
+4464 351 5
+4464 654 1
+28139 4645 3
+28139 657 9
+28139 351 3
+28139 652 12
+28139 4464 11
+28139 355 19
+38673 3411 39
+4173 4175 9
+4173 3381 6
+2357 2361 2
+31904 2357 1
+4175 7787 1
+31222 652 24
+31222 4175 343
+7787 1423 1
+41961 1423 1
+41961 7787 1
+38379 2361 1
+26146 4983 2
+26146 7787 2
+40894 26146 362
+40894 652 23
+4142 4173 7
+41658 26146 1
+41658 652 18
+41658 7086 1
+41658 4175 8
+41658 4173 36
+41658 4142 2
+41658 3381 15
+7845 8060 14
+7845 2361 5
+7845 3411 9
+7845 26146 1
+7845 5071 1
+7845 14744 7
+7845 7787 1
+7845 4175 19
+22553 652 4
+22553 7845 2
+22553 4175 29
+106 147 9
+30726 14744 17
+30726 652 1
+18337 8060 44
+30473 700 25
+30473 701 3
+700 2856 1
+700 701 2
+17256 700 2
+17256 2856 2
+17256 5213 4
+17256 701 4
+702 3773 4
+673 700 7
+673 702 4
+673 701 3
+3773 2856 3
+30258 3773 5
+30258 3129 1
+30258 701 1
+701 1020 2
+701 2856 4
+29504 29498 11
+29504 701 9
+30842 3129 1
+30842 3128 1
+30842 2856 2
+30842 701 2
+3074 2856 1
+3074 701 6
+5213 551 1
+19743 3128 1
+19743 673 1
+2635 1020 1
+28194 4031 2
+28194 2635 13
+6263 1020 1
+6263 339 4
+18784 4031 1
+18784 6263 14
+18784 3176 7
+6264 339 8
+6264 1423 2
+6264 607 4
+6264 6263 6
+6264 2321 1
+37469 339 1
+37469 607 1
+37469 6263 15
+37469 2226 1
+37469 23283 4
+37469 1291 1
+37469 6264 2
+3128 2856 1
+3128 701 5
+40808 30473 1
+40808 3128 1
+17253 3128 1
+17253 17256 2
+23009 2856 1
+23009 701 2
+25931 23034 6
+25931 23009 8
+23034 2856 2
+30028 23034 3
+30028 23009 4
+9591 3129 1
+9591 673 1
+30458 30473 1
+30458 700 12
+30458 3129 1
+30458 701 1
+3129 701 2
+3129 551 4
+41966 3129 1
+41966 17256 1
+2482 2320 1
+2482 3032 3
+15988 2482 4
+10331 3059 2
+10331 3032 12
+13313 1981 1
+13313 339 1
+13313 2320 3
+13313 607 6
+13313 350 9
+13313 341 1
+13313 16963 2
+13313 1471 1
+13313 4643 1
+15351 8778 1
+15351 339 2
+15351 2320 18
+15351 607 2
+15351 350 7
+15351 341 2
+15351 15426 1
+15351 1471 12
+15351 13313 6
+8779 2855 1
+8779 8780 1
+8779 5212 1
+8779 2854 2
+8779 607 1
+8779 3059 1
+8779 13210 3
+8779 2589 4
+24082 8779 7
+24082 8778 5
+24082 8780 2
+24082 1840 1
+24082 339 2
+24082 2854 1
+24082 607 1
+24082 1668 3
+24082 2482 1
+24082 3059 1
+24082 13210 7
+13210 1979 5
+13210 351 5
+13210 339 2
+13210 607 6
+13210 350 1
+13210 2589 1
+40022 8778 11
+40022 351 2
+40022 2855 1
+40022 2320 30
+40022 350 11
+40022 15426 1
+40022 8780 1
+40022 355 25
+40022 2854 1
+40022 339 4
+40022 607 1
+40022 1668 1
+40022 13210 18
+40022 1471 18
+40022 4531 1
+40022 2589 1
+15426 339 1
+15426 607 1
+3840 339 4
+3840 4530 3
+3840 2320 5
+3840 1423 2
+3840 607 7
+3840 3839 1
+3840 1471 5
+3840 4531 1
+4472 4528 1
+4472 2320 5
+4472 3839 4
+4472 3840 14
+4472 339 4
+4472 2854 1
+4472 607 2
+4472 1423 1
+4472 4531 3
+4472 1291 9
+9502 4645 5
+9502 339 3
+9502 2320 1
+9502 350 7
+9502 2321 1
+9502 355 2
+9502 10697 2
+16124 351 2
+16124 9502 1
+16124 2320 1
+16124 350 12
+16124 4545 4
+16124 355 10
+16124 4645 1
+16124 339 1
+38050 31385 1
+38050 11167 1
+38050 3067 10
+11167 19884 1
+11167 351 3
+11167 339 1
+11167 1423 1
+11167 350 2
+11167 9476 1
+11125 4528 3
+11125 351 2
+11125 350 1
+11125 11167 12
+11125 3024 3
+11125 2854 3
+11125 1291 8
+11125 5823 3
+1470 8572 1
+1470 1471 3
+1470 8571 1
+1470 4643 2
+1805 607 1
+6678 8781 3
+6678 2320 6
+6678 6632 2
+6678 1805 3
+6678 2325 2
+6678 4645 2
+6678 1423 2
+6678 701 2
+6678 4531 2
+24584 2320 6
+24584 1805 1
+24584 1840 1
+24584 339 3
+24584 607 1
+24584 14986 2
+24584 1471 2
+24584 4531 1
+24584 6678 6
+15051 4645 3
+15051 5071 1
+15051 2320 5
+15051 1423 3
+15051 607 1
+15051 551 1
+17039 15051 11
+8781 8779 3
+8781 351 4
+8781 2320 7
+8781 350 17
+8781 341 2
+8781 1981 1
+8781 339 3
+8781 1979 4
+8781 6163 1
+8781 607 8
+8781 1668 1
+8781 1471 1
+8781 4531 3
+8679 8781 10
+8679 8778 1
+8679 351 9
+8679 2320 11
+8679 350 12
+8679 354 4
+8679 1840 1
+8679 339 6
+8679 1979 6
+8679 607 1
+8679 1668 1
+8679 1471 2
+8679 4531 1
+6646 2320 7
+6646 3839 2
+6646 6632 2
+6646 6679 10
+6646 3840 3
+6646 339 2
+6646 607 11
+6646 1423 1
+6646 1471 2
+6646 6678 3
+6646 4531 2
+30341 6646 16
+30341 339 2
+30341 1423 1
+30341 607 2
+30341 6679 24
+20124 1024 1
+20124 2320 34
+20124 1030 3
+20124 551 2
+20124 2325 1
+20124 2854 4
+20124 339 1
+20124 20288 1
+20124 607 12
+20124 1423 3
+20124 13878 2
+20124 4359 1
+20124 20287 1
+20124 4531 2
+20124 4643 1
+20124 1512 2
+20124 12943 2
+20124 2855 1
+20124 16626 1
+20124 8572 3
+20124 2395 2
+20124 1037 1
+20124 4645 3
+20124 1979 3
+20124 1668 3
+20124 3059 1
+20124 1471 3
+35887 9087 1
+35887 2320 47
+35887 20513 1
+35887 1030 18
+35887 1840 1
+35887 2854 2
+35887 339 2
+35887 4531 1
+35887 701 1
+35887 4643 1
+35887 1512 1
+35887 8778 2
+35887 4642 1
+35887 1470 1
+35887 2395 3
+35887 4645 2
+35887 20124 6
+35887 1471 5
+35887 1025 4
+35887 1291 25
+6679 339 4
+5214 4645 1
+5214 2320 3
+5214 607 1
+5214 6264 1
+41790 2320 19
+41790 4545 2
+41790 5624 1
+41790 5214 4
+41790 4645 14
+41790 339 4
+41790 607 3
+41790 1471 8
+41790 6264 1
+23283 339 1
+23283 1037 2
+37960 1979 7
+37960 339 1
+37960 23283 6
+37960 1037 7
+6266 4645 6
+6266 339 4
+6266 2320 2
+6266 350 15
+6266 2321 1
+6266 355 5
+6266 23283 2
+6266 6264 3
+6205 351 2
+6205 2320 1
+6205 350 18
+6205 4545 8
+6205 5624 1
+6205 355 22
+6205 6266 1
+6205 4645 2
+6205 339 1
+6205 6264 1
+9504 10841 1
+10841 339 8
+10841 2320 4
+10841 1471 1
+10770 3778 29
+10770 339 31
+10770 10841 10
+11389 4645 4
+11389 339 1
+11389 4642 1
+11389 2320 2
+11389 1471 7
+11389 355 4
+11389 701 1
+18022 4645 3
+18022 339 1
+18022 2320 3
+18022 607 1
+18022 350 1
+18022 2321 1
+18022 355 1
+18022 10697 1
+17977 18022 5
+17977 2320 4
+17977 350 4
+17977 4545 6
+17977 3128 2
+17977 355 24
+17977 4645 4
+17977 339 4
+7403 351 6
+7403 339 1
+7403 2320 3
+7403 607 1
+7403 350 8
+7403 1471 1
+7403 11874 3
+39717 7403 3
+39717 2320 2
+39717 350 15
+39717 354 12
+39717 355 42
+39717 339 13
+39717 3778 1
+39717 607 1
+39717 1471 1
+14986 4645 1
+14986 2320 2
+14986 350 1
+14986 355 1
+3782 339 2
+3782 2320 2
+3501 3782 15
+3501 3778 55
+3501 339 241
+20525 11389 22
+32620 11389 22
+40351 40347 3
+40351 4645 8
+40351 3778 2
+40351 339 3
+40351 350 3
+40351 2321 3
+40351 3128 2
+40349 2320 2
+40349 2326 1
+9503 351 2
+9503 2320 1
+9503 350 2
+9503 11276 2
+9503 355 2
+9503 701 2
+28457 9503 13
+28457 351 3
+28457 339 2
+28457 350 4
+28457 4545 2
+28457 11276 3
+28457 355 4
+6390 2320 2
+6390 350 2
+6390 2321 2
+6390 355 1
+6390 4645 2
+6390 339 7
+6390 607 4
+6390 1423 4
+6390 6263 6
+6390 10697 1
+28244 4645 8
+28244 339 7
+28244 2320 8
+28244 607 1
+28244 350 16
+28244 4545 11
+28244 2226 1
+28244 355 14
+28244 6390 16
+18210 11389 2
+18210 351 1
+18210 339 1
+18210 4032 2
+18210 350 2
+18210 355 2
+4032 351 2
+4032 2320 1
+4032 350 1
+4032 355 2
+4032 701 2
+2321 2320 4
+2321 607 2
+2321 350 1
+2321 1471 1
+39506 4645 5
+39506 2325 2
+39506 3778 8
+3778 339 2
+3778 2320 6
+3778 607 4
+3778 1471 1
+3778 4531 1
+22475 3778 14
+22475 1979 2
+22475 355 4
+12939 2320 1
+12918 4645 1
+12918 1979 2
+12918 339 1
+12918 350 2
+12918 2226 1
+12918 3128 2
+12918 355 6
+12918 12939 2
+4645 351 6
+4645 6163 2
+4645 1423 1
+4645 2856 2
+4645 701 5
+9976 4645 39
+9976 4642 1
+29211 4645 3
+29211 351 1
+29211 350 1
+29211 10697 1
+29562 4645 2
+29562 339 1
+29562 4642 1
+29562 2320 3
+29562 350 2
+29562 29211 2
+29562 355 3
+29562 701 1
+29562 551 2
+30306 8779 3
+30306 2320 8
+30306 8780 1
+30306 5213 1
+30306 551 1
+30306 4645 5
+30306 1471 2
+30306 1842 1
+37403 8779 1
+37403 8778 1
+37403 2320 9
+37403 8780 1
+37403 3129 1
+37403 4645 7
+37403 5212 1
+37403 339 1
+37403 2854 2
+37403 30306 7
+37403 2482 1
+37403 13210 3
+37403 1471 3
+37403 4531 1
+9506 2320 1
+9506 11851 1
+11851 339 1
+11851 2320 1
+11851 8420 1
+11851 11874 2
+26206 3778 8
+26206 339 7
+26206 11851 3
+26206 11874 3
+11874 339 1
+11874 2320 3
+22548 9504 2
+22548 9502 1
+22548 2364 1
+22548 9506 3
+22548 6390 1
+22548 6266 1
+22548 13881 1
+22548 9503 3
+22548 9244 1
+22548 6519 1
+22548 11276 2
+22548 701 3
+22548 9505 1
+9478 9503 6
+9478 4642 1
+4545 4645 4
+4545 339 3
+4545 4642 1
+4545 2320 6
+4545 607 2
+4545 1471 10
+4545 355 4
+4545 701 1
+4545 4643 2
+10697 351 5
+10697 350 11
+10697 355 5
+40499 339 3
+40499 350 6
+40499 355 6
+40499 10697 4
+7387 7403 1
+7387 2320 1
+2367 2320 2
+2367 551 1
+34727 3778 58
+34727 2367 1
+22218 7403 1
+22218 2320 1
+9505 2320 1
+9505 6366 1
+9505 6390 2
+6366 2320 5
+6366 1471 1
+6366 6390 4
+6366 4531 2
+6366 551 1
+28512 3778 20
+28512 339 1
+28512 2320 7
+28512 6366 4
+28512 5624 1
+28512 6390 1
+6519 6530 1
+6519 6390 2
+6530 2320 4
+6530 1471 1
+6530 6390 4
+32035 4642 1
+32035 3774 2
+32035 350 2
+32035 2321 1
+32035 2226 1
+32035 3128 2
+32035 339 1
+32035 3778 2
+32035 6530 1
+32035 701 1
+23807 2320 11
+23807 20096 3
+23807 6622 1
+23807 5214 1
+23807 5213 1
+23807 551 1
+23807 339 3
+23807 2854 2
+23807 607 7
+23807 1423 2
+23807 3499 4
+23807 23806 3
+23807 2860 6
+23807 16626 1
+23807 27928 1
+23807 2395 7
+23807 13480 1
+23807 4645 9
+23807 1668 2
+23807 1087 1
+23725 23806 1
+23725 2320 7
+23725 3129 1
+23725 23807 10
+23725 4645 17
+23725 339 1
+23725 2854 1
+23725 1471 3
+23725 1087 1
+23725 4531 1
+9446 6191 1
+9446 355 1
+9446 6190 2
+28208 351 6
+28208 6191 1
+28208 9442 1
+28208 355 2
+28208 10512 4
+28208 9446 1
+9442 6191 6
+9442 355 11
+10512 351 1
+10512 355 8
+9244 6192 2
+9244 351 1
+9244 6191 5
+9244 2320 1
+9244 350 18
+9244 6169 2
+9244 355 25
+9244 9444 1
+9244 4645 7
+9244 339 8
+9244 9445 2
+9244 9442 4
+9244 9446 2
+9244 6190 2
+6169 6192 2
+6169 6191 1
+6169 9442 1
+6169 355 1
+6169 6190 4
+10499 351 9
+10499 6191 1
+10499 9442 1
+10499 6169 1
+10499 355 2
+10499 10512 4
+38891 4645 4
+38891 351 2
+38891 339 7
+38891 9244 1
+38891 6191 1
+38891 350 12
+38891 355 19
+9445 6191 10
+9445 9442 6
+9445 355 2
+9445 6190 2
+34951 351 25
+34951 6191 19
+34951 355 5
+34951 10512 13
+34951 9444 3
+34951 4645 1
+34951 9445 2
+34951 9442 1
+29101 9444 4
+20517 6191 6
+6190 6192 3
+6190 6191 4
+6190 9445 1
+6190 9442 7
+6190 355 1
+21542 351 9
+21542 6191 1
+21542 9442 1
+21542 355 2
+21542 10512 4
+21542 6190 1
+839 1024 3
+839 1020 2
+839 1035 5
+839 1025 9
+839 1034 4
+839 1037 2
+839 1023 8
+18106 1024 15
+18106 1035 1
+18106 1034 4
+18106 839 11
+18106 1037 7
+18106 1023 2
+1034 1024 1
+1034 1025 3
+1034 1037 1
+1034 1023 3
+22408 1024 2
+22408 1034 3
+22408 1037 1
+22408 1023 2
+2281 2325 1
+2281 351 5
+2281 339 4
+2281 1423 2
+2281 350 6
+2281 2321 1
+2281 1987 1
+2281 355 7
+2281 2326 4
+35785 17708 1
+35785 11268 1
+13881 4645 4
+13881 339 7
+13881 31219 1
+13881 2320 4
+13881 607 4
+13881 2856 2
+18658 2320 4
+18658 350 1
+18658 4545 2
+18658 3129 1
+18658 3128 1
+18658 4031 2
+18658 4645 2
+18658 13881 2
+18658 339 2
+18658 607 3
+9723 351 1
+9723 8377 2
+9723 1978 5
+9723 1037 2
+9723 2325 2
+9723 339 5
+9723 1979 2
+9723 1423 7
+9723 9050 1
+15171 350 7
+15171 9723 12
+15171 355 12
+15171 339 40
+15171 1979 2
+15171 1423 3
+15171 436 1
+15171 438 14
+15171 1291 9
+17656 14688 3
+22935 17656 3
+34677 14688 32
+13883 339 4
+13883 4356 1
+13883 2320 2
+13882 339 4
+13882 2320 4
+13882 607 4
+13882 1471 2
+13882 1030 2
+13882 3840 2
+9512 9573 1
+9512 4356 2
+9512 6679 5
+9512 1978 3
+9512 6646 3
+9512 339 1
+9512 1979 2
+9512 607 1
+9512 9050 3
+17352 6646 9
+17352 9512 19
+17352 6679 8
+17352 438 17
+13884 2400 7
+13884 3839 2
+13884 3289 9
+13884 13885 4
+13884 2473 2
+13885 3377 11
+13885 1024 2
+13885 2400 12
+13885 2320 6
+13885 3839 8
+13885 1030 2
+13885 339 14
+13885 607 4
+13885 1423 2
+13885 13878 3
+13885 4643 1
+13885 1512 2
+13885 351 8
+13885 2395 1
+13885 3840 3
+13885 1037 4
+13885 1984 3
+13885 2473 33
+13885 13881 3
+13885 1471 2
+13885 9050 1
+14264 13883 1
+14264 13882 1
+14264 1030 3
+14264 355 11
+14264 339 23
+14264 1423 1
+14264 13878 1
+14264 1512 1
+14264 351 2
+14264 9476 1
+14264 13885 39
+14264 1037 5
+14264 1984 4
+14264 2473 6
+14264 4645 2
+14264 13881 1
+14264 9051 4
+14264 1025 4
+14264 9050 3
+14264 1291 47
+13580 1529 26
+13580 3994 3
+13580 3839 1
+13580 2934 1
+13580 13883 1
+13580 13882 1
+13580 1030 3
+13580 339 24
+13580 13878 1
+13580 13884 5
+13580 1512 1
+13580 8778 4
+13580 351 1
+13580 9476 2
+13580 13885 1
+13580 1037 2
+13580 1984 2
+13580 13881 4
+13580 9051 1
+13580 1025 3
+13580 85 2
+13580 1291 27
+14987 1423 1
+14987 350 1
+14987 1987 3
+14987 1978 2
+14987 2281 3
+14880 350 20
+14880 355 53
+14880 339 30
+14880 4032 2
+14880 14986 9
+14880 14987 14
+14880 436 1
+14880 438 27
+14880 1291 23
+14880 2281 2
+9573 339 3
+9573 1976 1
+9573 607 16
+9573 4359 3
+9573 5619 3
+13325 4724 1
+13325 9573 8
+13325 607 8
+13325 1291 8
+13325 436 1
+15786 351 2
+15786 350 14
+15786 341 3
+15786 3839 1
+15786 340 1
+15786 3840 3
+15786 2325 2
+15786 1981 1
+15786 546 3
+15786 339 8
+15786 1979 6
+15786 1423 2
+15786 3289 12
+31683 8778 14
+31683 1529 16
+31683 3994 4
+31683 2320 3
+31683 350 61
+31683 341 2
+31683 2934 1
+31683 15786 1
+31683 355 33
+31683 3840 3
+31683 339 22
+31683 607 2
+31683 14986 5
+31683 1471 3
+31683 1291 41
+31683 4643 2
+9724 1512 2
+9724 1024 10
+9724 6163 1
+9724 1423 1
+9724 13878 3
+9724 1978 2
+33071 23314 2
+33071 4356 1
+33071 10638 3
+33071 1037 5
+33071 339 3
+33071 1510 2
+33071 1423 1
+33071 13878 1
+33071 4359 1
+33071 1025 3
+33071 9724 13
+33071 4865 1
+33071 436 1
+33071 438 14
+33071 1291 20
+21870 339 3
+21870 607 9
+21870 5619 3
+30039 339 1
+30039 607 7
+30039 21870 1
+30039 5619 1
+21245 607 3
+21245 21870 1
+21245 3840 2
+21245 21246 1
+30481 339 9
+30481 13883 1
+30481 13882 1
+30481 21245 5
+20071 350 26
+20071 3839 1
+20071 21043 1
+20071 2325 2
+20071 339 4
+20071 607 1
+20071 1423 12
+20071 351 5
+20071 341 1
+20071 340 1
+20071 3840 3
+20071 1981 1
+20071 1976 2
+20071 1987 2
+20071 9050 1
+20071 4354 2
+22589 20071 39
+22589 4528 1
+22589 3994 11
+22589 2320 1
+22589 350 29
+22589 355 28
+22589 2854 1
+22589 339 3
+22589 1423 6
+22589 14986 19
+22589 6352 1
+22589 438 13
+22589 22767 1
+22589 351 12
+22589 340 11
+22589 3840 1
+22589 85 4
+22589 436 1
+22589 1291 41
+9725 20071 3
+9725 1423 2
+9725 1978 2
+20035 20071 2
+20035 4528 1
+20035 351 3
+20035 350 1
+20035 9725 8
+20035 3840 2
+20035 339 5
+20035 2854 1
+20035 1423 2
+20035 6352 1
+20035 436 1
+20035 438 6
+20035 1291 9
+31219 13538 2
+13538 13521 2
+13521 13538 1
+20850 13881 1
+20850 13538 9
+13891 339 2
+26605 657 5
+26605 654 4
+26605 9050 2
+26605 1978 1
+26605 3381 1
+437 1979 4
+437 434 3
+437 9050 2
+437 1978 2
+413 437 5
+413 434 6
+413 1291 6
+413 438 8
+413 436 1
+1984 2325 2
+1984 351 12
+1984 339 2
+1984 1423 3
+1984 350 8
+1984 1987 3
+1984 355 9
+1984 2326 2
+1984 1037 2
+37055 351 23
+37055 350 24
+37055 341 2
+37055 355 39
+37055 1984 20
+37055 1037 1
+37055 4645 2
+37055 1981 2
+37055 339 15
+37055 4032 2
+37055 1423 5
+37055 9051 2
+37055 14986 6
+37055 1291 34
+1928 341 1
+1928 1978 4
+1928 1984 4
+1928 1037 2
+1928 1981 1
+1928 339 2
+1928 1979 2
+1928 1423 3
+1928 1976 1
+1928 1987 2
+34803 351 6
+34803 341 1
+34803 1984 9
+34803 1928 15
+34803 1981 1
+34803 339 22
+34803 1423 2
+34803 14986 1
+34803 436 1
+34803 438 11
+34803 1291 22
+21246 607 5
+21193 21245 3
+21193 9050 1
+21193 1978 2
+21193 21246 1
+23329 21193 12
+23329 21245 5
+23329 21246 1
+27547 1020 1
+27547 5071 1
+27547 9050 2
+436 14986 1
+436 3840 1
+436 1291 1
+436 438 1
+1987 351 16
+1987 350 13
+1987 355 13
+1987 339 3
+1987 1979 9
+1987 1423 4
+1987 9050 2
+1987 4354 1
+25814 351 2
+25814 350 9
+25814 2588 1
+25814 355 37
+25814 339 44
+25814 9051 4
+25814 1987 14
+25814 9050 3
+25814 438 27
+2883 339 9
+2883 1842 6
+36474 339 8
+36474 2883 15
+36474 1840 9
+16267 339 6
+16267 1842 2
+16267 1840 2
+5012 1840 1
+2395 1842 2
+2395 1840 3
+35038 2395 21
+35038 1840 9
+1471 12943 6
+1471 5012 3
+1471 1840 2
+1471 1020 1
+1471 339 4
+1471 20288 3
+1471 1472 1
+1471 4531 7
+1471 1842 5
+1471 4643 4
+24903 1020 1
+24903 339 1
+24903 1472 3
+24903 1471 28
+24903 4531 7
+24903 4643 4
+24903 1840 1
+14764 1472 2
+14764 1842 1
+14764 1840 2
+15733 14764 8
+15733 1472 2
+15733 1840 3
+5781 339 6
+5781 1472 4
+5781 1842 2
+5781 1840 3
+31348 339 9
+31348 5781 27
+31348 1472 4
+31348 1840 10
+8571 339 6
+8571 8572 4
+8571 1842 2
+8571 1840 5
+30753 339 4
+30753 8572 3
+30753 8571 37
+30753 1840 9
+8572 3773 2
+8572 339 1
+8572 1668 1
+8572 1839 1
+8572 8571 5
+8572 1842 3
+8572 1840 3
+26671 339 2
+26671 8572 37
+26671 8571 2
+26671 1840 10
+4643 16962 2
+4643 10918 2
+4643 5781 2
+4643 14764 1
+4643 2395 6
+4643 8571 2
+4643 339 13
+4643 16963 2
+4643 1472 4
+38243 10918 1
+38243 10919 5
+38243 8571 5
+38243 1840 20
+38243 339 22
+38243 1471 3
+38243 1472 9
+38243 4643 96
+21657 16267 3
+21657 339 1
+21657 1842 2
+16962 339 2
+16962 21657 6
+10919 16267 4
+10919 339 3
+10919 1842 9
+17768 16267 9
+17768 339 7
+17768 10919 13
+17768 1842 4
+17768 1840 13
+10918 339 3
+10918 10919 5
+10899 10918 14
+10899 339 4
+10899 10919 3
+10899 1840 4
+8780 2854 3
+8780 339 2
+8780 1472 2
+8780 1842 5
+21555 8778 8
+21555 5212 1
+21555 2854 2
+21555 339 2
+21555 8780 52
+21555 1840 15
+16963 339 5
+16963 340 4
+16963 1472 4
+16963 1842 1
+16963 1840 5
+22334 339 6
+22334 16963 34
+22334 1472 6
+22334 1840 12
+1842 1423 2
+1842 1839 2
+12943 1472 5
+12943 1842 2
+12943 1840 7
+29293 12943 21
+29293 1472 4
+29293 1840 7
+4531 1979 3
+4531 339 6
+4531 340 4
+4531 8780 6
+4531 1472 5
+4531 1842 4
+4531 1840 8
+24271 5212 1
+24271 2854 1
+24271 339 4
+24271 8780 1
+24271 1472 14
+24271 4531 50
+24271 1840 26
+23806 20113 1
+23806 339 1
+23806 5071 1
+23806 1423 1
+23806 1839 1
+23806 1840 1
+2712 2854 5
+2712 2860 15
+2712 2855 1
+2712 2320 2
+2712 607 1
+2712 2856 1
+2712 2861 1
+5119 3773 1
+5119 2860 2
+5119 3129 2
+5119 5213 1
+5119 5212 1
+5119 2854 2
+5119 2712 3
+5119 701 1
+5119 1087 1
+6835 2860 3
+16626 2854 3
+16626 8572 3
+36554 2854 10
+36554 16626 1
+36554 8572 2
+36554 1840 1
+28240 339 1
+2860 2320 3
+2860 3499 1
+2861 2860 9
+20096 351 4
+20096 350 4
+20096 1840 1
+20096 20113 1
+20096 1020 1
+20096 339 2
+20096 4724 1
+20096 6163 1
+20096 607 4
+20096 1423 1
+20096 1839 1
+22965 339 3
+22965 350 2
+22965 20096 2
+13480 1423 2
+13480 1839 2
+20113 339 4
+20113 3499 4
+20113 27928 1
+20113 13480 6
+20113 5214 1
+20113 1087 1
+20113 551 3
+39267 20113 1
+39267 2854 1
+39267 339 1
+39267 2860 3
+39267 1840 1
+5007 2856 1
+41232 5007 3
+6622 6630 1
+20716 6622 5
+20716 1087 2
+1087 6630 1
+41693 6630 3
+41693 1087 3
+41693 1840 3
+15523 1529 2
+15523 2860 3
+15523 2320 3
+15523 5214 3
+15523 1030 3
+15523 551 1
+15523 5007 2
+15523 339 1
+15523 607 1
+15523 1668 5
+15523 4354 1
+29434 1529 1
+29434 4642 1
+29434 2860 1
+29434 2320 5
+29434 3129 1
+29434 1030 2
+29434 29498 20
+29434 551 4
+29434 339 1
+29434 607 2
+29434 15523 3
+29434 701 5
+29434 1291 7
+24063 5007 3
+24063 1423 1
+24063 2856 1
+24063 701 3
+24054 24063 2
+24054 3129 1
+24054 6835 1
+4997 5007 3
+14670 4997 1
+14670 6835 1
+32952 5007 2
+32952 2860 2
+32914 3773 1
+32914 2860 2
+32914 2320 1
+32914 27928 1
+32914 6622 1
+32914 3129 2
+32914 5213 1
+32914 32952 1
+32914 5212 1
+32914 2854 2
+32914 607 1
+32914 2712 3
+32914 701 1
+32914 1087 2
+2857 5007 3
+41431 6835 1
+41431 2857 1
+27928 5007 4
+27928 2860 6
+41713 3773 1
+41713 4642 1
+41713 2860 2
+41713 27928 1
+41713 5213 1
+41713 2857 1
+41713 1087 1
+41713 701 2
+17179 5007 3
+17179 2860 3
+17150 3773 1
+17150 2860 2
+17150 17179 1
+17150 3129 2
+17150 5213 1
+17150 5212 1
+17150 2854 2
+17150 2712 3
+17150 701 1
+17150 1087 1
+41950 5007 3
+41950 2860 3
+32665 1020 2
+32665 339 2
+32665 4356 1
+32665 1030 2
+32643 1020 2
+32643 339 2
+32643 32665 8
+32643 1030 1
+2223 339 5
+2223 2320 2
+2223 350 4
+2223 2321 1
+2200 339 16
+2200 2223 13
+2200 350 8
+2200 2226 1
+19757 1979 17
+19757 339 19
+19757 1037 6
+25501 8353 14
+25501 339 40
+25501 4356 2
+25501 19757 41
+25501 1037 17
+14496 12943 3
+14496 4356 1
+14496 2320 26
+14496 9476 1
+14496 339 14
+14496 1979 25
+14496 607 14
+14496 1423 1
+14496 1471 3
+14496 5619 1
+14496 4531 9
+14496 4303 1
+36568 8353 16
+36568 1979 326
+36568 339 10
+36568 14496 92
+36568 6352 3
+4303 1979 16
+4303 1777 2
+4303 339 8
+4303 1423 1
+4303 4359 1
+4303 4354 1
+4303 1037 8
+39300 1777 2
+39300 339 68
+39300 4359 5
+39300 4303 33
+39300 1037 14
+19723 1020 1
+19723 4356 1
+19723 1030 3
+33127 19723 14
+33127 1030 2
+16483 339 2
+16464 339 2
+16464 16483 5
+2226 1979 16
+2226 339 18
+2226 1423 3
+2226 4354 2
+2226 1037 1
+8108 8353 3
+8108 1979 60
+8108 339 36
+8108 4356 2
+8108 350 1
+8108 2226 21
+8108 1037 30
+6351 339 2
+6351 15132 1
+6351 20842 1
+18375 339 1
+18375 6351 3
+13931 8353 1
+13931 1979 15
+13931 1777 2
+13931 4356 1
+13931 4359 2
+13931 1037 6
+5624 1979 8
+5624 339 6
+5624 4356 2
+5624 1037 3
+1037 4356 4
+1037 2320 7
+1037 350 9
+1037 339 15
+1037 1979 13
+1037 607 4
+1037 1423 3
+1037 1471 2
+4886 339 3
+4886 2320 3
+4886 1471 1
+4886 1037 4
+21847 339 3
+21847 2320 3
+21847 1471 1
+8353 12943 3
+8353 2320 10
+8353 339 5
+8353 607 10
+8353 1471 5
+8353 4531 10
+8353 5619 1
+8353 4643 1
+2326 351 4
+2326 350 14
+2326 355 9
+35089 351 12
+35089 339 5
+35089 350 14
+35089 355 43
+35089 2326 13
+6879 607 5
+6879 8572 1
+6879 1472 5
+6879 1471 1
+6860 339 1
+6860 607 1
+6860 1472 5
+6860 1471 1
+6860 6879 2
+1474 607 5
+1474 8572 1
+1474 1472 2
+1474 1471 1
+1461 339 1
+1461 607 1
+1461 1474 2
+1461 1470 1
+1461 1472 3
+1461 1471 1
+28396 607 2
+28396 1472 2
+28396 1471 1
+30575 339 1
+30575 607 1
+30575 28396 2
+30575 1472 3
+30575 1471 2
+1472 339 5
+3432 1472 39
+21734 12943 2
+21734 607 2
+21734 1472 2
+21734 1471 2
+21734 5619 1
+21709 339 1
+21709 21734 2
+21709 1472 5
+21709 1471 2
+21709 5619 2
+4530 607 1
+4530 1472 1
+4530 1471 3
+28365 339 2
+28365 4530 3
+28365 607 1
+28365 1471 8
+28365 4531 1
+28365 4643 4
+5993 546 2
+5993 1976 1
+5993 1978 2
+5993 16257 1
+5993 4297 7
+3289 1529 3
+3289 546 8
+3289 5223 1
+3289 15116 1
+15087 1529 2
+15087 546 2
+15087 3994 4
+15087 85 1
+15087 3289 35
+18025 1669 8
+40015 9224 4
+5989 9050 2
+5989 5993 5
+5989 1669 3
+5989 4297 7
+5935 1529 2
+5935 3994 1
+5935 2934 1
+5935 1246 7
+5935 5993 6
+5935 5992 1
+5935 5989 3
+2934 1529 2
+2934 546 3
+24205 1529 2
+24205 546 2
+24205 2934 19
+24205 5992 1
+527 546 4
+9726 9224 1
+9726 25764 1
+9726 5931 9
+9726 9050 1
+9726 5993 6
+9726 1669 2
+9726 4297 17
+23131 8778 13
+23131 1529 1
+23131 3994 1
+23131 2934 1
+23131 9726 16
+23131 4297 4
+23131 5993 6
+23131 5992 6
+26856 5931 19
+13100 2473 13
+33546 2400 16
+33546 13100 1
+33546 2473 5
+1529 1671 2
+1529 339 1
+1529 1668 2
+8038 1529 2
+23592 1529 4
+11475 10282 4
+11475 11519 1
+11475 11518 1
+10101 9224 2
+16577 5687 8
+10282 152 1
+10282 10326 5
+16579 16578 12
+16580 5931 7
+11518 7 2
+7 48 3
+11519 48 2
+13929 4068 1
+18459 1246 8
+9606 3901 4
+9606 546 1
+9606 351 2
+9606 339 1
+9606 1423 1
+9606 350 1
+6430 3901 2
+9732 6695 1
+9732 1423 1
+9732 1030 1
+9731 8778 2
+9731 9639 8
+9731 337 2
+9731 5823 2
+21030 4642 1
+21030 17700 1
+7351 1802 1
+28055 1802 1
+14807 5933 4
+15436 1802 1
+5323 5320 1
+5323 11622 1
+11622 5320 2
+17700 17708 1
+17700 17709 1
+17700 1247 1
+17700 11268 1
+40593 4642 1
+40593 17700 1
+23813 1979 4
+23813 339 3
+23813 6163 1
+23813 1246 9
+1094 1248 1
+1094 1246 84
+1094 1249 2
+1094 1291 58
+1094 1253 18
+14998 1247 1
+14998 1246 6
+14998 1291 5
+26282 1248 1
+26282 1246 19
+26282 1249 2
+26282 1291 12
+26282 1253 4
+23972 1979 4
+23972 1248 1
+23972 1246 24
+23972 1249 2
+23972 1291 12
+23972 1253 2
+40237 17709 16
+40237 15132 3
+40237 4724 1
+40237 3900 17
+40237 6163 10
+40237 23813 25
+40237 1246 14
+40237 1291 26
+17709 15132 1
+17709 6163 1
+17709 3900 12
+17709 57 1
+57 85 8
+1247 4724 1
+1247 783 2
+1247 780 3
+2593 2610 2
+2593 781 26
+2593 783 4
+2593 782 5
+2593 780 7
+782 775 3
+36393 775 3
+36393 5071 1
+36393 782 15
+783 781 4
+780 2610 1
+780 781 15
+780 783 3
+713 781 10
+713 775 4
+713 771 1
+713 783 2
+713 782 25
+713 770 1
+713 780 26
+713 772 1
+6274 713 3
+1248 781 5
+1248 6405 3
+1248 9050 1
+1248 1978 2
+1248 2593 3
+6405 781 9
+6405 783 2
+6405 782 3
+6405 780 3
+6398 6405 4
+2610 1979 8
+770 781 24
+770 775 3
+770 783 5
+770 15727 1
+770 15728 1
+770 780 10
+15727 781 19
+15727 775 2
+15727 783 4
+15727 782 5
+15727 780 5
+771 781 15
+771 775 1
+771 783 3
+771 780 5
+15728 781 4
+15728 775 3
+15728 783 1
+15728 780 3
+772 781 4
+772 783 1
+772 782 2
+772 780 3
+5324 11475 2
+5324 10282 1
+5324 16582 1
+2486 2498 1
+11886 2498 1
+11886 4925 1
+16581 18543 3
+16581 12290 2
+16581 18544 3
+16581 6078 3
+16581 11886 3
+16581 16321 2
+16582 9224 1
+16582 6078 2
+16582 16581 4
+16582 5931 4
+8500 6078 5
+12290 6078 2
+16583 18544 3
+5325 14642 1
+5325 10282 1
+5325 48 6
+5325 16579 1
+5325 16580 1
+5325 10101 1
+1249 1529 1
+1249 3994 1
+1249 5989 3
+1249 5324 1
+1249 11475 1
+1249 5325 2
+1249 1246 7
+1249 5993 4
+1249 1291 1
+40374 13379 4
+40374 1249 3
+13347 13379 20
+13347 1249 14
+14614 5318 1
+14614 1249 10
+12755 1249 14
+11534 1671 5
+11534 11621 3
+11534 5322 6
+11534 5319 4
+11534 5320 3
+11534 1249 9
+11534 11622 4
+11534 5323 1
+25716 13379 4
+25716 1249 3
+33753 5318 1
+33753 4223 5
+33753 1249 10
+4186 4223 8
+4186 1249 14
+30054 1671 5
+30054 11621 3
+30054 5322 6
+30054 4223 4
+30054 5319 4
+30054 5320 3
+30054 1249 38
+30054 11622 4
+30054 5323 1
+17060 5323 2
+23718 10209 3
+23718 527 6
+23718 3288 12
+23718 3289 17
+23671 4528 1
+23671 1529 1
+23671 23718 2
+23671 3994 3
+23671 5931 2
+23671 3282 1
+23671 2934 1
+23671 5933 5
+23671 2854 1
+23671 5318 2
+23671 1291 22
+22291 10209 3
+22291 527 10
+22291 3288 14
+22291 3289 21
+22236 7351 4
+22236 4528 1
+22236 1529 1
+22236 3994 3
+22236 5931 2
+22236 3282 1
+22236 2934 1
+22236 5933 7
+22236 22291 2
+22236 2854 1
+22236 1291 24
+29137 10209 4
+29137 527 10
+29137 3288 9
+29137 3289 19
+29120 4528 1
+29120 1529 1
+29120 3994 2
+29120 2854 1
+29120 2934 1
+29120 29137 2
+29120 1291 5
+3254 546 1
+3254 527 5
+3254 3288 10
+3254 3289 9
+36395 1529 1
+36395 3994 2
+36395 3282 1
+36395 2934 1
+36395 5933 5
+36395 9224 3
+36395 546 2
+36395 3254 1
+36395 1291 18
+29291 10209 3
+29291 527 2
+29291 3288 2
+29291 3289 2
+26849 10209 5
+26849 527 12
+26849 3288 11
+26849 3289 25
+26825 4528 1
+26825 1529 2
+26825 3994 2
+26825 3288 2
+26825 2934 1
+26825 2854 1
+26825 26849 6
+26825 1291 4
+26825 3289 4
+17647 10209 3
+17647 546 4
+17647 527 11
+17647 3288 12
+17647 3289 19
+17633 17647 2
+17633 1529 1
+17633 3994 2
+17633 3282 3
+17633 2934 1
+17633 17646 2
+10172 10209 3
+10172 5932 1
+10172 527 3
+10172 3288 5
+10172 3282 2
+10172 5933 3
+10172 3289 9
+34253 5932 14
+34253 4528 1
+34253 1529 1
+34253 3994 2
+34253 5931 5
+34253 3282 3
+34253 2934 1
+34253 5933 5
+34253 2854 1
+34253 10172 2
+34253 1291 21
+34253 5323 4
+4287 4297 16
+3288 1529 2
+3288 3282 2
+3288 5933 2
+3288 3289 6
+10271 1529 2
+10271 3994 4
+10271 3288 4
+10271 5933 1
+10271 3289 2
+5932 5223 3
+5932 15116 3
+10209 5932 2
+6091 5932 2
+6091 1529 2
+6091 3994 4
+6091 3288 2
+37462 10765 4
+10737 10765 9
+10737 8092 9
+18279 10765 1
+18279 10737 4
+18279 8092 1
+5933 22455 3
+33777 10765 1
+33777 10737 1
+33777 8092 1
+33777 5933 37
+35424 8092 3
+22455 10737 2
+22455 8092 2
+22446 22455 7
+22446 10737 1
+22446 8092 1
+27455 3994 7
+27455 3282 17
+5264 5322 1
+5264 1840 8
+5264 5319 2
+5264 5324 10
+5264 5321 6
+5264 5318 1
+5264 5320 5
+5264 5325 1
+5264 5323 1
+25956 5322 1
+25956 4223 4
+25956 1840 8
+25956 11475 10
+25956 5319 1
+25956 5321 1
+25956 5318 1
+25956 5320 5
+25956 5325 1
+25956 5323 1
+4223 6163 1
+3857 3901 3
+3857 3900 39
+3857 3898 1
+3857 57 1
+35590 3900 25
+35590 9050 1
+35590 1978 1
+3901 5932 20
+3901 5931 13
+3901 3282 71
+3901 5933 23
+3901 5322 1
+3901 9224 1
+3901 546 26
+3901 5071 1
+3901 5323 1
+30159 5932 19
+30159 3994 18
+30159 5931 14
+30159 3282 10
+30159 5933 3
+30159 17646 1
+30159 546 6
+30159 3901 12
+30159 9224 27

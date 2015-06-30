@@ -1,0 +1,4881 @@
+*Vertics: 1152
+10,org.apache.mahout.math.decomposer.EigenStatus
+12,org.apache.mahout.classifier.sequencelearning.hmm.HMMModelTest
+18,org.apache.mahout.classifier.sequencelearning.hmm.HMMTestBase
+19,org.apache.mahout.classifier.sequencelearning.hmm.HmmModel
+20,org.apache.mahout.classifier.sequencelearning.hmm.HmmUtils
+27,org.apache.mahout.cf.taste.common.TasteException
+42,org.apache.mahout.cf.taste.impl.similarity.PearsonCorrelationSimilarityTest
+108,org.apache.mahout.cf.taste.common.Weighting
+115,org.apache.mahout.cf.taste.impl.similarity.SimilarityTestCase
+116,org.apache.mahout.cf.taste.impl.similarity.PearsonCorrelationSimilarity
+117,org.apache.mahout.cf.taste.impl.similarity.AbstractSimilarity
+149,org.apache.mahout.cf.taste.example.email.MailToPrefsDriver
+257,org.apache.mahout.common.AbstractJob
+258,org.apache.mahout.common.HadoopUtil
+259,org.apache.mahout.common.Pair
+260,org.apache.mahout.common.commandline.DefaultOptionCreator
+261,org.apache.mahout.common.iterator.sequencefile.PathFilters
+262,org.apache.mahout.common.iterator.sequencefile.PathType
+263,org.apache.mahout.common.iterator.sequencefile.SequenceFileDirIterable
+264,org.apache.mahout.math.VarIntWritable
+268,org.apache.mahout.cf.taste.example.email.MsgIdToDictionaryMapper
+269,org.apache.mahout.cf.taste.example.email.MailToDictionaryReducer
+270,org.apache.mahout.cf.taste.example.email.FromEmailToDictionaryMapper
+271,org.apache.mahout.cf.taste.example.email.EmailUtility
+272,org.apache.mahout.cf.taste.example.email.MailToRecReducer
+273,org.apache.mahout.cf.taste.example.email.MailToRecMapper
+303,org.apache.mahout.utils.vectors.io.VectorWriterTest
+321,org.apache.mahout.common.MahoutTestCase
+322,org.apache.mahout.math.DenseVector
+323,org.apache.mahout.math.VectorWritable
+324,org.apache.mahout.utils.vectors.RandomVectorIterable
+326,org.apache.mahout.utils.vectors.io.SequenceFileVectorWriter
+328,org.apache.mahout.utils.vectors.io.TextualVectorWriter
+338,org.apache.mahout.cf.taste.impl.eval.LoadCallable
+353,org.apache.mahout.classifier.df.mapreduce.Classifier
+442,org.apache.mahout.classifier.df.DFUtils
+443,org.apache.mahout.classifier.df.DecisionForest
+444,org.apache.mahout.classifier.df.data.DataConverter
+445,org.apache.mahout.classifier.df.data.Dataset
+446,org.apache.mahout.classifier.df.data.Instance
+447,org.apache.mahout.common.RandomUtils
+448,org.apache.mahout.common.iterator.sequencefile.SequenceFileIterable
+474,org.apache.mahout.vectorizer.tfidf.TFIDFConverter
+571,org.apache.mahout.vectorizer.common.PartialVectorMerger
+572,org.apache.mahout.vectorizer.term.TermDocumentCountMapper
+573,org.apache.mahout.vectorizer.term.TermDocumentCountReducer
+576,org.apache.mahout.vectorizer.tfidf.TFIDFPartialVectorReducer
+583,org.apache.mahout.cf.taste.impl.similarity.EuclideanDistanceSimilarity
+603,org.apache.mahout.math.hadoop.stats.StandardDeviationCalculatorReducer
+614,org.apache.mahout.ep.EvolutionaryProcessTest
+637,org.apache.mahout.ep.State
+638,org.apache.mahout.ep.EvolutionaryProcess
+654,org.apache.mahout.classifier.df.mapreduce.BuildForest
+736,org.apache.mahout.common.CommandLineUtil
+737,org.apache.mahout.classifier.df.builder.DecisionTreeBuilder
+738,org.apache.mahout.classifier.df.data.Data
+739,org.apache.mahout.classifier.df.data.DataLoader
+740,org.apache.mahout.classifier.df.mapreduce.inmem.InMemBuilder
+741,org.apache.mahout.classifier.df.mapreduce.partial.PartialBuilder
+745,org.apache.mahout.classifier.df.mapreduce.Builder
+767,org.apache.mahout.classifier.df.data.DataUtils
+790,org.apache.mahout.cf.taste.impl.similarity.CityBlockSimilarity
+829,org.apache.mahout.cf.taste.impl.common.FastIDSet
+830,org.apache.mahout.cf.taste.impl.common.RefreshHelper
+832,org.apache.mahout.cf.taste.impl.similarity.AbstractItemSimilarity
+846,org.apache.mahout.cf.taste.impl.model.BooleanUserPreferenceArray
+924,org.apache.mahout.common.iterator.CountingIterator
+951,org.apache.mahout.cf.taste.web.RecommenderSingleton
+962,org.apache.mahout.common.ClassUtils
+964,org.apache.mahout.vectorizer.encoders.Dictionary
+983,org.apache.mahout.cf.taste.impl.similarity.GenericUserSimilarity
+1066,org.apache.mahout.cf.taste.impl.common.FastByIDMap
+1068,org.apache.mahout.cf.taste.impl.recommender.TopItems
+1079,org.apache.mahout.math.map.OpenHashMap
+1233,org.apache.mahout.math.set.AbstractSet
+1234,org.apache.mahout.math.set.OpenHashSet
+1236,org.apache.mahout.math.map.PrimeFinder
+1262,org.apache.mahout.cf.taste.impl.common.RefreshHelperTest
+1279,org.apache.mahout.cf.taste.impl.TasteTestCase
+1281,org.apache.mahout.cf.taste.impl.common.MockRefreshable
+1290,org.apache.mahout.cf.taste.impl.recommender.svd.Factorization
+1292,org.apache.mahout.math.hadoop.stochasticsvd.qr.GivensThinSolver
+1531,org.apache.mahout.math.AbstractVector
+1533,org.apache.mahout.math.OrderedIntDoubleMapping
+1534,org.apache.mahout.math.UpperTriangular
+1535,org.apache.mahout.math.AbstractMatrix
+1570,org.apache.mahout.cf.taste.impl.model.AbstractJDBCIDMigrator
+1615,org.apache.mahout.common.IOUtils
+1616,org.apache.mahout.cf.taste.impl.model.AbstractIDMigrator
+1623,org.apache.mahout.math.VectorView
+1689,org.apache.mahout.math.IndexException
+1714,org.apache.mahout.utils.vectors.lucene.LuceneIterableTest
+1780,org.apache.mahout.math.NamedVector
+1782,org.apache.mahout.vectorizer.TFIDF
+1783,org.apache.mahout.utils.vectors.lucene.LuceneIterable
+1784,org.apache.mahout.utils.vectors.lucene.CachedTermInfo
+1798,org.apache.mahout.classifier.sgd.ModelSerializerTest
+1847,org.apache.mahout.math.function.DoubleFunction
+1848,org.apache.mahout.math.function.Functions
+1849,org.apache.mahout.math.stats.GlobalOnlineAuc
+1853,org.apache.mahout.classifier.sgd.AdaptiveLogisticRegression
+1854,org.apache.mahout.classifier.sgd.CrossFoldLearner
+1855,org.apache.mahout.classifier.sgd.OnlineLogisticRegression
+1856,org.apache.mahout.classifier.sgd.PolymorphicWritable
+1857,org.apache.mahout.classifier.sgd.L1
+1858,org.apache.mahout.classifier.sgd.AbstractOnlineLogisticRegression
+1891,org.apache.mahout.text.wikipedia.WikipediaDatasetCreatorDriver
+1937,org.apache.mahout.common.iterator.FileLineIterable
+1938,org.apache.mahout.text.wikipedia.WikipediaAnalyzer
+1939,org.apache.mahout.text.wikipedia.WikipediaDatasetCreatorMapper
+1940,org.apache.mahout.text.wikipedia.XmlInputFormat
+1941,org.apache.mahout.text.wikipedia.WikipediaDatasetCreatorReducer
+1947,org.apache.mahout.vectorizer.collocations.llr.LLRReducer
+2007,org.apache.mahout.math.stats.LogLikelihood
+2008,org.apache.mahout.vectorizer.collocations.llr.Gram
+2010,org.apache.mahout.vectorizer.collocations.llr.CollocDriver
+2021,org.apache.mahout.vectorizer.EncodedVectorsFromSequenceFiles
+2038,org.apache.mahout.vectorizer.encoders.FeatureVectorEncoder
+2039,org.apache.mahout.vectorizer.encoders.LuceneTextValueEncoder
+2040,org.apache.mahout.vectorizer.VectorizerConfig
+2041,org.apache.mahout.vectorizer.SimpleTextEncodingVectorizer
+2047,org.apache.mahout.clustering.kmeans.KMeansUtil
+2060,org.apache.mahout.clustering.canopy.Canopy
+2061,org.apache.mahout.clustering.iterator.ClusterWritable
+2062,org.apache.mahout.common.iterator.sequencefile.SequenceFileDirValueIterable
+2066,org.apache.mahout.clustering.kmeans.Kluster
+2067,org.apache.mahout.clustering.AbstractCluster
+2068,org.apache.mahout.clustering.iterator.DistanceMeasureCluster
+2078,org.apache.mahout.cf.taste.impl.model.PlusAnonymousUserDataModel
+2146,org.apache.mahout.cf.taste.common.NoSuchItemException
+2147,org.apache.mahout.cf.taste.common.NoSuchUserException
+2148,org.apache.mahout.cf.taste.impl.model.PlusAnonymousUserLongPrimitiveIterator
+2149,org.apache.mahout.cf.taste.impl.model.GenericItemPreferenceArray
+2169,org.apache.mahout.cf.taste.impl.model.GenericUserPreferenceArray
+2258,org.apache.mahout.classifier.sgd.bankmarketing.BankMarketingClassificationMain
+2277,org.apache.mahout.classifier.evaluation.Auc
+2279,org.apache.mahout.classifier.sgd.bankmarketing.TelephoneCall
+2280,org.apache.mahout.classifier.sgd.bankmarketing.TelephoneCallParser
+2299,org.apache.mahout.math.SequentialAccessSparseVector
+2396,org.apache.mahout.math.SparseMatrix
+2415,org.apache.mahout.math.DistributedRowMatrixWriter
+2427,org.apache.mahout.math.MatrixSlice
+2434,org.apache.mahout.common.iterator.CopyConstructorIterator
+2454,org.apache.mahout.cf.taste.hadoop.item.PrefAndSimilarityColumnWritable
+2486,org.apache.mahout.cf.taste.impl.eval.LoadStatistics
+2495,org.apache.mahout.common.RandomWrapper
+2525,org.apache.mahout.cf.taste.similarity.precompute.BatchItemSimilarities
+2541,org.apache.mahout.cf.taste.impl.similarity.file.FileItemItemSimilarityIterable
+2548,org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarity
+2550,org.apache.mahout.cf.taste.impl.similarity.file.FileItemItemSimilarityIterator
+2554,org.apache.mahout.common.nlp.NGrams
+2588,org.apache.mahout.math.hadoop.stochasticsvd.SSVDSolver
+2715,org.apache.mahout.math.solver.EigenDecomposition
+2717,org.apache.mahout.math.DenseSymmetricMatrix
+2718,org.apache.mahout.math.hadoop.stochasticsvd.Omega
+2719,org.apache.mahout.math.hadoop.stochasticsvd.UJob
+2720,org.apache.mahout.math.hadoop.stochasticsvd.VJob
+2721,org.apache.mahout.math.hadoop.stochasticsvd.SSVDHelper
+2722,org.apache.mahout.math.hadoop.stochasticsvd.QJob
+2723,org.apache.mahout.math.hadoop.stochasticsvd.BtJob
+2724,org.apache.mahout.math.hadoop.stochasticsvd.ABtDenseOutJob
+2725,org.apache.mahout.math.DenseMatrix
+2759,org.apache.mahout.utils.Bump125
+2785,org.apache.mahout.utils.vectors.csv.CSVVectorIteratorTest
+2799,org.apache.mahout.utils.vectors.VectorHelper
+2800,org.apache.mahout.utils.vectors.csv.CSVVectorIterator
+2807,org.apache.mahout.cf.taste.impl.model.jdbc.AbstractJDBCDataModel
+3013,org.apache.mahout.cf.taste.impl.common.Cache
+3015,org.apache.mahout.cf.taste.impl.common.jdbc.AbstractJDBCComponent
+3016,org.apache.mahout.cf.taste.impl.common.jdbc.ResultSetIterator
+3017,org.apache.mahout.cf.taste.impl.model.GenericPreference
+3020,org.apache.mahout.cf.taste.impl.model.jdbc.ConnectionPoolDataSource
+3039,org.apache.mahout.math.stats.LogLikelihoodTest
+3076,org.apache.mahout.math.MahoutTestCase
+3169,org.apache.mahout.ep.Mapping
+3180,org.apache.mahout.classifier.sequencelearning.hmm.LossyHmmSerializer
+3194,org.apache.mahout.math.MatrixWritable
+3207,org.apache.mahout.text.TestPathFilter
+3268,org.apache.mahout.vectorizer.term.TermCountMapper
+3282,org.apache.mahout.common.StringTuple
+3286,org.apache.mahout.math.DelegatingVector
+3387,org.apache.mahout.math.function.DoubleDoubleFunction
+3417,org.apache.mahout.utils.regex.IdentityFormatter
+3424,org.apache.mahout.clustering.OnlineGaussianAccumulator
+3442,org.apache.mahout.math.function.SquareRootFunction
+3452,org.apache.mahout.math.MatricesTest
+3485,org.apache.mahout.math.Matrices
+3498,org.apache.mahout.math.FileBasedSparseBinaryMatrix
+3629,org.apache.mahout.math.RandomAccessSparseVector
+3644,org.apache.mahout.cf.taste.impl.common.SamplingLongPrimitiveIterator
+3673,org.apache.mahout.cf.taste.impl.common.AbstractLongPrimitiveIterator
+3679,org.apache.mahout.clustering.lda.cvb.ModelTrainer
+3798,org.apache.mahout.math.SparseRowMatrix
+3799,org.apache.mahout.clustering.lda.cvb.TopicModel
+3808,org.apache.mahout.cf.taste.example.TasteOptionParser
+3822,org.apache.mahout.math.neighborhood.FastProjectionSearch
+3903,org.apache.mahout.math.random.RandomProjector
+3904,org.apache.mahout.math.random.WeightedThing
+3907,org.apache.mahout.math.neighborhood.UpdatableSearcher
+3923,org.apache.mahout.clustering.lda.cvb.CachingCVB0Mapper
+3953,org.apache.mahout.clustering.lda.cvb.CVB0Driver
+3969,org.apache.mahout.math.jet.random.AbstractDistribution
+3990,org.apache.mahout.cf.taste.impl.similarity.jdbc.MySQLJDBCInMemoryItemSimilarityTest
+4005,org.apache.mahout.cf.taste.impl.similarity.jdbc.MySQLJDBCInMemoryItemSimilarity
+4006,org.apache.mahout.cf.taste.impl.similarity.jdbc.SQL92JDBCInMemoryItemSimilarity
+4120,org.apache.mahout.math.jet.stat.Probability
+4152,org.apache.mahout.math.jet.random.Normal
+4154,org.apache.mahout.math.jet.stat.Gamma
+4160,org.apache.mahout.fpm.pfpgrowth.dataset.KeyBasedStringTupleReducer
+4178,org.apache.mahout.common.Parameters
+4181,org.apache.mahout.common.iterator.TestFixedSizeSampler
+4186,org.apache.mahout.common.iterator.SamplerCase
+4187,org.apache.mahout.common.iterator.FixedSizeSamplingIterator
+4197,org.apache.mahout.cf.taste.example.kddcup.track1.Track1Runner
+4221,org.apache.mahout.cf.taste.example.kddcup.DataFileIterable
+4222,org.apache.mahout.cf.taste.example.kddcup.KDDCupDataModel
+4224,org.apache.mahout.cf.taste.example.kddcup.track1.Track1Recommender
+4225,org.apache.mahout.cf.taste.example.kddcup.track1.Track1Callable
+4234,org.apache.mahout.classifier.sgd.PrintResourceOrFile
+4242,org.apache.mahout.classifier.sgd.TrainLogistic
+4245,org.apache.mahout.cf.taste.impl.similarity.jdbc.AbstractJDBCItemSimilarity
+4308,org.apache.mahout.cf.taste.impl.recommender.CachingRecommender
+4388,org.apache.mahout.common.LongPair
+4405,org.apache.mahout.cf.taste.example.kddcup.track1.Track1RecommenderEvaluatorRunner
+4415,org.apache.mahout.cf.taste.example.kddcup.track1.Track1RecommenderEvaluator
+4416,org.apache.mahout.cf.taste.example.kddcup.track1.Track1RecommenderBuilder
+4426,org.apache.mahout.classifier.sgd.TrainAdaptiveLogistic
+4527,org.apache.mahout.classifier.sgd.AdaptiveLogisticModelParameters
+4528,org.apache.mahout.classifier.sgd.LogisticModelParameters
+4529,org.apache.mahout.classifier.sgd.CsvRecordFactory
+4557,org.apache.mahout.driver.MahoutDriver
+4622,org.apache.mahout.utils.clustering.JsonClusterWriter
+4683,org.apache.mahout.clustering.classify.WeightedPropertyVectorWritable
+4685,org.apache.mahout.utils.clustering.AbstractClusterWriter
+4686,org.apache.mahout.clustering.classify.WeightedVectorWritable
+4701,org.apache.mahout.cf.taste.hadoop.item.RecommenderJobTest
+4896,org.apache.mahout.cf.taste.hadoop.EntityPrefWritable
+4897,org.apache.mahout.cf.taste.hadoop.MutableRecommendedItem
+4898,org.apache.mahout.cf.taste.hadoop.RecommendedItemsWritable
+4899,org.apache.mahout.cf.taste.hadoop.TasteHadoopUtils
+4900,org.apache.mahout.cf.taste.hadoop.ToItemPrefsMapper
+4901,org.apache.mahout.cf.taste.impl.recommender.GenericRecommendedItem
+4902,org.apache.mahout.math.VarLongWritable
+4903,org.apache.mahout.math.hadoop.MathHelper
+4904,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.CooccurrenceCountSimilarity
+4905,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.TanimotoCoefficientSimilarity
+4910,org.apache.mahout.cf.taste.hadoop.item.VectorOrPrefWritable
+4911,org.apache.mahout.cf.taste.hadoop.item.AggregateAndRecommendReducer
+4912,org.apache.mahout.cf.taste.hadoop.item.RecommenderJob
+4913,org.apache.mahout.cf.taste.hadoop.item.ItemFilterMapper
+4914,org.apache.mahout.cf.taste.hadoop.item.VectorAndPrefsWritable
+4915,org.apache.mahout.cf.taste.hadoop.item.UserVectorSplitterMapper
+4916,org.apache.mahout.cf.taste.hadoop.item.ItemIDIndexMapper
+4917,org.apache.mahout.cf.taste.hadoop.item.ItemIDIndexReducer
+4918,org.apache.mahout.cf.taste.hadoop.ToEntityPrefsMapper
+4919,org.apache.mahout.cf.taste.hadoop.item.ToUserVectorsReducer
+4921,org.apache.mahout.cf.taste.hadoop.item.SimilarityMatrixRowWrapperMapper
+4922,org.apache.mahout.cf.taste.hadoop.item.ToVectorAndPrefReducer
+4923,org.apache.mahout.cf.taste.hadoop.item.ItemFilterAsVectorAndPrefsReducer
+4924,org.apache.mahout.cf.taste.hadoop.item.PartialMultiplyMapper
+4966,org.apache.mahout.math.VectorTest
+5188,org.apache.mahout.classifier.df.mapreduce.MapredOutput
+5215,org.apache.mahout.classifier.df.node.Node
+5224,org.apache.mahout.classifier.email.PrepEmailMapper
+5242,org.apache.mahout.classifier.email.PrepEmailVectorsDriver
+5245,org.apache.mahout.clustering.canopy.CanopyConfigKeys
+5261,org.apache.mahout.clustering.canopy.CanopyClusterer
+5288,org.apache.mahout.cf.taste.impl.model.GenericItemPreferenceArrayTest
+5309,org.apache.mahout.math.stats.OnlineSummarizer
+5334,org.apache.mahout.math.CholeskyDecompositionTest
+5381,org.apache.mahout.math.CholeskyDecomposition
+5382,org.apache.mahout.math.PivotedMatrix
+5395,org.apache.mahout.cf.taste.impl.recommender.AllSimilarItemsCandidateItemsStrategy
+5405,org.apache.mahout.cf.taste.impl.recommender.AbstractCandidateItemsStrategy
+5418,org.apache.mahout.common.iterator.FileLineIterator
+5421,org.apache.mahout.cf.taste.impl.common.InvertedRunningAverageAndStdDev
+5439,org.apache.mahout.common.distance.TestEuclideanDistanceMeasure
+5441,org.apache.mahout.common.distance.DefaultDistanceMeasureTest
+5442,org.apache.mahout.common.distance.EuclideanDistanceMeasure
+5460,org.apache.mahout.text.TextParagraphSplittingJob
+5481,org.apache.mahout.utils.vectors.lucene.Driver
+5576,org.apache.mahout.utils.vectors.TermEntry
+5577,org.apache.mahout.utils.vectors.io.DelimitedTermInfoWriter
+5578,org.apache.mahout.vectorizer.TF
+5587,org.apache.mahout.utils.regex.ChainTransformer
+5610,org.apache.mahout.clustering.streaming.mapreduce.StreamingKMeansTestMR
+5700,org.apache.mahout.clustering.ClusteringUtils
+5701,org.apache.mahout.clustering.streaming.cluster.DataUtils
+5702,org.apache.mahout.clustering.streaming.cluster.StreamingKMeans
+5703,org.apache.mahout.common.distance.SquaredEuclideanDistanceMeasure
+5704,org.apache.mahout.math.Centroid
+5705,org.apache.mahout.math.neighborhood.BruteSearch
+5706,org.apache.mahout.math.neighborhood.LocalitySensitiveHashSearch
+5707,org.apache.mahout.math.neighborhood.ProjectionSearch
+5709,org.apache.mahout.clustering.streaming.mapreduce.StreamingKMeansDriver
+5710,org.apache.mahout.clustering.streaming.mapreduce.StreamingKMeansMapper
+5711,org.apache.mahout.clustering.streaming.mapreduce.StreamingKMeansUtilsMR
+5712,org.apache.mahout.clustering.streaming.mapreduce.StreamingKMeansReducer
+5713,org.apache.mahout.clustering.streaming.mapreduce.CentroidWritable
+5714,org.apache.mahout.math.WeightedVector
+5759,org.apache.mahout.math.Varint
+5763,org.apache.mahout.clustering.fuzzykmeans.SoftCluster
+5792,org.apache.mahout.common.iterator.sequencefile.SequenceFileIterator
+5795,org.apache.mahout.utils.ConcatenateVectorsReducer
+5819,org.apache.mahout.utils.ConcatenateVectorsJob
+5824,org.apache.mahout.common.distance.WeightedDistanceMeasure
+5843,org.apache.mahout.common.parameters.ClassParameter
+5845,org.apache.mahout.common.parameters.PathParameter
+5847,org.apache.mahout.common.parameters.AbstractParameter
+5880,org.apache.mahout.utils.vectors.lucene.LuceneIterator
+5883,org.apache.mahout.math.DenseSymmetricTest
+5906,org.apache.mahout.classifier.email.PrepEmailReducer
+5908,org.apache.mahout.math.MurmurHash3
+5923,org.apache.mahout.cf.taste.impl.common.SamplingLongPrimitiveIteratorTest
+5944,org.apache.mahout.cf.taste.impl.common.LongPrimitiveArrayIterator
+5965,org.apache.mahout.clustering.topdown.PathDirectory
+6053,org.apache.mahout.vectorizer.collocations.llr.CollocReducerTest
+6068,org.apache.mahout.vectorizer.collocations.llr.CollocReducer
+6069,org.apache.mahout.vectorizer.collocations.llr.GramKey
+6081,org.apache.mahout.cf.taste.web.RecommenderServlet
+6209,org.apache.mahout.common.TimingStatistics
+6254,org.apache.mahout.clustering.spectral.TestUnitVectorizerJob
+6271,org.apache.mahout.common.DummyRecordWriter
+6272,org.apache.mahout.clustering.spectral.UnitVectorizerJob
+6278,org.apache.mahout.utils.SplitInputJob
+6337,org.apache.mahout.common.iterator.sequencefile.SequenceFileDirIterator
+6340,org.apache.mahout.cf.taste.impl.recommender.AllUnknownItemsCandidateItemsStrategyTest
+6349,org.apache.mahout.cf.taste.impl.recommender.AllUnknownItemsCandidateItemsStrategy
+6360,org.apache.mahout.cf.taste.impl.model.hbase.HBaseDataModel
+6534,org.apache.mahout.classifier.df.mapreduce.inmem.InMemInputFormatTest
+6569,org.apache.mahout.classifier.df.mapreduce.inmem.InMemInputFormat
+6579,org.apache.mahout.vectorizer.collocations.llr.GramKeyTest
+6605,org.apache.mahout.math.MatrixWritableTest
+6645,org.apache.mahout.classifier.sgd.MixedGradient
+6660,org.apache.mahout.classifier.AbstractVectorClassifier
+6662,org.apache.mahout.classifier.sgd.RankingGradient
+6669,org.apache.mahout.math.PermutedVectorViewTest
+6695,org.apache.mahout.math.PermutedVectorView
+6701,org.apache.mahout.common.iterator.StableFixedSizeSamplingIterator
+6717,org.apache.mahout.cf.taste.impl.recommender.svd.ParallelSGDFactorizer
+6859,org.apache.mahout.cf.taste.impl.common.FullRunningAverage
+6860,org.apache.mahout.cf.taste.impl.recommender.svd.AbstractFactorizer
+6867,org.apache.mahout.vectorizer.term.TermCountReducer
+6877,org.apache.mahout.vectorizer.DictionaryVectorizer
+6884,org.apache.mahout.math.randomized.RandomBlasting
+6966,org.apache.mahout.math.TestSparseColumnMatrix
+6973,org.apache.mahout.math.MatrixTest
+6974,org.apache.mahout.math.SparseColumnMatrix
+6979,org.apache.mahout.cf.taste.impl.similarity.CachingUserSimilarity
+7007,org.apache.mahout.cf.taste.impl.similarity.LongPairMatchPredicate
+7010,org.apache.mahout.math.hadoop.similarity.SeedVectorUtil
+7030,org.apache.mahout.math.hadoop.similarity.VectorDistanceSimilarityJob
+7054,org.apache.mahout.classifier.df.node.Leaf
+7055,org.apache.mahout.classifier.df.node.NumericalNode
+7056,org.apache.mahout.classifier.df.node.CategoricalNode
+7061,org.apache.mahout.clustering.streaming.cluster.BallKMeansTest
+7119,org.apache.mahout.math.ConstantVector
+7120,org.apache.mahout.math.SingularValueDecomposition
+7122,org.apache.mahout.math.neighborhood.Searcher
+7123,org.apache.mahout.math.random.MultiNormal
+7125,org.apache.mahout.clustering.streaming.cluster.BallKMeans
+7139,org.apache.mahout.vectorizer.encoders.CachingTextValueEncoder
+7143,org.apache.mahout.vectorizer.encoders.TextValueEncoder
+7144,org.apache.mahout.vectorizer.encoders.CachingStaticWordValueEncoder
+7149,org.apache.mahout.math.jet.stat.ProbabilityTest
+7170,org.apache.mahout.math.PersistentObject
+7190,org.apache.mahout.utils.MatrixDumper
+7227,org.apache.mahout.common.iterator.sequencefile.SequenceFileValueIterator
+7279,org.apache.mahout.common.DummyStatusReporter
+7310,org.apache.mahout.classifier.mlp.MultilayerPerceptron
+7330,org.apache.mahout.classifier.mlp.NeuralNetwork
+7338,org.apache.mahout.math.jet.random.AbstractContinousDistribution
+7345,org.apache.mahout.cf.taste.impl.eval.GenericRecommenderIRStatsEvaluatorImplTest
+7364,org.apache.mahout.cf.taste.impl.model.GenericBooleanPrefDataModel
+7365,org.apache.mahout.cf.taste.impl.recommender.GenericBooleanPrefItemBasedRecommender
+7366,org.apache.mahout.cf.taste.impl.similarity.LogLikelihoodSimilarity
+7368,org.apache.mahout.cf.taste.impl.eval.GenericRecommenderIRStatsEvaluator
+7369,org.apache.mahout.cf.taste.impl.eval.IRStatisticsImpl
+7387,org.apache.mahout.math.hadoop.decomposer.EigenVerificationJob
+7485,org.apache.mahout.math.decomposer.SimpleEigenVerifier
+7486,org.apache.mahout.math.hadoop.DistributedRowMatrix
+7487,org.apache.mahout.math.hadoop.decomposer.EigenVector
+7496,org.apache.mahout.math.function.Mult
+7511,org.apache.mahout.classifier.sequencelearning.hmm.ViterbiEvaluator
+7539,org.apache.mahout.classifier.sequencelearning.hmm.HmmEvaluator
+7543,org.apache.mahout.cf.taste.impl.recommender.svd.RatingSGDFactorizer
+7661,org.apache.mahout.math.set.HashUtils
+7701,org.apache.mahout.utils.vectors.lucene.AbstractLuceneIterator
+7742,org.apache.mahout.classifier.sgd.ValidateAdaptiveLogistic
+7791,org.apache.mahout.classifier.ConfusionMatrix
+7805,org.apache.mahout.clustering.lda.cvb.CVB0DocInferenceMapper
+7820,org.apache.mahout.cf.taste.impl.recommender.ItemAverageRecommender
+7883,org.apache.mahout.cf.taste.impl.recommender.AbstractRecommender
+7893,org.apache.mahout.cf.taste.impl.recommender.RandomRecommender
+7925,org.apache.mahout.classifier.sgd.OnlineLogisticRegressionTest
+7990,org.apache.mahout.classifier.sgd.OnlineBaseTest
+7991,org.apache.mahout.classifier.sgd.L2
+8007,org.apache.mahout.clustering.spectral.TestAffinityMatrixInputJob
+8036,org.apache.mahout.clustering.spectral.AffinityMatrixInputMapper
+8037,org.apache.mahout.clustering.spectral.AffinityMatrixInputReducer
+8038,org.apache.mahout.clustering.spectral.Keys
+8047,org.apache.mahout.cf.taste.example.bookcrossing.BookCrossingDataModelBuilder
+8082,org.apache.mahout.cf.taste.impl.common.InvertedRunningAverage
+8085,org.apache.mahout.clustering.kmeans.RandomSeedGenerator
+8131,org.apache.mahout.benchmark.BenchmarkRunner
+8189,org.apache.mahout.vectorizer.common.PartialVectorMergeReducer
+8191,org.apache.mahout.clustering.iterator.AbstractClusteringPolicy
+8212,org.apache.mahout.clustering.classify.ClusterClassifier
+8213,org.apache.mahout.math.function.TimesFunction
+8224,org.apache.mahout.classifier.df.data.conditions.Lesser
+8233,org.apache.mahout.classifier.df.data.conditions.Condition
+8237,org.apache.mahout.utils.vectors.lucene.DriverTest
+8360,org.apache.mahout.math.MatrixVectorViewTest
+8566,org.apache.mahout.math.CardinalityException
+8584,org.apache.mahout.math.ssvd.SequentialOutOfCoreSvd
+8645,org.apache.mahout.math.RandomTrinaryMatrix
+8651,org.apache.mahout.text.doc.MultipleFieldsDocument
+8667,org.apache.mahout.text.doc.SingleFieldDocument
+8671,org.apache.mahout.math.jet.random.engine.RandomEngine
+8691,org.apache.mahout.math.MurmurHash3Test
+8702,org.apache.mahout.math.hadoop.stochasticsvd.qr.QRLastStep
+8729,org.apache.mahout.math.hadoop.stochasticsvd.DenseBlockWritable
+8733,org.apache.mahout.clustering.spectral.VertexWritable
+8763,org.apache.mahout.vectorizer.encoders.WordValueEncoder
+8805,org.apache.mahout.cf.taste.example.kddcup.DataFileIterator
+8808,org.apache.mahout.cf.taste.impl.model.jdbc.PostgreSQLBooleanPrefJDBCDataModel
+8831,org.apache.mahout.cf.taste.impl.model.jdbc.SQL92BooleanPrefJDBCDataModel
+8838,org.apache.mahout.math.hadoop.stochasticsvd.LocalSSVDSolverDenseTest
+8868,org.apache.mahout.math.hadoop.stochasticsvd.SSVDTestsHelper
+8869,org.apache.mahout.math.hadoop.stochasticsvd.SSVDCommonTest
+8895,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.CountbasedMeasure
+8899,org.apache.mahout.vectorizer.DictionaryVectorizerTest
+8951,org.apache.mahout.vectorizer.RandomDocumentGenerator
+8952,org.apache.mahout.vectorizer.DocumentProcessor
+8959,org.apache.mahout.cf.taste.impl.model.jdbc.GenericJDBCDataModel
+8991,org.apache.mahout.cf.taste.impl.neighborhood.CachingUserNeighborhood
+9014,org.apache.mahout.cf.taste.impl.recommender.svd.SVDRecommenderTest
+9031,org.apache.mahout.cf.taste.impl.recommender.svd.SVDRecommender
+9052,org.apache.mahout.classifier.naivebayes.NaiveBayesModelTest
+9057,org.apache.mahout.classifier.naivebayes.NaiveBayesTestBase
+9058,org.apache.mahout.classifier.naivebayes.NaiveBayesModel
+9063,org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender
+9149,org.apache.mahout.cf.taste.impl.recommender.EstimatedPreferenceCapper
+9160,org.apache.mahout.collections.Arithmetic
+9230,org.apache.mahout.collections.Constants
+9232,org.apache.mahout.vectorizer.encoders.CachingContinuousValueEncoder
+9250,org.apache.mahout.vectorizer.encoders.ContinuousValueEncoder
+9255,org.apache.mahout.common.distance.TestChebyshevMeasure
+9265,org.apache.mahout.common.distance.ChebyshevDistanceMeasure
+9273,org.apache.mahout.cf.taste.impl.common.RunningAverageAndStdDevTest
+9283,org.apache.mahout.cf.taste.impl.common.FullRunningAverageAndStdDev
+9286,org.apache.mahout.vectorizer.collocations.llr.CollocMapperTest
+9323,org.apache.mahout.vectorizer.collocations.llr.CollocMapper
+9334,org.apache.mahout.text.PrefixAdditionFilter
+9355,org.apache.mahout.utils.io.ChunkedWriter
+9357,org.apache.mahout.text.SequenceFilesFromDirectoryFilter
+9369,org.apache.mahout.math.VarintTest
+9424,org.apache.mahout.math.random.AbstractSamplerFunction
+9437,org.apache.mahout.classifier.df.ErrorEstimate
+9448,org.apache.mahout.vectorizer.encoders.InteractionValueEncoderTest
+9474,org.apache.mahout.vectorizer.encoders.InteractionValueEncoder
+9475,org.apache.mahout.vectorizer.encoders.StaticWordValueEncoder
+9483,org.apache.mahout.classifier.df.mapreduce.partial.Step1Mapper
+9520,org.apache.mahout.classifier.df.Bagging
+9521,org.apache.mahout.classifier.df.mapreduce.MapredMapper
+9522,org.apache.mahout.classifier.df.mapreduce.partial.TreeID
+9536,org.apache.mahout.classifier.sgd.ModelSerializer
+9556,org.apache.mahout.common.parameters.DoubleParameter
+9570,org.apache.mahout.math.hadoop.similarity.cooccurrence.Vectors
+9652,org.apache.mahout.math.hadoop.similarity.cooccurrence.MutableElement
+9653,org.apache.mahout.math.hadoop.similarity.cooccurrence.TopElementsQueue
+9666,org.apache.mahout.utils.nlp.collocations.llr.BloomTokenFilterTest
+9740,org.apache.mahout.utils.nlp.collocations.llr.BloomTokenFilter
+9743,org.apache.mahout.benchmark.PlusBenchmark
+9794,org.apache.mahout.benchmark.VectorBenchmarks
+9800,org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommenderTest
+9847,org.apache.mahout.cf.taste.impl.neighborhood.NearestNUserNeighborhood
+9848,org.apache.mahout.cf.taste.impl.recommender.ReversingRescorer
+9880,org.apache.mahout.math.TestSequentialAccessSparseVector
+9892,org.apache.mahout.math.AbstractVectorTest
+9897,org.apache.mahout.classifier.sequencelearning.hmm.RandomSequenceGenerator
+9920,org.apache.mahout.classifier.ConfusionMatrixTest
+10106,org.apache.mahout.clustering.fuzzykmeans.FuzzyKMeansDriver
+10176,org.apache.mahout.clustering.classify.ClusterClassificationDriver
+10177,org.apache.mahout.clustering.iterator.ClusterIterator
+10178,org.apache.mahout.clustering.iterator.FuzzyKMeansClusteringPolicy
+10179,org.apache.mahout.clustering.fuzzykmeans.FuzzyKMeansUtil
+10208,org.apache.mahout.cf.taste.impl.similarity.UncenteredCosineSimilarity
+10241,org.apache.mahout.cf.taste.common.CommonTest
+10293,org.apache.mahout.h2obindings.drm.H2ODrm
+10305,org.apache.mahout.cf.taste.impl.eval.OrderBasedRecommenderEvaluator
+10575,org.apache.mahout.common.IntPairWritableTest
+10591,org.apache.mahout.common.IntPairWritable
+10601,org.apache.mahout.utils.vectors.RowIdJob
+10658,org.apache.mahout.cf.taste.impl.recommender.NullRescorer
+10704,org.apache.mahout.clustering.canopy.TestCanopyCreation
+10879,org.apache.mahout.clustering.ClusteringTestUtils
+10880,org.apache.mahout.common.distance.ManhattanDistanceMeasure
+10881,org.apache.mahout.common.iterator.sequencefile.SequenceFileValueIterable
+10882,org.apache.mahout.clustering.canopy.CanopyMapper
+10883,org.apache.mahout.clustering.canopy.CanopyReducer
+10884,org.apache.mahout.clustering.canopy.CanopyDriver
+10909,org.apache.mahout.cf.taste.impl.model.jdbc.AbstractBooleanPrefJDBCDataModel
+10946,org.apache.mahout.cf.taste.impl.model.BooleanPreference
+10952,org.apache.mahout.classifier.df.tools.TreeVisualizer
+11036,org.apache.mahout.cf.taste.impl.similarity.SpearmanCorrelationSimilarity
+11063,org.apache.mahout.cf.taste.impl.eval.AverageAbsoluteDifferenceRecommenderEvaluator
+11071,org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator
+11127,org.apache.mahout.classifier.sgd.DefaultGradient
+11137,org.apache.mahout.cf.taste.impl.neighborhood.ThresholdUserNeighborhood
+11157,org.apache.mahout.cf.taste.impl.neighborhood.AbstractUserNeighborhood
+11164,org.apache.mahout.classifier.RegressionResultAnalyzerTest
+11194,org.apache.mahout.classifier.RegressionResultAnalyzer
+11198,org.apache.mahout.math.hadoop.similarity.cooccurrence.RowSimilarityJobTest
+11234,org.apache.mahout.math.hadoop.similarity.cooccurrence.RowSimilarityJob
+11240,org.apache.mahout.math.jet.random.GammaTest
+11281,org.apache.mahout.math.jet.random.Gamma
+11288,org.apache.mahout.utils.clustering.CSVClusterWriter
+11303,org.apache.mahout.classifier.sgd.TestNewsGroups
+11341,org.apache.mahout.classifier.ClassifierResult
+11342,org.apache.mahout.classifier.NewsgroupHelper
+11343,org.apache.mahout.classifier.ResultAnalyzer
+11349,org.apache.mahout.classifier.evaluation.AucTest
+11371,org.apache.mahout.cf.taste.hadoop.item.ToUserVectorsReducerTest
+11380,org.apache.mahout.classifier.sequencelearning.hmm.HMMEvaluatorTest
+11391,org.apache.mahout.classifier.sequencelearning.hmm.HmmAlgorithms
+11397,org.apache.mahout.math.FunctionTest
+11434,org.apache.mahout.math.jet.math.Constants
+11454,org.apache.mahout.vectorizer.encoders.AdaptiveWordValueEncoder
+11495,org.apache.mahout.cf.taste.impl.common.jdbc.EachRowIterator
+11499,org.apache.mahout.vectorizer.term.TFPartialVectorReducer
+11526,org.apache.mahout.common.lucene.IteratorTokenStream
+11575,org.apache.mahout.utils.vectors.arff.ARFFType
+11577,org.apache.mahout.clustering.spectral.MatrixDiagonalizeJob
+11600,org.apache.mahout.clustering.spectral.IntDoublePairWritable
+11601,org.apache.mahout.clustering.spectral.VectorCache
+11607,org.apache.mahout.common.mapreduce.TransposeMapper
+11628,org.apache.mahout.utils.regex.RegexMapperTest
+11658,org.apache.mahout.utils.regex.RegexMapper
+11659,org.apache.mahout.utils.regex.URLDecodeTransformer
+11660,org.apache.mahout.utils.regex.RegexUtilsTest
+11661,org.apache.mahout.utils.regex.FPGFormatter
+11672,org.apache.mahout.math.jet.stat.GammaTest
+11719,org.apache.mahout.cf.taste.example.bookcrossing.BookCrossingDataModel
+11736,org.apache.mahout.cf.taste.similarity.precompute.example.GroupLensDataModel
+11737,org.apache.mahout.cf.taste.impl.model.file.FileDataModel
+11754,org.apache.mahout.clustering.topdown.postprocessor.ClusterOutputPostProcessor
+11790,org.apache.mahout.vectorizer.EncodingMapper
+11815,org.apache.mahout.common.lucene.AnalyzerUtils
+11822,org.apache.mahout.fpm.pfpgrowth.dataset.KeyBasedStringTupleGrouper
+11831,org.apache.mahout.fpm.pfpgrowth.dataset.KeyBasedStringTupleMapper
+11832,org.apache.mahout.fpm.pfpgrowth.dataset.KeyBasedStringTupleCombiner
+11842,org.apache.mahout.utils.io.IOWriterWrapper
+11853,org.apache.mahout.clustering.conversion.InputDriver
+11880,org.apache.mahout.clustering.conversion.InputMapper
+11882,org.apache.mahout.text.SequenceFilesFromDirectory
+11928,org.apache.mahout.text.MultipleTextFileInputFormat
+11929,org.apache.mahout.text.SequenceFilesFromDirectoryMapper
+11943,org.apache.mahout.text.WholeFileRecordReader
+11945,org.apache.mahout.classifier.df.mapreduce.partial.TreeIDTest
+11958,org.apache.mahout.math.solver.EigenDecompositionTest
+12037,org.apache.mahout.cf.taste.impl.similarity.EuclideanDistanceSimilarityTest
+12089,org.apache.mahout.classifier.df.builder.DefaultTreeBuilderTest
+12101,org.apache.mahout.classifier.df.builder.DefaultTreeBuilder
+12104,org.apache.mahout.classifier.df.split.DefaultIgSplitTest
+12119,org.apache.mahout.classifier.df.data.Utils
+12120,org.apache.mahout.classifier.df.split.DefaultIgSplit
+12129,org.apache.mahout.math.hadoop.TestDistributedRowMatrix
+12279,org.apache.mahout.math.decomposer.SolverTest
+12280,org.apache.mahout.math.hadoop.MatrixMultiplicationJob
+12281,org.apache.mahout.math.hadoop.TransposeJob
+12282,org.apache.mahout.math.hadoop.TimesSquaredJob
+12358,org.apache.mahout.math.MatrixView
+12372,org.apache.mahout.common.DummyOutputCollector
+12388,org.apache.mahout.cf.taste.example.bookcrossing.BookCrossingBooleanRecommenderEvaluatorRunner
+12397,org.apache.mahout.cf.taste.example.bookcrossing.BookCrossingBooleanRecommenderBuilder
+12402,org.apache.mahout.cf.taste.example.bookcrossing.BookCrossingBooleanRecommender
+12438,org.apache.mahout.cf.taste.impl.recommender.GenericBooleanPrefUserBasedRecommender
+12467,org.apache.mahout.cf.taste.impl.common.FastMap
+12477,org.apache.mahout.classifier.df.data.DatasetTest
+12485,org.apache.mahout.classifier.df.data.DescriptorException
+12510,org.apache.mahout.vectorizer.encoders.CachingEncoderTest
+12523,org.apache.mahout.clustering.syntheticcontrol.canopy.Job
+12548,org.apache.mahout.utils.clustering.ClusterDumper
+12554,org.apache.mahout.common.distance.TestManhattanDistanceMeasure
+12557,org.apache.mahout.classifier.sgd.SGDInfo
+12575,org.apache.mahout.cf.taste.hadoop.als.PredictionMapper
+12618,org.apache.mahout.cf.taste.hadoop.TopItemsQueue
+12620,org.apache.mahout.cf.taste.hadoop.als.SharingMapper
+12621,org.apache.mahout.cf.taste.hadoop.als.RecommenderJob
+12622,org.apache.mahout.cf.taste.hadoop.als.ALS
+12623,org.apache.mahout.cf.taste.hadoop.als.ParallelALSFactorizationJob
+12639,org.apache.mahout.math.jet.random.AbstractDiscreteDistribution
+12643,org.apache.mahout.classifier.naivebayes.ComplementaryNaiveBayesClassifier
+12660,org.apache.mahout.classifier.naivebayes.AbstractNaiveBayesClassifier
+12672,org.apache.mahout.cf.taste.impl.model.file.FileDataModelTest
+12725,org.apache.mahout.math.random.IndianBuffetTest
+12733,org.apache.mahout.math.random.IndianBuffet
+12737,org.apache.mahout.common.distance.CosineDistanceMeasure
+12767,org.apache.mahout.cf.taste.impl.model.PlusAnonymousConcurrentUserDataModelTest
+12846,org.apache.mahout.cf.taste.impl.model.PlusAnonymousConcurrentUserDataModel
+12847,org.apache.mahout.cf.taste.impl.model.GenericDataModel
+12860,org.apache.mahout.classifier.sequencelearning.hmm.HMMUtilsTest
+12912,org.apache.mahout.h2obindings.ops.Atx
+12941,org.apache.mahout.h2obindings.H2OHelper
+12942,org.apache.mahout.h2obindings.drm.H2OBCast
+12949,org.apache.mahout.utils.SplitInputTest
+13061,org.apache.mahout.classifier.ClassifierData
+13062,org.apache.mahout.utils.SplitInput
+13105,org.apache.mahout.cf.taste.hadoop.preparation.PreparePreferenceMatrixJob
+13127,org.apache.mahout.cf.taste.hadoop.preparation.ToItemVectorsMapper
+13128,org.apache.mahout.cf.taste.hadoop.preparation.ToItemVectorsReducer
+13135,org.apache.mahout.text.LuceneSeqFileHelper
+13347,org.apache.mahout.cf.taste.impl.common.BitSet
+13356,org.apache.mahout.cf.taste.impl.model.GenericUserPreferenceArrayTest
+13372,org.apache.mahout.h2obindings.H2OBlockMatrix
+13399,org.apache.mahout.clustering.classify.ClusterClassificationDriverTest
+13455,org.apache.mahout.clustering.iterator.CanopyClusteringPolicy
+13458,org.apache.mahout.math.VarintTest
+13501,org.apache.mahout.math.FileBasedMatrix
+13550,org.apache.mahout.utils.vectors.arff.Driver
+13636,org.apache.mahout.utils.vectors.arff.MapBackedARFFModel
+13637,org.apache.mahout.utils.vectors.arff.ARFFVectorIterable
+13643,org.apache.mahout.vectorizer.collocations.llr.GramTest
+13683,org.apache.mahout.math.hadoop.stochasticsvd.SparseRowBlockWritable
+13714,org.apache.mahout.math.function.PlusMult
+13722,org.apache.mahout.cf.taste.impl.model.jdbc.MySQLBooleanPrefJDBCDataModel
+13737,org.apache.mahout.math.Algebra
+13887,org.apache.mahout.classifier.df.data.DataLoaderTest
+13981,org.apache.mahout.classifier.df.data.DescriptorUtils
+14067,org.apache.mahout.clustering.cdbw.CDbwEvaluator
+14068,org.apache.mahout.clustering.evaluation.ClusterEvaluator
+14069,org.apache.mahout.clustering.evaluation.RepresentativePointsDriver
+14072,org.apache.mahout.utils.clustering.GraphMLClusterWriter
+14073,org.apache.mahout.utils.clustering.ClusterDumperWriter
+14096,org.apache.mahout.cf.taste.hadoop.similarity.item.TopSimilarItemsQueue
+14110,org.apache.mahout.cf.taste.similarity.precompute.SimilarItem
+14115,org.apache.mahout.classifier.sgd.ElasticBandPrior
+14152,org.apache.mahout.text.LuceneIndexHelper
+14162,org.apache.mahout.clustering.lda.cvb.InMemoryCollapsedVariationalBayes0
+14338,org.apache.mahout.classifier.df.split.IgSplit
+14339,org.apache.mahout.classifier.df.split.Split
+14351,org.apache.mahout.text.TestSequenceFilesFromDirectory
+14444,org.apache.mahout.utils.email.MailOptions
+14500,org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategyTest
+14510,org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy
+14606,org.apache.mahout.classifier.df.mapreduce.inmem.InMemMapper
+14616,org.apache.mahout.cf.taste.impl.recommender.GenericItemBasedRecommender
+14793,org.apache.mahout.cf.taste.impl.common.CacheTest
+14808,org.apache.mahout.cf.taste.example.kddcup.track1.EstimateConverter
+14817,org.apache.mahout.cf.taste.hadoop.item.IDReader
+14880,org.apache.mahout.text.doc.NumericFieldDocument
+14895,org.apache.mahout.common.StringUtilsTest
+14908,org.apache.mahout.common.StringUtils
+14913,org.apache.mahout.math.hadoop.stochasticsvd.LocalSSVDSolverSparseSequentialTest
+14956,org.apache.mahout.vectorizer.collocations.llr.GramKeyPartitioner
+14977,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.CosineSimilarity
+15003,org.apache.mahout.math.FileBasedSparseBinaryMatrixTest
+15019,org.apache.mahout.vectorizer.collocations.llr.CollocCombiner
+15028,org.apache.mahout.classifier.naivebayes.NaiveBayesTest
+15057,org.apache.mahout.classifier.naivebayes.training.TrainNaiveBayesJob
+15059,org.apache.mahout.classifier.naivebayes.StandardNaiveBayesClassifier
+15065,org.apache.mahout.cf.taste.example.kddcup.track2.TrackData
+15151,org.apache.mahout.math.neighborhood.HashedVector
+15219,org.apache.mahout.text.LuceneSegmentInputFormatTest
+15237,org.apache.mahout.text.AbstractLuceneStorageTest
+15238,org.apache.mahout.text.LuceneSegmentInputFormat
+15239,org.apache.mahout.text.LuceneStorageConfiguration
+15246,org.apache.mahout.text.LuceneSegmentInputSplit
+15260,org.apache.mahout.classifier.df.tools.FrequenciesJob
+15340,org.apache.mahout.math.random.EmpiricalTest
+15353,org.apache.mahout.math.random.Empirical
+15358,org.apache.mahout.math.hadoop.decomposer.TestDistributedLanczosSolverCLI
+15400,org.apache.mahout.math.hadoop.decomposer.DistributedLanczosSolver
+15407,org.apache.mahout.clustering.UncommonDistributions
+15450,org.apache.mahout.cf.taste.impl.recommender.NullRescorerTest
+15468,org.apache.mahout.classifier.sgd.SGDHelper
+15519,org.apache.mahout.classifier.sgd.ModelDissector
+15532,org.apache.mahout.math.MultiLabelVectorWritable
+15743,org.apache.mahout.cf.taste.impl.model.AbstractDataModel
+15929,org.apache.mahout.clustering.lda.LDAPrintTopics
+16023,org.apache.mahout.classifier.naivebayes.ComplementaryNaiveBayesClassifierTest
+16031,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.EuclideanDistanceSimilarity
+16055,org.apache.mahout.math.MurmurHashTest
+16090,org.apache.mahout.math.MurmurHash
+16166,org.apache.mahout.cf.taste.impl.model.jdbc.ReloadFromJDBCDataModel
+16215,org.apache.mahout.classifier.mlp.TestMultilayerPerceptron
+16237,org.apache.mahout.math.Arrays
+16249,org.apache.mahout.classifier.sgd.RunAdaptiveLogistic
+16300,org.apache.mahout.cf.taste.impl.neighborhood.ThresholdNeighborhoodTest
+16306,org.apache.mahout.cf.taste.impl.neighborhood.DummySimilarity
+16310,org.apache.mahout.math.als.AlternatingLeastSquaresSolver
+16355,org.apache.mahout.math.QRDecomposition
+16360,org.apache.mahout.cf.taste.impl.model.GenericDataModelTest
+16396,org.apache.mahout.classifier.sgd.TPrior
+16462,org.apache.mahout.classifier.sgd.TrainNewsGroups
+16548,org.apache.mahout.cf.taste.impl.model.BooleanItemPreferenceArrayTest
+16561,org.apache.mahout.cf.taste.impl.model.BooleanItemPreferenceArray
+16570,org.apache.mahout.h2obindings.ops.AewScalar
+16595,org.apache.mahout.cf.taste.hadoop.similarity.item.ItemSimilarityJob
+16643,org.apache.mahout.cf.taste.hadoop.EntityEntityWritable
+16644,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.VectorSimilarityMeasures
+16667,org.apache.mahout.text.SequenceFilesFromLuceneStorageDriverTest
+16703,org.apache.mahout.text.SequenceFilesFromLuceneStorageDriver
+16798,org.apache.mahout.common.mapreduce.VectorSumCombiner
+16805,org.apache.mahout.clustering.iterator.KMeansClusteringPolicy
+16821,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.CityBlockSimilarity
+16829,org.apache.mahout.clustering.streaming.tools.ResplitSequenceFilesTest
+16845,org.apache.mahout.clustering.streaming.tools.ResplitSequenceFiles
+16848,org.apache.mahout.classifier.naivebayes.training.ThetaMapper
+16863,org.apache.mahout.classifier.naivebayes.BayesUtils
+16864,org.apache.mahout.classifier.naivebayes.training.ComplementaryThetaTrainer
+16873,org.apache.mahout.cf.taste.impl.common.FixedRunningAverageAndStdDev
+16882,org.apache.mahout.cf.taste.impl.common.FixedRunningAverage
+16888,org.apache.mahout.cf.taste.impl.model.MemoryIDMigratorTest
+16901,org.apache.mahout.cf.taste.impl.model.MemoryIDMigrator
+16908,org.apache.mahout.text.MailArchivesClusteringAnalyzer
+16949,org.apache.mahout.h2obindings.ops.Par
+16986,org.apache.mahout.math.TestRandomAccessSparseVector
+17030,org.apache.mahout.classifier.df.data.conditions.Equals
+17031,org.apache.mahout.classifier.df.data.conditions.GreaterOrEquals
+17054,org.apache.mahout.common.iterator.TestSamplingIterator
+17069,org.apache.mahout.common.iterator.SamplingIterator
+17075,org.apache.mahout.cf.taste.similarity.precompute.SimilarItems
+17077,org.apache.mahout.utils.vectors.arff.MapBackedARFFModelTest
+17237,org.apache.mahout.common.distance.MinkowskiDistanceMeasure
+17238,org.apache.mahout.common.distance.TanimotoDistanceMeasure
+17239,org.apache.mahout.benchmark.ClosestCentroidBenchmark
+17240,org.apache.mahout.benchmark.DistanceBenchmark
+17241,org.apache.mahout.benchmark.CloneBenchmark
+17242,org.apache.mahout.benchmark.DotBenchmark
+17243,org.apache.mahout.benchmark.MinusBenchmark
+17244,org.apache.mahout.benchmark.TimesBenchmark
+17245,org.apache.mahout.benchmark.SerializationBenchmark
+17262,org.apache.mahout.cf.taste.impl.model.file.FileIDMigrator
+17318,org.apache.mahout.cf.taste.hadoop.TasteHadoopUtilsTest
+17373,org.apache.mahout.cf.taste.impl.model.jdbc.MySQLJDBCDataModel
+17388,org.apache.mahout.math.TestDenseVector
+17401,org.apache.mahout.math.stats.GroupedOnlineAuc
+17436,org.apache.mahout.utils.regex.IdentityTransformer
+17440,org.apache.mahout.math.hadoop.similarity.VectorDistanceInvertedMapper
+17457,org.apache.mahout.cf.taste.example.bookcrossing.BookCrossingRecommenderEvaluatorRunner
+17467,org.apache.mahout.cf.taste.example.bookcrossing.BookCrossingRecommenderBuilder
+17505,org.apache.mahout.clustering.display.DisplayKMeans
+17548,org.apache.mahout.clustering.kmeans.KMeansDriver
+17549,org.apache.mahout.clustering.display.DisplayClustering
+17589,org.apache.mahout.common.MockIterator
+17770,org.apache.mahout.clustering.display.ClustersFilter
+17896,org.apache.mahout.classifier.sgd.GradientMachineTest
+17901,org.apache.mahout.classifier.sgd.GradientMachine
+17907,org.apache.mahout.cf.taste.impl.recommender.MockRecommender
+18029,org.apache.mahout.math.decomposer.lanczos.LanczosSolver
+18030,org.apache.mahout.math.decomposer.lanczos.LanczosState
+18032,org.apache.mahout.math.hadoop.decomposer.HdfsBackedLanczosState
+18044,org.apache.mahout.classifier.sgd.TrainLogisticTest
+18078,org.apache.mahout.examples.MahoutTestCase
+18080,org.apache.mahout.classifier.sgd.RunLogistic
+18300,org.apache.mahout.math.stats.Sampler
+18320,org.apache.mahout.classifier.mlp.RunMultilayerPerceptronTest
+18329,org.apache.mahout.classifier.mlp.Datasets
+18330,org.apache.mahout.classifier.mlp.TrainMultilayerPerceptron
+18331,org.apache.mahout.classifier.mlp.RunMultilayerPerceptron
+18438,org.apache.mahout.common.distance.TestTanimotoDistanceMeasure
+18440,org.apache.mahout.common.distance.DefaultWeightedDistanceMeasureTest
+18445,org.apache.mahout.math.random.PoissonSamplerTest
+18459,org.apache.mahout.math.random.PoissonSampler
+18505,org.apache.mahout.math.list.ObjectArrayList
+18587,org.apache.mahout.math.list.AbstractObjectList
+18600,org.apache.mahout.utils.SequenceFileDumper
+18762,org.apache.mahout.clustering.display.DisplaySpectralKMeans
+18785,org.apache.mahout.clustering.spectral.kmeans.SpectralKMeansDriver
+18790,org.apache.mahout.common.mapreduce.VectorSumReducer
+19266,org.apache.mahout.math.jet.random.engine.MersenneTwister
+19320,org.apache.mahout.clustering.iterator.CIMapper
+19321,org.apache.mahout.clustering.iterator.CIReducer
+19333,org.apache.mahout.math.BinarySearch
+19421,org.apache.mahout.cf.taste.example.kddcup.track1.svd.ParallelArraysSGDFactorizer
+19521,org.apache.mahout.cf.taste.example.kddcup.track1.svd.DataModelFactorizablePreferences
+19534,org.apache.mahout.math.VectorBinaryAssignTest
+19550,org.apache.mahout.math.VectorBinaryAssign
+19554,org.apache.mahout.cf.taste.impl.common.WeightedRunningAverageTest
+19559,org.apache.mahout.cf.taste.impl.common.WeightedRunningAverage
+19560,org.apache.mahout.cf.taste.impl.common.WeightedRunningAverageAndStdDev
+19575,org.apache.mahout.classifier.sgd.PassiveAggressiveTest
+19579,org.apache.mahout.classifier.sgd.PassiveAggressive
+19593,org.apache.mahout.cf.taste.impl.recommender.ByRescoreComparator
+19608,org.apache.mahout.clustering.cdbw.TestCDbwEvaluator
+19680,org.apache.mahout.clustering.TestClusterEvaluator
+19681,org.apache.mahout.clustering.kmeans.TestKmeansClustering
+19688,org.apache.mahout.classifier.sgd.AdaptiveLogisticRegressionTest
+19731,org.apache.mahout.math.jet.random.Exponential
+19746,org.apache.mahout.h2obindings.ops.TimesRightMatrix
+19780,org.apache.mahout.math.DiagonalMatrix
+19782,org.apache.mahout.classifier.naivebayes.training.IndexInstancesMapperTest
+19792,org.apache.mahout.classifier.naivebayes.training.IndexInstancesMapper
+19797,org.apache.mahout.utils.email.MailProcessorTest
+19815,org.apache.mahout.utils.email.MailProcessor
+19861,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.PearsonCorrelationSimilarity
+19867,org.apache.mahout.cf.taste.impl.recommender.ByValueRecommendedItemComparator
+19894,org.apache.mahout.vectorizer.encoders.TextValueEncoderTest
+19929,org.apache.mahout.math.jet.random.ExponentialTest
+19961,org.apache.mahout.math.jet.random.DistributionChecks
+20281,org.apache.mahout.cf.taste.impl.eval.StatsCallable
+20327,org.apache.mahout.classifier.naivebayes.training.WeightsMapper
+20337,org.apache.mahout.math.TestSingularValueDecomposition
+20512,org.apache.mahout.text.LuceneSegmentInputSplitTest
+20542,org.apache.mahout.math.stats.SamplerTest
+20554,org.apache.mahout.classifier.naivebayes.test.TestNaiveBayesDriver
+20590,org.apache.mahout.classifier.naivebayes.test.BayesTestMapper
+20625,org.apache.mahout.clustering.streaming.mapreduce.StreamingKMeansThread
+20635,org.apache.mahout.math.random.ChineseRestaurant
+20655,org.apache.mahout.math.VectorWritableTest
+20690,org.apache.mahout.math.hadoop.solver.DistributedConjugateGradientSolver
+20739,org.apache.mahout.math.solver.ConjugateGradientSolver
+20765,org.apache.mahout.clustering.spectral.kmeans.EigenSeedGenerator
+20971,org.apache.mahout.cf.taste.example.kddcup.track2.UserResult
+21050,org.apache.mahout.common.MemoryUtil
+21106,org.apache.mahout.math.hadoop.stochasticsvd.YtYJob
+21556,org.apache.mahout.math.stats.OnlineExponentialAverageTest
+21573,org.apache.mahout.math.jet.random.Poisson
+21574,org.apache.mahout.math.stats.OnlineExponentialAverage
+21582,org.apache.mahout.cf.taste.impl.recommender.svd.SVDPlusPlusFactorizer
+21651,org.apache.mahout.cf.taste.hadoop.als.MultithreadedSharingMapper
+21680,org.apache.mahout.text.SequenceFilesFromLuceneStorageMRJob
+21687,org.apache.mahout.text.SequenceFilesFromLuceneStorageMapper
+21702,org.apache.mahout.utils.vectors.lucene.CachedTermInfoTest
+21724,org.apache.mahout.utils.io.ChunkedWrapper
+21854,org.apache.mahout.common.mapreduce.MergeVectorsCombiner
+21855,org.apache.mahout.common.mapreduce.MergeVectorsReducer
+21856,org.apache.mahout.cf.taste.hadoop.als.SolveImplicitFeedbackMapper
+21857,org.apache.mahout.cf.taste.hadoop.als.SolveExplicitFeedbackMapper
+21876,org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarityTest
+21945,org.apache.mahout.math.FunctionalMatrixView
+21949,org.apache.mahout.cf.taste.impl.common.FastByIDMapTest
+21984,org.apache.mahout.classifier.df.tools.Describe
+22032,org.apache.mahout.math.FileBasedMatrixTest
+22065,org.apache.mahout.utils.TestConcatenateVectorsJob
+22086,org.apache.mahout.vectorizer.SparseVectorsFromSequenceFilesTest
+22132,org.apache.mahout.vectorizer.SparseVectorsFromSequenceFiles
+22135,org.apache.mahout.utils.vectors.lucene.TFDFMapper
+22157,org.apache.mahout.common.iterator.TestStableFixedSizeSampler
+22164,org.apache.mahout.text.LuceneSegmentRecordReader
+22218,org.apache.mahout.utils.vectors.arff.ARFFVectorIterableTest
+22405,org.apache.mahout.cf.taste.impl.similarity.jdbc.AbstractJDBCInMemoryItemSimilarity
+22524,org.apache.mahout.text.SequenceFilesFromLuceneStorageTest
+22569,org.apache.mahout.text.doc.UnstoredFieldsDocument
+22570,org.apache.mahout.text.SequenceFilesFromLuceneStorage
+22585,org.apache.mahout.math.VectorBinaryAggregateTest
+22628,org.apache.mahout.math.VectorBinaryAggregate
+22868,org.apache.mahout.cf.taste.impl.recommender.svd.SVDPreference
+22892,org.apache.mahout.h2obindings.ops.At
+22921,org.apache.mahout.vectorizer.encoders.ConstantValueEncoder
+22924,org.apache.mahout.utils.regex.RegexConverterDriver
+22940,org.apache.mahout.cf.taste.impl.recommender.SamplingCandidateItemsStrategy
+23050,org.apache.mahout.math.hadoop.stochasticsvd.qr.QRFirstStep
+23054,org.apache.mahout.math.hadoop.stochasticsvd.SplitPartitionedWritable
+23062,org.apache.mahout.text.wikipedia.WikipediaXmlSplitter
+23101,org.apache.mahout.clustering.kmeans.TestRandomSeedGenerator
+23152,org.apache.mahout.math.TestSparseRowMatrix
+23220,org.apache.mahout.math.OldQRDecomposition
+23268,org.apache.mahout.h2obindings.ops.ABt
+23288,org.apache.mahout.text.SequenceFilesFromMailArchivesMapper
+23356,org.apache.mahout.text.SequenceFilesFromMailArchives
+23391,org.apache.mahout.math.PivotedMatrixTest
+23407,org.apache.mahout.math.jet.random.NormalTest
+23495,org.apache.mahout.common.iterator.sequencefile.SequenceFileDirValueIterator
+23728,org.apache.mahout.math.hadoop.MatrixColumnMeansJob
+23732,org.apache.mahout.cf.taste.impl.recommender.GenericItemBasedRecommenderTest
+23809,org.apache.mahout.cf.taste.impl.similarity.jdbc.MySQLJDBCItemSimilarity
+23822,org.apache.mahout.cf.taste.impl.similarity.jdbc.SQL92JDBCItemSimilarity
+23854,org.apache.mahout.math.hadoop.stochasticsvd.SparseRowBlockAccumulator
+23920,org.apache.mahout.cf.taste.impl.recommender.svd.NoPersistenceStrategy
+23924,org.apache.mahout.classifier.df.tools.VisualizerTest
+23961,org.apache.mahout.classifier.df.tools.ForestVisualizer
+24154,org.apache.mahout.clustering.syntheticcontrol.kmeans.Job
+24201,org.apache.mahout.clustering.iterator.TestClusterClassifier
+24283,org.apache.mahout.math.neighborhood.LocalitySensitiveHashSearchTest
+24321,org.apache.mahout.math.random.Normal
+24379,org.apache.mahout.cf.taste.impl.recommender.CachingRecommenderTest
+24512,org.apache.mahout.common.iterator.SamplingIterable
+24525,org.apache.mahout.clustering.display.ClustersFilterTest
+24541,org.apache.mahout.math.hadoop.similarity.VectorDistanceMapper
+24561,org.apache.mahout.classifier.mlp.NeuralNetworkFunctions
+24592,org.apache.mahout.math.CentroidTest
+24611,org.apache.mahout.clustering.evaluation.RepresentativePointsReducer
+24629,org.apache.mahout.clustering.evaluation.RepresentativePointsMapper
+24696,org.apache.mahout.vectorizer.encoders.ContinuousValueEncoderTest
+24709,org.apache.mahout.vectorizer.term.TermCountCombiner
+24717,org.apache.mahout.math.TestOrderedIntDoubleMapping
+24891,org.apache.mahout.classifier.sequencelearning.hmm.HmmTrainer
+25058,org.apache.mahout.text.ReadOnlyFileSystemDirectory
+25158,org.apache.mahout.text.LuceneIndexFileNameFilter
+25161,org.apache.mahout.math.list.ObjectArrayListTest
+25168,org.apache.mahout.math.list.AbstractList
+25234,org.apache.mahout.math.neighborhood.SearchSanityTest
+25301,org.apache.mahout.vectorizer.encoders.CachingValueEncoder
+25331,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.LoglikelihoodSimilarity
+25333,org.apache.mahout.classifier.sgd.CsvRecordFactoryTest
+25423,org.apache.mahout.vectorizer.HighDFWordsPrunerTest
+25563,org.apache.mahout.cf.taste.impl.similarity.LogLikelihoodSimilarityTest
+25626,org.apache.mahout.math.jet.math.Arithmetic
+25644,org.apache.mahout.math.decomposer.hebbian.HebbianUpdater
+25662,org.apache.mahout.math.decomposer.hebbian.TrainingState
+25676,org.apache.mahout.math.list.SimpleLongArrayList
+25695,org.apache.mahout.classifier.df.BreimanExample
+25752,org.apache.mahout.classifier.df.ref.SequentialBuilder
+25848,org.apache.mahout.math.MatrixVectorView
+25851,org.apache.mahout.math.WeightedVectorTest
+25876,org.apache.mahout.math.WeightedVectorComparator
+25883,org.apache.mahout.math.hadoop.stochasticsvd.qr.GramSchmidt
+25997,org.apache.mahout.vectorizer.encoders.ConstantValueEncoderTest
+26033,org.apache.mahout.common.lucene.TokenStreamIterator
+26045,org.apache.mahout.Version
+26081,org.apache.mahout.math.Sorting
+26864,org.apache.mahout.cf.taste.impl.common.InvertedRunningAverageTest
+26912,org.apache.mahout.common.iterator.StringRecordIterator
+26925,org.apache.mahout.common.IntegerTuple
+27075,org.apache.mahout.cf.taste.impl.recommender.svd.ParallelSGDFactorizerTest
+27195,org.apache.mahout.cf.taste.impl.recommender.TopItemsTest
+27258,org.apache.mahout.common.distance.MahalanobisDistanceMeasure
+27338,org.apache.mahout.utils.vectors.arff.ARFFTypeTest
+27342,org.apache.mahout.vectorizer.pruner.PrunedPartialVectorMergeReducer
+27411,org.apache.mahout.cf.taste.impl.model.jdbc.SQL92JDBCDataModel
+27473,org.apache.mahout.math.MatrixUtils
+27581,org.apache.mahout.classifier.df.split.OptIgSplit
+27588,org.apache.mahout.math.hadoop.stochasticsvd.LocalSSVDPCASparseTest
+27740,org.apache.mahout.math.als.ImplicitFeedbackAlternatingLeastSquaresSolver
+27821,org.apache.mahout.common.distance.TestWeightedManhattanDistanceMeasure
+27823,org.apache.mahout.common.distance.WeightedManhattanDistanceMeasure
+28040,org.apache.mahout.clustering.topdown.postprocessor.ClusterCountReader
+28089,org.apache.mahout.cf.taste.web.RecommenderWrapper
+28328,org.apache.mahout.cf.taste.impl.model.file.FileIDMigratorTest
+28349,org.apache.mahout.cf.taste.impl.similarity.file.FileItemSimilarity
+28591,org.apache.mahout.clustering.spectral.AffinityMatrixInputJob
+28592,org.apache.mahout.clustering.spectral.VectorMatrixMultiplicationJob
+28649,org.apache.mahout.cf.taste.impl.recommender.SimilarUser
+28905,org.apache.mahout.utils.vectors.lucene.TermInfoClusterInOut
+28929,org.apache.mahout.classifier.sgd.LogisticModelParametersTest
+28975,org.apache.mahout.text.wikipedia.WikipediaMapper
+29024,org.apache.mahout.vectorizer.document.SequenceFileTokenizerMapper
+29040,org.apache.mahout.cf.taste.impl.common.LongPrimitiveArrayIteratorTest
+29177,org.apache.mahout.cf.taste.example.kddcup.track1.svd.KDDCupFactorizablePreferences
+29254,org.apache.mahout.h2obindings.ops.Ax
+29272,org.apache.mahout.cf.taste.impl.recommender.RandomRecommenderTest
+29373,org.apache.mahout.classifier.sequencelearning.hmm.PosTagger
+29433,org.apache.mahout.cf.taste.impl.model.MySQLJDBCIDMigrator
+29442,org.apache.mahout.math.stats.OnlineSummarizerTest
+29472,org.apache.mahout.common.distance.CosineDistanceMeasureTest
+29492,org.apache.mahout.cf.taste.impl.recommender.svd.ALSWRFactorizer
+29629,org.apache.mahout.cf.taste.impl.recommender.ItemUserAverageRecommenderTest
+29634,org.apache.mahout.cf.taste.impl.recommender.ItemUserAverageRecommender
+29637,org.apache.mahout.vectorizer.pruner.WordsPrunerReducer
+29656,org.apache.mahout.vectorizer.HighDFWordsPruner
+29660,org.apache.mahout.math.decomposer.lanczos.TestLanczosSolver
+29824,org.apache.mahout.clustering.display.DisplayFuzzyKMeans
+29865,org.apache.mahout.math.random.Multinomial
+29986,org.apache.mahout.classifier.df.builder.InfiniteRecursionTest
+29998,org.apache.mahout.clustering.streaming.cluster.StreamingKMeansTest
+30044,org.apache.mahout.clustering.TestGaussianAccumulators
+30085,org.apache.mahout.clustering.RunningSumsGaussianAccumulator
+30087,org.apache.mahout.common.distance.WeightedEuclideanDistanceMeasure
+30122,org.apache.mahout.clustering.lda.cvb.CVB0TopicTermVectorNormalizerMapper
+30128,org.apache.mahout.cf.taste.impl.common.FastIDSetTest
+30161,org.apache.mahout.cf.taste.example.kddcup.track2.Track2Callable
+30185,org.apache.mahout.math.OrthonormalityVerifier
+30202,org.apache.mahout.utils.regex.AnalyzerTransformer
+30223,org.apache.mahout.math.VectorBinaryAssignCostTest
+30246,org.apache.mahout.clustering.topdown.postprocessor.ClusterOutputPostProcessorTest
+30312,org.apache.mahout.cf.taste.example.bookcrossing.BookCrossingRecommender
+30369,org.apache.mahout.vectorizer.collocations.llr.GramKeyPartitionerTest
+30388,org.apache.mahout.text.WikipediaToSequenceFile
+30428,org.apache.mahout.math.VectorBinaryAggregateCostTest
+30450,org.apache.mahout.classifier.naivebayes.StandardNaiveBayesClassifierTest
+30461,org.apache.mahout.cf.taste.impl.eval.RMSRecommenderEvaluator
+30471,org.apache.mahout.classifier.df.split.RegressionSplitTest
+30483,org.apache.mahout.classifier.df.split.RegressionSplit
+30487,org.apache.mahout.math.map.QuickOpenIntIntHashMap
+30539,org.apache.mahout.math.map.HashFunctions
+30567,org.apache.mahout.math.jet.random.sampling.RandomSampler
+30652,org.apache.mahout.clustering.spectral.TestVectorCache
+30708,org.apache.mahout.vectorizer.encoders.WordLikeValueEncoderTest
+30845,org.apache.mahout.common.DummyRecordWriterTest
+30851,org.apache.mahout.cf.taste.impl.eval.GenericRelevantItemsDataSplitter
+31043,org.apache.mahout.cf.taste.hadoop.item.IDReaderTest
+31073,org.apache.mahout.h2obindings.ops.Rbind
+31174,org.apache.mahout.classifier.sgd.TestASFEmail
+31214,org.apache.mahout.fpm.pfpgrowth.DeliciousTagsExample
+31505,org.apache.mahout.classifier.df.data.DataConverterTest
+31519,org.apache.mahout.cf.taste.example.kddcup.track2.Track2RecommenderBuilder
+31522,org.apache.mahout.cf.taste.example.kddcup.track2.Track2Recommender
+31587,org.apache.mahout.cf.taste.impl.similarity.file.FileItemSimilarityTest
+31608,org.apache.mahout.math.MatrixWritableTest
+31641,org.apache.mahout.math.jet.random.NegativeBinomial
+31833,org.apache.mahout.classifier.ConfusionMatrixDumper
+31997,org.apache.mahout.cf.taste.similarity.precompute.example.BatchItemSimilaritiesGroupLens
+32006,org.apache.mahout.cf.taste.impl.similarity.precompute.FileSimilarItemsWriter
+32007,org.apache.mahout.cf.taste.impl.similarity.precompute.MultithreadedBatchItemSimilarities
+32012,org.apache.mahout.math.hadoop.solver.TestDistributedConjugateGradientSolver
+32084,org.apache.mahout.utils.regex.RegexUtils
+32106,org.apache.mahout.utils.vectors.VectorHelperTest
+32172,org.apache.mahout.clustering.iterator.ClusteringPolicyWritable
+32185,org.apache.mahout.cf.taste.impl.recommender.ItemAverageRecommenderTest
+32191,org.apache.mahout.math.jet.math.Polynomial
+32270,org.apache.mahout.classifier.sequencelearning.hmm.BaumWelchTrainer
+32308,org.apache.mahout.cf.taste.impl.similarity.TanimotoCoefficientSimilarityTest
+32332,org.apache.mahout.cf.taste.impl.similarity.TanimotoCoefficientSimilarity
+32518,org.apache.mahout.math.solver.TestConjugateGradientSolver
+32548,org.apache.mahout.math.solver.JacobiConditioner
+32554,org.apache.mahout.cf.taste.impl.similarity.AveragingPreferenceInferrer
+32681,org.apache.mahout.cf.taste.example.kddcup.track2.HybridSimilarity
+32684,org.apache.mahout.utils.Bump125Test
+32691,org.apache.mahout.clustering.lda.cvb.TestCVBModelTrainer
+32747,org.apache.mahout.cf.taste.hadoop.similarity.item.ItemSimilarityJobTest
+32796,org.apache.mahout.clustering.classify.ClusterClassificationMapper
+32847,org.apache.mahout.clustering.classify.ClusterClassificationConfigKeys
+32853,org.apache.mahout.h2obindings.ops.Cbind
+33047,org.apache.mahout.classifier.df.data.DescriptorUtilsTest
+33064,org.apache.mahout.classifier.df.DecisionForestTest
+33113,org.apache.mahout.common.AbstractJobTest
+33176,org.apache.mahout.cf.taste.impl.similarity.AveragingPreferenceInferrerTest
+33218,org.apache.mahout.cf.taste.example.kddcup.track2.Track2Runner
+33399,org.apache.mahout.cf.taste.hadoop.als.FactorizationEvaluator
+33524,org.apache.mahout.clustering.streaming.tools.ClusterQualitySummarizer
+33578,org.apache.mahout.clustering.streaming.tools.IOUtils
+33586,org.apache.mahout.vectorizer.EncodedVectorsFromSequenceFilesTest
+33610,org.apache.mahout.math.decomposer.AsyncEigenVerifier
+33668,org.apache.mahout.clustering.fuzzykmeans.FuzzyKMeansClusterer
+33672,org.apache.mahout.utils.vectors.arff.ARFFIterator
+33706,org.apache.mahout.classifier.naivebayes.training.WeightsMapperTest
+33722,org.apache.mahout.math.solver.LSMR
+33850,org.apache.mahout.clustering.spectral.TestVectorMatrixMultiplicationJob
+33870,org.apache.mahout.math.hadoop.stochasticsvd.ABtJob
+34012,org.apache.mahout.clustering.topdown.PathDirectoryTest
+34189,org.apache.mahout.clustering.lda.cvb.CachingCVB0PerplexityMapper
+34201,org.apache.mahout.classifier.df.mapreduce.partial.PartialBuilderTest
+34259,org.apache.mahout.cf.taste.impl.common.RunningAverageTest
+34266,org.apache.mahout.cf.taste.impl.similarity.SpearmanCorrelationSimilarityTest
+34465,org.apache.mahout.classifier.sgd.SimpleCsvExamples
+34566,org.apache.mahout.classifier.df.tools.UDistrib
+34647,org.apache.mahout.clustering.TestClusterInterface
+34966,org.apache.mahout.common.distance.TestMahalanobisDistanceMeasure
+34978,org.apache.mahout.clustering.spectral.kmeans.TestEigenSeedGenerator
+35133,org.apache.mahout.math.jet.random.Uniform
+35266,org.apache.mahout.common.DistributedCacheFileLocationTest
+35313,org.apache.mahout.math.jet.random.NegativeBinomialTest
+35372,org.apache.mahout.math.OldQRDecompositionTest
+35707,org.apache.mahout.math.jet.random.engine.MersenneTwisterTest
+35728,org.apache.mahout.math.random.MultiNormalTest
+35843,org.apache.mahout.classifier.df.node.NodeTest
+35863,org.apache.mahout.utils.vectors.lucene.ClusterLabels
+35976,org.apache.mahout.cf.taste.impl.model.cassandra.CassandraDataModel
+36159,org.apache.mahout.clustering.kernel.TriangularKernelProfile
+36161,org.apache.mahout.classifier.mlp.TrainMultilayerPerceptronTest
+36205,org.apache.mahout.math.TestVectorView
+36295,org.apache.mahout.math.random.Missing
+36315,org.apache.mahout.cf.taste.hadoop.example.als.netflix.NetflixDatasetConverter
+36351,org.apache.mahout.math.hadoop.stats.BasicStats
+36387,org.apache.mahout.math.hadoop.stats.VarianceTotals
+36388,org.apache.mahout.math.hadoop.stats.StandardDeviationCalculatorMapper
+36399,org.apache.mahout.h2obindings.ops.RowRange
+36605,org.apache.mahout.math.hadoop.stochasticsvd.SSVDCli
+36637,org.apache.mahout.text.MailArchivesClusteringAnalyzerTest
+36647,org.apache.mahout.classifier.sequencelearning.hmm.HMMAlgorithmsTest
+36689,org.apache.mahout.driver.MahoutDriverTest
+37080,org.apache.mahout.clustering.fuzzykmeans.TestFuzzyKmeansClustering
+37127,org.apache.mahout.h2obindings.ops.AewB
+37258,org.apache.mahout.cf.taste.hadoop.TopItemsQueueTest
+37273,org.apache.mahout.h2obindings.H2OContext
+37279,org.apache.mahout.common.iterator.CountingIteratorTest
+37284,org.apache.mahout.cf.taste.impl.eval.LoadEvaluationRunner
+37299,org.apache.mahout.cf.taste.impl.eval.LoadEvaluator
+37313,org.apache.mahout.cf.taste.example.kddcup.track1.svd.Track1SVDRunner
+37355,org.apache.mahout.math.neighborhood.LumpyData
+37440,org.apache.mahout.math.ssvd.SequentialOutOfCoreSvdTest
+37505,org.apache.mahout.math.ssvd.SequentialBigSvd
+37512,org.apache.mahout.cf.taste.impl.recommender.svd.FilePersistenceStrategy
+37553,org.apache.mahout.common.RandomUtilsTest
+37575,org.apache.mahout.math.UpperTriangularTest
+37844,org.apache.mahout.classifier.df.data.DataTest
+37997,org.apache.mahout.classifier.df.mapreduce.TestForest
+38080,org.apache.mahout.cf.taste.impl.model.mongodb.MongoDBDataModel
+38325,org.apache.mahout.utils.vectors.arff.DriverTest
+38429,org.apache.mahout.cf.taste.example.kddcup.track2.TrackItemSimilarity
+38447,org.apache.mahout.classifier.mlp.TestNeuralNetwork
+38640,org.apache.mahout.classifier.df.builder.DecisionTreeBuilderTest
+38773,org.apache.mahout.clustering.topdown.postprocessor.ClusterCountReaderTest
+38802,org.apache.mahout.cf.taste.impl.common.FastMapTest
+39073,org.apache.mahout.common.distance.TestWeightedEuclideanDistanceMeasureTest
+39088,org.apache.mahout.math.hadoop.similarity.TestVectorDistanceSimilarityJob
+39286,org.apache.mahout.math.random.MultinomialTest
+39348,org.apache.mahout.cf.taste.impl.common.BitSetTest
+39365,org.apache.mahout.math.hadoop.stats.BasicStatsTest
+39395,org.apache.mahout.math.TestMatrixView
+39530,org.apache.mahout.math.set.HashUtilsTest
+39725,org.apache.mahout.clustering.display.DisplayCanopy
+39980,org.apache.mahout.text.SequenceFilesFromMailArchivesTest
+40577,org.apache.mahout.math.QRDecompositionTest
+40669,org.apache.mahout.math.ssvd.SequentialBigSvdTest
+40706,org.apache.mahout.math.VectorWritableTest
+40823,org.apache.mahout.cf.taste.impl.model.jdbc.PostgreSQLJDBCDataModel
+40876,org.apache.mahout.math.DiagonalMatrixTest
+40890,org.apache.mahout.math.TestDenseMatrix
+40894,org.apache.mahout.vectorizer.collocations.llr.GramKeyGroupComparator
+40903,org.apache.mahout.classifier.sgd.UniformPrior
+40915,org.apache.mahout.math.TestSparseMatrix
+40946,org.apache.mahout.classifier.sgd.TrainASFEmail
+41013,org.apache.mahout.math.neighborhood.SearchQualityTest
+41566,org.apache.mahout.math.random.NormalTest
+41728,org.apache.mahout.cf.taste.hadoop.als.DatasetSplitter
+41796,org.apache.mahout.classifier.df.tools.Frequencies
+41855,org.apache.mahout.common.lucene.AnalyzerUtilsTest
+41861,org.apache.mahout.text.LuceneStorageConfigurationTest
+42012,org.apache.mahout.clustering.topdown.postprocessor.ClusterOutputPostProcessorMapper
+42075,org.apache.mahout.math.hadoop.similarity.cooccurrence.measures.VectorSimilarityMeasuresTest
+42134,org.apache.mahout.vectorizer.collocations.llr.LLRReducerTest
+42389,org.apache.mahout.cf.taste.impl.similarity.precompute.MultithreadedBatchItemSimilaritiesTest
+42556,org.apache.mahout.math.decomposer.hebbian.TestHebbianSolver
+42588,org.apache.mahout.math.decomposer.hebbian.HebbianSolver
+43170,org.apache.mahout.vectorizer.DocumentProcessorTest
+43309,org.apache.mahout.cf.taste.impl.similarity.CachingItemSimilarity
+43352,org.apache.mahout.cf.taste.impl.recommender.svd.ALSWRFactorizerTest
+43655,org.apache.mahout.classifier.df.mapreduce.inmem.InMemInputSplitTest
+43792,org.apache.mahout.math.hadoop.decomposer.TestDistributedLanczosSolver
+43828,org.apache.mahout.math.stats.OnlineAucTest
+44023,org.apache.mahout.clustering.spectral.TestMatrixDiagonalizeJob
+44071,org.apache.mahout.math.hadoop.solver.TestDistributedConjugateGradientSolverCLI
+44105,org.apache.mahout.clustering.TestClusterDumper
+44167,org.apache.mahout.h2obindings.ops.AtA
+44209,org.apache.mahout.math.als.AlternatingLeastSquaresSolverTest
+44296,org.apache.mahout.text.LuceneSegmentRecordReaderTest
+44610,org.apache.mahout.clustering.topdown.postprocessor.ClusterOutputPostProcessorDriver
+44647,org.apache.mahout.clustering.topdown.postprocessor.ClusterOutputPostProcessorReducer
+44651,org.apache.mahout.classifier.df.mapreduce.partial.Step1MapperTest
+44701,org.apache.mahout.classifier.naivebayes.training.ThetaMapperTest
+44710,org.apache.mahout.math.random.ChineseRestaurantTest
+44810,org.apache.mahout.classifier.sgd.ModelDissectorTest
+44834,org.apache.mahout.math.solver.LSMRTest
+45084,org.apache.mahout.common.distance.TestMinkowskiMeasure
+45113,org.apache.mahout.cf.taste.impl.model.BooleanUserPreferenceArrayTest
+45156,org.apache.mahout.cf.taste.impl.neighborhood.NearestNNeighborhoodTest
+45203,org.apache.mahout.vectorizer.collocations.llr.GramKeyGroupComparatorTest
+45215,org.apache.mahout.h2obindings.ops.MapBlock
+45256,org.apache.mahout.cf.taste.hadoop.als.ParallelALSFactorizationJobTest
+45345,org.apache.mahout.text.SequenceFilesFromLuceneStorageMRJobTest
+45497,org.apache.mahout.h2obindings.ops.AtB
+45593,org.apache.mahout.cf.taste.impl.recommender.SamplingCandidateItemsStrategyTest
+45604,org.apache.mahout.cf.taste.impl.recommender.svd.FilePersistenceStrategyTest
+45629,org.apache.mahout.h2obindings.H2OHdfs
+45741,org.apache.mahout.clustering.syntheticcontrol.fuzzykmeans.Job
+45892,org.apache.mahout.cf.taste.example.kddcup.ToCSV
+45978,org.apache.mahout.utils.vectors.VectorDumper
+46107,org.apache.mahout.classifier.sequencelearning.hmm.HMMTrainerTest
+*Edges: 3740
+8131 6209 6
+17241 9794 8
+17241 8131 3
+17239 9794 6
+17239 2396 3
+17239 447 1
+17239 6209 4
+17240 9794 20
+17240 8131 9
+17242 9794 40
+17242 8131 18
+17243 9794 20
+17243 8131 9
+9743 9794 20
+9743 8131 9
+17245 9794 9
+17245 7227 2
+17245 323 4
+17245 6209 9
+17244 9794 20
+17244 8131 9
+9794 322 1
+9794 8131 7
+9794 17237 2
+9794 2299 2
+9794 3629 2
+9794 9743 2
+9794 17243 2
+9794 17244 2
+9794 17245 2
+9794 736 2
+9794 17239 8
+9794 17241 2
+9794 17240 8
+9794 17242 2
+9794 6209 15
+9794 260 1
+10241 27 2
+10241 2146 1
+10241 2147 1
+10241 1279 1
+2146 27 2
+2147 27 2
+3808 260 1
+3808 736 1
+12402 9847 1
+12402 12438 1
+12402 7366 1
+12402 6979 1
+12397 12402 1
+12388 3808 1
+12388 7368 1
+12388 11719 2
+11719 11736 1
+11719 11737 2
+11719 1937 1
+8047 1066 1
+8047 7364 2
+30312 9847 1
+30312 583 1
+30312 9063 1
+30312 6979 1
+17467 30312 1
+17457 3808 1
+17457 11719 2
+271 259 2
+271 258 1
+271 448 1
+270 271 1
+270 264 1
+269 264 2
+149 259 1
+149 258 1
+149 257 26
+149 263 1
+149 260 1
+149 261 1
+273 271 3
+268 264 1
+4221 8805 1
+8805 5418 3
+8805 2169 1
+8805 259 2
+4222 1066 5
+4222 829 1
+4222 17069 1
+4222 259 2
+4222 12847 2
+4222 8805 1
+45892 259 2
+45892 4221 1
+4225 2146 1
+4225 14808 1
+4224 14616 1
+4224 10208 1
+4416 4224 1
+4415 4222 1
+4415 11071 4
+4415 259 1
+4415 9283 1
+4415 6859 2
+4415 4221 1
+4405 4415 1
+4405 3808 1
+4405 4222 2
+4197 4224 1
+4197 4225 1
+4197 4222 3
+4197 259 1
+4197 4221 1
+19521 829 10
+19521 27 1
+19521 3017 1
+29177 4221 1
+19421 1066 8
+19421 1290 2
+19421 447 1
+19421 6859 1
+19421 19521 2
+37313 1290 3
+37313 4222 3
+37313 259 2
+37313 29177 5
+37313 19421 1
+37313 6859 1
+37313 4221 2
+37313 14808 1
+32681 38429 1
+32681 832 2
+32681 7366 1
+30161 2146 1
+30161 20971 2
+31522 7365 1
+31522 32681 1
+31519 4222 1
+31519 31522 1
+33218 4222 3
+33218 20971 2
+33218 259 1
+33218 4221 1
+33218 31522 1
+33218 30161 1
+15065 829 5
+38429 1937 1
+38429 1066 6
+38429 829 6
+38429 15065 10
+38429 4222 1
+16643 5759 4
+4896 4902 11
+4896 447 1
+4897 447 1
+4898 5759 2
+4898 4901 1
+4899 264 1
+4899 4902 1
+4899 259 2
+4899 263 1
+4899 261 1
+17318 4899 8
+17318 1279 1
+4918 4902 3
+4918 4896 1
+4900 4918 2
+12618 4897 7
+37258 4897 2
+37258 12618 2
+37258 1279 1
+12622 23495 1
+12622 16310 1
+12622 323 5
+12622 259 2
+12622 258 1
+12622 263 1
+12622 261 2
+41728 257 13
+33399 259 1
+33399 257 17
+33399 6859 1
+33399 263 1
+33399 261 1
+21651 12620 1
+12623 322 1
+12623 12622 1
+12623 447 1
+12623 323 2
+12623 257 33
+12623 12620 1
+12623 261 1
+45256 3286 3
+45256 322 12
+45256 321 7
+45256 3076 4
+45256 257 4
+45256 6859 3
+45256 1279 1
+45256 3798 3
+45256 4899 5
+45256 12623 3
+45256 12620 2
+45256 4903 15
+45256 2427 6
+12575 4899 2
+12575 12622 2
+12575 4898 2
+12575 4897 2
+12575 323 2
+12575 259 4
+12575 12620 2
+12575 12618 2
+12621 257 21
+21857 12622 2
+21857 323 3
+21857 12620 2
+21856 12622 1
+21856 27740 3
+21856 323 4
+21856 12620 2
+36315 5418 1
+36315 1937 2
+36315 3017 1
+4911 4902 5
+4911 829 5
+4911 4899 1
+4911 14817 6
+4911 2454 2
+4911 4898 2
+4911 4897 2
+4911 12618 2
+14817 1937 2
+14817 829 18
+14817 258 1
+31043 321 2
+31043 829 9
+31043 14817 8
+31043 1279 1
+4923 264 2
+4923 4914 2
+4923 4899 1
+4923 4902 3
+4913 4902 4
+4916 264 2
+4916 4899 2
+4916 4902 2
+4917 264 1
+4917 4902 3
+4924 264 1
+4924 4914 4
+4924 4902 2
+4924 2454 2
+2454 447 1
+2454 323 6
+4912 16644 1
+4912 258 2
+4912 257 52
+4701 321 20
+4701 4914 3
+4701 4924 1
+4701 1531 20
+4701 257 3
+4701 4915 4
+4701 4913 2
+4701 4918 4
+4701 4919 2
+4701 264 15
+4701 1937 2
+4701 4900 2
+4701 3076 13
+4701 4922 2
+4701 4910 8
+4701 259 7
+4701 829 2
+4701 4923 1
+4701 4916 1
+4701 323 5
+4701 4912 3
+4701 4911 3
+4701 4896 4
+4701 4903 10
+4701 4901 1
+4701 4902 36
+4701 1279 1
+4701 4921 1
+4701 4899 6
+4701 2454 10
+4701 4898 1
+4701 4897 4
+4701 4917 1
+4921 264 2
+4921 4910 2
+4921 323 2
+4919 4899 1
+4919 4902 2
+4919 323 3
+4919 4896 1
+11371 321 2
+11371 4899 2
+11371 4902 6
+11371 4919 2
+11371 4903 3
+11371 1279 1
+4922 264 2
+4922 4914 2
+4922 4910 4
+4915 264 2
+4915 829 2
+4915 14817 3
+4915 4902 2
+4915 4910 2
+4915 323 2
+4914 5759 4
+4914 323 6
+4910 5759 2
+4910 323 6
+13105 258 1
+13105 257 18
+13127 4899 1
+13127 4902 2
+13127 323 5
+13128 323 4
+16595 16644 1
+16595 258 1
+16595 257 29
+32747 321 6
+32747 3076 6
+32747 323 1
+32747 257 2
+32747 16643 3
+32747 16595 2
+32747 1279 1
+14096 14110 7
+1279 321 1
+1279 1066 4
+1279 829 3
+1279 2169 1
+1279 7364 1
+1279 3017 1
+1279 12847 1
+39348 13347 19
+39348 1279 1
+3013 12467 8
+14793 3013 4
+14793 447 1
+14793 1279 1
+1066 447 3
+1066 13347 8
+21949 1066 62
+21949 447 1
+21949 1279 1
+829 447 3
+30128 829 54
+30128 447 1
+30128 1279 1
+12467 447 3
+12467 13347 8
+38802 12467 35
+38802 447 1
+38802 1279 1
+16882 8082 1
+16873 16882 3
+16873 5421 1
+6859 8082 1
+9283 6859 8
+9283 5421 1
+26864 8082 4
+26864 9283 4
+26864 6859 4
+26864 5421 4
+26864 1279 1
+29040 5944 3
+29040 1279 1
+1262 1281 5
+1262 830 10
+1262 1279 1
+9273 447 1
+9273 9283 3
+9273 1279 1
+34259 6859 3
+34259 1279 1
+3644 3673 1
+3644 2495 2
+3644 447 1
+5923 5944 2
+5923 3673 1
+5923 3644 16
+5923 1279 1
+19559 8082 1
+19560 19559 5
+19560 5421 1
+19554 19560 11
+19554 19559 30
+19554 1279 1
+11495 1615 1
+3016 11495 3
+11071 1066 8
+11071 2169 2
+11071 20281 1
+11071 3017 1
+11071 447 1
+11071 12847 1
+11071 9283 1
+11063 11071 1
+11063 6859 1
+7368 1066 1
+7368 447 1
+7368 9283 1
+7368 7369 1
+7368 6859 4
+7368 2147 1
+7368 829 4
+7368 12847 1
+7345 7368 1
+7345 7369 1
+7345 1279 2
+30851 1066 3
+30851 829 6
+30851 2169 1
+37284 14616 1
+37284 11737 1
+37284 9847 1
+37284 583 2
+37284 9063 1
+37284 37299 2
+37299 3644 1
+37299 11071 1
+37299 338 1
+37299 9283 1
+37299 2486 3
+10305 829 19
+30461 11071 1
+30461 6859 1
+1570 1615 2
+1570 1616 2
+16561 924 1
+16548 10946 3
+16548 16561 12
+16548 3017 4
+16548 1279 1
+846 924 1
+45113 10946 6
+45113 846 12
+45113 3017 1
+45113 1279 1
+7364 1066 29
+7364 16561 1
+7364 15743 1
+7364 2147 4
+7364 5944 4
+7364 829 19
+7364 2146 1
+7364 846 1
+12847 1066 28
+12847 2149 1
+12847 15743 3
+12847 2147 2
+12847 5944 4
+12847 829 6
+12847 2146 1
+12847 2169 1
+16360 12847 10
+16360 1279 2
+2149 924 1
+5288 2149 14
+5288 3017 10
+5288 1279 1
+2169 924 1
+13356 2169 14
+13356 3017 10
+13356 1279 1
+16901 1066 4
+16901 1616 2
+16888 16901 3
+16888 1279 1
+29433 1570 2
+12846 829 2
+12846 2149 1
+12846 2146 1
+12846 2169 1
+12846 2078 16
+12767 321 1
+12767 1066 10
+12767 12846 42
+12767 2169 11
+12767 12847 2
+2078 829 6
+2078 2149 1
+2078 2146 2
+2078 2148 1
+2078 2147 6
+2148 3673 1
+35976 829 11
+35976 3013 12
+11737 5418 9
+11737 1066 27
+11737 829 4
+11737 2169 3
+11737 7364 3
+11737 3017 1
+11737 12847 4
+11737 15743 1
+12672 321 6
+12672 9847 1
+12672 116 1
+12672 3076 4
+12672 9063 1
+12672 1279 1
+12672 829 2
+12672 11737 12
+17262 1937 1
+17262 1066 6
+17262 1616 2
+28328 17262 3
+28328 321 4
+28328 3076 1
+28328 1279 1
+6360 829 13
+6360 27 8
+6360 2146 3
+6360 2147 4
+10909 1615 1
+10909 10946 1
+10909 2807 7
+2807 1615 12
+2807 1066 8
+2807 2149 1
+2807 2147 2
+2807 829 9
+2807 2146 1
+2807 3015 26
+2807 2169 3
+2807 3013 3
+2807 3017 1
+8959 3015 1
+8959 2807 2
+13722 10909 2
+13722 3015 1
+17373 3015 1
+17373 2807 2
+8808 10909 1
+8808 8831 4
+8808 1615 1
+8808 2807 3
+40823 1615 3
+40823 2807 6
+40823 27411 6
+16166 829 1
+16166 27 2
+16166 830 4
+16166 7364 1
+16166 12847 1
+8831 10909 3
+8831 1615 2
+8831 3015 1
+8831 2807 5
+27411 1615 2
+27411 3015 1
+27411 2807 10
+38080 1066 8
+38080 829 1
+38080 2146 3
+38080 2169 3
+38080 3017 1
+38080 12847 6
+38080 2147 3
+11157 830 5
+8991 830 2
+8991 3013 4
+16306 832 3
+45156 9847 6
+45156 16306 3
+45156 1279 8
+9847 1068 1
+9847 11157 5
+9847 3644 1
+16300 11137 6
+16300 16306 3
+16300 1279 6
+11137 829 3
+11137 11157 5
+11137 3644 1
+5405 829 4
+7883 829 1
+5395 829 3
+5395 5405 1
+6349 829 3
+6349 5405 1
+6340 829 8
+6340 3017 1
+6340 1279 1
+4308 4388 1
+4308 830 4
+4308 3013 9
+24379 4308 1
+24379 17907 1
+24379 10658 1
+24379 1279 1
+7365 14616 4
+12438 7883 2
+12438 829 3
+12438 9063 3
+14616 1068 3
+14616 9149 4
+14616 7883 9
+14616 829 6
+14616 830 7
+23732 14616 6
+23732 2548 5
+23732 829 1
+23732 3017 2
+23732 1279 6
+4901 447 1
+9063 1068 2
+9063 9149 4
+9063 7883 7
+9063 829 5
+9063 830 6
+9800 9847 5
+9800 116 5
+9800 9063 5
+9800 1279 6
+7820 1068 1
+7820 7883 10
+7820 1066 8
+7820 829 1
+7820 830 4
+7820 6859 2
+7820 2147 1
+32185 7820 1
+32185 1279 2
+29634 1068 1
+29634 7883 10
+29634 1066 15
+29634 829 1
+29634 830 4
+29634 6859 4
+29634 2147 1
+29629 29634 1
+29629 1279 2
+17907 4901 1
+17907 1279 1
+15450 10658 2
+15450 1279 1
+14510 829 3
+14510 5405 1
+14500 829 7
+14500 2149 1
+14500 3017 3
+14500 1279 1
+7893 7883 4
+7893 4901 1
+29272 7893 1
+29272 1279 2
+22940 5944 1
+22940 829 9
+22940 3644 2
+22940 5405 1
+22940 4187 1
+45593 22940 1
+45593 1066 4
+45593 829 2
+45593 2169 3
+45593 3017 5
+45593 12847 1
+45593 1279 1
+28649 447 1
+1068 4901 1
+1068 2146 1
+1068 19867 2
+1068 28649 2
+1068 2147 1
+27195 5944 3
+27195 1068 7
+27195 447 1
+27195 1279 1
+29492 322 3
+29492 829 1
+29492 6860 9
+29492 1290 1
+29492 27740 2
+43352 322 9
+43352 321 1
+43352 1066 5
+43352 29492 4
+43352 6859 2
+43352 1279 1
+43352 3798 2
+43352 3017 10
+43352 12847 1
+43352 2427 4
+43352 9031 4
+6860 1066 11
+6860 1290 2
+6860 830 4
+1290 1066 18
+1290 2146 2
+1290 2147 2
+37512 1066 4
+37512 2146 1
+37512 1290 14
+37512 2147 1
+45604 1066 6
+45604 3076 1
+45604 1290 1
+45604 37512 1
+45604 1279 1
+23920 1290 2
+6717 27 1
+6717 6860 5
+6717 1290 1
+6717 2495 2
+6717 447 1
+6717 6859 1
+27075 6717 4
+27075 322 8
+27075 1066 17
+27075 1290 8
+27075 6859 4
+27075 1279 1
+27075 2169 1
+27075 2495 3
+27075 2725 1
+27075 3017 11
+27075 12847 2
+27075 9031 5
+7543 6860 5
+7543 1290 1
+7543 2495 3
+7543 447 2
+7543 6859 1
+21582 7543 4
+21582 829 1
+21582 6860 5
+21582 447 1
+22868 3017 2
+9031 1068 1
+9031 7883 6
+9031 829 1
+9031 27 2
+9031 1290 3
+9031 830 6
+9014 7883 1
+9014 829 3
+9014 1290 6
+9014 9031 3
+9014 1279 1
+832 829 3
+832 830 4
+117 108 1
+117 830 5
+117 832 6
+32554 3013 3
+33176 32554 1
+33176 1279 2
+43309 4388 2
+43309 830 4
+43309 3013 4
+43309 7007 1
+6979 4388 2
+6979 830 4
+6979 3013 5
+6979 7007 1
+790 829 4
+790 830 2
+790 832 6
+583 108 1
+583 117 2
+12037 115 13
+12037 583 17
+12037 117 16
+12037 1279 17
+2548 1068 2
+2548 1066 11
+2548 829 3
+2548 983 2
+21876 2548 9
+21876 829 2
+21876 116 1
+21876 115 3
+21876 1279 1
+983 1068 2
+983 1066 7
+7366 2007 2
+7366 829 4
+7366 830 2
+7366 832 8
+25563 115 13
+25563 7366 16
+25563 1279 3
+7007 4388 3
+116 108 1
+116 117 2
+42 116 18
+42 115 13
+42 117 16
+42 1279 18
+115 1279 1
+11036 830 2
+34266 11036 10
+34266 115 5
+34266 1279 5
+32332 829 4
+32332 830 2
+32332 832 8
+32308 32332 18
+32308 115 4
+32308 1279 8
+10208 108 1
+10208 117 2
+2541 2550 1
+2550 5418 1
+28349 2548 1
+28349 2541 1
+31587 2548 7
+31587 321 4
+31587 2541 1
+31587 3076 1
+31587 28349 5
+31587 1279 1
+22405 2548 1
+22405 3015 2
+4245 1615 4
+4245 829 5
+4245 3015 10
+4005 4006 4
+3990 4005 1
+3990 1279 1
+23809 23822 4
+4006 3015 2
+4006 22405 2
+23822 3015 1
+23822 4245 2
+32006 17075 3
+32006 14110 2
+32007 2525 3
+42389 14616 3
+42389 32332 3
+42389 1066 9
+42389 32007 3
+42389 3017 18
+42389 2525 3
+42389 12847 3
+31997 14616 1
+31997 11736 1
+31997 32007 1
+31997 2525 1
+31997 7366 1
+31997 32006 1
+11736 11737 2
+11736 1937 1
+6081 951 3
+6660 322 2
+6660 2725 2
+7791 2725 1
+7791 11341 2
+7791 9283 1
+31833 7791 32
+31833 3194 5
+31833 257 10
+31833 260 1
+9920 321 1
+9920 7791 33
+11342 3629 1
+11342 2038 5
+11164 321 1
+11164 11194 10
+11343 7791 10
+11343 5309 5
+11343 11341 4
+9520 738 4
+9520 5215 1
+25695 738 8
+25695 25752 3
+25695 443 4
+25695 9437 2
+25695 447 1
+25695 736 2
+25695 12101 3
+25695 739 1
+25695 442 2
+25695 445 2
+442 5215 4
+442 261 1
+443 738 5
+443 5215 8
+443 767 2
+443 445 4
+443 442 1
+443 446 1
+33064 321 2
+33064 738 25
+33064 739 8
+33064 443 11
+33064 447 1
+33064 445 5
+33064 737 4
+33064 446 1
+737 738 62
+737 7055 1
+737 5215 1
+737 14339 23
+737 7054 9
+737 8233 3
+737 446 2
+737 445 25
+737 7056 1
+737 14338 3
+38640 321 1
+38640 447 1
+12101 738 22
+12101 7055 1
+12101 5215 1
+12101 14339 18
+12101 7054 4
+12101 8233 3
+12101 446 2
+12101 445 6
+12101 7056 1
+12101 14338 2
+12089 321 1
+12089 12101 1
+12089 447 1
+29986 321 1
+29986 739 4
+29986 447 1
+29986 12119 1
+738 767 1
+738 445 13
+738 8233 2
+738 446 5
+444 322 1
+444 1531 1
+444 445 8
+444 446 2
+31505 321 1
+31505 738 4
+31505 444 4
+31505 739 4
+31505 447 1
+31505 12119 5
+739 738 8
+739 444 4
+739 445 7
+739 13981 2
+13887 321 6
+13887 738 13
+13887 447 1
+13887 446 8
+13887 12119 16
+13887 739 16
+13887 445 5
+13887 13981 4
+37844 321 2
+37844 738 97
+37844 739 9
+37844 447 1
+37844 445 13
+37844 8233 6
+37844 446 10
+37844 12119 19
+445 446 2
+12477 321 1
+12477 739 2
+12477 445 32
+13981 12485 3
+33047 321 1
+33047 447 1
+33047 12485 2
+33047 13981 2
+33047 12119 2
+12119 321 1
+12119 738 1
+12119 739 2
+12119 13981 2
+8233 8224 1
+8233 17031 1
+8233 17030 1
+8233 446 1
+17030 8233 1
+17030 446 1
+17031 8233 1
+17031 446 1
+8224 8233 1
+8224 446 1
+654 738 1
+654 443 3
+654 736 2
+654 739 1
+654 740 1
+654 442 2
+654 445 1
+654 737 4
+654 745 2
+654 741 1
+745 14908 2
+745 443 2
+745 445 2
+745 258 1
+353 442 1
+353 259 2
+353 448 1
+9521 445 3
+9521 745 3
+5188 5215 7
+5188 442 2
+37997 11343 4
+37997 353 3
+37997 443 4
+37997 447 1
+37997 736 2
+37997 444 4
+37997 11194 2
+37997 442 2
+37997 445 15
+37997 260 3
+37997 11341 2
+740 443 2
+740 5188 1
+740 442 1
+740 259 2
+740 745 5
+740 448 1
+6569 447 1
+6569 745 2
+6534 321 3
+6534 6569 2
+6534 447 2
+6534 745 2
+43655 321 2
+43655 447 1
+14606 738 2
+14606 447 2
+14606 739 1
+14606 9521 5
+14606 445 1
+14606 5188 1
+14606 9520 3
+14606 745 1
+741 9522 1
+741 5215 1
+741 443 1
+741 5188 1
+741 442 1
+741 259 2
+741 745 6
+741 448 1
+34201 9522 2
+34201 321 3
+34201 12101 1
+34201 7054 1
+34201 5188 3
+34201 447 1
+34201 9483 1
+34201 741 1
+9483 9522 2
+9483 738 1
+9483 444 3
+9483 9521 6
+9483 5188 1
+9483 447 2
+9483 9520 2
+9483 745 3
+44651 9522 2
+44651 321 1
+44651 739 2
+44651 447 1
+44651 12119 4
+44651 9483 4
+11945 9522 7
+11945 321 1
+11945 447 1
+7056 5215 6
+7056 442 4
+7056 446 1
+7054 5215 1
+5215 7055 1
+5215 7054 1
+5215 7056 1
+5215 446 1
+35843 321 2
+35843 7055 2
+35843 5215 6
+35843 7054 11
+35843 447 1
+35843 7056 3
+7055 5215 17
+7055 446 1
+25752 738 1
+25752 443 2
+25752 9520 3
+12120 738 18
+12120 14339 2
+12120 445 3
+12120 8233 3
+12120 14338 1
+12104 321 1
+12104 739 6
+12104 12120 3
+12104 447 1
+12104 12119 6
+14338 738 1
+14338 14339 1
+27581 738 13
+27581 767 5
+27581 14339 4
+27581 445 4
+27581 446 1
+27581 14338 1
+30483 738 13
+30483 14339 4
+30483 445 6
+30483 6859 27
+30483 446 4
+30483 14338 1
+30471 321 1
+30471 30483 4
+30471 738 3
+30471 739 4
+30471 14339 8
+30471 8233 2
+21984 739 1
+21984 445 2
+21984 442 1
+21984 13981 1
+21984 736 2
+23961 10952 1
+23961 443 2
+23961 445 2
+23961 736 2
+41796 15260 2
+41796 736 2
+15260 442 1
+15260 10881 1
+10952 738 9
+10952 5215 6
+10952 445 10
+10952 446 6
+34566 444 2
+34566 447 1
+34566 445 3
+34566 736 2
+23924 321 2
+23924 738 17
+23924 7055 2
+23924 443 1
+23924 23961 2
+23924 7054 5
+23924 447 1
+23924 446 1
+23924 739 3
+23924 10952 4
+23924 445 3
+23924 7056 1
+23924 737 9
+5224 323 1
+5242 257 14
+5242 260 1
+2277 2725 3
+2277 447 1
+2277 1535 8
+11349 4152 10
+11349 321 1
+11349 2277 19
+11349 447 3
+7310 7330 4
+7310 322 1
+7330 3387 1
+7330 322 2
+7330 3194 2
+7330 24561 4
+7330 2725 3
+7330 447 1
+7330 1847 1
+24561 3387 5
+24561 1847 3
+18331 7330 2
+18331 322 1
+18331 7310 5
+18331 18330 4
+18320 18331 1
+18320 321 2
+18320 3076 3
+18320 18330 1
+16215 7330 11
+16215 322 5
+16215 321 1
+16215 7310 5
+16215 3076 1
+16215 16237 1
+38447 7330 66
+38447 322 10
+38447 321 3
+38447 7310 9
+38447 3076 4
+38447 2725 8
+18330 7330 12
+18330 322 2
+18330 7310 3
+36161 7330 13
+36161 321 3
+36161 7310 2
+36161 3076 5
+36161 18330 2
+12660 6660 1
+12660 9058 6
+16863 2396 1
+16863 9058 2
+16863 323 5
+16863 259 13
+16863 258 2
+16863 263 4
+16863 448 2
+16863 261 4
+12643 9058 8
+12643 12660 3
+16023 12643 2
+16023 322 4
+16023 9057 7
+16023 12660 5
+9058 3798 1
+9058 322 2
+9058 323 8
+9052 9058 2
+9052 9057 3
+15028 6660 4
+15028 322 1
+15028 321 3
+15028 9058 2
+15028 3076 3
+15028 1531 1
+15028 15057 2
+15028 323 4
+15028 257 2
+15028 15059 1
+15028 12643 1
+9057 322 5
+9057 321 2
+9057 9058 10
+9057 2725 2
+15059 9058 5
+15059 12660 3
+30450 15059 2
+30450 322 4
+30450 9057 7
+30450 12660 5
+20590 15059 1
+20590 12643 1
+20590 9058 2
+20590 323 3
+20590 258 1
+20590 12660 2
+20554 11343 3
+20554 9058 2
+20554 16863 1
+20554 323 3
+20554 259 4
+20554 257 35
+20554 12660 1
+20554 15059 1
+20554 12643 1
+20554 258 1
+20554 260 1
+20554 263 3
+20554 11341 1
+20554 261 2
+16864 12643 1
+19792 16863 1
+19792 323 1
+19782 322 1
+19782 321 4
+19782 19792 2
+19782 323 2
+16848 16864 4
+16848 16863 1
+16848 323 3
+44701 322 3
+44701 321 2
+44701 16848 3
+44701 16864 3
+44701 323 3
+15057 9058 2
+15057 16863 2
+15057 258 4
+15057 257 41
+15057 263 1
+15057 260 1
+15057 261 1
+20327 322 1
+20327 3629 1
+20327 323 4
+33706 322 6
+33706 321 2
+33706 323 5
+33706 20327 4
+32270 24891 1
+32270 19 11
+32270 3180 1
+32270 260 2
+32270 736 1
+36647 11391 6
+36647 18 17
+11380 11391 4
+11380 7539 4
+11380 18 13
+12 19 1
+12 20 1
+12 18 1
+18 322 1
+18 321 2
+18 19 5
+18 20 1
+18 2725 2
+46107 24891 4
+46107 19 22
+46107 18 5
+12860 322 3
+12860 19 10
+12860 20 11
+12860 2725 8
+12860 18 6
+11391 19 37
+11391 2725 2
+7539 19 10
+7539 11391 2
+7539 20 3
+7539 447 2
+19 322 1
+19 2725 2
+19 447 2
+24891 322 9
+24891 19 61
+24891 11391 3
+24891 7539 2
+24891 2725 22
+20 2396 4
+20 322 1
+20 19 71
+20 3629 2
+20 2725 2
+3180 19 6
+3180 3194 9
+3180 323 5
+29373 24891 1
+29373 19 7
+29373 20 3
+29373 7539 2
+9897 3180 1
+9897 736 1
+7511 3180 1
+7511 7539 2
+7511 260 2
+7511 736 1
+1858 6660 1
+1858 322 1
+1858 1848 1
+4527 16396 1
+4527 7991 1
+4527 4528 17
+4527 4529 1
+4527 1853 11
+4527 1849 1
+4527 14115 1
+1853 637 20
+1853 1854 4
+1853 638 12
+19688 322 3
+19688 321 1
+19688 637 2
+19688 1854 11
+19688 1853 26
+19688 447 2
+19688 19731 4
+1854 6660 2
+1854 322 2
+1854 1856 4
+1854 1855 15
+1854 1858 9
+1854 1848 2
+4529 964 7
+4529 2038 1
+25333 322 1
+25333 321 1
+25333 964 9
+25333 4529 1
+11127 6660 2
+14115 7991 6
+14115 1857 4
+17901 6660 1
+17901 322 10
+17901 1531 4
+17901 447 1
+17901 323 8
+17901 1848 4
+17896 447 1
+17896 17901 4
+17896 7990 6
+4528 1855 9
+4528 4529 7
+28929 321 1
+28929 4528 6
+6645 6660 1
+6645 6662 5
+15519 6660 2
+44810 322 1
+44810 18078 1
+9536 1856 4
+9536 1855 1
+9536 1854 1
+9536 1853 1
+1798 322 2
+1798 321 1
+1798 1855 1
+1798 1854 11
+1798 1853 12
+1798 1858 6
+1798 447 3
+1798 1856 2
+1798 1849 1
+7990 6660 4
+7990 322 1
+7990 321 1
+7990 447 2
+1855 322 3
+1855 3194 2
+1855 1856 2
+1855 2725 1
+1855 1858 9
+1855 323 4
+7925 6660 5
+7925 322 9
+7925 7991 2
+7925 964 1
+7925 1855 11
+7925 1854 14
+7925 1858 9
+7925 447 4
+7925 7990 13
+7925 1856 2
+19579 6660 1
+19579 322 1
+19579 3194 2
+19579 2725 1
+19579 1848 3
+19575 19579 2
+19575 7990 6
+1856 962 1
+4234 4242 1
+6662 6660 1
+6662 1848 1
+16249 6660 1
+16249 637 1
+16249 4528 2
+16249 4426 1
+16249 4529 6
+16249 1853 1
+16249 2299 1
+16249 4527 2
+18080 6660 1
+18080 4242 1
+18080 4528 4
+18080 4529 2
+18080 2277 5
+18080 2299 1
+18080 1858 1
+15468 964 3
+15468 637 6
+15468 1854 5
+15468 1853 2
+15468 1858 2
+15468 2038 2
+15468 15519 3
+15468 11342 4
+15468 12557 12
+34465 22921 1
+34465 322 1
+34465 5309 4
+34465 2038 2
+31174 11343 2
+31174 6660 2
+31174 9536 1
+31174 964 5
+31174 6337 2
+31174 323 2
+31174 259 4
+31174 11341 1
+11303 11343 2
+11303 6660 2
+11303 9536 1
+11303 964 5
+11303 11342 1
+11303 11341 1
+40946 964 2
+40946 6337 2
+40946 637 1
+40946 1854 1
+40946 1853 7
+40946 323 1
+40946 259 3
+40946 257 14
+40946 15468 1
+4426 637 2
+4426 4528 9
+4426 1855 1
+4426 4529 3
+4426 1854 3
+4426 1853 5
+4426 1858 4
+4426 4527 10
+4426 3629 1
+4242 6660 1
+4242 3629 1
+4242 4528 15
+4242 1855 4
+4242 4529 3
+4242 1858 6
+18044 6660 1
+18044 322 1
+18044 4242 4
+18044 3076 2
+18044 18080 3
+18044 4528 10
+18044 4529 2
+18044 18078 1
+18044 15519 3
+16462 964 2
+16462 637 1
+16462 2038 1
+16462 1854 1
+16462 1853 7
+16462 11342 2
+16462 15468 2
+7742 6660 3
+7742 4242 1
+7742 637 1
+7742 4528 4
+7742 5309 6
+7742 4529 4
+7742 2277 4
+7742 1853 1
+7742 2299 1
+7742 4527 2
+7742 7791 3
+2258 2280 1
+2258 1855 7
+2258 2277 3
+2258 2279 4
+2258 1858 2
+2279 22921 1
+2279 3629 2
+2279 2038 5
+2067 3629 2
+2067 2299 1
+2067 323 12
+10879 3798 1
+10879 322 1
+10879 2725 1
+10879 1847 2
+5700 3904 4
+5700 7122 12
+5700 5714 5
+5700 5705 5
+5700 5707 2
+5700 5309 5
+5700 2725 1
+44105 12548 7
+44105 8085 3
+44105 321 16
+44105 10879 4
+44105 323 1
+44105 10106 1
+44105 17548 2
+44105 1783 1
+44105 2067 1
+44105 1780 3
+44105 1784 1
+19680 322 13
+19680 321 9
+19680 15407 2
+19680 10884 5
+19680 10879 10
+19680 2060 7
+19680 323 10
+19680 14068 33
+19680 10106 1
+19680 17548 1
+19680 14069 8
+19680 2067 7
+19680 19681 1
+34647 322 2
+34647 321 1
+34647 2299 2
+30044 322 4
+30044 321 2
+30044 15407 2
+30044 323 9
+15407 2495 7
+2060 2067 5
+2060 2068 2
+5261 2067 11
+5261 2060 4
+5245 5261 4
+10884 2060 2
+10884 323 1
+10884 257 31
+10884 2061 2
+10884 2067 7
+10884 10176 1
+10884 5261 2
+10884 8212 1
+10884 260 10
+10884 261 1
+10884 2062 1
+10882 2067 3
+10882 5261 2
+10882 5245 1
+10882 323 3
+10883 2067 2
+10883 5261 4
+10883 5245 1
+10883 2060 1
+10883 323 1
+10883 2061 2
+10704 321 81
+10704 10883 9
+10704 6271 11
+10704 10884 4
+10704 10879 13
+10704 323 1
+10704 259 17
+10704 10882 9
+10704 2061 15
+10704 2067 9
+10704 3629 2
+10704 5261 6
+10704 258 6
+10704 10881 3
+14067 24629 1
+14067 323 6
+14067 2062 1
+14067 2061 1
+14067 261 1
+19608 322 15
+19608 321 18
+19608 15407 2
+19608 10884 3
+19608 10879 10
+19608 2060 8
+19608 323 15
+19608 10106 1
+19608 17548 1
+19608 14069 5
+19608 2067 8
+19608 19681 1
+19608 14067 50
+10176 323 6
+10176 259 4
+10176 257 15
+10176 4686 1
+10176 2061 1
+10176 1780 2
+10176 23495 1
+10176 8212 4
+10176 4683 4
+10176 260 2
+10176 263 1
+10176 2068 1
+10176 261 3
+13399 321 17
+13399 10884 1
+13399 10879 3
+13399 323 1
+13399 4686 1
+13399 3629 1
+13399 10176 2
+13399 1780 3
+13399 4683 1
+13399 8212 1
+13399 261 1
+32796 323 9
+32796 2061 1
+32796 1780 2
+32796 4683 1
+32796 8212 4
+32796 23495 1
+32796 261 3
+32796 2068 1
+8212 6660 1
+8212 32172 8
+8212 323 6
+8212 2062 1
+8212 2061 3
+8212 261 1
+4683 2067 1
+4683 4686 6
+4686 2067 1
+4686 323 7
+11853 260 3
+11853 736 2
+11880 323 1
+24525 321 4
+39725 322 2
+39725 17549 10
+39725 10884 1
+39725 447 1
+17549 322 21
+17549 15407 4
+17549 447 1
+17549 323 4
+17549 259 1
+17549 2061 1
+17549 2067 2
+17549 261 1
+17549 448 1
+17549 2062 1
+29824 8085 1
+29824 10177 1
+29824 17549 8
+29824 10178 1
+29824 8212 2
+29824 447 1
+29824 5763 1
+29824 10106 1
+17505 17548 1
+17505 16805 1
+17505 8085 1
+17505 10177 1
+17505 17549 8
+17505 8212 2
+17505 447 1
+18762 18785 1
+18762 17549 5
+18762 447 1
+14068 24629 1
+14068 1531 1
+14068 2062 1
+14068 2061 1
+14068 261 1
+14069 24629 2
+14069 323 2
+14069 259 4
+14069 257 15
+14069 2061 1
+14069 2067 2
+14069 260 3
+14069 263 2
+14069 10881 1
+14069 261 3
+24629 323 1
+24629 259 2
+24629 263 1
+24629 4686 6
+24629 261 1
+24611 24629 1
+24611 323 1
+24611 4686 6
+10106 8085 1
+10106 10179 1
+10106 10177 2
+10106 10176 1
+10106 10178 2
+10106 8212 3
+10106 257 35
+10106 260 11
+10179 2067 4
+10179 5763 2
+10179 2068 2
+10179 2062 1
+10179 2061 1
+10179 261 1
+5763 2067 2
+5763 2066 3
+37080 321 33
+37080 2067 4
+37080 10879 2
+37080 19681 2
+37080 258 2
+37080 5763 4
+37080 10106 1
+8191 8212 5
+8191 2299 1
+8191 323 1
+19320 8212 7
+19320 323 3
+19320 2061 2
+19321 8212 6
+19321 2061 1
+13455 8191 1
+13455 2299 1
+10177 7227 1
+10177 8212 16
+10177 323 1
+10177 2062 1
+10177 2061 1
+10177 261 2
+2061 1856 2
+32172 1856 2
+2068 2067 8
+2068 323 2
+10178 2067 1
+10178 33668 2
+10178 8191 1
+10178 8212 2
+10178 2066 1
+10178 2068 1
+16805 8191 1
+16805 8212 1
+16805 2066 1
+24201 16805 4
+24201 322 32
+24201 321 11
+24201 10177 4
+24201 10879 2
+24201 10178 1
+24201 2067 8
+24201 19681 4
+24201 8212 52
+24201 5763 3
+24201 2068 3
+17548 16805 2
+17548 8085 1
+17548 10177 2
+17548 2047 1
+17548 257 32
+17548 10176 1
+17548 8212 3
+17548 260 10
+2047 2067 2
+2047 2066 1
+2047 2068 1
+2047 2062 1
+2047 2061 1
+2047 261 1
+2066 2067 7
+2066 2068 5
+8085 2067 1
+8085 447 2
+8085 323 2
+8085 259 2
+8085 2066 1
+8085 2061 4
+8085 448 1
+8085 261 1
+19681 322 1
+19681 321 46
+19681 10884 1
+19681 10879 8
+19681 2299 1
+19681 323 2
+19681 259 10
+19681 4686 2
+19681 2061 1
+19681 17548 1
+19681 3629 1
+19681 2067 6
+19681 12372 12
+19681 2066 6
+19681 448 5
+23101 8085 4
+23101 321 9
+23101 3629 1
+23101 10879 3
+23101 323 1
+23101 10881 4
+23101 2061 4
+15929 10591 2
+15929 2799 2
+15929 259 9
+15929 263 1
+15929 260 2
+15929 736 2
+7805 3798 1
+7805 322 2
+7805 3799 1
+7805 323 4
+7805 3679 2
+7805 3923 5
+3953 259 2
+3953 257 43
+3953 263 1
+3953 260 2
+3953 261 3
+30122 323 3
+30122 1848 1
+3923 322 2
+3923 3953 1
+3923 3799 6
+3923 447 1
+3923 323 3
+3923 3679 7
+3923 2427 2
+34189 21050 2
+34189 322 1
+34189 3953 1
+34189 3799 3
+34189 447 2
+34189 323 3
+34189 3679 3
+14162 2415 1
+14162 322 2
+14162 447 1
+14162 323 1
+14162 259 11
+14162 257 2
+14162 3679 10
+14162 736 2
+14162 3798 1
+14162 1780 1
+14162 3799 3
+14162 2725 1
+14162 260 1
+14162 261 1
+14162 448 2
+3679 3798 4
+3679 3799 12
+3679 2427 3
+32691 321 5
+32691 3953 2
+32691 27473 1
+32691 10879 4
+32691 447 2
+32691 14162 3
+3799 2415 1
+3799 322 4
+3799 2299 1
+3799 447 1
+3799 323 2
+3799 259 19
+3799 1848 3
+3799 18300 5
+3799 2725 3
+3799 2427 2
+3799 448 1
+28591 7486 3
+8037 3629 2
+8037 2299 1
+8037 323 1
+11577 11601 1
+8007 8036 2
+8007 321 3
+8007 6271 9
+8007 8037 1
+44023 321 3
+44023 6271 3
+44023 3629 2
+44023 1531 2
+44023 323 2
+6254 321 2
+6254 6271 2
+6254 3629 1
+6254 323 1
+30652 322 3
+30652 321 7
+30652 7227 1
+30652 11601 4
+30652 323 2
+33850 322 1
+33850 321 2
+33850 6271 2
+33850 3629 1
+33850 323 1
+11601 7227 1
+11601 323 1
+11601 258 1
+28592 7486 3
+28592 11601 1
+20765 2067 1
+20765 323 3
+20765 259 2
+20765 2066 1
+20765 2061 2
+20765 448 1
+20765 261 1
+18785 11577 1
+18785 28592 1
+18785 259 2
+18785 257 27
+18785 6272 1
+18785 17548 1
+18785 7486 7
+18785 2588 7
+18785 28591 1
+18785 20765 1
+18785 260 4
+18785 448 1
+34978 321 5
+34978 3629 1
+34978 10879 1
+34978 323 1
+34978 20765 1
+34978 10881 1
+34978 2061 1
+7125 3907 8
+7125 3904 5
+7125 7122 13
+7125 5714 15
+7125 29865 11
+7125 5704 5
+7125 447 1
+7125 259 8
+7061 7119 1
+7061 3904 2
+7061 3286 2
+7061 322 1
+7061 7120 2
+7061 5700 2
+7061 5309 3
+7061 5701 1
+7061 447 1
+7061 7123 4
+7061 2725 1
+7061 7122 3
+7061 5714 4
+7061 5705 5
+7061 259 11
+7061 1848 1
+7061 7125 8
+5701 322 1
+5701 5704 2
+5701 259 3
+5701 7123 1
+5702 3907 10
+5702 3904 2
+5702 7122 9
+5702 5714 2
+5702 5704 3
+29998 3904 2
+29998 7122 6
+29998 3822 2
+29998 5714 2
+29998 5700 6
+29998 5705 1
+29998 5707 2
+29998 5702 7
+29998 5701 1
+29998 447 1
+29998 259 13
+29998 3907 4
+5713 3286 4
+5713 5714 4
+5713 5704 6
+5713 323 3
+5709 5712 1
+5709 5713 1
+5709 258 3
+5709 257 32
+5709 260 4
+5709 261 1
+5710 5700 1
+5710 5713 1
+5710 5711 1
+5710 5702 6
+5710 5704 1
+5710 323 2
+5712 20625 1
+5712 5713 1
+5712 5711 1
+5712 7125 2
+5610 3904 2
+5610 321 2
+5610 5714 1
+5610 5713 1
+5610 5711 4
+5610 5705 2
+5610 5702 4
+5610 5701 1
+5610 447 1
+5610 323 3
+5610 259 14
+5610 5709 1
+5610 448 1
+20625 7122 1
+20625 5700 1
+20625 5711 2
+20625 5702 2
+20625 10881 1
+5711 3907 1
+5711 5713 1
+5711 323 1
+33524 5700 8
+33524 5309 13
+33524 257 1
+33524 33578 6
+33524 2062 6
+16845 259 4
+16845 263 2
+16829 321 3
+16829 258 1
+16829 16845 1
+16829 448 1
+16829 261 1
+12523 12548 2
+12523 11853 1
+12523 10884 1
+12523 257 14
+12523 260 4
+45741 12548 2
+45741 11853 1
+45741 10884 1
+45741 257 23
+45741 260 6
+45741 10106 1
+24154 17548 2
+24154 12548 4
+24154 8085 1
+24154 11853 2
+24154 10884 1
+24154 257 24
+24154 260 7
+34012 321 1
+34012 5965 7
+28040 23495 2
+28040 261 4
+38773 321 7
+38773 10884 1
+38773 10879 2
+38773 323 1
+38773 259 2
+38773 28040 1
+38773 17548 1
+38773 3629 1
+38773 12372 2
+38773 448 1
+11754 1615 1
+11754 323 1
+11754 259 2
+11754 5965 3
+11754 263 1
+11754 4686 3
+11754 261 1
+44610 28040 1
+44610 5792 2
+44610 257 11
+44610 11754 2
+44610 260 2
+44610 261 1
+42012 28040 1
+42012 323 3
+42012 4686 2
+44647 28040 1
+30246 321 6
+30246 10884 2
+30246 10879 2
+30246 323 3
+30246 259 2
+30246 5965 1
+30246 3629 1
+30246 12372 2
+30246 11754 3
+30246 448 1
+9160 9230 1
+257 323 2
+257 258 4
+257 260 3
+257 11815 1
+257 736 3
+33113 321 1
+33113 257 10
+35266 321 1
+35266 258 2
+30845 322 2
+30845 6271 3
+30845 323 3
+258 7227 1
+258 23495 1
+258 262 2
+10575 321 1
+10575 10591 38
+321 3076 4
+321 447 1
+321 257 1
+447 2495 5
+37553 3076 1
+37553 447 21
+14895 321 1
+14895 14908 5
+9265 8566 1
+12737 8566 1
+29472 322 3
+29472 321 1
+29472 2299 2
+5441 322 4
+5441 321 1
+5441 3629 4
+18440 322 4
+18440 5824 2
+18440 5441 1
+5442 5703 3
+27258 7120 4
+27258 3194 2
+27258 8566 2
+27258 13737 2
+27258 323 2
+27258 5843 4
+27258 5845 2
+27258 5847 2
+10880 8566 1
+17237 9556 1
+17237 1848 1
+17238 5824 5
+9255 322 3
+9255 321 1
+5439 5441 1
+34966 322 3
+34966 321 1
+34966 27258 5
+34966 2725 1
+12554 5441 1
+45084 322 3
+45084 321 1
+45084 17237 1
+18438 17238 1
+18438 18440 1
+39073 18440 1
+27821 27823 1
+27821 18440 1
+5824 5843 2
+5824 5845 1
+5824 323 2
+5824 5847 1
+30087 5824 2
+27823 5824 3
+37279 321 1
+37279 924 2
+1937 5418 2
+4187 447 1
+4186 321 1
+4186 924 6
+24512 17069 1
+17069 2495 2
+17069 447 1
+6701 447 1
+6701 259 2
+4181 4186 1
+4181 4187 1
+17054 321 1
+17054 17069 7
+17054 924 7
+22157 4186 1
+22157 6701 1
+263 6337 1
+263 262 4
+6337 1615 1
+6337 262 1
+6337 258 1
+2062 23495 1
+2062 262 4
+23495 1615 2
+23495 262 1
+448 5792 1
+5792 259 2
+10881 7227 1
+21854 323 1
+21855 2299 1
+21855 323 4
+11607 3629 2
+11607 323 3
+16798 9570 1
+16798 323 2
+18790 9570 1
+18790 323 1
+5843 5847 4
+9556 5847 2
+5845 5847 3
+36689 4557 1
+638 637 6
+638 1856 2
+614 321 1
+614 637 5
+614 638 4
+3169 1847 1
+637 1856 4
+637 447 1
+637 3169 4
+637 1847 1
+18078 321 1
+31214 11822 1
+31214 260 3
+31214 4178 11
+31214 736 2
+11832 3282 1
+11822 4178 4
+11831 4178 5
+4160 3282 1
+4160 4178 1
+13372 2396 3
+13372 2725 2
+13372 1535 6
+45629 12941 3
+45629 10293 5
+45629 323 4
+12941 2396 1
+12941 322 1
+12941 10293 5
+12942 3194 4
+12942 323 4
+23268 10293 4
+37127 10293 4
+16570 10293 3
+22892 12941 1
+22892 10293 3
+44167 12941 1
+44167 10293 3
+45497 12941 1
+45497 10293 4
+12912 12941 1
+12912 10293 2
+12912 12942 1
+29254 10293 3
+29254 12942 1
+32853 10293 6
+45215 10293 3
+16949 12941 1
+16949 10293 3
+31073 12941 1
+31073 10293 4
+36399 10293 3
+19746 10293 3
+19746 12942 2
+1535 322 4
+1535 1689 9
+1535 8566 15
+1535 25848 3
+1535 1847 3
+1535 3387 3
+1535 13714 1
+1535 2725 1
+1535 2427 2
+1535 12358 1
+1531 19550 1
+1531 1689 4
+1531 8566 7
+1531 1533 4
+1531 447 1
+1531 22628 1
+1531 1848 4
+1531 1847 10
+1531 1623 1
+1531 3387 13
+9892 7119 1
+9892 4152 2
+9892 322 7
+9892 3629 12
+9892 3076 2
+9892 447 1
+9892 1848 4
+9892 7123 2
+13737 322 1
+13737 8566 1
+5704 3286 2
+5704 322 2
+5704 5714 18
+5704 1848 1
+24592 3286 3
+24592 322 4
+24592 9892 2
+24592 5714 8
+24592 1531 1
+24592 5704 9
+24592 1848 1
+24592 7123 4
+5381 5382 23
+5381 2725 3
+5381 1848 4
+5381 1535 16
+5334 5381 22
+5334 322 1
+5334 5382 1
+5334 3076 1
+5334 1531 1
+5334 2725 5
+5334 447 2
+7119 322 1
+7119 1531 4
+7119 2725 1
+7119 1533 1
+3286 3387 5
+3286 1533 1
+3286 1847 2
+2725 322 1
+2725 1689 7
+2725 8566 2
+2725 12358 1
+2725 1535 25
+2717 1534 8
+5883 322 2
+5883 3076 1
+5883 2717 2
+5883 2725 2
+5883 2715 7
+5883 1535 1
+322 1531 17
+322 1689 2
+322 8566 2
+322 2725 1
+322 1533 4
+322 1623 1
+19780 7119 1
+19780 3798 2
+19780 322 1
+19780 12358 1
+19780 1535 5
+40876 322 3
+40876 3076 1
+40876 2725 2
+40876 19780 16
+40876 1535 5
+2415 323 2
+2415 2427 2
+13501 2725 1
+13501 2427 1
+13501 1535 2
+22032 3798 1
+22032 3076 3
+22032 13501 6
+22032 2725 1
+22032 447 2
+22032 2427 2
+22032 7123 2
+3498 2725 1
+3498 2427 2
+3498 1535 5
+15003 3798 1
+15003 3498 3
+15003 3076 2
+15003 447 1
+15003 2427 3
+11397 3387 18
+21945 2396 1
+21945 2725 1
+21945 25848 2
+21945 1535 2
+3076 447 1
+3485 21945 2
+3485 447 1
+3485 1848 1
+3452 2396 1
+3452 3076 1
+3452 3485 11
+3452 2725 2
+3452 1535 1
+2427 3286 3
+6973 2396 1
+6973 322 7
+6973 3076 2
+6973 2725 2
+6973 447 2
+6973 2427 3
+6973 1848 1
+6973 1535 1
+27473 3798 1
+27473 2725 1
+27473 323 5
+27473 259 10
+27473 2427 2
+27473 448 2
+25848 1531 5
+25848 1689 2
+25848 1533 4
+8360 3076 1
+8360 2725 2
+8360 1848 1
+8360 1535 1
+12358 1689 10
+12358 8566 2
+12358 1623 2
+12358 1535 25
+3194 3798 1
+3194 2396 2
+3194 2725 1
+3194 323 6
+31608 3798 2
+31608 2396 2
+31608 3076 2
+31608 3194 6
+31608 2725 2
+15532 2299 1
+15532 323 6
+8691 3076 1
+8691 5908 1
+16055 16090 3
+16055 3076 1
+1780 3387 5
+1780 1533 1
+1780 1847 2
+23220 322 1
+23220 13737 1
+23220 1848 4
+35372 322 1
+35372 3076 1
+35372 1531 1
+35372 2725 2
+35372 23220 13
+30185 2427 3
+6695 3798 1
+6695 1531 2
+6695 2725 1
+6695 1533 4
+6669 322 1
+6669 3076 1
+6669 1531 2
+6669 6695 5
+5382 1689 2
+5382 12358 1
+5382 6695 4
+5382 1535 7
+23391 322 4
+23391 5382 8
+23391 6973 1
+23391 2725 2
+23391 1535 4
+16355 2725 1
+16355 1848 4
+40577 322 1
+40577 3076 1
+40577 1531 1
+40577 16355 20
+40577 5309 6
+40577 1848 5
+40577 2725 4
+40577 1535 2
+3629 2396 1
+3629 1531 13
+3629 8566 1
+3629 1533 4
+8645 16090 1
+8645 2725 2
+8645 12358 1
+8645 1535 4
+2299 2396 1
+2299 1531 13
+2299 1533 20
+2299 1847 1
+7120 13737 6
+7120 2725 7
+26081 16237 7
+6974 3798 2
+6974 3629 3
+6974 1689 7
+6974 8566 2
+6974 12358 1
+6974 2427 2
+6974 1535 24
+2396 3286 1
+2396 3629 3
+2396 1689 7
+2396 8566 4
+2396 12358 1
+2396 2427 1
+2396 1535 30
+3798 6974 2
+3798 322 1
+3798 1689 7
+3798 8566 3
+3798 2299 1
+3798 1848 3
+3798 3629 1
+3798 12358 1
+3798 1535 24
+40890 6973 1
+40890 2725 1
+17388 322 3
+17388 9892 3
+17388 1531 1
+17388 1848 1
+39395 322 4
+39395 3076 2
+39395 2725 1
+39395 12358 1
+24717 3076 1
+24717 1533 54
+16986 9892 1
+16986 3629 3
+16986 1531 1
+16986 447 1
+9880 9892 2
+9880 1531 1
+9880 2299 3
+9880 447 1
+20337 7120 44
+20337 3076 1
+20337 13737 7
+20337 2725 24
+20337 447 2
+20337 1535 3
+6966 6974 1
+6966 6973 1
+40915 2396 11
+40915 6973 1
+40915 2427 2
+23152 3286 1
+23152 322 1
+23152 1531 1
+23152 447 4
+23152 19780 1
+23152 1848 3
+23152 3798 7
+23152 11281 7
+23152 6973 1
+23152 2725 3
+23152 2427 1
+23152 1535 4
+36205 322 7
+36205 3076 1
+36205 1623 6
+1534 1689 2
+1534 2725 1
+1534 12358 1
+1534 1535 9
+37575 322 2
+37575 3076 1
+37575 1534 1
+37575 2725 1
+37575 1535 1
+264 5759 2
+4902 5759 2
+13458 5759 118
+13458 3076 2
+22628 3387 10
+30428 322 1
+30428 3629 1
+30428 2299 1
+30428 22628 54
+30428 1848 9
+22585 3387 10
+22585 322 6
+22585 3629 2
+22585 2299 2
+22585 22628 6
+19550 3387 5
+30223 322 1
+30223 3629 1
+30223 19550 45
+30223 2299 1
+19534 3387 3
+19534 1531 2
+19534 19550 3
+19534 2299 4
+4966 322 42
+4966 3629 53
+4966 3076 1
+4966 1531 15
+4966 2299 36
+4966 1848 3
+4966 1623 7
+1623 1531 13
+1623 1689 2
+1623 1533 4
+323 5759 8
+323 322 1
+323 3629 1
+323 1780 2
+323 2299 1
+40706 322 4
+40706 3629 2
+40706 1780 8
+40706 2299 4
+40706 323 6
+40706 1623 2
+5714 3286 7
+25876 3286 3
+25876 5714 4
+25851 3286 7
+25851 322 8
+25851 9892 2
+25851 25876 5
+25851 5714 15
+25851 1531 1
+25851 16355 2
+25851 5704 1
+25851 1848 2
+25851 2725 1
+25851 1535 1
+16310 16355 2
+16310 2725 3
+44209 2396 1
+44209 322 2
+44209 3629 1
+44209 3076 1
+44209 27740 2
+44209 16310 4
+44209 2725 1
+44209 2299 1
+27740 322 1
+27740 16355 2
+27740 2725 3
+33610 7485 2
+33610 10 4
+7485 10 2
+12279 3798 1
+12279 322 1
+12279 3076 1
+12279 18030 4
+12279 2725 1
+12279 2299 1
+12279 447 1
+42588 322 1
+42588 13714 1
+42588 25662 24
+42588 2725 2
+42588 10 4
+42588 33610 2
+25644 13714 3
+25644 25662 25
+42556 42588 2
+42556 25662 11
+42556 12279 4
+42556 2725 1
+42556 33610 2
+25662 322 2
+18029 13714 4
+18029 18030 20
+18029 2715 3
+18030 2725 1
+29660 322 3
+29660 18030 6
+29660 12279 6
+29660 18029 3
+29660 2715 3
+1848 7496 1
+1848 3387 35
+1848 13714 1
+1848 19266 1
+1848 1847 49
+7496 1847 1
+13714 3387 1
+3442 1847 1
+8213 3387 1
+7486 12280 1
+7486 12281 1
+7486 6337 1
+7486 12282 4
+7486 8566 1
+7486 23728 1
+7486 261 1
+4903 322 1
+4903 3629 1
+4903 2725 1
+4903 323 4
+4903 259 4
+4903 448 2
+23728 7227 1
+12280 7486 6
+12280 257 21
+12129 12280 2
+12129 322 2
+12129 321 21
+12129 12281 2
+12129 10879 1
+12129 12279 8
+12129 3629 5
+12129 12282 6
+12129 7486 33
+12129 258 7
+12129 2427 4
+12129 261 4
+12282 7227 1
+12282 323 1
+12282 258 1
+12281 7486 3
+12281 258 1
+12281 257 10
+15400 322 1
+15400 18032 2
+15400 18030 10
+15400 323 1
+15400 257 13
+15400 7387 1
+15400 7486 5
+15400 1780 1
+15400 18029 3
+7487 322 1
+7487 1780 6
+7387 3798 1
+7387 7486 6
+7387 323 1
+7387 257 18
+7387 10 2
+7387 2427 4
+7387 260 2
+7387 7487 1
+18032 322 3
+18032 18030 6
+18032 2725 1
+18032 323 3
+43792 321 7
+43792 15400 2
+43792 3076 2
+43792 18032 5
+43792 18030 5
+43792 12279 2
+43792 12129 2
+43792 7486 5
+43792 18029 3
+15358 321 20
+15358 323 3
+15358 12129 2
+15358 7486 5
+15358 1780 5
+15358 2725 3
+15358 10881 3
+15358 7487 3
+7010 2067 2
+7010 1780 4
+7010 2060 1
+7010 323 1
+7010 2066 1
+7010 2062 1
+7010 261 1
+39088 322 1
+39088 321 36
+39088 10879 6
+39088 323 4
+39088 259 3
+39088 17440 1
+39088 3629 7
+39088 12372 3
+39088 1780 5
+39088 3282 6
+39088 24541 1
+39088 448 3
+17440 322 1
+17440 7010 1
+17440 1780 1
+17440 323 3
+24541 7010 1
+24541 3282 3
+24541 1780 2
+24541 323 2
+7030 257 18
+7030 260 2
+11234 16644 3
+11234 257 40
+11234 260 1
+11198 321 5
+11198 3076 10
+11198 11234 3
+11198 9570 1
+11198 257 5
+11198 4903 7
+9653 9652 7
+9570 5759 3
+9570 3629 2
+9570 9653 2
+9570 323 8
+9570 9652 3
+9570 4187 1
+16821 8895 1
+4904 8895 1
+25331 2007 1
+25331 8895 1
+19861 14977 2
+4905 8895 1
+42075 322 1
+42075 321 1
+42075 3629 1
+42075 2299 1
+20690 7486 2
+20690 323 3
+20690 257 8
+20690 20739 2
+32012 322 2
+32012 321 2
+32012 3076 1
+32012 7486 3
+32012 447 1
+32012 12129 1
+32012 20739 1
+44071 20690 1
+44071 322 1
+44071 321 7
+44071 7486 4
+44071 447 1
+44071 323 3
+44071 12129 1
+36351 36387 6
+36351 259 4
+36351 258 1
+36351 263 1
+39365 7338 1
+39365 4152 1
+39365 321 11
+39365 36351 4
+39365 447 1
+27588 322 3
+27588 321 3
+27588 7120 2
+27588 16355 2
+27588 2299 1
+27588 447 2
+27588 323 2
+27588 8869 1
+27588 2718 7
+27588 1780 1
+27588 2725 3
+27588 2588 14
+27588 1615 1
+27588 3076 1
+27588 259 2
+27588 1848 1
+27588 14913 2
+27588 2721 4
+8838 322 1
+8838 321 4
+8838 3076 1
+8838 8869 3
+8838 8868 1
+8838 2721 3
+8838 2588 8
+14913 322 1
+14913 321 4
+14913 7120 2
+14913 1615 1
+14913 3076 1
+14913 2299 1
+14913 447 1
+14913 323 2
+14913 8869 1
+14913 2588 10
+14913 2721 2
+2718 322 1
+36605 23728 1
+36605 2721 1
+36605 2588 20
+36605 257 41
+36605 260 1
+8869 321 1
+8869 2725 3
+8869 1535 1
+8869 1292 5
+2721 1615 1
+2721 6337 1
+2721 2717 2
+2721 1534 2
+2721 323 2
+2721 259 1
+2721 23495 3
+2721 2725 2
+2721 261 2
+2588 2415 1
+2588 1615 1
+2588 2722 1
+2588 2720 6
+2588 2724 1
+2588 2719 6
+2588 447 1
+2588 1848 1
+2588 2723 2
+2588 2718 2
+2588 2725 1
+2588 2721 7
+2588 1535 1
+2588 2715 3
+8868 322 1
+8868 321 1
+8868 3629 1
+8868 8869 1
+8868 25883 1
+8868 2725 1
+8868 447 2
+8868 323 3
+23854 13683 5
+13683 5759 4
+13683 13714 2
+13683 323 6
+23054 5759 4
+1292 322 4
+1292 1534 11
+1292 1531 8
+23050 322 1
+23050 1615 1
+23050 1534 1
+23050 2434 1
+23050 8729 7
+23050 323 3
+23050 1292 15
+8702 322 1
+8702 1534 2
+8702 2434 1
+8702 8729 1
+8702 1292 1
+7338 3969 2
+12639 3969 2
+3969 1847 1
+19961 7338 4
+19961 3969 1
+19731 7338 1
+19731 3969 2
+19929 3076 1
+19929 447 3
+19929 19961 2
+19929 19731 20
+11281 7338 1
+11281 4120 1
+11281 3969 9
+11240 11281 16
+11240 3076 1
+11240 4154 1
+11240 447 4
+31641 12639 1
+31641 11281 3
+31641 25626 1
+31641 21573 3
+31641 4120 1
+31641 3969 1
+35313 3076 1
+35313 31641 3
+35313 447 1
+4152 7338 1
+4152 4120 1
+4152 3969 3
+23407 4152 7
+23407 3076 1
+23407 447 4
+23407 19961 3
+21573 12639 1
+21573 25626 3
+21573 3969 2
+35133 7338 1
+35133 447 1
+35133 3969 5
+19266 8671 1
+35707 3076 1
+35707 19266 8
+35707 8671 3
+8671 1847 1
+30567 447 1
+4154 32191 6
+11672 3076 1
+11672 4154 21
+11672 447 1
+4120 4152 2
+4120 4154 4
+7149 3076 1
+7149 4154 1
+7149 4120 5
+25168 7170 1
+18587 25168 3
+18505 25168 3
+18505 16237 2
+18505 18587 2
+25161 18505 10
+25161 25168 3
+25161 3076 1
+25676 16237 1
+1079 1234 2
+1079 1233 17
+1079 7170 1
+30487 30539 2
+5705 3907 2
+5705 3904 5
+3822 3907 2
+3822 3904 9
+3822 3903 1
+15151 3286 5
+15151 5714 10
+5706 3907 2
+5706 3904 10
+5706 3286 2
+5706 7122 1
+5706 15151 4
+5706 5309 4
+5706 3903 1
+24283 24321 2
+24283 3904 2
+24283 322 2
+24283 7122 2
+24283 5714 2
+24283 5705 3
+24283 5309 8
+24283 5706 7
+24283 15151 2
+24283 2725 2
+37355 20635 1
+37355 2725 1
+37355 2427 1
+37355 7123 4
+5707 3907 2
+5707 3904 13
+5707 3903 1
+41013 3904 2
+41013 7122 11
+41013 3822 2
+41013 5705 1
+41013 5707 2
+41013 447 1
+41013 259 17
+41013 37355 2
+25234 3904 5
+25234 322 1
+25234 321 1
+25234 7122 26
+25234 3822 1
+25234 5707 1
+25234 447 1
+25234 7123 6
+25234 3907 10
+25234 5706 1
+25234 2725 2
+25234 2427 5
+7122 3904 1
+7122 5714 1
+7122 2427 3
+3907 7122 2
+9424 1847 1
+44710 322 1
+44710 3076 1
+44710 20635 23
+44710 16355 2
+44710 2725 2
+15353 9424 1
+15353 447 1
+15340 3076 1
+15340 15353 10
+15340 447 1
+12733 18459 4
+12733 447 1
+12725 447 1
+12725 12733 2
+36295 447 1
+7123 322 1
+7123 1531 1
+7123 447 1
+7123 19780 3
+35728 322 3
+35728 3076 1
+35728 1531 3
+35728 5309 8
+35728 447 1
+35728 7123 4
+29865 3904 2
+29865 447 1
+39286 3076 1
+39286 29865 79
+39286 447 3
+24321 9424 1
+41566 24321 2
+41566 3076 1
+41566 5309 6
+41566 2495 1
+41566 447 2
+18459 3904 2
+18459 29865 2
+18459 9424 1
+18459 2495 3
+18459 447 1
+18445 3076 1
+18445 2495 1
+18445 18459 1
+18445 447 2
+3903 24321 2
+3903 3286 3
+3903 322 1
+3903 29865 5
+3903 2725 3
+3903 2427 3
+3904 447 1
+6884 1234 1
+1233 1236 1
+1233 7170 1
+39530 447 3
+1234 16090 1
+1234 1233 16
+1234 7170 1
+20739 322 2
+20739 13714 3
+20739 8566 1
+2715 322 3
+2715 2725 3
+2715 1848 4
+2715 1535 1
+11958 2725 4
+11958 2427 2
+11958 2715 17
+11958 1535 1
+32548 322 3
+33722 322 1
+33722 1848 3
+44834 322 4
+44834 7120 2
+44834 3076 1
+44834 33722 8
+44834 2725 2
+44834 1848 1
+44834 1535 1
+32518 322 1
+32518 3076 1
+32518 32548 1
+32518 2725 1
+32518 20739 16
+37505 5381 8
+37505 322 1
+37505 8645 1
+37505 7120 5
+40669 322 2
+40669 8645 2
+40669 7120 6
+40669 3076 1
+40669 37505 9
+40669 19780 2
+8584 5381 8
+8584 322 1
+8584 8645 3
+8584 7120 5
+8584 3194 25
+8584 2725 1
+37440 322 2
+37440 321 2
+37440 8645 2
+37440 7120 4
+37440 3076 1
+37440 3194 9
+37440 19780 1
+37440 8584 5
+37440 37505 6
+37440 2725 2
+1849 322 2
+1849 3194 2
+1849 2725 1
+1849 323 4
+17401 1856 2
+17401 1849 1
+3039 2007 24
+3039 322 1
+3039 3076 1
+3039 1531 1
+3039 447 1
+3039 1848 3
+43828 321 1
+43828 5309 18
+43828 2277 4
+43828 1849 4
+43828 447 2
+21556 3076 1
+21556 447 1
+21556 21574 6
+21556 21573 2
+29442 11281 1
+29442 3076 1
+29442 5309 6
+29442 447 3
+29442 3969 1
+20542 18300 1
+20542 322 1
+20542 321 1
+20542 447 1
+15237 321 4
+15237 8651 3
+15237 14880 2
+15237 8667 7
+15237 259 6
+15238 15246 1
+15238 22164 1
+15238 15239 2
+15238 25058 1
+15219 321 1
+15219 15238 2
+15219 15239 2
+15219 15237 7
+15219 8667 3
+15246 25058 2
+20512 321 1
+20512 15246 4
+20512 15237 5
+20512 8667 6
+22164 15246 1
+22164 15239 5
+22164 14152 2
+44296 321 3
+44296 15246 3
+44296 22164 8
+44296 15239 6
+44296 15237 14
+15239 263 2
+15239 261 1
+41861 321 3
+41861 15239 4
+36637 321 1
+36637 16908 1
+9334 1937 1
+9334 9357 10
+9334 9355 2
+25058 25158 2
+11882 9334 1
+11882 258 2
+11882 257 30
+11882 260 4
+11882 9355 1
+9357 9355 3
+11929 258 1
+22570 15239 7
+22570 14152 2
+16703 21680 1
+16703 22570 1
+16703 15239 4
+16703 257 20
+16703 260 1
+16667 321 2
+16667 8651 1
+16667 16703 6
+16667 15239 23
+16667 15237 19
+16667 8667 4
+16667 257 3
+21680 15239 6
+45345 321 2
+45345 21680 2
+45345 15239 7
+45345 15237 13
+45345 259 2
+21687 15246 1
+21687 13135 1
+21687 15239 5
+22524 321 2
+22524 8651 3
+22524 22569 1
+22524 22570 10
+22524 259 3
+22524 14880 3
+22524 15237 50
+22524 15239 21
+23356 258 1
+23356 257 58
+23356 14444 23
+23356 260 2
+23356 19815 2
+23356 9355 1
+23288 1937 1
+23288 258 1
+23288 14444 25
+39980 23356 2
+39980 321 5
+39980 3076 2
+39980 5792 2
+39980 259 16
+14351 11882 4
+14351 321 5
+14351 5792 4
+14351 259 15
+14351 258 2
+14351 261 4
+5460 257 3
+30388 1937 1
+30388 260 3
+30388 736 2
+8651 8667 3
+14880 8667 4
+22569 8667 3
+1891 1937 1
+1891 260 3
+1891 736 3
+23062 5418 1
+23062 736 1
+32684 321 1
+32684 2759 1
+5819 257 13
+5819 260 1
+5795 1780 2
+5795 2299 1
+5795 323 2
+7190 7227 2
+7190 257 7
+18600 5792 3
+18600 259 3
+18600 257 26
+18600 261 1
+13062 30567 1
+13062 5792 5
+13062 6278 1
+13062 447 1
+13062 259 2
+13062 257 60
+13062 260 2
+13062 736 1
+13062 261 1
+6278 6337 1
+6278 259 2
+6278 261 1
+12949 321 15
+12949 13062 51
+12949 2299 1
+12949 323 2
+12949 259 2
+12949 10881 1
+12949 448 1
+22065 322 2
+22065 321 2
+22065 6271 2
+22065 5795 3
+22065 323 4
+4685 259 4
+11288 1780 1
+11288 4685 4
+11288 4686 1
+11288 2061 2
+12548 14073 1
+12548 11288 1
+12548 2799 2
+12548 259 2
+12548 257 31
+12548 14068 3
+12548 14072 1
+12548 14069 1
+12548 14067 4
+12548 4622 1
+12548 260 1
+12548 263 1
+12548 261 1
+12548 2062 1
+14073 2067 1
+14073 4685 5
+14073 4683 1
+14073 4686 2
+14073 2061 4
+14072 14908 3
+14072 1780 1
+14072 4685 6
+14072 447 1
+14072 4686 1
+14072 2061 2
+4622 2067 1
+4622 1780 1
+4622 4685 4
+4622 4686 3
+4622 2061 3
+19815 1937 1
+19815 21724 1
+19815 14444 14
+19815 11842 1
+19815 9355 1
+19797 321 1
+19797 14444 10
+19797 19815 3
+21724 9355 4
+9666 321 1
+9666 9740 3
+30202 26033 1
+22924 257 21
+22924 260 2
+11658 32084 1
+11658 30202 1
+11628 321 4
+11628 6271 3
+11628 11658 6
+11660 321 1
+11660 11659 1
+11660 32084 4
+324 924 1
+10601 323 1
+10601 259 2
+10601 257 7
+10601 263 1
+10601 261 1
+45978 2799 4
+45978 323 1
+45978 259 2
+45978 257 37
+45978 4686 1
+45978 1780 3
+45978 261 1
+45978 448 2
+2799 5418 1
+2799 1780 1
+2799 259 9
+2799 263 1
+32106 321 5
+32106 2799 12
+32106 2299 3
+32106 447 2
+33672 322 1
+33672 3629 1
+27338 321 1
+27338 11575 8
+13637 33672 2
+13637 11575 10
+22218 321 1
+22218 13636 12
+22218 13637 15
+13550 13636 2
+13550 13637 1
+13550 326 1
+13550 736 2
+38325 22218 2
+38325 321 1
+38325 13636 2
+38325 13550 2
+13636 11575 3
+17077 321 1
+17077 13636 3
+2800 322 1
+2785 321 1
+2785 324 1
+2785 2800 1
+2785 328 1
+5577 5576 3
+326 323 2
+303 322 2
+303 321 3
+303 324 1
+303 328 1
+303 258 1
+303 326 1
+7701 22135 4
+7701 2759 2
+7701 1780 2
+1784 5576 3
+21702 321 1
+21702 1784 13
+35863 12548 2
+35863 2007 1
+35863 5576 6
+35863 1780 1
+35863 28905 5
+35863 260 1
+35863 4686 1
+35863 736 2
+5481 5577 2
+5481 1783 2
+5481 5576 2
+5481 1784 1
+5481 326 1
+5481 736 2
+8237 321 3
+8237 5481 1
+8237 3076 2
+1783 5880 1
+1714 321 1
+1714 1783 8
+1714 1784 3
+1714 1780 2
+5880 7701 2
+22135 3629 1
+22135 5576 2
+28905 447 1
+6877 571 1
+6877 2040 12
+6877 2010 1
+6877 259 1
+6877 257 27
+6877 263 1
+6877 260 2
+8899 321 8
+8899 8951 1
+8899 6877 1
+8899 323 2
+8899 259 2
+8899 8952 1
+8899 474 2
+8899 1780 1
+8899 263 1
+8899 261 2
+8899 2062 2
+43170 321 4
+43170 8952 1
+43170 3282 2
+43170 261 1
+2021 2040 1
+2021 257 26
+2021 2041 1
+2021 260 2
+33586 321 6
+33586 8951 1
+33586 6337 1
+33586 323 2
+33586 259 2
+33586 261 1
+11790 2039 1
+11790 3629 1
+11790 2038 1
+11790 1780 1
+11790 2299 1
+11790 323 1
+11790 11815 1
+29656 259 2
+29656 258 1
+25423 321 5
+25423 8951 1
+25423 1780 1
+25423 323 1
+25423 259 2
+25423 263 1
+25423 2062 1
+25423 261 1
+2041 2040 8
+2041 258 1
+22132 36351 1
+22132 6877 2
+22132 259 1
+22132 257 3
+22132 736 2
+22132 8952 1
+22132 474 2
+22132 260 2
+22132 29656 2
+22132 11815 1
+22086 321 9
+22086 8951 1
+22086 323 2
+22086 8899 2
+22086 2062 2
+22086 261 2
+15019 6069 1
+15019 2008 2
+2010 8952 1
+2010 257 26
+2010 260 2
+2010 11815 1
+9323 6069 1
+9323 11526 1
+9323 3282 4
+9286 321 4
+9286 6069 5
+9286 9323 4
+9286 3282 4
+9286 2008 7
+6068 6069 2
+6068 2008 12
+6053 6068 1
+6053 321 2
+6053 6069 2
+6053 2008 22
+2008 5759 4
+6069 5759 4
+6069 2008 5
+40894 6069 4
+45203 321 1
+45203 6069 5
+45203 40894 6
+45203 2008 5
+14956 6069 3
+14956 2008 1
+30369 321 1
+30369 6069 5
+30369 2008 5
+6579 321 1
+6579 6069 21
+6579 2008 13
+13643 321 1
+13643 2008 56
+1947 2008 14
+42134 321 3
+42134 2008 19
+42134 1947 3
+8189 3629 1
+8189 1780 1
+8189 2299 1
+8189 323 2
+29024 3282 2
+29024 11815 1
+11454 8763 2
+11454 2038 1
+9232 25301 2
+9232 2038 2
+9232 9250 2
+12510 322 2
+12510 321 1
+12510 2038 2
+12510 7144 2
+12510 9232 2
+7144 9475 3
+7144 2038 3
+7139 7143 3
+7139 7144 1
+25301 16090 1
+25301 2038 7
+22921 25301 3
+22921 2038 5
+25997 22921 2
+25997 322 4
+25997 321 1
+25997 2038 8
+9250 25301 3
+9250 2038 5
+24696 322 6
+24696 321 1
+24696 2038 12
+24696 9250 2
+2038 16090 10
+9474 2038 19
+9448 7143 1
+9448 322 5
+9448 321 1
+9448 9475 5
+9448 2038 10
+9448 9474 10
+9448 9250 2
+2039 7143 2
+2039 2038 1
+9475 8763 2
+9475 2038 2
+7143 9475 1
+7143 2038 7
+19894 7143 8
+19894 2039 2
+19894 322 6
+19894 321 1
+19894 9475 2
+19894 2038 8
+30708 322 3
+30708 321 1
+30708 9475 4
+30708 11454 1
+30708 2038 10
+8763 2038 10
+27342 323 3
+29637 323 1
+29637 259 2
+29637 258 1
+29637 448 1
+11499 11526 1
+11499 1780 1
+11499 2299 1
+11499 323 1
+11499 259 2
+11499 258 1
+11499 448 1
+3268 3282 2
+572 323 2
+474 571 1
+474 259 10
+474 263 1
+576 3629 1
+576 1782 2
+576 1780 1
+576 2299 1
+576 323 1
+576 259 2
+576 258 1
+576 448 1

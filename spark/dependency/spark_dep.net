@@ -1,0 +1,425 @@
+*Vertics: 178
+6,org.apache.spark.mllib.regression.JavaLassoSuite
+72,org.apache.spark.examples.ml.JavaCrossValidatorExample
+138,org.apache.spark.mllib.feature.JavaWord2VecSuite
+167,org.apache.spark.network.protocol.ChunkFetchSuccess
+194,org.apache.spark.network.buffer.ManagedBuffer
+195,org.apache.spark.network.buffer.NettyManagedBuffer
+198,org.apache.spark.network.protocol.StreamChunkId
+226,org.apache.spark.network.sasl.SparkSaslServer
+303,org.apache.spark.network.server.OneForOneStreamManager
+335,org.apache.spark.network.server.StreamManager
+342,org.apache.spark.network.ChunkFetchIntegrationSuite
+449,org.apache.spark.network.buffer.FileSegmentManagedBuffer
+450,org.apache.spark.network.buffer.NioManagedBuffer
+453,org.apache.spark.network.client.TransportClient
+454,org.apache.spark.network.client.TransportClientFactory
+455,org.apache.spark.network.server.RpcHandler
+456,org.apache.spark.network.server.TransportServer
+457,org.apache.spark.network.util.SystemPropertyConfigProvider
+458,org.apache.spark.network.util.TransportConf
+461,org.apache.spark.network.TransportContext
+462,org.apache.spark.network.TestUtils
+490,org.apache.spark.network.sasl.SaslIntegrationSuite
+533,org.apache.spark.network.shuffle.ExternalShuffleBlockHandler
+535,org.apache.spark.network.sasl.SaslRpcHandler
+536,org.apache.spark.network.sasl.SaslClientBootstrap
+543,org.apache.spark.streaming.LocalJavaStreamingContext
+556,org.apache.spark.network.protocol.ChunkFetchRequest
+575,org.apache.spark.network.shuffle.RetryingBlockFetcherSuite
+653,org.apache.spark.network.shuffle.RetryingBlockFetcher
+704,org.apache.spark.network.TestManagedBuffer
+733,org.apache.spark.network.shuffle.protocol.BlockTransferMessage
+761,org.apache.spark.network.shuffle.protocol.OpenBlocks
+762,org.apache.spark.network.shuffle.protocol.UploadBlock
+763,org.apache.spark.network.shuffle.protocol.RegisterExecutor
+764,org.apache.spark.network.shuffle.protocol.StreamHandle
+773,org.apache.spark.mllib.fpm.JavaFPGrowthSuite
+812,org.apache.spark.examples.streaming.JavaDirectKafkaWordCount
+893,org.apache.spark.mllib.regression.JavaIsotonicRegressionSuite
+915,org.apache.spark.JobExecutionStatus
+967,test.org.apache.spark.sql.sources.JavaSaveLoadSuite
+1009,org.apache.spark.sql.types.DataTypes
+1015,org.apache.spark.sql.SaveMode
+1023,org.apache.spark.examples.mllib.JavaALS
+1059,org.apache.spark.examples.streaming.JavaKafkaWordCount
+1091,org.apache.spark.examples.JavaStatusTrackerDemo
+1124,org.apache.spark.streaming.flume.JavaFlumePollingStreamSuite
+1137,org.apache.spark.streaming.LocalJavaStreamingContext
+1147,org.apache.spark.network.shuffle.TestShuffleDataContext
+1185,org.apache.spark.network.shuffle.protocol.ExecutorShuffleInfo
+1186,org.apache.spark.network.shuffle.ExternalShuffleBlockManager
+1190,org.apache.spark.util.collection.TestTimSort
+1222,org.apache.spark.network.shuffle.ExternalShuffleCleanupSuite
+1282,org.apache.spark.streaming.kafka.JavaDirectKafkaStreamSuite
+1343,org.apache.spark.SparkFirehoseListener
+1401,org.apache.spark.examples.mllib.JavaDecisionTree
+1490,org.apache.spark.streaming.JavaReceiverAPISuite
+1513,org.apache.spark.streaming.JavaSocketReceiver
+1544,org.apache.spark.examples.JavaWordCount
+1572,org.apache.spark.streaming.LocalJavaStreamingContext
+1578,org.apache.spark.examples.mllib.JavaRandomForestExample
+1638,org.apache.spark.network.TransportClientFactorySuite
+1683,org.apache.spark.network.server.NoOpRpcHandler
+1684,org.apache.spark.network.util.ConfigProvider
+1685,org.apache.spark.network.util.JavaUtils
+1692,org.apache.spark.examples.ml.JavaSimpleParamsExample
+1722,org.apache.spark.examples.JavaSparkPi
+1773,org.apache.spark.network.shuffle.ExternalShuffleBlockManagerSuite
+1803,org.apache.spark.streaming.kafka.JavaKafkaStreamSuite
+1873,org.apache.spark.streaming.twitter.JavaTwitterStreamSuite
+1889,org.apache.spark.examples.streaming.JavaQueueStream
+1920,org.apache.spark.network.protocol.MessageEncoder
+1945,org.apache.spark.network.protocol.ChunkFetchFailure
+1954,org.apache.spark.util.collection.TimSort
+2103,org.apache.spark.mllib.regression.JavaStreamingLinearRegressionSuite
+2165,org.apache.spark.sql.hive.execution.UDFIntegerToString
+2173,org.apache.spark.sql.hive.execution.UDFListListInt
+2183,org.apache.spark.mllib.classification.JavaLogisticRegressionSuite
+2222,org.apache.spark.sql.hive.execution.UDFStringString
+2228,org.apache.spark.examples.streaming.JavaStatefulNetworkWordCount
+2260,org.apache.spark.api.java.StorageLevels
+2267,org.apache.spark.examples.ml.JavaDeveloperApiExample
+2283,org.apache.spark.examples.ml.MyJavaLogisticRegression
+2298,org.apache.spark.examples.ml.MyJavaLogisticRegressionModel
+2321,org.apache.spark.mllib.linalg.JavaVectorsSuite
+2329,org.apache.spark.network.TransportResponseHandlerSuite
+2354,org.apache.spark.network.client.TransportResponseHandler
+2355,org.apache.spark.network.protocol.RpcFailure
+2356,org.apache.spark.network.protocol.RpcResponse
+2369,org.apache.spark.network.server.TransportRequestHandler
+2410,org.apache.spark.network.protocol.RpcRequest
+2411,org.apache.spark.network.util.NettyUtils
+2412,org.apache.spark.network.server.MessageHandler
+2423,org.apache.spark.network.shuffle.ExternalShuffleIntegrationSuite
+2499,org.apache.spark.network.shuffle.ExternalShuffleClient
+2511,org.apache.spark.api.java.JavaSparkContextVarargsWorkaround
+2548,test.org.apache.spark.JavaTaskCompletionListenerImpl
+2574,org.apache.spark.sql.hive.JavaMetastoreDataSourcesSuite
+2614,org.apache.spark.network.RpcIntegrationSuite
+2694,org.apache.spark.network.protocol.Encoders
+2701,org.apache.spark.examples.streaming.JavaRecoverableNetworkWordCount
+2747,org.apache.spark.streaming.kinesis.JavaKinesisStreamSuite
+2843,org.apache.spark.network.shuffle.ShuffleClient
+2847,org.apache.spark.network.shuffle.OneForOneBlockFetcher
+2860,org.apache.spark.serializer.TestJavaSerializerImpl
+2899,test.org.apache.spark.sql.JavaRowSuite
+2938,org.apache.spark.sql.RowFactory
+2942,org.apache.spark.mllib.classification.JavaNaiveBayesSuite
+3008,org.apache.spark.network.sasl.SparkSaslClient
+3065,org.apache.spark.Java8APISuite
+3263,org.apache.spark.mllib.regression.JavaRidgeRegressionSuite
+3333,org.apache.spark.examples.ml.JavaSimpleTextClassificationPipeline
+3369,org.apache.spark.examples.sql.JavaSparkSQL
+3427,org.apache.spark.examples.mllib.JavaLDAExample
+3561,org.apache.spark.network.protocol.MessageDecoder
+3562,org.apache.spark.network.server.TransportChannelHandler
+3593,test.org.apache.spark.JavaTaskContextCompileCheck
+3632,org.apache.spark.examples.JavaHdfsLR
+3688,org.apache.spark.streaming.mqtt.JavaMQTTStreamSuite
+3695,org.apache.spark.JavaSparkListener
+3777,org.apache.spark.mllib.regression.JavaLinearRegressionSuite
+3821,org.apache.spark.examples.mllib.JavaFPGrowthExample
+3839,org.apache.spark.streaming.LocalJavaStreamingContext
+3854,org.apache.spark.network.shuffle.ExternalShuffleBlockHandlerSuite
+3892,org.apache.spark.ml.regression.JavaLinearRegressionSuite
+3918,org.apache.spark.network.shuffle.OneForOneBlockFetcherSuite
+3963,org.apache.spark.examples.streaming.JavaFlumeEventCount
+4020,org.apache.spark.examples.streaming.JavaNetworkWordCount
+4042,org.apache.spark.network.util.IOMode
+4050,org.apache.spark.examples.mllib.JavaPowerIterationClusteringExample
+4072,org.apache.spark.network.shuffle.ExternalShuffleSecuritySuite
+4139,org.apache.spark.mllib.recommendation.JavaALSSuite
+4260,org.apache.spark.network.yarn.util.HadoopConfigProvider
+4279,org.apache.spark.network.client.ChunkFetchFailureException
+4294,org.apache.spark.ml.JavaPipelineSuite
+4341,org.apache.spark.streaming.Java8APISuite
+4750,org.apache.spark.network.buffer.LazyFileRegion
+4777,org.apache.spark.mllib.linalg.JavaMatricesSuite
+4877,org.apache.spark.examples.JavaPageRank
+4916,org.apache.spark.sql.hive.execution.UDFTwoListList
+4922,org.apache.spark.examples.streaming.JavaCustomReceiver
+4958,org.apache.spark.network.sasl.SaslMessage
+4980,org.apache.spark.examples.JavaTC
+5006,org.apache.spark.mllib.random.JavaRandomRDDsSuite
+5139,org.apache.spark.mllib.classification.JavaSVMSuite
+5242,org.apache.spark.network.shuffle.BlockTransferMessagesSuite
+5280,org.apache.spark.mllib.clustering.JavaLDASuite
+5327,org.apache.spark.examples.mllib.JavaGradientBoostedTreesRunner
+5452,org.apache.spark.graphx.TripletFields
+5467,org.apache.spark.ml.tuning.JavaCrossValidatorSuite
+5566,org.apache.spark.JavaAPISuite
+6275,org.apache.spark.network.ProtocolSuite
+6348,org.apache.spark.streaming.JavaTimeSuite
+6366,org.apache.spark.ml.classification.JavaStreamingLogisticRegressionSuite
+6381,org.apache.spark.network.util.LimitedInputStream
+6410,org.apache.spark.examples.streaming.JavaKinesisWordCountASL
+6453,org.apache.spark.streaming.JavaAPISuite
+7068,test.org.apache.spark.sql.JavaApplySchemaSuite
+7130,test.org.apache.spark.sql.JavaUDFSuite
+7154,org.apache.spark.JavaJdbcRDDSuite
+7241,org.apache.spark.examples.JavaLogQuery
+7284,org.apache.spark.streaming.flume.JavaFlumeStreamSuite
+7292,org.apache.spark.mllib.feature.JavaTfIdfSuite
+7316,org.apache.spark.examples.mllib.JavaKMeans
+7380,test.org.apache.spark.sql.JavaDataFrameSuite
+7404,org.apache.spark.streaming.JavaDurationSuite
+7421,org.apache.spark.mllib.tree.JavaDecisionTreeSuite
+7459,org.apache.spark.network.sasl.ShuffleSecretManager
+7502,org.apache.spark.examples.mllib.JavaLR
+7527,org.apache.spark.mllib.clustering.JavaKMeansSuite
+7550,org.apache.spark.streaming.kafka.JavaKafkaRDDSuite
+7616,org.apache.spark.network.yarn.YarnShuffleService
+7660,org.apache.spark.ml.classification.JavaLogisticRegressionSuite
+7781,org.apache.spark.streaming.LocalJavaStreamingContext
+7821,org.apache.spark.graphx.impl.EdgeActiveness
+7833,SimpleApp
+7849,org.apache.spark.network.sasl.SparkSaslSuite
+7867,org.apache.spark.sql.hive.execution.UDFListString
+8031,org.apache.spark.streaming.zeromq.JavaZeroMQStreamSuite
+*Edges: 277
+2267 2283 2
+2283 2298 2
+2298 2283 3
+342 454 3
+342 462 1
+342 461 3
+342 453 2
+342 458 2
+342 456 3
+342 450 1
+342 194 6
+342 335 1
+342 449 1
+6275 1945 2
+6275 2410 2
+6275 704 2
+6275 198 5
+6275 2356 2
+6275 2355 2
+6275 167 2
+6275 556 1
+6275 2411 2
+2614 454 3
+2614 462 1
+2614 461 3
+2614 456 3
+2614 453 2
+2614 458 1
+2614 455 1
+704 194 2
+704 195 8
+1638 1685 2
+1638 454 9
+1638 462 6
+1638 461 9
+1638 453 11
+1638 458 3
+1638 1683 2
+1638 456 8
+461 454 3
+461 453 1
+461 3562 3
+461 3561 1
+461 458 3
+461 455 2
+461 456 4
+461 1920 1
+461 2354 1
+461 2369 1
+461 2411 1
+2329 1945 1
+2329 704 2
+2329 198 6
+2329 2356 2
+2329 2354 31
+2329 2355 2
+2329 167 2
+449 4750 1
+449 1685 3
+449 458 4
+449 194 1
+449 6381 1
+4750 1685 1
+195 194 1
+450 194 1
+453 2410 1
+453 198 1
+453 2354 4
+453 556 1
+453 2411 2
+454 1685 1
+454 461 3
+454 453 5
+454 458 9
+454 2411 3
+2354 198 3
+2354 4279 1
+2354 194 2
+2354 2412 1
+2354 2411 3
+1945 198 6
+556 198 6
+167 198 6
+167 194 2
+167 195 1
+3561 1945 1
+3561 2410 1
+3561 2356 1
+3561 2355 1
+3561 167 1
+3561 556 1
+1920 1945 1
+1920 194 2
+536 3008 5
+536 453 2
+536 4958 3
+536 458 3
+490 535 1
+490 454 6
+490 462 4
+490 461 9
+490 453 3
+490 533 1
+490 458 2
+490 536 3
+490 456 7
+535 4958 1
+535 226 5
+535 455 5
+7459 1685 1
+7849 3008 13
+7849 226 10
+1683 303 1
+1683 335 1
+1683 455 1
+303 335 1
+455 453 2
+455 335 1
+335 194 1
+3562 453 3
+3562 2354 5
+3562 2369 5
+3562 2411 1
+2369 453 2
+2369 2355 1
+2369 167 1
+2369 2412 1
+2369 556 1
+2369 455 5
+2369 1945 1
+2369 2410 1
+2369 335 3
+2369 2411 1
+456 461 3
+456 458 12
+456 2411 3
+5242 763 1
+5242 761 1
+5242 1185 1
+5242 762 1
+5242 764 1
+5242 733 2
+533 458 1
+533 303 4
+533 1186 6
+533 764 1
+533 733 1
+533 455 1
+3854 453 1
+3854 1185 1
+3854 762 1
+3854 533 1
+3854 303 1
+3854 1186 3
+3854 733 3
+3854 455 5
+3854 763 1
+3854 761 1
+3854 450 2
+1186 1685 3
+1186 1185 3
+1186 458 3
+1186 194 3
+1186 449 2
+1186 2411 1
+1773 1147 10
+1773 458 1
+1773 1186 14
+1773 194 4
+1222 1147 15
+1222 458 1
+1222 1186 19
+2499 454 3
+2499 653 2
+2499 461 2
+2499 453 1
+2499 1185 1
+2499 458 3
+2499 1683 1
+2499 733 1
+2499 536 1
+2499 763 1
+2499 2843 1
+2423 1147 20
+2423 462 2
+2423 461 2
+2423 1185 1
+2423 533 3
+2423 458 2
+2423 456 4
+2423 450 1
+2423 194 4
+2423 2499 7
+4072 535 1
+4072 462 1
+4072 461 2
+4072 456 3
+4072 1185 1
+4072 533 1
+4072 458 1
+4072 2499 4
+2847 761 2
+2847 453 3
+2847 764 1
+2847 733 1
+3918 450 6
+3918 2847 2
+3918 195 1
+653 458 3
+575 653 2
+575 458 1
+575 194 3
+1147 1185 2
+1147 1186 3
+761 733 1
+763 1185 5
+763 733 1
+764 733 1
+762 733 1
+2411 4042 3
+457 1684 1
+458 1684 18
+7616 4260 1
+7616 535 1
+7616 461 2
+7616 456 2
+7616 533 3
+7616 458 1
+7616 7459 4
+4260 1684 1
+2574 1009 2
+4916 2173 2
+4341 7781 5
+6453 7781 5
+1490 1513 1
+1124 7781 5
+7284 7781 5
+2747 7781 5
+3688 7781 5
+1873 7781 5
+8031 7781 5
+7068 2938 4
+7068 1009 15
+2899 2938 4
+967 1009 2

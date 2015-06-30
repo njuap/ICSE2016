@@ -1,0 +1,3155 @@
+*Vertics: 897
+2,org.apache.logging.log4j.core.appender.AbstractManager
+44,org.apache.logging.log4j.status.StatusLogger
+52,org.apache.logging.log4j.message.StructuredDataMessageTest
+73,org.apache.logging.log4j.message.StructuredDataMessage
+74,org.apache.logging.log4j.message.MapMessage
+80,org.apache.logging.log4j.core.config.plugins.visitors.PluginBuilderAttributeVisitor
+102,org.apache.logging.log4j.core.config.Node
+104,org.apache.logging.log4j.core.util.NameUtil
+109,org.apache.logging.log4j.core.config.plugins.visitors.AbstractPluginVisitor
+110,org.apache.logging.log4j.core.lookup.StrSubstitutor
+126,org.apache.logging.log4j.core.appender.db.jpa.converter.ContextMapAttributeConverter
+138,org.apache.logging.log4j.test.AvailablePortFinder
+175,org.apache.logging.log4j.core.util.Closer
+180,org.apache.logging.log4j.perf.jmh.AsyncAppenderLog4j2Benchmark
+219,org.apache.logging.log4j.LogManager
+226,org.apache.logging.log4j.ThreadContextTest
+267,org.apache.logging.log4j.Timer
+268,org.apache.logging.log4j.ThreadContext
+293,org.apache.logging.slf4j.SerializeTest
+301,org.apache.logging.log4j.junit.InitialLoggerContext
+308,org.apache.logging.log4j.SerializableMatchers
+322,org.apache.logging.log4j.Level
+324,org.apache.logging.log4j.core.config.Property
+327,org.apache.logging.log4j.core.async.AsyncLoggerContext
+349,org.apache.logging.log4j.core.Logger
+350,org.apache.logging.log4j.core.LoggerContext
+352,org.apache.logging.log4j.core.async.AsyncLogger
+362,org.apache.logging.log4j.core.appender.FileAppender
+412,org.apache.logging.log4j.core.layout.PatternLayout
+414,org.apache.logging.log4j.core.util.Booleans
+415,org.apache.logging.log4j.core.util.Integers
+422,org.apache.logging.log4j.core.appender.FileManager
+423,org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender
+441,org.apache.logging.log4j.core.appender.ConsoleAppenderAnsiStyleJira319Main
+450,org.apache.logging.log4j.core.config.Configurator
+451,org.apache.logging.log4j.core.appender.ConsoleAppenderAnsiMessagesMain
+459,org.apache.logging.dumbster.smtp.SmtpRequest
+482,org.apache.logging.log4j.util.Strings
+484,org.apache.logging.dumbster.smtp.SmtpActionType
+485,org.apache.logging.dumbster.smtp.SmtpState
+486,org.apache.logging.dumbster.smtp.SmtpResponse
+514,org.apache.log4j.PriorityTest
+544,org.apache.log4j.Priority
+545,org.apache.log4j.Level
+567,org.apache.logging.log4j.core.layout.AbstractJacksonLayout
+591,org.apache.logging.log4j.core.layout.AbstractStringLayout
+598,org.apache.log4j.util.StringsTest
+602,org.apache.logging.log4j.core.net.Priority
+615,org.apache.logging.log4j.core.net.Facility
+616,org.apache.logging.log4j.core.net.Severity
+621,org.apache.logging.log4j.core.appender.db.jpa.AbstractJpaAppenderTest
+681,org.apache.logging.log4j.core.config.ConfigurationFactory
+682,org.apache.logging.log4j.core.config.DefaultConfiguration
+683,org.apache.logging.log4j.core.appender.db.jpa.JpaAppender
+684,org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppender
+695,org.apache.logging.log4j.FormatterLoggerManualExample
+709,org.apache.logging.log4j.core.jackson.JacksonIssue429MyNamesTest
+767,org.apache.logging.log4j.core.lookup.StructuredDataLookup
+778,org.apache.logging.log4j.message.StructuredDataId
+787,org.apache.logging.slf4j.CallerInformationTest
+805,org.apache.logging.slf4j.InitialLoggerContext
+806,org.apache.logging.slf4j.SLF4JLogger
+808,org.apache.logging.slf4j.TestUtil
+813,org.apache.logging.log4j.core.filter.CompositeFilter
+876,org.apache.logging.log4j.core.AbstractLifeCycle
+893,org.apache.logging.log4j.jmx.gui.Client
+948,org.apache.logging.log4j.core.jmx.Server
+950,org.apache.logging.log4j.core.util.Assert
+962,org.apache.logging.log4j.flume.appender.FlumeAppender
+1050,org.apache.logging.log4j.core.appender.AbstractAppender
+1052,org.apache.logging.log4j.core.layout.Rfc5424Layout
+1054,org.apache.logging.log4j.flume.appender.AbstractFlumeManager
+1055,org.apache.logging.log4j.flume.appender.FlumeEvent
+1056,org.apache.logging.log4j.flume.appender.Agent
+1057,org.apache.logging.log4j.flume.appender.FlumeEmbeddedManager
+1058,org.apache.logging.log4j.flume.appender.FlumeAvroManager
+1059,org.apache.logging.log4j.flume.appender.FlumePersistentManager
+1081,org.apache.logging.log4j.core.pattern.HighlightConverter
+1128,org.apache.logging.log4j.core.pattern.LogEventPatternConverter
+1130,org.apache.logging.log4j.core.pattern.PatternFormatter
+1131,org.apache.logging.log4j.core.pattern.PatternParser
+1133,org.apache.logging.log4j.core.pattern.AnsiEscape
+1152,org.apache.logging.log4j.core.config.yaml.YamlConfigurationFactory
+1163,org.apache.logging.log4j.core.config.ConfigurationSource
+1165,org.apache.logging.log4j.core.util.Loader
+1167,org.apache.logging.log4j.core.config.yaml.YamlConfiguration
+1276,org.apache.logging.log4j.message.ParameterizedMessage
+1277,org.apache.logging.log4j.spi.DefaultThreadContextMap
+1278,org.apache.logging.log4j.spi.DefaultThreadContextStack
+1279,org.apache.logging.log4j.spi.Provider
+1282,org.apache.logging.log4j.util.PropertiesUtil
+1283,org.apache.logging.log4j.util.ProviderUtil
+1311,org.apache.logging.log4j.web.Log4jWebInitializerImplTest
+1375,org.apache.logging.log4j.core.impl.ContextAnchor
+1376,org.apache.logging.log4j.web.Log4jWebInitializerImpl
+1380,org.apache.logging.log4j.web.WebLoggerContextUtils
+1395,org.apache.logging.log4j.core.appender.rewrite.MapRewritePolicyTest
+1425,org.apache.logging.log4j.MarkerManager
+1426,org.apache.logging.log4j.core.impl.Log4jLogEvent
+1427,org.apache.logging.log4j.core.util.KeyValuePair
+1428,org.apache.logging.log4j.message.SimpleMessage
+1429,org.apache.logging.log4j.spi.MutableThreadContextStack
+1433,org.apache.logging.log4j.core.appender.rewrite.MapRewritePolicy
+1434,org.apache.logging.log4j.hamcrest.MapMatchers
+1435,org.apache.logging.log4j.core.impl.ThrowableProxy
+1458,org.apache.logging.log4j.core.config.plugins.visitors.PluginVisitors
+1488,org.apache.logging.log4j.LogbackSubstitution
+1520,org.apache.logging.log4j.core.pattern.MarkerPatternConverterTest
+1528,org.apache.logging.log4j.core.pattern.MarkerPatternConverter
+1539,org.apache.logging.log4j.core.appender.rolling.RollingFileManager
+1639,org.apache.logging.log4j.core.appender.rolling.action.AbstractAction
+1642,org.apache.logging.log4j.core.appender.rolling.PatternProcessor
+1671,org.apache.logging.log4j.core.async.RingBufferLogEvent
+1750,org.apache.logging.log4j.taglib.IfEnabledTag
+1768,org.apache.logging.log4j.taglib.LoggerAwareTagSupport
+1769,org.apache.logging.log4j.taglib.TagUtils
+1787,org.apache.logging.log4j.LoggingException
+1832,org.apache.logging.log4j.core.selector.JndiContextSelector
+1865,org.apache.logging.log4j.core.net.JndiManager
+1866,org.apache.logging.log4j.core.util.Constants
+1868,org.apache.logging.log4j.spi.AbstractLogger
+1880,org.apache.logging.log4j.message.MessageFormatMessageSerializationTest
+1888,org.apache.logging.log4j.AbstractSerializationTest
+1889,org.apache.logging.log4j.message.MessageFormatMessage
+1894,org.apache.logging.log4j.core.net.server.InputStreamLogEventBridge
+1929,org.apache.logging.log4j.core.LogEventListener
+1930,org.apache.logging.log4j.core.net.server.AbstractLogEventBridge
+1936,org.apache.logging.log4j.core.appender.FailoversPlugin
+1944,org.apache.logging.log4j.core.config.AppenderRef
+1949,org.apache.logging.log4j.core.appender.XmlCompleteFileAppenderTest
+1968,org.apache.logging.log4j.TestLoggerContext
+1980,org.apache.logging.log4j.TestLogger
+1990,org.slf4j.impl.StaticLoggerBinder
+2001,org.apache.logging.slf4j.Log4jLoggerFactory
+2003,org.apache.logging.log4j.core.layout.AbstractLayout
+2017,org.apache.logging.log4j.core.appender.routing.RoutingAppender
+2071,org.apache.logging.log4j.core.config.AppenderControl
+2072,org.apache.logging.log4j.core.appender.routing.Route
+2073,org.apache.logging.log4j.core.appender.routing.Routes
+2074,org.apache.logging.log4j.core.config.plugins.util.PluginType
+2097,org.apache.logging.log4j.core.jackson.JacksonIssue429Test
+2121,org.apache.logging.log4j.core.pattern.ClassNamePatternConverter
+2132,org.apache.logging.log4j.core.pattern.NamePatternConverter
+2136,org.apache.logging.log4j.core.appender.rolling.OnStartupTriggeringPolicyTest
+2149,org.apache.logging.log4j.core.appender.rolling.OnStartupTriggeringPolicy
+2158,org.apache.logging.log4j.core.impl.ThrowableProxyTest
+2217,org.apache.logging.log4j.core.jackson.Log4jJsonObjectMapper
+2218,org.apache.logging.log4j.core.impl.ExtendedStackTraceElement
+2229,org.apache.logging.log4j.message.MapMessageTest
+2260,org.apache.logging.log4j.test.ExtendedLevels
+2282,org.apache.logging.log4j.core.pattern.CachedDateFormat
+2359,org.apache.logging.log4j.nosql.appender.NoSqlAppender
+2380,org.apache.logging.log4j.nosql.appender.NoSqlDatabaseManager
+2388,org.apache.logging.log4j.core.net.ssl.StoreConfiguration
+2413,org.apache.logging.log4j.core.net.ssl.StoreConfigurationException
+2415,org.apache.logging.log4j.jul.Constants
+2431,org.apache.logging.log4j.core.config.LoggerConfig
+2560,org.apache.logging.log4j.core.async.AsyncLoggerContextSelector
+2561,org.apache.logging.log4j.core.filter.AbstractFilterable
+2562,org.apache.logging.log4j.core.impl.DefaultLogEventFactory
+2574,org.apache.logging.log4j.core.filter.ThresholdFilter
+2612,org.apache.logging.log4j.core.filter.AbstractFilter
+2624,org.apache.logging.log4j.core.appender.AppenderLoggingException
+2639,org.apache.logging.log4j.core.pattern.ThreadPatternConverter
+2648,org.apache.logging.log4j.core.BasicLoggingTest
+2653,org.apache.logging.log4j.jcl.LogAdapter
+2662,org.apache.logging.log4j.spi.AbstractLoggerAdapter
+2663,org.apache.logging.log4j.util.ReflectionUtil
+2664,org.apache.logging.log4j.jcl.Log4jLog
+2674,org.apache.logging.log4j.core.appender.db.jpa.JpaDatabaseManager
+2730,org.apache.logging.log4j.core.appender.db.AbstractDatabaseManager
+2731,org.apache.logging.log4j.core.appender.db.jpa.AbstractLogEventWrapperEntity
+2747,org.apache.logging.log4j.core.jackson.MarkerMixIn
+2755,org.apache.logging.log4j.core.jackson.JsonConstants
+2757,org.apache.logging.log4j.core.jackson.XmlConstants
+2764,org.apache.logging.log4j.LevelTest
+2780,org.apache.logging.log4j.flume.appender.FlumePersistentPerf
+2867,org.apache.logging.log4j.EventLogger
+2870,org.apache.logging.log4j.core.filter.RegexFilterTest
+2886,org.apache.logging.log4j.core.filter.RegexFilter
+2900,org.apache.logging.log4j.core.appender.db.jpa.converter.ThrowableAttributeConverter
+2966,org.apache.logging.log4j.core.appender.db.jpa.converter.StackTraceElementAttributeConverter
+2969,org.apache.logging.log4j.core.util.ClockFactoryTest
+2991,org.apache.logging.log4j.core.util.ClockFactory
+2992,org.apache.logging.log4j.core.util.SystemClock
+2993,org.apache.logging.log4j.core.util.CachedClock
+2994,org.apache.logging.log4j.core.util.CoarseCachedClock
+3000,org.apache.logging.log4j.util.EnglishEnums
+3058,org.apache.logging.log4j.core.lookup.SystemPropertiesLookup
+3065,org.apache.logging.log4j.core.lookup.AbstractLookup
+3068,org.apache.logging.log4j.core.appender.ConsoleAppender
+3181,org.apache.logging.log4j.core.appender.OutputStreamManager
+3195,org.apache.logging.log4j.status.StatusData
+3197,org.apache.logging.log4j.core.pattern.NdcPatternConverter
+3209,org.apache.logging.log4j.core.net.SocketTest
+3233,org.apache.logging.log4j.core.jackson.SimpleMessageDeserializer
+3242,org.apache.logging.log4j.io.LoggerBufferedInputStreamTest
+3249,org.apache.logging.log4j.io.LoggerInputStreamTest
+3250,org.apache.logging.log4j.io.IoBuilder
+3266,org.apache.logging.log4j.io.LoggerWriterTest
+3271,org.apache.logging.log4j.io.AbstractLoggerWriterTest
+3278,org.apache.logging.log4j.core.appender.MemoryMappedFileAppenderRemapTest
+3295,org.apache.logging.log4j.core.net.mock.MockTcpSyslogServer
+3315,org.apache.logging.log4j.core.net.mock.MockSyslogServer
+3324,org.apache.logging.log4j.core.jackson.ListOfMapEntrySerializer
+3338,org.apache.logging.log4j.core.jackson.MapEntry
+3363,org.apache.log4j.util.SerializationTestHelper
+3397,org.slf4j.impl.StaticMDCBinder
+3402,org.apache.logging.slf4j.Log4jMDCAdapter
+3404,org.apache.logging.log4j.TestLoggerContextFactory
+3427,org.apache.logging.log4j.core.util.ShutdownCallbackRegistryTest
+3447,org.apache.logging.log4j.core.impl.Log4jContextFactory
+3458,org.apache.logging.log4j.core.appender.SyslogAppender
+3505,org.apache.logging.log4j.core.layout.LoggerFields
+3506,org.apache.logging.log4j.core.layout.SyslogLayout
+3507,org.apache.logging.log4j.core.net.AbstractSocketManager
+3508,org.apache.logging.log4j.core.net.Protocol
+3509,org.apache.logging.log4j.core.net.ssl.SslConfiguration
+3510,org.apache.logging.log4j.core.appender.SocketAppender
+3518,org.apache.logging.log4j.core.appender.db.jdbc.DataSourceConnectionSourceTest
+3554,org.apache.logging.log4j.core.appender.db.jdbc.DataSourceConnectionSource
+3560,org.apache.logging.log4j.core.appender.db.jpa.converter.ThrowableAttributeConverterTest
+3601,org.apache.logging.log4j.core.util.Compare
+3638,org.apache.logging.log4j.web.Log4jServletFilterTest
+3660,org.apache.logging.log4j.web.Log4jServletFilter
+3668,org.apache.logging.log4j.core.pattern.LiteralPatternConverterTest
+3675,org.apache.logging.log4j.core.pattern.LiteralPatternConverter
+3680,org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppenderRolloverTest
+4180,org.apache.logging.log4j.message.ParameterizedMessageFactory
+4181,org.apache.logging.log4j.message.StringFormattedMessage
+4309,org.apache.logging.log4j.core.appender.RandomAccessFileManager
+4391,org.apache.logging.log4j.io.LoggerBufferedReaderTest
+4397,org.apache.logging.log4j.io.LoggerReaderTest
+4404,org.apache.logging.log4j.core.lookup.StrSubstitutorTest
+4414,org.apache.logging.log4j.core.lookup.MapLookup
+4415,org.apache.logging.log4j.core.lookup.Interpolator
+4425,org.apache.logging.log4j.core.config.status.StatusConfiguration
+4475,org.apache.logging.log4j.core.util.FileUtils
+4476,org.apache.logging.log4j.status.StatusConsoleListener
+4485,org.apache.logging.log4j.core.config.FileOutputTest
+4497,org.apache.logging.log4j.junit.CleanFiles
+4502,org.apache.logging.log4j.hamcrest.FileMatchers
+4504,org.apache.logging.log4j.core.appender.ConsoleAppenderTest
+4534,org.apache.logging.log4j.core.pattern.MethodLocationPatternConverter
+4558,org.apache.logging.log4j.core.pattern.AbstractPatternConverter
+4572,org.apache.logging.log4j.samples.app.LoggingController
+4610,org.apache.logging.log4j.samples.dto.RequestContext
+4611,org.apache.logging.log4j.samples.app.MockEventsSupplier
+4879,org.apache.logging.log4j.core.lookup.StrMatcher
+4886,org.apache.logging.log4j.core.filter.MarkerFilter
+4922,org.apache.logging.log4j.core.layout.HtmlLayoutTest
+4951,org.apache.logging.log4j.core.BasicConfigurationFactory
+4952,org.apache.logging.log4j.core.util.Charsets
+4953,org.apache.logging.log4j.test.appender.ListAppender
+4955,org.apache.logging.log4j.core.layout.HtmlLayout
+5019,org.apache.logging.log4j.core.appender.ConsoleAppenderHighlightLayoutLogbackMain
+5026,org.apache.logging.log4j.core.util.NetUtils
+5047,org.apache.logging.log4j.core.appender.SyslogAppenderTestBase
+5093,org.apache.logging.log4j.core.async.AsyncLoggerConfigTest2
+5138,org.apache.logging.log4j.core.util.JndiCloser
+5141,org.apache.logging.log4j.taglib.LoggerAwareTagSupportTest
+5176,org.apache.logging.log4j.taglib.Log4jTaglibLogger
+5184,org.apache.logging.log4j.core.appender.db.jdbc.JdbcH2AppenderTest
+5192,org.apache.logging.log4j.core.appender.db.jdbc.AbstractJdbcAppenderTest
+5197,org.apache.logging.log4j.perf.jmh.StringEncodingBenchmark
+5216,org.apache.logging.log4j.core.config.plugins.util.ResolverUtilTest
+5269,org.apache.logging.log4j.core.config.plugins.util.ResolverUtil
+5283,org.apache.logging.log4j.core.util.OptionConverter
+5349,org.apache.logging.log4j.core.net.server.XmlInputStreamLogEventBridge
+5363,org.apache.logging.log4j.core.jackson.Log4jXmlObjectMapper
+5366,org.apache.logging.log4j.core.appender.rolling.RollingFileAppenderAccessTest
+5376,org.apache.logging.log4j.core.appender.RollingFileAppender
+5384,org.apache.logging.log4j.core.config.plugins.util.PluginBuilder
+5468,org.apache.logging.log4j.core.config.ConfigurationException
+5470,org.apache.logging.log4j.core.config.plugins.validation.ConstraintValidators
+5471,org.apache.logging.log4j.core.util.ReflectionUtil
+5472,org.apache.logging.log4j.core.util.TypeUtil
+5489,org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender
+5536,org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy
+5537,org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager
+5544,org.apache.logging.log4j.core.net.ssl.TrustStoreConfigurationException
+5551,org.apache.logging.log4j.jul.Log4jLevelTranslatorTest
+5569,org.apache.logging.log4j.jul.LevelTranslator
+5615,org.apache.logging.log4j.core.util.Throwables
+5618,org.apache.logging.log4j.osgi.AbstractLoadBundleTest
+5650,org.apache.logging.log4j.osgi.BundleTestInfo
+5651,org.apache.logging.log4j.osgi.OsgiRule
+5658,org.apache.logging.log4j.core.layout.XmlLayout
+5681,org.apache.logging.log4j.core.layout.JacksonFactory
+5688,org.apache.logging.log4j.LoggerTest
+5753,org.apache.logging.log4j.message.StringFormatterMessageFactory
+5764,org.apache.logging.log4j.nosql.appender.DefaultNoSqlObject
+5786,org.apache.logging.log4j.core.pattern.MessagePatternConverterTest
+5798,org.apache.logging.log4j.core.pattern.MessagePatternConverter
+5820,org.apache.logging.log4j.core.config.plugins.convert.TypeConverters
+5909,org.apache.logging.log4j.core.config.plugins.convert.TypeConverterRegistry
+5915,org.apache.logging.log4j.core.async.AsyncLoggerTestUncachedThreadName
+5939,org.apache.logging.log4j.core.net.ssl.TrustStoreConfiguration
+5957,org.apache.logging.log4j.core.net.ssl.AbstractKeyStoreConfiguration
+5961,org.apache.logging.log4j.taglib.LogTag
+5968,org.apache.logging.log4j.taglib.LoggingMessageTagSupport
+5972,org.apache.logging.log4j.core.lookup.MapLookupTest
+5987,org.apache.logging.log4j.message.ObjectMessage
+6013,org.apache.logging.log4j.util.LoaderUtil
+6081,org.apache.logging.log4j.core.appender.SmtpAppenderTest
+6119,org.apache.logging.dumbster.smtp.SimpleSmtpServer
+6120,org.apache.logging.dumbster.smtp.SmtpMessage
+6121,org.apache.logging.log4j.core.net.MimeMessageBuilder
+6122,org.apache.logging.log4j.core.util.CyclicBuffer
+6123,org.apache.logging.log4j.core.appender.SmtpAppender
+6143,org.apache.logging.log4j.core.config.plugins.visitors.PluginElementVisitor
+6174,org.apache.logging.log4j.util.Activator
+6226,org.apache.logging.log4j.core.async.RingBufferLogEventHandler
+6241,org.apache.logging.log4j.core.lookup.ResourceBundleLookup
+6272,org.apache.logging.log4j.core.pattern.StyleConverter
+6299,org.apache.logging.log4j.core.util.Patterns
+6314,org.apache.logging.log4j.samples.app.LogEventFactory
+6339,org.apache.logging.log4j.core.jackson.ThrowableProxyMixIn
+6389,org.apache.logging.log4j.core.appender.DefaultErrorHandler
+6399,org.apache.logging.log4j.status.StatusLoggerSerializationTest
+6405,org.apache.logging.log4j.core.pattern.NameAbbreviatorTest
+6415,org.apache.logging.log4j.core.pattern.NameAbbreviator
+6419,org.apache.logging.log4j.core.lookup.InterpolatorTest
+6442,org.apache.logging.log4j.core.lookup.JndiLookup
+6446,org.apache.logging.log4j.core.config.plugins.visitors.PluginNodeVisitor
+6456,org.apache.logging.log4j.core.appender.rewrite.TestRewritePolicy
+6501,org.apache.logging.log4j.core.appender.MemoryMappedFileAppenderLocationTest
+6518,org.apache.logging.log4j.core.jackson.LevelMixInTest
+6549,org.apache.logging.log4j.message.AbstractMessageFactory
+6552,org.apache.logging.log4j.core.net.ssl.KeyStoreConfigurationException
+6557,org.apache.logging.log4j.core.filter.DynamicThresholdFilterTest
+6571,org.apache.logging.log4j.core.filter.DynamicThresholdFilter
+6577,org.apache.logging.log4j.core.lookup.JndiLookupTest
+6589,org.apache.logging.log4j.jul.AbstractLoggerAdapter
+6594,org.apache.logging.log4j.io.LoggerBufferedInputStream
+6621,org.apache.logging.log4j.io.LoggerInputStream
+6624,org.apache.logging.log4j.core.appender.ConsoleAppenderAnsiStyleNameLayoutMain
+6630,org.apache.logging.log4j.core.LoggerSerializationTest
+6637,org.apache.logging.log4j.core.jmx.RingBufferAdmin
+6668,org.apache.logging.log4j.spi.StandardLevel
+6704,org.apache.logging.log4j.io.LoggerOutputStreamTest
+6707,org.apache.logging.log4j.io.AbstractLoggerOutputStreamTest
+6712,org.apache.logging.log4j.core.util.CharsetsTest
+6757,org.apache.logging.log4j.core.config.plugins.visitors.PluginValueVisitor
+6770,org.apache.logging.log4j.flume.appender.FlumeEmbeddedAppenderTest
+6857,org.apache.logging.log4j.jul.ApiLoggerTest
+6869,org.apache.logging.log4j.jul.AbstractLoggerTest
+6870,org.apache.logging.log4j.jul.LogManager
+6871,org.apache.logging.log4j.jul.ApiLoggerAdapter
+6887,org.apache.logging.log4j.core.selector.b.Logging2
+6898,org.apache.logging.log4j.core.filter.StructuredDataFilterTest
+6909,org.apache.logging.log4j.core.filter.StructuredDataFilter
+6910,org.apache.logging.log4j.core.filter.MapFilter
+6916,org.apache.logging.log4j.core.LoggerUpdateTest
+6933,org.apache.logging.log4j.core.pattern.LoggerPatternConverter
+6944,org.apache.logging.log4j.core.async.perftest.MtPerfTest
+6983,org.apache.logging.log4j.core.async.perftest.PerfTest
+7020,org.apache.logging.log4j.ThreadContextInheritanceTest
+7055,org.apache.logging.log4j.osgi.felix.AbstractFelixLoadBundleTest
+7081,org.apache.logging.log4j.spi.ExtendedLoggerWrapper
+7098,org.apache.logging.log4j.core.LoggerTest
+7165,org.apache.logging.log4j.message.ExtendedThreadInformation
+7217,org.apache.logging.log4j.taglib.DumpTag
+7238,org.apache.logging.log4j.core.net.ssl.StoreConfigurationTest
+7255,org.apache.logging.log4j.io.LoggerFilterWriter
+7283,org.apache.logging.log4j.io.CharStreamLogger
+7289,org.apache.logging.log4j.core.net.mom.jms.JmsTopicReceiver
+7304,org.apache.logging.log4j.core.net.server.JmsServer
+7311,org.apache.logging.log4j.jul.JavaLevelTranslatorTest
+7332,org.apache.logging.log4j.nosql.appender.mongodb.MongoDbConnection
+7373,org.apache.logging.log4j.nosql.appender.mongodb.MongoDbObject
+7381,org.apache.logging.log4j.core.config.plugins.processor.PluginCache
+7411,org.apache.logging.log4j.core.config.plugins.processor.PluginEntry
+7425,org.apache.logging.log4j.core.async.RingBufferLogEventTranslator
+7456,org.apache.logging.log4j.core.pattern.LineLocationPatternConverter
+7466,org.apache.logging.log4j.taglib.FatalTagTest
+7468,org.apache.logging.log4j.taglib.FatalTag
+7472,org.apache.logging.log4j.core.net.ssl.LegacyBsdTlsSyslogInputStreamReader
+7480,org.apache.logging.log4j.core.net.ssl.TlsSyslogInputStreamReaderBase
+7481,org.apache.logging.log4j.core.net.ssl.TlsSyslogMessageFormat
+7490,org.apache.log4j.MDC
+7511,org.apache.logging.slf4j.Log4jMarkerFactory
+7542,org.apache.logging.slf4j.Log4jMarker
+7546,org.apache.logging.log4j.core.pattern.RelativeTimePatternConverter
+7560,org.apache.logging.log4j.core.config.AdvertiserTest
+7585,org.apache.logging.log4j.core.config.xml.XmlConfiguration
+7587,org.apache.logging.log4j.core.config.InMemoryAdvertiser
+7592,org.apache.logging.log4j.core.config.xml.XmlLoggerPropsTest
+7604,org.apache.logging.log4j.core.net.ssl.KeyStoreConfigurationTest
+7618,org.apache.logging.log4j.core.net.ssl.KeyStoreConfiguration
+7619,org.apache.logging.log4j.core.net.ssl.TestConstants
+7625,org.apache.logging.log4j.core.async.perftest.RunLog4j1
+7651,org.apache.log4j.LogManager
+7652,org.apache.log4j.Logger
+7653,org.apache.log4j.Category
+7671,org.apache.logging.log4j.core.TimestampMessageTest
+7693,org.apache.logging.log4j.perf.jmh.JpaAppenderBenchmark
+7734,org.apache.logging.log4j.taglib.ErrorTag
+7739,org.apache.logging.log4j.perf.jmh.ReflectionBenchmark
+7772,org.apache.logging.log4j.core.config.plugins.validation.validators.RequiredValidator
+7854,org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource
+7899,org.apache.logging.log4j.core.util.UnexpectedFormatException
+7914,org.apache.logging.log4j.core.net.ssl.TlsSyslogTestUtil
+7947,org.apache.logging.log4j.taglib.InfoTag
+7960,org.apache.logging.log4j.message.ParameterizedMessageTest
+7971,org.apache.logging.log4j.message.Mutable
+7978,org.apache.logging.log4j.core.jmx.AsyncAppenderAdmin
+8001,org.apache.logging.log4j.core.appender.AsyncAppender
+8116,org.apache.logging.log4j.core.config.NullConfiguration
+8134,org.apache.logging.slf4j.EventDataConverter
+8149,org.apache.logging.log4j.core.jackson.Log4jXmlModule
+8159,org.apache.logging.log4j.core.jackson.Initializers
+8163,org.apache.logging.log4j.core.appender.rolling.RollingAppenderSizeTest
+8185,org.apache.logging.log4j.hamcrest.Descriptors
+8192,org.apache.logging.log4j.core.jmx.StatusLoggerAdmin
+8259,org.apache.logging.log4j.core.async.perftest.RunLog4j2
+8288,org.apache.logging.log4j.core.appender.rolling.action.CompositeAction
+8318,org.apache.logging.log4j.web.WebLookupTest
+8339,org.apache.logging.log4j.core.pattern.ThrowablePatternConverterTest
+8404,org.apache.logging.log4j.core.pattern.ThrowablePatternConverter
+8408,org.apache.logging.log4j.core.appender.AsyncAppenderTest
+8428,org.apache.logging.log4j.taglib.DumpTagTest
+8470,org.apache.logging.log4j.core.config.json.JsonConfigurationFactory
+8481,org.apache.logging.log4j.core.config.json.JsonConfiguration
+8484,org.apache.logging.log4j.web.ServletAppenderTest
+8496,org.apache.logging.log4j.perf.jmh.UuidGeneratorBenchmark
+8501,org.apache.logging.log4j.core.util.UuidUtil
+8504,org.apache.logging.log4j.core.appender.rolling.action.ZipCompressAction
+8535,org.apache.logging.log4j.jcl.LoggerTest
+8563,org.apache.logging.log4j.core.config.AbstractConfiguration
+8576,org.apache.logging.log4j.test.appender.FailOnceAppender
+8598,org.apache.logging.log4j.spi.DefaultThreadContextMapTest
+8647,org.apache.logging.log4j.io.LoggerFilterWriterTest
+8660,org.apache.logging.log4j.core.appender.XmlCompactFileAsyncAppenderValidationTest
+8685,org.apache.logging.log4j.MarkerMixInTest
+8718,org.apache.logging.log4j.core.AppenderRefLevelTest
+8736,org.apache.logging.log4j.io.LoggerReaderCallerInfoTest
+8742,org.apache.logging.log4j.io.IoBuilderCallerInfoTesting
+8749,org.apache.logging.log4j.core.config.plugins.visitors.PluginAttributeVisitor
+8813,org.apache.logging.log4j.core.async.perftest.PerfTestResultFormatter
+8984,org.apache.logging.log4j.core.async.AsyncLoggerConfig
+9040,org.apache.logging.log4j.core.async.AsyncLoggerConfigHelper
+9047,org.apache.logging.log4j.core.net.mock.MockSyslogServerFactory
+9059,org.apache.logging.log4j.core.net.mock.MockUdpSyslogServer
+9060,org.apache.logging.log4j.core.net.mock.MockTlsSyslogServer
+9064,org.apache.logging.log4j.taglib.TraceTagTest
+9066,org.apache.logging.log4j.taglib.TraceTag
+9080,org.apache.logging.log4j.core.net.ssl.SslConfigurationException
+9085,org.apache.logging.log4j.core.pattern.LineSeparatorPatternConverter
+9095,org.apache.logging.log4j.core.appender.FailoverAppenderTest
+9114,org.apache.logging.log4j.core.filter.ThreadContextMapFilterTest
+9119,org.apache.logging.log4j.core.filter.ThreadContextMapFilter
+9123,org.apache.logging.log4j.core.impl.ThrowableFormatOptions
+9188,org.apache.logging.log4j.core.net.ssl.SslConfigurationDefaults
+9191,org.apache.logging.log4j.core.appender.XmlCompactFileAppenderValidationTest
+9375,org.apache.logging.log4j.core.async.DaemonThreadFactory
+9376,org.apache.logging.log4j.core.jmx.AppenderAdmin
+9377,org.apache.logging.log4j.core.jmx.ContextSelectorAdmin
+9378,org.apache.logging.log4j.core.jmx.LoggerConfigAdmin
+9379,org.apache.logging.log4j.core.jmx.LoggerContextAdmin
+9393,org.apache.logging.log4j.core.pattern.LevelPatternConverterTest
+9431,org.apache.logging.log4j.core.pattern.LevelPatternConverter
+9435,org.apache.logging.log4j.core.pattern.IntegerPatternConverter
+9451,org.apache.log4j.BasicConfigurationFactory
+9468,org.apache.logging.log4j.nosql.appender.NoSqlAppenderTest
+9479,org.apache.logging.log4j.core.lookup.EnvironmentLookup
+9485,org.apache.logging.log4j.core.net.SocketReconnectTest
+9517,org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSourceTest
+9557,org.apache.logging.log4j.core.config.plugins.processor.PluginProcessor
+9631,org.apache.logging.log4j.io.LoggerPrintStreamCallerInfoTest
+9651,org.apache.logging.log4j.core.config.plugins.processor.FakePlugin
+9691,org.apache.logging.log4j.core.appender.ConsoleAppenderHighlightLayoutMain
+9697,org.apache.logging.log4j.core.appender.MemoryMappedFileAppenderSimpleTest
+9708,org.apache.logging.log4j.core.appender.MemoryMappedFileManager
+9714,org.apache.logging.log4j.core.appender.SocketAppenderTest
+9790,org.apache.logging.log4j.core.net.server.AbstractSocketServer
+9819,org.apache.logging.log4j.core.config.xml.XmlConfigurationFactory
+9823,org.apache.logging.log4j.core.net.DatagramSocketManager
+9854,org.apache.logging.log4j.core.net.DatagramOutputStream
+9868,org.apache.logging.log4j.taglib.Log4jTaglibLoggerContext
+9873,org.apache.logging.log4j.core.appender.rolling.RollingAppenderTimeAndSizeTest
+9895,org.apache.logging.log4j.core.jackson.Log4jJsonModule
+9900,org.apache.logging.slf4j.LoggerTest
+9940,org.apache.logging.log4j.core.appender.db.jpa.converter.LevelAttributeConverter
+9947,org.apache.logging.log4j.core.LogEventFactoryTest
+9985,org.apache.logging.log4j.message.LocalizedMessageTest
+10011,org.apache.logging.log4j.message.LocalizedMessage
+10030,org.apache.logging.log4j.core.lookup.MainInputArgumentsJmxLookupTest
+10037,org.apache.logging.log4j.core.lookup.JmxRuntimeInputArgumentsLookup
+10040,org.apache.logging.log4j.core.net.server.JsonInputStreamLogEventBridge
+10061,org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig
+10145,org.apache.logging.log4j.core.selector.ClassLoaderContextSelector
+10146,org.apache.logging.log4j.core.util.DefaultShutdownCallbackRegistry
+10152,org.apache.logging.log4j.io.LoggerBufferedInputStreamCallerInfoTest
+10164,org.apache.logging.log4j.core.async.AsyncLoggersWithAsyncLoggerConfigTest
+10178,org.apache.logging.log4j.core.config.plugins.convert.TypeConvertersTest
+10196,org.apache.logging.log4j.core.layout.GelfLayout
+10203,org.apache.logging.log4j.core.ThreadedPerfTest
+10227,org.apache.logging.log4j.core.util.Timer
+10239,org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfigTest
+10303,org.apache.logging.log4j.core.pattern.RegexReplacementConverterTest
+10310,org.apache.logging.log4j.core.pattern.RegexReplacementConverter
+10316,org.apache.log4j.xml.DOMConfigurator
+10359,org.apache.log4j.config.PropertySetter
+10362,org.apache.logging.log4j.perf.jmh.SimpleBenchmark
+10404,org.apache.log4j.spi.Filter
+10405,org.apache.log4j.spi.LoggingEvent
+10406,org.apache.log4j.Layout
+10436,org.apache.logging.log4j.core.async.AsyncLoggerConfigAutoFlushTest
+10449,org.apache.logging.log4j.core.config.plugins.util.PluginManagerPackagesTest
+10480,org.apache.logging.log4j.core.appender.db.jpa.converter.ContextMapJsonAttributeConverterTest
+10494,org.apache.logging.log4j.core.appender.db.jpa.converter.ContextMapJsonAttributeConverter
+10498,org.apache.logging.log4j.core.filter.TimeFilterTest
+10509,org.apache.logging.log4j.core.filter.TimeFilter
+10513,org.apache.logging.log4j.jul.WrappedLogger
+10539,org.apache.logging.log4j.jul.ApiLogger
+10541,org.apache.logging.log4j.core.pattern.RegexReplacementTest
+10556,org.apache.logging.log4j.core.appender.db.jpa.converter.MessageAttributeConverterTest
+10567,org.apache.logging.log4j.core.appender.db.jpa.converter.MessageAttributeConverter
+10571,org.apache.logging.log4j.core.net.ssl.TlsSyslogInputStreamReader
+10599,org.apache.logging.log4j.core.config.xml.XmlConfigurationPropsTest
+10691,org.apache.logging.log4j.core.net.server.UdpSocketServer
+10724,org.apache.logging.log4j.core.net.server.ObjectInputStreamLogEventBridge
+10727,org.apache.logging.log4j.core.config.MissingRootLoggerTest
+10742,org.apache.logging.log4j.taglib.ExitTag
+10752,org.apache.logging.log4j.core.appender.XmlRandomAccessFileAppenderTest
+10769,org.apache.logging.log4j.io.ByteStreamLogger
+10819,org.apache.logging.log4j.core.async.perftest.RunLogback
+10928,org.apache.logging.log4j.simple.SimpleLogger
+11014,org.apache.logging.log4j.core.pattern.RegexReplacement
+11021,org.apache.logging.log4j.core.selector.ClassLoaderContextSelectorTest
+11038,org.apache.logging.log4j.core.selector.TestClassLoader
+11092,org.apache.logging.log4j.core.appender.rolling.RollingAppenderUncompressedTest
+11113,org.apache.logging.log4j.taglib.TagUtilsTest
+11136,org.apache.logging.log4j.nosql.appender.couchdb.CouchDbProvider
+11173,org.apache.logging.log4j.nosql.appender.couchdb.CouchDbConnection
+11176,org.apache.logging.log4j.EventLoggerTest
+11368,org.apache.logging.log4j.core.pattern.DatePatternConverterTest
+11412,org.apache.logging.log4j.core.AbstractLogEvent
+11413,org.apache.logging.log4j.core.pattern.DatePatternConverter
+11424,org.apache.logging.log4j.web.ShutdownPropertyTest
+11430,org.apache.logging.slf4j.SLF4JLoggerContextFactory
+11450,org.apache.logging.slf4j.SLF4JLoggerContext
+11452,org.apache.logging.log4j.core.lookup.JavaLookup
+11513,org.apache.logging.log4j.core.layout.SerializedLayout
+11514,org.apache.logging.log4j.core.net.SslSocketManager
+11515,org.apache.logging.log4j.core.net.TcpSocketManager
+11536,org.apache.logging.log4j.io.LoggerFilterOutputStream
+11559,org.apache.logging.log4j.core.pattern.EncodingPatternConverter
+11576,org.apache.logging.log4j.core.appender.TlsSyslogFrameTest
+11600,org.apache.logging.log4j.core.appender.TlsSyslogFrame
+11607,org.apache.logging.log4j.taglib.SetLoggerTag
+11630,org.apache.logging.log4j.core.pattern.FileDatePatternConverter
+11635,org.apache.logging.log4j.core.config.FileConfigurationMonitor
+11666,org.apache.logging.log4j.core.async.AsyncLoggerConfigUseAfterShutdownTest
+11686,org.apache.logging.log4j.io.LoggerWriter
+11713,org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppenderTest
+11807,org.apache.logging.log4j.core.appender.db.jpa.TestBasicEntity
+11818,org.apache.logging.log4j.core.appender.db.jpa.BasicLogEventEntity
+12040,org.apache.logging.log4j.core.config.plugins.util.PluginManager
+12041,org.apache.logging.log4j.core.config.Loggers
+12042,org.apache.logging.log4j.core.config.DefaultConfigurationMonitor
+12043,org.apache.logging.log4j.core.config.DefaultAdvertiser
+12044,org.apache.logging.log4j.core.config.CustomLevels
+12045,org.apache.logging.log4j.core.config.CustomLevelConfig
+12073,org.apache.logging.log4j.io.LoggerOutputStreamCallerInfoTest
+12079,org.apache.logging.log4j.core.LateConfigTest
+12100,org.apache.logging.log4j.core.appender.ConsoleAppenderNoAnsiStyleLayoutMain
+12142,org.apache.logging.log4j.core.appender.rolling.action.GzCompressAction
+12166,org.apache.logging.log4j.jcl.CallerInformationTest
+12180,org.apache.logging.log4j.core.pattern.PatternParserTest2
+12213,org.apache.logging.log4j.core.pattern.FormattingInfo
+12236,org.apache.logging.log4j.core.appender.rolling.action.FileRenameAction
+12289,org.apache.logging.log4j.core.appender.ConsoleAppenderAnsiStyleJira180Main
+12297,org.apache.log4j.PropertyConfigurator
+12386,org.apache.logging.log4j.core.ShutdownDisabledTest
+12466,org.apache.logging.log4j.core.appender.rolling.RolloverFrequency
+12663,org.apache.logging.log4j.core.config.OrderComparator
+12671,org.apache.logging.log4j.core.layout.Rfc5424LayoutTest
+12749,org.apache.logging.log4j.core.layout.LogEventFixtures
+12775,org.apache.logging.log4j.core.net.server.TcpSerializedSocketServerTest
+12783,org.apache.logging.log4j.core.net.server.AbstractSocketServerTest
+12784,org.apache.logging.log4j.core.net.server.TcpSocketServer
+12794,org.apache.logging.log4j.core.config.plugins.visitors.PluginConfigurationVisitor
+12805,org.apache.logging.log4j.util.ReflectionUtilTest
+12834,org.apache.logging.log4j.core.async.perftest.PerfTestDriver
+13010,org.apache.logging.log4j.taglib.EntryTag
+13025,org.apache.logging.log4j.core.appender.ProgressConsoleTest
+13039,org.slf4j.impl.StaticMarkerBinder
+13094,org.apache.logging.log4j.jul.CoreLogger
+13112,org.apache.logging.log4j.core.async.AsyncLoggerConfigTest
+13125,org.apache.log4j.LevelTest
+13202,org.apache.logging.log4j.core.util.ThrowablesTest
+13209,org.apache.logging.log4j.core.appender.rolling.RolloverDescriptionImpl
+13226,org.apache.logging.log4j.core.lookup.DateLookup
+13240,org.apache.log4j.BasicConfigurator
+13248,org.apache.logging.log4j.message.MessageFormatMessageFactory
+13289,org.apache.logging.log4j.core.appender.ConsoleAppenderAnsiStyleLayoutMain
+13296,org.apache.logging.log4j.core.appender.db.jpa.converter.StackTraceElementAttributeConverterTest
+13320,org.apache.logging.log4j.core.filter.BurstFilterTest
+13338,org.apache.logging.log4j.core.filter.BurstFilter
+13398,org.apache.logging.log4j.samples.util.NamingUtils
+13505,org.apache.logging.log4j.web.Log4jServletContainerInitializerTest
+13533,org.apache.logging.log4j.web.Log4jServletContainerInitializer
+13534,org.apache.logging.log4j.web.Log4jServletContextListener
+13537,org.apache.logging.slf4j.CallerInformationTest
+13552,org.apache.logging.log4j.core.StrictXmlConfigTest
+13579,org.apache.logging.log4j.core.config.LoggersPlugin
+13593,org.apache.logging.log4j.core.jackson.LogEventMixIn
+13613,org.apache.logging.log4j.core.jackson.ListOfMapEntryDeserializer
+13614,org.apache.logging.log4j.core.jackson.MessageSerializer
+13615,org.apache.logging.log4j.core.jackson.Log4jStackTraceElementDeserializer
+13618,org.apache.logging.log4j.core.LookupTest
+13645,org.apache.logging.log4j.taglib.IfEnabledTagTest
+13758,org.apache.logging.log4j.core.appender.Jira739Test
+13765,org.apache.logging.log4j.core.tools.Generate
+13857,org.apache.logging.log4j.taglib.CatchingTag
+13866,org.apache.logging.log4j.taglib.ExceptionAwareTagSupport
+13885,org.apache.logging.log4j.core.pattern.PatternParserTest
+13959,org.apache.logging.log4j.taglib.ExitTagTest
+14065,org.apache.logging.log4j.flume.appender.Log4jEventSource
+14085,org.apache.logging.log4j.taglib.WarnTagTest
+14087,org.apache.logging.log4j.taglib.WarnTag
+14135,org.apache.logging.log4j.core.appender.db.jdbc.JdbcAppender
+14258,org.apache.logging.log4j.perf.jmh.AsyncAppenderLog4j1Benchmark
+14296,org.apache.logging.slf4j.CustomFlatMarker
+14333,org.apache.logging.log4j.core.lookup.SystemPropertiesLookupTest
+14444,org.apache.logging.log4j.io.LoggerFilterOutputStreamTest
+14450,org.apache.log4j.osgi.equinox.EquinoxLoadApi12BundleTest
+14452,org.apache.logging.log4j.osgi.equinox.AbstractEquinoxLoadBundleTest
+14543,org.apache.logging.log4j.jcl.LogFactoryImpl
+14563,org.apache.logging.log4j.core.appender.FileAppenderTest
+14642,org.apache.logging.log4j.osgi.equinox.EquinoxLoadApiBundleTest
+14644,org.apache.logging.log4j.core.appender.db.jpa.converter.ContextStackJsonAttributeConverterTest
+14658,org.apache.logging.log4j.core.appender.db.jpa.converter.ContextStackJsonAttributeConverter
+14679,org.apache.logging.log4j.core.layout.JsonLayout
+14732,org.apache.logging.log4j.core.config.plugins.util.PluginRegistry
+14778,org.apache.logging.log4j.core.XmlEvents
+14789,org.apache.logging.log4j.core.appender.XmlCompactFileAppenderTest
+14803,org.apache.logging.log4j.core.appender.MemoryMappedFileAppender
+14854,org.apache.logging.log4j.core.config.plugins.convert.TypeConverterRegistryTest
+15025,org.apache.logging.log4j.message.BasicThreadInformation
+15052,org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter
+15197,org.apache.logging.log4j.PerformanceRun
+15244,org.apache.logging.log4j.core.appender.MemoryMappedFileManagerTest
+15266,org.apache.logging.log4j.core.CollectionLoggingTest
+15282,org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManagerHeaderFooterTest
+15320,org.apache.logging.log4j.core.ThreadedTest
+15382,org.apache.logging.log4j.core.impl.Log4jLogEventTest
+15468,org.apache.logging.log4j.AbstractLoggerTest
+15534,org.apache.logging.log4j.core.appender.RandomAccessFileAppenderTests
+15552,org.apache.logging.log4j.core.pattern.MdcPatternConverter
+15629,org.apache.logging.log4j.core.filter.DynamicThresholdFilterSerializationTest
+15672,org.apache.logging.log4j.core.net.SmtpManager
+15677,org.apache.logging.log4j.core.config.AppendersPlugin
+15759,org.apache.logging.log4j.core.lookup.MainInputArgumentsMapLookup
+15804,org.apache.logging.log4j.core.config.plugins.convert.EnumConverter
+15835,org.apache.logging.log4j.core.config.CustomConfigurationTest
+15853,org.apache.logging.log4j.core.async.AsyncRootReloadTest
+15865,org.apache.logging.log4j.core.appender.RandomAccessFileManagerTest
+15902,org.apache.logging.log4j.core.layout.PatternLayoutTest
+15989,org.apache.logging.log4j.taglib.ExceptionAwareTagSupportTest
+16011,org.apache.logging.log4j.core.appender.routing.JsonRoutingAppenderTest
+16025,org.apache.logging.log4j.taglib.LogTagTest
+16072,org.apache.logging.log4j.core.appender.RandomAccessFileAppender
+16112,org.apache.logging.log4j.core.layout.XmlLayoutTest
+16179,org.apache.logging.log4j.core.pattern.EncodingPatternConverterTest
+16193,org.apache.logging.log4j.core.appender.db.jdbc.JdbcHyperSqlAppenderTest
+16202,org.apache.logging.log4j.core.jackson.MutableThreadContextStackDeserializer
+16307,org.apache.logging.log4j.core.util.Transform
+16310,org.apache.logging.log4j.core.config.plugins.validation.ValidatingPlugin
+16352,org.apache.logging.log4j.core.appender.TlsSyslogAppenderTest
+16377,org.apache.logging.log4j.core.appender.SyslogAppenderTest
+16386,org.apache.logging.log4j.core.jackson.StackTraceElementMixIn
+16387,org.apache.logging.log4j.core.jackson.LevelMixIn
+16388,org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn
+16399,org.apache.logging.log4j.core.net.MulticastDnsAdvertiser
+16461,org.apache.logging.log4j.core.async.AsyncLoggersWithAsyncAppenderTest
+16503,org.apache.logging.log4j.PerformanceComparison
+16571,org.apache.logging.log4j.core.util.Profiler
+16577,org.apache.logging.log4j.core.async.AsyncLoggerTimestampMessageTest
+16595,org.apache.logging.log4j.core.selector.BasicContextSelector
+16616,org.apache.logging.log4j.core.pattern.FullLocationPatternConverter
+16651,org.apache.logging.log4j.message.LocalizedMessageFactory
+16668,org.apache.logging.log4j.core.appender.db.jpa.TestBaseEntity
+16765,org.apache.log4j.helpers.NullEnumeration
+16836,org.apache.logging.log4j.io.LoggerBufferedReader
+16837,org.apache.logging.log4j.io.LoggerReader
+16838,org.apache.logging.log4j.io.LoggerPrintWriter
+16839,org.apache.logging.log4j.io.LoggerOutputStream
+16840,org.apache.logging.log4j.io.LoggerPrintStream
+16853,org.apache.logging.log4j.core.appender.mom.JmsAppender
+16917,org.apache.logging.log4j.core.appender.mom.JmsManager
+16922,org.apache.logging.log4j.core.layout.JsonLayoutTest
+17004,org.apache.logging.log4j.message.MessageFormatsPerfTest
+17032,org.apache.logging.log4j.message.FormattedMessage
+17051,org.apache.logging.log4j.core.FileConfigTest
+17074,org.apache.logging.log4j.core.lookup.EnvironmentLookupTest
+17158,org.apache.logging.log4j.core.net.mom.jms.JmsQueueReceiver
+17172,org.apache.logging.log4j.message.ThreadDumpMessage
+17400,org.apache.logging.log4j.core.jackson.StackTraceElementMixInTest
+17506,org.apache.logging.log4j.io.LoggerPrintWriterTest
+17560,org.apache.logging.log4j.test.layout.BasicLayout
+17570,org.apache.logging.log4j.core.appender.db.jpa.converter.MarkerAttributeConverter
+17577,org.apache.logging.log4j.core.pattern.ExtendedThrowablePatternConverter
+17598,org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy
+17618,org.apache.logging.log4j.test.appender.UsesLoggingAppender
+17636,org.apache.logging.log4j.test.SomethingThatUsesLogging
+17665,org.apache.logging.slf4j.Log4jLogger
+17670,org.apache.logging.log4j.core.ExtendedLevelTest
+17681,org.apache.logging.log4j.core.async.AsyncLoggerTestCachedThreadName
+17692,org.apache.logging.log4j.core.filter.MapFilterTest
+17733,org.apache.logging.log4j.jmx.gui.ClientEditConfigPanel
+17891,org.apache.logging.log4j.core.async.AsyncLoggerUseAfterShutdownTest
+17898,org.apache.logging.log4j.io.LoggerPrintStreamTest
+18080,org.apache.logging.log4j.perf.jmh.FormatterLoggerBenchmark
+18102,org.apache.logging.log4j.core.config.plugins.validation.validators.RequiredValidatorTest
+18116,org.apache.logging.slf4j.OptionalTest
+18131,org.apache.logging.log4j.perf.jmh.AsyncLoggersBenchmark
+18142,org.apache.logging.log4j.taglib.EntryTagTest
+18159,org.apache.logging.log4j.core.appender.XmlFileAppenderTest
+18174,org.apache.logging.log4j.core.pattern.ThrowableTest
+18209,org.apache.logging.log4j.core.net.server.UdpJsonSocketServerTest
+18240,org.apache.logging.log4j.samples.app.LoggingApp
+18270,org.apache.log4j.CallerInformationTest
+18284,org.apache.logging.log4j.core.layout.GelfLayoutTest
+18337,org.apache.logging.log4j.perf.jmh.TimeFormatBenchmark
+18398,org.apache.logging.log4j.core.appender.FailoverAppender
+18450,org.apache.logging.log4j.core.HostNameTest
+18464,org.apache.logging.log4j.core.impl.ThrowableFormatOptionsTest
+18508,org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy
+18529,org.apache.logging.log4j.core.util.StandardCharsetsTest
+18545,org.apache.logging.log4j.core.jmx.ServerTest
+18577,org.apache.logging.log4j.core.selector.a.Logging1
+18600,org.apache.logging.log4j.LogRolloverTest
+18627,org.apache.logging.log4j.core.net.SocketMessageLossTest
+18707,org.apache.logging.log4j.core.pattern.MapPatternConverter
+18723,org.apache.logging.log4j.core.lookup.ContextMapLookupTest
+18741,org.apache.logging.log4j.core.lookup.ContextMapLookup
+18776,org.apache.logging.log4j.web.TestAsyncServlet
+18795,org.apache.logging.log4j.core.appender.rolling.action.FileRenameActionTest
+18828,org.apache.logging.log4j.core.pattern.UuidPatternConverter
+18857,org.apache.logging.log4j.core.async.AsyncLoggerContextTest
+18861,org.apache.logging.log4j.MarkerTest
+18891,org.apache.logging.log4j.flume.appender.FlumeEmbeddedAgentTest
+18966,org.apache.logging.log4j.core.appender.mom.JmsAppenderTest
+19022,org.apache.log4j.VelocityTest
+19039,org.apache.logging.log4j.core.appender.mom.JmsAppenderIT
+19230,org.apache.logging.log4j.core.appender.db.jpa.converter.ContextStackAttributeConverter
+19237,org.apache.logging.log4j.core.osgi.BundleContextSelector
+19259,org.apache.logging.log4j.test.appender.AlwaysFailAppender
+19694,org.apache.logging.log4j.flume.appender.BatchEvent
+19769,org.apache.logging.log4j.core.lookup.DateLookupTest
+19784,org.apache.logging.log4j.core.net.ssl.SslConfigurationTest
+19806,org.apache.logging.log4j.io.AbstractStreamTest
+19821,org.apache.logging.log4j.flume.appender.FlumeAppenderTest
+19918,org.apache.logging.log4j.core.appender.OutputStreamAppenderTest
+19924,org.apache.logging.log4j.test.appender.InMemoryAppender
+19928,org.apache.logging.log4j.core.appender.rewrite.RewriteAppenderTest
+20067,org.apache.logging.log4j.core.net.ssl.TrustStoreConfigurationTest
+20082,org.apache.logging.log4j.core.config.ConfigurationTest
+20281,org.apache.logging.log4j.jul.CoreLoggerTest
+20292,org.apache.logging.log4j.core.net.server.TcpJsonSocketServerTest
+20326,org.apache.logging.log4j.simple.SimpleLoggerTest
+20334,org.apache.logging.log4j.junit.LogManagerLoggerContextFactoryRule
+20335,org.apache.logging.log4j.simple.SimpleLoggerContextFactory
+20355,org.apache.logging.log4j.core.appender.rolling.AbstractRolloverStrategy
+20358,org.apache.logging.log4j.jmx.gui.ClientGuiJConsolePlugin
+20368,org.apache.logging.log4j.jmx.gui.ClientGui
+20371,org.apache.logging.log4j.core.pattern.FileLocationPatternConverter
+20382,org.apache.logging.log4j.core.osgi.equinox.EquinoxLoadCoreBundleTest
+20461,org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy
+20503,org.apache.logging.log4j.perf.jmh.jpa.TestBasicEntity
+20515,org.apache.logging.log4j.core.async.AsyncLoggerThreadNameStrategyTest
+20565,org.apache.logging.log4j.core.net.server.TcpXmlSocketServerTest
+20584,org.apache.logging.log4j.message.MessageFormatMessageTest
+20616,org.apache.logging.log4j.message.ThreadDumpMessageTest
+20646,org.apache.logging.log4j.jul.CoreLoggerAdapter
+20652,org.apache.logging.log4j.perf.jmh.DebugDisabledBenchmark
+20683,org.apache.logging.log4j.taglib.ErrorTagTest
+20686,org.apache.logging.log4j.core.LoggerDateTest
+20695,org.apache.logging.log4j.core.net.PriorityTest
+20784,org.apache.log4j.config.PropertySetterException
+20801,org.apache.logging.log4j.core.net.server.UdpSerializedSocketServerTest
+20809,org.apache.logging.log4j.spi.DefaultThreadContextStackTest
+20875,org.apache.logging.log4j.spi.MutableThreadContextStackTest
+20914,org.apache.logging.log4j.core.util.SetUtils
+20937,org.apache.logging.slf4j.MDCContextMap
+21068,org.apache.logging.log4j.core.selector.c.Logging3
+21072,org.apache.logging.log4j.taglib.DebugTagTest
+21074,org.apache.logging.log4j.taglib.DebugTag
+21077,org.apache.logging.log4j.core.net.server.SecureTcpSocketServer
+21176,org.apache.log4j.util.SerialUtil
+21190,org.apache.logging.log4j.core.config.plugins.processor.PluginProcessorTest
+21247,org.apache.logging.log4j.message.StringFormattedMessageTest
+21278,org.apache.logging.log4j.core.appender.rolling.PatternProcessorTest
+21346,org.apache.logging.log4j.core.appender.db.jpa.JpaHyperSqlAppenderTest
+21377,org.apache.logging.log4j.taglib.InfoTagTest
+21380,org.apache.logging.log4j.core.appender.routing.RoutingAppenderTest
+21395,org.apache.logging.log4j.core.util.SystemClockTest
+21405,org.apache.logging.log4j.core.pattern.RootThrowablePatternConverter
+21423,org.apache.logging.log4j.core.util.FileUtilsTest
+21566,org.apache.logging.log4j.core.appender.db.jpa.converter.ContextMapAttributeConverterTest
+21678,org.apache.logging.log4j.io.LoggerPrintWriterCallerInfoTest
+21697,org.apache.logging.log4j.core.config.PropertiesPlugin
+21705,org.apache.logging.log4j.flume.test.FlumeKeyProvider
+21755,org.apache.logging.log4j.core.appender.AsyncAppenderNoLocationTest
+21766,org.apache.logging.log4j.perf.jmh.Log4jLogEventBenchmark
+21810,org.apache.logging.log4j.osgi.felix.FelixLoadApiBundleTest
+21812,org.apache.logging.log4j.web.appender.ServletAppender
+21950,org.apache.logging.log4j.NoopThreadContextTest
+21959,org.apache.logging.log4j.core.appender.rolling.RollingAppenderTimeTest
+21979,org.apache.logging.log4j.core.net.server.UdpXmlSocketServerTest
+22217,org.apache.logging.log4j.perf.jmh.ConfiguratorInitializeBenchmark
+22231,org.apache.logging.log4j.core.LogEventTest
+22249,org.apache.logging.log4j.core.config.ReconfigurationDeadlockTest
+22351,org.apache.logging.log4j.core.layout.SerializedLayoutTest
+22390,org.apache.logging.log4j.core.pattern.RootThrowablePatternConverterTest
+22586,org.apache.logging.log4j.core.async.AsyncLoggerTest
+22633,org.apache.logging.log4j.taglib.CatchingTagTest
+22652,org.apache.logging.log4j.core.util.UuidTest
+22700,org.apache.logging.log4j.web.WebLookup
+22738,org.apache.logging.log4j.core.util.KeyValuePairSerializationTest
+22762,org.apache.logging.log4j.core.impl.ExtendedClassInfo
+22764,org.apache.logging.log4j.core.pattern.CallerInformationTest
+22778,org.apache.logging.log4j.core.filter.MarkerFilterTest
+22788,org.apache.logging.log4j.core.AppenderRefLevelJsonTest
+22931,org.apache.logging.log4j.core.LevelTest
+22970,org.apache.logging.log4j.core.lookup.StructuredDataLookupTest
+22979,org.apache.logging.log4j.perf.jmh.ClocksBenchmark
+23099,org.apache.logging.log4j.core.appender.db.jpa.converter.ContextStackAttributeConverterTest
+23127,org.apache.logging.log4j.core.appender.rewrite.RewriteAppender
+23170,org.apache.logging.log4j.core.appender.db.AbstractDatabaseManagerTest
+23470,org.apache.logging.log4j.core.pattern.RootThrowableTest
+23572,org.apache.logging.log4j.core.pattern.ExtendedThrowablePatternConverterTest
+23593,org.apache.logging.log4j.core.osgi.Activator
+23631,org.apache.log4j.osgi.felix.FelixLoadApi12BundleTest
+23634,org.apache.logging.log4j.io.IoBuilderTest
+23642,org.apache.log4j.NDC
+23748,org.apache.logging.log4j.core.async.RingBufferLogEventTest
+23833,org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager
+24026,org.apache.logging.log4j.io.LoggerBufferedReaderCallerInfoTest
+24086,org.apache.logging.log4j.core.appender.routing.RoutingAppenderWithJndiTest
+24100,org.apache.logging.log4j.simple.SimpleLoggerContext
+24128,org.apache.logging.log4j.io.LoggerInputStreamCallerInfoTest
+24144,org.apache.logging.log4j.jul.DefaultLevelConverter
+24161,org.apache.log4j.PatternLayout
+24178,org.apache.logging.log4j.core.pattern.MapPatternConverterTest
+24278,org.apache.logging.log4j.core.appender.routing.RoutingDefaultAppenderTest
+24423,org.apache.logging.log4j.core.appender.db.jpa.JpaH2AppenderTest
+24444,org.apache.logging.log4j.core.appender.routing.JsonRoutingAppender2Test
+24482,org.apache.logging.log4j.FilterPerformanceComparison
+24764,org.apache.logging.log4j.core.async.AsyncLoggerThreadContextTest
+24783,org.apache.logging.log4j.io.LoggerPrintWriterJdbcH2Test
+25132,org.apache.logging.log4j.nosql.appender.mongodb.MongoDbProvider
+25241,org.apache.logging.log4j.core.appender.rewrite.PropertiesRewritePolicy
+25309,org.apache.logging.log4j.core.tools.GenerateCustomLoggerTest
+25357,org.apache.logging.log4j.core.SimplePerfTest
+25417,org.apache.logging.log4j.nosql.appender.NoSqlDatabaseManagerTest
+25559,org.apache.log4j.LoggerTest
+25990,org.apache.logging.log4j.core.pattern.StyleConverterTest
+25999,org.apache.logging.log4j.core.async.AsyncLoggerLocationTest
+26010,org.apache.logging.log4j.perf.jmh.JdbcAppenderBenchmark
+26141,org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManagerTest
+26198,org.apache.logging.log4j.core.pattern.ExtendedThrowableTest
+26208,org.apache.logging.log4j.core.util.IntegersTest
+26214,org.apache.log4j.CategoryTest
+26258,org.apache.logging.log4j.jul.CallerInformationTest
+26315,org.apache.logging.log4j.web.Log4jServletContextListenerTest
+26420,org.apache.logging.log4j.core.config.TestConfiguratorError
+26429,org.apache.logging.log4j.core.appender.JsonCompleteFileAppenderTest
+26606,org.apache.logging.log4j.flume.appender.FlumePersistentAppenderTest
+26730,org.apache.logging.log4j.taglib.SetLoggerTagTest
+26807,org.apache.logging.log4j.LogManagerTest
+26947,org.apache.logging.log4j.core.tools.GenerateExtendedLoggerTest
+27012,org.apache.logging.log4j.message.ObjectMessageTest
+27053,org.apache.logging.log4j.message.FormattedMessageTest
+27094,org.apache.logging.log4j.core.config.XIncludeTest
+27177,org.apache.logging.log4j.taglib.LoggingMessageTagSupportTest
+27264,org.apache.logging.log4j.message.FormattedMessageFactory
+27442,org.apache.logging.log4j.core.config.TestConfigurator
+27515,org.apache.logging.log4j.core.async.AsyncLoggerContextSelectorTest
+27532,org.apache.logging.log4j.core.layout.SyslogLayoutTest
+27569,org.apache.logging.slf4j.MarkerTest
+27592,org.apache.logging.log4j.perf.jmh.PatternLayoutBenchmark
+27630,org.apache.logging.log4j.core.appender.ConsoleAppenderHighlightLayoutDefaultMain
+27636,org.apache.logging.log4j.core.filter.ThresholdFilterTest
+27641,org.apache.logging.log4j.perf.jmh.AsyncAppenderLogbackBenchmark
+27659,org.apache.logging.log4j.core.net.server.SslXmlSocketServerTest
+27675,org.apache.logging.log4j.core.osgi.felix.FelixLoadCoreBundleTest
+27788,org.apache.logging.log4j.core.pattern.SequenceNumberPatternConverter
+27864,org.apache.logging.log4j.core.appender.ConsoleAppenderAnsiStyleJira272Main
+27945,org.apache.logging.log4j.core.appender.db.jpa.converter.MarkerAttributeConverterTest
+27962,org.apache.logging.slf4j.LoggerTest
+28011,org.apache.logging.slf4j.SLF4JLoggingException
+28021,org.apache.log4j.LoggingTest
+28029,org.apache.logging.log4j.core.lookup.ResourceBundleLookupTest
+*Edges: 2261
+9451 681 1
+13240 7651 1
+18270 7652 2
+18270 7653 8
+18270 301 3
+18270 4953 4
+7653 1868 9
+7653 322 7
+7653 5987 5
+7653 7651 1
+7653 349 14
+7653 16765 1
+7653 10405 1
+7653 104 1
+7653 544 11
+7653 545 4
+7653 350 7
+7653 10011 2
+26214 7653 14
+26214 681 3
+26214 349 2
+26214 412 1
+26214 7651 1
+26214 7652 4
+26214 219 2
+26214 350 1
+26214 2561 2
+26214 4953 12
+10406 10405 1
+545 544 2
+13125 3363 3
+13125 545 9
+13125 544 13
+7651 7652 6
+7651 16765 1
+7651 7653 3
+7651 350 2
+7652 7653 7
+7652 350 1
+25559 7653 66
+25559 681 3
+25559 349 20
+25559 412 1
+25559 7651 4
+25559 7652 33
+25559 219 1
+25559 350 1
+25559 2561 16
+25559 4953 11
+28021 7652 1
+28021 7653 2
+28021 301 1
+7490 268 4
+23642 268 10
+24161 10406 1
+544 545 3
+514 544 11
+19022 219 1
+19022 44 2
+19022 450 1
+19022 350 1
+14450 14452 1
+23631 7055 1
+10404 10405 1
+10316 10359 1
+6119 6120 3
+6119 459 5
+6119 486 6
+6120 486 3
+459 485 3
+459 486 27
+459 484 11
+486 485 3
+15468 1868 157
+15468 1425 96
+15468 322 14
+15468 5987 1
+15468 1428 2
+1888 308 2
+2867 322 1
+2867 73 2
+11176 74 3
+11176 73 1
+11176 268 4
+11176 1980 1
+11176 2867 1
+695 450 1
+322 6668 3
+2764 322 138
+219 1282 1
+219 2663 11
+26807 219 8
+18600 219 1
+5688 1868 33
+5688 1425 2
+5688 74 3
+5688 73 1
+5688 268 6
+5688 1980 21
+5688 219 19
+8685 2217 1
+8685 1425 7
+18861 1425 22
+21950 268 4
+16503 7652 1
+16503 7653 1
+16503 16571 3
+15197 301 1
+1980 1868 4
+1980 322 8
+1980 268 1
+1968 1980 2
+268 1282 5
+268 1279 3
+268 1278 1
+268 1277 2
+268 1283 3
+268 1276 1
+268 219 1
+7020 268 53
+7020 267 8
+226 268 51
+226 267 8
+11412 322 1
+11412 1435 1
+22788 301 3
+22788 4953 9
+8718 301 3
+8718 4953 9
+4951 681 1
+15266 74 1
+15266 301 6
+15266 4953 2
+17670 322 4
+17670 301 5
+17670 4953 6
+17051 301 4
+17051 4953 1
+18450 5026 3
+18450 301 4
+18450 5376 4
+18450 4953 3
+12079 219 2
+12079 44 2
+12079 450 1
+12079 350 4
+22931 1425 1
+22931 322 2
+22931 301 9
+22931 5987 1
+22931 4953 15
+9947 301 3
+9947 4953 3
+1929 219 1
+1929 350 2
+22231 1787 1
+22231 1428 5
+22231 1426 5
+349 1868 7
+349 322 8
+349 1428 1
+349 813 2
+349 2431 11
+349 350 7
+350 1868 1
+350 876 11
+350 681 2
+350 950 2
+350 349 5
+350 5026 1
+350 219 2
+350 948 2
+20686 362 2
+20686 301 2
+6630 1888 2
+6630 219 3
+6630 350 2
+7098 1868 2
+7098 1425 1
+7098 322 1
+7098 73 1
+7098 268 6
+7098 349 3
+7098 74 3
+7098 301 11
+7098 219 2
+7098 2431 2
+7098 4953 20
+6916 301 3
+6916 219 1
+6916 2431 1
+6916 350 2
+6916 4953 5
+13618 412 1
+13618 1050 1
+13618 301 2
+12386 301 2
+25357 682 1
+25357 322 1
+25357 10227 20
+25357 219 2
+25357 350 2
+13552 1425 1
+13552 74 3
+13552 73 1
+13552 268 6
+13552 301 2
+13552 4953 11
+10203 322 1
+10203 10227 8
+15320 322 1
+15320 301 1
+7671 2969 1
+7671 301 3
+7671 4953 3
+14778 74 3
+14778 268 4
+14778 301 1
+14778 2867 2
+1050 876 1
+1050 415 1
+1050 2561 2
+423 2 2
+423 1050 8
+423 2624 1
+423 3181 2
+423 2561 2
+2624 1787 4
+8001 2071 4
+8001 876 1
+8001 5468 1
+8001 1426 3
+8001 1671 1
+8001 1050 9
+8001 1944 8
+8001 2561 2
+21755 301 2
+21755 4953 3
+8408 1787 1
+8408 219 1
+8408 44 2
+8408 350 3
+8408 4953 4
+3068 412 1
+3068 1165 1
+3068 1282 3
+3068 3181 2
+3068 423 2
+3068 414 1
+451 450 1
+12289 450 1
+27864 450 1
+441 450 1
+13289 450 1
+6624 450 1
+27630 450 1
+5019 450 1
+9691 450 1
+12100 450 1
+4504 412 1
+4504 876 4
+4504 3068 2
+4504 1428 2
+4504 1426 2
+4504 423 6
+6389 2624 2
+18398 2071 5
+18398 876 1
+18398 1787 1
+18398 1050 7
+18398 2561 1
+18398 414 1
+9095 8576 2
+9095 301 5
+9095 4953 8
+1936 1944 2
+362 412 1
+362 415 1
+362 423 3
+362 422 3
+362 414 4
+14563 876 4
+14563 4497 1
+14563 2 1
+14563 362 4
+14563 1428 2
+14563 1426 2
+14563 423 4
+14563 412 2
+422 2 3
+422 2624 1
+422 3181 6
+13758 450 1
+26429 4497 1
+26429 301 3
+26429 350 1
+14803 412 1
+14803 415 2
+14803 9708 5
+14803 423 6
+14803 414 3
+6501 415 1
+6501 219 2
+6501 350 1
+3278 219 2
+3278 350 1
+9697 219 2
+9697 350 1
+9708 2 5
+9708 3181 4
+9708 950 1
+15244 2 2
+15244 9708 4
+19918 19924 2
+19918 412 1
+19918 876 2
+19918 1428 1
+19918 1426 1
+19918 423 3
+3181 2 7
+3181 2624 2
+13025 450 1
+16072 412 1
+16072 415 1
+16072 4309 5
+16072 423 6
+16072 414 3
+15534 4497 1
+15534 301 4
+15534 350 1
+4309 2 4
+4309 2624 1
+4309 3181 4
+15865 4309 9
+15865 3181 3
+5376 412 1
+5376 415 1
+5376 1539 3
+5376 423 5
+5376 5536 1
+5376 414 4
+5489 412 1
+5489 415 1
+5489 1539 2
+5489 5537 3
+5489 423 6
+5489 5536 1
+5489 414 3
+3680 219 2
+6123 1050 4
+6123 15672 5
+6123 4955 1
+6123 2561 1
+6123 2574 1
+6123 414 1
+6081 1868 1
+6081 6122 12
+6081 349 3
+6081 6120 7
+6081 6121 24
+6081 6123 1
+6081 219 1
+6081 6119 4
+6081 350 1
+6081 2561 1
+3510 11514 1
+3510 3507 3
+3510 9823 1
+3510 3000 1
+3510 423 3
+3510 414 3
+3510 11515 1
+3510 1050 2
+3510 3508 1
+3510 3509 2
+3510 11513 1
+9714 1868 1
+9714 3510 5
+9714 1435 1
+9714 268 4
+9714 423 4
+9714 349 15
+9714 1787 1
+9714 219 1
+9714 350 2
+3458 3510 3
+3458 1052 1
+3458 615 1
+3458 3506 1
+3458 3505 1
+3458 3507 1
+3458 3000 1
+3458 3509 1
+16377 3510 2
+16377 5047 10
+16377 423 1
+16377 9047 2
+16377 349 2
+16377 350 1
+16377 3315 1
+16377 3458 2
+5047 1868 1
+5047 1425 1
+5047 73 2
+5047 268 3
+5047 349 6
+5047 74 3
+5047 219 1
+5047 3315 2
+5047 350 2
+5047 3458 1
+16352 7618 1
+16352 7914 1
+16352 5047 5
+16352 423 1
+16352 9047 1
+16352 7481 2
+16352 5939 1
+16352 16377 1
+16352 350 1
+16352 3509 3
+16352 3458 2
+11576 11600 13
+14789 219 2
+9191 219 2
+9191 450 4
+9191 350 1
+8660 219 3
+1949 219 2
+18159 219 2
+10752 219 2
+684 1787 1
+684 2 4
+684 1050 5
+684 2624 1
+684 2561 2
+684 2730 4
+11713 2 3
+11713 1050 2
+11713 684 9
+11713 2730 8
+2730 2 6
+23170 2 2
+23170 2730 66
+5192 2 1
+5192 684 1
+5192 219 4
+5192 44 4
+5192 350 4
+10061 412 5
+10061 482 3
+10061 414 1
+10239 412 3
+10239 10061 61
+3554 482 1
+3518 219 1
+3518 44 2
+3518 350 1
+3518 3554 8
+7854 1165 1
+7854 482 2
+9517 7854 13
+9517 219 1
+9517 44 2
+9517 350 1
+14135 23833 2
+14135 10061 2
+14135 1050 2
+14135 684 3
+14135 414 1
+23833 412 3
+23833 175 2
+23833 10061 1
+23833 2624 5
+23833 2730 4
+5184 5192 2
+16193 5192 2
+621 2 1
+621 684 1
+621 219 6
+621 44 4
+621 350 4
+2731 322 1
+11818 322 1
+11818 1435 1
+11818 2731 15
+683 2674 2
+683 1165 1
+683 1050 2
+683 684 3
+683 482 2
+683 414 1
+2674 2624 4
+2674 2730 4
+24423 621 2
+21346 621 2
+21346 683 6
+16668 322 1
+16668 1435 1
+16668 2731 15
+11807 11818 4
+21566 126 5
+10494 482 1
+10480 10494 8
+23099 19230 5
+14658 1278 2
+14658 482 1
+14644 268 2
+14644 14658 8
+9940 322 4
+9940 482 1
+17570 1425 2
+17570 482 1
+27945 1425 4
+27945 17570 8
+10567 1868 1
+10567 482 1
+10567 44 1
+10556 1868 1
+10556 10567 6
+10556 44 1
+2966 482 1
+13296 2966 12
+2900 1165 1
+2900 2966 1
+2900 482 1
+3560 2900 8
+16853 1050 3
+16853 16917 4
+19039 2 1
+19039 16917 3
+19039 1865 1
+19039 1428 1
+19039 1426 1
+19039 2561 1
+19039 16853 3
+19039 11513 1
+18966 301 4
+18966 5138 1
+18966 1428 1
+18966 1426 2
+18966 16853 3
+16917 2 3
+16917 1865 5
+1433 74 2
+1433 1427 5
+1433 1426 13
+1395 1425 1
+1395 1435 2
+1395 73 1
+1395 1427 3
+1395 1428 1
+1395 1426 4
+1395 1434 2
+1395 74 11
+1395 1433 15
+25241 1426 1
+25241 324 7
+25241 110 1
+23127 2071 2
+23127 1944 6
+23127 1050 2
+23127 2561 3
+23127 414 1
+19928 74 7
+19928 73 3
+19928 301 3
+19928 219 1
+19928 4953 7
+19928 2867 1
+6456 1426 1
+17598 1539 1
+5536 13209 1
+5536 1539 10
+5536 12142 1
+5536 415 1
+5536 8504 1
+5536 110 7
+5536 422 1
+5536 12236 3
+2149 1868 1
+2149 1165 2
+2149 1539 3
+2149 44 1
+2136 2149 6
+2136 1428 1
+2136 1426 1
+1642 12466 2
+1642 11413 1
+1642 12213 2
+1642 1426 1
+1642 1131 3
+1642 110 2
+21278 1642 21
+8163 4502 1
+8163 8185 2
+8163 301 3
+9873 4502 1
+9873 8185 2
+9873 301 2
+21959 4502 1
+21959 8185 2
+21959 301 2
+11092 219 2
+11092 44 2
+11092 350 2
+5366 2149 1
+5366 1539 2
+5366 5376 1
+5366 219 1
+5366 423 1
+5366 350 1
+1539 1642 3
+1539 3181 5
+1539 422 8
+5537 2 2
+5537 2624 1
+5537 1539 3
+5537 3181 1
+5537 422 2
+15282 301 2
+15282 4955 4
+26141 20461 6
+26141 4502 7
+26141 1539 3
+26141 5537 11
+20461 1642 1
+20461 1539 4
+18508 415 1
+18508 1642 3
+18508 1539 8
+8288 1639 1
+12236 1639 1
+18795 12236 6
+12142 1639 1
+8504 1639 1
+24444 73 2
+24444 219 1
+24444 44 2
+24444 350 3
+24444 4953 2
+24444 2867 2
+16011 73 2
+16011 219 1
+16011 44 2
+16011 350 3
+16011 4953 2
+16011 2867 2
+2072 102 6
+2073 2072 5
+2017 2071 4
+2017 2073 7
+2017 414 1
+2017 2072 12
+2017 102 6
+2017 1050 4
+2017 2074 1
+2017 110 1
+2017 2561 2
+21380 73 3
+21380 4497 1
+21380 301 2
+21380 4953 3
+21380 2867 3
+24086 73 6
+24086 301 3
+24086 4953 17
+24086 2867 6
+24278 73 2
+24278 4497 1
+24278 301 2
+24278 4953 3
+24278 2867 2
+352 1868 6
+352 322 1
+352 7425 1
+352 1165 1
+352 268 2
+352 1426 1
+352 44 1
+352 1671 2
+352 349 2
+352 415 1
+352 6637 2
+352 2431 3
+352 350 1
+8984 9040 6
+8984 322 3
+8984 876 2
+8984 324 2
+8984 414 1
+8984 1944 1
+8984 2431 10
+8984 2561 2
+8984 6637 1
+10436 219 2
+9040 415 1
+9040 8984 2
+9040 6637 2
+9040 1671 1
+13112 219 2
+5093 219 3
+5093 350 2
+11666 1428 1
+11666 219 2
+327 352 2
+327 350 6
+2560 350 3
+2560 327 1
+27515 2560 4
+27515 350 1
+18857 219 1
+18857 350 1
+18857 327 2
+25999 219 2
+22586 219 2
+17681 219 2
+5915 219 2
+24764 268 2
+24764 219 2
+16577 2969 1
+16577 219 2
+17891 1428 1
+17891 219 2
+16461 219 2
+16461 44 2
+16461 350 3
+16461 4953 2
+10164 219 2
+10164 44 2
+10164 350 3
+10164 4953 2
+15853 4475 1
+1671 322 3
+1671 1435 4
+1671 352 3
+1671 1428 1
+1671 1426 1
+1671 324 4
+1671 110 2
+6226 1671 3
+23748 1425 1
+23748 1435 1
+23748 1428 2
+23748 1671 33
+7425 322 2
+7425 352 2
+7425 1671 2
+6944 6983 9
+6983 1165 1
+7625 7651 1
+7625 7653 3
+8259 219 1
+8563 5384 5
+8563 322 5
+8563 1165 1
+8563 1282 4
+8563 3068 1
+8563 412 1
+8563 4415 1
+8563 102 42
+8563 2074 9
+8563 104 1
+8563 3447 1
+8563 2561 11
+8563 2431 31
+8563 1163 6
+8563 110 5
+8563 4414 1
+8563 1868 3
+8563 876 2
+8563 12041 3
+8563 12040 7
+8563 950 1
+8563 349 6
+8563 1944 4
+8563 219 1
+8563 350 3
+7560 7587 6
+7560 219 4
+7560 44 2
+7560 350 8
+2071 322 5
+2071 2624 1
+2071 2561 5
+1944 322 4
+681 6013 2
+681 5471 1
+681 1165 1
+681 12040 3
+681 1282 2
+681 12663 1
+681 4475 4
+681 2074 2
+681 110 1
+681 1163 6
+1163 950 5
+20082 349 4
+20082 301 3
+20082 350 4
+450 4475 1
+450 219 1
+450 3447 3
+450 1163 2
+450 350 9
+15835 412 1
+15835 4502 1
+15835 1944 1
+15835 362 1
+15835 301 2
+15835 44 2
+15835 2431 2
+15835 350 3
+12045 322 1
+12045 44 1
+12045 950 1
+12044 12045 2
+682 412 1
+682 322 2
+682 1282 2
+682 8563 5
+682 3068 1
+682 2431 2
+4485 4502 1
+2431 2071 3
+2431 322 8
+2431 482 1
+2431 324 7
+2431 414 1
+2431 1944 1
+2431 110 1
+2431 2561 6
+12041 2431 3
+13579 12041 2
+13579 2431 3
+10727 1434 4
+10727 8563 1
+10727 301 2
+10727 2431 3
+10727 350 2
+102 2074 5
+8116 8563 4
+8116 2431 1
+12663 950 2
+21697 4415 2
+21697 324 3
+21697 4414 1
+22249 17172 2
+22249 301 1
+27442 322 1
+27442 813 1
+27442 412 1
+27442 219 16
+27442 350 27
+27442 450 26
+27442 1163 2
+27442 2431 4
+26420 450 2
+27094 1434 1
+27094 349 4
+27094 301 3
+27094 350 4
+8481 4425 6
+8481 12040 2
+8481 102 16
+8481 8563 11
+8481 2074 2
+8481 1163 6
+8481 11635 1
+8470 1165 1
+8470 681 1
+8470 8481 1
+15804 3000 1
+5909 15804 1
+5909 5472 1
+5909 5471 1
+5909 12040 3
+5909 2074 1
+5909 950 1
+14854 5909 12
+5820 5909 2
+10178 5820 1
+7381 7411 13
+9557 7381 3
+9557 7411 3
+21190 7381 7
+21190 7411 11
+5384 5471 2
+5384 5468 2
+5384 5470 2
+5384 950 2
+5384 1458 2
+5384 5472 1
+5384 102 16
+5384 2074 11
+12040 482 2
+12040 2074 6
+12040 14732 10
+10449 44 2
+10449 450 1
+10449 350 3
+10449 4953 2
+14732 1165 2
+14732 7381 2
+14732 5269 4
+14732 482 1
+14732 2074 3
+14732 7411 14
+2074 7411 11
+5269 1165 1
+5216 5269 15
+5470 5471 1
+16310 950 1
+18102 5384 8
+18102 8116 2
+18102 12040 3
+18102 102 3
+18102 16310 1
+18102 2074 1
+109 5820 2
+109 482 1
+109 110 2
+109 950 3
+8749 102 2
+8749 109 4
+8749 104 1
+8749 110 2
+80 102 2
+80 109 4
+80 104 1
+80 110 1
+12794 102 1
+12794 109 2
+6143 102 15
+6143 109 2
+6143 2074 4
+6446 102 2
+6446 109 2
+6757 102 4
+6757 109 3
+6757 110 1
+4425 322 4
+4425 4475 2
+4425 44 3
+4425 4476 4
+7585 4425 6
+7585 1165 1
+7585 12040 1
+7585 102 2
+7585 8563 11
+7585 1163 9
+7585 11635 1
+9819 7585 1
+9819 681 1
+10599 219 5
+10599 44 2
+10599 350 9
+7592 301 3
+7592 219 1
+7592 4953 1
+1167 1163 1
+1167 8481 2
+1152 1167 1
+1152 1165 1
+1152 681 1
+2612 349 3
+2612 322 3
+2612 876 1
+2561 876 5
+2561 813 6
+13338 322 5
+13338 2612 2
+13320 13338 5
+13320 301 2
+13320 2561 1
+13320 4953 16
+813 349 3
+813 322 3
+813 876 5
+6571 322 8
+6571 876 2
+6571 1427 3
+6571 268 1
+6571 2612 2
+15629 1888 2
+15629 1427 2
+15629 6571 3
+6557 876 2
+6557 1427 2
+6557 268 6
+6557 1428 2
+6557 1426 2
+6557 44 2
+6557 219 1
+6557 6571 5
+6557 350 2
+6557 450 1
+6910 74 2
+6910 1427 5
+6910 2612 2
+17692 6910 8
+17692 876 4
+17692 1427 2
+17692 44 2
+17692 74 11
+17692 219 1
+17692 350 2
+17692 450 1
+17692 4953 1
+4886 2612 2
+22778 1425 5
+22778 4886 5
+22778 876 5
+22778 1428 2
+22778 1426 2
+2886 2612 2
+2870 876 4
+2870 2886 8
+2870 1428 2
+2870 1426 2
+2870 44 2
+6909 6910 6
+6909 778 2
+6909 74 1
+6909 73 6
+6909 1427 5
+6898 6909 6
+6898 6910 2
+6898 876 4
+6898 73 2
+6898 1427 2
+6898 74 8
+6898 350 1
+6898 450 1
+9119 6910 6
+9119 1427 5
+9119 268 2
+9114 876 6
+9114 1427 3
+9114 268 11
+9114 9119 3
+2574 322 6
+2574 2612 2
+27636 876 2
+27636 1428 2
+27636 1426 2
+27636 2574 3
+10509 2612 2
+10498 876 2
+10498 1426 3
+10498 10509 4
+2562 322 1
+2562 1426 1
+2218 22762 9
+3447 1868 5
+3447 1165 2
+3447 876 3
+3447 1282 4
+3447 681 4
+3447 44 1
+3447 950 2
+3447 10146 1
+3447 350 16
+3447 1163 1
+1426 322 10
+1426 1435 7
+1426 268 3
+1426 324 3
+15382 2969 1
+15382 1435 2
+15382 1428 5
+15382 1426 71
+18464 9123 10
+1435 1868 1
+1435 2218 6
+1435 1165 3
+1435 5615 1
+1435 22762 1
+1435 2663 1
+1435 44 1
+2158 2217 1
+2158 1435 30
+16388 22762 1
+16387 322 1
+6518 2217 2
+6518 322 1
+13613 3338 2
+3324 3338 1
+2217 9895 1
+5363 8149 1
+13593 322 1
+13593 1435 1
+16202 1429 2
+3233 1428 2
+17400 9895 1
+17400 5363 1
+17400 2217 1
+17400 13615 2
+6339 2218 1
+6339 1435 1
+9376 2561 1
+9376 948 2
+9376 950 2
+7978 8001 8
+7978 1050 5
+7978 2561 1
+7978 948 2
+7978 950 2
+9377 948 1
+9377 950 1
+9378 322 2
+9378 2431 11
+9378 948 2
+9378 350 5
+9378 950 2
+9379 1868 2
+9379 876 1
+9379 681 4
+9379 44 1
+9379 1163 3
+9379 948 1
+9379 350 11
+9379 950 1
+6637 948 3
+6637 950 1
+948 1165 1
+948 1282 6
+948 8984 1
+948 7978 2
+948 8192 2
+948 9379 2
+948 3447 1
+948 1868 4
+948 352 1
+948 44 1
+948 9377 2
+948 9375 1
+948 9376 2
+948 9378 2
+948 219 1
+948 350 11
+948 6637 2
+18545 948 10
+8192 322 4
+8192 44 4
+8192 948 1
+8192 3195 2
+567 591 2
+591 2003 2
+10196 1868 1
+10196 616 2
+10196 322 1
+10196 1427 5
+10196 591 4
+10196 44 1
+18284 10196 5
+18284 1868 1
+18284 1427 2
+18284 591 1
+18284 268 5
+18284 681 3
+18284 349 7
+18284 219 1
+18284 2561 3
+18284 350 2
+18284 4953 7
+4955 322 2
+4955 591 8
+4955 268 1
+4955 16307 10
+4922 1868 1
+4922 591 1
+4922 268 6
+4922 681 3
+4922 349 6
+4922 219 1
+4922 4955 6
+4922 350 2
+4922 2561 1
+4922 4953 3
+14679 567 4
+14679 5681 1
+14679 591 3
+16922 2217 2
+16922 567 2
+16922 12749 2
+16922 591 2
+16922 1428 1
+16922 681 3
+16922 2561 2
+16922 4953 6
+16922 1868 1
+16922 5615 1
+16922 268 6
+16922 1426 4
+16922 349 11
+16922 14679 6
+16922 219 1
+16922 350 2
+12749 1425 5
+12749 1435 1
+12749 5615 2
+12749 1278 4
+12749 1428 1
+12749 1426 2
+3505 778 2
+3505 1427 3
+412 11014 4
+412 1130 1
+412 591 4
+412 1131 4
+412 110 1
+412 2003 2
+15902 591 11
+15902 268 5
+15902 1428 9
+15902 1426 9
+15902 681 3
+15902 349 1
+15902 412 13
+15902 219 1
+15902 350 12
+1052 322 1
+1052 615 3
+1052 73 2
+1052 3505 7
+1052 1130 1
+1052 591 2
+1052 11600 2
+1052 5026 1
+1052 74 1
+1052 778 13
+1052 1787 1
+1052 1131 5
+1052 602 1
+12671 1868 4
+12671 1425 2
+12671 1052 8
+12671 73 2
+12671 3505 8
+12671 1427 11
+12671 268 21
+12671 681 3
+12671 44 2
+12671 349 41
+12671 74 6
+12671 219 1
+12671 2561 8
+12671 350 2
+12671 4953 33
+11513 2003 2
+22351 1868 2
+22351 268 6
+22351 1428 1
+22351 1426 1
+22351 681 3
+22351 349 6
+22351 1787 2
+22351 219 1
+22351 2561 1
+22351 350 2
+22351 11513 4
+22351 4953 3
+3506 615 3
+3506 591 2
+3506 602 1
+27532 1868 1
+27532 1425 1
+27532 73 1
+27532 3506 1
+27532 268 8
+27532 681 3
+27532 349 5
+27532 74 3
+27532 219 1
+27532 2561 1
+27532 350 2
+27532 4953 3
+5658 567 2
+5658 5681 1
+5658 591 5
+16112 5363 1
+16112 1425 1
+16112 567 2
+16112 12749 2
+16112 591 1
+16112 1428 1
+16112 681 3
+16112 2561 1
+16112 4953 3
+16112 1868 1
+16112 5615 1
+16112 268 6
+16112 1426 2
+16112 349 6
+16112 5658 6
+16112 219 1
+16112 350 2
+18741 268 1
+18723 268 1
+18723 301 1
+18723 219 1
+9479 3065 1
+4415 5471 1
+4415 1165 4
+4415 12040 3
+4415 3065 1
+4415 4414 2
+6419 4415 2
+6419 268 2
+6419 4414 1
+11452 3058 1
+11452 3065 2
+11452 482 1
+10037 4414 3
+6442 3065 1
+6442 2 1
+6442 1865 2
+10030 4414 5
+15759 4414 2
+4414 74 1
+5972 4414 16
+6241 3065 1
+4879 482 2
+110 482 1
+110 4879 28
+110 4414 4
+4404 4415 1
+4404 268 1
+4404 110 6
+4404 4414 1
+767 778 1
+767 74 1
+767 73 2
+22970 73 1
+22970 1426 1
+3058 3065 1
+3507 2 1
+3507 3181 2
+9854 2624 2
+9823 482 1
+9823 3507 3
+9823 3181 1
+615 3000 1
+1865 2 6
+1865 5138 1
+16399 1165 2
+16399 415 1
+602 616 6
+602 322 1
+602 615 6
+20695 602 1
+616 322 2
+15672 6121 8
+15672 1787 3
+15672 2 3
+15672 6122 4
+15672 482 1
+15672 104 1
+18627 2624 2
+18627 301 2
+9485 2624 1
+9485 301 2
+3209 2624 1
+3209 301 2
+11514 11515 3
+11514 482 1
+11514 3509 5
+11514 3181 1
+11515 2 2
+11515 482 1
+11515 2624 2
+11515 3507 3
+11515 3181 3
+9047 9059 1
+9047 9060 1
+9047 3295 1
+9047 3315 3
+9047 7481 1
+3295 3315 2
+9060 7472 1
+9060 3315 2
+9060 10571 1
+9060 7481 2
+9060 7480 3
+9059 3315 2
+17158 7304 3
+7289 7304 3
+9790 1929 1
+9790 950 1
+12783 3510 2
+12783 3068 1
+12783 423 1
+12783 349 9
+12783 412 1
+12783 14679 1
+12783 5658 1
+12783 2624 1
+12783 350 1
+12783 2561 1
+12783 4953 3
+1894 1929 2
+1894 1930 1
+1894 1426 1
+7304 1929 2
+7304 2 1
+7304 16917 3
+7304 1865 1
+10040 2217 1
+10040 1894 2
+10724 1929 2
+10724 1930 1
+21077 12784 2
+21077 3509 2
+27659 12784 2
+27659 7618 1
+27659 3510 1
+27659 21077 1
+27659 5349 1
+27659 12783 3
+27659 5939 1
+27659 9790 1
+27659 219 1
+27659 350 1
+27659 3509 2
+20292 12784 3
+20292 9790 1
+20292 12783 3
+20292 219 1
+20292 350 1
+12775 12784 3
+12775 9790 1
+12775 12783 3
+12775 219 1
+12775 350 1
+12784 9790 4
+12784 10040 1
+12784 5349 1
+12784 681 1
+20565 12784 3
+20565 9790 1
+20565 5349 1
+20565 12783 3
+20565 219 1
+20565 350 1
+18209 9790 1
+18209 12783 3
+18209 10691 3
+18209 219 1
+18209 350 1
+20801 9790 1
+20801 12783 3
+20801 10691 3
+20801 219 1
+20801 350 1
+10691 9790 4
+10691 10040 1
+10691 5349 1
+10691 681 1
+21979 9790 1
+21979 5349 1
+21979 12783 3
+21979 10691 3
+21979 219 1
+21979 350 1
+5349 5363 1
+5349 1894 2
+5957 1868 6
+5957 2388 8
+7618 5957 3
+7618 2388 1
+6552 2413 2
+7604 7618 4
+7604 5957 5
+7472 7480 2
+3509 7618 4
+3509 6552 8
+3509 44 1
+3509 2388 2
+3509 5939 4
+3509 5544 7
+19784 7618 1
+19784 3509 8
+19784 5939 1
+2388 44 1
+7238 2388 12
+10571 7480 2
+7480 7481 2
+7914 7481 1
+5939 5957 3
+5544 2413 2
+20067 5957 5
+20067 5939 4
+23593 1282 2
+23593 14732 4
+19237 1868 2
+19237 10145 3
+19237 2663 1
+19237 350 5
+19237 950 1
+20382 14452 1
+27675 7055 1
+15052 1128 2
+15052 412 1
+15052 1130 1
+15052 1131 1
+15052 1133 2
+1133 6299 1
+1133 3000 1
+22764 301 5
+22764 4953 4
+2121 2132 3
+11413 1128 3
+11368 11413 17
+11559 1128 2
+11559 412 1
+11559 1130 1
+11559 1131 1
+16179 11559 2
+16179 1428 1
+16179 1426 1
+16179 219 1
+16179 350 1
+17577 1435 1
+17577 1426 1
+17577 9123 6
+17577 8404 3
+23572 17577 4
+23572 1428 2
+23572 1426 2
+26198 301 3
+26198 4953 3
+11630 11413 2
+20371 1128 2
+16616 1128 2
+1081 1128 2
+1081 412 1
+1081 322 1
+1081 1130 2
+1081 1131 1
+1081 1133 1
+9435 4558 2
+9431 1128 2
+9431 322 6
+9393 322 5
+9393 9431 25
+9393 1428 5
+9393 1426 10
+7456 1128 2
+9085 1128 2
+3675 1128 2
+3675 5283 1
+3675 110 3
+3668 3675 4
+1128 4558 2
+6933 2132 3
+18707 1128 2
+18707 74 1
+24178 74 8
+24178 18707 4
+24178 1426 2
+1528 1128 2
+1520 1425 2
+1520 73 1
+1520 1528 2
+1520 1426 1
+15552 1128 2
+5798 1128 2
+5798 110 1
+5786 682 1
+5786 1428 4
+5786 1426 6
+5786 5798 8
+4534 1128 2
+6405 6415 2
+2132 1128 2
+2132 6415 4
+3197 1128 2
+1130 1128 5
+1130 12213 4
+1131 1128 1
+1131 12040 3
+1131 1130 2
+1131 482 1
+1131 17577 1
+1131 12213 29
+1131 2074 2
+1131 3675 5
+13885 1425 2
+13885 322 1
+13885 1130 3
+13885 1428 3
+13885 1426 3
+13885 349 1
+13885 1131 6
+13885 350 1
+12180 12213 2
+12180 1131 2
+10310 1128 2
+10310 412 1
+10310 1130 1
+10310 1131 1
+10303 10310 2
+10303 268 1
+10303 1428 1
+10303 1426 1
+10303 219 1
+10303 350 1
+10541 268 2
+10541 301 3
+10541 4953 8
+7546 1128 2
+21405 1435 1
+21405 1426 1
+21405 9123 6
+21405 8404 3
+22390 21405 4
+22390 1428 2
+22390 1426 2
+23470 301 3
+23470 4953 4
+27788 1128 2
+6272 1128 2
+6272 412 1
+6272 1130 2
+6272 1131 1
+6272 1133 2
+25990 301 3
+25990 4953 3
+2639 1128 2
+8404 1128 2
+8404 9123 7
+8339 1428 7
+8339 1426 7
+8339 8404 15
+18174 301 2
+18174 4953 3
+18828 1128 2
+18828 8501 1
+16595 350 5
+10145 1868 2
+10145 2663 1
+10145 44 1
+10145 350 13
+11021 349 6
+11021 5471 3
+11021 11038 3
+1832 1868 1
+1832 2 1
+1832 1865 2
+1832 44 1
+1832 350 7
+11038 6013 1
+11038 5615 1
+25309 13765 1
+25309 1980 1
+25309 219 1
+26947 13765 1
+26947 1980 1
+26947 219 1
+4952 44 1
+6712 4952 6
+2991 1868 1
+2991 1165 1
+2991 2994 1
+2991 1282 2
+2991 2993 1
+2991 44 1
+2969 2991 9
+21423 4475 4
+415 482 1
+26208 415 2
+22738 1888 2
+22738 1427 2
+1165 6013 5
+5283 1165 1
+5283 1282 2
+5471 5615 1
+5471 950 6
+3427 876 2
+3427 301 2
+3427 219 1
+3427 3447 1
+18529 4952 1
+21395 2992 2
+5615 1868 4
+5615 44 4
+13202 5615 3
+16307 482 2
+5472 950 2
+22652 8501 2
+1054 2 2
+1056 415 1
+962 1052 1
+962 1055 3
+962 2 1
+962 1057 1
+962 324 1
+962 1059 1
+962 414 2
+962 1054 3
+962 1056 4
+962 415 6
+962 1050 3
+962 2561 1
+962 1058 2
+19821 876 1
+19821 73 1
+19821 268 3
+19821 138 1
+19821 44 2
+19821 962 8
+19821 349 19
+19821 74 3
+19821 1056 9
+19821 219 2
+19821 2561 7
+19821 2867 1
+1058 1054 2
+1058 19694 3
+1058 1056 17
+1058 2 5
+1058 2624 4
+18891 73 4
+18891 219 2
+18891 138 2
+18891 44 2
+18891 350 3
+18891 2867 4
+6770 74 1
+6770 73 6
+6770 219 2
+6770 138 2
+6770 44 2
+6770 350 3
+6770 2867 6
+1057 1054 2
+1057 1787 1
+1057 1056 3
+1057 2 1
+1057 104 1
+1057 324 3
+1055 322 1
+1055 8501 1
+1055 1435 1
+1055 778 1
+1055 74 3
+1055 73 3
+1055 1787 2
+26606 1425 1
+26606 74 3
+26606 73 5
+26606 219 3
+26606 138 2
+26606 44 2
+26606 350 3
+26606 2867 5
+1059 1787 2
+1059 1056 4
+1059 2 1
+1059 482 1
+1059 1058 4
+1059 324 1
+2780 74 1
+2780 73 1
+2780 219 1
+2780 138 2
+2780 44 2
+2780 350 3
+2780 2867 1
+6707 19806 13
+6707 3250 4
+3271 19806 13
+3271 3250 4
+19806 322 2
+19806 301 4
+19806 4953 2
+10769 322 2
+7283 322 2
+3250 322 2
+3250 16839 1
+3250 16838 2
+3250 11686 1
+3250 6621 1
+3250 16840 2
+3250 16836 2
+3250 11536 1
+3250 6594 2
+3250 16837 1
+3250 2663 1
+3250 219 3
+3250 7255 1
+8742 349 2
+8742 322 1
+8742 301 4
+8742 4953 3
+23634 301 2
+23634 4953 2
+23634 3250 2
+6594 322 2
+6594 6621 2
+10152 8742 7
+10152 3250 5
+3242 19806 1
+3242 3250 1
+3242 3249 1
+16836 322 2
+16836 16837 2
+24026 8742 9
+24026 3250 5
+4391 4397 1
+4391 19806 3
+4391 3250 1
+11536 322 1
+11536 10769 6
+14444 19806 1
+14444 6707 1
+14444 3250 1
+7255 322 1
+7255 7283 6
+8647 19806 1
+8647 3271 1
+8647 3250 1
+6621 322 1
+6621 10769 5
+24128 8742 8
+24128 3250 4
+3249 19806 16
+3249 3250 1
+16839 322 1
+16839 10769 6
+12073 8742 8
+12073 3250 3
+6704 19806 1
+6704 6707 1
+6704 3250 3
+16840 322 2
+16840 16839 1
+16840 11536 1
+9631 8742 28
+9631 3250 3
+17898 19806 19
+17898 6707 1
+17898 3250 1
+16838 322 2
+16838 11686 1
+16838 7255 1
+21678 8742 28
+21678 3250 3
+24783 301 3
+24783 4953 7
+24783 3250 3
+17506 19806 19
+17506 3271 1
+17506 3250 1
+16837 322 1
+16837 7283 5
+8736 8742 9
+8736 3250 4
+4397 19806 17
+4397 3250 1
+11686 322 1
+11686 7283 6
+3266 19806 1
+3266 3271 1
+3266 3250 3
+12166 301 3
+12166 4953 4
+2653 2664 1
+2653 2662 2
+8535 301 2
+8535 4953 2
+893 948 1
+893 950 1
+20368 17733 1
+20368 950 1
+20368 893 12
+20358 20368 1
+6589 2662 2
+6869 4953 6
+10539 5569 7
+10539 1868 3
+10539 10513 7
+6871 10539 1
+6871 6589 1
+6857 6869 1
+6857 4953 4
+26258 301 3
+26258 4953 4
+13094 5569 1
+13094 1868 1
+13094 349 6
+13094 10539 3
+20646 13094 1
+20646 6589 1
+20281 6869 1
+20281 4953 4
+7311 5569 2
+5569 322 2
+5551 5569 1
+6870 6013 3
+6870 1282 2
+6870 2662 2
+6870 6589 2
+10513 1868 5
+10513 7081 2
+301 349 2
+301 44 2
+301 350 5
+301 4953 1
+20334 219 3
+6549 5987 1
+6549 1428 1
+17032 1276 1
+17032 4181 1
+17032 1889 1
+27264 6549 1
+27053 17032 21
+27053 7971 4
+10011 17032 3
+10011 44 2
+16651 6549 1
+9985 7971 4
+9985 10011 15
+74 3000 1
+2229 74 17
+13248 6549 1
+13248 1889 1
+1880 1888 2
+1880 1889 4
+20584 7971 4
+20584 1889 14
+17004 17032 2
+17004 1276 2
+17004 267 20
+17004 4181 2
+17004 1889 2
+27012 7971 4
+27012 21176 4
+27012 5987 11
+4180 6549 1
+7960 7971 2
+7960 1276 6
+21247 7971 4
+21247 4181 11
+21247 1889 3
+5753 6549 1
+5753 4181 1
+73 778 12
+73 74 8
+73 3000 1
+52 74 7
+52 73 6
+20616 17172 7
+2359 1050 2
+2359 684 3
+2359 2380 2
+2359 414 1
+9468 684 2
+9468 2359 5
+2380 2 2
+2380 2624 2
+2380 2730 4
+25417 1425 5
+25417 2 6
+25417 268 8
+25417 2624 2
+25417 2380 17
+25417 2730 4
+11173 5764 3
+11173 2624 2
+11136 11173 2
+11136 1165 1
+11136 1050 1
+11136 482 3
+11136 104 2
+7332 482 1
+7332 7373 3
+7332 2624 2
+25132 1165 2
+25132 1050 1
+25132 104 1
+25132 7332 3
+5618 5651 2
+5618 5650 5
+14452 5618 1
+14642 14452 1
+7055 5618 1
+21810 7055 1
+14258 7653 4
+18131 219 1
+22979 2994 1
+22979 2993 1
+22217 1163 1
+22217 450 1
+22217 350 1
+20652 7652 1
+20652 7653 2
+18080 219 2
+26010 175 4
+26010 2 2
+26010 684 2
+26010 219 4
+26010 44 2
+26010 350 4
+7693 175 4
+7693 2 2
+7693 684 2
+7693 219 4
+7693 44 2
+7693 350 4
+21766 1428 1
+21766 1426 8
+27592 412 8
+27592 591 8
+27592 1428 1
+27592 1426 1
+7739 2663 3
+7739 4181 1
+10362 682 1
+10362 219 2
+10362 350 2
+8496 8501 1
+20503 11818 4
+6314 73 1
+6314 13398 1
+18240 4610 7
+18240 268 1
+18240 4611 1
+4572 4611 1
+4611 6314 5
+4610 8501 1
+4610 268 29
+10928 1868 2
+10928 322 22
+10928 1282 2
+10928 268 1
+24100 1868 1
+24100 322 2
+24100 1282 9
+24100 10928 1
+20326 20334 1
+1868 322 31
+1868 44 2
+1868 4181 2
+2662 6013 1
+2662 219 1
+1277 1282 2
+8598 1277 65
+1278 1429 43
+20809 1278 114
+20809 1277 2
+20809 20875 1
+7081 1868 2
+7081 322 7
+20875 1429 129
+4476 322 5
+4476 3195 4
+3195 322 4
+44 1868 2
+44 322 17
+44 1282 1
+44 10928 5
+44 3195 2
+6399 1888 2
+6399 44 1
+13857 13866 4
+13857 5176 2
+13857 1769 1
+13857 322 1
+13857 1768 1
+22633 13866 3
+22633 13857 6
+22633 1768 2
+22633 219 3
+22633 44 2
+22633 350 3
+22633 4953 2
+21074 5968 1
+21072 21074 1
+7217 1769 1
+8428 7217 8
+13010 1769 1
+13010 1768 3
+18142 1768 2
+18142 13010 5
+18142 219 3
+18142 44 2
+18142 350 3
+18142 4953 2
+7734 5968 1
+20683 7734 1
+13866 1768 2
+15989 13866 8
+10742 5176 2
+10742 1769 1
+10742 1768 3
+13959 10742 6
+13959 1768 2
+13959 219 3
+13959 44 2
+13959 350 3
+13959 4953 2
+7468 5968 1
+7466 7468 1
+1750 1769 2
+1750 1768 3
+13645 1425 4
+13645 1768 2
+13645 1750 21
+13645 219 2
+13645 44 2
+13645 350 2
+7947 5968 1
+21377 7947 1
+5176 1868 3
+5176 7081 2
+9868 5176 3
+9868 1868 1
+9868 219 1
+5961 1769 1
+5961 322 1
+5961 5968 2
+16025 5961 8
+1768 5176 1
+1768 1769 4
+1768 9868 2
+5141 5176 1
+5141 1868 7
+5141 1769 4
+5141 1768 17
+5141 219 2
+5968 13866 3
+5968 1868 6
+5968 1769 1
+5968 322 1
+5968 1768 1
+27177 1425 7
+27177 322 1
+27177 5968 48
+27177 44 2
+27177 13866 7
+27177 1768 2
+27177 219 3
+27177 350 3
+27177 4953 2
+11607 1769 3
+11607 9868 2
+26730 1868 12
+26730 1769 18
+26730 219 3
+26730 11607 33
+1769 5176 5
+1769 1868 4
+1769 322 3
+1769 7081 1
+1769 1787 1
+1769 9868 3
+1769 44 1
+11113 1769 17
+9066 5968 1
+9064 9066 1
+14087 5968 1
+14085 14087 1
+138 175 2
+2260 322 2
+17636 219 1
+19259 1787 1
+19259 1050 2
+8576 1787 1
+8576 1050 2
+19924 813 1
+19924 423 3
+4953 1050 5
+4953 219 1
+4953 2561 1
+4953 350 1
+17618 17636 3
+17618 1050 2
+17560 591 3
+6174 1283 1
+6013 1282 2
+1282 6013 1
+1283 6013 2
+1283 1282 1
+1283 1279 1
+2663 6013 3
+12805 2663 7
+13533 1380 1
+13505 13533 8
+13534 1380 1
+26315 13534 5
+3660 1380 1
+3638 3660 8
+1376 876 12
+1376 20914 1
+1376 5026 1
+1376 4475 1
+1376 219 1
+1376 110 1
+1376 350 4
+1376 450 1
+1376 3447 1
+1311 1380 1
+1311 1376 36
+8484 1380 1
+8484 219 1
+8484 350 2
+11424 1282 2
+18776 1380 1
+1380 219 1
+1380 1376 1
+1380 350 2
+22700 3065 1
+22700 1380 2
+8318 1380 2
+8318 362 1
+8318 350 4
+8318 110 4
+21812 412 1
+21812 1380 1
+21812 1050 3
+21812 591 1
+13537 301 6
+13537 4953 8
+8134 74 1
+8134 1276 1
+17665 322 1
+17665 7511 1
+17665 7542 2
+17665 8134 3
+17665 1428 1
+17665 1276 1
+17665 219 1
+17665 13039 1
+2001 17665 1
+2001 2663 2
+2001 2662 2
+2001 219 1
+3402 268 7
+7542 1425 1
+7511 1425 2
+7511 7542 1
+27962 14296 2
+27962 301 8
+27962 4953 8
+27569 1425 3
+18116 301 4
+18116 4953 4
+806 1868 4
+806 322 12
+11450 806 2
+11430 44 1
+293 308 1
+293 301 1
+808 806 2

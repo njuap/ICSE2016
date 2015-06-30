@@ -1,0 +1,2375 @@
+*Vertics: 495
+2,org.apache.roller.weblogger.util.MediacastException
+21,org.apache.roller.weblogger.WebloggerException
+29,org.apache.roller.weblogger.pojos.wrapper.WeblogEntryCommentWrapper
+62,org.apache.roller.weblogger.business.WebloggerFactory
+64,org.apache.roller.weblogger.pojos.WeblogEntryComment
+66,org.apache.roller.weblogger.util.Utilities
+70,org.apache.roller.weblogger.pojos.wrapper.WeblogEntryWrapper
+100,org.apache.roller.weblogger.business.PlanetManagerLocalTest
+141,org.apache.roller.planet.pojos.Planet
+142,org.apache.roller.planet.pojos.PlanetGroup
+143,org.apache.roller.weblogger.TestUtils
+144,org.apache.roller.weblogger.pojos.User
+145,org.apache.roller.weblogger.pojos.WeblogEntry
+147,org.apache.roller.weblogger.pojos.Weblog
+148,org.apache.roller.weblogger.planet.tasks.RefreshRollerPlanetTask
+149,org.apache.roller.weblogger.planet.tasks.SyncWebsitesTask
+192,org.apache.roller.weblogger.business.runnable.ScheduledEntriesTask
+236,org.apache.roller.weblogger.pojos.WeblogEntrySearchCriteria
+237,org.apache.roller.weblogger.util.cache.CacheManager
+240,org.apache.roller.weblogger.business.runnable.RollerTaskWithLeasing
+242,org.apache.roller.RollerException
+267,org.apache.roller.weblogger.ui.rendering.pagers.CommentsPager
+307,org.apache.roller.weblogger.pojos.CommentSearchCriteria
+308,org.apache.roller.weblogger.ui.rendering.pagers.AbstractPager
+327,org.apache.roller.weblogger.ui.struts2.admin.GlobalCommentManagement
+411,org.apache.roller.weblogger.pojos.GlobalPermission
+412,org.apache.roller.weblogger.ui.struts2.pagers.CommentsPager
+413,org.apache.roller.weblogger.ui.struts2.util.KeyValueObject
+414,org.apache.roller.weblogger.ui.struts2.util.UIAction
+416,org.apache.roller.weblogger.ui.struts2.admin.GlobalCommentManagementBean
+459,org.apache.roller.weblogger.ui.struts2.editor.TemplateRemove
+484,org.apache.roller.weblogger.pojos.WeblogTemplate
+485,org.apache.roller.weblogger.pojos.WeblogTheme
+510,org.apache.roller.weblogger.ui.rendering.plugins.comments.LdapCommentAuthenticator
+578,org.apache.roller.weblogger.config.WebloggerConfig
+585,org.apache.roller.planet.util.rome.ContentModuleParser
+607,org.apache.roller.planet.util.rome.ContentModuleImpl
+613,org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesPermalinkPager
+649,org.apache.roller.weblogger.ui.rendering.pagers.AbstractWeblogEntriesPager
+650,org.apache.roller.weblogger.util.I18nMessages
+682,org.apache.roller.weblogger.pojos.wrapper.WeblogCategoryWrapper
+706,org.apache.roller.weblogger.pojos.WeblogCategory
+707,org.apache.roller.weblogger.pojos.wrapper.WeblogWrapper
+717,org.apache.roller.weblogger.ui.core.util.menu.ParsedTab
+745,org.apache.roller.weblogger.ui.core.util.menu.ParsedTabItem
+747,org.apache.roller.weblogger.ui.struts2.editor.Comments
+825,org.apache.roller.weblogger.pojos.WeblogPermission
+826,org.apache.roller.weblogger.util.MailUtil
+827,org.apache.roller.weblogger.ui.struts2.editor.CommentsBean
+866,org.apache.roller.weblogger.business.themes.SharedThemeResourceFromDir
+899,org.apache.roller.weblogger.ui.struts2.editor.WeblogRemove
+909,org.apache.roller.weblogger.config.AuthMethod
+928,org.apache.roller.weblogger.pojos.StaticThemeTemplate
+1003,org.apache.roller.weblogger.ui.rendering.mobile.MobileDeviceRepository
+1008,org.apache.roller.weblogger.ui.UITestSuite
+1013,org.apache.roller.weblogger.planet.business.WebloggerRomeFeedFetcherTest
+1014,org.apache.roller.weblogger.ui.rendering.util.CommentValidatorTest
+1022,org.apache.roller.weblogger.util.PasswordUtility
+1108,org.apache.roller.weblogger.business.jpa.JPAOAuthManagerImpl
+1224,org.apache.roller.weblogger.pojos.OAuthAccessorRecord
+1225,org.apache.roller.weblogger.pojos.OAuthConsumerRecord
+1226,org.apache.roller.weblogger.business.jpa.JPAPersistenceStrategy
+1275,org.apache.roller.weblogger.business.runnable.RollerTask
+1285,org.apache.roller.weblogger.business.jpa.JPAPingTargetManagerImpl
+1329,org.apache.roller.weblogger.pojos.PingTarget
+1343,org.apache.roller.weblogger.business.themes.SharedTheme
+1382,org.apache.roller.weblogger.ui.core.filters.SchemeEnforcementFilter
+1431,org.apache.roller.weblogger.business.DatabaseProvider
+1477,org.apache.roller.weblogger.business.startup.StartupException
+1481,org.apache.roller.weblogger.ui.rendering.util.WeblogMediaResourceRequest
+1498,org.apache.roller.weblogger.ui.rendering.util.WeblogRequest
+1499,org.apache.roller.weblogger.ui.rendering.util.InvalidRequestException
+1508,org.apache.roller.weblogger.ui.rendering.servlets.PageServlet
+1604,org.apache.roller.util.RollerConstants
+1605,org.apache.roller.weblogger.business.HitCountQueue
+1607,org.apache.roller.weblogger.config.WebloggerRuntimeConfig
+1608,org.apache.roller.weblogger.ui.core.RollerContext
+1609,org.apache.roller.weblogger.ui.rendering.RendererManager
+1610,org.apache.roller.weblogger.ui.rendering.model.ModelLoader
+1611,org.apache.roller.weblogger.ui.rendering.util.ModDateHeaderUtil
+1612,org.apache.roller.weblogger.ui.rendering.util.WeblogEntryCommentForm
+1613,org.apache.roller.weblogger.ui.rendering.util.WeblogPageRequest
+1614,org.apache.roller.weblogger.ui.rendering.util.cache.SiteWideCache
+1615,org.apache.roller.weblogger.ui.rendering.util.cache.WeblogPageCache
+1616,org.apache.roller.weblogger.util.BlacklistChecker
+1617,org.apache.roller.weblogger.util.cache.CachedContent
+1622,org.apache.roller.weblogger.ui.rendering.util.ParsedRequest
+1688,org.apache.roller.weblogger.ui.struts2.editor.Members
+1719,org.apache.roller.weblogger.pojos.ObjectPermission
+1720,org.apache.roller.weblogger.pojos.RollerPermission
+1739,org.apache.roller.weblogger.business.runnable.TaskScheduler
+1775,org.apache.roller.util.DateUtil
+1776,org.apache.roller.weblogger.pojos.TaskLock
+1784,org.apache.roller.weblogger.ui.struts2.editor.Maintenance
+1818,org.apache.roller.weblogger.business.InitializationException
+1819,org.apache.roller.weblogger.business.search.operations.IndexOperation
+1822,org.apache.roller.weblogger.business.FilePathException
+1833,org.apache.roller.weblogger.business.runnable.WorkerThread
+1853,org.apache.roller.weblogger.ui.rendering.util.WeblogCommentRequest
+1897,org.apache.roller.weblogger.pojos.wrapper.WeblogBookmarkFolderWrapper
+1908,org.apache.roller.weblogger.pojos.WeblogBookmark
+1909,org.apache.roller.weblogger.pojos.WeblogBookmarkFolder
+1910,org.apache.roller.weblogger.pojos.wrapper.WeblogBookmarkWrapper
+1918,org.apache.roller.planet.util.MailUtil
+2017,org.apache.roller.weblogger.ui.struts2.editor.MemberResign
+2032,org.apache.roller.weblogger.util.StandaloneWebappClassLoader
+2131,org.apache.roller.weblogger.util.URLUtilities
+2195,org.apache.roller.util.PropertyExpander
+2481,org.apache.roller.util.UUIDGenerator
+2482,org.apache.roller.weblogger.util.I18nUtils
+2484,org.apache.roller.weblogger.pojos.MediaFileDirectory
+2485,org.apache.roller.weblogger.pojos.WeblogHitCount
+2487,org.apache.roller.weblogger.pojos.TagStat
+2510,org.apache.roller.weblogger.ui.rendering.servlets.PlanetFeedServlet
+2541,org.apache.roller.planet.config.PlanetRuntimeConfig
+2542,org.apache.roller.weblogger.pojos.StaticTemplate
+2543,org.apache.roller.weblogger.ui.rendering.model.UtilitiesModel
+2544,org.apache.roller.weblogger.ui.rendering.util.cache.PlanetCache
+2545,org.apache.roller.weblogger.ui.rendering.util.PlanetRequest
+2587,org.apache.roller.weblogger.business.PingsTest
+2637,org.apache.roller.weblogger.pojos.AutoPing
+2675,org.apache.roller.weblogger.business.plugins.comment.LinkMarkupPlugin
+2701,org.apache.roller.weblogger.ui.core.filters.IPBanFilter
+2713,org.apache.roller.weblogger.util.IPBanList
+2725,org.apache.roller.weblogger.ui.tags.WordWrapTag
+2766,org.apache.roller.weblogger.ui.tags.StringTagSupport
+2783,org.apache.roller.weblogger.ui.rendering.velocity.ThemeResourceLoader
+2813,org.apache.roller.weblogger.business.themes.ThemeNotFoundException
+2823,org.apache.roller.weblogger.ui.struts2.admin.CreateUserBean
+2897,org.apache.roller.weblogger.pojos.TagStatCountComparator
+2911,org.apache.roller.weblogger.ui.struts2.admin.GlobalConfig
+2972,org.apache.roller.weblogger.config.runtime.ConfigDef
+2973,org.apache.roller.weblogger.config.runtime.RuntimeConfigDefs
+2974,org.apache.roller.weblogger.pojos.RuntimeConfigProperty
+3224,org.apache.roller.weblogger.util.HTMLSanitizer
+3225,org.apache.roller.weblogger.pojos.WeblogEntryAttribute
+3226,org.apache.roller.weblogger.pojos.WeblogEntryTag
+3227,org.apache.roller.weblogger.pojos.WeblogEntryTagComparator
+3258,org.apache.roller.weblogger.config.PingConfig
+3337,org.apache.roller.weblogger.util.cache.ExpiringLRUCacheFactoryImpl
+3351,org.apache.roller.weblogger.util.cache.ExpiringLRUCacheImpl
+3371,org.apache.roller.weblogger.business.jpa.JPAMediaFileManagerImpl
+3556,org.apache.roller.weblogger.business.FileIOException
+3558,org.apache.roller.weblogger.pojos.FileContent
+3559,org.apache.roller.weblogger.pojos.MediaFile
+3560,org.apache.roller.weblogger.pojos.MediaFileFilter
+3561,org.apache.roller.weblogger.pojos.MediaFileTag
+3562,org.apache.roller.weblogger.pojos.MediaFileType
+3563,org.apache.roller.weblogger.util.RollerMessages
+3662,org.apache.roller.planet.util.rome.PlanetConverterForRSS091U
+3677,org.apache.roller.weblogger.planet.business.PlanetURLStrategy
+3696,org.apache.roller.planet.business.MultiPlanetURLStrategy
+3710,org.apache.roller.weblogger.util.Trackback
+3761,org.apache.roller.weblogger.util.TrackbackNotAllowedException
+3770,org.apache.roller.weblogger.ui.struts2.editor.CategoryEdit
+3793,org.apache.roller.weblogger.ui.struts2.editor.CategoryBean
+3807,org.apache.roller.weblogger.util.cache.LazyExpiringCacheEntry
+3818,org.apache.roller.weblogger.ui.rendering.util.WeblogSearchRequest
+3847,org.apache.roller.weblogger.ui.struts2.admin.PingTargetEdit
+3869,org.apache.roller.weblogger.ui.struts2.admin.PingTargetBean
+3879,org.apache.roller.weblogger.ui.struts2.editor.BookmarksImport
+3913,org.apache.roller.scripting.BSFRendererFactory
+3933,org.apache.roller.scripting.BSFRenderer
+3936,org.apache.roller.weblogger.ui.rendering.util.cache.WeblogFeedCache
+3965,org.apache.roller.weblogger.ui.rendering.util.WeblogFeedRequest
+4015,org.apache.roller.weblogger.pojos.wrapper.WeblogEntryTagWrapper
+4024,org.apache.roller.weblogger.pojos.wrapper.UserWrapper
+4063,org.apache.roller.weblogger.ui.struts2.editor.Bookmarks
+4208,org.apache.roller.weblogger.ui.rendering.pagers.MediaFilesPager
+4229,org.apache.roller.weblogger.business.TestTask
+4243,org.apache.roller.weblogger.ui.core.security.RollerUserDetailsService
+4277,org.apache.roller.weblogger.webservices.atomprotocol.RollerAtomHandlerFactory
+4283,org.apache.roller.weblogger.webservices.atomprotocol.RollerAtomHandler
+4286,org.apache.roller.weblogger.util.UtilitiesTest
+4316,org.apache.roller.weblogger.ui.struts2.core.CreateWeblog
+4347,org.apache.roller.weblogger.ui.struts2.core.CreateWeblogBean
+4348,org.apache.roller.weblogger.ui.struts2.core.Register
+4442,org.apache.roller.weblogger.ui.rendering.util.mobile.DeviceType
+4450,org.apache.roller.weblogger.ui.rendering.model.PlanetModel
+4510,org.apache.roller.planet.pojos.Subscription
+4512,org.apache.roller.weblogger.ui.rendering.pagers.PlanetEntriesPager
+4523,org.apache.roller.weblogger.ui.struts2.editor.FolderBean
+4688,org.apache.roller.weblogger.business.SQLScriptRunnerTest
+4716,org.apache.roller.weblogger.business.startup.WebloggerStartup
+4717,org.apache.roller.weblogger.business.startup.SQLScriptRunner
+4723,org.apache.roller.weblogger.ui.struts2.editor.MediaFileAdd
+4780,org.apache.roller.weblogger.ui.struts2.editor.MediaFileBase
+4781,org.apache.roller.weblogger.ui.struts2.editor.MediaFileBean
+4798,org.apache.roller.weblogger.config.runtime.PropertyDef
+4834,org.apache.roller.weblogger.business.pings.PingQueueTask
+4864,org.apache.roller.weblogger.business.pings.PingQueueProcessor
+5009,org.apache.roller.util.RegexUtil
+5022,org.apache.roller.weblogger.ui.core.plugins.XinhaEditor
+5033,org.apache.roller.weblogger.ui.core.filters.PersistenceSessionFilter
+5088,org.apache.roller.weblogger.business.startup.DatabaseInstaller
+5265,org.apache.roller.planet.business.fetcher.FetcherException
+5299,org.apache.roller.weblogger.business.MediaFileTest
+5494,org.apache.roller.weblogger.ui.struts2.core.OAuthKeys
+5642,org.apache.roller.planet.business.updater.UpdaterException
+5650,org.apache.roller.weblogger.business.WeblogTest
+5674,org.apache.roller.weblogger.pojos.StatCount
+5698,org.apache.roller.weblogger.ui.rendering.plugins.comments.CommentValidationManager
+5711,org.apache.roller.weblogger.business.FileContentManagerImpl
+5804,org.apache.roller.weblogger.business.FileNotFoundException
+5814,org.apache.roller.weblogger.ui.rendering.util.cache.WeblogCacheWarmupJob
+5848,org.apache.roller.weblogger.business.runnable.TaskRunner
+5864,org.apache.roller.weblogger.ui.rendering.velocity.VelocityRendererFactory
+5873,org.apache.roller.weblogger.ui.rendering.velocity.VelocityRenderer
+5877,org.apache.roller.weblogger.ui.struts2.core.ProfileBean
+5958,org.apache.roller.planet.business.updater.SingleThreadedFeedUpdater
+5959,org.apache.roller.weblogger.business.GuiceWebloggerProvider
+5989,org.apache.roller.weblogger.ui.rendering.pagers.UsersPager
+6031,org.apache.roller.weblogger.business.jpa.JPAAutoPingManagerImpl
+6074,org.apache.roller.weblogger.ui.rendering.util.WeblogPreviewResourceRequest
+6092,org.apache.roller.weblogger.ui.rendering.util.WeblogResourceRequest
+6095,org.apache.roller.weblogger.ui.struts2.editor.TemplatesRemove
+6130,org.apache.roller.weblogger.business.PropertiesTest
+6143,org.apache.roller.weblogger.ui.core.util.menu.MenuTabItem
+6157,org.apache.roller.weblogger.ui.struts2.core.Profile
+6186,org.apache.roller.weblogger.ui.rendering.model.MenuModel
+6198,org.apache.roller.weblogger.ui.core.util.menu.Menu
+6199,org.apache.roller.weblogger.ui.core.util.menu.MenuHelper
+6202,org.apache.roller.planet.business.AbstractManagerImpl
+6214,org.apache.roller.weblogger.business.jpa.JPAPingQueueManagerImpl
+6234,org.apache.roller.weblogger.pojos.PingQueueEntry
+6246,org.apache.roller.weblogger.pojos.MediaFileComparator
+6262,org.apache.roller.weblogger.ui.struts2.editor.TemplateEditBean
+6332,org.apache.roller.weblogger.pojos.CustomTemplateRendition
+6333,org.apache.roller.weblogger.ui.struts2.editor.TemplateEdit
+6355,org.apache.roller.weblogger.ui.tags.TruncateNicelyTag
+6388,org.apache.roller.weblogger.ui.rendering.model.FeedModel
+6436,org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesListPager
+6452,org.apache.roller.weblogger.business.BootstrapException
+6472,org.apache.roller.weblogger.webservices.atomprotocol.MediaCollection
+6658,org.apache.roller.weblogger.webservices.atomprotocol.EntryCollection
+6666,org.apache.roller.planet.business.jpa.JPAPlanetManagerImpl
+6766,org.apache.roller.planet.pojos.SubscriptionEntry
+6841,org.apache.roller.planet.business.fetcher.RomeFeedFetcher
+6926,org.apache.roller.weblogger.ui.rendering.model.URLModel
+7137,org.apache.roller.util.PropertyExpanderTest
+7145,org.apache.roller.weblogger.business.jpa.JPAWebloggerModule
+7151,org.apache.roller.planet.business.jpa.JPAPlanetImpl
+7152,org.apache.roller.weblogger.business.MultiWeblogURLStrategy
+7153,org.apache.roller.weblogger.business.plugins.PluginManagerImpl
+7154,org.apache.roller.weblogger.business.search.IndexManagerImpl
+7155,org.apache.roller.weblogger.business.themes.ThemeManagerImpl
+7156,org.apache.roller.weblogger.planet.business.WebloggerRomeFeedFetcher
+7157,org.apache.roller.weblogger.business.jpa.JPAWebloggerImpl
+7158,org.apache.roller.weblogger.business.jpa.JPABookmarkManagerImpl
+7159,org.apache.roller.weblogger.business.jpa.JPAPropertiesManagerImpl
+7160,org.apache.roller.weblogger.business.jpa.JPAThreadManagerImpl
+7161,org.apache.roller.weblogger.business.jpa.JPAUserManagerImpl
+7162,org.apache.roller.weblogger.business.jpa.JPAWeblogManagerImpl
+7163,org.apache.roller.weblogger.business.jpa.JPAWeblogEntryManagerImpl
+7169,org.apache.roller.weblogger.ui.core.RollerSession
+7212,org.apache.roller.weblogger.ui.rendering.model.ConfigModel
+7245,org.apache.roller.weblogger.ui.struts2.editor.MediaFileEdit
+7290,org.apache.roller.weblogger.ui.core.filters.RoleAssignmentFilter
+7300,org.apache.roller.weblogger.ui.core.filters.RoleAssignmentRequestWrapper
+7311,org.apache.roller.planet.util.rome.PlanetRSS091NParser
+7329,org.apache.roller.weblogger.ui.rendering.servlets.ResourceServlet
+7358,org.apache.roller.weblogger.ui.rendering.model.PageModel
+7396,org.apache.roller.weblogger.pojos.wrapper.ThemeTemplateWrapper
+7397,org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesDayPager
+7398,org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesLatestPager
+7399,org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesMonthPager
+7406,org.apache.roller.weblogger.business.search.operations.ReadFromIndexOperation
+7421,org.apache.roller.weblogger.ui.core.util.menu.MenuTab
+7441,org.apache.roller.weblogger.business.plugins.entry.SmileysPlugin
+7483,org.apache.roller.planet.util.rome.ContentModuleGenerator
+7502,org.apache.roller.util.UtilitiesTestSuite
+7505,org.apache.roller.util.RegexUtilTest
+7530,org.apache.roller.weblogger.ui.rendering.util.WeblogTrackbackRequest
+7570,org.apache.roller.weblogger.ui.struts2.editor.Templates
+7619,org.apache.roller.weblogger.ui.ApplicationResourcesTest
+7762,org.apache.roller.weblogger.webservices.atomprotocol.RollerAtomService
+7771,org.apache.roller.weblogger.ui.rendering.servlets.RSDServlet
+7790,org.apache.roller.weblogger.ui.rendering.pagers.WeblogsPager
+7873,org.apache.roller.weblogger.business.FolderFunctionalityTest
+7908,org.apache.roller.planet.business.InitializationException
+7915,org.apache.roller.weblogger.ui.core.tags.calendar.WeblogCalendarModel
+8063,org.apache.roller.weblogger.ui.rendering.velocity.RollerVelocity
+8141,org.apache.roller.weblogger.pojos.MediaFileDirectoryComparator
+8146,org.apache.roller.weblogger.pojos.TagStatComparator
+8156,org.apache.roller.weblogger.business.WeblogStatsTest
+8197,org.apache.roller.weblogger.ui.rendering.pagers.SearchResultsFeedPager
+8228,org.apache.roller.weblogger.business.AbstractURLStrategy
+8299,org.apache.roller.weblogger.business.search.operations.WriteToIndexOperation
+8310,org.apache.roller.weblogger.business.search.IndexUtil
+8333,org.apache.roller.weblogger.webservices.oauth.RequestTokenServlet
+8376,org.apache.roller.weblogger.ui.struts2.util.UIActionTest
+8385,org.apache.roller.weblogger.ui.rendering.plugins.comments.BlacklistCommentValidator
+8397,org.apache.roller.weblogger.business.runnable.HitCountProcessingJob
+8438,org.apache.roller.planet.business.BootstrapException
+8445,org.apache.roller.weblogger.business.CommentTest
+8484,org.apache.roller.weblogger.ui.struts2.editor.BookmarkEdit
+8510,org.apache.roller.weblogger.ui.struts2.editor.BookmarkBean
+8597,org.apache.roller.weblogger.ui.struts2.editor.EntryBean
+8707,org.apache.roller.weblogger.ui.rendering.model.CalendarModel
+8730,org.apache.roller.weblogger.ui.core.tags.calendar.BigWeblogCalendarModel
+8731,org.apache.roller.weblogger.ui.core.tags.calendar.CalendarTag
+8741,org.apache.roller.planet.business.EntryFunctionalTests
+8772,org.apache.roller.weblogger.pojos.WeblogEntryTagAggregate
+8807,org.apache.roller.weblogger.pojos.WeblogEntryWrapperComparator
+8820,org.apache.roller.weblogger.ui.struts2.core.MainMenu
+8851,org.apache.roller.weblogger.webservices.oauth.AccessTokenServlet
+8904,org.apache.roller.weblogger.business.themes.ThemeParsingException
+8915,org.apache.roller.weblogger.ui.rendering.util.cache.SaltCache
+8935,org.apache.roller.weblogger.util.cache.ExpiringCacheEntry
+8973,org.apache.roller.weblogger.webservices.xmlrpc.MetaWeblogAPIHandler
+9102,org.apache.roller.weblogger.webservices.xmlrpc.BloggerAPIHandler
+9233,org.apache.roller.weblogger.util.WSSEUtilities
+9238,org.apache.roller.weblogger.planet.ui.PlanetUIAction
+9349,org.apache.roller.weblogger.ui.core.util.menu.ParsedMenu
+9370,org.apache.roller.weblogger.business.TaskLockTest
+9409,org.apache.roller.weblogger.util.Blacklist
+9415,org.apache.roller.weblogger.business.startup.ClasspathDatabaseScriptProvider
+9457,org.apache.roller.weblogger.ui.struts2.core.Login
+9470,org.apache.roller.weblogger.ui.struts2.ajax.UserDataServlet
+9627,org.apache.roller.weblogger.business.themes.ThemeInitializationException
+9659,org.apache.roller.weblogger.business.MailProvider
+9662,org.apache.roller.weblogger.util.LRUCache2Test
+9679,org.apache.roller.weblogger.util.LRUCache2
+9689,org.apache.roller.weblogger.ui.core.plugins.TextEditor
+9710,org.apache.roller.weblogger.pojos.wrapper.WeblogEntryAttributeWrapper
+9733,org.apache.roller.weblogger.ui.rendering.servlets.SearchServlet
+9765,org.apache.roller.weblogger.ui.struts2.pagers.MediaFilePager
+9950,org.apache.roller.weblogger.business.themes.ThemeMetadataTemplate
+9985,org.apache.roller.weblogger.business.themes.ThemeMetadataTemplateRendition
+9988,org.apache.roller.weblogger.business.FileContentManagerTest
+10019,org.apache.roller.planet.business.PropertiesTest
+10034,org.apache.roller.weblogger.util.LinkbackExtractor
+10175,org.apache.roller.weblogger.util.MediacastUtil
+10197,org.apache.roller.weblogger.util.MediacastResource
+10201,org.apache.roller.planet.business.PlanetBasicTests
+10235,org.apache.roller.weblogger.business.themes.SharedThemeTemplateRendition
+10240,org.apache.roller.weblogger.ui.rendering.plugins.comments.ExcessLinksCommentValidator
+10304,org.apache.roller.weblogger.business.themes.WeblogSharedTheme
+10349,org.apache.roller.weblogger.business.plugins.entry.ObfuscateEmailPlugin
+10417,org.apache.roller.weblogger.ui.core.security.CustomUserRegistry
+10421,org.apache.roller.weblogger.business.search.operations.AddEntryOperation
+10440,org.apache.roller.weblogger.ui.rendering.pagers.SearchResultsPager
+10471,org.apache.roller.weblogger.ui.core.security.BasicUserAutoProvision
+10493,org.apache.roller.weblogger.ui.struts2.util.UIUtils
+10534,org.apache.roller.weblogger.ui.struts2.editor.CategoryRemove
+10570,org.apache.roller.weblogger.ui.struts2.editor.StylesheetEdit
+10628,org.apache.roller.weblogger.ui.struts2.editor.MembersInvite
+10651,org.apache.roller.weblogger.ui.struts2.editor.ThemeEdit
+10699,org.apache.roller.planet.tasks.PlanetTask
+10704,org.apache.roller.weblogger.ui.rendering.filters.RequestMappingFilter
+10736,org.apache.roller.planet.business.GroupFunctionalTests
+10748,org.apache.roller.weblogger.ui.rendering.util.mobile.DeviceUtils
+10761,org.apache.roller.weblogger.business.themes.SharedThemeTemplate
+10855,org.apache.roller.weblogger.ui.struts2.core.OAuthAuthorize
+10872,org.apache.roller.weblogger.ui.core.filters.ValidateSaltFilter
+10902,org.apache.roller.weblogger.business.WeblogCategoryFunctionalityTest
+10933,org.apache.roller.weblogger.ui.struts2.util.UISecurityInterceptor
+10957,org.apache.roller.weblogger.planet.ui.PlanetGroups
+10984,org.apache.roller.weblogger.planet.ui.PlanetGroupsBean
+10991,org.apache.roller.weblogger.business.PreviewURLStrategy
+11078,org.apache.roller.weblogger.ui.rendering.plugins.comments.TrackbackLinkbackCommentValidator
+11090,org.apache.roller.weblogger.ui.UIPluginManagerTest
+11104,org.apache.roller.weblogger.ui.core.filters.InitFilter
+11129,org.apache.roller.weblogger.ui.rendering.model.SearchResultsFeedModel
+11181,org.apache.roller.weblogger.business.search.FieldConstants
+11182,org.apache.roller.weblogger.business.search.operations.SearchOperation
+11195,org.apache.roller.weblogger.business.plugins.CommentPluginsTest
+11205,org.apache.roller.weblogger.ui.core.filters.CustomOpenIDAuthenticationProcessingFilter
+11226,org.apache.roller.weblogger.ui.rendering.WeblogRequestMapper
+11278,org.apache.roller.weblogger.ui.rendering.servlets.CommentAuthenticatorServlet
+11292,org.apache.roller.weblogger.ui.rendering.plugins.comments.DefaultCommentAuthenticator
+11306,org.apache.roller.weblogger.ui.struts2.admin.UserAdmin
+11354,org.apache.roller.weblogger.ui.rendering.util.mobile.LiteDevice
+11368,org.apache.roller.planet.util.rome.DiskFeedInfoCacheTest
+11672,org.apache.roller.weblogger.pojos.StatCountCountComparator
+11750,org.apache.roller.weblogger.config.runtime.RuntimeConfigDefsParser
+11755,org.apache.roller.weblogger.business.plugins.comment.AutoformatPlugin
+11865,org.apache.roller.weblogger.business.plugins.comment.HTMLSubsetPlugin
+11876,org.apache.roller.planet.pojos.StaticTemplate
+11962,org.apache.roller.weblogger.ui.struts2.editor.Pings
+12008,org.apache.roller.weblogger.business.pings.WeblogUpdatePinger
+12029,org.apache.roller.planet.business.SubscriptionBasicTests
+12035,org.apache.roller.weblogger.ui.struts2.editor.WeblogConfig
+12073,org.apache.roller.weblogger.ui.struts2.editor.WeblogConfigBean
+12114,org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesPreviewPager
+12133,org.apache.roller.weblogger.ui.core.plugins.UIPluginManagerImpl
+12155,org.apache.roller.weblogger.business.search.operations.RebuildWebsiteIndexOperation
+12238,org.apache.roller.weblogger.business.search.operations.RemoveEntryOperation
+12253,org.apache.roller.planet.tasks.StaticPlanetModel
+12270,org.apache.roller.weblogger.ui.core.security.AuthoritiesPopulator
+12291,org.apache.roller.weblogger.ui.struts2.util.UIActionPrepareInterceptor
+12300,org.apache.roller.planet.pojos.Author
+12436,org.apache.roller.weblogger.config.runtime.DisplayGroup
+12440,org.apache.roller.weblogger.ui.rendering.servlets.PreviewServlet
+12470,org.apache.roller.weblogger.ui.rendering.util.WeblogPreviewRequest
+12476,org.apache.roller.weblogger.ui.struts2.editor.EntriesBean
+12520,org.apache.roller.weblogger.ui.struts2.editor.Categories
+12567,org.apache.roller.weblogger.business.WebloggerImpl
+12749,org.apache.roller.weblogger.business.runnable.ThreadManagerImpl
+12755,org.apache.roller.weblogger.ui.struts2.editor.Entries
+12797,org.apache.roller.weblogger.ui.struts2.pagers.EntriesPager
+12970,org.apache.roller.weblogger.business.PermissionTest
+13009,org.apache.roller.weblogger.ui.rendering.servlets.FeedServlet
+13045,org.apache.roller.weblogger.ui.struts2.editor.MediaFileView
+13128,org.apache.roller.weblogger.ui.struts2.editor.MediaFileSearchBean
+13137,org.apache.roller.weblogger.ui.struts2.ajax.CommentDataServlet
+13171,org.apache.roller.weblogger.ui.struts2.admin.PingTargets
+13247,org.apache.roller.weblogger.ui.rendering.plugins.comments.ExcessSizeCommentValidator
+13256,org.apache.roller.weblogger.util.cache.LRUCacheFactoryImpl
+13266,org.apache.roller.weblogger.util.cache.LRUCacheImpl
+13271,org.apache.roller.weblogger.ui.rendering.servlets.MediaResourceServlet
+13325,org.apache.roller.planet.business.SingleThreadedFeedUpdaterTest
+13337,org.apache.roller.weblogger.ui.rendering.velocity.WebappResourceLoader
+13374,org.apache.roller.weblogger.ui.struts2.editor.FolderEdit
+13401,org.apache.roller.examples.plugins.pagemodel.AuthenticatedUserModel
+13414,org.apache.roller.weblogger.ui.struts2.editor.EntryAddWithMediaFile
+13441,org.apache.roller.weblogger.business.themes.WeblogCustomTheme
+13509,org.apache.roller.weblogger.business.HitCountTest
+13558,org.apache.roller.weblogger.ui.struts2.editor.EntryRemove
+13595,org.apache.roller.weblogger.ui.core.filters.BootstrapFilter
+13611,org.apache.roller.weblogger.ui.struts2.core.Setup
+13703,org.apache.roller.weblogger.planet.ui.PlanetConfig
+13793,org.apache.roller.weblogger.business.runnable.ContinuousWorkerThread
+13818,org.apache.roller.weblogger.business.IndexManagerTest
+13840,org.apache.roller.planet.util.rome.PlanetConverterForRSS20
+13922,org.apache.roller.weblogger.webservices.atomprotocol.CommentCollection
+13938,org.apache.roller.planet.business.SubscriptionFunctionalTests
+14074,org.apache.roller.planet.pojos.Category
+14081,org.apache.roller.weblogger.ui.struts2.core.Install
+14165,org.apache.roller.weblogger.webservices.xmlrpc.BaseAPIHandler
+14213,org.apache.roller.weblogger.business.UserTest
+14238,org.apache.roller.weblogger.business.WeblogPageTest
+14303,org.apache.roller.weblogger.ui.rendering.RenderingException
+14305,org.apache.roller.weblogger.ui.rendering.plugins.comments.MathCommentAuthenticator
+14331,org.apache.roller.weblogger.ui.struts2.editor.MediaFileImageChooser
+14399,org.apache.roller.weblogger.ui.rendering.model.PreviewPageModel
+14415,org.apache.roller.weblogger.ui.struts2.util.UIActionInterceptor
+14440,org.apache.roller.weblogger.ui.core.filters.CharEncodingFilter
+14504,org.apache.roller.weblogger.ui.rendering.servlets.TrackbackServlet
+14697,org.apache.roller.weblogger.ui.rendering.servlets.CommentServlet
+14747,org.apache.roller.weblogger.util.GenericThrottle
+14805,org.apache.roller.scripting.GSPRenderer
+14838,org.apache.roller.scripting.GroovletRenderer
+14839,org.apache.roller.scripting.GroovyRollerBinding
+14842,org.apache.roller.weblogger.ui.struts2.ajax.ThemeDataServlet
+14947,org.apache.roller.weblogger.ui.rendering.velocity.RollerResourceLoader
+14966,org.apache.roller.weblogger.business.themes.SharedThemeFromDir
+15041,org.apache.roller.weblogger.business.themes.ThemeMetadataParser
+15042,org.apache.roller.weblogger.business.themes.ThemeMetadata
+15060,org.apache.roller.weblogger.ui.struts2.editor.MediaFileImageDim
+15095,org.apache.roller.weblogger.ui.rendering.plugins.comments.AkismetCommentValidator
+15115,org.apache.roller.weblogger.ui.rendering.servlets.PreviewResourceServlet
+15182,org.apache.roller.weblogger.ui.rendering.util.mobile.MobileDeviceRepository
+15375,org.apache.roller.weblogger.util.BlacklistTest
+15712,org.apache.roller.weblogger.ui.rendering.model.SearchResultsModel
+15763,org.apache.roller.weblogger.planet.ui.PlanetSubscriptions
+16001,org.apache.roller.planet.util.rome.PlanetConverterForRSS091N
+16009,org.apache.roller.weblogger.business.plugins.entry.ConvertLineBreaksPlugin
+16028,org.apache.roller.weblogger.ui.rendering.filters.DeviceResolverRequestFilter
+16040,org.apache.roller.weblogger.ui.rendering.util.mobile.LiteDeviceResolver
+16226,org.apache.roller.weblogger.util.LinkbackExtractorTest
+16245,org.apache.roller.planet.business.EntryBasicTests
+16305,org.apache.roller.scripting.GroovyRunner
+16490,org.apache.roller.weblogger.webservices.oauth.AuthorizationServlet
+16668,org.apache.roller.weblogger.webservices.tagdata.TagDataServlet
+16704,org.apache.roller.planet.business.PlanetTestSuite
+16707,org.apache.roller.planet.business.PlanetFunctionalTests
+16708,org.apache.roller.planet.business.GroupBasicTests
+16709,org.apache.roller.planet.business.RomeFeedFetcherTest
+16711,org.apache.roller.weblogger.ui.rendering.model.SiteModel
+16876,org.apache.roller.weblogger.ui.struts2.editor.EntryEdit
+16973,org.apache.roller.weblogger.ui.struts2.admin.CacheInfo
+17279,org.apache.roller.weblogger.ui.core.filters.DebugFilter
+17380,org.apache.roller.weblogger.business.search.operations.ReIndexEntryOperation
+17381,org.apache.roller.weblogger.business.search.operations.RemoveWebsiteIndexOperation
+17432,org.apache.roller.weblogger.ui.core.CmaRollerContext
+17581,org.apache.roller.weblogger.business.BookmarkTest
+17800,org.apache.roller.weblogger.pojos.UserRole
+17863,org.apache.roller.weblogger.business.CustomTemplateRenditionTest
+17966,org.apache.roller.planet.tasks.RefreshPlanetTask
+17975,org.apache.roller.weblogger.ui.struts2.admin.UserEdit
+18102,org.apache.roller.weblogger.business.jpa.JPAOAuthManagerTest
+18182,org.apache.roller.planet.util.rome.PlanetRSS091UParser
+18250,org.apache.roller.util.ISO8601DateParser
+18505,org.apache.roller.weblogger.ui.core.filters.LoadSaltFilter
+18522,org.apache.roller.weblogger.ui.rendering.model.MessageModel
+18548,org.apache.roller.weblogger.business.runnable.ResetHitCountsTask
+18598,org.apache.roller.weblogger.business.WeblogEntryTest
+18825,org.apache.roller.weblogger.business.FolderCRUDTest
+18839,org.apache.roller.scripting.GSPRendererFactory
+18847,org.apache.roller.scripting.GroovletRendererFactory
+19237,org.apache.roller.weblogger.business.WeblogCategoryCRUDTest
+19372,org.apache.roller.planet.tasks.GeneratePlanetTask
+19474,org.apache.roller.weblogger.ui.rendering.model.PreviewURLModel
+19523,org.apache.roller.weblogger.webservices.opensearch.OpenSearchServlet
+*Edges: 1878
+13401 4024 2
+13401 7169 3
+8438 242 3
+16245 62 1
+16245 143 6
+16245 4510 3
+16245 6766 11
+8741 62 4
+8741 143 13
+8741 4510 12
+8741 142 5
+8741 141 2
+8741 6766 5
+16708 62 1
+16708 143 5
+16708 142 12
+16708 141 4
+10736 62 1
+10736 143 7
+10736 142 8
+10736 141 4
+7908 242 3
+3696 1607 1
+10201 62 1
+10201 143 4
+10201 141 7
+16707 62 1
+16707 143 3
+16707 141 5
+10019 2974 6
+10019 62 1
+10019 143 4
+16709 62 2
+16709 143 1
+16709 5265 2
+16709 4510 11
+13325 62 3
+13325 143 3
+13325 5958 1
+13325 4510 11
+12029 62 1
+12029 143 4
+12029 4510 10
+13938 62 2
+13938 143 13
+13938 4510 16
+13938 142 14
+13938 141 2
+5265 242 9
+6841 578 1
+6841 5265 1
+6841 4510 23
+6841 6766 18
+7151 242 1
+7151 6202 1
+7151 1226 4
+7151 1818 1
+6666 6202 1
+6666 1226 28
+6666 21 3
+6666 4510 11
+6666 142 10
+6666 141 9
+6666 6766 3
+5958 242 5
+5958 62 5
+5958 5642 4
+5958 5265 1
+5958 4510 27
+5958 142 3
+5958 1607 2
+5642 242 3
+2541 2974 1
+2541 2973 2
+2541 62 1
+2541 11750 2
+142 62 1
+142 141 4
+142 6766 2
+4510 6766 3
+6766 66 1
+6766 14074 3
+6766 4510 4
+6766 12300 3
+19372 12253 1
+19372 578 3
+19372 10699 2
+17966 62 2
+17966 5958 1
+17966 4716 1
+17966 10699 2
+12253 62 1
+12253 4510 1
+12253 142 1
+585 607 1
+11368 578 2
+3913 3933 1
+14805 14839 1
+14805 484 3
+18839 14805 1
+14838 14839 1
+14838 484 3
+18847 14838 1
+16305 2032 1
+1775 18250 1
+7137 2195 2
+7505 5009 3
+143 706 8
+143 145 19
+143 9415 2
+143 144 20
+143 4510 9
+143 4717 4
+143 2485 5
+143 64 11
+143 825 3
+143 62 66
+143 1909 3
+143 578 1
+143 4716 2
+143 1329 6
+143 2637 3
+143 6766 8
+143 1431 1
+143 21 12
+143 147 24
+143 142 4
+143 141 6
+21 242 5
+8228 2131 4
+8228 1607 18
+17581 1908 13
+17581 62 1
+17581 1909 37
+17581 143 26
+17581 147 3
+17581 144 2
+6452 21 3
+8445 307 6
+8445 242 1
+8445 145 2
+8445 143 48
+8445 144 2
+8445 64 18
+8445 62 5
+8445 21 2
+8445 147 2
+17863 62 1
+17863 143 11
+17863 6332 16
+17863 147 2
+17863 484 17
+17863 144 2
+1431 1477 3
+1431 578 6
+5711 3558 2
+5711 147 8
+5711 3563 4
+5711 578 1
+5711 5804 1
+5711 3556 1
+5711 1822 3
+5711 1607 6
+9988 143 19
+9988 144 3
+9988 2974 14
+9988 62 5
+9988 147 3
+9988 3558 1
+9988 3563 3
+9988 5804 2
+3556 21 4
+5804 21 4
+1822 21 4
+18825 62 1
+18825 1909 5
+18825 143 15
+18825 147 7
+18825 144 2
+7873 62 4
+7873 1909 9
+7873 143 17
+7873 147 3
+7873 144 2
+5959 578 1
+1605 13793 1
+1605 147 2
+1605 578 1
+1605 8397 1
+1605 1833 1
+13509 2485 50
+13509 62 5
+13509 143 51
+13509 147 8
+13509 144 2
+13818 706 2
+13818 145 20
+13818 143 13
+13818 10421 2
+13818 144 4
+13818 62 4
+13818 11182 9
+13818 147 4
+1818 21 3
+9659 1477 1
+9659 578 6
+5299 143 136
+5299 144 13
+5299 3560 40
+5299 2974 3
+5299 62 15
+5299 21 3
+5299 147 16
+5299 3563 13
+5299 578 2
+5299 3371 3
+5299 3559 174
+5299 2484 48
+7152 8228 1
+7152 147 18
+7152 10991 1
+7152 578 1
+7152 2131 20
+7152 1607 9
+12970 825 6
+12970 62 5
+12970 143 50
+12970 147 5
+12970 144 6
+12970 1720 11
+2587 62 8
+2587 143 50
+2587 147 2
+2587 1329 21
+2587 144 2
+2587 2637 12
+100 148 1
+100 145 33
+100 62 4
+100 143 10
+100 147 5
+100 144 5
+100 142 1
+100 149 2
+10991 147 5
+10991 7152 1
+10991 2131 16
+10991 1607 10
+6130 2974 6
+6130 62 1
+6130 143 4
+4688 143 1
+4688 4716 2
+4688 1431 2
+4688 4717 6
+9370 4229 2
+9370 62 1
+9370 143 5
+4229 240 1
+4229 1275 1
+14213 62 3
+14213 143 15
+14213 578 3
+14213 144 35
+19237 706 11
+19237 62 3
+19237 143 20
+19237 147 9
+19237 144 2
+10902 706 21
+10902 62 4
+10902 143 24
+10902 147 3
+10902 144 2
+18598 145 145
+18598 143 175
+18598 144 6
+18598 64 5
+18598 3226 6
+18598 62 19
+18598 147 18
+18598 2487 20
+18598 236 23
+14238 62 2
+14238 143 17
+14238 147 2
+14238 484 15
+14238 144 2
+8156 64 8
+8156 145 5
+8156 62 4
+8156 143 21
+8156 5674 10
+8156 147 9
+8156 144 4
+5650 62 2
+5650 143 22
+5650 147 31
+5650 144 3
+62 6452 2
+62 578 1
+62 4716 2
+12567 1605 2
+12567 62 1
+12567 21 1
+12567 3258 3
+12567 1818 2
+6031 145 3
+6031 1226 10
+6031 3258 1
+6031 147 2
+6031 1329 2
+6031 2637 3
+7158 1908 11
+7158 1909 18
+7158 1226 14
+7158 21 3
+7158 147 5
+3371 3562 2
+3371 66 1
+3371 144 3
+3371 3560 20
+3371 3556 1
+3371 62 7
+3371 21 5
+3371 1226 27
+3371 3561 1
+3371 3558 1
+3371 147 20
+3371 3563 5
+3371 578 3
+3371 3559 65
+3371 2484 30
+1108 1225 16
+1108 1226 15
+1108 21 6
+1108 1224 29
+18102 62 1
+18102 143 7
+18102 1108 8
+1226 21 1
+1226 578 4
+1226 1431 7
+6214 6234 6
+6214 1226 7
+6214 2637 8
+1285 1226 8
+1285 1329 5
+7159 12436 1
+7159 2974 4
+7159 2973 1
+7159 2972 1
+7159 1226 6
+7159 4798 6
+7159 1607 1
+7160 12749 2
+7160 1226 8
+7160 21 2
+7160 1775 3
+7160 1776 7
+7160 1275 13
+7161 17800 2
+7161 144 44
+7161 1720 4
+7161 411 2
+7161 825 5
+7161 21 11
+7161 1226 46
+7161 147 20
+7161 578 1
+7161 1719 2
+7163 307 25
+7163 706 29
+7163 145 64
+7163 1775 3
+7163 144 1
+7163 3226 7
+7163 3225 1
+7163 2485 10
+7163 64 5
+7163 8772 10
+7163 1226 60
+7163 21 10
+7163 5674 2
+7163 147 32
+7163 2487 10
+7163 236 37
+7162 706 1
+7162 145 1
+7162 6332 2
+7162 144 2
+7162 1908 1
+7162 825 4
+7162 62 1
+7162 1909 1
+7162 578 2
+7162 1719 1
+7162 1329 1
+7162 2637 1
+7162 3226 2
+7162 8772 2
+7162 21 8
+7162 1226 44
+7162 5674 2
+7162 147 23
+7162 484 9
+7162 2487 2
+7157 1226 4
+7157 12567 4
+4864 6234 12
+4864 12008 2
+4864 62 1
+4864 3258 3
+4864 1607 1
+4834 242 1
+4834 240 2
+4834 62 2
+4834 21 2
+4834 4864 3
+4834 1275 3
+12008 3258 1
+12008 147 4
+12008 1329 2
+11195 64 4
+11195 62 1
+11195 143 1
+7153 64 3
+7153 145 3
+7153 3224 1
+7153 147 1
+7153 578 2
+11755 64 1
+11865 64 2
+11865 66 2
+2675 64 1
+2675 66 3
+16009 145 1
+16009 147 1
+10349 145 1
+10349 5009 1
+10349 147 1
+7441 145 1
+7441 147 1
+7441 1607 1
+13793 1833 6
+8397 1605 3
+8397 62 4
+8397 21 2
+18548 242 1
+18548 240 2
+18548 62 3
+18548 21 2
+18548 1275 3
+1275 1775 2
+1275 578 3
+240 62 2
+240 1275 8
+192 242 1
+192 240 2
+192 145 2
+192 62 4
+192 21 2
+192 1275 3
+192 237 1
+192 236 2
+5848 2032 1
+1739 62 2
+1739 1775 4
+1739 1776 1
+1739 1275 7
+12749 21 1
+12749 1776 5
+12749 1739 1
+12749 1275 5
+12749 578 2
+1833 62 1
+7154 145 3
+7154 12155 2
+7154 10421 1
+7154 1819 3
+7154 17380 1
+7154 12238 1
+7154 21 1
+7154 17381 1
+7154 147 2
+7154 578 2
+8310 7154 1
+10421 8299 2
+10421 145 3
+10421 7154 1
+10421 21 1
+10421 1819 3
+1819 64 6
+1819 706 1
+1819 145 12
+1819 7154 4
+1819 147 1
+1819 578 1
+1819 144 1
+17380 8299 2
+17380 145 4
+17380 7154 1
+17380 21 1
+17380 1819 3
+7406 7154 3
+7406 1819 3
+12155 145 2
+12155 7154 1
+12155 1819 3
+12155 8299 2
+12155 21 1
+12155 147 6
+12155 8310 2
+12155 236 2
+12238 8299 2
+12238 145 4
+12238 7154 1
+12238 21 1
+12238 1819 2
+17381 8299 2
+17381 7154 1
+17381 21 1
+17381 8310 1
+17381 147 5
+17381 1819 2
+11182 7406 2
+11182 7154 2
+11182 8310 2
+8299 7154 4
+8299 1819 3
+5088 1477 4
+5088 1431 7
+5088 4717 17
+1477 21 5
+4716 1477 8
+4716 242 2
+4716 578 1
+4716 9659 3
+4716 5088 14
+4716 1431 3
+14966 10235 8
+14966 15042 18
+14966 9985 16
+14966 10761 8
+14966 9950 20
+14966 1343 25
+14966 866 3
+14966 9627 4
+14966 15041 1
+9627 21 5
+7155 6332 4
+7155 1343 9
+7155 485 1
+7155 14966 2
+7155 62 1
+7155 2813 1
+7155 10304 1
+7155 21 1
+7155 147 9
+7155 3563 4
+7155 578 1
+7155 484 12
+7155 13441 1
+7155 3559 9
+15042 9950 4
+15041 15042 13
+15041 9985 10
+15041 9950 20
+15041 8904 16
+9950 9985 3
+2813 21 5
+8904 21 5
+13441 62 6
+13441 21 1
+13441 147 2
+13441 485 2
+10304 62 5
+10304 21 1
+10304 1343 8
+10304 147 1
+10304 485 2
+3258 62 1
+3258 578 4
+3258 1329 1
+3258 1607 1
+578 909 2
+1607 2974 1
+1607 2973 2
+1607 62 1
+1607 11750 2
+2972 12436 2
+12436 4798 2
+2973 2972 2
+11750 12436 5
+11750 2973 3
+11750 2972 4
+11750 4798 6
+3677 3696 1
+3677 1607 2
+7156 706 1
+7156 145 8
+7156 6841 3
+7156 144 1
+7156 4510 10
+7156 1607 1
+7156 62 4
+7156 21 2
+7156 147 5
+7156 5265 3
+7156 6766 7
+7156 236 3
+1013 62 1
+1013 143 1
+1013 4510 3
+148 240 2
+148 62 2
+148 5958 1
+148 1275 3
+148 578 1
+148 5959 1
+148 4716 1
+149 242 1
+149 1275 3
+149 5959 1
+149 4510 12
+149 62 8
+149 240 2
+149 147 6
+149 578 1
+149 4716 1
+149 142 7
+13703 2973 2
+13703 9238 1
+13703 242 2
+13703 2541 2
+13703 414 2
+13703 12436 1
+13703 2972 5
+13703 2974 6
+13703 62 3
+13703 4798 1
+10957 9238 4
+10957 62 5
+10957 10984 14
+10957 142 6
+10957 141 1
+10957 414 7
+10984 142 7
+15763 9238 2
+15763 242 4
+15763 62 6
+15763 4510 4
+15763 142 6
+15763 414 6
+9238 62 1
+9238 141 2
+9238 414 1
+2637 147 4
+2637 1329 4
+307 145 3
+307 147 3
+6332 484 9
+3558 147 3
+411 62 1
+411 66 1
+411 578 1
+411 144 4
+411 1720 15
+3559 3562 1
+3559 62 4
+3559 66 3
+3559 3561 8
+3559 3558 6
+3559 147 5
+3559 144 1
+3559 2484 4
+6246 3559 8
+2484 2481 1
+2484 147 5
+2484 3559 3
+8141 2484 4
+3560 3562 3
+3561 3559 4
+1719 1720 3
+6234 147 4
+6234 1329 4
+1720 66 2
+1720 1719 1
+11672 5674 10
+2542 10235 1
+8146 2487 4
+2897 2487 8
+144 62 1
+144 66 1
+144 21 1
+144 578 2
+144 411 1
+147 307 4
+147 2482 1
+147 706 9
+147 145 1
+147 485 1
+147 144 3
+147 1607 1
+147 2485 1
+147 825 1
+147 62 16
+147 1909 6
+147 21 11
+147 2484 3
+147 236 8
+1908 1909 8
+1908 147 1
+1909 1908 5
+1909 62 1
+1909 147 5
+706 62 2
+706 21 1
+706 147 7
+706 236 3
+145 307 3
+145 706 4
+145 66 7
+145 1775 1
+145 144 4
+145 1720 3
+145 1607 1
+145 650 2
+145 3227 1
+145 3226 10
+145 3225 8
+145 62 6
+145 3224 2
+145 21 2
+145 147 13
+3225 145 3
+64 145 3
+236 147 3
+236 144 3
+3226 145 4
+3226 62 1
+3226 147 4
+3226 144 3
+8772 147 4
+3227 3226 4
+8807 70 4
+2485 147 4
+825 62 2
+825 147 7
+825 1719 14
+825 144 7
+825 1720 8
+484 6332 7
+484 147 3
+485 147 3
+4024 3224 2
+4024 578 1
+4024 144 11
+1897 1910 1
+1897 1909 7
+1910 1908 11
+1910 1897 2
+682 706 10
+682 707 2
+682 70 1
+9710 3225 5
+29 64 20
+29 62 1
+29 66 1
+29 70 2
+4015 4024 2
+4015 3226 6
+70 682 3
+70 145 47
+70 9710 1
+70 707 2
+70 29 2
+70 3227 1
+70 4024 2
+70 3224 4
+70 4015 1
+707 4024 2
+707 682 5
+707 29 1
+707 3224 2
+707 147 54
+707 70 4
+707 7396 7
+707 1897 2
+11090 1608 1
+17432 1608 2
+1608 12133 1
+1608 1477 1
+1608 62 3
+1608 21 2
+1608 6452 1
+1608 578 7
+1608 4716 2
+1608 237 1
+7169 62 3
+7169 21 2
+7169 578 1
+7169 144 4
+7169 1608 1
+13595 62 1
+13595 578 1
+2701 2713 2
+11104 1607 2
+18505 8915 2
+5033 62 2
+7290 7300 1
+7300 62 1
+7300 21 1
+1382 578 6
+10872 8915 3
+10872 578 1
+12133 578 2
+12270 62 1
+12270 21 1
+10471 2481 1
+10471 62 2
+10471 21 1
+10471 144 7
+10471 10417 1
+10417 578 8
+10417 144 14
+4243 62 1
+4243 21 3
+4243 144 5
+8730 145 5
+8730 62 4
+8730 1775 2
+8730 1613 1
+8730 7915 2
+8730 236 6
+8731 1775 1
+7915 145 2
+7915 1775 11
+7915 1498 3
+7915 1613 6
+7915 62 7
+7915 21 4
+7915 147 5
+7915 236 20
+6198 7421 1
+6199 9349 6
+6199 66 5
+6199 7421 6
+6199 144 2
+6199 745 27
+6199 411 2
+6199 1607 2
+6199 717 21
+6199 825 2
+6199 62 1
+6199 21 2
+6199 6198 3
+6199 147 3
+6199 578 1
+6199 6143 4
+7421 6143 1
+9349 717 1
+717 745 1
+1609 14303 1
+14303 21 4
+11226 62 1
+11226 578 3
+16028 16040 1
+10704 578 2
+8707 8731 6
+8707 8730 1
+8707 21 2
+8707 707 4
+8707 1613 1
+8707 7915 1
+7212 62 3
+7212 1607 3
+6388 62 1
+6388 21 2
+6388 707 2
+6388 147 1
+6388 3965 4
+6388 1498 2
+6186 62 1
+6186 21 3
+6186 6198 2
+6186 1622 5
+6186 1498 2
+6186 6199 2
+6186 1613 1
+18522 21 1
+18522 1498 1
+18522 650 4
+1610 66 1
+1610 21 4
+7358 682 2
+7358 7398 1
+7358 707 2
+7358 70 2
+7358 7396 3
+7358 1622 1
+7358 1498 6
+7358 1613 29
+7358 7397 1
+7358 62 1
+7358 21 3
+7358 613 1
+7358 7399 1
+7358 147 2
+7358 1612 3
+4450 1498 5
+4450 1613 2
+4450 4512 3
+4450 62 5
+4450 21 1
+4450 147 1
+4450 578 1
+4450 141 1
+4450 142 1
+14399 7398 1
+14399 7358 2
+14399 70 1
+14399 1498 4
+14399 12114 1
+14399 1613 12
+14399 62 1
+14399 21 2
+14399 12470 5
+19474 62 1
+19474 6926 2
+19474 21 2
+19474 147 1
+19474 1498 2
+11129 682 2
+11129 145 1
+11129 66 1
+11129 707 2
+11129 70 1
+11129 3965 15
+11129 1498 5
+11129 1607 2
+11129 62 3
+11129 11182 9
+11129 21 2
+11129 8197 3
+11129 147 1
+15712 682 1
+15712 145 1
+15712 7358 2
+15712 1775 1
+15712 70 3
+15712 1498 6
+15712 3818 12
+15712 1607 1
+15712 650 2
+15712 62 3
+15712 11182 10
+15712 21 1
+15712 10440 3
+16711 5989 1
+16711 7790 1
+16711 70 1
+16711 3965 19
+16711 1498 15
+16711 144 2
+16711 6436 2
+16711 1613 3
+16711 4024 4
+16711 2485 5
+16711 62 19
+16711 825 2
+16711 267 1
+16711 707 8
+16711 21 5
+16711 147 5
+16711 5674 2
+6926 145 1
+6926 62 2
+6926 21 2
+6926 147 7
+6926 1498 2
+6926 578 1
+6926 1607 2
+2543 66 7
+2543 5009 2
+2543 1775 4
+2543 707 4
+2543 1622 8
+2543 1498 1
+2543 4024 2
+2543 21 1
+2543 147 5
+2543 2131 2
+308 2131 1
+649 1775 2
+649 147 9
+649 1607 1
+649 650 5
+267 307 6
+267 29 3
+267 308 3
+267 62 1
+267 147 2
+4208 308 2
+4208 62 1
+4208 3559 2
+4512 308 3
+4512 62 1
+8197 308 3
+8197 147 3
+8197 3965 6
+8197 1498 3
+8197 2131 3
+8197 650 3
+10440 147 2
+10440 1498 2
+10440 3818 4
+10440 650 5
+5989 4024 1
+5989 308 12
+5989 62 1
+7397 62 1
+7397 1775 5
+7397 147 4
+7397 70 1
+7397 649 10
+7397 650 6
+7397 236 9
+7398 62 1
+7398 147 1
+7398 70 1
+7398 649 2
+7398 236 8
+6436 308 3
+6436 62 1
+6436 147 2
+6436 70 3
+6436 144 2
+6436 236 9
+7399 62 1
+7399 1775 5
+7399 147 4
+7399 70 1
+7399 649 10
+7399 650 6
+7399 236 9
+613 145 18
+613 62 3
+613 66 2
+613 21 2
+613 147 1
+613 70 1
+613 649 5
+613 650 3
+12114 145 5
+12114 62 1
+12114 613 2
+12114 147 1
+12114 70 1
+7790 308 12
+7790 62 1
+7790 707 1
+15095 64 10
+15095 145 2
+15095 62 2
+15095 3563 2
+15095 578 1
+8385 64 1
+8385 3563 2
+8385 1616 1
+5698 64 1
+5698 66 1
+5698 3563 1
+5698 578 1
+10240 64 2
+10240 3563 1
+10240 578 1
+13247 64 3
+13247 3563 1
+13247 578 1
+510 578 5
+11078 64 4
+11078 145 2
+11078 62 1
+11078 3563 2
+11078 10034 2
+11078 1607 1
+11278 578 1
+14697 145 4
+14697 14747 3
+14697 66 1
+14697 1498 5
+14697 650 10
+14697 64 20
+14697 62 4
+14697 2713 2
+14697 5698 3
+14697 1612 7
+14697 578 5
+14697 1853 14
+14697 2131 1
+14697 237 1
+14697 1607 3
+14697 826 1
+14697 21 3
+14697 147 3
+14697 3563 4
+13009 3965 18
+13009 1622 2
+13009 1609 1
+13009 1498 7
+13009 1611 2
+13009 2542 1
+13009 1607 3
+13009 1614 6
+13009 62 2
+13009 21 3
+13009 147 6
+13009 578 2
+13009 1617 8
+13009 3936 5
+13009 1610 3
+13271 1481 3
+13271 62 1
+13271 21 1
+13271 1622 2
+13271 1498 2
+13271 1611 2
+13271 3559 6
+1508 145 3
+1508 1609 1
+1508 1498 17
+1508 1616 1
+1508 1613 19
+1508 1611 2
+1508 1615 6
+1508 650 1
+1508 62 3
+1508 928 1
+1508 578 6
+1508 1610 2
+1508 1608 1
+1508 1622 6
+1508 1607 4
+1508 1499 1
+1508 1614 7
+1508 1605 2
+1508 21 3
+1508 147 15
+1508 1617 9
+2510 2545 11
+2510 2544 5
+2510 1622 4
+2510 1609 1
+2510 2541 3
+2510 1611 2
+2510 2542 1
+2510 1607 4
+2510 62 1
+2510 1617 8
+15115 6074 3
+15115 1622 2
+15115 1498 2
+15115 1611 2
+15115 6092 5
+15115 62 1
+15115 21 1
+15115 147 1
+15115 3559 2
+12440 1609 1
+12440 1498 5
+12440 1003 1
+12440 1613 7
+12440 1607 1
+12440 62 1
+12440 21 3
+12440 147 10
+12440 578 2
+12440 12470 6
+12440 1617 6
+12440 1610 2
+12440 1608 1
+7771 1622 2
+7771 1609 1
+7771 1498 3
+7771 1611 2
+7771 2542 1
+7771 1607 1
+7771 21 1
+7771 147 2
+7771 1617 6
+7329 1622 2
+7329 1498 2
+7329 1611 2
+7329 62 1
+7329 6092 5
+7329 21 1
+7329 147 1
+7329 3559 2
+9733 1609 1
+9733 1498 8
+9733 1003 1
+9733 1613 2
+9733 3818 2
+9733 1615 2
+9733 650 1
+9733 62 3
+9733 578 3
+9733 1610 2
+9733 1622 2
+9733 1607 2
+9733 1614 2
+9733 21 2
+9733 147 10
+9733 1617 6
+14504 145 2
+14504 1498 3
+14504 1607 2
+14504 650 1
+14504 64 13
+14504 62 4
+14504 21 2
+14504 826 1
+14504 5698 4
+14504 147 2
+14504 3563 1
+14504 7530 15
+14504 237 1
+1014 64 12
+1014 145 2
+1014 143 8
+1014 5698 8
+1014 147 2
+1014 3563 3
+1014 144 2
+1499 21 3
+1611 1775 2
+1622 62 1
+1622 21 1
+1622 1003 1
+1622 144 3
+2545 1499 2
+2545 1622 2
+1853 1499 4
+1853 145 3
+1853 62 1
+1853 66 3
+1853 21 1
+1853 1498 4
+1612 64 8
+1612 29 2
+3965 1499 5
+3965 706 3
+3965 62 1
+3965 66 1
+3965 21 1
+3965 1498 4
+3965 578 1
+3965 2131 2
+1481 1499 1
+1481 1498 3
+1613 706 3
+1613 145 3
+1613 66 2
+1613 1498 6
+1613 1499 6
+1613 62 2
+1613 21 3
+1613 147 1
+1613 578 1
+1613 484 1
+1613 2131 5
+12470 2813 1
+12470 145 1
+12470 62 2
+12470 21 1
+12470 1498 1
+12470 2131 1
+12470 1613 4
+6074 6092 2
+6074 2813 1
+6074 62 1
+6074 21 1
+1498 1499 1
+1498 62 1
+1498 21 1
+1498 147 4
+1498 1622 2
+6092 1499 1
+6092 1498 3
+6092 2131 1
+3818 1499 2
+3818 706 3
+3818 62 1
+3818 21 1
+3818 1498 4
+3818 2131 1
+7530 1499 5
+7530 145 3
+7530 62 1
+7530 21 1
+7530 1498 4
+2544 2545 10
+2544 1622 2
+2544 578 4
+2544 8935 3
+2544 237 1
+8915 578 2
+8915 8935 2
+8915 237 1
+1614 706 3
+1614 145 3
+1614 66 3
+1614 3965 12
+1614 1498 6
+1614 144 1
+1614 8935 3
+1614 1613 17
+1614 1908 3
+1614 64 3
+1614 1909 3
+1614 578 3
+1614 237 1
+1614 1622 3
+1614 1607 5
+1614 147 6
+1614 484 3
+5814 3965 3
+5814 1609 1
+5814 1498 1
+5814 2542 1
+5814 578 1
+5814 1617 4
+5814 1610 1
+5814 3936 3
+3936 66 1
+3936 3807 2
+3936 3965 11
+3936 1498 3
+3936 578 3
+3936 237 1
+1615 66 2
+1615 3807 2
+1615 1622 3
+1615 1498 3
+1615 578 3
+1615 1613 18
+1615 237 1
+11354 4442 3
+15182 10748 1
+14947 62 1
+14947 484 2
+2783 2813 1
+2783 62 1
+2783 21 1
+5873 14303 2
+5873 8063 5
+5864 5873 1
+5864 21 1
+13337 1608 1
+16973 237 3
+16973 414 1
+2823 62 1
+2823 21 1
+2823 144 21
+327 307 12
+327 145 3
+327 416 30
+327 66 1
+327 412 6
+327 414 10
+327 64 15
+327 62 6
+327 21 3
+327 413 5
+327 237 1
+416 64 3
+416 66 1
+416 1775 1
+2911 2974 6
+2911 2973 1
+2911 2972 4
+2911 62 5
+2911 21 3
+2911 1607 3
+2911 414 5
+3869 1329 7
+3847 62 4
+3847 21 3
+3847 3869 15
+3847 1329 6
+3847 414 10
+13171 62 8
+13171 21 3
+13171 1329 6
+13171 414 11
+11306 909 1
+11306 414 1
+17975 2823 34
+17975 909 1
+17975 62 5
+17975 21 5
+17975 578 1
+17975 144 12
+17975 414 17
+13137 64 9
+13137 145 2
+13137 62 2
+13137 66 3
+13137 147 3
+13137 7169 4
+14842 62 1
+14842 21 1
+14842 1343 5
+9470 62 1
+9470 21 1
+9470 1622 1
+9470 1498 1
+9470 144 4
+4316 66 1
+4316 144 4
+4316 4347 19
+4316 1607 2
+4316 414 12
+4316 62 6
+4316 21 4
+4316 147 2
+4316 578 3
+14081 1477 5
+14081 242 2
+14081 62 6
+14081 21 1
+14081 578 2
+14081 4716 9
+14081 1431 1
+14081 414 8
+9457 909 1
+9457 414 3
+8820 62 8
+8820 21 2
+8820 147 1
+8820 414 8
+10855 144 1
+10855 414 3
+5494 62 5
+5494 144 3
+5494 1607 1
+5494 414 3
+6157 909 1
+6157 5877 20
+6157 62 3
+6157 21 4
+6157 144 5
+6157 414 14
+5877 144 16
+4348 5877 34
+4348 144 13
+4348 10417 2
+4348 1607 3
+4348 414 16
+4348 909 1
+4348 62 8
+4348 21 6
+4348 826 1
+4348 578 4
+13611 2974 2
+13611 62 5
+13611 21 3
+13611 414 4
+8510 1908 13
+8484 1908 7
+8484 62 4
+8484 1909 1
+8484 21 2
+8484 8510 11
+8484 237 1
+8484 414 6
+4063 1908 1
+4063 62 9
+4063 1909 8
+4063 21 6
+4063 237 3
+4063 414 11
+3879 62 2
+3879 237 1
+3879 414 5
+12520 62 1
+12520 21 1
+12520 414 3
+3793 706 9
+3770 706 7
+3770 62 3
+3770 21 1
+3770 147 2
+3770 3793 10
+3770 237 1
+3770 414 7
+10534 706 5
+10534 62 5
+10534 21 2
+10534 237 1
+10534 414 5
+747 307 22
+747 145 5
+747 66 1
+747 412 6
+747 827 52
+747 650 1
+747 414 19
+747 64 21
+747 62 8
+747 826 2
+747 413 5
+747 21 3
+747 147 4
+747 578 1
+747 237 1
+827 64 5
+827 66 1
+827 1775 1
+12755 12797 4
+12755 706 2
+12755 145 6
+12755 12476 27
+12755 414 13
+12755 62 3
+12755 21 2
+12755 413 7
+12755 147 1
+12755 236 10
+12476 66 1
+13414 4780 1
+13414 62 1
+13414 8597 7
+13414 3559 11
+13414 414 1
+8597 3225 2
+8597 706 2
+8597 145 38
+8597 62 1
+8597 21 4
+8597 147 3
+16876 145 34
+16876 144 1
+16876 414 36
+16876 62 11
+16876 10175 1
+16876 1608 1
+16876 237 1
+16876 1775 1
+16876 3761 1
+16876 2 2
+16876 3710 2
+16876 21 4
+16876 826 2
+16876 147 11
+16876 3563 2
+16876 8597 25
+16876 10197 3
+16876 236 4
+13558 145 8
+13558 62 4
+13558 21 2
+13558 237 1
+13558 414 4
+4523 1909 5
+13374 62 3
+13374 1909 6
+13374 21 1
+13374 147 1
+13374 4523 10
+13374 237 1
+13374 414 5
+1784 62 6
+1784 147 4
+1784 237 2
+1784 414 12
+4723 4780 2
+4723 4781 8
+4723 66 1
+4723 1607 1
+4723 414 11
+4723 62 4
+4723 21 2
+4723 3563 2
+4723 2484 5
+4723 3559 14
+4780 62 13
+4780 21 5
+4780 8141 1
+4780 3559 2
+4780 2484 2
+4780 414 14
+4781 3559 23
+4781 2484 1
+7245 4780 8
+7245 4781 17
+7245 3556 2
+7245 414 8
+7245 62 4
+7245 21 1
+7245 2484 5
+7245 3559 6
+14331 6246 1
+14331 4780 2
+14331 62 1
+14331 413 1
+14331 8141 1
+14331 3556 1
+14331 2484 10
+14331 414 5
+15060 4780 2
+15060 62 1
+15060 4781 4
+15060 21 1
+13128 3560 9
+13045 6246 3
+13045 4780 8
+13045 3556 1
+13045 414 34
+13045 62 9
+13045 21 3
+13045 413 16
+13045 147 1
+13045 13128 9
+13045 9765 4
+13045 237 1
+13045 2484 10
+2017 62 2
+2017 21 1
+2017 147 1
+2017 414 7
+1688 66 1
+1688 144 4
+1688 1720 1
+1688 414 8
+1688 62 3
+1688 825 9
+1688 21 1
+1688 147 1
+1688 1719 1
+10628 62 2
+10628 826 2
+10628 21 3
+10628 147 1
+10628 578 2
+10628 1719 1
+10628 414 14
+11962 414 19
+11962 62 6
+11962 12008 1
+11962 21 3
+11962 147 2
+11962 3258 1
+11962 1329 6
+11962 2637 2
+10570 62 17
+10570 21 5
+10570 6332 14
+10570 147 12
+10570 484 30
+10570 237 3
+10570 414 24
+6333 6262 22
+6333 62 5
+6333 21 4
+6333 484 12
+6333 237 1
+6333 414 10
+6262 62 3
+6262 6332 6
+6262 484 25
+459 62 3
+459 21 1
+459 147 4
+459 484 5
+459 237 1
+459 414 10
+7570 62 7
+7570 21 3
+7570 6332 3
+7570 147 6
+7570 484 13
+7570 414 19
+6095 62 4
+6095 66 2
+6095 147 6
+6095 484 2
+6095 237 1
+6095 414 12
+10651 62 10
+10651 21 4
+10651 1343 1
+10651 147 16
+10651 237 2
+10651 414 25
+12035 12073 14
+12035 706 1
+12035 1607 1
+12035 414 9
+12035 62 5
+12035 147 7
+12035 9409 1
+12035 237 1
+12035 1608 1
+12073 706 1
+12073 147 51
+899 62 2
+899 147 3
+899 237 1
+899 414 8
+412 2131 1
+12797 2131 1
+414 10493 2
+414 144 3
+414 1607 5
+414 62 1
+414 413 7
+414 147 3
+414 6198 1
+414 578 3
+414 6199 1
+14415 62 1
+14415 7169 2
+14415 414 3
+8376 414 21
+10933 825 2
+10933 62 1
+10933 144 1
+10933 411 2
+10933 414 3
+6355 2766 2
+2725 2766 2
+9409 1775 2
+9409 578 2
+1616 64 8
+1616 145 1
+1616 9409 9
+1616 147 3
+1616 578 3
+1616 1607 3
+15375 9409 9
+14747 8935 3
+14747 237 1
+650 2482 2
+2713 578 1
+9662 9679 32
+10034 66 2
+16226 10034 4
+826 2482 1
+826 145 19
+826 66 3
+826 9659 5
+826 144 18
+826 1607 5
+826 650 17
+826 64 26
+826 62 5
+826 21 5
+826 147 17
+826 3563 8
+826 4716 8
+2 21 2
+10175 10197 3
+10175 2 4
+1022 66 2
+3710 145 6
+3710 66 4
+3710 147 1
+3710 3761 1
+3710 3563 11
+3710 578 1
+3710 2131 5
+3761 21 2
+66 5009 2
+4286 66 4
+237 1908 2
+237 64 2
+237 706 2
+237 145 2
+237 1909 2
+237 147 2
+237 484 2
+237 144 2
+3337 3351 1
+3351 13266 6
+3351 8935 2
+13256 13266 1
+6658 4283 7
+6658 706 1
+6658 145 45
+6658 66 1
+6658 144 5
+6658 1607 1
+6658 3227 1
+6658 3226 1
+6658 62 1
+6658 21 5
+6658 147 8
+6658 7762 2
+6658 237 3
+6658 236 4
+6472 4283 5
+6472 66 5
+6472 144 2
+6472 3556 2
+6472 1607 1
+6472 62 3
+6472 21 6
+6472 147 10
+6472 3563 3
+6472 3559 27
+6472 2484 2
+4283 6472 12
+4283 145 3
+4283 66 1
+4283 144 9
+4283 1607 2
+4283 9233 2
+4283 6658 10
+4283 62 3
+4283 21 1
+4283 147 3
+4283 7762 1
+4283 578 2
+4277 4283 1
+7762 706 2
+7762 66 1
+7762 144 1
+7762 1607 1
+7762 2974 1
+7762 62 3
+7762 825 3
+7762 21 2
+7762 147 4
+7762 2484 2
+8851 62 2
+16490 62 3
+8333 62 2
+19523 62 2
+19523 66 1
+19523 21 1
+19523 147 3
+19523 1607 5
+16668 62 1
+16668 66 1
+16668 21 1
+16668 2487 5
+16668 1607 1
+14165 62 3
+14165 66 2
+14165 147 4
+14165 578 4
+14165 144 4
+14165 237 1
+14165 1607 2
+9102 145 25
+9102 66 1
+9102 6332 2
+9102 144 4
+9102 62 10
+9102 21 2
+9102 147 8
+9102 14165 14
+9102 484 3
+9102 236 2
+8973 706 9
+8973 145 40
+8973 66 4
+8973 144 3
+8973 1607 1
+8973 62 7
+8973 9102 2
+8973 147 6
+8973 3563 3
+8973 14165 8
+8973 3559 8
+8973 236 3

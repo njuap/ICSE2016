@@ -1,0 +1,4094 @@
+*Vertics: 802
+8,org.apache.syncope.console.commons.status.StatusBean
+44,org.apache.syncope.common.to.AbstractAttributableTO
+45,org.apache.syncope.common.to.RoleTO
+46,org.apache.syncope.common.to.UserTO
+49,org.apache.syncope.console.commons.status.Status
+60,org.apache.syncope.console.pages.MembershipModalPage
+105,org.apache.syncope.common.to.MembershipTO
+106,org.apache.syncope.console.commons.Mode
+107,org.apache.syncope.console.pages.panels.AttributesPanel
+108,org.apache.syncope.console.pages.panels.DerivedAttributesPanel
+109,org.apache.syncope.console.pages.panels.SysInfoPanel
+110,org.apache.syncope.console.pages.panels.VirtualAttributesPanel
+113,org.apache.syncope.console.pages.BaseModalPage
+114,org.apache.syncope.console.pages.UserModalPage
+123,org.apache.syncope.console.pages.AbstractBasePage
+124,org.apache.syncope.console.pages.panels.NotificationPanel
+132,org.apache.syncope.console.commons.DateFormatROModel
+146,org.apache.syncope.console.SyncopeSession
+154,org.apache.syncope.core.workflow.user.activiti.SyncopeSessionFactory
+186,org.apache.syncope.core.persistence.beans.AbstractDerAttr
+187,org.apache.syncope.core.persistence.validation.entity.InvalidEntityException
+192,org.apache.syncope.common.to.PushTaskTO
+205,org.apache.syncope.common.to.AbstractSyncTaskTO
+216,org.apache.syncope.core.report.UserReportlet
+299,org.apache.syncope.common.report.UserReportletConf
+301,org.apache.syncope.common.to.AbstractSubjectTO
+302,org.apache.syncope.common.to.AttributeTO
+303,org.apache.syncope.common.types.SubjectType
+304,org.apache.syncope.core.persistence.beans.membership.Membership
+305,org.apache.syncope.core.persistence.beans.user.SyncopeUser
+309,org.apache.syncope.core.persistence.dao.search.OrderByClause
+310,org.apache.syncope.core.rest.data.RoleDataBinder
+311,org.apache.syncope.core.rest.data.SearchCondConverter
+312,org.apache.syncope.core.rest.data.UserDataBinder
+313,org.apache.syncope.core.util.DataFormat
+314,org.apache.syncope.core.util.EntitlementUtil
+323,org.apache.syncope.core.report.AbstractReportlet
+324,org.apache.syncope.core.report.ReportXMLConst
+325,org.apache.syncope.common.to.ConnObjectTO
+326,org.apache.syncope.core.report.ReportException
+327,org.apache.syncope.core.persistence.beans.AbstractSysInfo
+381,org.apache.syncope.common.wrap.EntitlementTO
+384,org.apache.syncope.common.wrap.AbstractWrappable
+438,org.apache.syncope.common.SyncopeConstants
+444,org.apache.syncope.core.policy.PolicyPattern
+520,org.apache.syncope.core.persistence.beans.Entitlement
+524,org.apache.syncope.common.types.ConnectorCapability
+560,org.apache.syncope.console.pages.panels.PolicyBeanPanel
+661,org.apache.syncope.common.types.AbstractPolicySpec
+662,org.apache.syncope.common.types.AttributableType
+663,org.apache.syncope.console.commons.Constants
+664,org.apache.syncope.console.markup.html.list.AltListView
+665,org.apache.syncope.console.rest.PolicyRestClient
+666,org.apache.syncope.console.rest.SchemaRestClient
+667,org.apache.syncope.console.wicket.markup.html.form.AbstractFieldPanel
+668,org.apache.syncope.console.wicket.markup.html.form.AjaxCheckBoxPanel
+669,org.apache.syncope.console.wicket.markup.html.form.AjaxDropDownChoicePanel
+670,org.apache.syncope.console.wicket.markup.html.form.AjaxPalettePanel
+671,org.apache.syncope.console.wicket.markup.html.form.AjaxTextFieldPanel
+672,org.apache.syncope.console.wicket.markup.html.form.FieldPanel
+673,org.apache.syncope.console.wicket.markup.html.form.MultiFieldPanel
+674,org.apache.syncope.console.wicket.markup.html.form.SpinnerFieldPanel
+698,org.apache.syncope.console.wicket.markup.html.form.BinaryFieldPanel
+795,org.apache.syncope.console.commons.HttpResourceStream
+796,org.apache.syncope.console.preview.PreviewUtil
+812,org.apache.syncope.core.persistence.beans.role.RVirSchema
+816,org.apache.syncope.core.persistence.beans.AbstractVirSchema
+818,org.apache.syncope.core.services.SchemaServiceImpl
+856,org.apache.syncope.common.to.AbstractSchemaTO
+857,org.apache.syncope.common.types.RESTHeaders
+858,org.apache.syncope.common.types.SchemaType
+859,org.apache.syncope.core.rest.controller.SchemaController
+862,org.apache.syncope.core.services.AbstractServiceImpl
+878,org.apache.syncope.core.workflow.user.activiti.task.AbstractActivitiServiceTask
+894,org.apache.syncope.core.rest.data.ResourceDataBinderTest
+930,org.apache.syncope.common.to.MappingItemTO
+931,org.apache.syncope.common.to.MappingTO
+932,org.apache.syncope.common.to.ResourceTO
+933,org.apache.syncope.common.types.IntMappingType
+934,org.apache.syncope.common.types.MappingPurpose
+935,org.apache.syncope.common.types.PropagationMode
+936,org.apache.syncope.core.AbstractNonDAOTest
+937,org.apache.syncope.core.persistence.beans.AbstractMappingItem
+938,org.apache.syncope.core.persistence.beans.ExternalResource
+939,org.apache.syncope.core.persistence.beans.user.USchema
+943,org.apache.syncope.core.rest.data.ResourceDataBinder
+944,org.apache.syncope.core.persistence.beans.AbstractBaseBean
+945,org.apache.syncope.core.persistence.beans.user.UMapping
+946,org.apache.syncope.core.persistence.beans.AbstractNormalSchema
+991,org.apache.syncope.core.rest.AuthenticationTestITCase
+1089,org.apache.syncope.client.SyncopeClient
+1090,org.apache.syncope.common.mod.StatusMod
+1093,org.apache.syncope.common.reqres.PagedResult
+1094,org.apache.syncope.common.to.SchemaTO
+1095,org.apache.syncope.common.to.WorkflowFormPropertyTO
+1096,org.apache.syncope.common.to.WorkflowFormTO
+1097,org.apache.syncope.common.types.AttributeSchemaType
+1098,org.apache.syncope.common.types.ClientExceptionType
+1099,org.apache.syncope.common.util.CollectionWrapper
+1100,org.apache.syncope.common.SyncopeClientException
+1101,org.apache.syncope.common.mod.UserMod
+1102,org.apache.syncope.common.reqres.BulkActionResult
+1104,org.apache.syncope.common.types.CipherAlgorithm
+1105,org.apache.syncope.common.types.ResourceDeassociationActionType
+1106,org.apache.syncope.common.wrap.ResourceName
+1107,org.apache.syncope.core.util.Encryptor
+1108,org.apache.syncope.core.workflow.ActivitiDetector
+1114,org.apache.syncope.core.rest.AbstractTest
+1115,org.apache.syncope.core.rest.UserTestITCase
+1116,org.apache.syncope.client.SyncopeClientFactoryBean
+1117,org.apache.syncope.common.search.SyncopeFiqlSearchConditionBuilder
+1120,org.apache.syncope.common.mod.AbstractAttributableMod
+1191,org.apache.syncope.core.persistence.validation.entity.NotificationValidator
+1199,org.apache.syncope.common.types.WorkflowTasks
+1209,org.apache.syncope.core.rest.controller.UnresolvedReferenceException
+1215,org.apache.syncope.console.init.PreviewPanelClassInitializer
+1229,org.apache.syncope.console.preview.PreviewerClassScanner
+1230,org.apache.syncope.console.wicket.markup.html.form.preview.AbstractBinaryPreviewer
+1237,org.apache.syncope.core.services.UserSelfServiceImpl
+1261,org.apache.syncope.core.rest.controller.UserController
+1290,org.apache.syncope.core.rest.controller.ControllerHandler
+1318,org.apache.syncope.common.types.AuditElements
+1319,org.apache.syncope.core.audit.AuditManager
+1320,org.apache.syncope.core.notification.NotificationManager
+1324,org.apache.syncope.core.rest.controller.AbstractController
+1391,org.apache.syncope.core.persistence.beans.AbstractAttr
+1392,org.apache.syncope.core.persistence.beans.AbstractAttributable
+1393,org.apache.syncope.core.persistence.beans.AbstractVirAttr
+1394,org.apache.syncope.core.persistence.beans.role.SyncopeRole
+1395,org.apache.syncope.core.persistence.beans.membership.MDerAttrTemplate
+1396,org.apache.syncope.core.persistence.beans.membership.MVirAttrTemplate
+1397,org.apache.syncope.core.persistence.beans.membership.MAttr
+1398,org.apache.syncope.core.persistence.beans.membership.MDerAttr
+1399,org.apache.syncope.core.persistence.beans.membership.MVirAttr
+1425,org.apache.syncope.core.rest.controller.NotificationController
+1454,org.apache.syncope.common.to.NotificationTO
+1455,org.apache.syncope.core.persistence.beans.Notification
+1456,org.apache.syncope.core.persistence.dao.NotFoundException
+1458,org.apache.syncope.core.rest.data.NotificationDataBinder
+1459,org.apache.syncope.core.rest.controller.AbstractTransactionalController
+1473,org.apache.syncope.core.workflow.user.activiti.task.PasswordReset
+1481,org.apache.syncope.core.workflow.WorkflowException
+1482,org.apache.syncope.core.workflow.user.activiti.ActivitiUserWorkflowAdapter
+1493,org.apache.syncope.core.propagation.impl.AbstractPropagationTaskExecutor
+1603,org.apache.syncope.common.types.PropagationTaskExecStatus
+1604,org.apache.syncope.common.types.TraceLevel
+1605,org.apache.syncope.core.connid.ConnObjectUtil
+1606,org.apache.syncope.core.persistence.beans.AbstractSubject
+1607,org.apache.syncope.core.persistence.beans.PropagationTask
+1608,org.apache.syncope.core.persistence.beans.TaskExec
+1615,org.apache.syncope.core.propagation.TimeoutException
+1616,org.apache.syncope.core.util.ApplicationContextProvider
+1617,org.apache.syncope.core.util.AttributableUtil
+1618,org.apache.syncope.core.util.ExceptionUtil
+1621,org.apache.syncope.core.persistence.beans.AbstractExec
+1622,org.apache.syncope.common.types.ResourceOperation
+1623,org.apache.syncope.core.persistence.beans.Task
+1687,org.apache.syncope.core.sync.impl.RoleSyncResultHandler
+1740,org.apache.syncope.common.mod.AbstractSubjectMod
+1741,org.apache.syncope.common.mod.AttributeMod
+1742,org.apache.syncope.common.mod.RoleMod
+1743,org.apache.syncope.core.sync.SyncResult
+1744,org.apache.syncope.core.workflow.WorkflowResult
+1746,org.apache.syncope.core.sync.impl.AbstractSubjectSyncResultHandler
+1747,org.apache.syncope.core.sync.SyncProfile
+1749,org.apache.syncope.core.persistence.beans.AbstractSyncTask
+1750,org.apache.syncope.core.propagation.impl.PropagationManager
+1797,org.apache.syncope.core.rest.controller.ReportController
+1898,org.apache.syncope.common.to.ReportExecTO
+1899,org.apache.syncope.common.to.ReportTO
+1900,org.apache.syncope.common.types.ReportExecExportFormat
+1901,org.apache.syncope.common.types.ReportExecStatus
+1902,org.apache.syncope.core.init.JobInstanceLoader
+1903,org.apache.syncope.core.persistence.beans.Report
+1904,org.apache.syncope.core.persistence.beans.ReportExec
+1908,org.apache.syncope.core.report.cocoon.TextSerializer
+1909,org.apache.syncope.core.rest.data.ReportDataBinder
+1912,org.apache.syncope.common.to.AbstractExecTO
+1950,org.apache.syncope.core.persistence.beans.PushPolicy
+1955,org.apache.syncope.common.types.PolicyType
+1956,org.apache.syncope.core.persistence.beans.Policy
+1963,org.apache.syncope.console.pages.WelcomePage
+1973,org.apache.syncope.console.SyncopeApplication
+1974,org.apache.syncope.console.commons.XMLRolesReader
+1975,org.apache.syncope.console.rest.UserSelfRestClient
+1980,org.apache.syncope.console.wicket.markup.html.form.NonI18nPalette
+1995,org.apache.syncope.core.propagation.impl.DefaultPropagationReporter
+2015,org.apache.syncope.common.to.PropagationStatus
+2032,org.apache.syncope.core.util.jexl.JexlUtil
+2116,org.apache.syncope.core.util.jexl.ClassFreeUberspectImpl
+2117,org.apache.syncope.core.util.jexl.EmptyClassLoader
+2118,org.apache.syncope.core.persistence.beans.AbstractDerSchema
+2141,org.apache.syncope.common.to.DerSchemaTO
+2142,org.apache.syncope.common.to.VirSchemaTO
+2179,org.apache.syncope.console.wicket.markup.html.form.DateTimeFieldPanel
+2248,org.apache.syncope.console.wicket.markup.html.form.DateFieldPanel
+2261,org.apache.syncope.installer.files.ModelerPom
+2266,org.apache.syncope.core.persistence.validation.entity.AttrValidator
+2276,org.apache.syncope.common.types.EntityViolationType
+2278,org.apache.syncope.core.persistence.validation.entity.AbstractValidator
+2287,org.apache.syncope.core.persistence.validation.entity.SchemaValidator
+2303,org.apache.syncope.core.persistence.dao.ConnInstanceTest
+2325,org.apache.syncope.common.types.ConnConfPropSchema
+2326,org.apache.syncope.common.types.ConnConfProperty
+2327,org.apache.syncope.core.persistence.beans.ConnInstance
+2328,org.apache.syncope.core.persistence.dao.AbstractDAOTest
+2359,org.apache.syncope.core.init.LoggerLoader
+2380,org.apache.syncope.common.types.LoggerLevel
+2381,org.apache.syncope.common.types.LoggerType
+2382,org.apache.syncope.core.persistence.beans.SyncopeLogger
+2398,org.apache.syncope.core.persistence.beans.SchedTask
+2420,org.apache.syncope.console.pages.panels.RoleTabPanel
+2475,org.apache.syncope.console.pages.ResultStatusModalPage
+2476,org.apache.syncope.console.pages.RoleModalPage
+2477,org.apache.syncope.console.pages.Roles
+2478,org.apache.syncope.console.pages.StatusModalPage
+2479,org.apache.syncope.console.rest.RoleRestClient
+2480,org.apache.syncope.console.rest.UserRestClient
+2481,org.apache.syncope.console.wicket.ajax.markup.html.ClearIndicatingAjaxButton
+2482,org.apache.syncope.console.wicket.markup.html.form.ActionLink
+2483,org.apache.syncope.console.wicket.markup.html.form.ActionLinksPanel
+2485,org.apache.syncope.console.pages.panels.RolePanel
+2488,org.apache.syncope.console.pages.panels.UserSearchResultPanel
+2506,org.apache.syncope.common.to.AbstractSysInfoTO
+2513,org.apache.syncope.common.search.UserFiqlSearchConditionBuilder
+2518,org.apache.syncope.core.services.ResourceServiceImpl
+2553,org.apache.syncope.common.reqres.BulkAction
+2555,org.apache.syncope.common.wrap.PropagationActionClass
+2556,org.apache.syncope.common.wrap.SubjectId
+2557,org.apache.syncope.core.rest.controller.AbstractResourceAssociator
+2558,org.apache.syncope.core.rest.controller.ResourceController
+2559,org.apache.syncope.core.rest.controller.RoleController
+2598,org.apache.syncope.console.pages.panels.SelectOnlyUserSearchResultPanel
+2630,org.apache.syncope.console.pages.DisplayAttributesModalPage
+2635,org.apache.syncope.console.pages.panels.RoleDetailsPanel
+2652,org.apache.syncope.common.AbstractBaseBean
+2655,org.apache.syncope.core.persistence.dao.impl.ReportDAOImpl
+2685,org.apache.syncope.core.persistence.dao.impl.AbstractDAOImpl
+2706,org.apache.syncope.core.rest.controller.UnauthorizedRoleException
+2712,org.apache.syncope.console.pages.panels.LoggerCategoryPanel
+2826,org.apache.syncope.common.to.EventCategoryTO
+2827,org.apache.syncope.common.util.LoggerEventUtils
+2830,org.apache.syncope.console.pages.panels.SelectedEventsPanel
+2841,org.apache.syncope.console.pages.panels.EventSelectionPanel
+2936,org.apache.syncope.common.search.SearchableFields
+2937,org.apache.syncope.console.commons.PreferenceManager
+2946,org.apache.syncope.console.pages.BasePage
+2949,org.apache.syncope.common.types.ResourceAssociationActionType
+3015,org.apache.syncope.console.pages.panels.AbstractSearchResultPanel
+3016,org.apache.syncope.console.pages.panels.RoleSearchPanel
+3017,org.apache.syncope.console.pages.panels.RoleSearchResultPanel
+3018,org.apache.syncope.console.pages.panels.RoleSummaryPanel
+3019,org.apache.syncope.console.wicket.markup.html.tree.TreeRolePanel
+3033,org.apache.syncope.console.pages.panels.AbstractSearchPanel
+3046,org.apache.syncope.console.pages.Configuration
+3271,org.apache.syncope.common.to.LoggerTO
+3272,org.apache.syncope.common.to.SecurityQuestionTO
+3273,org.apache.syncope.console.commons.AttrLayoutType
+3274,org.apache.syncope.console.commons.SortableDataProviderComparator
+3275,org.apache.syncope.console.pages.panels.LayoutsPanel
+3276,org.apache.syncope.console.pages.panels.PoliciesPanel
+3277,org.apache.syncope.console.rest.LoggerRestClient
+3278,org.apache.syncope.console.rest.NotificationRestClient
+3279,org.apache.syncope.console.rest.SecurityQuestionRestClient
+3280,org.apache.syncope.console.rest.WorkflowRestClient
+3281,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.CollectionPropertyColumn
+3282,org.apache.syncope.console.wicket.markup.html.link.VeilPopupSettings
+3285,org.apache.syncope.console.pages.ActivitiModelerPopupPage
+3286,org.apache.syncope.console.pages.XMLEditorPopupPage
+3315,org.apache.syncope.console.pages.NotificationModalPage
+3319,org.apache.syncope.console.pages.SecurityQuestionModalPage
+3323,org.apache.syncope.console.pages.ConfModalPage
+3325,org.apache.syncope.console.rest.ConfigurationRestClient
+3333,org.apache.syncope.core.persistence.validation.entity.SyncopeRoleValidator
+3335,org.apache.syncope.console.pages.AbstractSchedTaskModalPage
+3367,org.apache.syncope.common.to.SchedTaskTO
+3368,org.apache.syncope.console.markup.html.CrontabContainer
+3370,org.apache.syncope.console.pages.TaskModalPage
+3371,org.apache.syncope.common.to.AbstractTaskTO
+3384,org.apache.syncope.core.rest.controller.ConnectorController
+3477,org.apache.syncope.common.to.ConnBundleTO
+3478,org.apache.syncope.common.to.ConnInstanceTO
+3479,org.apache.syncope.core.rest.data.ConnInstanceDataBinder
+3480,org.apache.syncope.core.util.ConnIdBundleManager
+3508,org.apache.syncope.core.services.UserWorkflowServiceImpl
+3523,org.apache.syncope.core.rest.controller.UserWorkflowController
+3534,org.apache.syncope.core.audit.AuditConnectionFactory
+3624,org.apache.syncope.common.mod.ReferenceMod
+3643,org.apache.syncope.core.security.EncryptorTest
+3656,org.apache.syncope.core.persistence.beans.membership.MVirSchema
+3660,org.apache.syncope.core.persistence.beans.role.RVirAttrTemplate
+3670,org.apache.syncope.core.persistence.beans.AbstractAttrTemplate
+3676,org.apache.syncope.core.persistence.beans.conf.CSchema
+3718,org.apache.syncope.core.services.ReportServiceImpl
+3763,org.apache.syncope.common.wrap.ReportletConfClass
+3795,org.apache.syncope.installer.utilities.MavenUtils
+3914,org.apache.syncope.installer.utilities.InstallLog
+3915,org.apache.syncope.installer.utilities.FileSystemUtils
+3921,org.apache.syncope.buildtools.ApacheDSStartStopListener
+4038,org.apache.syncope.buildtools.LdifURLLoader
+4039,org.apache.syncope.buildtools.JarSchemaLdifExtractor
+4044,org.apache.syncope.core.persistence.dao.impl.ConfDAOImpl
+4063,org.apache.syncope.core.persistence.beans.conf.CAttr
+4064,org.apache.syncope.core.persistence.beans.conf.SyncopeConf
+4067,org.apache.syncope.core.persistence.beans.AbstractAttrValue
+4095,org.apache.syncope.core.quartz.AbstractTransactionalTaskJob
+4101,org.apache.syncope.core.quartz.AbstractTaskJob
+4121,org.apache.syncope.core.rest.utils.RestServiceExceptionMapper
+4197,org.apache.syncope.common.SyncopeClientCompositeException
+4198,org.apache.syncope.common.reqres.ErrorTO
+4199,org.apache.syncope.core.persistence.validation.attrvalue.ParsingValidationException
+4226,org.apache.syncope.core.persistence.validation.attrvalue.InvalidAttrValueException
+4240,org.apache.syncope.common.types.UnmatchingRule
+4256,org.apache.syncope.console.pages.ReportModalPage
+4450,org.apache.syncope.common.report.AbstractReportletConf
+4451,org.apache.syncope.console.wicket.ajax.form.AbstractAjaxDownloadBehavior
+4452,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.ActionColumn
+4453,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.DatePropertyColumn
+4455,org.apache.syncope.console.rest.ReportRestClient
+4470,org.apache.syncope.console.pages.ExecMessageModalPage
+4472,org.apache.syncope.console.pages.ReportExecResultDownloadModalPage
+4481,org.apache.syncope.console.pages.ReportletConfModalPage
+4522,org.apache.syncope.core.sync.impl.AbstractSyncopeResultHandler
+4525,org.apache.syncope.core.workflow.user.activiti.ActivitiWorkflowLoader
+4575,org.apache.syncope.core.util.ResourceWithFallbackLoader
+4577,org.apache.syncope.core.workflow.user.activiti.ActivitiImportUtils
+4597,org.apache.syncope.console.commons.CloseOnESCBehavior
+4632,org.apache.syncope.console.rest.BaseRestClient
+4635,org.apache.syncope.core.persistence.dao.search.SearchCond
+4719,org.apache.syncope.core.persistence.dao.search.AbstractSearchCond
+4720,org.apache.syncope.core.persistence.dao.search.AttributeCond
+4721,org.apache.syncope.core.persistence.dao.search.EntitlementCond
+4722,org.apache.syncope.core.persistence.dao.search.MembershipCond
+4723,org.apache.syncope.core.persistence.dao.search.ResourceCond
+4724,org.apache.syncope.core.persistence.dao.search.SubjectCond
+4731,org.apache.syncope.common.types.MatchingRule
+4744,org.apache.syncope.console.commons.SelectOption
+4776,org.apache.syncope.core.persistence.dao.impl.AbstractContentDealer
+4796,org.apache.syncope.console.pages.panels.AttrTemplatesPanel
+4844,org.apache.syncope.console.commons.SelectChoiceRenderer
+4853,org.apache.syncope.core.persistence.dao.impl.MembershipDAOImpl
+4882,org.apache.syncope.core.persistence.validation.entity.AttrValueValidator
+4890,org.apache.syncope.core.persistence.beans.AbstractAttrUniqueValue
+4903,org.apache.syncope.core.persistence.dao.DerAttrTest
+4958,org.apache.syncope.core.persistence.beans.membership.MAttrValue
+4959,org.apache.syncope.core.persistence.beans.membership.MDerSchema
+4960,org.apache.syncope.core.persistence.beans.role.RAttrValue
+4961,org.apache.syncope.core.persistence.beans.role.RDerAttr
+4962,org.apache.syncope.core.persistence.beans.role.RDerAttrTemplate
+4963,org.apache.syncope.core.persistence.beans.role.RDerSchema
+4964,org.apache.syncope.core.persistence.beans.user.UAttrValue
+4965,org.apache.syncope.core.persistence.beans.user.UDerAttr
+4966,org.apache.syncope.core.persistence.beans.user.UDerSchema
+4986,org.apache.syncope.client.rest.RestClientExceptionMapper
+5113,org.apache.syncope.console.pages.panels.MembershipsPanel
+5114,org.apache.syncope.console.pages.panels.ResourcesPanel
+5115,org.apache.syncope.console.pages.panels.SecurityQuestionPanel
+5116,org.apache.syncope.console.pages.panels.UserDetailsPanel
+5124,org.apache.syncope.core.persistence.dao.UserTest
+5645,org.apache.syncope.common.mod.MembershipMod
+5646,org.apache.syncope.common.mod.ResourceAssociationMod
+5648,org.apache.syncope.common.to.PasswordPolicyTO
+5649,org.apache.syncope.common.to.PropagationTaskTO
+5650,org.apache.syncope.common.types.Preference
+5651,org.apache.syncope.common.types.TaskType
+5652,org.apache.syncope.common.util.AttributableOperations
+5653,org.apache.syncope.core.propagation.impl.DBPasswordPropagationActions
+5654,org.apache.syncope.core.propagation.impl.LDAPPasswordPropagationActions
+5656,org.apache.syncope.common.to.AbstractPolicyTO
+5754,org.apache.syncope.core.persistence.dao.AttributableSearchTest
+5891,org.apache.syncope.common.util.BeanUtils
+5908,org.apache.syncope.console.pages.panels.AbstractSyncTasksPanel
+5941,org.apache.syncope.common.to.SyncTaskTO
+5942,org.apache.syncope.console.pages.PushTaskModalPage
+5943,org.apache.syncope.console.pages.SyncTaskModalPage
+5944,org.apache.syncope.console.pages.Tasks
+5946,org.apache.syncope.console.wicket.ajax.markup.html.ClearIndicatingAjaxLink
+5947,org.apache.syncope.console.pages.panels.AbstractTasks
+5948,org.apache.syncope.console.pages.panels.AjaxDataTablePanel
+5963,org.apache.syncope.console.pages.panels.DataTablePanel
+5971,org.apache.syncope.core.cache.VirAttrCacheValue
+6005,org.apache.syncope.installer.files.ModelerTokenValueMap
+6025,org.apache.syncope.console.pages.RequestPasswordResetModalPage
+6070,org.apache.syncope.core.AbstractTest
+6080,org.apache.syncope.console.wicket.markup.html.form.LinkPanel
+6090,org.apache.syncope.console.pages.ConnectorModalPage
+6191,org.apache.syncope.common.to.ConnPoolConfTO
+6192,org.apache.syncope.console.markup.html.list.ConnConfPropertyListView
+6193,org.apache.syncope.console.rest.ConnectorRestClient
+6210,org.apache.syncope.console.pages.Resources
+6256,org.apache.syncope.core.util.POJOHelper
+6273,org.apache.syncope.core.persistence.relationships.ResourceTest
+6323,org.apache.syncope.core.persistence.beans.PasswordPolicy
+6324,org.apache.syncope.core.persistence.beans.role.RMappingItem
+6325,org.apache.syncope.core.persistence.beans.user.UMappingItem
+6327,org.apache.syncope.core.persistence.beans.role.RMapping
+6376,org.apache.syncope.installer.files.OrmXml
+6395,org.apache.syncope.installer.processes.PersistenceProcess
+6414,org.apache.syncope.installer.enums.DBs
+6415,org.apache.syncope.installer.files.PersistenceProperties
+6436,org.apache.syncope.core.persistence.beans.user.UVirSchema
+6475,org.apache.syncope.console.pages.BulkActionResultModalPage
+6500,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.ActionResultColumn
+6503,org.apache.syncope.console.pages.panels.AccountInformationPanel
+6511,org.apache.syncope.core.rest.data.SecurityQuestionDataBinder
+6521,org.apache.syncope.core.persistence.beans.SecurityQuestion
+6601,org.apache.syncope.console.pages.EditUserModalPage
+6602,org.apache.syncope.console.rest.AbstractSubjectRestClient
+6603,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.AttrColumn
+6604,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.TokenColumn
+6666,org.apache.syncope.console.wicket.markup.html.form.AjaxDecoratedCheckbox
+6693,org.apache.syncope.console.commons.JexlHelpUtil
+6846,org.apache.syncope.core.persistence.beans.AbstractSchema
+6847,org.apache.syncope.core.persistence.beans.AccountPolicy
+6848,org.apache.syncope.core.persistence.beans.membership.MAttrTemplate
+6849,org.apache.syncope.core.persistence.beans.role.RAttr
+6850,org.apache.syncope.core.persistence.beans.role.RVirAttr
+6851,org.apache.syncope.core.persistence.beans.role.RAttrTemplate
+6852,org.apache.syncope.core.persistence.beans.role.RSchema
+6912,org.apache.syncope.core.init.ConnectorManager
+6950,org.apache.syncope.core.propagation.impl.ConnectorFacadeProxy
+6958,org.apache.syncope.console.pages.InfoModalPage
+6965,org.apache.syncope.core.persistence.dao.impl.VirSchemaDAOImpl
+6994,org.apache.syncope.core.persistence.beans.user.UVirAttr
+7014,org.apache.syncope.core.services.RoleServiceImpl
+7120,org.apache.syncope.core.persistence.beans.user.UAttrUniqueValue
+7136,org.apache.syncope.core.persistence.beans.user.UAttr
+7198,org.apache.syncope.client.ConcurrencyTest
+7217,org.apache.syncope.console.wicket.markup.html.form.AjaxPasswordFieldPanel
+7230,org.apache.syncope.console.pages.ResourceModalPage
+7270,org.apache.syncope.console.pages.panels.ResourceConnConfPanel
+7271,org.apache.syncope.console.pages.panels.ResourceDetailsPanel
+7272,org.apache.syncope.console.pages.panels.ResourceMappingPanel
+7273,org.apache.syncope.console.pages.panels.ResourceSecurityPanel
+7274,org.apache.syncope.console.rest.ResourceRestClient
+7285,org.apache.syncope.console.pages.panels.SearchClause
+7339,org.apache.syncope.installer.processes.ArchetypeProcess
+7376,org.apache.syncope.installer.files.ParentPom
+7384,org.apache.syncope.console.ConnInstanceTestITCase
+7416,org.apache.syncope.console.AbstractTest
+7522,org.apache.syncope.console.pages.RoleTemplateModalPage
+7532,org.apache.syncope.console.rest.TaskRestClient
+7540,org.apache.syncope.console.rest.ApprovalRestClient
+7608,org.apache.syncope.common.to.TaskExecTO
+7609,org.apache.syncope.console.pages.panels.NotificationTasks
+7610,org.apache.syncope.console.pages.panels.PropagationTasks
+7611,org.apache.syncope.console.pages.panels.SchedTasks
+7612,org.apache.syncope.console.pages.panels.PushTasksPanel
+7613,org.apache.syncope.console.pages.panels.SyncTasksPanel
+7645,org.apache.syncope.common.to.ConfTO
+7826,org.apache.syncope.core.connid.ConnPoolConfUtil
+7827,org.apache.syncope.core.propagation.impl.AsyncConnectorFacade
+7945,org.apache.syncope.core.notification.NotificationTest
+8096,org.apache.syncope.common.to.NotificationTaskTO
+8097,org.apache.syncope.core.persistence.beans.NotificationTask
+8098,org.apache.syncope.core.rest.controller.TaskController
+8099,org.apache.syncope.core.notification.NotificationJob
+8101,org.apache.syncope.common.search.RoleFiqlSearchConditionBuilder
+8125,org.apache.syncope.core.persistence.beans.AbstractMapping
+8155,org.apache.syncope.console.pages.panels.ActionDataTablePanel
+8209,org.apache.syncope.console.commons.ActionTableCheckGroup
+8210,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.CheckGroupColumn
+8251,org.apache.syncope.common.to.AccountPolicyTO
+8252,org.apache.syncope.common.to.SyncPolicyTO
+8262,org.apache.syncope.installer.validators.ArchetypeValidator
+8283,org.apache.syncope.installer.validators.AbstractValidator
+8321,org.apache.syncope.core.persistence.beans.membership.MSchema
+8323,org.apache.syncope.core.persistence.dao.impl.ReportExecDAOImpl
+8525,org.apache.syncope.core.propagation.PropagationByResource
+8526,org.apache.syncope.core.rest.data.AbstractAttributableDataBinder
+8527,org.apache.syncope.core.util.MappingUtil
+8556,org.apache.syncope.core.persistence.dao.ReportTest
+8658,org.apache.syncope.console.pages.panels.UserSearchPanel
+8675,org.apache.syncope.core.cache.DisabledVirAttrCache
+8745,org.apache.syncope.core.util.InvalidPasswordPolicySpecException
+8753,org.apache.syncope.installer.processes.ContainerProcess
+8810,org.apache.syncope.installer.containers.Glassfish
+8811,org.apache.syncope.installer.containers.Tomcat
+8812,org.apache.syncope.installer.containers.jboss.JBoss
+8813,org.apache.syncope.installer.enums.Containers
+8814,org.apache.syncope.installer.files.GlassfishCoreWebXml
+8815,org.apache.syncope.installer.files.JBossDeploymentStructureXml
+8816,org.apache.syncope.installer.files.PersistenceContextEMFactoryXml
+8817,org.apache.syncope.installer.files.CoreWebXml
+8889,org.apache.syncope.core.persistence.dao.VirSchemaTest
+8954,org.apache.syncope.core.rest.data.SchemaDataBinder
+9024,org.apache.syncope.core.rest.RoleTestITCase
+9200,org.apache.syncope.console.pages.ConnObjectModalPage
+9223,org.apache.syncope.core.persistence.relationships.UserTest
+9238,org.apache.syncope.console.init.SpringContextInitializer
+9243,org.apache.syncope.console.init.MIMETypesInitializer
+9247,org.apache.syncope.console.commons.SortableAttributableProviderComparator
+9280,org.apache.syncope.core.rest.data.DefaultAttributableTransformer
+9289,org.apache.syncope.console.pages.PropagationTaskModalPage
+9475,org.apache.syncope.core.propagation.PropagationException
+9476,org.apache.syncope.core.rest.controller.AbstractSubjectController
+9499,org.apache.syncope.buildtools.H2StartStopListener
+9607,org.apache.syncope.core.persistence.dao.NotificationTest
+9743,org.apache.syncope.core.util.SecureRandomUtil
+9771,org.apache.syncope.console.commons.ConnIdAttribute
+9790,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.CheckBoxGroupSelectorPanel
+9791,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.CheckBoxPanel
+9796,org.apache.syncope.console.commons.status.StatusUtils
+9883,org.apache.syncope.console.commons.ConnIdSpecialAttributeName
+9884,org.apache.syncope.console.pages.panels.ImagePanel
+9885,org.apache.syncope.console.pages.panels.StatusPanel
+9886,org.apache.syncope.console.commons.status.ConnObjectWrapper
+9913,org.apache.syncope.core.rest.data.SearchCondVisitor
+9958,org.apache.syncope.common.search.SpecialAttr
+9978,org.apache.syncope.core.persistence.dao.impl.SecurityQuestionDAOImpl
+10025,org.apache.syncope.core.policy.PasswordPolicyException
+10031,org.apache.syncope.core.persistence.dao.impl.TestDbInitializer
+10034,org.apache.syncope.core.persistence.dao.impl.ContentLoader
+10051,org.apache.syncope.core.util.AttributeDeserializer
+10086,org.apache.syncope.core.util.AttributeSerializer
+10090,org.apache.syncope.installer.containers.jboss.JBossAddResponse
+10118,org.apache.syncope.core.persistence.validation.entity.PolicyValidator
+10120,org.apache.syncope.core.rest.controller.UnauthorizedException
+10125,org.apache.syncope.console.commons.SchemaModalPageFactory
+10133,org.apache.syncope.console.pages.AbstractSchemaModalPage
+10134,org.apache.syncope.console.pages.DerSchemaModalPage
+10135,org.apache.syncope.console.pages.SchemaModalPage
+10136,org.apache.syncope.console.pages.VirSchemaModalPage
+10193,org.apache.syncope.core.workflow.user.activiti.task.Update
+10206,org.apache.syncope.core.sync.impl.UserPushResultHandler
+10247,org.apache.syncope.core.sync.impl.AbstractSubjectPushResultHandler
+10271,org.apache.syncope.core.persistence.dao.DummyConnectorRegistry
+10277,org.apache.syncope.console.pages.AbstractSyncTaskModalPage
+10341,org.apache.syncope.core.persistence.dao.ConfTest
+10361,org.apache.syncope.core.persistence.beans.PushTask
+10372,org.apache.syncope.core.sync.impl.PushJob
+10722,org.apache.syncope.common.types.WorkflowFormPropertyType
+10723,org.apache.syncope.core.workflow.WorkflowDefinitionFormat
+10724,org.apache.syncope.core.workflow.user.AbstractUserWorkflowAdapter
+10768,org.apache.syncope.core.report.RoleReportlet
+10822,org.apache.syncope.common.report.RoleReportletConf
+10840,org.apache.syncope.markup.head.MetaHeaderItem
+10856,org.apache.syncope.console.pages.panels.JQueryUITabbedPanel
+10916,org.apache.syncope.core.persistence.validation.entity.SchemaNameValidator
+10960,org.apache.syncope.buildtools.ApacheDSRootDseServlet
+11003,org.apache.syncope.core.rest.data.SearchCondConverterTest
+11050,org.apache.syncope.console.pages.Reports
+11144,org.apache.syncope.common.types.AuditLoggerName
+11191,org.apache.syncope.core.persistence.beans.ReportletConfInstance
+11286,org.apache.syncope.console.pages.Login
+11287,org.apache.syncope.console.pages.Logout
+11288,org.apache.syncope.console.pages.Schema
+11289,org.apache.syncope.console.pages.Todo
+11290,org.apache.syncope.console.pages.UserSelfModalPage
+11291,org.apache.syncope.console.pages.Users
+11292,org.apache.syncope.console.resources.FilesystemResource
+11293,org.apache.syncope.console.resources.WorkflowDefGETResource
+11294,org.apache.syncope.console.resources.WorkflowDefPUTResource
+11296,org.apache.syncope.console.SyncopeRequestCycleListener
+11312,org.apache.syncope.core.util.VelocityEngineFactoryBean
+11335,org.apache.syncope.core.util.SpringVelocityResourceLoader
+11341,org.apache.syncope.core.persistence.dao.impl.OrderBySupport
+11350,org.apache.syncope.core.persistence.dao.impl.SearchSupport
+11355,org.apache.syncope.core.report.ReportJob
+11407,org.apache.syncope.console.AccessTestITCase
+11410,org.apache.syncope.core.rest.controller.SecurityQuestionController
+11479,org.apache.syncope.console.pages.AbstractStatusModalPage
+11483,org.apache.syncope.core.workflow.user.activiti.task.Delete
+11508,org.apache.syncope.console.pages.SchedTaskModalPage
+11564,org.apache.syncope.core.rest.TaskTestITCase
+11807,org.apache.syncope.common.wrap.JobClass
+11808,org.apache.syncope.common.wrap.SyncActionClass
+11809,org.apache.syncope.common.wrap.PushActionClass
+11810,org.apache.syncope.core.sync.TestSyncActions
+11811,org.apache.syncope.core.sync.TestSyncRule
+11812,org.apache.syncope.core.sync.impl.DBPasswordSyncActions
+11813,org.apache.syncope.core.sync.impl.LDAPPasswordSyncActions
+11814,org.apache.syncope.core.sync.impl.SyncJob
+11815,org.apache.syncope.common.types.SyncPolicySpec
+11864,org.apache.syncope.installer.utilities.DriverLoader
+11908,org.apache.syncope.core.sync.DefaultSyncActions
+11998,org.apache.syncope.installer.containers.AbstractContainer
+11999,org.apache.syncope.installer.utilities.HttpUtils
+12000,org.apache.syncope.installer.utilities.JsonUtils
+12001,org.apache.syncope.installer.containers.jboss.JBossDeployRequestContent
+12063,org.apache.syncope.core.services.NotificationServiceImpl
+12132,org.apache.syncope.core.persistence.beans.membership.MAttrUniqueValue
+12140,org.apache.syncope.core.persistence.beans.conf.CAttrUniqueValue
+12231,org.apache.syncope.core.util.URIUtil
+12234,org.apache.syncope.core.persistence.dao.SecurityQuestionTest
+12259,org.apache.syncope.console.wicket.extensions.markup.html.repeater.data.table.CollectionPanel
+12262,org.apache.syncope.console.pages.HomePage
+12339,org.apache.syncope.core.rest.WADLServlet
+12394,org.apache.syncope.core.report.StaticReportlet
+12405,org.apache.syncope.common.report.StaticReportletConf
+12413,org.apache.syncope.console.rest.AuthRestClient
+12481,org.apache.syncope.core.persistence.validation.entity.ReportValidator
+12493,org.apache.syncope.core.rest.PolicyTestITCase
+12535,org.apache.syncope.common.types.AccountPolicySpec
+12536,org.apache.syncope.common.types.PasswordPolicySpec
+12571,org.apache.syncope.core.sync.impl.UserSyncResultHandler
+12616,org.apache.syncope.core.sync.SyncUtilities
+12932,org.apache.syncope.core.persistence.dao.impl.EntitlementDAOImpl
+12962,org.apache.syncope.console.wicket.markup.html.tree.DefaultMutableTreeNodeExpansion
+13009,org.apache.syncope.core.persistence.beans.conf.CAttrValue
+13090,org.apache.syncope.core.policy.AccountPolicyEnforcerTest
+13103,org.apache.syncope.core.policy.AccountPolicyEnforcer
+13104,org.apache.syncope.core.policy.AccountPolicyException
+13200,org.apache.syncope.core.persistence.beans.SyncPolicy
+13249,org.apache.syncope.core.workflow.WorkflowUserSuspender
+13306,org.apache.syncope.upgrader.util.GuardedStringConverter
+13359,org.apache.syncope.core.security.SyncopeAuthenticationProvider
+13412,org.apache.syncope.core.security.SyncopeUserDetailsService
+13440,org.apache.syncope.core.policy.PasswordPolicyEnforcer
+13472,org.apache.syncope.core.policy.PolicyEnforcer
+13473,org.apache.syncope.core.policy.PolicyEnforceException
+13596,org.apache.syncope.core.workflow.user.NoOpUserWorkflowAdapter
+13807,org.apache.syncope.console.pages.RoleSelectModalPage
+13808,org.apache.syncope.console.pages.UserOwnerSelectModalPage
+13814,org.apache.syncope.core.workflow.user.activiti.SyncopeUserQueryImpl
+13875,org.apache.syncope.core.util.TaskUtil
+13904,org.apache.syncope.core.persistence.beans.SyncTask
+13906,org.apache.syncope.core.rest.controller.PolicyController
+13956,org.apache.syncope.core.init.ImplementationClassNamesLoader
+13957,org.apache.syncope.core.rest.data.PolicyDataBinder
+14019,org.apache.syncope.core.cache.MemoryVirAttrCache
+14051,org.apache.syncope.core.cache.VirAttrCacheKey
+14068,org.apache.syncope.common.wrap.CorrelationRuleClass
+14083,org.apache.syncope.core.services.TaskServiceImpl
+14260,org.apache.syncope.console.pages.ConfirmPasswordResetModalPage
+14290,org.apache.syncope.console.pages.NotificationTaskModalPage
+14313,org.apache.syncope.console.pages.ApprovalModalPage
+14391,org.apache.syncope.console.commons.MapChoiceRenderer
+14396,org.apache.syncope.console.pages.ViewUserModalPage
+14398,org.apache.syncope.console.pages.BulkActionModalPage
+14444,org.apache.syncope.core.services.ConfigurationServiceImpl
+14463,org.apache.syncope.common.wrap.MailTemplate
+14464,org.apache.syncope.common.wrap.Validator
+14465,org.apache.syncope.core.rest.controller.ConfigurationController
+14499,org.apache.syncope.core.persistence.dao.impl.AttrValueDAOImpl
+14570,org.apache.syncope.console.wicket.markup.html.form.DateTextFieldPanel
+14592,org.apache.syncope.core.workflow.role.NoOpRoleWorkflowAdapter
+14625,org.apache.syncope.core.workflow.role.AbstractRoleWorkflowAdapter
+14721,org.apache.syncope.core.persistence.validation.entity.ConnInstanceValidator
+14733,org.apache.syncope.core.rest.ConnectorTestITCase
+14849,org.apache.syncope.common.to.ConnIdObjectClassTO
+14869,org.apache.syncope.core.services.EntitlementServiceImpl
+14873,org.apache.syncope.core.rest.controller.EntitlementController
+14930,org.apache.syncope.core.persistence.validation.entity.PropagationTaskValidator
+14940,org.apache.syncope.core.services.WorkflowServiceImpl
+14967,org.apache.syncope.core.rest.controller.WorkflowController
+15051,org.apache.syncope.core.sync.impl.AbstractSyncJob
+15075,org.apache.syncope.core.persistence.dao.impl.SchemaDAOImpl
+15110,org.apache.syncope.core.services.LoggerServiceImpl
+15131,org.apache.syncope.core.rest.controller.LoggerController
+15324,org.apache.syncope.console.pages.PolicyModalPage
+15472,org.apache.syncope.core.persistence.validation.entity.AbstractSyncTaskValidator
+15474,org.apache.syncope.console.wicket.markup.html.form.preview.BinaryImagePreviewer
+15535,org.apache.syncope.core.propagation.DefaultPropagationActions
+15571,org.apache.syncope.core.util.GuardedStringSerializer
+15572,org.apache.syncope.core.util.SyncTokenSerializer
+15573,org.apache.syncope.core.util.GuardedStringDeserializer
+15574,org.apache.syncope.core.util.SyncTokenDeserializer
+15750,org.apache.syncope.client.rest.RestClientFactoryBean
+15751,org.apache.syncope.common.search.OrderByClauseBuilder
+15806,org.apache.syncope.common.types.ConflictResolutionAction
+16067,org.apache.syncope.console.pages.UserTemplateModalPage
+16338,org.apache.syncope.console.RoleTestITCase
+16407,org.apache.syncope.core.rest.data.UnwrappedObjectMapper
+16445,org.apache.syncope.core.rest.VirAttrTestITCase
+16549,org.apache.syncope.core.persistence.dao.impl.DerSchemaDAOImpl
+16634,org.apache.syncope.core.persistence.SysInfoListener
+16654,org.apache.syncope.core.workflow.user.activiti.task.Reactivate
+16720,org.apache.syncope.core.quartz.SampleJob
+16760,org.apache.syncope.core.persistence.dao.impl.AbstractSubjectDAOImpl
+16861,org.apache.syncope.console.pages.panels.SearchView
+17118,org.apache.syncope.console.wicket.ajax.markup.html.IndicatingOnConfirmAjaxLink
+17143,org.apache.syncope.core.persistence.relationships.ReportTest
+17207,org.apache.syncope.core.persistence.relationships.SchemaTest
+17228,org.apache.syncope.core.persistence.dao.impl.RoleDAOImpl
+17438,org.apache.syncope.core.persistence.validation.attrvalue.AbstractValidator
+17439,org.apache.syncope.core.persistence.validation.attrvalue.BasicValidator
+17442,org.apache.syncope.core.persistence.dao.impl.ConnInstanceDAOImpl
+17821,org.apache.syncope.console.wicket.markup.html.form.CheckBoxMultipleChoiceFieldPanel
+17898,org.apache.syncope.core.rest.LoggerTestITCase
+18012,org.apache.syncope.core.persistence.dao.EntitlementTest
+18291,org.apache.syncope.common.JSONTest
+18342,org.apache.syncope.core.persistence.dao.TaskTest
+18499,org.apache.syncope.console.commons.AttributableDataProvider
+18570,org.apache.syncope.console.ResourceTestITCase
+18600,org.apache.syncope.core.persistence.beans.ConnPoolConf
+18612,org.apache.syncope.core.services.ConnectorServiceImpl
+18710,org.apache.syncope.console.rest.InvalidPolicyType
+18716,org.apache.syncope.upgrader.ContentUpgrader
+18895,org.apache.syncope.upgrader.util.XMLDeserializer
+18896,org.apache.syncope.upgrader.util.SyncopeDefParams
+18922,org.apache.syncope.core.workflow.user.activiti.task.Suspend
+18929,org.apache.syncope.core.persistence.validation.entity.SchedTaskValidator
+19216,org.apache.syncope.console.TaskTestITCase
+19261,org.apache.syncope.core.persistence.SQLSchemaGenerator
+19333,org.apache.syncope.core.workflow.user.activiti.SyncopeUserManager
+19475,org.apache.syncope.core.persistence.validation.entity.SyncopeUserValidator
+19502,org.apache.syncope.core.persistence.dao.VirAttrTest
+19624,org.apache.syncope.console.ConfigurationTestITCase
+19643,org.apache.syncope.core.persistence.dao.MembershipTest
+19660,org.apache.syncope.core.rest.UserSelfTestITCase
+19778,org.apache.syncope.core.workflow.user.activiti.task.Create
+19832,org.apache.syncope.console.wicket.markup.html.form.SelectableRecorder
+20058,org.apache.syncope.core.workflow.user.activiti.task.AutoActivate
+20075,org.apache.syncope.core.init.SpringContextInitializer
+20083,org.apache.syncope.core.init.WorkflowAdapterLoader
+20169,org.apache.syncope.console.pages.ErrorPage
+20175,org.apache.syncope.core.persistence.relationships.TaskTest
+20224,org.apache.syncope.core.persistence.validation.attrvalue.EmailAddressValidator
+20244,org.apache.syncope.buildtools.ServiceTimeoutServlet
+20259,org.apache.syncope.core.workflow.user.activiti.task.GenerateToken
+20278,org.apache.syncope.core.persistence.validation.entity.ExternalResourceValidator
+20284,org.apache.syncope.core.workflow.user.activiti.SyncopeEntitiesVariableType
+20291,org.apache.syncope.core.persistence.dao.impl.AttrTemplateDAOImpl
+20374,org.apache.syncope.core.rest.utils.QueryResourceInfoComparator
+20458,org.apache.syncope.console.commons.RoleTreeBuilder
+20459,org.apache.syncope.console.wicket.markup.html.tree.DefaultMutableTreeNodeExpansionModel
+20460,org.apache.syncope.console.wicket.markup.html.tree.TreeRoleProvider
+20492,org.apache.syncope.core.persistence.beans.role.RAttrUniqueValue
+20497,org.apache.syncope.core.policy.PolicyEvaluator
+20647,org.apache.syncope.core.rest.data.TaskDataBinder
+20752,org.apache.syncope.core.workflow.user.activiti.SyncopeGroupQueryImpl
+20872,org.apache.syncope.core.persistence.validation.entity.EntityValidationListener
+21023,org.apache.syncope.core.connid.PasswordGenerator
+21033,org.apache.syncope.core.init.ConnectorManagerTest
+21121,org.apache.syncope.core.persistence.relationships.AttributableSearchTest
+21132,org.apache.syncope.core.persistence.dao.AttrTest
+21201,org.apache.syncope.core.persistence.dao.impl.NotificationDAOImpl
+21211,org.apache.syncope.core.rest.VirtualSchemaTestITCase
+21263,org.apache.syncope.buildtools.ConnIdStartStopListener
+21597,org.apache.syncope.core.quartz.SpringBeanJobFactory
+21665,org.apache.syncope.console.commons.RoleUtils
+21681,org.apache.syncope.core.services.PolicyServiceImpl
+21754,org.apache.syncope.core.persistence.dao.impl.AttrDAOImpl
+21768,org.apache.syncope.core.rest.UserWorkflowTestITCase
+21825,org.apache.syncope.core.services.SecurityQuestionServiceImpl
+22052,org.apache.syncope.core.sync.impl.LDAPMembershipSyncActions
+22131,org.apache.syncope.core.services.AddETagFilter
+22143,org.apache.syncope.core.rest.ConfigurationTestITCase
+22200,org.apache.syncope.core.sync.SyncTaskTest
+22216,org.apache.syncope.console.SchemaTestITCase
+22312,org.apache.syncope.core.persistence.dao.impl.ResourceDAOImpl
+22363,org.apache.syncope.core.persistence.dao.RoleTest
+22509,org.apache.syncope.core.persistence.relationships.SecurityQuestionTest
+22642,org.apache.syncope.console.UserTestITCase
+22652,org.apache.syncope.core.rest.SchemaTestITCase
+22999,org.apache.syncope.console.pages.ProvisioningModalPage
+23035,org.apache.syncope.core.persistence.dao.impl.TaskExecDAOImpl
+23118,org.apache.syncope.core.persistence.dao.impl.VirAttrDAOImpl
+23139,org.apache.syncope.console.pages.FailureMessageModalPage
+23146,org.apache.syncope.core.persistence.relationships.AttrTest
+23520,org.apache.syncope.core.persistence.dao.impl.LoggerDAOImpl
+23570,org.apache.syncope.core.util.multiparent.MultiParentNode
+23786,org.apache.syncope.core.rest.DerivedSchemaTestITCase
+23957,org.apache.syncope.core.connid.PasswordGeneratorTest
+24059,org.apache.syncope.core.workflow.user.activiti.task.Notify
+24203,org.apache.syncope.core.util.multiparent.MultiParentNodeOp
+24393,org.apache.syncope.console.pages.panels.RoleSecurityPanel
+24430,org.apache.syncope.core.persistence.relationships.RoleTest
+24461,org.apache.syncope.core.persistence.dao.impl.UserDAOImpl
+24528,org.apache.syncope.core.rest.data.ConfigurationDataBinder
+24598,org.apache.syncope.console.commons.status.AbstractStatusBeanProvider
+24854,org.apache.syncope.core.security.EncodePasswordCLI
+25099,org.apache.syncope.core.workflow.user.activiti.SyncopeGroupManager
+25139,org.apache.syncope.core.sync.DefaultPushActions
+25194,org.apache.syncope.core.persistence.dao.impl.SubjectSearchDAOImpl
+25405,org.apache.syncope.core.util.ContentLoaderHandler
+25483,org.apache.syncope.core.persistence.dao.impl.DerAttrDAOImpl
+25832,org.apache.syncope.installer.validators.PersistenceValidator
+26135,org.apache.syncope.core.persistence.dao.impl.TaskDAOImpl
+26270,org.apache.syncope.console.pages.BasePopupPage
+26272,org.apache.syncope.core.persistence.dao.DerSchemaTest
+26382,org.apache.syncope.core.security.AsymmetricCipher
+26735,org.apache.syncope.core.persistence.dao.SchemaTest
+26775,org.apache.syncope.core.rest.WorkflowTestITCase
+26792,org.apache.syncope.core.init.ThreadLocalCleanupListener
+26857,org.apache.syncope.core.persistence.dao.PolicyTest
+26893,org.apache.syncope.installer.utilities.PasswordGenerator
+26951,org.apache.syncope.core.persistence.relationships.ConnInstanceTest
+27013,org.apache.syncope.core.rest.SecurityQuestionTestITCase
+27104,org.apache.syncope.core.propagation.impl.LDAPMembershipPropagationActions
+27218,org.apache.syncope.core.sync.impl.RolePushResultHandler
+27220,org.apache.syncope.common.types.ConnParameterType
+27450,org.apache.syncope.core.util.ContentExporter
+27576,org.apache.syncope.console.wicket.markup.html.form.MappingPurposePanel
+27579,org.apache.syncope.console.wicket.markup.html.form.preview.BinaryCertPreviewer
+27601,org.apache.syncope.core.persistence.relationships.DerSchemaTest
+27700,org.apache.syncope.core.persistence.validation.attrvalue.AlwaysTrueValidator
+27723,org.apache.syncope.core.persistence.relationships.MembershipTest
+27785,org.apache.syncope.installer.validators.ContainerValidator
+27814,org.apache.syncope.core.services.UserServiceImpl
+28058,org.apache.syncope.core.rest.SearchTestITCase
+28090,org.apache.syncope.core.persistence.dao.impl.PolicyDAOImpl
+28121,org.apache.syncope.core.rest.NotificationTestITCase
+28226,org.apache.syncope.core.persistence.dao.ResourceTest
+28619,org.apache.syncope.console.ReportTestITCase
+28627,org.apache.syncope.core.rest.ResourceTestITCase
+28754,org.apache.syncope.console.EditProfileTestITCase
+28766,org.apache.syncope.core.rest.data.DoubleValueAttributableTransformer
+28806,org.apache.syncope.core.rest.ReportTestITCase
+28916,org.apache.syncope.core.persistence.dao.TaskExecTest
+28929,org.apache.syncope.core.propagation.impl.PriorityPropagationTaskExecutor
+*Edges: 3290
+3921 4038 2
+3921 4039 1
+7198 1089 2
+1089 15750 6
+1089 303 1
+1089 5650 4
+1089 2513 2
+1089 15751 1
+1089 8101 2
+1116 15750 4
+1116 1089 3
+1116 4986 4
+4986 4197 5
+4986 1100 3
+4986 1098 2
+18291 299 2
+18291 1899 3
+18291 1095 2
+4197 1100 7
+4197 1098 2
+1100 4197 3
+1100 1098 5
+1120 2652 1
+1740 1120 2
+1741 2652 1
+5645 1120 2
+3624 2652 1
+5646 2652 1
+1742 1740 2
+1742 3624 12
+1090 2652 1
+1101 1740 2
+1101 1090 3
+4450 2652 1
+10822 4450 3
+12405 4450 3
+12405 1604 3
+299 4450 3
+2553 2652 1
+1102 2652 1
+4198 2652 1
+4198 1098 3
+1093 2652 1
+8101 1117 3
+8101 9958 2
+2936 303 1
+1117 9958 2
+2513 1117 3
+2513 9958 4
+44 302 2
+44 325 1
+1912 2652 1
+5656 2652 1
+5656 1955 3
+856 2652 1
+301 44 1
+301 2015 1
+205 4240 3
+205 4731 3
+205 3367 1
+2506 2652 1
+3371 2652 1
+8251 12535 3
+8251 5656 2
+302 2652 1
+7645 44 1
+3477 2652 1
+14849 2652 1
+3478 2652 1
+3478 2325 1
+3478 6191 3
+3478 2326 1
+325 302 1
+325 2506 1
+6191 2652 1
+2141 856 1
+2826 2652 1
+3271 2652 1
+3271 2380 3
+930 2652 1
+930 933 3
+930 934 3
+931 2652 1
+931 930 19
+105 44 1
+1454 2652 1
+1454 1604 3
+1454 933 3
+8096 3371 1
+8096 1604 3
+5648 12536 3
+5648 5656 2
+2015 2652 1
+2015 325 6
+2015 1603 3
+5649 935 3
+5649 3371 1
+5649 1622 3
+5649 303 3
+192 205 1
+1898 1912 1
+1899 2652 1
+932 935 3
+932 931 6
+932 1604 12
+932 2506 1
+45 44 1
+45 301 1
+3367 3371 1
+1094 1104 3
+1094 856 1
+1094 1097 3
+3272 2652 1
+8252 11815 3
+8252 5656 2
+5941 45 3
+5941 46 3
+5941 205 1
+7608 1912 1
+46 105 1
+46 301 1
+2142 856 1
+1095 2652 1
+1095 10722 3
+1096 2652 1
+1096 1095 6
+661 2652 1
+12535 661 1
+11144 2652 2
+11144 2381 4
+11144 2827 2
+2325 2652 1
+2326 2652 1
+2326 2325 3
+933 662 6
+12536 661 1
+303 662 1
+11815 661 1
+11815 15806 3
+5652 105 1
+5652 45 39
+5652 3624 4
+5652 1120 31
+5652 1742 42
+5652 1101 17
+5652 325 4
+5652 5645 4
+5652 301 5
+5652 1740 6
+5652 46 27
+5652 302 12
+5652 44 14
+5652 1741 26
+1099 11144 2
+1099 3271 3
+1099 384 3
+2827 2826 7
+384 2652 1
+14068 384 1
+381 384 1
+11807 384 1
+14463 384 1
+2555 384 1
+11809 384 1
+3763 384 1
+1106 384 1
+2556 384 1
+11808 384 1
+14464 384 1
+11407 7416 1
+19624 7416 1
+7384 7416 1
+28754 7416 2
+28619 7416 1
+18570 7416 1
+16338 7416 1
+22216 7416 1
+1973 1974 9
+1973 1975 1
+1973 146 10
+11296 20169 4
+11296 146 2
+146 1089 5
+146 1116 10
+146 303 1
+19216 7416 1
+22642 7416 1
+3273 106 4
+3273 662 4
+18499 9247 2
+18499 6602 6
+18499 44 1
+132 146 2
+20458 45 1
+20458 44 1
+20458 2479 2
+21665 45 1
+21665 20458 3
+21665 44 1
+10125 10135 1
+10125 10134 1
+10125 858 1
+10125 10136 1
+10125 662 1
+4844 4744 1
+9247 3274 3
+9247 44 2
+24598 3274 2
+24598 8 1
+9886 44 3
+9886 325 3
+8 45 1
+8 46 1
+8 49 3
+8 44 2
+9796 9884 3
+9796 1090 5
+9796 325 6
+9796 9885 5
+9796 301 3
+9796 302 6
+9796 6602 3
+9796 8 12
+9796 44 5
+9796 49 14
+9796 9886 4
+1215 1229 2
+9238 1215 2
+9238 9243 2
+3368 4744 6
+6192 2325 11
+6192 7217 1
+6192 674 1
+6192 671 1
+6192 673 1
+6192 668 2
+6192 664 2
+6192 2326 14
+6192 672 5
+123 1974 1
+123 7274 1
+123 3325 1
+123 1975 1
+123 7532 1
+123 124 3
+123 2479 1
+123 666 1
+123 4455 1
+123 9243 1
+123 2480 1
+3335 3371 1
+3335 132 2
+3335 1974 2
+3335 3368 2
+3335 3370 2
+3335 671 4
+3335 3367 3
+10133 113 1
+10133 662 3
+11479 113 1
+10277 3335 2
+10277 669 6
+10277 4731 1
+10277 668 4
+10277 205 2
+10277 3371 1
+10277 4240 1
+10277 672 4
+14313 7540 1
+14313 1974 2
+14313 1096 1
+14313 113 2
+113 4597 1
+113 123 2
+2946 1973 2
+2946 123 2
+26270 123 1
+14398 2553 6
+14398 113 2
+14398 4632 1
+14398 2483 2
+6475 6500 1
+6475 113 2
+6475 1102 1
+3323 1974 3
+3323 3325 1
+3323 113 2
+3323 107 1
+3046 3279 1
+3046 2937 3
+3046 1974 8
+3046 3277 2
+3046 2946 7
+3046 3276 3
+3046 3281 1
+3046 3278 1
+3046 3275 6
+3046 3280 2
+14260 7217 2
+14260 113 2
+14260 672 5
+9200 113 2
+9200 325 1
+6090 2325 6
+6090 1974 2
+6090 3478 37
+6090 674 6
+6090 669 4
+6090 671 1
+6090 3477 15
+6090 2326 5
+6090 6192 1
+6090 113 2
+6090 6193 2
+6090 672 25
+10134 10133 2
+10134 2141 1
+10134 1974 2
+10134 6693 2
+10134 671 2
+10134 672 2
+10134 662 1
+2630 2937 5
+2630 113 2
+6601 5652 1
+6601 1974 1
+6601 114 3
+6601 6503 1
+6601 2506 1
+6601 1101 2
+6601 9885 3
+6601 46 2
+6601 44 2
+6601 5113 1
+6601 672 1
+6601 2480 2
+20169 2946 2
+4470 113 1
+23139 113 1
+12262 2946 2
+6958 113 2
+6958 146 2
+11286 1099 1
+11286 6080 2
+11286 124 2
+11286 1975 3
+11286 146 10
+11287 2946 2
+11287 146 1
+60 105 1
+60 108 1
+60 106 1
+60 114 1
+60 113 1
+60 109 1
+60 107 1
+60 110 1
+3315 1974 2
+3315 3277 2
+3315 3325 1
+3315 669 6
+3315 671 5
+3315 673 1
+3315 668 7
+3315 3278 1
+3315 1604 1
+3315 933 2
+3315 1454 12
+3315 113 1
+3315 666 3
+3315 672 24
+14290 3371 1
+14290 8096 1
+14290 3370 2
+14290 671 3
+15324 670 1
+15324 7274 1
+15324 669 2
+15324 665 1
+15324 671 2
+15324 560 1
+15324 8251 3
+15324 8252 3
+15324 5648 3
+15324 113 2
+15324 661 2
+15324 932 1
+15324 5656 5
+15324 672 4
+9289 3371 1
+9289 3370 2
+9289 671 2
+22999 1105 1
+22999 6475 1
+22999 11479 2
+22999 7274 1
+22999 8155 7
+22999 123 1
+22999 8 1
+22999 9796 2
+22999 932 3
+22999 384 1
+5942 192 8
+5942 10277 2
+5942 668 4
+5942 205 4
+5942 3371 1
+5942 8658 1
+5942 3016 1
+5942 3033 2
+5942 7532 3
+5942 672 8
+4472 1900 1
+4472 669 2
+4472 113 1
+4472 672 1
+4256 4453 2
+4256 4450 4
+4256 1974 2
+4256 1899 7
+4256 671 4
+4256 132 2
+4256 1900 2
+4256 113 2
+4256 3368 1
+4481 2179 1
+4481 4450 2
+4481 674 1
+4481 669 3
+4481 671 3
+4481 668 1
+4481 113 1
+4481 4455 1
+4481 672 6
+11050 4453 4
+11050 2946 3
+11050 11144 5
+11050 2937 3
+11050 1974 4
+11050 3277 3
+11050 2827 1
+6025 3279 1
+6025 113 2
+6025 1975 1
+6025 671 3
+6025 672 7
+7230 7271 1
+7230 1974 2
+7230 7274 1
+7230 109 1
+7230 113 2
+7230 932 4
+7230 7270 1
+7230 7273 1
+7230 7272 2
+6210 2946 6
+6210 2937 5
+6210 1974 5
+6210 5948 2
+6210 6193 1
+2475 45 2
+2475 106 1
+2475 325 3
+2475 301 2
+2475 46 2
+2475 302 5
+2475 8 1
+2475 44 1
+2475 49 2
+2475 9796 3
+2475 113 2
+2475 2015 5
+2476 5652 1
+2476 45 6
+2476 1974 1
+2476 106 2
+2476 2506 1
+2476 1742 1
+2476 2485 2
+2476 44 2
+2476 113 2
+2476 2479 2
+13807 20460 1
+13807 12962 2
+13807 20458 1
+13807 113 2
+7522 2476 2
+7522 5941 5
+7522 7532 1
+2477 2946 2
+2477 3019 1
+2477 3017 1
+2477 3015 2
+2477 2479 1
+11508 3371 2
+11508 7532 2
+11508 3335 2
+11508 669 1
+11508 3367 1
+11508 672 2
+11288 2946 2
+11288 2937 2
+11288 10856 1
+11288 858 4
+11288 666 1
+11288 662 3
+10135 10133 2
+10135 1974 2
+10135 6693 2
+10135 1104 1
+10135 669 5
+10135 671 11
+10135 673 16
+10135 668 3
+10135 662 1
+10135 1094 6
+10135 9243 1
+10135 672 51
+10135 1097 1
+3319 3279 1
+3319 3272 1
+3319 1974 2
+3319 113 1
+3319 671 1
+3319 672 1
+2478 6475 1
+2478 11479 2
+2478 2481 3
+2478 8155 10
+2478 2482 2
+2478 668 2
+2478 301 3
+2478 2949 1
+2478 8 1
+2478 9796 3
+2478 9886 2
+2478 672 1
+2478 1102 1
+5943 3371 1
+5943 5941 1
+5943 7532 3
+5943 10277 2
+5943 672 2
+5943 668 1
+5943 205 4
+3370 4453 2
+3370 3371 11
+3370 7532 4
+3370 113 1
+3370 671 1
+5944 7609 1
+5944 5963 1
+5944 5948 2
+5944 4632 1
+5944 2946 3
+5944 7613 1
+5944 7612 1
+5944 7610 1
+5944 7611 1
+11289 4453 2
+11289 2946 3
+11289 7540 1
+11289 2937 3
+11289 1974 2
+114 108 1
+114 5115 1
+114 1974 2
+114 106 2
+114 5116 1
+114 107 1
+114 668 2
+114 46 5
+114 5113 1
+114 44 4
+114 113 2
+114 110 1
+13808 3015 2
+13808 2598 1
+13808 113 2
+11290 5652 1
+11290 46 2
+11290 114 3
+11290 44 2
+11290 1975 3
+11290 1101 1
+11290 672 1
+16067 5941 5
+16067 114 3
+16067 7532 1
+11291 2946 2
+11291 2488 2
+11291 3015 2
+11291 1974 1
+11291 2480 1
+14396 6601 2
+14396 46 1
+14396 114 1
+10136 10133 2
+10136 1974 2
+10136 671 1
+10136 2142 1
+10136 672 1
+10136 668 1
+10136 662 1
+1963 1974 1
+1963 1973 2
+1963 1975 1
+3286 1974 1
+3286 26270 1
+3286 3280 2
+3033 16861 1
+3033 1117 6
+3033 9958 5
+3033 7274 1
+3033 12413 1
+3033 7285 18
+3033 662 3
+3033 124 3
+3033 2513 2
+3033 666 1
+3033 8101 2
+3015 2937 3
+3015 1974 1
+3015 5963 3
+3015 5948 2
+3015 18499 4
+3015 123 2
+3015 6602 2
+3015 124 1
+5908 2937 2
+5908 1974 1
+5908 5944 2
+5908 5947 2
+5908 5948 1
+5947 2937 1
+5947 1974 1
+5947 7532 1
+6503 46 10
+6503 109 2
+6503 146 6
+8155 2481 1
+8155 5963 2
+8155 2483 5
+8155 8210 1
+8155 2482 3
+5948 5963 2
+5948 4632 1
+5948 8210 1
+4796 45 2
+4796 2479 1
+4796 666 7
+4796 1980 4
+107 671 1
+107 698 1
+107 302 11
+107 44 1
+107 3273 5
+107 1094 16
+107 666 8
+107 672 12
+107 45 6
+107 105 1
+107 2179 2
+107 106 3
+107 674 2
+107 3325 4
+107 856 16
+107 669 3
+107 325 3
+107 4796 3
+107 668 1
+107 14570 1
+107 2479 3
+108 2479 1
+108 666 1
+108 4796 2
+2841 2826 11
+3275 670 1
+3275 1974 1
+3275 302 3
+3275 3325 2
+3275 3273 2
+3275 124 1
+3275 666 2
+2712 2830 2
+2712 2826 28
+2712 2827 2
+2712 669 13
+2712 2483 4
+2712 671 2
+2712 672 21
+5113 20460 1
+5113 12962 2
+5113 106 1
+5113 46 2
+5113 20458 1
+5113 9885 2
+7609 2937 2
+7609 5944 1
+7609 5947 2
+7609 5948 1
+3276 2937 2
+3276 1974 2
+3276 1955 3
+3276 665 1
+3276 8251 2
+3276 5648 2
+3276 8252 2
+3276 5656 1
+560 667 1
+560 665 1
+560 661 1
+560 666 1
+560 672 1
+560 668 2
+7610 4453 2
+7610 2937 2
+7610 5944 1
+7610 5947 2
+7610 5948 1
+7612 5908 3
+7612 4453 2
+7270 2325 1
+7270 2326 2
+7270 6192 1
+7270 932 7
+7270 6193 2
+7271 3478 4
+7271 674 1
+7271 669 7
+7271 671 1
+7271 668 3
+7271 935 1
+7271 1604 4
+7271 932 6
+7271 6193 1
+7271 672 4
+7272 931 6
+7272 6693 2
+7272 3478 6
+7272 669 4
+7272 671 1
+7272 668 4
+7272 662 4
+7272 933 8
+7272 932 19
+7272 666 4
+7272 6193 3
+7272 672 8
+7273 932 1
+7273 669 6
+7273 665 1
+7273 672 3
+5114 670 1
+5114 20458 1
+5114 7274 2
+5114 932 1
+5114 301 2
+2635 45 1
+2635 6693 2
+2635 2479 1
+2635 671 4
+2635 2480 1
+2635 672 5
+2635 668 2
+2485 45 1
+2485 670 3
+2485 108 1
+2485 1974 2
+2485 12413 2
+2485 2635 1
+2485 107 1
+2485 9885 1
+2485 4796 1
+2485 668 3
+2485 24393 1
+2485 44 1
+2485 109 1
+2485 110 1
+3016 1089 1
+3016 3033 3
+3017 3015 3
+3017 6602 1
+24393 669 4
+24393 665 1
+24393 672 8
+24393 668 2
+3018 45 2
+3018 2420 1
+3018 1974 2
+3018 1100 1
+3018 2479 2
+3018 2483 2
+2420 45 2
+2420 2488 1
+2420 1974 5
+2420 2479 1
+2420 2483 5
+2420 2480 1
+7611 4453 2
+7611 2937 2
+7611 1974 1
+7611 5944 2
+7611 5947 2
+7611 5948 1
+16861 7285 2
+5115 3279 2
+5115 3272 2
+5115 46 1
+5115 669 2
+5115 671 1
+5115 672 5
+2598 2488 2
+2598 2480 1
+9885 45 1
+9885 1090 1
+9885 301 1
+9885 46 4
+9885 8 7
+9885 49 1
+9885 9796 5
+9885 2479 1
+9885 9886 4
+9885 2480 1
+7613 5908 3
+7613 4453 2
+109 2506 9
+109 146 4
+5116 7217 2
+5116 46 2
+5116 6693 4
+5116 671 3
+5116 672 6
+8658 1089 1
+8658 3033 3
+8658 2479 1
+2488 4453 1
+2488 2937 5
+2488 3015 3
+2488 6603 3
+2488 6602 1
+2488 6604 1
+2488 666 4
+110 2479 1
+110 666 1
+110 4796 2
+796 1215 3
+796 1230 2
+6602 2553 1
+6602 44 1
+6602 4632 1
+6602 325 1
+6602 1102 1
+7540 1096 2
+7540 4632 4
+12413 1099 2
+12413 4632 3
+4632 1089 1
+4632 15751 3
+4632 146 8
+3325 1099 1
+3325 302 9
+3325 7645 1
+3325 1100 1
+3325 3273 6
+3325 4632 7
+3325 666 2
+3325 325 1
+6193 3478 19
+6193 856 1
+6193 4632 15
+6193 2553 1
+6193 2326 7
+6193 1100 3
+6193 932 2
+6193 146 2
+6193 1102 1
+3277 11144 7
+3277 1099 1
+3277 4632 8
+3277 3271 4
+3277 2380 1
+3278 1454 4
+3278 4632 6
+665 1099 1
+665 1955 2
+665 5656 1
+665 4632 8
+4455 1899 4
+4455 1900 1
+4455 1100 1
+4455 4632 13
+4455 384 1
+7274 2553 1
+7274 1105 1
+7274 1099 1
+7274 1100 3
+7274 932 4
+7274 4632 9
+7274 1102 2
+2479 45 5
+2479 1120 1
+2479 1090 6
+2479 4632 27
+2479 1742 1
+2479 6602 1
+2479 9796 6
+2479 1102 4
+666 2141 4
+666 856 9
+666 4632 22
+666 2142 3
+666 662 19
+666 1099 1
+666 858 2
+666 1100 11
+666 3273 1
+666 1094 4
+3279 3272 4
+3279 4632 6
+7532 5649 1
+7532 8096 1
+7532 4632 18
+7532 2553 1
+7532 5651 2
+7532 3371 2
+7532 1099 3
+7532 5941 2
+7532 1100 3
+7532 1102 1
+7532 3367 2
+2480 5646 7
+2480 1120 1
+2480 1090 8
+2480 4632 30
+2480 1101 1
+2480 46 5
+2480 6602 1
+2480 1100 1
+2480 9796 8
+2480 1102 4
+1975 46 2
+1975 1120 1
+1975 1100 3
+1975 4632 7
+1975 1101 1
+1975 146 6
+3280 1100 1
+3280 4632 1
+3280 146 3
+2481 123 1
+5946 123 1
+17118 5946 2
+4452 2483 1
+6500 1102 3
+6603 858 2
+9791 8209 1
+8210 9790 1
+8210 9791 1
+3281 12259 1
+4453 146 2
+6604 46 1
+2483 1974 3
+2483 5946 25
+2483 2482 30
+668 672 5
+669 672 3
+670 667 2
+670 1980 1
+7217 672 6
+671 672 4
+698 796 1
+698 672 5
+17821 667 3
+2248 672 2
+14570 2248 2
+14570 672 7
+2179 2248 2
+2179 672 8
+672 667 2
+27576 934 1
+673 667 2
+673 672 2
+674 672 9
+27579 1230 2
+15474 1230 2
+12962 44 6
+20459 12962 1
+3019 20460 1
+3019 12962 2
+3019 1974 2
+3019 20458 1
+20460 20458 3
+936 6070 1
+1319 11144 3
+1319 2382 1
+8675 5971 3
+8675 662 3
+14019 5971 5
+14019 14051 3
+14019 662 3
+14051 662 3
+1605 5652 2
+1605 2032 4
+1605 816 3
+1605 1392 6
+1605 938 13
+1605 46 18
+1605 302 35
+1605 304 2
+1605 5971 6
+1605 1617 24
+1605 45 47
+1605 9743 1
+1605 4067 5
+1605 21023 2
+1605 1749 1
+1605 937 7
+1605 1616 1
+1605 13904 5
+1605 1606 2
+1605 933 3
+1605 1393 14
+1605 305 2
+1605 8745 1
+1605 44 14
+1605 946 1
+1605 8527 4
+1605 105 6
+1605 312 3
+1605 325 7
+1605 301 3
+1605 1394 5
+1605 1956 6
+1605 944 1
+1605 4199 1
+7826 18600 18
+7826 6191 11
+21023 938 3
+21023 305 3
+21023 9743 15
+21023 8745 10
+21023 12536 118
+21023 1956 6
+21023 1394 3
+23957 21023 7
+23957 305 2
+23957 8745 2
+23957 12536 28
+23957 936 1
+6912 6950 1
+6912 1616 7
+6912 3480 3
+6912 938 9
+6912 2327 4
+6912 943 2
+21033 1616 1
+21033 3480 1
+21033 938 1
+21033 2327 1
+21033 936 1
+21033 6912 3
+21033 943 1
+1902 11355 1
+1902 2398 4
+1902 15051 1
+1902 1903 7
+1902 1749 1
+1902 1391 2
+1902 1616 6
+1902 1623 6
+1902 1456 2
+2359 2381 2
+2359 2382 7
+2359 2380 2
+20075 1902 2
+20075 20083 3
+20075 10034 2
+20075 13956 2
+20075 2359 2
+26792 313 1
+8099 1621 10
+8099 1320 6
+8099 1608 12
+8099 1623 5
+8099 8097 29
+8099 1618 1
+8099 1319 5
+1320 1393 2
+1320 305 3
+1320 1608 3
+1320 1605 3
+1320 1392 4
+1320 314 1
+1320 4063 1
+1320 311 3
+1320 310 2
+1320 1623 3
+1320 44 4
+1320 8097 10
+1320 946 1
+1320 186 1
+1320 1617 2
+1320 312 3
+1320 2827 1
+1320 1455 26
+1320 4064 1
+1320 1391 4
+1320 1621 2
+1320 933 1
+7945 4063 4
+7945 1115 6
+7945 1089 10
+7945 46 6
+7945 8099 8
+7945 1623 6
+7945 8097 11
+7945 2559 2
+7945 8098 6
+7945 45 2
+7945 105 6
+7945 1617 2
+7945 8096 1
+7945 1455 73
+7945 1261 7
+7945 1391 2
+7945 3371 2
+7945 1320 2
+7945 520 1
+7945 2513 9
+7945 8101 1
+16634 327 6
+16634 314 1
+1391 17438 1
+1391 1617 3
+1391 944 1
+1391 946 4
+1391 4890 1
+1391 4067 3
+3670 944 1
+3670 1394 2
+4890 4067 1
+4067 1107 2
+4067 1391 12
+4067 313 6
+4067 944 3
+4067 946 19
+4067 4199 1
+4067 1097 1
+1392 1393 3
+1392 1391 3
+1392 327 1
+1392 816 1
+1392 2118 1
+1392 946 1
+1392 186 3
+186 2032 3
+186 944 1
+186 2118 1
+2118 6846 1
+2118 1097 1
+1621 944 1
+8125 937 9
+8125 944 1
+8125 938 2
+937 944 7
+937 933 3
+937 934 3
+946 17438 2
+946 6846 1
+946 944 9
+946 1104 3
+946 17439 1
+946 1097 5
+6846 944 1
+1606 938 3
+1606 1392 1
+1749 4240 3
+1749 944 8
+1749 938 3
+1749 2398 2
+1749 4731 3
+327 944 1
+1393 944 1
+816 6846 1
+816 944 3
+816 1097 1
+6847 938 3
+6847 1956 1
+2327 18600 3
+2327 6256 2
+2327 944 1
+2327 938 2
+2327 524 2
+18600 944 1
+520 944 1
+938 327 1
+938 6256 6
+938 945 3
+938 13200 3
+938 2327 3
+938 6327 3
+938 935 3
+938 944 7
+938 6323 3
+938 6847 3
+938 1604 12
+1455 944 7
+1455 1604 3
+1455 933 3
+8097 944 3
+8097 1623 2
+8097 1604 3
+6323 1956 1
+1956 6256 2
+1956 944 1
+1956 1955 2
+1607 935 3
+1607 6256 2
+1607 1622 3
+1607 938 3
+1607 1623 1
+1607 662 3
+1950 1956 1
+10361 1749 2
+1903 1904 2
+1903 11191 4
+1903 944 1
+1904 1901 1
+1904 1621 2
+1904 1903 3
+11191 6256 2
+11191 944 1
+11191 1903 3
+2398 1623 1
+6521 944 1
+13200 1956 1
+13904 1749 2
+13904 45 2
+13904 6256 4
+13904 944 2
+13904 46 2
+2382 2381 3
+2382 944 1
+2382 2380 3
+1623 944 1
+1623 1608 2
+1608 1621 1
+1608 1623 3
+4063 4064 1
+4063 1391 1
+4063 3676 2
+4063 12140 1
+12140 3676 1
+12140 4890 1
+12140 4063 1
+13009 4063 1
+13009 4067 1
+3676 946 1
+4064 1392 1
+1397 12132 1
+1397 6848 4
+1397 1391 1
+1397 304 1
+6848 8321 3
+6848 3670 1
+6848 1394 1
+12132 1397 1
+12132 8321 1
+12132 4890 1
+4958 1397 1
+4958 4067 1
+1398 1395 4
+1398 304 1
+1398 186 1
+1395 4959 3
+1395 3670 1
+1395 1394 1
+4959 2118 1
+8321 946 1
+1399 1396 4
+1399 1393 1
+1399 304 1
+1396 3656 3
+1396 3670 1
+1396 1394 1
+3656 816 1
+304 1393 2
+304 305 3
+304 1392 1
+304 1394 5
+304 1399 1
+304 1398 1
+304 1396 1
+304 944 4
+304 1395 1
+304 186 2
+6849 6851 4
+6849 1391 1
+6849 20492 1
+6849 1394 1
+6851 6852 3
+6851 3670 1
+6851 1394 1
+20492 6852 1
+20492 4890 1
+20492 6849 1
+4960 6849 1
+4960 4067 1
+4961 4962 4
+4961 186 1
+4961 1394 1
+4962 4963 3
+4962 3670 1
+4962 1394 1
+4963 2118 1
+6327 8125 2
+6327 938 1
+6324 937 1
+6324 6327 1
+6852 946 1
+6850 1393 1
+6850 3660 4
+6850 1394 1
+3660 812 3
+3660 3670 1
+3660 1394 1
+812 816 1
+1394 6850 3
+1394 305 3
+1394 4961 3
+1394 1392 3
+1394 6849 3
+1394 6846 1
+1394 944 21
+1394 6323 3
+1394 6847 3
+1394 1606 1
+1394 520 2
+1394 3670 2
+305 1107 4
+305 944 3
+305 9743 1
+305 1606 4
+305 1104 6
+305 6521 3
+305 304 7
+305 1394 2
+7136 1391 1
+7136 305 1
+7136 7120 1
+7136 939 2
+7120 939 1
+7120 4890 1
+7120 7136 1
+4964 7136 1
+4964 4067 1
+4965 305 1
+4965 186 1
+4965 4966 2
+4966 2118 1
+945 937 3
+945 8125 2
+945 938 1
+945 6325 2
+6325 937 1
+6325 945 1
+939 946 1
+6994 1393 1
+6994 305 1
+6994 6436 2
+6436 816 1
+2328 6070 1
+21132 1617 7
+21132 305 4
+21132 7120 2
+21132 1392 2
+21132 187 4
+21132 7136 23
+21132 4067 1
+21132 1107 2
+21132 1391 7
+21132 2328 1
+21132 946 8
+5754 305 3
+5754 4724 12
+5754 4720 57
+5754 314 23
+5754 4723 4
+5754 4722 11
+5754 309 5
+5754 4635 59
+10341 1617 2
+10341 1391 6
+10341 2328 1
+10341 946 5
+10341 187 2
+10341 4063 5
+2303 2325 6
+2303 2326 4
+2303 2328 1
+2303 2327 21
+4903 305 2
+4903 4961 6
+4903 1392 6
+4903 4965 5
+4903 4962 1
+4903 4067 6
+4903 1394 8
+4903 1398 6
+4903 1391 6
+4903 2328 1
+4903 1395 1
+4903 2118 9
+4903 186 13
+4903 304 5
+26272 1617 2
+26272 2328 1
+26272 2118 5
+26272 187 2
+10271 938 1
+18012 2328 1
+18012 520 1
+19643 2328 1
+19643 304 5
+9607 1089 5
+9607 2328 1
+9607 2513 4
+9607 8101 1
+9607 1455 39
+26857 6323 1
+26857 13200 2
+26857 2328 1
+26857 12536 6
+26857 11815 2
+26857 1956 15
+8556 299 2
+8556 2328 1
+8556 1903 5
+28226 937 35
+28226 8125 1
+28226 945 19
+28226 938 45
+28226 2328 1
+28226 2327 3
+28226 933 2
+28226 187 2
+22363 2328 1
+22363 1956 2
+22363 1394 20
+26735 1617 1
+26735 2328 1
+26735 946 21
+26735 187 2
+12234 2328 1
+12234 6521 3
+28916 1621 5
+28916 1608 2
+28916 2328 1
+28916 1623 1
+18342 1607 7
+18342 938 1
+18342 2328 1
+18342 1623 1
+5124 327 2
+5124 305 15
+5124 2328 1
+5124 314 3
+5124 187 3
+5124 4067 2
+19502 1399 3
+19502 6850 3
+19502 1393 4
+19502 816 1
+19502 2328 1
+19502 6994 3
+19502 304 1
+19502 1394 2
+8889 1617 2
+8889 816 6
+8889 2328 1
+8889 187 2
+4776 4575 4
+2685 309 2
+16760 1617 13
+16760 1391 1
+16760 944 1
+16760 938 1
+16760 2685 1
+16760 2118 1
+16760 946 3
+16760 4067 10
+21754 1391 2
+21754 2685 1
+21754 1392 1
+20291 2685 1
+20291 3670 2
+20291 1394 1
+14499 1391 1
+14499 2685 1
+14499 4067 2
+4044 1617 1
+4044 4064 8
+4044 1391 1
+4044 2685 1
+4044 1392 3
+4044 946 2
+4044 4063 11
+4044 4067 2
+17442 938 1
+17442 2685 1
+17442 2327 6
+17442 1456 1
+10034 25405 1
+10034 4575 2
+10034 4776 3
+25483 2685 1
+25483 1392 1
+25483 186 2
+16549 1617 8
+16549 2685 1
+16549 2118 2
+16549 186 1
+12932 2685 1
+12932 314 1
+12932 520 7
+12932 1394 4
+23520 2381 1
+23520 2685 1
+23520 2382 7
+4853 305 2
+4853 2685 1
+4853 304 6
+4853 1394 1
+21201 2685 1
+21201 1455 3
+28090 13200 1
+28090 1955 1
+28090 187 3
+28090 1956 8
+28090 938 1
+28090 6323 1
+28090 6847 1
+28090 2685 1
+2655 2685 2
+2655 1903 4
+8323 1904 9
+8323 2685 1
+8323 1903 4
+22312 8125 1
+22312 945 3
+22312 2327 3
+22312 1955 2
+22312 6327 3
+22312 1956 2
+22312 937 6
+22312 938 18
+22312 6847 1
+22312 2685 1
+22312 933 2
+22312 1606 2
+22312 1456 1
+17228 1393 4
+17228 305 2
+17228 3660 1
+17228 816 1
+17228 1955 3
+17228 1392 1
+17228 314 1
+17228 4962 1
+17228 6851 1
+17228 938 1
+17228 2685 1
+17228 186 1
+17228 304 2
+17228 1617 3
+17228 1394 52
+17228 1956 5
+17228 1391 1
+17228 944 5
+17228 4960 2
+17228 520 1
+17228 16760 4
+15075 1617 10
+15075 1391 1
+15075 2685 1
+15075 946 2
+11350 303 2
+11350 1097 1
+9978 305 2
+9978 2685 1
+9978 6521 3
+25194 4720 25
+25194 1392 1
+25194 4723 3
+25194 4721 2
+25194 4722 2
+25194 309 13
+25194 2685 1
+25194 11341 4
+25194 946 17
+25194 1617 10
+25194 303 16
+25194 4724 1
+25194 4067 6
+25194 11350 35
+25194 17438 2
+25194 4635 28
+25194 1097 2
+26135 938 2
+26135 2685 2
+26135 1623 1
+23035 1608 10
+23035 2685 1
+23035 1623 2
+10031 10034 2
+24461 1617 3
+24461 1393 3
+24461 305 11
+24461 816 1
+24461 4724 1
+24461 4720 1
+24461 1392 1
+24461 6521 1
+24461 938 1
+24461 4635 2
+24461 4964 2
+24461 16760 4
+24461 304 3
+23118 1393 2
+23118 2685 1
+23118 1392 1
+6965 1617 8
+6965 1393 1
+6965 816 2
+6965 2685 1
+4720 4719 1
+4721 4719 1
+4722 4719 1
+4723 4719 1
+4635 4721 6
+4635 4722 6
+4635 4719 1
+4635 4724 3
+4635 4720 7
+4635 4723 6
+4724 4720 2
+23146 1617 1
+23146 1397 3
+23146 305 3
+23146 1392 6
+23146 4965 2
+23146 7136 1
+23146 1394 5
+23146 6848 1
+23146 1391 4
+23146 2328 1
+23146 2118 2
+23146 4964 3
+23146 946 6
+23146 186 2
+23146 304 2
+21121 4720 3
+21121 4635 2
+21121 314 1
+21121 1394 1
+26951 938 1
+26951 2328 1
+26951 2327 7
+27601 1617 1
+27601 2328 1
+27601 2118 3
+27723 305 1
+27723 2328 1
+27723 304 10
+17143 1904 4
+17143 1621 2
+17143 2328 1
+17143 1903 11
+6273 945 9
+6273 305 4
+6273 6324 1
+6273 2327 4
+6273 6327 1
+6273 937 17
+6273 938 28
+6273 944 1
+6273 6325 3
+6273 2328 1
+6273 1606 1
+6273 1623 1
+24430 305 1
+24430 2328 1
+24430 1394 14
+17207 1617 3
+17207 937 7
+17207 945 6
+17207 938 9
+17207 2328 1
+17207 946 2
+22509 305 3
+22509 2328 1
+20175 1621 6
+20175 1607 6
+20175 1608 4
+20175 2328 1
+20175 1623 15
+9223 2328 1
+17438 946 2
+17438 4067 1
+27700 17438 2
+27700 4226 1
+27700 946 1
+27700 4067 2
+17439 17438 2
+17439 4226 1
+17439 946 4
+17439 4067 2
+20224 17438 2
+20224 4226 1
+20224 946 1
+20224 4067 3
+4226 4067 4
+15472 1749 4
+15472 18929 2
+15472 2278 3
+2278 2276 1
+2266 1391 12
+2266 944 1
+2266 946 4
+2266 2278 2
+4882 1391 1
+4882 944 5
+4882 2276 1
+4882 4890 1
+4882 2278 3
+4882 4067 9
+14721 7826 1
+14721 2327 5
+14721 2278 3
+14721 12231 1
+20872 1616 1
+20872 187 1
+20278 937 7
+20278 8125 4
+20278 944 3
+20278 938 6
+20278 933 1
+20278 2278 9
+187 2276 5
+1191 2278 3
+1191 1455 4
+10118 2276 1
+10118 2278 2
+10118 1956 4
+14930 1621 2
+14930 1607 5
+14930 1623 1
+14930 2278 2
+14930 1603 1
+12481 2278 3
+12481 1903 6
+18929 2398 5
+18929 2278 3
+10916 816 3
+10916 2118 3
+10916 946 4
+10916 2278 3
+2287 946 8
+2287 2278 4
+3333 2278 2
+3333 1394 3
+19475 13440 2
+19475 305 17
+19475 20497 3
+19475 13103 2
+19475 12536 2
+19475 2278 3
+19475 1956 2
+19475 1394 2
+19475 938 2
+19475 13104 1
+13103 13472 1
+13103 305 15
+13103 12535 15
+13103 1955 1
+13103 13473 2
+13103 13104 8
+13090 305 10
+13090 12535 4
+13090 13103 9
+13090 13104 4
+13440 13472 1
+13440 305 3
+13440 10025 22
+13440 1955 1
+13440 13473 2
+13440 12536 26
+13472 1955 1
+20497 1391 2
+20497 305 3
+20497 12535 2
+20497 1392 3
+20497 12536 4
+20497 1956 4
+15535 1607 2
+15535 1608 1
+8525 1622 7
+1493 1607 55
+1493 1608 4
+1493 1605 3
+1493 310 2
+1493 938 19
+1493 1623 1
+1493 1603 3
+1493 1617 2
+1493 312 2
+1493 1615 1
+1493 1618 1
+1493 1616 1
+1493 1621 8
+1493 1320 2
+1493 1606 2
+1493 1319 2
+6950 2325 2
+6950 7826 1
+6950 3480 1
+6950 2327 46
+6950 935 4
+6950 937 1
+6950 1616 1
+6950 7827 16
+6950 1622 1
+6950 2326 5
+6950 1456 1
+5653 2325 1
+5653 1607 6
+5653 305 3
+5653 2327 2
+5653 1104 1
+5653 15535 2
+5653 938 1
+5653 2326 4
+1995 1607 2
+1995 938 2
+1995 1605 3
+1995 2015 9
+1995 1603 1
+27104 2032 4
+27104 8125 2
+27104 1607 8
+27104 305 1
+27104 1394 3
+27104 15535 2
+27104 938 4
+27104 1606 1
+5654 2325 1
+5654 1607 6
+5654 305 3
+5654 2327 2
+5654 1104 1
+5654 15535 2
+5654 938 1
+5654 2326 4
+28929 1995 2
+28929 9475 1
+28929 1607 2
+28929 1621 3
+28929 938 2
+28929 1320 1
+28929 1493 2
+28929 1319 1
+28929 1603 2
+1750 2032 1
+1750 1393 2
+1750 1607 9
+1750 305 3
+1750 816 1
+1750 1605 3
+1750 1392 2
+1750 1120 7
+1750 1090 1
+1750 1101 2
+1750 8525 28
+1750 8526 4
+1750 938 2
+1750 310 5
+1750 44 1
+1750 1741 5
+1750 304 8
+1750 8527 1
+1750 1617 10
+1750 105 2
+1750 1744 27
+1750 312 7
+1750 5645 2
+1750 1394 2
+1750 937 5
+1750 1740 1
+1750 1622 1
+1750 1606 6
+4101 1621 6
+4101 1320 2
+4101 1608 2
+4101 1623 1
+4101 1618 1
+4101 1319 2
+4095 4101 2
+16720 1623 1
+16720 4101 1
+21597 1902 4
+323 326 1
+323 4450 1
+11355 1909 2
+11355 1904 7
+11355 1621 4
+11355 1616 1
+11355 1618 2
+11355 1903 4
+10768 323 1
+10768 45 1
+10768 305 2
+10768 314 2
+10768 325 1
+10768 311 2
+10768 1394 4
+10768 301 3
+10768 310 2
+10768 44 7
+10768 304 2
+10768 10822 15
+12394 323 1
+12394 313 1
+12394 12405 14
+216 323 1
+216 299 15
+216 105 4
+216 327 2
+216 313 3
+216 312 2
+216 305 11
+216 314 2
+216 325 2
+216 311 2
+216 301 3
+216 46 1
+216 310 2
+216 44 10
+216 304 1
+1114 45 4
+1114 3478 1
+1114 1120 2
+1114 1742 1
+1114 1101 1
+1114 662 1
+1114 1089 18
+1114 46 7
+1114 302 4
+1114 1116 10
+1114 4986 5
+1114 858 1
+1114 1741 4
+1114 932 3
+991 1120 1
+991 1090 1
+991 1101 2
+991 1115 9
+991 1089 18
+991 1114 17
+991 46 33
+991 302 15
+991 1100 4
+991 44 13
+991 1094 2
+991 1117 2
+991 45 9
+991 105 8
+991 856 1
+991 1093 5
+991 325 5
+991 1098 1
+991 301 1
+991 1108 1
+991 1107 2
+991 1116 16
+991 1099 2
+991 1096 3
+22143 45 9
+22143 856 8
+22143 1098 2
+22143 325 2
+22143 301 1
+22143 1114 11
+22143 302 11
+22143 1100 9
+22143 44 1
+22143 1094 4
+14733 2325 40
+14733 931 1
+14733 3478 99
+14733 1098 2
+14733 2553 5
+14733 6191 5
+14733 930 4
+14733 1114 8
+14733 1116 4
+14733 2326 33
+14733 4986 4
+14733 1100 8
+14733 932 10
+23786 2141 7
+23786 1114 6
+23786 1100 11
+23786 856 7
+23786 1098 2
+17898 11144 4
+17898 2826 34
+17898 1114 1
+17898 1099 3
+17898 3271 8
+28121 1089 4
+28121 1114 6
+28121 1454 32
+28121 1100 5
+28121 2513 3
+28121 8101 1
+12493 12535 2
+12493 12536 4
+12493 1114 7
+12493 1100 7
+12493 8251 2
+12493 5648 10
+12493 8252 6
+12493 5656 26
+12493 11815 2
+28806 299 7
+28806 1899 42
+28806 1114 8
+28806 1900 1
+28806 1100 2
+28806 1093 2
+28806 1098 1
+28627 2325 3
+28627 931 29
+28627 1098 5
+28627 2553 3
+28627 930 84
+28627 1089 2
+28627 1114 15
+28627 1116 2
+28627 2326 2
+28627 1100 20
+28627 932 68
+9024 931 4
+9024 3624 1
+9024 1120 21
+9024 2506 10
+9024 1742 13
+9024 1089 5
+9024 1114 69
+9024 46 2
+9024 1100 14
+9024 44 76
+9024 1094 1
+9024 45 57
+9024 856 5
+9024 1093 3
+9024 325 32
+9024 1098 3
+9024 301 21
+9024 930 5
+9024 1116 6
+9024 5650 3
+9024 932 6
+22652 5652 1
+22652 105 1
+22652 1120 1
+22652 856 17
+22652 1098 3
+22652 325 3
+22652 1115 3
+22652 1089 2
+22652 1116 2
+22652 1114 22
+22652 46 1
+22652 1100 26
+22652 1094 18
+22652 1097 1
+28058 1117 3
+28058 1093 28
+28058 1089 12
+28058 1114 1
+28058 44 3
+28058 2513 5
+28058 8101 3
+28058 15751 3
+27013 3272 10
+27013 1114 3
+27013 1100 2
+11564 931 7
+11564 192 8
+11564 1120 5
+11564 1115 8
+11564 46 27
+11564 302 2
+11564 11815 1
+11564 1117 1
+11564 45 7
+11564 856 5
+11564 8096 2
+11564 1912 24
+11564 205 29
+11564 2553 2
+11564 1107 8
+11564 3371 59
+11564 2326 4
+11564 8252 1
+11564 8101 3
+11564 5656 1
+11564 3478 1
+11564 7608 4
+11564 1090 2
+11564 1101 4
+11564 1089 11
+11564 1114 61
+11564 44 25
+11564 1100 4
+11564 1454 22
+11564 1094 2
+11564 1603 16
+11564 105 4
+11564 1093 31
+11564 325 28
+11564 1098 2
+11564 301 53
+11564 1108 1
+11564 930 22
+11564 5941 11
+11564 932 9
+11564 2513 7
+11564 3367 28
+19660 1120 1
+19660 1090 2
+19660 1101 7
+19660 1115 9
+19660 1089 19
+19660 1114 8
+19660 46 36
+19660 44 10
+19660 1100 12
+19660 1741 3
+19660 105 1
+19660 5645 1
+19660 301 4
+19660 1108 6
+19660 1740 1
+19660 1116 15
+19660 5650 1
+19660 1096 6
+1115 5652 1
+1115 931 5
+1115 5646 10
+1115 1120 53
+1115 2506 13
+1115 46 115
+1115 302 45
+1115 1741 5
+1115 45 4
+1115 2553 6
+1115 1107 2
+1115 3371 6
+1115 1116 3
+1115 5650 3
+1115 5656 1
+1115 2015 8
+1115 305 3
+1115 1090 28
+1115 1101 69
+1115 1089 4
+1115 1114 186
+1115 44 195
+1115 1100 34
+1115 1603 2
+1115 105 18
+1115 1093 24
+1115 1098 3
+1115 325 90
+1115 301 125
+1115 5645 2
+1115 1108 3
+1115 930 8
+1115 1740 15
+1115 932 25
+1115 1102 8
+21768 105 3
+21768 1120 1
+21768 2506 6
+21768 1101 2
+21768 301 6
+21768 1115 3
+21768 1108 3
+21768 1089 3
+21768 1116 3
+21768 1114 5
+21768 46 16
+21768 44 13
+21768 1100 2
+21768 1096 30
+16445 931 9
+16445 3478 8
+16445 1120 35
+16445 1090 6
+16445 1101 31
+16445 1115 10
+16445 1114 50
+16445 46 27
+16445 302 7
+16445 44 93
+16445 1741 20
+16445 2325 4
+16445 45 9
+16445 105 3
+16445 325 14
+16445 5645 5
+16445 301 36
+16445 930 28
+16445 1740 1
+16445 2326 14
+16445 932 17
+21211 1114 5
+21211 1100 11
+21211 856 5
+21211 1098 2
+26775 1108 6
+26775 1089 2
+26775 1116 1
+26775 1114 1
+26775 303 2
+1324 1209 1
+2557 1324 1
+9476 4635 2
+9476 2557 1
+1459 1324 1
+14465 27450 2
+14465 1459 1
+14465 20083 2
+14465 4575 2
+14465 13956 2
+14465 24528 4
+14465 302 4
+14465 7645 2
+14465 1209 1
+14465 1456 1
+3384 1459 1
+3384 3480 3
+3384 3478 21
+3384 2327 7
+3384 2553 3
+3384 938 1
+3384 3477 6
+3384 1100 8
+3384 1209 2
+3384 3479 14
+3384 1456 7
+3384 1102 2
+1290 1324 1
+1290 1320 2
+1290 1209 1
+1290 1319 2
+14873 1459 1
+14873 381 1
+14873 1209 1
+14873 314 1
+14873 520 1
+15131 1459 1
+15131 3271 7
+15131 4731 2
+15131 662 1
+15131 938 3
+15131 1100 6
+15131 1209 1
+15131 2382 5
+15131 2380 1
+15131 2381 5
+15131 2826 29
+15131 2398 2
+15131 5891 3
+15131 11144 6
+15131 4240 2
+15131 1622 1
+15131 1456 2
+1425 1459 1
+1425 1454 11
+1425 1209 2
+1425 1456 3
+1425 1458 9
+13906 13957 12
+13906 1459 1
+13906 1955 1
+13906 13956 2
+13906 1209 2
+13906 8251 3
+13906 5648 3
+13906 8252 3
+13906 1456 8
+13906 5656 8
+1797 1909 13
+1797 1904 5
+1797 1459 1
+1797 1899 10
+1797 1912 3
+1797 1903 3
+1797 1902 6
+1797 1621 5
+1797 1900 1
+1797 1100 8
+1797 1209 2
+1797 1908 1
+1797 1456 7
+1797 1898 4
+2558 1617 4
+2558 1459 1
+2558 2327 1
+2558 1605 2
+2558 303 2
+2558 13956 2
+2558 325 1
+2558 2553 3
+2558 1100 8
+2558 1209 2
+2558 932 15
+2558 1456 7
+2558 8527 1
+2558 943 10
+2558 1102 3
+2559 305 1
+2559 1120 8
+2559 314 15
+2559 1742 1
+2559 310 20
+2559 1209 2
+2559 44 3
+2559 1100 2
+2559 45 17
+2559 1744 5
+2559 9475 4
+2559 2706 2
+2559 301 6
+2559 1394 14
+2559 2553 4
+2559 1616 4
+2559 1740 4
+2559 1750 6
+2559 9476 1
+2559 1606 1
+2559 1456 2
+2559 1102 2
+859 1617 23
+859 1459 1
+859 8954 17
+859 1209 2
+859 1100 2
+859 858 6
+859 856 12
+859 1456 8
+859 1094 1
+859 662 5
+11410 6511 10
+11410 1459 1
+11410 3272 12
+11410 305 2
+11410 1209 2
+11410 1456 6
+8098 1459 1
+8098 1607 2
+8098 1608 2
+8098 7608 5
+8098 13956 4
+8098 8099 2
+8098 1623 2
+8098 1100 11
+8098 1209 2
+8098 1603 1
+8098 20647 14
+8098 13875 16
+8098 1912 3
+8098 2398 6
+8098 5651 2
+8098 1902 6
+8098 2553 5
+8098 1621 2
+8098 3371 5
+8098 5941 2
+8098 1456 7
+8098 1102 6
+8098 3367 1
+1261 305 8
+1261 1120 11
+1261 314 10
+1261 1090 15
+1261 4063 3
+1261 1101 10
+1261 8525 3
+1261 46 25
+1261 1209 2
+1261 44 8
+1261 1100 3
+1261 105 1
+1261 1744 8
+1261 312 19
+1261 9475 6
+1261 5645 1
+1261 2706 1
+1261 301 7
+1261 1394 2
+1261 2553 5
+1261 1740 4
+1261 1616 6
+1261 1750 7
+1261 9476 1
+1261 1606 2
+1261 1456 3
+1261 1102 4
+3523 1744 10
+3523 1459 1
+3523 312 4
+3523 305 2
+3523 1120 1
+3523 1101 1
+3523 8525 1
+3523 1750 3
+3523 46 3
+3523 44 1
+3523 1209 1
+3523 1096 4
+14967 2652 1
+14967 1459 1
+14967 10723 3
+14967 1209 1
+8526 2032 2
+8526 1397 1
+8526 816 16
+8526 4197 8
+8526 1392 32
+8526 1120 8
+8526 8525 14
+8526 1398 1
+8526 938 17
+8526 302 22
+8526 2118 13
+8526 1741 9
+8526 186 9
+8526 304 10
+8526 1617 54
+8526 6850 1
+8526 4965 1
+8526 4067 6
+8526 1399 1
+8526 937 12
+8526 1606 12
+8526 933 3
+8526 1456 1
+8526 1393 17
+8526 4226 1
+8526 305 2
+8526 4961 1
+8526 7136 1
+8526 6849 1
+8526 662 1
+8526 44 7
+8526 1100 13
+8526 946 27
+8526 8527 2
+8526 325 2
+8526 301 2
+8526 1394 12
+8526 1391 24
+8526 1740 2
+8526 6994 1
+24528 1617 1
+24528 4063 6
+24528 8526 4
+24528 4064 5
+24528 1391 1
+24528 302 9
+24528 7645 1
+24528 44 1
+24528 1100 2
+24528 946 2
+24528 1456 1
+3479 2325 15
+3479 7826 2
+3479 3480 3
+3479 3478 36
+3479 2327 24
+3479 5891 1
+3479 2326 5
+3479 1100 10
+28766 302 10
+28766 1120 2
+28766 1741 10
+28766 325 2
+1458 1454 10
+1458 1455 11
+13957 13200 1
+13957 1955 1
+13957 1956 16
+13957 1394 2
+13957 938 3
+13957 6323 1
+13957 6847 6
+13957 8251 5
+13957 1100 2
+13957 8252 3
+13957 5648 3
+13957 5656 12
+1909 1904 5
+1909 1899 13
+1909 1912 2
+1909 13956 2
+1909 1903 9
+1909 1902 2
+1909 1621 3
+1909 1898 2
+943 2032 1
+943 931 10
+943 8125 7
+943 327 4
+943 945 3
+943 4197 3
+943 2327 10
+943 2506 4
+943 938 56
+943 1100 6
+943 2325 3
+943 6327 2
+943 1956 3
+943 937 9
+943 930 13
+943 2326 5
+943 933 1
+943 932 57
+943 1456 1
+894 931 1
+894 945 3
+894 936 1
+894 937 2
+894 930 6
+894 938 6
+894 946 2
+894 932 6
+894 943 5
+310 3624 8
+310 3660 1
+310 816 2
+310 4197 2
+310 314 2
+310 2506 4
+310 8525 9
+310 8526 7
+310 6851 1
+310 6846 1
+310 938 1
+310 2118 2
+310 304 1
+310 3670 3
+310 1617 3
+310 45 55
+310 1606 3
+310 1456 2
+310 327 4
+310 305 3
+310 1605 2
+310 1742 46
+310 4962 1
+310 1396 1
+310 44 1
+310 1100 8
+310 1395 1
+310 946 2
+310 1394 77
+310 1956 2
+310 2706 1
+310 6848 1
+310 944 3
+310 520 1
+8954 2032 2
+8954 1617 3
+8954 2141 7
+8954 4197 6
+8954 5891 6
+8954 1098 2
+8954 2142 4
+8954 1100 12
+8954 946 4
+8954 1094 8
+311 4635 1
+311 9913 3
+11003 9958 5
+11003 4724 2
+11003 4720 23
+11003 4723 1
+11003 936 1
+11003 311 9
+11003 1089 9
+11003 4721 1
+11003 4722 2
+11003 4635 15
+11003 2513 8
+11003 8101 1
+9913 4721 1
+9913 9958 2
+9913 4722 2
+9913 4724 1
+9913 4720 16
+9913 4635 21
+9913 4723 1
+6511 3272 3
+6511 6521 3
+6511 5891 1
+20647 2032 5
+20647 1607 1
+20647 5649 1
+20647 1608 6
+20647 192 2
+20647 7608 2
+20647 10361 2
+20647 46 7
+20647 302 6
+20647 938 3
+20647 1623 5
+20647 1100 8
+20647 44 2
+20647 8097 1
+20647 45 3
+20647 13875 10
+20647 2398 15
+20647 1912 1
+20647 325 1
+20647 205 22
+20647 1749 22
+20647 1902 2
+20647 3371 6
+20647 1621 3
+20647 13904 3
+20647 5941 7
+20647 1456 1
+20647 3367 20
+312 1393 2
+312 327 4
+312 305 39
+312 816 1
+312 4197 2
+312 1605 3
+312 314 5
+312 6521 1
+312 2506 4
+312 1101 13
+312 8525 14
+312 8526 12
+312 46 16
+312 44 3
+312 1100 4
+312 186 1
+312 304 23
+312 1617 9
+312 105 4
+312 5645 4
+312 2706 1
+312 1394 8
+312 1107 3
+312 1391 1
+312 1606 4
+312 1456 7
+4121 4198 21
+4121 4197 4
+4121 2276 2
+4121 1100 14
+4121 187 3
+4121 1098 18
+24854 1107 2
+24854 1104 2
+3643 1107 6
+3643 1104 2
+13359 13412 3
+13359 1617 2
+13359 305 20
+13359 1104 1
+13359 4063 1
+13359 1394 4
+13359 1107 3
+13359 1391 1
+13359 938 6
+13359 6847 9
+13359 8527 1
+13359 1319 3
+13412 305 3
+13412 314 1
+13412 520 2
+13412 1394 2
+862 309 2
+862 4635 1
+862 1100 4
+862 5650 4
+862 1093 13
+862 9913 2
+22131 2506 1
+14444 302 3
+14444 7645 1
+14444 14465 7
+14444 862 1
+18612 2553 1
+18612 3478 12
+18612 14849 1
+18612 856 1
+18612 3384 14
+18612 862 1
+18612 1102 1
+14869 14873 3
+14869 862 1
+15110 11144 2
+15110 2381 4
+15110 1099 1
+15110 15131 8
+15110 3271 4
+15110 2380 1
+15110 862 1
+12063 1454 6
+12063 862 1
+12063 1425 6
+21681 1955 2
+21681 5656 4
+21681 862 1
+21681 13906 12
+3718 1904 1
+3718 1899 6
+3718 1797 12
+3718 1900 1
+3718 1093 4
+3718 1898 2
+3718 862 3
+3718 1903 1
+2518 1105 1
+2518 2558 10
+2518 303 2
+2518 325 1
+2518 2553 1
+2518 1261 1
+2518 932 7
+2518 2559 1
+2518 862 1
+2518 2557 3
+2518 384 4
+2518 1102 4
+7014 1105 1
+7014 45 4
+7014 1120 1
+7014 2506 4
+7014 1093 8
+7014 1742 1
+7014 301 4
+7014 2553 1
+7014 1099 6
+7014 2949 1
+7014 44 1
+7014 2559 17
+7014 862 15
+7014 2015 4
+7014 384 4
+7014 1102 3
+818 859 6
+818 858 5
+818 856 3
+818 862 1
+818 662 5
+21825 3272 7
+21825 11410 7
+21825 862 1
+14083 8098 16
+14083 7608 2
+14083 1912 3
+14083 1093 4
+14083 2553 1
+14083 5651 4
+14083 3371 4
+14083 862 3
+14083 1898 1
+14083 1102 1
+14083 1603 1
+1237 1261 13
+1237 46 2
+1237 1120 1
+1237 1100 6
+1237 44 1
+1237 1101 1
+1237 862 4
+27814 5646 9
+27814 1120 1
+27814 2506 5
+27814 1090 2
+27814 1101 1
+27814 46 2
+27814 2949 1
+27814 44 1
+27814 384 4
+27814 1105 1
+27814 1093 8
+27814 301 4
+27814 1261 18
+27814 2553 1
+27814 1099 6
+27814 862 17
+27814 1102 3
+27814 2015 4
+3508 46 3
+3508 3523 7
+3508 1096 3
+14940 1108 2
+14940 303 4
+14940 14967 3
+14940 862 1
+25139 1747 11
+25139 1743 1
+11908 1747 11
+11908 1743 1
+1747 15806 3
+1743 1622 3
+1743 1604 2
+1743 662 3
+22200 1749 10
+22200 13904 3
+22200 2328 1
+22200 1623 2
+22200 2398 12
+22200 187 3
+12616 305 2
+12616 4720 7
+12616 1392 3
+12616 314 1
+12616 938 6
+12616 1617 15
+12616 303 4
+12616 4724 1
+12616 1394 2
+12616 1956 2
+12616 4067 3
+12616 937 9
+12616 1749 2
+12616 933 1
+12616 4635 4
+12616 4199 1
+11810 11908 1
+11810 302 4
+11810 1120 3
+11810 1741 5
+11810 325 4
+11811 4720 4
+11811 4635 2
+10247 8125 3
+10247 1747 38
+10247 1743 11
+10247 1393 6
+10247 305 1
+10247 816 4
+10247 1392 4
+10247 1120 2
+10247 8525 2
+10247 4731 2
+10247 938 4
+10247 1741 6
+10247 304 3
+10247 8527 1
+10247 4522 10
+10247 1617 6
+10247 312 1
+10247 5645 1
+10247 301 1
+10247 1394 1
+10247 1749 25
+10247 937 4
+10247 4240 2
+10247 1750 1
+10247 1320 1
+10247 1622 2
+10247 1606 15
+10247 1319 1
+1746 1747 48
+1746 1743 57
+1746 12616 2
+1746 1605 2
+1746 4731 6
+1746 938 3
+1746 1617 36
+1746 4522 14
+1746 9475 4
+1746 301 11
+1746 2706 1
+1746 1749 12
+1746 1740 2
+1746 4240 3
+1746 1320 1
+1746 1456 1
+1746 1319 1
+15051 8125 2
+15051 1743 24
+15051 945 1
+15051 4101 1
+15051 6327 1
+15051 1749 9
+15051 1621 1
+15051 938 5
+15051 944 2
+15051 1604 1
+15051 520 1
+4522 1747 3
+4522 312 1
+4522 1750 1
+4522 1320 1
+4522 310 1
+4522 1605 1
+4522 1319 1
+11812 2325 1
+11812 1747 2
+11812 305 1
+11812 2327 2
+11812 1104 2
+11812 1101 1
+11812 11908 1
+11812 46 1
+11812 2326 4
+11812 44 1
+22052 1747 7
+22052 305 1
+22052 12616 2
+22052 2327 1
+22052 1120 3
+22052 1101 6
+22052 11908 3
+22052 938 2
+22052 44 2
+22052 304 2
+22052 45 2
+22052 2325 1
+22052 1744 2
+22052 9475 1
+22052 5645 1
+22052 1749 1
+22052 1320 2
+22052 1750 1
+22052 2326 4
+22052 1319 2
+11813 11908 1
+11813 305 1
+11813 46 1
+11813 1104 2
+11813 44 1
+11813 1101 1
+10372 4522 2
+10372 1747 7
+10372 945 1
+10372 305 1
+10372 314 1
+10372 311 2
+10372 15051 2
+10372 10361 5
+10372 6327 1
+10372 1394 1
+10372 1749 4
+10372 1616 2
+10372 10247 2
+10372 938 1
+27218 1617 1
+27218 1747 10
+27218 1615 1
+27218 1392 4
+27218 1120 3
+27218 8525 2
+27218 301 3
+27218 1749 8
+27218 1740 4
+27218 10247 1
+27218 1750 1
+27218 310 4
+27218 938 8
+27218 44 5
+27218 1606 1
+1687 1747 8
+1687 1743 3
+1687 1746 1
+1687 1605 1
+1687 1120 5
+1687 314 1
+1687 1101 1
+1687 302 1
+1687 310 2
+1687 938 7
+1687 44 3
+1687 1741 2
+1687 1617 2
+1687 312 1
+1687 1744 7
+1687 325 1
+1687 301 1
+1687 1749 7
+1687 1740 3
+1687 1750 4
+11814 1747 11
+11814 3624 2
+11814 945 3
+11814 12616 3
+11814 1120 1
+11814 1742 4
+11814 938 9
+11814 1687 2
+11814 11815 2
+11814 4522 6
+11814 1956 1
+11814 6327 3
+11814 15051 2
+11814 1749 10
+11814 1616 2
+11814 13904 5
+10206 1747 11
+10206 1392 6
+10206 1120 3
+10206 1101 3
+10206 8525 2
+10206 46 1
+10206 938 9
+10206 44 5
+10206 1617 1
+10206 312 6
+10206 1615 1
+10206 301 3
+10206 1749 9
+10206 1740 4
+10206 10247 1
+10206 1750 2
+10206 1606 1
+12571 1747 10
+12571 1743 4
+12571 305 3
+12571 1746 1
+12571 12616 2
+12571 1605 1
+12571 1120 2
+12571 1101 2
+12571 8525 3
+12571 46 2
+12571 938 7
+12571 44 8
+12571 1617 2
+12571 1744 11
+12571 301 3
+12571 1749 7
+12571 1740 4
+12571 1750 3
+1617 1397 1
+1617 8125 4
+1617 945 1
+1617 1392 1
+1617 5891 1
+1617 4063 1
+1617 934 2
+1617 7136 1
+1617 6849 1
+1617 6327 1
+1617 662 6
+1617 937 8
+1617 938 16
+1617 933 3
+1617 11815 6
+3480 1456 7
+3480 12231 2
+27450 23570 3
+27450 313 1
+27450 4776 1
+25405 313 1
+1107 1616 1
+1107 1104 12
+1107 4063 1
+1107 1456 1
+314 520 1
+8527 2032 4
+8527 1393 8
+8527 305 7
+8527 8745 1
+8527 816 1
+8527 1605 1
+8527 1392 14
+8527 938 10
+8527 946 2
+8527 186 1
+8527 304 1
+8527 1617 16
+8527 4067 9
+8527 1394 5
+8527 21023 2
+8527 1107 2
+8527 937 56
+8527 1391 4
+8527 1616 2
+8527 933 5
+8527 1097 2
+13875 5651 4
+13875 3371 1
+13875 944 1
+13875 1623 1
+2032 1393 4
+2032 313 1
+2032 2116 1
+2032 816 2
+2032 1392 5
+2032 325 1
+2032 1391 4
+2032 302 9
+2032 2118 2
+2032 44 3
+2032 946 2
+2032 186 4
+24203 23570 6
+1744 8525 5
+13249 1744 3
+13249 1750 2
+13249 305 5
+13249 1120 1
+13249 1101 1
+14625 1744 2
+14625 310 3
+14625 1120 1
+14625 1742 2
+14625 1394 2
+14592 45 2
+14592 1744 5
+14592 14625 1
+14592 10723 2
+14592 8525 2
+14592 1394 3
+14592 310 2
+14592 1606 1
+14592 1096 3
+14592 1481 6
+10724 1744 10
+10724 312 8
+10724 305 11
+10724 46 1
+10724 1120 1
+10724 1101 2
+13596 1744 7
+13596 312 2
+13596 305 20
+13596 10723 2
+13596 10724 1
+13596 1120 1
+13596 1090 1
+13596 4063 2
+13596 1101 3
+13596 8525 2
+13596 46 3
+13596 944 2
+13596 1606 1
+13596 1096 3
+13596 1481 8
+4577 1481 3
+1482 305 36
+1482 1120 1
+1482 314 5
+1482 1095 8
+1482 1090 2
+1482 1101 4
+1482 8525 7
+1482 46 4
+1482 44 1
+1482 10722 1
+1482 1481 9
+1482 312 4
+1482 1744 9
+1482 10723 2
+1482 10724 3
+1482 5891 3
+1482 944 2
+1482 1606 2
+1482 4577 5
+1482 1096 26
+1482 1456 9
+4525 4577 2
+4525 4575 2
+25099 305 1
+25099 20752 1
+20752 1394 2
+19333 305 1
+19333 13814 1
+13814 305 3
+13814 314 1
+13814 304 1
+20058 878 1
+19778 312 2
+19778 305 2
+19778 878 1
+11483 305 1
+11483 878 1
+20259 305 1
+20259 878 1
+20259 4063 2
+24059 1320 2
+24059 305 1
+24059 878 1
+1473 944 1
+1473 305 4
+1473 878 1
+1473 1481 1
+16654 878 1
+18922 878 1
+10193 312 2
+10193 878 1
+10193 1090 1
+10193 1101 3
+8810 11998 1
+8811 11999 6
+8811 11998 1
+8812 12001 1
+8812 11999 4
+8812 11998 1
+8812 12000 2
+8812 10090 1
+7339 3914 11
+7339 3915 9
+7339 3795 5
+8753 8814 1
+8753 8810 3
+8753 3914 26
+8753 3915 10
+8753 8813 1
+8753 8811 3
+8753 8817 2
+8753 8812 3
+8753 3795 3
+6395 3914 2
+6395 3915 5
+6395 6414 2
+11864 6414 1
+3915 3914 8
+11999 3914 16
+3914 3915 3
+12000 12001 1
+12000 10090 1
+3795 3914 14
+3795 3915 1
+8262 8283 8
+27785 11999 2
+27785 8813 1
+27785 8283 11
+25832 6414 3
+25832 8283 4
+25832 11864 1
+18716 1397 1
+18716 1607 1
+18716 3660 1
+18716 18895 9
+18716 1398 1
+18716 6851 1
+18716 938 6
+18716 1623 1
+18716 186 2
+18716 304 19
+18716 3670 1
+18716 1617 2
+18716 6850 1
+18716 6256 1
+18716 4575 2
+18716 1749 2
+18716 1399 1
+18716 13904 2
+18716 4577 2
+18716 1393 2
+18716 4961 1
+18716 2327 1
+18716 4063 3
+18716 4962 1
+18716 6849 1
+18716 1396 1
+18716 1395 1
+18716 946 6
+18716 18896 1
+18716 2398 2
+18716 1394 18
+18716 1956 2
+18716 6848 1
+18716 1391 4
+18716 944 1

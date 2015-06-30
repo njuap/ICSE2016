@@ -1,0 +1,2329 @@
+*Vertics: 498
+2,org.apache.metamodel.util.ResourceUtils
+36,org.apache.metamodel.util.UrlResource
+84,org.apache.metamodel.util.ResourceException
+85,org.apache.metamodel.util.FileHelper
+100,org.apache.metamodel.data.RowPublisherDataSetTest
+126,org.apache.metamodel.query.SelectItem
+127,org.apache.metamodel.schema.MutableColumn
+131,org.apache.metamodel.data.RowPublisherDataSet
+140,org.apache.metamodel.data.RowPublisherImpl
+143,org.apache.metamodel.create.AbstractCreateTableBuilderTest
+163,org.apache.metamodel.MetaModelException
+166,org.apache.metamodel.schema.MutableSchema
+167,org.apache.metamodel.schema.MutableTable
+170,org.apache.metamodel.util.MutableRef
+172,org.apache.metamodel.create.AbstractTableCreationBuilder
+202,org.apache.metamodel.query.FilterClause
+214,org.apache.metamodel.MetaModelHelper
+215,org.apache.metamodel.query.FilterItem
+216,org.apache.metamodel.query.AbstractQueryClause
+217,org.apache.metamodel.query.Query
+224,org.apache.metamodel.elasticsearch.ElasticSearchUtils
+238,org.apache.metamodel.data.DefaultRow
+248,org.apache.metamodel.query.parser.SelectItemParser
+288,org.apache.metamodel.query.FromItem
+289,org.apache.metamodel.query.FunctionType
+291,org.apache.metamodel.query.parser.QueryParserException
+292,org.apache.metamodel.query.FromClause
+322,org.apache.metamodel.sugarcrm.SugarCrmXmlHelper
+376,org.apache.metamodel.schema.MutableTableTest
+391,org.apache.metamodel.schema.AbstractTable
+403,org.apache.metamodel.schema.builder.ColumnNameAsKeysRowConverter
+417,org.apache.metamodel.data.Document
+418,org.apache.metamodel.util.CollectionUtils
+426,org.apache.metamodel.jdbc.dialects.MysqlQueryRewriter
+436,org.apache.metamodel.jdbc.JdbcDataContext
+438,org.apache.metamodel.jdbc.dialects.LimitOffsetQueryRewriter
+451,org.apache.metamodel.util.EqualsBuilder
+490,org.apache.metamodel.mongodb.MongoDbDataContext
+676,org.apache.metamodel.QueryPostprocessDataContext
+679,org.apache.metamodel.data.InMemoryDataSet
+680,org.apache.metamodel.data.SimpleDataSetHeader
+681,org.apache.metamodel.query.OperatorType
+682,org.apache.metamodel.schema.ColumnTypeImpl
+683,org.apache.metamodel.util.SimpleTableDef
+685,org.apache.metamodel.mongodb.MongoDbTableDef
+686,org.apache.metamodel.mongodb.MongoDbUpdateCallback
+687,org.apache.metamodel.mongodb.MongoDbDataSet
+688,org.apache.metamodel.util.BaseObject
+689,org.apache.metamodel.mongodb.MongoDBUtils
+690,org.apache.metamodel.mongodb.SimpleWriteConcernAdvisor
+691,org.apache.metamodel.mongodb.DefaultWriteConcernAdvisor
+740,org.apache.metamodel.convert.ConvertedRowInsertionInterceptor
+758,org.apache.metamodel.convert.Converters
+762,org.apache.metamodel.schema.TableType
+780,org.apache.metamodel.query.GroupByItemTest
+788,org.apache.metamodel.query.GroupByClause
+789,org.apache.metamodel.query.GroupByItem
+800,org.apache.metamodel.query.DefaultCompiledQueryTest
+820,org.apache.metamodel.query.DefaultCompiledQuery
+821,org.apache.metamodel.query.QueryParameter
+855,org.apache.metamodel.util.TimeComparator
+912,org.apache.metamodel.util.DateUtils
+917,org.apache.metamodel.query.builder.HavingBuilderImpl
+944,org.apache.metamodel.query.builder.AbstractQueryFilterBuilder
+958,org.apache.metamodel.jdbc.JdbcCompiledQueryLeaseFactory
+985,org.apache.metamodel.jdbc.JdbcCompiledQueryLease
+986,org.apache.metamodel.jdbc.JdbcUtils
+995,org.apache.metamodel.excel.ExcelUpdateCallback
+1095,org.apache.metamodel.AbstractUpdateCallback
+1102,org.apache.metamodel.excel.ExcelConfiguration
+1103,org.apache.metamodel.excel.ExcelDataContext
+1104,org.apache.metamodel.excel.ExcelTableCreationBuilder
+1105,org.apache.metamodel.excel.ExcelInsertBuilder
+1106,org.apache.metamodel.excel.ExcelUtils
+1107,org.apache.metamodel.AbstractDataContext
+1108,org.apache.metamodel.excel.ExcelDropTableBuilder
+1109,org.apache.metamodel.excel.ExcelDeleteBuilder
+1134,org.apache.metamodel.QueryPostprocessDataContextTest
+1417,org.apache.metamodel.data.DataSetTableModel
+1419,org.apache.metamodel.query.JoinType
+1420,org.apache.metamodel.query.OrderByItem
+1423,org.apache.metamodel.MetaModelTestCase
+1424,org.apache.metamodel.MockDataContext
+1433,org.apache.metamodel.query.SelectClause
+1517,org.apache.metamodel.mongodb.MongoDbInsertionBuilder
+1533,org.apache.metamodel.insert.AbstractRowInsertionBuilder
+1544,org.apache.metamodel.jdbc.integrationtests.FirebirdTest
+1561,org.apache.metamodel.jdbc.integrationtests.AbstractJdbIntegrationTest
+1604,org.apache.metamodel.data.AbstractRowBuilder
+1618,org.apache.metamodel.util.InMemoryResource
+1665,org.apache.metamodel.util.ObjectComparator
+1684,org.apache.metamodel.util.NumberComparator
+1685,org.apache.metamodel.util.BooleanComparator
+1686,org.apache.metamodel.util.ToStringComparator
+1702,org.apache.metamodel.CompositeQueryDelegate
+1712,org.apache.metamodel.QueryPostprocessDelegate
+1716,org.apache.metamodel.util.ExclusionPredicate
+1728,org.apache.metamodel.fixedwidth.FixedWidthDataSet
+1752,org.apache.metamodel.data.AbstractDataSet
+1753,org.apache.metamodel.fixedwidth.FixedWidthReader
+1754,org.apache.metamodel.fixedwidth.InconsistentValueWidthException
+1809,org.apache.metamodel.jdbc.JdbcColumn
+1821,org.apache.metamodel.jdbc.JdbcTable
+1832,org.apache.metamodel.excel.ZeroBasedRowIteratorTest
+1844,org.apache.metamodel.excel.ZeroBasedRowIterator
+1850,org.apache.metamodel.delete.AbstractRowDeletionCallbackTest
+1863,org.apache.metamodel.MockUpdateableDataContext
+1934,org.apache.metamodel.schema.AbstractColumn
+1951,org.apache.metamodel.sugarcrm.SugarCrmDataContext
+2015,org.apache.metamodel.data.MaxRowsDataSet
+2016,org.apache.metamodel.util.LazyRef
+2017,org.apache.metamodel.sugarcrm.SugarCrmDataSet
+2018,org.apache.metamodel.sugarcrm.SugarCrmSchema
+2027,org.apache.metamodel.schema.ColumnTypeTest
+2049,org.apache.metamodel.query.FromItemTest
+2097,org.apache.metamodel.dialects.SQLServerQueryRewriterTest
+2117,org.apache.metamodel.jdbc.dialects.SQLServerQueryRewriter
+2119,org.apache.metamodel.jdbc.dialects.AbstractQueryRewriter
+2127,org.apache.metamodel.intercept.InterceptorList
+2145,org.apache.metamodel.convert.ConvertedRowInsertionInterceptorTest
+2155,org.apache.metamodel.convert.StringToIntegerConverter
+2164,org.apache.metamodel.query.parser.QueryPartCollectionProcessor
+2180,org.apache.metamodel.util.LegacyDeserializationObjectInputStream
+2272,org.apache.metamodel.schema.JdbcTypes
+2273,org.apache.metamodel.schema.SuperColumnType
+2287,org.apache.metamodel.csv.CsvDataSet
+2315,org.apache.metamodel.csv.InconsistentRowLengthException
+2319,org.apache.metamodel.update.Update
+2355,org.apache.metamodel.query.builder.AbstractFilterBuilder
+2369,org.apache.metamodel.jdbc.CloseableConnectionWrapper
+2528,org.apache.metamodel.query.OrderByItemTest
+2535,org.apache.metamodel.util.ConstantFunc
+2549,org.apache.metamodel.util.BaseObjectTest
+2562,org.apache.metamodel.util.ObjectComparatorTest
+2572,org.apache.metamodel.util.Month
+2578,org.apache.metamodel.util.EqualsBuilderTest
+2598,org.apache.metamodel.util.NumberComparatorTest
+2608,org.apache.metamodel.salesforce.SalesforceDataSetTest
+2628,org.apache.metamodel.salesforce.SalesforceDataSet
+2632,org.apache.metamodel.insert.InsertInto
+2651,org.apache.metamodel.csv.CsvUpdateCallback
+2730,org.apache.metamodel.util.FileResource
+2731,org.apache.metamodel.csv.CsvConfiguration
+2732,org.apache.metamodel.csv.CsvDataContext
+2733,org.apache.metamodel.csv.CsvWriter
+2734,org.apache.metamodel.csv.CsvCreateTableBuilder
+2735,org.apache.metamodel.csv.CsvInsertBuilder
+2736,org.apache.metamodel.csv.CsvTable
+2737,org.apache.metamodel.csv.CsvTableDropBuilder
+2738,org.apache.metamodel.csv.CsvDeleteBuilder
+2863,org.apache.metamodel.data.EmptyDataSet
+2864,org.apache.metamodel.data.CachingDataSetHeader
+2882,org.apache.metamodel.csv.SingleLineCsvDataSet
+2908,org.apache.metamodel.csv.SingleLineCsvRow
+2911,org.apache.metamodel.query.LogicalOperator
+2918,org.apache.metamodel.spring.PojoDataContextFactoryBeanDelegateTest
+2923,org.apache.metamodel.pojo.PojoDataContext
+2925,org.apache.metamodel.spring.DataContextFactoryBean
+2932,org.apache.metamodel.util.LegacyDeserializationObjectInputStreamTest
+2946,org.apache.metamodel.DataContextFactory
+3101,org.apache.metamodel.cassandra.CassandraDataContext
+3102,org.apache.metamodel.elasticsearch.ElasticSearchDataContext
+3103,org.apache.metamodel.couchdb.CouchDbDataContext
+3104,org.apache.metamodel.fixedwidth.FixedWidthConfiguration
+3105,org.apache.metamodel.fixedwidth.FixedWidthDataContext
+3106,org.apache.metamodel.json.JsonDataContext
+3107,org.apache.metamodel.openoffice.OpenOfficeDataContext
+3108,org.apache.metamodel.salesforce.SalesforceDataContext
+3109,org.apache.metamodel.xml.XmlDomDataContext
+3116,org.apache.metamodel.CompositeDataContext
+3147,org.apache.metamodel.spring.ExcelSpecifiedConfigurationFromFilenameTest
+3173,org.apache.metamodel.util.FalsePredicate
+3182,org.apache.metamodel.convert.ConvertedDataSetInterceptor
+3204,org.apache.metamodel.convert.ConvertedDataSet
+3210,org.apache.metamodel.xml.XmlDomDataContextTest
+3270,org.apache.metamodel.jdbc.dialects.HsqldbQueryRewriter
+3292,org.apache.metamodel.jdbc.dialects.DefaultQueryRewriter
+3301,org.apache.metamodel.jdbc.DerbyTest
+3383,org.apache.metamodel.jdbc.JdbcTestTemplates
+3384,org.apache.metamodel.jdbc.FetchSizeCalculator
+3395,org.apache.metamodel.jdbc.JdbcCreateTableBuilder
+3415,org.apache.metamodel.jdbc.JdbcTestCase
+3421,org.apache.metamodel.intercept.InterceptableDataContext
+3509,org.apache.metamodel.query.builder.InitFromBuilderImpl
+3510,org.apache.metamodel.util.HasNameMapper
+3516,org.apache.metamodel.intercept.InterceptableUpdateScript
+3523,org.apache.metamodel.salesforce.SalesforceTestCase
+3573,org.apache.metamodel.mongodb.MongoDbTableCreationBuilder
+3574,org.apache.metamodel.mongodb.MongoDbDropTableBuilder
+3575,org.apache.metamodel.mongodb.MongoDbDeleteBuilder
+3619,org.apache.metamodel.util.SimpleTableDefParserTest
+3629,org.apache.metamodel.util.SimpleTableDefParser
+3637,org.apache.metamodel.sugarcrm.SugarCrmDataContextTest
+3685,org.apache.metamodel.sugarcrm.SugarCrmTestCase
+3696,org.apache.metamodel.xml.XmlSaxDataContextTest
+3720,org.apache.metamodel.xml.XmlSaxTableDef
+3721,org.apache.metamodel.xml.XmlSaxDataContext
+3729,org.apache.metamodel.cassandra.CassandraDataSet
+3738,org.apache.metamodel.cassandra.CassandraUtils
+3756,org.apache.metamodel.schema.builder.SingleTableInferentialSchemaBuilder
+3770,org.apache.metamodel.schema.builder.InferentialSchemaBuilder
+3771,org.apache.metamodel.schema.builder.InferentialTableBuilder
+3781,org.apache.metamodel.elasticsearch.ElasticSearchDataSet
+3826,org.apache.metamodel.schema.builder.SimpleTableDefSchemaBuilder
+3843,org.apache.metamodel.hbase.HBaseRow
+3871,org.apache.metamodel.data.AbstractRow
+3872,org.apache.metamodel.hbase.HBaseDataContext
+3873,org.apache.metamodel.hbase.HBaseFamilyMap
+4097,org.apache.metamodel.elasticsearch.ElasticSearchMetaData
+4098,org.apache.metamodel.elasticsearch.ElasticSearchUpdateCallback
+4099,org.apache.metamodel.elasticsearch.ElasticSearchMetaDataParser
+4109,org.apache.metamodel.SchemaNameComparatorTest
+4113,org.apache.metamodel.SchemaNameComparator
+4116,org.apache.metamodel.schema.MutableRelationship
+4141,org.apache.metamodel.schema.AbstractRelationship
+4201,org.apache.metamodel.util.LazyRefTest
+4292,org.apache.metamodel.data.DefaultRowTest
+4327,org.apache.metamodel.data.StyleBuilder
+4347,org.apache.metamodel.delete.AbstractRowDeletionBuilder
+4352,org.apache.metamodel.jdbc.QuerySplitterTest
+4414,org.apache.metamodel.jdbc.QuerySplitter
+4421,org.apache.metamodel.schema.MutableSchemaTest
+4427,org.apache.metamodel.schema.AbstractSchema
+4437,org.apache.metamodel.xml.XmlSaxContentHandlerTest
+4455,org.apache.metamodel.xml.XmlSaxContentHandler
+4458,org.apache.metamodel.csv.UnicodeWriterTest
+4464,org.apache.metamodel.util.UnicodeWriter
+4479,org.apache.metamodel.jdbc.JdbcSchemaTest
+4495,org.apache.metamodel.jdbc.JdbcSchema
+4498,org.apache.metamodel.schema.TableTypeTest
+4532,org.apache.metamodel.util.InMemoryResourceTest
+4548,org.apache.metamodel.spring.ExcelDataContextFactoryBeanDelegate
+4556,org.apache.metamodel.spring.AbstractDataContextFactoryBeanDelegate
+4565,org.apache.metamodel.excel.ExcelDataContextTest
+4724,org.apache.metamodel.excel.XlsxSpreadsheetReaderDelegate
+4746,org.apache.metamodel.csv.RandomizedExampleValueGenerator
+4782,org.apache.metamodel.sugarcrm.LoggingMessageHandler
+4809,org.apache.metamodel.hbase.HBaseDataSet
+4827,org.apache.metamodel.fixedwidth.FixedWidthDataContextTest
+4875,org.apache.metamodel.InconsistentRowFormatException
+4890,org.apache.metamodel.util.SharedExecutorService
+4913,org.apache.metamodel.create.AbstractColumnBuilder
+4933,org.apache.metamodel.jdbc.SqlKeywords
+4938,org.apache.metamodel.data.DataSetIterator
+4948,org.apache.metamodel.spring.MongoDbDataContextFactoryBeanDelegate
+4963,org.apache.metamodel.drop.AbstractTableDropBuilder
+4966,org.apache.metamodel.data.SubSelectionDataSet
+4978,org.apache.metamodel.query.builder.JoinFromBuilderImpl
+5003,org.apache.metamodel.query.builder.SatisfiedFromBuilderCallback
+5013,org.apache.metamodel.salesforce.SalesforceUpdateCallback
+5082,org.apache.metamodel.salesforce.SalesforceInsertBuilder
+5083,org.apache.metamodel.salesforce.SalesforceDeleteBuilder
+5084,org.apache.metamodel.salesforce.SalesforceUtils
+5085,org.apache.metamodel.salesforce.SalesforceUpdateBuilder
+5093,org.apache.metamodel.util.FileHelperTest
+5202,org.apache.metamodel.util.AlphabeticSequence
+5218,org.apache.metamodel.query.OperatorTypeTest
+5222,org.apache.metamodel.csv.CsvConfigurationTest
+5233,org.apache.metamodel.schema.Java5Types
+5270,org.apache.metamodel.elasticsearch.ElasticSearchDataContextTest
+5447,org.apache.metamodel.create.CreateTable
+5448,org.apache.metamodel.delete.DeleteFrom
+5449,org.apache.metamodel.drop.DropTable
+5450,org.apache.metamodel.elasticsearch.utils.EmbeddedElasticsearchServer
+5471,org.apache.metamodel.schema.ImmutableSchemaTest
+5475,org.apache.metamodel.schema.ImmutableSchema
+5530,org.apache.metamodel.convert.StringToDoubleConverterTest
+5536,org.apache.metamodel.convert.StringToDoubleConverter
+5797,org.apache.metamodel.query.FilterItemTest
+5925,org.apache.metamodel.couchdb.CouchDbRowDeletionBuilder
+5940,org.apache.metamodel.couchdb.CouchDbUpdateCallback
+5946,org.apache.metamodel.jdbc.integrationtests.SQLServerMicrosoftDriverTest
+5973,org.apache.metamodel.query.parser.QueryPartParser
+6035,org.apache.metamodel.schema.builder.InferentialColumnBuilder
+6041,org.apache.metamodel.spring.MockDataContextFactoryBeanDelegate
+6135,org.apache.metamodel.excel.XlsxSheetToRowsHandler
+6250,org.apache.metamodel.excel.XlsxStopParsingException
+6271,org.apache.metamodel.couchdb.CouchDbInsertionBuilder
+6291,org.apache.metamodel.query.parser.QueryParser
+6367,org.apache.metamodel.query.parser.FromItemParser
+6368,org.apache.metamodel.query.parser.WhereItemParser
+6369,org.apache.metamodel.query.parser.GroupByItemParser
+6370,org.apache.metamodel.query.parser.HavingItemParser
+6371,org.apache.metamodel.query.parser.OrderByItemParser
+6378,org.apache.metamodel.data.StyleImpl
+6432,org.apache.metamodel.csv.CsvBigFileMemoryTest
+6469,org.apache.metamodel.csv.ExampleDataGenerator
+6476,org.apache.metamodel.data.DataSetTableModelTest
+6486,org.apache.metamodel.salesforce.SalesforceDataContextTest
+6574,org.apache.metamodel.couchdb.CouchDbRowUpdationBuilder
+6595,org.apache.metamodel.update.AbstractRowUpdationBuilder
+6600,org.apache.metamodel.schema.ImmutableColumn
+6642,org.apache.metamodel.schema.ImmutableTable
+6644,org.apache.metamodel.openoffice.OpenOfficeDataContextTest
+6679,org.apache.metamodel.schema.CompositeSchema
+6700,org.apache.metamodel.excel.XlsDataSet
+6908,org.apache.metamodel.jdbc.dialects.DB2QueryRewriter
+6909,org.apache.metamodel.jdbc.dialects.H2QueryRewriter
+6910,org.apache.metamodel.jdbc.dialects.OracleQueryRewriter
+6911,org.apache.metamodel.jdbc.dialects.PostgresqlQueryRewriter
+6913,org.apache.metamodel.jdbc.JdbcCompiledQuery
+6914,org.apache.metamodel.jdbc.JdbcUpdateCallback
+6915,org.apache.metamodel.jdbc.JdbcMetadataLoader
+6916,org.apache.metamodel.jdbc.JdbcDataSet
+6917,org.apache.metamodel.jdbc.JdbcBatchUpdateCallback
+6918,org.apache.metamodel.jdbc.JdbcSimpleUpdateCallback
+6968,org.apache.metamodel.couchdb.CouchDbTestCase
+7076,org.apache.metamodel.data.FirstRowDataSetTest
+7090,org.apache.metamodel.data.FirstRowDataSet
+7186,org.apache.metamodel.jdbc.SplitQueriesDataSet
+7192,org.apache.metamodel.query.builder.WhereBuilderImplTest
+7207,org.apache.metamodel.query.builder.WhereBuilderImpl
+7208,org.apache.metamodel.query.builder.GroupedQueryBuilderImpl
+7335,org.apache.metamodel.create.CreateTableColumnBuilder
+7351,org.apache.metamodel.jdbc.integrationtests.MysqlTest
+7427,org.apache.metamodel.insert.SyntaxExamplesTest
+7442,org.apache.metamodel.convert.StringToBooleanConverterTest
+7446,org.apache.metamodel.convert.StringToBooleanConverter
+7451,org.apache.metamodel.util.ClasspathResource
+7563,org.apache.metamodel.query.builder.SyntaxExamplesTest
+7587,org.apache.metamodel.csv.SingleLineCsvDataSetTest
+7598,org.apache.metamodel.query.SelectClauseTest
+7604,org.apache.metamodel.convert.StringToDateConverterTest
+7620,org.apache.metamodel.convert.StringToDateConverter
+7627,org.apache.metamodel.csv.DefaultExampleValueGenerator
+7635,org.apache.metamodel.excel.DefaultSpreadsheetReaderDelegateTest
+7684,org.apache.metamodel.excel.DefaultSpreadsheetReaderDelegate
+7720,org.apache.metamodel.intercept.InterceptableDataContextTest
+7757,org.apache.metamodel.jdbc.JdbcInsertBuilder
+7818,org.apache.metamodel.jdbc.JdbcDeleteBuilder
+7917,org.apache.metamodel.pojo.ObjectTableDataProvider
+8010,org.apache.metamodel.schema.ImmutableRelationship
+8166,org.apache.metamodel.excel.XlsxWorkbookToTablesHandler
+8181,org.apache.metamodel.schema.builder.SingleMapColumnSchemaBuilder
+8293,org.apache.metamodel.excel.XlsxRowPublisherAction
+8331,org.apache.metamodel.data.MaxRowsDocumentSource
+8341,org.apache.metamodel.util.AlphabeticSequenceTest
+8398,org.apache.metamodel.convert.ColumnTypeDetectorTest
+8405,org.apache.metamodel.convert.ColumnTypeDetector
+8412,org.apache.metamodel.excel.ExcelUpdateCallbackTest
+8434,org.apache.metamodel.update.SyntaxExamplesTest
+8442,org.apache.metamodel.jdbc.JdbcInsertBuilderTest
+8460,org.apache.metamodel.query.SelectItemTest
+8489,org.apache.metamodel.mongodb.MongoDbDataCopyer
+8542,org.apache.metamodel.elasticsearch.ElasticSearchDropTableBuilder
+8578,org.apache.metamodel.pojo.ObjectTableDataProviderTest
+8582,org.apache.metamodel.pojo.FoobarBean
+8584,org.apache.metamodel.fixedwidth.FixedWidthConfigurationTest
+8592,org.apache.metamodel.csv.CsvDataContextTest
+8851,org.apache.metamodel.util.InclusionPredicate
+8860,org.apache.metamodel.hbase.HBaseTestCase
+8875,org.apache.metamodel.intercept.InterceptableUpdateCallback
+8911,org.apache.metamodel.intercept.InterceptableTableCreationBuilder
+8912,org.apache.metamodel.intercept.InterceptableRowInsertionBuilder
+8913,org.apache.metamodel.intercept.InterceptableTableDropBuilder
+8914,org.apache.metamodel.intercept.InterceptableRowUpdationBuilder
+8915,org.apache.metamodel.intercept.InterceptableRowDeletionBuilder
+8942,org.apache.metamodel.query.builder.TableFromBuilderImpl
+9024,org.apache.metamodel.hbase.HBaseConfiguration
+9025,org.apache.metamodel.hbase.HBaseTable
+9026,org.apache.metamodel.hbase.ByteUtils
+9060,org.apache.metamodel.intercept.InterceptorsTest
+9065,org.apache.metamodel.intercept.Interceptors
+9110,org.apache.metamodel.dialects.MysqlQueryRewriterTest
+9122,org.apache.metamodel.schema.Java6Types
+9166,org.apache.metamodel.create.ColumnCreationBuilderImpl
+9188,org.apache.metamodel.util.InclusionPredicateTest
+9199,org.apache.metamodel.jdbc.JdbcDataContextTest
+9366,org.apache.metamodel.spring.CouchDbDataContextFactoryBeanDelegate
+9422,org.apache.metamodel.jdbc.JdbcDropTableBuilder
+9423,org.apache.metamodel.jdbc.JdbcUpdateBuilder
+9428,org.apache.metamodel.util.TimeComparatorTest
+9507,org.apache.metamodel.data.DocumentSourceDataSet
+9508,org.apache.metamodel.json.JsonDocumentSource
+9513,org.apache.metamodel.dialects.AbstractQueryRewriterTest
+9527,org.apache.metamodel.salesforce.SalesforceTable
+9585,org.apache.metamodel.jdbc.HsqldbTest
+9747,org.apache.metamodel.util.SerializableRef
+9784,org.apache.metamodel.convert.StringToIntegerConverterTest
+9791,org.apache.metamodel.query.parser.QueryPartParserTest
+9817,org.apache.metamodel.jdbc.H2databaseTest
+10197,org.apache.metamodel.util.ImmutableRef
+10313,org.apache.metamodel.CompositeDataContextTest
+10337,org.apache.metamodel.util.DateUtilsTest
+10343,org.apache.metamodel.util.Weekday
+10350,org.apache.metamodel.util.FormatHelper
+10412,org.apache.metamodel.schema.JavaTypesTest
+10430,org.apache.metamodel.util.SimpleRefTest
+10591,org.apache.metamodel.query.OrderByClause
+10619,org.apache.metamodel.csv.CsvSchema
+10627,org.apache.metamodel.data.ColorImpl
+10648,org.apache.metamodel.cassandra.CassandraDataContextTest
+10692,org.apache.metamodel.data.FilteredDataSet
+10693,org.apache.metamodel.cassandra.CassandraTestCase
+10694,org.apache.metamodel.cassandra.CassandraSimpleClient
+10725,org.apache.metamodel.util.BooleanComparatorTest
+10731,org.apache.metamodel.query.FromClauseTest
+10861,org.apache.metamodel.jdbc.integrationtests.DB2Test
+10964,org.apache.metamodel.util.AbstractNumberAggregateBuilder
+10985,org.apache.metamodel.intercept.InterceptableColumnCreationBuilder
+11211,org.apache.metamodel.query.builder.ColumnSelectBuilderImpl
+11212,org.apache.metamodel.query.builder.FunctionSelectBuilderImpl
+11213,org.apache.metamodel.query.builder.CountSelectBuilderImpl
+11214,org.apache.metamodel.query.builder.SatisfiedSelectBuilderImpl
+11215,org.apache.metamodel.query.builder.SatisfiedOrderByBuilderImpl
+11244,org.apache.metamodel.pojo.PojoUpdateCallback
+11282,org.apache.metamodel.pojo.MapTableDataProvider
+11286,org.apache.metamodel.pojo.PojoDataSet
+11292,org.apache.metamodel.dialects.DB2QueryRewriterTest
+11461,org.apache.metamodel.intercept.InterceptorListTest
+11577,org.apache.metamodel.spring.CsvDataContextFactoryBeanDelegate
+11578,org.apache.metamodel.spring.JdbcDataContextFactoryBeanDelegate
+11579,org.apache.metamodel.spring.PojoDataContextFactoryBeanDelegate
+11598,org.apache.metamodel.query.FunctionTypeTest
+11906,org.apache.metamodel.couchdb.CouchDbTableCreationBuilder
+11924,org.apache.metamodel.couchdb.CouchDbDatabaseDocumentSource
+11952,org.apache.metamodel.couchdb.CouchDbUtils
+11956,org.apache.metamodel.couchdb.CouchDbDataSet
+12197,org.apache.metamodel.mongodb.MongoDbTestCase
+12229,org.apache.metamodel.query.SumAggregateBuilder
+12248,org.apache.metamodel.spring.CsvSpecifiedConfigurationFromFilenameTest
+12255,org.apache.metamodel.convert.ConvertedRowUpdationInterceptor
+12267,org.apache.metamodel.intercept.InterceptionCsvIntegrationTest
+12287,org.apache.metamodel.util.MonthTest
+12551,org.apache.metamodel.util.WildcardPatternTest
+12554,org.apache.metamodel.util.WildcardPattern
+12692,org.apache.metamodel.couchdb.CouchDbDocumentConverter
+12698,org.apache.metamodel.util.ClasspathResourceTest
+12706,org.apache.metamodel.dialects.PostgresqlQueryRewriterTest
+12726,org.apache.metamodel.util.FormatHelperTest
+12799,org.apache.metamodel.xml.XmlStopParsingException
+12813,org.apache.metamodel.util.SerializableRefTest
+12854,org.apache.metamodel.salesforce.SalesforceSchema
+12880,org.apache.metamodel.query.builder.GroupedQueryBuilderImplTest
+12905,org.apache.metamodel.util.ImmutableDate
+13005,org.apache.metamodel.elasticsearch.ElasticSearchMetaDataParserTest
+13012,org.apache.metamodel.query.MinAggregateBuilder
+13019,org.apache.metamodel.DeleteAndInsertBuilder
+13069,org.apache.metamodel.DataContextFactoryTest
+13083,org.apache.metamodel.util.ResourceUtilsTest
+13089,org.apache.metamodel.hbase.HBaseDataContextTest
+13127,org.apache.metamodel.pojo.ArrayTableDataProvider
+13154,org.apache.metamodel.schema.DataTypeTest
+13157,org.apache.metamodel.query.parser.QueryParserTest
+13388,org.apache.metamodel.data.StyleBuilderTest
+13512,org.apache.metamodel.create.SyntaxExamplesTest
+13598,org.apache.metamodel.schema.SchemaModelTest
+13823,org.apache.metamodel.elasticsearch.ElasticSearchCreateTableBuilder
+13824,org.apache.metamodel.elasticsearch.ElasticSearchInsertBuilder
+13825,org.apache.metamodel.elasticsearch.ElasticSearchDeleteBuilder
+13831,org.apache.metamodel.data.DataSetIteratorTest
+13850,org.apache.metamodel.sugarcrm.SugarCrmTable
+14017,org.apache.metamodel.jdbc.SqliteTest
+14347,org.apache.metamodel.query.builder.GroupedQueryBuilderCallback
+14472,org.apache.metamodel.query.AverageAggregateBuilder
+14480,org.apache.metamodel.insert.AbstractInsertBuilderTest
+14504,org.apache.metamodel.schema.MutableColumnTest
+14517,org.apache.metamodel.jdbc.JdbcColumnTest
+14526,org.apache.metamodel.util.WeekdayTest
+14542,org.apache.metamodel.json.JsonDataContextTest
+14741,org.apache.metamodel.couchdb.CouchDbTableDropBuilder
+14744,org.apache.metamodel.couchdb.CouchDbSimpleTableDefSchemaBuilder
+14757,org.apache.metamodel.convert.ConvertedDataSetInterceptorTest
+14773,org.apache.metamodel.util.CollectionUtilsTest
+14984,org.apache.metamodel.xml.XmlDataContext
+15033,org.apache.metamodel.spring.SpringResource
+15175,org.apache.metamodel.couchdb.CouchDbInferentialSchemaBuilder
+15176,org.apache.metamodel.couchdb.CouchDbSamplingDocumentSource
+15181,org.apache.metamodel.query.MaxAggregateBuilder
+15382,org.apache.metamodel.jdbc.FilteredDataSetTest
+15441,org.apache.metamodel.schema.builder.MultiTableInferentialSchemaBuilder
+15654,org.apache.metamodel.excel.ExcelConfigurationTest
+15662,org.apache.metamodel.jdbc.integrationtests.OracleTest
+15708,org.apache.metamodel.jdbc.FetchSizeCalculatorTest
+15967,org.apache.metamodel.couchdb.CouchDbDataContextTest
+16034,org.apache.metamodel.query.QueryTest
+16140,org.apache.metamodel.util.UrlResourceTest
+16144,org.apache.metamodel.convert.ConvertersTest
+16189,org.apache.metamodel.util.ToStringComparatorTest
+16244,org.apache.metamodel.MetaModelHelperTest
+16376,org.apache.metamodel.spring.CsvDefaultConfigurationFromResourceTest
+16393,org.apache.metamodel.jdbc.integrationtests.SQLServerJtdsDriverTest
+16504,org.apache.metamodel.data.RowTest
+16541,org.apache.metamodel.jdbc.integrationtests.PostgresqlTest
+16762,org.apache.metamodel.dbmains.PostgresqlMain
+16784,org.apache.metamodel.query.CountAggregateBuilder
+17078,org.apache.metamodel.spring.MockDataContextTypeTest
+17120,org.apache.metamodel.jdbc.JdbcDeleteBuilderTest
+17299,org.apache.metamodel.jdbc.JdbcUpdateBuilderTest
+17393,org.apache.metamodel.spring.DataContextFactoryBeanTest
+17423,org.apache.metamodel.pojo.Person
+17450,org.apache.metamodel.util.ExclusionPredicateTest
+17473,org.apache.metamodel.pojo.PojoDataContextTest
+17772,org.apache.metamodel.mongodb.MongoDbDataContextTest
+17839,org.apache.metamodel.util.TruePredicate
+17858,org.apache.metamodel.jdbc.JdbcUtilsTest
+17994,org.apache.metamodel.schema.builder.LazyDocumentSource
+18001,org.apache.metamodel.AbstractDataContextTest
+*Edges: 1829
+1107 163 1
+1107 820 2
+1107 217 2
+1107 6291 2
+1107 3509 1
+18001 127 10
+18001 1107 35
+18001 166 10
+18001 167 14
+1095 13019 1
+3116 288 1
+3116 216 1
+3116 163 2
+3116 6679 1
+3116 1107 1
+3116 214 2
+3116 676 1
+3116 217 2
+3116 1702 1
+10313 3116 3
+10313 1424 6
+10313 217 1
+1702 1712 1
+1702 217 4
+2946 3116 2
+2946 436 6
+2946 3106 1
+2946 3103 2
+2946 3105 1
+2946 3104 3
+2946 3101 1
+2946 3102 1
+2946 2732 4
+2946 3109 3
+2946 1102 2
+2946 3108 1
+2946 1951 1
+2946 683 2
+2946 3107 1
+2946 762 4
+2946 2731 4
+2946 1103 1
+2946 490 2
+13069 2946 2
+13069 1102 1
+13019 126 1
+13019 1095 4
+13019 6595 7
+13019 238 1
+13019 1604 2
+13019 680 1
+4875 163 3
+214 789 3
+214 215 8
+214 679 8
+214 288 8
+214 216 2
+214 126 15
+214 7090 1
+214 451 1
+214 6291 2
+214 418 4
+214 289 1
+214 163 2
+214 10692 1
+214 2273 1
+214 238 6
+214 2864 7
+214 1420 2
+214 1665 1
+214 2863 4
+214 2015 1
+214 4966 1
+214 217 6
+214 680 1
+16244 215 5
+16244 679 1
+16244 288 3
+16244 127 27
+16244 126 25
+16244 214 14
+16244 238 1
+16244 167 9
+16244 1420 1
+16244 2863 3
+16244 1423 43
+16244 217 5
+16244 680 1
+1423 679 1
+1423 127 18
+1423 126 1
+1423 238 1
+1423 4116 5
+1423 167 7
+1423 2863 1
+1423 166 2
+1423 680 1
+1424 679 1
+1424 127 20
+1424 214 3
+1424 238 4
+1424 167 9
+1424 2864 1
+1424 2863 1
+1424 676 1
+1424 166 3
+1863 215 1
+1863 679 1
+1863 127 6
+1863 214 2
+1863 238 2
+1863 167 7
+1863 2864 2
+1863 2863 1
+1863 676 1
+1863 166 3
+676 215 4
+676 679 3
+676 288 13
+676 216 9
+676 127 16
+676 126 11
+676 3182 2
+676 1107 2
+676 214 19
+676 7090 1
+676 167 19
+676 418 5
+676 166 4
+676 1433 3
+676 391 10
+676 238 4
+676 4116 5
+676 202 2
+676 2863 2
+676 217 19
+676 688 1
+676 680 3
+676 10591 1
+676 788 1
+1134 1424 10
+1134 789 2
+1134 215 5
+1134 288 17
+1134 216 10
+1134 127 6
+1134 126 33
+1134 1107 21
+1134 214 1
+1134 167 4
+1134 1423 165
+1134 676 4
+1134 1433 4
+1134 1420 3
+1134 1417 4
+1134 217 141
+1712 676 1
+4113 214 2
+3101 3729 1
+3101 683 6
+3101 676 1
+3101 166 2
+3101 167 1
+10648 10693 29
+10648 10694 4
+10648 1417 1
+10648 3101 3
+10648 1107 9
+10648 676 2
+10648 217 7
+3729 1752 3
+3729 3738 1
+3738 126 1
+3738 238 1
+8405 855 1
+8405 1685 1
+8405 7620 1
+8398 8405 18
+3204 1752 3
+3204 238 1
+3182 3204 1
+3182 126 2
+14757 758 2
+14757 1107 1
+14757 1863 2
+14757 217 2
+740 758 1
+2145 758 1
+2145 1107 1
+2145 1863 2
+12255 758 1
+758 3182 2
+758 12255 2
+758 3421 10
+758 214 3
+758 2127 3
+758 740 2
+758 9065 2
+758 8405 2
+758 217 1
+16144 758 4
+16144 1107 1
+16144 1863 4
+16144 217 1
+7446 1685 1
+7442 7446 5
+7604 912 4
+7604 7620 14
+5530 5536 6
+9784 2155 5
+3103 15176 1
+3103 11956 1
+3103 214 1
+3103 11924 1
+3103 683 3
+3103 14744 1
+3103 5940 2
+3103 11952 1
+3103 15175 2
+3103 676 1
+3103 680 1
+15967 1107 25
+15967 683 4
+15967 6968 40
+15967 5449 1
+15967 3103 8
+15967 2632 1
+11956 126 1
+11956 11952 1
+11956 1752 4
+11924 11952 2
+11924 417 2
+12692 403 2
+12692 417 1
+15175 11906 1
+15175 3770 5
+15175 417 1
+6271 5940 2
+6271 1533 4
+6271 1604 3
+5925 5940 4
+5925 1107 1
+5925 4347 4
+6574 5940 4
+6574 1107 1
+6574 6595 4
+6574 1604 3
+15176 11924 5
+15176 417 1
+14744 11906 1
+14744 683 1
+14744 3826 3
+14744 166 1
+11906 5940 2
+11906 127 5
+11906 391 2
+11906 172 4
+11906 166 1
+11906 3103 1
+11906 167 5
+14741 5940 3
+14741 4963 3
+14741 166 1
+14741 3103 1
+5940 14741 1
+5940 163 1
+5940 3103 3
+5940 11906 1
+5940 1095 3
+5940 6271 1
+5940 5925 1
+5940 6574 1
+11952 126 1
+11952 238 1
+11952 418 1
+4913 127 13
+143 127 4
+143 172 5
+143 166 2
+143 167 4
+143 170 6
+172 127 3
+172 391 3
+172 167 5
+172 9166 1
+9166 127 1
+9166 4913 2
+5447 127 1
+5447 7335 2
+5447 166 1
+5447 167 6
+7335 127 1
+7335 4913 2
+7335 5447 4
+13512 7335 2
+13512 4913 1
+13512 5447 2
+6432 6469 2
+6432 216 1
+6432 126 1
+6432 2732 2
+6432 217 4
+6432 2731 1
+2731 688 1
+5222 688 1
+5222 2731 5
+2734 2736 1
+2734 1095 1
+2734 391 2
+2734 10619 1
+2734 2732 1
+2734 172 4
+2734 2731 1
+2734 167 2
+2734 2651 2
+2732 2736 1
+2732 163 1
+2732 2287 1
+2732 85 5
+2732 10619 3
+2732 2882 1
+2732 2651 2
+2732 36 1
+2732 2863 1
+2732 2 1
+2732 676 1
+2732 2730 3
+2732 2731 27
+8592 216 1
+8592 126 8
+8592 4875 2
+8592 758 3
+8592 85 10
+8592 1107 28
+8592 2315 6
+8592 170 2
+8592 1417 1
+8592 2732 43
+8592 676 12
+8592 217 23
+8592 2731 15
+2287 126 1
+2287 1752 5
+2287 85 1
+2287 2315 1
+2287 238 1
+2738 85 3
+2738 2732 2
+2738 4347 2
+2738 2651 4
+2735 1533 3
+2735 1604 1
+2735 2651 2
+10619 4427 1
+10619 2736 2
+10619 2732 3
+2736 127 1
+2736 391 1
+2736 85 1
+2736 10619 8
+2736 2732 4
+2736 2731 3
+2736 762 1
+2736 5202 2
+2737 4963 2
+2737 2651 3
+2651 2734 1
+2651 163 2
+2651 2738 1
+2651 85 1
+2651 2735 1
+2651 451 1
+2651 1095 3
+2651 2737 1
+2651 2730 2
+2651 2732 3
+2651 2731 5
+2651 2733 2
+2733 2731 8
+6469 4746 1
+2315 4875 3
+2882 2908 1
+2882 163 1
+2882 1752 3
+2882 85 1
+7587 1107 4
+7587 2732 2
+7587 2731 2
+2908 163 1
+2908 126 1
+2908 3871 1
+2908 2315 1
+2908 2882 5
+4458 4464 1
+1752 126 3
+1752 1417 1
+1752 4938 1
+1752 214 1
+1752 688 1
+1752 2864 1
+3871 126 8
+3871 238 2
+3871 680 1
+1604 238 1
+1604 680 1
+2864 126 1
+2864 680 6
+10627 688 1
+13831 4938 14
+1417 126 2
+1417 451 3
+6476 679 1
+6476 127 3
+6476 214 1
+6476 238 2
+6476 2864 1
+238 126 2
+238 3871 1
+238 680 2
+4292 127 2
+4292 126 5
+4292 85 1
+4292 2180 1
+4292 3871 4
+4292 238 8
+4292 4327 3
+4292 680 5
+9507 1752 4
+9507 417 1
+2863 126 1
+2863 1752 4
+2863 680 3
+10692 1752 3
+7090 1752 2
+7076 679 2
+7076 126 1
+7076 7090 23
+7076 238 5
+679 1752 5
+679 680 1
+679 2864 1
+2015 1752 2
+8331 417 1
+131 140 5
+131 126 1
+131 1752 3
+131 4890 1
+100 131 2
+100 127 4
+100 126 4
+140 131 4
+140 163 1
+140 1752 2
+140 238 2
+16504 126 3
+16504 1423 11
+16504 238 2
+16504 680 1
+16504 2864 2
+680 126 7
+680 214 1
+4327 6378 1
+4327 10627 1
+4327 451 2
+13388 4327 13
+6378 688 1
+4966 126 1
+4966 1752 4
+16762 163 1
+16762 1107 2
+16762 436 3
+4347 215 2
+4347 126 1
+4347 202 1
+1850 1107 4
+1850 1863 3
+5448 215 1
+5448 126 1
+9513 2119 3
+9513 1433 1
+9513 127 4
+9513 126 1
+9513 217 9
+9513 167 1
+11292 6908 30
+11292 127 11
+11292 217 62
+11292 166 7
+11292 167 10
+9110 438 2
+9110 127 2
+9110 426 8
+9110 217 9
+9110 167 2
+12706 2119 1
+12706 6911 3
+12706 288 1
+12706 127 3
+12706 167 5
+12706 438 1
+12706 166 2
+12706 217 5
+2097 2119 5
+2097 855 1
+2097 215 1
+2097 288 1
+2097 127 7
+2097 126 1
+2097 167 5
+2097 166 1
+2097 217 17
+2097 2117 3
+13823 127 3
+13823 391 1
+13823 3102 2
+13823 172 5
+13823 4098 2
+13823 166 1
+13823 167 3
+3102 215 6
+3102 127 1
+3102 126 1
+3102 4099 1
+3102 167 1
+3102 418 1
+3102 676 2
+3102 4097 2
+3102 166 2
+3102 163 1
+3102 391 1
+3102 683 6
+3102 4098 2
+3102 224 1
+3102 3781 2
+3102 680 1
+3102 2911 1
+5270 126 6
+5270 4913 10
+5270 1107 1
+5270 214 2
+5270 5447 15
+5270 1604 1
+5270 5450 4
+5270 1417 1
+5270 5448 5
+5270 3102 3
+5270 217 11
+5270 2319 1
+5270 5449 6
+3781 1752 5
+3781 224 1
+13825 3102 3
+13825 4098 3
+13825 4347 4
+8542 4963 3
+8542 3102 2
+8542 4098 3
+8542 166 1
+13824 1533 4
+13824 3102 2
+13824 4098 2
+13824 1604 3
+4099 4097 2
+13005 4099 1
+13005 4097 2
+4098 13825 1
+4098 1095 3
+4098 8542 1
+4098 3102 4
+4098 13824 1
+4098 13823 1
+224 126 2
+224 238 1
+7684 127 2
+7684 2863 1
+7684 2015 1
+7684 1106 5
+7684 1102 5
+7684 166 2
+7684 167 6
+7684 5202 3
+7635 7684 1
+7635 1107 10
+7635 676 2
+7635 1103 8
+1102 688 1
+15654 1102 5
+15654 688 1
+1103 163 2
+1103 85 3
+1103 2016 3
+1103 1107 1
+1103 995 2
+1103 7684 2
+1103 2730 2
+1103 676 1
+1103 4724 1
+1103 166 1
+1103 1102 5
+4565 85 1
+4565 1107 33
+4565 214 1
+4565 676 11
+4565 1102 7
+4565 217 11
+4565 1103 35
+1109 214 1
+1109 1106 2
+1109 995 5
+1109 680 1
+1109 4347 5
+1108 4963 3
+1108 995 3
+1108 166 1
+1105 1533 7
+1105 2016 16
+1105 995 5
+1105 1604 3
+1104 995 3
+1104 172 4
+1104 1102 1
+1104 166 1
+1104 167 3
+995 1104 1
+995 1109 1
+995 1107 1
+995 1095 2
+995 1105 1
+995 1106 3
+995 1102 3
+995 1103 5
+995 1108 1
+8412 1107 3
+8412 1106 1
+8412 995 2
+8412 1103 2
+1106 163 1
+1106 126 1
+1106 214 1
+1106 1844 1
+1106 238 2
+1106 912 1
+1106 2863 1
+1106 4327 12
+1106 1102 4
+1106 6700 1
+1106 1103 4
+6700 126 1
+6700 1752 3
+6700 1106 1
+8293 85 1
+8293 1106 1
+8293 1102 2
+8293 6135 1
+8293 6250 1
+6135 912 1
+6135 4327 12
+6135 1102 3
+4724 8166 3
+4724 131 1
+4724 4427 1
+4724 127 1
+4724 126 1
+4724 85 3
+4724 8293 1
+4724 6135 1
+4724 167 3
+4724 6250 1
+4724 1106 2
+4724 166 1
+4724 1102 3
+8166 166 3
+8166 167 1
+1832 1844 16
+3104 688 1
+8584 688 1
+8584 3104 5
+3105 1728 2
+3105 127 2
+3105 85 3
+3105 167 2
+3105 3104 16
+3105 2 1
+3105 2730 3
+3105 676 2
+3105 166 2
+3105 1753 7
+3105 5202 2
+4827 1754 7
+4827 4875 4
+4827 1107 6
+4827 676 2
+4827 3105 10
+4827 3104 10
+1728 1754 3
+1728 126 1
+1728 1752 5
+1728 85 1
+1728 1753 3
+1728 238 1
+1753 1754 4
+1754 4875 4
+9026 163 2
+9024 683 3
+9024 688 1
+3872 9026 1
+3872 163 3
+3872 85 2
+3872 3843 1
+3872 9024 11
+3872 683 1
+3872 4809 1
+3872 676 1
+3872 9025 1
+3872 166 2
+3872 680 1
+13089 8860 9
+13089 1107 6
+13089 9024 2
+13089 683 1
+13089 3872 6
+4809 1752 4
+4809 3843 1
+3873 9026 3
+3843 126 1
+3843 3873 1
+3843 3871 1
+9025 163 1
+9025 127 18
+9025 683 4
+9025 166 1
+9025 167 9
+14480 127 4
+14480 391 1
+14480 167 6
+14480 170 3
+1533 126 1
+1533 1604 6
+2632 1604 6
+10985 8911 6
+3421 3510 1
+3421 3516 1
+3421 217 3
+3421 2127 43
+3421 3509 1
+7720 3421 8
+7720 1863 1
+7720 217 2
+8915 215 1
+8915 126 1
+8915 2127 3
+8912 2127 3
+8914 215 1
+8914 126 1
+8914 2127 3
+8911 2127 3
+8911 10985 1
+8913 2127 3
+8875 8911 1
+8875 8913 1
+8875 1095 2
+8875 8914 1
+8875 3421 1
+8875 8912 1
+8875 2127 15
+8875 8915 1
+3516 8875 1
+3516 3421 2
+3516 2127 10
+12267 9065 1
+12267 3421 6
+12267 2732 1
+11461 9065 1
+11461 3182 1
+11461 3421 1
+11461 1863 1
+11461 2127 11
+9065 3421 2
+9060 9065 2
+9060 1863 1
+3301 85 1
+3301 1107 11
+3301 436 24
+3301 3383 7
+3301 3384 4
+3301 217 5
+3301 170 3
+3384 216 3
+3384 126 3
+3384 217 7
+15708 127 37
+15708 126 1
+15708 3384 28
+15708 217 3
+15708 167 1
+15382 3415 2
+15382 10692 1
+15382 436 1
+15382 217 3
+9817 216 3
+9817 126 1
+9817 4913 1
+9817 1107 30
+9817 436 33
+9817 5447 2
+9817 3383 8
+9817 3384 1
+9817 2632 2
+9817 1604 2
+9817 170 3
+9817 5448 2
+9817 217 14
+9817 2319 2
+9817 5449 1
+9585 288 1
+9585 126 2
+9585 1107 17
+9585 436 20
+9585 214 3
+9585 3383 7
+9585 3384 1
+9585 1417 1
+9585 217 14
+6917 6914 2
+6917 986 1
+6917 85 1
+6917 436 1
+1809 127 6
+1809 1821 3
+14517 3415 3
+14517 163 1
+14517 126 14
+14517 436 2
+14517 688 2
+6913 986 1
+6913 958 1
+6913 216 1
+6913 163 1
+6913 985 2
+6913 436 2
+6913 820 2
+6913 217 4
+958 986 1
+958 985 8
+958 436 4
+3395 6914 5
+3395 4495 1
+3395 986 1
+3395 4427 1
+3395 85 1
+3395 436 1
+3395 172 10
+3395 167 1
+436 6908 1
+436 216 1
+436 85 2
+436 6913 5
+436 1107 3
+436 3384 4
+436 6909 1
+436 2117 1
+436 6914 2
+436 4495 1
+436 986 10
+436 6911 1
+436 163 1
+436 985 3
+436 6916 2
+436 3292 1
+436 6910 1
+436 820 1
+436 6915 1
+436 762 5
+436 6917 1
+436 426 1
+436 2863 1
+436 3270 1
+436 6918 1
+436 2015 1
+436 217 8
+9199 215 1
+9199 3415 15
+9199 126 7
+9199 6913 37
+9199 1107 12
+9199 436 36
+9199 3292 1
+9199 1420 1
+9199 1417 4
+9199 2369 20
+9199 217 35
+6916 986 1
+6916 216 1
+6916 126 2
+6916 985 2
+6916 85 2
+6916 6913 4
+6916 436 3
+6916 238 1
+6916 1752 6
+6916 217 2
+7818 6914 5
+7818 986 3
+7818 215 1
+7818 288 1
+7818 85 1
+7818 4347 5
+17120 3415 5
+17120 7818 9
+17120 1107 4
+17120 436 4
+17120 6918 4
+17120 3292 4
+17120 4347 5
+9422 6914 5
+9422 4495 1
+9422 986 1
+9422 288 1
+9422 4963 4
+7757 6914 5
+7757 986 3
+7757 1533 5
+7757 288 1
+7757 85 1
+7757 1604 7
+8442 7757 8
+8442 3415 4
+8442 1107 3
+8442 436 3
+8442 6918 3
+8442 3292 3
+8442 1604 5
+6915 4495 5
+6915 986 9
+6915 4427 1
+6915 127 6
+6915 391 2
+6915 436 24
+6915 1809 1
+6915 4116 1
+6915 762 1
+6915 167 15
+6915 1821 9
+6915 166 10
+4495 391 2
+4495 166 3
+4495 167 1
+4479 4495 1
+4479 3415 3
+4479 436 2
+6918 6914 2
+6918 85 1
+6918 436 1
+1821 4495 2
+1821 762 1
+1821 167 6
+3383 7335 3
+3383 4913 13
+3383 1107 36
+3383 436 38
+3383 5447 4
+3383 1604 2
+3383 912 2
+3383 2319 2
+3383 5449 7
+9423 6914 6
+9423 986 6
+9423 215 2
+9423 288 1
+9423 126 1
+9423 85 1
+9423 1604 6
+9423 6595 5
+17299 3415 5
+17299 1107 4
+17299 436 4
+17299 3292 4
+17299 1604 5
+17299 6595 3
+17299 6918 4
+17299 9423 11
+6914 4933 1
+6914 986 5
+6914 7757 1
+6914 3395 1
+6914 1095 2
+6914 7818 1
+6914 436 11
+6914 9422 1
+6914 9423 1
+986 215 7
+986 163 2
+986 10350 5
+986 85 1
+986 762 1
+17858 986 4
+4414 789 1
+4414 215 5
+4414 288 18
+4414 216 10
+4414 126 8
+4414 214 2
+4414 7186 1
+4414 217 28
+4352 3415 5
+4352 288 3
+4352 126 7
+4352 436 4
+4352 217 27
+4352 4414 28
+7186 1752 2
+14017 85 1
+14017 1107 9
+14017 436 16
+14017 3383 7
+14017 3384 2
+14017 217 13
+2119 789 2
+2119 215 9
+2119 1433 2
+2119 288 4
+2119 216 12
+2119 126 2
+2119 436 3
+2119 202 2
+2119 682 1
+2119 1420 2
+2119 217 19
+2119 292 1
+2119 10591 1
+2119 788 1
+6908 2119 3
+6908 855 1
+6908 215 4
+6908 288 2
+6908 216 2
+6908 126 5
+6908 10350 1
+6908 436 1
+6908 3292 4
+6908 217 12
+3292 2119 7
+3292 215 8
+3292 288 2
+3292 216 2
+3292 126 2
+3292 436 2
+3292 418 1
+3292 217 3
+6909 438 2
+6909 436 1
+3270 2119 1
+3270 215 2
+3270 126 1
+3270 436 1
+3270 3292 5
+3270 217 2
+438 2119 1
+438 436 1
+438 3292 2
+438 217 2
+426 438 2
+426 436 1
+426 3292 2
+6910 2119 1
+6910 436 1
+6910 3292 4
+6911 2119 2
+6911 438 2
+6911 288 1
+6911 436 1
+6911 3292 1
+2117 2119 2
+2117 912 1
+2117 215 5
+2117 1433 1
+2117 126 2
+2117 436 1
+2117 3292 7
+2117 217 2
+1561 85 1
+1561 436 2
+10861 1107 6
+10861 436 7
+10861 3383 3
+10861 1561 14
+1544 288 1
+1544 126 2
+1544 1417 1
+1544 1107 3
+1544 436 1
+1544 1561 5
+1544 217 5
+7351 215 1
+7351 288 2
+7351 216 4
+7351 126 1
+7351 1107 5
+7351 436 14
+7351 3383 5
+7351 1417 5
+7351 217 26
+7351 1561 37
+7351 4414 5
+15662 288 1
+15662 216 1
+15662 126 1
+15662 1107 3
+15662 436 4
+15662 3383 2
+15662 1417 1
+15662 217 5
+15662 1561 19
+16541 215 1
+16541 1433 1
+16541 216 3
+16541 126 7
+16541 1107 31
+16541 436 40
+16541 3383 5
+16541 1420 1
+16541 1417 2
+16541 1561 45
+16541 217 22
+16541 4414 9
+16393 126 2
+16393 1107 9
+16393 436 16
+16393 3383 3
+16393 1561 21
+16393 217 9
+16393 5449 2
+5946 126 2
+5946 1107 5
+5946 436 9
+5946 1561 11
+5946 217 9
+3106 163 1
+3106 3756 1
+3106 85 1
+3106 214 1
+3106 2864 1
+3106 9508 1
+3106 676 1
+3106 2015 1
+3106 2730 1
+3106 9507 1
+3106 8331 1
+14542 8181 1
+14542 1107 4
+14542 2730 2
+14542 683 1
+14542 3826 1
+14542 3106 6
+9508 163 2
+9508 417 2
+691 690 2
+689 126 2
+689 238 1
+689 418 1
+490 215 14
+490 679 1
+490 216 6
+490 127 1
+490 126 6
+490 1107 1
+490 690 1
+490 167 2
+490 691 1
+490 676 2
+490 686 2
+490 166 3
+490 685 1
+490 391 1
+490 683 6
+490 689 1
+490 682 1
+490 687 1
+490 217 10
+490 680 2
+17772 12197 41
+17772 126 4
+17772 687 6
+17772 1107 15
+17772 683 2
+17772 490 9
+8489 85 1
+8489 436 1
+8489 490 2
+687 1752 4
+687 689 1
+3575 686 5
+3575 4347 5
+3575 490 1
+3574 4963 3
+3574 686 3
+3574 166 1
+1517 1533 4
+1517 686 3
+1517 1604 2
+3573 391 2
+3573 1107 1
+3573 172 5
+3573 686 3
+3573 6600 1
+3573 167 3
+3573 490 1
+685 683 3
+686 1095 2
+686 3573 1
+686 3574 1
+686 3575 1
+686 1517 1
+686 490 5
+3107 163 1
+3107 85 1
+3107 1107 3
+3107 436 4
+3107 217 1
+6644 1417 2
+6644 1107 5
+6644 3107 5
+6644 217 8
+13127 683 6
+11282 683 4
+7917 683 4
+7917 682 1
+8578 683 1
+8578 7917 2
+2923 11244 1
+2923 11286 1
+2923 214 1
+2923 2015 1
+2923 683 1
+2923 676 1
+2923 166 2
+2923 167 1
+17473 17423 2
+17473 11282 2
+17473 1107 7
+17473 683 3
+17473 13127 1
+17473 8582 5
+17473 7917 2
+17473 676 2
+17473 217 2
+17473 2923 5
+11286 126 2
+11286 1752 5
+11286 238 1
+11244 1095 2
+11244 2923 2
+216 688 1
+216 217 2
+14472 10964 1
+820 215 14
+820 288 6
+820 216 9
+820 217 22
+800 215 1
+800 288 3
+800 127 4
+800 126 5
+800 820 10
+800 167 1
+800 217 13
+800 681 1
+202 215 1
+202 216 4
+202 214 1
+202 217 1
+215 126 17
+215 10350 1
+215 12554 2
+215 418 2
+215 1665 1
+215 217 3
+215 688 1
+215 681 5
+215 2911 5
+5797 215 108
+5797 127 22
+5797 126 23
+5797 238 47
+5797 167 4
+5797 2864 4
+5797 688 8
+5797 166 2
+5797 217 11
+5797 680 3
+292 288 9
+292 216 4
+292 217 1
+10731 288 2
+10731 1423 4
+10731 217 10
+10731 292 6
+288 126 13
+288 1419 4
+288 688 1
+288 217 8
+2049 288 21
+2049 216 1
+2049 126 2
+2049 1107 1
+2049 1423 12
+2049 217 9
+289 126 4
+11598 289 10
+788 789 1
+788 216 3
+788 217 1
+789 126 6
+789 688 1
+789 217 3
+780 789 4
+780 216 3
+780 126 3
+780 217 1
+780 788 1
+15181 1665 1
+13012 1665 1
+5218 681 7
+10591 1420 1
+10591 216 3
+10591 217 1
+1420 126 8
+1420 688 1
+1420 217 3
+2528 1420 4
+2528 126 1
+217 789 5
+217 215 12
+217 288 18
+217 248 3
+217 216 23
+217 126 23
+217 10350 1
+217 1419 1
+217 5973 6
+217 1685 1
+217 289 2
+217 2164 3
+217 292 3
+217 291 1
+217 163 1
+217 1433 10
+217 1684 2
+217 202 6
+217 1420 4
+217 688 1
+217 2911 1
+217 681 8
+217 10591 3
+217 788 3
+16034 789 2
+16034 1433 7
+16034 288 7
+16034 216 4
+16034 127 11
+16034 126 7
+16034 167 8
+16034 3509 2
+16034 1420 1
+16034 1423 28
+16034 166 4
+16034 217 91
+16034 688 4
+1433 216 6
+1433 126 2
+1433 217 1
+7598 127 2
+7598 217 5
+7598 167 1
+126 288 15
+126 289 9
+126 688 2
+126 451 9
+126 217 4
+126 292 1
+8460 1433 1
+8460 288 8
+8460 216 2
+8460 127 1
+8460 126 12
+8460 1423 10
+8460 217 16
+12229 10964 1
+2355 215 32
+2355 126 8
+2355 681 1
+944 215 1
+944 126 1
+944 14347 2
+944 2355 51
+11211 11214 2
+11211 126 3
+11211 14347 2
+11211 217 2
+11213 11214 2
+11213 126 3
+11213 14347 2
+11213 217 2
+11212 11214 2
+11212 126 3
+11212 14347 2
+11212 289 1
+11212 217 2
+14347 215 1
+14347 289 3
+14347 688 1
+14347 217 1
+7208 215 1
+7208 11214 1
+7208 288 8
+7208 216 3
+7208 126 1
+7208 917 1
+7208 11213 1
+7208 7207 1
+7208 289 3
+7208 217 19
+7208 688 1
+7208 11215 2
+7208 11211 1
+7208 11212 1
+12880 127 15
+12880 7208 4
+12880 217 4
+12880 167 10
+917 215 5
+917 216 1
+917 126 2
+917 14347 2
+917 944 3
+917 289 4
+917 217 6
+3509 688 1
+3509 217 2
+3509 8942 1
+4978 288 7
+4978 216 1
+4978 126 2
+4978 1419 2
+4978 5003 5
+4978 217 3
+5003 11214 3
+5003 11213 1
+5003 289 2
+5003 7208 10
+5003 217 5
+5003 688 1
+5003 11211 1
+5003 8942 1
+5003 11212 1
+11215 1420 5
+11215 126 2
+11215 14347 6
+11215 289 1
+11215 217 4
+11214 14347 6
+11214 289 1
+7563 1424 1
+7563 4427 1
+7563 217 1
+7563 166 2
+7563 167 2
+8942 4978 3
+8942 288 3
+8942 5003 10
+8942 217 2
+7207 821 9
+7207 215 5
+7207 216 1
+7207 126 2
+7207 14347 4
+7207 944 3
+7207 217 6
+7207 2355 5
+7192 127 3
+7192 7207 2
+7192 7208 1
+7192 217 7
+6367 288 12
+6367 248 4
+6367 126 2
+6367 1419 1
+6367 217 5
+6367 291 5
+6367 6291 2
+6369 217 2
+6370 217 2
+6371 217 2
+6291 248 1
+6291 6370 1
+6291 6367 1
+6291 5973 12
+6291 6371 1
+6291 6369 1
+6291 217 13
+6291 291 4
+6291 6368 1
+291 163 5
+13157 1424 2
+13157 789 1
+13157 215 26
+13157 288 4
+13157 216 38
+13157 163 2
+13157 127 4
+13157 126 13
+13157 1107 4
+13157 214 33
+13157 6291 6
+13157 1420 3
+13157 217 68
+9791 2164 21
+9791 5973 18
+248 288 4
+248 216 2
+248 126 7
+248 214 1
+248 289 1
+248 217 8
+248 291 1
+248 292 1
+6368 217 2
+3108 2628 2
+3108 215 7
+3108 5084 3
+3108 216 6
+3108 126 8
+3108 7090 1
+3108 1420 2
+3108 12854 1
+3108 676 6
+3108 217 9
+3108 5013 2
+3108 681 1
+6486 912 1
+6486 215 4
+6486 127 6
+6486 126 5
+6486 1107 13
+6486 5448 2
+6486 217 2
+6486 3523 22
+6486 3108 14
+2628 5084 1
+2628 126 1
+2628 1752 3
+2628 1685 1
+2628 1684 1
+2628 238 1
+2608 2628 1
+2608 127 1
+2608 1752 2
+5083 5013 4
+5083 4347 3
+5082 1533 4
+5082 5013 2
+5082 1604 3
+12854 4427 1
+9527 391 1
+9527 762 1
+5085 6595 4
+5085 5013 4
+5085 1604 3
+5013 5083 1
+5013 215 7
+5013 5084 3
+5013 126 2
+5013 1095 2
+5013 5085 1
+5013 5082 1
+5013 3108 1
+4141 688 1
+4427 451 5
+4427 762 2
+4427 418 3
+391 214 2
+391 2273 1
+391 418 10
+682 855 1
+682 1684 1
+682 1665 1
+682 2273 6
+682 1686 1
+2027 682 2
+6679 4427 1
+6679 418 2
+6600 6642 1
+6600 1934 1
+8010 4427 1
+8010 4141 3
+8010 6642 3
+8010 5475 2
+5475 4427 1
+5475 6642 1
+5475 8010 1
+5471 4427 1
+5471 1423 4
+5471 5475 1
+6642 391 1
+6642 8010 1
+6642 5475 3
+6642 6600 1
+6642 762 3
+127 1934 1
+14504 127 7
+14504 1934 4
+14504 166 3
+14504 167 3
+4116 4141 5
+4116 167 4
+166 4427 1
+166 167 4
+4421 4427 13
+4421 166 8
+4421 167 4
+167 391 1
+167 762 6
+376 127 18
+376 391 14
+376 167 17
+13598 1423 29
+13598 4116 1
+4498 762 8
+403 126 1
+403 238 1
+403 418 1
+403 417 3
+6035 127 4
+6035 682 1
+3770 166 3
+3770 3771 5
+3770 167 2
+3770 417 2
+3771 6035 5
+3771 127 3
+3771 167 3
+3771 417 2
+17994 2016 5
+17994 417 1
+15441 2 2
+15441 3770 2
+15441 417 2
+3826 683 3
+3826 166 3
+3826 167 1
+8181 127 1
+8181 2 1
+8181 238 1
+8181 166 3
+8181 167 2
+8181 417 2
+3756 2 1
+3756 3770 3
+3756 3771 1
+4556 15033 1
+4556 1685 1
+4556 2730 1
+4556 36 1
+9366 2946 1
+9366 4556 1
+11577 4556 9
+11577 2732 1
+11577 2731 1
+16376 15033 1
+16376 1107 1
+16376 2732 1
+12248 1107 1
+12248 2732 2
+12248 2731 1
+2925 3629 1
+2925 683 3
+2925 762 3
+17393 2925 3
+4548 4556 5
+4548 1102 1
+4548 1103 1
+3147 1107 1
+3147 1102 2
+3147 1103 3
+11578 436 2
+11578 4556 2
+4948 2946 1
+4948 4556 1
+11579 4556 1
+11579 13127 1
+11579 2923 1
+2918 2925 4
+15033 85 2
+15033 84 2
+1951 2016 5
+1951 322 1
+1951 2017 1
+1951 2015 1
+1951 676 2
+1951 2018 1
+3637 1951 7
+3637 3685 22
+3637 1107 6
+3637 2017 1
+3637 676 1
+3637 217 1
+2017 855 1
+2017 126 3
+2017 1752 4
+2017 1685 1
+2017 1684 1
+2017 322 5
+2017 238 1
+2018 4427 1
+2018 13850 13
+13850 391 1
+13850 762 1
+6595 215 1
+6595 126 1
+6595 1604 4
+6595 202 1
+8434 2319 2
+8434 1604 1
+2319 215 1
+2319 126 1
+2319 1604 6
+10964 1684 1
+8341 5202 36
+688 451 2
+2549 688 8
+10725 1685 2
+7451 36 10
+12698 7451 9
+14773 418 23
+912 10343 2
+912 2572 4
+10337 912 4
+2578 451 7
+17450 1716 5
+85 4464 1
+5093 85 8
+2730 85 7
+2730 84 4
+10350 912 4
+10350 855 2
+10350 1685 1
+10350 1684 1
+10350 418 1
+12726 912 3
+12726 10350 9
+12905 912 1
+1618 84 4
+4532 1618 11
+9188 8851 5
+2016 4890 1
+4201 2016 10
+2932 288 1
+2932 216 1
+2932 2180 1
+2932 217 2
+12287 2572 5
+2598 1684 2
+1665 855 3
+1665 1685 3
+1665 1684 1
+1665 1686 1
+2562 912 6
+2562 1665 3
+84 163 4
+13083 1618 8
+13083 2 10
+13083 2730 2
+12813 9747 8
+10430 10197 2
+683 127 1
+683 167 3
+3629 683 3
+3629 682 1
+3619 3629 4
+3619 683 22
+855 912 5
+9428 912 1
+9428 855 8
+16189 1686 1
+36 85 2
+36 84 3
+16140 36 4
+14526 10343 5
+12551 12554 15
+14984 3109 6
+3109 679 1
+3109 288 1
+3109 127 18
+3109 126 1
+3109 214 1
+3109 10197 1
+3109 167 20
+3109 36 1
+3109 676 3
+3109 166 8
+3109 4427 1
+3109 163 1
+3109 391 11
+3109 1684 1
+3109 238 1
+3109 4116 2
+3109 2864 1
+3109 2730 1
+3109 217 8
+3210 288 1
+3210 1417 2
+3210 1107 10
+3210 676 1
+3210 3109 18
+3210 217 13
+4437 4455 1
+3721 12799 1
+3721 131 1
+3721 127 10
+3721 126 1
+3721 167 5
+3721 676 1
+3721 2730 1
+3721 5475 1
+3721 166 2
+3721 3720 14
+3696 3720 3
+3696 217 2
+3696 3721 2

@@ -1,0 +1,5635 @@
+*Vertics: 981
+2,org.apache.fontbox.cff.encoding.CFFStandardEncoding
+7,org.apache.fontbox.cff.encoding.CFFEncoding
+13,org.apache.pdfbox.examples.documentmanipulation.SuperimposePage
+33,org.apache.pdfbox.pdmodel.PDDocument
+34,org.apache.pdfbox.pdmodel.PDPage
+35,org.apache.pdfbox.pdmodel.common.PDRectangle
+36,org.apache.pdfbox.pdmodel.edit.PDPageContentStream
+37,org.apache.pdfbox.pdmodel.font.PDFont
+38,org.apache.pdfbox.pdmodel.font.PDType1Font
+39,org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectForm
+40,org.apache.pdfbox.util.LayerUtility
+48,org.apache.pdfbox.pdmodel.graphics.xobject.PDXObject
+49,org.apache.pdfbox.pdmodel.common.PDStream
+77,org.apache.pdfbox.pdmodel.graphics.color.PDPattern
+92,org.apache.pdfbox.cos.COSArray
+93,org.apache.pdfbox.cos.COSName
+95,org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace
+104,org.apache.pdfbox.util.operator.pagedrawer.CloseFillNonZeroAndStrokePath
+111,org.apache.pdfbox.cos.COSBase
+112,org.apache.pdfbox.util.PDFOperator
+113,org.apache.pdfbox.util.operator.OperatorProcessor
+115,org.apache.pdfbox.util.PDFStreamEngine
+122,org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN
+170,org.apache.pdfbox.cos.COSDictionary
+171,org.apache.pdfbox.cos.COSNull
+172,org.apache.pdfbox.pdmodel.common.COSArrayList
+173,org.apache.pdfbox.pdmodel.common.function.PDFunction
+175,org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNAttributes
+176,org.apache.pdfbox.pdmodel.graphics.color.PDColorSpaceFactory
+195,org.apache.pdfbox.pdmodel.interactive.action.type.PDActionRemoteGoTo
+215,org.apache.pdfbox.pdmodel.common.filespecification.PDFileSpecification
+217,org.apache.pdfbox.pdmodel.interactive.action.type.PDAction
+234,org.apache.pdfbox.util.TextPositionComparator
+249,org.apache.pdfbox.util.TextPosition
+257,org.apache.pdfbox.pdmodel.TestPDDocumentInformation
+270,org.apache.pdfbox.pdmodel.PDDocumentInformation
+286,org.apache.pdfbox.examples.pdmodel.EmbeddedFiles
+314,org.apache.pdfbox.exceptions.COSVisitorException
+315,org.apache.pdfbox.pdmodel.PDDocumentNameDictionary
+316,org.apache.pdfbox.pdmodel.PDEmbeddedFilesNameTreeNode
+317,org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification
+318,org.apache.pdfbox.pdmodel.common.filespecification.PDEmbeddedFile
+320,org.apache.pdfbox.pdmodel.common.PDNameTreeNode
+321,org.apache.pdfbox.pdmodel.PDDocumentCatalog
+337,org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueTimeStamp
+366,org.apache.pdfbox.pdmodel.graphics.xobject.PDCcittTest
+413,org.apache.pdfbox.io.RandomAccessFile
+414,org.apache.pdfbox.pdmodel.graphics.color.PDDeviceGray
+419,org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage
+420,org.apache.pdfbox.pdmodel.graphics.xobject.PDCcitt
+421,org.apache.pdfbox.pdmodel.graphics.xobject.PDJpegTest
+422,org.apache.pdfbox.pdmodel.graphics.xobject.PDUtils
+438,org.apache.xmpbox.type.IntegerType
+453,org.apache.xmpbox.XMPMetadata
+455,org.apache.xmpbox.type.AbstractSimpleProperty
+462,org.apache.pdfbox.Encrypt
+500,org.apache.pdfbox.pdmodel.encryption.AccessPermission
+501,org.apache.pdfbox.pdmodel.encryption.PublicKeyProtectionPolicy
+502,org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient
+503,org.apache.pdfbox.pdmodel.encryption.StandardProtectionPolicy
+505,org.apache.pdfbox.pdmodel.encryption.ProtectionPolicy
+524,org.apache.xmpbox.schema.AbstractSchemaTester
+597,org.apache.xmpbox.type.ArrayProperty
+598,org.apache.xmpbox.type.Cardinality
+599,org.apache.xmpbox.type.TypeMapping
+600,org.apache.xmpbox.type.TypeTestingHelper
+601,org.apache.xmpbox.type.Types
+602,org.apache.xmpbox.xml.DomXmpParser
+604,org.apache.xmpbox.schema.XMPSchema
+605,org.apache.xmpbox.type.AbstractComplexProperty
+606,org.apache.xmpbox.type.AbstractField
+607,org.apache.xmpbox.type.AbstractStructuredType
+609,org.apache.xmpbox.type.ComplexPropertyContainer
+638,org.apache.pdfbox.pdmodel.text.PDTextState
+689,org.apache.pdfbox.examples.fdf.PrintFields
+716,org.apache.pdfbox.exceptions.CryptographyException
+718,org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm
+719,org.apache.pdfbox.pdmodel.interactive.form.PDField
+720,org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField
+729,org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceCalRGB
+760,org.apache.pdfbox.pdmodel.common.PDMatrix
+761,org.apache.pdfbox.pdmodel.graphics.color.PDTristimulus
+762,org.apache.pdfbox.pdmodel.graphics.color.PDGamma
+764,org.apache.pdfbox.preflight.utils.ByteArrayDataSource
+790,org.apache.pdfbox.filter.FilterManager
+817,org.apache.pdfbox.filter.FlateFilter
+818,org.apache.pdfbox.filter.CCITTFaxDecodeFilter
+819,org.apache.pdfbox.filter.LZWFilter
+820,org.apache.pdfbox.filter.ASCIIHexFilter
+821,org.apache.pdfbox.filter.ASCII85Filter
+822,org.apache.pdfbox.filter.RunLengthDecodeFilter
+823,org.apache.pdfbox.filter.CryptFilter
+824,org.apache.pdfbox.filter.JPXFilter
+825,org.apache.pdfbox.filter.JBIG2Filter
+849,org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner
+949,org.apache.pdfbox.preflight.metadata.XpacketParsingException
+964,org.apache.pdfbox.preflight.ValidationResult
+977,org.apache.jempbox.xmp.XMPMetadata
+1119,org.apache.jempbox.impl.XMLUtil
+1121,org.apache.jempbox.xmp.XMPSchemaBasicJobTicket
+1122,org.apache.jempbox.xmp.XMPSchemaBasic
+1123,org.apache.jempbox.xmp.XMPSchemaDublinCore
+1124,org.apache.jempbox.xmp.XMPSchemaDynamicMedia
+1125,org.apache.jempbox.xmp.XMPSchemaIptc4xmpCore
+1126,org.apache.jempbox.xmp.XMPSchemaMediaManagement
+1127,org.apache.jempbox.xmp.XMPSchemaPDF
+1128,org.apache.jempbox.xmp.XMPSchemaPagedText
+1129,org.apache.jempbox.xmp.XMPSchemaPhotoshop
+1130,org.apache.jempbox.xmp.XMPSchemaRightsManagement
+1131,org.apache.jempbox.xmp.XMPSchema
+1132,org.apache.jempbox.xmp.Thumbnail
+1133,org.apache.jempbox.xmp.ResourceEvent
+1181,org.apache.fontbox.util.ResourceLoader
+1248,org.apache.jempbox.xmp.ResourceRef
+1260,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationSquareCircle
+1287,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationMarkup
+1288,org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderEffectDictionary
+1289,org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary
+1304,org.apache.pdfbox.filter.TestFilters
+1335,org.apache.pdfbox.filter.DCTFilter
+1339,org.apache.fontbox.ttf.CMAPEncodingEntry
+1495,org.apache.fontbox.ttf.TTFDataStream
+1496,org.apache.fontbox.ttf.CMAPTable
+1497,org.apache.fontbox.ttf.TTFTable
+1509,org.apache.fontbox.ttf.TestMemoryTTFDataStream
+1517,org.apache.fontbox.ttf.MemoryTTFDataStream
+1522,org.apache.pdfbox.preflight.parser.TestPreflightConfiguration
+1538,org.apache.pdfbox.preflight.PreflightConfiguration
+1539,org.apache.pdfbox.preflight.PreflightContext
+1540,org.apache.pdfbox.preflight.exception.MissingValidationProcessException
+1541,org.apache.pdfbox.preflight.exception.ValidationException
+1555,org.apache.pdfbox.pdfparser.NonSequentialPDFParser
+1903,org.apache.pdfbox.cos.COSDocument
+1904,org.apache.pdfbox.cos.COSNumber
+1905,org.apache.pdfbox.cos.COSObject
+1906,org.apache.pdfbox.cos.COSStream
+1907,org.apache.pdfbox.cos.COSString
+1908,org.apache.pdfbox.io.IOUtils
+1909,org.apache.pdfbox.io.PushBackInputStream
+1910,org.apache.pdfbox.io.RandomAccessBuffer
+1911,org.apache.pdfbox.io.RandomAccessBufferedFileInputStream
+1912,org.apache.pdfbox.pdmodel.encryption.DecryptionMaterial
+1913,org.apache.pdfbox.pdmodel.encryption.PDEncryptionDictionary
+1914,org.apache.pdfbox.pdmodel.encryption.PublicKeyDecryptionMaterial
+1915,org.apache.pdfbox.pdmodel.encryption.SecurityHandler
+1916,org.apache.pdfbox.pdmodel.encryption.SecurityHandlersManager
+1917,org.apache.pdfbox.pdmodel.encryption.StandardDecryptionMaterial
+1918,org.apache.pdfbox.persistence.util.COSObjectKey
+1920,org.apache.pdfbox.pdfparser.PDFParser
+1921,org.apache.pdfbox.pdfparser.PDFObjectStreamParser
+1922,org.apache.pdfbox.pdfparser.XrefTrailerResolver
+1923,org.apache.pdfbox.cos.COSInteger
+1924,org.apache.pdfbox.pdfparser.EndstreamOutputStream
+2042,org.apache.pdfbox.util.operator.MoveTextSetLeading
+2049,org.apache.pdfbox.cos.COSFloat
+2064,org.apache.pdfbox.PDFReader
+2191,org.apache.pdfbox.pdfviewer.PageWrapper
+2192,org.apache.pdfbox.pdfviewer.ReaderBottomPanel
+2193,org.apache.pdfbox.pdmodel.PDPageable
+2194,org.apache.pdfbox.util.ExtensionFileFilter
+2195,org.apache.pdfbox.util.ImageIOUtil
+2198,org.apache.pdfbox.Version
+2211,org.apache.pdfbox.pdmodel.common.function.type4.TestParser
+2217,org.apache.pdfbox.pdmodel.common.function.type4.Type4Tester
+2218,org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder
+2226,org.apache.pdfbox.pdmodel.common.PDNamedTextStream
+2244,org.apache.pdfbox.pdmodel.common.PDTextStream
+2252,org.apache.pdfbox.PDFToImage
+2311,org.apache.pdfbox.util.PDFImageWriter
+2322,org.apache.pdfbox.examples.persistence.CopyDoc
+2338,org.apache.pdfbox.pdfwriter.COSWriter
+2408,org.apache.pdfbox.cos.COSBoolean
+2409,org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary
+2469,org.apache.pdfbox.pdmodel.TestPDDocument
+2506,org.apache.pdfbox.cos.TestCOSBase
+2524,org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitHeightDestination
+2537,org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageDestination
+2547,org.apache.pdfbox.util.operator.SetNonStrokingColor
+2554,org.apache.pdfbox.pdmodel.graphics.color.PDDeviceRGB
+2555,org.apache.pdfbox.pdmodel.graphics.color.PDDeviceCMYK
+2556,org.apache.pdfbox.pdmodel.graphics.color.PDICCBased
+2557,org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB
+2558,org.apache.pdfbox.pdmodel.graphics.color.PDIndexed
+2559,org.apache.pdfbox.pdmodel.graphics.color.PDLab
+2560,org.apache.pdfbox.pdmodel.graphics.color.PDSeparation
+2561,org.apache.pdfbox.pdmodel.graphics.PDGraphicsState
+2562,org.apache.pdfbox.pdmodel.graphics.color.PDColorState
+2563,org.apache.pdfbox.util.operator.SetNonStrokingGrayColor
+2564,org.apache.pdfbox.util.operator.SetNonStrokingRGBColor
+2565,org.apache.pdfbox.util.operator.SetNonStrokingCMYKColor
+2566,org.apache.pdfbox.util.operator.SetNonStrokingICCBasedColor
+2567,org.apache.pdfbox.util.operator.SetNonStrokingCalRGBColor
+2568,org.apache.pdfbox.util.operator.SetNonStrokingSeparation
+2569,org.apache.pdfbox.util.operator.SetNonStrokingDeviceN
+2570,org.apache.pdfbox.util.operator.SetNonStrokingPattern
+2571,org.apache.pdfbox.util.operator.SetNonStrokingIndexed
+2572,org.apache.pdfbox.util.operator.SetNonStrokingLabColor
+2581,org.apache.pdfbox.util.TestQuickSort
+2602,org.apache.pdfbox.util.QuickSort
+2616,org.apache.fontbox.ttf.TrueTypeFont
+2665,org.apache.fontbox.ttf.HorizontalMetricsTable
+2666,org.apache.fontbox.ttf.GlyphTable
+2667,org.apache.fontbox.ttf.HeaderTable
+2668,org.apache.fontbox.ttf.HorizontalHeaderTable
+2669,org.apache.fontbox.ttf.IndexToLocationTable
+2670,org.apache.fontbox.ttf.MaximumProfileTable
+2671,org.apache.fontbox.ttf.NamingTable
+2672,org.apache.fontbox.ttf.OS2WindowsMetricsTable
+2673,org.apache.fontbox.ttf.PostScriptTable
+2693,org.apache.pdfbox.util.operator.BeginText
+2697,org.apache.pdfbox.util.Matrix
+2702,org.apache.pdfbox.preflight.action.pdfa1b.TestNamedAction
+2719,org.apache.pdfbox.preflight.action.pdfa1b.AbstractTestAction
+2731,org.apache.pdfbox.preflight.font.util.GlyphDescription
+2743,org.apache.fontbox.cff.CharStringCommand
+2749,org.apache.pdfbox.util.Splitter
+2788,org.apache.pdfbox.preflight.annotation.WidgetAnnotationValidator
+2804,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget
+2805,org.apache.pdfbox.preflight.annotation.AnnotationValidator
+2822,org.apache.pdfbox.pdmodel.graphics.shading.GouraudShadingContext
+2888,org.apache.pdfbox.pdmodel.common.PDRange
+2889,org.apache.pdfbox.pdmodel.graphics.shading.TriangleBasedShadingContext
+2890,org.apache.pdfbox.pdmodel.graphics.shading.PDShadingResources
+2891,org.apache.pdfbox.pdmodel.graphics.shading.Vertex
+2892,org.apache.pdfbox.pdmodel.graphics.shading.ShadedTriangle
+2915,org.apache.pdfbox.preflight.action.UndefAction
+2926,org.apache.pdfbox.preflight.action.AbstractActionManager
+2927,org.apache.pdfbox.preflight.action.ActionManagerFactory
+2933,org.apache.pdfbox.pdmodel.interactive.form.PDCheckbox
+2958,org.apache.pdfbox.pdmodel.interactive.form.PDChoiceButton
+2964,org.apache.pdfbox.preflight.utils.TestCOSUtils
+3007,org.apache.pdfbox.preflight.utils.COSUtils
+3074,org.apache.pdfbox.pdmodel.graphics.pattern.PDPatternResources
+3084,org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDExportFormatAttributeObject
+3117,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement
+3119,org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDLayoutAttributeObject
+3120,org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDListAttributeObject
+3121,org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDTableAttributeObject
+3231,org.apache.pdfbox.pdmodel.graphics.xobject.CompositeImage
+3250,org.apache.pdfbox.util.operator.pagedrawer.CurveToReplicateInitialPoint
+3268,org.apache.pdfbox.pdfviewer.PageDrawer
+3273,org.apache.pdfbox.exceptions.SignatureException
+3293,org.apache.pdfbox.preflight.util.ByteArrayDataSource
+3311,org.apache.xmpbox.schema.XMPRightsManagementSchema
+3371,org.apache.xmpbox.type.BooleanType
+3374,org.apache.xmpbox.type.TextType
+3375,org.apache.xmpbox.type.URLType
+3408,org.apache.pdfbox.preflight.process.reflect.TilingPatternValidationProcess
+3433,org.apache.pdfbox.pdmodel.PDResources
+3434,org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPatternResources
+3435,org.apache.pdfbox.preflight.PreflightPath
+3436,org.apache.pdfbox.preflight.content.ContentStreamWrapper
+3437,org.apache.pdfbox.preflight.process.AbstractProcess
+3438,org.apache.pdfbox.preflight.utils.ContextHelper
+3491,org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence
+3492,org.apache.pdfbox.pdmodel.common.function.type4.Parser
+3587,org.apache.fontbox.afm.FontMetric
+3588,org.apache.pdfbox.encoding.AFMEncoding
+3589,org.apache.pdfbox.encoding.Encoding
+3590,org.apache.pdfbox.encoding.EncodingManager
+3591,org.apache.pdfbox.encoding.Type1Encoding
+3592,org.apache.pdfbox.encoding.WinAnsiEncoding
+3595,org.apache.pdfbox.pdmodel.font.PDSimpleFont
+3596,org.apache.pdfbox.pdmodel.font.PDType1CFont
+3597,org.apache.pdfbox.pdmodel.font.PDFontDescriptor
+3598,org.apache.pdfbox.pdmodel.font.PDFontDescriptorDictionary
+3600,org.apache.pdfbox.pdmodel.font.FontManager
+3639,org.apache.fontbox.cff.Type1CharStringTest
+3656,org.apache.fontbox.cff.Type1CharStringFormatter
+3657,org.apache.fontbox.cff.Type1CharStringParser
+3658,org.apache.fontbox.cff.IndexData
+3665,org.apache.xmpbox.type.XPathType
+3674,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationSound
+3682,org.apache.pdfbox.pdmodel.fdf.FDFAnnotation
+3688,org.apache.pdfbox.ExportFDF
+3704,org.apache.pdfbox.pdmodel.fdf.FDFDocument
+3709,org.apache.pdfbox.preflight.font.Type3FontValidator
+3791,org.apache.pdfbox.encoding.DictionaryEncoding
+3792,org.apache.pdfbox.pdmodel.font.PDFontFactory
+3793,org.apache.pdfbox.preflight.content.ContentStreamException
+3794,org.apache.pdfbox.preflight.font.container.FontContainer
+3795,org.apache.pdfbox.preflight.font.container.Type3Container
+3796,org.apache.pdfbox.preflight.font.util.GlyphException
+3797,org.apache.pdfbox.preflight.font.util.PDFAType3StreamParser
+3799,org.apache.pdfbox.preflight.font.FontValidator
+3844,org.apache.pdfbox.util.PDFTextStripper
+4186,org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem
+4187,org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead
+4190,org.apache.pdfbox.util.TextNormalize
+4191,org.apache.pdfbox.util.PositionWrapper
+4192,org.apache.pdfbox.util.ResourceLoader
+4193,org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineNode
+4235,org.apache.pdfbox.preflight.action.GoToAction
+4302,org.apache.pdfbox.pdmodel.common.TestEmbeddedFiles
+4452,org.apache.pdfbox.pdmodel.common.COSDictionaryMap
+4453,org.apache.pdfbox.pdmodel.graphics.PDExtendedGraphicsState
+4454,org.apache.pdfbox.pdmodel.markedcontent.PDPropertyList
+4455,org.apache.pdfbox.util.MapUtil
+4475,org.apache.pdfbox.io.FastByteArrayOutputStream
+4485,org.apache.xmpbox.type.TestResourceRefType
+4498,org.apache.xmpbox.type.AbstractStructuredTypeTester
+4499,org.apache.xmpbox.type.ResourceRefType
+4514,org.apache.xmpbox.schema.DublinCoreSchema
+4651,org.apache.xmpbox.type.MIMEType
+4661,org.apache.pdfbox.exceptions.InvalidPasswordException
+4665,org.apache.pdfbox.encoding.MacOSRomanEncoding
+4669,org.apache.pdfbox.encoding.MacRomanEncoding
+4782,org.apache.pdfbox.pdmodel.common.PDMetadata
+4783,org.apache.pdfbox.pdmodel.common.PDPageLabels
+4784,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkInfo
+4785,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureTreeRoot
+4786,org.apache.pdfbox.pdmodel.graphics.color.PDOutputIntent
+4787,org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties
+4788,org.apache.pdfbox.pdmodel.interactive.action.PDActionFactory
+4789,org.apache.pdfbox.pdmodel.interactive.action.PDDocumentCatalogAdditionalActions
+4790,org.apache.pdfbox.pdmodel.interactive.action.type.PDURIDictionary
+4791,org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination
+4792,org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDDocumentOutline
+4793,org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThread
+4794,org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences
+4798,org.apache.pdfbox.pdmodel.PDPageNode
+4863,org.apache.pdfbox.preflight.font.descriptor.Type1DescriptorHelper
+4909,org.apache.fontbox.cff.CFFFont
+4910,org.apache.fontbox.cff.CFFParser
+4911,org.apache.pdfbox.preflight.font.container.Type1Container
+4912,org.apache.pdfbox.preflight.font.util.Type1
+4913,org.apache.pdfbox.preflight.font.util.Type1Parser
+4914,org.apache.pdfbox.preflight.font.descriptor.FontDescriptorHelper
+4935,org.apache.pdfbox.util.operator.pagedrawer.SetLineMiterLimit
+4947,org.apache.pdfbox.util.operator.SetLineMiterLimit
+4953,org.apache.pdfbox.pdmodel.interactive.action.PDAnnotationAdditionalActions
+5011,org.apache.pdfbox.pdmodel.graphics.predictor.Paeth
+5039,org.apache.pdfbox.pdmodel.graphics.predictor.PredictorAlgorithm
+5048,org.apache.xmpbox.type.ProperNameType
+5057,org.apache.pdfbox.pdfparser.ConformingPDFParser
+5178,org.apache.pdfbox.cos.COSUnread
+5179,org.apache.pdfbox.pdmodel.ConformingPDDocument
+5180,org.apache.pdfbox.pdmodel.common.XrefEntry
+5181,org.apache.pdfbox.pdfparser.BaseParser
+5199,org.apache.pdfbox.preflight.process.AcroFormValidationProcess
+5225,org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions
+5227,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation
+5241,org.apache.pdfbox.preflight.Format
+5253,org.apache.pdfbox.pdmodel.fdf.FDFTemplate
+5275,org.apache.pdfbox.pdmodel.fdf.FDFNamedPageReference
+5276,org.apache.pdfbox.pdmodel.fdf.FDFField
+5281,org.apache.pdfbox.util.TestMatrix
+5322,org.apache.pdfbox.preflight.Benchmark
+5351,org.apache.pdfbox.preflight.parser.PreflightParser
+5352,org.apache.pdfbox.preflight.PreflightDocument
+5362,org.apache.fontbox.cff.CharStringRenderer
+5511,org.apache.fontbox.cff.CharStringHandler
+5569,org.apache.xmpbox.type.PDFAFieldType
+5583,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationText
+5591,org.apache.pdfbox.preflight.exception.BodyParseException
+5607,org.apache.pdfbox.preflight.exception.PdfParseException
+5616,org.apache.pdfbox.util.operator.CloseAndStrokePath
+5621,org.apache.fontbox.cmap.CMapParser
+5773,org.apache.fontbox.cmap.CMap
+5774,org.apache.fontbox.cmap.CodespaceRange
+5792,org.apache.pdfbox.pdmodel.common.function.type4.RelationalOperators
+5840,org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext
+5878,org.apache.pdfbox.preflight.font.util.GlyphDetail
+6017,org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent
+6019,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode
+6020,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject
+6021,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference
+6022,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference
+6023,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions
+6024,org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper
+6101,org.apache.pdfbox.util.operator.pagedrawer.BeginInlineImage
+6125,org.apache.pdfbox.pdmodel.graphics.xobject.PDInlinedImage
+6126,org.apache.pdfbox.util.ImageParameters
+6139,org.apache.fontbox.cff.CFFFontROS
+6176,org.apache.fontbox.cff.CIDKeyedFDSelect
+6187,org.apache.pdfbox.util.operator.SetLineCapStyle
+6199,org.apache.xmpbox.type.PartType
+6207,org.apache.fontbox.ttf.GlyphData
+6229,org.apache.fontbox.util.BoundingBox
+6230,org.apache.fontbox.ttf.GlyfDescript
+6232,org.apache.fontbox.ttf.GlyfSimpleDescript
+6233,org.apache.fontbox.ttf.GlyfCompositeDescript
+6238,org.apache.pdfbox.pdmodel.fdf.FDFPage
+6257,org.apache.pdfbox.pdmodel.fdf.FDFPageInfo
+6261,org.apache.pdfbox.pdmodel.common.function.TestFunctions
+6268,org.apache.pdfbox.pdmodel.common.function.type4.TestOperators
+6269,org.apache.pdfbox.pdmodel.common.function.TestPDFunctionType4
+6271,org.apache.pdfbox.util.operator.SetHorizontalTextScaling
+6469,org.apache.pdfbox.exceptions.WrappedIOException
+6687,org.apache.xmpbox.type.DateType
+6688,org.apache.xmpbox.type.URIType
+6689,org.apache.xmpbox.type.AgentNameType
+6690,org.apache.xmpbox.type.ChoiceType
+6691,org.apache.xmpbox.type.RenditionClassType
+6701,org.apache.fontbox.util.autodetect.FontFileFinder
+6730,org.apache.fontbox.util.autodetect.WindowsFontDirFinder
+6731,org.apache.fontbox.util.autodetect.MacFontDirFinder
+6732,org.apache.fontbox.util.autodetect.UnixFontDirFinder
+6736,org.apache.pdfbox.pdmodel.graphics.shading.Line
+6939,org.apache.fontbox.afm.CharMetric
+6940,org.apache.fontbox.afm.TrackKern
+6941,org.apache.fontbox.afm.Composite
+6942,org.apache.fontbox.afm.KernPair
+6971,org.apache.fontbox.cff.DataOutput
+6992,org.apache.pdfbox.cos.TestCOSInteger
+7029,org.apache.pdfbox.cos.TestCOSNumber
+7041,org.apache.pdfbox.encoding.conversion.EncodingConversionManager
+7050,org.apache.pdfbox.encoding.conversion.CJKEncodings
+7053,org.apache.pdfbox.encoding.conversion.CJKConverter
+7055,org.apache.pdfbox.util.operator.pagedrawer.FillEvenOddRule
+7065,org.apache.xmpbox.schema.PhotoshopSchema
+7255,org.apache.xmpbox.type.BadFieldValueException
+7256,org.apache.xmpbox.type.LayerType
+7295,org.apache.xmpbox.SaveMetadataHelperTest
+7302,org.apache.xmpbox.schema.AdobePDFSchema
+7308,org.apache.jempbox.xmp.pdfa.XMPMetadataPDFA
+7331,org.apache.jempbox.xmp.pdfa.XMPSchemaPDFAField
+7332,org.apache.jempbox.xmp.pdfa.XMPSchemaPDFAId
+7333,org.apache.jempbox.xmp.pdfa.XMPSchemaPDFAProperty
+7334,org.apache.jempbox.xmp.pdfa.XMPSchemaPDFASchema
+7335,org.apache.jempbox.xmp.pdfa.XMPSchemaPDFAType
+7495,org.apache.fontbox.ttf.CIDFontType2Parser
+7499,org.apache.fontbox.ttf.AbstractTTFParser
+7502,org.apache.pdfbox.pdmodel.fdf.FDFDictionary
+7591,org.apache.pdfbox.pdmodel.common.filespecification.PDSimpleFileSpecification
+7592,org.apache.pdfbox.pdmodel.fdf.FDFJavaScript
+7608,org.apache.pdfbox.util.operator.pagedrawer.AppendRectangleToPath
+7627,org.apache.pdfbox.preflight.process.PageTreeValidationProcess
+7675,org.apache.pdfbox.util.operator.pagedrawer.SHFill
+7684,org.apache.pdfbox.util.operator.pagedrawer.ClosePath
+7702,org.apache.pdfbox.cos.TestCOSString
+7810,org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType6
+7814,org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType4
+7819,org.apache.pdfbox.pdfparser.VisualSignatureParser
+7853,org.apache.pdfbox.util.operator.pagedrawer.SetLineCapStyle
+7865,org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType3
+7869,org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType2
+7874,org.apache.jempbox.xmp.AllTests
+7878,org.apache.jempbox.xmp.XMPSchemaTest
+7903,org.apache.pdfbox.preflight.metadata.RDFAboutAttributeConcordanceValidation
+7928,org.apache.pdfbox.pdmodel.font.PDCIDFontType0Font
+7936,org.apache.pdfbox.pdmodel.font.PDCIDFont
+7941,org.apache.pdfbox.preflight.annotation.PopupAnnotationValidator
+7951,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationPopup
+7984,org.apache.xmpbox.type.RealType
+7985,org.apache.xmpbox.type.LocaleType
+7986,org.apache.xmpbox.type.GUIDType
+7987,org.apache.xmpbox.type.ThumbnailType
+7988,org.apache.xmpbox.type.ResourceEventType
+7989,org.apache.xmpbox.type.VersionType
+7990,org.apache.xmpbox.type.PDFASchemaType
+7991,org.apache.xmpbox.type.PDFAPropertyType
+7992,org.apache.xmpbox.type.PDFATypeType
+7993,org.apache.xmpbox.type.JobType
+7995,org.apache.pdfbox.util.operator.SetStrokingLabColor
+8023,org.apache.pdfbox.pdmodel.font.Type3StreamParser
+8045,org.apache.pdfbox.cos.COSDictionaryLateBinding
+8058,org.apache.pdfbox.preflight.action.InvalidAction
+8069,org.apache.pdfbox.ExtractImages
+8123,org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg
+8129,org.apache.pdfbox.io.ccitt.CCITTFaxG31DDecodeInputStream
+8259,org.apache.pdfbox.io.ccitt.PackedBitArray
+8271,org.apache.pdfbox.pdmodel.graphics.shading.CoonsPatch
+8325,org.apache.pdfbox.pdmodel.graphics.shading.Patch
+8326,org.apache.pdfbox.pdmodel.graphics.shading.CoordinateColorPair
+8327,org.apache.pdfbox.pdmodel.graphics.shading.CubicBezierCurve
+8343,org.apache.pdfbox.ExtractText
+8400,org.apache.pdfbox.util.PDFText2HTML
+8408,org.apache.pdfbox.pdmodel.graphics.shading.Type5ShadingPaint
+8425,org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType5
+8426,org.apache.pdfbox.pdmodel.graphics.shading.Type5ShadingContext
+8431,org.apache.xmpbox.xml.XmpSerializer
+8494,org.apache.xmpbox.XmpConstants
+8495,org.apache.xmpbox.type.Attribute
+8496,org.apache.xmpbox.xml.XmpSerializationException
+8513,org.apache.xmpbox.type.TestDerivedType
+8611,org.apache.xmpbox.schema.PDFAExtensionSchema
+8612,org.apache.xmpbox.schema.PDFAIdentificationSchema
+8613,org.apache.xmpbox.schema.XMPBasicJobTicketSchema
+8614,org.apache.xmpbox.schema.XMPBasicSchema
+8615,org.apache.xmpbox.schema.XMPMediaManagementSchema
+8616,org.apache.xmpbox.schema.XmpSchemaException
+8632,org.apache.pdfbox.util.operator.MoveText
+8650,org.apache.pdfbox.util.operator.SetStrokingCMYKColor
+8723,org.apache.pdfbox.preflight.parser.TestXmlResultParser
+8751,org.apache.pdfbox.preflight.parser.XmlResultParser
+8824,org.apache.pdfbox.filter.Predictor
+8833,org.apache.pdfbox.pdmodel.graphics.predictor.Sub
+8898,org.apache.pdfbox.io.RandomAccessFileOutputStream
+8919,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationPolyline
+8927,org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation
+9005,org.apache.xmpbox.DateConverter
+9019,org.apache.fontbox.cff.charset.CFFCharset
+9049,org.apache.fontbox.cff.Type1FontFormatter
+9097,org.apache.fontbox.cff.Type1FontUtil
+9164,org.apache.pdfbox.preflight.exception.SyntaxValidationException
+9195,org.apache.pdfbox.pdmodel.fdf.FDFOptionElement
+9211,org.apache.pdfbox.ant.PDFToTextTask
+9236,org.apache.pdfbox.preflight.annotation.RubberStampAnnotationValidator
+9247,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationRubberStamp
+9251,org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigBuilder
+9367,org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary
+9368,org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream
+9369,org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature
+9371,org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateStructure
+9463,org.apache.pdfbox.encryption.PDFEncryption
+9581,org.apache.pdfbox.encryption.ARCFour
+9586,org.apache.pdfbox.util.operator.SetMoveAndShow
+9592,org.apache.fontbox.ttf.TTFSubFont
+9812,org.apache.fontbox.encoding.Encoding
+9813,org.apache.fontbox.encoding.MacRomanEncoding
+9815,org.apache.fontbox.ttf.NameRecord
+9901,org.apache.pdfbox.preflight.font.Type0FontValidator
+9970,org.apache.pdfbox.pdmodel.font.PDCIDFontType2Font
+9971,org.apache.pdfbox.preflight.font.container.Type0Container
+9972,org.apache.pdfbox.preflight.font.CIDType0FontValidator
+9973,org.apache.pdfbox.preflight.font.CIDType2FontValidator
+9990,org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDPropBuild
+10012,org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDPropBuildDataDict
+10017,org.apache.pdfbox.pdmodel.graphics.shading.Type7ShadingPaint
+10034,org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType7
+10035,org.apache.pdfbox.pdmodel.graphics.shading.Type7ShadingContext
+10038,org.apache.pdfbox.searchengine.lucene.LucenePDFDocument
+10040,org.apache.pdfbox.lucene.LucenePDFDocument
+10071,org.apache.pdfbox.pdmodel.common.PDNumberTreeNode
+10081,org.apache.pdfbox.util.operator.pagedrawer.FillNonZeroRule
+10090,org.apache.pdfbox.preflight.action.SubmitAction
+10099,org.apache.pdfbox.util.BitFlagHelper
+10253,org.apache.xmpbox.parser.PropMappingTest
+10258,org.apache.xmpbox.type.PropertiesDescription
+10261,org.apache.pdfbox.preflight.action.HideAction
+10322,org.apache.pdfbox.preflight.process.reflect.ShaddingPatternValidationProcess
+10346,org.apache.pdfbox.preflight.graphic.ColorSpaceHelperFactory
+10368,org.apache.pdfbox.io.TestRandomAccessBuffer
+10403,org.apache.pdfbox.util.operator.BeginMarkedContentSequenceWithProperties
+10410,org.apache.pdfbox.util.PDFMarkedContentExtractor
+10430,org.apache.pdfbox.util.operator.SetStrokingRGBColor
+10439,org.apache.fontbox.ttf.GlyfCompositeComp
+10491,org.apache.pdfbox.pdmodel.TestFDF
+10559,org.apache.pdfbox.pdfparser.PDFStreamParser
+10560,org.apache.pdfbox.pdmodel.interactive.form.PDRadioCollection
+10561,org.apache.pdfbox.pdmodel.interactive.form.PDTextbox
+10562,org.apache.pdfbox.pdmodel.interactive.form.PDVariableText
+10576,org.apache.pdfbox.pdmodel.graphics.predictor.Average
+10664,org.apache.pdfbox.io.RandomAccessFileInputStream
+10753,org.apache.pdfbox.util.TIFFUtil
+10754,org.apache.pdfbox.util.JPEGUtil
+10755,org.apache.pdfbox.util.MetaUtil
+10760,org.apache.pdfbox.preflight.font.descriptor.CIDType0DescriptorHelper
+10784,org.apache.pdfbox.preflight.font.container.CIDType0Container
+10789,org.apache.pdfbox.io.ccitt.TestCCITTFaxG31DDecodeInputStream
+10827,org.apache.pdfbox.io.ccitt.AbstractCCITTFaxTestCase
+10863,org.apache.pdfbox.pdmodel.graphics.shading.PatchMeshesShadingContext
+10864,org.apache.pdfbox.pdmodel.graphics.shading.PDTriangleBasedShadingType
+10865,org.apache.pdfbox.pdmodel.graphics.shading.TensorPatch
+10876,org.apache.pdfbox.pdmodel.graphics.optionalcontent.TestOptionalContentGroups
+10910,org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup
+10931,org.apache.pdfbox.util.operator.pagedrawer.MoveTo
+10942,org.apache.pdfbox.preflight.font.util.FontMetaDataValidation
+11118,org.apache.pdfbox.examples.pdmodel.RubberStampWithImage
+11168,org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMap
+11208,org.apache.pdfbox.pdmodel.graphics.color.PDCalGray
+11229,org.apache.pdfbox.util.operator.SetStrokingGrayColor
+11237,org.apache.fontbox.ttf.RAFDataStream
+11297,org.apache.pdfbox.util.TestPDFToImage
+11366,org.apache.pdfbox.pdmodel.interactive.action.type.PDActionGoTo
+11367,org.apache.pdfbox.pdmodel.interactive.action.type.PDActionJavaScript
+11368,org.apache.pdfbox.pdmodel.interactive.action.type.PDActionLaunch
+11369,org.apache.pdfbox.pdmodel.interactive.action.type.PDActionURI
+11379,org.apache.pdfbox.pdmodel.common.PDObjectStream
+11499,org.apache.pdfbox.pdmodel.interactive.form.PDFieldFactory
+11518,org.apache.fontbox.cff.Type1FontUtilTest
+11561,org.apache.pdfbox.pdmodel.common.function.PDFunctionType4
+11583,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationUnknown
+11588,org.apache.pdfbox.preflight.annotation.LinkAnnotationValidator
+11605,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLink
+11610,org.apache.pdfbox.ExportXFDF
+11628,org.apache.pdfbox.util.operator.pagedrawer.SetLineDashPattern
+11635,org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern
+11636,org.apache.pdfbox.util.operator.SetLineDashPattern
+11651,org.apache.xmpbox.schema.BasicJobTicketSchemaTest
+11690,org.apache.pdfbox.pdfwriter.COSWriterXRefEntry
+11771,org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue
+11802,org.apache.pdfbox.util.operator.SetLineJoinStyle
+11809,org.apache.xmpbox.schema.XMPSchemaTest
+11951,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationPolygon
+12022,org.apache.pdfbox.exceptions.OutlineNotLocalException
+12023,org.apache.pdfbox.pdmodel.PDDestinationNameTreeNode
+12024,org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination
+12025,org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination
+12059,org.apache.pdfbox.preflight.annotation.InkAnnotationValdiator
+12074,org.apache.pdfbox.util.operator.SetWordSpacing
+12101,org.apache.pdfbox.TestExtractText
+12108,org.apache.pdfbox.ConvertColorspace
+12196,org.apache.pdfbox.pdfwriter.ContentStreamWriter
+12232,org.apache.pdfbox.pdmodel.interactive.form.PDUnknownField
+12233,org.apache.pdfbox.pdmodel.interactive.form.PDPushButton
+12234,org.apache.pdfbox.pdmodel.interactive.form.PDChoiceField
+12264,org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler
+12420,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationHighlight
+12428,org.apache.pdfbox.searchengine.lucene.IndexFiles
+12431,org.apache.pdfbox.lucene.IndexFiles
+12475,org.apache.fontbox.cff.CFFOperator
+12805,org.apache.pdfbox.pdfparser.PDFXRefStream
+12806,org.apache.pdfbox.util.StringUtil
+12807,org.apache.pdfbox.pdfwriter.COSStandardOutputStream
+12809,org.apache.pdfbox.pdfwriter.COSFilterInputStream
+12849,org.apache.pdfbox.examples.pdmodel.RemoveFirstPage
+12954,org.apache.pdfbox.util.operator.Invoke
+13205,org.apache.pdfbox.pdmodel.graphics.PDFontSetting
+13238,org.apache.pdfbox.util.operator.SetStrokingDeviceN
+13247,org.apache.xmpbox.TestXMPWithDefinedSchemas
+13258,org.apache.pdfbox.preflight.metadata.TestMetadataFiles
+13279,org.apache.pdfbox.preflight.action.pdfa1b.TestSubmitAction
+13293,org.apache.pdfbox.pdmodel.encryption.PDStandardEncryption
+13385,org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceCharacteristicsDictionary
+13415,org.apache.pdfbox.preflight.graphic.NoPatternColorSpaceHelper
+13422,org.apache.pdfbox.preflight.graphic.StandardColorSpaceHelper
+13427,org.apache.pdfbox.pdmodel.common.function.type4.Operators
+13474,org.apache.pdfbox.pdmodel.common.function.type4.ArithmeticOperators
+13496,org.apache.pdfbox.pdmodel.common.function.type4.BitwiseOperators
+13504,org.apache.pdfbox.pdmodel.common.function.type4.ConditionalOperators
+13507,org.apache.pdfbox.pdmodel.common.function.type4.StackOperators
+13560,org.apache.pdfbox.pdmodel.common.function.PDFunctionType3
+13626,org.apache.pdfbox.pdmodel.common.function.PDFunctionType0
+13934,org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDStandardAttributeObject
+14034,org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDFourColours
+14068,org.apache.pdfbox.pdmodel.graphics.pattern.PDShadingPatternResources
+14078,org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDPrintFieldAttributeObject
+14111,org.apache.pdfbox.preflight.font.DescendantFontValidator
+14119,org.apache.pdfbox.preflight.TestInvalidDirectory
+14150,org.apache.pdfbox.util.TestTextStripperPerformance
+14187,org.apache.pdfbox.util.TestLayerUtility
+14239,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDDefaultAttributeObject
+14262,org.apache.pdfbox.examples.pdmodel.HelloWorldType1AfmPfb
+14276,org.apache.pdfbox.pdmodel.font.PDType1AfmPfbFont
+14428,org.apache.fontbox.util.autodetect.NativeFontDirFinder
+14455,org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDArtifactMarkedContent
+14534,org.apache.pdfbox.util.operator.SetCharSpacing
+14608,org.apache.pdfbox.pdmodel.graphics.predictor.None
+14609,org.apache.pdfbox.pdmodel.graphics.predictor.Up
+14610,org.apache.pdfbox.pdmodel.graphics.predictor.Optimum
+14649,org.apache.fontbox.ttf.DigitalSignatureTable
+14652,org.apache.pdfbox.encoding.StandardEncoding
+14679,org.apache.pdfbox.pdmodel.graphics.shading.RadialShadingContext
+14751,org.apache.pdfbox.pdmodel.graphics.shading.ShadingContext
+14760,org.apache.pdfbox.pdmodel.interactive.measurement.PDMeasureDictionary
+14773,org.apache.pdfbox.pdmodel.interactive.measurement.PDRectlinearMeasureDictionary
+14776,org.apache.pdfbox.util.operator.NextLine
+14806,org.apache.pdfbox.filter.TIFFFaxDecoder
+15023,org.apache.pdfbox.preflight.annotation.SquareCircleAnnotationValidator
+15058,org.apache.pdfbox.preflight.process.StreamValidationProcess
+15116,org.apache.pdfbox.preflight.utils.FilterHelper
+15123,org.apache.fontbox.ttf.TestTTFParser
+15132,org.apache.fontbox.ttf.TTFParser
+15196,org.apache.pdfbox.examples.pdmodel.RubberStamp
+15208,org.apache.pdfbox.pdfparser.TestNonSequentialPDFParser
+15356,org.apache.pdfbox.examples.pdmodel.PrintBookmarks
+15376,org.apache.pdfbox.util.ErrorLogger
+15472,org.apache.fontbox.cff.DataInput
+15518,org.apache.xmpbox.type.TestAbstractStructuredType
+15542,org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitWidthDestination
+15555,org.apache.pdfbox.util.operator.SetStrokingColor
+15562,org.apache.pdfbox.util.operator.SetStrokingICCBasedColor
+15563,org.apache.pdfbox.util.operator.SetStrokingCalRGBColor
+15564,org.apache.pdfbox.util.operator.SetStrokingSeparation
+15565,org.apache.pdfbox.util.operator.SetStrokingPattern
+15566,org.apache.pdfbox.util.operator.SetStrokingIndexed
+15568,org.apache.pdfbox.examples.pdfa.CreatePDFA
+15595,org.apache.pdfbox.pdmodel.font.PDTrueTypeFont
+15658,org.apache.pdfbox.util.operator.pagedrawer.CurveToReplicateFinalPoint
+15747,org.apache.fontbox.cmap.CIDRange
+15755,org.apache.pdfbox.pdmodel.interactive.action.PDPageAdditionalActions
+15775,org.apache.pdfbox.pdmodel.graphics.xobject.PDPixelMapTest
+15903,org.apache.pdfbox.pdmodel.graphics.xobject.NullOutputStream
+16116,org.apache.xmpbox.xml.XmpParsingException
+16117,org.apache.xmpbox.xml.DomHelper
+16118,org.apache.xmpbox.xml.PdfaExtensionHelper
+16119,org.apache.xmpbox.schema.XMPSchemaFactory
+16154,org.apache.pdfbox.io.ccitt.TestPackedBitArray
+16372,org.apache.pdfbox.preflight.util.IsartorPdfProvider
+16564,org.apache.pdfbox.persistence.util.COSHEXTable
+16567,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationFreeText
+16750,org.apache.pdfbox.pdmodel.interactive.annotation.PDExternalDataDictionary
+16756,org.apache.pdfbox.util.TestDateUtil
+16826,org.apache.pdfbox.util.DateConverter
+16876,org.apache.pdfbox.preflight.metadata.PDFAIdentificationValidation
+17007,org.apache.pdfbox.util.operator.pagedrawer.Invoke
+17056,org.apache.pdfbox.pdmodel.common.PDTypedDictionaryWrapper
+17065,org.apache.pdfbox.examples.pdmodel.GoToSecondBookmarkOnOpen
+17110,org.apache.pdfbox.pdmodel.common.COSStreamArray
+17232,org.apache.pdfbox.util.operator.pagedrawer.StrokePath
+17238,org.apache.fontbox.cff.AFMFormatter
+17288,org.apache.pdfbox.encoding.conversion.CMapSubstitution
+17294,org.apache.pdfbox.preflight.exception.CrossRefParseException
+17435,org.apache.pdfbox.pdmodel.interactive.form.PDAppearance
+17552,org.apache.pdfbox.encoding.PDFDocEncodingCharset
+17582,org.apache.pdfbox.preflight.process.BookmarkValidationProcess
+17734,org.apache.pdfbox.preflight.annotation.LineAnnotationValidator
+17748,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLine
+17758,org.apache.pdfbox.PDFDebugger
+17862,org.apache.pdfbox.pdfviewer.PDFTreeModel
+17863,org.apache.pdfbox.pdfviewer.PDFTreeCellRenderer
+17864,org.apache.pdfbox.pdfviewer.ArrayEntry
+17865,org.apache.pdfbox.pdfviewer.MapEntry
+17870,org.apache.pdfbox.preflight.exception.HeaderParseException
+17940,org.apache.pdfbox.preflight.graphic.DeviceColorSpaceHelper
+17956,org.apache.pdfbox.preflight.graphic.ColorSpaces
+17966,org.apache.pdfbox.util.operator.SetLineWidth
+17972,org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceCMYK
+18000,org.apache.pdfbox.pdmodel.font.PDFontDescriptorAFM
+18064,org.apache.pdfbox.exceptions.WrappedException
+18068,org.apache.pdfbox.util.operator.pagedrawer.ClipEvenOddRule
+18084,org.apache.xmpbox.schema.PDFAIdentificationOthersTest
+18144,org.apache.pdfbox.io.ASCII85InputStream
+18546,org.apache.pdfbox.pdmodel.interactive.action.PDAdditionalActions
+18547,org.apache.pdfbox.util.XMLUtil
+18548,org.apache.pdfbox.pdmodel.fdf.FDFIconFit
+18556,org.apache.xmpbox.XMPMetaDataTest
+18585,org.apache.pdfbox.pdmodel.font.PDMMType1Font
+18586,org.apache.pdfbox.pdmodel.font.PDType3Font
+18587,org.apache.pdfbox.pdmodel.font.PDType0Font
+18593,org.apache.pdfbox.preflight.font.container.TrueTypeContainer
+18631,org.apache.pdfbox.examples.pdmodel.CreateBookmarks
+18648,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationCircle
+18656,org.apache.pdfbox.preflight.font.descriptor.CIDType2DescriptorHelper
+18675,org.apache.pdfbox.preflight.font.container.CIDType2Container
+18678,org.apache.pdfbox.util.operator.MoveAndShow
+18683,org.apache.pdfbox.pdmodel.graphics.shading.Type1ShadingPaint
+18700,org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType1
+18701,org.apache.pdfbox.pdmodel.graphics.shading.Type1ShadingContext
+18940,org.apache.pdfbox.pdmodel.encryption.BadSecurityHandlerException
+18941,org.apache.pdfbox.pdmodel.interactive.digitalsignature.SignatureOptions
+18962,org.apache.pdfbox.pdmodel.graphics.PDShading
+18991,org.apache.xmpbox.type.TestJobType
+19065,org.apache.pdfbox.preflight.action.pdfa1b.TestGotoRemoteAction
+19092,org.apache.pdfbox.pdmodel.graphics.shading.Type4ShadingContext
+19249,org.apache.pdfbox.ImportXFDF
+19269,org.apache.pdfbox.ImportFDF
+19275,org.apache.xmpbox.type.DefinedStructuredType
+19299,org.apache.pdfbox.util.operator.SetTextRenderingMode
+19322,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationSquiggly
+19330,org.apache.pdfbox.examples.signature.ShowSignature
+19431,org.apache.pdfbox.io.ASCII85OutputStream
+19476,org.apache.pdfbox.examples.pdmodel.CreateBlankPDF
+19486,org.apache.pdfbox.encryption.TestPublicKeyEncryption
+19585,org.apache.pdfbox.preflight.content.ContentStreamEngine
+19601,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationCaret
+19646,org.apache.pdfbox.pdmodel.interactive.form.TestFields
+19906,org.apache.pdfbox.TextToPDF
+20000,org.apache.pdfbox.cos.TestCOSFloat
+20184,org.apache.pdfbox.preflight.graphic.ICCProfileWrapper
+20185,org.apache.pdfbox.preflight.annotation.AnnotationValidatorFactory
+20209,org.apache.pdfbox.preflight.action.pdfa1b.TestUriAction
+20228,org.apache.xmpbox.parser.DeserializationTest
+20312,org.apache.xmpbox.schema.AbstractXMPSchemaTest
+20675,org.apache.fontbox.afm.AFMParser
+20698,org.apache.pdfbox.util.operator.pagedrawer.ClipNonZeroRule
+20706,org.apache.pdfbox.io.TestRandomAccessFileOutputStream
+20727,org.apache.pdfbox.preflight.xobject.XObjImageValidator
+20754,org.apache.pdfbox.preflight.utils.RenderingIntents
+20755,org.apache.pdfbox.preflight.xobject.AbstractXObjValidator
+20788,org.apache.pdfbox.preflight.util.NOCatalogDocument
+20839,org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueMDP
+20853,org.apache.pdfbox.util.operator.SetStrokingColorSpace
+20884,org.apache.fontbox.afm.CompositePart
+20908,org.apache.pdfbox.examples.pdmodel.HelloWorld
+20944,org.apache.pdfbox.pdmodel.fdf.FDFCatalog
+21003,org.apache.pdfbox.preflight.font.util.CIDToGIDMap
+21004,org.apache.pdfbox.preflight.font.SimpleFontValidator
+21113,org.apache.pdfbox.pdfparser.EndstreamOutputStreamTest
+21165,org.apache.pdfbox.util.operator.GSave
+21189,org.apache.xmpbox.schema.AdobePDFTest
+21211,org.apache.pdfbox.pdmodel.font.PDSimpleFontTest
+21602,org.apache.pdfbox.preflight.integration.TestInvalidFiles
+21629,org.apache.pdfbox.preflight.integration.AbstractInvalidFileTester
+21634,org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.StandardStructureTypes
+21712,org.apache.pdfbox.preflight.action.UriAction
+21744,org.apache.pdfbox.preflight.xobject.XObjPostscriptValidator
+21793,org.apache.pdfbox.pdmodel.common.function.PDFunctionType2
+21868,org.apache.pdfbox.util.PageExtractorTest
+21883,org.apache.pdfbox.util.PageExtractor
+21888,org.apache.pdfbox.examples.pdmodel.UsingTextMatrix
+21931,org.apache.pdfbox.pdfparser.PDFStreamParserTest
+21946,org.apache.pdfbox.util.operator.pagedrawer.FillEvenOddAndStrokePath
+22026,org.apache.xmpbox.type.TestSimpleMetadataProperties
+22091,org.apache.pdfbox.util.operator.pagedrawer.CloseFillEvenOddAndStrokePath
+22134,org.apache.fontbox.pfb.PfbParser
+22148,org.apache.pdfbox.pdmodel.interactive.form.PDSignature
+22215,org.apache.fontbox.afm.Ligature
+22217,org.apache.pdfbox.util.operator.Concatenate
+22230,org.apache.pdfbox.encryption.DocumentEncryption
+22393,org.apache.fontbox.cff.CharStringConverter
+22533,org.apache.pdfbox.pdmodel.interactive.measurement.PDNumberFormatDictionary
+22613,org.apache.pdfbox.preflight.process.reflect.AnnotationValidationProcess
+22697,org.apache.xmpbox.schema.AdobePDFErrorsTest
+22731,org.apache.pdfbox.filter.IdentityFilter
+22748,org.apache.pdfbox.util.ICU4JImpl
+22754,org.apache.pdfbox.preflight.action.GoToRemoteAction
+23088,org.apache.fontbox.util.FontManager
+23164,org.apache.pdfbox.util.operator.pagedrawer.EndPath
+23178,org.apache.pdfbox.examples.signature.CreateVisibleSignature
+23230,org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigProperties
+23231,org.apache.pdfbox.examples.signature.CMSProcessableInputStream
+23232,org.apache.pdfbox.examples.signature.CreateSignature
+23519,org.apache.pdfbox.examples.util.ExtractTextByArea
+23530,org.apache.pdfbox.util.PDFTextStripperByArea
+23536,org.apache.fontbox.cff.CFFStandardString
+23803,org.apache.pdfbox.OverlayPDF
+23826,org.apache.pdfbox.util.Overlay
+23844,org.apache.pdfbox.pdmodel.interactive.form.PDXFA
+23944,org.apache.fontbox.cff.Type2CharStringParser
+23984,org.apache.pdfbox.pdmodel.graphics.color.PDColorStateTest
+24232,org.apache.pdfbox.io.ccitt.FillOrderChangeInputStream
+24240,org.apache.pdfbox.preflight.process.reflect.ResourcesValidationProcess
+24282,org.apache.pdfbox.util.operator.ShowText
+24289,org.apache.pdfbox.WriteDecodedDoc
+24390,org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitDestination
+24400,org.apache.fontbox.cff.charset.CFFExpertCharset
+24505,org.apache.pdfbox.pdmodel.graphics.color.PDLabTest
+24623,org.apache.pdfbox.util.operator.BeginMarkedContentSequence
+24647,org.apache.xmpbox.DoubleSameTypeSchemaTest
+24663,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty
+24689,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject
+24765,org.apache.pdfbox.preflight.font.descriptor.TrueTypeDescriptorHelper
+24781,org.apache.pdfbox.preflight.process.reflect.ActionsValidationProcess
+24794,org.apache.fontbox.cmap.TestCMapParser
+24824,org.apache.pdfbox.examples.fdf.SetField
+24840,org.apache.pdfbox.examples.AbstractExample
+24859,org.apache.pdfbox.encoding.PdfDocEncoding
+24863,org.apache.pdfbox.util.operator.EndText
+24876,org.apache.pdfbox.pdfparser.PDFXrefStreamParser
+24912,org.apache.pdfbox.preflight.integration.TestValidFiles
+24941,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationText
+24967,org.apache.pdfbox.examples.pdmodel.ExtractMetadata
+25143,org.apache.pdfbox.TestAll
+25152,org.apache.pdfbox.io.TestIOUtils
+25153,org.apache.pdfbox.pdmodel.TestPDDocumentCatalog
+25154,org.apache.pdfbox.pdmodel.common.TestPDNameTreeNode
+25155,org.apache.pdfbox.pdmodel.common.TestPDNumberTreeNode
+25156,org.apache.pdfbox.pdmodel.edit.TestPDPageContentStream
+25157,org.apache.pdfbox.util.PDFCloneUtilityTest
+25158,org.apache.pdfbox.util.PDFMergerUtilityTest
+25159,org.apache.pdfbox.util.TestPDFText2HTML
+25160,org.apache.pdfbox.TestTextToPdf
+25162,org.apache.pdfbox.examples.pdmodel.CreateGradientShadingPDF
+25187,org.apache.pdfbox.preflight.process.reflect.GraphicObjectPageValidationProcess
+25194,org.apache.pdfbox.preflight.xobject.XObjFormValidator
+25283,org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDFTemplateCreator
+25338,org.apache.pdfbox.examples.pdmodel.ReplaceString
+25397,org.apache.pdfbox.preflight.action.NamedAction
+25493,org.apache.pdfbox.util.operator.SetGraphicsStateParameters
+25882,org.apache.fontbox.cff.charset.CFFExpertSubsetCharset
+25883,org.apache.fontbox.cff.charset.CFFISOAdobeCharset
+25884,org.apache.fontbox.cff.encoding.CFFExpertEncoding
+25885,org.apache.fontbox.cff.CFFDataInput
+25952,org.apache.pdfbox.pdmodel.interactive.measurement.PDViewportDictionary
+25973,org.apache.pdfbox.pdmodel.font.TestTTFParser
+26028,org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler
+26210,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationLine
+26222,org.apache.pdfbox.examples.pdmodel.PrintURLs
+26367,org.apache.jempbox.impl.DateConverter
+26373,org.apache.pdfbox.preflight.TestIsartorValidationFromClasspath
+26408,org.apache.pdfbox.preflight.process.CatalogValidationProcess
+26540,org.apache.pdfbox.pdmodel.common.PDPageLabelRange
+26553,org.apache.pdfbox.io.ByteArrayPushBackInputStream
+26635,org.apache.pdfbox.Overlay
+26811,org.apache.pdfbox.util.operator.SetTextFont
+26861,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationStrikeOut
+26874,org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitRectangleDestination
+27209,org.apache.fontbox.ttf.Glyph2D
+27260,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationUnderline
+27268,org.apache.pdfbox.encryption.TestSymmetricKeyEncryption
+27388,org.apache.pdfbox.examples.pdmodel.CreateLandscapePDF
+27411,org.apache.pdfbox.examples.pdmodel.AddMetadataFromDocInfo
+27427,org.apache.pdfbox.examples.pdmodel.AddImageToPDF
+27465,org.apache.pdfbox.pdmodel.graphics.color.ColorSpaceLab
+27468,org.apache.pdfbox.pdmodel.graphics.shading.Type6ShadingPaint
+27485,org.apache.pdfbox.pdmodel.graphics.shading.Type6ShadingContext
+27500,org.apache.pdfbox.preflight.process.reflect.SinglePageValidationProcess
+27566,org.apache.xmpbox.type.TestThumbnailType
+27625,org.apache.pdfbox.encoding.SingleByteCharset
+27669,org.apache.pdfbox.util.operator.ShowTextGlyph
+27747,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationFileAttachment
+27748,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationTextMarkup
+27770,org.apache.pdfbox.util.NullOutputStream
+27781,org.apache.pdfbox.util.TestImageIOUtils
+27882,org.apache.pdfbox.preflight.process.FileSpecificationValidationProcess
+27905,org.apache.pdfbox.examples.pdmodel.AddJavascript
+27914,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationFileAttachment
+27962,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationInk
+27970,org.apache.pdfbox.preflight.Validator_A1b
+28011,org.apache.pdfbox.pdmodel.PDJavascriptNameTreeNode
+28116,org.apache.pdfbox.preflight.process.MetadataValidationProcess
+28341,org.apache.pdfbox.pdmodel.graphics.shading.AxialShadingContext
+28416,org.apache.xmpbox.type.TestLayerType
+28427,org.apache.pdfbox.preflight.content.StubOperator
+28517,org.apache.pdfbox.pdmodel.graphics.shading.AxialShadingPaint
+28518,org.apache.pdfbox.pdmodel.graphics.shading.RadialShadingPaint
+28519,org.apache.pdfbox.pdmodel.graphics.shading.Type4ShadingPaint
+28567,org.apache.pdfbox.examples.util.PrintImageLocations
+28603,org.apache.pdfbox.preflight.process.EmptyValidationProcess
+28666,org.apache.pdfbox.util.PDFCloneUtility
+28671,org.apache.pdfbox.util.PDFHighlighter
+28705,org.apache.pdfbox.preflight.process.reflect.ExtGStateValidationProcess
+28845,org.apache.pdfbox.preflight.TestPreflightConfiguration
+28871,org.apache.pdfbox.util.operator.SetTextRise
+28888,org.apache.xmpbox.schema.XMPBasicTest
+28897,org.apache.pdfbox.util.operator.SetMatrix
+28909,org.apache.pdfbox.util.operator.pagedrawer.SetLineJoinStyle
+28918,org.apache.pdfbox.examples.pdmodel.ShowColorBoxes
+29043,org.apache.pdfbox.util.operator.SetTextLeading
+29093,org.apache.pdfbox.PdfDecompressor
+29109,org.apache.pdfbox.PDFSplit
+29427,org.apache.pdfbox.preflight.process.TrailerValidationProcess
+29896,org.apache.pdfbox.pdmodel.common.PDMemoryStream
+29928,org.apache.pdfbox.pdfviewer.PDFPagePanel
+29947,org.apache.pdfbox.examples.pdmodel.AddMessageToEachPage
+29977,org.apache.pdfbox.pdfparser.ConformingPDFParserTest
+29991,org.apache.pdfbox.util.TestTextStripper
+30254,org.apache.pdfbox.preflight.font.util.PeekInputStream
+30260,org.apache.pdfbox.preflight.process.reflect.FontValidationProcess
+30271,org.apache.pdfbox.preflight.font.TrueTypeFontValidator
+30272,org.apache.pdfbox.preflight.font.Type1FontValidator
+30378,org.apache.pdfbox.preflight.integration.TestIsartorValidation
+30426,org.apache.pdfbox.examples.pdmodel.ExtractEmbeddedFiles
+30465,org.apache.pdfbox.examples.util.RemoveAllText
+30488,org.apache.xmpbox.schema.XMPMediaManagementTest
+30497,org.apache.pdfbox.examples.pdmodel.ReplaceURLs
+30576,org.apache.pdfbox.preflight.TestPreflightPath
+30702,org.apache.pdfbox.util.operator.pagedrawer.LineTo
+30768,org.apache.pdfbox.encoding.PDFBoxCharsetProvider
+30818,org.apache.pdfbox.preflight.action.ThreadAction
+30838,org.apache.pdfbox.preflight.process.XRefValidationProcess
+31075,org.apache.xmpbox.schema.PDFAIdentificationTest
+31154,org.apache.pdfbox.pdmodel.encryption.PDEncryptionManager
+31171,org.apache.xmpbox.schema.XmpRightsSchemaTest
+31412,org.apache.pdfbox.util.operator.EndMarkedContentSequence
+31432,org.apache.pdfbox.preflight.annotation.MarkupAnnotationValidator
+31519,org.apache.pdfbox.util.operator.GRestore
+31520,org.apache.pdfbox.util.operator.SetNonStrokingColorSpace
+31638,org.apache.pdfbox.PrintPDF
+31733,org.apache.pdfbox.preflight.utils.PdfElementParser
+31872,org.apache.pdfbox.Decrypt
+32068,org.apache.pdfbox.preflight.annotation.FreeTextAnnotationValidator
+32485,org.apache.pdfbox.pdmodel.interactive.action.type.PDWindowsLaunchParams
+32549,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationSquare
+32585,org.apache.pdfbox.pdmodel.documentinterchange.prepress.PDBoxStyle
+32635,org.apache.pdfbox.preflight.annotation.TrapNetAnnotationValidator
+32675,org.apache.fontbox.cmap.TestCMap
+32890,org.apache.pdfbox.encoding.PDFDocEncodingCharsetTest
+32991,org.apache.pdfbox.util.PDFMergerUtility
+33145,org.apache.pdfbox.util.operator.pagedrawer.SetLineWidth
+33285,org.apache.pdfbox.preflight.annotation.PrintMarkAnnotationValidator
+33324,org.apache.pdfbox.preflight.action.pdfa1b.TestForbiddenAction
+33341,org.apache.xmpbox.type.TestVersionType
+33464,org.apache.xmpbox.type.TestResourceEventType
+33514,org.apache.pdfbox.util.operator.pagedrawer.CurveTo
+33642,org.apache.xmpbox.type.AttributeTest
+33685,org.apache.pdfbox.examples.pdmodel.HelloWorldTTF
+33721,org.apache.pdfbox.preflight.action.pdfa1b.TestThreadAction
+33888,org.apache.pdfbox.preflight.annotation.TextAnnotationValidator
+33902,org.apache.pdfbox.preflight.action.pdfa1b.TestGotoAction
+33914,org.apache.pdfbox.examples.pdmodel.ExtractTTFFonts
+34023,org.apache.pdfbox.preflight.annotation.pdfa.PDFAbAnnotationFactory
+34066,org.apache.pdfbox.examples.pdmodel.Annotation
+34096,org.apache.pdfbox.PDFBox
+34104,org.apache.pdfbox.PDFMerger
+34171,org.apache.xmpbox.schema.DublinCoreTest
+34265,org.apache.pdfbox.examples.pdmodel.ImageToPDF
+34315,org.apache.pdfbox.preflight.action.pdfa1b.TestHideAction
+34327,org.apache.pdfbox.preflight.TestValidDirectory
+34460,org.apache.pdfbox.pdmodel.fdf.FDFAnnotationStamp
+34529,org.apache.jempbox.xmp.XMPMetadataTest
+35559,org.apache.pdfbox.pdfparser.TestPDFParser
+35899,org.apache.pdfbox.preflight.metadata.TestSynchronizedMetadataValidation
+35966,org.apache.pdfbox.examples.util.PrintTextLocations
+35995,org.apache.pdfbox.examples.pdmodel.PrintDocumentMetaData
+36013,org.apache.xmpbox.schema.PhotoshopSchemaTest
+36139,org.apache.pdfbox.util.operator.pagedrawer.FillNonZeroAndStrokePath
+36199,org.apache.pdfbox.preflight.exception.TrailerParseException
+*Edges: 4652
+20675 6942 17
+20675 22215 2
+20675 6939 16
+20675 20884 3
+20675 3587 39
+20675 6229 10
+20675 6941 3
+20675 6940 5
+6939 6229 3
+6939 22215 1
+6941 20884 1
+3587 6942 3
+3587 6941 1
+3587 6229 4
+3587 6939 8
+3587 6940 1
+17238 5362 3
+17238 4909 17
+17238 6971 28
+17238 7 1
+25885 15472 7
+4909 5362 14
+4909 3658 6
+4909 3657 1
+4909 23944 1
+4909 7 4
+4909 9019 6
+4909 22393 2
+6139 5362 6
+6139 4909 5
+6139 6176 4
+4910 25882 1
+4910 25883 1
+4910 3658 25
+4910 23536 2
+4910 15472 33
+4910 6139 9
+4910 7 3
+4910 9019 5
+4910 24400 1
+4910 25884 1
+4910 2 1
+4910 4909 47
+4910 12475 2
+4910 6176 1
+4910 25885 59
+6176 6139 2
+22393 3658 2
+22393 5511 2
+22393 2743 24
+5511 2743 1
+5362 5511 2
+5362 2743 4
+3656 2743 2
+3657 3658 6
+3657 15472 11
+3657 2743 4
+3639 3656 2
+3639 3658 2
+3639 3657 2
+3639 2743 2
+9049 3656 1
+9049 4909 30
+9049 9097 3
+9049 6971 60
+11518 9097 6
+23944 3658 12
+23944 15472 15
+23944 2743 6
+24400 9019 1
+25882 9019 1
+25883 9019 1
+25884 7 1
+2 7 1
+5773 15747 3
+5773 5774 2
+5621 5773 19
+5621 1181 1
+5621 5774 3
+32675 5773 3
+24794 5621 4
+24794 5773 10
+9813 9812 208
+7499 1495 12
+7499 11237 2
+7499 2616 18
+7499 1497 6
+7499 1517 1
+7495 7499 3
+1339 1495 60
+1339 1496 1
+1339 1497 1
+1496 1339 5
+1496 1495 2
+1496 2616 1
+1496 1497 1
+14649 1497 1
+10439 1495 14
+6233 2666 2
+6233 10439 31
+6233 1495 2
+6233 6207 2
+6233 6230 3
+6230 1495 3
+6232 1495 13
+6232 6230 3
+6207 2666 1
+6207 1495 6
+6207 6229 4
+6207 6230 1
+6207 6233 1
+6207 6232 1
+2666 2669 1
+2666 1495 1
+2666 6207 6
+2666 2616 2
+2666 1497 2
+2667 1495 17
+2667 1497 1
+2668 1495 17
+2668 1497 1
+2665 2668 1
+2665 1495 3
+2665 2616 2
+2665 1497 1
+2669 1495 2
+2669 2667 2
+2669 2616 2
+2669 1497 1
+2670 1495 15
+2670 1497 1
+1517 1495 1
+9815 1495 7
+9815 2616 1
+2671 1495 5
+2671 9815 7
+2671 1497 2
+2672 1495 33
+2672 1497 1
+2673 1495 14
+2673 2616 1
+2673 1497 1
+11237 1495 1
+15132 2616 1
+15132 7499 6
+9592 2669 2
+9592 1496 1
+9592 9815 26
+9592 2667 15
+9592 2616 19
+9592 1497 3
+9592 2672 24
+9592 2671 1
+9592 2673 9
+9592 2670 11
+9592 1339 6
+9592 9812 1
+9592 2668 22
+1497 1495 1
+1497 2616 1
+1509 1517 4
+15123 2667 1
+15123 2616 1
+15123 15132 1
+15123 7499 1
+2616 2669 1
+2616 1495 7
+2616 1496 1
+2616 2667 2
+2616 2665 2
+2616 1497 16
+2616 2672 1
+2616 2671 1
+2616 2673 1
+2616 2670 2
+2616 2666 1
+2616 2668 1
+23088 1181 1
+23088 6701 3
+23088 2616 2
+23088 2671 5
+23088 15132 2
+23088 7499 2
+6731 14428 1
+6732 14428 1
+1133 1131 2
+1133 26367 2
+1133 1119 18
+1248 1119 18
+1132 1119 8
+1132 977 1
+977 1125 2
+977 1122 5
+977 1131 10
+977 1121 3
+977 1130 3
+977 1126 3
+977 1129 2
+977 1124 3
+977 1128 3
+977 1123 6
+977 1132 5
+977 1119 6
+977 1127 6
+34529 1123 4
+34529 977 6
+1131 26367 5
+1131 1133 1
+1131 1132 5
+1131 1119 10
+1131 977 1
+1122 1131 32
+1122 1132 4
+1122 977 1
+1121 1131 3
+1121 977 1
+1123 1131 49
+1123 977 1
+1124 1131 3
+1124 977 1
+1125 1131 29
+1125 977 1
+1126 1131 16
+1126 1133 2
+1126 1119 2
+1126 1248 11
+1126 977 1
+1127 1131 9
+1127 977 1
+1128 1131 3
+1128 977 1
+1129 1131 32
+1129 977 1
+1130 1131 19
+1130 977 1
+7878 1131 58
+7878 26367 4
+7878 977 6
+7308 7334 3
+7308 7331 3
+7308 7335 3
+7308 7333 3
+7308 1119 1
+7308 7332 3
+7308 977 13
+7331 1131 3
+7331 977 1
+7332 1131 9
+7332 977 1
+7333 1131 3
+7333 977 1
+7334 1131 7
+7334 977 1
+7335 1131 3
+7335 977 1
+12108 49 3
+12108 321 1
+12108 12196 2
+12108 34 2
+12108 33 7
+12108 10559 3
+12108 2049 8
+12108 1904 4
+12108 112 8
+31872 33 7
+31872 1914 1
+31872 1917 1
+31872 500 1
+462 505 2
+462 33 6
+462 501 2
+462 502 2
+462 503 1
+462 500 9
+3688 33 4
+3688 718 1
+3688 321 1
+3688 3704 3
+11610 33 4
+11610 718 1
+11610 321 1
+11610 3704 3
+8069 49 1
+8069 48 2
+8069 321 1
+8069 419 4
+8069 500 1
+8069 34 1
+8069 3433 3
+8069 33 7
+8069 39 1
+8069 8123 1
+8069 1917 1
+8069 1908 1
+8343 315 1
+8343 320 1
+8343 49 1
+8343 321 1
+8343 317 1
+8343 8400 1
+8343 500 1
+8343 115 1
+8343 33 9
+8343 3844 7
+8343 318 2
+8343 1917 1
+19269 33 6
+19269 718 2
+19269 321 1
+19269 3704 4
+19249 33 6
+19249 718 2
+19249 19269 2
+19249 321 1
+19249 3704 5
+26635 2338 3
+26635 170 17
+26635 92 12
+26635 1906 10
+26635 321 2
+26635 1903 3
+26635 1920 3
+26635 93 7
+26635 34 7
+26635 3433 4
+26635 33 14
+23803 23826 14
+34096 2198 1
+34096 8343 1
+34096 17758 1
+34096 8069 1
+34096 31638 1
+34096 19906 1
+34096 2064 1
+34096 462 1
+34096 34104 1
+34096 2252 1
+34096 29109 1
+34096 31872 1
+34096 24289 1
+34096 23803 1
+34096 26635 1
+34096 12108 1
+17758 1907 1
+17758 2408 1
+17758 1906 1
+17758 17865 1
+17758 2194 1
+17758 93 1
+17758 17862 1
+17758 33 8
+17758 17864 1
+17758 716 1
+17758 1923 1
+17758 2049 1
+34104 32991 5
+2064 321 1
+2064 2194 1
+2064 34 1
+2064 33 8
+2064 716 1
+2064 2191 3
+2064 2192 2
+2064 2195 1
+29109 2338 3
+29109 33 9
+29109 2749 7
+2252 2311 2
+2252 33 7
+2252 35 5
+2252 321 1
+2252 34 2
+29093 1905 3
+29093 33 7
+29093 1903 3
+29093 1918 2
+29093 1921 3
+31638 33 4
+31638 2193 1
+25143 19646 1
+25143 6261 1
+25143 5281 1
+25143 16756 1
+25143 10491 1
+25143 6992 1
+25143 7702 1
+25143 20000 1
+12101 8343 1
+25160 33 2
+25160 19906 1
+25160 321 1
+19906 15595 1
+19906 37 3
+19906 35 3
+19906 38 2
+19906 34 4
+19906 3597 1
+19906 33 7
+19906 3595 3
+19906 36 10
+2198 4192 1
+24289 1905 1
+24289 33 9
+24289 1906 2
+24289 716 1
+24289 1903 1
+9211 8343 1
+92 1907 2
+92 1905 3
+92 111 12
+92 2049 1
+92 1923 2
+92 1904 2
+92 93 2
+111 790 2
+2408 111 1
+170 16826 2
+170 1907 3
+170 92 1
+170 2408 3
+170 93 84
+170 111 11
+170 1905 3
+170 1923 2
+170 2049 1
+170 1904 5
+8045 1905 2
+8045 170 2
+8045 111 1
+8045 1923 2
+8045 5057 3
+8045 93 1
+1903 170 18
+1903 92 3
+1903 1906 5
+1903 1910 1
+1903 1918 6
+1903 93 8
+1903 111 1
+1903 413 1
+1903 1905 19
+1903 1923 3
+1903 1921 3
+2049 1904 1
+1923 1904 1
+93 111 1
+171 111 1
+1904 111 1
+1904 2049 1
+1904 1923 3
+1905 170 2
+1905 111 8
+1905 1923 8
+1905 171 1
+1905 93 2
+1906 170 9
+1906 92 4
+1906 1910 1
+1906 8898 22
+1906 790 2
+1906 93 2
+1906 111 5
+1906 10559 3
+1906 1923 1
+1906 10664 5
+1906 1908 3
+1907 111 1
+5178 111 2
+5178 5057 4
+2506 111 11
+20000 2338 1
+20000 7029 1
+20000 2049 37
+20000 1904 1
+20000 2506 2
+6992 2338 1
+6992 7029 1
+6992 1923 33
+6992 1904 1
+6992 2506 2
+7029 2049 3
+7029 1923 3
+7029 1904 13
+7029 2506 1
+7702 2338 1
+7702 1907 104
+7702 2506 3
+7702 314 1
+3588 3587 3
+3588 3589 2
+3588 111 1
+3588 6939 2
+3791 3589 2
+3791 170 4
+3791 111 1
+3791 92 2
+3791 1904 1
+3791 3590 1
+3791 93 1
+3589 4192 1
+3590 3589 2
+3590 93 6
+4665 4669 2
+4665 3589 16
+4669 3589 208
+4669 111 1
+17552 27625 2
+24859 3589 230
+24859 111 1
+14652 3589 150
+14652 111 1
+3591 3589 2
+3591 111 1
+3592 3589 217
+3592 111 1
+7053 5773 2
+7053 7050 1
+22230 9463 11
+22230 1907 11
+22230 1913 3
+22230 170 6
+22230 92 13
+22230 1906 3
+22230 4661 1
+22230 1903 9
+22230 33 8
+22230 1905 4
+22230 1923 2
+22230 13293 8
+9463 716 3
+9463 9581 9
+19486 33 21
+19486 716 1
+19486 501 7
+19486 1914 4
+19486 502 5
+19486 500 45
+19486 314 1
+27268 315 1
+27268 320 1
+27268 49 1
+27268 1906 2
+27268 321 4
+27268 317 1
+27268 500 47
+27268 422 1
+27268 505 1
+27268 33 35
+27268 716 2
+27268 318 2
+27268 503 2
+27268 1917 3
+27268 1908 4
+24840 2338 2
+24840 33 2
+24840 1903 2
+13 49 1
+13 48 1
+13 33 6
+13 35 3
+13 40 2
+13 36 11
+13 34 2
+689 33 6
+689 718 1
+689 719 6
+689 321 1
+24824 33 7
+24824 718 1
+24824 719 1
+24824 321 1
+24824 24840 1
+15568 15595 1
+15568 8612 2
+15568 321 2
+15568 453 2
+15568 8496 1
+15568 4782 1
+15568 34 1
+15568 33 5
+15568 604 1
+15568 4786 5
+15568 8431 2
+15568 36 8
+15568 7255 1
+27427 413 1
+27427 33 4
+27427 11168 1
+27427 420 1
+27427 321 1
+27427 419 2
+27427 36 3
+27905 33 5
+27905 321 1
+27905 11367 1
+29947 33 4
+29947 37 1
+29947 35 4
+29947 321 1
+29947 36 9
+29947 34 2
+27411 8614 4
+27411 7302 2
+27411 321 1
+27411 453 4
+27411 4782 1
+27411 33 6
+27411 4514 3
+27411 270 7
+27411 8431 2
+34066 1260 5
+34066 1289 7
+34066 37 2
+34066 35 31
+34066 1287 1
+34066 762 5
+34066 34 4
+34066 17748 5
+34066 5227 13
+34066 33 4
+34066 27748 2
+34066 11605 3
+34066 11369 2
+34066 36 9
+19476 33 4
+19476 34 1
+18631 2537 1
+18631 4792 1
+18631 33 6
+18631 4193 4
+18631 321 2
+18631 4186 5
+18631 15542 1
+25162 170 7
+25162 92 16
+25162 7869 2
+25162 34 3
+25162 3433 2
+25162 33 5
+25162 21793 1
+25162 1923 6
+25162 1904 6
+25162 2890 3
+25162 36 3
+27388 33 4
+27388 37 1
+27388 35 1
+27388 36 16
+27388 34 4
+286 315 2
+286 320 2
+286 321 1
+286 317 3
+286 34 1
+286 33 6
+286 318 4
+286 36 7
+286 316 2
+30426 27747 1
+30426 315 2
+30426 320 3
+30426 49 1
+30426 321 1
+30426 317 7
+30426 34 1
+30426 33 6
+30426 716 1
+30426 318 2
+24967 8614 3
+24967 49 1
+24967 7302 3
+24967 602 2
+24967 321 1
+24967 453 3
+24967 16116 1
+24967 33 6
+24967 716 1
+24967 4514 5
+24967 270 6
+33914 49 1
+33914 37 1
+33914 321 1
+33914 34 1
+33914 3433 3
+33914 33 5
+33914 3598 1
+33914 39 1
+33914 1908 1
+17065 33 7
+17065 4193 1
+17065 321 3
+17065 4186 2
+17065 11366 2
+20908 33 4
+20908 36 7
+20908 34 1
+33685 15595 1
+33685 33 4
+33685 36 7
+33685 34 1
+14262 33 4
+14262 14276 1
+14262 36 7
+14262 34 1
+34265 413 1
+34265 33 4
+34265 11168 1
+34265 420 1
+34265 419 2
+34265 36 3
+34265 34 1
+15356 33 4
+15356 4193 2
+15356 321 1
+15356 4186 2
+15356 1920 3
+35995 49 1
+35995 33 7
+35995 321 1
+35995 270 9
+35995 1920 3
+26222 35 5
+26222 321 1
+26222 34 3
+26222 5227 1
+26222 33 3
+26222 11605 1
+26222 11369 1
+26222 23530 4
+12849 33 6
+25338 1907 4
+25338 92 2
+25338 49 3
+25338 321 1
+25338 12196 2
+25338 34 2
+25338 33 4
+25338 10559 3
+25338 112 2
+30497 33 4
+30497 321 1
+30497 11605 1
+30497 11369 2
+30497 34 1
+15196 5227 2
+15196 33 5
+15196 9247 2
+15196 35 1
+15196 321 1
+15196 4798 1
+15196 34 1
+11118 48 1
+11118 9247 2
+11118 321 1
+11118 9368 1
+11118 4798 1
+11118 419 1
+11118 9367 2
+11118 413 1
+11118 39 5
+11118 49 2
+11118 170 1
+11118 35 6
+11118 420 1
+11118 34 1
+11118 314 1
+11118 3433 3
+11118 5227 4
+11118 33 5
+11118 11168 1
+28918 33 4
+28918 35 2
+28918 36 4
+28918 34 3
+21888 33 6
+21888 37 1
+21888 35 3
+21888 36 29
+21888 34 7
+2322 2338 3
+2322 1920 3
+23232 9369 7
+23232 413 2
+23232 33 4
+23232 23231 1
+23232 18941 1
+23178 23230 10
+23178 9369 7
+23178 33 4
+23178 23231 1
+23178 849 4
+23178 18941 2
+19330 1907 2
+19330 170 10
+19330 92 2
+19330 33 5
+19330 1903 1
+19330 93 6
+23519 33 5
+23519 3844 1
+23519 321 1
+23519 23530 4
+28567 49 1
+28567 48 1
+28567 35 1
+28567 321 1
+28567 2561 4
+28567 419 2
+28567 93 2
+28567 34 4
+28567 3433 1
+28567 115 15
+28567 2697 19
+28567 33 5
+28567 4192 1
+28567 39 2
+28567 112 2
+35966 115 1
+35966 49 1
+35966 33 5
+35966 3844 2
+35966 321 1
+35966 249 8
+35966 34 3
+30465 10559 3
+30465 49 3
+30465 33 5
+30465 321 1
+30465 12196 2
+30465 112 2
+30465 34 2
+314 18064 2
+821 170 2
+821 18144 3
+821 19431 3
+820 170 2
+818 24232 1
+818 170 11
+818 92 1
+818 8129 1
+818 14806 3
+818 1908 2
+818 93 1
+823 170 4
+823 93 4
+1335 170 2
+790 818 1
+790 822 1
+790 93 4
+817 170 7
+817 92 2
+817 8824 1
+22731 170 2
+825 170 5
+825 1923 2
+825 1906 1
+824 170 4
+819 170 8
+819 92 2
+819 8824 1
+8824 1908 1
+822 170 2
+1304 170 2
+1304 790 2
+26553 1909 2
+8898 1905 2
+8898 111 3
+8898 1904 2
+25152 1908 4
+10368 1910 36
+20706 1907 2
+20706 1905 1
+20706 413 30
+20706 1923 5
+20706 8898 52
+10827 8259 1
+8129 8259 7
+10789 8259 2
+10789 10827 6
+10789 8129 2
+10789 1908 2
+16154 8259 25
+12431 10040 1
+10040 33 5
+10040 716 1
+10040 3844 4
+10040 270 9
+5181 1907 18
+5181 92 11
+5181 2408 1
+5181 1906 5
+5181 1903 4
+5181 1909 114
+5181 111 3
+5181 1904 2
+5181 1924 3
+5181 170 5
+5181 6469 1
+5181 1918 2
+5181 93 2
+5181 1905 1
+5181 1923 4
+5181 1908 3
+5057 1907 3
+5057 92 5
+5057 5178 3
+5057 1903 3
+5057 5179 7
+5057 1909 3
+5057 111 5
+5057 413 1
+5057 1904 4
+5057 170 9
+5057 1918 2
+5057 5181 12
+5057 93 4
+5057 1905 4
+5057 33 1
+5057 1923 2
+5057 5180 2
+29977 170 5
+29977 1903 2
+29977 5057 4
+21113 1924 27
+1555 1907 1
+1555 1913 2
+1555 92 5
+1555 1906 4
+1555 1914 1
+1555 1910 1
+1555 1903 20
+1555 500 1
+1555 1920 13
+1555 1909 78
+1555 111 5
+1555 716 3
+1555 1904 3
+1555 1924 1
+1555 1922 14
+1555 1917 1
+1555 1915 7
+1555 1916 2
+1555 170 29
+1555 1911 3
+1555 5181 25
+1555 1918 15
+1555 34 2
+1555 93 2
+1555 1905 32
+1555 33 1
+1555 1923 6
+1555 1921 3
+1555 1908 2
+1921 1905 4
+1921 170 1
+1921 1906 4
+1921 1903 2
+1921 5181 6
+1920 1906 5
+1920 1903 19
+1920 3704 2
+1920 1909 35
+1920 111 1
+1920 1904 1
+1920 1922 10
+1920 170 5
+1920 6469 1
+1920 1918 5
+1920 5181 43
+1920 93 2
+1920 1905 11
+1920 33 2
+1920 24876 2
+1920 1923 2
+10559 170 2
+10559 49 3
+10559 1906 7
+10559 5181 19
+10559 1909 22
+10559 6126 1
+10559 1905 1
+10559 1904 1
+10559 112 10
+21931 10559 2
+21931 112 7
+12805 170 9
+12805 92 3
+12805 1906 5
+12805 11690 8
+12805 1910 1
+12805 1918 5
+12805 93 5
+12805 111 1
+12805 1905 1
+12805 1923 1
+24876 170 3
+24876 92 7
+24876 1906 3
+24876 1903 1
+24876 5181 3
+24876 1918 2
+24876 1909 1
+24876 1923 2
+24876 1922 4
+15208 1555 4
+15208 1910 1
+15208 1920 1
+35559 33 2
+35559 93 1
+7819 1909 14
+7819 1905 1
+7819 111 1
+7819 1903 4
+7819 5181 24
+7819 1918 1
+1922 170 8
+1922 1918 2
+17865 93 1
+29928 3268 3
+29928 35 1
+29928 34 5
+17863 1907 2
+17863 170 2
+17863 17864 2
+17863 2049 1
+17863 1923 1
+17863 17865 2
+17863 93 4
+17862 1905 1
+17862 170 4
+17862 92 3
+17862 33 4
+17862 17864 7
+17862 17865 7
+17862 1903 4
+3268 18683 1
+3268 8408 1
+3268 9368 3
+3268 9367 1
+3268 115 27
+3268 10017 1
+3268 2890 1
+3268 760 2
+3268 28517 1
+3268 28518 1
+3268 249 5
+3268 49 1
+3268 35 2
+3268 37 2
+3268 2562 12
+3268 28519 1
+3268 2561 35
+3268 18962 7
+3268 34 7
+3268 93 4
+3268 95 2
+3268 27468 1
+3268 3433 1
+3268 5227 3
+3268 2697 16
+3268 4192 1
+3268 638 2
+2191 29928 3
+2191 2064 3
+2191 2192 1
+2191 34 1
+2338 1907 8
+2338 92 7
+2338 2408 2
+2338 1906 3
+2338 11690 15
+2338 1903 29
+2338 111 19
+2338 2049 2
+2338 716 1
+2338 12807 80
+2338 3273 1
+2338 12805 5
+2338 1915 3
+2338 170 28
+2338 1918 18
+2338 93 6
+2338 314 18
+2338 1905 7
+2338 33 13
+2338 1923 4
+2338 171 3
+11690 111 4
+11690 1918 7
+12196 1907 1
+12196 170 3
+12196 92 2
+12196 2408 1
+12196 93 2
+12196 6126 1
+12196 1923 1
+12196 2049 1
+12196 112 4
+5179 111 3
+5179 33 3
+5179 1903 1
+5179 5057 6
+5179 1918 3
+12023 4791 1
+12023 320 3
+12023 170 2
+33 92 7
+33 718 10
+33 719 14
+33 1903 20
+33 503 1
+33 1915 5
+33 35 3
+33 720 7
+33 34 14
+33 93 3
+33 9369 10
+33 1912 1
+33 1905 8
+33 1923 5
+33 1555 6
+33 2338 8
+33 1913 6
+33 1906 1
+33 321 20
+33 9368 2
+33 4798 12
+33 500 3
+33 1920 6
+33 9367 5
+33 505 1
+33 111 16
+33 270 5
+33 1917 1
+33 3273 2
+33 170 29
+33 49 3
+33 1916 4
+33 18940 2
+33 2193 3
+33 5181 3
+33 18941 8
+33 5227 5
+33 172 4
+321 92 7
+321 4793 1
+321 718 4
+321 4798 3
+321 1903 1
+321 4782 3
+321 4783 3
+321 4794 3
+321 4791 1
+321 4786 4
+321 111 1
+321 315 3
+321 4787 3
+321 170 48
+321 4789 3
+321 4785 3
+321 4790 3
+321 4792 3
+321 33 4
+321 4788 1
+321 172 2
+321 4784 3
+270 170 25
+270 111 1
+270 93 1
+315 28011 3
+315 170 14
+315 111 1
+315 321 7
+315 12023 3
+315 316 3
+316 320 3
+316 170 1
+316 317 1
+28011 2244 2
+28011 320 3
+28011 170 1
+34 170 45
+34 92 6
+34 49 3
+34 35 36
+34 4798 11
+34 4782 3
+34 5227 1
+34 3433 6
+34 111 1
+34 3268 6
+34 1904 1
+34 15755 3
+34 4187 1
+34 172 5
+4798 3433 5
+4798 170 25
+4798 111 1
+4798 92 6
+4798 35 11
+4798 1904 2
+4798 172 1
+4798 93 1
+4798 34 1
+2193 33 4
+2193 3268 3
+2193 35 3
+2193 321 1
+2193 4798 1
+2193 500 1
+2193 34 3
+3433 4452 3
+3433 170 50
+3433 48 4
+3433 37 4
+3433 3074 2
+3433 176 1
+3433 4454 4
+3433 4453 2
+3433 93 9
+3433 3792 1
+3433 111 1
+3433 2890 2
+3433 4455 2
+10491 1907 1
+10491 170 1
+10491 1906 1
+10491 718 6
+10491 719 6
+10491 321 3
+10491 10560 2
+10491 10562 2
+10491 9368 2
+10491 1903 1
+10491 9367 2
+10491 3704 2
+10491 5227 2
+10491 10559 5
+10491 33 14
+2469 33 24
+2469 1910 4
+2469 1908 2
+2469 34 4
+25153 33 9
+25153 321 2
+25153 4783 2
+257 33 3
+257 270 12
+172 1907 6
+172 1905 1
+172 170 10
+172 111 2
+172 92 60
+172 1904 2
+172 93 5
+4452 1907 1
+4452 170 13
+4452 2408 1
+4452 2049 1
+4452 1923 1
+4452 93 5
+17110 10559 3
+17110 170 4
+17110 111 1
+17110 92 15
+17110 49 1
+17110 1906 11
+6024 170 4
+6024 111 1
+760 111 1
+760 92 16
+760 2049 10
+760 1904 1
+29896 49 1
+4782 170 4
+4782 49 11
+4782 33 2
+4782 1906 1
+4782 977 4
+320 1907 2
+320 170 23
+320 111 2
+320 92 17
+320 172 2
+2226 2244 5
+2226 111 3
+2226 93 4
+10071 170 19
+10071 111 2
+10071 92 21
+10071 1923 1
+10071 172 2
+11379 170 8
+11379 49 10
+11379 33 2
+11379 1906 1
+11379 1903 1
+26540 170 12
+26540 111 1
+26540 93 3
+4783 170 3
+4783 111 1
+4783 92 1
+4783 33 6
+4783 26540 5
+4783 10071 6
+2888 111 1
+2888 92 11
+2888 2049 4
+2888 1904 2
+35 111 1
+35 92 32
+35 6229 5
+35 2049 16
+35 1904 4
+49 4452 4
+49 170 15
+49 92 6
+49 17110 1
+49 1906 9
+49 1903 2
+49 4782 3
+49 790 1
+49 93 2
+49 33 5
+49 111 3
+49 172 11
+49 1908 1
+49 215 3
+2244 1907 5
+2244 111 2
+2244 1906 4
+17056 170 3
+17056 6024 5
+4302 315 3
+4302 320 6
+4302 49 5
+4302 33 2
+4302 321 2
+4302 317 6
+25154 320 28
+25154 1923 12
+25154 172 3
+25155 172 3
+25155 10071 45
+317 170 40
+317 111 2
+317 318 15
+317 215 1
+317 93 1
+318 170 31
+318 49 27
+318 33 3
+318 1906 1
+215 111 1
+215 7591 1
+215 317 1
+7591 1907 5
+7591 111 1
+7591 215 1
+173 170 8
+173 92 14
+173 49 6
+173 11561 1
+173 13626 1
+173 13560 1
+173 111 3
+173 1905 1
+173 2888 4
+173 21793 1
+13626 173 22
+13626 170 8
+13626 111 1
+13626 92 18
+13626 49 1
+13626 2888 14
+13626 1923 1
+21793 173 6
+21793 170 3
+21793 111 1
+21793 92 12
+21793 2049 2
+21793 1904 3
+13560 173 13
+13560 170 3
+13560 111 1
+13560 92 10
+13560 2888 12
+11561 173 8
+11561 111 1
+11561 49 1
+11561 2888 4
+11561 13427 1
+11561 2218 1
+11561 5840 4
+11561 3491 2
+6269 173 3
+6269 170 4
+6269 92 16
+6269 11561 3
+6269 2049 3
+6269 1906 2
+6269 1910 1
+5840 13427 3
+3491 13427 1
+3491 5840 3
+2218 3492 1
+2218 3491 8
+6268 2217 330
+6268 5840 4
+2211 2217 15
+2211 2218 7
+2217 13427 1
+2217 2218 1
+2217 5840 9
+2217 3491 1
+6020 3117 4
+6020 170 6
+6020 3084 1
+6020 14239 1
+6020 111 4
+6020 6024 5
+6020 3120 1
+6020 24689 1
+6020 3121 1
+6020 14078 1
+6020 3119 1
+14239 170 5
+14239 111 4
+14239 6024 4
+14239 6020 4
+14239 93 3
+4784 170 10
+4784 111 1
+6021 170 9
+6021 111 1
+6021 34 3
+6022 5227 2
+6022 170 9
+6022 111 1
+6022 48 2
+6022 93 1
+3117 6023 24
+3117 170 39
+3117 92 33
+3117 6022 3
+3117 6020 11
+3117 6019 54
+3117 93 6
+3117 34 3
+3117 4785 2
+3117 1905 2
+3117 6024 3
+3117 6021 3
+3117 1923 13
+3117 6017 2
+6019 3117 7
+6019 170 19
+6019 92 13
+6019 6022 1
+6019 4785 1
+6019 111 6
+6019 1905 3
+6019 1923 1
+6019 6021 1
+6019 172 1
+4785 4452 1
+4785 320 3
+4785 170 14
+4785 111 2
+4785 92 1
+4785 6019 14
+4785 10071 3
+24689 170 5
+24689 92 7
+24689 6024 5
+24689 6020 6
+24689 24663 4
+24663 170 9
+24663 111 2
+24663 6024 10
+24663 24689 4
+6017 170 9
+6017 48 1
+6017 14455 1
+6017 249 1
+6017 93 4
+32585 170 14
+32585 111 1
+32585 92 9
+32585 2562 5
+32585 11635 4
+14455 170 5
+14455 92 2
+14455 35 2
+14455 6017 6
+3084 170 1
+3084 6020 2
+3084 13934 18
+3084 3119 3
+14034 111 1
+14034 92 12
+14034 762 12
+3119 170 4
+3119 6024 3
+3119 35 4
+3119 6020 10
+3119 13934 123
+3119 14034 1
+3119 762 7
+3120 170 1
+3120 6020 2
+3120 13934 5
+14078 170 1
+14078 6020 2
+14078 13934 11
+13934 1907 1
+13934 170 42
+13934 92 17
+13934 6020 12
+13934 14034 3
+13934 762 5
+13934 93 5
+13934 2049 1
+13934 6024 41
+13934 1904 3
+3121 170 1
+3121 6020 3
+3121 13934 17
+36 1907 2
+36 170 6
+36 92 3
+36 49 15
+36 48 2
+36 17110 3
+36 37 1
+36 419 3
+36 95 7
+36 93 8
+36 34 8
+36 3433 6
+36 33 3
+25156 10559 6
+25156 49 2
+25156 33 3
+25156 2049 8
+25156 17972 1
+25156 36 6
+25156 112 2
+25156 34 4
+2409 170 8
+2409 93 2
+1913 1907 10
+1913 170 28
+1913 92 4
+1913 2408 1
+1913 2409 3
+1913 93 4
+31154 1913 1
+31154 170 2
+31154 93 2
+13293 1907 6
+13293 1913 4
+13293 170 10
+13293 1923 1
+13293 1904 1
+13293 93 9
+1914 1912 1
+501 505 1
+501 502 2
+502 500 3
+12264 1915 2
+12264 1907 5
+12264 1913 17
+12264 92 1
+12264 1914 2
+12264 1903 2
+12264 500 3
+12264 505 1
+12264 1912 1
+12264 33 6
+12264 501 4
+12264 716 4
+12264 502 2
+1915 1907 6
+1915 6469 6
+1915 1913 2
+1915 170 8
+1915 92 8
+1915 1906 6
+1915 1903 2
+1915 500 2
+1915 93 3
+1915 1912 2
+1915 33 7
+1915 111 1
+1915 1905 5
+1915 1923 2
+1915 9581 3
+1916 1915 2
+1916 505 1
+1916 18940 10
+1917 1912 1
+503 505 1
+503 500 4
+26028 1915 3
+26028 1907 5
+26028 1913 17
+26028 92 7
+26028 1903 4
+26028 500 5
+26028 93 1
+26028 505 1
+26028 33 9
+26028 716 5
+26028 9581 7
+26028 503 7
+26028 2409 1
+26028 1917 1
+3682 170 26
+3682 111 1
+3682 92 5
+3682 10099 18
+3682 35 4
+3682 1904 1
+3682 5583 1
+19601 170 3
+19601 3682 4
+18648 170 3
+18648 3682 4
+27914 170 3
+27914 3682 4
+16567 170 3
+16567 3682 4
+12420 170 3
+12420 3682 4
+27962 170 3
+27962 3682 4
+26210 170 3
+26210 3682 4
+11951 170 3
+11951 3682 4
+8919 170 3
+8919 3682 4
+3674 170 3
+3674 3682 4
+32549 170 3
+32549 3682 4
+19322 170 3
+19322 3682 4
+34460 170 3
+34460 3682 4
+26861 170 3
+26861 3682 4
+5583 170 3
+5583 3682 4
+27260 170 3
+27260 3682 4
+20944 9369 3
+20944 170 10
+20944 111 1
+20944 7502 6
+7502 1907 4
+7502 170 26
+7502 92 15
+7502 6238 1
+7502 1906 2
+7502 7591 1
+7502 3682 1
+7502 5583 1
+7502 111 1
+7502 5276 3
+7502 7592 3
+7502 172 8
+7502 215 5
+3704 2338 4
+3704 1555 2
+3704 170 3
+3704 18547 1
+3704 1903 9
+3704 20944 7
+3704 1920 1
+5276 1907 1
+5276 18548 3
+5276 2244 7
+5276 92 4
+5276 9367 3
+5276 9195 1
+5276 111 1
+5276 5275 3
+5276 1904 6
+5276 18547 2
+5276 18546 3
+5276 170 42
+5276 217 2
+5276 93 2
+5276 4788 1
+5276 172 6
+18548 170 12
+18548 111 1
+18548 2888 6
+7592 2244 6
+7592 170 11
+7592 111 1
+7592 92 4
+7592 2226 1
+7592 172 2
+5275 170 8
+5275 111 1
+5275 215 3
+9195 1907 6
+9195 111 1
+9195 92 10
+6238 6257 3
+6238 5253 1
+6238 170 8
+6238 111 1
+6238 92 2
+6238 172 2
+6257 170 4
+6257 111 1
+5253 5276 1
+5253 170 10
+5253 111 1
+5253 92 2
+5253 5275 3
+5253 172 2
+7936 170 9
+7936 92 12
+7936 37 7
+7936 3597 3
+7936 4192 1
+7936 1904 9
+7936 3595 4
+7936 1908 1
+7928 3597 2
+7928 3598 1
+7928 170 2
+7928 37 1
+7928 3596 2
+7928 7936 3
+7928 3600 1
+9970 170 4
+9970 49 1
+9970 1906 1
+9970 37 2
+9970 7936 3
+9970 3598 4
+9970 3595 1
+9970 3600 1
+9970 1908 2
+37 5621 2
+37 1907 1
+37 3589 5
+37 92 7
+37 20675 3
+37 3597 4
+37 3587 4
+37 5773 8
+37 111 4
+37 2049 2
+37 760 3
+37 170 20
+37 35 1
+37 18000 1
+37 93 1
+37 3598 3
+37 4192 1
+37 172 2
+3597 35 2
+18000 3597 1
+18000 3587 14
+18000 35 1
+3598 3597 1
+3598 1907 4
+3598 170 47
+3598 111 1
+3598 49 9
+3598 35 2
+3598 93 4
+3792 15595 1
+3792 170 8
+3792 37 3
+3792 18585 1
+3792 9970 1
+3792 7928 1
+3792 38 2
+3792 18587 1
+3792 18586 1
+3792 93 10
+18585 170 2
+18585 38 3
+3595 3589 1
+3595 92 2
+3595 1906 2
+3595 3597 7
+3595 3587 1
+3595 5773 1
+3595 111 2
+3595 1904 2
+3595 170 4
+3595 35 1
+3595 37 23
+3595 9970 1
+3595 18587 1
+3595 93 5
+3595 4192 2
+3595 3791 1
+3595 3590 1
+3595 1908 3
+21211 33 4
+21211 321 2
+21211 34 2
+15595 3589 8
+15595 1496 2
+15595 2667 5
+15595 2665 1
+15595 2616 16
+15595 9592 3
+15595 7499 4
+15595 2673 3
+15595 3597 6
+15595 2666 1
+15595 1339 19
+15595 6229 2
+15595 3592 1
+15595 49 9
+15595 170 3
+15595 35 6
+15595 37 25
+15595 9815 5
+15595 2671 1
+15595 2672 3
+15595 15132 4
+15595 3598 35
+15595 33 4
+15595 2668 2
+15595 4192 2
+15595 6207 2
+15595 23088 2
+15595 3595 5
+15595 3600 3
+18587 170 4
+18587 92 3
+18587 37 12
+18587 3597 1
+18587 3792 1
+18587 5773 1
+18587 3595 7
+18587 3600 1
+14276 3589 7
+14276 92 10
+14276 20675 3
+14276 38 4
+14276 3588 2
+14276 3597 1
+14276 3587 13
+14276 22134 5
+14276 49 4
+14276 170 6
+14276 35 1
+14276 37 7
+14276 6939 10
+14276 93 8
+14276 33 3
+14276 3598 12
+14276 3791 2
+3596 3589 4
+3596 92 5
+3596 20675 3
+3596 3597 1
+3596 3587 8
+3596 9049 1
+3596 6229 4
+3596 4909 16
+3596 760 1
+3596 1904 1
+3596 4910 1
+3596 6469 1
+3596 49 1
+3596 170 3
+3596 35 2
+3596 37 9
+3596 17238 1
+3596 7 1
+3596 9019 1
+3596 93 2
+3596 3598 1
+3596 3595 2
+3596 3590 1
+38 3589 1
+38 92 5
+38 3588 1
+38 3597 5
+38 3591 1
+38 760 2
+38 49 2
+38 170 2
+38 3592 1
+38 37 20
+38 93 1
+38 3598 4
+38 3596 7
+38 3595 4
+38 3590 1
+38 3600 3
+18586 170 3
+18586 760 1
+18586 3595 3
+25973 3592 1
+25973 3589 9
+25973 1496 1
+25973 2616 3
+25973 15132 1
+25973 7499 1
+25973 2673 1
+25973 1339 3
+8023 115 3
+8023 6229 6
+8023 1906 1
+8023 1904 4
+8023 6125 4
+8023 112 4
+4453 13205 5
+4453 170 29
+4453 2561 17
+4453 93 17
+4453 111 1
+4453 638 3
+4453 1904 1
+4453 11635 4
+13205 3792 1
+13205 111 1
+13205 92 9
+13205 2049 2
+13205 37 2
+13205 1904 1
+2561 2697 6
+2561 2562 6
+2561 35 6
+2561 638 4
+2561 11635 4
+11635 111 1
+11635 92 17
+11635 1923 1
+11635 1904 1
+11635 172 2
+18962 173 3
+18962 170 11
+18962 111 1
+18962 92 14
+18962 2049 2
+18962 176 1
+18962 95 3
+18962 93 4
+729 760 2
+729 761 4
+729 762 2
+27465 2888 7
+27465 761 10
+11208 170 10
+11208 92 14
+11208 2049 7
+11208 1904 1
+11208 761 8
+11208 95 1
+2557 170 13
+2557 92 18
+2557 762 4
+2557 95 2
+2557 729 1
+2557 2049 9
+2557 760 5
+2557 761 8
+95 111 1
+95 92 2
+95 93 1
+176 11208 1
+176 2558 1
+176 2559 2
+176 92 4
+176 77 2
+176 49 1
+176 2560 1
+176 2557 1
+176 2556 4
+176 122 1
+176 95 6
+176 93 2
+176 33 1
+176 111 3
+176 1905 1
+2562 92 9
+2562 3074 4
+2562 95 7
+23984 2562 3
+2555 17972 1
+2555 95 2
+414 95 1
+122 173 5
+122 92 21
+122 176 1
+122 175 5
+122 172 2
+122 95 8
+175 4452 2
+175 170 10
+175 176 1
+175 93 1
+2554 95 2
+762 111 1
+762 92 13
+762 2049 6
+762 1904 3
+2556 170 9
+2556 92 16
+2556 49 14
+2556 1906 2
+2556 176 1
+2556 95 4
+2556 33 1
+2556 2888 6
+2556 2049 4
+2556 172 2
+2558 1907 2
+2558 92 13
+2558 1906 1
+2558 176 1
+2558 95 10
+2558 1923 1
+2558 1904 1
+2558 1908 1
+2559 27465 1
+2559 170 12
+2559 92 28
+2559 2888 10
+2559 2049 18
+2559 761 8
+2559 95 2
+24505 2559 28
+24505 170 2
+24505 92 1
+24505 2888 14
+24505 761 20
+4786 170 17
+4786 111 1
+4786 49 7
+4786 33 2
+4786 1906 2
+77 92 4
+77 95 1
+2560 173 4
+2560 111 1
+2560 92 13
+2560 176 1
+2560 95 8
+2560 93 3
+761 111 1
+761 92 14
+761 2049 7
+761 1904 3
+10910 170 7
+10910 111 1
+10910 93 1
+4787 1905 2
+4787 170 30
+4787 111 2
+4787 92 16
+4787 10910 7
+10876 4787 21
+10876 321 5
+10876 4454 6
+10876 1903 2
+10876 93 5
+10876 34 4
+10876 3433 3
+10876 33 9
+10876 36 28
+10876 10910 6
+3074 170 13
+3074 111 1
+3074 14068 1
+3074 3434 1
+3074 93 3
+14068 170 10
+14068 92 9
+14068 18683 1
+14068 3074 12
+14068 8408 1
+14068 28519 1
+14068 4453 4
+14068 27468 1
+14068 2697 8
+14068 2049 1
+14068 10017 1
+14068 1904 6
+14068 2890 5
+14068 28517 1
+14068 28518 1
+3434 3433 3
+3434 2697 8
+3434 170 20
+3434 92 8
+3434 2049 1
+3434 35 4
+3434 3074 22
+3434 1904 6
+10576 5039 9
+14608 5039 6
+14610 5039 27
+5011 5039 11
+8833 5039 9
+14609 5039 7
+28341 2697 2
+28341 173 1
+28341 92 5
+28341 2408 2
+28341 2890 4
+28341 14751 5
+28341 7869 7
+28517 2697 2
+28517 7869 2
+28517 28341 1
+8271 8326 2
+8271 8325 11
+8271 8327 12
+2822 2891 2
+2822 2889 5
+2822 2697 2
+2822 92 2
+2822 2888 9
+2822 2890 3
+2890 173 10
+2890 170 23
+2890 92 6
+2890 35 5
+2890 7810 1
+2890 176 1
+2890 7865 1
+2890 7869 1
+2890 7814 1
+2890 95 4
+2890 93 1
+2890 10034 1
+2890 111 1
+2890 18700 1
+2890 8425 1
+18700 2697 8
+18700 170 5
+18700 92 11
+18700 2049 1
+18700 2890 6
+18700 1904 6
+7869 170 10
+7869 92 9
+7869 2890 11
+7865 170 1
+7865 7869 2
+7814 170 3
+7814 10864 2
+7814 2890 2
+8425 170 3
+8425 10864 2
+8425 2890 2
+7810 170 1
+7810 7814 2
+10034 170 1
+10034 7810 2
+10864 170 7
+10864 92 4
+10864 2888 2
+10864 2890 8
+8325 8326 1
+8325 2892 2
+10863 170 1
+10863 92 1
+10863 1906 1
+10863 7814 1
+10863 2889 5
+10863 8325 8
+10863 2697 3
+10863 2888 12
+10863 2890 3
+14679 2697 5
+14679 173 1
+14679 92 5
+14679 2408 2
+14679 2890 4
+14679 14751 5
+14679 7865 2
+14679 7869 5
+28518 2697 2
+28518 14679 1
+28518 7865 2
+2892 6736 5
+14751 2697 3
+14751 173 3
+14751 2560 1
+14751 35 5
+14751 2890 4
+14751 122 1
+14751 95 2
+10865 8326 2
+10865 8325 15
+2889 6736 1
+2889 2892 5
+2889 2697 3
+2889 10864 2
+2889 2890 3
+2889 14751 3
+2889 95 1
+18701 2697 5
+18701 173 1
+18701 92 2
+18701 18700 5
+18701 2890 2
+18701 14751 2
+18683 2697 2
+18683 18700 2
+18683 18701 1
+19092 2892 3
+19092 2697 2
+19092 10864 3
+19092 2822 8
+19092 1906 1
+19092 2890 1
+19092 7814 2
+28519 2697 2
+28519 19092 1
+28519 7814 2
+8426 2892 2
+8426 2697 2
+8426 10864 3
+8426 2822 4
+8426 1906 1
+8426 2890 1
+8426 8425 2
+8408 8426 1
+8408 2697 2
+8408 8425 2
+27485 2697 2
+27485 10864 3
+27485 7810 1
+27485 2890 1
+27485 10863 4
+27485 8271 1
+27468 27485 1
+27468 2697 2
+27468 7810 2
+10035 10034 1
+10035 2697 2
+10035 10864 3
+10035 2890 1
+10035 10863 4
+10035 10865 1
+10017 10034 2
+10017 2697 2
+10017 10035 1
+3231 92 6
+420 2558 2
+420 170 16
+420 92 5
+420 49 3
+420 48 5
+420 1906 3
+420 419 13
+420 93 1
+420 33 2
+420 1908 4
+366 35 2
+366 420 3
+366 321 2
+366 419 11
+366 422 3
+366 421 3
+366 34 5
+366 33 15
+366 413 3
+366 36 9
+6125 6126 11
+6125 170 1
+6125 92 1
+6125 790 2
+6125 95 1
+8123 173 4
+8123 170 7
+8123 49 5
+8123 48 5
+8123 2560 1
+8123 1906 1
+8123 419 14
+8123 122 1
+8123 95 6
+8123 33 4
+8123 2195 2
+8123 1908 1
+421 48 2
+421 33 42
+421 1906 1
+421 8123 8
+421 419 49
+421 36 24
+421 422 8
+421 95 1
+421 34 6
+11168 2558 2
+11168 173 1
+11168 170 7
+11168 92 3
+11168 49 3
+11168 48 6
+11168 2560 2
+11168 1906 1
+11168 419 18
+11168 95 3
+11168 33 3
+11168 2195 1
+15775 48 2
+15775 1906 1
+15775 321 5
+15775 2554 1
+15775 419 66
+15775 422 3
+15775 95 1
+15775 34 5
+15775 33 43
+15775 11168 16
+15775 36 22
+422 33 7
+422 321 1
+422 419 3
+422 36 4
+422 34 2
+48 170 8
+48 49 9
+48 1906 2
+48 420 1
+48 4782 3
+48 33 1
+48 111 3
+48 11168 2
+48 39 1
+48 8123 1
+39 170 13
+39 92 8
+39 49 1
+39 48 16
+39 1906 1
+39 35 4
+39 3433 3
+39 2697 8
+39 2049 1
+39 1904 6
+419 170 14
+419 92 2
+419 49 2
+419 48 21
+419 2562 4
+419 176 1
+419 95 3
+419 93 3
+419 33 1
+419 111 2
+419 3231 2
+4788 170 2
+4788 11368 1
+4788 11367 1
+4788 195 1
+4788 11369 1
+4788 11366 1
+4788 217 1
+18546 170 6
+18546 111 1
+18546 4788 1
+18546 217 2
+4953 170 24
+4953 111 1
+4953 4788 10
+4953 217 20
+4789 170 14
+4789 111 1
+4789 4788 5
+4789 217 10
+5225 170 12
+5225 111 1
+5225 4788 4
+5225 217 8
+15755 170 8
+15755 111 1
+15755 4788 2
+15755 217 4
+217 170 10
+217 111 1
+217 92 2
+217 4788 2
+217 172 3
+217 93 1
+11366 4791 3
+11366 170 3
+11366 217 6
+11367 2244 3
+11367 170 4
+11367 217 4
+11368 170 15
+11368 32485 3
+11368 217 6
+11368 215 3
+195 170 10
+195 111 2
+195 217 3
+195 215 3
+11369 170 10
+11369 217 3
+4790 170 6
+4790 111 1
+32485 170 12
+32485 111 1
+5227 2804 1
+5227 7951 1
+5227 1260 1
+5227 92 6
+5227 9247 1
+5227 11583 1
+5227 9367 4
+5227 762 3
+5227 17748 1
+5227 111 2
+5227 27748 1
+5227 11605 2
+5227 27747 1
+5227 170 28
+5227 35 4
+5227 10099 18
+5227 1287 1
+5227 34 3
+5227 93 2
+5227 24941 1
+27747 5227 5
+27747 170 6
+27747 1287 3
+27747 215 3
+27747 93 1
+17748 5227 29
+17748 170 30
+17748 92 21
+17748 2049 2
+17748 1289 3
+17748 1287 3
+17748 762 3
+17748 93 6
+11605 170 14
+11605 92 3
+11605 1289 3
+11605 217 2
+11605 93 2
+11605 5227 16
+11605 4791 3
+11605 4788 1
+11605 11369 3
+1287 5227 26
+1287 7951 3
+1287 2244 3
+1287 170 21
+1287 16750 3
+7951 5227 10
+7951 170 6
+7951 1287 2
+7951 93 1
+9247 5227 3
+9247 170 4
+9247 1287 3
+9247 93 1
+1260 5227 10
+1260 1288 3
+1260 170 11
+1260 1289 3
+1260 35 3
+1260 1287 3
+1260 762 3
+1260 93 2
+24941 5227 9
+24941 170 10
+24941 1287 3
+24941 93 3
+27748 5227 4
+27748 170 5
+27748 92 3
+27748 1287 3
+11583 5227 2
+11583 170 1
+2804 4953 3
+2804 170 12
+2804 1289 3
+2804 217 2
+2804 93 2
+2804 5227 14
+2804 13385 3
+2804 4788 1
+13385 170 18
+13385 111 1
+13385 39 6
+13385 762 6
+13385 93 2
+9367 4452 6
+9367 170 27
+9367 111 1
+9367 9368 9
+9367 93 3
+9368 170 7
+9368 92 8
+9368 1906 3
+9368 35 4
+9368 3433 4
+9368 111 1
+9368 2697 8
+9368 2049 1
+9368 1904 6
+1288 170 8
+1288 111 1
+1289 170 11
+1289 111 1
+1289 92 2
+1289 11635 4
+16750 170 8
+16750 111 1
+9990 10012 9
+9990 170 10
+9990 111 3
+10012 170 19
+10012 111 3
+11771 170 21
+11771 92 8
+11771 10099 14
+11771 93 7
+11771 111 3
+11771 20839 4
+11771 172 8
+11771 337 4
+20839 170 6
+20839 111 3
+337 170 8
+337 111 3
+9369 1907 4
+9369 170 25
+9369 92 4
+9369 12809 8
+9369 9990 3
+9369 93 11
+9369 111 1
+9369 1923 1
+18941 23230 2
+18941 7819 3
+18941 1903 2
+25283 33 1
+25283 9371 21
+25283 849 5
+25283 314 1
+9371 2338 2
+9371 170 6
+9371 92 3
+9371 49 9
+9371 718 3
+9371 35 6
+9371 720 3
+9371 1903 3
+9371 9367 3
+9371 34 3
+9371 9369 3
+9371 3433 9
+9371 33 4
+9371 39 9
+9371 8123 3
+9251 92 7
+9251 48 1
+9251 718 5
+9251 9371 33
+9251 719 5
+9251 321 1
+9251 9368 1
+9251 9367 3
+9251 111 4
+9251 39 17
+9251 8123 2
+9251 49 12
+9251 170 8
+9251 35 14
+9251 720 7
+9251 849 13
+9251 34 7
+9251 93 5
+9251 9369 4
+9251 3433 21
+9251 5227 4
+9251 33 13
+23230 25283 2
+23230 9251 1
+23230 849 3
+849 33 7
+849 35 2
+849 321 1
+849 34 1
+4791 12025 1
+4791 92 2
+4791 24390 1
+4791 12024 2
+4791 93 2
+4791 111 1
+4791 26874 1
+4791 2524 1
+4791 15542 1
+12024 1907 5
+12024 4791 1
+12024 111 2
+12024 93 2
+2537 4791 1
+2537 170 2
+2537 111 1
+2537 92 12
+2537 1904 2
+2537 4798 2
+2537 34 4
+24390 2537 3
+24390 92 7
+2524 2537 3
+2524 92 11
+26874 2537 3
+26874 92 19
+15542 2537 3
+15542 92 11
+12025 2537 3
+12025 92 15
+4792 170 2
+4792 4193 3
+4186 3117 3
+4186 320 1
+4186 92 6
+4186 321 2
+4186 2537 3
+4186 4791 4
+4186 2049 4
+4186 12025 1
+4186 12022 1
+4186 315 1
+4186 170 17
+4186 2562 5
+4186 10099 4
+4186 217 2
+4186 12024 1
+4186 34 2
+4186 33 3
+4186 4193 8
+4186 4788 1
+4186 11366 1
+4193 4792 1
+4193 170 14
+4193 111 1
+4193 4186 10
+718 1907 2
+718 92 5
+718 7502 4
+718 719 8
+718 1903 1
+718 3704 5
+718 111 1
+718 20944 2
+718 11499 2
+718 170 13
+718 23844 3
+718 93 6
+718 3433 4
+718 33 5
+718 5276 5
+718 172 2
+17435 2804 3
+17435 1907 15
+17435 92 18
+17435 1906 2
+17435 718 6
+17435 719 10
+17435 12196 16
+17435 10562 9
+17435 9368 23
+17435 1903 2
+17435 9367 3
+17435 3597 4
+17435 10559 11
+17435 2049 4
+17435 1904 10
+17435 170 9
+17435 35 69
+17435 37 20
+17435 93 1
+17435 5227 6
+17435 3433 4
+17435 5225 1
+17435 33 2
+17435 1923 1
+17435 3595 1
+17435 12234 4
+17435 112 22
+2933 2958 2
+2933 170 15
+2933 718 1
+2933 719 9
+2933 93 12
+2958 1907 1
+2958 170 3
+2958 92 2
+2958 718 1
+2958 719 4
+2958 172 2
+2958 93 2
+12234 1907 6
+12234 170 9
+12234 92 11
+12234 718 1
+12234 719 10
+12234 10562 5
+12234 93 1
+12234 1923 2
+12234 17435 3
+719 2804 3
+719 2244 1
+719 170 27
+719 92 4
+719 10099 6
+719 718 5
+719 5227 4
+719 5276 10
+719 111 1
+719 5225 3
+719 1923 1
+719 172 2
+719 11499 4
+11499 170 2
+11499 12232 2
+11499 718 1
+11499 720 1
+11499 719 13
+11499 10560 1
+11499 10561 1
+11499 93 1
+11499 5227 1
+11499 12233 1
+11499 2933 1
+11499 12234 1
+12233 1907 1
+12233 170 4
+12233 718 1
+12233 719 5
+12233 93 2
+10560 170 4
+10560 92 2
+10560 10099 2
+10560 718 1
+10560 719 6
+10560 2958 2
+10560 2933 5
+10560 172 1
+10560 11499 1
+22148 170 1
+22148 718 1
+22148 719 2
+720 9369 3
+720 5227 2
+720 170 10
+720 718 3
+720 719 17
+720 11771 4
+10561 170 3
+10561 718 2
+10561 719 2
+10561 10562 3
+12232 170 1
+12232 718 1
+12232 719 2
+10562 1907 3
+10562 170 6
+10562 17435 3
+10562 10099 14
+10562 718 2
+10562 1904 1
+10562 719 22
+23844 111 5
+23844 92 2
+23844 1906 2
+19646 33 2
+19646 718 1
+19646 10562 21
+19646 10561 1
+14760 170 7
+14760 111 1
+22533 170 25
+22533 111 1
+14773 22533 18
+14773 170 19
+14773 92 33
+14773 14760 21
+25952 170 10
+25952 111 1
+25952 14760 3
+25952 35 3
+4793 170 9
+4793 111 1
+4793 4187 4
+4793 270 3
+4187 170 15
+4187 111 1
+4187 4793 3
+4187 35 3
+4187 34 3
+4794 170 21
+4794 111 1
+4454 170 7
+4454 111 1
+4454 10910 4
+4454 93 4
+638 37 3
+1918 1905 3
+1918 1923 2
+5322 33 1
+5322 964 2
+5322 5352 2
+5322 5351 2
+1538 10346 3
+1538 1540 1
+1538 1541 2
+1538 20185 3
+1538 2927 3
+1539 453 3
+1539 5352 5
+1539 111 2
+1539 3435 3
+1539 1922 3
+1539 3794 2
+1539 20184 3
+1539 3007 1
+1539 1538 4
+5352 33 2
+5352 1539 4
+5352 964 7
+5352 1903 3
+5352 5241 7
+5352 3438 1
+5352 1538 5
+14119 33 1
+14119 964 1
+14119 9164 2
+14119 5352 2
+14119 5351 2
+26373 33 1
+26373 964 6
+26373 9164 2
+26373 1541 1
+26373 5352 2
+26373 5351 2
+28845 1538 24
+30576 3435 24
+34327 33 1
+34327 964 1
+34327 9164 2
+34327 5352 2
+34327 5351 2
+964 453 3
+27970 2198 1
+27970 33 1
+27970 964 2
+27970 9164 2
+27970 8751 3
+27970 5352 2
+27970 5351 3
+2926 170 3
+2926 1539 3
+2926 2927 3
+2927 92 2
+2927 8058 1
+2927 1541 1
+2927 25397 1
+2927 2926 1
+2927 22754 1
+2927 111 2
+2927 4235 1
+2927 10090 1
+2927 170 11
+2927 1918 1
+2927 93 1
+2927 30818 1
+2927 10261 1
+2927 33 3
+2927 21712 1
+2927 1539 9
+2927 2915 1
+2927 3007 7
+4235 170 2
+4235 33 1
+4235 1539 4
+4235 3007 2
+4235 2927 1
+4235 2926 2
+22754 170 2
+22754 1539 2
+22754 4235 3
+22754 2927 1
+10261 170 3
+10261 33 1
+10261 1539 5
+10261 3007 3
+10261 2927 1
+10261 2926 2
+8058 170 1
+8058 1539 2
+8058 2927 1
+8058 2926 2
+25397 170 2
+25397 1539 3
+25397 2927 1
+25397 2926 2
+10090 170 2
+10090 1539 2
+10090 2927 1
+10090 2926 2
+30818 170 2
+30818 33 1
+30818 1539 4
+30818 3007 3
+30818 2927 1
+30818 2926 2
+2915 170 1
+2915 1539 2
+2915 2927 1
+2915 2926 2
+21712 170 2
+21712 33 1
+21712 1539 4
+21712 3007 1
+21712 2927 1
+21712 2926 2
+2719 170 4
+2719 964 2
+2719 5352 5
+2719 217 3
+2719 2926 1
+2719 33 1
+2719 1539 6
+2719 2927 1
+33324 170 4
+33324 2719 7
+33324 93 2
+33902 11366 5
+33902 2719 4
+19065 170 1
+19065 195 10
+19065 2719 5
+19065 93 2
+34315 170 9
+34315 2719 5
+34315 93 2
+2702 170 9
+2702 2719 7
+2702 93 7
+13279 170 6
+13279 2719 3
+13279 93 2
+33721 170 7
+33721 2719 4
+33721 93 2
+20209 170 1
+20209 11367 1
+20209 11369 6
+20209 2719 6
+20209 217 2
+2805 170 8
+2805 1903 1
+2805 9367 1
+2805 3438 2
+2805 5227 9
+2805 33 1
+2805 39 1
+2805 1539 10
+2805 20184 2
+2805 3007 4
+2805 20185 3
+20185 170 2
+20185 1539 2
+20185 2927 3
+20185 2805 2
+32068 5227 1
+32068 170 6
+32068 27748 2
+32068 1539 2
+32068 2805 2
+12059 170 6
+12059 1539 2
+12059 11583 2
+12059 2805 2
+12059 93 1
+17734 17748 3
+17734 170 5
+17734 1539 3
+17734 2805 4
+11588 170 4
+11588 1539 4
+11588 11605 4
+11588 2805 3
+31432 170 6
+31432 27748 2
+31432 1539 2
+31432 2805 2
+31432 93 1
+7941 7951 2
+7941 170 4
+7941 1539 2
+7941 2805 2
+33285 170 4
+33285 1539 2
+33285 11583 2
+33285 2805 2
+9236 170 5
+9236 9247 2
+9236 1539 2
+9236 2805 2
+15023 1260 3
+15023 170 4
+15023 1539 3
+15023 2805 4
+33888 5227 2
+33888 170 5
+33888 24941 2
+33888 1539 3
+33888 2805 3
+32635 170 4
+32635 1539 2
+32635 11583 2
+32635 2805 2
+2788 2804 3
+2788 170 4
+2788 1539 3
+2788 2805 3
+34023 20185 1
+19585 20754 1
+19585 1907 1
+19585 10346 4
+19585 1541 1
+19585 1903 1
+19585 115 9
+19585 170 2
+19585 2562 3
+19585 15116 1
+19585 176 2
+19585 2561 2
+19585 34 2
+19585 93 3
+19585 95 4
+19585 6126 2
+19585 3433 2
+19585 33 2
+19585 1539 9
+19585 20184 3
+19585 3007 3
+19585 1538 4
+19585 112 11
+3793 1541 3
+3436 1907 3
+3436 92 1
+3436 48 1
+3436 1906 1
+3436 3793 6
+3436 1541 3
+3436 3796 2
+3436 115 8
+3436 39 2
+3436 49 1
+3436 170 1
+3436 37 4
+3436 2561 2
+3436 34 3
+3436 3433 1
+3436 113 2
+3436 638 2
+3436 1539 6
+3436 19585 18
+3436 3794 8
+3436 112 12
+28427 1907 3
+28427 170 2
+28427 92 2
+28427 3793 6
+28427 93 3
+28427 1923 2
+28427 2049 2
+28427 113 1
+28427 112 1
+5591 5607 4
+17294 5607 4
+17870 5607 4
+1540 1541 2
+9164 964 5
+9164 1541 4
+36199 5607 4
+9972 37 1
+9972 10784 1
+9972 1539 1
+9972 10760 1
+9972 14111 3
+9973 37 1
+9973 1539 1
+9973 18675 2
+9973 14111 3
+9973 18656 1
+14111 170 10
+14111 37 2
+14111 21004 2
+14111 1903 1
+14111 21003 2
+14111 33 1
+14111 111 3
+14111 1539 2
+14111 3794 6
+14111 3007 8
+3799 37 3
+3799 4914 1
+3799 1539 3
+21004 170 6
+21004 37 2
+21004 4914 1
+21004 1539 1
+21004 3794 1
+21004 3799 4
+30271 170 1
+30271 37 4
+30271 21004 2
+30271 18593 1
+30271 3597 2
+30271 24765 1
+30271 1539 1
+30271 3794 2
+9901 5621 2
+9901 92 4
+9901 1906 2
+9901 7928 1
+9901 1903 1
+9901 9973 1
+9901 5773 2
+9901 111 2
+9901 9971 2
+9901 3799 8
+9901 9972 1
+9901 170 27
+9901 37 5
+9901 9970 1
+9901 93 3
+9901 33 1
+9901 1539 2
+9901 3794 13
+9901 3007 18
+30272 4863 1
+30272 170 1
+30272 33 1
+30272 37 2
+30272 1539 2
+30272 21004 2
+30272 3794 2
+30272 3007 3
+30272 4911 1
+3709 3589 2
+3709 92 4
+3709 1906 2
+3709 3793 2
+3709 1541 1
+3709 1903 1
+3709 3438 1
+3709 3796 2
+3709 3792 1
+3709 115 2
+3709 111 2
+3709 3799 3
+3709 3795 1
+3709 170 19
+3709 37 6
+3709 93 2
+3709 3433 4
+3709 3797 2
+3709 33 1
+3709 3435 1
+3709 1539 6
+3709 3791 1
+3709 3794 20
+3709 3590 1
+3709 3007 18
+10784 3597 1
+10784 4909 2
+10784 37 3
+10784 3794 2
+18675 2666 1
+18675 2668 1
+18675 37 1
+18675 2667 1
+18675 2665 1
+18675 2616 6
+18675 3794 2
+18675 21003 3
+3794 3796 3
+3794 5878 3
+3794 37 5
+18593 3589 1
+18593 1496 3
+18593 37 3
+18593 2667 1
+18593 2665 1
+18593 2616 6
+18593 3597 1
+18593 1339 11
+18593 2668 1
+18593 3794 2
+9971 37 1
+9971 3794 8
+4911 3796 1
+4911 3589 1
+4911 4912 3
+4911 4909 3
+4911 37 2
+4911 3794 2
+4911 7 1
+3795 37 1
+3795 3794 2
+10760 170 2
+10760 49 3
+10760 37 1
+10760 4914 2
+10760 93 1
+10760 33 1
+10760 3598 7
+10760 10784 2
+10760 1539 2
+10760 3794 6
+10760 4910 1
+10760 3007 1
+10760 3799 1
+18656 170 1
+18656 49 3
+18656 37 1
+18656 7495 1
+18656 4914 2
+18656 93 1
+18656 33 1
+18656 3598 6
+18656 1539 2
+18656 18675 2
+18656 3794 4
+18656 3007 1
+18656 3799 1
+4914 170 10
+4914 49 7
+4914 37 3
+4914 602 2
+4914 4782 1
+4914 16116 3
+4914 3597 1
+4914 3598 14
+4914 1539 2
+4914 3794 13
+4914 10942 2
+24765 170 1
+24765 49 3
+24765 1496 1
+24765 37 2
+24765 4914 2
+24765 2616 1
+24765 15132 1
+24765 18593 2
+24765 3597 1
+24765 3598 4
+24765 1539 1
+24765 3794 5
+4863 170 5
+4863 49 7
+4863 37 2
+4863 4914 3
+4863 4913 2
+4863 93 2
+4863 3598 8
+4863 1539 1
+4863 3794 8
+4863 4910 1
+4863 4911 4
+4863 3799 1
+21003 1906 3
+10942 3374 2
+10942 453 6
+10942 609 2
+10942 3371 1
+10942 3597 4
+10942 4514 4
+10942 3311 1
+10942 605 3
+10942 3799 2
+2731 2743 2
+5878 3796 2
+3797 1906 1
+3797 6125 4
+3797 34 1
+3797 115 3
+3797 6229 6
+3797 1923 1
+3797 2049 1
+3797 1539 1
+3797 1904 4
+3797 19585 8
+3797 112 4
+4912 3796 1
+4912 3589 3
+4912 2731 2
+4913 3592 1
+4913 3589 3
+4913 4912 9
+4913 3658 1
+4913 3657 1
+4913 2731 1
+4913 30254 36
+4913 14652 2
+4913 9097 2
+4913 4669 2
+4913 24859 1
+10346 13415 1
+10346 1539 1
+10346 17940 1
+10346 13422 1
+10346 95 1
+17940 2558 1
+17940 1539 5
+17940 17956 2
+17940 13422 3
+17940 95 3
+20184 170 2
+20184 92 2
+20184 49 2
+20184 33 4
+20184 1539 8
+20184 321 1
+20184 3007 3
+20184 93 1
+13415 1539 2
+13415 13422 2
+13415 95 1
+13422 2558 1
+13422 49 1
+13422 2560 1
+13422 2556 2
+13422 964 2
+13422 1541 1
+13422 5352 2
+13422 122 3
+13422 95 20
+13422 3433 2
+13422 3435 1
+13422 175 1
+13422 1539 24
+13422 20184 4
+13422 17956 9
+21629 33 1
+21629 964 6
+21629 1541 1
+21629 5352 2
+21629 5351 2
+21602 21629 2
+30378 21629 2
+24912 33 1
+24912 964 3
+24912 1541 1
+24912 5352 2
+24912 5351 2
+16876 8612 2
+16876 607 2
+16876 453 4
+7903 604 1
+7903 1541 1
+7903 453 2
+8927 8614 7
+8927 7302 6
+8927 3374 1
+8927 9005 4
+8927 1541 4
+8927 453 4
+8927 609 1
+8927 33 2
+8927 4514 14
+8927 270 16
+8927 605 1
+13258 33 1
+13258 964 1
+13258 9164 2
+13258 764 1
+13258 5352 2
+13258 5351 2
+35899 8614 18
+35899 7302 13
+35899 1541 9
+35899 8927 13
+35899 453 24
+35899 33 4
+35899 4514 22
+35899 270 59
+5351 1907 2
+5351 1555 14
+5351 92 2
+5351 1903 7
+5351 1920 3
+5351 1909 30
+5351 1904 2
+5351 9164 2
+5351 1922 5
+5351 1915 1
+5351 170 2
+5351 964 5
+5351 5352 5
+5351 5181 25
+5351 1918 14
+5351 93 2
+5351 1905 7
+5351 1539 4
+5351 5241 3
+5351 1538 2
+5351 1921 3
+1522 1538 10
+8723 964 11
+8723 8751 6
+8751 33 1
+8751 964 3
+8751 9164 2
+8751 5352 3
+8751 5241 1
+8751 5351 3
+3437 1539 3
+5199 5227 3
+5199 170 2
+5199 33 1
+5199 718 3
+5199 1539 6
+5199 719 4
+5199 321 1
+5199 1541 1
+5199 3437 5
+5199 3438 2
+17582 170 6
+17582 321 1
+17582 4186 3
+17582 3437 5
+17582 3438 1
+17582 93 2
+17582 33 2
+17582 4193 10
+17582 1539 7
+17582 3007 2
+26408 92 2
+26408 321 7
+26408 1541 1
+26408 3437 14
+26408 3438 1
+26408 111 1
+26408 315 1
+26408 49 2
+26408 170 6
+26408 1918 2
+26408 93 2
+26408 33 3
+26408 1539 15
+26408 3007 3
+26408 20184 1
+26408 1538 3
+28603 1539 1
+27882 1905 1
+27882 170 3
+27882 33 1
+27882 1539 3
+27882 3437 2
+27882 1903 1
+27882 93 2
+28116 602 2
+28116 321 1
+28116 1541 2
+28116 949 5
+28116 3437 15
+28116 1903 2
+28116 49 3
+28116 170 1
+28116 453 2
+28116 8927 1
+28116 16116 8
+28116 33 3
+28116 1905 1
+28116 7903 1
+28116 16876 1
+28116 1539 3
+28116 3007 1
+28116 1908 1
+7627 33 1
+7627 1539 4
+7627 321 1
+7627 3437 1
+7627 3438 1
+7627 34 1
+15058 170 6
+15058 92 2
+15058 1906 2
+15058 15116 2
+15058 1541 1
+15058 3437 11
+15058 1903 2
+15058 1918 1
+15058 93 1
+15058 33 3
+15058 1905 5
+15058 1539 9
+15058 3007 1
+15058 1908 2
+29427 1907 2
+29427 170 15
+29427 92 2
+29427 3437 17
+29427 1903 7
+29427 1918 1
+29427 93 5
+29427 33 6
+29427 1905 3
+29427 1539 10
+29427 1922 2
+29427 3007 8
+30838 33 1
+30838 1539 2
+30838 3437 2
+30838 1903 1
+24781 3435 5
+24781 1539 4
+24781 3437 1
+24781 2927 1
+24781 2926 1
+24781 1538 1
+22613 3435 3
+22613 1539 4
+22613 3437 1
+22613 20185 1
+22613 2805 1
+22613 1538 1
+28705 3435 3
+28705 170 15
+28705 33 2
+28705 1539 18
+28705 1541 1
+28705 3437 1
+28705 3007 6
+28705 93 4
+30260 37 3
+30260 3709 1
+30260 3437 1
+30260 30272 1
+30260 30271 1
+30260 3435 3
+30260 1539 6
+30260 9901 1
+30260 3799 2
+25187 3435 9
+25187 170 1
+25187 25194 1
+25187 1539 4
+25187 21744 1
+25187 20727 1
+25187 3437 1
+24240 170 3
+24240 48 1
+24240 1541 1
+24240 3437 2
+24240 3438 6
+24240 3433 10
+24240 33 2
+24240 3435 3
+24240 1539 11
+24240 3007 4
+10322 10346 1
+10322 170 1
+10322 3437 1
+10322 3438 1
+10322 34 2
+10322 3435 4
+10322 1539 7
+10322 2890 4
+10322 1538 1
+27500 10346 1
+27500 1541 1
+27500 3437 2
+27500 419 1
+27500 3438 4
+27500 3436 2
+27500 170 3
+27500 34 13
+27500 3433 1
+27500 5227 1
+27500 1905 1
+27500 33 1
+27500 3435 3
+27500 1539 14
+27500 3007 1
+27500 1538 1
+3408 170 6
+3408 3074 2
+3408 3437 1
+3408 3434 4
+3408 3438 1
+3408 34 3
+3408 3436 2
+3408 3435 4
+3408 1539 7
+20788 33 3
+20788 1903 1
+3007 1907 2
+3007 170 1
+3007 92 1
+3007 1906 1
+3007 1903 27
+3007 1918 12
+3007 93 2
+3007 33 2
+3007 111 13
+3007 1905 25
+3007 2049 4
+3007 1923 4
+3438 3433 2
+3438 3435 5
+3438 1539 8
+3438 1538 1
+15116 1539 5
+15116 5352 1
+31733 170 1
+31733 1903 2
+31733 5181 3
+2964 1907 1
+2964 170 1
+2964 92 1
+2964 1906 1
+2964 1903 14
+2964 1918 7
+2964 1905 18
+2964 2049 1
+2964 1923 7
+2964 3007 15
+20755 170 5
+20755 33 1
+20755 1906 2
+20755 1539 8
+20755 1903 1
+20755 3007 2
+20755 93 2
+25194 170 9
+25194 48 1
+25194 3438 1
+25194 93 2
+25194 3436 2
+25194 20755 3
+25194 3435 1
+25194 39 3
+25194 1539 8
+25194 3007 2
+20727 20754 1
+20727 10346 1
+20727 170 11
+20727 48 1
+20727 2408 1
+20727 176 1
+20727 419 2
+20727 20755 3
+20727 1539 9
+20727 3007 1
+20727 1538 1
+21744 20755 3
+21744 1906 1
+21744 1539 1
+12428 12431 2
+10038 10040 1
+10099 170 7
+10099 93 4
+16826 1907 2
+2195 10754 1
+2195 10753 2
+6126 170 14
+6126 111 1
+6126 1904 1
+6126 176 1
+6126 172 3
+6126 95 4
+6126 93 5
+10754 10755 1
+40 92 6
+40 48 1
+40 1906 3
+40 321 3
+40 1903 2
+40 28666 4
+40 6229 5
+40 39 8
+40 36 5
+40 10910 2
+40 4787 3
+40 49 2
+40 170 7
+40 35 23
+40 4454 3
+40 34 12
+40 93 3
+40 3433 3
+40 33 9
+40 2697 1
+23826 170 4
+23826 92 9
+23826 1906 11
+23826 35 5
+23826 1910 2
+23826 321 3
+23826 34 14
+23826 3433 7
+23826 33 31
+23826 111 2
+23826 1905 1
+23826 39 5
+28666 170 9
+28666 92 13
+28666 49 8
+28666 17110 3
+28666 1906 2
+28666 33 3
+28666 111 1
+28666 1905 4
+25157 32991 2
+25157 33 12
+25157 36 13
+25157 28666 2
+25157 34 3
+28671 33 4
+28671 3844 9
+2311 115 2
+2311 33 3
+2311 321 1
+2311 2195 1
+2311 34 1
+10410 170 1
+10410 48 1
+10410 4190 4
+10410 93 1
+10410 115 4
+10410 4192 2
+10410 249 13
+10410 6017 2
+32991 1907 1
+32991 92 22
+32991 1906 1
+32991 718 6
+32991 719 3
+32991 321 30
+32991 1903 3
+32991 28666 12
+32991 1904 1
+32991 270 2
+32991 11499 1
+32991 10071 3
+32991 49 3
+32991 170 30
+32991 4186 1
+32991 34 19
+32991 5227 2
+32991 4785 8
+32991 3433 1
+32991 4792 1
+32991 33 20
+32991 1923 2
+32991 4193 2
+32991 4784 2
+32991 172 1
+25158 32991 5
+25158 33 12
+25158 321 3
+112 6126 3
+115 6469 1
+115 1906 3
+115 37 8
+115 35 2
+115 2561 11
+115 34 8
+115 3433 3
+115 10559 3
+115 2697 30
+115 1905 1
+115 113 4
+115 638 6
+115 760 3
+115 249 2
+115 112 3
+8400 33 1
+8400 3844 21
+8400 270 1
+8400 249 2
+3844 2602 1
+3844 49 1
+3844 1906 1
+3844 35 5
+3844 321 1
+3844 4190 5
+3844 4186 8
+3844 1903 2
+3844 34 6
+3844 115 6
+3844 33 8
+3844 4192 2
+3844 4193 2
+3844 4187 1
+3844 249 42
+3844 4191 34
+23530 49 1
+23530 3844 14
+23530 249 2
+23530 34 2
+21883 33 12
+21883 321 3
+21883 34 8
+21868 33 12
+21868 21883 12
+4191 249 3
+2749 33 10
+2749 321 3
+2749 34 9
+10753 10755 2
+16756 16826 18
+16756 1907 1
+27781 3433 2
+27781 33 5
+27781 39 1
+27781 321 2
+27781 419 2
+27781 34 1
+14187 4787 1
+14187 35 2
+14187 321 3
+14187 40 4
+14187 4454 1
+14187 93 1
+14187 34 8
+14187 3433 3
+14187 33 14
+14187 36 20
+14187 10910 3
+5281 2697 19
+25159 33 4
+25159 37 1
+25159 3844 2
+25159 8400 2
+25159 270 1
+25159 36 7
+25159 34 1
+11297 2311 3
+11297 33 2
+2581 2602 1
+29991 33 2
+29991 3844 6
+14150 33 2
+14150 3844 2
+4190 22748 5
+249 2697 28
+249 37 6
+249 35 2
+249 4190 4
+249 34 4
+234 249 10
+24623 10410 1
+24623 113 1
+10403 10410 1
+10403 113 1
+2693 115 2
+2693 2697 2
+2693 113 1
+5616 115 2
+5616 113 1
+22217 115 2
+22217 2697 8
+22217 1904 6
+22217 113 1
+22217 2561 2
+31412 10410 1
+31412 113 1
+24863 115 2
+24863 113 1
+31519 115 3
+31519 113 1
+21165 115 2
+21165 113 1
+21165 2561 1
+12954 10410 1
+12954 48 1
+12954 2561 2
+12954 93 1
+12954 115 5
+12954 2697 1
+12954 39 2
+12954 113 1
+18678 115 2
+18678 113 1
+8632 115 4
+8632 2697 5
+8632 1904 2
+8632 113 1
+2042 115 1
+2042 2049 1
+2042 1904 1
+2042 113 1
+14776 115 1
+14776 2049 2
+14776 638 1
+14776 113 1
+14776 2561 1
+113 115 3
+113 112 1
+14534 115 1
+14534 1904 1
+14534 638 1
+14534 113 1
+14534 2561 1
+25493 115 2
+25493 113 1
+25493 4453 1
+25493 93 1
+6271 115 1
+6271 1904 1
+6271 638 1
+6271 113 1
+6271 2561 1
+6187 115 1
+6187 1904 1
+6187 113 1
+6187 2561 1
+11636 115 1
+11636 1904 1
+11636 113 1
+11636 2561 1
+11636 11635 1
+11802 115 1
+11802 1904 1
+11802 113 1
+11802 2561 1
+4947 115 1
+4947 1904 1
+4947 113 1
+4947 2561 1
+17966 115 1
+17966 1904 1
+17966 113 1
+17966 2561 1
+28897 115 2
+28897 2697 8
+28897 1904 6
+28897 113 1
+9586 113 1
+2565 115 1
+2565 2562 2
+2565 1904 1
+2565 113 1
+2565 2561 1
+2567 115 1
+2567 2562 1
+2567 1904 1
+2567 113 1
+2567 2561 1
+2547 115 1
+2547 2562 1
+2547 113 4
+2547 2561 1
+2547 112 1
+2547 95 1
+31520 3433 1
+31520 115 3
+31520 2562 2
+31520 176 1
+31520 113 1
+31520 2561 1
+31520 95 1
+2569 115 1
+2569 92 1
+2569 2562 2
+2569 113 1
+2569 2561 1
+2569 122 2
+2563 115 1
+2563 2562 2
+2563 1904 1
+2563 113 1
+2563 2561 1
+2566 115 1
+2566 2562 2
+2566 1904 1
+2566 113 1
+2566 2561 1
+2566 95 1
+2571 2558 2
+2571 115 1
+2571 2562 2
+2571 1923 1
+2571 113 1
+2571 2561 1
+2572 115 1
+2572 2562 1
+2572 1904 1
+2572 113 1
+2572 2561 1
+2570 3433 1
+2570 115 2
+2570 92 1
+2570 2562 1
+2570 113 3
+2570 2561 1
+2570 93 1
+2564 115 1
+2564 2562 2
+2564 1904 1
+2564 113 1
+2564 2561 1
+2568 115 1
+2568 92 1
+2568 2562 2
+2568 2560 2
+2568 113 1
+2568 2561 1
+8650 115 1
+8650 2562 2
+8650 1904 1
+8650 113 1
+8650 2561 1
+15563 115 1
+15563 2562 1
+15563 1904 1
+15563 113 1
+15563 2561 1
+15555 115 1
+15555 2562 1
+15555 113 4
+15555 2561 1
+15555 112 1
+15555 95 1
+20853 3433 1
+20853 115 3
+20853 2562 2
+20853 176 1
+20853 113 1
+20853 2561 1
+20853 95 1
+13238 115 1
+13238 92 1
+13238 2562 2
+13238 113 1
+13238 2561 1
+13238 122 2
+11229 115 1
+11229 2562 2
+11229 1904 1
+11229 113 1
+11229 2561 1
+15562 115 1
+15562 2562 2
+15562 1904 1
+15562 113 1
+15562 2561 1
+15562 95 1
+15566 2558 2
+15566 115 1
+15566 2562 2
+15566 1923 1
+15566 113 1
+15566 2561 1
+7995 115 1
+7995 2562 1
+7995 1904 1
+7995 113 1
+7995 2561 1
+15565 3433 1
+15565 115 2
+15565 92 1
+15565 2562 1
+15565 113 3
+15565 2561 1
+15565 93 1
+10430 115 1
+10430 2562 2
+10430 1904 1
+10430 113 1
+10430 2561 1
+15564 115 1
+15564 92 1
+15564 2562 2
+15564 2560 2
+15564 113 1
+15564 2561 1
+26811 3792 1
+26811 115 4
+26811 1904 1
+26811 638 2
+26811 113 1
+26811 2561 2
+26811 93 2
+29043 115 1
+29043 1904 1
+29043 638 1
+29043 113 1
+29043 2561 1
+19299 115 1
+19299 1904 1
+19299 638 1
+19299 113 1
+19299 2561 1
+28871 115 1
+28871 1904 1
+28871 638 1
+28871 113 1
+28871 2561 1
+12074 115 1
+12074 1904 1
+12074 638 1
+12074 113 1
+12074 2561 1
+24282 1907 1
+24282 115 1
+24282 113 1
+27669 1907 1
+27669 92 2
+27669 2561 2
+27669 115 5
+27669 2697 3
+27669 113 1
+27669 638 2
+27669 1904 1
+7608 3268 5
+7608 1904 4
+7608 113 1
+6101 6125 3
+6101 2561 1
+6101 34 1
+6101 6126 1
+6101 115 2
+6101 2697 21
+6101 3268 3
+6101 113 1
+6101 112 2
+18068 3268 1
+18068 113 1
+18068 112 1
+20698 3268 1
+20698 113 1
+20698 112 1
+22091 115 2
+22091 113 1
+104 115 2
+104 113 1
+7684 3268 1
+7684 113 1
+7684 112 1
+33514 3268 4
+33514 1904 6
+33514 113 1
+15658 3268 3
+15658 1904 4
+15658 113 1
+3250 3268 4
+3250 1904 4
+3250 113 1
+23164 3268 1
+23164 113 1
+21946 115 2
+21946 3268 2
+21946 113 1
+7055 3268 1
+7055 113 1
+7055 112 1
+36139 115 2
+36139 3268 2
+36139 113 1
+10081 3268 1
+10081 113 1
+10081 112 1
+17007 48 1
+17007 35 4
+17007 2561 7
+17007 419 3
+17007 93 2
+17007 3433 1
+17007 115 11
+17007 2697 15
+17007 3268 7
+17007 39 4
+17007 113 2
+17007 112 1
+30702 3268 2
+30702 1904 2
+30702 113 1
+10931 3268 2
+10931 1904 2
+10931 113 1
+10931 112 1
+7675 3268 1
+7675 113 1
+7675 112 1
+7853 115 1
+7853 6187 2
+7853 3268 3
+7853 2561 1
+11628 115 1
+11628 92 2
+11628 3268 5
+11628 11636 2
+11628 2561 1
+11628 11635 6
+28909 115 1
+28909 11802 2
+28909 3268 3
+28909 2561 1
+4935 115 1
+4935 3268 3
+4935 4947 2
+4935 2561 1
+33145 115 1
+33145 3268 3
+33145 2561 1
+33145 17966 2
+17232 3268 1
+17232 113 1
+24647 4514 10
+24647 453 7
+7295 7302 2
+7295 4514 9
+7295 453 4
+13247 602 2
+18556 604 13
+18556 599 1
+18556 453 13
+18556 8496 2
+18556 605 1
+453 8614 3
+453 8612 3
+453 599 3
+453 7302 3
+453 8611 5
+453 604 18
+453 607 3
+453 4514 3
+453 3311 3
+453 8613 3
+453 8615 3
+453 7065 3
+20228 8614 5
+20228 7987 8
+20228 7302 1
+20228 9005 3
+20228 602 34
+20228 453 11
+20228 16116 18
+20228 604 1
+20228 4514 3
+20228 8431 2
+20228 8615 1
+10253 10258 2
+524 599 2
+524 598 2
+524 602 2
+524 600 16
+524 453 3
+524 606 2
+524 609 3
+524 604 5
+524 607 3
+524 455 1
+524 605 10
+524 601 4
+20312 438 2
+20312 7987 4
+20312 599 5
+20312 3374 4
+20312 598 1
+20312 453 5
+20312 3371 2
+20312 604 1
+20312 6687 2
+20312 607 7
+20312 601 2
+22697 8612 3
+22697 7302 10
+22697 602 2
+22697 453 6
+22697 606 3
+7302 604 3
+7302 3374 9
+7302 607 3
+7302 453 2
+7302 605 12
+21189 8612 1
+21189 7302 13
+21189 455 3
+21189 453 4
+21189 20312 5
+21189 606 3
+11651 7993 6
+11651 602 5
+11651 453 8
+11651 8613 9
+11651 8431 5
+4514 604 36
+4514 3374 11
+4514 607 4
+4514 4651 1
+4514 597 11
+4514 453 2
+4514 605 27
+34171 598 1
+34171 4514 2
+34171 524 3
+34171 453 1
+34171 601 1
+8611 604 3
+8611 597 1
+8611 453 2
+8611 605 1
+18084 438 1
+18084 8612 12
+18084 3374 2
+18084 453 6
+8612 438 3
+8612 3374 8
+8612 453 2
+8612 606 3
+8612 604 5
+8612 607 2
+8612 8495 6
+8612 605 11
+8612 7255 2
+31075 453 2
+31075 20312 5
+7065 438 6
+7065 3374 40
+7065 6688 2
+7065 7256 3
+7065 453 2
+7065 606 1
+7065 609 1
+7065 604 27
+7065 6687 2
+7065 607 1
+7065 5048 1
+7065 597 3
+7065 605 55
+7065 7255 1
+36013 598 1
+36013 524 3
+36013 453 1
+36013 601 1
+36013 7065 2
+8613 7993 5
+8613 453 2
+8613 606 1
+8613 609 1
+8613 604 3
+8613 607 5
+8613 597 1
+8613 605 4
+8613 7255 1
+8614 438 3
+8614 7987 5
+8614 3374 10
+8614 6689 1
+8614 453 2
+8614 606 1
+8614 3375 1
+8614 609 1
+8614 604 18
+8614 6687 9
+8614 607 1
+8614 597 3
+8614 605 28
+8614 7255 1
+28888 453 2
+28888 20312 13
+8615 3374 24
+8615 6688 4
+8615 6689 1
+8615 453 2
+8615 604 19
+8615 6691 1
+8615 4499 4
+8615 597 3
+8615 605 27
+30488 453 2
+30488 20312 13
+3311 3371 3
+3311 604 12
+3311 3374 4
+3311 597 2
+3311 453 2
+3311 605 11
+3311 3375 2
+604 438 3
+604 599 3
+604 3374 6
+604 453 7
+604 606 32
+604 609 37
+604 3371 3
+604 6687 5
+604 607 18
+604 597 2
+604 8495 15
+604 455 3
+604 601 1
+604 605 50
+604 7255 2
+16119 10258 4
+16119 604 1
+16119 8616 1
+16119 453 2
+11809 438 1
+11809 599 11
+11809 9005 1
+11809 453 13
+11809 606 4
+11809 609 2
+11809 3371 2
+11809 604 109
+11809 6687 1
+11809 607 3
+11809 8495 3
+11809 605 8
+31171 453 2
+31171 20312 7
+605 597 1
+605 453 1
+605 606 6
+605 609 9
+606 8495 7
+606 453 3
+455 453 1
+455 606 2
+607 599 3
+607 3374 1
+607 598 1
+607 453 6
+607 606 3
+607 6687 1
+607 597 1
+607 455 1
+607 605 5
+4498 599 1
+4498 607 3
+4498 602 2
+4498 600 9
+4498 455 1
+4498 453 3
+4498 605 6
+4498 601 3
+6689 3374 2
+6689 453 1
+597 598 3
+597 455 1
+597 453 1
+597 605 3
+597 609 1
+33642 8495 16
+3371 455 2
+3371 453 1
+6690 3374 2
+6690 453 1
+609 606 9
+6687 9005 3
+6687 455 2
+6687 453 1
+19275 607 3
+19275 453 2
+7986 3374 2
+7986 453 1
+438 455 2
+438 453 1
+7993 607 10
+7993 453 2
+7993 605 1
+7256 3374 2
+7256 607 4
+7256 8495 1
+7256 453 1
+7256 606 1
+7256 605 4
+7985 3374 2
+7985 453 1
+4651 3374 2
+4651 453 1
+5569 3374 3
+5569 607 2
+5569 453 1
+5569 605 3
+7991 3374 4
+7991 607 2
+7991 453 1
+7991 605 4
+7990 3374 2
+7990 607 2
+7990 597 2
+7990 453 1
+7990 605 4
+7992 3374 4
+7992 607 2
+7992 597 1
+7992 453 1
+7992 605 5
+6199 3374 2
+6199 453 1
+5048 3374 2
+5048 453 1
+7984 455 2
+7984 453 1
+6691 3374 2
+6691 453 1
+7988 607 16
+7988 453 1
+7988 605 1
+4499 599 2
+4499 3374 14
+4499 453 3
+4499 606 2
+4499 607 20
+4499 6687 1
+4499 597 2
+4499 605 21
+15518 607 9
+15518 453 1
+15518 605 4
+8513 3374 3
+8513 455 1
+8513 453 3
+18991 7993 2
+18991 4498 3
+18991 601 1
+28416 7256 2
+28416 4498 3
+28416 601 1
+33464 7988 2
+33464 4498 3
+33464 601 1
+4485 4499 2
+4485 4498 3
+4485 601 1
+22026 438 5
+22026 599 10
+22026 3374 4
+22026 453 12
+22026 7984 4
+22026 606 10
+22026 3371 4
+22026 6687 4
+22026 8495 9
+22026 455 5
+27566 7987 2
+27566 4498 3
+27566 601 1
+33341 7989 2
+33341 4498 3
+33341 601 1
+3374 455 2
+3374 453 1
+7987 438 2
+7987 3374 2
+7987 607 6
+7987 8495 1
+7987 453 1
+7987 606 1
+7987 605 4
+599 598 2
+599 6199 2
+599 4651 2
+599 6688 2
+599 7984 2
+599 3665 2
+599 7986 2
+599 3371 2
+599 604 1
+599 6687 2
+599 601 8
+599 7255 7
+599 16119 6
+599 438 2
+599 7985 2
+599 3374 2
+599 19275 1
+599 6689 2
+599 453 3
+599 606 1
+599 3375 2
+599 10258 8
+599 6690 2
+599 6691 2
+599 607 2
+599 5048 2
+599 597 2
+599 455 2
+600 601 12
+6688 3374 2
+6688 453 1
+3375 3374 2
+3375 453 1
+7989 7988 2
+7989 607 12
+7989 453 1
+7989 605 3
+3665 3374 2
+3665 453 1
+16117 16116 1
+602 16118 2
+602 598 2
+602 604 1
+602 8495 1
+602 601 9
+602 605 8
+602 7255 2
+602 16119 2
+602 599 18
+602 8616 1
+602 453 24
+602 16117 25
+602 606 3
+602 609 15
+602 16116 32
+602 10258 2
+602 607 11
+16118 16119 1
+16118 599 9
+16118 7990 4
+16118 19275 3
+16118 8611 1
+16118 453 4
+16118 16116 10
+16118 10258 3
+16118 7991 4
+16118 7992 5
+16118 5569 3
+16118 607 3
+16118 601 5
+16118 605 4
+8431 453 6
+8431 8496 1
+8431 606 4
+8431 604 2
+8431 607 3
+8431 597 2
+8431 455 2
+8431 8495 8
+8431 605 5

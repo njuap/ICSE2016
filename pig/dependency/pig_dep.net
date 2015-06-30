@@ -1,0 +1,9385 @@
+*Vertics: 1680
+4,org.apache.pig.pen.util.ExampleTuple
+53,org.apache.pig.backend.executionengine.ExecException
+55,org.apache.pig.data.AbstractTuple
+74,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.MRIntermediateDataVisitor
+92,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceOper
+93,org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator
+94,org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhyPlanVisitor
+95,org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PhysicalPlan
+96,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStore
+97,org.apache.pig.impl.plan.DepthFirstWalker
+98,org.apache.pig.impl.plan.VisitorException
+104,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.MROpPlanVisitor
+105,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.MROperPlan
+106,org.apache.pig.impl.plan.OperatorPlan
+107,org.apache.pig.impl.io.FileSpec
+130,org.apache.pig.test.TestJoin
+326,org.apache.pig.ExecType
+327,org.apache.pig.PigException
+328,org.apache.pig.PigServer
+330,org.apache.pig.data.BagFactory
+331,org.apache.pig.data.DataByteArray
+332,org.apache.pig.data.TupleFactory
+333,org.apache.pig.impl.io.FileLocalizer
+334,org.apache.pig.impl.logicalLayer.schema.Schema
+335,org.apache.pig.impl.util.LogUtils
+336,org.apache.pig.impl.util.Utils
+337,org.apache.pig.newplan.Operator
+338,org.apache.pig.newplan.logical.relational.LOJoin
+340,org.apache.pig.newplan.logical.relational.LogicalPlan
+341,org.apache.pig.parser.ParserException
+344,org.apache.pig.builtin.mock.Storage
+351,org.apache.pig.test.MiniCluster
+356,org.apache.pig.test.MiniGenericCluster
+357,org.apache.pig.test.Util
+358,org.apache.pig.newplan.BaseOperatorPlan
+393,org.apache.pig.test.utils.GenRandomData
+553,org.apache.pig.ResourceSchema
+556,org.apache.pig.data.DataType
+557,org.apache.pig.data.DefaultBagFactory
+558,org.apache.pig.data.DefaultTuple
+585,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SecondaryKeyPartitioner
+606,org.apache.pig.backend.hadoop.HDataType
+607,org.apache.pig.impl.io.PigNullableWritable
+612,org.apache.pig.builtin.IntMax
+619,org.apache.pig.builtin.AlgebraicIntMathBase
+627,org.apache.pig.scripting.jruby.JrubyEvalFunc
+669,org.apache.pig.EvalFunc
+670,org.apache.pig.scripting.jruby.RubySchema
+671,org.apache.pig.scripting.jruby.JrubyScriptEngine
+674,org.apache.pig.scripting.jruby.PigJrubyLibrary
+684,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.PORelationToExprProject
+709,org.apache.pig.backend.hadoop.executionengine.physicalLayer.POStatus
+710,org.apache.pig.backend.hadoop.executionengine.physicalLayer.Result
+711,org.apache.pig.data.NonSpillableDataBag
+712,org.apache.pig.impl.plan.NodeIdGenerator
+713,org.apache.pig.impl.plan.OperatorKey
+714,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POProject
+739,org.apache.pig.newplan.DepthFirstWalker
+755,org.apache.pig.impl.logicalLayer.FrontendException
+757,org.apache.pig.newplan.PlanWalker
+759,org.apache.pig.newplan.PlanVisitor
+771,org.apache.pig.builtin.DoubleBase
+782,org.apache.pig.FuncSpec
+783,org.apache.pig.builtin.Base
+788,org.apache.pig.pen.AugmentBaseDataVisitor
+1116,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLimit
+1117,org.apache.pig.impl.util.MultiMap
+1118,org.apache.pig.newplan.logical.expression.AddExpression
+1119,org.apache.pig.newplan.logical.expression.AndExpression
+1120,org.apache.pig.newplan.logical.expression.BinaryExpression
+1121,org.apache.pig.newplan.logical.expression.CastExpression
+1122,org.apache.pig.newplan.logical.expression.ConstantExpression
+1123,org.apache.pig.newplan.logical.expression.DivideExpression
+1124,org.apache.pig.newplan.logical.expression.EqualExpression
+1125,org.apache.pig.newplan.logical.expression.GreaterThanEqualExpression
+1126,org.apache.pig.newplan.logical.expression.GreaterThanExpression
+1127,org.apache.pig.newplan.logical.expression.IsNullExpression
+1128,org.apache.pig.newplan.logical.expression.LessThanEqualExpression
+1129,org.apache.pig.newplan.logical.expression.LessThanExpression
+1130,org.apache.pig.newplan.logical.expression.LogicalExpression
+1131,org.apache.pig.newplan.logical.expression.LogicalExpressionPlan
+1132,org.apache.pig.newplan.logical.expression.ModExpression
+1133,org.apache.pig.newplan.logical.expression.MultiplyExpression
+1134,org.apache.pig.newplan.logical.expression.NotEqualExpression
+1135,org.apache.pig.newplan.logical.expression.NotExpression
+1136,org.apache.pig.newplan.logical.expression.OrExpression
+1137,org.apache.pig.newplan.logical.expression.ProjectExpression
+1138,org.apache.pig.newplan.logical.expression.RegexExpression
+1139,org.apache.pig.newplan.logical.expression.SubtractExpression
+1140,org.apache.pig.newplan.logical.expression.UserFuncExpression
+1141,org.apache.pig.newplan.logical.relational.LOCogroup
+1142,org.apache.pig.newplan.logical.relational.LOCross
+1143,org.apache.pig.newplan.logical.relational.LODistinct
+1144,org.apache.pig.newplan.logical.relational.LOFilter
+1145,org.apache.pig.newplan.logical.relational.LOForEach
+1146,org.apache.pig.newplan.logical.relational.LOLimit
+1147,org.apache.pig.newplan.logical.relational.LOLoad
+1148,org.apache.pig.newplan.logical.relational.LOSort
+1149,org.apache.pig.newplan.logical.relational.LOSplit
+1150,org.apache.pig.newplan.logical.relational.LOStore
+1151,org.apache.pig.newplan.logical.relational.LOUnion
+1152,org.apache.pig.newplan.logical.relational.LogicalRelationalNodesVisitor
+1153,org.apache.pig.newplan.logical.relational.LogicalRelationalOperator
+1154,org.apache.pig.newplan.logical.relational.LogicalSchema
+1155,org.apache.pig.pen.util.PreOrderDepthFirstWalker
+1157,org.apache.pig.newplan.logical.expression.UnaryExpression
+1313,org.apache.pig.parser.SourceLocation
+1331,org.apache.pig.builtin.MAX
+1339,org.apache.pig.builtin.AlgebraicByteArrayMathBase
+1340,org.apache.pig.builtin.DoubleMax
+1341,org.apache.pig.builtin.FloatMax
+1342,org.apache.pig.builtin.LongMax
+1343,org.apache.pig.builtin.StringMax
+1344,org.apache.pig.builtin.DateTimeMax
+1349,org.apache.pig.data.BinInterSedes
+1726,org.apache.pig.classification.InterfaceAudience
+1727,org.apache.pig.classification.InterfaceStability
+1728,org.apache.pig.data.utils.SedesHelper
+1729,org.apache.pig.impl.util.ObjectSerializer
+1735,org.apache.pig.data.InternalMap
+1736,org.apache.pig.data.SchemaTupleFactory
+1739,org.apache.pig.data.BinSedesTuple
+1740,org.apache.pig.data.InterSedesFactory
+1773,org.apache.hadoop.zebra.pig.comparator.ExprUtils
+1794,org.apache.hadoop.zebra.pig.comparator.ComparatorExpr
+1795,org.apache.hadoop.zebra.pig.comparator.BagExpr
+1796,org.apache.hadoop.zebra.pig.comparator.BooleanExpr
+1797,org.apache.hadoop.zebra.pig.comparator.ByteExpr
+1798,org.apache.hadoop.zebra.pig.comparator.BytesExpr
+1799,org.apache.hadoop.zebra.pig.comparator.StringExpr
+1800,org.apache.hadoop.zebra.pig.comparator.DoubleExpr
+1801,org.apache.hadoop.zebra.pig.comparator.FloatExpr
+1802,org.apache.hadoop.zebra.pig.comparator.IntExpr
+1803,org.apache.hadoop.zebra.pig.comparator.LongExpr
+1804,org.apache.hadoop.zebra.pig.comparator.DateTimeExpr
+1805,org.apache.hadoop.zebra.pig.comparator.NegateExpr
+1806,org.apache.hadoop.zebra.pig.comparator.TupleExpr
+1848,org.apache.pig.impl.util.HashOutputStream
+1849,org.apache.pig.newplan.logical.DotLOPrinter
+1850,org.apache.pig.newplan.logical.optimizer.LogicalPlanPrinter
+1853,org.apache.pig.newplan.DotPlanDumper
+1873,org.apache.pig.tools.pigstats.PigStats
+1961,org.apache.pig.impl.util.SpillableMemoryManager
+1966,org.apache.pig.PigRunner
+1967,org.apache.pig.tools.pigstats.JobStats
+1968,org.apache.pig.tools.pigstats.SimplePigStats
+1969,org.apache.pig.tools.pigstats.OutputStats
+1971,org.apache.pig.tools.pigstats.ScriptState
+1986,org.apache.pig.tools.pigstats.InputStats
+2051,org.apache.pig.builtin.AlgebraicMathBase
+2065,org.apache.pig.builtin.TOTUPLE
+2080,org.apache.hadoop.zebra.tfile.MetaBlockDoesNotExist
+2085,org.apache.pig.impl.io.NullableUnknownWritable
+2093,org.apache.pig.impl.util.avro.AvroBagWrapper
+2135,org.apache.pig.impl.util.avro.AvroTupleWrapper
+2140,org.apache.pig.test.TestLTOrEqual
+2261,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.ConstantExpression
+2262,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.LTOrEqualToExpr
+2263,org.apache.pig.test.utils.GenPhyOp
+2264,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.BinaryExpressionOperator
+2265,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.BinaryComparisonOperator
+2275,org.apache.hadoop.zebra.mapred.ArticleGenerator
+2326,org.apache.hadoop.zebra.tfile.RandomDistribution
+2327,org.apache.hadoop.zebra.mapred.Dictionary
+2342,org.apache.hadoop.zebra.io.TestMixedType1
+2396,org.apache.hadoop.zebra.io.BasicTable
+2400,org.apache.hadoop.zebra.types.Projection
+2401,org.apache.hadoop.zebra.schema.Schema
+2402,org.apache.hadoop.zebra.types.TypesUtils
+2435,org.apache.pig.impl.io.ReadToEndLoader
+2511,org.apache.pig.Expression
+2513,org.apache.pig.LoadFunc
+2515,org.apache.pig.ResourceStatistics
+2516,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigSplit
+2517,org.apache.pig.backend.hadoop.executionengine.shims.HadoopShims
+2518,org.apache.pig.data.SchemaTupleBackend
+2519,org.apache.pig.impl.PigContext
+2598,org.apache.pig.piggybank.evaluation.string.HashFNV
+2619,org.apache.pig.piggybank.evaluation.string.HashFNV1
+2620,org.apache.pig.piggybank.evaluation.string.HashFNV2
+2627,org.apache.pig.piggybank.evaluation.util.ToBag
+2756,org.apache.pig.PigWarning
+2757,org.apache.pig.data.SingleTupleBag
+2758,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.ExpressionOperator
+2807,org.apache.hadoop.zebra.tfile.Chunk
+2891,org.apache.hadoop.zebra.tfile.Utils
+2900,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.NotEqualToExpr
+2937,org.apache.pig.backend.hadoop20.PigJobControl
+2977,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMultiQueryPackage
+3035,org.apache.pig.impl.io.NullableTuple
+3036,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackage
+3059,org.apache.pig.data.InternalDistinctBag
+3141,org.apache.pig.PigConfiguration
+3142,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigMapReduce
+3143,org.apache.pig.data.SortedSpillBag
+3144,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigGenericMapReduce
+3146,org.apache.pig.data.DefaultAbstractBag
+3147,org.apache.pig.data.FileList
+3167,org.apache.pig.piggybank.evaluation.datetime.diff.ISODaysBetween
+3191,org.apache.pig.test.pigmix.mapreduce.L11
+3290,org.apache.pig.test.pigmix.mapreduce.Library
+3294,org.apache.pig.parser.PigParserNodeAdaptor
+3305,org.apache.pig.parser.PigParserNode
+3308,org.apache.pig.impl.util.CastUtils
+3362,org.apache.pig.backend.hadoop.executionengine.physicalLayer.LogicalToPhysicalTranslatorException
+3423,org.apache.pig.piggybank.evaluation.math.ASIN
+3428,org.apache.pig.piggybank.evaluation.math.DoubleBase
+3431,org.apache.pig.test.TestNewPlanPruneMapKeys
+3509,org.apache.pig.newplan.logical.optimizer.ProjectionPatcher
+3510,org.apache.pig.newplan.logical.optimizer.SchemaPatcher
+3511,org.apache.pig.newplan.logical.rules.ColumnMapKeyPrune
+3512,org.apache.pig.newplan.logical.rules.MapKeysPruneHelper
+3513,org.apache.pig.newplan.optimizer.PlanOptimizer
+3515,org.apache.pig.newplan.optimizer.Rule
+3530,org.apache.hadoop.zebra.pig.TestOrderPreserveUnion
+3574,org.apache.hadoop.zebra.pig.TableStorer
+3575,org.apache.hadoop.zebra.BaseTestCase
+3586,org.apache.pig.piggybank.test.storage.TestMyRegExLoader
+3600,org.apache.pig.piggybank.test.storage.TestHelper
+3606,org.apache.pig.test.TestInfixArithmetic
+3659,org.apache.pig.builtin.PigStorage
+3662,org.apache.pig.PigConstants
+3670,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.POToChange
+3678,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.SecondaryKeyOptimizer
+3811,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc
+3812,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PODistinct
+3813,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFilter
+3814,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POForEach
+3815,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POJoinPackage
+3816,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange
+3817,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POSort
+3818,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POSortedDistinct
+3819,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POUnion
+3820,org.apache.pig.impl.plan.PlanException
+3821,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnChainInfo
+3822,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.SortKeyInfo
+3823,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ColumnInfo
+3824,org.apache.pig.impl.plan.Operator
+3870,org.apache.pig.pen.EquivalenceClasses
+3906,org.apache.pig.impl.util.IdentityHashSet
+3912,org.apache.pig.test.TestBuiltin
+4653,org.apache.pig.backend.hadoop.datastorage.ConfigurationUtil
+4654,org.apache.pig.builtin.ARITY
+4655,org.apache.pig.builtin.AddDuration
+4656,org.apache.pig.builtin.BagSize
+4657,org.apache.pig.builtin.CONCAT
+4658,org.apache.pig.builtin.COR
+4659,org.apache.pig.builtin.COUNT
+4660,org.apache.pig.builtin.COUNT_STAR
+4661,org.apache.pig.builtin.COV
+4662,org.apache.pig.builtin.DIFF
+4663,org.apache.pig.builtin.DaysBetween
+4664,org.apache.pig.builtin.Distinct
+4665,org.apache.pig.builtin.GetDay
+4666,org.apache.pig.builtin.GetHour
+4667,org.apache.pig.builtin.GetMilliSecond
+4668,org.apache.pig.builtin.GetMinute
+4669,org.apache.pig.builtin.GetMonth
+4670,org.apache.pig.builtin.GetSecond
+4671,org.apache.pig.builtin.GetWeek
+4672,org.apache.pig.builtin.GetWeekYear
+4673,org.apache.pig.builtin.GetYear
+4674,org.apache.pig.builtin.HoursBetween
+4675,org.apache.pig.builtin.INDEXOF
+4676,org.apache.pig.builtin.INVERSEMAP
+4677,org.apache.pig.builtin.KEYSET
+4678,org.apache.pig.builtin.LAST_INDEX_OF
+4679,org.apache.pig.builtin.LCFIRST
+4680,org.apache.pig.builtin.LOWER
+4681,org.apache.pig.builtin.LTRIM
+4682,org.apache.pig.builtin.MapSize
+4683,org.apache.pig.builtin.MilliSecondsBetween
+4684,org.apache.pig.builtin.MinutesBetween
+4685,org.apache.pig.builtin.MonthsBetween
+4686,org.apache.pig.builtin.REGEX_EXTRACT
+4687,org.apache.pig.builtin.REGEX_EXTRACT_ALL
+4688,org.apache.pig.builtin.REPLACE
+4689,org.apache.pig.builtin.RTRIM
+4690,org.apache.pig.builtin.SIZE
+4691,org.apache.pig.builtin.STRSPLIT
+4692,org.apache.pig.builtin.SUBSTRING
+4693,org.apache.pig.builtin.SecondsBetween
+4694,org.apache.pig.builtin.StringConcat
+4695,org.apache.pig.builtin.StringSize
+4696,org.apache.pig.builtin.SubtractDuration
+4697,org.apache.pig.builtin.TOBAG
+4698,org.apache.pig.builtin.TOKENIZE
+4699,org.apache.pig.builtin.TOMAP
+4700,org.apache.pig.builtin.TRIM
+4701,org.apache.pig.builtin.TextLoader
+4702,org.apache.pig.builtin.ToDate
+4703,org.apache.pig.builtin.ToDate2ARGS
+4704,org.apache.pig.builtin.ToDate3ARGS
+4705,org.apache.pig.builtin.ToDateISO
+4706,org.apache.pig.builtin.ToMilliSeconds
+4707,org.apache.pig.builtin.ToString
+4708,org.apache.pig.builtin.ToUnixTime
+4709,org.apache.pig.builtin.TupleSize
+4710,org.apache.pig.builtin.UCFIRST
+4711,org.apache.pig.builtin.UPPER
+4712,org.apache.pig.builtin.VALUELIST
+4713,org.apache.pig.builtin.VALUESET
+4714,org.apache.pig.builtin.WeeksBetween
+4715,org.apache.pig.builtin.YearsBetween
+4716,org.apache.pig.impl.logicalLayer.validators.TypeCheckerException
+4801,org.apache.pig.test.TestInstantiateFunc
+4892,org.apache.pig.impl.io.NullableText
+4910,org.apache.pig.builtin.SQRT
+4922,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputsTypedApiNeg
+5057,org.apache.hadoop.zebra.mapreduce.BasicTableOutputFormat
+5058,org.apache.hadoop.zebra.mapreduce.ZebraOutputPartition
+5059,org.apache.hadoop.zebra.mapreduce.ZebraSchema
+5060,org.apache.hadoop.zebra.mapreduce.ZebraSortInfo
+5061,org.apache.hadoop.zebra.mapreduce.ZebraStorageHint
+5062,org.apache.hadoop.zebra.types.ZebraTuple
+5132,org.apache.pig.piggybank.evaluation.math.LongAbs
+5270,org.apache.pig.impl.plan.PlanVisitor
+5271,org.apache.pig.impl.plan.PlanWalker
+5272,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.Add
+5273,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POAnd
+5274,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POBinCond
+5275,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POCast
+5276,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCollectedGroup
+5277,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCombinerPackage
+5278,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserComparisonFunc
+5279,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCounter
+5280,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCross
+5281,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PODemux
+5282,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.Divide
+5283,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.EqualToExpr
+5284,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin
+5285,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.GTOrEqualToExpr
+5286,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POGlobalRearrange
+5287,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.GreaterThanExpr
+5288,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POIsNull
+5289,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.LessThanExpr
+5290,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad
+5291,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POMapLookUp
+5292,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroup
+5293,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin
+5294,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.Mod
+5295,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.Multiply
+5296,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PONative
+5297,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.PONegative
+5298,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.PONot
+5299,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POOr
+5300,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POOptimizedForEach
+5301,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPartialAgg
+5302,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPartitionRearrange
+5303,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPreCombinerLocalRearrange
+5304,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.PORank
+5305,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.PORegexp
+5306,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POSkewedJoin
+5307,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POSplit
+5308,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStream
+5309,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.Subtract
+5320,org.apache.pig.test.RegexGroupCount
+5336,org.apache.pig.test.TestPOBinCond
+5481,org.apache.pig.newplan.logical.visitor.ProjExpanderForForeach
+5520,org.apache.pig.newplan.logical.visitor.ProjExpanderForNonForeach
+5543,org.apache.pig.newplan.logical.visitor.ProjStarInUdfExpander
+5575,org.apache.pig.impl.util.Pair
+5576,org.apache.pig.newplan.DependencyOrderWalker
+5577,org.apache.pig.newplan.ReverseDependencyOrderWalker
+5578,org.apache.pig.newplan.logical.expression.LogicalExpressionVisitor
+5579,org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor
+5580,org.apache.pig.newplan.logical.relational.LOGenerate
+5581,org.apache.pig.newplan.logical.relational.LOInnerLoad
+5582,org.apache.pig.newplan.logical.visitor.ProjectStarExpanderUtil
+5618,org.apache.pig.scripting.groovy.GroovyEvalFunc
+5676,org.apache.pig.scripting.ScriptEngine
+5678,org.apache.pig.scripting.groovy.GroovyScriptEngine
+5680,org.apache.pig.scripting.groovy.GroovyEvalFuncObject
+5681,org.apache.pig.scripting.groovy.GroovyUtils
+5691,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.RunJarSecurityManager
+6073,org.apache.pig.piggybank.test.storage.avro.TestAvroStorageUtils
+6174,org.apache.pig.piggybank.storage.avro.AvroStorageUtils
+6182,org.apache.pig.test.TestNestedForeach
+6216,org.apache.pig.newplan.logical.Util
+6220,org.apache.pig.newplan.logical.expression.DereferenceExpression
+6270,org.apache.pig.newplan.logical.expression.ColumnExpression
+6292,org.apache.pig.newplan.logical.optimizer.AllSameRalationalNodesVisitor
+6326,org.apache.pig.newplan.logical.relational.LORank
+6327,org.apache.pig.newplan.logical.relational.LOSplitOutput
+6328,org.apache.pig.newplan.logical.relational.LOStream
+6333,org.apache.pig.piggybank.test.evaluation.util.TestTop
+6361,org.apache.pig.data.DefaultTupleFactory
+6362,org.apache.pig.piggybank.evaluation.util.Top
+6372,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.TestInputSizeReducerEstimator
+6382,org.apache.pig.test.PigStorageWithStatistics
+6383,org.apache.pig.test.TestJobControlCompiler
+6384,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.InputSizeReducerEstimator
+6390,org.apache.pig.test.TestMergeJoin
+6526,org.apache.pig.test.utils.TestHelper
+6536,org.apache.pig.pen.FakeRawKeyValueIterator
+6548,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigGenericMapBase
+6615,org.apache.pig.backend.hadoop.executionengine.physicalLayer.util.PlanHelper
+6616,org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil
+6617,org.apache.pig.impl.plan.DependencyOrderWalker
+6618,org.apache.pig.tools.pigstats.PigStatusReporter
+6621,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.ProgressableReporter
+6622,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReducePOStoreImpl
+6623,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.UDFFinishVisitor
+6624,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigHadoopLogger
+6625,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler
+6660,org.apache.hadoop.zebra.types.TestColumnGroupName
+6768,org.apache.hadoop.zebra.types.CGSchema
+6769,org.apache.hadoop.zebra.schema.ColumnType
+6770,org.apache.hadoop.zebra.types.Partition
+7218,org.apache.pig.backend.hadoop.executionengine.HJob
+7219,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher
+7221,org.apache.pig.impl.plan.CompilationMessageCollector
+7223,org.apache.pig.impl.streaming.StreamingCommand
+7224,org.apache.pig.impl.util.PropertiesUtil
+7225,org.apache.pig.impl.util.UDFContext
+7226,org.apache.pig.impl.util.UriUtil
+7227,org.apache.pig.newplan.logical.expression.ScalarExpression
+7228,org.apache.pig.newplan.logical.optimizer.DanglingNestedNodeRemover
+7229,org.apache.pig.newplan.logical.relational.LogicalPlanData
+7230,org.apache.pig.newplan.logical.visitor.CastLineageSetter
+7231,org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor
+7232,org.apache.pig.newplan.logical.visitor.ScalarVariableValidator
+7233,org.apache.pig.newplan.logical.visitor.ScalarVisitor
+7234,org.apache.pig.newplan.logical.visitor.SchemaAliasVisitor
+7235,org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor
+7236,org.apache.pig.newplan.logical.visitor.UnionOnSchemaSetter
+7237,org.apache.pig.parser.QueryParserDriver
+7238,org.apache.pig.parser.QueryParserUtils
+7239,org.apache.pig.pen.ExampleGenerator
+7240,org.apache.pig.tools.grunt.GruntParser
+7246,org.apache.pig.backend.hadoop.executionengine.HExecutionEngine
+7351,org.apache.pig.impl.util.NumValCarrier
+7408,org.apache.pig.tools.grunt.Grunt
+7433,org.apache.pig.tools.grunt.PigCompletor
+7434,org.apache.pig.tools.grunt.PigCompletorAliases
+7435,org.apache.pig.tools.pigstats.PigStatsUtil
+7444,org.apache.hadoop.zebra.pig.TestMapType
+7562,org.apache.pig.piggybank.evaluation.datetime.truncate.ISOToMonth
+7578,org.apache.pig.piggybank.evaluation.datetime.truncate.ISOHelper
+7581,org.apache.hadoop.zebra.types.TestStorageRecord2
+7611,org.apache.pig.data.TimestampedTuple
+7641,org.apache.pig.test.udf.evalfunc.GoodMonitored
+7647,org.apache.hadoop.zebra.pig.TestTableLoader
+7711,org.apache.pig.impl.util.ConfigurationValidator
+7727,org.apache.pig.builtin.ROUND
+7738,org.apache.pig.builtin.DoubleRound
+7739,org.apache.pig.builtin.FloatRound
+7741,org.apache.pig.test.TestScriptLanguage
+7879,org.apache.pig.test.TestPigRunner
+7890,org.apache.pig.test.pigmix.mapreduce.L12
+7966,org.apache.hadoop.zebra.pig.TestTableMergeJoinFloat
+8003,org.apache.pig.test.TestProjectStarExpander
+8026,org.apache.pig.backend.hadoop.executionengine.physicalLayer.POPrinter
+8108,org.apache.pig.SortInfo
+8109,org.apache.pig.pen.util.LineageTracer
+8110,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStoreImpl
+8112,org.apache.pig.pen.Illustrator
+8139,org.apache.hadoop.zebra.mapreduce.TableMRSortedTableZebraKeyGenerator
+8211,org.apache.pig.data.DataReaderWriter
+8215,org.apache.pig.impl.io.InterStorage
+8277,org.apache.pig.FileInputLoadFunc
+8278,org.apache.pig.StoreFunc
+8279,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigFileInputFormat
+8280,org.apache.pig.impl.io.InterRecordReader
+8281,org.apache.pig.impl.io.InterRecordWriter
+8296,org.apache.pig.parser.InvalidScalarProjectionException
+8310,org.apache.pig.parser.PigRecognitionException
+8314,org.apache.pig.data.InternalCachedBag
+8360,org.apache.pig.PigCounters
+8361,org.apache.pig.data.SelfSpillBag
+8399,org.apache.pig.impl.builtin.ReadScalars
+8416,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.MRPrinter
+8453,org.apache.pig.builtin.ParquetStorer
+8463,org.apache.pig.StoreFuncMetadataWrapper
+8465,org.apache.pig.impl.util.JarManager
+8473,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigTextOutputFormat
+8510,org.apache.pig.impl.util.StorageUtil
+8739,org.apache.pig.backend.datastorage.DataStorageException
+8740,org.apache.pig.backend.datastorage.SeekableInputStream
+8742,org.apache.pig.backend.hadoop.datastorage.HDataStorage
+8743,org.apache.pig.backend.hadoop.datastorage.HPath
+8744,org.apache.pig.impl.io.ResourceNotFoundException
+8763,org.apache.pig.parser.PlanGenerationFailureException
+8774,org.apache.pig.scripting.js.JSPig
+8815,org.apache.pig.scripting.BoundScript
+8816,org.apache.pig.scripting.Pig
+8829,org.apache.pig.test.TestSample
+8860,org.apache.hadoop.zebra.io.TestColumnGroupSplits
+8936,org.apache.hadoop.zebra.io.ColumnGroup
+8956,org.apache.pig.piggybank.test.storage.TestMultiStorageCompression
+9003,org.apache.pig.piggybank.evaluation.math.ULP
+9014,org.apache.pig.piggybank.evaluation.math.DoubleUlp
+9015,org.apache.pig.piggybank.evaluation.math.FloatUlp
+9018,org.apache.pig.impl.io.NullableIntWritable
+9024,org.apache.pig.piggybank.evaluation.datetime.truncate.ISOToDay
+9053,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat
+9061,org.apache.pig.test.TestStoreInstances
+9111,org.apache.pig.test.pigmix.mapreduce.L1
+9158,org.apache.pig.test.TestNewPlanPushUpFilter
+9444,org.apache.pig.FilterFunc
+9445,org.apache.pig.newplan.logical.optimizer.LogicalPlanOptimizer
+9446,org.apache.pig.newplan.logical.rules.LoadTypeCastInserter
+9447,org.apache.pig.newplan.logical.rules.PushUpFilter
+9454,org.apache.pig.data.BinSedesTupleFactory
+9464,org.apache.hadoop.zebra.tfile.TestTFileStreams
+9563,org.apache.hadoop.zebra.tfile.TFile
+9564,org.apache.hadoop.zebra.tfile.Compression
+9568,org.apache.hadoop.zebra.tfile.TestTFileByteArrays
+9584,org.apache.hadoop.zebra.mapred.TableMRSampleSortedTable
+9625,org.apache.hadoop.zebra.mapred.BasicTableOutputFormat
+9627,org.apache.hadoop.zebra.types.SortInfo
+9628,org.apache.hadoop.zebra.mapred.TestBasicTableIOFormatLocalFS
+9644,org.apache.hadoop.zebra.pig.comparator.LeafExpr
+9645,org.apache.hadoop.zebra.pig.comparator.EncodingOutputStream
+9652,org.apache.pig.test.TestFilterOpString
+9729,org.apache.pig.builtin.AlgebraicFloatMathBase
+9734,org.apache.pig.impl.io.NullableBooleanWritable
+9740,org.apache.pig.piggybank.evaluation.math.IEEEremainder
+9745,org.apache.pig.piggybank.evaluation.math.DoubleDoubleBase
+9749,org.apache.hadoop.zebra.tfile.TestVLong
+9811,org.apache.hadoop.zebra.tfile.TestTFileNoneCodecsJClassComparatorByteArrays
+9819,org.apache.hadoop.zebra.mapreduce.RowTableSplit
+9850,org.apache.hadoop.zebra.mapreduce.SortedTableSplit
+9877,org.apache.hadoop.zebra.mapreduce.TableInputFormat
+10199,org.apache.hadoop.zebra.io.BasicTableStatus
+10200,org.apache.hadoop.zebra.io.BlockDistribution
+10201,org.apache.hadoop.zebra.io.KeyDistribution
+10204,org.apache.hadoop.zebra.mapreduce.TableExpr
+10212,org.apache.hadoop.zebra.mapreduce.ZebraProjection
+10213,org.apache.hadoop.zebra.mapreduce.TableRecordReader
+10214,org.apache.hadoop.zebra.mapreduce.TableUnionExpr
+10215,org.apache.hadoop.zebra.mapreduce.BasicTableExpr
+10216,org.apache.hadoop.zebra.mapreduce.SortedTableSplitComparable
+10262,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.NativeMapReduceOper
+10289,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobCreationException
+10298,org.apache.hadoop.zebra.tfile.ByteArray
+10314,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigMapReduceCounter
+10345,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigMapOnly
+10346,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigMapBase
+10354,org.apache.hadoop.zebra.pig.comparator.LeafGenerator
+10375,org.apache.pig.piggybank.test.evaluation.string.TestRegex
+10397,org.apache.pig.piggybank.evaluation.string.RegexExtract
+10398,org.apache.pig.piggybank.evaluation.string.RegexExtractAll
+10399,org.apache.pig.piggybank.evaluation.string.RegexMatch
+10404,org.apache.pig.piggybank.evaluation.math.nextAfter
+10417,org.apache.pig.piggybank.evaluation.math.Util
+10418,org.apache.pig.piggybank.evaluation.math.DoubleNextAfter
+10419,org.apache.pig.piggybank.evaluation.math.FloatNextAfter
+10423,org.apache.pig.test.pigmix.mapreduce.L13
+10545,org.apache.pig.test.TestMultiQuery
+10631,org.apache.pig.test.utils.SimpleCustomPartitioner3
+10671,org.apache.pig.backend.hadoop.hbase.HBaseBinaryConverter
+10772,org.apache.pig.impl.builtin.GFAny
+10782,org.apache.pig.test.utils.Identity
+10813,org.apache.pig.piggybank.evaluation.math.HYPOT
+10825,org.apache.pig.newplan.logical.visitor.TypeCheckingExpVisitor
+11119,org.apache.pig.newplan.logical.expression.AllSameExpressionVisitor
+11120,org.apache.pig.newplan.logical.expression.BinCondExpression
+11121,org.apache.pig.newplan.logical.expression.MapLookupExpression
+11122,org.apache.pig.newplan.logical.expression.NegativeExpression
+11227,org.apache.pig.data.DistinctDataBag
+11228,org.apache.pig.data.InternalSortedBag
+11236,org.apache.pig.test.TestCmdLineParser
+11303,org.apache.pig.tools.cmdline.CmdLineParser
+11317,org.apache.pig.pen.PhysicalPlanResetter
+11322,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POPackageLite
+11323,org.apache.pig.impl.plan.optimizer.OptimizerException
+11329,org.apache.pig.test.TestRank1
+11368,org.apache.pig.builtin.DoubleMin
+11374,org.apache.pig.builtin.AlgebraicDoubleMathBase
+11378,org.apache.pig.tutorial.NGramGenerator
+11396,org.apache.pig.tutorial.TutorialUtil
+11400,org.apache.hadoop.zebra.io.TestRecord2Map
+11476,org.apache.pig.piggybank.evaluation.math.MAX
+11487,org.apache.pig.piggybank.evaluation.math.DoubleMax
+11488,org.apache.pig.piggybank.evaluation.math.FloatMax
+11489,org.apache.pig.piggybank.evaluation.math.IntMax
+11490,org.apache.pig.piggybank.evaluation.math.LongMax
+11492,org.apache.pig.scripting.ScriptPigContext
+11508,org.apache.hadoop.zebra.mapreduce.TestBasicTableIOFormatLocalFS
+11815,org.apache.hadoop.zebra.mapreduce.ArticleGenerator
+11833,org.apache.hadoop.zebra.pig.TestMergeJoinEmpty
+11925,org.apache.hadoop.zebra.pig.TableLoader
+12065,org.apache.hadoop.zebra.pig.comparator.KeyGenerator
+12069,org.apache.hadoop.zebra.pig.SchemaConverter
+12099,org.apache.pig.impl.util.RewindableIterator
+12115,org.apache.pig.data.AccumulativeBag
+12177,org.apache.pig.newplan.logical.rules.DNFExpression
+12204,org.apache.pig.impl.streaming.StreamingUDFException
+12241,org.apache.pig.piggybank.storage.HadoopJobHistoryLoader
+12509,org.apache.pig.TestLoadStoreFuncLifeCycle
+12779,org.apache.pig.piggybank.test.evaluation.util.TestToBagToTuple
+12793,org.apache.pig.piggybank.evaluation.util.ToTuple
+12816,org.apache.pig.newplan.optimizer.Transformer
+12827,org.apache.pig.test.TestCounters
+13001,org.apache.pig.piggybank.evaluation.string.UcFirst
+13034,org.apache.pig.pigunit.pig.PigServer
+13048,org.apache.pig.pigunit.pig.GruntParser
+13051,org.apache.hadoop.zebra.mapred.CachedTableScanner
+13080,org.apache.pig.backend.hadoop.datastorage.HSeekableInputStream
+13116,org.apache.pig.test.pigmix.mapreduce.L2
+13249,org.apache.pig.scripting.jruby.JrubyAccumulatorEvalFunc
+13250,org.apache.pig.scripting.jruby.JrubyAlgebraicEvalFunc
+13259,org.apache.pig.newplan.logical.expression.ExpToPhyTranslationVisitor
+13414,org.apache.pig.ComparisonFunc
+13415,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.UnaryExpressionOperator
+13416,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.UnaryComparisonOperator
+13460,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs2TypedApi
+13589,org.apache.pig.scripting.jython.JythonFunction
+13636,org.apache.pig.scripting.jython.JythonScriptEngine
+13637,org.apache.pig.scripting.jython.JythonUtils
+13644,org.apache.pig.test.TestNewPlanLogToPhyTranslationVisitor
+14065,org.apache.pig.newplan.logical.relational.LogToPhyTranslationVisitor
+14089,org.apache.pig.test.utils.URLPARSE
+14101,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigBigIntegerRawComparator
+14125,org.apache.pig.backend.hadoop.BigIntegerWritable
+14126,org.apache.pig.impl.io.NullableBigIntegerWritable
+14131,org.apache.hadoop.zebra.tfile.BCFile
+14357,org.apache.hadoop.zebra.tfile.CompareUtils
+14361,org.apache.hadoop.zebra.tfile.BoundedRangeFileInputStream
+14372,org.apache.hadoop.zebra.tfile.MetaBlockAlreadyExists
+14373,org.apache.hadoop.zebra.tfile.SimpleBufferedOutputStream
+14385,org.apache.pig.test.udf.evalfunc.TOBAG
+14418,org.apache.pig.piggybank.storage.avro.AvroStorageInputStream
+14436,org.apache.pig.test.TestPigScriptParser
+14609,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigRecordReader
+14656,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigInputFormat
+14670,org.apache.pig.test.TestNewPlanImplicitSplit
+14698,org.apache.pig.newplan.logical.rules.GroupByConstParallelSetter
+14719,org.apache.pig.newplan.OperatorSubPlan
+14728,org.apache.pig.test.TestNewPlanOperatorPlan
+15249,org.apache.pig.newplan.PlanEdge
+15250,org.apache.pig.newplan.logical.relational.LOTestHelper
+15274,org.apache.pig.parser.InvalidPathException
+15285,org.apache.pig.test.pigmix.mapreduce.L14
+15358,org.apache.pig.piggybank.test.evaluation.TestIsInt
+15363,org.apache.pig.piggybank.evaluation.IsInt
+15369,org.apache.pig.piggybank.storage.avro.PigAvroDatumWriter
+15469,org.apache.pig.piggybank.evaluation.datetime.truncate.ISOToYear
+15480,org.apache.hadoop.zebra.io.TestColumnGroupWithWorkPath
+15703,org.apache.pig.test.TestPi
+15731,org.apache.pig.impl.builtin.TestStreamingUDF
+15799,org.apache.pig.parser.TestAstValidator
+15835,org.apache.pig.parser.QueryParserFileStream
+15836,org.apache.pig.parser.TreePrinter
+15837,org.apache.pig.parser.ParserTestingUtils
+15838,org.apache.pig.parser.DuplicatedSchemaAliasException
+15839,org.apache.pig.parser.UndefinedAliasException
+15840,org.apache.pig.parser.ParsingFailureException
+15846,org.apache.pig.piggybank.evaluation.string.INDEXOF
+15862,org.apache.pig.test.TestRank2
+16024,org.apache.pig.data.SchemaTupleClassGenerator
+16055,org.apache.pig.scripting.jruby.RubyDataByteArray
+16159,org.apache.pig.piggybank.storage.apachelog.CombinedLogLoader
+16163,org.apache.pig.piggybank.storage.RegExLoader
+16166,org.apache.pig.piggybank.test.evaluation.util.apachelogparser.TestSearchTermExtractor
+16176,org.apache.pig.piggybank.evaluation.util.apachelogparser.SearchEngineExtractor
+16177,org.apache.pig.piggybank.evaluation.util.apachelogparser.SearchTermExtractor
+16182,org.apache.hadoop.zebra.mapreduce.TableMapReduceExample
+16222,org.apache.pig.builtin.JsonStorage
+16286,org.apache.pig.builtin.JsonMetadata
+16372,org.apache.hadoop.zebra.pig.TestSortedTableUnionSourceTableProj
+16456,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter
+16565,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigTupleDefaultRawComparator
+16607,org.apache.pig.piggybank.test.storage.TestFixedWidthLoader
+16646,org.apache.pig.builtin.DoubleSum
+16653,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.regex.NonConstantRegex
+16667,org.apache.pig.test.TestPruneColumn
+16962,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigTextInputFormat
+16963,org.apache.pig.newplan.logical.rules.ColumnPruneVisitor
+16970,org.apache.pig.newplan.logical.rules.PushDownForEachFlatten
+17050,org.apache.pig.newplan.logical.rules.OptimizerUtils
+17063,org.apache.hadoop.zebra.tfile.TFileDumper
+17226,org.apache.pig.impl.io.NullableBag
+17227,org.apache.pig.impl.io.NullableBigDecimalWritable
+17228,org.apache.pig.impl.io.NullableBytesWritable
+17229,org.apache.pig.impl.io.NullableDateTimeWritable
+17230,org.apache.pig.impl.io.NullableDoubleWritable
+17231,org.apache.pig.impl.io.NullableFloatWritable
+17232,org.apache.pig.impl.io.NullableLongWritable
+17252,org.apache.pig.test.pigmix.mapreduce.L3
+17315,org.apache.pig.piggybank.storage.avro.AvroStorage
+17489,org.apache.pig.piggybank.storage.avro.PigAvroRecordReader
+17490,org.apache.pig.piggybank.storage.avro.PigAvroRecordWriter
+17491,org.apache.pig.piggybank.storage.avro.AvroSchemaManager
+17492,org.apache.pig.piggybank.storage.avro.AvroStorageLog
+17493,org.apache.pig.piggybank.storage.avro.PigAvroInputFormat
+17494,org.apache.pig.piggybank.storage.avro.AvroSchema2Pig
+17495,org.apache.pig.piggybank.storage.avro.PigSchema2Avro
+17496,org.apache.pig.piggybank.storage.avro.PigAvroOutputFormat
+17534,org.apache.pig.newplan.logical.rules.MergeFilter
+17579,org.apache.pig.newplan.logical.rules.NOTConversionVisitor
+17686,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs
+17791,org.apache.pig.impl.streaming.ExecutableManager
+17879,org.apache.pig.impl.io.BufferedPositionedInputStream
+17882,org.apache.pig.impl.streaming.InputHandler
+17883,org.apache.pig.impl.streaming.OutputHandler
+17884,org.apache.pig.impl.streaming.HandlerFactory
+17885,org.apache.pig.impl.streaming.StreamingUtil
+17908,org.apache.pig.test.udf.streaming.StreamingDump
+17914,org.apache.pig.impl.util.TupleFormat
+17918,org.apache.pig.test.TestMergeJoinOuter
+17970,org.apache.pig.test.TestMapSideCogroup
+18038,org.apache.pig.test.TestHBaseStorage
+18309,org.apache.pig.backend.hadoop.hbase.HBaseStorage
+18315,org.apache.pig.AccumulatorEvalFunc
+18377,org.apache.pig.test.utils.MyUDFReturnMap
+18382,org.apache.pig.test.pigmix.mapreduce.L15
+18449,org.apache.pig.test.utils.dotGraph.DotEdge
+18454,org.apache.pig.test.TestPigProgressReporting
+18554,org.apache.pig.impl.PigImplConstants
+18555,org.apache.pig.newplan.logical.optimizer.SchemaResetter
+18556,org.apache.pig.newplan.logical.optimizer.UidResetter
+18557,org.apache.pig.newplan.logical.rules.InputOutputFileValidator
+18558,org.apache.pig.newplan.logical.visitor.SortInfoSetter
+18559,org.apache.pig.newplan.logical.visitor.StoreAliasSetter
+18560,org.apache.pig.pen.POOptimizeDisabler
+18561,org.apache.pig.backend.hadoop.executionengine.MapRedResult
+18573,org.apache.pig.test.TestAdd
+18624,org.apache.pig.test.utils.ScriptSchemaTestLoader
+18630,org.apache.pig.test.PigStorageWithSchema
+18635,org.apache.pig.impl.io.BinStorageOutputFormat
+18642,org.apache.pig.impl.io.BinStorageRecordWriter
+18645,org.apache.pig.piggybank.evaluation.math.FloatSignum
+18661,org.apache.hadoop.zebra.pig.comparator.FixedLengthPrimitive
+18666,org.apache.pig.pen.LineageTrimmingVisitor
+18800,org.apache.pig.pen.util.MetricEvaluation
+18813,org.apache.pig.tools.timer.PerformanceTimerFactory
+18829,org.apache.pig.tools.timer.PerformanceTimer
+18832,org.apache.pig.test.TestSchemaUtil
+18848,org.apache.pig.impl.logicalLayer.schema.SchemaUtil
+18856,org.apache.hadoop.zebra.pig.TestCollectionTableStorer
+18882,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MergeJoinIndexer
+18929,org.apache.pig.test.TestRank3
+18945,org.apache.pig.impl.io.TFileRecordWriter
+18967,org.apache.pig.newplan.logical.rules.TypeCastInserter
+19048,org.apache.pig.parser.TestColumnAliasConversion
+19092,org.apache.pig.impl.plan.PlanValidationException
+19093,org.apache.pig.parser.ParserValidationException
+19167,org.apache.hadoop.zebra.mapred.TestBasicTableIOFMoreLocal
+19389,org.apache.pig.parser.PigMacro
+19390,org.apache.pig.parser.QueryParserStringStream
+19409,org.apache.pig.newplan.logical.relational.LONative
+19430,org.apache.hadoop.zebra.mapreduce.TestBasicTableIOFMoreLocal
+19433,org.apache.pig.builtin.COSH
+19610,org.apache.pig.tools.parameters.ParameterSubstitutionPreprocessor
+19611,org.apache.pig.tools.parameters.PreprocessorContext
+19669,org.apache.pig.impl.builtin.DefaultIndexableLoader
+19760,org.apache.pig.test.TestJobStats
+19847,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.FileBasedOutputSizeReader
+19865,org.apache.pig.test.pigmix.mapreduce.L4
+19927,org.apache.pig.builtin.DoubleAbs
+19931,org.apache.pig.builtin.LongSum
+19937,org.apache.pig.builtin.AlgebraicLongMathBase
+19941,org.apache.pig.tools.counters.PigCounterHelper
+19970,org.apache.pig.impl.util.avro.AvroArrayReader
+20025,org.apache.pig.StoreFuncWrapper
+20032,org.apache.pig.backend.hadoop.DateTimeWritable
+20037,org.apache.pig.impl.builtin.GetMemNumRows
+20047,org.apache.pig.impl.builtin.PoissonSampleLoader
+20050,org.apache.pig.test.utils.NewLogicalPlanUtil
+20062,org.apache.hadoop.zebra.types.TestSchemaAnonymousCollection
+20084,org.apache.pig.impl.util.avro.AvroStorageDataConversionUtilities
+20102,org.apache.pig.impl.util.avro.AvroStorageSchemaConversionUtilities
+20106,org.apache.pig.test.TestNativeMapReduce
+20140,org.apache.pig.test.pigmix.mapreduce.L16
+20184,org.apache.pig.impl.logicalLayer.CanonicalNamer
+20190,org.apache.pig.test.TestFRJoin
+20350,org.apache.pig.builtin.InvokerGenerator
+20488,org.apache.hadoop.zebra.types.SubColumnExtraction
+20614,org.apache.pig.test.TestAlgebraicEvalLocal
+20697,org.apache.pig.test.TestDataBagAccess
+20759,org.apache.pig.builtin.BinStorage
+20764,org.apache.pig.builtin.IntMin
+20771,org.apache.pig.test.utils.UDFContextTestLoader
+20781,org.apache.pig.backend.datastorage.ImmutableOutputStream
+20788,org.apache.pig.pigunit.MiniClusterRunner
+20793,org.apache.pig.builtin.MIN
+20801,org.apache.pig.builtin.FloatMin
+20802,org.apache.pig.builtin.LongMin
+20803,org.apache.pig.builtin.StringMin
+20804,org.apache.pig.builtin.DateTimeMin
+20806,org.apache.pig.data.utils.TestMethodHelper
+20833,org.apache.pig.data.utils.MethodHelper
+20836,org.apache.pig.test.utils.POCastDummy
+20860,org.apache.pig.newplan.PColFilterExtractor
+20984,org.apache.hadoop.zebra.pig.TestOrderPreserveMultiTableGlob
+21047,org.apache.pig.test.TestAssert
+21057,org.apache.pig.backend.hadoop.datastorage.HDirectory
+21123,org.apache.pig.test.TestNewPlanRule
+21221,org.apache.pig.test.TestSecondarySort
+21320,org.apache.pig.piggybank.evaluation.math.EXPM1
+21325,org.apache.pig.piggybank.test.evaluation.string.TestSplit
+21332,org.apache.pig.piggybank.evaluation.string.Split
+21390,org.apache.pig.piggybank.evaluation.IsDouble
+21439,org.apache.hadoop.zebra.pig.TestMergeJoinPartial
+21518,org.apache.pig.test.TestRelationToExprProject
+21563,org.apache.hadoop.zebra.mapreduce.TestBasicTableIOFormatDFS
+21566,org.apache.hadoop.zebra.mapreduce.TestTfileSplit
+21600,org.apache.hadoop.zebra.io.TestBasicTable
+21608,org.apache.pig.builtin.CurrentTime
+21616,org.apache.pig.test.TestConversions
+21732,org.apache.pig.builtin.Utf8StorageConverter
+21949,org.apache.pig.Main
+21950,org.apache.pig.backend.hadoop.streaming.HadoopExecutableManager
+21959,org.apache.pig.impl.plan.RequiredFields
+22026,org.apache.pig.impl.plan.MapKeysInfo
+22031,org.apache.hadoop.zebra.mapred.NullScanner
+22355,org.apache.pig.AlgebraicEvalFunc
+22356,org.apache.pig.scripting.jruby.RubyDataBag
+22363,org.apache.pig.builtin.ConstantSize
+22403,org.apache.pig.test.pigmix.mapreduce.L5
+22594,org.apache.pig.data.SizeUtil
+22601,org.apache.pig.piggybank.evaluation.math.FloatCopySign
+22611,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.Launcher
+22775,org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PatternNode
+22804,org.apache.hadoop.zebra.mapred.SortedTableUnionScanner
+22841,org.apache.hadoop.zebra.mapred.TableUnionExpr
+22884,org.apache.hadoop.zebra.mapred.CompositeTableExpr
+22885,org.apache.hadoop.zebra.mapred.BasicTableExpr
+22886,org.apache.hadoop.zebra.mapred.RowTableSplit
+22902,org.apache.pig.test.TestLoad
+22996,org.apache.pig.builtin.FLOOR
+23108,org.apache.hadoop.zebra.pig.TestMapTypePrune
+23172,org.apache.pig.builtin.LongAbs
+23180,org.apache.pig.test.utils.dotGraph.OperatorPlanLoader
+23225,org.apache.pig.test.utils.dotGraph.DotNode
+23226,org.apache.pig.test.utils.dotGraph.DotGraph
+23227,org.apache.pig.test.utils.dotGraph.DotGraphReader
+23234,org.apache.hadoop.zebra.mapreduce.TestTypedApi2
+23336,org.apache.pig.test.udf.evalfunc.BadMonitored
+23341,org.apache.pig.test.TestCubeOperator
+23442,org.apache.hadoop.zebra.pig.TestOrderPreserveSimple
+23532,org.apache.pig.piggybank.storage.MultiStorage
+23625,org.apache.pig.test.TestPackage
+23670,org.apache.pig.impl.io.NullablePartitionWritable
+23675,org.apache.pig.TestAlgebraicEvalWithParameterizedReturnType
+23693,org.apache.pig.data.FieldIsNullException
+23714,org.apache.pig.test.pigmix.mapreduce.L17
+23793,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigFloatRawComparator
+23820,org.apache.pig.builtin.IsEmpty
+23838,org.apache.pig.test.TestScriptUDF
+23886,org.apache.pig.test.TestBinInterSedes
+23960,org.apache.hadoop.zebra.pig.TestTableSortStorer
+23995,org.apache.pig.backend.hadoop.datastorage.HConfiguration
+24008,org.apache.pig.impl.io.PigFile
+24070,org.apache.pig.newplan.logical.relational.SchemaNotDefinedException
+24151,org.apache.hadoop.zebra.tfile.TestTFileSplit
+24226,org.apache.pig.shock.ChannelInputStream
+24236,org.apache.pig.shock.ChannelOutputStream
+24256,org.apache.pig.shock.SSHSocketFactory
+24274,org.apache.pig.shock.SSHSocketImpl
+24356,org.apache.pig.shock.SSHSocketImplFactory
+24426,org.apache.pig.test.udf.evalfunc.Udfcachetest
+24447,org.apache.hadoop.zebra.pig.TestMapSideCoGroup
+24533,org.apache.pig.data.ReadOnceBag
+24536,org.apache.pig.piggybank.test.evaluation.datetime.convert.TestConvertDateTime
+24553,org.apache.pig.piggybank.evaluation.datetime.convert.CustomFormatToISO
+24554,org.apache.pig.piggybank.evaluation.datetime.convert.ISOToUnix
+24555,org.apache.pig.piggybank.evaluation.datetime.convert.UnixToISO
+24561,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigCombiner
+24606,org.apache.hadoop.zebra.mapred.TableMRSample
+24638,org.apache.pig.test.TestBagFormat
+24644,org.apache.pig.impl.util.BagFormat
+24647,org.apache.pig.tutorial.NonURLDetector
+24657,org.apache.pig.builtin.IntSum
+24715,org.apache.pig.newplan.ReverseDependencyOrderWalkerWOSeenChk
+24732,org.apache.pig.piggybank.test.evaluation.decode.TestDecode
+24757,org.apache.pig.piggybank.evaluation.decode.Bin
+24758,org.apache.pig.piggybank.evaluation.decode.BinCond
+24759,org.apache.pig.piggybank.evaluation.decode.Decode
+24765,org.apache.pig.SortColInfo
+24795,org.apache.hadoop.zebra.io.TestBasicTableProjections
+24821,org.apache.pig.test.TestUDFGroovy
+24880,org.apache.pig.data.DefaultDataBag
+24883,org.apache.pig.test.TestEvalPipeline
+25158,org.apache.pig.backend.hadoop.BigDecimalWritable
+25211,org.apache.pig.builtin.SUM
+25239,org.apache.pig.piggybank.evaluation.math.LOG1P
+25259,org.apache.pig.piggybank.evaluation.math.DoubleNextup
+25268,org.apache.pig.test.pigmix.mapreduce.L6
+25359,org.apache.pig.parser.QueryParserStreamUtil
+25362,org.apache.pig.piggybank.storage.JsonMetadata
+25401,org.apache.pig.builtin.InvokeForString
+25412,org.apache.pig.builtin.GenericInvoker
+25830,org.apache.pig.parser.TestSchemaAliasVisitor
+25847,org.apache.pig.backend.hadoop.DoubleWritable
+25882,org.apache.hadoop.zebra.pig.TestCheckin1
+25884,org.apache.hadoop.zebra.pig.TestBasicUnion
+25899,org.apache.pig.builtin.ATAN
+25904,org.apache.hadoop.zebra.mapred.TestBasicTableIOFormatDFS
+25908,org.apache.pig.test.TestHExecutionEngine
+25917,org.apache.hadoop.zebra.io.TestDropColumnGroup
+26032,org.apache.pig.builtin.SIN
+26037,org.apache.pig.impl.streaming.DefaultInputHandler
+26046,org.apache.pig.builtin.PigStreaming
+26051,org.apache.hadoop.zebra.types.TestZebraTupleTostring
+26105,org.apache.pig.piggybank.test.evaluation.TestStat
+26124,org.apache.pig.piggybank.evaluation.stats.COR
+26125,org.apache.pig.piggybank.evaluation.stats.COV
+26132,org.apache.pig.test.TestPhyOp
+26272,org.apache.hadoop.zebra.mapred.TableRecordWriter
+26291,org.apache.hadoop.zebra.mapred.ZebraSchema
+26292,org.apache.hadoop.zebra.mapred.ZebraSortInfo
+26293,org.apache.hadoop.zebra.mapred.ZebraStorageHint
+26294,org.apache.hadoop.zebra.mapred.ZebraOutputPartition
+26302,org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PatternPlan
+26343,org.apache.hadoop.zebra.io.TestSortedBasicTableSplits
+26384,org.apache.pig.test.TestLimitAdjuster
+26397,org.apache.hadoop.zebra.types.TestSchemaRecord
+26439,org.apache.pig.test.TestDivide
+26497,org.apache.hadoop.zebra.io.TestColumnGroupName1
+26530,org.apache.pig.test.pigmix.datagen.DataGenerator
+26785,org.apache.hadoop.zebra.types.TestSchemaMap
+26853,org.apache.pig.piggybank.evaluation.math.CBRT
+26858,org.apache.pig.newplan.logical.rules.ColumnPruneHelper
+27051,org.apache.hadoop.zebra.pig.TestMergeJoinNegative
+27223,org.apache.pig.newplan.logical.rules.WholePlanRule
+27232,org.apache.pig.test.TestPigServerWithMacros
+27263,org.apache.pig.piggybank.evaluation.math.toDegrees
+27268,org.apache.pig.builtin.IntAbs
+27276,org.apache.pig.newplan.logical.rules.DNFPlanGenerator
+27366,org.apache.pig.newplan.logical.rules.LogicalExpressionProxy
+27367,org.apache.pig.newplan.logical.rules.DNFPlan
+27374,org.apache.pig.impl.streaming.DefaultOutputHandler
+27382,org.apache.pig.PigStreamingBase
+27396,org.apache.pig.data.WritableByteArray
+27402,org.apache.pig.test.pigmix.mapreduce.L7
+27460,org.apache.pig.test.udf.evalfunc.AllFirstLetter
+27479,org.apache.pig.builtin.ABS
+27489,org.apache.pig.builtin.FloatAbs
+27490,org.apache.pig.builtin.BigIntegerAbs
+27491,org.apache.pig.builtin.BigDecimalAbs
+27493,org.apache.pig.test.TestTypedMap
+27557,org.apache.hadoop.zebra.pig.TestCheckin2
+27558,org.apache.hadoop.zebra.pig.TestMapTableLoader
+27560,org.apache.pig.test.TestNotEqualTo
+27688,org.apache.pig.piggybank.evaluation.math.IntMin
+27697,org.apache.pig.test.TestBatchAliases
+27708,org.apache.pig.piggybank.test.evaluation.datetime.TestDiffDate
+27717,org.apache.pig.piggybank.evaluation.datetime.DiffDate
+27721,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigSecondaryKeyComparator
+27744,org.apache.hadoop.zebra.pig.TestMapTableStorer
+27794,org.apache.pig.piggybank.evaluation.math.FloatRound
+27802,org.apache.pig.newplan.logical.rules.ConstExpEvaluator
+27877,org.apache.pig.TestingAccumulatorHelper
+27888,org.apache.hadoop.zebra.mapreduce.CompositeTableExpr
+27976,org.apache.hadoop.zebra.mapreduce.TableExprUtils
+27985,org.apache.pig.piggybank.evaluation.math.SINH
+27990,org.apache.pig.piggybank.evaluation.math.FloatNextup
+28004,org.apache.hadoop.zebra.pig.TestCollectionTableLoader
+28370,org.apache.pig.LoadFuncMetadataWrapper
+28387,org.apache.pig.LoadFuncWrapper
+28392,org.apache.pig.piggybank.evaluation.math.ACOS
+28477,org.apache.hadoop.zebra.types.ZebraTupleFactory
+28506,org.apache.pig.data.SchemaTuple
+28507,org.apache.pig.data.AppendableSchemaTuple
+28513,org.apache.pig.piggybank.test.evaluation.util.apachelogparser.TestDateExtractor
+28530,org.apache.pig.piggybank.evaluation.util.apachelogparser.DateExtractor
+28549,org.apache.pig.test.TestLocal2
+28603,org.apache.pig.impl.logicalLayer.schema.SchemaMergeException
+28700,org.apache.pig.newplan.logical.rules.LogicalExpressionSimplifier
+28705,org.apache.hadoop.zebra.io.TestColumnGroupName2
+28723,org.apache.pig.builtin.BagToString
+28753,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigDoubleRawComparator
+28779,org.apache.pig.bzip2r.Bzip2TextInputFormat
+28832,org.apache.tools.bzip2r.CBZip2InputStream
+28858,org.apache.pig.test.TestEvalPipelineLocal
+29152,org.apache.hadoop.zebra.mapreduce.CachedTableScanner
+29177,org.apache.pig.tools.parameters.ParameterSubstitutionException
+29196,org.apache.pig.test.TestNewPlanColumnPrune
+29254,org.apache.pig.newplan.logical.rules.AddForEach
+29257,org.apache.pig.test.TestUDFWithoutParameter
+29278,org.apache.pig.parser.LogicalPlanBuilder
+29947,org.apache.pig.builtin.Assert
+29948,org.apache.pig.builtin.CubeDimensions
+29949,org.apache.pig.builtin.RANDOM
+29950,org.apache.pig.builtin.RollupDimensions
+29952,org.apache.pig.impl.util.StringUtils
+29953,org.apache.pig.newplan.logical.relational.LOCube
+29954,org.apache.pig.newplan.logical.visitor.ProjectStarExpander
+29955,org.apache.pig.parser.StreamingCommandUtils
+29956,org.apache.pig.parser.NonProjectExpressionException
+29957,org.apache.pig.parser.InvalidCommandException
+29958,org.apache.pig.parser.FunctionType
+30031,org.apache.pig.test.utils.planComparer.PlanStructuralComparer
+30085,org.apache.pig.test.utils.dotGraph.IncreasingKeyMatcher
+30215,org.apache.hadoop.zebra.mapreduce.TableOutputCommitter
+30230,org.apache.hadoop.zebra.mapreduce.TableRecordWriter
+30263,org.apache.hadoop.zebra.types.ZebraConf
+30290,org.apache.pig.test.pigmix.mapreduce.L8
+30349,org.apache.hadoop.zebra.pig.TestOrderPreserveUnionHDFS
+30390,org.apache.pig.builtin.BuildBloomBase
+30460,org.apache.hadoop.zebra.tfile.TestTFileSeqFileComparison
+30840,org.apache.pig.impl.builtin.StreamingUDF
+30843,org.apache.hadoop.zebra.pig.TestCheckin3
+30870,org.apache.pig.builtin.TestFunctionWrapperEvalFunc
+30902,org.apache.pig.builtin.FunctionWrapperEvalFunc
+30903,org.apache.pig.PrimitiveEvalFunc
+30904,org.apache.pig.TypedOutputEvalFunc
+30913,org.apache.pig.test.utils.SimpleCustomPartitioner
+30921,org.apache.pig.piggybank.test.storage.avro.TestAvroStorage
+31350,org.apache.hadoop.zebra.mapred.ZebraProjection
+31358,org.apache.hadoop.zebra.pig.TestLoaderWithCollection
+31443,org.apache.pig.test.pigunit.TestPigTest
+31507,org.apache.pig.pigunit.Cluster
+31508,org.apache.pig.pigunit.PigTest
+31527,org.apache.hadoop.zebra.io.TestCheckin
+31528,org.apache.hadoop.zebra.io.TestBasicTableMapSplits
+31529,org.apache.hadoop.zebra.io.TestBasicTableSplits
+31530,org.apache.hadoop.zebra.io.TestCollection
+31531,org.apache.hadoop.zebra.io.TestColumnGroupInserters
+31532,org.apache.hadoop.zebra.io.TestColumnGroup
+31533,org.apache.hadoop.zebra.io.TestColumnGroupOpen
+31534,org.apache.hadoop.zebra.io.TestColumnGroupProjections
+31535,org.apache.hadoop.zebra.io.TestColumnGroupReaders
+31536,org.apache.hadoop.zebra.io.TestColumnGroupSchemas
+31537,org.apache.hadoop.zebra.io.TestMap
+31538,org.apache.hadoop.zebra.io.TestMapOfRecord
+31539,org.apache.hadoop.zebra.io.TestNegative
+31540,org.apache.hadoop.zebra.io.TestRecord3Map
+31541,org.apache.hadoop.zebra.io.TestRecord
+31542,org.apache.hadoop.zebra.io.TestRecordMap
+31543,org.apache.hadoop.zebra.io.TestSchema
+31544,org.apache.hadoop.zebra.io.TestWrite
+31546,org.apache.pig.test.TestDataModel
+31692,org.apache.pig.test.TestNumberOfReducers
+31919,org.apache.pig.test.TestForEach
+31936,org.apache.pig.piggybank.storage.hiverc.HiveRCSchemaUtil
+32016,org.apache.pig.builtin.ENDSWITH
+32033,org.apache.hadoop.zebra.io.TestColumnGroupName3
+32051,org.apache.hadoop.zebra.io.TestNonDefaultWholeMapSplit
+32191,org.apache.pig.piggybank.evaluation.string.LookupInFiles
+32217,org.apache.hadoop.zebra.mapred.TestUnsortedTableIndex
+32236,org.apache.hadoop.zebra.mapred.TableInputFormat
+32237,org.apache.hadoop.zebra.mapred.TableRecordReader
+32245,org.apache.pig.test.TestMapReduce
+32384,org.apache.pig.piggybank.evaluation.math.SIN
+32389,org.apache.hadoop.zebra.types.TestStorageGrammar
+32611,org.apache.pig.newplan.logical.rules.FilterAboveForeach
+32665,org.apache.pig.test.udf.evalfunc.TestConstructorArgs
+32704,org.apache.pig.test.pigmix.mapreduce.L9
+32755,org.apache.pig.tools.grunt.Command
+32759,org.apache.pig.pen.util.DisplayExamples
+32895,org.apache.pig.test.TestEqualTo
+33022,org.apache.hadoop.zebra.pig.TestCheckin4
+33031,org.apache.pig.test.TestStoreOld
+33084,org.apache.pig.newplan.FilterExtractor
+33153,org.apache.hadoop.zebra.mapreduce.TableMRSampleSortedTable
+33186,org.apache.pig.piggybank.test.evaluation.TestMathUDF
+33408,org.apache.pig.piggybank.evaluation.math.ABS
+33409,org.apache.pig.piggybank.evaluation.math.ATAN
+33410,org.apache.pig.piggybank.evaluation.math.ATAN2
+33411,org.apache.pig.piggybank.evaluation.math.CEIL
+33412,org.apache.pig.piggybank.evaluation.math.COS
+33413,org.apache.pig.piggybank.evaluation.math.COSH
+33414,org.apache.pig.piggybank.evaluation.math.EXP
+33415,org.apache.pig.piggybank.evaluation.math.FLOOR
+33416,org.apache.pig.piggybank.evaluation.math.LOG
+33417,org.apache.pig.piggybank.evaluation.math.LOG10
+33418,org.apache.pig.piggybank.evaluation.math.MIN
+33419,org.apache.pig.piggybank.evaluation.math.POW
+33420,org.apache.pig.piggybank.evaluation.math.RINT
+33421,org.apache.pig.piggybank.evaluation.math.ROUND
+33422,org.apache.pig.piggybank.evaluation.math.SCALB
+33423,org.apache.pig.piggybank.evaluation.math.SIGNUM
+33424,org.apache.pig.piggybank.evaluation.math.SQRT
+33425,org.apache.pig.piggybank.evaluation.math.TAN
+33426,org.apache.pig.piggybank.evaluation.math.TANH
+33427,org.apache.pig.piggybank.evaluation.math.copySign
+33428,org.apache.pig.piggybank.evaluation.math.getExponent
+33429,org.apache.pig.piggybank.evaluation.math.toRadians
+33461,org.apache.pig.piggybank.evaluation.datetime.diff.ISOMonthsBetween
+33520,org.apache.pig.impl.util.avro.AvroMapWrapper
+33561,org.apache.pig.test.FakeFSOutputStream
+33744,org.apache.tools.bzip2r.CRC
+34011,org.apache.hadoop.zebra.tfile.TestTFileLzoCodecsStreams
+34027,org.apache.pig.test.utils.BagCount
+34035,org.apache.hadoop.zebra.pig.comparator.ShortExpr
+34044,org.apache.pig.piggybank.evaluation.math.IntAbs
+34052,org.apache.hadoop.zebra.io.TestColumnGroupName4
+34070,org.apache.pig.impl.builtin.IdentityColumn
+34079,org.apache.pig.builtin.TestSUBTRACT
+34105,org.apache.pig.builtin.SUBTRACT
+34109,org.apache.pig.test.utils.AccumulativeSumBag
+34143,org.apache.hadoop.zebra.types.TestCheckin
+34144,org.apache.hadoop.zebra.types.TestSchemaCollection
+34145,org.apache.hadoop.zebra.types.TestSchemaPrimitive
+34146,org.apache.hadoop.zebra.types.TestStorageCollection
+34147,org.apache.hadoop.zebra.types.TestStorageMap
+34148,org.apache.hadoop.zebra.types.TestStorageMisc1
+34149,org.apache.hadoop.zebra.types.TestStorageMisc2
+34150,org.apache.hadoop.zebra.types.TestStorageMisc3
+34151,org.apache.hadoop.zebra.types.TestStorageRecord
+34152,org.apache.hadoop.zebra.types.TestStorePrimitive
+34154,org.apache.pig.test.TestPONegative
+34259,org.apache.pig.backend.hadoop.executionengine.physicalLayer.util.MonitoredUDFExecutor
+34384,org.apache.pig.impl.streaming.PigStreamingUDF
+34385,org.apache.pig.impl.streaming.StreamingUDFInputHandler
+34386,org.apache.pig.impl.streaming.StreamingUDFOutputHandler
+34387,org.apache.pig.impl.streaming.StreamingUDFOutputSchemaException
+34388,org.apache.pig.scripting.ScriptingOutputCapturer
+34411,org.apache.pig.piggybank.evaluation.math.DoubleAbs
+34412,org.apache.pig.piggybank.evaluation.math.FloatAbs
+34479,org.apache.pig.test.TestPigTupleRawComparator
+34610,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigTupleSortComparator
+34616,org.apache.hadoop.zebra.pig.TestMergeJoinPrune
+34713,org.apache.pig.test.udf.storefunc.SimpleCollectableLoader
+34812,org.apache.pig.TestStoreFuncMetadataWrapper
+34836,org.apache.pig.TestStoreFuncWrapper
+34841,org.apache.pig.test.TestCompressedFiles
+34909,org.apache.pig.test.udf.evalfunc.Fred
+34952,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigMapReduce
+35034,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.IllustrateDummyReporter
+35039,org.apache.pig.piggybank.test.evaluation.string.TestLength
+35043,org.apache.pig.piggybank.evaluation.string.LENGTH
+35237,org.apache.pig.impl.streaming.FileInputHandler
+35252,org.apache.hadoop.zebra.pig.TestCheckin5
+35253,org.apache.hadoop.zebra.pig.TestTableStorer
+35266,org.apache.pig.test.TestUDF
+35426,org.apache.pig.test.utils.dotGraph.ExactKeyMatcher
+35489,org.apache.pig.test.udf.evalfunc.TOMAP
+35519,org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.PlanPrinter
+35612,org.apache.pig.builtin.CEIL
+35625,org.apache.pig.TestPrimitiveEvalFunc
+35645,org.apache.pig.scripting.js.JsScriptEngine
+35718,org.apache.pig.scripting.js.JsFunction
+35721,org.apache.pig.newplan.logical.optimizer.TestSchemaResetter
+35728,org.apache.pig.test.TestForEachStar
+35809,org.apache.pig.piggybank.evaluation.datetime.truncate.ISOToWeek
+35820,org.apache.pig.piggybank.test.storage.TestRegExLoader
+35851,org.apache.hadoop.zebra.mapreduce.TableMRSample
+35872,org.apache.pig.newplan.logical.rules.LimitOptimizer
+35920,org.apache.pig.test.TestGreaterThan
+36179,org.apache.hadoop.zebra.io.TestColumnGroupName5
+36216,org.apache.pig.test.utils.UDFContextTestLoaderWithSignature
+36228,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.EndOfAllInputSetter
+36280,org.apache.hadoop.zebra.io.TestMapSplitSchemaStorageColumnOutOfOrder
+36365,org.apache.hadoop.zebra.mapred.TableExpr
+36366,org.apache.hadoop.zebra.mapred.SortedTableSplit
+36381,org.apache.pig.test.TestLoadFunc
+36402,org.apache.hadoop.zebra.tfile.KeySampler
+36430,org.apache.hadoop.zebra.mapreduce.TestCheckin
+36451,org.apache.hadoop.zebra.mapreduce.TestTempDirRemoval
+36733,org.apache.pig.pen.LocalMapReduceSimulator
+36734,org.apache.pig.pen.IllustratorAttacher
+36746,org.apache.pig.test.TestDataBag
+37090,org.apache.pig.data.SortedDataBag
+37205,org.apache.pig.builtin.LOG
+37209,org.apache.pig.piggybank.test.evaluation.string.TestReverse
+37213,org.apache.pig.piggybank.evaluation.string.Reverse
+37215,org.apache.hadoop.zebra.pig.TestCogroup
+37317,org.apache.pig.test.udf.evalfunc.UDFContextTestUDF
+37349,org.apache.pig.piggybank.evaluation.math.DoubleSignum
+37351,org.apache.pig.test.TestNewPlanFilterAboveForeach
+37516,org.apache.pig.test.TestNewPlanPushDownForeachFlatten
+37616,org.apache.pig.test.TestFRJoinNullValue
+37648,org.apache.pig.piggybank.storage.SequenceFileLoader
+37683,org.apache.pig.backend.BackendException
+37696,org.apache.pig.test.TestPORegexp
+37705,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.regex.CompiledAutomaton
+37706,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.regex.CompiledRegex
+37707,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.regex.RegexInit
+37727,org.apache.pig.piggybank.evaluation.math.Base
+37731,org.apache.hadoop.zebra.mapred.TestMultipleOutputs3TypedApi
+37829,org.apache.pig.test.TestMultiQueryBasic
+38243,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs2
+38348,org.apache.pig.piggybank.test.evaluation.TestIsNumeric
+38353,org.apache.pig.piggybank.evaluation.IsNumeric
+38416,org.apache.pig.test.TestForEachNestedPlan
+38574,org.apache.pig.newplan.logical.rules.DuplicateForEachColumnRewrite
+38575,org.apache.pig.newplan.logical.rules.ImplicitSplitInserter
+38576,org.apache.pig.newplan.logical.rules.MergeForEach
+38577,org.apache.pig.newplan.logical.rules.PartitionFilterOptimizer
+38578,org.apache.pig.newplan.logical.rules.SplitFilter
+38579,org.apache.pig.newplan.logical.rules.StreamTypeCastInserter
+38618,org.apache.hadoop.zebra.io.TestColumnGroupName6
+38643,org.apache.pig.piggybank.storage.IndexedStorage
+38914,org.apache.pig.test.TestSplitIndex
+38939,org.apache.pig.data.utils.StructuresHelper
+39008,org.apache.pig.piggybank.evaluation.datetime.diff.ISOHoursBetween
+39037,org.apache.pig.test.TestInvokerSpeed
+39051,org.apache.pig.builtin.InvokeForDouble
+39054,org.apache.pig.piggybank.evaluation.IsFloat
+39063,org.apache.pig.test.TestForEachNestedPlanLocal
+39119,org.apache.hadoop.zebra.pig.TestMergeJoin
+39222,org.apache.pig.test.TestBuiltinInvoker
+39259,org.apache.pig.test.TestCombiner
+39369,org.apache.hadoop.zebra.pig.TestTableMergeJoin
+39412,org.apache.pig.piggybank.test.storage.TestDBStorage
+39487,org.apache.hadoop.zebra.pig.TestGlobTableLoader
+39683,org.apache.pig.piggybank.test.storage.TestCSVStorage
+39710,org.apache.pig.piggybank.test.evaluation.datetime.diff.TestDiffDateTime
+39732,org.apache.pig.piggybank.evaluation.datetime.diff.ISOMinutesBetween
+39733,org.apache.pig.piggybank.evaluation.datetime.diff.ISOSecondsBetween
+39734,org.apache.pig.piggybank.evaluation.datetime.diff.ISOYearsBetween
+39938,org.apache.pig.piggybank.storage.CSVLoader
+39993,org.apache.pig.test.TestNewPartitionFilterPushDown
+40154,org.apache.pig.test.TestProject
+40233,org.apache.pig.test.InputSchemaUDF
+40241,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.DistinctCombiner
+40354,org.apache.pig.impl.builtin.GFReplicate
+40608,org.apache.pig.impl.streaming.StreamingDelimiters
+40676,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs3
+40758,org.apache.pig.test.TestRegexp
+40769,org.apache.hadoop.zebra.mapred.TableMRSample1
+40791,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.AccumulatorOptimizer
+40822,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigLongRawComparator
+41031,org.apache.pig.parser.DryRunGruntParser
+41043,org.apache.pig.test.TestSplit
+41066,org.apache.pig.TestLoadFuncWrapper
+41122,org.apache.pig.test.utils.MyUDFWithoutParameter
+41127,org.apache.pig.piggybank.evaluation.datetime.truncate.ISOToSecond
+41137,org.apache.pig.test.pigunit.pig.TestGruntParser
+41150,org.apache.pig.test.TestDefaultDateTimeZone
+41173,org.apache.pig.test.TestCase
+41175,org.apache.pig.test.TestNewPlanListener
+41241,org.apache.pig.test.TestMapReduce2
+41288,org.apache.pig.builtin.PluckTuple
+41319,org.apache.pig.test.utils.TypeCheckingTestUtil
+41352,org.apache.pig.test.udf.evalfunc.VARBAG
+41450,org.apache.pig.test.utils.LocalSeekableInputStream
+41479,org.apache.pig.builtin.BagToTuple
+41524,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.TestJobControlSleep
+41532,org.apache.hadoop.zebra.pig.TestBasicTableUnionLoader
+41571,org.apache.pig.piggybank.evaluation.math.FloatMin
+41740,org.apache.pig.impl.streaming.TestStreamingUtil
+41770,org.apache.pig.piggybank.evaluation.math.DoubleGetExponent
+41771,org.apache.pig.piggybank.evaluation.math.FloatGetExponent
+41773,org.apache.pig.test.udf.evalfunc.CreateMap
+41783,org.apache.pig.piggybank.evaluation.math.RANDOM
+41894,org.apache.pig.impl.plan.ProjectionMap
+41898,org.apache.pig.builtin.TANH
+41974,org.apache.pig.data.utils.BytesHelper
+41985,org.apache.pig.piggybank.test.evaluation.util.apachelogparser.TestSearchEngineExtractor
+41995,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.CountingMap
+42112,org.apache.pig.impl.util.JavaCompilerHelper
+42173,org.apache.pig.piggybank.evaluation.string.LASTINDEXOF
+42175,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs4
+42258,org.apache.hadoop.zebra.pig.TestSortedTableUnionMergeJoin
+42294,org.apache.hadoop.zebra.mapred.TableMRSample2
+42315,org.apache.hadoop.zebra.pig.TestOrderPreserveProjectionNegative
+42487,org.apache.pig.test.TestFuncSpec
+42511,org.apache.pig.test.TestCubeDimensions
+42522,org.apache.pig.impl.builtin.SampleLoader
+42581,org.apache.pig.test.TestPODistinct
+42620,org.apache.pig.test.PORead
+42623,org.apache.pig.test.TestScriptingLanguagePython
+42663,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.DotMRPrinter
+42733,org.apache.pig.impl.plan.DotPlanDumper
+42734,org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.DotPOPrinter
+42754,org.apache.pig.piggybank.storage.HiveColumnarLoader
+42883,org.apache.pig.piggybank.storage.hiverc.HiveRCInputFormat
+42884,org.apache.pig.piggybank.storage.hiverc.HiveRCRecordReader
+42885,org.apache.pig.piggybank.storage.partition.PathPartitionHelper
+43044,org.apache.pig.test.TestEmptyInputDir
+43093,org.apache.pig.test.TestHBaseStorageParams
+43120,org.apache.pig.test.TestMultiQueryCompiler
+43374,org.apache.pig.test.udf.evalfunc.TestBoolean
+43391,org.apache.pig.test.TestParamSubPreproc
+43997,org.apache.pig.scripting.streaming.python.PythonScriptEngine
+44038,org.apache.pig.builtin.InvokeForInt
+44050,org.apache.pig.newplan.logical.optimizer.FieldSchemaResetter
+44187,org.apache.pig.piggybank.test.storage.TestAllLoader
+44324,org.apache.pig.piggybank.storage.AllLoader
+44325,org.apache.pig.piggybank.storage.allloader.LoadFuncHelper
+44393,org.apache.pig.newplan.PlanDumper
+44457,org.apache.pig.tools.streams.StreamGenerator
+44506,org.apache.pig.piggybank.storage.CSVExcelStorage
+44703,org.apache.pig.piggybank.test.evaluation.string.TestHashFNV
+44741,org.apache.hadoop.zebra.mapreduce.Dictionary
+44747,org.apache.pig.test.TestTuple
+44867,org.apache.pig.builtin.COS
+44871,org.apache.pig.newplan.logical.visitor.LineageFindRelVisitor
+45037,org.apache.pig.newplan.logical.visitor.UDFFinder
+45043,org.apache.pig.builtin.mock.TestMockStorage
+45069,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.UDFFinder
+45227,org.apache.pig.impl.plan.PlanDumper
+45239,org.apache.pig.test.TestGTOrEqual
+45363,org.apache.hadoop.zebra.mapred.TestMultipleOutputs2
+45462,org.apache.pig.test.TestOrderBy
+45659,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputCommitter
+45744,org.apache.pig.piggybank.test.storage.TestCommonLogLoader
+45762,org.apache.pig.piggybank.storage.apachelog.CommonLogLoader
+45963,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs3TypedApi
+46131,org.apache.pig.piggybank.storage.avro.PigAvroDatumReader
+46219,org.apache.pig.tools.pigstats.EmbeddedPigStats
+46260,org.apache.pig.piggybank.evaluation.IsLong
+46269,org.apache.pig.piggybank.evaluation.datetime.truncate.ISOToHour
+46426,org.apache.pig.data.AmendableTuple
+46448,org.apache.hadoop.zebra.mapred.TestTypedApi2
+46554,org.apache.pig.piggybank.evaluation.math.NEXTUP
+46565,org.apache.pig.test.OrdAsc
+46621,org.apache.hadoop.zebra.tfile.KVGenerator
+46658,org.apache.hadoop.zebra.io.TestProjectionOnFullMap
+46735,org.apache.pig.test.udf.evalfunc.NonAlgNonAccCount
+46741,org.apache.pig.test.TestLogicalPlanBuilder
+47279,org.apache.pig.test.TestPOPartialAgg
+47474,org.apache.pig.test.TestPOUserFunc
+47601,org.apache.pig.test.TestAccumulator
+47962,org.apache.hadoop.zebra.types.CsvZebraTupleOutput
+48045,org.apache.pig.test.TestEvalFuncOutputAnnotation
+48075,org.apache.pig.test.TestGFCross
+48090,org.apache.pig.impl.builtin.GFCross
+48094,org.apache.pig.test.MyLogicalExpressionVisitor
+48152,org.apache.pig.test.OptimizeLimitPlanPrinter
+48211,org.apache.hadoop.zebra.mapred.TestMultipleOutputs3
+48299,org.apache.pig.newplan.logical.relational.TestLocationInPhysicalPlan
+48348,org.apache.pig.builtin.FloatAvg
+48507,org.apache.pig.test.udf.streaming.DumpStreamer
+48518,org.apache.pig.piggybank.storage.PigStorageSchema
+48679,org.apache.pig.piggybank.test.storage.TestFixedWidthStorer
+48695,org.apache.pig.test.TestLessThan
+48819,org.apache.pig.test.TestBZip
+48978,org.apache.tools.bzip2r.CBZip2OutputStream
+48997,org.apache.pig.builtin.Invoker
+49024,org.apache.pig.test.TestToolsPigServer
+49046,org.apache.pig.tools.ToolsPigServer
+49098,org.apache.pig.test.udf.evalfunc.TOBAG2
+49264,org.apache.hadoop.zebra.pig.TestTableLoaderPrune
+49478,org.apache.pig.test.TestLocalRearrange
+49524,org.apache.pig.test.utils.ReportingUDF
+49530,org.apache.pig.piggybank.test.storage.TestCombinedLogLoader
+49551,org.apache.pig.test.utils.HelperEvalFuncUtils
+49618,org.apache.pig.piggybank.evaluation.Stitch
+49644,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.SampleOptimizer
+49696,org.apache.pig.test.TestSubtract
+49745,org.apache.pig.impl.io.TFileRecordReader
+50222,org.apache.pig.data.SchemaTupleFrontend
+50223,org.apache.pig.impl.util.CompilerUtils
+50224,org.apache.pig.impl.util.LinkedMultiMap
+50225,org.apache.pig.newplan.SubtreeDependencyOrderWalker
+50226,org.apache.pig.newplan.logical.relational.MapSideMergeValidator
+50420,org.apache.hadoop.zebra.mapred.TableExprUtils
+50433,org.apache.pig.test.PigStorageNoDefCtor
+50437,org.apache.pig.test.TestLOLoadDeterminedSchema
+50450,org.apache.pig.test.TestPartitionFilterPushDown
+50702,org.apache.pig.backend.hadoop.datastorage.HFile
+50706,org.apache.pig.test.udf.orderby.OrdDesc
+50722,org.apache.pig.builtin.InvokeForLong
+50779,org.apache.pig.parser.TestErrorHandling
+50857,org.apache.pig.piggybank.evaluation.Over
+51050,org.apache.pig.builtin.AVG
+51051,org.apache.pig.builtin.DoubleAvg
+51052,org.apache.pig.builtin.IntAvg
+51053,org.apache.pig.builtin.LongAvg
+51096,org.apache.pig.piggybank.test.evaluation.util.apachelogparser.TestHostExtractor
+51106,org.apache.pig.piggybank.evaluation.util.apachelogparser.HostExtractor
+51165,org.apache.hadoop.zebra.mapred.TestMultipleOutputs4
+51250,org.apache.pig.impl.util.avro.AvroRecordReader
+51305,org.apache.pig.piggybank.storage.FixedWidthLoader
+51612,org.apache.pig.impl.io.BinStorageInputFormat
+51613,org.apache.pig.impl.io.BinStorageRecordReader
+51621,org.apache.pig.scripting.groovy.GroovyAlgebraicEvalFunc
+51892,org.apache.hadoop.zebra.io.TestColumnNameGroup
+51948,org.apache.pig.test.TestNull
+51995,org.apache.pig.piggybank.evaluation.string.LOWER
+52113,org.apache.pig.scripting.SyncProgressNotificationAdaptor
+52116,org.apache.pig.test.TestLimitVariable
+52347,org.apache.pig.TestLoadFuncMetadataWrapper
+52471,org.apache.pig.test.TestPOMapLookUp
+52497,org.apache.pig.test.udf.streaming.DumpStreamerBad
+52631,org.apache.pig.piggybank.test.evaluation.string.TestUcFirst
+52714,org.apache.pig.scripting.groovy.GroovyAccumulatorEvalFunc
+52720,org.apache.pig.test.TestExampleGenerator
+52814,org.apache.pig.builtin.EXP
+52859,org.apache.pig.builtin.TestInvokerGenerator
+52900,org.apache.pig.FileSplitComparable
+52996,org.apache.hadoop.zebra.pig.TestCollection
+53035,org.apache.hadoop.zebra.tfile.TestTFileNoneCodecsStreams
+53038,org.apache.pig.test.TestConstExpr
+53096,org.apache.pig.test.udf.storefunc.StringStore
+53129,org.apache.pig.piggybank.evaluation.string.LcFirst
+53367,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.WeightedRangePartitioner
+53412,org.apache.pig.impl.builtin.FindQuantiles
+53413,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.DiscreteProbabilitySampleGenerator
+53519,org.apache.pig.builtin.BuildBloom
+53584,org.apache.hadoop.zebra.pig.TestMultipleOutputs1
+53642,org.apache.hadoop.zebra.mapreduce.TestBasicTableUnion
+53902,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer
+54227,org.apache.pig.impl.plan.ReverseDependencyOrderWalker
+54250,org.apache.pig.test.utils.MultiLevelDerivedUDF1
+54255,org.apache.pig.test.utils.MyAbstractEvalFunc1
+54290,org.apache.hadoop.zebra.io.IOutils
+54303,org.apache.pig.test.TestStreamingLocal
+54615,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigBytesRawComparator
+54646,org.apache.pig.impl.streaming.FileOutputHandler
+54659,org.apache.pig.test.TestPOGenerate
+54784,org.apache.hadoop.zebra.pig.TestTableMergeJoinMultipleColsSort
+54818,org.apache.hadoop.zebra.mapreduce.TestTypeCheck
+54865,org.apache.pig.builtin.LOG10
+54869,org.apache.pig.test.TestBestFitCast
+55012,org.apache.pig.test.TestPigContext
+55101,org.apache.pig.test.TestMergeForEachOptimization
+55213,org.apache.pig.TestMain
+55246,org.apache.hadoop.zebra.mapred.TestTypedApi
+55457,org.apache.pig.piggybank.test.evaluation.TestIsLong
+55623,org.apache.hadoop.zebra.pig.TestUnionMixedTypes
+55782,org.apache.hadoop.zebra.io.TestDuplicateMapKeyInDifferentCGs
+55795,org.apache.hadoop.zebra.tfile.TestTFileLzoCodecsByteArrays
+55799,org.apache.hadoop.zebra.pig.TestOrderPreserveProjection
+56005,org.apache.pig.test.TestJobSubmission
+56101,org.apache.pig.test.TestNullConstant
+56167,org.apache.pig.parser.TestScalarVisitor
+56186,org.apache.pig.test.TestLimitSchemaStore
+56193,org.apache.hadoop.zebra.pig.TestMultipleOutputs2
+56266,org.apache.pig.TestTypedOutputEvalFunc
+56290,org.apache.pig.piggybank.test.evaluation.TestIsDouble
+56295,org.apache.pig.test.TestUnion
+56435,org.apache.pig.test.TestPigStreaming
+56498,org.apache.pig.test.utils.MultiLevelDerivedUDF2
+56503,org.apache.pig.test.utils.MyAbstractEvalFunc2
+56505,org.apache.pig.piggybank.storage.partition.PathPartitioner
+56575,org.apache.pig.piggybank.test.storage.TestIndexedStorage
+56612,org.apache.pig.tutorial.ToLower
+56622,org.apache.hadoop.zebra.tfile.BoundedByteArrayOutputStream
+56855,org.apache.pig.test.NonDefaultBagFactory
+56926,org.apache.pig.test.TestStreaming
+57076,org.apache.pig.test.udf.evalfunc.TestWarningFunc
+57088,org.apache.hadoop.zebra.mapred.TestMultipleOutputs
+57195,org.apache.hadoop.zebra.pig.TestSortedTableUnion
+57557,org.apache.pig.backend.hadoop.hbase.HBaseTableInputFormat
+57620,org.apache.hadoop.zebra.tfile.MyComparator
+57631,org.apache.hadoop.zebra.tfile.TestTFileJClassComparatorByteArrays
+57637,org.apache.pig.test.MiniCluster
+57708,org.apache.hadoop.zebra.pig.TestTableMergeJoinAfterFilter
+57746,org.apache.pig.test.TestTextDataParser
+57829,org.apache.pig.piggybank.evaluation.string.REPLACE
+57831,org.apache.pig.piggybank.evaluation.math.DoubleRound
+57839,org.apache.pig.test.udf.evalfunc.IteratingAccumulatorCount
+57843,org.apache.pig.IteratingAccumulatorEvalFunc
+57856,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.NoopStoreRemover
+57896,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.CombinerOptimizer
+58112,org.apache.pig.test.utils.FILTERFROMFILE
+58212,org.apache.pig.test.udf.evalfunc.BadUdf2
+58238,org.apache.pig.piggybank.test.storage.TestCSVExcelStorage
+58402,org.apache.hadoop.zebra.io.MetaFile
+58446,org.apache.pig.test.utils.SimpleCustomPartitioner2
+58455,org.apache.pig.piggybank.storage.hiverc.HiveRCOutputFormat
+58494,org.apache.pig.builtin.ParquetLoader
+58510,org.apache.pig.test.TestEvalPipeline2
+58810,org.apache.pig.test.utils.UDFContextTestEvalFunc2
+59483,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigBigDecimalRawComparator
+59653,org.apache.hadoop.zebra.pig.TestOrderPreserveVariableTable
+59811,org.apache.pig.test.utils.MultiLevelDerivedUDF3
+59847,org.apache.pig.test.TestPigSplit
+59882,org.apache.hadoop.zebra.pig.TestTableSortStorerDesc
+60015,org.apache.pig.builtin.ASIN
+60020,org.apache.pig.impl.util.LineageTracer
+60160,org.apache.pig.parser.TestUnionOnSchemaSetter
+60226,org.apache.hadoop.zebra.tfile.TestTFile
+60403,org.apache.pig.test.TestScriptLanguageJavaScript
+60453,org.apache.pig.test.TestBoolean
+60517,org.apache.pig.test.TestCollectedGroup
+60573,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompilerException
+60884,org.apache.pig.test.udf.evalfunc.Swap
+60895,org.apache.pig.test.udf.evalfunc.Nil
+60899,org.apache.pig.piggybank.evaluation.string.UPPER
+60937,org.apache.pig.test.udf.evalfunc.BadUdf3
+60945,org.apache.pig.test.TestUnionOnSchema
+61255,org.apache.pig.test.utils.UDFContextTestEvalFunc3
+61320,org.apache.pig.test.TestFRJoin2
+61396,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler
+61420,org.apache.pig.parser.TestQueryParser
+61571,org.apache.pig.impl.streaming.TestPigStreamingUDF
+61728,org.apache.pig.piggybank.test.evaluation.datetime.truncate.TestTruncateDateTime
+61808,org.apache.pig.piggybank.evaluation.datetime.truncate.ISOToMinute
+61811,org.apache.hadoop.zebra.mapreduce.TestTypedApi
+61992,org.apache.pig.test.TestNewPlanFilterRule
+62170,org.apache.pig.piggybank.storage.HiveColumnarStorage
+62217,org.apache.pig.test.TestAlgebraicEval
+62354,org.apache.pig.piggybank.test.storage.TestSequenceFileLoader
+62379,org.apache.pig.impl.util.avro.AvroRecordWriter
+62493,org.apache.pig.test.udf.evalfunc.BadUdf
+62501,org.apache.pig.test.TestTmpFileCompression
+62585,org.apache.pig.impl.io.TFileStorage
+62587,org.apache.hadoop.zebra.mapred.ToolTestComparator
+62782,org.apache.pig.piggybank.evaluation.string.SUBSTRING
+62784,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.TestPigBytesRawComparator
+62823,org.apache.hadoop.zebra.pig.TestMixedType1
+63388,org.apache.pig.test.udf.evalfunc.BadUdf4
+63547,org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans.XMLPhysicalPlanPrinter
+64698,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.ScalarPhyFinder
+64699,org.apache.pig.impl.builtin.PartitionSkewedKeys
+64700,org.apache.pig.impl.builtin.RandomSampleLoader
+64701,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRUtil
+64740,org.apache.pig.piggybank.evaluation.math.DoubleMin
+64749,org.apache.pig.test.TestBuiltInBagToTupleOrString
+64909,org.apache.pig.tutorial.ExtractHour
+64981,org.apache.pig.test.TestMacroExpansion
+65879,org.apache.pig.test.TestMonitoredUDF
+65941,org.apache.pig.test.TestSplitStore
+65962,org.apache.pig.backend.hadoop23.PigJobControl
+66029,org.apache.pig.builtin.EqualsIgnoreCase
+66101,org.apache.pig.test.TestDeleteOnFail
+66122,org.apache.hadoop.zebra.mapreduce.NullScanner
+66141,org.apache.hadoop.zebra.mapred.TestSmokeMR
+66299,org.apache.pig.test.udf.evalfunc.CreateTupleBag
+66319,org.apache.pig.test.TestPOCast
+67078,org.apache.pig.test.TestFinish
+67202,org.apache.pig.piggybank.evaluation.math.DoubleCopySign
+67261,org.apache.pig.test.TestMod
+67306,org.apache.pig.test.TestSchema
+67538,org.apache.pig.test.TestPigStats
+68400,org.apache.pig.test.TestLogToPhyCompiler
+68520,org.apache.pig.test.junit.OrderedJUnit4Runner
+68525,org.apache.pig.test.TestShortcuts
+68627,org.apache.pig.test.TestMapProjectionDuplicate
+68657,org.apache.pig.test.pigmix.udf.PigPerformanceLoader
+68727,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.XMLMRPrinter
+68778,org.apache.hadoop.zebra.mapred.TestTfileSplit
+68821,org.apache.pig.test.TestLocal
+68964,org.apache.hadoop.zebra.tfile.TestTFileUnsortedByteArrays
+69010,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.LimitAdjuster
+69114,org.apache.pig.piggybank.test.evaluation.util.TestSearchQuery
+69121,org.apache.pig.piggybank.evaluation.util.SearchQuery
+69124,org.apache.hadoop.zebra.pig.TestTableMergeJoinInteger
+69455,org.apache.hadoop.zebra.pig.TestMergeJoin2
+69557,org.apache.pig.piggybank.test.storage.TestHiveColumnarLoader
+69692,org.apache.hadoop.zebra.pig.TestBasicTableSourceTableIndex
+69743,org.apache.pig.test.TestIn
+70007,org.apache.pig.test.utils.UDFContextTestEvalFunc
+70024,org.apache.pig.test.TestOptimizeLimit
+70200,org.apache.pig.builtin.TestAvroStorage
+70516,org.apache.hadoop.zebra.pig.TestOrderPreserveMultiTable
+70578,org.apache.pig.test.TestPOSplit
+70768,org.apache.pig.test.TestRegisteredJarVisibility
+70814,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.SkewedPartitioner
+70835,org.apache.pig.test.ClassLoaderSanityCheck
+70837,org.apache.pig.impl.streaming.TestStreamingUDFOutputHandler
+70856,org.apache.pig.test.RegisteredJarVisibilityLoader
+70868,org.apache.pig.test.RegisteredJarVisibilitySchema
+71283,org.apache.pig.test.TestMultiQueryLocal
+71883,org.apache.pig.test.TestPinOptions
+71902,org.apache.hadoop.zebra.tfile.Timer
+72075,org.apache.pig.test.TestPOSort
+72248,org.apache.pig.test.utils.WordCount
+72282,org.apache.pig.piggybank.test.storage.TestHiveColumnarStorage
+72383,org.apache.hadoop.zebra.mapreduce.SortedTableUnionScanner
+72529,org.apache.pig.test.TestMultiply
+72944,org.apache.pig.test.udf.storefunc.DumpLoader
+72963,org.apache.pig.test.udf.storefunc.StringStoreBad
+73040,org.apache.pig.piggybank.evaluation.math.LongMin
+73042,org.apache.pig.test.udf.storefunc.DumpLoaderBad
+73044,org.apache.pig.parser.TestQueryLexer
+73058,org.apache.pig.test.TestScalarAliases
+73156,org.apache.pig.builtin.STARTSWITH
+73231,org.apache.pig.test.TestBloom
+73335,org.apache.pig.builtin.Bloom
+73431,org.apache.hadoop.zebra.io.TestColumnName
+73481,org.apache.hadoop.zebra.mapred.TestMultipleOutputs4TypedApi
+73573,org.apache.pig.test.TestFilterUDF
+73615,org.apache.pig.test.TestPhyPatternMatch
+73664,org.apache.pig.piggybank.test.storage.TestLoadFuncHelper
+73712,org.apache.pig.piggybank.storage.DBStorage
+73882,org.apache.pig.newplan.logical.visitor.UDFExpFinder
+73902,org.apache.pig.test.TestPigServer
+74122,org.apache.pig.builtin.TAN
+74126,org.apache.pig.test.TestStore
+74529,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.POPackageAnnotator
+74530,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.NoopFilterRemover
+74531,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.KeyTypeDiscoveryVisitor
+74669,org.apache.pig.test.TestGrunt
+75147,org.apache.pig.builtin.JsonLoader
+75229,org.apache.pig.test.PigTestLoader
+75380,org.apache.pig.test.udf.evalfunc.UPPER
+75779,org.apache.pig.builtin.FloatSum
+75879,org.apache.pig.newplan.logical.optimizer.ExpressionUidResetter
+75940,org.apache.pig.test.udf.evalfunc.BadMonitoredDefault
+75945,org.apache.pig.test.TestParser
+75969,org.apache.pig.test.udf.evalfunc.UdfContextFrontend
+76098,org.apache.pig.piggybank.evaluation.ExtremalTupleByNthField
+76163,org.apache.pig.data.TestSchemaTuple
+76417,org.apache.pig.test.TestOrderBy2
+76540,org.apache.pig.test.TestAlgebraicInstantiation
+76711,org.apache.hadoop.zebra.tfile.TestTFileComparators
+76762,org.apache.hadoop.zebra.tfile.TestTFileSeek
+76881,org.apache.hadoop.zebra.tfile.NanoTimer
+76890,org.apache.pig.test.TestLargeFile
+76975,org.apache.pig.test.TestMRCompiler
+77314,org.apache.pig.test.TestProjectRange
+77717,org.apache.pig.backend.hadoop.executionengine.shims.HadoopShims
+77771,org.apache.pig.builtin.InvokeForFloat
+77783,org.apache.pig.piggybank.test.storage.TestHadoopJobHistoryLoader
+78010,org.apache.hadoop.zebra.mapred.TableMapReduceExample
+78897,org.apache.pig.test.TestOrderBy3
+79154,org.apache.pig.test.TestFindQuantiles
+79184,org.apache.pig.test.udf.evalfunc.IteratingAccumulatorIsEmpty
+79511,org.apache.pig.test.TestInputOutputFileValidator
+79663,org.apache.hadoop.zebra.mapreduce.TableMRSample1
+79765,org.apache.pig.test.udf.evalfunc.DECODE
+79771,org.apache.pig.test.TestPOPartialAggPlan
+79798,org.apache.pig.test.TestPlanGeneration
+79948,org.apache.hadoop.zebra.mapred.TestCheckin
+80264,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigDateTimeRawComparator
+80456,org.apache.pig.test.TestSplitCombine
+80612,org.apache.pig.test.TestRollupDimensions
+80624,org.apache.pig.piggybank.test.evaluation.TestIsFloat
+80648,org.apache.pig.builtin.TOP
+80741,org.apache.pig.test.TestInputOutputMiniClusterFileValidator
+81080,org.apache.pig.test.OrdDesc
+81130,org.apache.pig.test.TestInvoker
+81637,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigBooleanRawComparator
+81638,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigIntRawComparator
+81639,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigTextRawComparator
+81643,org.apache.pig.tutorial.TutorialTest
+81690,org.apache.pig.tutorial.ScoreGenerator
+81732,org.apache.hadoop.zebra.tfile.TestTFileNoneCodecsByteArrays
+81786,org.apache.pig.builtin.CBRT
+81885,org.apache.hadoop.zebra.types.TestTypeCheck
+81974,org.apache.pig.piggybank.storage.XMLLoader
+82041,org.apache.pig.piggybank.storage.XMLLoaderBufferedPositionedInputStream
+82096,org.apache.pig.test.TestFilterSimplification
+82307,org.apache.pig.test.FakeFSInputStream
+82317,org.apache.pig.test.TestSkewedJoin
+82434,org.apache.hadoop.zebra.pig.TestMapSideGroupBy
+82494,org.apache.hadoop.zebra.mapreduce.TableMRSample2
+82605,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigSequenceFileInputFormat
+82694,org.apache.pig.test.udf.evalfunc.IteratingAccumulatorSum
+83062,org.apache.hadoop.zebra.mapred.TestMultipleOutputsTypeApi
+83211,org.apache.pig.test.TestPigException
+83238,org.apache.pig.test.TestImplicitSplit
+83501,org.apache.pig.builtin.SINH
+83505,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputsTypeApi
+83698,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs4TypedApi
+83788,org.apache.pig.builtin.ACOS
+83973,org.apache.pig.test.udf.evalfunc.AppendIndex
+84086,org.apache.pig.test.TestCommit
+84316,org.apache.pig.test.udf.evalfunc.TestEvalFunc
+84362,org.apache.pig.piggybank.evaluation.MaxTupleBy1stField
+84468,org.apache.pig.impl.util.WrappedIOException
+84476,org.apache.pig.piggybank.test.evaluation.TestEvalString
+84619,org.apache.pig.test.TestPigStorage
+84979,org.apache.pig.test.TestJoinSmoke
+85100,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigMapBase
+85151,org.apache.pig.piggybank.test.evaluation.TestExtremalTupleByNthField
+85211,org.apache.pig.tools.grunt.TestGruntParser
+85300,org.apache.pig.test.TestPoissonSampleLoader
+85345,org.apache.pig.test.TestNewPlanLogicalOptimizer
+85432,org.apache.pig.test.TestProjectStarRangeInUdf
+85612,org.apache.pig.test.TestResourceSchema
+85691,org.apache.pig.piggybank.storage.MyRegExLoader
+85820,org.apache.hadoop.zebra.pig.TestSimpleType
+85942,org.apache.pig.backend.hadoop.hbase.TestHBaseStorageFiltering
+86041,org.apache.hadoop.zebra.io.TestTypeCheck
+86147,org.apache.hadoop.zebra.mapred.TestMultipleOutputsTypedApiNeg
+86507,org.apache.pig.builtin.TestPluckTuple
+86530,org.apache.pig.test.TestUDFContext
+87180,org.apache.pig.piggybank.evaluation.TestStitch
+87294,org.apache.pig.data.TargetedTuple
+87358,org.apache.pig.test.TestGroupConstParallel
+87401,org.apache.pig.test.utils.UPPER
+87407,org.apache.pig.test.utils.AccumulatorBagCount
+87419,org.apache.hadoop.zebra.mapred.TableMRSortedTableZebraKeyGenerator
+87473,org.apache.pig.piggybank.test.storage.TestMultiStorage
+87522,org.apache.pig.piggybank.test.storage.TestPathPartitionHelper
+87636,org.apache.pig.test.TestBinaryExpressionOps
+87987,org.apache.hadoop.zebra.mapreduce.ToolTestComparator
+88168,org.apache.pig.test.TestCharArrayToNumeric
+88701,org.apache.pig.piggybank.test.storage.TestXMLLoader
+88793,org.apache.pig.parser.TestLogicalPlanGenerator
+88925,org.apache.pig.piggybank.storage.FixedWidthStorer
+89000,org.apache.pig.piggybank.test.storage.TestPathPartitioner
+89126,org.apache.pig.newplan.logical.optimizer.TestImplicitSplitOnTuple
+89234,org.apache.pig.piggybank.evaluation.string.Trim
+89236,org.apache.hadoop.zebra.io.TestSimple
+89267,org.apache.pig.piggybank.evaluation.TestOver
+89751,org.apache.pig.test.TestFilterOpNumeric
+89831,org.apache.pig.test.TestSampleOptimizer
+89879,org.apache.pig.builtin.AvroStorage
+90079,org.apache.pig.test.TestTypeCheckingValidatorNewLP
+91085,org.apache.pig.builtin.TrevniStorage
+91432,org.apache.pig.test.pigmix.mapreduce.L10
+91524,org.apache.pig.test.TestFilter
+91791,org.apache.pig.test.TestStringUDFs
+91871,org.apache.pig.piggybank.test.evaluation.string.TestLookupInFiles
+91886,org.apache.pig.builtin.TestCurrentTime
+91992,org.apache.pig.test.TestJsonLoaderStorage
+92047,org.apache.pig.test.TestKeyTypeDiscoveryVisitor
+92105,org.apache.hadoop.zebra.mapred.TestMultipleOutputs2TypedApi
+*Edges: 7804
+3575 4653 1
+3575 328 4
+2396 2401 1
+2396 6768 1
+2396 54290 6
+2396 8936 1
+2396 9627 2
+10199 2891 4
+8936 2401 1
+8936 54290 12
+10201 10200 11
+21600 2401 1
+21600 2402 3
+21600 10201 5
+21600 10199 4
+21600 2396 1
+21600 53 1
+21600 10200 3
+31528 2401 3
+31528 331 2
+31528 2402 9
+31528 2396 2
+24795 2402 6
+24795 2396 1
+24795 53 1
+31529 2401 3
+31529 331 4
+31529 2402 12
+31529 2396 1
+31530 2401 10
+31530 331 5
+31530 2402 35
+31530 2396 4
+31532 2401 4
+31532 2402 5
+31532 10201 5
+31532 10199 5
+31532 53 2
+31532 8936 2
+31532 10200 3
+31531 2401 1
+31531 2402 10
+31531 8936 2
+26497 331 2
+26497 2402 4
+26497 2396 2
+28705 331 2
+28705 2402 2
+28705 2396 2
+32033 331 2
+32033 2402 2
+32033 2396 3
+34052 331 2
+34052 2402 2
+34052 2396 3
+36179 331 2
+36179 2402 2
+36179 2396 3
+38618 331 2
+38618 2402 2
+38618 2396 3
+31533 8936 2
+31534 2401 2
+31534 2402 14
+31534 8936 1
+31535 2402 11
+31535 8936 1
+31535 10200 1
+31536 2401 15
+8860 2401 5
+8860 331 15
+8860 2402 21
+8860 8936 1
+15480 2401 4
+15480 2402 5
+15480 10201 5
+15480 10199 5
+15480 53 2
+15480 8936 2
+15480 10200 3
+73431 2401 3
+73431 331 2
+73431 2402 7
+73431 2396 2
+51892 331 2
+51892 2402 3
+51892 2396 1
+25917 21600 14
+25917 2402 2
+25917 2396 36
+55782 2396 1
+31537 2402 7
+31537 2396 2
+31538 2401 3
+31538 2402 12
+31538 2396 2
+31538 326 1
+36280 2401 1
+36280 331 8
+36280 2402 12
+36280 2396 2
+2342 2401 5
+2342 331 8
+2342 2402 16
+2342 2396 1
+31539 2402 4
+31539 2396 20
+32051 2402 7
+32051 2396 2
+46658 2402 3
+46658 2396 2
+31541 2401 3
+31541 331 2
+31541 2402 17
+31541 2396 2
+11400 2401 3
+11400 2402 15
+11400 2396 2
+31540 2401 3
+31540 2402 15
+31540 2396 2
+31542 2401 3
+31542 2402 15
+31542 2396 2
+31543 2401 3
+31543 331 4
+31543 2402 24
+31543 2396 5
+89236 331 2
+89236 2402 4
+89236 2396 2
+26343 2401 3
+26343 331 4
+26343 2402 12
+26343 2396 1
+86041 2401 9
+86041 331 6
+86041 2402 18
+86041 3575 9
+31544 2401 5
+31544 331 8
+31544 2402 16
+31544 2396 1
+2275 2327 5
+22885 50420 2
+22885 2396 1
+22885 36365 2
+9625 2401 5
+9625 26293 4
+9625 1773 2
+9625 12065 3
+9625 26272 1
+9625 26291 3
+9625 6770 2
+9625 26292 3
+9625 6769 1
+9625 9627 6
+13051 2401 1
+13051 2402 2
+13051 2400 2
+22884 2401 4
+22884 50420 2
+22884 36365 12
+22031 2401 1
+22031 2400 1
+22886 10200 2
+36366 10200 3
+22804 13051 14
+22804 2401 1
+36365 2401 1
+36365 50420 2
+36365 22886 1
+32236 36366 3
+32236 2401 5
+32236 22886 1
+32236 22885 4
+32236 36365 20
+32236 32237 2
+32236 10200 2
+32236 31350 4
+32236 10199 1
+32236 10201 4
+32236 26292 3
+32236 22841 1
+32236 9627 9
+24606 9625 3
+40769 9625 3
+9584 9625 4
+87419 9625 4
+78010 9625 3
+78010 32236 2
+32237 36366 2
+32237 2402 1
+32237 2400 1
+32237 36365 3
+26272 26294 2
+26272 9625 2
+22841 22031 1
+22841 22804 1
+22841 22886 1
+22841 22885 4
+22841 2400 3
+22841 36365 1
+22841 22884 6
+19167 9628 2
+25904 9628 2
+9628 2401 1
+9628 9625 9
+9628 2402 2
+9628 53 2
+9628 2400 2
+9628 32236 5
+9628 2275 5
+57088 9625 4
+57088 328 7
+57088 3575 21
+45363 9625 4
+45363 328 4
+45363 3575 17
+92105 9625 2
+92105 26293 1
+92105 26291 1
+92105 26292 1
+92105 328 4
+92105 3575 17
+48211 9625 4
+48211 328 4
+48211 3575 7
+37731 9625 2
+37731 26293 1
+37731 26291 1
+37731 26292 1
+37731 328 4
+37731 3575 7
+51165 9625 4
+51165 328 4
+51165 3575 6
+73481 9625 2
+73481 26293 1
+73481 26291 1
+73481 26292 1
+73481 328 4
+73481 3575 6
+83062 9625 2
+83062 26293 1
+83062 26291 1
+83062 26292 1
+83062 328 7
+83062 3575 21
+86147 9625 2
+86147 26293 1
+86147 26291 1
+86147 26292 1
+86147 328 4
+86147 3575 19
+66141 9625 5
+66141 3575 4
+68778 21600 4
+68778 2396 9
+68778 22886 2
+68778 32236 10
+55246 9625 2
+55246 26293 1
+55246 26291 1
+55246 2396 3
+55246 26292 1
+55246 328 5
+55246 3575 43
+46448 9625 2
+46448 26293 1
+46448 26291 1
+46448 26292 1
+46448 328 4
+46448 3575 7
+32217 21600 3
+32217 2402 1
+32217 2396 4
+32217 32237 2
+32217 32236 4
+62587 36366 2
+62587 2401 2
+62587 331 2
+62587 2402 11
+62587 2396 1
+62587 328 18
+62587 32236 5
+62587 3575 5
+26291 2401 1
+11815 44741 5
+10215 10204 2
+10215 2396 1
+10215 27976 2
+5057 2401 5
+5057 30263 34
+5057 30215 1
+5057 5060 3
+5057 1773 2
+5057 12065 3
+5057 30230 1
+5057 5059 3
+5057 5061 4
+5057 6770 2
+5057 6769 1
+5057 9627 6
+29152 2401 1
+29152 2402 2
+29152 2400 2
+27888 2401 4
+27888 10204 12
+27888 27976 2
+66122 2401 1
+66122 2400 1
+9819 10200 2
+9850 10200 3
+10216 8211 2
+72383 2401 1
+72383 29152 14
+10204 9819 1
+10204 2401 1
+10204 27976 2
+9877 2401 5
+9877 5060 4
+9877 10215 4
+9877 2400 1
+9877 10200 2
+9877 10213 2
+9877 9850 3
+9877 9819 1
+9877 10214 1
+9877 10204 22
+9877 10212 7
+9877 10216 1
+9877 10201 4
+9877 10199 1
+9877 9627 9
+35851 5057 3
+79663 5057 3
+33153 5057 4
+8139 5057 4
+16182 9877 1
+16182 5057 3
+10213 10204 3
+10213 2402 1
+10213 2400 1
+10213 9850 2
+30230 2401 1
+30230 30263 2
+30230 5058 2
+30230 2402 1
+30230 1773 2
+30230 12065 4
+30230 5057 2
+30230 6769 1
+30230 9627 2
+10214 9819 1
+10214 66122 1
+10214 10204 1
+10214 27888 6
+10214 10215 4
+10214 72383 1
+10214 2400 3
+19430 11508 2
+21563 11508 2
+11508 11815 5
+11508 9877 4
+11508 5057 9
+11508 2401 1
+11508 2402 2
+11508 53 2
+11508 2400 2
+53642 9877 2
+53642 5057 8
+53642 2402 4
+53642 53 2
+53642 3575 11
+17686 5057 4
+17686 328 7
+17686 3575 21
+38243 5057 4
+38243 328 4
+38243 3575 15
+13460 5059 1
+13460 5057 2
+13460 5061 1
+13460 5060 1
+13460 328 4
+13460 3575 15
+40676 5057 4
+40676 328 4
+40676 3575 7
+45963 5059 1
+45963 5057 2
+45963 5061 1
+45963 5060 1
+45963 328 4
+45963 3575 7
+42175 5057 4
+42175 328 4
+42175 3575 5
+83698 5059 1
+83698 5057 2
+83698 5061 1
+83698 5060 1
+83698 328 4
+83698 3575 5
+83505 5059 1
+83505 5057 2
+83505 5061 1
+83505 5060 1
+83505 328 7
+83505 3575 21
+4922 5059 1
+4922 5057 2
+4922 5061 1
+4922 5060 1
+4922 328 4
+4922 3575 18
+36451 5059 1
+36451 5057 2
+36451 5061 1
+36451 5060 1
+36451 328 4
+36451 3575 7
+21566 9877 13
+21566 9819 2
+21566 21600 5
+21566 2396 10
+21566 9850 1
+54818 9877 2
+54818 5057 8
+54818 2402 4
+54818 53 2
+54818 3575 13
+61811 5059 1
+61811 5057 2
+61811 5061 1
+61811 5060 1
+61811 2396 3
+61811 328 5
+61811 3575 39
+23234 5059 1
+23234 5057 2
+23234 5061 1
+23234 5060 1
+23234 328 4
+23234 3575 7
+87987 9877 5
+87987 2401 2
+87987 331 2
+87987 2402 10
+87987 2396 1
+87987 328 18
+87987 9850 2
+87987 3575 5
+5059 2401 1
+12069 2401 16
+12069 334 8
+12069 6769 5
+12069 556 1
+12069 553 7
+11925 9877 9
+11925 7225 14
+11925 12065 4
+11925 755 3
+11925 10213 7
+11925 2515 1
+11925 2516 1
+11925 2511 1
+11925 2401 6
+11925 1773 2
+11925 332 2
+11925 12069 1
+11925 2400 1
+11925 553 1
+11925 2513 1
+11925 6769 2
+11925 9627 2
+3574 2401 1
+3574 30263 1
+3574 8278 1
+3574 7225 4
+3574 5060 1
+3574 12069 1
+3574 556 1
+3574 2515 1
+3574 553 5
+3574 5057 3
+3574 5059 1
+3574 5061 1
+3574 2513 1
+69692 2402 4
+69692 53 2
+69692 328 5
+69692 3575 8
+41532 2402 4
+41532 53 2
+41532 328 3
+41532 3575 6
+25884 2402 11
+25884 2396 5
+25884 53 5
+25884 328 21
+25884 3575 12
+37215 2402 2
+37215 53 1
+37215 328 7
+37215 3575 9
+52996 2401 2
+52996 331 4
+52996 2402 9
+52996 2396 1
+52996 328 3
+52996 3575 4
+28004 2401 2
+28004 331 2
+28004 2402 5
+28004 328 3
+28004 3575 4
+18856 2401 2
+18856 331 2
+18856 2402 5
+18856 328 4
+18856 3575 4
+39487 2402 3
+39487 328 3
+39487 3575 5
+31358 2401 2
+31358 2402 5
+31358 328 3
+31358 3575 4
+24447 2401 1
+24447 21600 1
+24447 334 1
+24447 2402 2
+24447 2396 1
+24447 328 6
+24447 53 1
+24447 3575 6
+82434 2401 1
+82434 331 3
+82434 2402 5
+82434 2396 1
+82434 53 1
+82434 328 8
+82434 3575 5
+27558 2402 3
+27558 328 3
+27558 3575 4
+27744 2402 2
+27744 328 4
+27744 3575 4
+7444 2401 3
+7444 2402 10
+7444 2396 1
+7444 328 10
+7444 3575 4
+23108 2401 3
+23108 2402 10
+23108 2396 1
+23108 328 12
+23108 3575 4
+39119 2401 2
+39119 331 6
+39119 2402 10
+39119 2396 2
+39119 53 2
+39119 328 13
+39119 3575 8
+69455 2401 2
+69455 331 6
+69455 2402 10
+69455 53 2
+69455 328 13
+69455 3575 8
+11833 2401 2
+11833 331 6
+11833 2402 10
+11833 53 2
+11833 328 13
+11833 3575 6
+27051 331 10
+27051 2402 2
+27051 328 78
+27051 3575 10
+21439 331 15
+21439 2402 2
+21439 328 34
+21439 3575 6
+34616 2401 2
+34616 331 6
+34616 2402 10
+34616 2396 2
+34616 53 2
+34616 328 13
+34616 3575 8
+62823 2401 5
+62823 331 8
+62823 2402 14
+62823 2396 1
+62823 328 4
+62823 3575 4
+53584 328 34
+53584 3575 27
+56193 328 10
+56193 3575 9
+70516 331 2
+70516 2402 2
+70516 328 7
+70516 3575 5
+20984 331 2
+20984 2402 2
+20984 328 7
+20984 3575 5
+55799 331 129
+55799 2402 2
+55799 328 23
+55799 3575 19
+42315 331 21
+42315 2402 2
+42315 328 40
+42315 3575 16
+23442 331 128
+23442 2402 2
+23442 328 17
+23442 3575 13
+3530 2402 2
+3530 53 1
+3530 328 7
+3530 3575 10
+30349 2402 2
+30349 328 9
+30349 3575 11
+59653 331 50
+59653 2402 2
+59653 328 64
+59653 3575 16
+85820 331 2
+85820 2402 3
+85820 2396 1
+85820 328 36
+85820 3575 4
+57195 2402 2
+57195 53 1
+57195 328 10
+57195 3575 8
+42258 2402 2
+42258 53 1
+42258 328 10
+42258 3575 8
+16372 2402 2
+16372 53 1
+16372 328 8
+16372 3575 8
+7647 2402 2
+7647 53 1
+7647 328 5
+7647 3575 4
+49264 2402 2
+49264 53 1
+49264 328 6
+49264 3575 4
+39369 2402 2
+39369 53 1
+39369 328 9
+39369 3575 8
+57708 2402 2
+57708 53 1
+57708 328 11
+57708 3575 8
+7966 2401 1
+7966 2402 2
+7966 53 1
+7966 6769 1
+7966 328 9
+7966 3575 4
+69124 2401 1
+69124 2402 2
+69124 53 1
+69124 6769 1
+69124 328 9
+69124 3575 4
+54784 2401 1
+54784 2402 2
+54784 53 1
+54784 6769 1
+54784 328 9
+54784 3575 8
+23960 2402 2
+23960 53 1
+23960 328 7
+23960 3575 6
+59882 2402 2
+59882 53 1
+59882 328 7
+59882 3575 6
+35253 2402 2
+35253 53 1
+35253 328 4
+35253 3575 4
+55623 2401 3
+55623 2402 21
+55623 328 7
+55623 3575 6
+1795 9645 3
+1795 10354 2
+1795 1794 5
+1795 9644 2
+1796 18661 2
+1797 18661 2
+1798 331 1
+1798 9645 1
+1798 9644 2
+1804 18661 2
+1800 18661 2
+1773 1800 1
+1773 1806 2
+1773 1802 1
+1773 1797 1
+1773 1796 1
+1773 1794 10
+1773 1798 1
+1773 1801 1
+1773 1803 1
+1773 1805 1
+1773 1804 1
+1773 1795 1
+1773 1799 1
+18661 9645 1
+18661 9644 2
+1801 18661 2
+1802 18661 2
+12065 9645 3
+12065 10354 2
+12065 1794 4
+9644 9645 3
+9644 10354 3
+9644 1794 1
+10354 9645 3
+10354 9644 4
+1803 18661 2
+1805 1794 8
+34035 18661 2
+1799 9645 2
+1799 9644 2
+1806 1794 5
+2401 2891 4
+2401 6769 2
+2401 2400 1
+9563 17063 1
+9563 9564 1
+60226 14372 1
+60226 2080 1
+57631 9568 3
+55795 9568 3
+34011 9464 3
+81732 9568 3
+9811 9568 3
+53035 9464 3
+76762 76881 14
+76762 46621 3
+76762 36402 2
+76762 9563 1
+30460 9563 1
+9464 9568 7
+9749 2891 6
+6768 2401 8
+47962 331 3
+47962 53 3
+6770 2401 18
+6770 6768 4
+6770 2400 6
+6770 9627 5
+2400 2401 12
+9627 2401 7
+9627 6769 3
+6660 2401 24
+6660 6768 35
+6660 6770 21
+20062 2401 11
+34144 2401 12
+26785 2401 14
+34145 2401 5
+26397 2401 7
+34146 2401 8
+34146 6768 5
+34146 6770 6
+32389 2401 5
+32389 331 8
+32389 2402 14
+32389 2396 43
+34147 2401 16
+34147 6768 10
+34147 6770 12
+34148 2401 13
+34148 6768 5
+34148 6770 3
+34149 2401 17
+34149 6768 7
+34149 6770 6
+34150 2401 11
+34150 6768 17
+34150 6770 9
+34151 2401 6
+34151 6768 4
+34151 6770 3
+7581 2401 6
+7581 6768 4
+7581 6770 3
+34152 2401 25
+34152 6768 12
+34152 6770 23
+81885 2401 21
+81885 331 12
+81885 2402 50
+81885 3575 2
+26051 2401 15
+26051 331 4
+26051 2402 31
+2402 2401 13
+2402 332 3
+2402 24880 2
+2402 6769 4
+5062 558 2
+5062 47962 3
+28477 332 1
+28477 5062 5
+28477 53 1
+18315 669 1
+22355 19941 5
+22355 332 5
+22355 18315 1
+22355 669 8
+22355 330 5
+13414 3035 2
+669 334 8
+669 336 1
+669 782 5
+669 2519 1
+669 341 1
+8277 52900 1
+8277 2513 1
+52900 8211 4
+9444 669 1
+782 334 7
+57843 332 1
+57843 18315 1
+2513 2516 1
+2513 6618 2
+2513 755 3
+2513 21732 1
+28370 2511 1
+28370 28387 4
+28370 2515 1
+28370 553 1
+28387 2513 11
+21949 1873 1
+21949 7225 2
+21949 1729 3
+21949 336 3
+21949 7435 11
+21949 7408 11
+21949 326 2
+21949 7224 1
+21949 335 2
+21949 4653 2
+21949 53 1
+21949 41031 3
+21949 18813 2
+21949 333 5
+21949 327 2
+21949 11303 37
+21949 2513 1
+21949 5676 3
+21949 2519 25
+21949 1971 6
+327 1313 10
+1966 1873 1
+1966 7435 1
+1966 21949 1
+328 326 4
+328 95 3
+328 7219 5
+328 7224 1
+328 782 1
+328 7223 1
+328 6216 2
+328 1153 3
+328 7246 1
+328 107 2
+328 358 2
+328 334 5
+328 1145 1
+328 1873 13
+328 336 1
+328 755 11
+328 7218 6
+328 7240 3
+328 53 1
+328 7229 2
+328 333 4
+328 7238 2
+328 327 1
+328 7239 2
+328 340 3
+328 96 4
+328 6616 1
+328 1967 5
+328 1969 13
+328 5676 2
+328 1971 2
+328 2519 40
+27382 27396 7
+30903 30904 5
+553 24765 4
+553 334 3
+553 1154 3
+553 8108 12
+24765 336 2
+8108 336 2
+8278 6618 2
+8278 2513 1
+8278 553 1
+8463 20025 4
+8463 2515 1
+8463 553 1
+20025 553 1
+52347 28387 7
+52347 28370 5
+41066 28387 8
+12509 344 4
+12509 328 3
+12509 357 1
+55213 1873 4
+55213 327 1
+55213 1313 2
+55213 29177 1
+55213 21949 6
+35625 30903 3
+35625 30904 3
+34812 8463 3
+34812 20025 9
+34836 20025 10
+56266 30904 9
+27877 18315 1
+30904 6618 2
+30904 669 1
+37683 327 13
+8739 37683 13
+53 37683 13
+25158 1349 3
+14125 1349 3
+606 17226 3
+606 17231 3
+606 9734 3
+606 3035 3
+606 556 2
+606 17228 3
+606 4892 3
+606 17227 3
+606 607 16
+606 53 7
+606 9018 3
+606 17232 3
+606 17229 3
+606 14126 3
+606 17230 3
+8742 8743 2
+8742 4653 1
+8742 50702 1
+8742 21057 3
+21057 20781 1
+21057 8743 13
+21057 8739 1
+21057 8740 1
+21057 8742 10
+50702 13080 1
+50702 8743 7
+50702 8740 1
+50702 8742 10
+8743 53 1
+8743 23995 1
+8743 8740 1
+8743 8742 17
+13080 53 1
+13080 8740 1
+7246 1145 1
+7246 1729 1
+7246 755 1
+7246 14065 4
+7246 18558 1
+7246 95 1
+7246 9445 1
+7246 8742 1
+7246 3513 1
+7246 4653 1
+7246 53 1
+7246 18556 1
+7246 18555 1
+7246 18557 2
+7246 340 5
+7246 759 6
+7246 18559 1
+7246 358 2
+7246 18560 1
+7246 2519 8
+7218 1873 3
+7218 4653 1
+7218 2435 1
+7218 107 4
+7218 96 6
+7218 2519 6
+18561 107 2
+40791 106 3
+40791 3811 1
+40791 2264 4
+40791 5274 6
+40791 3814 2
+40791 3036 2
+40791 2758 1
+40791 93 14
+40791 714 1
+40791 13415 2
+40791 104 2
+40791 105 1
+40791 782 1
+40791 2519 1
+40791 97 1
+3821 714 7
+3821 93 3
+3821 3823 6
+3823 556 1
+57896 106 26
+57896 5303 4
+57896 3811 4
+57896 3824 7
+57896 713 6
+57896 5277 2
+57896 95 23
+57896 5301 5
+57896 3820 3
+57896 98 1
+57896 92 1
+57896 3814 21
+57896 7221 8
+57896 93 24
+57896 5575 2
+57896 53 1
+57896 104 2
+57896 105 2
+57896 712 8
+57896 5270 2
+57896 714 7
+57896 3816 10
+57896 97 1
+19847 7226 1
+19847 107 1
+19847 96 5
+6384 336 1
+6384 7226 1
+6384 6615 1
+6384 2515 2
+6384 92 1
+6384 5290 9
+6384 107 3
+6384 2513 1
+6625 106 11
+6625 77717 4
+6625 7225 4
+6625 3824 1
+6625 1729 18
+6625 336 2
+6625 16456 2
+6625 95 7
+6625 6615 3
+6625 92 32
+6625 3036 3
+6625 93 4
+6625 5575 2
+6625 50222 1
+6625 53 2
+6625 105 4
+6625 333 5
+6625 10289 8
+6625 96 8
+6625 556 1
+6625 606 1
+6625 5270 7
+6625 5290 5
+6625 107 4
+6625 2513 1
+6625 8465 1
+6625 1971 2
+6625 2519 27
+10289 755 13
+74531 5270 2
+74531 106 1
+74531 105 1
+74531 104 2
+74531 95 1
+74531 98 2
+74531 97 1
+22611 77717 2
+22611 1873 1
+22611 335 3
+22611 327 5
+22611 53 9
+22611 782 3
+22611 95 2
+22611 2519 11
+69010 106 21
+69010 64701 2
+69010 713 4
+69010 336 1
+69010 95 1
+69010 92 12
+69010 3036 1
+69010 104 2
+69010 105 1
+69010 782 1
+69010 333 1
+69010 96 11
+69010 712 6
+69010 60573 2
+69010 5290 4
+69010 1116 3
+69010 3816 1
+69010 107 1
+69010 97 1
+69010 2519 2
+61396 5306 6
+61396 106 136
+61396 64698 2
+61396 3812 2
+61396 95 38
+61396 3820 16
+61396 92 90
+61396 5292 7
+61396 5575 7
+61396 4653 2
+61396 782 19
+61396 3813 2
+61396 5290 33
+61396 5293 11
+61396 64701 3
+61396 45069 4
+61396 77717 4
+61396 3811 3
+61396 3824 10
+61396 1729 4
+61396 5308 1
+61396 6615 2
+61396 98 2
+61396 53 6
+61396 5286 4
+61396 50223 1
+61396 1117 6
+61396 5296 3
+61396 5304 1
+61396 333 3
+61396 5276 2
+61396 327 3
+61396 5279 2
+61396 5270 4
+61396 714 38
+61396 5302 2
+61396 1116 14
+61396 3816 28
+61396 97 1
+61396 2519 10
+61396 2261 4
+61396 93 61
+61396 94 2
+61396 105 4
+61396 712 44
+61396 7226 2
+61396 60573 23
+61396 3819 1
+61396 5307 3
+61396 107 47
+61396 2513 4
+61396 10262 2
+61396 713 42
+61396 336 2
+61396 3814 10
+61396 5284 5
+61396 3036 21
+61396 7221 5
+61396 5278 3
+61396 11322 4
+61396 3817 22
+61396 96 24
+61396 6616 1
+61396 5280 1
+60573 98 13
+64701 106 5
+64701 713 5
+64701 712 7
+64701 95 2
+64701 92 1
+64701 3814 2
+64701 3036 4
+64701 93 4
+64701 714 6
+64701 3816 4
+64701 53 1
+7219 106 5
+7219 7711 1
+7219 7225 1
+7219 7435 8
+7219 42733 1
+7219 95 3
+7219 57856 1
+7219 335 2
+7219 74 2
+7219 6625 9
+7219 4653 1
+7219 105 1
+7219 42663 2
+7219 7246 1
+7219 3678 1
+7219 69010 2
+7219 22611 5
+7219 36228 1
+7219 107 3
+7219 10262 2
+7219 1873 3
+7219 77717 2
+7219 8416 2
+7219 57896 2
+7219 68727 2
+7219 7221 3
+7219 53 1
+7219 49644 2
+7219 333 1
+7219 74531 1
+7219 74530 1
+7219 96 5
+7219 40791 1
+7219 61396 6
+7219 5270 13
+7219 74529 1
+7219 53902 2
+7219 2519 18
+7219 1971 16
+92 1117 2
+92 106 7
+92 5304 1
+92 3824 2
+92 713 4
+92 5279 3
+92 712 3
+92 95 11
+92 3819 2
+92 104 2
+6622 77717 2
+6622 9053 1
+6622 7435 1
+6622 6618 4
+6622 96 3
+6622 8110 1
+18882 106 4
+18882 1729 2
+18882 713 1
+18882 332 3
+18882 712 2
+18882 95 1
+18882 2516 3
+18882 93 7
+18882 3816 7
+18882 53 2
+18882 2513 8
+18882 2519 1
+53902 106 67
+53902 3824 6
+53902 713 10
+53902 95 34
+53902 5281 9
+53902 3820 13
+53902 92 48
+53902 3036 9
+53902 2977 17
+53902 93 3
+53902 53 4
+53902 104 2
+53902 105 1
+53902 1117 1
+53902 11323 7
+53902 96 3
+53902 712 7
+53902 5270 15
+53902 5290 1
+53902 54227 1
+53902 5307 13
+53902 3816 8
+53902 107 2
+10262 5691 4
+10262 1873 3
+10262 10289 2
+10262 713 2
+10262 7435 3
+10262 104 1
+10262 92 2
+74530 6617 1
+74530 105 1
+74530 104 2
+57856 106 1
+57856 96 1
+57856 95 2
+57856 3820 1
+57856 93 2
+57856 6617 1
+57856 104 2
+57856 105 1
+57856 5307 3
+3670 3814 2
+3670 93 2
+3670 95 2
+16456 5270 3
+16456 93 49
+16456 6617 1
+16456 5307 1
+16456 94 8
+16456 5271 1
+16456 95 2
+59483 607 5
+59483 1729 1
+59483 17227 2
+14101 607 5
+14101 1729 1
+14101 14126 2
+81637 607 5
+81637 1729 1
+81637 9734 2
+54615 607 5
+54615 1729 1
+54615 556 1
+54615 17228 2
+80264 607 5
+80264 1729 1
+80264 17229 2
+28753 607 5
+28753 1729 1
+28753 17230 2
+8279 6616 1
+23793 607 5
+23793 17231 2
+23793 1729 1
+6548 106 2
+6548 1729 4
+6548 95 6
+6548 6615 1
+6548 98 1
+6548 2516 1
+6548 93 9
+6548 6617 1
+6548 4653 1
+6548 53 1
+6548 6623 1
+6548 2518 1
+6548 6624 3
+6548 332 2
+6548 6618 2
+6548 96 5
+6548 6621 3
+6548 5270 1
+6548 6616 1
+6548 6622 2
+6548 1961 1
+6548 2519 5
+6624 6618 3
+14656 77717 4
+14656 1729 8
+14656 14609 1
+14656 2516 15
+14656 6616 3
+14656 53 1
+14656 4653 1
+14656 2513 8
+14656 2519 4
+81638 607 5
+81638 1729 1
+81638 9018 2
+40822 607 5
+40822 1729 1
+40822 17232 2
+85100 6548 2
+34952 3144 2
+45659 6616 2
+45659 77717 12
+45659 5575 1
+45659 9053 2
+45659 107 1
+45659 96 8
+45659 553 1
+9053 45659 1
+9053 77717 2
+9053 1729 2
+9053 96 5
+9053 6616 1
+9053 4653 1
+9053 107 1
+9053 2519 1
+14609 14656 1
+14609 2516 17
+14609 1729 1
+14609 7435 1
+14609 6618 4
+14609 4653 1
+14609 2513 5
+27721 332 4
+82605 6616 1
+16962 6616 1
+81639 607 5
+81639 1729 1
+81639 4892 2
+16565 607 5
+16565 1729 1
+16565 332 2
+16565 3035 2
+16565 53 1
+16565 556 1
+16565 1349 3
+34610 607 5
+34610 1729 1
+34610 332 4
+34610 3035 2
+34610 53 1
+34610 556 1
+49644 106 11
+49644 3811 2
+49644 3824 2
+49644 336 1
+49644 95 4
+49644 3820 2
+49644 92 2
+49644 3814 1
+49644 93 3
+49644 104 2
+49644 105 1
+49644 782 6
+49644 5270 1
+49644 5290 15
+49644 107 13
+49644 97 1
+49644 2519 2
+3678 684 1
+3678 106 19
+3678 3824 5
+3678 713 4
+3678 755 1
+3678 95 7
+3678 3820 3
+3678 98 2
+3678 92 4
+3678 3814 3
+3678 3670 2
+3678 3036 1
+3678 93 16
+3678 53 1
+3678 104 2
+3678 105 1
+3678 3818 1
+3678 712 8
+3678 3821 7
+3678 3822 6
+3678 714 9
+3678 3816 8
+3678 97 1
+3822 3821 2
+6372 6384 4
+6372 6383 1
+6372 5290 1
+6372 3659 2
+6372 2513 1
+41524 344 2
+41524 328 1
+62784 607 1
+62784 331 14
+62784 54615 4
+62784 17228 1
+6623 3811 1
+6623 94 3
+6623 5271 1
+6623 95 1
+53413 41995 2
+585 607 2
+585 53 1
+585 606 1
+70814 23670 3
+70814 6616 1
+70814 607 4
+70814 332 2
+70814 53 1
+53367 53413 2
+53367 1729 1
+53367 336 1
+53367 3035 1
+53367 2435 2
+53367 606 1
+53367 607 3
+53367 2519 2
+42663 105 2
+42663 42733 3
+42663 95 2
+42663 92 6
+36228 5270 2
+36228 105 1
+36228 104 2
+36228 97 1
+36228 92 2
+74 5270 3
+74 106 3
+74 105 1
+74 104 2
+74 97 1
+104 5270 2
+104 105 1
+104 5271 1
+104 92 1
+105 5270 1
+105 106 1
+105 8416 2
+105 327 1
+105 98 1
+8416 10262 1
+8416 106 3
+8416 3824 1
+8416 713 1
+8416 92 5
+8416 35519 9
+8416 104 2
+8416 105 1
+8416 97 1
+74529 106 3
+74529 11323 2
+74529 95 3
+74529 92 2
+74529 5270 3
+74529 3036 6
+74529 104 2
+74529 105 1
+74529 97 1
+64698 3811 2
+64698 94 2
+64698 95 1
+64698 97 1
+45069 5275 2
+45069 3811 1
+45069 3817 2
+45069 95 2
+45069 94 2
+45069 782 4
+45069 5271 2
+45069 5278 2
+45069 97 2
+68727 10262 1
+68727 106 3
+68727 3824 1
+68727 105 1
+68727 104 2
+68727 63547 6
+68727 97 1
+3362 98 13
+8026 6617 1
+8026 94 2
+8026 95 1
+93 3824 5
+93 710 18
+93 713 4
+93 327 1
+93 1313 3
+93 556 1
+93 95 2
+93 8112 3
+93 53 2
+93 94 1
+93 8109 1
+93 330 2
+5272 710 1
+5272 713 4
+5272 712 2
+5272 556 2
+5272 2264 4
+5272 93 2
+5272 2758 1
+5272 53 1
+5272 94 1
+2265 713 2
+2265 8112 1
+2265 2264 3
+2264 2758 8
+2264 93 1
+2264 713 2
+2261 2758 2
+2261 710 2
+2261 93 3
+2261 713 5
+2261 332 2
+2261 94 1
+2261 712 2
+5282 710 1
+5282 713 4
+5282 712 2
+5282 556 3
+5282 2264 4
+5282 93 2
+5282 2758 1
+5282 53 2
+5282 94 1
+5283 2265 4
+5283 710 4
+5283 713 4
+5283 712 2
+5283 556 2
+5283 93 2
+5283 2758 2
+5283 53 2
+5283 94 1
+2758 3824 1
+2758 710 3
+2758 93 5
+2758 713 2
+5285 2265 4
+5285 710 3
+5285 713 4
+5285 712 2
+5285 556 2
+5285 93 2
+5285 2758 1
+5285 53 1
+5285 94 1
+5287 2265 4
+5287 710 3
+5287 713 4
+5287 712 2
+5287 556 2
+5287 93 2
+5287 2758 1
+5287 53 1
+5287 94 1
+2262 2265 4
+2262 710 3
+2262 713 4
+2262 712 2
+2262 556 2
+2262 93 2
+2262 2758 1
+2262 53 1
+2262 94 1
+5289 2265 4
+5289 710 3
+5289 713 4
+5289 712 2
+5289 556 2
+5289 93 2
+5289 2758 1
+5289 53 1
+5289 94 1
+5294 710 1
+5294 713 4
+5294 712 2
+5294 556 2
+5294 2264 4
+5294 93 2
+5294 2758 1
+5294 53 1
+5294 94 1
+5295 710 1
+5295 713 4
+5295 712 2
+5295 556 2
+5295 2264 4
+5295 93 2
+5295 2758 1
+5295 53 1
+5295 94 1
+2900 2265 4
+2900 710 3
+2900 713 4
+2900 712 2
+2900 556 2
+2900 93 2
+2900 2758 1
+2900 53 2
+2900 94 1
+5273 2265 5
+5273 2758 1
+5273 93 2
+5273 713 4
+5273 94 1
+5273 712 2
+5273 556 1
+5274 2758 22
+5274 710 1
+5274 93 10
+5274 713 5
+5274 94 1
+5274 712 2
+5274 556 1
+5275 713 5
+5275 2758 3
+5275 93 105
+5275 335 3
+5275 53 50
+5275 94 1
+5275 782 4
+5275 331 26
+5275 710 14
+5275 556 54
+5275 712 2
+5275 4702 2
+5275 553 4
+5275 3308 10
+5275 2513 1
+5275 2519 1
+5288 13416 5
+5288 713 5
+5288 712 2
+5288 556 2
+5288 93 1
+5288 2758 1
+5288 13415 1
+5288 53 1
+5288 94 1
+5291 2758 4
+5291 710 3
+5291 93 3
+5291 713 5
+5291 94 1
+5291 712 2
+5291 556 1
+5297 2758 1
+5297 93 6
+5297 13415 5
+5297 713 5
+5297 94 1
+5297 712 2
+5297 556 1
+5298 13416 4
+5298 710 4
+5298 93 1
+5298 13415 1
+5298 713 4
+5298 94 1
+5298 712 2
+5298 556 1
+5299 2265 5
+5299 2758 1
+5299 93 2
+5299 713 4
+5299 94 1
+5299 712 2
+5299 556 1
+714 710 11
+714 713 6
+714 332 7
+714 712 2
+714 556 1
+714 2757 2
+714 2758 3
+714 93 10
+714 53 2
+714 94 1
+714 330 2
+5305 2265 4
+5305 2758 1
+5305 93 2
+5305 713 4
+5305 94 1
+5305 712 2
+5305 37707 2
+684 714 7
+684 93 1
+684 713 5
+684 94 1
+684 711 1
+684 556 1
+5278 710 2
+5278 713 4
+5278 712 2
+5278 556 1
+5278 8112 4
+5278 3906 2
+5278 93 3
+5278 2758 2
+5278 13414 5
+5278 94 1
+5278 782 5
+5278 2519 1
+3811 334 4
+3811 34259 4
+3811 7225 4
+3811 713 5
+3811 1736 1
+3811 2758 3
+3811 93 18
+3811 53 4
+3811 94 1
+3811 782 15
+3811 710 3
+3811 327 1
+3811 332 1
+3811 6618 4
+3811 556 2
+3811 712 2
+3811 714 1
+3811 669 16
+3811 2519 1
+5309 710 1
+5309 713 4
+5309 712 2
+5309 556 2
+5309 2264 4
+5309 93 2
+5309 2758 1
+5309 53 1
+5309 94 1
+13416 13415 2
+13416 713 2
+13416 8112 1
+13415 106 1
+13415 2758 6
+13415 93 1
+13415 713 2
+13415 95 1
+37707 5305 3
+37707 37706 2
+37707 37705 1
+42734 5306 1
+42734 1117 1
+42734 5304 1
+42734 3824 1
+42734 3813 1
+42734 42733 4
+42734 5279 1
+42734 3817 1
+42734 95 3
+42734 5281 1
+42734 5284 1
+42734 3814 1
+42734 93 4
+42734 5307 1
+42734 3816 1
+42734 45227 2
+22775 337 2
+22775 759 1
+26302 22775 12
+26302 3824 1
+26302 358 9
+94 5306 1
+94 5275 1
+94 5309 1
+94 5272 1
+94 5273 1
+94 5300 1
+94 3812 1
+94 2261 1
+94 95 1
+94 5281 2
+94 5292 1
+94 2977 1
+94 5298 1
+94 3813 2
+94 5283 1
+94 3815 1
+94 5285 1
+94 2262 1
+94 3819 1
+94 5287 1
+94 5290 1
+94 5307 2
+94 5295 1
+94 5293 1
+94 5303 1
+94 3811 1
+94 5282 1
+94 5305 1
+94 5277 1
+94 5308 1
+94 5301 1
+94 5297 1
+94 3814 2
+94 5274 1
+94 5284 1
+94 5289 1
+94 2900 1
+94 5294 1
+94 3036 1
+94 5299 1
+94 5271 9
+94 5278 1
+94 5286 1
+94 5296 1
+94 5291 1
+94 5304 1
+94 5276 2
+94 3817 2
+94 96 1
+94 5279 1
+94 5270 26
+94 5280 1
+94 5288 1
+94 714 1
+94 5302 1
+94 3816 3
+94 1116 1
+95 13416 2
+95 1117 5
+95 106 11
+95 3824 4
+95 42733 1
+95 42734 1
+95 3820 1
+95 2264 4
+95 98 1
+95 5274 6
+95 35519 3
+95 93 16
+95 13415 2
+95 45227 1
+35519 5306 1
+35519 106 4
+35519 3824 2
+35519 95 2
+35519 5301 2
+35519 5281 1
+35519 5284 1
+35519 3814 1
+35519 2977 1
+35519 3036 3
+35519 5286 2
+35519 1117 1
+35519 5304 1
+35519 3813 3
+35519 5276 1
+35519 96 2
+35519 3817 1
+35519 5279 1
+35519 3819 2
+35519 5270 3
+35519 5290 2
+35519 5307 1
+35519 3816 3
+35519 97 2
+63547 5306 1
+63547 106 2
+63547 3824 1
+63547 95 2
+63547 5281 1
+63547 5284 1
+63547 3814 1
+63547 2977 1
+63547 93 4
+63547 94 2
+63547 1117 1
+63547 3813 1
+63547 5276 1
+63547 96 2
+63547 3817 1
+63547 5290 2
+63547 5307 1
+63547 3816 1
+63547 107 2
+63547 97 1
+5276 106 1
+5276 710 3
+5276 713 5
+5276 332 4
+5276 556 2
+5276 95 1
+5276 8112 1
+5276 93 7
+5276 8314 2
+5276 94 1
+5276 330 4
+5277 3824 2
+5277 710 1
+5277 713 2
+5277 332 2
+5277 3035 1
+5277 712 2
+5277 556 2
+5277 3036 3
+5277 93 3
+5277 8314 1
+5277 94 1
+5277 330 1
+5277 711 1
+5279 710 2
+5279 93 5
+5279 713 6
+5279 332 2
+5279 94 1
+5279 556 1
+5279 4 1
+5279 3146 1
+5280 710 1
+5280 713 5
+5280 332 2
+5280 556 1
+5280 8112 3
+5280 93 8
+5280 53 2
+5280 94 1
+5280 8109 2
+5280 4 1
+5280 330 2
+5281 106 2
+5281 3824 2
+5281 710 4
+5281 713 6
+5281 95 5
+5281 607 2
+5281 93 10
+5281 94 1
+3812 3059 1
+3812 93 9
+3812 713 6
+3812 94 1
+3812 712 2
+3812 556 1
+3812 330 2
+3812 8112 2
+5284 106 1
+5284 334 6
+5284 713 8
+5284 2261 5
+5284 95 1
+5284 3820 1
+5284 3814 3
+5284 93 11
+5284 4653 1
+5284 94 1
+5284 2518 2
+5284 710 1
+5284 332 9
+5284 556 1
+5284 712 2
+5284 5290 2
+5284 3816 13
+5284 107 5
+5284 711 2
+5284 2519 1
+3813 106 1
+3813 93 6
+3813 713 5
+3813 94 1
+3813 556 1
+3813 95 5
+3813 8112 5
+3814 12115 1
+3814 106 5
+3814 334 2
+3814 713 7
+3814 95 4
+3814 98 1
+3814 1736 1
+3814 93 25
+3814 53 1
+3814 94 1
+3814 710 3
+3814 332 1
+3814 556 2
+3814 712 2
+3814 8112 9
+3814 5270 1
+3814 714 1
+3814 4 3
+3814 8109 4
+5286 93 3
+5286 713 5
+5286 94 1
+5286 556 1
+3815 3824 1
+3815 710 2
+3815 713 4
+3815 332 1
+3815 712 2
+3815 556 1
+3815 5300 6
+3815 3814 7
+3815 607 4
+3815 3036 17
+3815 93 4
+3815 8314 1
+3815 94 1
+3815 330 2
+3815 711 1
+1116 106 1
+1116 710 2
+1116 93 9
+1116 713 6
+1116 94 1
+1116 712 2
+1116 95 4
+1116 8112 3
+5290 710 2
+5290 713 6
+5290 2435 1
+5290 8112 6
+5290 93 4
+5290 1154 1
+5290 4653 1
+5290 53 1
+5290 94 1
+5290 8109 1
+5290 2513 5
+5290 4 1
+5290 107 9
+5290 2519 6
+3816 106 7
+3816 710 3
+3816 713 6
+3816 332 7
+3816 712 2
+3816 556 2
+3816 95 4
+3816 8112 3
+3816 3820 5
+3816 714 8
+3816 93 19
+3816 53 4
+3816 94 1
+3816 8109 2
+3816 4 1
+5292 713 3
+5292 2516 1
+5292 93 7
+5292 5575 1
+5292 4653 1
+5292 53 1
+5292 94 1
+5292 782 3
+5292 710 5
+5292 332 6
+5292 556 1
+5292 712 2
+5292 5290 4
+5292 8314 1
+5292 3816 6
+5292 107 1
+5292 2513 4
+5292 2519 1
+5293 106 4
+5293 334 9
+5293 19669 1
+5293 713 5
+5293 755 1
+5293 95 1
+5293 93 13
+5293 53 6
+5293 94 1
+5293 2518 2
+5293 782 2
+5293 1117 6
+5293 710 18
+5293 327 2
+5293 332 5
+5293 556 1
+5293 712 2
+5293 3816 7
+5293 2513 5
+5293 2519 1
+2977 3824 1
+2977 713 5
+2977 606 3
+2977 607 8
+2977 2085 1
+2977 3036 8
+2977 53 1
+2977 94 1
+5296 93 3
+5296 713 2
+5296 336 1
+5296 94 1
+5300 3814 8
+5300 93 1
+5300 713 7
+5300 94 1
+5300 712 2
+5300 556 1
+5300 95 2
+3036 12115 1
+3036 710 2
+3036 713 6
+3036 332 6
+3036 3035 3
+3036 712 2
+3036 556 2
+3036 8112 9
+3036 607 4
+3036 93 10
+3036 8314 1
+3036 53 1
+3036 94 1
+3036 8109 5
+3036 4 2
+3036 330 3
+11322 710 1
+11322 713 5
+11322 332 1
+11322 24533 1
+11322 3035 1
+11322 556 2
+11322 8112 5
+11322 93 3
+11322 3036 8
+11322 8109 1
+11322 4 1
+5301 106 2
+5301 710 6
+5301 713 2
+5301 332 3
+5301 556 1
+5301 95 5
+5301 2758 2
+5301 93 10
+5301 1961 2
+5301 53 2
+5301 94 1
+5301 330 2
+5302 710 2
+5302 713 5
+5302 336 2
+5302 332 1
+5302 556 2
+5302 95 1
+5302 6616 1
+5302 93 4
+5302 5575 1
+5302 3816 4
+5302 330 2
+5302 2519 3
+5303 106 1
+5303 710 2
+5303 713 5
+5303 332 2
+5303 556 2
+5303 95 1
+5303 2757 1
+5303 93 9
+5303 94 1
+5303 330 1
+5304 106 1
+5304 710 2
+5304 713 6
+5304 332 2
+5304 556 1
+5304 8112 3
+5304 93 6
+5304 94 1
+5304 8109 1
+5304 4 1
+5306 1117 3
+5306 334 2
+5306 93 3
+5306 713 5
+5306 94 1
+5306 556 1
+3817 11228 1
+3817 106 1
+3817 710 1
+3817 713 7
+3817 712 2
+3817 556 1
+3817 95 1
+3817 8112 2
+3817 93 11
+3817 94 1
+3817 5278 6
+3817 782 1
+3817 330 2
+3818 93 4
+3818 713 5
+3818 556 1
+3818 3812 5
+5307 710 4
+5307 93 8
+5307 713 5
+5307 94 1
+5307 107 3
+5307 95 4
+96 334 3
+96 710 2
+96 8108 3
+96 713 5
+96 8112 3
+96 93 5
+96 6622 1
+96 94 1
+96 8109 1
+96 107 8
+96 8110 5
+96 2519 1
+8110 96 1
+5308 710 4
+5308 713 2
+5308 17791 5
+5308 8112 2
+5308 93 4
+5308 94 1
+5308 7223 7
+5308 2519 1
+3819 710 1
+3819 93 8
+3819 713 5
+3819 94 1
+3819 556 1
+3819 8112 4
+34259 669 3
+6615 5270 2
+6615 95 2
+77717 65962 2
+77717 96 2
+6616 106 2
+6616 7225 4
+6616 3824 1
+6616 333 1
+6616 713 2
+6616 336 2
+6616 332 4
+6616 2435 2
+6616 712 2
+6616 96 3
+6616 95 1
+6616 5575 1
+6616 782 1
+6616 107 2
+6616 2519 1
+10671 331 2
+10671 53 7
+18309 331 3
+18309 7225 8
+18309 1729 5
+18309 336 4
+18309 332 2
+18309 755 1
+18309 556 2
+18309 553 3
+18309 21732 1
+18309 2513 1
+18309 2519 1
+85942 7225 4
+85942 18309 10
+21950 2516 2
+21950 17791 6
+21950 7223 9
+21950 5308 1
+27479 334 10
+27479 669 2
+27479 556 1
+83788 771 1
+4654 334 3
+4654 669 1
+60015 771 1
+25899 771 1
+51050 334 8
+51050 331 1
+51050 332 2
+51050 669 1
+51050 53 2
+4655 334 6
+4655 669 2
+1339 2051 1
+1339 334 3
+1339 331 1
+1339 53 3
+1339 556 1
+11374 2051 1
+11374 334 3
+11374 53 2
+9729 2051 1
+9729 334 3
+9729 53 2
+619 2051 1
+619 334 3
+619 53 2
+19937 2051 1
+19937 334 3
+19937 53 2
+2051 669 1
+29947 669 1
+89879 2135 1
+89879 8278 1
+89879 7225 3
+89879 62379 1
+89879 2515 1
+89879 553 2
+89879 20102 3
+89879 2516 1
+89879 2511 1
+89879 2513 8
+4656 334 3
+4656 669 1
+4656 53 1
+28723 334 14
+28723 755 1
+28723 669 1
+28723 53 3
+28723 556 1
+41479 334 14
+41479 332 2
+41479 755 1
+41479 669 2
+41479 53 3
+783 334 3
+783 669 2
+27491 669 1
+27490 669 1
+20759 8211 10
+20759 8278 1
+20759 8277 1
+20759 333 1
+20759 336 1
+20759 8742 1
+20759 2515 1
+20759 553 2
+20759 18642 2
+20759 2511 1
+20759 4653 1
+20759 2513 2
+20759 51613 3
+73335 331 2
+73335 556 2
+73335 9444 1
+53519 334 3
+53519 331 1
+53519 30390 3
+30390 331 4
+30390 669 1
+30390 53 1
+81786 771 1
+35612 771 1
+4657 334 9
+4657 331 3
+4657 669 1
+4657 53 1
+4658 334 3
+4658 332 10
+4658 669 2
+4658 330 2
+44867 771 1
+19433 771 1
+4659 334 5
+4659 332 1
+4659 669 1
+4659 53 2
+4660 334 3
+4660 332 1
+4660 669 1
+4660 53 2
+4661 334 3
+4661 332 9
+4661 669 2
+4661 330 2
+22363 334 3
+22363 669 1
+22363 53 1
+29948 334 3
+29948 332 3
+29948 755 1
+29948 669 2
+29948 330 2
+21608 7225 2
+21608 669 1
+21608 53 1
+4662 332 3
+4662 669 1
+4662 53 2
+4662 330 2
+1344 334 3
+1344 669 1
+1344 53 2
+20804 334 3
+20804 669 1
+20804 53 2
+4663 334 6
+4663 669 2
+4664 3059 1
+4664 332 1
+4664 669 4
+4664 53 2
+4664 330 3
+19927 771 1
+51051 334 3
+51051 332 2
+51051 669 1
+51051 53 2
+771 783 1
+771 334 1
+1340 2051 1
+1340 11374 1
+11368 2051 1
+11368 11374 1
+7738 334 3
+7738 669 2
+16646 2051 1
+16646 11374 1
+32016 334 6
+32016 327 1
+32016 669 5
+32016 53 1
+52814 771 1
+66029 53 2
+66029 9444 1
+22996 771 1
+27489 334 3
+27489 669 2
+48348 334 3
+48348 332 2
+48348 669 1
+48348 53 2
+1341 2051 1
+1341 9729 1
+20801 2051 1
+20801 9729 1
+7739 334 3
+7739 669 2
+75779 16646 1
+30902 30903 2
+30902 30904 2
+30902 2519 1
+25412 334 3
+25412 48997 6
+25412 669 1
+25412 53 1
+25412 556 1
+4665 334 4
+4665 669 2
+4666 334 4
+4666 669 2
+4667 334 4
+4667 669 2
+4668 334 4
+4668 669 2
+4669 334 4
+4669 669 2
+4670 334 4
+4670 669 2
+4671 334 4
+4671 669 2
+4672 334 4
+4672 669 2
+4673 334 4
+4673 669 2
+4674 334 6
+4674 669 2
+4675 334 3
+4675 669 3
+4676 334 5
+4676 332 1
+4676 755 1
+4676 556 1
+4676 53 1
+4676 669 1
+4676 330 1
+4676 711 1
+27268 334 3
+27268 669 2
+51052 334 3
+51052 332 2
+51052 669 1
+51052 53 2
+612 619 1
+612 2051 1
+20764 619 1
+20764 2051 1
+24657 19931 1
+39051 25412 4
+77771 25412 4
+44038 25412 4
+50722 25412 4
+25401 25412 4
+48997 755 1
+48997 53 1
+48997 2519 1
+20350 334 5
+20350 669 1
+20350 2519 2
+23820 53 2
+23820 556 1
+23820 9444 1
+75147 16286 2
+75147 331 1
+75147 7225 4
+75147 336 2
+75147 332 4
+75147 2515 1
+75147 553 10
+75147 2511 1
+75147 330 2
+75147 2513 10
+16286 333 1
+16286 8743 1
+16286 8742 3
+16286 2515 2
+16286 553 5
+16286 2511 1
+16286 4653 3
+16286 2513 1
+16286 21057 1
+16222 16286 4
+16222 8278 1
+16222 7225 4
+16222 336 1
+16222 2515 1
+16222 553 8
+4677 334 6
+4677 332 2
+4677 755 2
+4677 669 1
+4677 556 1
+4678 334 6
+4678 669 2
+4679 334 3
+4679 669 2
+4679 53 1
+37205 771 1
+54865 771 1
+4680 334 4
+4680 669 3
+4681 334 4
+4681 669 2
+4681 53 1
+23172 334 3
+23172 669 2
+51053 334 3
+51053 332 2
+51053 669 1
+51053 53 2
+1342 2051 1
+1342 19937 1
+20802 2051 1
+20802 19937 1
+19931 2051 1
+19931 19937 1
+1331 2051 1
+1331 334 7
+1331 1339 1
+20793 2051 1
+20793 334 7
+20793 1339 1
+4682 334 3
+4682 669 1
+4682 53 1
+4683 334 6
+4683 669 2
+4684 334 6
+4684 669 2
+4685 334 6
+4685 669 2
+58494 28387 3
+58494 8465 1
+58494 28370 2
+8453 8463 2
+8453 20025 1
+8453 8465 1
+3659 7225 8
+3659 1729 2
+3659 336 3
+3659 2515 2
+3659 2516 1
+3659 8510 1
+3659 2511 1
+3659 8473 1
+3659 16286 6
+3659 331 3
+3659 8277 1
+3659 8278 1
+3659 332 2
+3659 553 7
+3659 3308 1
+3659 2513 2
+3659 341 1
+26046 27382 1
+26046 8510 3
+26046 27396 2
+26046 21732 1
+41288 334 10
+41288 332 2
+41288 755 3
+41288 669 2
+29949 334 3
+29949 669 2
+4686 334 7
+4686 669 3
+4687 334 6
+4687 332 1
+4687 669 2
+4688 334 7
+4688 669 2
+7727 334 6
+7727 669 2
+7727 556 1
+4689 334 4
+4689 669 2
+4689 53 1
+29950 334 3
+29950 29948 1
+29950 332 3
+29950 755 1
+29950 669 2
+29950 330 2
+26032 771 1
+83501 771 1
+4690 334 21
+4690 331 1
+4690 669 1
+4690 53 1
+4910 771 1
+73156 334 6
+73156 327 1
+73156 669 5
+73156 53 1
+4691 334 11
+4691 332 1
+4691 669 3
+4692 334 7
+4692 669 5
+34105 669 1
+34105 53 1
+34105 330 4
+25211 2051 1
+25211 334 5
+25211 1339 1
+4693 334 6
+4693 669 2
+4694 334 3
+4694 669 1
+4694 53 1
+1343 334 3
+1343 669 1
+1343 53 2
+20803 334 3
+20803 669 1
+20803 53 2
+4695 334 3
+4695 669 1
+4695 53 1
+4696 334 6
+4696 669 2
+74122 771 1
+41898 771 1
+4697 334 9
+4697 332 2
+4697 755 1
+4697 669 1
+4697 711 1
+4698 334 12
+4698 332 1
+4698 755 1
+4698 669 1
+4698 53 3
+4698 330 2
+4699 334 3
+4699 669 1
+80648 334 6
+80648 332 1
+80648 669 1
+80648 53 1
+80648 330 2
+2065 334 7
+2065 669 2
+4700 334 4
+4700 669 2
+4700 53 1
+70200 344 5
+70200 328 12
+70200 357 1
+91886 344 2
+91886 328 6
+30870 30903 6
+30870 30904 7
+30870 30902 9
+52859 344 8
+52859 336 2
+52859 328 10
+86507 334 1
+86507 344 7
+86507 336 2
+86507 328 7
+34079 34105 13
+34079 332 12
+34079 330 4
+4701 331 1
+4701 332 2
+4701 53 20
+4701 2513 1
+4702 334 14
+4702 669 2
+4702 556 1
+4703 669 1
+4703 556 2
+4704 669 1
+4704 556 3
+4705 669 1
+4705 4702 1
+4705 556 1
+4706 334 4
+4706 669 2
+4707 334 6
+4707 669 2
+4707 556 3
+4708 334 4
+4708 669 2
+91085 89879 4
+4709 334 3
+4709 669 1
+4710 334 3
+4710 669 2
+4710 53 1
+4711 334 4
+4711 669 4
+21732 331 3
+21732 335 10
+21732 332 3
+21732 4702 1
+21732 556 3
+21732 330 3
+21732 553 4
+4712 334 6
+4712 332 1
+4712 755 3
+4712 669 1
+4712 556 1
+4712 330 1
+4713 334 6
+4713 332 2
+4713 755 3
+4713 669 1
+4713 711 1
+4713 556 1
+4713 330 1
+4714 334 6
+4714 669 2
+4715 334 6
+4715 669 2
+344 334 3
+344 336 1
+344 332 1
+344 328 2
+344 2515 2
+344 553 4
+344 2511 1
+344 2513 3
+344 2519 2
+45043 344 32
+45043 328 17
+28779 8279 1
+55 17914 1
+55 556 1
+46426 558 2
+28507 1728 4
+28507 332 2
+28507 28506 35
+28507 53 3
+28507 22594 1
+28507 556 2
+330 557 1
+330 1961 3
+1349 331 2
+1349 1728 7
+1349 332 1
+1349 556 1
+1349 1736 2
+1349 1735 2
+1349 53 5
+1349 330 2
+1739 558 5
+1739 1740 1
+9454 332 1
+9454 1739 6
+9454 53 1
+331 556 1
+8211 331 3
+8211 1735 2
+8211 332 2
+8211 53 1
+8211 556 1
+8211 330 2
+556 334 11
+556 331 11
+556 53 35
+556 4702 1
+556 553 2
+3146 6624 2
+3146 6618 3
+3146 556 1
+3146 93 3
+3146 3147 2
+3146 53 2
+3146 1961 2
+3146 330 3
+3146 24644 1
+557 11227 1
+557 24880 2
+557 330 2
+557 37090 1
+24880 3146 8
+558 8211 2
+558 53 3
+558 22594 2
+558 556 2
+558 55 1
+6361 9454 1
+6361 558 1
+11227 3146 9
+23693 53 2
+8314 8361 2
+8314 332 2
+8314 3146 4
+3059 332 1
+3059 3146 1
+3059 3143 4
+11228 332 1
+11228 3146 1
+11228 3143 3
+711 8211 1
+711 93 2
+711 53 1
+711 556 1
+711 330 3
+24533 53 1
+24533 11322 12
+28506 334 3
+28506 331 7
+28506 1729 1
+28506 1728 6
+28506 23693 1
+28506 556 3
+28506 1349 9
+28506 20833 1
+28506 55 16
+28506 53 23
+2518 1736 6
+2518 334 3
+2518 50222 2
+2518 28506 2
+2518 2519 3
+16024 42112 4
+16024 334 5
+1736 334 6
+1736 28506 2
+1736 2518 2
+50222 1736 1
+50222 334 8
+50222 16024 2
+50222 2518 1
+50222 2519 5
+8361 3146 1
+2757 8211 1
+2757 53 1
+22594 331 1
+22594 556 1
+37090 3146 7
+3143 8361 2
+3143 3146 7
+87294 713 2
+87294 55 2
+76163 77717 4
+76163 334 12
+76163 344 23
+76163 336 21
+76163 328 9
+76163 1736 35
+76163 7224 1
+76163 50222 14
+76163 4653 1
+76163 2518 1
+76163 332 8
+76163 23693 1
+76163 1349 3
+76163 8280 4
+76163 8281 3
+76163 28506 30
+76163 330 2
+76163 2519 2
+7611 558 2
+1728 332 2
+1728 1349 4
+20806 20833 1
+2519 19611 7
+2519 19610 4
+2519 17791 1
+2519 8739 2
+2519 7246 6
+2519 326 5
+2519 8742 1
+2519 53 4
+2519 4653 1
+2519 782 9
+2519 7223 2
+2519 8465 2
+2519 21950 1
+19669 1729 1
+19669 713 2
+19669 332 3
+19669 2435 1
+19669 712 2
+19669 5290 4
+19669 4653 2
+19669 53 1
+19669 2513 3
+19669 107 1
+19669 782 3
+19669 2519 3
+53412 41995 2
+53412 1735 1
+53412 332 1
+53412 13414 2
+53412 669 4
+53412 782 2
+53412 330 1
+53412 2519 1
+10772 669 1
+48090 7225 2
+48090 332 2
+48090 669 1
+48090 53 1
+48090 330 2
+40354 332 1
+40354 669 1
+40354 330 2
+20037 332 3
+20037 669 1
+34070 334 2
+34070 669 1
+64699 5575 3
+64699 332 2
+64699 327 1
+64699 669 1
+64699 53 3
+64699 556 1
+64699 330 2
+20047 2516 1
+20047 42522 5
+20047 332 2
+20047 2513 2
+64700 42522 5
+64700 2513 2
+8399 7225 2
+8399 669 1
+8399 53 3
+8399 2435 3
+8399 556 4
+8399 8215 1
+42522 2513 8
+42522 2519 2
+30840 17883 2
+30840 17879 1
+30840 334 5
+30840 7225 2
+30840 336 1
+30840 34388 9
+30840 326 2
+30840 17885 1
+30840 34385 1
+30840 17882 2
+30840 34384 2
+30840 53 3
+30840 7223 2
+30840 332 4
+30840 12204 2
+30840 34387 1
+30840 34386 1
+30840 669 3
+30840 341 1
+15731 344 6
+15731 332 19
+15731 356 1
+15731 57637 2
+15731 328 41
+15731 357 9
+51612 8279 1
+18635 18642 1
+51613 17879 9
+51613 8211 1
+51613 53 1
+18642 8211 1
+17879 28832 1
+333 8744 1
+333 8743 1
+333 8739 5
+333 4653 4
+333 53 1
+333 8740 2
+333 326 2
+333 8742 2
+333 2519 36
+107 782 7
+8280 17879 9
+8280 53 1
+8280 1349 1
+8215 8278 1
+8215 8277 1
+8215 2511 1
+8215 336 1
+8215 8281 2
+8215 2513 1
+8215 8280 3
+8215 2515 1
+8215 553 2
+17226 607 2
+17226 330 3
+17227 607 2
+17227 25158 3
+14126 14125 3
+14126 607 2
+9734 607 2
+17228 607 2
+17228 332 3
+17228 53 2
+17229 20032 3
+17229 607 2
+17230 607 2
+17230 25847 3
+17231 607 2
+9018 607 2
+17232 607 2
+23670 607 15
+23670 606 1
+4892 607 2
+3035 607 4
+3035 332 1
+3035 1349 2
+2085 607 2
+24008 77717 8
+24008 713 1
+24008 2435 2
+24008 96 2
+24008 4653 2
+24008 9053 2
+24008 107 1
+24008 330 2
+24008 782 1
+24008 2513 1
+24008 2519 5
+607 53 1
+2435 77717 4
+2435 2515 1
+2435 553 1
+2435 2516 1
+2435 2511 1
+2435 2513 13
+2435 2518 1
+2435 2519 2
+62585 18945 2
+62585 8278 1
+62585 8277 1
+62585 2511 1
+62585 336 1
+62585 2513 1
+62585 49745 3
+62585 2515 1
+62585 553 2
+20184 712 2
+755 337 18
+755 327 16
+755 1313 2
+334 1117 17
+334 327 3
+334 28603 12
+334 755 15
+334 556 17
+334 553 2
+28603 755 13
+18848 334 16
+18848 755 2
+18848 556 1
+4716 337 2
+4716 98 15
+6617 106 3
+6617 3824 1
+6617 336 1
+6617 5271 2
+97 5270 1
+97 106 3
+97 3824 1
+97 336 1
+97 5271 2
+42733 1117 4
+42733 106 4
+42733 3824 10
+42733 45227 9
+3824 713 7
+3824 41894 2
+3824 712 2
+713 712 2
+106 1117 106
+106 3824 37
+106 713 2
+106 3820 41
+45227 1117 6
+45227 106 2
+45227 3824 5
+3820 755 13
+19092 337 3
+19092 98 16
+5270 5271 4
+5270 98 1
+5271 5270 1
+41894 1117 6
+21959 5575 5
+21959 22026 6
+54227 106 3
+54227 3824 1
+54227 336 1
+54227 5271 2
+98 337 4
+98 755 17
+11323 98 13
+26037 17882 2
+26037 26046 1
+26037 2519 1
+27374 17883 1
+27374 26046 1
+27374 2519 1
+17791 17884 2
+17791 17883 6
+17791 17879 1
+17791 7225 1
+17791 710 2
+17791 5308 3
+17791 17885 1
+17791 17882 6
+17791 7223 3
+35237 17882 3
+35237 2519 1
+54646 17883 2
+54646 17879 1
+54646 2519 1
+17884 17883 1
+17884 54646 1
+17884 35237 1
+17884 26037 2
+17884 17882 1
+17884 27374 2
+17884 7223 4
+17882 27382 2
+17882 27396 2
+17883 27382 2
+17883 17879 3
+34384 334 3
+34384 331 1
+34384 332 3
+34384 4702 1
+34384 556 1
+34384 40608 18
+34384 27382 1
+34384 8510 1
+34384 27396 3
+34384 53 1
+34384 21732 1
+34384 330 2
+7223 2519 2
+12204 53 2
+34385 27382 1
+34385 26037 1
+34386 34384 2
+34386 27374 1
+17885 7225 2
+17885 7223 2
+61571 334 6
+61571 331 1
+61571 27396 3
+61571 332 34
+61571 34384 38
+61571 4702 1
+61571 330 4
+70837 17883 4
+70837 17879 2
+70837 34386 2
+70837 332 3
+70837 34384 2
+41740 17885 1
+24644 17914 1
+3308 331 1
+3308 335 6
+50223 106 5
+50223 3811 2
+50223 334 3
+50223 3824 1
+50223 713 3
+50223 332 2
+50223 712 6
+50223 2261 2
+50223 95 5
+50223 5274 4
+50223 714 1
+50223 93 2
+50223 782 1
+50223 711 1
+50223 2519 1
+8465 30840 1
+8465 2519 8
+60020 3906 4
+50224 1117 1
+335 2756 1
+335 93 1
+335 327 6
+7224 7711 1
+8510 40608 13
+8510 331 2
+8510 332 2
+8510 53 2
+8510 556 1
+17914 53 1
+17914 24644 1
+17914 556 1
+7225 1729 4
+336 334 7
+336 8277 1
+336 1729 1
+336 2435 2
+336 556 1
+336 62585 1
+336 553 6
+336 1154 1
+336 7237 2
+336 782 2
+336 2513 1
+336 8215 1
+336 6216 1
+336 2519 9
+62379 20084 1
+20084 20102 2
+20084 331 2
+20102 53 3
+20102 556 2
+20102 553 19
+2135 20102 1
+2135 33520 2
+2135 53 1
+2135 2093 4
+358 1117 16
+358 337 38
+358 5575 2
+358 755 6
+358 15249 16
+5576 337 2
+5576 336 1
+5576 757 2
+739 337 2
+739 336 1
+739 757 2
+739 759 1
+1853 1117 4
+1853 337 21
+1853 44393 9
+1853 358 13
+33084 1136 1
+33084 1119 1
+33084 1131 7
+33084 755 2
+33084 1137 3
+33084 337 5
+33084 1120 6
+33084 2511 4
+33084 358 5
+33084 1122 1
+33084 1130 12
+337 1313 4
+337 759 1
+14719 337 24
+14719 5575 1
+14719 358 1
+20860 1121 1
+20860 1120 16
+20860 11121 2
+20860 2511 3
+20860 1157 3
+20860 1130 4
+20860 1140 2
+20860 11120 4
+20860 1127 1
+20860 1135 1
+20860 1138 1
+20860 739 1
+20860 759 2
+20860 6220 2
+20860 1137 5
+20860 337 5
+20860 1122 1
+44393 1117 6
+44393 337 12
+44393 358 7
+15249 1117 3
+15249 337 4
+15249 5575 2
+759 757 4
+759 755 1
+757 759 1
+5577 337 2
+5577 336 1
+5577 757 2
+24715 337 2
+24715 336 1
+24715 757 2
+24715 5577 1
+50225 337 3
+50225 5576 4
+1849 1117 7
+1849 1145 1
+1849 1144 1
+1849 5580 1
+1849 1137 6
+1849 338 2
+1849 1853 4
+1849 337 1
+1849 1148 1
+1849 358 5
+1849 1146 1
+1849 6327 1
+1849 1141 2
+6216 1145 3
+6216 334 7
+6216 1153 2
+6216 755 2
+6216 340 2
+6216 5580 1
+6216 1137 1
+6216 1154 8
+6216 358 8
+6216 5581 1
+1118 5578 1
+1118 1120 9
+1118 337 3
+1118 755 1
+1118 1313 1
+1118 1130 5
+11119 5578 2
+11119 757 1
+11119 1130 1
+1119 5578 1
+1119 1120 8
+1119 337 3
+1119 755 1
+1119 1313 1
+1119 1130 4
+11120 5578 1
+11120 337 4
+11120 755 1
+11120 1313 1
+11120 1130 12
+1120 1130 6
+1121 5578 1
+1121 1131 1
+1121 755 1
+1121 1313 1
+1121 337 2
+1121 782 4
+1121 1157 5
+1121 1130 6
+6270 1130 2
+1122 5578 1
+1122 337 1
+1122 755 1
+1122 1313 1
+1122 556 1
+1122 6270 2
+1122 6216 1
+6220 5578 1
+6220 755 4
+6220 1313 1
+6220 556 1
+6220 6270 2
+6220 337 2
+6220 1154 18
+6220 358 2
+6220 1130 6
+1123 5578 1
+1123 1120 9
+1123 337 3
+1123 755 1
+1123 1313 1
+1123 1130 5
+1124 5578 1
+1124 1120 8
+1124 337 3
+1124 755 1
+1124 1313 1
+1124 1130 4
+13259 5275 3
+13259 106 12
+13259 5309 1
+13259 1121 3
+13259 5272 1
+13259 5273 1
+13259 2261 2
+13259 95 14
+13259 3820 9
+13259 1120 8
+13259 93 13
+13259 11121 4
+13259 7227 1
+13259 1157 6
+13259 1130 15
+13259 5578 2
+13259 11120 4
+13259 5298 1
+13259 1127 1
+13259 1153 3
+13259 556 2
+13259 712 27
+13259 5283 1
+13259 5285 1
+13259 2262 1
+13259 1137 11
+13259 337 6
+13259 5287 1
+13259 669 1
+13259 5295 1
+13259 13416 2
+13259 684 1
+13259 5282 1
+13259 3811 4
+13259 5305 2
+13259 713 26
+13259 5297 1
+13259 5274 4
+13259 5289 1
+13259 2900 1
+13259 5294 1
+13259 13415 3
+13259 5299 1
+13259 5278 1
+13259 5291 2
+13259 1140 6
+13259 2265 2
+13259 1135 1
+13259 757 1
+13259 6220 2
+13259 11122 1
+13259 2264 5
+13259 5288 1
+13259 714 7
+13259 5576 1
+13259 1122 2
+13259 2519 3
+1125 5578 1
+1125 1120 8
+1125 337 3
+1125 755 1
+1125 1313 1
+1125 1130 4
+1126 5578 1
+1126 1120 8
+1126 337 3
+1126 755 1
+1126 1313 1
+1126 1130 4
+1127 5578 1
+1127 337 2
+1127 755 1
+1127 1313 1
+1127 1157 5
+1127 1130 2
+1128 5578 1
+1128 1120 8
+1128 337 3
+1128 755 1
+1128 1313 1
+1128 1130 4
+1129 5578 1
+1129 1120 8
+1129 337 3
+1129 755 1
+1129 1313 1
+1129 1130 4
+1130 337 2
+1130 1131 1
+1130 556 1
+1131 1850 2
+1131 1117 1
+1131 337 1
+1131 755 1
+1131 358 10
+1131 1130 1
+5578 1136 1
+5578 1123 1
+5578 1121 1
+5578 1139 1
+5578 755 1
+5578 1125 1
+5578 11121 1
+5578 7227 1
+5578 1133 1
+5578 11120 1
+5578 1140 1
+5578 1119 1
+5578 1129 1
+5578 1132 1
+5578 1127 1
+5578 1135 1
+5578 1128 1
+5578 1138 1
+5578 757 1
+5578 6220 1
+5578 1134 1
+5578 759 2
+5578 11122 1
+5578 1137 1
+5578 1118 1
+5578 1126 1
+5578 1124 1
+5578 1122 1
+11121 5578 1
+11121 755 1
+11121 1313 1
+11121 556 1
+11121 6270 2
+11121 337 4
+11121 1154 1
+11121 358 2
+11121 1130 3
+1132 5578 1
+1132 1120 9
+1132 337 3
+1132 755 1
+1132 1313 1
+1132 1130 5
+1133 5578 1
+1133 1120 9
+1133 337 3
+1133 755 1
+1133 1313 1
+1133 1130 5
+11122 5578 1
+11122 337 2
+11122 755 1
+11122 1313 1
+11122 1157 5
+11122 1130 3
+1134 5578 1
+1134 1120 8
+1134 337 3
+1134 755 1
+1134 1313 1
+1134 1130 4
+1135 5578 1
+1135 337 2
+1135 755 1
+1135 1313 1
+1135 1157 5
+1135 1130 2
+1136 5578 1
+1136 1120 8
+1136 337 3
+1136 755 1
+1136 1313 1
+1136 1130 4
+1137 19092 4
+1137 5578 1
+1137 1145 1
+1137 1153 10
+1137 755 3
+1137 1313 1
+1137 556 1
+1137 6270 5
+1137 337 11
+1137 1154 22
+1137 358 1
+1137 5581 2
+1137 1130 3
+1138 5578 1
+1138 1120 8
+1138 337 3
+1138 755 1
+1138 1313 1
+1138 1130 4
+7227 5578 1
+7227 1140 3
+7227 1153 2
+7227 755 1
+7227 1313 1
+7227 556 1
+7227 337 9
+7227 1154 1
+7227 358 2
+7227 782 1
+7227 1122 1
+7227 1130 1
+1139 5578 1
+1139 1120 9
+1139 337 3
+1139 755 1
+1139 1313 1
+1139 1130 5
+1157 1130 4
+1140 334 5
+1140 7225 2
+1140 755 3
+1140 1154 2
+1140 50222 2
+1140 782 11
+1140 6216 2
+1140 1130 7
+1140 5578 1
+1140 1131 1
+1140 29278 2
+1140 556 5
+1140 1313 1
+1140 337 3
+1140 669 6
+1140 358 2
+1140 2519 4
+5579 1145 1
+5579 29953 1
+5579 5580 1
+5579 6327 1
+5579 5581 2
+5579 1117 4
+5579 5578 1
+5579 1131 1
+5579 1153 1
+5579 6326 1
+5579 757 3
+5579 1144 1
+5579 759 7
+5579 1152 2
+5579 338 1
+5579 337 1
+5579 1148 1
+5579 1146 2
+5579 1141 1
+6292 1153 1
+6292 757 1
+6292 1152 2
+7228 1145 1
+7228 5576 1
+7228 358 4
+7228 1152 2
+75879 11119 2
+75879 5577 1
+75879 1130 1
+44050 11119 2
+44050 5577 1
+44050 1130 2
+9445 38577 2
+9445 14698 1
+9445 9446 1
+9445 38574 1
+9445 3513 4
+9445 17534 1
+9445 38578 1
+9445 38579 1
+9445 29254 1
+9445 16970 1
+9445 9447 1
+9445 38576 1
+9445 28700 1
+9445 3511 1
+9445 35872 1
+9445 3515 7
+9445 38575 1
+9445 32611 1
+1850 1117 4
+1850 1145 1
+1850 6326 1
+1850 1144 1
+1850 759 2
+1850 5580 1
+1850 338 1
+1850 337 3
+1850 1148 1
+1850 1146 1
+1850 6327 1
+1850 1141 1
+3509 759 1
+3510 18555 1
+3510 759 1
+18555 44050 4
+18555 19092 2
+18555 1145 2
+18555 29953 2
+18555 1142 1
+18555 5580 3
+18555 1154 2
+18555 1150 1
+18555 6328 1
+18555 6327 2
+18555 5581 3
+18555 1130 1
+18555 1117 2
+18555 6326 2
+18555 1153 16
+18555 757 2
+18555 1144 2
+18555 1152 2
+18555 759 6
+18555 338 2
+18555 1147 1
+18555 1143 1
+18555 1148 2
+18555 1149 1
+18555 1151 1
+18555 5576 1
+18555 1146 3
+18555 1141 2
+89126 344 11
+89126 328 2
+35721 1873 1
+35721 344 7
+35721 1966 1
+35721 328 2
+35721 357 1
+18556 1145 1
+18556 5580 2
+18556 6328 1
+18556 6327 2
+18556 75879 8
+18556 5581 1
+18556 1130 1
+18556 1117 1
+18556 6326 1
+18556 1153 11
+18556 757 2
+18556 1144 1
+18556 759 10
+18556 1152 2
+18556 338 1
+18556 1147 1
+18556 1148 1
+18556 1151 1
+18556 5576 1
+18556 1146 2
+18556 1141 2
+1141 1117 18
+1141 1153 6
+1141 1131 1
+1141 755 4
+1141 340 2
+1141 1152 1
+1141 1154 6
+1141 358 2
+1141 1130 4
+1142 1154 4
+1142 1153 6
+1142 755 1
+1142 340 1
+1142 1152 1
+29953 1117 8
+29953 1153 4
+29953 1131 1
+29953 340 2
+29953 1152 1
+29953 759 1
+29953 337 1
+29953 358 1
+1143 337 1
+1143 1153 4
+1143 755 1
+1143 358 1
+1143 340 2
+1143 1152 1
+1144 337 1
+1144 1153 5
+1144 1131 6
+1144 755 1
+1144 358 1
+1144 340 5
+1144 1152 1
+1145 1153 4
+1145 755 1
+1145 340 4
+1145 1152 1
+1145 759 1
+1145 1137 2
+1145 337 3
+1145 1154 1
+1145 5575 2
+1145 358 1
+5580 1154 32
+5580 1153 4
+5580 755 2
+5580 1152 1
+5580 1130 2
+5581 337 2
+5581 1145 5
+5581 1154 9
+5581 1153 6
+5581 755 1
+5581 340 1
+5581 1152 1
+5581 1137 23
+5581 1130 1
+338 1117 12
+338 1154 4
+338 1153 7
+338 755 2
+338 358 1
+338 340 3
+338 1152 1
+1146 337 1
+1146 1153 6
+1146 1131 5
+1146 755 1
+1146 358 1
+1146 340 4
+1146 1152 1
+1147 334 1
+1147 1729 1
+1147 1153 4
+1147 336 1
+1147 755 4
+1147 340 2
+1147 1152 1
+1147 337 1
+1147 1154 19
+1147 2513 5
+1147 107 8
+1147 782 1
+1147 6216 2
+1147 2519 1
+19409 1153 3
+19409 755 1
+19409 1152 1
+6326 1154 6
+6326 1153 5
+6326 755 1
+6326 1152 1
+6326 1130 1
+1148 24765 2
+1148 8108 4
+1148 1153 4
+1148 1131 1
+1148 755 2
+1148 340 1
+1148 1152 1
+1148 759 1
+1148 1137 6
+1148 337 2
+1148 1154 1
+1148 358 2
+1148 782 5
+1149 1153 4
+1149 755 1
+1149 1152 1
+6327 1154 3
+6327 1153 6
+6327 1131 5
+6327 755 1
+6327 340 2
+6327 1152 1
+6327 1130 1
+1150 8108 3
+1150 1153 4
+1150 755 1
+1150 340 1
+1150 107 8
+1150 1152 1
+6328 1154 10
+6328 1153 3
+6328 17791 3
+6328 755 1
+6328 340 1
+6328 7223 3
+6328 1152 1
+15250 1154 1
+15250 340 1
+15250 107 2
+15250 2519 1
+15250 1147 2
+1151 1153 12
+1151 755 4
+1151 340 1
+1151 1152 1
+1151 1154 15
+1151 5575 2
+1151 358 1
+1151 1130 1
+14065 5306 4
+14065 106 50
+14065 1142 2
+14065 3812 2
+14065 95 51
+14065 3820 30
+14065 5292 2
+14065 782 2
+14065 6327 2
+14065 3813 4
+14065 50225 1
+14065 1144 2
+14065 1152 2
+14065 553 5
+14065 337 62
+14065 1151 1
+14065 5290 6
+14065 1146 4
+14065 5293 1
+14065 3811 2
+14065 1145 3
+14065 3824 1
+14065 5308 1
+14065 1154 3
+14065 1150 8
+14065 6328 3
+14065 53 5
+14065 5286 3
+14065 50223 1
+14065 5581 4
+14065 1117 6
+14065 5296 3
+14065 5304 4
+14065 333 1
+14065 6326 15
+14065 5276 4
+14065 332 2
+14065 327 7
+14065 757 14
+14065 5279 8
+14065 1313 1
+14065 714 41
+14065 5576 1
+14065 3816 14
+14065 1116 3
+14065 2519 4
+14065 3362 11
+14065 50224 1
+14065 2261 4
+14065 5580 2
+14065 93 84
+14065 50222 6
+14065 6216 3
+14065 19409 3
+14065 1153 79
+14065 712 51
+14065 338 12
+14065 1137 7
+14065 3819 1
+14065 1143 1
+14065 1148 7
+14065 1149 1
+14065 5307 2
+14065 358 3
+14065 107 1
+14065 1141 8
+14065 334 7
+14065 24715 7
+14065 713 50
+14065 336 1
+14065 755 5
+14065 3814 7
+14065 5284 1
+14065 3036 13
+14065 5278 1
+14065 13259 7
+14065 96 8
+14065 3817 4
+14065 759 16
+14065 1147 6
+14065 5280 1
+14065 50226 2
+340 1853 1
+340 1850 4
+340 337 1
+340 1849 1
+340 1153 2
+340 358 6
+340 1848 2
+7229 1150 2
+7229 358 2
+7229 340 2
+7229 107 4
+7229 1147 2
+1152 1145 1
+1152 29953 1
+1152 755 1
+1152 1142 1
+1152 5580 1
+1152 1150 1
+1152 6328 1
+1152 6327 1
+1152 5581 1
+1152 19409 1
+1152 6326 1
+1152 757 1
+1152 1144 1
+1152 759 2
+1152 338 1
+1152 1147 1
+1152 1143 1
+1152 1148 1
+1152 1149 1
+1152 1151 1
+1152 1146 1
+1152 1141 1
+1153 337 3
+1153 1154 6
+1153 1130 1
+1154 755 5
+50226 3362 1
+50226 24765 1
+50226 1145 3
+50226 8108 1
+50226 755 2
+50226 759 1
+50226 337 2
+50226 1148 1
+50226 45037 2
+48299 1873 1
+48299 1967 1
+48299 93 1
+48299 358 1
+48299 328 4
+48299 357 3
+29254 27223 2
+3511 27223 2
+26858 337 6
+26858 1154 3
+26858 755 1
+26858 24070 2
+26858 759 1
+26858 14719 9
+26858 1147 1
+16963 1145 5
+16963 755 1
+16963 5580 12
+16963 1154 13
+16963 5575 2
+16963 6216 2
+16963 5581 2
+16963 5577 1
+16963 1153 6
+16963 340 1
+16963 1152 2
+16963 1137 8
+16963 1147 5
+16963 337 9
+16963 1149 2
+16963 358 20
+27802 5578 2
+27802 337 1
+27802 755 8
+27802 5577 1
+27802 1130 8
+27802 1122 122
+12177 337 1
+12177 755 3
+12177 1130 2
+27367 337 1
+27367 1131 1
+27367 755 1
+27367 358 2
+27276 5578 2
+27276 27367 9
+27276 27366 13
+27276 759 1
+27276 337 17
+27276 1120 12
+27276 12177 7
+27276 1130 8
+27276 5577 1
+38574 1145 1
+38574 3515 3
+38574 358 1
+38574 340 1
+32611 1145 1
+32611 3515 2
+32611 1144 1
+32611 358 3
+32611 340 1
+14698 3515 2
+14698 358 1
+14698 340 1
+14698 1141 1
+38575 3515 3
+38575 340 1
+18557 759 1
+18557 2519 2
+35872 3515 2
+35872 1146 1
+35872 358 1
+35872 340 1
+9446 18967 2
+9446 358 1
+9446 340 1
+9446 1147 5
+27366 337 2
+27366 755 2
+27366 1130 5
+28700 3515 2
+28700 1144 1
+28700 358 1
+28700 340 1
+3512 337 2
+3512 1154 4
+3512 1153 2
+3512 759 2
+3512 14719 5
+17534 3515 2
+17534 1144 1
+17534 358 1
+17534 340 1
+38576 1145 1
+38576 3515 2
+38576 358 1
+38576 340 1
+38576 14719 1
+17579 5578 2
+17579 1136 1
+17579 1129 1
+17579 1119 1
+17579 1135 3
+17579 1128 1
+17579 1125 1
+17579 1134 1
+17579 337 5
+17579 1120 16
+17579 1126 1
+17579 1124 1
+17050 1145 3
+17050 1140 1
+17050 1131 1
+17050 358 2
+17050 5580 3
+38577 3515 2
+38577 2513 1
+38577 1144 1
+38577 358 1
+38577 340 1
+38577 1147 2
+16970 1145 1
+16970 3515 2
+16970 358 1
+16970 340 1
+9447 3515 2
+9447 1144 1
+9447 358 1
+9447 340 1
+38578 3515 2
+38578 1144 1
+38578 358 1
+38578 340 1
+38579 18967 2
+38579 1154 3
+38579 1153 1
+38579 6328 4
+38579 358 1
+38579 340 1
+18967 3515 2
+18967 1154 1
+18967 1153 4
+27223 3515 2
+7230 44871 2
+7230 7221 2
+7230 5576 1
+7230 5579 2
+7230 340 1
+7230 759 1
+7231 5576 2
+7231 5579 2
+44871 1145 2
+44871 5580 7
+44871 98 3
+44871 1154 28
+44871 45037 2
+44871 6328 2
+44871 782 10
+44871 7223 1
+44871 6327 2
+44871 5581 7
+44871 1130 2
+44871 1117 2
+44871 6326 1
+44871 1153 8
+44871 1131 1
+44871 757 2
+44871 1144 1
+44871 1152 2
+44871 759 4
+44871 1147 3
+44871 338 1
+44871 1137 1
+44871 337 4
+44871 1151 1
+44871 1148 1
+44871 5576 1
+44871 358 2
+44871 107 2
+44871 1146 2
+44871 1141 3
+5481 5582 1
+5481 5578 2
+5481 1145 2
+5481 340 1
+5481 5580 2
+5481 1137 7
+5481 337 1
+5481 358 2
+5481 5581 2
+5481 5577 1
+5520 5582 1
+5520 5578 2
+5520 5577 1
+5520 1137 5
+5543 1145 1
+5543 5481 1
+5543 5520 1
+5543 757 2
+5543 759 3
+5543 5580 1
+5543 1137 1
+5543 98 1
+5543 5576 1
+5543 5579 2
+5543 358 5
+29954 1145 1
+29954 29953 1
+29954 755 2
+29954 5580 7
+29954 98 4
+29954 1154 6
+29954 5581 3
+29954 5582 1
+29954 1117 7
+29954 6326 4
+29954 1131 5
+29954 1153 3
+29954 757 2
+29954 759 3
+29954 1152 2
+29954 338 1
+29954 1137 24
+29954 337 2
+29954 1148 4
+29954 5576 1
+29954 358 13
+29954 1141 2
+5582 337 1
+5582 1154 2
+5582 5575 2
+5582 1153 1
+5582 1131 1
+5582 1137 11
+7232 5576 1
+7232 1146 1
+7232 1144 2
+7232 1152 2
+7232 759 2
+7232 5577 2
+7232 98 2
+7233 5576 2
+7233 5579 2
+7233 2519 2
+7234 19092 1
+7234 1145 1
+7234 1154 5
+7234 5576 1
+7234 1153 4
+7234 1152 2
+7234 759 1
+18558 1152 2
+18558 98 1
+18558 337 4
+18558 1148 1
+18558 1150 1
+18558 5576 1
+18558 358 2
+18558 6327 1
+18558 1122 1
+18559 5576 1
+18559 1153 2
+18559 1152 2
+10825 1121 2
+10825 334 36
+10825 755 7
+10825 3820 1
+10825 4716 19
+10825 1120 45
+10825 7221 24
+10825 1154 3
+10825 11121 2
+10825 5575 2
+10825 782 23
+10825 1157 8
+10825 6216 5
+10825 5577 1
+10825 1130 43
+10825 5578 2
+10825 11120 22
+10825 1140 20
+10825 1153 4
+10825 556 28
+10825 6220 1
+10825 759 1
+10825 337 2
+10825 669 1
+10825 1122 5
+10825 2519 1
+7235 1121 2
+7235 1142 2
+7235 5580 5
+7235 4716 2
+7235 6327 3
+7235 1130 12
+7235 1153 27
+7235 1131 2
+7235 556 11
+7235 1144 3
+7235 1152 2
+7235 338 12
+7235 1137 2
+7235 337 3
+7235 1143 2
+7235 1151 5
+7235 1149 2
+7235 1148 4
+7235 1146 3
+7235 358 19
+7235 1141 11
+7235 1145 6
+7235 755 26
+7235 1150 1
+7235 1154 14
+7235 7221 34
+7235 5581 3
+7235 1117 18
+7235 327 1
+7235 6326 3
+7235 340 1
+7235 759 2
+7235 10825 2
+7235 5576 1
+73882 5578 2
+73882 5576 1
+45037 1145 1
+45037 73882 2
+45037 5576 1
+45037 757 2
+45037 1152 2
+45037 759 3
+45037 5580 1
+7236 1145 2
+7236 1121 2
+7236 1153 3
+7236 340 1
+7236 1152 2
+7236 5580 4
+7236 1137 1
+7236 337 1
+7236 1151 3
+7236 1154 9
+7236 5576 1
+7236 358 3
+7236 5581 1
+7236 1122 1
+3513 3515 4
+3513 12816 3
+3515 337 2
+3515 12816 1
+3515 14719 1
+41031 7237 6
+41031 2513 2
+41031 2519 2
+15838 8310 3
+15838 1313 1
+29957 8310 3
+29957 1313 1
+15274 8310 3
+15274 1313 1
+8296 8310 4
+8296 1153 1
+8296 7227 4
+8296 1313 2
+29278 1136 1
+29278 1142 3
+29278 5580 10
+29278 4653 1
+29278 782 19
+29278 7223 13
+29278 6327 7
+29278 1130 19
+29278 11120 1
+29278 1129 2
+29278 19409 1
+29278 1153 23
+29278 1131 15
+29278 5543 2
+29278 1144 14
+29278 712 2
+29278 15274 1
+29278 1137 48
+29278 338 6
+29278 29954 1
+29278 337 54
+29278 1143 2
+29278 1151 1
+29278 1149 1
+29278 1148 12
+29278 29952 1
+29278 19093 20
+29278 2513 1
+29278 1146 10
+29278 330 2
+29278 107 2
+29278 358 33
+29278 1141 7
+29278 341 2
+29278 1145 17
+29278 29953 7
+29278 713 4
+29278 17050 1
+29278 755 16
+29278 1154 12
+29278 1150 2
+29278 29957 2
+29278 6328 1
+29278 53 1
+29278 5581 11
+29278 1117 22
+29278 1140 8
+29278 18555 3
+29278 7238 5
+29278 6326 5
+29278 332 2
+29278 1135 1
+29278 1313 55
+29278 340 25
+29278 759 3
+29278 29958 2
+29278 8763 7
+29278 1147 2
+29278 29956 1
+29278 29955 4
+29278 5579 1
+29278 2519 21
+29278 1122 4
+29956 8310 3
+29956 1313 1
+29956 1130 4
+341 755 4
+341 1313 1
+15837 19390 1
+15837 7238 1
+15837 29278 1
+15837 15840 4
+15837 15836 2
+15837 358 1
+15837 340 1
+19093 8310 4
+19093 1313 2
+19389 19611 3
+19389 19390 1
+19389 7238 3
+19389 3305 4
+19389 19610 2
+19389 2519 4
+19389 341 11
+3294 3305 1
+8310 1313 5
+8763 8310 3
+8763 1313 1
+7237 19390 1
+7237 7238 7
+7237 333 2
+7237 1313 1
+7237 340 1
+7237 328 5
+7237 8744 1
+7237 3305 3
+7237 1154 1
+7237 19389 5
+7237 53 1
+7237 2519 4
+7237 341 15
+7237 1971 4
+15835 25359 1
+19390 25359 1
+7238 29278 1
+7238 1153 1
+7238 1313 2
+7238 340 1
+7238 337 1
+7238 1150 1
+7238 107 1
+7238 358 2
+7238 782 3
+7238 3294 1
+7238 2519 11
+7238 1971 3
+1313 3305 6
+29955 7223 3
+29955 2519 3
+29955 341 1
+15799 15835 1
+15799 7238 1
+15799 15837 4
+15799 15836 2
+19048 19092 3
+19048 340 1
+19048 759 2
+19048 5576 1
+19048 15837 1
+19048 19093 2
+19048 358 1
+19048 7231 1
+50779 4716 2
+50779 755 9
+50779 328 21
+88793 15837 4
+88793 344 2
+88793 336 1
+88793 328 8
+88793 357 3
+73044 19390 1
+73044 15835 1
+61420 1873 2
+61420 19390 1
+61420 7238 1
+61420 15836 3
+61420 328 5
+61420 357 2
+61420 15835 2
+61420 1966 1
+56167 15837 1
+56167 7233 1
+56167 358 9
+56167 340 1
+56167 759 1
+56167 2519 2
+25830 19092 2
+25830 15837 1
+25830 340 1
+25830 7234 1
+25830 759 1
+60160 15837 1
+60160 358 12
+60160 340 1
+60160 759 4
+60160 7236 4
+15839 8310 3
+15839 1313 1
+788 1136 1
+788 1120 11
+788 1155 12
+788 1157 5
+788 1130 1
+788 331 6
+788 1127 1
+788 1153 5
+788 1131 2
+788 1144 7
+788 556 3
+788 1152 2
+788 1137 7
+788 338 12
+788 337 1
+788 1143 3
+788 1151 2
+788 1148 2
+788 1146 4
+788 358 6
+788 330 30
+788 4 10
+788 1141 10
+788 1145 2
+788 755 8
+788 1154 12
+788 53 2
+788 1117 6
+788 1119 1
+788 332 15
+788 1135 1
+788 1147 2
+788 1116 3
+788 1122 2
+3870 337 1
+3870 3906 1
+3870 3036 1
+3870 1142 1
+3870 358 3
+3870 340 2
+3870 95 2
+7239 36734 3
+7239 106 2
+7239 788 5
+7239 755 1
+7239 95 5
+7239 36733 3
+7239 3906 5
+7239 53 5
+7239 18666 4
+7239 32759 1
+7239 333 1
+7239 340 4
+7239 7246 6
+7239 759 4
+7239 1147 1
+7239 5270 2
+7239 3870 1
+7239 358 1
+7239 8109 3
+7239 11317 2
+7239 2519 4
+8112 36734 3
+8112 3906 4
+8112 1154 3
+8112 93 1
+8112 8109 4
+8112 330 2
+8112 2519 2
+36734 106 1
+36734 95 3
+36734 5281 1
+36734 3814 1
+36734 93 30
+36734 3036 2
+36734 94 3
+36734 5271 2
+36734 3813 1
+36734 3815 1
+36734 8112 20
+36734 5270 5
+36734 5307 1
+36734 8109 2
+36734 2519 2
+36734 97 2
+18666 755 4
+18666 95 2
+18666 18800 4
+18666 3906 4
+18666 5575 1
+18666 1155 1
+18666 1153 2
+18666 7239 21
+18666 340 2
+18666 1152 2
+18666 1147 5
+18666 358 6
+18666 330 6
+18666 8109 4
+18666 1141 6
+18666 2519 2
+36733 36734 4
+36733 106 2
+36733 7711 1
+36733 1729 1
+36733 95 10
+36733 7219 2
+36733 6615 4
+36733 6548 2
+36733 92 3
+36733 2516 1
+36733 6625 5
+36733 4653 1
+36733 53 1
+36733 1117 2
+36733 333 1
+36733 7239 1
+36733 96 1
+36733 1147 2
+36733 5270 2
+36733 5290 4
+36733 8109 1
+36733 107 5
+36733 2519 4
+18560 5576 1
+18560 1152 2
+18560 1141 1
+18560 338 1
+11317 3036 1
+11317 94 2
+11317 95 1
+11317 97 1
+32759 1145 2
+32759 1153 12
+32759 755 2
+32759 556 1
+32759 340 4
+32759 1147 1
+32759 337 8
+32759 18800 3
+32759 1150 2
+32759 1154 5
+32759 358 6
+32759 1146 1
+4 55 1
+18800 337 3
+18800 3906 1
+18800 1153 1
+1155 337 2
+1155 336 1
+1155 757 2
+1155 759 1
+1155 739 1
+76098 334 2
+76098 332 2
+76098 669 2
+76098 53 3
+21390 334 3
+21390 669 2
+39054 334 3
+39054 669 2
+15363 334 3
+15363 669 2
+46260 334 3
+46260 669 2
+38353 334 3
+38353 669 2
+84362 334 2
+84362 669 1
+84362 53 2
+50857 334 4
+50857 755 1
+50857 1341 1
+50857 1340 1
+50857 20793 1
+50857 1331 1
+50857 53 6
+50857 20802 1
+50857 20764 1
+50857 1342 1
+50857 20801 1
+50857 332 3
+50857 556 5
+50857 16646 1
+50857 25211 1
+50857 669 3
+50857 330 2
+50857 612 1
+50857 11368 1
+50857 19931 1
+49618 334 11
+49618 332 2
+49618 755 1
+49618 669 1
+49618 53 1
+49618 556 2
+49618 330 2
+89267 50857 124
+89267 334 8
+89267 331 2
+89267 332 290
+89267 53 10
+89267 330 108
+87180 334 19
+87180 332 36
+87180 53 2
+87180 330 16
+87180 49618 10
+27717 334 6
+27717 669 3
+24553 334 6
+24553 669 2
+24554 334 4
+24554 669 2
+24555 334 4
+24555 669 2
+24555 556 1
+3167 334 6
+3167 669 2
+39008 334 6
+39008 669 2
+39732 334 6
+39732 669 2
+33461 334 6
+33461 669 2
+39733 334 6
+39733 669 2
+39734 334 6
+39734 669 2
+9024 334 4
+9024 669 2
+9024 7578 1
+46269 334 4
+46269 669 2
+46269 7578 1
+61808 334 4
+61808 669 2
+61808 7578 1
+7562 334 4
+7562 669 2
+7562 7578 1
+41127 334 4
+41127 669 2
+41127 7578 1
+35809 334 4
+35809 669 2
+35809 7578 1
+15469 334 4
+15469 669 2
+15469 7578 1
+24757 334 3
+24757 669 3
+24758 334 3
+24758 669 3
+24759 334 3
+24759 669 3
+33408 334 8
+33408 669 2
+33408 556 1
+28392 3428 1
+3423 3428 1
+33409 3428 1
+33410 9745 1
+37727 334 3
+37727 669 2
+26853 3428 1
+33411 3428 1
+33412 3428 1
+33413 3428 1
+34411 334 3
+34411 669 2
+3428 334 1
+3428 37727 1
+67202 334 3
+67202 669 2
+9745 334 1
+9745 37727 1
+41770 334 3
+41770 669 2
+11487 334 3
+11487 669 2
+64740 334 3
+64740 669 2
+10418 334 3
+10418 669 2
+25259 334 3
+25259 669 2
+57831 334 3
+57831 669 2
+37349 334 3
+37349 669 2
+9014 334 3
+9014 669 2
+33414 3428 1
+21320 3428 1
+33415 3428 1
+34412 334 3
+34412 669 2
+22601 334 3
+22601 669 2
+41771 334 3
+41771 669 2
+11488 334 3
+11488 669 2
+41571 334 3
+41571 669 2
+10419 334 3
+10419 669 2
+27990 334 3
+27990 669 2
+27794 334 3
+27794 669 2
+18645 334 3
+18645 669 2
+9015 334 3
+9015 669 2
+10813 9745 1
+9740 9745 1
+34044 334 3
+34044 669 2
+11489 334 3
+11489 669 2
+27688 334 3
+27688 669 2
+33416 3428 1
+33417 3428 1
+25239 3428 1
+5132 334 3
+5132 669 2
+11490 334 3
+11490 669 2
+73040 334 3
+73040 669 2
+11476 334 3
+11476 10417 5
+11476 669 2
+11476 556 2
+33418 334 3
+33418 10417 5
+33418 669 2
+33418 556 2
+46554 334 6
+46554 669 2
+46554 556 1
+33419 9745 1
+41783 334 3
+41783 669 2
+33420 3428 1
+33421 334 6
+33421 669 2
+33421 556 1
+33422 334 3
+33422 10417 3
+33422 669 2
+33422 556 2
+33423 334 6
+33423 669 2
+33423 556 1
+32384 3428 1
+27985 3428 1
+33424 3428 1
+33425 3428 1
+33426 3428 1
+9003 334 6
+9003 669 2
+9003 556 1
+10417 334 1
+10417 782 1
+33427 334 3
+33427 10417 3
+33427 669 2
+33427 556 2
+33428 334 6
+33428 669 2
+33428 556 1
+10404 334 4
+10404 10417 2
+10404 669 2
+10404 556 2
+27263 3428 1
+33429 3428 1
+26124 334 3
+26124 332 9
+26124 669 2
+26124 330 2
+26125 334 3
+26125 332 9
+26125 669 2
+26125 330 2
+2598 334 8
+2598 669 2
+2619 2598 2
+2620 2598 2
+15846 4675 1
+42173 4678 1
+35043 334 3
+35043 669 2
+35043 53 1
+51995 4680 1
+53129 4679 1
+32191 334 3
+32191 333 1
+32191 4653 1
+32191 669 2
+57829 4688 1
+10397 334 7
+10397 669 3
+10398 334 6
+10398 332 1
+10398 669 2
+10399 334 6
+10399 669 2
+37213 334 3
+37213 669 2
+37213 53 1
+62782 4692 1
+21332 4691 1
+89234 4700 1
+60899 334 4
+60899 669 4
+13001 4710 1
+69121 334 5
+69121 669 1
+69121 53 1
+2627 332 2
+2627 669 1
+2627 330 2
+12793 334 7
+12793 332 2
+12793 669 2
+6362 334 6
+6362 332 1
+6362 669 1
+6362 53 1
+6362 330 2
+28530 334 1
+28530 669 1
+51106 334 1
+51106 669 1
+16176 334 1
+16176 669 1
+16177 334 1
+16177 669 1
+44324 16286 3
+44324 8277 1
+44324 7225 2
+44324 332 1
+44324 755 1
+44324 25362 1
+44324 2515 2
+44324 553 7
+44324 2516 1
+44324 42885 5
+44324 2511 1
+44324 44325 5
+44324 21732 1
+44324 2513 4
+44324 2519 1
+44506 331 1
+44506 7225 8
+44506 1729 2
+44506 336 1
+44506 332 5
+44506 3659 10
+44506 553 4
+44506 2516 1
+44506 8510 1
+44506 341 1
+39938 331 1
+39938 8277 1
+39938 7225 4
+39938 1729 2
+39938 332 2
+73712 331 1
+73712 8278 1
+73712 53 2
+73712 556 2
+51305 7225 6
+51305 1729 2
+51305 336 3
+51305 332 3
+51305 2515 1
+51305 553 8
+51305 2516 1
+51305 2511 1
+51305 2513 4
+51305 341 2
+88925 51305 1
+88925 8278 4
+88925 7225 4
+88925 336 1
+88925 332 1
+88925 556 1
+88925 2515 2
+88925 553 4
+88925 2511 1
+12241 332 2
+12241 2513 1
+42754 334 1
+42754 8277 1
+42754 7225 2
+42754 332 2
+42754 31936 6
+42754 2515 1
+42754 553 7
+42754 2516 1
+42754 42885 3
+42754 2511 1
+42754 42884 4
+42754 2513 1
+42754 42883 1
+62170 331 1
+62170 7225 2
+62170 53 2
+62170 3659 3
+62170 556 1
+62170 553 1
+38643 8510 1
+38643 77717 4
+38643 3659 4
+25362 16286 1
+23532 8278 1
+23532 53 1
+85691 16163 1
+48518 3659 2
+16163 332 2
+16163 2513 1
+37648 20032 1
+37648 331 1
+37648 8277 1
+37648 332 2
+37648 37683 2
+81974 331 1
+81974 332 2
+81974 2513 1
+82041 17879 3
+82041 28832 1
+44325 755 2
+44325 782 7
+16159 16163 1
+45762 16163 1
+17494 17492 4
+17494 6174 5
+17494 553 7
+17491 17492 4
+17491 6174 3
+17315 8278 1
+17315 8277 1
+17315 7225 4
+17315 17491 3
+17315 17489 3
+17315 17492 23
+17315 17490 2
+17315 2515 1
+17315 553 5
+17315 17496 1
+17315 17494 1
+17315 2511 1
+17315 17493 1
+17315 2513 1
+17315 6174 11
+17315 17495 2
+6174 2513 1
+6174 17492 1
+6174 553 2
+46131 332 4
+46131 558 1
+46131 330 2
+15369 331 3
+15369 53 2
+17493 17489 1
+17496 15369 1
+17496 17490 1
+17489 14418 4
+17489 46131 2
+17489 332 3
+17489 17492 6
+17489 6174 1
+17495 556 3
+17495 17492 14
+17495 6174 6
+17495 553 8
+42883 42885 2
+42883 7225 4
+31936 1735 2
+31936 332 2
+42885 56505 4
+42885 7225 6
+84476 4688 1
+84476 4692 1
+84476 4680 1
+84476 332 14
+84476 4675 1
+84476 4678 1
+84476 60899 2
+85151 332 48
+85151 76098 18
+85151 330 18
+56290 669 6
+80624 669 6
+15358 669 6
+55457 669 7
+38348 669 14
+33186 33421 1
+33186 332 70
+33186 33427 1
+33186 33418 1
+33186 3428 21
+33186 9745 4
+33186 10404 1
+33186 33408 1
+33186 33422 1
+33186 9003 1
+33186 33428 1
+33186 33423 1
+33186 11476 1
+26105 26125 2
+26105 332 52
+26105 26124 2
+26105 330 8
+27708 332 8
+27708 27717 4
+24536 24553 3
+24536 24555 1
+24536 24554 1
+24536 332 8
+39710 39732 1
+39710 3167 1
+39710 332 10
+39710 33461 1
+39710 39734 1
+39710 39733 1
+61728 7562 2
+61728 332 46
+61728 7578 11
+61728 46269 2
+61728 35809 2
+61728 15469 2
+61728 41127 2
+61728 9024 2
+61728 61808 2
+24732 332 22
+24732 24758 3
+24732 24757 4
+24732 24759 4
+44703 332 8
+44703 2620 3
+44703 2619 1
+35039 669 4
+91871 4653 1
+91871 356 1
+91871 57637 2
+91871 328 7
+91871 357 1
+91871 2519 1
+10375 10399 3
+10375 332 16
+10375 10398 3
+10375 10397 3
+37209 669 2
+21325 4691 5
+21325 21332 1
+52631 669 5
+69114 332 2
+69114 69121 1
+12779 2627 1
+12779 12793 1
+12779 332 4
+6333 6362 2
+6333 332 4
+6333 330 3
+28513 28530 17
+51096 51106 1
+51096 332 2
+41985 16176 1
+41985 332 2
+16166 16177 1
+16166 332 2
+44187 782 2
+44187 328 33
+44187 357 9
+58238 331 1
+58238 328 30
+58238 357 17
+58238 2519 3
+39683 356 1
+39683 57637 2
+39683 328 7
+39683 357 11
+39683 2519 2
+49530 3600 2
+49530 328 3
+45744 3600 2
+45744 328 3
+39412 356 3
+39412 57637 2
+39412 328 9
+39412 357 3
+39412 2519 2
+16607 328 19
+16607 13034 1
+16607 357 3
+48679 328 6
+48679 13034 1
+48679 357 3
+77783 328 3
+3600 331 2
+3600 53 1
+69557 782 9
+69557 328 53
+69557 357 12
+72282 328 19
+72282 31936 5
+72282 357 6
+56575 77717 4
+56575 331 18
+56575 332 2
+56575 328 4
+56575 357 4
+56575 38643 21
+73664 44325 6
+73664 782 2
+73664 328 1
+87473 356 3
+87473 57637 2
+87473 328 7
+87473 357 3
+8956 3600 1
+8956 328 5
+8956 357 3
+3586 3600 3
+3586 328 3
+87522 77717 6
+87522 42885 8
+87522 357 1
+89000 56505 3
+89000 357 1
+35820 3600 6
+35820 328 6
+35820 357 2
+62354 328 6
+62354 357 2
+88701 3600 11
+88701 328 33
+88701 357 2
+30921 333 1
+30921 10289 1
+30921 344 17
+30921 755 3
+30921 328 12
+30921 357 51
+30921 2513 2
+30921 17495 8
+30921 2519 1
+6073 6174 33
+31507 4653 1
+31507 357 1
+31507 2519 2
+20788 356 1
+31508 334 1
+31508 333 1
+31508 31507 4
+31508 328 5
+31508 13034 3
+31508 2519 1
+13048 7240 3
+13034 7240 3
+13034 336 1
+13034 328 3
+13034 2519 1
+8815 1873 7
+8815 52113 1
+8815 7435 6
+8815 328 11
+8815 7240 6
+8815 5676 3
+8815 11492 15
+8815 1971 9
+8815 2519 5
+8816 7240 1
+8816 4653 1
+8816 8815 6
+8816 328 4
+8816 11492 15
+8816 5676 3
+8816 2519 9
+5676 1873 1
+5676 11492 1
+5676 2519 3
+11492 5676 4
+11492 2519 4
+34388 7225 2
+34388 326 2
+52113 1967 2
+52113 105 1
+52113 1969 1
+52714 334 2
+52714 5618 6
+52714 18315 1
+52714 5680 6
+51621 22355 2
+5618 5678 1
+5618 334 4
+5618 5681 2
+5618 336 2
+5618 332 2
+5618 669 1
+5618 5680 1
+5618 341 1
+5680 5618 4
+5678 1729 1
+5678 336 1
+5678 782 3
+5678 328 2
+5678 5676 4
+5678 2519 6
+5681 331 3
+5681 332 3
+5681 53 2
+5681 330 2
+13249 674 2
+13249 334 2
+13249 18315 1
+13249 53 1
+13249 22356 1
+13250 332 1
+13250 22355 2
+13250 330 1
+627 674 3
+627 334 2
+627 669 1
+671 334 1
+671 53 1
+671 782 3
+671 5676 2
+671 2519 6
+674 670 4
+674 334 2
+674 331 2
+674 332 1
+674 53 4
+674 16055 4
+674 22356 5
+22356 674 6
+22356 332 2
+22356 330 4
+16055 331 27
+670 334 55
+670 336 2
+670 755 10
+670 341 1
+8774 8815 2
+8774 8816 13
+35718 334 33
+35718 336 1
+35718 332 2
+35718 35645 13
+35718 556 1
+35718 669 3
+35718 330 2
+35718 341 1
+35645 7225 2
+35645 782 1
+35645 5676 3
+35645 2519 2
+13589 334 5
+13589 336 2
+13589 669 2
+13589 53 3
+13589 13637 3
+13589 13636 2
+13589 341 1
+13636 336 1
+13636 782 1
+13636 328 3
+13636 5676 4
+13636 2519 4
+13636 341 1
+13637 331 2
+13637 332 3
+13637 53 2
+13637 330 2
+43997 782 1
+43997 5676 2
+43997 2519 2
+24256 24236 1
+24256 24226 1
+24274 24356 3
+24356 24274 1
+40233 334 4
+40233 7225 4
+40233 669 1
+57637 356 4
+356 4653 1
+356 57637 6
+48094 5578 2
+48094 337 1
+48094 5576 1
+48094 1131 1
+48094 757 1
+48094 759 1
+48094 98 1
+56855 330 2
+48152 1145 1
+48152 757 1
+48152 48094 2
+48152 1144 1
+48152 340 1
+48152 1152 2
+48152 759 1
+48152 5580 1
+48152 98 1
+48152 337 2
+48152 1148 1
+48152 5576 1
+48152 358 1
+48152 1146 1
+46565 13414 1
+81080 13414 1
+42620 710 1
+42620 93 6
+42620 713 6
+42620 98 1
+50433 3659 2
+18630 3659 2
+6382 336 1
+6382 3659 2
+6382 2513 1
+6382 2515 1
+75229 3659 2
+5320 669 1
+70856 7225 2
+70856 3659 2
+70856 2519 1
+47601 356 2
+47601 57637 2
+47601 328 108
+47601 357 12
+47601 2519 8
+18573 2758 3
+18573 93 20
+18573 713 2
+18573 5272 13
+18573 393 10
+18573 2261 70
+18573 2264 2
+62217 556 6
+62217 356 2
+62217 57637 2
+62217 328 21
+62217 357 6
+20614 556 6
+20614 328 21
+20614 357 12
+76540 356 1
+76540 57637 2
+76540 328 16
+76540 357 2
+21047 344 11
+21047 755 1
+21047 328 10
+48819 556 2
+48819 356 11
+48819 328 58
+48819 28832 8
+48819 357 43
+48819 4653 7
+48819 57637 2
+48819 48978 20
+48819 2519 9
+24638 332 4
+24638 24644 2
+24638 330 4
+27697 333 5
+27697 328 16
+54869 331 1
+54869 335 7
+54869 356 2
+54869 57637 2
+54869 328 85
+54869 357 5
+23886 331 3
+23886 17914 1
+23886 332 22
+23886 330 4
+23886 1349 3
+23886 1740 1
+87636 356 2
+87636 57637 2
+87636 328 6
+87636 357 2
+73231 73335 16
+73231 332 25
+73231 330 13
+73231 53519 5
+60453 5298 1
+60453 713 5
+60453 5273 1
+60453 2261 31
+60453 2264 5
+60453 93 17
+60453 13415 2
+60453 5299 1
+64749 334 34
+64749 41479 6
+64749 344 72
+64749 332 36
+64749 330 11
+64749 328 39
+64749 28723 10
+3912 4703 3
+3912 4699 1
+3912 4668 3
+3912 4696 3
+3912 4672 3
+3912 4716 6
+3912 4666 3
+3912 4671 3
+3912 4658 2
+3912 4653 7
+3912 4685 1
+3912 4677 1
+3912 4704 3
+3912 4693 1
+3912 4676 2
+3912 331 19
+3912 4712 1
+3912 4667 3
+3912 4702 2
+3912 556 2
+3912 2435 7
+3912 4698 4
+3912 4713 1
+3912 2065 1
+3912 4714 1
+3912 4674 1
+3912 669 70
+3912 4691 5
+3912 330 39
+3912 2513 8
+3912 4708 2
+3912 4686 7
+3912 334 16
+3912 4662 3
+3912 4687 10
+3912 4661 2
+3912 4705 3
+3912 755 3
+3912 4663 1
+3912 328 51
+3912 4664 1
+3912 4654 1
+3912 57637 2
+3912 4655 3
+3912 4669 3
+3912 4673 3
+3912 332 247
+3912 3659 5
+3912 356 8
+3912 357 56
+3912 4715 1
+3912 4706 2
+3912 4684 1
+3912 4707 5
+3912 4683 1
+3912 4697 8
+3912 4665 3
+3912 4670 3
+3912 2519 4
+39222 344 3
+39222 336 3
+39222 332 3
+39222 328 17
+41173 344 116
+41173 328 43
+88168 5275 5
+88168 713 2
+88168 332 8
+88168 712 2
+88168 556 2
+88168 356 2
+88168 328 8
+88168 357 4
+88168 714 5
+88168 93 2
+88168 57637 2
+11236 11303 91
+60517 6526 3
+60517 5276 2
+60517 713 1
+60517 356 9
+60517 328 39
+60517 357 6
+60517 330 12
+60517 57637 2
+60517 358 4
+60517 1141 2
+60517 2519 2
+39259 106 2
+39259 333 3
+39259 356 12
+39259 57637 2
+39259 328 68
+39259 357 27
+39259 2519 1
+84086 332 5
+84086 328 22
+84086 357 3
+34841 6526 1
+34841 356 3
+34841 57637 2
+34841 330 4
+34841 328 12
+34841 357 4
+53038 393 5
+53038 2261 41
+21616 6526 3
+21616 336 8
+21616 332 2
+21616 3659 1
+21616 556 12
+21616 553 16
+21616 393 13
+21616 2513 46
+21616 21732 9
+12827 1873 23
+12827 1986 6
+12827 333 14
+12827 356 31
+12827 328 77
+12827 357 11
+12827 337 1
+12827 1967 58
+12827 57637 2
+12827 358 3
+42511 29948 2
+42511 332 1
+23341 334 1
+23341 344 22
+23341 332 1
+23341 755 1
+23341 328 7
+23341 357 20
+36746 11228 8
+36746 332 64
+36746 357 39
+36746 37090 2
+36746 2757 1
+36746 3059 8
+36746 11227 2
+36746 8314 7
+36746 24880 3
+36746 330 15
+36746 711 8
+20697 2757 2
+20697 1117 9
+20697 755 1
+20697 711 3
+20697 558 1
+20697 328 40
+20697 357 19
+31546 331 70
+31546 332 51
+31546 327 6
+31546 556 7
+31546 357 9
+31546 1735 1
+31546 53 6
+31546 330 2
+41150 4702 2
+41150 328 5
+41150 357 6
+41150 41173 1
+66101 328 1
+66101 2519 1
+26439 5282 17
+26439 2758 3
+26439 93 20
+26439 713 2
+26439 393 10
+26439 2261 78
+26439 2264 2
+43044 1873 11
+43044 1967 3
+43044 1966 6
+43044 358 3
+43044 356 7
+43044 57637 2
+43044 357 13
+32895 2265 23
+32895 331 5
+32895 332 10
+32895 2263 63
+32895 5283 23
+32895 2261 46
+32895 2264 46
+48045 334 6
+48045 669 4
+24883 24008 2
+24883 333 1
+24883 332 2
+24883 556 4
+24883 356 2
+24883 328 123
+24883 357 62
+24883 5575 3
+24883 782 1
+24883 330 5
+24883 57637 2
+24883 393 3
+24883 2519 1
+58510 334 1
+58510 331 1
+58510 1729 1
+58510 333 1
+58510 332 1
+58510 327 2
+58510 755 2
+58510 356 2
+58510 328 274
+58510 357 101
+58510 335 3
+58510 57637 2
+58510 330 1
+58510 6216 2
+58510 2519 3
+28858 24008 2
+28858 333 2
+28858 336 1
+28858 332 2
+28858 556 3
+28858 328 163
+28858 357 64
+28858 5575 3
+28858 330 2
+28858 782 1
+52720 328 119
+52720 357 3
+52720 2519 2
+20190 6526 12
+20190 782 1
+20190 356 2
+20190 57637 2
+20190 330 48
+20190 328 131
+20190 357 4
+61320 6526 7
+61320 1873 28
+61320 1967 6
+61320 358 17
+61320 356 9
+61320 57637 2
+61320 330 28
+61320 328 70
+61320 357 6
+61320 2519 14
+37616 6526 4
+37616 356 5
+37616 57637 2
+37616 330 16
+37616 328 28
+37616 357 1
+91524 6526 1
+91524 106 14
+91524 3813 10
+91524 332 12
+91524 558 1
+91524 2261 2
+91524 95 14
+91524 93 4
+91524 714 3
+91524 2263 18
+91524 330 8
+91524 393 3
+89751 328 34
+89751 357 16
+9652 333 1
+9652 328 26
+9652 357 12
+82096 1144 2
+82096 358 4
+82096 340 51
+82096 328 3
+82096 357 102
+82096 3513 51
+82096 2519 1
+73573 332 3
+73573 356 2
+73573 57637 2
+73573 328 18
+73573 357 5
+79154 53413 1
+79154 53412 2
+79154 332 3
+79154 330 2
+67078 333 1
+67078 332 1
+67078 356 3
+67078 328 21
+67078 357 8
+67078 326 2
+67078 4653 1
+67078 330 1
+67078 57637 2
+31919 6526 2
+31919 3814 3
+31919 714 3
+31919 93 2
+31919 2263 1
+31919 558 1
+31919 393 1
+38416 6526 2
+38416 356 2
+38416 57637 2
+38416 330 4
+38416 328 30
+38416 357 13
+38416 2519 1
+39063 6526 1
+39063 328 35
+39063 357 21
+35728 332 2
+35728 328 3
+35728 357 3
+42487 782 4
+42487 2519 4
+48075 7225 6
+48075 332 6
+48075 48090 3
+45239 2265 24
+45239 331 7
+45239 2263 66
+45239 2261 48
+45239 5285 24
+45239 2264 48
+35920 2265 24
+35920 331 7
+35920 5287 24
+35920 2263 66
+35920 2261 48
+35920 2264 48
+87358 1873 2
+87358 7711 2
+87358 356 6
+87358 328 6
+87358 357 7
+87358 1967 2
+87358 4653 2
+87358 6625 4
+87358 57637 2
+87358 358 2
+87358 2519 8
+74669 333 1
+74669 327 2
+74669 7408 128
+74669 755 2
+74669 356 48
+74669 328 119
+74669 357 15
+74669 53 1
+74669 57637 2
+74669 2519 10
+18038 331 37
+18038 356 3
+18038 57637 2
+18038 328 50
+18038 18309 4
+43093 7225 2
+43093 18309 9
+25908 7246 1
+25908 2519 5
+83238 1153 1
+83238 356 2
+83238 328 14
+83238 357 6
+83238 1154 1
+83238 41319 1
+83238 57637 2
+83238 358 1
+69743 344 52
+69743 328 22
+3606 556 12
+3606 328 14
+3606 357 8
+79511 18557 4
+79511 333 1
+79511 327 1
+79511 340 2
+79511 328 19
+79511 357 11
+79511 1150 1
+79511 335 1
+79511 15250 1
+79511 4653 1
+79511 782 2
+79511 107 3
+79511 358 3
+79511 2519 6
+80741 328 24
+80741 1150 1
+80741 335 2
+80741 4653 1
+80741 782 2
+80741 57637 2
+80741 333 1
+80741 18557 4
+80741 327 2
+80741 340 2
+80741 356 4
+80741 357 13
+80741 15250 1
+80741 107 3
+80741 358 3
+80741 2519 11
+4801 2519 5
+81130 77771 1
+81130 25401 5
+81130 44038 4
+81130 332 13
+81130 25412 12
+81130 39051 1
+81130 50722 1
+81130 330 2
+39037 39051 1
+39037 332 2
+39037 669 2
+6383 106 2
+6383 713 3
+6383 3659 1
+6383 92 3
+6383 5290 5
+6383 6625 5
+6383 105 1
+6383 107 1
+6383 782 1
+6383 2513 2
+6383 2519 4
+19760 7225 8
+19760 1967 1
+19760 713 2
+19760 782 2
+19760 107 2
+19760 96 10
+19760 18309 4
+56005 106 16
+56005 7711 5
+56005 328 6
+56005 95 1
+56005 92 11
+56005 3036 1
+56005 6625 19
+56005 4653 6
+56005 53 1
+56005 57637 2
+56005 333 4
+56005 10289 1
+56005 327 1
+56005 356 10
+56005 357 35
+56005 5290 1
+56005 2263 2
+56005 107 1
+56005 2519 23
+130 333 2
+130 344 11
+130 336 5
+130 332 3
+130 327 4
+130 356 3
+130 328 32
+130 357 65
+130 326 4
+130 338 5
+130 335 4
+130 358 10
+130 57637 2
+130 330 1
+84979 6526 2
+84979 356 2
+84979 57637 2
+84979 330 10
+84979 328 24
+84979 357 9
+91992 328 11
+92047 332 1
+92047 356 2
+92047 57637 2
+92047 330 1
+92047 328 3
+92047 357 3
+50437 334 4
+50437 18624 1
+50437 333 1
+50437 782 1
+50437 328 6
+50437 357 1
+50437 2519 1
+2140 2265 24
+2140 331 7
+2140 2263 66
+2140 2261 48
+2140 2264 48
+2140 2262 24
+76890 333 2
+76890 556 5
+76890 356 2
+76890 57637 2
+76890 328 16
+48695 5289 24
+48695 2265 24
+48695 331 7
+48695 2263 66
+48695 2261 48
+48695 2264 48
+26384 356 2
+26384 57637 2
+26384 328 7
+26384 357 2
+56186 328 9
+56186 357 2
+52116 755 2
+52116 356 3
+52116 57637 2
+52116 328 9
+52116 357 20
+22902 6526 1
+22902 333 1
+22902 558 1
+22902 356 3
+22902 328 20
+22902 357 6
+22902 1147 2
+22902 7237 2
+22902 5290 4
+22902 2263 1
+22902 107 3
+22902 330 2
+22902 57637 2
+22902 358 3
+22902 2519 5
+36381 2513 12
+68821 6526 2
+68821 333 2
+68821 782 2
+68821 556 1
+68821 328 31
+68821 357 14
+28549 6526 1
+28549 328 50
+28549 357 26
+49478 6526 2
+49478 332 2
+49478 558 3
+49478 356 2
+49478 328 5
+49478 357 3
+49478 714 6
+49478 93 4
+49478 3816 8
+49478 2263 5
+49478 57637 2
+49478 393 1
+68400 106 9
+68400 24765 1
+68400 8108 2
+68400 14065 3
+68400 340 2
+68400 328 2
+68400 96 8
+68400 759 1
+68400 357 14
+68400 95 3
+68400 2519 2
+46741 1145 28
+46741 334 7
+46741 336 1
+46741 328 13
+46741 5580 5
+46741 1154 26
+46741 1150 1
+46741 335 1
+46741 782 7
+46741 7229 5
+46741 1130 3
+46741 1153 1
+46741 332 2
+46741 1131 1
+46741 18630 2
+46741 340 3
+46741 357 1
+46741 1147 3
+46741 1137 1
+46741 1148 3
+46741 330 2
+46741 107 2
+46741 358 83
+46741 1141 5
+46741 2519 7
+46741 1122 6
+76975 6526 2
+76975 106 202
+76975 713 9
+76975 336 1
+76975 328 4
+76975 3812 2
+76975 95 102
+76975 3814 1
+76975 35519 2
+76975 93 18
+76975 5278 1
+76975 782 5
+76975 57637 2
+76975 327 2
+76975 3818 1
+76975 3817 2
+76975 96 2
+76975 356 1
+76975 712 2
+76975 60573 2
+76975 357 26
+76975 61396 3
+76975 5270 3
+76975 69010 6
+76975 714 5
+76975 1116 1
+76975 2263 154
+76975 2519 5
+64981 1873 5
+64981 7408 2
+64981 41031 2
+64981 1966 4
+64981 357 5
+64981 2519 2
+64981 1971 2
+68627 334 2
+68627 344 2
+68627 336 1
+68627 328 6
+32245 6526 2
+32245 333 2
+32245 782 2
+32245 556 1
+32245 356 4
+32245 57637 2
+32245 328 39
+32245 357 8
+32245 2519 3
+41241 6526 1
+41241 356 2
+41241 57637 2
+41241 328 27
+41241 357 8
+17970 106 3
+17970 356 11
+17970 328 33
+17970 357 24
+17970 93 1
+17970 330 12
+17970 57637 2
+17970 358 4
+17970 1141 2
+17970 2519 4
+55101 1145 5
+55101 1153 11
+55101 340 5
+55101 328 2
+55101 357 6
+55101 5580 3
+55101 3513 6
+55101 337 1
+55101 1154 2
+55101 358 17
+55101 2519 1
+6390 6526 14
+6390 106 1
+6390 334 1
+6390 327 2
+6390 356 3
+6390 328 132
+6390 357 19
+6390 335 3
+6390 330 56
+6390 57637 2
+6390 2519 2
+17918 106 3
+17918 327 1
+17918 356 4
+17918 328 14
+17918 357 8
+17918 338 2
+17918 93 3
+17918 57637 2
+17918 358 4
+17918 2519 4
+67261 5294 7
+67261 2758 3
+67261 93 26
+67261 713 2
+67261 393 10
+67261 2261 70
+67261 2264 2
+65879 34259 13
+10545 328 111
+10545 357 24
+10545 2519 2
+37829 328 189
+37829 357 39
+37829 2519 6
+43120 106 25
+43120 3824 1
+43120 328 408
+43120 95 5
+43120 7219 1
+43120 92 3
+43120 7240 15
+43120 335 2
+43120 105 2
+43120 57637 2
+43120 333 5
+43120 7246 1
+43120 340 3
+43120 356 4
+43120 357 6
+43120 6616 1
+43120 5307 2
+43120 358 5
+43120 2519 12
+71283 106 4
+71283 1873 1
+71283 3824 1
+71283 333 2
+71283 7246 1
+71283 340 2
+71283 328 108
+71283 95 2
+71283 7219 2
+71283 7240 12
+71283 335 1
+71283 1967 1
+71283 358 3
+71283 43120 1
+71283 2519 7
+72529 2758 3
+72529 93 20
+72529 713 2
+72529 393 10
+72529 5295 13
+72529 2261 70
+72529 2264 2
+20106 1873 3
+20106 356 2
+20106 57637 2
+20106 328 33
+20106 357 22
+6182 356 2
+6182 57637 2
+6182 328 35
+6182 357 11
+6182 6216 4
+39993 33084 14
+39993 755 1
+39993 1144 4
+39993 340 2
+39993 328 4
+39993 6220 2
+39993 357 4
+39993 3513 1
+39993 1137 1
+39993 337 2
+39993 1120 2
+39993 11121 2
+39993 358 14
+39993 1157 2
+39993 2519 1
+39993 1122 1
+39993 1130 1
+29196 1153 5
+29196 340 18
+29196 328 1
+29196 357 1
+29196 3513 18
+29196 337 3
+29196 358 3
+29196 2519 1
+37351 358 83
+37351 340 1
+37351 328 1
+37351 357 1
+37351 3513 1
+37351 2519 1
+61992 328 1
+61992 3513 13
+61992 1154 14
+61992 1150 1
+61992 17534 4
+61992 38578 4
+61992 1117 1
+61992 1119 5
+61992 1153 9
+61992 340 3
+61992 1144 4
+61992 9447 4
+61992 357 1
+61992 338 1
+61992 1137 14
+61992 1147 2
+61992 358 98
+61992 1124 9
+61992 1122 6
+61992 2519 1
+14670 1153 1
+14670 356 2
+14670 328 16
+14670 357 5
+14670 9445 1
+14670 3513 1
+14670 1154 1
+14670 57637 2
+14670 358 1
+14670 2519 1
+41175 3510 1
+41175 1117 1
+41175 1153 4
+41175 3509 1
+41175 1144 3
+41175 340 4
+41175 759 2
+41175 1147 2
+41175 1137 5
+41175 338 1
+41175 1154 13
+41175 358 13
+41175 1124 1
+41175 1122 1
+41175 1130 3
+13644 106 204
+13644 14065 2
+13644 2261 10
+13644 95 1
+13644 5580 20
+13644 1120 14
+13644 93 38
+13644 782 2
+13644 1157 7
+13644 1130 12
+13644 11120 6
+13644 3813 7
+13644 1127 4
+13644 1153 1
+13644 1144 2
+13644 1137 10
+13644 5290 9
+13644 107 15
+13644 358 104
+13644 1141 1
+13644 1123 2
+13644 1145 18
+13644 3811 2
+13644 1139 2
+13644 328 1
+13644 5274 6
+13644 3814 25
+13644 1154 89
+13644 1133 2
+13644 1132 2
+13644 1135 2
+13644 340 1
+13644 96 6
+13644 6220 1
+13644 759 1
+13644 357 1
+13644 11122 2
+13644 1118 2
+13644 1147 11
+13644 2264 20
+13644 714 44
+13644 3816 21
+13644 2519 1
+85345 9445 1
+85345 3513 1
+85345 1154 26
+85345 4653 1
+85345 782 4
+85345 1130 8
+85345 1117 2
+85345 1119 4
+85345 18555 2
+85345 1153 8
+85345 340 3
+85345 1144 4
+85345 759 2
+85345 338 2
+85345 1137 16
+85345 15250 4
+85345 358 18
+85345 107 4
+85345 1124 8
+85345 1122 4
+85345 2519 3
+14728 755 4
+14728 1120 2
+14728 1154 111
+14728 4653 1
+14728 782 23
+14728 5577 3
+14728 1117 17
+14728 1119 6
+14728 1153 18
+14728 327 1
+14728 1131 3
+14728 1144 8
+14728 340 19
+14728 739 3
+14728 759 11
+14728 15249 6
+14728 1147 7
+14728 338 17
+14728 1137 43
+14728 15250 42
+14728 5576 3
+14728 358 337
+14728 107 41
+14728 1124 13
+14728 2519 3
+14728 1122 19
+3431 1850 2
+3431 340 2
+3431 328 1
+3431 357 1
+3431 95 2
+3431 3513 1
+3431 337 8
+3431 3511 1
+3431 358 10
+3431 2519 1
+37516 1145 2
+37516 1153 17
+37516 17050 39
+37516 340 2
+37516 328 2
+37516 357 2
+37516 3513 2
+37516 1147 1
+37516 1154 3
+37516 358 160
+37516 2519 1
+9158 1153 24
+9158 358 188
+9158 340 1
+9158 328 1
+9158 357 1
+9158 3513 1
+9158 2519 1
+21123 337 42
+21123 3515 12
+27560 2900 23
+27560 2265 23
+27560 331 5
+27560 332 10
+27560 2263 63
+27560 2261 46
+27560 2264 46
+51948 13416 1
+51948 332 2
+51948 556 20
+51948 2261 22
+51948 93 2
+51948 5288 33
+51948 13415 1
+51948 2263 2
+51948 393 5
+56101 344 19
+56101 328 29
+31692 1873 2
+31692 1967 3
+31692 1966 1
+31692 358 1
+31692 356 2
+31692 57637 2
+31692 328 1
+31692 357 3
+31692 2519 1
+70024 340 4
+70024 328 2
+70024 357 14
+70024 3513 1
+70024 1147 4
+70024 358 9
+70024 48152 2
+70024 2519 1
+45462 556 1
+45462 356 2
+45462 57637 2
+45462 328 16
+45462 357 22
+76417 334 9
+76417 344 4
+76417 556 2
+76417 328 4
+78897 334 3
+78897 344 2
+78897 556 2
+78897 393 1
+78897 328 2
+78897 357 2
+5336 5274 11
+5336 332 12
+5336 330 4
+5336 95 10
+66319 5275 296
+66319 106 26
+66319 334 5
+66319 331 7
+66319 710 1
+66319 713 46
+66319 336 5
+66319 332 107
+66319 556 7
+66319 95 257
+66319 714 13
+66319 93 19
+66319 782 15
+66319 393 48
+66319 330 16
+42581 42620 1
+42581 713 2
+42581 332 13
+42581 330 12
+42581 3812 3
+54659 106 6
+54659 713 9
+54659 332 5
+54659 95 6
+54659 3814 3
+54659 93 15
+54659 714 6
+54659 330 11
+52471 106 2
+52471 5291 3
+52471 714 1
+52471 713 2
+52471 332 2
+52471 393 1
+52471 95 3
+34154 106 16
+34154 713 16
+34154 332 13
+34154 328 5
+34154 357 2
+34154 95 24
+34154 5297 20
+34154 93 16
+34154 714 8
+47279 106 3
+47279 3811 1
+47279 714 2
+47279 710 1
+47279 93 5
+47279 2263 4
+47279 782 1
+47279 357 7
+47279 95 5
+47279 5301 11
+79771 106 7
+79771 93 1
+79771 105 1
+79771 357 5
+79771 95 1
+79771 2519 7
+37696 5305 1
+37696 37706 3
+37696 713 1
+37696 16653 4
+37696 37707 1
+37696 37705 11
+72075 106 12
+72075 713 31
+72075 332 32
+72075 3817 40
+72075 556 4
+72075 95 12
+72075 42620 9
+72075 714 12
+72075 93 12
+72075 5278 1
+72075 782 1
+72075 330 8
+72075 393 10
+70578 5275 1
+70578 106 1
+70578 713 3
+70578 332 2
+70578 95 1
+70578 93 4
+70578 714 2
+70578 5307 3
+70578 2263 1
+47474 3811 12
+47474 710 1
+47474 713 6
+47474 332 6
+47474 357 2
+47474 42620 1
+47474 93 3
+47474 5278 3
+47474 330 2
+47474 393 4
+47474 782 5
+23625 6526 2
+23625 713 1
+23625 332 2
+23625 3035 3
+23625 556 3
+23625 606 1
+23625 23670 3
+23625 607 3
+23625 3036 6
+23625 5575 1
+23625 393 8
+43391 19610 68
+75945 344 6
+75945 4653 10
+75945 356 3
+75945 57637 2
+75945 328 32
+75945 326 2
+75945 2519 2
+50450 38577 2
+50450 327 1
+50450 1144 10
+50450 340 2
+50450 328 7
+50450 357 6
+50450 14719 2
+50450 3513 1
+50450 3515 4
+50450 335 1
+50450 12816 6
+50450 20860 21
+50450 358 18
+50450 2519 1
+26132 93 13
+26132 2263 2
+26132 393 1
+73615 106 15
+73615 3813 6
+73615 713 2
+73615 96 2
+73615 95 15
+73615 26302 21
+73615 3814 6
+73615 5284 1
+73615 22775 30
+73615 358 8
+15703 344 2
+15703 556 2
+15703 328 12
+55012 42112 2
+55012 333 1
+55012 356 3
+55012 57637 2
+55012 328 14
+55012 357 9
+55012 2519 21
+83211 335 2
+83211 327 3
+18454 356 5
+18454 57637 2
+18454 328 4
+7879 1873 95
+7879 1986 9
+7879 333 1
+7879 7435 4
+7879 356 3
+7879 357 39
+7879 1967 16
+7879 4653 1
+7879 1969 11
+7879 57637 2
+7879 358 19
+7879 1966 27
+7879 2519 6
+14436 755 1
+14436 1144 1
+14436 358 3
+14436 328 13
+14436 357 6
+14436 2519 4
+14436 1122 2
+73902 334 3
+73902 333 4
+73902 344 24
+73902 336 10
+73902 7408 2
+73902 755 1
+73902 356 5
+73902 328 109
+73902 357 12
+73902 7240 3
+73902 7224 8
+73902 57637 2
+73902 2519 4
+27232 344 14
+27232 356 3
+27232 57637 2
+27232 328 19
+59847 356 3
+59847 57637 2
+59847 328 16
+59847 357 3
+59847 326 2
+67538 106 4
+67538 1873 2
+67538 713 2
+67538 7246 1
+67538 340 1
+67538 328 21
+67538 357 1
+67538 95 1
+67538 7219 1
+67538 92 3
+67538 105 1
+67538 2519 2
+67538 1971 7
+84619 334 5
+84619 333 5
+84619 344 1
+84619 336 1
+84619 327 2
+84619 755 1
+84619 3659 9
+84619 356 2
+84619 328 79
+84619 357 27
+84619 553 13
+84619 41319 4
+84619 4653 7
+84619 57637 2
+84619 2519 14
+56435 27382 13
+56435 331 2
+56435 332 17
+56435 330 2
+56435 41173 1
+56435 26046 1
+34479 16565 3
+34479 331 8
+34479 1729 2
+34479 34610 5
+34479 332 52
+34479 3035 51
+34479 607 45
+34479 24880 4
+71883 67538 4
+71883 1153 6
+71883 340 4
+71883 328 24
+71883 338 2
+79798 106 5
+79798 1145 4
+79798 1153 2
+79798 3817 1
+79798 357 23
+79798 1147 1
+79798 1154 11
+79798 1148 1
+79798 93 3
+79798 358 19
+79798 1141 1
+79798 2519 3
+79798 1130 1
+85300 356 1
+85300 57637 2
+85300 328 12
+85300 357 2
+85300 2519 6
+40154 6526 2
+40154 714 49
+40154 710 2
+40154 332 8
+40154 2263 1
+40154 393 2
+40154 328 8
+40154 357 17
+77314 20050 3
+77314 334 14
+77314 336 2
+77314 328 29
+77314 326 2
+77314 7221 1
+77314 57637 2
+77314 7231 1
+77314 6216 1
+77314 1117 4
+77314 340 5
+77314 356 3
+77314 7234 1
+77314 357 62
+77314 759 5
+77314 7236 1
+77314 7235 1
+77314 338 3
+77314 1148 3
+77314 15837 1
+77314 7230 1
+77314 1141 3
+8003 333 1
+8003 336 3
+8003 328 7
+8003 357 7
+85432 334 7
+85432 336 2
+85432 328 15
+85432 357 26
+16667 6526 2
+16667 333 4
+16667 328 425
+16667 357 194
+16667 6216 5
+16667 2519 2
+11329 344 25
+11329 332 1
+11329 328 2
+11329 357 9
+15862 344 25
+15862 332 1
+15862 328 2
+15862 357 4
+18929 344 31
+18929 332 1
+18929 53 1
+18929 328 2
+18929 357 1
+40758 2265 2
+40758 5305 1
+40758 93 6
+40758 713 3
+40758 2261 12
+40758 2264 2
+70768 356 3
+70768 57637 2
+70768 328 9
+70768 8465 2
+70768 357 3
+21518 344 25
+21518 332 4
+21518 330 4
+21518 328 12
+21518 357 11
+85612 24765 2
+85612 334 18
+85612 8108 1
+85612 336 1
+85612 327 2
+85612 755 2
+85612 553 37
+85612 41319 5
+80612 29950 2
+80612 332 1
+8829 755 1
+8829 356 2
+8829 57637 2
+8829 328 5
+8829 357 12
+89831 49644 8
+89831 106 30
+89831 356 2
+89831 328 6
+89831 357 9
+89831 5290 4
+89831 107 4
+89831 2519 1
+73058 333 1
+73058 332 1
+73058 356 3
+73058 57637 2
+73058 330 1
+73058 328 95
+73058 357 8
+73058 6216 1
+67306 334 107
+67306 336 36
+67306 327 6
+67306 755 6
+67306 356 3
+67306 328 2
+67306 357 2
+67306 553 1
+67306 1154 40
+67306 28603 1
+67306 6216 20
+18832 334 12
+18832 18848 6
+7741 1873 60
+7741 7435 1
+7741 356 4
+7741 328 3
+7741 357 23
+7741 57637 2
+7741 1966 3
+7741 1969 1
+7741 5676 2
+60403 1873 5
+60403 356 2
+60403 57637 2
+60403 328 10
+60403 5676 4
+60403 357 7
+23838 333 1
+23838 332 1
+23838 356 2
+23838 57637 2
+23838 330 1
+23838 328 20
+23838 357 13
+42623 1873 1
+42623 328 6
+42623 5676 2
+42623 357 5
+21221 333 3
+21221 356 2
+21221 328 43
+21221 3678 36
+21221 357 59
+21221 5270 9
+21221 57637 2
+21221 2519 1
+21221 6216 3
+68525 344 16
+68525 336 2
+68525 7408 34
+68525 328 7
+68525 2519 1
+82317 6526 4
+82317 332 4
+82317 356 3
+82317 328 72
+82317 357 23
+82317 330 26
+82317 57637 2
+82317 24880 1
+82317 64699 2
+82317 2519 3
+41043 755 1
+41043 328 6
+41043 357 18
+80456 2516 64
+80456 713 1
+38914 328 7
+38914 357 4
+38914 2519 1
+65941 333 10
+65941 356 2
+65941 57637 2
+65941 328 48
+65941 357 9
+65941 2519 1
+74126 19092 1
+74126 6526 3
+74126 334 2
+74126 336 1
+74126 755 1
+74126 558 3
+74126 328 56
+74126 1150 1
+74126 4653 1
+74126 20759 2
+74126 57637 2
+74126 18557 4
+74126 333 4
+74126 327 2
+74126 3659 2
+74126 96 1
+74126 356 7
+74126 556 1
+74126 357 39
+74126 553 4
+74126 714 1
+74126 7237 2
+74126 2513 21
+74126 330 2
+74126 107 1
+74126 358 2
+74126 393 5
+74126 2519 6
+9061 333 1
+9061 356 3
+9061 57637 2
+9061 328 5
+9061 357 4
+33031 333 3
+33031 556 2
+33031 356 2
+33031 57637 2
+33031 328 22
+56926 333 2
+56926 332 3
+56926 755 1
+56926 356 3
+56926 57637 2
+56926 328 133
+56926 357 78
+56926 2519 2
+54303 332 5
+54303 328 57
+54303 357 32
+54303 326 1
+91791 4688 2
+91791 4700 5
+91791 332 6
+91791 73156 2
+91791 357 46
+91791 4681 5
+91791 4689 5
+91791 66029 4
+91791 669 10
+91791 4675 4
+91791 4691 5
+91791 32016 4
+91791 4678 4
+49696 5309 13
+49696 2758 3
+49696 93 20
+49696 713 2
+49696 393 10
+49696 2261 70
+49696 2264 2
+57746 331 5
+57746 332 4
+57746 3659 1
+57746 2513 15
+57746 330 2
+57746 553 4
+62501 77717 4
+62501 1873 3
+62501 332 2
+62501 356 2
+62501 328 30
+62501 357 9
+62501 18945 3
+62501 57637 2
+62501 1966 2
+62501 1969 1
+62501 49745 5
+62501 2519 4
+49024 49046 8
+49024 356 2
+49024 57637 2
+49024 357 3
+44747 331 2
+44747 17914 1
+44747 332 12
+44747 53 2
+44747 330 4
+44747 1349 3
+44747 357 1
+90079 1121 21
+90079 1142 7
+90079 5580 14
+90079 4716 8
+90079 1120 24
+90079 4653 18
+90079 782 23
+90079 6327 12
+90079 1157 3
+90079 6216 30
+90079 1130 75
+90079 11120 3
+90079 1129 1
+90079 331 4
+90079 1153 2
+90079 1131 2
+90079 1128 3
+90079 1138 3
+90079 1144 9
+90079 556 5
+90079 1137 34
+90079 1143 2
+90079 1151 4
+90079 1149 3
+90079 1148 11
+90079 15837 1
+90079 358 135
+90079 107 18
+90079 1141 12
+90079 1124 8
+90079 1145 18
+90079 334 35
+90079 1123 2
+90079 336 2
+90079 1139 10
+90079 755 1
+90079 328 12
+90079 1125 1
+90079 7221 73
+90079 1154 61
+90079 41319 66
+90079 1133 5
+90079 7231 3
+90079 5581 9
+90079 1117 3
+90079 1119 1
+90079 1132 4
+90079 332 6
+90079 1135 1
+90079 340 23
+90079 6220 1
+90079 759 48
+90079 357 16
+90079 1134 7
+90079 11122 1
+90079 10825 21
+90079 7236 1
+90079 7235 20
+90079 1147 24
+90079 1118 8
+90079 1126 6
+90079 15250 18
+90079 7230 2
+90079 2519 20
+90079 1122 70
+27493 334 7
+27493 333 1
+27493 328 24
+27493 357 9
+35266 334 3
+35266 333 2
+35266 356 3
+35266 57637 2
+35266 328 52
+35266 357 3
+86530 7225 4
+86530 333 1
+86530 356 2
+86530 57637 2
+86530 328 8
+86530 357 4
+24821 331 1
+24821 5681 33
+24821 344 33
+24821 332 2
+24821 24880 1
+24821 328 27
+29257 328 2
+56295 6526 2
+56295 106 7
+56295 334 3
+56295 331 1
+56295 558 3
+56295 328 18
+56295 357 20
+56295 95 7
+56295 3819 3
+56295 5290 5
+56295 2263 9
+56295 107 1
+56295 330 4
+56295 2519 2
+60945 334 11
+60945 335 1
+60945 333 1
+60945 336 14
+60945 755 1
+60945 328 56
+60945 357 61
+357 7233 2
+357 14065 3
+357 18558 1
+357 95 6
+357 7219 1
+357 335 1
+357 4653 5
+357 105 3
+357 18556 1
+357 331 3
+357 7237 6
+357 21732 1
+357 18559 1
+357 7228 1
+357 330 15
+357 334 2
+357 336 1
+357 755 2
+357 328 9
+357 3513 1
+357 7240 6
+357 1154 1
+357 7221 2
+357 53 2
+357 57637 10
+357 7231 2
+357 1850 2
+357 18555 1
+357 333 1
+357 332 17
+357 356 5
+357 340 7
+357 759 18
+357 7234 2
+357 61396 3
+357 7235 2
+357 7236 2
+357 6616 1
+357 7230 2
+357 2519 19
+26530 11303 15
+68657 332 2
+68657 3659 2
+68657 330 2
+31443 31507 5
+31443 31508 35
+31443 328 1
+41137 13048 10
+27460 669 1
+27460 53 1
+83973 334 5
+83973 332 2
+83973 18315 1
+83973 330 2
+23336 669 1
+75940 669 1
+62493 332 4
+62493 327 1
+62493 669 1
+62493 53 1
+62493 330 2
+58212 332 4
+58212 669 1
+58212 53 1
+58212 330 2
+60937 332 4
+60937 669 1
+60937 53 1
+60937 330 2
+63388 332 4
+63388 327 1
+63388 669 1
+63388 53 1
+63388 330 2
+41773 334 3
+41773 669 2
+66299 334 3
+66299 332 4
+66299 669 2
+66299 330 2
+79765 669 1
+34909 669 1
+7641 669 1
+57839 57843 1
+79184 57843 1
+82694 57843 1
+60895 669 1
+46735 669 1
+46735 4659 2
+60884 334 3
+60884 332 2
+60884 669 2
+14385 334 6
+14385 332 2
+14385 755 1
+14385 669 1
+14385 330 2
+49098 334 9
+49098 332 2
+49098 755 1
+49098 669 1
+49098 330 2
+35489 334 3
+35489 669 1
+43374 669 1
+32665 334 2
+32665 669 1
+84316 334 3
+84316 332 1
+84316 669 2
+84316 330 2
+57076 334 3
+57076 669 2
+57076 556 2
+37317 334 4
+37317 7225 4
+37317 669 1
+75380 334 3
+75380 669 2
+75969 7225 2
+75969 669 1
+24426 669 2
+41352 334 6
+41352 332 12
+41352 755 1
+41352 669 1
+41352 330 2
+50706 13414 1
+72944 8277 1
+72944 332 2
+73042 72944 1
+34713 3659 1
+53096 331 1
+53096 332 4
+53096 3659 1
+72963 53096 1
+48507 332 2
+48507 21732 1
+52497 332 2
+52497 21732 1
+17908 17914 1
+34109 669 1
+87407 669 1
+34027 669 1
+58112 333 1
+58112 4653 1
+58112 53 1
+58112 9444 1
+2263 106 46
+2263 5309 1
+2263 5272 1
+2263 5273 2
+2263 2261 9
+2263 95 55
+2263 3820 1
+2263 92 2
+2263 42620 2
+2263 2758 6
+2263 93 25
+2263 782 3
+2263 3813 17
+2263 5283 4
+2263 5285 2
+2263 2262 2
+2263 3819 2
+2263 5287 4
+2263 5290 3
+2263 5307 3
+2263 107 3
+2263 5295 2
+2263 3811 1
+2263 5282 1
+2263 336 1
+2263 713 51
+2263 5301 2
+2263 3814 16
+2263 5289 2
+2263 2900 2
+2263 5294 1
+2263 3036 2
+2263 5286 2
+2263 2265 7
+2263 333 1
+2263 96 5
+2263 2264 14
+2263 5288 2
+2263 714 30
+2263 1116 2
+2263 3816 10
+2263 20836 6
+2263 2519 2
+393 331 3
+393 332 4
+393 558 15
+393 330 18
+393 553 14
+10782 334 3
+10782 755 1
+10782 669 1
+41450 8740 1
+54250 334 3
+54250 669 1
+54250 54255 1
+56498 334 3
+56498 56503 1
+56498 669 1
+59811 56498 1
+54255 669 1
+56503 669 1
+18377 669 1
+41122 669 1
+20050 1145 1
+20050 1153 1
+20050 358 2
+20050 340 2
+20836 331 2
+20836 2758 3
+20836 710 2
+20836 713 3
+49524 669 2
+18624 334 2
+18624 336 1
+18624 18630 2
+30913 607 4
+58446 607 4
+10631 607 1
+6526 331 2
+6526 713 2
+6526 332 2
+6526 558 2
+6526 5290 8
+6526 107 2
+6526 330 8
+6526 2519 1
+41319 334 4
+41319 713 2
+41319 712 2
+41319 340 2
+41319 1147 1
+41319 7221 3
+41319 15250 1
+41319 4653 1
+41319 107 1
+41319 358 1
+41319 782 1
+41319 2519 3
+70007 7225 4
+70007 669 1
+58810 7225 6
+58810 669 1
+61255 7225 6
+61255 669 1
+20771 7225 6
+20771 3659 2
+36216 7225 4
+36216 3659 3
+87401 669 1
+14089 334 3
+14089 669 2
+23227 23226 2
+35426 106 8
+35426 3824 3
+35426 713 2
+30085 106 4
+23180 106 2
+23180 23226 1
+23180 23225 1
+23180 23227 3
+23180 713 3
+23180 712 2
+23180 3820 1
+30031 106 5
+30031 3824 12
+30031 713 4
+49046 7240 3
+49046 7246 2
+49046 340 1
+49046 328 9
+49046 326 1
+49046 2519 1
+19941 5575 1
+19941 6618 7
+7408 7240 9
+7408 7434 1
+7408 335 3
+7408 7435 2
+7408 7433 1
+7408 328 8
+7408 2519 7
+7240 1873 2
+7240 17914 1
+7240 333 1
+7240 8739 7
+7240 7246 2
+7240 328 63
+7240 8742 2
+7240 335 1
+7240 1967 3
+7240 53 1
+7240 4653 2
+7240 2513 2
+7240 2519 20
+7434 7433 1
+7434 328 4
+85211 7240 7
+85211 328 2
+19610 19611 4
+19611 29177 2
+46219 1873 4
+1967 1986 6
+1967 1729 3
+1967 7435 4
+1967 96 8
+1967 92 1
+1967 337 9
+1967 107 6
+1967 1969 9
+1967 2519 1
+1967 1971 10
+1969 93 1
+1969 4653 1
+1969 2435 1
+1969 782 1
+1969 107 4
+1969 96 7
+1969 2519 2
+1969 1971 2
+1873 1968 2
+1873 1969 1
+1873 1971 4
+7435 10262 2
+7435 106 1
+7435 1873 23
+7435 46219 1
+7435 96 3
+7435 1967 16
+7435 6625 1
+7435 105 1
+7435 1968 19
+7435 107 1
+7435 1971 9
+7435 2519 1
+1971 106 2
+1971 1873 2
+1971 3824 4
+1971 713 4
+1971 755 1
+1971 95 3
+1971 6615 3
+1971 98 5
+1971 92 15
+1971 105 2
+1971 96 2
+1971 340 1
+1971 759 1
+1971 5270 5
+1971 337 1
+1971 1967 3
+1971 5290 1
+1971 2513 7
+1971 107 3
+1971 358 1
+1971 1969 1
+1971 8465 1
+1971 2519 4
+1968 10262 3
+1968 1873 3
+1968 3824 1
+1968 1986 1
+1968 713 1
+1968 327 1
+1968 98 1
+1968 92 1
+1968 5270 1
+1968 1967 11
+1968 6625 3
+1968 105 1
+1968 358 3
+1968 1969 11
+1968 2519 5
+1968 1971 4
+18813 18829 2
+64909 334 4
+64909 669 2
+11378 11396 2
+11378 334 6
+11378 332 2
+11378 755 1
+11378 669 2
+11378 330 2
+24647 334 1
+24647 9444 1
+81690 334 8
+81690 332 2
+81690 755 1
+81690 669 2
+81690 330 2
+56612 334 4
+56612 669 2
+81643 332 12
+81643 669 5
+81643 330 2
+81643 9444 1
+28832 33744 7
+48978 33744 4

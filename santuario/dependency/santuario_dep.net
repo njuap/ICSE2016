@@ -1,0 +1,2613 @@
+*Vertics: 571
+9,org.apache.xml.security.stax.config.SecurityHeaderHandlerMapper
+33,org.apache.xml.security.utils.ClassLoaderUtils
+43,org.apache.jcp.xml.dsig.internal.dom.DOMXMLObject
+137,org.apache.jcp.xml.dsig.internal.dom.BaseStructure
+139,org.apache.jcp.xml.dsig.internal.dom.DOMUtils
+140,org.apache.jcp.xml.dsig.internal.dom.DOMManifest
+141,org.apache.jcp.xml.dsig.internal.dom.DOMSignatureProperties
+142,org.apache.jcp.xml.dsig.internal.dom.DOMX509Data
+160,org.apache.jcp.xml.dsig.internal.dom.DOMKeyValue
+375,org.apache.xml.security.exceptions.Base64DecodingException
+376,org.apache.xml.security.utils.Base64
+401,org.apache.xml.security.signature.SignedInfo
+481,org.apache.xml.security.algorithms.SignatureAlgorithm
+482,org.apache.xml.security.c14n.CanonicalizationException
+483,org.apache.xml.security.c14n.Canonicalizer
+484,org.apache.xml.security.c14n.InvalidCanonicalizerException
+485,org.apache.xml.security.exceptions.XMLSecurityException
+486,org.apache.xml.security.transforms.params.InclusiveNamespaces
+487,org.apache.xml.security.utils.Constants
+488,org.apache.xml.security.utils.XMLUtils
+492,org.apache.xml.security.signature.Manifest
+493,org.apache.xml.security.signature.XMLSignature
+494,org.apache.xml.security.signature.MissingResourceFailureException
+557,org.apache.xml.security.keys.KeyInfo
+566,org.apache.xml.security.transforms.Transforms
+637,org.apache.xml.security.signature.XMLSignatureException
+638,org.apache.xml.security.signature.XMLSignatureInput
+639,org.apache.xml.security.utils.SignatureElementProxy
+640,org.apache.xml.security.transforms.InvalidTransformException
+641,org.apache.xml.security.transforms.Transform
+643,org.apache.xml.security.transforms.TransformationException
+669,org.apache.xml.security.stax.impl.stax.XMLSecEventBaseImpl
+735,org.apache.xml.security.samples.utils.resolver.OfflineResolver
+775,org.apache.xml.security.utils.resolver.ResourceResolverException
+776,org.apache.xml.security.utils.resolver.ResourceResolverSpi
+779,org.apache.xml.security.Init
+786,org.apache.xml.security.test.stax.utils.HttpRequestRedirectorProxy
+847,org.apache.xml.security.stax.ext.XMLSecurityUtils
+853,org.apache.xml.security.stax.impl.processor.input.XMLDecryptInputProcessor
+901,org.apache.xml.security.stax.securityToken.SecurityTokenConstants
+904,org.apache.xml.security.stax.impl.processor.input.AbstractDecryptInputProcessor
+905,org.apache.xml.security.stax.ext.XMLSecurityProperties
+907,org.apache.xml.security.stax.securityEvent.ContentEncryptedElementSecurityEvent
+910,org.apache.xml.security.stax.securityEvent.TokenSecurityEvent
+912,org.apache.xml.security.stax.ext.SecurePart
+916,org.apache.xml.security.stax.securityEvent.AbstractElementSecurityEvent
+917,org.apache.xml.security.stax.securityEvent.AbstractSecuredElementSecurityEvent
+918,org.apache.xml.security.stax.securityEvent.SecurityEvent
+919,org.apache.xml.security.stax.securityEvent.EncryptedElementSecurityEvent
+943,org.apache.xml.security.stax.impl.stax.XMLSecProcessingInstructionImpl
+959,org.apache.xml.security.transforms.params.XPathContainer
+979,org.apache.xml.security.test.stax.TrimmerOutputStreamTest
+1000,org.apache.xml.security.stax.impl.util.TrimmerOutputStream
+1025,org.apache.xml.security.keys.keyresolver.implementations.X509CertificateResolver
+1048,org.apache.xml.security.keys.content.x509.XMLX509Certificate
+1049,org.apache.xml.security.keys.keyresolver.KeyResolverException
+1050,org.apache.xml.security.keys.keyresolver.KeyResolverSpi
+1051,org.apache.xml.security.keys.storage.StorageResolver
+1066,org.apache.xml.security.test.dom.version.VersionTest
+1089,org.apache.jcp.xml.dsig.internal.dom.XMLDSigRI
+1094,javax.xml.crypto.test.dsig.SignatureMethodTest
+1121,javax.xml.crypto.test.dsig.TestUtils
+1150,javax.xml.crypto.test.dsig.CreateInteropXFilter2Test
+1234,javax.xml.crypto.test.KeySelectors
+1241,org.apache.xml.security.stax.impl.algorithms.HMACSignatureAlgorithm
+1296,org.apache.xml.security.stax.impl.OutboundSecurityContextImpl
+1309,org.apache.xml.security.stax.impl.AbstractSecurityContextImpl
+1315,org.apache.xml.security.test.dom.keys.keyresolver.DEREncodedKeyValueResolverTest
+1355,org.apache.xml.security.utils.JavaUtils
+1362,org.apache.xml.security.samples.canonicalization.CanonByTransform
+1382,org.apache.xml.security.utils.IgnoreAllErrorHandler
+1383,org.apache.xml.security.utils.ElementProxy
+1388,org.apache.xml.security.test.stax.UncategorizedTest
+1398,org.apache.xml.security.stax.config.Init
+1399,org.apache.xml.security.stax.ext.XMLSec
+1400,org.apache.xml.security.stax.ext.XMLSecurityConfigurationException
+1401,org.apache.xml.security.stax.ext.XMLSecurityConstants
+1411,javax.xml.crypto.test.dsig.InteropC14nTest
+1431,javax.xml.crypto.test.dsig.SignatureValidator
+1436,org.apache.xml.security.stax.config.ConfigurationProperties
+1456,org.apache.jcp.xml.dsig.internal.dom.DOMURIDereferencer
+1487,org.apache.xml.security.utils.resolver.ResourceResolver
+1488,org.apache.jcp.xml.dsig.internal.dom.Utils
+1489,org.apache.jcp.xml.dsig.internal.dom.ApacheNodeSetData
+1490,org.apache.jcp.xml.dsig.internal.dom.ApacheOctetStreamData
+1503,org.apache.xml.security.stax.impl.processor.input.XMLSignatureReferenceVerifyInputProcessor
+1518,org.apache.xml.security.stax.securityEvent.SignedElementSecurityEvent
+1519,org.apache.xml.security.stax.impl.processor.input.AbstractSignatureReferenceVerifyInputProcessor
+1543,org.apache.xml.security.transforms.implementations.TransformXSLT
+1594,org.apache.xml.security.transforms.TransformSpi
+1605,javax.xml.crypto.test.dsig.Driver
+1620,javax.xml.crypto.test.dsig.CreateBaltimore23Test
+1802,javax.xml.crypto.test.dsig.LocalHttpCacheURIDereferencer
+1803,javax.xml.crypto.test.dsig.X509KeySelector
+1883,org.apache.xml.security.c14n.implementations.Canonicalizer11_OmitComments
+1884,org.apache.xml.security.c14n.implementations.Canonicalizer11_WithComments
+1885,org.apache.xml.security.c14n.implementations.Canonicalizer20010315ExclOmitComments
+1886,org.apache.xml.security.c14n.implementations.Canonicalizer20010315ExclWithComments
+1887,org.apache.xml.security.c14n.implementations.Canonicalizer20010315OmitComments
+1888,org.apache.xml.security.c14n.implementations.Canonicalizer20010315WithComments
+1889,org.apache.xml.security.c14n.implementations.CanonicalizerPhysical
+1890,org.apache.xml.security.exceptions.AlgorithmAlreadyRegisteredException
+1892,org.apache.xml.security.c14n.CanonicalizerSpi
+1908,org.apache.xml.security.test.dom.DSNamespaceContext
+1930,org.apache.xml.security.test.dom.utils.RFC2253ParserTest
+1950,org.apache.xml.security.utils.RFC2253Parser
+1955,org.apache.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory
+2007,org.apache.jcp.xml.dsig.internal.dom.DOMKeyInfo
+2008,org.apache.jcp.xml.dsig.internal.dom.DOMKeyName
+2009,org.apache.jcp.xml.dsig.internal.dom.DOMPGPData
+2010,org.apache.jcp.xml.dsig.internal.dom.DOMRetrievalMethod
+2011,org.apache.jcp.xml.dsig.internal.dom.DOMX509IssuerSerial
+2021,org.apache.jcp.xml.dsig.internal.dom.DOMDigestMethod
+2141,org.apache.xml.security.keys.content.x509.XMLX509SubjectName
+2175,org.apache.xml.security.test.dom.encryption.XMLCipherTest
+2406,org.apache.xml.security.algorithms.JCEMapper
+2408,org.apache.xml.security.encryption.XMLCipher
+2411,org.apache.xml.security.utils.EncryptionConstants
+2466,org.apache.xml.security.signature.SignatureProperties
+2489,org.apache.xml.security.signature.SignatureProperty
+2499,org.apache.xml.security.keys.content.KeyValue
+2524,org.apache.xml.security.keys.content.keyvalues.DSAKeyValue
+2525,org.apache.xml.security.keys.content.keyvalues.RSAKeyValue
+2536,javax.xml.crypto.test.dsig.JSRForbiddenRefCountTest
+2551,org.apache.jcp.xml.dsig.internal.dom.DOMSignedInfo
+2555,org.apache.xml.security.stax.impl.DocumentContextImpl
+2667,org.apache.xml.security.algorithms.MessageDigestAlgorithm
+2897,org.apache.xml.security.utils.UnsyncByteArrayOutputStream
+2898,org.apache.xml.security.utils.I18n
+2907,org.apache.xml.security.stax.config.ResourceResolverMapper
+2947,org.apache.xml.security.test.dom.keys.keyresolver.RetrievalMethodResolverTest
+2966,org.apache.xml.security.keys.keyresolver.implementations.RSAKeyValueResolver
+2988,org.apache.xml.security.stax.impl.transformer.canonicalizer.CanonicalizerBase
+3174,org.apache.xml.security.c14n.implementations.UtfHelpper
+3176,org.apache.xml.security.stax.impl.processor.input.XMLEventReaderInputProcessor
+3177,org.apache.xml.security.stax.impl.transformer.TransformIdentity
+3178,org.apache.xml.security.stax.impl.util.UnsynchronizedByteArrayInputStream
+3179,org.apache.xml.security.stax.impl.util.UnsynchronizedByteArrayOutputStream
+3182,org.apache.xml.security.stax.ext.stax.XMLSecEventFactory
+3207,org.apache.xml.security.transforms.params.XPath2FilterContainer04
+3250,org.apache.xml.security.test.dom.signature.ProcessingInstructionTest
+3297,org.apache.xml.security.utils.resolver.ResourceResolverContext
+3309,org.apache.xml.security.test.stax.utils.StAX2DOM
+3409,javax.xml.crypto.test.dsig.keyinfo.KeyInfoFactoryTest
+3481,org.apache.xml.security.stax.impl.transformer.TransformBase64Decode
+3563,javax.xml.crypto.test.dsig.keyinfo.X509IssuerSerialTest
+3580,org.apache.xml.security.utils.EncryptionElementProxy
+3588,org.apache.xml.security.stax.impl.transformer.canonicalizer.Canonicalizer11_WithCommentsTransformer
+3590,org.apache.xml.security.stax.impl.transformer.canonicalizer.Canonicalizer11
+3593,org.apache.xml.security.keys.keyresolver.implementations.DSAKeyValueResolver
+3613,org.apache.xml.security.transforms.implementations.TransformC14NWithComments
+3623,org.apache.xml.security.c14n.implementations.CanonicalizerBase
+3629,org.apache.xml.security.samples.signature.contract.ThreeSignerContractVerify
+3651,org.apache.xml.security.samples.DSNamespaceContext
+3652,org.apache.xml.security.samples.SampleUtils
+3657,org.apache.xml.security.stax.securityEvent.SecurityEventConstants
+3671,org.apache.xml.security.stax.ext.ComparableType
+3676,javax.xml.crypto.test.dsig.ReferenceTest
+3761,javax.xml.crypto.dsig.samples.GenDetached
+3786,javax.xml.crypto.test.dsig.PhaosXMLDSig3Test
+3881,org.apache.xml.security.test.dom.c14n.implementations.Canonicalizer20010315ExclusiveTest
+4039,org.apache.xml.security.c14n.implementations.Canonicalizer20010315
+4040,org.apache.xml.security.c14n.implementations.Canonicalizer20010315Excl
+4054,org.apache.xml.security.test.stax.signature.PhaosTest
+4189,org.apache.xml.security.stax.ext.InboundXMLSec
+4190,org.apache.xml.security.stax.impl.resourceResolvers.ResolverHttp
+4191,org.apache.xml.security.test.stax.utils.TestUtils
+4192,org.apache.xml.security.test.stax.utils.XMLSecEventAllocator
+4193,org.apache.xml.security.utils.resolver.implementations.ResolverDirectHTTP
+4196,org.apache.xml.security.test.stax.signature.TestSecurityEventListener
+4206,javax.xml.crypto.test.dsig.Baltimore23Test
+4269,org.apache.xml.security.keys.content.KeyInfoReference
+4282,org.apache.xml.security.utils.Signature11ElementProxy
+4288,org.apache.xml.security.test.dom.transforms.implementations.TransformBase64DecodeTest
+4321,org.apache.xml.security.transforms.implementations.TransformBase64Decode
+4328,org.apache.xml.security.signature.XMLSignatureInputDebugger
+4406,org.apache.xml.security.c14n.helper.AttrCompare
+4413,org.apache.xml.security.c14n.implementations.Canonicalizer11
+4549,org.apache.xml.security.c14n.helper.C14nHelper
+4550,org.apache.xml.security.c14n.implementations.NameSpaceSymbTable
+4579,org.apache.xml.security.samples.MyResolver
+4590,org.apache.xml.security.stax.impl.resourceResolvers.ResolverXPointer
+4627,org.apache.xml.security.transforms.implementations.TransformXPath2Filter
+4655,org.apache.xml.security.transforms.implementations.XPath2NodeFilter
+4691,org.apache.xml.security.transforms.params.XPath2FilterContainer
+4693,org.apache.xml.security.utils.XPathFactory
+4713,javax.xml.crypto.test.dsig.AppB
+4719,org.apache.xml.security.test.dom.interop.RSASecurityTest
+4736,org.apache.xml.security.test.dom.interop.InteropTestBase
+4739,org.apache.xml.security.transforms.implementations.TransformC14NExclusive
+4845,org.apache.xml.security.signature.Reference
+4846,org.apache.xml.security.signature.ReferenceNotInitializedException
+4889,org.apache.xml.security.transforms.params.XPathFilterCHGPContainer
+4941,javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test
+4982,org.apache.xml.security.test.dom.CreateExclC14nInteropValues
+5056,org.apache.xml.security.signature.ObjectContainer
+5070,javax.xml.crypto.test.dsig.XMLValidateContextTest
+5093,org.apache.xml.security.test.dom.c14n.helper.C14nHelperTest
+5111,org.apache.jcp.xml.dsig.internal.dom.DOMExcC14NMethod
+5150,org.apache.jcp.xml.dsig.internal.dom.ApacheCanonicalizer
+5151,org.apache.jcp.xml.dsig.internal.dom.XmlWriterToTree
+5152,org.apache.jcp.xml.dsig.internal.dom.DOMSubTreeData
+5153,org.apache.jcp.xml.dsig.internal.dom.Marshaller
+5167,org.apache.xml.security.test.dom.transforms.implementations.TransformXSLTTest
+5188,javax.xml.crypto.test.dsig.TransformTest
+5225,org.apache.xml.security.test.stax.encryption.XMLEncryption11Test
+5430,org.apache.xml.security.stax.ext.OutboundXMLSec
+5431,org.apache.xml.security.test.stax.utils.XmlReaderToWriter
+5450,org.apache.xml.security.keys.storage.StorageResolverException
+5466,javax.xml.crypto.test.dsig.Baltimore18Test
+5569,javax.xml.crypto.test.OctetStreamDataTest
+5583,org.apache.jcp.xml.dsig.internal.dom.DOMXPathTransform
+5610,org.apache.jcp.xml.dsig.internal.dom.ApacheTransform
+5620,org.apache.xml.security.keys.keyresolver.implementations.DEREncodedKeyValueResolver
+5644,org.apache.xml.security.keys.content.DEREncodedKeyValue
+5652,org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest
+5679,org.apache.xml.security.algorithms.SignatureAlgorithmSpi
+5712,org.apache.xml.security.test.dom.c14n.helper.AttrCompareTest
+5762,org.apache.xml.security.samples.signature.SignaturePropertiesSample
+5794,javax.xml.crypto.test.dsig.DetachedTest
+5815,org.apache.xml.security.keys.KeyUtils
+5830,org.apache.xml.security.keys.content.KeyName
+5831,org.apache.xml.security.keys.content.MgmtData
+5832,org.apache.xml.security.keys.content.X509Data
+5853,org.apache.xml.security.stax.impl.processor.output.XMLEncryptOutputProcessor
+5916,org.apache.xml.security.stax.config.JCEAlgorithmMapper
+5917,org.apache.xml.security.stax.impl.EncryptionPartDef
+5918,org.apache.xml.security.stax.impl.util.IDGenerator
+5919,org.apache.xml.security.stax.impl.processor.output.AbstractEncryptOutputProcessor
+5989,javax.xml.crypto.test.dsig.IaikCoreFeaturesTest
+6263,org.apache.xml.security.stax.impl.XMLSecurityEventReader
+6264,org.apache.xml.security.stax.securityToken.SecurityTokenFactory
+6265,org.apache.xml.security.stax.ext.AbstractInputProcessor
+6266,org.apache.xml.security.stax.impl.processor.input.XMLEncryptedKeyInputHandler
+6268,org.apache.xml.security.stax.impl.util.MultiInputStream
+6269,org.apache.xml.security.stax.ext.UncheckedXMLSecurityException
+6283,org.apache.xml.security.stax.impl.util.IVSplittingOutputStream
+6284,org.apache.xml.security.stax.impl.util.ReplaceableOuputStream
+6285,org.apache.xml.security.stax.impl.util.FullyBufferedOutputStream
+6313,javax.xml.crypto.test.dsig.CanonicalizationMethodTest
+6341,javax.xml.crypto.test.dsig.keyinfo.KeyInfoTest
+6371,org.apache.xml.security.samples.signature.CreateCollectableSignature
+6398,org.apache.xml.security.samples.signature.HereSigner
+6429,org.apache.xml.security.utils.HelperNodeList
+6435,org.apache.xml.security.stax.impl.securityToken.X509SubjectNameSecurityToken
+6445,org.apache.xml.security.stax.impl.securityToken.X509SecurityToken
+6449,org.apache.xml.security.samples.signature.CreateMerlinsExampleSixteen
+6518,org.apache.xml.security.keys.content.RetrievalMethod
+6519,org.apache.xml.security.keys.content.x509.XMLX509IssuerSerial
+6554,org.apache.xml.security.test.dom.secure_val.ForbiddenRefCountTest
+6572,org.apache.xml.security.stax.impl.processor.input.LogInputProcessor
+6590,javax.xml.crypto.test.dsig.ManifestTest
+6651,javax.xml.crypto.test.dsig.ComRSASecurityTest
+6663,org.apache.xml.security.stax.impl.util.SignerOutputStream
+6687,org.apache.xml.security.test.stax.transformer.TransformEnvelopedSignatureTest
+6740,org.apache.xml.security.stax.impl.transformer.TransformEnvelopedSignature
+6767,org.apache.xml.security.keys.storage.implementations.KeyStoreResolver
+6795,org.apache.xml.security.keys.storage.StorageResolverSpi
+6802,javax.xml.crypto.test.dsig.SignatureDigestMethodTest
+6858,org.apache.xml.security.algorithms.Algorithm
+6869,org.apache.xml.security.test.stax.utils.UnixInputStream
+6876,org.apache.xml.security.stax.impl.transformer.canonicalizer.Canonicalizer20010315_WithCommentsTransformer
+6878,org.apache.xml.security.stax.impl.transformer.canonicalizer.Canonicalizer20010315
+6881,org.apache.xml.security.test.stax.signature.AbstractSignatureVerificationTest
+7037,org.apache.xml.security.stax.impl.securityToken.KeyNameSecurityToken
+7038,org.apache.xml.security.stax.impl.securityToken.X509IssuerSerialSecurityToken
+7039,org.apache.xml.security.stax.securityEvent.AlgorithmSuiteSecurityEvent
+7040,org.apache.xml.security.stax.securityEvent.SignatureValueSecurityEvent
+7041,org.apache.xml.security.stax.securityEvent.KeyValueTokenSecurityEvent
+7042,org.apache.xml.security.stax.securityEvent.DefaultTokenSecurityEvent
+7043,org.apache.xml.security.stax.securityEvent.KeyNameTokenSecurityEvent
+7044,org.apache.xml.security.stax.securityEvent.X509TokenSecurityEvent
+7045,org.apache.xml.security.stax.impl.securityToken.AbstractSecurityToken
+7072,org.apache.xml.security.test.stax.performance.PerformanceTimingTest
+7116,org.apache.xml.security.test.stax.performance.AbstractPerformanceTest
+7129,org.apache.xml.security.test.dom.keys.storage.KeyStoreResolverTest
+7147,org.apache.xml.security.test.dom.signature.ECDSASignatureTest
+7191,org.apache.xml.security.test.dom.signature.XPointerResourceResolver
+7195,org.apache.xml.security.c14n.implementations.NameSpaceSymbEntry
+7248,org.apache.xml.security.c14n.implementations.SymbMap
+7331,org.apache.jcp.xml.dsig.internal.MacOutputStream
+7373,org.apache.xml.security.utils.DigesterOutputStream
+7394,org.apache.xml.security.utils.JDKXPathAPI
+7420,org.apache.xml.security.utils.DOMNamespaceContext
+7599,org.apache.xml.security.encryption.XMLEncryptionException
+7600,org.apache.xml.security.keys.content.PGPData
+7601,org.apache.xml.security.keys.content.SPKIData
+7602,org.apache.xml.security.keys.keyresolver.KeyResolver
+7628,org.apache.xml.security.test.stax.c14n.Canonicalizer20010315ExclusiveTest
+7781,org.apache.xml.security.stax.impl.transformer.canonicalizer.Canonicalizer20010315_Excl
+7782,org.apache.xml.security.stax.impl.transformer.canonicalizer.Canonicalizer20010315_ExclOmitCommentsTransformer
+7783,org.apache.xml.security.stax.impl.transformer.canonicalizer.Canonicalizer20010315_ExclWithCommentsTransformer
+8046,org.apache.xml.security.utils.WeakObjectPool
+8052,org.apache.xml.security.samples.encryption.Decrypter
+8093,org.apache.xml.security.test.stax.encryption.KeyWrapEncryptionVerificationTest
+8331,org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest
+8425,org.apache.xml.security.algorithms.implementations.SignatureBaseRSA
+8523,org.apache.xml.security.test.dom.secure_val.WrappingAttackTest
+8552,org.apache.xml.security.stax.impl.util.UnsynchronizedBufferedOutputStream
+8570,javax.xml.crypto.test.dsig.XMLSignatureTest
+8725,org.apache.xml.security.stax.impl.resourceResolvers.ResolverFilesystem
+8762,org.apache.xml.security.stax.impl.securityToken.AbstractInboundSecurityToken
+8767,javax.xml.crypto.test.dsig.IaikTransformsTest
+8785,org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest
+8817,org.apache.xml.security.keys.content.x509.XMLX509Digest
+8824,org.apache.xml.security.samples.transforms.SampleTransformEnvelopedSignature
+8862,javax.xml.crypto.test.dsig.DigestMethodTest
+8884,javax.xml.crypto.test.dsig.ValidateSignatureTest
+8919,javax.xml.crypto.test.dsig.InteropXMLDSig11Test
+9066,org.apache.xml.security.samples.transforms.SampleTransformXSLT
+9077,org.apache.xml.security.test.dom.keys.keyresolver.X509DigestResolverTest
+9096,org.apache.xml.security.keys.storage.implementations.SingleCertificateResolver
+9193,org.apache.xml.security.encryption.AbstractSerializer
+9315,javax.xml.crypto.test.dsig.BaltimoreIaik2Test
+9325,org.apache.xml.security.test.stax.encryption.DecryptionTest
+9683,org.apache.xml.security.stax.securityEvent.EncryptedKeyTokenSecurityEvent
+9689,org.apache.jcp.xml.dsig.internal.dom.AbstractDOMSignatureMethod
+9731,org.apache.xml.security.test.dom.encryption.BobKeyResolver
+9792,org.apache.xml.security.signature.InvalidSignatureValueException
+9888,org.apache.xml.security.test.stax.signature.RSASecurityTest
+9915,javax.xml.crypto.test.dsig.dom.DOMValidateContextTest
+10012,javax.xml.crypto.test.dsig.XMLObjectTest
+10037,org.apache.xml.security.test.dom.keys.content.x509.XMLX509IssuerSerialTest
+10046,org.apache.jcp.xml.dsig.internal.dom.DOMXMLSignature
+10194,org.apache.jcp.xml.dsig.internal.dom.DOMStructure
+10195,org.apache.jcp.xml.dsig.internal.dom.DOMReference
+10210,javax.xml.crypto.test.dsig.CreateInteropXMLDSig11Test
+10284,javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest
+10296,org.apache.xml.security.keys.content.x509.XMLX509SKI
+10327,org.apache.xml.security.stax.impl.stax.XMLSecCharactersImpl
+10354,org.apache.jcp.xml.dsig.internal.dom.DOMSignatureMethod
+10570,org.apache.xml.security.algorithms.implementations.SignatureECDSA
+10571,org.apache.jcp.xml.dsig.internal.SignerOutputStream
+10572,org.apache.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod
+10589,org.apache.xml.security.algorithms.implementations.IntegrityHmac
+10747,org.apache.xml.security.stax.impl.processor.output.FinalOutputProcessor
+10748,org.apache.xml.security.stax.impl.processor.output.XMLSignatureOutputProcessor
+10749,org.apache.xml.security.stax.impl.securityToken.GenericOutboundSecurityToken
+10751,org.apache.xml.security.stax.impl.OutputProcessorChainImpl
+10752,org.apache.xml.security.stax.impl.XMLSecurityStreamWriter
+10834,org.apache.xml.security.test.dom.interop.IAIKTest
+10914,org.apache.xml.security.test.dom.utils.resolver.OfflineResolver
+10915,org.apache.xml.security.utils.resolver.implementations.ResolverAnonymous
+10921,org.apache.xml.security.test.stax.c14n.Canonicalizer20010315Test
+11000,org.apache.xml.security.stax.impl.transformer.canonicalizer.Canonicalizer20010315_OmitCommentsTransformer
+11003,javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest
+11015,javax.xml.crypto.test.dsig.keyinfo.PGPDataTest
+11044,org.apache.xml.security.samples.signature.VerifyCollectableSignature
+11175,org.apache.jcp.xml.dsig.internal.DigesterOutputStream
+11199,org.apache.xml.security.keys.keyresolver.implementations.PrivateKeyResolver
+11296,org.apache.xml.security.test.dom.secure_val.ForbiddenReferenceTest
+11313,org.apache.xml.security.test.dom.signature.SignatureTest
+11371,org.apache.xml.security.utils.resolver.implementations.ResolverXPointer
+11374,org.apache.xml.security.test.dom.transforms.implementations.Xpath2TransformationTest
+11389,org.apache.xml.security.exceptions.XMLSecurityRuntimeException
+11418,org.apache.xml.security.test.stax.OutputProcessorChainTest
+11515,org.apache.xml.security.utils.resolver.implementations.ResolverFragment
+11534,org.apache.xml.security.samples.canonicalization.CanonDirect
+11568,org.apache.xml.security.stax.impl.InputProcessorChainImpl
+11569,org.apache.xml.security.stax.impl.InboundSecurityContextImpl
+11570,org.apache.xml.security.stax.impl.XMLSecurityStreamReader
+11571,org.apache.xml.security.stax.impl.processor.input.XMLSecurityInputProcessor
+11578,org.apache.xml.security.test.dom.signature.SignatureReferenceTest
+11652,org.apache.xml.security.test.stax.transformer.TransformIdentityTest
+11743,org.apache.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory
+11848,org.apache.jcp.xml.dsig.internal.dom.DOMSignatureProperty
+11849,org.apache.jcp.xml.dsig.internal.dom.DOMTransform
+11850,org.apache.jcp.xml.dsig.internal.dom.DOMCanonicalizationMethod
+11861,org.apache.xml.security.samples.algorithms.HMacSHA1RoundTrip
+11902,org.apache.xml.security.stax.impl.stax.XMLSecEndDocumentImpl
+11909,org.apache.xml.security.samples.encryption.Encrypter
+11961,org.apache.xml.security.stax.impl.algorithms.ECDSAUtils
+12369,org.apache.xml.security.keys.keyresolver.implementations.KeyInfoReferenceResolver
+12370,org.apache.xml.security.keys.keyresolver.implementations.RetrievalMethodResolver
+12371,org.apache.xml.security.keys.keyresolver.implementations.X509DigestResolver
+12372,org.apache.xml.security.keys.keyresolver.implementations.X509IssuerSerialResolver
+12373,org.apache.xml.security.keys.keyresolver.implementations.X509SKIResolver
+12374,org.apache.xml.security.keys.keyresolver.implementations.X509SubjectNameResolver
+12381,javax.xml.crypto.test.dsig.XMLSignContextTest
+12401,javax.xml.crypto.test.dsig.keyinfo.RetrievalMethodTest
+12538,org.apache.xml.security.test.dom.interop.BaltimoreTest
+12734,org.apache.xml.security.test.dom.signature.UnknownAlgoSignatureTest
+12890,org.apache.xml.security.stax.config.TransformerAlgorithmMapper
+12891,org.apache.xml.security.stax.impl.util.ConcreteLSInput
+12892,org.apache.xml.security.stax.ext.AbstractOutputProcessor
+13003,org.apache.xml.security.stax.impl.processor.output.XMLSignatureEndingOutputProcessor
+13034,org.apache.xml.security.stax.impl.SignaturePartDef
+13035,org.apache.xml.security.stax.impl.processor.output.AbstractSignatureEndingOutputProcessor
+13037,org.apache.xml.security.stax.impl.processor.output.AbstractSignatureOutputProcessor
+13061,org.apache.xml.security.stax.impl.securityToken.RsaKeyValueSecurityToken
+13078,org.apache.xml.security.stax.impl.stax.XMLSecNamespaceImpl
+13115,org.apache.xml.security.stax.impl.securityToken.SecurityTokenFactoryImpl
+13174,org.apache.xml.security.stax.impl.securityToken.DsaKeyValueSecurityToken
+13175,org.apache.xml.security.stax.impl.securityToken.ECKeyValueSecurityToken
+13176,org.apache.xml.security.stax.impl.securityToken.X509SKISecurityToken
+13244,org.apache.xml.security.test.dom.encryption.EncryptContentTest
+13297,org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest
+13512,org.apache.xml.security.stax.ext.AbstractBufferingOutputProcessor
+13513,org.apache.xml.security.stax.impl.algorithms.SignatureAlgorithmFactory
+13538,org.apache.xml.security.test.dom.TestUtils
+13546,org.apache.xml.security.test.dom.resource.TestVectorResolver
+13587,org.apache.xml.security.stax.impl.util.LimitingInputStream
+13606,org.apache.xml.security.algorithms.implementations.SignatureDSA
+13703,org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest
+13756,org.apache.xml.security.samples.signature.NullURIReferenceResolver
+13792,org.apache.xml.security.stax.impl.stax.XMLSecEntityDeclarationImpl
+13828,org.apache.xml.security.test.dom.algorithms.DigestAlgorithmTest
+14017,org.apache.xml.security.stax.impl.stax.XMLSecStartDocumentImpl
+14039,javax.xml.crypto.test.dsig.keyinfo.X509DataTest
+14054,org.apache.xml.security.stax.ext.AbstractInputSecurityHeaderHandler
+14105,org.apache.xml.security.test.dom.interop.IBMTest
+14166,org.apache.xml.security.keys.storage.implementations.CertsInFilesystemDirectoryResolver
+14218,org.apache.xml.security.test.dom.utils.PoolingTest
+14390,org.apache.xml.security.samples.signature.VerifySignature
+14415,org.apache.xml.security.test.dom.signature.X509DataTest
+14446,org.apache.xml.security.stax.impl.processor.input.XMLSignatureInputHandler
+14471,org.apache.xml.security.stax.impl.processor.input.AbstractSignatureInputHandler
+14543,org.apache.xml.security.test.stax.encryption.EncryptionCreationTest
+15010,org.apache.xml.security.stax.impl.XMLSecurityEventWriter
+15012,org.apache.xml.security.stax.impl.processor.output.AbstractEncryptEndingOutputProcessor
+15108,org.apache.xml.security.test.stax.signature.SignatureVerificationTest
+15629,org.apache.xml.security.transforms.implementations.TransformC14N
+15650,org.apache.xml.security.keys.ContentHandlerAlreadyRegisteredException
+15714,org.apache.xml.security.stax.impl.algorithms.PKISignatureAlgorithm
+15757,org.apache.xml.security.stax.impl.algorithms.DSAUtils
+15761,org.apache.xml.security.samples.signature.VerifyMerlinsExamplesFifteen
+15792,org.apache.xml.security.samples.signature.VerifyMerlinsExamplesSixteen
+15842,org.apache.xml.security.samples.transforms.SampleTransformChaining
+15887,javax.xml.crypto.dsig.samples.Validate
+15953,org.apache.xml.security.test.stax.IVSplittingOutputStreamTest
+16005,org.apache.xml.security.stax.impl.util.KeyValue
+16138,org.apache.xml.security.signature.reference.ReferenceOctetStreamData
+16139,org.apache.xml.security.signature.reference.ReferenceSubTreeData
+16140,org.apache.xml.security.utils.UnsyncBufferedOutputStream
+16152,org.apache.xml.security.test.stax.signature.SignatureDigestCreationTest
+16334,org.apache.xml.security.test.stax.signature.AbstractSignatureCreationTest
+16352,org.apache.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14NMethod
+16362,javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest
+16402,org.apache.xml.security.test.stax.signature.PKSignatureCreationTest
+16589,org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest
+16716,org.apache.xml.security.samples.canonicalization.CanonSubTree
+16736,org.apache.xml.security.utils.XalanXPathFactory
+16738,org.apache.xml.security.utils.XalanXPathAPI
+16740,org.apache.xml.security.test.stax.encryption.KeyWrapEncryptionCreationTest
+16951,org.apache.xml.security.transforms.implementations.TransformXPointer
+16960,org.apache.xml.security.test.dom.c14n.implementations.Canonicalizer11Test
+17074,org.apache.xml.security.stax.config.XIncludeHandler
+17341,javax.xml.crypto.test.dsig.JSRWrappingAttackTest
+17508,javax.xml.crypto.test.dsig.SignedInfoTest
+17530,org.apache.xml.security.stax.impl.stax.XMLSecDTDImpl
+17542,org.apache.xml.security.test.stax.encryption.BaltimoreEncTest
+17852,org.apache.xml.security.test.dom.transforms.SampleTransform
+17863,org.apache.xml.security.stax.impl.stax.XMLSecAttributeImpl
+17934,org.apache.xml.security.utils.IdResolver
+17999,org.apache.xml.security.transforms.implementations.TransformC14N11
+18000,org.apache.xml.security.transforms.implementations.TransformC14N11_WithComments
+18001,org.apache.xml.security.transforms.implementations.TransformC14NExclusiveWithComments
+18002,org.apache.xml.security.transforms.implementations.TransformEnvelopedSignature
+18003,org.apache.xml.security.transforms.implementations.TransformXPath
+18023,org.apache.xml.security.utils.JDKXPathFactory
+18131,org.apache.xml.security.samples.utils.Base64Sample
+18143,org.apache.xml.security.encryption.XMLCipherInput
+18272,javax.xml.crypto.test.KeySelectorExceptionTest
+18303,org.apache.xml.security.samples.signature.contract.ThreeSignerContractSign
+18347,org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest
+18567,org.apache.xml.security.test.dom.c14n.implementations.UtfHelperTest
+18619,org.apache.jcp.xml.dsig.internal.dom.DOMXPathFilter2Transform
+18657,org.apache.xml.security.test.dom.c14n.implementations.Canonicalizer20010315Test
+18945,org.apache.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14N11Method
+18957,org.apache.xml.security.test.dom.secure_val.ForbiddenRetrievalMethodTest
+19001,org.apache.xml.security.stax.impl.stax.XMLSecEntityReferenceImpl
+19013,org.apache.xml.security.test.dom.c14n.implementations.NameSpaceSymbTableTest
+19130,org.apache.xml.security.keys.keyresolver.InvalidKeyResolverException
+19221,org.apache.xml.security.test.stax.signature.SignatureEncryptionTest
+19311,org.apache.xml.security.test.dom.c14n.implementations.Santuario273Test
+19324,org.apache.xml.security.keys.keyresolver.implementations.EncryptedKeyResolver
+19369,javax.xml.crypto.test.dsig.SignaturePropertiesTest
+19405,javax.xml.crypto.test.dsig.SecureXSLTTest
+19430,org.apache.xml.security.test.dom.encryption.ReferenceListTest
+19459,org.apache.jcp.xml.dsig.internal.dom.DOMXSLTTransform
+19517,javax.xml.crypto.test.dsig.BaltimoreExcC14n1Test
+19623,org.apache.xml.security.test.stax.XMLSecurityStreamReaderTest
+19726,org.apache.xml.security.stax.impl.transformer.canonicalizer.Canonicalizer11_OmitCommentsTransformer
+19807,org.apache.xml.security.test.stax.performance.PerformanceMemoryTest
+19981,org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest
+20192,org.apache.xml.security.transforms.implementations.FuncHere
+20232,org.apache.xml.security.test.dom.c14n.implementations.ExclusiveC14NInteropTest
+20267,org.apache.xml.security.test.stax.signature.SignatureCreationTest
+20559,org.apache.xml.security.test.dom.encryption.BaltimoreEncTest
+20740,org.apache.xml.security.test.dom.utils.resolver.ResolverDirectHTTPTest
+21050,org.apache.xml.security.keys.content.x509.XMLX509CRL
+21068,org.apache.xml.security.samples.signature.CreateMerlinsExampleTwentyThree
+21138,org.apache.xml.security.keys.keyresolver.implementations.SingleKeyResolver
+21382,org.apache.xml.security.test.dom.c14n.implementations.Santuario191Test
+21467,org.apache.xml.security.samples.signature.CreateEnvelopingSignature
+21493,org.apache.xml.security.samples.signature.CreateSignature
+21495,org.apache.xml.security.test.stax.transformer.TransformBase64DecodeTest
+21585,org.apache.xml.security.samples.signature.VerifyMerlinsExamplesTwentyThree
+21619,org.apache.xml.security.test.dom.signature.HMACOutputLengthTest
+21649,org.apache.jcp.xml.dsig.internal.dom.DOMEnvelopedTransform
+21653,org.apache.xml.security.stax.impl.resourceResolvers.ResolverSameDocument
+21719,org.apache.xml.security.test.stax.XMLSecurityStreamWriterTest
+21763,org.apache.xml.security.stax.impl.stax.XMLSecCommentImpl
+21815,org.apache.xml.security.samples.signature.TestSignature
+22043,org.apache.xml.security.stax.impl.util.DigestOutputStream
+22064,org.apache.xml.security.test.dom.keys.content.x509.XMLX509SKITest
+22081,org.apache.xml.security.test.stax.encryption.SymmetricEncryptionVerificationTest
+22295,org.apache.xml.security.test.stax.c14n.Santuario191Test
+22316,org.apache.xml.security.test.dom.signature.XMLSignatureInputTest
+22429,org.apache.xml.security.stax.impl.stax.XMLSecStartElementImpl
+22498,javax.xml.crypto.test.dsig.ClassLoaderTest
+22551,javax.xml.crypto.test.dsig.AppA
+22556,org.apache.xml.security.samples.transforms.SampleTransformNone
+22568,org.apache.xml.security.keys.keyresolver.implementations.SecretKeyResolver
+22599,org.apache.xml.security.test.stax.XMLSecurityEventReaderTest
+22703,org.apache.xml.security.test.dom.signature.CreateSignatureTest
+22792,org.apache.xml.security.samples.AxisSigner
+22821,javax.xml.crypto.test.KeySelectorTest
+22921,org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest
+23126,org.apache.xml.security.stax.impl.stax.XMLSecEndElementImpl
+23182,org.apache.xml.security.signature.InvalidDigestValueException
+23198,org.apache.xml.security.test.dom.algorithms.KeyWrapEncryptionAlgorithmTest
+23362,org.apache.xml.security.samples.transforms.SampleTransformXPath
+23470,org.apache.xml.security.encryption.DocumentSerializer
+23493,org.apache.xml.security.test.dom.secure_val.ForbiddenAlgorithmTest
+23510,org.apache.xml.security.test.stax.signature.IAIKTest
+23611,org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest
+23679,javax.xml.crypto.test.dsig.XMLSignatureFactoryTest
+23738,org.apache.xml.security.test.dom.algorithms.SignatureAlgorithmTest
+23747,javax.xml.crypto.dsig.samples.GenEnveloped
+23767,org.apache.xml.security.test.stax.c14n.ExclusiveC14NInteropTest
+23790,org.apache.xml.security.samples.transforms.SampleTransformXPath2Filter2
+23817,org.apache.jcp.xml.dsig.internal.dom.DOMBase64Transform
+24479,org.apache.xml.security.encryption.TransformSerializer
+24524,org.apache.xml.security.test.stax.encryption.SymmetricEncryptionCreationTest
+24705,org.apache.xml.security.samples.transforms.SampleTransformXPathHereFunc
+24754,org.apache.xml.security.test.dom.keys.keyresolver.KeyInfoReferenceResolverTest
+24855,org.apache.xml.security.test.dom.c14n.implementations.MockCanonicalizationMethod
+24878,org.apache.xml.security.test.stax.XMLSecurityEventWriterTest
+24896,org.apache.xml.security.samples.transforms.SampleTransformXPath2Filter
+24937,org.apache.xml.security.test.dom.keys.storage.StorageResolverTest
+25023,org.apache.xml.security.utils.resolver.implementations.ResolverLocalFilesystem
+25119,org.apache.xml.security.samples.AxisVerifier
+25290,org.apache.xml.security.samples.iaik.IAIKInterOp
+25328,org.apache.xml.security.test.dom.algorithms.SymmetricEncryptionAlgorithmTest
+25547,org.apache.xml.security.test.dom.signature.NoKeyInfoTest
+25560,org.apache.xml.security.test.stax.transformer.TransformCanonicalizerTest
+25652,javax.xml.crypto.dsig.samples.GenEnveloping
+25707,org.apache.xml.security.test.stax.InputProcessorChainTest
+25793,org.apache.xml.security.test.dom.c14n.implementations.Bug45961Test
+25839,org.apache.xml.security.test.stax.signature.SignatureHMACCreationTest
+25924,org.apache.xml.security.test.stax.signature.SignatureVerificationReferenceURIResolverTest
+26048,org.apache.xml.security.test.stax.signature.UnknownAlgoSignatureTest
+26329,org.apache.xml.security.utils.SignerOutputStream
+26353,javax.xml.crypto.test.dsig.keyinfo.KeyNameTest
+26366,javax.xml.crypto.test.dsig.keyinfo.KeyValueTest
+26582,javax.xml.crypto.test.dsig.SignaturePropertyTest
+26688,javax.xml.crypto.test.dsig.PKSignatureAlgorithmTest
+26758,org.apache.xml.security.test.dom.signature.InvalidKeyTest
+26926,org.apache.xml.security.test.dom.signature.KeyValueTest
+26941,org.apache.xml.security.test.dom.utils.Base64Test
+26962,javax.xml.crypto.test.dsig.IaikSignatureAlgosTest
+27047,org.apache.xml.security.test.stax.signature.BaltimoreTest
+27866,org.apache.xml.security.test.stax.c14n.Canonicalizer11Test
+28082,org.apache.xml.security.test.dom.encryption.XMLEncryption11Test
+28292,org.apache.xml.security.test.dom.signature.XmlSecTest
+28347,org.apache.xml.security.samples.keys.CreateKeyInfo
+28416,org.apache.xml.security.test.dom.utils.resolver.ResourceResolverTest
+28433,javax.xml.crypto.test.dsig.C14N11Test
+28488,javax.xml.crypto.test.dsig.CreateInteropExcC14NTest
+28517,org.apache.xml.security.test.dom.keys.content.x509.XMLX509CertificateTest
+*Edges: 2040
+5466 1802 1
+5466 1431 9
+4206 1803 1
+4206 1802 1
+4206 1431 18
+19517 1431 3
+9315 1431 3
+10284 1431 6
+28433 1431 4
+22498 1089 1
+6651 1431 4
+1620 488 2
+1620 1121 8
+1620 1803 7
+1620 1802 1
+1620 1431 1
+28488 488 1
+28488 1121 1
+1150 488 1
+1150 1121 1
+10210 488 1
+10210 1121 9
+4941 488 1
+4941 1121 2
+4941 1802 1
+5794 488 1
+5794 1121 1
+5794 1802 1
+16362 488 1
+16362 1121 7
+5989 1431 5
+26962 1431 6
+8767 1431 6
+1411 1431 15
+8919 1431 4
+2536 488 1
+11003 1431 5
+17341 488 1
+17341 1431 5
+26688 488 1
+26688 1121 1
+3786 1802 1
+3786 1431 29
+3676 1121 5
+19405 488 1
+6802 488 1
+6802 1121 13
+1431 488 1
+1121 488 2
+1121 1401 1
+1121 1399 1
+8884 1431 10
+1803 2010 1
+12381 1121 3
+23679 488 1
+23679 1121 2
+8570 488 1
+8570 1121 18
+8570 1802 1
+5070 1121 3
+9915 1121 2
+6341 488 1
+6341 139 2
+11175 2897 5
+9689 2551 2
+9689 137 1
+5150 5152 4
+5150 1383 1
+5150 139 2
+5150 1490 1
+5150 638 13
+5150 484 1
+5150 641 3
+5150 1489 1
+5150 483 13
+5150 1488 7
+1489 488 3
+1489 638 11
+1490 638 6
+5610 5152 2
+5610 1383 1
+5610 641 4
+5610 1489 1
+5610 139 2
+5610 1490 1
+5610 638 7
+5610 1488 4
+23817 5610 1
+18945 5152 1
+18945 5150 2
+18945 484 1
+18945 483 2
+18945 1488 1
+16352 5152 1
+16352 5150 2
+16352 484 1
+16352 483 2
+16352 1488 1
+11850 11849 9
+2021 139 2
+2021 137 1
+21649 5610 1
+5111 5152 1
+5111 139 2
+5111 5153 1
+5111 484 1
+5111 5151 2
+5111 5150 5
+5111 483 2
+5111 1488 1
+10572 7331 2
+10572 2551 4
+10572 139 1
+10572 9689 3
+10572 137 1
+2007 2009 1
+2007 139 2
+2007 160 1
+2007 5153 1
+2007 5151 1
+2007 2008 1
+2007 2010 1
+2007 137 1
+2007 142 1
+1955 2009 2
+1955 2011 1
+1955 2008 1
+1955 2010 1
+1955 2007 2
+1955 142 1
+2008 137 2
+160 139 1
+160 376 3
+160 137 2
+140 139 4
+140 137 1
+140 1488 1
+140 10195 3
+2009 375 1
+2009 376 2
+2009 137 1
+10195 5152 1
+10195 11849 6
+10195 16140 1
+10195 139 16
+10195 5153 1
+10195 638 15
+10195 5151 1
+10195 11175 5
+10195 10194 1
+10195 2021 3
+10195 375 1
+10195 376 5
+10195 1488 2
+10195 482 1
+2010 10194 1
+2010 488 2
+2010 11849 2
+2010 139 5
+2010 638 1
+2010 1488 3
+2010 142 1
+10354 10571 2
+10354 1355 2
+10354 2551 4
+10354 139 2
+10354 10570 2
+10354 9689 12
+141 11848 2
+141 139 1
+141 137 1
+11848 139 3
+11848 137 1
+2551 10354 1
+2551 5152 1
+2551 11849 1
+2551 16140 1
+2551 139 6
+2551 9689 1
+2551 11850 2
+2551 10195 3
+2551 10194 1
+2551 376 1
+2551 1488 1
+10194 137 1
+11849 139 2
+11849 5153 1
+11849 137 1
+11849 5151 1
+1456 488 1
+1456 1489 2
+1456 1490 1
+1456 638 7
+1456 1488 1
+1456 1487 2
+1456 779 1
+142 2011 1
+142 375 2
+142 376 5
+142 137 1
+2011 139 2
+2011 137 1
+43 140 1
+43 141 1
+43 139 4
+43 137 1
+43 142 1
+10046 140 3
+10046 43 4
+10046 139 7
+10046 9689 1
+10046 5153 1
+10046 10195 7
+10046 5151 3
+10046 2007 2
+10046 10194 1
+10046 2551 4
+10046 1488 2
+11743 10046 3
+11743 140 1
+11743 43 1
+11743 11849 2
+11743 11850 2
+11743 10195 3
+11743 141 1
+11743 2551 1
+11743 11848 1
+18619 5610 4
+18619 139 6
+5583 5610 4
+5583 139 3
+19459 5610 4
+19459 139 2
+5153 139 2
+5153 376 2
+5151 139 2
+779 7602 1
+779 1383 1
+779 481 1
+779 488 9
+779 641 1
+779 2406 1
+779 483 1
+779 2898 5
+779 1487 1
+6858 1383 2
+6858 639 3
+2406 1355 2
+2667 637 3
+2667 2406 2
+2667 6858 2
+481 1355 2
+481 1383 5
+481 637 4
+481 33 1
+481 5679 18
+481 10589 1
+481 1890 2
+481 485 1
+481 6858 4
+10589 488 4
+10589 637 7
+10589 5679 2
+10589 2406 1
+10589 2667 1
+8425 637 6
+8425 5679 1
+8425 2406 2
+13606 1355 2
+13606 637 6
+13606 5679 1
+13606 2406 2
+13606 376 1
+10570 637 6
+10570 5679 1
+10570 2406 2
+10570 376 1
+482 485 6
+483 1892 11
+483 1355 2
+483 488 2
+483 33 1
+483 484 1
+483 1890 2
+1892 488 4
+484 485 6
+4549 482 3
+4413 488 3
+4413 4549 2
+4413 3623 6
+4413 638 4
+4413 4550 13
+4413 482 5
+1883 4413 2
+1884 4413 2
+4039 488 3
+4039 4549 2
+4039 3623 6
+4039 638 4
+4039 4550 13
+4039 482 5
+4040 486 3
+4040 488 3
+4040 4549 3
+4040 3623 12
+4040 638 5
+4040 4550 13
+4040 482 3
+1885 4040 2
+1886 4040 2
+1887 4039 2
+1888 4039 2
+3623 2897 4
+3623 3174 12
+3623 638 13
+3623 4550 24
+3623 1892 2
+3623 488 1
+3623 4406 1
+3623 482 3
+1889 3623 4
+1889 482 4
+4550 7195 6
+4550 7248 20
+7248 7195 3
+9193 483 18
+9193 7599 2
+23470 9193 3
+23470 488 2
+23470 7599 3
+24479 9193 3
+24479 7599 1
+2408 18143 6
+2408 19324 2
+2408 33 1
+2408 1401 1
+2408 484 1
+2408 1049 1
+2408 557 6
+2408 9193 2
+2408 1050 1
+2408 2406 7
+2408 376 2
+2408 483 3
+2408 7599 69
+18143 643 1
+18143 566 2
+18143 638 1
+18143 375 1
+18143 775 1
+18143 376 1
+18143 7599 8
+18143 482 1
+18143 1487 2
+7599 485 6
+1890 485 6
+375 485 6
+485 2898 4
+11389 2898 4
+15650 485 6
+557 7602 5
+557 566 1
+557 5832 3
+557 7601 3
+557 5644 4
+557 7600 3
+557 488 10
+557 2499 8
+557 6518 4
+557 1051 1
+557 1383 71
+557 5831 4
+557 2524 1
+557 4269 4
+557 2408 5
+557 5830 4
+557 639 5
+557 1050 18
+557 2525 1
+5815 5830 1
+5815 5831 1
+5815 5832 2
+5815 2499 1
+5815 557 9
+5644 1383 5
+5644 4282 4
+5644 485 3
+4269 1383 4
+4269 4282 3
+5830 1383 2
+5830 639 3
+2499 488 2
+2499 1383 17
+2499 639 6
+2499 2524 3
+2499 2525 3
+5831 1383 2
+5831 639 3
+7600 639 2
+6518 488 1
+6518 1383 8
+6518 639 3
+6518 637 1
+6518 566 3
+6518 485 1
+7601 639 2
+5832 1383 40
+5832 2141 5
+5832 8817 5
+5832 21050 4
+5832 1048 5
+5832 488 6
+5832 639 3
+5832 10296 5
+5832 485 1
+5832 6519 6
+2524 1383 14
+2524 639 4
+2524 2898 1
+2524 485 2
+2525 1383 8
+2525 639 4
+2525 2898 1
+2525 485 2
+21050 1383 2
+21050 639 3
+1048 1383 3
+1048 639 4
+1048 485 4
+8817 1383 6
+8817 2406 1
+8817 4282 4
+8817 485 2
+6519 1383 5
+6519 639 3
+6519 1950 1
+10296 1383 3
+10296 639 4
+10296 376 1
+10296 485 4
+2141 1383 2
+2141 639 3
+2141 1950 1
+19130 485 6
+7602 1355 4
+7602 1051 5
+7602 33 3
+7602 1050 12
+7602 1049 4
+1049 485 6
+1050 488 2
+1050 1051 8
+5620 488 1
+5620 1051 1
+5620 5644 2
+5620 1050 1
+5620 485 1
+3593 488 3
+3593 1051 2
+3593 2524 2
+3593 1050 1
+3593 485 1
+19324 488 1
+19324 1051 1
+19324 1050 2
+19324 7599 1
+19324 2408 5
+12369 488 2
+12369 1051 5
+12369 4269 2
+12369 1050 2
+12369 638 6
+12369 557 9
+12369 485 7
+12369 1487 2
+11199 1383 3
+11199 1051 1
+11199 5832 9
+11199 2141 3
+11199 1048 2
+11199 488 4
+11199 1050 1
+11199 10296 3
+11199 485 1
+11199 6519 3
+2966 488 3
+2966 1051 2
+2966 1050 1
+2966 2525 2
+2966 485 1
+12370 7602 2
+12370 1051 5
+12370 566 1
+12370 638 9
+12370 488 4
+12370 1050 2
+12370 6518 9
+12370 485 2
+12370 1487 2
+22568 488 2
+22568 1051 1
+22568 1050 1
+21138 488 4
+21138 1050 1
+1025 1048 2
+1025 488 2
+1025 1051 2
+1025 1050 1
+1025 1049 1
+1025 485 1
+12371 488 2
+12371 1051 5
+12371 5832 2
+12371 1050 1
+12371 8817 4
+12371 1049 2
+12371 485 3
+12372 1051 3
+12372 637 1
+12372 5832 4
+12372 1050 1
+12372 6519 5
+12372 1049 2
+12372 485 2
+12373 488 2
+12373 1051 3
+12373 1050 1
+12373 10296 2
+12373 1049 2
+12373 485 1
+12374 488 2
+12374 1051 3
+12374 2141 4
+12374 1050 1
+12374 1049 2
+12374 485 1
+1051 9096 1
+1051 5450 1
+1051 6767 1
+1051 6795 2
+5450 485 6
+14166 5450 1
+14166 10296 1
+14166 376 1
+14166 6795 1
+6767 6795 1
+9096 6795 1
+22792 493 6
+22792 492 2
+22792 488 1
+22792 1383 1
+22792 779 1
+25119 3651 2
+25119 493 6
+25119 492 4
+25119 638 1
+25119 557 1
+25119 779 1
+4579 776 1
+4579 638 1
+11861 488 2
+11861 1383 2
+11861 376 2
+11861 481 12
+1362 1383 1
+1362 566 3
+1362 638 2
+1362 779 1
+11534 483 2
+11534 779 1
+16716 3651 1
+16716 483 2
+16716 779 1
+8052 1355 1
+8052 2408 4
+11909 557 2
+11909 2408 7
+25290 15792 1
+25290 3651 1
+25290 493 7
+25290 15761 1
+25290 10915 1
+25290 21585 1
+25290 557 2
+28347 488 1
+28347 1383 1
+28347 5832 4
+28347 2525 1
+28347 557 5
+6371 1383 4
+6371 566 2
+6371 557 1
+6371 959 2
+6371 5830 1
+6371 488 1
+6371 492 2
+6371 493 6
+21467 493 7
+21467 492 2
+21467 488 1
+21467 1383 1
+21467 566 2
+21467 5056 3
+6449 4845 1
+6449 1383 10
+6449 566 24
+6449 5832 4
+6449 5056 21
+6449 2141 1
+6449 557 1
+6449 959 4
+6449 1048 1
+6449 1355 1
+6449 488 1
+6449 492 9
+6449 493 30
+6449 2489 2
+6449 2466 3
+6449 6518 1
+6449 6519 1
+21068 4845 1
+21068 1383 10
+21068 566 24
+21068 5832 4
+21068 5056 21
+21068 2141 1
+21068 557 1
+21068 959 4
+21068 1048 1
+21068 1355 1
+21068 488 1
+21068 492 9
+21068 493 30
+21068 2489 2
+21068 2466 3
+21068 6518 1
+21068 6519 1
+21493 493 7
+21493 492 1
+21493 488 1
+21493 1383 2
+21493 566 3
+6398 1383 4
+6398 566 2
+6398 6429 4
+6398 5056 4
+6398 959 2
+6398 488 1
+6398 492 3
+6398 493 7
+13756 776 1
+13756 638 7
+5762 4845 1
+5762 1383 3
+5762 5056 4
+5762 638 1
+5762 557 1
+5762 779 1
+5762 492 1
+5762 493 7
+5762 2466 2
+5762 2489 1
+5762 483 2
+21815 3651 1
+21815 493 6
+21815 1051 1
+21815 557 3
+11044 3651 1
+11044 493 3
+11044 492 2
+15761 15792 1
+15761 3651 1
+15761 493 2
+15792 3651 1
+15792 493 7
+15792 492 1
+15792 557 2
+21585 3651 1
+21585 493 7
+21585 492 1
+21585 557 2
+14390 3651 1
+14390 493 6
+14390 557 3
+18303 1383 12
+18303 566 8
+18303 557 4
+18303 959 8
+18303 5830 4
+18303 488 1
+18303 492 8
+18303 493 29
+3629 3651 1
+3629 493 2
+15842 3651 1
+15842 566 2
+15842 638 1
+15842 779 1
+8824 3651 1
+8824 566 2
+8824 638 2
+8824 779 1
+22556 1594 1
+23362 566 2
+23362 638 1
+23362 779 1
+24896 4845 4
+24896 1383 1
+24896 566 3
+24896 4691 1
+24896 638 3
+24896 557 1
+24896 779 1
+24896 1355 1
+24896 492 4
+24896 493 11
+24896 483 2
+23790 4845 4
+23790 1383 9
+23790 566 7
+23790 4691 6
+23790 638 3
+23790 557 1
+23790 779 1
+23790 1355 1
+23790 492 4
+23790 493 11
+23790 483 2
+24705 3651 1
+24705 566 2
+24705 638 2
+24705 779 1
+9066 566 2
+9066 638 1
+9066 779 1
+18131 483 2
+18131 376 1
+18131 779 1
+735 776 1
+735 638 4
+23182 637 6
+9792 637 6
+492 4845 14
+492 1383 8
+492 566 1
+492 776 1
+492 638 5
+492 484 1
+492 4846 1
+492 488 2
+492 639 3
+492 637 3
+492 494 2
+492 2898 2
+492 485 7
+492 1487 2
+492 482 1
+494 4845 7
+494 637 5
+5056 1383 7
+5056 639 3
+4845 640 1
+4845 486 3
+4845 566 15
+4845 2667 4
+4845 488 5
+4845 637 14
+4845 16139 1
+4845 376 4
+4845 485 7
+4845 643 3
+4845 1383 23
+4845 16140 1
+4845 484 2
+4845 638 29
+4845 4846 4
+4845 7373 2
+4845 492 6
+4845 639 3
+4845 641 3
+4845 775 3
+4845 16138 1
+4845 1487 3
+4845 482 3
+4846 637 6
+2466 488 3
+2466 1383 8
+2466 639 3
+2466 637 1
+2466 2489 3
+2466 485 1
+2489 1383 5
+2489 639 3
+401 486 2
+401 492 8
+401 488 7
+401 1383 14
+401 483 12
+401 485 4
+401 481 7
+493 566 3
+493 5832 2
+493 488 12
+493 637 11
+493 2466 1
+493 375 1
+493 376 2
+493 2898 1
+493 485 5
+493 1383 32
+493 16140 2
+493 5056 3
+493 776 1
+493 484 1
+493 481 6
+493 557 7
+493 6858 1
+493 401 11
+493 492 8
+493 26329 2
+493 639 4
+493 482 1
+493 1487 1
+637 485 6
+638 1355 1
+638 488 6
+638 11389 1
+638 3623 3
+638 1883 1
+638 4328 4
+638 1887 2
+638 482 1
+4328 488 1
+4328 4406 1
+4328 637 1
+4328 638 4
+1398 33 2
+1398 9 1
+1398 17074 1
+1398 1400 2
+1398 12890 1
+1398 1436 3
+1398 2907 1
+1398 2898 3
+1398 5916 1
+5916 2406 2
+2907 33 1
+2907 485 1
+9 33 1
+12890 33 3
+12890 485 1
+17074 33 1
+13512 12892 2
+6265 905 3
+14054 6263 1
+14054 1401 1
+14054 905 2
+14054 485 1
+12892 912 2
+12892 3182 8
+12892 905 3
+4189 1309 2
+4189 3176 1
+4189 2555 2
+4189 11568 5
+4189 6572 1
+4189 905 3
+4189 11570 1
+4189 11571 1
+5430 912 12
+5430 10752 3
+5430 2555 1
+5430 905 15
+5430 1296 4
+5430 10747 2
+5430 10749 4
+5430 485 2
+5430 1309 2
+5430 10751 6
+5430 7045 1
+5430 3671 2
+5430 5918 3
+5430 5853 1
+5430 2406 2
+5430 10748 1
+1399 5430 2
+1399 4189 2
+1399 1400 4
+1399 905 32
+1399 3671 2
+1400 485 5
+1401 485 1
+905 912 2
+847 33 5
+847 12892 54
+847 7041 1
+847 12890 1
+847 3671 8
+847 7042 1
+847 918 1
+847 2406 2
+847 10296 1
+847 11961 2
+847 9683 1
+847 7044 1
+847 485 7
+847 7043 1
+847 910 2
+3182 23126 2
+3182 943 2
+3182 22429 3
+3182 19001 2
+3182 13078 2
+3182 13792 1
+3182 21763 2
+3182 10327 3
+3182 17530 2
+3182 17863 1
+3182 14017 2
+1309 918 2
+5917 912 3
+11569 1309 2
+11569 918 1
+11569 7039 2
+11569 485 1
+11569 3671 1
+11568 2555 4
+1296 1309 1
+10751 2555 4
+13034 912 3
+11570 905 2
+11570 485 2
+10752 912 18
+10752 3182 21
+10752 485 2
+15714 15757 2
+15714 11961 2
+13513 1241 1
+13513 15714 1
+13513 2406 3
+13513 485 1
+904 6264 2
+904 3178 2
+904 6268 1
+904 1401 1
+904 3182 3
+904 905 3
+904 5918 1
+904 6263 1
+904 6265 7
+904 847 3
+904 6266 1
+904 2406 3
+904 485 5
+14471 14054 3
+14471 3178 1
+14471 3182 1
+14471 905 5
+14471 5918 1
+14471 3179 2
+14471 847 1
+14471 485 4
+1519 8552 1
+1519 11000 1
+1519 905 2
+1519 22043 3
+1519 7039 9
+1519 5918 1
+1519 847 4
+1519 6265 3
+1519 16005 9
+1519 918 3
+1519 2406 2
+1519 2907 1
+1519 485 6
+6572 6265 3
+6572 905 1
+853 904 2
+853 907 1
+853 905 1
+853 917 1
+853 847 1
+853 6265 1
+853 918 1
+853 485 1
+853 916 2
+6266 14054 3
+6266 918 1
+6266 905 3
+6266 9683 1
+6266 485 1
+6266 5918 1
+6266 910 1
+3176 6265 3
+3176 3182 1
+3176 905 1
+3176 485 1
+11571 6265 12
+11571 853 1
+11571 905 1
+11571 485 1
+14446 918 2
+14446 1503 1
+14446 7040 2
+14446 7039 3
+14446 14471 1
+1503 1518 1
+1503 918 1
+1503 905 1
+1503 1519 3
+1503 916 2
+15012 13512 2
+5919 912 2
+5919 12892 3
+5919 485 1
+5919 5917 1
+13035 12892 35
+13035 905 7
+13035 5918 2
+13035 3671 1
+13035 13512 2
+13035 847 1
+13035 13037 2
+13035 13513 2
+13035 485 3
+13035 13034 8
+13037 912 8
+13037 12892 5
+13037 905 2
+13037 22043 3
+13037 847 4
+13037 2406 2
+13037 2907 1
+13037 485 2
+13037 13034 12
+10747 12892 5
+10747 15010 2
+5853 912 1
+5853 12892 7
+5853 5919 4
+5853 905 1
+5853 5918 1
+5853 5917 6
+13003 12892 15
+13003 13035 3
+13003 905 3
+13003 3671 5
+13003 13512 1
+13003 847 6
+13003 10748 1
+13003 7040 2
+13003 485 1
+13003 13034 3
+10748 912 5
+10748 13037 5
+10748 13003 1
+10748 12892 14
+10748 905 1
+10748 13034 13
+10748 5918 1
+8725 485 1
+21653 847 1
+8762 7045 3
+8762 918 2
+8762 7039 14
+8762 485 1
+8762 3671 1
+13174 7045 3
+13174 8762 2
+13174 5918 1
+13175 7045 3
+13175 11961 2
+13175 485 3
+13175 8762 2
+13175 5918 1
+10749 7045 5
+7037 8762 2
+7037 5918 1
+13061 7045 3
+13061 8762 2
+13061 5918 1
+13115 6264 1
+13115 6445 1
+13115 13176 2
+13115 7038 3
+13115 905 11
+13115 13175 1
+13115 13061 1
+13115 485 6
+13115 8762 1
+13115 3178 1
+13115 7045 3
+13115 7037 1
+13115 13174 1
+13115 3671 7
+13115 5918 6
+13115 847 10
+13115 6435 2
+13115 1950 1
+7038 6445 2
+13176 6445 2
+6445 8762 2
+6435 6445 2
+17863 13078 1
+17863 669 1
+10327 669 3
+21763 669 2
+17530 669 2
+11902 669 1
+23126 669 3
+13792 669 1
+19001 669 2
+13078 669 1
+943 669 2
+14017 669 1
+22429 13078 1
+22429 669 6
+3481 3177 10
+6740 3177 2
+3177 847 1
+3590 2988 2
+19726 3590 2
+3588 3590 2
+6878 2988 2
+7781 2988 2
+7781 3182 1
+7782 7781 2
+7783 7781 2
+11000 6878 2
+6876 6878 2
+2988 3179 2
+2988 3178 1
+2988 3176 2
+2988 3174 13
+2988 847 5
+2988 3182 1
+2988 3177 8
+2988 485 1
+6285 3179 5
+6283 6284 4
+13587 2898 1
+6663 485 2
+916 918 2
+917 916 2
+7039 918 2
+907 917 2
+7042 910 2
+919 917 2
+9683 910 2
+7043 910 2
+7041 485 1
+7041 910 3
+7040 918 2
+1518 917 2
+910 918 2
+7044 910 2
+6264 33 1
+6264 905 1
+6264 485 4
+6264 1436 2
+4982 486 1
+4982 1383 44
+4982 566 39
+4982 5056 12
+4982 638 1
+4982 557 1
+4982 779 1
+4982 1355 1
+4982 959 32
+4982 488 3
+4982 492 2
+4982 493 29
+13828 488 12
+13828 2667 24
+13828 6858 12
+8331 493 6
+8331 488 7
+8331 1383 1
+8331 566 2
+8331 1908 2
+23198 488 11
+23198 1908 1
+23198 557 3
+23198 2408 45
+13297 493 6
+13297 488 18
+13297 1383 1
+13297 566 2
+13297 1908 2
+23738 488 1
+23738 485 1
+23738 481 8
+25328 488 11
+25328 1908 1
+25328 2408 6
+5712 488 1
+5712 4406 8
+5093 4549 6
+25793 493 8
+25793 488 1
+25793 1383 2
+25793 637 1
+25793 566 3
+25793 5056 4
+25793 557 1
+25793 779 1
+16960 1355 1
+16960 488 1
+16960 1908 1
+16960 483 3
+3881 1886 5
+3881 638 1
+3881 4040 13
+3881 557 1
+3881 1892 1
+3881 1355 7
+3881 488 3
+3881 492 2
+3881 493 4
+3881 1888 2
+3881 1885 14
+3881 3623 2
+3881 1908 1
+18657 1355 3
+18657 488 5
+18657 1908 3
+18657 483 11
+18657 482 1
+20232 4845 2
+20232 493 5
+20232 492 3
+20232 488 1
+20232 641 1
+20232 566 2
+20232 4736 1
+20232 557 1
+24855 4413 3
+24855 1892 1
+24855 3623 3
+24855 1883 3
+19013 4550 97
+21382 488 1
+21382 1883 1
+19311 488 1
+19311 1908 1
+19311 483 2
+18567 3174 4
+20559 7602 1
+20559 5832 1
+20559 557 4
+20559 2408 13
+20559 779 1
+20559 5830 2
+20559 1048 1
+20559 1355 1
+20559 488 3
+20559 1908 1
+20559 2406 2
+9731 5830 3
+9731 488 1
+9731 1051 2
+9731 1050 1
+9731 1049 1
+13244 488 1
+13244 2406 1
+13244 557 2
+13244 2408 7
+13244 779 1
+19430 488 1
+19430 2408 6
+19430 779 1
+2175 959 2
+2175 488 4
+2175 1383 1
+2175 566 2
+2175 2406 2
+2175 483 6
+2175 557 7
+2175 2408 117
+28082 1048 1
+28082 488 6
+28082 5832 3
+28082 2406 1
+28082 1908 1
+28082 557 6
+28082 2408 14
+28082 779 1
+12538 637 2
+12538 4736 20
+12538 485 2
+10834 637 1
+10834 10915 1
+10834 4736 13
+10834 485 1
+14105 1355 1
+14105 4736 9
+4736 4845 1
+4736 776 2
+4736 557 2
+4736 488 2
+4736 492 5
+4736 493 13
+4736 1908 2
+4736 16138 1
+4719 4736 3
+13703 1355 1
+13703 488 1
+13703 1383 10
+13703 5644 17
+13703 376 1
+5652 488 1
+5652 1383 4
+5652 4269 9
+28517 1048 2
+28517 488 1
+8785 488 1
+8785 1383 1
+8785 376 1
+8785 8817 8
+8785 779 2
+10037 488 1
+10037 6519 4
+22064 10296 1
+1315 1355 1
+1315 488 1
+1315 376 1
+1315 557 6
+1315 779 2
+24754 1355 1
+24754 488 1
+24754 376 1
+24754 557 12
+24754 779 2
+23611 21138 3
+23611 7602 2
+23611 1051 1
+23611 6767 1
+23611 5832 8
+23611 557 49
+23611 2408 11
+23611 779 1
+23611 1048 1
+23611 11199 1
+23611 488 2
+23611 1050 1
+23611 2406 1
+23611 10296 1
+23611 22568 1
+2947 488 2
+2947 557 6
+2947 1089 1
+2947 779 1
+9077 9096 1
+9077 488 1
+9077 1051 2
+9077 557 6
+9077 779 2
+7129 6767 5
+24937 1051 6
+13546 1355 1
+23493 493 1
+23493 488 1
+23493 637 1
+23493 4736 1
+23493 557 1
+6554 492 2
+6554 488 1
+6554 4736 1
+6554 485 1
+11296 492 2
+11296 488 1
+11296 494 1
+11296 4736 1
+18957 488 1
+18957 557 4
+18957 779 1
+8523 493 3
+8523 488 2
+8523 637 1
+8523 4736 1
+8523 557 2
+22703 1383 13
+22703 566 10
+22703 5056 8
+22703 4691 1
+22703 557 3
+22703 481 5
+22703 779 1
+22703 959 2
+22703 401 3
+22703 488 6
+22703 493 25
+22703 1908 3
+7147 493 9
+7147 488 3
+7147 1383 2
+7147 566 3
+7147 1908 1
+7147 7191 1
+7147 557 1
+7147 481 1
+7147 779 1
+21619 493 4
+21619 488 2
+21619 637 3
+21619 485 3
+21619 779 1
+26758 493 1
+26758 488 1
+26926 493 2
+26926 488 1
+26926 2499 1
+26926 557 1
+25547 493 2
+25547 488 1
+3250 493 4
+3250 488 1
+3250 1908 1
+3250 557 1
+11578 4845 1
+11578 493 7
+11578 492 3
+11578 488 1
+11578 1383 2
+11578 566 3
+11578 779 1
+11313 493 7
+11313 492 1
+11313 488 1
+11313 1383 2
+11313 566 3
+11313 779 1
+12734 493 3
+12734 488 1
+12734 401 1
+12734 637 2
+12734 1908 1
+12734 484 1
+14415 1383 1
+14415 5832 2
+14415 2141 1
+14415 557 5
+14415 779 1
+14415 488 3
+14415 493 10
+14415 6519 1
+22316 638 8
+7191 1908 1
+7191 776 1
+7191 775 1
+7191 638 6
+7191 3297 2
+28292 959 2
+28292 493 6
+28292 488 1
+28292 1383 3
+28292 566 3
+28292 1908 1
+28292 779 1
+17852 1594 1
+17852 641 1
+17852 1890 1
+4288 488 2
+4288 1383 3
+4288 566 10
+4288 1908 1
+4288 638 4
+5167 488 1
+5167 641 1
+5167 1908 1
+11374 4845 1
+11374 493 5
+11374 492 3
+11374 488 1
+11374 638 1
+11374 557 1
+26941 488 1
+26941 376 3
+14218 488 20
+1930 1950 16
+10914 776 1
+10914 775 1
+10914 638 4
+10914 3297 2
+20740 4193 5
+20740 488 6
+20740 776 18
+20740 775 3
+20740 3297 5
+20740 1487 1
+20740 779 2
+28416 488 2
+28416 1487 6
+15953 6283 25
+15953 6284 12
+25707 1398 1
+25707 11568 59
+11418 10751 59
+11418 1398 1
+979 1000 5
+1388 1398 1
+1388 1400 1
+1388 1399 2
+1388 905 3
+1388 485 1
+22599 6263 9
+22599 3182 4
+24878 13078 2
+24878 23126 1
+24878 22429 3
+24878 3182 1
+24878 15010 4
+19623 1398 1
+19623 2555 1
+19623 11568 8
+19623 905 6
+19623 11570 71
+21719 10752 32
+21719 10751 2
+21719 1398 1
+27866 19726 2
+27866 4192 1
+27866 2988 2
+27866 3588 1
+7628 7783 5
+7628 4192 1
+7628 488 1
+7628 2988 2
+7628 7781 18
+7628 7782 14
+10921 6869 1
+10921 4192 1
+10921 11000 1
+10921 6876 4
+10921 2988 4
+23767 1399 1
+23767 905 3
+23767 779 1
+23767 488 2
+23767 1398 1
+23767 4192 1
+23767 3309 1
+23767 4189 1
+22295 19726 1
+22295 4192 1
+22295 2988 1
+17542 1399 9
+17542 905 18
+17542 779 1
+17542 1355 1
+17542 4192 1
+17542 488 19
+17542 3309 9
+17542 1908 1
+17542 4189 9
+9325 905 34
+9325 7039 5
+9325 488 34
+9325 3309 17
+9325 4189 17
+9325 1908 1
+9325 910 2
+9325 1383 2
+9325 1399 17
+9325 557 4
+9325 779 1
+9325 917 4
+9325 2408 7
+9325 3671 5
+9325 4192 1
+9325 4196 11
+9325 916 12
+14543 912 24
+14543 5430 21
+14543 5431 21
+14543 1399 21
+14543 905 124
+14543 2408 4
+14543 779 1
+14543 488 20
+14543 4192 1
+16740 912 11
+16740 5430 11
+16740 5431 11
+16740 1399 11
+16740 905 77
+16740 557 1
+16740 2408 8
+16740 779 1
+16740 488 11
+16740 4192 1
+8093 1399 11
+8093 905 22
+8093 557 2
+8093 2408 37
+8093 779 1
+8093 4192 1
+8093 488 22
+8093 3309 11
+8093 1908 1
+8093 4189 11
+24524 912 11
+24524 5430 11
+24524 5431 11
+24524 1399 11
+24524 905 55
+24524 2408 4
+24524 779 1
+24524 488 11
+24524 4192 1
+22081 1383 2
+22081 1399 11
+22081 905 22
+22081 557 4
+22081 2408 7
+22081 779 1
+22081 4192 1
+22081 488 22
+22081 3309 11
+22081 4189 11
+22081 1908 1
+5225 912 7
+5225 5430 1
+5225 5431 1
+5225 1399 2
+5225 905 12
+5225 557 1
+5225 2408 8
+5225 779 1
+5225 4192 1
+5225 488 4
+5225 3309 1
+5225 4189 1
+5225 1908 1
+5225 376 1
+7116 912 1
+7116 1383 1
+7116 566 3
+7116 5430 4
+7116 5431 2
+7116 1399 4
+7116 905 16
+7116 2408 4
+7116 779 1
+7116 488 6
+7116 493 6
+7116 4189 4
+19807 7116 13
+7072 7116 13
+16334 912 3
+16334 4192 1
+16334 493 6
+16334 1908 2
+16334 776 2
+16334 779 1
+6881 566 4
+6881 7038 2
+6881 7039 8
+6881 1398 1
+6881 493 15
+6881 1908 1
+6881 910 4
+6881 1383 1
+6881 7045 3
+6881 7037 1
+6881 776 3
+6881 779 1
+6881 917 3
+6881 3671 11
+6881 4192 1
+6881 6435 1
+6881 7040 1
+6881 4196 13
+6881 916 9
+27047 7038 2
+27047 905 51
+27047 786 36
+27047 4190 18
+27047 488 62
+27047 1398 1
+27047 3309 31
+27047 4189 31
+27047 910 5
+27047 7045 2
+27047 7037 1
+27047 4191 36
+27047 776 36
+27047 1399 31
+27047 779 1
+27047 3671 5
+27047 4192 1
+27047 6435 1
+27047 4196 4
+23510 7045 2
+23510 7037 1
+23510 4191 4
+23510 1399 7
+23510 7038 2
+23510 905 12
+23510 3671 5
+23510 779 1
+23510 6435 1
+23510 4192 1
+23510 488 12
+23510 1398 1
+23510 3309 7
+23510 4189 7
+23510 4196 4
+23510 910 4
+16402 16334 1
+16402 488 16
+16402 5430 16
+16402 5431 16
+16402 1399 16
+16402 905 128
+18347 1399 16
+18347 905 32
+18347 779 1
+18347 488 32
+18347 1398 1
+18347 4192 1
+18347 3309 16
+18347 4189 16
+18347 6881 1
+4054 4191 8
+4054 1399 10
+4054 776 6
+4054 905 13
+4054 786 6
+4054 779 1
+4054 4192 1
+4054 4190 3
+4054 488 20
+4054 1398 1
+4054 3309 10
+4054 4189 10
+9888 1399 2
+9888 905 2
+9888 779 1
+9888 488 4
+9888 1398 1
+9888 4192 1
+9888 3309 2
+9888 4189 2
+9888 6881 3
+22921 912 5
+22921 16334 5
+22921 5430 4
+22921 5431 4
+22921 1399 4
+22921 776 2
+22921 905 27
+22921 786 2
+22921 488 4
+22921 4190 1
+20267 912 18
+20267 16334 20
+20267 488 22
+20267 5430 21
+20267 5431 21
+20267 1399 21
+20267 905 144
+16152 16334 12
+16152 488 11
+16152 5430 11
+16152 5431 11
+16152 1399 11
+16152 905 66
+19981 1399 11
+19981 905 11
+19981 779 1
+19981 4192 1
+19981 488 22
+19981 493 11
+19981 1398 1
+19981 3309 11
+19981 4189 11
+19981 6881 12
+19221 912 4
+19221 16334 4
+19221 5430 3
+19221 5431 3
+19221 1399 4
+19221 905 30
+19221 2408 4
+19221 488 4
+19221 3309 1
+19221 4189 1
+19221 4196 8
+25839 16334 1
+25839 488 6
+25839 5430 6
+25839 5431 6
+25839 1399 6
+25839 905 36
+16589 1399 6
+16589 905 12
+16589 779 1
+16589 488 12
+16589 1398 1
+16589 4192 1
+16589 3309 6
+16589 4189 6
+16589 6881 1
+25924 4191 6
+25924 1399 6
+25924 776 2
+25924 905 12
+25924 786 2
+25924 4190 1
+25924 488 12
+25924 493 6
+25924 3309 6
+25924 1908 2
+25924 4189 6
+25924 6881 7
+15108 5832 6
+15108 905 30
+15108 488 48
+15108 493 22
+15108 1398 1
+15108 3309 23
+15108 4189 23
+15108 6881 57
+15108 1383 4
+15108 4191 8
+15108 1399 23
+15108 557 5
+15108 779 1
+15108 5830 2
+15108 4192 1
+15108 918 48
+15108 6519 1
+15108 4196 48
+4196 918 7
+4196 3671 2
+26048 1399 4
+26048 905 8
+26048 779 1
+26048 488 8
+26048 1398 1
+26048 4192 1
+26048 3309 4
+26048 4189 4
+21495 4192 1
+21495 1398 1
+21495 3481 8
+21495 3177 4
+25560 4192 1
+25560 1398 1
+25560 11000 6
+25560 2988 12
+6687 4192 1
+6687 1398 1
+6687 3177 5
+6687 6740 3
+11652 6869 2
+11652 4192 1
+11652 1398 1
+11652 3177 12
+4192 3182 1
+640 485 6
+641 640 6
+641 643 1
+641 1383 2
+641 33 1
+641 6429 2
+641 638 4
+641 1890 2
+641 1355 2
+641 488 2
+641 1594 3
+641 639 4
+641 482 2
+1594 641 2
+1594 638 6
+643 485 6
+566 640 3
+566 643 8
+566 1383 7
+566 638 4
+566 484 1
+566 488 1
+566 639 3
+566 641 13
+566 485 1
+566 482 1
+20192 488 1
+20192 2898 1
+4321 643 1
+4321 488 1
+4321 1594 1
+4321 641 1
+4321 375 1
+4321 638 25
+4321 376 2
+15629 1892 1
+15629 1594 1
+15629 3623 2
+15629 638 3
+15629 1887 1
+17999 1892 1
+17999 1594 1
+17999 3623 2
+17999 1883 1
+17999 638 3
+18000 1892 1
+18000 1594 1
+18000 3623 2
+18000 638 3
+18000 1884 1
+4739 486 2
+4739 1383 3
+4739 638 5
+4739 4040 1
+4739 1892 1
+4739 488 1
+4739 641 1
+4739 1594 1
+4739 1885 1
+4739 3623 1
+4739 485 1
+18001 486 2
+18001 1886 1
+18001 1383 3
+18001 638 4
+18001 4040 1
+18001 1892 1
+18001 488 1
+18001 641 1
+18001 1594 1
+18001 3623 1
+18001 485 1
+3613 1892 1
+3613 1888 1
+3613 1594 1
+3613 3623 2
+3613 638 3
+18002 643 1
+18002 1594 1
+18002 1383 1
+18002 638 2
+18003 4693 2
+18003 643 1
+18003 488 2
+18003 1594 1
+18003 1383 1
+18003 641 1
+18003 638 5
+4627 4693 2
+4627 643 4
+4627 4655 1
+4627 1383 2
+4627 4691 6
+4627 638 8
+4627 484 1
+4627 488 4
+4627 1594 1
+4627 641 1
+4627 485 1
+4627 482 1
+16951 643 1
+16951 1594 1
+1543 643 4
+1543 488 1
+1543 1594 1
+1543 1383 1
+1543 641 1
+1543 638 7
+1543 485 1
+4655 488 1
+486 1383 5
+4691 488 2
+4691 1383 12
+4691 6429 2
+4691 485 1
+3207 1383 14
+3207 485 1
+959 1383 4
+959 639 2
+4889 488 3
+4889 1383 23
+376 2897 3
+376 488 3
+376 375 16
+376 2898 2
+7373 2667 5
+1383 1355 1
+1383 488 10
+1383 6429 4
+1383 376 6
+1383 485 7
+3580 1383 3
+6429 488 1
+2898 779 3
+7394 7420 2
+18023 4693 1
+1355 2897 6
+4282 488 1
+4282 1383 5
+639 488 1
+639 1383 5
+26329 637 3
+26329 485 3
+26329 481 5
+488 1355 4
+488 8046 3
+488 6429 2
+488 484 2
+488 483 4
+488 2898 2
+488 482 2
+4693 16738 1
+16736 4693 1
+1487 1355 4
+1487 33 2
+1487 776 11
+1487 775 2
+1487 638 1
+1487 3297 5
+775 485 5
+776 638 1
+776 3297 2
+10915 776 1
+10915 638 2
+4193 776 7
+4193 638 4
+4193 3297 1
+11515 488 1
+11515 776 1
+11515 775 2
+11515 638 6
+25023 776 1
+25023 775 1
+25023 638 3
+25023 3297 2
+11371 488 1
+11371 776 1
+11371 775 2
+11371 638 5
