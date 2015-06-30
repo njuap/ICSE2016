@@ -1,0 +1,2439 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:04:51
+
+Ignoring Unimportant
+Left base folder: D:\APsource\aurora\version1
+Right base folder: D:\APsource\aurora\version2
+
+File: src\jmh\java\org\apache\aurora\benchmark\fakes\FakeDriver.java
+27 ignored unimportant difference line(s)
+24 important right orphan line(s)
+
+15 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\fakes\FakeEventSink.java
+16 ignored unimportant difference line(s)
+8 important right orphan line(s)
+
+4 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\fakes\FakeOfferManager.java
+24 ignored unimportant difference line(s)
+34 important right orphan line(s)
+
+12 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\fakes\FakeRescheduleCalculator.java
+16 ignored unimportant difference line(s)
+13 important right orphan line(s)
+
+4 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\fakes\FakeSchedulerDriver.java
+33 ignored unimportant difference line(s)
+97 important right orphan line(s)
+
+21 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\fakes\FakeStatsProvider.java
+28 ignored unimportant difference line(s)
+45 important right orphan line(s)
+
+16 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\BenchmarkSettings.java
+53 ignored unimportant difference line(s)
+62 important right orphan line(s)
+
+17 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\Hosts.java
+28 ignored unimportant difference line(s)
+38 important right orphan line(s)
+
+10 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\Offers.java
+46 ignored unimportant difference line(s)
+58 important right orphan line(s)
+
+16 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\SchedulerBenchmark.java
+17 ignored unimportant difference line(s)
+7 important left orphan line(s)
+
+5 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\SchedulingBenchmarks.java
+76 ignored unimportant difference line(s)
+257 important right orphan line(s)
+
+30 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\StatusUpdateBenchmark.java
+75 ignored unimportant difference line(s)
+224 important right orphan line(s)
+
+36 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\Tasks.java
+49 ignored unimportant difference line(s)
+107 important right orphan line(s)
+
+25 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\ThriftApiBenchmarks.java
+36 ignored unimportant difference line(s)
+173 important right orphan line(s)
+
+23 difference section(s)
+
+File: src\jmh\java\org\apache\aurora\benchmark\UpdateStoreBenchmarks.java
+28 ignored unimportant difference line(s)
+142 important right orphan line(s)
+
+16 difference section(s)
+
+File: src\main\java\org\apache\aurora\auth\CapabilityValidator.java
+58 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\main\java\org\apache\aurora\auth\SessionValidator.java
+68 same line(s)
+
+File: src\main\java\org\apache\aurora\auth\UnsecureAuthModule.java
+88 same line(s)
+
+File: src\main\java\org\apache\aurora\codec\ThriftBinaryCodec.java
+225 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\app\AppModule.java
+206 same line(s)
+1 ignored unimportant difference line(s)
+7 important left orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\app\LocalServiceRegistryWithOverrides.java
+27 ignored unimportant difference line(s)
+64 important left orphan line(s)
+
+12 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\app\Log4jConfigurator.java
+69 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\app\Modules.java
+61 same line(s)
+21 ignored unimportant difference line(s)
+12 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\app\SchedulerMain.java
+218 same line(s)
+5 ignored unimportant difference line(s)
+35 important left orphan line(s)
+25 important right orphan line(s)
+20 important difference line(s)
+
+23 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\app\VolumeParser.java
+21 ignored unimportant difference line(s)
+25 important right orphan line(s)
+
+5 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\BiCache.java
+62 ignored unimportant difference line(s)
+78 important right orphan line(s)
+
+18 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\CachedClusterState.java
+22 ignored unimportant difference line(s)
+28 important left orphan line(s)
+
+7 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\ClusterState.java
+31 same line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\ClusterStateImpl.java
+22 ignored unimportant difference line(s)
+28 important right orphan line(s)
+
+7 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\LiveClusterState.java
+30 ignored unimportant difference line(s)
+36 important left orphan line(s)
+
+14 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\PendingTaskProcessor.java
+67 ignored unimportant difference line(s)
+192 important right orphan line(s)
+
+31 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\PreemptionProposal.java
+27 ignored unimportant difference line(s)
+39 important right orphan line(s)
+
+12 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\PreemptionVictim.java
+114 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\PreemptionVictimFilter.java
+79 ignored unimportant difference line(s)
+135 important right orphan line(s)
+
+32 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\Preemptor.java
+26 same line(s)
+25 ignored unimportant difference line(s)
+71 important right orphan line(s)
+1 important difference line(s)
+
+19 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\PreemptorImpl.java
+115 ignored unimportant difference line(s)
+278 important left orphan line(s)
+
+57 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\PreemptorMetrics.java
+42 ignored unimportant difference line(s)
+89 important right orphan line(s)
+
+26 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\preemptor\PreemptorModule.java
+81 same line(s)
+9 ignored unimportant difference line(s)
+4 important left orphan line(s)
+58 important right orphan line(s)
+21 important difference line(s)
+
+19 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\AsyncModule.java
+362 same line(s)
+9 ignored unimportant difference line(s)
+17 important left orphan line(s)
+15 important right orphan line(s)
+7 important difference line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\GcExecutorLauncher.java
+291 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\JobUpdateHistoryPruner.java
+103 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\KillRetry.java
+100 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\OfferManager.java
+158 ignored unimportant difference line(s)
+248 important right orphan line(s)
+
+61 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\OfferQueue.java
+138 ignored unimportant difference line(s)
+202 important left orphan line(s)
+
+51 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\RandomJitterReturnDelay.java
+48 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\RescheduleCalculator.java
+173 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\TaskGroup.java
+73 same line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\TaskGroups.java
+233 same line(s)
+6 ignored unimportant difference line(s)
+24 important left orphan line(s)
+4 important difference line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\TaskHistoryPruner.java
+170 same line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\TaskScheduler.java
+193 same line(s)
+16 ignored unimportant difference line(s)
+72 important left orphan line(s)
+13 important right orphan line(s)
+34 important difference line(s)
+
+45 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\TaskThrottler.java
+96 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\async\TaskTimeout.java
+156 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\AsyncUtil.java
+53 same line(s)
+54 ignored unimportant difference line(s)
+7 important left orphan line(s)
+33 important right orphan line(s)
+
+12 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\CommandUtil.java
+106 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\Conversions.java
+150 same line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\InstanceKeys.java
+54 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\JobKeys.java
+189 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\Jobs.java
+76 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\Numbers.java
+96 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\Query.java
+385 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\ResourceAggregates.java
+77 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\SchedulerException.java
+31 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\TaskGroupKey.java
+38 ignored unimportant difference line(s)
+32 important right orphan line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\Tasks.java
+232 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\base\TaskTestUtil.java
+29 ignored unimportant difference line(s)
+84 important right orphan line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\configuration\ConfigurationManager.java
+472 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\configuration\Resources.java
+452 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\configuration\SanitizedConfiguration.java
+99 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\quartz\AuroraCronJob.java
+237 same line(s)
+5 important left orphan line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+7 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\quartz\AuroraCronJobFactory.java
+48 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\quartz\CronJobManagerImpl.java
+214 same line(s)
+5 ignored unimportant difference line(s)
+23 important left orphan line(s)
+16 important difference line(s)
+
+21 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\quartz\CronLifecycle.java
+82 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\quartz\CronModule.java
+127 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\quartz\CronPredictorImpl.java
+44 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\quartz\CronSchedulerImpl.java
+69 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\quartz\Quartz.java
+122 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\CronException.java
+31 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\CronJobManager.java
+65 same line(s)
+26 ignored unimportant difference line(s)
+4 important left orphan line(s)
+
+4 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\CronPredictor.java
+29 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\CronScheduler.java
+31 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\CrontabEntry.java
+488 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\cron\SanitizedCronJob.java
+156 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\events\EventSink.java
+28 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\events\NotifyingSchedulingFilter.java
+64 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\events\PubsubEvent.java
+256 same line(s)
+9 ignored unimportant difference line(s)
+46 important right orphan line(s)
+8 important difference line(s)
+
+18 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\events\PubsubEventModule.java
+218 same line(s)
+7 important left orphan line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\filter\AttributeAggregate.java
+91 same line(s)
+23 ignored unimportant difference line(s)
+6 important left orphan line(s)
+41 important right orphan line(s)
+22 important difference line(s)
+
+25 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\filter\AttributeFilter.java
+66 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\filter\ConstraintMatcher.java
+115 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\filter\SchedulingFilter.java
+243 same line(s)
+42 ignored unimportant difference line(s)
+8 important left orphan line(s)
+36 important right orphan line(s)
+14 important difference line(s)
+
+33 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\filter\SchedulingFilterImpl.java
+175 same line(s)
+16 ignored unimportant difference line(s)
+8 important left orphan line(s)
+5 important right orphan line(s)
+13 important difference line(s)
+
+16 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\ApiSecurityModule.java
+64 ignored unimportant difference line(s)
+125 important right orphan line(s)
+
+32 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\AuthorizeHeaderToken.java
+36 ignored unimportant difference line(s)
+30 important right orphan line(s)
+
+13 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\AuthorizingParam.java
+64 ignored unimportant difference line(s)
+10 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\FieldGetter.java
+40 ignored unimportant difference line(s)
+33 important right orphan line(s)
+
+12 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\FieldGetters.java
+21 ignored unimportant difference line(s)
+29 important right orphan line(s)
+
+9 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\IniShiroRealmModule.java
+33 ignored unimportant difference line(s)
+39 important right orphan line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\Kerberos5Realm.java
+38 ignored unimportant difference line(s)
+63 important right orphan line(s)
+
+14 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\Kerberos5ShiroRealmModule.java
+52 ignored unimportant difference line(s)
+146 important right orphan line(s)
+
+28 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\KerberosPrincipalParser.java
+16 ignored unimportant difference line(s)
+11 important right orphan line(s)
+
+4 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\ModuleParser.java
+24 ignored unimportant difference line(s)
+30 important right orphan line(s)
+
+8 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\ShiroAuthenticatingThriftInterceptor.java
+32 ignored unimportant difference line(s)
+31 important right orphan line(s)
+
+15 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\ShiroAuthorizingInterceptor.java
+40 ignored unimportant difference line(s)
+56 important right orphan line(s)
+
+19 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\ShiroAuthorizingParamInterceptor.java
+86 ignored unimportant difference line(s)
+278 important right orphan line(s)
+
+45 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\ShiroIniParser.java
+31 ignored unimportant difference line(s)
+53 important right orphan line(s)
+
+12 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\ShiroKerberosAuthenticationFilter.java
+29 ignored unimportant difference line(s)
+62 important right orphan line(s)
+
+14 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\ShiroUtils.java
+29 ignored unimportant difference line(s)
+12 important right orphan line(s)
+
+6 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\security\ThriftFieldGetter.java
+26 ignored unimportant difference line(s)
+40 important right orphan line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\ApiBeta.java
+167 same line(s)
+2 important left orphan line(s)
+2 important right orphan line(s)
+4 important difference line(s)
+
+7 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\ApiModule.java
+30 ignored unimportant difference line(s)
+58 important right orphan line(s)
+
+13 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\api\GsonMessageBodyHandler.java
+254 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\AbortCallback.java
+28 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\AbstractFilter.java
+56 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\CorsFilter.java
+73 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\Cron.java
+59 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\HttpService.java
+24 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+4 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\HttpStatsFilter.java
+72 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\JerseyTemplateServlet.java
+49 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\JettyServerModule.java
+202 same line(s)
+44 ignored unimportant difference line(s)
+84 important left orphan line(s)
+141 important right orphan line(s)
+19 important difference line(s)
+
+54 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\LeaderRedirect.java
+166 same line(s)
+4 important left orphan line(s)
+1 important right orphan line(s)
+7 important difference line(s)
+
+7 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\LeaderRedirectFilter.java
+50 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\Locks.java
+102 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\Maintenance.java
+95 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\Mname.java
+234 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\Offers.java
+135 same line(s)
+5 important difference line(s)
+
+4 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\PendingTasks.java
+50 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\QuitCallback.java
+40 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\Quotas.java
+113 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\RequestLogger.java
+131 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\SchedulerAPIServlet.java
+20 ignored unimportant difference line(s)
+11 important left orphan line(s)
+
+5 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\Services.java
+81 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\Slaves.java
+144 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\StructDump.java
+128 same line(s)
+1 ignored unimportant difference line(s)
+3 important left orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\http\Utilization.java
+237 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\log\mesos\LogInterface.java
+55 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\log\mesos\MesosLog.java
+415 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\log\mesos\MesosLogStreamModule.java
+205 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\log\Log.java
+119 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\CommandLineDriverSettingsModule.java
+130 same line(s)
+22 ignored unimportant difference line(s)
+6 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\Driver.java
+57 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\DriverFactory.java
+32 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\DriverFactoryImpl.java
+41 same line(s)
+1 ignored unimportant difference line(s)
+9 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\DriverSettings.java
+53 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\ExecutorSettings.java
+64 same line(s)
+11 ignored unimportant difference line(s)
+58 important right orphan line(s)
+3 important difference line(s)
+
+18 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\LibMesosLoadingModule.java
+26 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\MesosSchedulerImpl.java
+209 same line(s)
+12 ignored unimportant difference line(s)
+14 important left orphan line(s)
+39 important right orphan line(s)
+19 important difference line(s)
+
+26 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\MesosTaskFactory.java
+227 same line(s)
+2 ignored unimportant difference line(s)
+8 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\SchedulerDriverModule.java
+36 same line(s)
+9 ignored unimportant difference line(s)
+10 important right orphan line(s)
+1 important difference line(s)
+
+7 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\SchedulerDriverService.java
+141 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\mesos\TaskStatusStats.java
+36 ignored unimportant difference line(s)
+81 important right orphan line(s)
+
+19 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\metadata\MetadataModule.java
+32 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\metadata\NearestFit.java
+138 same line(s)
+15 ignored unimportant difference line(s)
+15 important left orphan line(s)
+10 important right orphan line(s)
+11 important difference line(s)
+
+14 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\quota\QuotaCheckResult.java
+119 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\quota\QuotaInfo.java
+93 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\quota\QuotaManager.java
+274 same line(s)
+73 ignored unimportant difference line(s)
+58 important left orphan line(s)
+99 important right orphan line(s)
+105 important difference line(s)
+
+87 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\quota\QuotaModule.java
+35 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\sla\MetricCalculator.java
+204 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\sla\SlaAlgorithm.java
+428 same line(s)
+11 ignored unimportant difference line(s)
+3 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\sla\SlaGroup.java
+172 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\sla\SlaModule.java
+116 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\sla\SlaUtil.java
+48 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\spi\package-info.java
+19 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\spi\Permissions.java
+104 ignored unimportant difference line(s)
+95 important right orphan line(s)
+
+35 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\LockManager.java
+71 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\LockManagerImpl.java
+141 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\MaintenanceController.java
+271 same line(s)
+6 ignored unimportant difference line(s)
+1 important left orphan line(s)
+5 important right orphan line(s)
+3 important difference line(s)
+
+5 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\SideEffect.java
+105 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\StateManager.java
+97 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\StateManagerImpl.java
+431 same line(s)
+7 ignored unimportant difference line(s)
+20 important left orphan line(s)
+5 important difference line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\StateModule.java
+57 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\TaskAssigner.java
+103 same line(s)
+60 ignored unimportant difference line(s)
+75 important right orphan line(s)
+12 important difference line(s)
+
+33 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\TaskStateMachine.java
+553 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\TransitionResult.java
+71 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\state\UUIDGenerator.java
+30 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\stats\AsyncStatsModule.java
+159 same line(s)
+5 important difference line(s)
+
+4 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\stats\CachedCounters.java
+48 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\stats\ResourceCounter.java
+260 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\stats\SlotSizeCounter.java
+144 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\stats\TaskStatCalculator.java
+58 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\backup\BackupModule.java
+144 same line(s)
+1 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\backup\Recovery.java
+212 same line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\backup\StorageBackup.java
+212 same line(s)
+5 ignored unimportant difference line(s)
+14 important right orphan line(s)
+4 important difference line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\backup\TemporaryStorage.java
+100 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+5 important difference line(s)
+
+6 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\typehandlers\AbstractTEnumTypeHandler.java
+62 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\typehandlers\JobUpdateActionTypeHandler.java
+26 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\typehandlers\JobUpdateStatusTypeHandler.java
+26 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\typehandlers\MaintenanceModeTypeHandler.java
+26 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\typehandlers\TaskConfigTypeHandler.java
+73 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\typehandlers\TypeHandlers.java
+37 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\views\LockRow.java
+46 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\AttributeMapper.java
+69 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\DbAttributeStore.java
+96 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\DBJobUpdateStore.java
+195 same line(s)
+6 ignored unimportant difference line(s)
+48 important right orphan line(s)
+27 important difference line(s)
+
+32 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\DbLockStore.java
+86 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\DbModule.java
+112 same line(s)
+10 ignored unimportant difference line(s)
+13 important left orphan line(s)
+20 important right orphan line(s)
+16 important difference line(s)
+
+21 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\DbQuotaStore.java
+76 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\DbSchedulerStore.java
+48 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\DbStorage.java
+170 same line(s)
+16 ignored unimportant difference line(s)
+6 important left orphan line(s)
+33 important right orphan line(s)
+10 important difference line(s)
+
+23 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\DbUtil.java
+34 ignored unimportant difference line(s)
+29 important right orphan line(s)
+
+8 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\EnumValueMapper.java
+31 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\FrameworkIdMapper.java
+26 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\InsertResult.java
+36 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\JobInstanceUpdateEventMapper.java
+31 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\JobKeyMapper.java
+40 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\JobUpdateDetailsMapper.java
+170 same line(s)
+35 ignored unimportant difference line(s)
+4 important left orphan line(s)
+5 important right orphan line(s)
+11 important difference line(s)
+
+15 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\JobUpdateEventMapper.java
+31 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\LockKeyMapper.java
+49 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\LockMapper.java
+53 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\MigrationModule.java
+32 ignored unimportant difference line(s)
+28 important left orphan line(s)
+
+9 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\PruneVictim.java
+22 ignored unimportant difference line(s)
+18 important right orphan line(s)
+
+7 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\db\QuotaMapper.java
+63 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\Entries.java
+92 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\EntrySerializer.java
+130 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\LogManager.java
+87 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\LogStorage.java
+616 same line(s)
+21 ignored unimportant difference line(s)
+11 important left orphan line(s)
+44 important right orphan line(s)
+40 important difference line(s)
+
+47 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\LogStorageModule.java
+104 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\SnapshotDeduplicator.java
+182 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\SnapshotStoreImpl.java
+279 same line(s)
+3 ignored unimportant difference line(s)
+5 important left orphan line(s)
+8 important right orphan line(s)
+14 important difference line(s)
+
+13 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\StreamManager.java
+76 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\StreamManagerFactory.java
+23 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\StreamManagerImpl.java
+369 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\StreamTransaction.java
+40 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\log\WriteAheadStorage.java
+366 same line(s)
+5 important left orphan line(s)
+4 important right orphan line(s)
+20 important difference line(s)
+
+16 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\mem\InMemStoresModule.java
+27 ignored unimportant difference line(s)
+25 important right orphan line(s)
+
+10 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\mem\Interner.java
+96 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\mem\MemJobStore.java
+47 same line(s)
+9 ignored unimportant difference line(s)
+37 important left orphan line(s)
+11 important difference line(s)
+
+18 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\mem\MemStorage.java
+43 ignored unimportant difference line(s)
+113 important left orphan line(s)
+
+22 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\mem\MemStorageModule.java
+40 ignored unimportant difference line(s)
+35 important left orphan line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\mem\MemTaskStore.java
+406 same line(s)
+20 ignored unimportant difference line(s)
+2 important left orphan line(s)
+24 important right orphan line(s)
+10 important difference line(s)
+
+15 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\mem\Util.java
+52 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\AttributeStore.java
+132 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\CallOrderEnforcingStorage.java
+151 same line(s)
+2 ignored unimportant difference line(s)
+6 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\CronJobStore.java
+51 ignored unimportant difference line(s)
+13 important right orphan line(s)
+
+10 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\DistributedSnapshotStore.java
+32 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\ForwardingStore.java
+154 same line(s)
+4 ignored unimportant difference line(s)
+5 important left orphan line(s)
+9 important right orphan line(s)
+19 important difference line(s)
+
+18 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\JobStore.java
+63 ignored unimportant difference line(s)
+15 important left orphan line(s)
+
+12 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\JobUpdateStore.java
+132 same line(s)
+32 ignored unimportant difference line(s)
+3 important right orphan line(s)
+8 important difference line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\LockStore.java
+62 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\QuotaStore.java
+63 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\SchedulerStore.java
+38 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\SnapshotStore.java
+35 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\Storage.java
+278 same line(s)
+13 ignored unimportant difference line(s)
+1 important left orphan line(s)
+10 important right orphan line(s)
+5 important difference line(s)
+
+8 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\StorageBackfill.java
+93 same line(s)
+17 ignored unimportant difference line(s)
+40 important left orphan line(s)
+5 important difference line(s)
+
+17 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\storage\TaskStore.java
+100 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\testing\FakeStatsProvider.java
+45 ignored unimportant difference line(s)
+61 important right orphan line(s)
+
+13 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\aop\AnnotatedAuroraAdmin.java
+42 ignored unimportant difference line(s)
+92 important right orphan line(s)
+
+19 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\aop\AopModule.java
+174 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\aop\FeatureToggleInterceptor.java
+43 same line(s)
+3 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\aop\LoggingInterceptor.java
+94 same line(s)
+6 ignored unimportant difference line(s)
+11 important right orphan line(s)
+3 important difference line(s)
+
+10 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\aop\ServerInfoInterceptor.java
+34 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\aop\ThriftStatsExporterInterceptor.java
+52 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\aop\UserCapabilityInterceptor.java
+102 same line(s)
+3 important difference line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\auth\DecoratedThrift.java
+29 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\auth\Requires.java
+34 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\auth\ThriftAuthModule.java
+63 same line(s)
+4 ignored unimportant difference line(s)
+1 important left orphan line(s)
+13 important right orphan line(s)
+3 important difference line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\ReadOnlySchedulerImpl.java
+80 ignored unimportant difference line(s)
+335 important right orphan line(s)
+
+58 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\Responses.java
+74 ignored unimportant difference line(s)
+45 important right orphan line(s)
+
+17 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\SchedulerThriftInterface.java
+1136 same line(s)
+63 ignored unimportant difference line(s)
+248 important left orphan line(s)
+96 important right orphan line(s)
+180 important difference line(s)
+
+214 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\ThriftModule.java
+32 same line(s)
+7 ignored unimportant difference line(s)
+7 important left orphan line(s)
+9 important right orphan line(s)
+2 important difference line(s)
+
+8 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\thrift\Util.java
+64 ignored unimportant difference line(s)
+30 important left orphan line(s)
+
+13 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\strategy\ActiveLimitedStrategy.java
+61 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\strategy\BatchStrategy.java
+41 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\strategy\QueueStrategy.java
+35 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\strategy\UpdateStrategy.java
+31 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\InstanceAction.java
+40 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\InstanceActionHandler.java
+133 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\InstanceStateProvider.java
+31 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\InstanceUpdater.java
+147 same line(s)
+6 ignored unimportant difference line(s)
+25 important left orphan line(s)
+7 important difference line(s)
+
+15 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\JobDiff.java
+196 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\JobUpdateController.java
+83 same line(s)
+27 ignored unimportant difference line(s)
+1 important left orphan line(s)
+38 important right orphan line(s)
+9 important difference line(s)
+
+16 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\JobUpdateControllerImpl.java
+438 same line(s)
+79 ignored unimportant difference line(s)
+36 important left orphan line(s)
+253 important right orphan line(s)
+82 important difference line(s)
+
+116 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\JobUpdateEventSubscriber.java
+96 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\JobUpdateStateMachine.java
+140 same line(s)
+11 ignored unimportant difference line(s)
+1 important left orphan line(s)
+65 important right orphan line(s)
+10 important difference line(s)
+
+24 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\OneWayJobUpdater.java
+311 same line(s)
+1 ignored unimportant difference line(s)
+2 important left orphan line(s)
+5 important right orphan line(s)
+5 important difference line(s)
+
+3 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\SideEffect.java
+124 same line(s)
+8 ignored unimportant difference line(s)
+10 important right orphan line(s)
+1 important difference line(s)
+
+6 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\StateEvaluator.java
+56 same line(s)
+10 ignored unimportant difference line(s)
+1 important left orphan line(s)
+17 important right orphan line(s)
+8 important difference line(s)
+
+11 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\UpdateConfigurationException.java
+23 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\UpdateFactory.java
+193 same line(s)
+1 ignored unimportant difference line(s)
+8 important left orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\UpdaterModule.java
+64 same line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\Updates.java
+41 ignored unimportant difference line(s)
+37 important right orphan line(s)
+
+10 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\updater\UpdateStateException.java
+28 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\AppStartup.java
+33 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\HostOffer.java
+66 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\ResourceSlot.java
+162 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\SchedulerLifecycle.java
+474 same line(s)
+5 important left orphan line(s)
+1 important difference line(s)
+
+6 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\SchedulerModule.java
+89 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\SchedulerServicesModule.java
+123 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\TaskIdGenerator.java
+66 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\TaskLauncher.java
+54 same line(s)
+
+File: src\main\java\org\apache\aurora\scheduler\TaskVars.java
+257 same line(s)
+16 ignored unimportant difference line(s)
+20 important left orphan line(s)
+8 important difference line(s)
+
+6 difference section(s)
+
+File: src\main\java\org\apache\aurora\scheduler\UserTaskLauncher.java
+101 same line(s)
+1 important right orphan line(s)
+7 important difference line(s)
+
+7 difference section(s)
+
+File: src\main\java\org\apache\aurora\GuavaUtils.java
+83 same line(s)
+
+File: src\main\java\org\apache\aurora\GuiceUtils.java
+182 same line(s)
+
+File: src\main\java\org\apache\aurora\Protobufs.java
+48 same line(s)
+
+File: src\test\java\org\apache\aurora\codec\ThriftBinaryCodecTest.java
+64 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\local\simulator\ClusterSimulatorModule.java
+119 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\local\simulator\Events.java
+38 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\local\simulator\FakeSlaves.java
+79 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\local\FakeMaster.java
+323 same line(s)
+1 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\local\FakeNonVolatileStorage.java
+62 same line(s)
+2 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\local\LocalSchedulerMain.java
+102 same line(s)
+1 important left orphan line(s)
+5 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\LocalServiceRegistryWithOverridesTest.java
+23 ignored unimportant difference line(s)
+41 important left orphan line(s)
+
+11 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\ModulesTest.java
+19 ignored unimportant difference line(s)
+20 important right orphan line(s)
+
+7 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\SchedulerIT.java
+391 same line(s)
+8 important left orphan line(s)
+2 important right orphan line(s)
+5 important difference line(s)
+
+3 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\app\VolumeParserTest.java
+22 ignored unimportant difference line(s)
+31 important right orphan line(s)
+
+10 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\preemptor\BiCacheTest.java
+30 ignored unimportant difference line(s)
+78 important right orphan line(s)
+
+18 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\preemptor\CachedClusterStateTest.java
+29 ignored unimportant difference line(s)
+105 important left orphan line(s)
+
+16 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\preemptor\ClusterStateImplTest.java
+29 ignored unimportant difference line(s)
+104 important right orphan line(s)
+
+16 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\preemptor\LiveClusterStateTest.java
+28 ignored unimportant difference line(s)
+59 important left orphan line(s)
+
+16 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\preemptor\PendingTaskProcessorTest.java
+54 ignored unimportant difference line(s)
+245 important right orphan line(s)
+
+42 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\preemptor\PreemptionVictimFilterTest.java
+126 ignored unimportant difference line(s)
+388 important right orphan line(s)
+
+108 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\preemptor\PreemptionVictimTest.java
+47 same line(s)
+1 important left orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\preemptor\PreemptorImplTest.java
+91 same line(s)
+106 ignored unimportant difference line(s)
+394 important left orphan line(s)
+7 important right orphan line(s)
+77 important difference line(s)
+
+136 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\preemptor\PreemptorModuleTest.java
+79 same line(s)
+4 important left orphan line(s)
+5 important right orphan line(s)
+7 important difference line(s)
+
+7 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\AsyncModuleTest.java
+107 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\GcExecutorLauncherTest.java
+252 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\JobUpdateHistoryPrunerTest.java
+61 same line(s)
+7 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\KillRetryTest.java
+158 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\OfferManagerImplTest.java
+62 ignored unimportant difference line(s)
+172 important right orphan line(s)
+
+46 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\OfferQueueImplTest.java
+35 ignored unimportant difference line(s)
+101 important left orphan line(s)
+
+22 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\Offers.java
+43 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\RandomJitterReturnDelayTest.java
+77 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\RescheduleCalculatorImplTest.java
+188 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\TaskGroupsTest.java
+140 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\TaskHistoryPrunerTest.java
+398 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\TaskSchedulerImplTest.java
+197 same line(s)
+35 ignored unimportant difference line(s)
+73 important left orphan line(s)
+62 important right orphan line(s)
+62 important difference line(s)
+
+79 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\TaskSchedulerTest.java
+527 same line(s)
+6 ignored unimportant difference line(s)
+30 important left orphan line(s)
+45 important right orphan line(s)
+93 important difference line(s)
+
+88 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\TaskThrottlerTest.java
+145 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\async\TaskTimeoutTest.java
+243 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\base\AsyncUtilTest.java
+61 same line(s)
+17 ignored unimportant difference line(s)
+31 important left orphan line(s)
+40 important right orphan line(s)
+2 important difference line(s)
+
+24 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\base\CommandUtilTest.java
+90 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\base\ConversionsTest.java
+16 ignored unimportant difference line(s)
+12 important right orphan line(s)
+
+4 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\base\JobsTest.java
+51 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\base\NumbersTest.java
+42 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\base\TasksTest.java
+73 same line(s)
+1 ignored unimportant difference line(s)
+2 important left orphan line(s)
+6 important right orphan line(s)
+6 important difference line(s)
+
+3 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\base\TaskTestUtil.java
+26 ignored unimportant difference line(s)
+40 important left orphan line(s)
+
+11 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\configuration\ConfigurationManagerTest.java
+149 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\configuration\ResourcesTest.java
+263 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\cron\quartz\AuroraCronJobTest.java
+166 same line(s)
+1 ignored unimportant difference line(s)
+7 important left orphan line(s)
+1 important right orphan line(s)
+6 important difference line(s)
+
+11 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\cron\quartz\CronIT.java
+230 same line(s)
+4 important left orphan line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\cron\quartz\CronJobManagerImplTest.java
+263 same line(s)
+2 ignored unimportant difference line(s)
+14 important left orphan line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+10 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\cron\quartz\CronPredictorImplTest.java
+86 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\cron\quartz\QuartzTestUtil.java
+77 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\cron\CrontabEntryTest.java
+166 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\cron\ExpectedPrediction.java
+55 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\events\NotifyingSchedulingFilterTest.java
+79 same line(s)
+7 important left orphan line(s)
+2 important right orphan line(s)
+7 important difference line(s)
+
+11 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\events\PubsubEventModuleTest.java
+88 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\filter\AttributeAggregateTest.java
+126 same line(s)
+4 ignored unimportant difference line(s)
+15 important left orphan line(s)
+13 important right orphan line(s)
+31 important difference line(s)
+
+21 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\filter\SchedulingFilterImplTest.java
+573 same line(s)
+13 ignored unimportant difference line(s)
+44 important left orphan line(s)
+41 important right orphan line(s)
+27 important difference line(s)
+
+48 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\ApiSecurityIT.java
+56 ignored unimportant difference line(s)
+218 important right orphan line(s)
+
+43 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\AuthorizeHeaderTokenTest.java
+20 ignored unimportant difference line(s)
+24 important right orphan line(s)
+
+8 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\Kerberos5ShiroRealmModuleTest.java
+27 ignored unimportant difference line(s)
+44 important right orphan line(s)
+
+15 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\KerberosPrincipalParserTest.java
+18 ignored unimportant difference line(s)
+17 important right orphan line(s)
+
+6 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\ModuleParserTest.java
+30 ignored unimportant difference line(s)
+51 important right orphan line(s)
+
+18 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\ShiroAuthenticatingThriftInterceptorTest.java
+25 ignored unimportant difference line(s)
+41 important right orphan line(s)
+
+13 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\ShiroAuthorizingInterceptorTest.java
+29 ignored unimportant difference line(s)
+67 important right orphan line(s)
+
+17 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\ShiroAuthorizingParamInterceptorTest.java
+48 ignored unimportant difference line(s)
+142 important right orphan line(s)
+
+34 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\ShiroIniParserTest.java
+22 ignored unimportant difference line(s)
+38 important right orphan line(s)
+
+10 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\ShiroKerberosAuthenticationFilterTest.java
+43 ignored unimportant difference line(s)
+105 important right orphan line(s)
+
+31 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\security\ThriftFieldGetterTest.java
+21 ignored unimportant difference line(s)
+25 important right orphan line(s)
+
+9 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\ApiBetaTest.java
+218 same line(s)
+2 ignored unimportant difference line(s)
+22 important right orphan line(s)
+
+5 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\api\ApiIT.java
+24 ignored unimportant difference line(s)
+41 important right orphan line(s)
+
+12 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\CorsFilterTest.java
+59 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\CronTest.java
+59 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\JettyServerModuleTest.java
+139 same line(s)
+11 ignored unimportant difference line(s)
+12 important left orphan line(s)
+14 important right orphan line(s)
+10 important difference line(s)
+
+23 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\LeaderRedirectTest.java
+198 same line(s)
+18 important left orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\LocksTest.java
+84 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\MnameTest.java
+164 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\QuitCallbackTest.java
+45 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\RequestLoggerTest.java
+112 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\ServicesTest.java
+82 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\http\ServletFilterTest.java
+117 same line(s)
+5 important left orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\log\mesos\MesosLogTest.java
+300 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\mesos\CommandLineDriverSettingsModuleTest.java
+63 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\mesos\MesosSchedulerImplTest.java
+314 same line(s)
+20 ignored unimportant difference line(s)
+13 important left orphan line(s)
+94 important right orphan line(s)
+49 important difference line(s)
+
+64 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\mesos\MesosTaskFactoryImplTest.java
+174 same line(s)
+14 ignored unimportant difference line(s)
+4 important left orphan line(s)
+23 important right orphan line(s)
+9 important difference line(s)
+
+8 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\mesos\Offers.java
+65 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\mesos\SchedulerDriverServiceTest.java
+150 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\mesos\TaskExecutors.java
+33 same line(s)
+5 important left orphan line(s)
+3 important right orphan line(s)
+9 important difference line(s)
+
+3 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\mesos\TaskStatusStatsTest.java
+34 ignored unimportant difference line(s)
+97 important right orphan line(s)
+
+20 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\metadata\NearestFitTest.java
+90 same line(s)
+7 ignored unimportant difference line(s)
+17 important left orphan line(s)
+13 important right orphan line(s)
+21 important difference line(s)
+
+16 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\quota\QuotaCheckResultTest.java
+86 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\quota\QuotaManagerImplTest.java
+724 same line(s)
+20 ignored unimportant difference line(s)
+5 important left orphan line(s)
+113 important right orphan line(s)
+69 important difference line(s)
+
+96 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\sla\MetricCalculatorTest.java
+104 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\sla\SlaAlgorithmTest.java
+292 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\sla\SlaModuleTest.java
+122 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\sla\SlaTestUtil.java
+68 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\state\LockManagerImplTest.java
+214 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\state\MaintenanceControllerImplTest.java
+186 same line(s)
+3 ignored unimportant difference line(s)
+5 important left orphan line(s)
+18 important right orphan line(s)
+9 important difference line(s)
+
+10 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\state\PubsubTestUtil.java
+55 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\state\StateManagerImplTest.java
+519 same line(s)
+2 ignored unimportant difference line(s)
+20 important left orphan line(s)
+30 important right orphan line(s)
+50 important difference line(s)
+
+60 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\state\TaskAssignerImplTest.java
+130 same line(s)
+7 important left orphan line(s)
+5 important right orphan line(s)
+9 important difference line(s)
+
+16 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\state\TaskStateMachineTest.java
+569 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\stats\ResourceCounterTest.java
+186 same line(s)
+12 important left orphan line(s)
+3 important right orphan line(s)
+5 important difference line(s)
+
+9 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\stats\SlotSizeCounterTest.java
+142 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\backup\RecoveryTest.java
+156 same line(s)
+1 ignored unimportant difference line(s)
+13 important left orphan line(s)
+8 important right orphan line(s)
+10 important difference line(s)
+
+15 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\backup\StorageBackupTest.java
+170 same line(s)
+2 ignored unimportant difference line(s)
+4 important left orphan line(s)
+8 important right orphan line(s)
+6 important difference line(s)
+
+11 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\db\DbAttributeStoreTest.java
+168 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\db\DBJobUpdateStoreTest.java
+789 same line(s)
+38 ignored unimportant difference line(s)
+28 important left orphan line(s)
+136 important right orphan line(s)
+115 important difference line(s)
+
+119 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\db\DbLockStoreTest.java
+221 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\db\DbQuotaStoreTest.java
+136 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\db\DbSchedulerStoreTest.java
+65 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\db\DbStorageTest.java
+33 ignored unimportant difference line(s)
+79 important right orphan line(s)
+
+21 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\db\DbUtil.java
+19 ignored unimportant difference line(s)
+15 important left orphan line(s)
+
+7 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\entities\IHostAttributesTest.java
+43 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\log\testing\LogOpMatcher.java
+112 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\log\LogManagerTest.java
+573 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\log\LogStorageTest.java
+975 same line(s)
+8 ignored unimportant difference line(s)
+4 important left orphan line(s)
+69 important right orphan line(s)
+26 important difference line(s)
+
+32 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\log\SnapshotDeduplicatorImplTest.java
+131 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\log\SnapshotStoreImplTest.java
+159 same line(s)
+4 ignored unimportant difference line(s)
+5 important left orphan line(s)
+18 important right orphan line(s)
+13 important difference line(s)
+
+17 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\log\WriteAheadStorageTest.java
+196 same line(s)
+6 important right orphan line(s)
+5 important difference line(s)
+
+8 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\mem\InMemTaskStoreTest.java
+21 ignored unimportant difference line(s)
+41 important right orphan line(s)
+
+9 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\mem\InternerTest.java
+120 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\mem\MemCronJobStoreTest.java
+30 ignored unimportant difference line(s)
+61 important right orphan line(s)
+
+18 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\mem\MemJobStoreTest.java
+33 ignored unimportant difference line(s)
+72 important left orphan line(s)
+
+21 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\mem\MemStorageTest.java
+47 ignored unimportant difference line(s)
+210 important left orphan line(s)
+
+29 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\mem\MemTaskStoreTest.java
+86 ignored unimportant difference line(s)
+384 important left orphan line(s)
+
+64 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\mem\StorageTransactionTest.java
+48 ignored unimportant difference line(s)
+211 important right orphan line(s)
+
+29 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\testing\StorageEntityUtil.java
+43 ignored unimportant difference line(s)
+76 important right orphan line(s)
+
+11 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\testing\StorageTestUtil.java
+125 same line(s)
+5 important difference line(s)
+
+5 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\AbstractTaskStoreTest.java
+99 ignored unimportant difference line(s)
+475 important right orphan line(s)
+
+77 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\storage\StorageBackfillTest.java
+93 same line(s)
+19 ignored unimportant difference line(s)
+140 important left orphan line(s)
+7 important right orphan line(s)
+17 important difference line(s)
+
+39 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\testing\FakeScheduledExecutor.java
+144 same line(s)
+2 ignored unimportant difference line(s)
+13 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\testing\FakeStatsProvider.java
+38 ignored unimportant difference line(s)
+58 important left orphan line(s)
+
+12 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\aop\AnnotatedAuroraAdminTest.java
+20 ignored unimportant difference line(s)
+47 important right orphan line(s)
+
+8 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\aop\AopModuleTest.java
+118 same line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\aop\FeatureToggleInterceptorTest.java
+80 same line(s)
+1 important left orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\aop\ForwardingThrift.java
+274 same line(s)
+13 ignored unimportant difference line(s)
+1 important left orphan line(s)
+3 important right orphan line(s)
+15 important difference line(s)
+
+15 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\aop\LoggingInterceptorTest.java
+54 ignored unimportant difference line(s)
+117 important right orphan line(s)
+
+38 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\aop\MockDecoratedThrift.java
+48 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\aop\ServerInfoInterceptorTest.java
+88 same line(s)
+1 important left orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\aop\ThriftStatsExporterInterceptorTest.java
+74 same line(s)
+1 important left orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\Fixtures.java
+36 ignored unimportant difference line(s)
+154 important right orphan line(s)
+
+24 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\ReadOnlySchedulerImplTest.java
+132 ignored unimportant difference line(s)
+548 important right orphan line(s)
+
+118 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\SchedulerThriftInterfaceTest.java
+1978 same line(s)
+190 ignored unimportant difference line(s)
+752 important left orphan line(s)
+205 important right orphan line(s)
+280 important difference line(s)
+
+428 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\thrift\ThriftIT.java
+189 same line(s)
+2 important left orphan line(s)
+8 important right orphan line(s)
+3 important difference line(s)
+
+5 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\strategy\BatchStrategyTest.java
+74 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\strategy\QueueStrategyTest.java
+70 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\AddTaskTest.java
+62 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\EnumsTest.java
+62 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\InstanceUpdaterTest.java
+239 same line(s)
+6 ignored unimportant difference line(s)
+11 important left orphan line(s)
+35 important right orphan line(s)
+21 important difference line(s)
+
+21 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\JobDiffTest.java
+180 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\JobUpdateEventSubscriberTest.java
+124 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\JobUpdaterIT.java
+925 same line(s)
+134 ignored unimportant difference line(s)
+38 important left orphan line(s)
+303 important right orphan line(s)
+43 important difference line(s)
+
+157 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\JobUpdateStateMachineTest.java
+84 same line(s)
+14 important right orphan line(s)
+1 important difference line(s)
+
+8 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\OneWayJobUpdaterTest.java
+294 same line(s)
+3 important right orphan line(s)
+4 important difference line(s)
+
+5 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\TaskUtil.java
+23 ignored unimportant difference line(s)
+41 important left orphan line(s)
+
+11 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\updater\UpdateFactoryImplTest.java
+98 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\ResourceSlotTest.java
+37 same line(s)
+
+File: src\test\java\org\apache\aurora\scheduler\SchedulerLifecycleTest.java
+238 same line(s)
+3 ignored unimportant difference line(s)
+4 important left orphan line(s)
+
+4 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\TaskVarsTest.java
+339 same line(s)
+2 ignored unimportant difference line(s)
+2 important left orphan line(s)
+14 important right orphan line(s)
+8 important difference line(s)
+
+14 difference section(s)
+
+File: src\test\java\org\apache\aurora\scheduler\UserTaskLauncherTest.java
+158 same line(s)
+5 important difference line(s)
+
+5 difference section(s)
+
+File: src\test\java\org\apache\aurora\GuiceUtilsTest.java
+139 same line(s)

@@ -1,0 +1,2233 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:24:39
+
+Ignoring Unimportant
+Left base folder: D:\APsource\crunch\version1
+Right base folder: D:\APsource\crunch\version2
+
+File: crunch-archetype\src\main\resources\archetype-resources\src\main\java\StopWordFilter.java
+50 same line(s)
+
+File: crunch-archetype\src\main\resources\archetype-resources\src\main\java\Tokenizer.java
+43 same line(s)
+
+File: crunch-archetype\src\main\resources\archetype-resources\src\main\java\WordCount.java
+85 same line(s)
+
+File: crunch-archetype\src\main\resources\archetype-resources\src\test\java\StopWordFilterTest.java
+41 same line(s)
+
+File: crunch-archetype\src\main\resources\archetype-resources\src\test\java\TokenizerTest.java
+49 same line(s)
+
+File: crunch-contrib\src\it\java\org\apache\crunch\contrib\bloomfilter\BloomFiltersIT.java
+61 same line(s)
+
+File: crunch-contrib\src\it\java\org\apache\crunch\contrib\io\jdbc\DataBaseSourceIT.java
+82 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\bloomfilter\BloomFilterFactory.java
+109 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\bloomfilter\BloomFilterFn.java
+69 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\bloomfilter\package-info.java
+26 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\io\jdbc\DataBaseSource.java
+131 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\io\jdbc\IdentifiableName.java
+59 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\io\jdbc\package-info.java
+23 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\text\AbstractCompositeExtractor.java
+100 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\text\AbstractSimpleExtractor.java
+97 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\text\Extractor.java
+67 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\text\Extractors.java
+547 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\text\ExtractorStats.java
+59 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\text\Parse.java
+132 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\text\Tokenizer.java
+135 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\text\TokenizerFactory.java
+173 same line(s)
+
+File: crunch-contrib\src\main\java\org\apache\crunch\contrib\package-info.java
+27 same line(s)
+
+File: crunch-contrib\src\test\java\org\apache\crunch\contrib\text\ParseTest.java
+116 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\fn\AggregatorsIT.java
+83 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\impl\dist\collect\FailIT.java
+26 ignored unimportant difference line(s)
+48 important right orphan line(s)
+
+10 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\impl\dist\collect\UnionCollectionIT.java
+154 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\impl\mem\MemPipelineFileReadingWritingIT.java
+277 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\impl\mem\MemPipelineUTF8IT.java
+30 ignored unimportant difference line(s)
+59 important right orphan line(s)
+
+14 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\trevni\TrevniFileSourceTargetIT.java
+133 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\trevni\TrevniKeyPipelineIT.java
+195 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\AvroFileSourceTargetIT.java
+140 same line(s)
+4 ignored unimportant difference line(s)
+16 important right orphan line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\AvroMemPipelineIT.java
+160 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\AvroModeIT.java
+31 ignored unimportant difference line(s)
+113 important right orphan line(s)
+
+14 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\AvroPathPerKeyIT.java
+71 same line(s)
+4 ignored unimportant difference line(s)
+21 important right orphan line(s)
+
+5 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\AvroPipelineIT.java
+95 same line(s)
+2 ignored unimportant difference line(s)
+27 important right orphan line(s)
+
+6 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\AvroReflectIT.java
+109 same line(s)
+3 ignored unimportant difference line(s)
+30 important right orphan line(s)
+
+5 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\AvroWritableIT.java
+89 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\avro\TextToAvroIT.java
+41 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\parquet\AvroParquetFileSourceTargetIT.java
+228 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\parquet\AvroParquetPipelineIT.java
+237 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\text\csv\CSVFileSourceIT.java
+44 ignored unimportant difference line(s)
+75 important right orphan line(s)
+
+18 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\CombineFileIT.java
+55 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\CompositePathIterableIT.java
+103 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\NLineInputIT.java
+72 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\io\TextFileTableIT.java
+56 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\AbstractFullOuterJoinIT.java
+52 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\AbstractInnerJoinIT.java
+51 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\AbstractLeftOuterJoinIT.java
+50 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\AbstractRightOuterJoinIT.java
+50 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\BloomFilterInnerJoinIT.java
+49 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\BloomFilterLeftOuterJoinIT.java
+49 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\DefaultFullOuterJoinIT.java
+27 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\DefaultInnerJoinIT.java
+27 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\DefaultLeftOuterJoinIT.java
+27 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\DefaultRightOuterJoinIT.java
+27 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\FullOuterJoinFnTest.java
+48 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\JoinTester.java
+127 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\MapsideJoinStrategyIT.java
+221 same line(s)
+21 ignored unimportant difference line(s)
+1 important left orphan line(s)
+42 important right orphan line(s)
+
+18 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\MultiAvroSchemaJoinIT.java
+121 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\ShardedInnerJoinIT.java
+27 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\join\ShardedRightOuterJoinIT.java
+30 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\AggregateIT.java
+231 same line(s)
+3 ignored unimportant difference line(s)
+18 important right orphan line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\AvroTypeSortIT.java
+144 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\CogroupIT.java
+180 same line(s)
+26 ignored unimportant difference line(s)
+9 important left orphan line(s)
+91 important right orphan line(s)
+8 important difference line(s)
+
+31 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\MapredIT.java
+134 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\MapreduceIT.java
+120 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\PersonProtos.java
+73 ignored unimportant difference line(s)
+467 important right orphan line(s)
+
+44 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\SecondarySortIT.java
+61 same line(s)
+2 ignored unimportant difference line(s)
+1 important left orphan line(s)
+10 important right orphan line(s)
+3 important difference line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\SetIT.java
+114 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\ShardIT.java
+24 ignored unimportant difference line(s)
+29 important right orphan line(s)
+
+8 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\SortByValueIT.java
+84 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\SortIT.java
+327 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\lib\SpecificAvroGroupByIT.java
+119 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\test\TemporaryPaths.java
+40 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\test\Tests.java
+124 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\types\avro\SafeAvroSerializationIT.java
+52 ignored unimportant difference line(s)
+107 important right orphan line(s)
+
+25 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\BreakpointIT.java
+129 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\CancelJobsIT.java
+118 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\CheckpointIT.java
+99 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\CleanTextIT.java
+82 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\CollectionPObjectIT.java
+98 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\CollectionsIT.java
+117 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\CollectionsLengthIT.java
+69 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\CombineReduceIT.java
+147 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\ConfigurationIT.java
+70 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\DeepCopyCustomTuplesIT.java
+79 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\DependentSourcesIT.java
+77 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\EmptyPCollectionIT.java
+25 ignored unimportant difference line(s)
+58 important right orphan line(s)
+
+9 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\EnumPairIT.java
+59 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\FirstElementPObjectIT.java
+61 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\IterableReuseProtectionIT.java
+89 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\LongPipelinePlannerIT.java
+111 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\MapPObjectIT.java
+101 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\MapsIT.java
+101 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\MaterializeIT.java
+139 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\MaterializeToMapIT.java
+82 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\MRPipelineIT.java
+83 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\MultipleOutputIT.java
+203 same line(s)
+8 ignored unimportant difference line(s)
+26 important right orphan line(s)
+
+10 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\MultiStagePlanningIT.java
+32 ignored unimportant difference line(s)
+68 important right orphan line(s)
+
+15 difference section(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\PageRankIT.java
+168 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\PCollectionGetSizeIT.java
+151 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\PObjectsIT.java
+99 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\PTableKeyValueIT.java
+103 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\SingleUseIterableExceptionIT.java
+67 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\StageResultsCountersIT.java
+132 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\TermFrequencyIT.java
+136 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\TextPairIT.java
+72 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\TfIdfIT.java
+221 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\TupleNClassCastBugIT.java
+95 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\UnionFromSameSourceIT.java
+132 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\UnionIT.java
+136 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\UnionResultsIT.java
+80 same line(s)
+
+File: crunch-core\src\it\java\org\apache\crunch\WordCountIT.java
+172 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\fn\Aggregators.java
+1111 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\fn\CompositeMapFn.java
+71 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\fn\ExtractKeyFn.java
+50 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\fn\FilterFns.java
+265 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\fn\IdentityFn.java
+39 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\fn\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\fn\PairMapFn.java
+65 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\hadoop\mapreduce\lib\jobcontrol\CrunchControlledJob.java
+318 same line(s)
+11 ignored unimportant difference line(s)
+23 important right orphan line(s)
+3 important difference line(s)
+
+15 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\hadoop\mapreduce\lib\jobcontrol\CrunchJobControl.java
+233 same line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\hadoop\mapreduce\lib\jobcontrol\TaskInputOutputContextFactory.java
+25 ignored unimportant difference line(s)
+51 important right orphan line(s)
+
+9 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\hadoop\mapreduce\TaskAttemptContextFactory.java
+70 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\BaseDoCollection.java
+79 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\BaseDoTable.java
+112 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\BaseGroupedTable.java
+160 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\BaseInputCollection.java
+93 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\BaseInputTable.java
+90 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\BaseUnionCollection.java
+105 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\BaseUnionTable.java
+115 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\EmptyPCollection.java
+30 ignored unimportant difference line(s)
+37 important right orphan line(s)
+
+14 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\EmptyPTable.java
+30 ignored unimportant difference line(s)
+42 important right orphan line(s)
+
+14 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\EmptyReadableData.java
+23 ignored unimportant difference line(s)
+22 important right orphan line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\MRCollection.java
+24 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\PCollectionFactory.java
+66 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\PCollectionImpl.java
+331 same line(s)
+3 ignored unimportant difference line(s)
+8 important right orphan line(s)
+1 important difference line(s)
+
+6 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\collect\PTableBase.java
+202 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\dist\DistributedPipeline.java
+327 same line(s)
+9 ignored unimportant difference line(s)
+6 important right orphan line(s)
+6 important difference line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mem\collect\MemCollection.java
+320 same line(s)
+2 ignored unimportant difference line(s)
+14 important right orphan line(s)
+3 important difference line(s)
+
+9 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mem\collect\MemGroupedTable.java
+142 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mem\collect\MemReadableData.java
+52 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mem\collect\MemTable.java
+210 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mem\collect\Shuffler.java
+149 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mem\emit\InMemoryEmitter.java
+57 same line(s)
+1 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mem\CountersWrapper.java
+130 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mem\MemPipeline.java
+397 same line(s)
+2 ignored unimportant difference line(s)
+12 important right orphan line(s)
+5 important difference line(s)
+
+8 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mem\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\collect\DoCollection.java
+45 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\collect\DoTable.java
+54 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\collect\InputCollection.java
+47 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\collect\InputTable.java
+36 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\collect\MRCollectionFactory.java
+106 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\collect\PGroupedTableImpl.java
+64 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\collect\UnionCollection.java
+29 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\collect\UnionTable.java
+29 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\emit\IntermediateEmitter.java
+64 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\emit\MultipleOutputEmitter.java
+54 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\emit\OutputEmitter.java
+52 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\exec\CappedExponentialCounter.java
+40 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\exec\CrunchJobHooks.java
+96 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\exec\MRExecutor.java
+248 same line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\DoNode.java
+164 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\DotfileWriter.java
+283 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\Edge.java
+163 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\Graph.java
+133 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\GraphBuilder.java
+92 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\JobNameBuilder.java
+102 same line(s)
+1 ignored unimportant difference line(s)
+6 important right orphan line(s)
+2 important difference line(s)
+
+6 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\JobPrototype.java
+268 same line(s)
+5 important right orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\MSCROutputHandler.java
+81 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\MSCRPlanner.java
+393 same line(s)
+2 ignored unimportant difference line(s)
+2 important left orphan line(s)
+26 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\NodePath.java
+124 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\PlanningParameters.java
+40 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\plan\Vertex.java
+122 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\CrunchCombineFileInputFormat.java
+47 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\CrunchCombiner.java
+27 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\CrunchInputFormat.java
+78 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\CrunchInputSplit.java
+138 same line(s)
+1 ignored unimportant difference line(s)
+3 important left orphan line(s)
+6 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\CrunchMapper.java
+69 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\CrunchRecordReader.java
+163 same line(s)
+5 important difference line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\CrunchReducer.java
+66 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\CrunchTaskContext.java
+87 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\NodeContext.java
+35 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\RTNode.java
+128 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\run\RuntimeParameters.java
+44 same line(s)
+5 ignored unimportant difference line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\MRJob.java
+45 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\MRPipeline.java
+144 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\MRPipelineExecution.java
+26 same line(s)
+2 ignored unimportant difference line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\mr\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\impl\SingleUseIterable.java
+49 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\trevni\TrevniFileReaderFactory.java
+106 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\trevni\TrevniKeySource.java
+66 same line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\trevni\TrevniKeySourceTarget.java
+40 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\trevni\TrevniKeyTarget.java
+149 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\trevni\TrevniOutputFormat.java
+35 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\trevni\TrevniReadableData.java
+39 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\trevni\TrevniRecordWriter.java
+140 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\AvroFileReaderFactory.java
+77 same line(s)
+1 important left orphan line(s)
+5 important right orphan line(s)
+10 important difference line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\AvroFileSource.java
+80 same line(s)
+6 ignored unimportant difference line(s)
+11 important right orphan line(s)
+3 important difference line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\AvroFileSourceTarget.java
+48 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\AvroFileTarget.java
+86 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\AvroPathPerKeyTarget.java
+116 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+8 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\avro\AvroReadableData.java
+40 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\AutoClosingIterator.java
+60 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\FileSourceImpl.java
+181 same line(s)
+2 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\FileTableSourceImpl.java
+50 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\FileTargetImpl.java
+299 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\ReadableDataImpl.java
+103 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\ReadableSourcePathTargetImpl.java
+49 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\ReadableSourceTargetImpl.java
+47 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\SourcePathTargetImpl.java
+59 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\SourceTargetImpl.java
+127 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\TableSourcePathTargetImpl.java
+41 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\impl\TableSourceTargetImpl.java
+35 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\parquet\AvroParquetConverter.java
+59 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\parquet\AvroParquetFileReaderFactory.java
+100 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\parquet\AvroParquetFileSource.java
+184 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\parquet\AvroParquetFileSourceTarget.java
+42 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\parquet\AvroParquetFileTarget.java
+119 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\parquet\AvroParquetReadableData.java
+40 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\seq\SeqFileHelper.java
+35 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\seq\SeqFileReadableData.java
+39 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\seq\SeqFileReaderFactory.java
+112 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\seq\SeqFileSource.java
+54 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\seq\SeqFileSourceTarget.java
+44 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\seq\SeqFileTableSource.java
+64 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\seq\SeqFileTableSourceTarget.java
+54 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\seq\SeqFileTarget.java
+55 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\csv\CSVFileReaderFactory.java
+52 ignored unimportant difference line(s)
+42 important right orphan line(s)
+
+8 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\csv\CSVFileSource.java
+119 ignored unimportant difference line(s)
+88 important right orphan line(s)
+
+20 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\csv\CSVInputFormat.java
+98 ignored unimportant difference line(s)
+115 important right orphan line(s)
+
+25 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\csv\CSVLineReader.java
+190 ignored unimportant difference line(s)
+216 important right orphan line(s)
+
+52 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\csv\CSVReadableData.java
+45 ignored unimportant difference line(s)
+30 important right orphan line(s)
+
+8 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\csv\CSVRecordIterator.java
+55 ignored unimportant difference line(s)
+64 important right orphan line(s)
+
+12 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\csv\CSVRecordReader.java
+95 ignored unimportant difference line(s)
+107 important right orphan line(s)
+
+23 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\LineParser.java
+125 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\NLineFileSource.java
+96 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\TextFileReaderFactory.java
+93 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\TextFileSource.java
+65 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\TextFileSourceTarget.java
+44 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\TextFileTableSource.java
+97 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\TextFileTableSourceTarget.java
+63 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\TextFileTarget.java
+110 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\text\TextReadableData.java
+51 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\At.java
+250 same line(s)
+32 ignored unimportant difference line(s)
+12 important right orphan line(s)
+4 important difference line(s)
+
+8 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\CompositePathIterable.java
+103 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\CrunchInputs.java
+61 same line(s)
+6 ignored unimportant difference line(s)
+4 important left orphan line(s)
+43 important right orphan line(s)
+3 important difference line(s)
+
+11 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\CrunchOutputs.java
+176 same line(s)
+3 ignored unimportant difference line(s)
+5 important right orphan line(s)
+4 important difference line(s)
+
+5 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\FileNamingScheme.java
+58 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\FileReaderFactory.java
+27 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\FormatBundle.java
+171 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\From.java
+313 same line(s)
+151 ignored unimportant difference line(s)
+95 important right orphan line(s)
+4 important difference line(s)
+
+27 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\MapReduceTarget.java
+27 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\OutputHandler.java
+25 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\PathTarget.java
+50 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\ReadableSource.java
+48 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\ReadableSourceTarget.java
+30 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\SequentialFileNamingScheme.java
+74 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\SourceTargetHelper.java
+68 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\io\To.java
+153 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\BloomFilterJoinStrategy.java
+326 same line(s)
+1 important left orphan line(s)
+3 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\DefaultJoinStrategy.java
+112 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\FullOuterJoinFn.java
+102 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\InnerJoinFn.java
+76 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\JoinFn.java
+81 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\JoinStrategy.java
+40 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\JoinType.java
+62 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\JoinUtils.java
+131 same line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\LeftOuterJoinFn.java
+98 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\MapsideJoinStrategy.java
+138 same line(s)
+6 important right orphan line(s)
+3 important difference line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\OneToManyJoin.java
+142 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\RightOuterJoinFn.java
+83 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\join\ShardedJoinStrategy.java
+174 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\sort\ReverseAvroComparator.java
+48 same line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\sort\ReverseWritableComparator.java
+50 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\sort\SortFns.java
+210 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\sort\TotalOrderPartitioner.java
+145 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\sort\TupleWritableComparator.java
+106 same line(s)
+30 important left orphan line(s)
+7 important difference line(s)
+
+12 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Aggregate.java
+274 same line(s)
+12 ignored unimportant difference line(s)
+21 important right orphan line(s)
+6 important difference line(s)
+
+14 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Cartesian.java
+215 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Channels.java
+100 same line(s)
+2 important difference line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Cogroup.java
+262 same line(s)
+1 ignored unimportant difference line(s)
+10 important left orphan line(s)
+1 important right orphan line(s)
+20 important difference line(s)
+
+16 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Distinct.java
+126 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Join.java
+140 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Mapred.java
+301 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Mapreduce.java
+335 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\PTables.java
+216 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Sample.java
+214 same line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\SampleUtils.java
+172 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\SecondarySort.java
+151 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Set.java
+118 same line(s)
+3 important right orphan line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Shard.java
+46 same line(s)
+2 ignored unimportant difference line(s)
+8 important left orphan line(s)
+3 important right orphan line(s)
+9 important difference line(s)
+
+6 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\lib\Sort.java
+301 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\materialize\pobject\CollectionPObject.java
+55 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\materialize\pobject\FirstElementPObject.java
+50 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\materialize\pobject\MapPObject.java
+62 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\materialize\pobject\PObjectImpl.java
+77 same line(s)
+3 ignored unimportant difference line(s)
+2 important left orphan line(s)
+2 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\materialize\MaterializableIterable.java
+82 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\materialize\MaterializableMap.java
+50 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroCapabilities.java
+106 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroDeepCopier.java
+205 same line(s)
+10 ignored unimportant difference line(s)
+1 important left orphan line(s)
+13 important right orphan line(s)
+2 important difference line(s)
+
+8 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroDerivedValueDeepCopier.java
+27 ignored unimportant difference line(s)
+22 important right orphan line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroGroupedTableType.java
+113 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroInputFormat.java
+41 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroKeyConverter.java
+66 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroMode.java
+133 same line(s)
+122 ignored unimportant difference line(s)
+1 important left orphan line(s)
+85 important right orphan line(s)
+26 important difference line(s)
+
+40 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroOutputFormat.java
+97 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroPairConverter.java
+108 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroPathPerKeyOutputFormat.java
+92 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroRecordReader.java
+108 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\Avros.java
+716 same line(s)
+23 ignored unimportant difference line(s)
+8 important left orphan line(s)
+158 important right orphan line(s)
+27 important difference line(s)
+
+52 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroTableType.java
+149 same line(s)
+2 important difference line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroTextOutputFormat.java
+60 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroType.java
+196 same line(s)
+5 ignored unimportant difference line(s)
+1 important left orphan line(s)
+27 important right orphan line(s)
+9 important difference line(s)
+
+13 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroTypeFamily.java
+164 same line(s)
+2 ignored unimportant difference line(s)
+9 important right orphan line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\AvroUtf8InputFormat.java
+98 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\ReaderWriterFactory.java
+37 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\ReflectDataFactory.java
+44 same line(s)
+2 ignored unimportant difference line(s)
+3 important left orphan line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\avro\SafeAvroSerialization.java
+137 same line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\GenericArrayWritable.java
+114 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\TextMapWritable.java
+71 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\TupleWritable.java
+139 same line(s)
+59 ignored unimportant difference line(s)
+18 important left orphan line(s)
+127 important right orphan line(s)
+36 important difference line(s)
+
+52 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\UnionWritable.java
+29 ignored unimportant difference line(s)
+43 important right orphan line(s)
+
+13 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\WritableDeepCopier.java
+70 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\WritableGroupedTableType.java
+85 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\WritablePairConverter.java
+62 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\Writables.java
+579 same line(s)
+64 ignored unimportant difference line(s)
+13 important left orphan line(s)
+185 important right orphan line(s)
+25 important difference line(s)
+
+52 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\WritableTableType.java
+130 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\WritableType.java
+131 same line(s)
+10 ignored unimportant difference line(s)
+1 important left orphan line(s)
+14 important right orphan line(s)
+1 important difference line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\WritableTypeFamily.java
+147 same line(s)
+2 ignored unimportant difference line(s)
+9 important right orphan line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\writable\WritableValueConverter.java
+60 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\CollectionDeepCopier.java
+57 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\Converter.java
+41 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\DeepCopier.java
+46 same line(s)
+5 ignored unimportant difference line(s)
+9 important left orphan line(s)
+
+5 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\MapDeepCopier.java
+54 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\NoOpDeepCopier.java
+33 ignored unimportant difference line(s)
+15 important right orphan line(s)
+
+9 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\PGroupedTableType.java
+170 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\Protos.java
+173 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\PTableType.java
+44 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\PType.java
+86 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\PTypeFamily.java
+77 same line(s)
+6 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\PTypes.java
+248 same line(s)
+25 ignored unimportant difference line(s)
+22 important right orphan line(s)
+5 important difference line(s)
+
+14 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\PTypeUtils.java
+66 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\TupleDeepCopier.java
+65 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\TupleFactory.java
+134 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\types\UnionDeepCopier.java
+23 ignored unimportant difference line(s)
+26 important right orphan line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\util\CrunchTool.java
+118 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\util\DelegatingReadableData.java
+67 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\util\DistCache.java
+231 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\util\DoFnIterator.java
+98 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\util\package-info.java
+22 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\util\PartitionUtils.java
+47 same line(s)
+2 ignored unimportant difference line(s)
+4 important left orphan line(s)
+4 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\util\SerializableSupplier.java
+26 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\util\Tuples.java
+150 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\util\UnionReadableData.java
+64 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Aggregator.java
+86 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\CachingOptions.java
+126 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\CombineFn.java
+47 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\CrunchRuntimeException.java
+54 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\DoFn.java
+212 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Emitter.java
+37 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\FilterFn.java
+63 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\GroupingOptions.java
+195 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\MapFn.java
+41 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\package-info.java
+25 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Pair.java
+107 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\ParallelDoOptions.java
+113 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\PCollection.java
+270 same line(s)
+9 ignored unimportant difference line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\PGroupedTable.java
+106 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Pipeline.java
+153 same line(s)
+2 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\PipelineExecution.java
+56 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\PipelineResult.java
+149 same line(s)
+18 ignored unimportant difference line(s)
+26 important right orphan line(s)
+2 important difference line(s)
+
+10 difference section(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\PObject.java
+36 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\PTable.java
+209 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\ReadableData.java
+55 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Source.java
+74 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\SourceTarget.java
+32 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\TableSource.java
+28 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\TableSourceTarget.java
+25 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Target.java
+107 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Tuple.java
+36 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Tuple3.java
+133 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Tuple4.java
+148 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\TupleN.java
+78 same line(s)
+
+File: crunch-core\src\main\java\org\apache\crunch\Union.java
+37 ignored unimportant difference line(s)
+28 important right orphan line(s)
+
+11 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\fn\AggregatorsTest.java
+239 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\fn\AndFnTest.java
+78 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\fn\ExtractKeyFnTest.java
+42 same line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\fn\FilterFnTest.java
+85 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\fn\NotFnTest.java
+72 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\fn\OrFnTest.java
+79 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\fn\PairMapTest.java
+50 same line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\fn\StoreLastEmitter.java
+23 ignored unimportant difference line(s)
+18 important left orphan line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\hadoop\mapreduce\lib\jobcontrol\CrunchJobControlTest.java
+77 same line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\impl\dist\collect\DoCollectionTest.java
+117 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\impl\dist\collect\DoTableImplTest.java
+88 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\impl\mem\CountersTest.java
+57 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\impl\mr\emit\IntermediateEmitterTest.java
+104 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\impl\mr\exec\CappedExponentialCounterTest.java
+42 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\DotfileWriterTest.java
+173 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\JobNameBuilderTest.java
+57 same line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\impl\mr\MRPipelineTest.java
+85 same line(s)
+2 ignored unimportant difference line(s)
+9 important right orphan line(s)
+
+3 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\impl\SingleUseIterableTest.java
+54 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\io\avro\AvroFileReaderFactoryTest.java
+183 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\io\avro\AvroFileSourceTest.java
+95 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\io\impl\CrunchJobHooksTest.java
+43 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\io\parquet\AvroParquetFileReaderFactoryTest.java
+104 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\io\text\csv\CSVLineReaderTest.java
+30 ignored unimportant difference line(s)
+48 important right orphan line(s)
+
+8 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\io\text\csv\CSVRecordIteratorTest.java
+28 ignored unimportant difference line(s)
+47 important right orphan line(s)
+
+12 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\io\CrunchInputsTest.java
+33 ignored unimportant difference line(s)
+54 important right orphan line(s)
+
+17 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\io\SequentialFileNamingSchemeTest.java
+84 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\io\SourceTargetHelperTest.java
+59 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\join\BrokenLeftAndOuterJoinTest.java
+90 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\join\InnerJoinFnTest.java
+42 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\join\JoinFnTestBase.java
+82 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\join\LeftOuterJoinTest.java
+46 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\join\OneToManyJoinTest.java
+108 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\join\RightOuterJoinFnTest.java
+46 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\AvroIndexedRecordPartitionerTest.java
+98 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\CartesianTest.java
+77 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\ChannelsTest.java
+59 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\DistinctTest.java
+52 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\MapredTest.java
+134 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\MapreduceTest.java
+117 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\SampleTest.java
+71 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\SecondarySortTest.java
+53 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\lib\TupleWritablePartitionerTest.java
+47 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\test\CountersTest.java
+70 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\test\StringWrapper.java
+102 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\avro\AvroChildClassloaderTestRunner.java
+77 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\avro\AvroDeepCopierTest.java
+105 same line(s)
+4 ignored unimportant difference line(s)
+1 important left orphan line(s)
+11 important right orphan line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\avro\AvroGroupedTableTypeTest.java
+60 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\avro\AvroModeTest.java
+40 ignored unimportant difference line(s)
+130 important right orphan line(s)
+
+24 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\avro\AvroSpecificDeepCopierClassloaderTest.java
+46 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\avro\AvrosTest.java
+320 same line(s)
+1 ignored unimportant difference line(s)
+2 important left orphan line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\avro\AvroTableTypeTest.java
+72 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\avro\AvroTypeTest.java
+283 same line(s)
+11 ignored unimportant difference line(s)
+2 important left orphan line(s)
+37 important right orphan line(s)
+
+17 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\writable\GenericArrayWritableTest.java
+73 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\writable\TupleWritableTest.java
+27 ignored unimportant difference line(s)
+73 important right orphan line(s)
+
+10 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\writable\WritableDeepCopierTest.java
+54 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\writable\WritableGroupedTableTypeTest.java
+56 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\writable\WritablesTest.java
+242 same line(s)
+1 ignored unimportant difference line(s)
+32 important left orphan line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+7 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\writable\WritableTableTypeTest.java
+47 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\writable\WritableTypeTest.java
+94 same line(s)
+16 ignored unimportant difference line(s)
+2 important left orphan line(s)
+66 important right orphan line(s)
+
+23 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\CollectionDeepCopierTest.java
+61 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\MapDeepCopierTest.java
+63 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\PTypesTest.java
+34 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\PTypeUtilsTest.java
+88 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\TupleDeepCopierTest.java
+77 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\types\TupleFactoryTest.java
+70 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\util\DistCacheTest.java
+156 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\util\PartitionUtilsTest.java
+89 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\PairTest.java
+66 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\TupleTest.java
+139 same line(s)
+
+File: crunch-core\src\test\java\org\apache\crunch\WriteModeTest.java
+103 same line(s)
+
+File: crunch-examples\src\main\java\org\apache\crunch\examples\AverageBytesByIP.java
+139 same line(s)
+
+File: crunch-examples\src\main\java\org\apache\crunch\examples\package-info.java
+22 same line(s)
+
+File: crunch-examples\src\main\java\org\apache\crunch\examples\SecondarySortExample.java
+164 same line(s)
+
+File: crunch-examples\src\main\java\org\apache\crunch\examples\SortExample.java
+49 same line(s)
+
+File: crunch-examples\src\main\java\org\apache\crunch\examples\TotalBytesByIP.java
+110 same line(s)
+
+File: crunch-examples\src\main\java\org\apache\crunch\examples\TotalWordCount.java
+34 ignored unimportant difference line(s)
+44 important right orphan line(s)
+
+13 difference section(s)
+
+File: crunch-examples\src\main\java\org\apache\crunch\examples\WordAggregationHBase.java
+249 same line(s)
+
+File: crunch-examples\src\main\java\org\apache\crunch\examples\WordCount.java
+79 same line(s)
+
+File: crunch-hbase\src\it\java\org\apache\crunch\io\hbase\HFileSourceIT.java
+316 same line(s)
+
+File: crunch-hbase\src\it\java\org\apache\crunch\io\hbase\HFileTargetIT.java
+401 same line(s)
+
+File: crunch-hbase\src\it\java\org\apache\crunch\io\hbase\WordCountHBaseIT.java
+310 same line(s)
+4 ignored unimportant difference line(s)
+7 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-hbase\src\it\java\org\apache\crunch\test\TemporaryPaths.java
+40 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\AtHBase.java
+37 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\FromHBase.java
+48 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HBaseData.java
+64 same line(s)
+2 ignored unimportant difference line(s)
+5 important right orphan line(s)
+5 important difference line(s)
+
+6 difference section(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HBaseSourceTarget.java
+168 same line(s)
+5 ignored unimportant difference line(s)
+5 important left orphan line(s)
+13 important right orphan line(s)
+10 important difference line(s)
+
+13 difference section(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HBaseTarget.java
+145 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HFileInputFormat.java
+231 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HFileOutputFormatForCrunch.java
+128 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HFileReadableData.java
+37 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HFileReaderFactory.java
+88 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HFileSource.java
+128 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HFileTarget.java
+55 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HFileUtils.java
+534 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HTableIterable.java
+40 same line(s)
+4 important left orphan line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+5 difference section(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\HTableIterator.java
+62 same line(s)
+3 ignored unimportant difference line(s)
+19 important right orphan line(s)
+5 important difference line(s)
+
+9 difference section(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\TableOutputFormat.java
+133 same line(s)
+
+File: crunch-hbase\src\main\java\org\apache\crunch\io\hbase\ToHBase.java
+39 same line(s)
+
+File: crunch-scrunch\src\main\java\org\apache\crunch\scrunch\ScalaReflectDataFactory.java
+38 same line(s)
+1 ignored unimportant difference line(s)
+2 important right orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-scrunch\src\main\java\org\apache\crunch\scrunch\ScalaSafeReflectData.java
+286 same line(s)
+2 ignored unimportant difference line(s)
+12 important right orphan line(s)
+5 important difference line(s)
+
+5 difference section(s)
+
+File: crunch-scrunch\src\main\java\org\apache\crunch\scrunch\ScalaSafeReflectDatumReader.java
+111 same line(s)
+1 ignored unimportant difference line(s)
+3 important left orphan line(s)
+6 important right orphan line(s)
+10 important difference line(s)
+
+7 difference section(s)
+
+File: crunch-scrunch\src\main\java\org\apache\crunch\scrunch\ScalaSafeReflectDatumWriter.java
+65 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\test\StringWrapper.java
+102 same line(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\test\Tests.java
+38 same line(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\SparkCogroupIT.java
+187 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\SparkEmptyPCollectionIT.java
+24 ignored unimportant difference line(s)
+59 important right orphan line(s)
+
+8 difference section(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\SparkMapsideJoinIT.java
+188 same line(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\SparkPageRankIT.java
+153 same line(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\SparkSecondarySortIT.java
+61 same line(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\SparkSortIT.java
+315 same line(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\SparkTfidfIT.java
+228 same line(s)
+
+File: crunch-spark\src\it\java\org\apache\crunch\SparkUnionResultsIT.java
+117 same line(s)
+3 ignored unimportant difference line(s)
+17 important right orphan line(s)
+
+6 difference section(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\DoCollection.java
+65 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\DoTable.java
+78 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\EmptyPCollection.java
+21 ignored unimportant difference line(s)
+17 important right orphan line(s)
+
+5 difference section(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\EmptyPTable.java
+21 ignored unimportant difference line(s)
+17 important right orphan line(s)
+
+5 difference section(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\InputCollection.java
+61 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\InputTable.java
+51 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\PGroupedTableImpl.java
+122 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\SparkCollectFactory.java
+99 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\ToByteArrayFunction.java
+33 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\UnionCollection.java
+57 same line(s)
+1 ignored unimportant difference line(s)
+10 important right orphan line(s)
+
+6 difference section(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\collect\UnionTable.java
+58 same line(s)
+1 ignored unimportant difference line(s)
+8 important right orphan line(s)
+
+5 difference section(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\CombineMapsideFunction.java
+90 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\CrunchIterable.java
+38 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\FlatMapDoFn.java
+41 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\FlatMapPairDoFn.java
+45 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\InputConverterFunction.java
+35 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\MapFunction.java
+42 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\MapOutputFunction.java
+42 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\OutputConverterFunction.java
+35 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\PairFlatMapDoFn.java
+46 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\PairFlatMapPairDoFn.java
+49 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\PairMapFunction.java
+44 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\PairMapIterableFunction.java
+51 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\PartitionedMapOutputFunction.java
+83 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\ReduceGroupingFunction.java
+121 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\fn\ReduceInputFunction.java
+44 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\serde\AvroSerDe.java
+109 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\serde\SerDe.java
+30 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\serde\WritableSerDe.java
+70 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\ByteArray.java
+50 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\CounterAccumulatorParam.java
+37 same line(s)
+11 important right orphan line(s)
+8 important difference line(s)
+
+4 difference section(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\GuavaUtils.java
+44 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\IntByteArray.java
+43 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\SparkCollection.java
+24 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\SparkComparator.java
+86 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\SparkPartitioner.java
+37 same line(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\SparkPipeline.java
+116 same line(s)
+5 ignored unimportant difference line(s)
+29 important right orphan line(s)
+1 important difference line(s)
+
+14 difference section(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\SparkRuntime.java
+311 same line(s)
+5 ignored unimportant difference line(s)
+5 important left orphan line(s)
+26 important right orphan line(s)
+7 important difference line(s)
+
+18 difference section(s)
+
+File: crunch-spark\src\main\java\org\apache\crunch\impl\spark\SparkRuntimeContext.java
+83 same line(s)
+13 ignored unimportant difference line(s)
+78 important left orphan line(s)
+23 important right orphan line(s)
+33 important difference line(s)
+
+28 difference section(s)
+
+File: crunch-spark\src\main\java\org\apache\hadoop\mapred\SparkCounter.java
+29 ignored unimportant difference line(s)
+47 important right orphan line(s)
+
+13 difference section(s)
+
+File: crunch-test\src\it\java\org\apache\crunch\test\TemporaryPathIT.java
+101 same line(s)
+
+File: crunch-test\src\main\java\org\apache\crunch\test\CrunchTestSupport.java
+92 same line(s)
+
+File: crunch-test\src\main\java\org\apache\crunch\test\DebugLogging.java
+56 same line(s)
+
+File: crunch-test\src\main\java\org\apache\crunch\test\package-info.java
+22 same line(s)
+
+File: crunch-test\src\main\java\org\apache\crunch\test\TemporaryPath.java
+162 same line(s)
+
+File: crunch-test\src\main\java\org\apache\crunch\test\TestCounters.java
+41 same line(s)
+
+File: crunch-test\src\test\java\org\apache\crunch\test\CrunchTestSupportTest.java
+53 same line(s)

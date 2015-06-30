@@ -1,0 +1,1710 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:53:21
+
+Ignoring Unimportant
+Left base folder: D:\APsource\jspwiki\version1
+Right base folder: D:\APsource\jspwiki\version2
+
+File: jspwiki-war\src\main\java\org\apache\catalina\util\HexUtils.java
+172 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\engine\AdminBeanManager.java
+44 same line(s)
+19 ignored unimportant difference line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\engine\FilterManager.java
+123 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\engine\PluginManager.java
+164 same line(s)
+5 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\exceptions\FilterException.java
+40 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\exceptions\NoRequiredPropertyException.java
+43 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\exceptions\NoSuchVariableException.java
+39 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\exceptions\PluginException.java
+61 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\exceptions\ProviderException.java
+40 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\exceptions\RedirectException.java
+53 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\exceptions\WikiException.java
+50 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\exceptions\WikiI18nException.java
+55 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\filters\BasicPageFilter.java
+90 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\filters\PageFilter.java
+125 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\plugin\InitializablePlugin.java
+45 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\plugin\ParserStagePlugin.java
+42 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\api\plugin\WikiPlugin.java
+60 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\attachment\Attachment.java
+119 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\attachment\AttachmentManager.java
+660 same line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+3 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\attachment\AttachmentServlet.java
+753 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\attachment\DynamicAttachment.java
+102 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\attachment\DynamicAttachmentProvider.java
+51 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\acl\Acl.java
+114 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\acl\AclEntry.java
+105 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\acl\AclEntryImpl.java
+179 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\acl\AclImpl.java
+205 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\acl\AclManager.java
+75 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\acl\DefaultAclManager.java
+285 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\acl\UnresolvedPrincipal.java
+93 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\authorize\Group.java
+338 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\authorize\GroupDatabase.java
+93 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\authorize\GroupManager.java
+748 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\authorize\JDBCGroupDatabase.java
+697 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\authorize\Role.java
+136 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\authorize\WebAuthorizer.java
+47 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\authorize\WebContainerAuthorizer.java
+456 same line(s)
+6 important difference line(s)
+
+6 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\authorize\XMLGroupDatabase.java
+472 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\AbstractLoginModule.java
+267 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\AnonymousLoginModule.java
+108 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\AuthorizerCallback.java
+55 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\CookieAssertionLoginModule.java
+163 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\CookieAuthenticationLoginModule.java
+348 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\HttpRequestCallback.java
+56 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\PrincipalWrapper.java
+89 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\UserDatabaseCallback.java
+55 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\UserDatabaseLoginModule.java
+120 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\WebContainerCallbackHandler.java
+78 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\WebContainerLoginModule.java
+130 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\WikiCallbackHandler.java
+99 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\login\WikiEngineCallback.java
+55 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\permissions\AllPermission.java
+181 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\permissions\AllPermissionCollection.java
+141 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\permissions\GroupPermission.java
+498 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\permissions\PagePermission.java
+481 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\permissions\PermissionFactory.java
+114 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\permissions\WikiPermission.java
+271 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\user\AbstractUserDatabase.java
+379 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\user\DefaultUserProfile.java
+354 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\user\DuplicateUserException.java
+43 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\user\JDBCUserDatabase.java
+926 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\user\UserDatabase.java
+228 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\user\UserProfile.java
+205 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\user\XMLUserDatabase.java
+805 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\AuthenticationManager.java
+803 same line(s)
+1 important left orphan line(s)
+6 important right orphan line(s)
+3 important difference line(s)
+
+5 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\AuthorizationManager.java
+773 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\Authorizer.java
+93 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\GroupPrincipal.java
+99 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\NoSuchPrincipalException.java
+38 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\PrincipalComparator.java
+49 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\SecurityVerifier.java
+907 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\SessionMonitor.java
+283 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\UserManager.java
+883 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\WikiPrincipal.java
+178 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\auth\WikiSecurityException.java
+52 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\content\PageRenamer.java
+435 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\diff\ContextualDiffProvider.java
+477 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\diff\DifferenceManager.java
+115 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\diff\DiffProvider.java
+75 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\diff\ExternalDiffProvider.java
+201 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\diff\TraditionalDiffProvider.java
+199 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\PageEventFilter.java
+164 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\WikiEngineEvent.java
+157 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\WikiEvent.java
+168 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\WikiEventListener.java
+40 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\WikiEventManager.java
+607 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\WikiEventUtils.java
+169 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\WikiPageEvent.java
+294 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\WikiPageRenameEvent.java
+121 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\WikiSecurityEvent.java
+279 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\event\WorkflowEvent.java
+117 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\filters\CreoleFilter.java
+104 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\filters\DefaultFilterManager.java
+459 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\filters\PingWeblogsComFilter.java
+127 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\filters\ProfanityFilter.java
+92 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\filters\SpamFilter.java
+1075 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormClose.java
+64 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormElement.java
+106 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormHandler.java
+34 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormInfo.java
+222 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormInput.java
+77 same line(s)
+10 ignored unimportant difference line(s)
+7 important left orphan line(s)
+10 important right orphan line(s)
+11 important difference line(s)
+
+12 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormOpen.java
+150 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormOutput.java
+147 same line(s)
+5 ignored unimportant difference line(s)
+3 important left orphan line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormSelect.java
+134 same line(s)
+26 ignored unimportant difference line(s)
+6 important left orphan line(s)
+15 important right orphan line(s)
+8 important difference line(s)
+
+12 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormSet.java
+97 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\forms\FormTextarea.java
+80 same line(s)
+18 ignored unimportant difference line(s)
+6 important left orphan line(s)
+15 important right orphan line(s)
+7 important difference line(s)
+
+11 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\htmltowiki\ForgetNullValuesLinkedHashMap.java
+46 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\htmltowiki\HtmlStringToWikiTranslator.java
+127 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\htmltowiki\PersistentMapDecorator.java
+186 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\htmltowiki\PropertiesUtils.java
+145 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\htmltowiki\WhitespaceTrimWriter.java
+150 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\htmltowiki\XHtmlElementToWikiTranslator.java
+1079 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\htmltowiki\XHtmlToWikiConfig.java
+202 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\i18n\InternationalizationManager.java
+119 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\management\SimpleMBean.java
+436 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\modules\InternalModule.java
+36 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\modules\ModuleManager.java
+79 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\modules\WikiModuleInfo.java
+227 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\CreoleToJSPWikiTranslator.java
+559 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\Heading.java
+63 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\HeadingListener.java
+36 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\JSPWikiMarkupParser.java
+3004 same line(s)
+5 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\LinkParser.java
+578 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\MarkupParser.java
+349 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\ParseException.java
+42 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\PluginContent.java
+280 same line(s)
+1 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+1 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\VariableContent.java
+111 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\parser\WikiDocument.java
+111 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\AbstractReferralPlugin.java
+503 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\BugReportHandler.java
+254 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\Counter.java
+139 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\CurrentTimePlugin.java
+78 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\DefaultPluginManager.java
+739 same line(s)
+26 ignored unimportant difference line(s)
+24 important left orphan line(s)
+29 important right orphan line(s)
+19 important difference line(s)
+
+25 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\Denounce.java
+223 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\Groups.java
+85 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\IfPlugin.java
+320 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\Image.java
+223 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\IndexPlugin.java
+65 same line(s)
+54 ignored unimportant difference line(s)
+20 important left orphan line(s)
+32 important right orphan line(s)
+32 important difference line(s)
+
+27 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\InsertPage.java
+214 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\ListLocksPlugin.java
+93 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\Note.java
+106 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\PageViewPlugin.java
+770 same line(s)
+22 ignored unimportant difference line(s)
+25 important left orphan line(s)
+2 important right orphan line(s)
+11 important difference line(s)
+
+15 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\RecentChangesPlugin.java
+204 same line(s)
+25 ignored unimportant difference line(s)
+12 important left orphan line(s)
+27 important right orphan line(s)
+42 important difference line(s)
+
+38 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\ReferredPagesPlugin.java
+254 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\ReferringPagesPlugin.java
+153 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\ReferringUndefinedPagesPlugin.java
+106 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\RPCSamplePlugin.java
+67 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\Search.java
+120 same line(s)
+13 ignored unimportant difference line(s)
+12 important left orphan line(s)
+21 important right orphan line(s)
+25 important difference line(s)
+
+24 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\SessionsPlugin.java
+117 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\TableOfContents.java
+260 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\UndefinedPagesPlugin.java
+72 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\UnusedPagesPlugin.java
+99 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\WeblogArchivePlugin.java
+211 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\WeblogEntryPlugin.java
+164 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\plugin\WeblogPlugin.java
+476 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\preferences\Preferences.java
+365 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\AbstractFileProvider.java
+538 same line(s)
+2 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\BasicAttachmentProvider.java
+753 same line(s)
+2 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\CachingAttachmentProvider.java
+371 same line(s)
+1 ignored unimportant difference line(s)
+2 important right orphan line(s)
+6 important difference line(s)
+
+4 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\CachingProvider.java
+589 same line(s)
+3 important right orphan line(s)
+12 important difference line(s)
+
+6 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\FastSearch.java
+30 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\FileSystemProvider.java
+183 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\NoSuchVersionException.java
+40 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\RepositoryModifiedException.java
+63 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\VersioningFileProvider.java
+805 same line(s)
+65 ignored unimportant difference line(s)
+3 important left orphan line(s)
+74 important right orphan line(s)
+2 important difference line(s)
+
+20 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\VersioningProvider.java
+42 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\WikiAttachmentProvider.java
+179 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\providers\WikiPageProvider.java
+212 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\render\CleanTextRenderer.java
+90 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\render\CreoleRenderer.java
+209 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\render\CustomXMLOutputProcessor.java
+43 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\render\RenderingManager.java
+312 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+3 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\render\WikiRenderer.java
+62 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\render\WysiwygEditingRenderer.java
+158 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\render\XHTMLRenderer.java
+76 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rpc\atom\AtomAPIServlet.java
+345 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rpc\json\JSONRPCManager.java
+273 same line(s)
+12 ignored unimportant difference line(s)
+8 important right orphan line(s)
+11 important difference line(s)
+
+6 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rpc\RPCCallable.java
+29 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rpc\RPCManager.java
+50 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rss\AtomFeed.java
+224 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rss\Entry.java
+134 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rss\Feed.java
+194 same line(s)
+3 ignored unimportant difference line(s)
+7 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rss\RSS10Feed.java
+100 same line(s)
+48 ignored unimportant difference line(s)
+19 important left orphan line(s)
+12 important right orphan line(s)
+41 important difference line(s)
+
+40 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rss\RSS20Feed.java
+190 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rss\RSSGenerator.java
+656 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\rss\RSSThread.java
+132 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\search\BasicSearchProvider.java
+211 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\search\LuceneSearchProvider.java
+821 same line(s)
+5 important difference line(s)
+
+3 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\search\QueryItem.java
+44 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\search\SearchManager.java
+364 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\search\SearchMatcher.java
+172 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\search\SearchProvider.java
+58 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\search\SearchResult.java
+52 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\search\SearchResultComparator.java
+50 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\AdminBeanIteratorInfo.java
+48 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\AdminBeanIteratorTag.java
+65 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\AttachmentsIteratorInfo.java
+47 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\AttachmentsIteratorTag.java
+160 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\AuthorTag.java
+82 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\BaseURLTag.java
+43 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\BreadcrumbsTag.java
+232 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\CalendarTag.java
+374 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\CheckLockInfo.java
+45 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\CheckLockTag.java
+125 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\CheckRequestContextTag.java
+106 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\CheckVersionTag.java
+139 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\CommentLinkTag.java
+102 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\ContentEncodingTag.java
+47 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\ContentTag.java
+200 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\CookieTag.java
+436 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\DiffLinkTag.java
+176 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\EditLinkTag.java
+144 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\EditorIteratorInfo.java
+43 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\EditorIteratorTag.java
+63 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\EditorTag.java
+86 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\FeedDiscoveryTag.java
+82 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\HasAttachmentsTag.java
+65 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\HistoryIteratorInfo.java
+43 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\HistoryIteratorTag.java
+134 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\IfNoSearchResultsTag.java
+47 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\IncludeResourcesTag.java
+59 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\IncludeTag.java
+102 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\InsertDiffTag.java
+122 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\InsertPageTag.java
+140 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\IteratorTag.java
+219 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\LinkTag.java
+473 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\LinkToParentTag.java
+77 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\LinkToTag.java
+136 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\MessagesTag.java
+122 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\NextVersionTag.java
+51 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\NoSuchPageTag.java
+80 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PageDateTag.java
+99 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PageExistsTag.java
+44 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PageInfoLinkTag.java
+100 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PageNameTag.java
+57 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PageSizeTag.java
+68 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PageTypeTag.java
+79 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PageVersionTag.java
+55 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\ParamHandler.java
+31 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\ParamTag.java
+103 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\ParentPageNameTag.java
+78 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PermissionTag.java
+201 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PluginTag.java
+158 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\PreviousVersionTag.java
+53 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\RequestResourceTag.java
+105 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\RSSImageLinkTag.java
+122 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\SearchResultIteratorInfo.java
+43 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\SearchResultIteratorTag.java
+149 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\SearchResultsSizeTag.java
+48 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\SearchResultsTag.java
+58 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\SetPaginationTag.java
+275 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\TabbedSectionTag.java
+204 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\TabTag.java
+209 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\TemplateDirTag.java
+43 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\TranslateTag.java
+81 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\UploadLinkTag.java
+78 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\UserCheckTag.java
+222 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\UserNameTag.java
+70 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\UserProfileTag.java
+293 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\VariableTag.java
+110 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\WikiBodyTag.java
+83 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\WikiLinkTag.java
+106 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\tags\WikiTagBase.java
+125 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\admin\beans\CoreBean.java
+94 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\admin\beans\PlainEditorAdminBean.java
+128 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\admin\beans\PluginBean.java
+55 same line(s)
+10 ignored unimportant difference line(s)
+15 important left orphan line(s)
+9 important right orphan line(s)
+30 important difference line(s)
+
+18 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\admin\beans\SearchManagerBean.java
+160 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\admin\beans\UserBean.java
+147 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\admin\AdminBean.java
+51 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\admin\DefaultAdminBeanManager.java
+273 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\admin\SimpleAdminBean.java
+122 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\admin\WikiFormAdminBean.java
+70 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\progress\ProgressItem.java
+68 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\progress\ProgressManager.java
+133 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\AbstractCommand.java
+246 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\Command.java
+159 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\CommandResolver.java
+527 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\Editor.java
+92 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\EditorManager.java
+292 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\GenericHTTPHandler.java
+53 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\GroupCommand.java
+123 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\InputValidator.java
+187 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\Installer.java
+309 same line(s)
+6 ignored unimportant difference line(s)
+30 important left orphan line(s)
+11 important right orphan line(s)
+17 important difference line(s)
+
+19 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\PageCommand.java
+146 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\RedirectCommand.java
+99 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\TemplateManager.java
+845 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\WikiCommand.java
+153 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\WikiJSPFilter.java
+447 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\WikiRequestWrapper.java
+139 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ui\WikiServletFilter.java
+221 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\url\DefaultURLConstructor.java
+301 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\url\ShortURLConstructor.java
+228 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\url\ShortViewURLConstructor.java
+108 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\url\URLConstructor.java
+94 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\comparators\CollatorComparator.java
+87 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\comparators\HumanComparator.java
+295 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\comparators\JavaNaturalComparator.java
+51 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\comparators\LocaleComparator.java
+56 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\comparators\PageTimeComparator.java
+72 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\ClassUtil.java
+376 same line(s)
+21 ignored unimportant difference line(s)
+3 important left orphan line(s)
+26 important right orphan line(s)
+9 important difference line(s)
+
+12 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\CommentedProperties.java
+244 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\CryptoUtil.java
+285 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\FileUtil.java
+335 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\FormUtil.java
+179 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\HttpUtil.java
+202 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\MailUtil.java
+499 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\PriorityList.java
+114 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\PropertyReader.java
+325 same line(s)
+33 ignored unimportant difference line(s)
+40 important right orphan line(s)
+1 important difference line(s)
+
+13 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\Serializer.java
+107 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\TextUtil.java
+772 same line(s)
+16 ignored unimportant difference line(s)
+16 important right orphan line(s)
+
+5 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\TimedCounterList.java
+243 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\UtilJ2eeCompat.java
+168 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\XHTML.java
+122 ignored unimportant difference line(s)
+92 important right orphan line(s)
+
+42 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\XhtmlUtil.java
+135 ignored unimportant difference line(s)
+82 important right orphan line(s)
+
+16 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\util\XmlUtil.java
+86 same line(s)
+20 ignored unimportant difference line(s)
+9 important left orphan line(s)
+11 important right orphan line(s)
+4 important difference line(s)
+
+5 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\AbstractStep.java
+289 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\Decision.java
+246 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\DecisionQueue.java
+185 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\DecisionRequiredException.java
+44 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\Fact.java
+108 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\NoSuchOutcomeException.java
+39 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\Outcome.java
+165 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\SimpleDecision.java
+51 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\SimpleNotification.java
+77 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\Step.java
+244 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\SystemPrincipal.java
+51 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\Task.java
+112 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\Workflow.java
+845 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\WorkflowBuilder.java
+187 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\workflow\WorkflowManager.java
+344 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\xmlrpc\AbstractRPCHandler.java
+128 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\xmlrpc\MetaWeblogHandler.java
+406 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\xmlrpc\RPCHandler.java
+352 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\xmlrpc\RPCHandlerUTF8.java
+295 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\xmlrpc\RPCServlet.java
+231 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\xmlrpc\WikiRPCHandler.java
+34 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\InternalWikiException.java
+41 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\LinkCollector.java
+49 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\PageLock.java
+115 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\PageManager.java
+809 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\PageSorter.java
+212 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\ReferenceManager.java
+1181 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\Release.java
+180 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\StringTransmutator.java
+39 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\VariableManager.java
+523 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\Watchable.java
+50 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\WatchDog.java
+445 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\WikiBackgroundThread.java
+167 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\WikiContext.java
+883 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\WikiEngine.java
+2511 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\WikiPage.java
+392 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\WikiProvider.java
+61 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\WikiServlet.java
+99 same line(s)
+
+File: jspwiki-war\src\main\java\org\apache\wiki\WikiSession.java
+888 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\attachment\AllTests.java
+39 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\attachment\AttachmentManagerTest.java
+380 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\acl\AclEntryImplTest.java
+112 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\acl\AclImplTest.java
+255 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\acl\AllTests.java
+42 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\acl\DefaultAclManagerTest.java
+202 same line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\authorize\AllTests.java
+43 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\authorize\GroupTest.java
+178 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\authorize\JDBCGroupDatabaseTest.java
+266 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\authorize\WebContainerAuthorizerTest.java
+106 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\authorize\XMLGroupDatabaseTest.java
+217 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\login\AllTests.java
+43 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\login\AnonymousLoginModuleTest.java
+122 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\login\CookieAssertionLoginModuleTest.java
+133 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\login\UserDatabaseLoginModuleTest.java
+137 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\login\WebContainerLoginModuleTest.java
+131 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\permissions\AllPermissionCollectionTest.java
+266 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\permissions\AllPermissionTest.java
+100 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\permissions\AllTests.java
+44 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\permissions\GroupPermissionTest.java
+331 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\permissions\PagePermissionTest.java
+368 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\permissions\WikiPermissionTest.java
+174 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\user\AllTests.java
+42 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\user\JDBCUserDatabaseTest.java
+472 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\user\UserProfileTest.java
+132 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\user\XMLUserDatabaseTest.java
+368 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\AllTests.java
+49 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\AuthenticationManagerTest.java
+269 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\AuthorizationManagerTest.java
+766 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\GroupManagerTest.java
+213 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\SecurityEventTrap.java
+65 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\UserManagerTest.java
+430 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\auth\Users.java
+44 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\content\AllTests.java
+41 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\content\PageRenamerTest.java
+510 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\diff\AllTests.java
+40 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\diff\ContextualDiffProviderTest.java
+215 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\filters\AllTests.java
+39 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\filters\DefaultFilterManagerTest.java
+86 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\filters\TestFilter.java
+35 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\htmltowiki\AllTests.java
+38 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\htmltowiki\HtmlStringToWikiTranslatorTest.java
+411 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\i18n\InternationalizationManagerTest.java
+61 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\parser\AllTests.java
+45 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\parser\CreoleToJSPWikiTranslatorTest.java
+875 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\parser\JSPWikiMarkupParserTest.java
+2766 same line(s)
+5 ignored unimportant difference line(s)
+8 important right orphan line(s)
+
+3 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\parser\MarkupParserTest.java
+64 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\AllTests.java
+52 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\CounterPluginTest.java
+145 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\DefaultPluginManagerTest.java
+221 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\GroupsTest.java
+72 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\IfPluginTest.java
+166 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\InsertPageTest.java
+130 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\JavaScriptPlugin.java
+48 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\PageViewPluginTest.java
+197 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\RecentChangesPluginTest.java
+55 same line(s)
+53 ignored unimportant difference line(s)
+2 important left orphan line(s)
+14 important difference line(s)
+
+5 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\ReferringPagesPluginTest.java
+225 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\ReferringUndefinedPagesPluginTest.java
+113 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\SamplePlugin.java
+61 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\SamplePlugin3.java
+47 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\TableOfContentsTest.java
+275 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\plugin\UndefinedPagesPluginTest.java
+115 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\providers\AllTests.java
+42 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\providers\BasicAttachmentProviderTest.java
+368 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\providers\CachingProviderTest.java
+124 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\providers\CounterProvider.java
+173 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\providers\FileSystemProviderTest.java
+249 same line(s)
+6 ignored unimportant difference line(s)
+18 important left orphan line(s)
+25 important difference line(s)
+
+19 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\providers\VersioningFileProviderTest.java
+326 same line(s)
+128 ignored unimportant difference line(s)
+4 important left orphan line(s)
+141 important right orphan line(s)
+14 important difference line(s)
+
+66 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\providers\VerySimpleProvider.java
+173 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\render\AllTests.java
+46 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\render\CreoleRendererTest.java
+197 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\render\RenderingManagerTest.java
+203 same line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\render\WysiwygEditingRendererTest.java
+107 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\rss\AllTests.java
+43 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\rss\RSSGeneratorTest.java
+129 same line(s)
+2 ignored unimportant difference line(s)
+3 important left orphan line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\search\AllTests.java
+40 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\search\SearchManagerTest.java
+189 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\stress\Benchmark.java
+34 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\stress\MassiveRepositoryTest.java
+170 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\stress\StressTestVersioningProvider.java
+152 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ui\admin\beans\PluginBeanTest.java
+28 ignored unimportant difference line(s)
+28 important right orphan line(s)
+
+10 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ui\AllTests.java
+43 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ui\CommandResolverTest.java
+242 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ui\GroupCommandTest.java
+120 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ui\InputValidatorTest.java
+96 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ui\PageCommandTest.java
+133 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ui\RedirectCommandTest.java
+73 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ui\WikiCommandTest.java
+185 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\url\AllTests.java
+42 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\url\DefaultURLConstructorTest.java
+156 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\url\ShortURLConstructorTest.java
+157 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\url\ShortViewURLConstructorTest.java
+156 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\comparators\AllTests.java
+40 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\comparators\HumanComparatorTest.java
+88 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\AllTests.java
+53 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\ClassUtilTest.java
+91 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\CommentedPropertiesTest.java
+202 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\CryptoUtilTest.java
+175 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\FileUtilTest.java
+149 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\MailUtilTest.java
+141 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\PriorityListTest.java
+121 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\PropertyReaderTest.java
+26 ignored unimportant difference line(s)
+14 important right orphan line(s)
+
+4 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\SerializerTest.java
+51 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\TextUtilTest.java
+414 same line(s)
+5 ignored unimportant difference line(s)
+1 important left orphan line(s)
+17 important right orphan line(s)
+
+4 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\TimedCounterListTest.java
+71 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\UtilJ2eeCompatTest.java
+61 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\util\XmlUtilTest.java
+90 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\web\AllTests.java
+38 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\web\StreamRedirector.java
+46 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\web\TestContainer.java
+330 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\workflow\AllTests.java
+47 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\workflow\ApprovalWorkflowTest.java
+305 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\workflow\DecisionQueueTest.java
+186 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\workflow\FactTest.java
+41 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\workflow\OutcomeTest.java
+121 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\workflow\SimpleDecisionTest.java
+185 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\workflow\TaskTest.java
+197 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\workflow\WorkflowManagerTest.java
+117 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\workflow\WorkflowTest.java
+387 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\xmlrpc\AllTests.java
+39 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\xmlrpc\RPCHandlerTest.java
+229 same line(s)
+3 important difference line(s)
+
+2 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\AllTests.java
+86 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\HsqlDbUtils.java
+216 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\PageManagerTest.java
+78 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\PageSorterTest.java
+95 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\PropertyReaderTest.java
+98 same line(s)
+16 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ReferenceManagerTest.java
+361 same line(s)
+50 ignored unimportant difference line(s)
+19 important left orphan line(s)
+23 important right orphan line(s)
+8 important difference line(s)
+
+28 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\ReleaseTest.java
+144 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\TestAuthorizer.java
+93 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\TestEngine.java
+385 same line(s)
+13 ignored unimportant difference line(s)
+3 important left orphan line(s)
+21 important right orphan line(s)
+2 important difference line(s)
+
+12 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\TestJDBCDataSource.java
+204 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\TestJNDIContext.java
+363 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\Util.java
+44 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\VariableManagerTest.java
+187 same line(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\WikiEngineTest.java
+870 same line(s)
+4 ignored unimportant difference line(s)
+5 important left orphan line(s)
+5 important difference line(s)
+
+5 difference section(s)
+
+File: jspwiki-war\src\test\java\org\apache\wiki\WikiSessionTest.java
+390 same line(s)
+
+File: jspwiki-war\src\test\java\SamplePlugin2.java
+43 same line(s)

@@ -1,0 +1,1864 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 15:00:32
+
+Ignoring Unimportant
+Left base folder: D:\APsource\mina\version1
+Right base folder: D:\APsource\mina\version2
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\BenchmarkBinaryTest.java
+110 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\BenchmarkClient.java
+32 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\BenchmarkClientFactory.java
+39 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\BenchmarkFactory.java
+42 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\BenchmarkServer.java
+35 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\BenchmarkServerFactory.java
+42 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\MinaBenchmarkClient.java
+86 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\MinaBenchmarkServer.java
+127 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\MinaClientVsMinaServerBenchmarkBinaryTest.java
+53 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\MinaClientVsNettyServerBenchmarkBinaryTest.java
+53 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\NettyBenchmarkClient.java
+102 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\NettyBenchmarkServer.java
+177 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\NettyClientVsMinaServerBenchmarkBinaryTest.java
+67 same line(s)
+
+File: src\mina-benchmarks\src\test\java\org\apache\mina\core\NettyClientVsNettyServerBenchmarkBinaryTest.java
+67 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\buffer\AbstractIoBuffer.java
+2723 same line(s)
+16 ignored unimportant difference line(s)
+9 important left orphan line(s)
+8 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\buffer\BufferDataException.java
+48 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\buffer\CachedBufferAllocator.java
+293 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\buffer\IoBuffer.java
+1604 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\buffer\IoBufferAllocator.java
+58 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\buffer\IoBufferHexDumper.java
+108 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\buffer\IoBufferWrapper.java
+1034 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\buffer\SimpleBufferAllocator.java
+114 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\file\DefaultFileRegion.java
+86 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\file\FilenameFileRegion.java
+53 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\file\FileRegion.java
+78 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\filterchain\DefaultIoFilterChain.java
+1037 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\filterchain\DefaultIoFilterChainBuilder.java
+542 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\filterchain\IoFilter.java
+243 same line(s)
+78 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\filterchain\IoFilterAdapter.java
+140 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\filterchain\IoFilterChain.java
+371 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\filterchain\IoFilterChainBuilder.java
+57 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\filterchain\IoFilterEvent.java
+120 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\filterchain\IoFilterLifeCycleException.java
+46 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\CloseFuture.java
+57 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\CompositeIoFuture.java
+66 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\ConnectFuture.java
+93 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\DefaultCloseFuture.java
+68 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\DefaultConnectFuture.java
+120 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\DefaultIoFuture.java
+380 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\DefaultReadFuture.java
+140 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\DefaultWriteFuture.java
+130 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\IoFuture.java
+114 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\IoFutureListener.java
+51 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\ReadFuture.java
+100 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\future\WriteFuture.java
+95 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\polling\AbstractPollingIoAcceptor.java
+709 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\polling\AbstractPollingIoConnector.java
+610 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\polling\AbstractPollingIoProcessor.java
+1192 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\AbstractIoAcceptor.java
+475 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\AbstractIoConnector.java
+309 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\AbstractIoService.java
+533 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\DefaultTransportMetadata.java
+132 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\IoAcceptor.java
+219 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\IoConnector.java
+162 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\IoHandler.java
+86 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\IoHandlerAdapter.java
+71 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\IoProcessor.java
+97 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\IoService.java
+203 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\IoServiceListener.java
+74 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\IoServiceListenerSupport.java
+320 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\IoServiceStatistics.java
+599 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\SimpleIoProcessorPool.java
+367 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\service\TransportMetadata.java
+73 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\AbstractIoSession.java
+1403 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\AbstractIoSessionConfig.java
+310 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\AttributeKey.java
+90 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\DefaultIoSessionDataStructureFactory.java
+235 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\DummySession.java
+332 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\ExpiringSessionRecycler.java
+97 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IdleStatus.java
+74 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IdleStatusChecker.java
+152 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IoEvent.java
+108 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IoEventType.java
+31 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IoSession.java
+586 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IoSessionAttributeMap.java
+128 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IoSessionConfig.java
+191 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IoSessionDataStructureFactory.java
+49 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IoSessionInitializationException.java
+46 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IoSessionInitializer.java
+32 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\IoSessionRecycler.java
+78 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\SessionState.java
+34 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\session\UnknownMessageTypeException.java
+45 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\write\DefaultWriteRequest.java
+191 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\write\NothingWrittenException.java
+65 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\write\WriteException.java
+149 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\write\WriteRequest.java
+63 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\write\WriteRequestQueue.java
+69 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\write\WriteRequestWrapper.java
+76 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\write\WriteTimeoutException.java
+66 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\write\WriteToClosedSessionException.java
+65 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\IoUtil.java
+180 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\core\RuntimeIoException.java
+51 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\buffer\BufferedWriteFilter.java
+246 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\buffer\IoBufferLazyInitializer.java
+54 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\demux\DemuxingProtocolCodecFactory.java
+105 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\demux\DemuxingProtocolDecoder.java
+278 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\demux\DemuxingProtocolEncoder.java
+287 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\demux\MessageDecoder.java
+96 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\demux\MessageDecoderAdapter.java
+40 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\demux\MessageDecoderFactory.java
+34 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\demux\MessageDecoderResult.java
+61 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\demux\MessageEncoder.java
+49 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\demux\MessageEncoderFactory.java
+34 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\prefixedstring\PrefixedStringCodecFactory.java
+152 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\prefixedstring\PrefixedStringDecoder.java
+118 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\prefixedstring\PrefixedStringEncoder.java
+121 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\serialization\ObjectSerializationCodecFactory.java
+111 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\serialization\ObjectSerializationDecoder.java
+93 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\serialization\ObjectSerializationEncoder.java
+89 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\serialization\ObjectSerializationInputStream.java
+179 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\serialization\ObjectSerializationOutputStream.java
+159 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\ConsumeToCrLfDecodingState.java
+145 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\ConsumeToDynamicTerminatorDecodingState.java
+123 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\ConsumeToEndOfSessionDecodingState.java
+92 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\ConsumeToLinearWhitespaceDecodingState.java
+37 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\ConsumeToTerminatorDecodingState.java
+117 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\CrLfDecodingState.java
+109 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\DecodingState.java
+60 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\DecodingStateMachine.java
+197 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\DecodingStateProtocolDecoder.java
+106 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\FixedLengthDecodingState.java
+107 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\IntegerDecodingState.java
+88 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\LinearWhitespaceSkippingState.java
+36 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\ShortIntegerDecodingState.java
+79 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\SingleByteDecodingState.java
+60 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\statemachine\SkippingState.java
+82 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\textline\LineDelimiter.java
+149 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\textline\TextLineCodecFactory.java
+150 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\textline\TextLineDecoder.java
+448 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\textline\TextLineEncoder.java
+154 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\AbstractProtocolDecoderOutput.java
+48 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\AbstractProtocolEncoderOutput.java
+94 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\CumulativeProtocolDecoder.java
+241 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolCodecException.java
+60 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolCodecFactory.java
+46 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolCodecFilter.java
+538 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolCodecSession.java
+113 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolDecoder.java
+68 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolDecoderAdapter.java
+48 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolDecoderException.java
+99 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolDecoderOutput.java
+47 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolEncoder.java
+59 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolEncoderAdapter.java
+38 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolEncoderException.java
+59 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\ProtocolEncoderOutput.java
+64 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\RecoverableProtocolDecoderException.java
+62 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\SynchronizedProtocolDecoder.java
+73 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\codec\SynchronizedProtocolEncoder.java
+65 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\errorgenerating\ErrorGeneratingFilter.java
+306 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\executor\DefaultIoEventSizeEstimator.java
+156 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\executor\ExecutorFilter.java
+629 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\executor\IoEventQueueHandler.java
+69 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\executor\IoEventQueueThrottle.java
+158 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\executor\IoEventSizeEstimator.java
+37 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\executor\OrderedThreadPoolExecutor.java
+793 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\executor\UnorderedThreadPoolExecutor.java
+487 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\executor\WriteRequestFilter.java
+113 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\firewall\BlacklistFilter.java
+254 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\firewall\ConnectionThrottleFilter.java
+201 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\firewall\Subnet.java
+174 same line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\keepalive\KeepAliveFilter.java
+403 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\keepalive\KeepAliveMessageFactory.java
+54 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\keepalive\KeepAliveRequestTimeoutException.java
+47 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\keepalive\KeepAliveRequestTimeoutHandler.java
+91 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\logging\LoggingFilter.java
+366 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\logging\LogLevel.java
+78 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\logging\MdcInjectionFilter.java
+243 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\ssl\BogusTrustManagerFactory.java
+84 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\ssl\KeyStoreFactory.java
+177 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\ssl\SslContextFactory.java
+433 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\ssl\SslFilter.java
+805 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\ssl\SslHandler.java
+832 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\statistic\ProfilerTimerFilter.java
+887 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\stream\AbstractStreamWriteFilter.java
+168 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\stream\FileRegionWriteFilter.java
+81 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\stream\StreamWriteFilter.java
+78 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\util\CommonEventFilter.java
+87 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\util\NoopFilter.java
+40 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\util\ReferenceCountingFilter.java
+116 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\util\SessionAttributeInitializingFilter.java
+148 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\filter\util\WriteRequestFilter.java
+84 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\chain\ChainedIoHandler.java
+72 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\chain\IoHandlerChain.java
+329 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\chain\IoHandlerCommand.java
+92 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\demux\DemuxingIoHandler.java
+360 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\demux\ExceptionHandler.java
+59 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\demux\MessageHandler.java
+53 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\multiton\SingleSessionIoHandler.java
+113 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\multiton\SingleSessionIoHandlerAdapter.java
+92 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\multiton\SingleSessionIoHandlerDelegate.java
+153 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\multiton\SingleSessionIoHandlerFactory.java
+41 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\stream\IoSessionInputStream.java
+175 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\stream\IoSessionOutputStream.java
+89 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\handler\stream\StreamIoHandler.java
+179 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\event\IoSessionEvent.java
+170 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\event\IoSessionEventQueue.java
+134 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\event\IoSessionEventType.java
+67 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\filter\ProxyFilter.java
+338 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\filter\ProxyHandshakeIoBuffer.java
+36 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\basic\HttpBasicAuthLogicHandler.java
+105 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\basic\HttpNoAuthLogicHandler.java
+66 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\digest\DigestUtilities.java
+159 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\digest\HttpDigestAuthLogicHandler.java
+226 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\ntlm\HttpNTLMAuthLogicHandler.java
+167 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\ntlm\NTLMConstants.java
+181 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\ntlm\NTLMResponses.java
+392 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\ntlm\NTLMUtilities.java
+492 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\AbstractAuthLogicHandler.java
+112 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\AbstractHttpLogicHandler.java
+386 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\HttpAuthenticationMethods.java
+84 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\HttpProxyConstants.java
+87 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\HttpProxyRequest.java
+293 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\HttpProxyResponse.java
+117 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\http\HttpSmartProxyHandler.java
+198 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\socks\AbstractSocksLogicHandler.java
+48 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\socks\Socks4LogicHandler.java
+150 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\socks\Socks5LogicHandler.java
+455 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\socks\SocksProxyConstants.java
+181 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\socks\SocksProxyRequest.java
+207 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\handlers\ProxyRequest.java
+62 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\session\ProxyIoSession.java
+318 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\session\ProxyIoSessionInitializer.java
+59 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\utils\ByteUtilities.java
+325 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\utils\IoBufferDecoder.java
+263 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\utils\StringUtilities.java
+334 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\AbstractProxyIoHandler.java
+62 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\AbstractProxyLogicHandler.java
+225 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\ProxyAuthException.java
+45 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\ProxyConnector.java
+249 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\proxy\ProxyLogicHandler.java
+74 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\nio\NioDatagramAcceptor.java
+901 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\nio\NioDatagramConnector.java
+212 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\nio\NioDatagramSession.java
+94 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\nio\NioDatagramSessionConfig.java
+191 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\nio\NioProcessor.java
+370 same line(s)
+7 ignored unimportant difference line(s)
+3 important right orphan line(s)
+5 important difference line(s)
+
+6 difference section(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\nio\NioSession.java
+97 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\nio\NioSocketAcceptor.java
+364 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\nio\NioSocketConnector.java
+337 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\nio\NioSocketSession.java
+283 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\AbstractDatagramSessionConfig.java
+144 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\AbstractSocketSessionConfig.java
+171 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\DatagramAcceptor.java
+73 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\DatagramConnector.java
+50 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\DatagramSessionConfig.java
+94 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\DefaultDatagramSessionConfig.java
+154 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\DefaultSocketSessionConfig.java
+186 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\SocketAcceptor.java
+82 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\SocketConnector.java
+50 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\socket\SocketSessionConfig.java
+121 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\vmpipe\DefaultVmPipeSessionConfig.java
+39 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\vmpipe\VmPipe.java
+61 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\vmpipe\VmPipeAcceptor.java
+165 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\vmpipe\VmPipeAddress.java
+81 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\vmpipe\VmPipeConnector.java
+177 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\vmpipe\VmPipeFilterChain.java
+293 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\vmpipe\VmPipeSession.java
+145 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\transport\vmpipe\VmPipeSessionConfig.java
+31 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\AbstractByteArray.java
+79 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\BufferByteArray.java
+446 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\ByteArray.java
+154 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\ByteArrayFactory.java
+38 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\ByteArrayList.java
+270 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\ByteArrayPool.java
+158 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\CompositeByteArray.java
+1018 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\CompositeByteArrayRelativeBase.java
+135 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\CompositeByteArrayRelativeReader.java
+135 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\CompositeByteArrayRelativeWriter.java
+230 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\IoAbsoluteReader.java
+97 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\IoAbsoluteWriter.java
+87 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\IoRelativeReader.java
+97 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\IoRelativeWriter.java
+92 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\byteaccess\SimpleByteArrayFactory.java
+60 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\AvailablePortFinder.java
+180 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\Base64.java
+495 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\CircularQueue.java
+351 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\ConcurrentHashSet.java
+49 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\CopyOnWriteMap.java
+207 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\DefaultExceptionMonitor.java
+49 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\ExceptionMonitor.java
+66 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\ExpirationListener.java
+30 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\ExpiringMap.java
+463 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\IdentityHashSet.java
+46 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\LazyInitializedCacheMap.java
+216 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\LazyInitializer.java
+56 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\Log4jXmlFormatter.java
+175 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\MapBackedSet.java
+78 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\NamePreservingRunnable.java
+83 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\SynchronizedQueue.java
+129 same line(s)
+
+File: src\mina-core\src\main\java\org\apache\mina\util\Transform.java
+148 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\core\buffer\IoBufferTest.java
+1452 same line(s)
+2 ignored unimportant difference line(s)
+17 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\core\service\AbstractIoServiceTest.java
+183 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\core\DefaultIoFilterChainBuilderTest.java
+150 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\core\FutureTest.java
+262 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\core\IoFilterChainTest.java
+331 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\core\IoServiceListenerSupportTest.java
+254 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\buffer\BufferedWriteFilterTest.java
+103 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\codec\serialization\ObjectSerializationTest.java
+85 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\codec\textline\TextLineDecoderTest.java
+339 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\codec\textline\TextLineEncoderTest.java
+53 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\codec\CumulativeProtocolDecoderTest.java
+212 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\codec\DemuxingProtocolDecoderBugTest.java
+112 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\executor\ExecutorFilterRegressionTest.java
+167 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\firewall\ConnectionThrottleFilterTest.java
+81 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\firewall\SubnetIPv4Test.java
+111 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\firewall\SubnetIPv6Test.java
+48 same line(s)
+2 ignored unimportant difference line(s)
+6 important left orphan line(s)
+
+4 difference section(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\keepalive\KeepAliveFilterTest.java
+207 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\logging\LoadTestMdcInjectionFilter.java
+57 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\logging\MdcInjectionFilterTest.java
+502 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\ssl\KeyStoreFactoryTest.java
+75 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\ssl\SslDIRMINA937Test.java
+170 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\ssl\SslTest.java
+181 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\stream\AbstractStreamWriteFilterTest.java
+573 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\stream\FileRegionWriteFilterTest.java
+53 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\stream\StreamWriteFilterTest.java
+42 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\filter\util\WrappingFilterTest.java
+135 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\handler\chain\ChainedIoHandlerTest.java
+61 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\handler\demux\DemuxingIoHandlerTest.java
+248 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\proxy\HttpAuthTest.java
+118 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\proxy\NTLMTest.java
+239 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\DatagramBindTest.java
+53 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\DatagramConfigTest.java
+134 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\DatagramConnectorTest.java
+49 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\DatagramPortUnreachableTest.java
+91 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\DatagramRecyclerTest.java
+225 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\DatagramSessionIdleTest.java
+125 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\DatagramTrafficControlTest.java
+58 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\DIRMINA777Test.java
+85 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\NioFileRegionTest.java
+45 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\PollingIoProcessorTest.java
+182 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\SocketBindTest.java
+53 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\SocketConnectorTest.java
+45 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\socket\nio\SocketTrafficControlTest.java
+58 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\vmpipe\VmPipeBindTest.java
+52 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\vmpipe\VmPipeEventOrderTest.java
+201 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\vmpipe\VmPipeSessionCrossCommunicationTest.java
+146 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\vmpipe\VmPipeTrafficControlTest.java
+57 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\AbstractBindTest.java
+306 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\AbstractConnectorTest.java
+187 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\AbstractFileRegionTest.java
+159 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\transport\AbstractTrafficControlTest.java
+261 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\util\byteaccess\ByteAccessTest.java
+573 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\util\Bar.java
+43 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\util\CircularQueueTest.java
+241 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\util\ExpiringMapTest.java
+60 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\util\Foo.java
+45 same line(s)
+
+File: src\mina-core\src\test\java\org\apache\mina\util\IoFilterImpl.java
+59 same line(s)
+
+File: src\mina-core\src\test\java\testcase\MinaRegressionTest.java
+157 same line(s)
+
+File: src\mina-core\src\test\java\testcase\MyIoHandler.java
+109 same line(s)
+
+File: src\mina-core\src\test\java\testcase\MyProtocolCodecFactory.java
+44 same line(s)
+
+File: src\mina-core\src\test\java\testcase\MyRequestDecoder.java
+88 same line(s)
+
+File: src\mina-core\src\test\java\testcase\MyResponseEncoder.java
+38 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\chat\client\ChatClientSupport.java
+117 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\chat\client\ConnectDialog.java
+116 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\chat\client\SwingChatClient.java
+292 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\chat\client\SwingChatClientHandler.java
+98 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\chat\ChatCommand.java
+59 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\chat\ChatProtocolHandler.java
+157 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\chat\Main.java
+82 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\chat\SpringMain.java
+48 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\echoserver\ssl\BogusSslContextFactory.java
+146 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\echoserver\ssl\BogusTrustManagerFactory.java
+74 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\echoserver\ssl\SslServerSocketFactory.java
+94 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\echoserver\ssl\SslSocketFactory.java
+113 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\echoserver\EchoProtocolHandler.java
+74 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\echoserver\Main.java
+72 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\gettingstarted\timeserver\MinaTimeServer.java
+68 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\gettingstarted\timeserver\TimeServerHandler.java
+74 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\haiku\Haiku.java
+61 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\haiku\HaikuValidationServer.java
+53 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\haiku\HaikuValidator.java
+40 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\haiku\HaikuValidatorIoHandler.java
+44 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\haiku\InvalidHaikuException.java
+61 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\haiku\PhraseUtilities.java
+81 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\haiku\ToHaikuIoFilter.java
+52 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\client\GraphicalCharGenClient.java
+319 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\client\ImageClient.java
+107 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\client\ImageListener.java
+37 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\client\ImagePanel.java
+56 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\codec\ImageCodecFactory.java
+54 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\codec\ImageRequestDecoder.java
+48 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\codec\ImageRequestEncoder.java
+49 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\codec\ImageResponseDecoder.java
+88 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\codec\ImageResponseEncoder.java
+59 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\server\ImageServer.java
+58 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\server\ImageServerIoHandler.java
+130 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\ImageRequest.java
+51 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step1\ImageResponse.java
+47 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step2\server\ImageServer.java
+69 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step3\server\ImageServer.java
+106 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\imagine\step3\server\ImageServerIoHandler.java
+172 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\netcat\Main.java
+58 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\netcat\NetCatProtocolHandler.java
+66 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\proxy\AbstractProxyIoHandler.java
+70 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\proxy\ClientToProxyIoHandler.java
+70 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\proxy\Main.java
+70 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\proxy\ServerToProxyIoHandler.java
+28 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\reverser\Main.java
+55 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\reverser\ReverseProtocolHandler.java
+50 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\codec\AbstractMessageDecoder.java
+89 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\codec\AbstractMessageEncoder.java
+56 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\codec\AddMessageDecoder.java
+54 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\codec\AddMessageEncoder.java
+44 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\codec\Constants.java
+52 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\codec\ResultMessageDecoder.java
+75 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\codec\ResultMessageEncoder.java
+49 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\codec\SumUpProtocolCodecFactory.java
+45 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\message\AbstractMessage.java
+39 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\message\AddMessage.java
+48 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\message\ResultMessage.java
+61 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\Client.java
+99 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\ClientSessionHandler.java
+90 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\Server.java
+64 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\sumup\ServerSessionHandler.java
+93 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\AuthenticationHandler.java
+147 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\Command.java
+29 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\CommandDecoder.java
+105 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\CommandSyntaxException.java
+44 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\EjectCommand.java
+34 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\InfoCommand.java
+34 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\ListCommand.java
+34 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\LoadCommand.java
+44 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\Main.java
+74 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\PasswordCommand.java
+44 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\PauseCommand.java
+34 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\PlayCommand.java
+34 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\QuitCommand.java
+34 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\StopCommand.java
+34 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\TapeDeckServer.java
+146 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tapedeck\UserCommand.java
+44 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tcp\perf\TcpClient.java
+150 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tcp\perf\TcpServer.java
+145 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tennis\Main.java
+67 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tennis\TennisBall.java
+75 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\tennis\TennisPlayer.java
+76 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\udp\client\MemMonClient.java
+144 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\udp\perf\UdpClient.java
+147 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\udp\perf\UdpServer.java
+145 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\udp\ClientPanel.java
+71 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\udp\MemoryMonitor.java
+118 same line(s)
+
+File: src\mina-example\src\main\java\org\apache\mina\example\udp\MemoryMonitorHandler.java
+87 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\chat\SpringMainTest.java
+57 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\echoserver\ssl\SslFilterTest.java
+196 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\echoserver\AbstractTest.java
+196 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\echoserver\AcceptorTest.java
+137 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\echoserver\ConnectorTest.java
+263 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\haiku\HaikuValidatorIoHandlerTest.java
+58 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\haiku\HaikuValidatorTest.java
+81 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\haiku\PhraseUtilitiesTest.java
+71 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\haiku\ToHaikuIoFilterTest.java
+78 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\proxy\telnet\ProxyTelnetTestClient.java
+135 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\proxy\telnet\TelnetSessionHandler.java
+109 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\proxy\ClientSessionHandler.java
+166 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\proxy\ProxyTestClient.java
+220 same line(s)
+
+File: src\mina-example\src\test\java\org\apache\mina\example\proxy\Socks5GSSAPITestServer.java
+215 same line(s)
+
+File: src\mina-filter-compression\src\main\java\org\apache\mina\filter\compression\CompressionFilter.java
+249 same line(s)
+
+File: src\mina-filter-compression\src\main\java\org\apache\mina\filter\compression\Zlib.java
+213 same line(s)
+
+File: src\mina-filter-compression\src\test\java\org\apache\mina\filter\compression\CompressionFilterTest.java
+204 same line(s)
+
+File: src\mina-filter-compression\src\test\java\org\apache\mina\filter\compression\ZlibTest.java
+125 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\DefaultHttpResponse.java
+80 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\HttpContentChunk.java
+28 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\HttpEndOfContent.java
+28 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\HttpMessage.java
+70 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\HttpMethod.java
+30 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\HttpRequest.java
+72 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\HttpResponse.java
+36 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\HttpStatus.java
+223 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\HttpVerb.java
+25 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\api\HttpVersion.java
+69 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\ArrayUtil.java
+36 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\DateUtil.java
+126 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\DecoderState.java
+26 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\HttpClientCodec.java
+50 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\HttpClientDecoder.java
+217 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\HttpClientEncoder.java
+68 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\HttpException.java
+51 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\HttpRequestImpl.java
+147 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\HttpServerCodec.java
+50 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\HttpServerDecoder.java
+189 same line(s)
+
+File: src\mina-http\src\main\java\org\apache\mina\http\HttpServerEncoder.java
+72 same line(s)
+
+File: src\mina-http\src\test\java\org\apache\mina\http\HttpRequestImplTestCase.java
+76 same line(s)
+
+File: src\mina-http\src\test\java\org\apache\mina\http\HttpServerDecoderTest.java
+298 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\AbstractPropertyEditor.java
+84 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\ArrayEditor.java
+119 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\BooleanEditor.java
+53 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\ByteEditor.java
+40 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\CharacterEditor.java
+55 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\ClassEditor.java
+49 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\CollectionEditor.java
+136 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\DateEditor.java
+83 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\DoubleEditor.java
+43 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\EnumEditor.java
+76 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\FileEditor.java
+42 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\FloatEditor.java
+43 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\InetAddressEditor.java
+76 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\InetSocketAddressEditor.java
+92 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\IntegerEditor.java
+40 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\ListEditor.java
+43 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\LongEditor.java
+40 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\MapEditor.java
+188 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\NullEditor.java
+45 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\NumberEditor.java
+72 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\PatternEditor.java
+42 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\PropertiesEditor.java
+43 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\PropertyEditorFactory.java
+163 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\SetEditor.java
+43 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\ShortEditor.java
+40 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\StringEditor.java
+48 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\URIEditor.java
+47 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\URLEditor.java
+47 same line(s)
+
+File: src\mina-integration-beans\src\main\java\org\apache\mina\integration\beans\VmPipeAddressEditor.java
+62 same line(s)
+
+File: src\mina-integration-beans\src\test\java\org\apache\mina\integration\beans\InetAddressEditorTest.java
+62 same line(s)
+
+File: src\mina-integration-beans\src\test\java\org\apache\mina\integration\beans\InetSocketAddressEditorTest.java
+80 same line(s)
+
+File: src\mina-integration-beans\src\test\java\org\apache\mina\integration\beans\VmPipeAddressEditorTest.java
+65 same line(s)
+
+File: src\mina-integration-jmx\src\main\java\org\apache\mina\integration\jmx\IoFilterMBean.java
+43 same line(s)
+
+File: src\mina-integration-jmx\src\main\java\org\apache\mina\integration\jmx\IoServiceMBean.java
+131 same line(s)
+
+File: src\mina-integration-jmx\src\main\java\org\apache\mina\integration\jmx\IoSessionMBean.java
+166 same line(s)
+
+File: src\mina-integration-jmx\src\main\java\org\apache\mina\integration\jmx\ObjectMBean.java
+963 same line(s)
+
+File: src\mina-integration-ognl\src\main\java\org\apache\mina\integration\ognl\AbstractPropertyAccessor.java
+123 same line(s)
+
+File: src\mina-integration-ognl\src\main\java\org\apache\mina\integration\ognl\IoFilterPropertyAccessor.java
+51 same line(s)
+
+File: src\mina-integration-ognl\src\main\java\org\apache\mina\integration\ognl\IoServicePropertyAccessor.java
+51 same line(s)
+
+File: src\mina-integration-ognl\src\main\java\org\apache\mina\integration\ognl\IoSessionFinder.java
+92 same line(s)
+
+File: src\mina-integration-ognl\src\main\java\org\apache\mina\integration\ognl\IoSessionPropertyAccessor.java
+68 same line(s)
+
+File: src\mina-integration-ognl\src\main\java\org\apache\mina\integration\ognl\PropertyTypeConverter.java
+82 same line(s)
+
+File: src\mina-integration-xbean\src\main\java\org\apache\mina\integration\xbean\MinaPropertyEditorRegistrar.java
+67 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\mina-integration-xbean\src\main\java\org\apache\mina\integration\xbean\SocketAddressFactory.java
+42 same line(s)
+
+File: src\mina-integration-xbean\src\main\java\org\apache\mina\integration\xbean\StandardThreadPool.java
+57 same line(s)
+
+File: src\mina-integration-xbean\src\test\java\org\apache\mina\integration\xbean\SpringXBeanTest.java
+104 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\IoFilterTransition.java
+68 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\IoFilterTransitions.java
+41 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\IoHandlerTransition.java
+68 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\IoHandlerTransitions.java
+41 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\OnEntry.java
+40 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\OnExit.java
+40 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\State.java
+43 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\Transition.java
+67 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\TransitionAnnotation.java
+39 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\annotation\Transitions.java
+36 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\context\AbstractStateContext.java
+66 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\context\AbstractStateContextLookup.java
+92 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\context\DefaultStateContext.java
+28 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\context\DefaultStateContextFactory.java
+34 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\context\IoSessionStateContextLookup.java
+95 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\context\SingletonStateContextLookup.java
+56 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\context\StateContext.java
+66 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\context\StateContextFactory.java
+34 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\context\StateContextLookup.java
+38 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\event\DefaultEventFactory.java
+38 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\event\Event.java
+105 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\event\EventArgumentsInterceptor.java
+42 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\event\EventFactory.java
+47 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\event\IoFilterEvents.java
+47 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\event\IoHandlerEvents.java
+46 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\event\UnhandledEventException.java
+45 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\AbstractSelfTransition.java
+54 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\AbstractTransition.java
+106 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\AmbiguousMethodException.java
+41 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\MethodInvocationException.java
+44 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\MethodSelfTransition.java
+145 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\MethodTransition.java
+303 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\NoopTransition.java
+57 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\NoSuchMethodException.java
+41 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\SelfTransition.java
+41 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\transition\Transition.java
+54 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\BreakAndCallException.java
+60 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\BreakAndContinueException.java
+29 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\BreakAndGotoException.java
+50 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\BreakAndReturnException.java
+39 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\BreakException.java
+35 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\NoSuchStateException.java
+40 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\State.java
+233 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\StateControl.java
+146 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\StateMachine.java
+326 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\StateMachineCreationException.java
+52 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\StateMachineFactory.java
+418 same line(s)
+
+File: src\mina-statemachine\src\main\java\org\apache\mina\statemachine\StateMachineProxyBuilder.java
+263 same line(s)
+
+File: src\mina-statemachine\src\test\java\org\apache\mina\statemachine\context\AbstractStateContextLookupTest.java
+63 same line(s)
+
+File: src\mina-statemachine\src\test\java\org\apache\mina\statemachine\transition\MethodTransitionTest.java
+166 same line(s)
+
+File: src\mina-statemachine\src\test\java\org\apache\mina\statemachine\StateMachineFactoryTest.java
+180 same line(s)
+
+File: src\mina-statemachine\src\test\java\org\apache\mina\statemachine\StateMachineProxyBuilderTest.java
+273 same line(s)
+
+File: src\mina-statemachine\src\test\java\org\apache\mina\statemachine\StateMachineTest.java
+183 same line(s)
+
+File: src\mina-statemachine\src\test\java\org\apache\mina\statemachine\StateTest.java
+98 same line(s)
+
+File: src\mina-transport-apr\src\main\java\org\apache\mina\transport\socket\apr\AprDatagramSession.java
+157 same line(s)
+
+File: src\mina-transport-apr\src\main\java\org\apache\mina\transport\socket\apr\AprIoProcessor.java
+490 same line(s)
+
+File: src\mina-transport-apr\src\main\java\org\apache\mina\transport\socket\apr\AprLibrary.java
+99 same line(s)
+
+File: src\mina-transport-apr\src\main\java\org\apache\mina\transport\socket\apr\AprSession.java
+225 same line(s)
+
+File: src\mina-transport-apr\src\main\java\org\apache\mina\transport\socket\apr\AprSocketAcceptor.java
+372 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\mina-transport-apr\src\main\java\org\apache\mina\transport\socket\apr\AprSocketConnector.java
+415 same line(s)
+
+File: src\mina-transport-apr\src\main\java\org\apache\mina\transport\socket\apr\AprSocketSession.java
+213 same line(s)
+
+File: src\mina-transport-serial\src\main\java\org\apache\mina\transport\serial\DefaultSerialSessionConfig.java
+112 same line(s)
+
+File: src\mina-transport-serial\src\main\java\org\apache\mina\transport\serial\SerialAddress.java
+226 same line(s)
+
+File: src\mina-transport-serial\src\main\java\org\apache\mina\transport\serial\SerialAddressEditor.java
+166 same line(s)
+
+File: src\mina-transport-serial\src\main\java\org\apache\mina\transport\serial\SerialConnector.java
+178 same line(s)
+
+File: src\mina-transport-serial\src\main\java\org\apache\mina\transport\serial\SerialPortUnavailableException.java
+37 same line(s)
+
+File: src\mina-transport-serial\src\main\java\org\apache\mina\transport\serial\SerialSession.java
+59 same line(s)
+
+File: src\mina-transport-serial\src\main\java\org\apache\mina\transport\serial\SerialSessionConfig.java
+86 same line(s)
+
+File: src\mina-transport-serial\src\main\java\org\apache\mina\transport\serial\SerialSessionImpl.java
+330 same line(s)

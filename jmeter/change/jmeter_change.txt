@@ -1,0 +1,4197 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:53:04
+
+Ignoring Unimportant
+Left base folder: D:\APsource\jmeter\version1
+Right base folder: D:\APsource\jmeter\version2
+
+File: src\components\org\apache\jmeter\assertions\gui\AssertionGui.java
+435 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\BeanShellAssertionGui.java
+170 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\DurationAssertionGui.java
+124 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\HTMLAssertionGui.java
+366 same line(s)
+7 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\MD5HexAssertionGUI.java
+119 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\SizeAssertionGui.java
+279 same line(s)
+26 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\SMIMEAssertionGui.java
+250 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\XMLAssertionGui.java
+69 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\XMLConfPanel.java
+165 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\XMLSchemaAssertionGUI.java
+145 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\XPathAssertionGui.java
+133 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\gui\XPathPanel.java
+210 same line(s)
+15 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\assertions\BeanShellAssertion.java
+133 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\BSFAssertion.java
+57 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\BSFAssertionBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\CompareAssertion.java
+212 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\CompareAssertionBeanInfo.java
+56 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\DurationAssertion.java
+73 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\HTMLAssertion.java
+373 same line(s)
+12 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\assertions\JSR223Assertion.java
+60 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\JSR223AssertionBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\MD5HexAssertion.java
+112 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\ResponseAssertion.java
+548 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\SizeAssertion.java
+235 same line(s)
+28 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\assertions\SMIMEAssertion.java
+358 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\SMIMEAssertionTestElement.java
+154 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\SubstitutionElement.java
+55 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\XMLAssertion.java
+90 same line(s)
+
+File: src\components\org\apache\jmeter\assertions\XMLSchemaAssertion.java
+212 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\assertions\XPathAssertion.java
+271 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\config\CSVDataSet.java
+301 same line(s)
+
+File: src\components\org\apache\jmeter\config\CSVDataSetBeanInfo.java
+109 same line(s)
+
+File: src\components\org\apache\jmeter\config\KeystoreConfig.java
+158 same line(s)
+
+File: src\components\org\apache\jmeter\config\KeystoreConfigBeanInfo.java
+64 same line(s)
+
+File: src\components\org\apache\jmeter\config\RandomVariableConfig.java
+245 same line(s)
+
+File: src\components\org\apache\jmeter\config\RandomVariableConfigBeanInfo.java
+78 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\CriticalSectionControllerGui.java
+182 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\ForeachControlPanel.java
+253 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\IncludeControllerGui.java
+115 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\InterleaveControlGui.java
+92 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\ModuleControllerGui.java
+180 same line(s)
+111 ignored unimportant difference line(s)
+25 important left orphan line(s)
+99 important right orphan line(s)
+42 important difference line(s)
+
+51 difference section(s)
+
+File: src\components\org\apache\jmeter\control\gui\OnceOnlyControllerGui.java
+59 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\RandomControlGui.java
+92 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\RandomOrderControllerGui.java
+53 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\SwitchControllerGui.java
+99 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\ThroughputControllerGui.java
+174 same line(s)
+
+File: src\components\org\apache\jmeter\control\gui\TreeNodeWrapper.java
+46 same line(s)
+4 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\components\org\apache\jmeter\control\CriticalSectionController.java
+203 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\control\ForeachController.java
+283 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+
+1 difference section(s)
+
+File: src\components\org\apache\jmeter\control\IncludeController.java
+205 same line(s)
+3 ignored unimportant difference line(s)
+8 important left orphan line(s)
+2 important difference line(s)
+
+7 difference section(s)
+
+File: src\components\org\apache\jmeter\control\InterleaveControl.java
+177 same line(s)
+
+File: src\components\org\apache\jmeter\control\ModuleController.java
+204 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\control\OnceOnlyController.java
+59 same line(s)
+
+File: src\components\org\apache\jmeter\control\RandomController.java
+55 same line(s)
+
+File: src\components\org\apache\jmeter\control\RandomOrderController.java
+88 same line(s)
+
+File: src\components\org\apache\jmeter\control\SwitchController.java
+126 same line(s)
+
+File: src\components\org\apache\jmeter\control\ThroughputController.java
+283 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\gui\HtmlExtractorGui.java
+224 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\gui\RegexExtractorGui.java
+261 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\gui\XPathExtractorGui.java
+174 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\BeanShellPostProcessor.java
+69 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\BeanShellPostProcessorBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\BSFPostProcessor.java
+49 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\BSFPostProcessorBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\DebugPostProcessor.java
+156 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\DebugPostProcessorBeanInfo.java
+57 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\Extractor.java
+47 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\extractor\HtmlExtractor.java
+299 same line(s)
+22 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\extractor\JoddExtractor.java
+102 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\JSoupExtractor.java
+97 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\JSR223PostProcessor.java
+49 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\JSR223PostProcessorBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\extractor\RegexExtractor.java
+476 same line(s)
+27 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\extractor\XPathExtractor.java
+342 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\gui\CounterConfigGui.java
+155 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\gui\UserParametersGui.java
+402 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\BeanShellPreProcessor.java
+64 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\BeanShellPreProcessorBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\BSFPreProcessor.java
+50 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\BSFPreProcessorBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\CounterConfig.java
+243 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\JSR223PreProcessor.java
+49 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\JSR223PreProcessorBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\modifiers\UserParameters.java
+190 same line(s)
+12 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\reporters\MailerModel.java
+526 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\reporters\MailerResultCollector.java
+54 same line(s)
+
+File: src\components\org\apache\jmeter\sampler\gui\TestActionGui.java
+255 same line(s)
+
+File: src\components\org\apache\jmeter\sampler\DebugSampler.java
+144 same line(s)
+
+File: src\components\org\apache\jmeter\sampler\DebugSamplerBeanInfo.java
+48 same line(s)
+
+File: src\components\org\apache\jmeter\sampler\TestAction.java
+172 same line(s)
+1 ignored unimportant difference line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\components\org\apache\jmeter\timers\gui\AbstractRandomTimerGui.java
+195 same line(s)
+
+File: src\components\org\apache\jmeter\timers\gui\ConstantTimerGui.java
+134 same line(s)
+
+File: src\components\org\apache\jmeter\timers\gui\GaussianRandomTimerGui.java
+91 same line(s)
+
+File: src\components\org\apache\jmeter\timers\gui\PoissonRandomTimerGui.java
+69 same line(s)
+
+File: src\components\org\apache\jmeter\timers\gui\UniformRandomTimerGui.java
+92 same line(s)
+
+File: src\components\org\apache\jmeter\timers\BeanShellTimer.java
+65 same line(s)
+
+File: src\components\org\apache\jmeter\timers\BeanShellTimerBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\timers\BSFTimer.java
+57 same line(s)
+
+File: src\components\org\apache\jmeter\timers\BSFTimerBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\timers\ConstantThroughputTimer.java
+323 same line(s)
+4 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+5 important difference line(s)
+
+7 difference section(s)
+
+File: src\components\org\apache\jmeter\timers\ConstantThroughputTimerBeanInfo.java
+46 same line(s)
+
+File: src\components\org\apache\jmeter\timers\ConstantTimer.java
+110 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\timers\GaussianRandomTimer.java
+43 same line(s)
+
+File: src\components\org\apache\jmeter\timers\JSR223Timer.java
+57 same line(s)
+
+File: src\components\org\apache\jmeter\timers\JSR223TimerBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\timers\PoissonRandomTimer.java
+390 same line(s)
+
+File: src\components\org\apache\jmeter\timers\RandomTimer.java
+69 same line(s)
+
+File: src\components\org\apache\jmeter\timers\SyncTimer.java
+262 same line(s)
+18 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\timers\SyncTimerBeanInfo.java
+42 same line(s)
+
+File: src\components\org\apache\jmeter\timers\UniformRandomTimer.java
+44 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\graphite\AbstractGraphiteMetricsSender.java
+43 ignored unimportant difference line(s)
+22 important right orphan line(s)
+
+8 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\graphite\GraphiteBackendListenerClient.java
+77 ignored unimportant difference line(s)
+223 important right orphan line(s)
+
+35 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\graphite\GraphiteMetricsSender.java
+50 ignored unimportant difference line(s)
+21 important right orphan line(s)
+
+9 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\graphite\PickleGraphiteMetricsSender.java
+83 ignored unimportant difference line(s)
+99 important right orphan line(s)
+
+31 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\graphite\SocketConnectionInfos.java
+41 ignored unimportant difference line(s)
+22 important right orphan line(s)
+
+7 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\graphite\SocketOutputStream.java
+35 ignored unimportant difference line(s)
+24 important right orphan line(s)
+
+9 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\graphite\SocketOutputStreamPoolFactory.java
+35 ignored unimportant difference line(s)
+51 important right orphan line(s)
+
+12 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\graphite\TextGraphiteMetricsSender.java
+54 ignored unimportant difference line(s)
+70 important right orphan line(s)
+
+18 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\AbstractBackendListenerClient.java
+78 ignored unimportant difference line(s)
+49 important right orphan line(s)
+
+14 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\BackendListener.java
+205 ignored unimportant difference line(s)
+281 important right orphan line(s)
+
+55 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\BackendListenerClient.java
+116 ignored unimportant difference line(s)
+12 important right orphan line(s)
+
+9 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\BackendListenerContext.java
+166 ignored unimportant difference line(s)
+70 important right orphan line(s)
+
+19 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\BackendListenerGui.java
+118 ignored unimportant difference line(s)
+164 important right orphan line(s)
+
+40 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\SamplerMetric.java
+152 ignored unimportant difference line(s)
+77 important right orphan line(s)
+
+26 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\backend\UserMetric.java
+62 ignored unimportant difference line(s)
+31 important right orphan line(s)
+
+13 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\utils\Colors.java
+96 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\AccumListener.java
+24 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\AssertionVisualizer.java
+122 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\AxisGraph.java
+431 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\BarGraph.java
+83 same line(s)
+4 ignored unimportant difference line(s)
+1 important left orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\BeanShellListener.java
+87 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\BeanShellListenerBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\BSFListener.java
+80 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\BSFListenerBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\ComparisonVisualizer.java
+175 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\DistributionGraph.java
+217 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\DistributionGraphVisualizer.java
+243 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\Graph.java
+262 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\GraphListener.java
+25 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\GraphVisualizer.java
+464 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\JSR223Listener.java
+77 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\JSR223ListenerBeanInfo.java
+29 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\LineGraph.java
+252 same line(s)
+16 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\MailerVisualizer.java
+449 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\ModelListener.java
+32 ignored unimportant difference line(s)
+5 important left orphan line(s)
+
+4 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\PropertyControlGui.java
+236 same line(s)
+17 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+5 important difference line(s)
+
+4 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\RenderAsCssJQuery.java
+270 same line(s)
+12 ignored unimportant difference line(s)
+10 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\RenderAsDocument.java
+58 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RenderAsHTML.java
+159 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RenderAsHTMLWithEmbedded.java
+41 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RenderAsJSON.java
+118 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RenderAsRegexp.java
+255 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RenderAsText.java
+50 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RenderAsXML.java
+235 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RenderAsXPath.java
+301 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RequestPanel.java
+119 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RequestView.java
+60 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RequestViewRaw.java
+114 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RespTimeGraphChart.java
+402 same line(s)
+15 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RespTimeGraphDataBean.java
+85 same line(s)
+9 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RespTimeGraphLineBean.java
+65 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\RespTimeGraphVisualizer.java
+965 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\ResultRenderer.java
+62 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\SamplerResultTab.java
+553 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\SearchTextExtension.java
+295 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\SimpleDataWriter.java
+78 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\Spline3.java
+418 same line(s)
+21 ignored unimportant difference line(s)
+
+File: src\components\org\apache\jmeter\visualizers\SplineModel.java
+136 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\SplineVisualizer.java
+345 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\StatGraphProperties.java
+73 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\StatGraphVisualizer.java
+857 same line(s)
+28 ignored unimportant difference line(s)
+6 important left orphan line(s)
+72 important right orphan line(s)
+26 important difference line(s)
+
+22 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\StatVisualizer.java
+298 same line(s)
+8 ignored unimportant difference line(s)
+44 important left orphan line(s)
+1 important right orphan line(s)
+13 important difference line(s)
+
+14 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\SummaryReport.java
+260 same line(s)
+11 ignored unimportant difference line(s)
+16 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\TableVisualizer.java
+329 same line(s)
+6 ignored unimportant difference line(s)
+4 important right orphan line(s)
+5 important difference line(s)
+
+4 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\TreeNodeRenderer.java
+69 same line(s)
+
+File: src\components\org\apache\jmeter\visualizers\ViewResultsFullVisualizer.java
+450 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\components\org\apache\jmeter\visualizers\XMLDefaultMutableTreeNode.java
+212 same line(s)
+
+File: src\core\org\apache\jmeter\assertions\gui\AbstractAssertionGui.java
+54 same line(s)
+
+File: src\core\org\apache\jmeter\assertions\Assertion.java
+44 same line(s)
+
+File: src\core\org\apache\jmeter\assertions\AssertionResult.java
+165 same line(s)
+
+File: src\core\org\apache\jmeter\assertions\CompareAssertionResult.java
+93 same line(s)
+
+File: src\core\org\apache\jmeter\config\gui\AbstractConfigGui.java
+66 same line(s)
+
+File: src\core\org\apache\jmeter\config\gui\ArgumentsPanel.java
+692 same line(s)
+
+File: src\core\org\apache\jmeter\config\gui\LoginConfigGui.java
+170 same line(s)
+
+File: src\core\org\apache\jmeter\config\gui\ObsoleteGui.java
+77 same line(s)
+
+File: src\core\org\apache\jmeter\config\gui\RowDetailDialog.java
+255 same line(s)
+14 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\config\gui\SimpleConfigGui.java
+311 same line(s)
+
+File: src\core\org\apache\jmeter\config\Argument.java
+210 same line(s)
+
+File: src\core\org\apache\jmeter\config\Arguments.java
+259 same line(s)
+
+File: src\core\org\apache\jmeter\config\ConfigElement.java
+51 same line(s)
+
+File: src\core\org\apache\jmeter\config\ConfigTestElement.java
+58 same line(s)
+
+File: src\core\org\apache\jmeter\config\LoginConfig.java
+79 same line(s)
+
+File: src\core\org\apache\jmeter\control\gui\AbstractControllerGui.java
+65 same line(s)
+
+File: src\core\org\apache\jmeter\control\gui\IfControllerPanel.java
+196 same line(s)
+
+File: src\core\org\apache\jmeter\control\gui\LogicControllerGui.java
+67 same line(s)
+
+File: src\core\org\apache\jmeter\control\gui\LoopControlPanel.java
+268 same line(s)
+
+File: src\core\org\apache\jmeter\control\gui\RunTimeGui.java
+228 same line(s)
+
+File: src\core\org\apache\jmeter\control\gui\TestFragmentControllerGui.java
+84 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\control\gui\TestPlanGui.java
+197 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\control\gui\TransactionControllerGui.java
+90 same line(s)
+
+File: src\core\org\apache\jmeter\control\gui\WhileControllerGui.java
+148 same line(s)
+
+File: src\core\org\apache\jmeter\control\gui\WorkBenchGui.java
+158 same line(s)
+
+File: src\core\org\apache\jmeter\control\Controller.java
+68 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\control\GenericController.java
+413 same line(s)
+22 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\control\IfController.java
+205 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\control\LoopController.java
+197 same line(s)
+
+File: src\core\org\apache\jmeter\control\NextIsNullException.java
+46 same line(s)
+
+File: src\core\org\apache\jmeter\control\ReplaceableController.java
+45 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\control\RunTime.java
+137 same line(s)
+
+File: src\core\org\apache\jmeter\control\TestFragmentController.java
+27 same line(s)
+
+File: src\core\org\apache\jmeter\control\TransactionController.java
+321 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\control\TransactionSampler.java
+156 same line(s)
+
+File: src\core\org\apache\jmeter\control\WhileController.java
+132 same line(s)
+
+File: src\core\org\apache\jmeter\engine\event\LoopIterationEvent.java
+55 same line(s)
+
+File: src\core\org\apache\jmeter\engine\event\LoopIterationListener.java
+31 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\AbstractTransformer.java
+51 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\CompoundVariable.java
+241 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\ConfigMergabilityIndicator.java
+37 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\FunctionParser.java
+246 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\engine\util\NoConfigMerge.java
+31 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\NoThreadClone.java
+32 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\ReplaceFunctionsWithStrings.java
+111 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\ReplaceStringWithFunctions.java
+53 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\SimpleVariable.java
+69 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\UndoVariableReplacement.java
+52 same line(s)
+
+File: src\core\org\apache\jmeter\engine\util\ValueReplacer.java
+163 same line(s)
+36 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\engine\util\ValueTransformer.java
+51 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\engine\ClientJMeterEngine.java
+200 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\engine\ConvertListeners.java
+112 same line(s)
+
+File: src\core\org\apache\jmeter\engine\DistributedRunner.java
+73 ignored unimportant difference line(s)
+192 important right orphan line(s)
+
+28 difference section(s)
+
+File: src\core\org\apache\jmeter\engine\JMeterEngine.java
+42 same line(s)
+
+File: src\core\org\apache\jmeter\engine\JMeterEngineException.java
+44 same line(s)
+
+File: src\core\org\apache\jmeter\engine\package-info.java
+23 same line(s)
+
+File: src\core\org\apache\jmeter\engine\PreCompiler.java
+109 same line(s)
+
+File: src\core\org\apache\jmeter\engine\RemoteJMeterEngine.java
+43 same line(s)
+
+File: src\core\org\apache\jmeter\engine\RemoteJMeterEngineImpl.java
+238 same line(s)
+
+File: src\core\org\apache\jmeter\engine\StandardJMeterEngine.java
+588 same line(s)
+
+File: src\core\org\apache\jmeter\engine\TreeCloner.java
+104 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\engine\TreeClonerNoTimer.java
+54 same line(s)
+
+File: src\core\org\apache\jmeter\engine\TurnElementsOn.java
+56 same line(s)
+
+File: src\core\org\apache\jmeter\exceptions\IllegalUserActionException.java
+42 same line(s)
+
+File: src\core\org\apache\jmeter\functions\gui\FunctionHelper.java
+182 same line(s)
+7 ignored unimportant difference line(s)
+2 important left orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: src\core\org\apache\jmeter\functions\util\ArgumentDecoder.java
+41 same line(s)
+
+File: src\core\org\apache\jmeter\functions\util\ArgumentEncoder.java
+41 same line(s)
+
+File: src\core\org\apache\jmeter\functions\AbstractFunction.java
+140 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\functions\Function.java
+68 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\functions\InvalidVariableException.java
+38 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\template\Template.java
+81 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\template\TemplateManager.java
+141 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\AboutCommand.java
+126 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\AbstractAction.java
+61 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\action\ActionNames.java
+105 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\ActionRouter.java
+305 same line(s)
+33 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\action\AddParent.java
+83 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\AddToTree.java
+89 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Analyze.java
+59 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\ChangeLanguage.java
+73 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\ChangeParent.java
+91 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\CheckDirty.java
+157 same line(s)
+7 ignored unimportant difference line(s)
+6 important right orphan line(s)
+
+6 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\action\Clear.java
+84 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Close.java
+108 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\CollapseExpand.java
+79 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Command.java
+30 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Copy.java
+147 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\CreateFunctionDialog.java
+52 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Cut.java
+61 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Duplicate.java
+68 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\EditCommand.java
+64 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\EnableComponent.java
+87 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\ExitCommand.java
+80 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Help.java
+113 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\KeyStrokes.java
+89 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Load.java
+224 same line(s)
+21 ignored unimportant difference line(s)
+7 important left orphan line(s)
+1 important difference line(s)
+
+6 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\action\LoadDraggedFile.java
+40 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\LoadRecentProject.java
+258 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\action\LoggerPanelEnableDisable.java
+82 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\LookAndFeelCommand.java
+127 same line(s)
+18 ignored unimportant difference line(s)
+10 important left orphan line(s)
+11 important right orphan line(s)
+3 important difference line(s)
+
+9 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\action\Move.java
+156 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Paste.java
+95 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\RawTextSearcher.java
+79 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\action\RegexpSearcher.java
+72 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\RemoteStart.java
+92 same line(s)
+37 ignored unimportant difference line(s)
+62 important left orphan line(s)
+4 important right orphan line(s)
+23 important difference line(s)
+
+24 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\action\Remove.java
+97 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\ResetSearchCommand.java
+68 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\RevertProject.java
+77 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Save.java
+224 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\SaveGraphics.java
+130 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Searcher.java
+33 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\action\SearchTreeCommand.java
+54 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\SearchTreeDialog.java
+223 same line(s)
+13 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\action\SelectTemplatesDialog.java
+243 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\SSLManagerCommand.java
+135 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\Start.java
+133 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\StopStoppables.java
+76 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\TemplatesCommand.java
+58 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\ToolBar.java
+69 same line(s)
+
+File: src\core\org\apache\jmeter\gui\action\UndoCommand.java
+79 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\action\What.java
+89 same line(s)
+
+File: src\core\org\apache\jmeter\gui\plugin\MenuCreator.java
+60 same line(s)
+
+File: src\core\org\apache\jmeter\gui\tree\JMeterCellRenderer.java
+72 same line(s)
+
+File: src\core\org\apache\jmeter\gui\tree\JMeterTreeListener.java
+237 same line(s)
+10 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\tree\JMeterTreeModel.java
+240 same line(s)
+41 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\tree\JMeterTreeNode.java
+201 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\tree\JMeterTreeTransferHandler.java
+316 same line(s)
+
+File: src\core\org\apache\jmeter\gui\tree\NamedTreeNode.java
+26 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\ButtonPanel.java
+125 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\EscapeDialog.java
+64 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\FileDialoger.java
+193 same line(s)
+37 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\util\FileListPanel.java
+217 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\util\FilePanel.java
+61 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\FilePanelEntry.java
+150 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\util\FocusRequester.java
+40 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\HeaderAsPropertyRenderer.java
+69 same line(s)
+11 ignored unimportant difference line(s)
+10 important right orphan line(s)
+
+7 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\util\HorizontalPanel.java
+75 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\IconToolbarBean.java
+100 same line(s)
+3 important difference line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\util\JDateField.java
+203 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\util\JLabeledRadioI18N.java
+225 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\util\JMeterColor.java
+39 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\JMeterMenuBar.java
+847 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\util\JMeterToolBar.java
+248 same line(s)
+38 ignored unimportant difference line(s)
+2 important left orphan line(s)
+10 important right orphan line(s)
+4 important difference line(s)
+
+10 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\util\JSyntaxTextArea.java
+127 same line(s)
+20 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\util\JTextScrollPane.java
+45 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\MenuFactory.java
+734 same line(s)
+11 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\util\MenuInfo.java
+56 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\NumberFieldErrorListener.java
+58 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\PowerTableModel.java
+282 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\TextAreaCellRenderer.java
+56 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\TextAreaTableCellEditor.java
+327 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\util\TextBoxDialoger.java
+232 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\TristateCheckBox.java
+377 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\TristateState.java
+44 same line(s)
+
+File: src\core\org\apache\jmeter\gui\util\VerticalPanel.java
+72 same line(s)
+
+File: src\core\org\apache\jmeter\gui\AbstractJMeterGuiComponent.java
+334 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\AbstractScopedJMeterGuiComponent.java
+139 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\ClearGui.java
+32 same line(s)
+
+File: src\core\org\apache\jmeter\gui\CommentPanel.java
+74 same line(s)
+
+File: src\core\org\apache\jmeter\gui\GUIFactory.java
+174 same line(s)
+
+File: src\core\org\apache\jmeter\gui\GuiPackage.java
+860 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\JMeterFileFilter.java
+113 same line(s)
+
+File: src\core\org\apache\jmeter\gui\JMeterGUIComponent.java
+179 same line(s)
+
+File: src\core\org\apache\jmeter\gui\LoggerPanel.java
+93 same line(s)
+8 ignored unimportant difference line(s)
+10 important left orphan line(s)
+9 important right orphan line(s)
+19 important difference line(s)
+
+15 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\MainFrame.java
+810 same line(s)
+16 ignored unimportant difference line(s)
+4 important difference line(s)
+
+3 difference section(s)
+
+File: src\core\org\apache\jmeter\gui\NamePanel.java
+141 same line(s)
+
+File: src\core\org\apache\jmeter\gui\OnErrorPanel.java
+115 same line(s)
+
+File: src\core\org\apache\jmeter\gui\SavePropertyDialog.java
+152 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\Searchable.java
+31 same line(s)
+9 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\ServerPanel.java
+182 same line(s)
+
+File: src\core\org\apache\jmeter\gui\Stoppable.java
+30 same line(s)
+
+File: src\core\org\apache\jmeter\gui\UndoHistory.java
+360 same line(s)
+10 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\gui\UndoHistoryItem.java
+71 same line(s)
+
+File: src\core\org\apache\jmeter\gui\UnsharedComponent.java
+28 same line(s)
+
+File: src\core\org\apache\jmeter\plugin\JMeterPlugin.java
+25 same line(s)
+
+File: src\core\org\apache\jmeter\plugin\PluginManager.java
+73 same line(s)
+
+File: src\core\org\apache\jmeter\processor\gui\AbstractPostProcessorGui.java
+45 same line(s)
+
+File: src\core\org\apache\jmeter\processor\gui\AbstractPreProcessorGui.java
+43 same line(s)
+
+File: src\core\org\apache\jmeter\processor\PostProcessor.java
+32 same line(s)
+
+File: src\core\org\apache\jmeter\processor\PreProcessor.java
+28 same line(s)
+
+File: src\core\org\apache\jmeter\reporters\gui\ResultActionGui.java
+103 same line(s)
+
+File: src\core\org\apache\jmeter\reporters\gui\ResultSaverGui.java
+193 same line(s)
+
+File: src\core\org\apache\jmeter\reporters\gui\SummariserGui.java
+76 same line(s)
+
+File: src\core\org\apache\jmeter\reporters\AbstractListenerElement.java
+57 same line(s)
+
+File: src\core\org\apache\jmeter\reporters\FileReporter.java
+376 same line(s)
+27 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\reporters\ResultAction.java
+94 same line(s)
+
+File: src\core\org\apache\jmeter\reporters\ResultCollector.java
+649 same line(s)
+50 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\reporters\ResultCollectorHelper.java
+46 same line(s)
+
+File: src\core\org\apache\jmeter\reporters\ResultSaver.java
+287 same line(s)
+
+File: src\core\org\apache\jmeter\reporters\Summariser.java
+354 same line(s)
+12 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+29 important difference line(s)
+
+25 difference section(s)
+
+File: src\core\org\apache\jmeter\reporters\SummariserRunningSample.java
+136 ignored unimportant difference line(s)
+112 important right orphan line(s)
+
+35 difference section(s)
+
+File: src\core\org\apache\jmeter\samplers\gui\AbstractSamplerGui.java
+65 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\AbstractSampler.java
+35 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\AbstractSampleSender.java
+52 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\AsynchSampleSender.java
+165 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\BatchSampleSender.java
+208 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\Clearable.java
+34 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\DataStrippingSampleSender.java
+101 same line(s)
+10 ignored unimportant difference line(s)
+6 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\core\org\apache\jmeter\samplers\DiskStoreSampleSender.java
+171 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\Entry.java
+90 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\HoldSampleSender.java
+92 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\Interruptible.java
+34 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\Remoteable.java
+26 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\RemoteListenerWrapper.java
+134 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\RemoteSampleListener.java
+66 same line(s)
+16 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\RemoteSampleListenerImpl.java
+127 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\RemoteSampleListenerWrapper.java
+74 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\RemoteTestListenerWrapper.java
+85 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\SampleEvent.java
+165 same line(s)
+64 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\SampleListener.java
+41 same line(s)
+11 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\Sampler.java
+36 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\SampleResult.java
+1330 same line(s)
+64 ignored unimportant difference line(s)
+19 important right orphan line(s)
+1 important difference line(s)
+
+8 difference section(s)
+
+File: src\core\org\apache\jmeter\samplers\SampleSaveConfiguration.java
+829 same line(s)
+14 ignored unimportant difference line(s)
+11 important right orphan line(s)
+2 important difference line(s)
+
+9 difference section(s)
+
+File: src\core\org\apache\jmeter\samplers\SampleSender.java
+50 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\SampleSenderFactory.java
+110 same line(s)
+
+File: src\core\org\apache\jmeter\samplers\StandardSampleSender.java
+83 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\samplers\StatisticalSampleResult.java
+145 same line(s)
+3 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\samplers\StatisticalSampleSender.java
+219 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\save\converters\BooleanPropertyConverter.java
+62 same line(s)
+2 ignored unimportant difference line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\ConversionHelp.java
+287 same line(s)
+39 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\save\converters\HashTreeConverter.java
+81 same line(s)
+2 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\IntegerPropertyConverter.java
+61 same line(s)
+2 ignored unimportant difference line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\LongPropertyConverter.java
+61 same line(s)
+2 ignored unimportant difference line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\MultiPropertyConverter.java
+81 same line(s)
+3 ignored unimportant difference line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\SampleEventConverter.java
+64 same line(s)
+2 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\SampleResultConverter.java
+415 same line(s)
+65 ignored unimportant difference line(s)
+5 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\SampleSaveConfigurationConverter.java
+166 same line(s)
+2 ignored unimportant difference line(s)
+3 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\StringPropertyConverter.java
+63 same line(s)
+2 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\TestElementConverter.java
+127 same line(s)
+3 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\TestElementPropertyConverter.java
+141 same line(s)
+3 ignored unimportant difference line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\save\converters\TestResultWrapperConverter.java
+104 same line(s)
+3 ignored unimportant difference line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\save\CSVSaveService.java
+1130 same line(s)
+13 ignored unimportant difference line(s)
+14 important right orphan line(s)
+
+5 difference section(s)
+
+File: src\core\org\apache\jmeter\save\ListenerResultWrapper.java
+80 same line(s)
+
+File: src\core\org\apache\jmeter\save\OldSaveService.java
+530 same line(s)
+
+File: src\core\org\apache\jmeter\save\SaveGraphicsService.java
+191 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\save\SaveService.java
+625 same line(s)
+24 ignored unimportant difference line(s)
+30 important right orphan line(s)
+8 important difference line(s)
+
+10 difference section(s)
+
+File: src\core\org\apache\jmeter\save\ScriptWrapper.java
+28 same line(s)
+
+File: src\core\org\apache\jmeter\save\ScriptWrapperConverter.java
+126 same line(s)
+2 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\save\TestResultWrapper.java
+79 same line(s)
+
+File: src\core\org\apache\jmeter\services\FileServer.java
+523 same line(s)
+24 ignored unimportant difference line(s)
+9 important right orphan line(s)
+
+5 difference section(s)
+
+File: src\core\org\apache\jmeter\swing\HtmlPane.java
+56 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\BooleanPropertyEditor.java
+66 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\ComboStringEditor.java
+320 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\EnumEditor.java
+103 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\FieldStringEditor.java
+135 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\FileEditor.java
+215 same line(s)
+19 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\GenericTestBeanCustomizer.java
+787 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\IntegerPropertyEditor.java
+44 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\LongPropertyEditor.java
+44 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\PasswordEditor.java
+131 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\SharedCustomizer.java
+30 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\TableEditor.java
+310 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\TestBeanGUI.java
+522 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\TestBeanPropertyEditor.java
+28 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\TextAreaEditor.java
+139 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\TypeEditor.java
+36 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\gui\WrapperEditor.java
+453 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\BeanInfoSupport.java
+297 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testbeans\TestBean.java
+30 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\TestBeanBeanInfo.java
+104 same line(s)
+
+File: src\core\org\apache\jmeter\testbeans\TestBeanHelper.java
+211 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\AbstractProperty.java
+412 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\BooleanProperty.java
+99 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\CollectionProperty.java
+219 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\DoubleProperty.java
+143 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\FloatProperty.java
+143 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\FunctionProperty.java
+131 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\IntegerProperty.java
+148 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\JMeterProperty.java
+89 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\LongProperty.java
+144 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\MapProperty.java
+177 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\MultiProperty.java
+94 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\NullProperty.java
+133 same line(s)
+4 ignored unimportant difference line(s)
+3 important left orphan line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\testelement\property\NumberProperty.java
+72 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\ObjectProperty.java
+109 same line(s)
+15 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\PropertyIterator.java
+27 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\PropertyIteratorImpl.java
+50 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\StringProperty.java
+108 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\property\TestElementProperty.java
+166 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\AbstractScopedAssertion.java
+49 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\AbstractScopedTestElement.java
+153 same line(s)
+14 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\AbstractTestElement.java
+656 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\AbstractTestElementBeanInfo.java
+104 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\OnErrorTestElement.java
+78 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\TestCloneable.java
+26 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\TestElement.java
+211 same line(s)
+125 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\testelement\TestElementTraverser.java
+55 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\TestIterationListener.java
+34 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\TestListener.java
+29 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\TestPlan.java
+268 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\testelement\TestStateListener.java
+102 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\ThreadListener.java
+44 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\VariablesCollection.java
+44 same line(s)
+
+File: src\core\org\apache\jmeter\testelement\WorkBench.java
+40 same line(s)
+4 ignored unimportant difference line(s)
+3 important left orphan line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\threads\gui\AbstractThreadGroupGui.java
+184 same line(s)
+
+File: src\core\org\apache\jmeter\threads\gui\PostThreadGroupGui.java
+45 same line(s)
+
+File: src\core\org\apache\jmeter\threads\gui\SetupThreadGroupGui.java
+45 same line(s)
+
+File: src\core\org\apache\jmeter\threads\gui\ThreadGroupGui.java
+304 same line(s)
+
+File: src\core\org\apache\jmeter\threads\AbstractThreadGroup.java
+260 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\threads\FindTestElementsUpToRootTraverser.java
+102 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\threads\JMeterContext.java
+198 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\threads\JMeterContextService.java
+173 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\threads\JMeterThread.java
+911 same line(s)
+6 ignored unimportant difference line(s)
+8 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\threads\JMeterThreadMonitor.java
+26 same line(s)
+
+File: src\core\org\apache\jmeter\threads\JMeterVariables.java
+151 same line(s)
+
+File: src\core\org\apache\jmeter\threads\ListenerNotifier.java
+271 same line(s)
+
+File: src\core\org\apache\jmeter\threads\PostThreadGroup.java
+28 same line(s)
+
+File: src\core\org\apache\jmeter\threads\RemoteThreadsLifeCycleListener.java
+38 same line(s)
+
+File: src\core\org\apache\jmeter\threads\RemoteThreadsListener.java
+37 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\threads\RemoteThreadsListenerImpl.java
+114 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\threads\RemoteThreadsListenerTestElement.java
+43 same line(s)
+
+File: src\core\org\apache\jmeter\threads\RemoteThreadsListenerWrapper.java
+66 same line(s)
+
+File: src\core\org\apache\jmeter\threads\SamplePackage.java
+223 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\threads\SetupThreadGroup.java
+33 same line(s)
+
+File: src\core\org\apache\jmeter\threads\TestCompiler.java
+328 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\threads\TestCompilerHelper.java
+46 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\threads\ThreadGroup.java
+578 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\timers\gui\AbstractTimerGui.java
+66 same line(s)
+
+File: src\core\org\apache\jmeter\timers\Timer.java
+36 same line(s)
+
+File: src\core\org\apache\jmeter\util\keystore\JmeterKeyStore.java
+244 same line(s)
+74 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\BeanShellBeanInfoSupport.java
+64 same line(s)
+
+File: src\core\org\apache\jmeter\util\BeanShellClient.java
+115 same line(s)
+
+File: src\core\org\apache\jmeter\util\BeanShellInterpreter.java
+223 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\BeanShellServer.java
+103 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\BeanShellTestElement.java
+280 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\BSFBeanInfoSupport.java
+48 same line(s)
+
+File: src\core\org\apache\jmeter\util\BSFJavaScriptEngine.java
+243 same line(s)
+
+File: src\core\org\apache\jmeter\util\BSFTestElement.java
+136 same line(s)
+
+File: src\core\org\apache\jmeter\util\Calculator.java
+228 same line(s)
+11 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\ColorHelper.java
+63 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\CPSPauser.java
+57 same line(s)
+1 ignored unimportant difference line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\util\CustomX509TrustManager.java
+103 same line(s)
+
+File: src\core\org\apache\jmeter\util\Document.java
+81 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\HttpSSLProtocolSocketFactory.java
+267 same line(s)
+
+File: src\core\org\apache\jmeter\util\JMeterTreeNodeTransferable.java
+97 same line(s)
+
+File: src\core\org\apache\jmeter\util\JMeterUtils.java
+1316 same line(s)
+35 ignored unimportant difference line(s)
+1 important left orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: src\core\org\apache\jmeter\util\JMeterVersion.java
+104 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\core\org\apache\jmeter\util\JSR223BeanInfoSupport.java
+81 same line(s)
+
+File: src\core\org\apache\jmeter\util\JSR223TestElement.java
+246 same line(s)
+17 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\JsseSSLManager.java
+409 same line(s)
+10 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\LocaleChangeEvent.java
+45 same line(s)
+
+File: src\core\org\apache\jmeter\util\LocaleChangeListener.java
+23 same line(s)
+
+File: src\core\org\apache\jmeter\util\NamedObject.java
+24 same line(s)
+
+File: src\core\org\apache\jmeter\util\NameUpdater.java
+189 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\PropertiesBasedPrefixResolver.java
+99 same line(s)
+
+File: src\core\org\apache\jmeter\util\ScopePanel.java
+182 same line(s)
+
+File: src\core\org\apache\jmeter\util\ScriptingBeanInfoSupport.java
+109 same line(s)
+
+File: src\core\org\apache\jmeter\util\ScriptingTestElement.java
+84 same line(s)
+
+File: src\core\org\apache\jmeter\util\ShutdownClient.java
+49 same line(s)
+
+File: src\core\org\apache\jmeter\util\SlowInputStream.java
+56 same line(s)
+
+File: src\core\org\apache\jmeter\util\SlowOutputStream.java
+55 same line(s)
+
+File: src\core\org\apache\jmeter\util\SlowSocket.java
+99 same line(s)
+28 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\SlowSSLSocket.java
+354 same line(s)
+
+File: src\core\org\apache\jmeter\util\SSLManager.java
+293 same line(s)
+20 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\util\StringUtilities.java
+53 same line(s)
+
+File: src\core\org\apache\jmeter\util\ThreadLocalRandom.java
+202 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\util\TidyException.java
+35 same line(s)
+
+File: src\core\org\apache\jmeter\util\XPathUtil.java
+437 same line(s)
+14 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\visualizers\gui\AbstractListenerGui.java
+66 same line(s)
+
+File: src\core\org\apache\jmeter\visualizers\gui\AbstractVisualizer.java
+356 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\visualizers\CachingStatCalculator.java
+66 same line(s)
+
+File: src\core\org\apache\jmeter\visualizers\ImageVisualizer.java
+30 same line(s)
+
+File: src\core\org\apache\jmeter\visualizers\Printable.java
+30 same line(s)
+
+File: src\core\org\apache\jmeter\visualizers\RunningSample.java
+358 same line(s)
+17 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\visualizers\Sample.java
+217 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\visualizers\SamplingStatCalculator.java
+286 same line(s)
+10 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\visualizers\TableSample.java
+142 same line(s)
+5 ignored unimportant difference line(s)
+5 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: src\core\org\apache\jmeter\visualizers\Visualizer.java
+45 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\core\org\apache\jmeter\DynamicClassLoader.java
+65 same line(s)
+
+File: src\core\org\apache\jmeter\JMeter.java
+1134 same line(s)
+7 ignored unimportant difference line(s)
+46 important left orphan line(s)
+11 important right orphan line(s)
+8 important difference line(s)
+
+17 difference section(s)
+
+File: src\core\org\apache\jmeter\NewDriver.java
+262 same line(s)
+7 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\core\org\apache\jmeter\ProxyAuthenticator.java
+70 same line(s)
+
+File: src\examples\org\apache\jmeter\examples\sampler\gui\ExampleSamplerGui.java
+134 same line(s)
+
+File: src\examples\org\apache\jmeter\examples\sampler\ExampleSampler.java
+128 same line(s)
+
+File: src\examples\org\apache\jmeter\examples\testbeans\example1\Example1.java
+62 same line(s)
+
+File: src\examples\org\apache\jmeter\examples\testbeans\example2\Example2.java
+64 same line(s)
+
+File: src\examples\org\apache\jmeter\examples\testbeans\example2\Example2BeanInfo.java
+28 same line(s)
+
+File: src\examples\org\apache\jmeter\examples\testbeans\example3\Example3.java
+157 same line(s)
+
+File: src\examples\org\apache\jmeter\examples\testbeans\example3\Example3BeanInfo.java
+57 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\AbstractHostIPName.java
+84 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\BeanShell.java
+155 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\CharFunction.java
+91 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\CSVRead.java
+162 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\EscapeHtml.java
+92 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\functions\org\apache\jmeter\functions\EscapeOroRegexpChars.java
+113 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\EvalFunction.java
+87 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\EvalVarFunction.java
+98 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\FileRowColContainer.java
+192 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\FileToString.java
+143 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\FileWrapper.java
+208 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\functions\org\apache\jmeter\functions\IntSum.java
+106 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\IterationCounter.java
+122 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\JavaScript.java
+125 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\Jexl2Function.java
+162 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\JexlFunction.java
+133 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\LogFunction.java
+182 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\functions\org\apache\jmeter\functions\LogFunction2.java
+117 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\functions\org\apache\jmeter\functions\LongSum.java
+106 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\MachineIP.java
+44 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\MachineName.java
+44 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\Property.java
+108 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\Property2.java
+106 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\Random.java
+107 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\functions\org\apache\jmeter\functions\RandomString.java
+131 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\RegexFunction.java
+290 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\SamplerName.java
+88 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\SetProperty.java
+105 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\SplitFunction.java
+129 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\functions\org\apache\jmeter\functions\StringFromFile.java
+339 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\TestPlanName.java
+71 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\ThreadNumber.java
+63 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\TimeFunction.java
+137 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\UnEscape.java
+83 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\UnEscapeHtml.java
+89 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\UrlDecode.java
+87 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\UrlEncode.java
+87 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\Uuid.java
+69 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\Variable.java
+90 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\XPath.java
+126 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\XPathFileContainer.java
+138 same line(s)
+
+File: src\functions\org\apache\jmeter\functions\XPathWrapper.java
+129 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\commons\cli\avalon\AbstractParserControl.java
+42 same line(s)
+
+File: src\jorphan\org\apache\commons\cli\avalon\CLArgsParser.java
+682 same line(s)
+
+File: src\jorphan\org\apache\commons\cli\avalon\CLOption.java
+176 same line(s)
+
+File: src\jorphan\org\apache\commons\cli\avalon\CLOptionDescriptor.java
+201 same line(s)
+
+File: src\jorphan\org\apache\commons\cli\avalon\CLUtil.java
+108 same line(s)
+
+File: src\jorphan\org\apache\commons\cli\avalon\ParserControl.java
+38 same line(s)
+
+File: src\jorphan\org\apache\commons\cli\avalon\Token.java
+71 same line(s)
+9 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\commons\jexl\bsf\JexlEngine.java
+150 same line(s)
+
+File: src\jorphan\org\apache\jorphan\collections\Data.java
+692 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\collections\HashTree.java
+1060 same line(s)
+43 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\collections\HashTreeTraverser.java
+76 same line(s)
+
+File: src\jorphan\org\apache\jorphan\collections\ListedHashTree.java
+225 same line(s)
+
+File: src\jorphan\org\apache\jorphan\collections\SearchByClass.java
+108 same line(s)
+9 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\collections\SortedHashTree.java
+109 same line(s)
+
+File: src\jorphan\org\apache\jorphan\exec\KeyToolUtils.java
+415 same line(s)
+37 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\exec\StreamCopier.java
+71 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\exec\StreamGobbler.java
+73 same line(s)
+
+File: src\jorphan\org\apache\jorphan\exec\SystemCommand.java
+251 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\layout\VerticalLayout.java
+244 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\AbstractTreeTableModel.java
+217 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\ComponentUtil.java
+95 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\DefaultTreeTableModel.java
+47 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\GuiUtils.java
+142 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\JLabeledChoice.java
+307 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\JLabeledField.java
+39 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\JLabeledPasswordField.java
+49 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\JLabeledTextArea.java
+268 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\JLabeledTextField.java
+250 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\JTreeTable.java
+60 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\MenuScroller.java
+701 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\NumberRenderer.java
+51 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\ObjectTableModel.java
+306 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\RateRenderer.java
+65 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\RendererUtils.java
+41 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\RightAlignRenderer.java
+34 same line(s)
+
+File: src\jorphan\org\apache\jorphan\gui\TreeTableModel.java
+49 same line(s)
+17 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\io\TextFile.java
+200 same line(s)
+9 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\logging\LoggingManager.java
+361 same line(s)
+7 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\math\NumberComparator.java
+47 same line(s)
+
+File: src\jorphan\org\apache\jorphan\math\StatCalculator.java
+270 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\math\StatCalculatorInteger.java
+53 same line(s)
+
+File: src\jorphan\org\apache\jorphan\math\StatCalculatorLong.java
+58 same line(s)
+
+File: src\jorphan\org\apache\jorphan\reflect\ClassFinder.java
+563 same line(s)
+13 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\jorphan\org\apache\jorphan\reflect\ClassTools.java
+130 same line(s)
+11 ignored unimportant difference line(s)
+4 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\jorphan\org\apache\jorphan\reflect\Functor.java
+471 same line(s)
+42 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\test\UnitTestManager.java
+40 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\util\Converter.java
+364 same line(s)
+221 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\util\HeapDumper.java
+204 same line(s)
+
+File: src\jorphan\org\apache\jorphan\util\JMeterError.java
+47 same line(s)
+
+File: src\jorphan\org\apache\jorphan\util\JMeterException.java
+46 same line(s)
+
+File: src\jorphan\org\apache\jorphan\util\JMeterStopTestException.java
+37 same line(s)
+
+File: src\jorphan\org\apache\jorphan\util\JMeterStopTestNowException.java
+37 same line(s)
+
+File: src\jorphan\org\apache\jorphan\util\JMeterStopThreadException.java
+45 same line(s)
+
+File: src\jorphan\org\apache\jorphan\util\JOrphanUtils.java
+568 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\jorphan\org\apache\jorphan\util\XMLBuffer.java
+129 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\junit\org\apache\jmeter\protocol\java\control\gui\ClassFilter.java
+64 same line(s)
+
+File: src\junit\org\apache\jmeter\protocol\java\control\gui\JUnitTestSamplerGui.java
+437 same line(s)
+
+File: src\junit\org\apache\jmeter\protocol\java\sampler\JUnitSampler.java
+691 same line(s)
+35 ignored unimportant difference line(s)
+
+File: src\junit\test\AfterAnnotatedTest.java
+39 same line(s)
+
+File: src\junit\test\BeforeAnnotatedTest.java
+39 same line(s)
+
+File: src\junit\test\DummyAnnotatedTest.java
+111 same line(s)
+
+File: src\junit\test\Junit4AnnotationsTest.java
+55 same line(s)
+
+File: src\junit\test\RerunTest.java
+36 same line(s)
+
+File: src\junit\test\SetupTestError.java
+41 same line(s)
+
+File: src\junit\test\SetupTestFail.java
+41 same line(s)
+
+File: src\junit\test\TearDownTestFail.java
+36 same line(s)
+
+File: src\junit\woolfel\DummyTestCase.java
+101 same line(s)
+
+File: src\junit\woolfel\SubDummyTest.java
+40 same line(s)
+
+File: src\junit\woolfel\SubDummyTest2.java
+41 same line(s)
+
+File: src\monitor\components\org\apache\jmeter\monitor\util\MemoryBenchmark.java
+130 same line(s)
+
+File: src\monitor\components\org\apache\jmeter\monitor\util\Stats.java
+182 same line(s)
+11 ignored unimportant difference line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorAccumModel.java
+238 same line(s)
+10 ignored unimportant difference line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorGraph.java
+208 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorGuiListener.java
+23 same line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorHealthPanel.java
+145 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorHealthVisualizer.java
+195 same line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorListener.java
+21 same line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorModel.java
+128 same line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorPerformancePanel.java
+306 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorStats.java
+167 same line(s)
+14 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\MonitorTabPane.java
+32 same line(s)
+
+File: src\monitor\components\org\apache\jmeter\visualizers\ServerPanel.java
+203 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\Connector.java
+36 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\ConnectorImpl.java
+79 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\Jvm.java
+24 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\JvmImpl.java
+45 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\Memory.java
+38 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\MemoryImpl.java
+67 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\ObjectFactory.java
+98 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\RequestInfo.java
+48 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\RequestInfoImpl.java
+103 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\Status.java
+33 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\StatusImpl.java
+73 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\ThreadInfo.java
+44 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\ThreadInfoImpl.java
+91 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\Worker.java
+64 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\WorkerImpl.java
+150 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\Workers.java
+29 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\model\WorkersImpl.java
+45 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\parser\Constants.java
+90 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\parser\MonitorHandler.java
+361 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\parser\Parser.java
+28 same line(s)
+
+File: src\monitor\model\org\apache\jmeter\monitor\parser\ParserImpl.java
+119 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\protocol\ftp\org\apache\jmeter\protocol\ftp\config\gui\FtpConfigGui.java
+244 same line(s)
+
+File: src\protocol\ftp\org\apache\jmeter\protocol\ftp\control\gui\FtpTestSamplerGui.java
+104 same line(s)
+
+File: src\protocol\ftp\org\apache\jmeter\protocol\ftp\sampler\FTPSampler.java
+323 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\config\gui\HttpDefaultsGui.java
+214 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\config\gui\MultipartUrlConfigGui.java
+106 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\config\gui\UrlConfigGui.java
+753 same line(s)
+30 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\config\MultipartUrlConfig.java
+177 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\gui\AjpSamplerGui.java
+51 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\gui\HttpMirrorControlGui.java
+212 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\gui\HttpTestSampleGui.java
+295 same line(s)
+2 ignored unimportant difference line(s)
+9 important left orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\gui\RecordController.java
+39 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\gui\SoapSamplerGui.java
+177 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\gui\WebServiceSamplerGui.java
+529 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\AuthManager.java
+450 same line(s)
+62 ignored unimportant difference line(s)
+24 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\Authorization.java
+130 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\CacheManager.java
+439 same line(s)
+34 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\Cookie.java
+240 same line(s)
+31 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\CookieHandler.java
+51 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\CookieManager.java
+417 same line(s)
+22 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\DNSCacheManager.java
+229 same line(s)
+2 ignored unimportant difference line(s)
+1 important left orphan line(s)
+5 important right orphan line(s)
+5 important difference line(s)
+
+7 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\HC3CookieHandler.java
+195 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\HC4CookieHandler.java
+213 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\Header.java
+96 same line(s)
+15 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\HeaderManager.java
+277 same line(s)
+35 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\HttpMirrorControl.java
+160 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\HttpMirrorServer.java
+172 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\HttpMirrorThread.java
+318 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\KerberosManager.java
+147 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\control\RecordingController.java
+26 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\gui\AuthPanel.java
+459 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\gui\CacheManagerGui.java
+139 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\gui\CookiePanel.java
+427 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\gui\DNSCachePanel.java
+329 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\gui\HeaderPanel.java
+400 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\gui\HTTPArgumentsPanel.java
+138 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\gui\HTTPFileArgsPanel.java
+403 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\gui\AnchorModifierGui.java
+62 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\gui\ParamModifierGui.java
+243 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\gui\RegExUserParametersGui.java
+165 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\gui\URLRewritingModifierGui.java
+143 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\AnchorModifier.java
+237 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\ParamMask.java
+246 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\ParamModifier.java
+157 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\RegExUserParameters.java
+147 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\URLRewritingModifier.java
+238 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\UserParameterXMLContentHandler.java
+147 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\UserParameterXMLErrorHandler.java
+54 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\UserParameterXMLParser.java
+67 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\modifier\UserSequence.java
+94 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\HTMLParseError.java
+46 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\HTMLParseException.java
+46 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\HTMLParser.java
+264 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\HtmlParserHTMLParser.java
+206 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\HtmlParsingUtils.java
+392 same line(s)
+11 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\JsoupBasedHtmlParser.java
+161 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\JTidyHTMLParser.java
+248 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\LagartoBasedHtmlParser.java
+237 same line(s)
+4 ignored unimportant difference line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\RegexpHTMLParser.java
+205 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\URLCollection.java
+126 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\parser\URLString.java
+77 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\gui\ProxyControlGui.java
+966 same line(s)
+2 ignored unimportant difference line(s)
+12 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\AbstractSamplerCreator.java
+145 same line(s)
+5 ignored unimportant difference line(s)
+7 important right orphan line(s)
+
+4 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\Daemon.java
+157 same line(s)
+6 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\DefaultSamplerCreator.java
+414 same line(s)
+11 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\FormCharSetFinder.java
+134 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\HttpReplyHdr.java
+292 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\HttpRequestHdr.java
+456 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\Proxy.java
+611 same line(s)
+4 ignored unimportant difference line(s)
+13 important right orphan line(s)
+4 important difference line(s)
+
+7 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\ProxyControl.java
+1396 same line(s)
+48 ignored unimportant difference line(s)
+88 important right orphan line(s)
+2 important difference line(s)
+
+25 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\SamplerCreator.java
+76 same line(s)
+18 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\SamplerCreatorFactory.java
+100 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\proxy\ServerAliasKeyManager.java
+85 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\AccessLogSampler.java
+338 same line(s)
+12 ignored unimportant difference line(s)
+2 important right orphan line(s)
+13 important difference line(s)
+
+11 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\AccessLogSamplerBeanInfo.java
+99 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\AjpSampler.java
+535 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPAbstractImpl.java
+377 same line(s)
+133 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HttpClientDefaultParameters.java
+151 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPFileImpl.java
+87 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPHC3Impl.java
+1156 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPHC4Impl.java
+1311 same line(s)
+25 ignored unimportant difference line(s)
+4 important left orphan line(s)
+5 important right orphan line(s)
+12 important difference line(s)
+
+16 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPHCAbstractImpl.java
+162 same line(s)
+1 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPJavaImpl.java
+654 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPSampler.java
+46 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPSampler2.java
+87 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPSamplerBase.java
+1958 same line(s)
+36 ignored unimportant difference line(s)
+2 important left orphan line(s)
+10 important right orphan line(s)
+3 important difference line(s)
+
+9 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPSamplerBaseBeanInfo.java
+32 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPSamplerBaseConverter.java
+74 same line(s)
+2 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPSampleResult.java
+256 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPSamplerFactory.java
+108 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HTTPSamplerProxy.java
+102 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\HttpWebdav.java
+66 same line(s)
+3 ignored unimportant difference line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\MeasuringConnectionManager.java
+76 ignored unimportant difference line(s)
+193 important right orphan line(s)
+
+46 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\PostWriter.java
+455 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\PutWriter.java
+113 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\SoapSampler.java
+376 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\sampler\WebServiceSampler.java
+689 same line(s)
+21 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\Filter.java
+97 same line(s)
+14 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\Generator.java
+127 same line(s)
+11 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\LogFilter.java
+402 same line(s)
+38 ignored unimportant difference line(s)
+5 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\LogParser.java
+71 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\NVPair.java
+79 same line(s)
+5 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\OrderPreservingLogParser.java
+45 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\SessionFilter.java
+226 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\SharedTCLogParser.java
+114 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\StandardGenerator.java
+229 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\accesslog\TCLogParser.java
+531 same line(s)
+58 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\Base64Encoder.java
+83 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\ConversionUtils.java
+259 same line(s)
+14 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\DOMPool.java
+83 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\EncoderCache.java
+76 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\HC4TrustAllSSLSocketFactory.java
+100 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\HTTPArgument.java
+230 same line(s)
+38 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\HTTPConstants.java
+29 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\HTTPConstantsInterface.java
+78 same line(s)
+2 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\HTTPFileArg.java
+202 same line(s)
+32 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\HTTPFileArgs.java
+236 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\HTTPResultConverter.java
+129 same line(s)
+3 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\LoopbackHttpClientSocketFactory.java
+99 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\LoopbackHTTPSocket.java
+97 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\SlowHC4SocketFactory.java
+56 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\SlowHC4SSLSocketFactory.java
+41 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\SlowHttpClientSocketFactory.java
+71 same line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\WSDLException.java
+44 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\util\WSDLHelper.java
+388 same line(s)
+37 ignored unimportant difference line(s)
+
+File: src\protocol\http\org\apache\jmeter\protocol\http\visualizers\RequestViewHTTP.java
+353 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\config\gui\JavaConfigGui.java
+280 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\config\JavaConfig.java
+120 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\control\gui\BeanShellSamplerGui.java
+175 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\control\gui\JavaTestSamplerGui.java
+99 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\sampler\AbstractJavaSamplerClient.java
+85 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\sampler\BeanShellSampler.java
+188 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\sampler\BSFSampler.java
+141 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\sampler\BSFSamplerBeanInfo.java
+31 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\sampler\JavaSampler.java
+333 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\sampler\JavaSamplerClient.java
+121 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\sampler\JavaSamplerContext.java
+226 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\sampler\JSR223Sampler.java
+95 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\sampler\JSR223SamplerBeanInfo.java
+28 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\test\JavaTest.java
+353 same line(s)
+
+File: src\protocol\java\org\apache\jmeter\protocol\java\test\SleepTest.java
+222 same line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\config\DataSourceElement.java
+512 same line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\config\DataSourceElementBeanInfo.java
+121 same line(s)
+12 ignored unimportant difference line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\processor\AbstractJDBCProcessor.java
+62 same line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\processor\JDBCPostProcessor.java
+36 same line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\processor\JDBCPostProcessorBeanInfo.java
+36 same line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\processor\JDBCPreProcessor.java
+36 same line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\processor\JDBCPreProcessorBeanInfo.java
+36 same line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\sampler\JDBCSampler.java
+119 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\sampler\JDBCSamplerBeanInfo.java
+36 same line(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\AbstractJDBCTestElement.java
+657 same line(s)
+21 ignored unimportant difference line(s)
+30 important right orphan line(s)
+
+8 difference section(s)
+
+File: src\protocol\jdbc\org\apache\jmeter\protocol\jdbc\JDBCTestElementBeanInfoSupport.java
+93 same line(s)
+2 ignored unimportant difference line(s)
+10 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\client\ClientPool.java
+82 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\client\InitialContextFactory.java
+152 same line(s)
+26 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\client\Publisher.java
+163 same line(s)
+47 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\client\ReceiveSubscriber.java
+282 same line(s)
+102 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\control\gui\JMSPropertiesPanel.java
+354 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\control\gui\JMSPublisherGui.java
+390 same line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\control\gui\JMSSamplerGui.java
+302 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\control\gui\JMSSubscriberGui.java
+286 same line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\BaseJMSSampler.java
+361 same line(s)
+11 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\FixedQueueExecutor.java
+113 same line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\JMSProperties.java
+248 same line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\JMSProperty.java
+171 same line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\JMSSampler.java
+562 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\MessageAdmin.java
+137 same line(s)
+25 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\PublisherSampler.java
+548 same line(s)
+15 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\QueueExecutor.java
+43 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\Receiver.java
+143 same line(s)
+11 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\SubscriberSampler.java
+500 same line(s)
+12 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\sampler\TemporaryQueueExecutor.java
+59 same line(s)
+3 ignored unimportant difference line(s)
+
+File: src\protocol\jms\org\apache\jmeter\protocol\jms\Utils.java
+229 same line(s)
+24 ignored unimportant difference line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\config\gui\LDAPArgument.java
+171 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\config\gui\LDAPArguments.java
+258 same line(s)
+8 ignored unimportant difference line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\config\gui\LDAPArgumentsPanel.java
+373 same line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\config\gui\LdapConfigGui.java
+444 same line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\config\gui\LdapExtConfigGui.java
+708 same line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\control\gui\LdapExtTestSamplerGui.java
+111 same line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\control\gui\LdapTestSamplerGui.java
+109 same line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\sampler\LdapClient.java
+142 same line(s)
+23 ignored unimportant difference line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\sampler\LdapExtClient.java
+212 same line(s)
+75 ignored unimportant difference line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\sampler\LDAPExtSampler.java
+1100 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\protocol\ldap\org\apache\jmeter\protocol\ldap\sampler\LDAPSampler.java
+491 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\mail\sampler\gui\MailReaderSamplerGui.java
+335 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\mail\sampler\MailFileFolder.java
+192 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\mail\sampler\MailFileMessage.java
+36 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\mail\sampler\MailFileStore.java
+59 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\mail\sampler\MailReaderSampler.java
+613 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\smtp\sampler\gui\SecuritySettingsPanel.java
+419 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\smtp\sampler\gui\SmtpPanel.java
+1164 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\smtp\sampler\gui\SmtpSamplerGui.java
+193 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\smtp\sampler\protocol\LocalTrustStoreSSLSocketFactory.java
+136 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\smtp\sampler\protocol\SendMailCommand.java
+818 same line(s)
+23 ignored unimportant difference line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\smtp\sampler\protocol\SynchronousTransportListener.java
+98 same line(s)
+4 ignored unimportant difference line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\smtp\sampler\protocol\TrustAllSSLSocketFactory.java
+149 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\smtp\sampler\tools\CounterOutputStream.java
+64 same line(s)
+
+File: src\protocol\mail\org\apache\jmeter\protocol\smtp\sampler\SmtpSampler.java
+399 same line(s)
+
+File: src\protocol\mongodb\org\apache\jmeter\protocol\mongodb\config\MongoDBHolder.java
+51 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\mongodb\org\apache\jmeter\protocol\mongodb\config\MongoSourceElement.java
+398 same line(s)
+
+File: src\protocol\mongodb\org\apache\jmeter\protocol\mongodb\config\MongoSourceElementBeanInfo.java
+120 same line(s)
+
+File: src\protocol\mongodb\org\apache\jmeter\protocol\mongodb\mongo\EvalResultHandler.java
+67 same line(s)
+
+File: src\protocol\mongodb\org\apache\jmeter\protocol\mongodb\mongo\MongoDB.java
+75 same line(s)
+
+File: src\protocol\mongodb\org\apache\jmeter\protocol\mongodb\mongo\MongoUtils.java
+51 same line(s)
+
+File: src\protocol\mongodb\org\apache\jmeter\protocol\mongodb\sampler\MongoScriptRunner.java
+62 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\protocol\mongodb\org\apache\jmeter\protocol\mongodb\sampler\MongoScriptSampler.java
+144 same line(s)
+
+File: src\protocol\mongodb\org\apache\jmeter\protocol\mongodb\sampler\MongoScriptSamplerBeanInfo.java
+74 same line(s)
+
+File: src\protocol\native\org\apache\jmeter\protocol\system\gui\SystemSamplerGui.java
+282 same line(s)
+
+File: src\protocol\native\org\apache\jmeter\protocol\system\NativeCommand.java
+53 same line(s)
+
+File: src\protocol\native\org\apache\jmeter\protocol\system\SystemSampler.java
+326 same line(s)
+6 ignored unimportant difference line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\config\gui\TCPConfigGui.java
+285 same line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\control\gui\TCPSamplerGui.java
+104 same line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\sampler\AbstractTCPClient.java
+79 same line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\sampler\BinaryTCPClientImpl.java
+143 same line(s)
+1 ignored unimportant difference line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\sampler\LengthPrefixedBinaryTCPClientImpl.java
+121 same line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\sampler\ReadException.java
+53 same line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\sampler\TCPClient.java
+94 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\sampler\TCPClientDecorator.java
+85 same line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\sampler\TCPClientImpl.java
+138 same line(s)
+
+File: src\protocol\tcp\org\apache\jmeter\protocol\tcp\sampler\TCPSampler.java
+582 same line(s)
+
+File: src\reports\org\apache\jmeter\control\gui\ReportGui.java
+79 ignored unimportant difference line(s)
+109 important left orphan line(s)
+
+20 difference section(s)
+
+File: src\reports\org\apache\jmeter\gui\util\DirectoryDialoger.java
+35 ignored unimportant difference line(s)
+28 important left orphan line(s)
+
+13 difference section(s)
+
+File: src\reports\org\apache\jmeter\gui\util\DirectoryPanel.java
+61 ignored unimportant difference line(s)
+81 important left orphan line(s)
+
+23 difference section(s)
+
+File: src\reports\org\apache\jmeter\gui\util\ReportFileDialoger.java
+70 ignored unimportant difference line(s)
+71 important left orphan line(s)
+
+17 difference section(s)
+
+File: src\reports\org\apache\jmeter\gui\util\ReportFilePanel.java
+63 ignored unimportant difference line(s)
+81 important left orphan line(s)
+
+23 difference section(s)
+
+File: src\reports\org\apache\jmeter\gui\util\ReportMenuBar.java
+142 ignored unimportant difference line(s)
+347 important left orphan line(s)
+
+89 difference section(s)
+
+File: src\reports\org\apache\jmeter\gui\util\ReportMenuFactory.java
+77 ignored unimportant difference line(s)
+265 important left orphan line(s)
+
+49 difference section(s)
+
+File: src\reports\org\apache\jmeter\gui\ReportGuiPackage.java
+340 ignored unimportant difference line(s)
+278 important left orphan line(s)
+
+58 difference section(s)
+
+File: src\reports\org\apache\jmeter\gui\ReportMainFrame.java
+203 ignored unimportant difference line(s)
+198 important left orphan line(s)
+
+55 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\engine\ReportEngine.java
+27 ignored unimportant difference line(s)
+10 important left orphan line(s)
+
+7 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\engine\StandardReportEngine.java
+51 ignored unimportant difference line(s)
+29 important left orphan line(s)
+
+14 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\engine\ValueReplacer.java
+117 ignored unimportant difference line(s)
+31 important left orphan line(s)
+
+19 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\AbstractAction.java
+37 ignored unimportant difference line(s)
+28 important left orphan line(s)
+
+8 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportActionRouter.java
+97 ignored unimportant difference line(s)
+218 important left orphan line(s)
+
+27 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportAddParent.java
+28 ignored unimportant difference line(s)
+56 important left orphan line(s)
+
+11 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportAddToTree.java
+35 ignored unimportant difference line(s)
+49 important left orphan line(s)
+
+10 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportCheckDirty.java
+61 ignored unimportant difference line(s)
+104 important left orphan line(s)
+
+21 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportClose.java
+48 ignored unimportant difference line(s)
+43 important left orphan line(s)
+
+11 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportCopy.java
+36 ignored unimportant difference line(s)
+78 important left orphan line(s)
+
+16 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportCut.java
+31 ignored unimportant difference line(s)
+28 important left orphan line(s)
+
+8 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportDragNDrop.java
+44 ignored unimportant difference line(s)
+87 important left orphan line(s)
+
+13 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportEditCommand.java
+27 ignored unimportant difference line(s)
+32 important left orphan line(s)
+
+8 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportEnableComponent.java
+34 ignored unimportant difference line(s)
+41 important left orphan line(s)
+
+11 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportExitCommand.java
+41 ignored unimportant difference line(s)
+49 important left orphan line(s)
+
+10 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportHelp.java
+44 ignored unimportant difference line(s)
+79 important left orphan line(s)
+
+20 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportLoad.java
+35 ignored unimportant difference line(s)
+107 important left orphan line(s)
+
+15 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportLookAndFeelCommand.java
+21 ignored unimportant difference line(s)
+4 important left orphan line(s)
+
+4 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportPaste.java
+35 ignored unimportant difference line(s)
+34 important left orphan line(s)
+
+8 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportRemove.java
+34 ignored unimportant difference line(s)
+51 important left orphan line(s)
+
+9 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportSave.java
+44 ignored unimportant difference line(s)
+89 important left orphan line(s)
+
+15 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportSaveGraphics.java
+51 ignored unimportant difference line(s)
+60 important left orphan line(s)
+
+14 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\action\ReportStart.java
+77 ignored unimportant difference line(s)
+28 important left orphan line(s)
+
+11 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\tree\ReportCellRenderer.java
+25 ignored unimportant difference line(s)
+35 important left orphan line(s)
+
+7 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\tree\ReportTreeListener.java
+109 ignored unimportant difference line(s)
+218 important left orphan line(s)
+
+46 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\tree\ReportTreeModel.java
+51 ignored unimportant difference line(s)
+125 important left orphan line(s)
+
+21 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\tree\ReportTreeNode.java
+46 ignored unimportant difference line(s)
+114 important left orphan line(s)
+
+23 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\AbstractReportGui.java
+53 ignored unimportant difference line(s)
+64 important left orphan line(s)
+
+12 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\BarChartGui.java
+40 ignored unimportant difference line(s)
+115 important left orphan line(s)
+
+24 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\LineGraphGui.java
+40 ignored unimportant difference line(s)
+114 important left orphan line(s)
+
+24 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\ReportPageGui.java
+48 ignored unimportant difference line(s)
+100 important left orphan line(s)
+
+20 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\gui\TableGui.java
+37 ignored unimportant difference line(s)
+115 important left orphan line(s)
+
+18 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\writers\gui\HTMLReportWriterGui.java
+42 ignored unimportant difference line(s)
+61 important left orphan line(s)
+
+17 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\writers\AbstractReportWriter.java
+57 ignored unimportant difference line(s)
+44 important left orphan line(s)
+
+14 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\writers\DefaultPageSummary.java
+65 ignored unimportant difference line(s)
+55 important left orphan line(s)
+
+16 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\writers\DefaultReportSummary.java
+48 ignored unimportant difference line(s)
+31 important left orphan line(s)
+
+10 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\writers\HTMLReportWriter.java
+28 ignored unimportant difference line(s)
+12 important left orphan line(s)
+
+7 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\writers\PageSummary.java
+24 ignored unimportant difference line(s)
+14 important left orphan line(s)
+
+2 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\writers\ReportSummary.java
+43 ignored unimportant difference line(s)
+7 important left orphan line(s)
+
+6 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\writers\ReportWriter.java
+25 ignored unimportant difference line(s)
+7 important left orphan line(s)
+
+3 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\DataSet.java
+90 ignored unimportant difference line(s)
+24 important left orphan line(s)
+
+19 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\ReportChart.java
+26 ignored unimportant difference line(s)
+6 important left orphan line(s)
+
+4 difference section(s)
+
+File: src\reports\org\apache\jmeter\report\ReportTable.java
+20 ignored unimportant difference line(s)
+6 important left orphan line(s)
+
+4 difference section(s)
+
+File: src\reports\org\apache\jmeter\testelement\AbstractChart.java
+118 ignored unimportant difference line(s)
+125 important left orphan line(s)
+
+31 difference section(s)
+
+File: src\reports\org\apache\jmeter\testelement\AbstractTable.java
+56 ignored unimportant difference line(s)
+95 important left orphan line(s)
+
+31 difference section(s)
+
+File: src\reports\org\apache\jmeter\testelement\BarChart.java
+42 ignored unimportant difference line(s)
+69 important left orphan line(s)
+
+17 difference section(s)
+
+File: src\reports\org\apache\jmeter\testelement\JTLData.java
+98 ignored unimportant difference line(s)
+137 important left orphan line(s)
+
+27 difference section(s)
+
+File: src\reports\org\apache\jmeter\testelement\LineChart.java
+51 ignored unimportant difference line(s)
+104 important left orphan line(s)
+
+20 difference section(s)
+
+File: src\reports\org\apache\jmeter\testelement\ReportPage.java
+46 ignored unimportant difference line(s)
+54 important left orphan line(s)
+
+19 difference section(s)
+
+File: src\reports\org\apache\jmeter\testelement\ReportPlan.java
+109 ignored unimportant difference line(s)
+117 important left orphan line(s)
+
+34 difference section(s)
+
+File: src\reports\org\apache\jmeter\testelement\Table.java
+26 ignored unimportant difference line(s)
+13 important left orphan line(s)
+
+6 difference section(s)
+
+File: src\reports\org\apache\jmeter\JMeterReport.java
+160 ignored unimportant difference line(s)
+246 important left orphan line(s)
+
+37 difference section(s)
+
+File: test\src\org\apache\commons\cli\avalon\ClutilTestCase.java
+967 same line(s)
+
+File: test\src\org\apache\jmeter\assertions\MD5HexAssertionTest.java
+36 same line(s)
+
+File: test\src\org\apache\jmeter\assertions\ResponseAssertionTest.java
+253 same line(s)
+
+File: test\src\org\apache\jmeter\assertions\SizeAssertionTest.java
+168 same line(s)
+
+File: test\src\org\apache\jmeter\assertions\XMLSchemaAssertionTest.java
+175 same line(s)
+
+File: test\src\org\apache\jmeter\assertions\XPathAssertionTest.java
+322 same line(s)
+
+File: test\src\org\apache\jmeter\config\gui\TestArgumentsPanel.java
+60 same line(s)
+
+File: test\src\org\apache\jmeter\config\TestCVSDataSet.java
+235 same line(s)
+
+File: test\src\org\apache\jmeter\control\TestGenericController.java
+58 same line(s)
+
+File: test\src\org\apache\jmeter\control\TestIfController.java
+289 same line(s)
+4 ignored unimportant difference line(s)
+
+File: test\src\org\apache\jmeter\control\TestInterleaveControl.java
+227 same line(s)
+
+File: test\src\org\apache\jmeter\control\TestLoopController.java
+116 same line(s)
+
+File: test\src\org\apache\jmeter\control\TestOnceOnlyController.java
+327 same line(s)
+
+File: test\src\org\apache\jmeter\control\TestRandomOrderController.java
+73 same line(s)
+
+File: test\src\org\apache\jmeter\control\TestRunTime.java
+70 same line(s)
+
+File: test\src\org\apache\jmeter\control\TestSwitchController.java
+298 same line(s)
+
+File: test\src\org\apache\jmeter\control\TestThroughputController.java
+216 same line(s)
+
+File: test\src\org\apache\jmeter\control\TestWhileController.java
+365 same line(s)
+
+File: test\src\org\apache\jmeter\engine\util\PackageTest.java
+214 same line(s)
+
+File: test\src\org\apache\jmeter\engine\util\TestValueReplacer.java
+154 same line(s)
+
+File: test\src\org\apache\jmeter\engine\DistributedRunnerTest.java
+38 ignored unimportant difference line(s)
+140 important right orphan line(s)
+
+21 difference section(s)
+
+File: test\src\org\apache\jmeter\engine\TestTreeCloner.java
+81 same line(s)
+
+File: test\src\org\apache\jmeter\extractor\TestRegexExtractor.java
+412 same line(s)
+
+File: test\src\org\apache\jmeter\extractor\TestXPathExtractor.java
+221 same line(s)
+
+File: test\src\org\apache\jmeter\functions\PackageTest.java
+971 same line(s)
+
+File: test\src\org\apache\jmeter\functions\TestFileRowColContainer.java
+143 same line(s)
+
+File: test\src\org\apache\jmeter\functions\TestJexlFunction.java
+96 same line(s)
+
+File: test\src\org\apache\jmeter\functions\TestRegexFunction.java
+357 same line(s)
+
+File: test\src\org\apache\jmeter\functions\TestTimeFunction.java
+188 same line(s)
+
+File: test\src\org\apache\jmeter\gui\action\PackageTest.java
+37 same line(s)
+
+File: test\src\org\apache\jmeter\gui\action\TestLoad.java
+111 same line(s)
+7 important left orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: test\src\org\apache\jmeter\gui\action\TestSave.java
+50 same line(s)
+
+File: test\src\org\apache\jmeter\gui\util\JSyntaxTextAreaTest.java
+74 same line(s)
+
+File: test\src\org\apache\jmeter\gui\util\TestMenuFactory.java
+53 same line(s)
+
+File: test\src\org\apache\jmeter\gui\util\TristateCheckBoxTest.java
+117 same line(s)
+
+File: test\src\org\apache\jmeter\junit\stubs\TestSampler.java
+69 same line(s)
+
+File: test\src\org\apache\jmeter\junit\JMeterTest.java
+657 same line(s)
+
+File: test\src\org\apache\jmeter\junit\JMeterTestCase.java
+177 same line(s)
+
+File: test\src\org\apache\jmeter\monitor\model\benchmark\ParseBenchmark.java
+104 same line(s)
+
+File: test\src\org\apache\jmeter\monitor\model\TestObjectFactory.java
+73 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\config\MultipartUrlConfigTest.java
+141 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\config\UrlConfigTest.java
+75 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\control\gui\TestHttpTestSampleGui.java
+62 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\control\TestAuthManager.java
+80 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\control\TestCacheManager.java
+486 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\control\TestCookieManager.java
+407 same line(s)
+16 ignored unimportant difference line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\control\TestDNSCacheManager.java
+24 ignored unimportant difference line(s)
+18 important right orphan line(s)
+
+7 difference section(s)
+
+File: test\src\org\apache\jmeter\protocol\http\control\TestHTTPMirrorThread.java
+470 same line(s)
+8 ignored unimportant difference line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\modifier\TestAnchorModifier.java
+338 same line(s)
+2 important left orphan line(s)
+2 important right orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: test\src\org\apache\jmeter\protocol\http\modifier\TestURLRewritingModifier.java
+303 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\parser\TestHTMLParser.java
+444 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\parser\TestHtmlParsingUtils.java
+107 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\proxy\TestHttpRequestHdr.java
+662 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\proxy\TestProxyControl.java
+150 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\sampler\HTTPNullSampler.java
+46 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\sampler\HTTPSampler3.java
+55 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\sampler\NullURLConnection.java
+56 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\sampler\PackageTest.java
+69 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\sampler\PostWriterTest.java
+933 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\sampler\PutWriterTest.java
+45 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\sampler\TestHTTPSamplers.java
+349 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\sampler\TestHTTPSamplersAgainstHttpMirrorServer.java
+1449 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\util\accesslog\TestLogFilter.java
+158 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\util\accesslog\TestTCLogParser.java
+62 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\util\TestHTTPArgument.java
+96 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\util\TestHTTPFileArg.java
+66 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\util\TestHTTPFileArgs.java
+121 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\http\util\TestHTTPUtils.java
+115 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\ldap\config\gui\PackageTest.java
+51 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\tcp\sampler\BinaryTCPClientImplTest.java
+86 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\tcp\sampler\LengthPrefixedBinaryTCPClientImplTest.java
+55 same line(s)
+
+File: test\src\org\apache\jmeter\protocol\tcp\sampler\TCPClientDecoratorTest.java
+247 same line(s)
+
+File: test\src\org\apache\jmeter\resources\PackageTest.java
+443 same line(s)
+13 ignored unimportant difference line(s)
+3 important left orphan line(s)
+10 important right orphan line(s)
+1 important difference line(s)
+
+6 difference section(s)
+
+File: test\src\org\apache\jmeter\samplers\NullSampler.java
+35 same line(s)
+
+File: test\src\org\apache\jmeter\samplers\TestSampleResult.java
+328 same line(s)
+
+File: test\src\org\apache\jmeter\samplers\TestSampleSaveConfiguration.java
+139 same line(s)
+
+File: test\src\org\apache\jmeter\save\TestCSVSaveService.java
+141 same line(s)
+
+File: test\src\org\apache\jmeter\save\TestSaveService.java
+195 same line(s)
+1 ignored unimportant difference line(s)
+14 important left orphan line(s)
+5 important difference line(s)
+
+6 difference section(s)
+
+File: test\src\org\apache\jmeter\services\TestFileServer.java
+119 same line(s)
+6 ignored unimportant difference line(s)
+34 important right orphan line(s)
+
+6 difference section(s)
+
+File: test\src\org\apache\jmeter\testbeans\gui\PackageTest.java
+220 same line(s)
+
+File: test\src\org\apache\jmeter\testbeans\gui\TestBooleanPropertyEditor.java
+82 same line(s)
+
+File: test\src\org\apache\jmeter\testbeans\gui\TestComboStringEditor.java
+57 same line(s)
+
+File: test\src\org\apache\jmeter\testbeans\gui\TestFieldStringEditor.java
+52 same line(s)
+
+File: test\src\org\apache\jmeter\testelement\property\PackageTest.java
+314 same line(s)
+
+File: test\src\org\apache\jmeter\testelement\BarChartTest.java
+30 ignored unimportant difference line(s)
+58 important left orphan line(s)
+
+11 difference section(s)
+
+File: test\src\org\apache\jmeter\testelement\LineGraphTest.java
+30 ignored unimportant difference line(s)
+58 important left orphan line(s)
+
+11 difference section(s)
+
+File: test\src\org\apache\jmeter\testelement\PackageTest.java
+111 same line(s)
+
+File: test\src\org\apache\jmeter\threads\TestJMeterContextService.java
+52 same line(s)
+
+File: test\src\org\apache\jmeter\threads\TestTestCompiler.java
+63 same line(s)
+
+File: test\src\org\apache\jmeter\timers\PackageTest.java
+97 same line(s)
+
+File: test\src\org\apache\jmeter\util\PackageTest.java
+66 same line(s)
+
+File: test\src\org\apache\jmeter\util\TestJMeterUtils.java
+40 same line(s)
+
+File: test\src\org\apache\jmeter\visualizers\GenerateTreeGui.java
+239 same line(s)
+16 ignored unimportant difference line(s)
+1 important left orphan line(s)
+4 important difference line(s)
+
+3 difference section(s)
+
+File: test\src\org\apache\jmeter\visualizers\TestSamplingStatCalculator.java
+152 same line(s)
+
+File: test\src\org\apache\jmeter\JMeterVersionTest.java
+237 same line(s)
+1 ignored unimportant difference line(s)
+
+File: test\src\org\apache\jorphan\collections\PackageTest.java
+175 same line(s)
+
+File: test\src\org\apache\jorphan\exec\TestKeyToolUtils.java
+60 same line(s)
+
+File: test\src\org\apache\jorphan\math\TestStatCalculator.java
+154 same line(s)
+
+File: test\src\org\apache\jorphan\reflect\TestClassTools.java
+72 ignored unimportant difference line(s)
+41 important right orphan line(s)
+
+12 difference section(s)
+
+File: test\src\org\apache\jorphan\reflect\TestFunctor.java
+228 same line(s)
+
+File: test\src\org\apache\jorphan\test\AllTests.java
+379 same line(s)
+5 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: test\src\org\apache\jorphan\util\TestConverter.java
+67 ignored unimportant difference line(s)
+69 important right orphan line(s)
+
+14 difference section(s)
+
+File: test\src\org\apache\jorphan\util\TestJorphanUtils.java
+324 same line(s)
+
+File: test\src\org\apache\jorphan\TestFunctorUsers.java
+69 same line(s)
+
+File: test\src\org\apache\jorphan\TestXMLBuffer.java
+56 same line(s)

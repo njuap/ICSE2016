@@ -1,0 +1,2987 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 15:18:32
+
+Ignoring Unimportant
+Left base folder: D:\APsource\sqoop\version1
+Right base folder: D:\APsource\sqoop\version2
+
+File: client\src\main\java\org\apache\sqoop\client\request\AuthorizationResourceRequest.java
+42 ignored unimportant difference line(s)
+96 important right orphan line(s)
+
+22 difference section(s)
+
+File: client\src\main\java\org\apache\sqoop\client\request\ConnectorResourceRequest.java
+58 same line(s)
+
+File: client\src\main\java\org\apache\sqoop\client\request\DriverResourceRequest.java
+48 same line(s)
+
+File: client\src\main\java\org\apache\sqoop\client\request\JobResourceRequest.java
+131 same line(s)
+
+File: client\src\main\java\org\apache\sqoop\client\request\LinkResourceRequest.java
+95 same line(s)
+
+File: client\src\main\java\org\apache\sqoop\client\request\ResourceRequest.java
+232 same line(s)
+
+File: client\src\main\java\org\apache\sqoop\client\request\SqoopResourceRequests.java
+159 same line(s)
+13 ignored unimportant difference line(s)
+7 important left orphan line(s)
+38 important right orphan line(s)
+2 important difference line(s)
+
+16 difference section(s)
+
+File: client\src\main\java\org\apache\sqoop\client\request\SubmissionResourceRequest.java
+55 same line(s)
+
+File: client\src\main\java\org\apache\sqoop\client\request\VersionResourceRequest.java
+44 same line(s)
+
+File: client\src\main\java\org\apache\sqoop\client\ClientError.java
+53 same line(s)
+
+File: client\src\main\java\org\apache\sqoop\client\SqoopClient.java
+597 same line(s)
+74 ignored unimportant difference line(s)
+8 important left orphan line(s)
+30 important right orphan line(s)
+4 important difference line(s)
+
+13 difference section(s)
+
+File: client\src\main\java\org\apache\sqoop\client\SubmissionCallback.java
+44 same line(s)
+1 ignored unimportant difference line(s)
+
+File: client\src\test\java\org\apache\sqoop\client\TestSqoopClient.java
+234 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\classification\InterfaceAudience.java
+73 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\classification\InterfaceStability.java
+61 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\Direction.java
+35 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\DirectionError.java
+45 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\ErrorCode.java
+42 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\ImmutableContext.java
+74 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\common\MapContext.java
+141 same line(s)
+1 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\common\MutableContext.java
+61 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\MutableMapContext.java
+69 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\PrefixContext.java
+36 ignored unimportant difference line(s)
+38 important left orphan line(s)
+
+11 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\common\SqoopException.java
+69 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\SqoopProtocolConstants.java
+42 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\SqoopResponseCode.java
+50 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\SupportedDirections.java
+123 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\VersionAnnotation.java
+62 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\common\VersionInfo.java
+82 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\AuditLoggerError.java
+30 ignored unimportant difference line(s)
+20 important right orphan line(s)
+
+11 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\AVROIntermediateDataFormatError.java
+47 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\CommonRepositoryError.java
+214 same line(s)
+10 ignored unimportant difference line(s)
+9 important right orphan line(s)
+
+9 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\ConfigurableError.java
+46 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\ConnectorError.java
+50 ignored unimportant difference line(s)
+27 important right orphan line(s)
+
+18 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\CoreError.java
+48 ignored unimportant difference line(s)
+24 important right orphan line(s)
+
+17 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\CSVIntermediateDataFormatError.java
+64 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\DerbyRepoError.java
+74 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\DriverError.java
+41 ignored unimportant difference line(s)
+26 important right orphan line(s)
+
+19 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\GenericJdbcConnectorError.java
+103 same line(s)
+2 ignored unimportant difference line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\HdfsConnectorError.java
+52 same line(s)
+2 ignored unimportant difference line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\IntermediateDataFormatError.java
+60 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\JSONIntermediateDataFormatError.java
+51 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\KafkaConnectorErrors.java
+46 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\KiteConnectorError.java
+52 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\MapreduceSubmissionError.java
+52 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\MatcherError.java
+45 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\MRExecutionError.java
+97 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\PostgresqlRepoError.java
+51 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\error\code\ServerError.java
+37 ignored unimportant difference line(s)
+20 important left orphan line(s)
+
+13 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\etl\io\DataReader.java
+54 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\etl\io\DataWriter.java
+51 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\job\etl\DestroyerContext.java
+61 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\job\etl\ExtractorContext.java
+62 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\job\etl\InitializerContext.java
+50 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\job\etl\LoaderContext.java
+62 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\job\etl\PartitionerContext.java
+64 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\job\etl\TransferableContext.java
+80 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\util\ConfigBundleSerialization.java
+79 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\util\ConfigInputConstants.java
+47 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\util\ConfigInputSerialization.java
+212 same line(s)
+7 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\json\util\SchemaSerialization.java
+292 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\util\SerializationError.java
+47 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\ConfigurableBean.java
+30 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\ConnectorBean.java
+184 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\ConnectorsBean.java
+64 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\DriverBean.java
+89 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\JobBean.java
+198 same line(s)
+4 important difference line(s)
+
+2 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\json\JobsBean.java
+63 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\JsonBean.java
+58 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\JSONUtils.java
+74 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\LinkBean.java
+154 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\LinksBean.java
+61 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\PrincipalBean.java
+37 ignored unimportant difference line(s)
+70 important right orphan line(s)
+
+16 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\json\PrincipalsBean.java
+30 ignored unimportant difference line(s)
+33 important right orphan line(s)
+
+12 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\json\PrivilegeBean.java
+37 ignored unimportant difference line(s)
+78 important right orphan line(s)
+
+16 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\json\PrivilegesBean.java
+30 ignored unimportant difference line(s)
+33 important right orphan line(s)
+
+12 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\json\RoleBean.java
+37 ignored unimportant difference line(s)
+68 important right orphan line(s)
+
+16 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\json\RolesBean.java
+30 ignored unimportant difference line(s)
+33 important right orphan line(s)
+
+12 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\json\SchemaBean.java
+58 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\SubmissionBean.java
+233 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\SubmissionsBean.java
+63 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\ThrowableBean.java
+156 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\ValidationResultBean.java
+155 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\json\VersionBean.java
+115 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\Config.java
+39 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\ConfigClass.java
+50 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\Configurable.java
+30 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\ConfigurationClass.java
+45 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\ConfigUtils.java
+680 same line(s)
+4 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\Input.java
+75 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\InputEditable.java
+41 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MAccountableEntity.java
+128 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MBooleanInput.java
+88 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MClonable.java
+33 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MConfig.java
+140 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+1 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MConfigList.java
+138 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+1 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MConfigType.java
+41 same line(s)
+5 ignored unimportant difference line(s)
+17 important right orphan line(s)
+2 important difference line(s)
+
+6 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MConfigUpdateEntityType.java
+28 ignored unimportant difference line(s)
+6 important right orphan line(s)
+
+6 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MConfigurableType.java
+35 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MConnector.java
+177 same line(s)
+3 ignored unimportant difference line(s)
+10 important left orphan line(s)
+6 important difference line(s)
+
+6 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MDriver.java
+101 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MDriverConfig.java
+68 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MEnumInput.java
+142 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MFromConfig.java
+68 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MInput.java
+161 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MInputType.java
+49 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MIntegerInput.java
+97 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MJob.java
+164 same line(s)
+8 ignored unimportant difference line(s)
+24 important left orphan line(s)
+19 important difference line(s)
+
+15 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MLink.java
+110 same line(s)
+2 important difference line(s)
+
+1 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MLinkConfig.java
+59 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MLongInput.java
+36 ignored unimportant difference line(s)
+60 important right orphan line(s)
+
+16 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MMapInput.java
+128 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MNamedElement.java
+78 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\ModelError.java
+88 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MPersistableEntity.java
+63 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MPrincipal.java
+57 same line(s)
+8 ignored unimportant difference line(s)
+5 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MPrivilege.java
+67 same line(s)
+9 ignored unimportant difference line(s)
+6 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MResource.java
+57 same line(s)
+8 ignored unimportant difference line(s)
+5 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MRole.java
+48 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MStringInput.java
+122 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MSubmission.java
+222 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MToConfig.java
+68 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\MValidatedElement.java
+108 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\SubmissionError.java
+80 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\model\Validator.java
+49 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\AbstractComplexListType.java
+88 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\AbstractComplexType.java
+42 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\AbstractDateTime.java
+38 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\AbstractNumber.java
+38 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\AbstractPrimitiveType.java
+38 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\AbstractString.java
+91 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Array.java
+95 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Binary.java
+61 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Bit.java
+53 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Column.java
+109 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\ColumnType.java
+44 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Date.java
+53 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\DateTime.java
+105 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Decimal.java
+101 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Enum.java
+95 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\FixedPoint.java
+104 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\FloatingPoint.java
+87 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Map.java
+104 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Set.java
+51 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Text.java
+60 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Time.java
+90 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\type\Unknown.java
+68 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\ByteArraySchema.java
+46 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\NullSchema.java
+38 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\Schema.java
+188 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\SchemaError.java
+62 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\schema\SchemaMatchOption.java
+45 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\submission\counter\Counter.java
+52 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\submission\counter\CounterGroup.java
+59 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\submission\counter\Counters.java
+56 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\submission\counter\SqoopCounters.java
+31 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\submission\SubmissionStatus.java
+84 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\utils\ClassUtils.java
+170 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+
+1 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\utils\MapResourceBundle.java
+54 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\utils\UrlSafeUtils.java
+56 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\AbstractValidator.java
+107 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\ClassAvailable.java
+43 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\Contains.java
+36 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\CSVURIValidator.java
+59 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\DatasetURIValidator.java
+27 ignored unimportant difference line(s)
+22 important left orphan line(s)
+
+8 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\DirectoryExistsValidator.java
+26 ignored unimportant difference line(s)
+21 important right orphan line(s)
+
+7 difference section(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\HostAndPortValidator.java
+55 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\NotEmpty.java
+38 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\NotNull.java
+36 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\NullOrContains.java
+36 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\validators\StartsWith.java
+36 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\ConfigValidationError.java
+56 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\ConfigValidationResult.java
+102 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\ConfigValidationRunner.java
+181 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\Message.java
+73 same line(s)
+
+File: common\src\main\java\org\apache\sqoop\validation\Status.java
+97 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\common\TestMapContext.java
+109 same line(s)
+7 ignored unimportant difference line(s)
+22 important right orphan line(s)
+
+4 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\common\TestSqoopResponseCode.java
+41 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\common\TestSupportedDirections.java
+74 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\common\TestVersionInfo.java
+34 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\util\BeanTestUtil.java
+83 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\util\ConfigTestUtil.java
+186 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\util\TestConfigSerialization.java
+159 same line(s)
+18 ignored unimportant difference line(s)
+38 important right orphan line(s)
+1 important difference line(s)
+
+15 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\json\util\TestSchemaSerialization.java
+225 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestConnectorBean.java
+70 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestConnectorsBean.java
+129 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestDriverBean.java
+61 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestJobBean.java
+74 same line(s)
+8 important difference line(s)
+
+5 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestJobsBean.java
+83 same line(s)
+8 important difference line(s)
+
+5 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestJSONUtils.java
+64 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestLinkBean.java
+121 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestLinksBean.java
+97 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestSchemaBean.java
+46 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestSubmissionBean.java
+494 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestThrowableBean.java
+75 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\json\TestValidationResultBean.java
+136 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestConfigUtils.java
+438 same line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMAccountableEntity.java
+59 same line(s)
+2 ignored unimportant difference line(s)
+4 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMBooleanInput.java
+103 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMConfig.java
+86 same line(s)
+3 important right orphan line(s)
+3 important difference line(s)
+
+5 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMConfigList.java
+58 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMConnector.java
+203 same line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMDriver.java
+40 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMEnumInput.java
+65 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMIntegerInput.java
+104 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMJob.java
+119 same line(s)
+2 important right orphan line(s)
+20 important difference line(s)
+
+13 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMJobConfig.java
+42 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMLink.java
+97 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMLinkConfig.java
+45 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMMapInput.java
+116 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMNamedElement.java
+40 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMPersistableEntity.java
+50 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMStringInput.java
+104 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\model\TestMValidatedElement.java
+69 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\schema\type\TestArray.java
+57 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\schema\type\TestEnum.java
+58 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\schema\type\TestMap.java
+57 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\schema\type\TestSet.java
+49 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\submission\counter\TestCounter.java
+44 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\submission\counter\TestCounterGroup.java
+81 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\submission\counter\TestCounters.java
+67 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\submission\TestSubmissionStatus.java
+70 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\utils\TestClassUtils.java
+136 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\utils\TestMapResourceBundle.java
+41 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestClassAvailable.java
+53 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestContains.java
+90 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestCSVURIValidator.java
+68 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestDirectoryExistsValidator.java
+33 ignored unimportant difference line(s)
+47 important right orphan line(s)
+
+14 difference section(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestHostAndPortValidator.java
+73 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestNotEmpty.java
+55 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestNotNull.java
+51 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestNullOrContains.java
+97 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestStartsWith.java
+74 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\validators\TestValidator.java
+57 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\TestStatus.java
+53 same line(s)
+
+File: common\src\test\java\org\apache\sqoop\validation\TestValidationRunner.java
+182 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\asserts\ProviderAsserts.java
+72 same line(s)
+10 ignored unimportant difference line(s)
+4 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\types\DatabaseType.java
+55 ignored unimportant difference line(s)
+41 important right orphan line(s)
+
+13 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\types\DatabaseTypeList.java
+32 ignored unimportant difference line(s)
+15 important right orphan line(s)
+
+7 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\types\DerbyTypeList.java
+40 ignored unimportant difference line(s)
+74 important right orphan line(s)
+
+10 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\types\EmptyTypeList.java
+22 ignored unimportant difference line(s)
+9 important right orphan line(s)
+
+3 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\types\ExampleValue.java
+33 ignored unimportant difference line(s)
+11 important right orphan line(s)
+
+6 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\DatabaseProvider.java
+516 same line(s)
+40 ignored unimportant difference line(s)
+11 important left orphan line(s)
+15 important right orphan line(s)
+16 important difference line(s)
+
+22 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\DatabaseProviderFactory.java
+39 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\DerbyProvider.java
+168 same line(s)
+1 ignored unimportant difference line(s)
+6 important right orphan line(s)
+
+2 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\HiveProvider.java
+47 ignored unimportant difference line(s)
+54 important right orphan line(s)
+
+17 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\MySQLProvider.java
+83 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\NetezzaProvider.java
+88 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\OracleProvider.java
+88 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\PostgreSQLProvider.java
+93 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\SqlServerProvider.java
+93 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\TableName.java
+28 ignored unimportant difference line(s)
+22 important right orphan line(s)
+
+9 difference section(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\db\TeradataProvider.java
+84 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\kafka\KafkaConsumer.java
+98 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\kafka\KafkaLocal.java
+57 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\kafka\TestUtil.java
+162 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\kafka\ZooKeeperLocal.java
+72 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\utils\LoggerWriter.java
+65 same line(s)
+
+File: common-test\src\main\java\org\apache\sqoop\common\test\utils\NetworkUtils.java
+64 same line(s)
+17 ignored unimportant difference line(s)
+19 important right orphan line(s)
+
+7 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\configuration\FromJobConfig.java
+71 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\configuration\FromJobConfiguration.java
+33 same line(s)
+1 ignored unimportant difference line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\configuration\IncrementalRead.java
+24 ignored unimportant difference line(s)
+25 important right orphan line(s)
+
+6 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\configuration\LinkConfig.java
+64 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\configuration\LinkConfiguration.java
+34 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\configuration\ToJobConfig.java
+68 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\configuration\ToJobConfiguration.java
+33 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\util\SqlTypesUtils.java
+105 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcConnector.java
+98 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcConnectorConstants.java
+59 same line(s)
+2 important right orphan line(s)
+
+1 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcConnectorUpgrader.java
+49 same line(s)
+10 ignored unimportant difference line(s)
+55 important left orphan line(s)
+
+7 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcExecutor.java
+332 same line(s)
+37 ignored unimportant difference line(s)
+4 important left orphan line(s)
+32 important right orphan line(s)
+5 important difference line(s)
+
+15 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcExtractor.java
+106 same line(s)
+5 important left orphan line(s)
+2 important difference line(s)
+
+1 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcFromDestroyer.java
+36 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcFromInitializer.java
+222 same line(s)
+28 ignored unimportant difference line(s)
+32 important left orphan line(s)
+57 important right orphan line(s)
+49 important difference line(s)
+
+32 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcLoader.java
+80 same line(s)
+4 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcPartition.java
+53 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcPartitioner.java
+606 same line(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcToDestroyer.java
+58 same line(s)
+5 important left orphan line(s)
+2 important difference line(s)
+
+1 difference section(s)
+
+File: connector\connector-generic-jdbc\src\main\java\org\apache\sqoop\connector\jdbc\GenericJdbcToInitializer.java
+205 same line(s)
+3 ignored unimportant difference line(s)
+9 important left orphan line(s)
+2 important difference line(s)
+
+6 difference section(s)
+
+File: connector\connector-generic-jdbc\src\test\java\org\apache\sqoop\connector\jdbc\GenericJdbcExecutorTest.java
+89 same line(s)
+2 ignored unimportant difference line(s)
+1 important left orphan line(s)
+9 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: connector\connector-generic-jdbc\src\test\java\org\apache\sqoop\connector\jdbc\GenericJdbcTestConstants.java
+25 same line(s)
+11 ignored unimportant difference line(s)
+6 important right orphan line(s)
+
+2 difference section(s)
+
+File: connector\connector-generic-jdbc\src\test\java\org\apache\sqoop\connector\jdbc\TestExtractor.java
+282 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: connector\connector-generic-jdbc\src\test\java\org\apache\sqoop\connector\jdbc\TestFromInitializer.java
+414 same line(s)
+22 ignored unimportant difference line(s)
+1 important left orphan line(s)
+98 important right orphan line(s)
+1 important difference line(s)
+
+25 difference section(s)
+
+File: connector\connector-generic-jdbc\src\test\java\org\apache\sqoop\connector\jdbc\TestGenericJdbcConnector.java
+32 ignored unimportant difference line(s)
+45 important right orphan line(s)
+
+14 difference section(s)
+
+File: connector\connector-generic-jdbc\src\test\java\org\apache\sqoop\connector\jdbc\TestGenericJdbcConnectorUpgrader.java
+112 same line(s)
+7 ignored unimportant difference line(s)
+64 important left orphan line(s)
+
+5 difference section(s)
+
+File: connector\connector-generic-jdbc\src\test\java\org\apache\sqoop\connector\jdbc\TestLoader.java
+165 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: connector\connector-generic-jdbc\src\test\java\org\apache\sqoop\connector\jdbc\TestPartitioner.java
+520 same line(s)
+
+File: connector\connector-generic-jdbc\src\test\java\org\apache\sqoop\connector\jdbc\TestToInitializer.java
+377 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\configuration\FromJobConfig.java
+36 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\configuration\FromJobConfiguration.java
+31 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\configuration\LinkConfig.java
+48 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\configuration\LinkConfiguration.java
+31 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\configuration\ToCompression.java
+33 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\configuration\ToFormat.java
+33 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\configuration\ToJobConfig.java
+59 same line(s)
+3 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\configuration\ToJobConfiguration.java
+31 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\hdfsWriter\GenericHdfsWriter.java
+34 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\hdfsWriter\HdfsSequenceWriter.java
+57 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\hdfsWriter\HdfsTextWriter.java
+61 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsConnector.java
+124 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsConnectorUpgrader.java
+45 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsConstants.java
+33 same line(s)
+1 ignored unimportant difference line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsExtractor.java
+206 same line(s)
+1 ignored unimportant difference line(s)
+2 important left orphan line(s)
+6 important right orphan line(s)
+5 important difference line(s)
+
+10 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsFromDestroyer.java
+38 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsFromInitializer.java
+38 same line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+2 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsLoader.java
+155 same line(s)
+2 important left orphan line(s)
+6 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsPartition.java
+161 same line(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsPartitioner.java
+554 same line(s)
+1 important left orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsToDestroyer.java
+30 same line(s)
+13 ignored unimportant difference line(s)
+26 important right orphan line(s)
+2 important difference line(s)
+
+8 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsToInitializer.java
+30 same line(s)
+17 ignored unimportant difference line(s)
+36 important right orphan line(s)
+2 important difference line(s)
+
+10 difference section(s)
+
+File: connector\connector-hdfs\src\main\java\org\apache\sqoop\connector\hdfs\HdfsUtils.java
+98 same line(s)
+17 ignored unimportant difference line(s)
+4 important left orphan line(s)
+47 important right orphan line(s)
+12 important difference line(s)
+
+21 difference section(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\FileUtils.java
+82 same line(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\TestExtractor.java
+183 same line(s)
+3 important left orphan line(s)
+14 important right orphan line(s)
+14 important difference line(s)
+
+14 difference section(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\TestHdfsBase.java
+153 same line(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\TestHdfsConnector.java
+32 ignored unimportant difference line(s)
+45 important right orphan line(s)
+
+14 difference section(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\TestHdfsUtils.java
+84 same line(s)
+4 important right orphan line(s)
+5 important difference line(s)
+
+3 difference section(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\TestLinkConfig.java
+71 same line(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\TestLoader.java
+258 same line(s)
+3 important left orphan line(s)
+11 important right orphan line(s)
+17 important difference line(s)
+
+14 difference section(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\TestPartitioner.java
+108 same line(s)
+3 important left orphan line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\TestToDestroyer.java
+45 ignored unimportant difference line(s)
+69 important right orphan line(s)
+
+22 difference section(s)
+
+File: connector\connector-hdfs\src\test\java\org\apache\sqoop\connector\hdfs\TestToInitializer.java
+46 ignored unimportant difference line(s)
+66 important right orphan line(s)
+
+27 difference section(s)
+
+File: connector\connector-kafka\src\main\java\org\apache\sqoop\connector\kafka\configuration\LinkConfig.java
+31 same line(s)
+
+File: connector\connector-kafka\src\main\java\org\apache\sqoop\connector\kafka\configuration\LinkConfiguration.java
+31 same line(s)
+
+File: connector\connector-kafka\src\main\java\org\apache\sqoop\connector\kafka\configuration\ToJobConfig.java
+28 same line(s)
+
+File: connector\connector-kafka\src\main\java\org\apache\sqoop\connector\kafka\configuration\ToJobConfiguration.java
+31 same line(s)
+
+File: connector\connector-kafka\src\main\java\org\apache\sqoop\connector\kafka\KafkaConnector.java
+115 same line(s)
+
+File: connector\connector-kafka\src\main\java\org\apache\sqoop\connector\kafka\KafkaConstants.java
+42 same line(s)
+
+File: connector\connector-kafka\src\main\java\org\apache\sqoop\connector\kafka\KafkaLoader.java
+117 same line(s)
+
+File: connector\connector-kafka\src\main\java\org\apache\sqoop\connector\kafka\KafkaToDestroyer.java
+35 same line(s)
+
+File: connector\connector-kafka\src\main\java\org\apache\sqoop\connector\kafka\KafkaToInitializer.java
+51 same line(s)
+
+File: connector\connector-kafka\src\test\java\org\apache\sqoop\connector\kafka\TestConfiguration.java
+85 same line(s)
+
+File: connector\connector-kafka\src\test\java\org\apache\sqoop\connector\kafka\TestKafkaLoader.java
+97 same line(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\configuration\ConfigUtil.java
+47 same line(s)
+7 ignored unimportant difference line(s)
+12 important right orphan line(s)
+5 important difference line(s)
+
+5 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\configuration\FromJobConfig.java
+30 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\configuration\FromJobConfiguration.java
+32 same line(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\configuration\LinkConfig.java
+46 same line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\configuration\LinkConfiguration.java
+33 same line(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\configuration\ToJobConfig.java
+35 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\configuration\ToJobConfiguration.java
+33 same line(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\util\KiteDataTypeUtil.java
+149 same line(s)
+21 ignored unimportant difference line(s)
+1 important left orphan line(s)
+27 important right orphan line(s)
+8 important difference line(s)
+
+13 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\validators\DatasetURIValidator.java
+27 ignored unimportant difference line(s)
+22 important right orphan line(s)
+
+8 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteConnector.java
+95 same line(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteConnectorConstants.java
+32 same line(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteConnectorUpgrader.java
+43 same line(s)
+3 ignored unimportant difference line(s)
+37 important right orphan line(s)
+1 important difference line(s)
+
+8 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteDatasetExecutor.java
+177 same line(s)
+8 ignored unimportant difference line(s)
+28 important right orphan line(s)
+7 important difference line(s)
+
+10 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteDatasetPartition.java
+61 same line(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteDatasetPartitioner.java
+50 same line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteExtractor.java
+74 same line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteFromDestroyer.java
+36 same line(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteFromInitializer.java
+67 same line(s)
+1 ignored unimportant difference line(s)
+28 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteLoader.java
+89 same line(s)
+1 important right orphan line(s)
+5 important difference line(s)
+
+5 difference section(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteToDestroyer.java
+90 same line(s)
+
+File: connector\connector-kite\src\main\java\org\apache\sqoop\connector\kite\KiteToInitializer.java
+76 same line(s)
+1 ignored unimportant difference line(s)
+25 important right orphan line(s)
+
+3 difference section(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\configuration\TestConfigUtil.java
+43 same line(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\util\TestDataTypeUtil.java
+27 ignored unimportant difference line(s)
+15 important right orphan line(s)
+
+7 difference section(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\validators\TestDatasetURIValidator.java
+30 ignored unimportant difference line(s)
+49 important right orphan line(s)
+
+12 difference section(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\TestKiteConnector.java
+32 ignored unimportant difference line(s)
+45 important right orphan line(s)
+
+14 difference section(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\TestKiteConnectorUpgrader.java
+24 ignored unimportant difference line(s)
+30 important right orphan line(s)
+
+7 difference section(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\TestKiteExecutor.java
+167 same line(s)
+5 ignored unimportant difference line(s)
+34 important right orphan line(s)
+1 important difference line(s)
+
+7 difference section(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\TestKiteExtractor.java
+97 same line(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\TestKiteFromInitializer.java
+68 same line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\TestKiteLoader.java
+95 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\TestKiteToDestroyer.java
+111 same line(s)
+
+File: connector\connector-kite\src\test\java\org\apache\sqoop\connector\kite\TestKiteToInitializer.java
+88 same line(s)
+
+File: connector\connector-mysql-jdbc\src\main\java\org\apache\sqoop\connector\mysqljdbc\MySqlJdbcConnector.java
+71 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\configurable\ConfigurableUpgradeUtil.java
+66 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\common\AvroDataTypeUtil.java
+104 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\common\EmptyConfiguration.java
+33 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\common\FileFormat.java
+45 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\common\JarUtil.java
+62 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\common\SqoopAvroUtils.java
+132 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\common\SqoopIDFUtils.java
+531 same line(s)
+36 ignored unimportant difference line(s)
+5 important left orphan line(s)
+181 important right orphan line(s)
+24 important difference line(s)
+
+34 difference section(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\idf\AVROIntermediateDataFormat.java
+465 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\idf\CSVIntermediateDataFormat.java
+123 same line(s)
+13 ignored unimportant difference line(s)
+133 important left orphan line(s)
+3 important difference line(s)
+
+17 difference section(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\idf\IntermediateDataFormat.java
+225 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\idf\JSONIntermediateDataFormat.java
+432 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\matcher\LocationMatcher.java
+63 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\matcher\Matcher.java
+81 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\matcher\MatcherFactory.java
+34 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\matcher\NameMatcher.java
+73 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\spi\ConnectorConfigurableUpgrader.java
+88 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\connector\spi\SqoopConnector.java
+102 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\etl\Destroyer.java
+44 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\etl\Extractor.java
+57 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\etl\From.java
+63 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\etl\Initializer.java
+81 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\etl\Loader.java
+53 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\etl\Partition.java
+51 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\etl\Partitioner.java
+45 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\etl\To.java
+56 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\etl\Transferable.java
+56 same line(s)
+
+File: connector\connector-sdk\src\main\java\org\apache\sqoop\job\Constants.java
+49 same line(s)
+
+File: connector\connector-sdk\src\test\java\org\apache\sqoop\connector\common\TestSqoopIDFUtils.java
+321 same line(s)
+12 ignored unimportant difference line(s)
+56 important right orphan line(s)
+1 important difference line(s)
+
+12 difference section(s)
+
+File: connector\connector-sdk\src\test\java\org\apache\sqoop\connector\idf\TestAVROIntermediateDataFormat.java
+546 same line(s)
+
+File: connector\connector-sdk\src\test\java\org\apache\sqoop\connector\idf\TestCSVIntermediateDataFormat.java
+1182 same line(s)
+
+File: connector\connector-sdk\src\test\java\org\apache\sqoop\connector\idf\TestJSONIntermediateDataFormat.java
+521 same line(s)
+
+File: connector\connector-sdk\src\test\java\org\apache\sqoop\connector\matcher\SchemaFixture.java
+61 same line(s)
+
+File: connector\connector-sdk\src\test\java\org\apache\sqoop\connector\matcher\TestLocationMatcher.java
+96 same line(s)
+
+File: connector\connector-sdk\src\test\java\org\apache\sqoop\connector\matcher\TestNameMatcher.java
+100 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\audit\AuditLogger.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\audit\AuditLoggerConstants.java
+37 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\audit\AuditLoggerError.java
+30 ignored unimportant difference line(s)
+20 important left orphan line(s)
+
+11 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\audit\AuditLoggerManager.java
+149 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\audit\FileAuditLogger.java
+88 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\connector\ConnectorError.java
+50 ignored unimportant difference line(s)
+27 important left orphan line(s)
+
+18 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\connector\ConnectorHandler.java
+136 same line(s)
+3 important left orphan line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+2 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\connector\ConnectorManager.java
+248 same line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\connector\ConnectorManagerUtils.java
+145 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\core\ConfigurationConstants.java
+94 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\core\ConfigurationListener.java
+24 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\core\ConfigurationProvider.java
+33 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\core\CoreError.java
+48 ignored unimportant difference line(s)
+24 important left orphan line(s)
+
+17 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\core\PropertiesConfigurationProvider.java
+197 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\core\Reconfigurable.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\core\SqoopConfiguration.java
+247 same line(s)
+5 important right orphan line(s)
+
+3 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\core\SqoopServer.java
+66 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\configuration\JobConfiguration.java
+34 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\configuration\ThrottlingConfig.java
+32 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\Driver.java
+164 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\DriverConstants.java
+68 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\DriverError.java
+41 ignored unimportant difference line(s)
+26 important left orphan line(s)
+
+19 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\DriverUpgrader.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\ExecutionEngine.java
+60 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\JobManager.java
+682 same line(s)
+8 ignored unimportant difference line(s)
+5 important right orphan line(s)
+7 important difference line(s)
+
+9 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\JobRequest.java
+338 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\driver\SubmissionEngine.java
+75 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\JdbcRepository.java
+708 same line(s)
+32 ignored unimportant difference line(s)
+84 important right orphan line(s)
+
+9 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\JdbcRepositoryContext.java
+205 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\JdbcRepositoryHandler.java
+419 same line(s)
+52 ignored unimportant difference line(s)
+8 important right orphan line(s)
+
+7 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\JdbcRepositoryProvider.java
+266 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\JdbcRepositoryTransaction.java
+159 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\JdbcRepositoryTransactionFactory.java
+36 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\JdbcTransactionIsolation.java
+55 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\RepoConfigurationConstants.java
+119 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\Repository.java
+625 same line(s)
+66 ignored unimportant difference line(s)
+9 important right orphan line(s)
+
+9 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\RepositoryError.java
+142 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\RepositoryManager.java
+173 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\RepositoryProvider.java
+31 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\repository\RepositoryTransaction.java
+33 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\request\HttpEventContext.java
+35 same line(s)
+
+File: core\src\main\java\org\apache\sqoop\security\AuthenticationHandler.java
+56 same line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\security\AuthenticationManager.java
+117 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\security\AuthenticationProvider.java
+30 same line(s)
+1 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\security\AuthorizationAccessController.java
+68 same line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\security\AuthorizationHandler.java
+74 same line(s)
+4 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\security\AuthorizationManager.java
+120 same line(s)
+5 ignored unimportant difference line(s)
+4 important right orphan line(s)
+3 important difference line(s)
+
+5 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\security\AuthorizationValidator.java
+36 same line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\security\SecurityConstants.java
+145 same line(s)
+14 ignored unimportant difference line(s)
+2 important right orphan line(s)
+
+1 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\security\SecurityError.java
+72 same line(s)
+6 ignored unimportant difference line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: core\src\main\java\org\apache\sqoop\security\SecurityFactory.java
+122 same line(s)
+
+File: core\src\test\java\org\apache\sqoop\connector\TestConnectorManagerUtils.java
+81 same line(s)
+
+File: core\src\test\java\org\apache\sqoop\core\MockInvalidConfigurationProvider.java
+47 same line(s)
+
+File: core\src\test\java\org\apache\sqoop\core\TestSqoopConfiguration.java
+165 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: core\src\test\java\org\apache\sqoop\core\TestUtils.java
+181 same line(s)
+
+File: core\src\test\java\org\apache\sqoop\driver\TestDriverConfigUpgrader.java
+161 same line(s)
+
+File: core\src\test\java\org\apache\sqoop\driver\TestJobManager.java
+190 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: core\src\test\java\org\apache\sqoop\driver\TestJobRequest.java
+73 same line(s)
+
+File: core\src\test\java\org\apache\sqoop\repository\TestJdbcRepository.java
+807 same line(s)
+
+File: core\src\test\java\org\apache\sqoop\repository\TestRepositoryManager.java
+50 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\execution\mapreduce\MapreduceExecutionEngine.java
+96 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\execution\mapreduce\MRJobRequest.java
+102 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\io\SqoopWritable.java
+125 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\mr\MRConfigurationUtils.java
+276 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\mr\SqoopDestroyerExecutor.java
+90 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\mr\SqoopInputFormat.java
+131 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\mr\SqoopMapper.java
+156 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\mr\SqoopNullOutputFormat.java
+99 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\mr\SqoopOutputFormatLoadExecutor.java
+279 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\mr\SqoopProgressRunnable.java
+45 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\mr\SqoopReducer.java
+62 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\mr\SqoopSplit.java
+82 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\MRJobConstants.java
+84 same line(s)
+
+File: execution\mapreduce\src\main\java\org\apache\sqoop\job\PrefixContext.java
+45 ignored unimportant difference line(s)
+52 important right orphan line(s)
+
+15 difference section(s)
+
+File: execution\mapreduce\src\test\java\org\apache\sqoop\job\io\TestSqoopWritable.java
+100 same line(s)
+
+File: execution\mapreduce\src\test\java\org\apache\sqoop\job\mr\TestMRConfigurationUtils.java
+170 same line(s)
+
+File: execution\mapreduce\src\test\java\org\apache\sqoop\job\mr\TestSqoopOutputFormatLoadExecutor.java
+265 same line(s)
+
+File: execution\mapreduce\src\test\java\org\apache\sqoop\job\util\MRJobTestUtil.java
+114 same line(s)
+
+File: execution\mapreduce\src\test\java\org\apache\sqoop\job\TestMapReduce.java
+292 same line(s)
+
+File: execution\mapreduce\src\test\java\org\apache\sqoop\job\TestMatching.java
+305 same line(s)
+
+File: execution\mapreduce\src\test\java\org\apache\sqoop\job\TestPrefixContext.java
+36 ignored unimportant difference line(s)
+76 important right orphan line(s)
+
+20 difference section(s)
+
+File: repository\repository-common\src\main\java\org\apache\sqoop\repository\common\CommonRepoConstants.java
+24 same line(s)
+
+File: repository\repository-common\src\main\java\org\apache\sqoop\repository\common\CommonRepositoryHandler.java
+2416 same line(s)
+14 ignored unimportant difference line(s)
+5 important left orphan line(s)
+115 important right orphan line(s)
+13 important difference line(s)
+
+24 difference section(s)
+
+File: repository\repository-common\src\main\java\org\apache\sqoop\repository\common\CommonRepositoryInsertUpdateDeleteSelectQuery.java
+871 same line(s)
+7 ignored unimportant difference line(s)
+2 important left orphan line(s)
+16 important right orphan line(s)
+
+7 difference section(s)
+
+File: repository\repository-common\src\main\java\org\apache\sqoop\repository\common\CommonRepositorySchemaConstants.java
+324 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: repository\repository-common\src\main\java\org\apache\sqoop\repository\common\CommonRepoUtils.java
+57 same line(s)
+5 important difference line(s)
+
+5 difference section(s)
+
+File: repository\repository-common\src\test\java\org\apache\sqoop\repository\common\TestCommonRepoUtils.java
+39 same line(s)
+
+File: repository\repository-derby\src\main\java\org\apache\sqoop\repository\derby\DerbyRepoConstants.java
+51 same line(s)
+1 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: repository\repository-derby\src\main\java\org\apache\sqoop\repository\derby\DerbyRepositoryHandler.java
+823 same line(s)
+23 ignored unimportant difference line(s)
+1 important left orphan line(s)
+74 important right orphan line(s)
+
+17 difference section(s)
+
+File: repository\repository-derby\src\main\java\org\apache\sqoop\repository\derby\DerbySchemaConstants.java
+202 same line(s)
+
+File: repository\repository-derby\src\main\java\org\apache\sqoop\repository\derby\DerbySchemaCreateQuery.java
+514 same line(s)
+
+File: repository\repository-derby\src\main\java\org\apache\sqoop\repository\derby\DerbySchemaInsertUpdateDeleteSelectQuery.java
+104 same line(s)
+1 ignored unimportant difference line(s)
+6 important right orphan line(s)
+
+1 difference section(s)
+
+File: repository\repository-derby\src\main\java\org\apache\sqoop\repository\derby\DerbySchemaUpgradeQuery.java
+519 same line(s)
+25 ignored unimportant difference line(s)
+96 important right orphan line(s)
+
+21 difference section(s)
+
+File: repository\repository-derby\src\main\java\org\apache\sqoop\repository\derby\DerbyUpgradeGenericJdbcConnectorConfigAndInputNames.java
+57 ignored unimportant difference line(s)
+139 important right orphan line(s)
+
+31 difference section(s)
+
+File: repository\repository-derby\src\test\java\org\apache\sqoop\repository\derby\DerbyTestCase.java
+1184 same line(s)
+4 ignored unimportant difference line(s)
+4 important right orphan line(s)
+6 important difference line(s)
+
+10 difference section(s)
+
+File: repository\repository-derby\src\test\java\org\apache\sqoop\repository\derby\TestConnectorHandling.java
+176 same line(s)
+
+File: repository\repository-derby\src\test\java\org\apache\sqoop\repository\derby\TestDriverHandling.java
+103 same line(s)
+
+File: repository\repository-derby\src\test\java\org\apache\sqoop\repository\derby\TestInputTypes.java
+174 same line(s)
+
+File: repository\repository-derby\src\test\java\org\apache\sqoop\repository\derby\TestJobHandling.java
+314 same line(s)
+33 ignored unimportant difference line(s)
+2 important left orphan line(s)
+107 important right orphan line(s)
+16 important difference line(s)
+
+47 difference section(s)
+
+File: repository\repository-derby\src\test\java\org\apache\sqoop\repository\derby\TestLinkHandling.java
+293 same line(s)
+8 ignored unimportant difference line(s)
+36 important right orphan line(s)
+
+10 difference section(s)
+
+File: repository\repository-derby\src\test\java\org\apache\sqoop\repository\derby\TestRepositoryUpgrade.java
+161 same line(s)
+
+File: repository\repository-derby\src\test\java\org\apache\sqoop\repository\derby\TestSubmissionHandling.java
+323 same line(s)
+
+File: repository\repository-postgresql\src\main\java\org\apache\sqoop\repository\postgresql\PostgresqlRepoConstants.java
+33 same line(s)
+
+File: repository\repository-postgresql\src\main\java\org\apache\sqoop\repository\postgresql\PostgresqlRepositoryHandler.java
+224 same line(s)
+
+File: repository\repository-postgresql\src\main\java\org\apache\sqoop\repository\postgresql\PostgresqlSchemaCreateQuery.java
+466 same line(s)
+
+File: repository\repository-postgresql\src\main\java\org\apache\sqoop\repository\postgresql\PostgresqlSchemaQuery.java
+51 same line(s)
+
+File: repository\repository-postgresql\src\test\java\org\apache\sqoop\integration\repository\postgresql\PostgresqlTestCase.java
+165 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: repository\repository-postgresql\src\test\java\org\apache\sqoop\integration\repository\postgresql\PostgresqlTestUtils.java
+95 same line(s)
+
+File: repository\repository-postgresql\src\test\java\org\apache\sqoop\integration\repository\postgresql\TestConnectorHandling.java
+140 same line(s)
+1 important right orphan line(s)
+16 important difference line(s)
+
+5 difference section(s)
+
+File: repository\repository-postgresql\src\test\java\org\apache\sqoop\integration\repository\postgresql\TestDriverHandling.java
+82 same line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+2 difference section(s)
+
+File: repository\repository-postgresql\src\test\java\org\apache\sqoop\integration\repository\postgresql\TestHandler.java
+40 same line(s)
+
+File: repository\repository-postgresql\src\test\java\org\apache\sqoop\integration\repository\postgresql\TestJobHandling.java
+270 same line(s)
+1 important right orphan line(s)
+19 important difference line(s)
+
+15 difference section(s)
+
+File: repository\repository-postgresql\src\test\java\org\apache\sqoop\integration\repository\postgresql\TestLinkHandling.java
+275 same line(s)
+1 important right orphan line(s)
+9 important difference line(s)
+
+6 difference section(s)
+
+File: repository\repository-postgresql\src\test\java\org\apache\sqoop\integration\repository\postgresql\TestStructure.java
+81 same line(s)
+
+File: repository\repository-postgresql\src\test\java\org\apache\sqoop\integration\repository\postgresql\TestSubmissionHandling.java
+343 same line(s)
+1 important right orphan line(s)
+10 important difference line(s)
+
+11 difference section(s)
+
+File: security\src\main\java\org\apache\sqoop\security\Authentication\KerberosAuthenticationHandler.java
+89 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: security\src\main\java\org\apache\sqoop\security\Authentication\SimpleAuthenticationHandler.java
+42 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: security\src\main\java\org\apache\sqoop\security\Authorization\AuthorizationEngine.java
+129 same line(s)
+28 ignored unimportant difference line(s)
+13 important left orphan line(s)
+28 important right orphan line(s)
+27 important difference line(s)
+
+31 difference section(s)
+
+File: security\src\main\java\org\apache\sqoop\security\Authorization\DefaultAuthenticationProvider.java
+53 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: security\src\main\java\org\apache\sqoop\security\Authorization\DefaultAuthorizationAccessController.java
+144 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: security\src\main\java\org\apache\sqoop\security\Authorization\DefaultAuthorizationHandler.java
+167 same line(s)
+1 ignored unimportant difference line(s)
+2 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: security\src\main\java\org\apache\sqoop\security\Authorization\DefaultAuthorizationValidator.java
+41 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\filter\SqoopAuthenticationFilter.java
+101 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\handler\AuthorizationRequestHandler.java
+67 ignored unimportant difference line(s)
+239 important right orphan line(s)
+
+44 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\handler\ConnectorRequestHandler.java
+89 same line(s)
+2 important left orphan line(s)
+2 important right orphan line(s)
+6 important difference line(s)
+
+9 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\handler\DriverRequestHandler.java
+52 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\handler\HandlerUtils.java
+83 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\handler\JobRequestHandler.java
+397 same line(s)
+1 ignored unimportant difference line(s)
+2 important left orphan line(s)
+4 important right orphan line(s)
+21 important difference line(s)
+
+22 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\handler\LinkRequestHandler.java
+270 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+4 important right orphan line(s)
+8 important difference line(s)
+
+11 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\handler\SubmissionRequestHandler.java
+87 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\handler\VersionRequestHandler.java
+66 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\server\common\ServerError.java
+37 ignored unimportant difference line(s)
+20 important right orphan line(s)
+
+13 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\AuthorizationServlet.java
+63 ignored unimportant difference line(s)
+29 important right orphan line(s)
+
+9 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\ConfigurableServlet.java
+57 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\ConnectorServlet.java
+51 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\ConnectorsServlet.java
+43 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\DriverServlet.java
+44 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\JobServlet.java
+103 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\JobsServlet.java
+48 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\LinkServlet.java
+84 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\LinksServlet.java
+48 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\v1\SubmissionsServlet.java
+49 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\RequestContext.java
+129 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\server\RequestHandler.java
+29 same line(s)
+5 important right orphan line(s)
+
+1 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\server\ServerInitializer.java
+53 same line(s)
+
+File: server\src\main\java\org\apache\sqoop\server\SqoopProtocolServlet.java
+183 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: server\src\main\java\org\apache\sqoop\server\VersionServlet.java
+40 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\core\Constants.java
+415 same line(s)
+5 ignored unimportant difference line(s)
+69 important right orphan line(s)
+4 important difference line(s)
+
+13 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\core\ShellError.java
+63 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\utils\ConfigDisplayer.java
+256 same line(s)
+9 ignored unimportant difference line(s)
+10 important right orphan line(s)
+3 important difference line(s)
+
+7 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\utils\ConfigFiller.java
+906 same line(s)
+20 ignored unimportant difference line(s)
+47 important right orphan line(s)
+6 important difference line(s)
+
+15 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\utils\ConfigOptions.java
+117 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\utils\DynamicConfigOptions.java
+35 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\utils\JobDynamicConfigOptions.java
+46 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\utils\LinkDynamicConfigOptions.java
+39 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\utils\SubmissionDisplayer.java
+154 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\utils\TableDisplayer.java
+141 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\utils\ThrowableDisplayer.java
+96 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\CloneCommand.java
+39 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\CloneJobFunction.java
+112 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\CloneLinkFunction.java
+108 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\CreateCommand.java
+38 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\CreateJobFunction.java
+120 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\CreateLinkFunction.java
+106 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\CreateRoleFunction.java
+22 ignored unimportant difference line(s)
+31 important right orphan line(s)
+
+6 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\DeleteCommand.java
+38 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\DeleteJobFunction.java
+48 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\DeleteLinkFunction.java
+47 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\DeleteRoleFunction.java
+21 ignored unimportant difference line(s)
+28 important right orphan line(s)
+
+5 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\DisableCommand.java
+39 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\DisableJobFunction.java
+56 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\DisableLinkFunction.java
+47 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\EnableCommand.java
+39 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\EnableJobFunction.java
+48 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\EnableLinkFunction.java
+47 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\GrantCommand.java
+23 ignored unimportant difference line(s)
+16 important right orphan line(s)
+
+4 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\GrantPrivilegeFunction.java
+27 ignored unimportant difference line(s)
+84 important right orphan line(s)
+
+11 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\GrantRoleFunction.java
+27 ignored unimportant difference line(s)
+58 important right orphan line(s)
+
+11 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\HelpCommand.java
+153 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\RevokeCommand.java
+23 ignored unimportant difference line(s)
+16 important right orphan line(s)
+
+4 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\RevokePrivilegeFunction.java
+27 ignored unimportant difference line(s)
+85 important right orphan line(s)
+
+11 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\RevokeRoleFunction.java
+27 ignored unimportant difference line(s)
+58 important right orphan line(s)
+
+11 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\SetCommand.java
+36 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\SetOptionFunction.java
+91 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\SetServerFunction.java
+86 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShellEnvironment.java
+208 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowCommand.java
+42 same line(s)
+3 important right orphan line(s)
+
+1 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowConnectorFunction.java
+117 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowDriverFunction.java
+55 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowJobFunction.java
+133 same line(s)
+2 ignored unimportant difference line(s)
+5 important left orphan line(s)
+6 important right orphan line(s)
+4 important difference line(s)
+
+5 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowJobStatusFunction.java
+59 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowLinkFunction.java
+117 same line(s)
+4 ignored unimportant difference line(s)
+36 important right orphan line(s)
+7 important difference line(s)
+
+11 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowOptionFunction.java
+99 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowPrincipalFunction.java
+30 ignored unimportant difference line(s)
+47 important right orphan line(s)
+
+14 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowPrivilegeFunction.java
+31 ignored unimportant difference line(s)
+80 important right orphan line(s)
+
+15 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowRoleFunction.java
+30 ignored unimportant difference line(s)
+56 important right orphan line(s)
+
+14 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowServerFunction.java
+94 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowSubmissionFunction.java
+107 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\ShowVersionFunction.java
+130 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\SqoopCommand.java
+158 same line(s)
+2 ignored unimportant difference line(s)
+7 important right orphan line(s)
+
+4 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\SqoopFunction.java
+63 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\SqoopShell.java
+177 same line(s)
+2 important right orphan line(s)
+
+1 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\StartCommand.java
+35 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\StartJobFunction.java
+93 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\StatusCommand.java
+35 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\StopCommand.java
+35 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\StopJobFunction.java
+56 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\UpdateCommand.java
+39 same line(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\UpdateJobFunction.java
+111 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: shell\src\main\java\org\apache\sqoop\shell\UpdateLinkFunction.java
+107 same line(s)
+
+File: submission\mapreduce\src\main\java\org\apache\sqoop\submission\mapreduce\Constants.java
+35 same line(s)
+
+File: submission\mapreduce\src\main\java\org\apache\sqoop\submission\mapreduce\MapreduceSubmissionEngine.java
+498 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+
+1 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\asserts\HdfsAsserts.java
+92 same line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\data\Cities.java
+53 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\data\DataSet.java
+63 same line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\data\ShortStories.java
+29 ignored unimportant difference line(s)
+31 important right orphan line(s)
+
+8 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\data\UbuntuReleases.java
+71 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hadoop\HadoopLocalRunner.java
+46 same line(s)
+4 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hadoop\HadoopMiniClusterRunner.java
+85 same line(s)
+4 ignored unimportant difference line(s)
+4 important right orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hadoop\HadoopRealClusterRunner.java
+45 ignored unimportant difference line(s)
+39 important right orphan line(s)
+
+13 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hadoop\HadoopRunner.java
+115 same line(s)
+16 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hadoop\HadoopRunnerFactory.java
+38 same line(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hive\HiveServerRunner.java
+84 ignored unimportant difference line(s)
+51 important right orphan line(s)
+
+18 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hive\HiveServerRunnerFactory.java
+31 ignored unimportant difference line(s)
+25 important right orphan line(s)
+
+12 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hive\InternalHiveServerRunner.java
+28 ignored unimportant difference line(s)
+27 important right orphan line(s)
+
+7 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hive\InternalMetastoreServerRunner.java
+29 ignored unimportant difference line(s)
+42 important right orphan line(s)
+
+8 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hive\MetastoreServerRunner.java
+84 ignored unimportant difference line(s)
+53 important right orphan line(s)
+
+18 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\hive\MetastoreServerRunnerFactory.java
+31 ignored unimportant difference line(s)
+25 important right orphan line(s)
+
+12 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\minicluster\InProcessSqoopMiniCluster.java
+55 same line(s)
+
+File: test\src\main\java\org\apache\sqoop\test\minicluster\SqoopMiniCluster.java
+231 same line(s)
+
+File: test\src\main\java\org\apache\sqoop\test\minicluster\TomcatSqoopMiniCluster.java
+174 same line(s)
+4 important right orphan line(s)
+
+3 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\testcases\ConnectorTestCase.java
+259 same line(s)
+21 ignored unimportant difference line(s)
+3 important left orphan line(s)
+30 important right orphan line(s)
+6 important difference line(s)
+
+18 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\testcases\HiveConnectorTestCase.java
+27 ignored unimportant difference line(s)
+61 important right orphan line(s)
+
+11 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\testcases\KafkaConnectorTestCase.java
+77 same line(s)
+3 ignored unimportant difference line(s)
+1 important left orphan line(s)
+6 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\testcases\TomcatTestCase.java
+212 same line(s)
+2 ignored unimportant difference line(s)
+11 important right orphan line(s)
+2 important difference line(s)
+
+10 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\utils\CompressionUtils.java
+81 same line(s)
+
+File: test\src\main\java\org\apache\sqoop\test\utils\HdfsUtils.java
+91 same line(s)
+1 ignored unimportant difference line(s)
+8 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: test\src\main\java\org\apache\sqoop\test\utils\ParametrizedUtils.java
+110 same line(s)
+12 ignored unimportant difference line(s)
+8 important right orphan line(s)
+
+4 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\hdfs\AppendModeTest.java
+40 ignored unimportant difference line(s)
+45 important right orphan line(s)
+
+14 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\hdfs\OutputDirectoryTest.java
+76 ignored unimportant difference line(s)
+95 important right orphan line(s)
+
+39 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\hive\FromRDBMSToKiteHiveTest.java
+39 ignored unimportant difference line(s)
+52 important right orphan line(s)
+
+16 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\jdbc\generic\AllTypesTest.java
+65 ignored unimportant difference line(s)
+99 important right orphan line(s)
+
+32 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\jdbc\generic\FromHDFSToRDBMSTest.java
+68 same line(s)
+9 ignored unimportant difference line(s)
+3 important left orphan line(s)
+12 important right orphan line(s)
+2 important difference line(s)
+
+8 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\jdbc\generic\FromRDBMSToHDFSTest.java
+209 same line(s)
+18 ignored unimportant difference line(s)
+4 important left orphan line(s)
+33 important right orphan line(s)
+9 important difference line(s)
+
+22 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\jdbc\generic\IncrementalReadTest.java
+69 ignored unimportant difference line(s)
+108 important right orphan line(s)
+
+33 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\jdbc\generic\PartitionerTest.java
+135 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\jdbc\generic\TableStagedRDBMSTest.java
+81 same line(s)
+2 important left orphan line(s)
+3 important right orphan line(s)
+6 important difference line(s)
+
+5 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\kafka\FromHDFSToKafkaTest.java
+67 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\kafka\FromRDBMSToKafkaTest.java
+72 same line(s)
+2 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\connector\kite\FromRDBMSToKiteTest.java
+43 ignored unimportant difference line(s)
+51 important right orphan line(s)
+
+14 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\repository\derby\upgrade\Derby1_99_3UpgradeTest.java
+41 ignored unimportant difference line(s)
+42 important right orphan line(s)
+
+11 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\repository\derby\upgrade\Derby1_99_4UpgradeTest.java
+91 same line(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\repository\derby\upgrade\DerbyRepositoryUpgradeTest.java
+174 same line(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\server\SubmissionWithDisabledModelObjectsTest.java
+113 same line(s)
+3 ignored unimportant difference line(s)
+3 important left orphan line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: test\src\test\java\org\apache\sqoop\integration\server\VersionTest.java
+45 same line(s)
+
+File: tomcat\src\main\java\org\apache\sqoop\tomcat\TomcatToolRunner.java
+80 same line(s)
+
+File: tools\src\main\java\org\apache\sqoop\tools\tool\BuiltinTools.java
+57 same line(s)
+
+File: tools\src\main\java\org\apache\sqoop\tools\tool\JSONConstants.java
+41 same line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: tools\src\main\java\org\apache\sqoop\tools\tool\RepositoryDumpTool.java
+132 same line(s)
+1 ignored unimportant difference line(s)
+2 important left orphan line(s)
+11 important right orphan line(s)
+12 important difference line(s)
+
+11 difference section(s)
+
+File: tools\src\main\java\org\apache\sqoop\tools\tool\RepositoryLoadTool.java
+354 same line(s)
+8 ignored unimportant difference line(s)
+2 important left orphan line(s)
+11 important right orphan line(s)
+30 important difference line(s)
+
+27 difference section(s)
+
+File: tools\src\main\java\org\apache\sqoop\tools\tool\UpgradeTool.java
+61 same line(s)
+
+File: tools\src\main\java\org\apache\sqoop\tools\tool\VerifyTool.java
+47 same line(s)
+
+File: tools\src\main\java\org\apache\sqoop\tools\ConfiguredTool.java
+41 same line(s)
+
+File: tools\src\main\java\org\apache\sqoop\tools\Tool.java
+41 same line(s)
+
+File: tools\src\main\java\org\apache\sqoop\tools\ToolRunner.java
+86 same line(s)

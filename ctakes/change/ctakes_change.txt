@@ -1,0 +1,3923 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:25:17
+
+Ignoring Unimportant
+Left base folder: D:\APsource\ctakes\version1
+Right base folder: D:\APsource\ctakes\version2
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\features\selection\Chi2FeatureSelection.java
+230 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\features\selection\FeatureSelection.java
+82 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\features\selection\MutualInformationFeatureSelection.java
+285 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\features\GenericFeaturesExtractor.java
+79 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\features\HistoryFeaturesExtractor.java
+85 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\features\SubjectFeaturesExtractor.java
+80 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\generic\GenericAttributeClassifier.java
+190 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\history\HistoryAttributeClassifier.java
+383 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\subject\SubjectAttributeClassifier.java
+270 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\GenericAttributeAnalysisEngine.java
+60 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\attributes\SubjectAttributeAnalysisEngine.java
+65 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cc\JudgeAttributeInstances.java
+516 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\ArgumentInfo.java
+45 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\GoldEntityAndAttributeReader.java
+324 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\I2B2Challenge2010CollectionReader.java
+203 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\MiPACQKnowtatorXMLReader.java
+1424 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\NegExAnnotation.java
+153 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\NegExCorpusReader.java
+232 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\RelationInfo.java
+99 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\Span.java
+60 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\XmiCollectionReaderCtakes.java
+120 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\cr\XMLReader.java
+262 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\eval\AnnotationStatisticsCompact.java
+481 same line(s)
+8 important difference line(s)
+
+8 difference section(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\eval\AssertionEvaluation.java
+1540 same line(s)
+398 ignored unimportant difference line(s)
+54 important left orphan line(s)
+8 important right orphan line(s)
+58 important difference line(s)
+
+52 difference section(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\eval\MergeGoldViewFromOneCasIntoInitialViewOfAnotherCas.java
+281 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\eval\TestFeatureSelection.java
+35 ignored unimportant difference line(s)
+12 important left orphan line(s)
+
+10 difference section(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\eval\XMIReader.java
+82 same line(s)
+3 important left orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\AboveLeftFragmentExtractor.java
+56 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\AboveRightFragmentExtractor.java
+55 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\AssertionAboveLeftTreeExtractor.java
+56 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\AssertionDependencyTreeExtractor.java
+85 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\BrownClusterFeatureFunction.java
+71 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\ContextWordWindowExtractor.java
+135 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\CueWordTest.java
+156 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\CueWordTest2.java
+189 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\DependencyPathRegexpFeatureExtractor.java
+65 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\DependencyWordsFragmentExtractor.java
+68 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\ExtractorListFeatureFunctionConverter.java
+44 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\FedaFeatureFunction.java
+65 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\NegationDependencyFeatureExtractor.java
+73 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\SRLFeatureExtractor.java
+116 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\SurroundingExtractor.java
+80 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\TreeFragmentFeatureExtractor.java
+77 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\extractors\UncertaintyFeatureExtractor.java
+44 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\AlternateCuePhraseAnnotator.java
+166 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\AssertionCleartkAnalysisEngine.java
+613 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\AssertionComponents.java
+38 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\AssertionSampleFeatureGenerator.java
+66 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\ConditionalCleartkAnalysisEngine.java
+96 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\CreateAssertionDescriptor.java
+268 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\GenericCleartkAnalysisEngine.java
+106 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\HistoryCleartkAnalysisEngine.java
+108 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\PolarityCleartkAnalysisEngine.java
+168 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\PolarityFedaCleartkAnalysisEngine.java
+130 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\SubjectCleartkAnalysisEngine.java
+114 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\TrainAssertionModel.java
+382 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\cleartk\UncertaintyCleartkAnalysisEngine.java
+142 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\i2b2\api\CharacterOffsetToLineTokenConverterCtakesImpl.java
+301 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\i2b2\api\ConstraintConstructor.java
+107 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\i2b2\api\ConstraintConstructorFindContainedBy.java
+74 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\i2b2\api\ConstraintConstructorFindContainedWithin.java
+74 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\i2b2\api\SingleDocumentProcessorCtakes.java
+186 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\AssertionAnalysisEngine.java
+510 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\CasIndexer.java
+138 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\ConceptConverterAnalysisEngine.java
+139 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\ConceptLookup.java
+203 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\Converti2b2AnnotationsToCTAKES.java
+249 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\medfacts\ConvertXMIAssertionsToi2b2Format.java
+101 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\pipelines\GenerateDependencyRepresentation.java
+155 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\pipelines\GenerateTreeRepresentation.java
+166 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\pipelines\GoldEntityAndAttributeReaderPipeline.java
+91 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\pipelines\GoldEntityAndAttributeReaderPipelineForSeedCorpus.java
+433 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\pipelines\RunJudgeAttributeInstances.java
+149 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\pipelines\SharpCorpusSplit.java
+76 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\CrossValidateAttributeModels.java
+64 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\CrossValidateChi2GridSearch.java
+73 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\JustJudgeStep.java
+74 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\PolarityCotrainingTests.java
+141 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\PolarityCotrainingTrain.java
+100 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\PolarityDomainAdaptationTests.java
+146 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\PolarityDomainAdaptationTrain.java
+106 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\ReadAndPreprocessForAttributeModels.java
+82 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\ReadPreprocessTrainTestJudge.java
+70 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\TestAttributeModels.java
+75 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\train\TrainAttributeModels.java
+70 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\util\AssertionConst.java
+174 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\util\AssertionDepUtils.java
+183 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\util\AssertionTreeUtils.java
+229 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\util\NegationDepRegex.java
+527 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\util\NegationManualDepContextAnalyzer.java
+156 same line(s)
+
+File: ctakes-assertion\src\main\java\org\apache\ctakes\assertion\util\SemanticClasses.java
+52 same line(s)
+
+File: ctakes-assertion-zoner\src\main\java\org\mitre\medfacts\uima\CreateAssertionZonerDescriptors.java
+135 same line(s)
+
+File: ctakes-assertion-zoner\src\main\java\org\mitre\medfacts\uima\CreateZonerDescriptor.java
+88 same line(s)
+
+File: ctakes-assertion-zoner\src\main\java\org\mitre\medfacts\uima\RunZoner.java
+190 same line(s)
+
+File: ctakes-assertion-zoner\src\main\java\org\mitre\medfacts\uima\ZoneAnnotator.java
+171 same line(s)
+
+File: ctakes-chunker\scripts\java\data\chunk\genia\Genia2PTB.java
+70 same line(s)
+
+File: ctakes-chunker\scripts\java\data\chunk\Chunklink2OpenNLP.java
+52 same line(s)
+
+File: ctakes-chunker\src\main\java\org\apache\ctakes\chunker\ae\adjuster\ChunkAdjuster.java
+293 same line(s)
+
+File: ctakes-chunker\src\main\java\org\apache\ctakes\chunker\ae\ChunkCreator.java
+50 same line(s)
+
+File: ctakes-chunker\src\main\java\org\apache\ctakes\chunker\ae\Chunker.java
+179 same line(s)
+
+File: ctakes-chunker\src\main\java\org\apache\ctakes\chunker\ae\DefaultChunkCreator.java
+47 same line(s)
+
+File: ctakes-chunker\src\main\java\org\apache\ctakes\chunker\ae\PhraseTypeChunkCreator.java
+91 same line(s)
+
+File: ctakes-chunker\src\test\java\org\apache\ctakes\chunker\ChunkAdjusterTests.java
+102 same line(s)
+
+File: ctakes-chunker\src\test\java\org\apache\ctakes\chunker\ChunkerTests.java
+181 same line(s)
+
+File: ctakes-clinical-pipeline\src\main\java\org\apache\ctakes\clinicalpipeline\ae\ExtractionPrepAnnotator.java
+206 same line(s)
+
+File: ctakes-clinical-pipeline\src\main\java\org\apache\ctakes\clinicalpipeline\runtime\BagOfAnnotationsGenerator.java
+94 same line(s)
+
+File: ctakes-clinical-pipeline\src\main\java\org\apache\ctakes\clinicalpipeline\runtime\BagOfCUIsGenerator.java
+70 same line(s)
+
+File: ctakes-clinical-pipeline\src\main\java\org\apache\ctakes\clinicalpipeline\ClinicalPipelineFactory.java
+59 same line(s)
+118 ignored unimportant difference line(s)
+35 important left orphan line(s)
+83 important right orphan line(s)
+4 important difference line(s)
+
+25 difference section(s)
+
+File: ctakes-clinical-pipeline\src\main\java\org\apache\ctakes\clinicalpipeline\ClinicalPipelineWithUmls.java
+73 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\ae\ConstituencyParser.java
+83 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\ae\ParserEvaluationAnnotator.java
+123 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\treekernel\TreeExtractor.java
+320 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\treekernel\TreeKernel.java
+126 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\uima\co\ParserTreeWriterConsumer.java
+83 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\util\AnnotationTreeUtils.java
+338 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\util\CommandLineParserUtil.java
+73 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\util\TreeUtils.java
+377 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\MaxentParserWrapper.java
+97 same line(s)
+
+File: ctakes-constituency-parser\src\main\java\org\apache\ctakes\constituency\parser\ParserWrapper.java
+28 same line(s)
+
+File: ctakes-context-tokenizer\src\main\java\org\apache\ctakes\contexttokenizer\ae\ContextDependentTokenizerAnnotator.java
+235 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\CDASegmentAnnotator.java
+209 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\CopyAnnotator.java
+157 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\DocumentIdPrinterAnalysisEngine.java
+42 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\FilterAnnotator.java
+92 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\NullAnnotator.java
+40 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\OverlapAnnotator.java
+483 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\SectionSegmentAnnotator.java
+183 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\SentenceDetector.java
+363 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\SHARPKnowtatorXMLReader.java
+1551 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\SimpleSegmentAnnotator.java
+76 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\SimpleSegmentWithTagsAnnotator.java
+133 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\TokenConverter.java
+216 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\TokenizerAnnotator.java
+171 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ae\TokenizerAnnotatorPTB.java
+311 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\AbstractJdbcWriter.java
+104 ignored unimportant difference line(s)
+176 important right orphan line(s)
+
+36 difference section(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\CasConsumer.java
+120 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\CASConsumerTestDriver.java
+71 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\FilesInDirectoryCasConsumer.java
+110 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\HtmlTableCasConsumer.java
+406 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\JdbcWriterTemplate.java
+104 ignored unimportant difference line(s)
+193 important right orphan line(s)
+
+37 difference section(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\NonTerminalConsumer.java
+39 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\NormalizedFilesInDirectoryCasConsumer.java
+100 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\SentenceTokensPrinter.java
+166 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\TokenFreqCasConsumer.java
+157 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\TokenOffsetsCasConsumer.java
+113 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cc\XmiWriterCasConsumerCtakes.java
+231 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ci\HyphenTextModifierImpl.java
+334 same line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ci\TextModification.java
+68 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\ci\TextModifier.java
+35 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cpe\CmdLineCpeRunner.java
+169 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cr\FilesInDirectoryCollectionCyclicalReads.java
+198 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cr\FilesInDirectoryCollectionReader.java
+305 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cr\JdbcCollectionReader.java
+446 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cr\LinesFromFileCollectionReader.java
+230 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cr\TextReader.java
+120 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cr\XmiCollectionReaderCtakes.java
+120 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\cr\XMIReader.java
+85 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\BaseTokenAdapter.java
+50 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\CharacterTokenAdapter.java
+46 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\ContractionTokenAdapter.java
+37 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\DecimalTokenAdapter.java
+47 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\IntegerTokenAdapter.java
+86 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\NewlineTokenAdapter.java
+38 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\NumberTokenAdapter.java
+66 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\PunctuationTokenAdapter.java
+37 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\SymbolTokenAdapter.java
+37 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\TextTokenAdapter.java
+47 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\adapters\WordTokenAdapter.java
+75 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\CombineCondition.java
+45 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\DayNightWordCondition.java
+47 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\DecimalCondition.java
+42 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\DecimalRangeCondition.java
+53 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\DecimalValueCondition.java
+51 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\DisjoinCondition.java
+45 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\HourMinuteCondition.java
+72 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\IntegerCondition.java
+42 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\IntegerRangeCondition.java
+53 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\IntegerValueCondition.java
+51 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\NegateCondition.java
+42 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\NumberCondition.java
+42 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\PunctuationValueCondition.java
+51 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\RangeCondition.java
+39 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\RomanNumeralCondition.java
+39 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\SymbolValueCondition.java
+51 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\TextSetCondition.java
+59 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\TextValueCondition.java
+66 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\WordSetCondition.java
+58 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\condition\WordValueCondition.java
+66 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\DateFSM.java
+316 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\FractionFSM.java
+206 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\FSM.java
+33 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\MeasurementFSM.java
+321 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\NegationFSM.java
+429 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\PersonTitleFSM.java
+157 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\RangeFSM.java
+220 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\RomanNumeralFSM.java
+177 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\StatusIndicatorFSM.java
+297 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\machine\TimeFSM.java
+187 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\BaseTokenImpl.java
+40 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\DateToken.java
+30 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\FractionToken.java
+31 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\MeasurementToken.java
+31 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\NegationIndicator.java
+33 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\PersonTitleToken.java
+30 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\RangeToken.java
+30 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\RomanNumeralToken.java
+31 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\StatusIndicator.java
+43 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\output\TimeToken.java
+30 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\state\NamedState.java
+55 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\state\NonTerminalEndState.java
+51 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\adapter\BaseTokenAdapter.java
+39 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\adapter\CharacterTokenAdapter.java
+38 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\adapter\DecimalTokenAdapter.java
+39 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\adapter\IntegerTokenAdapter.java
+72 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\adapter\NumberTokenAdapter.java
+50 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\adapter\PunctuationTokenAdapter.java
+37 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\adapter\TokenConverter.java
+67 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\adapter\WordTokenAdapter.java
+73 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\BaseToken.java
+25 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\CharacterToken.java
+23 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\ContractionToken.java
+23 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\DecimalToken.java
+23 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\EolToken.java
+23 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\IntegerToken.java
+23 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\NumberToken.java
+23 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\PunctuationToken.java
+23 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\SymbolToken.java
+23 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\TextToken.java
+27 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\fsm\token\WordToken.java
+37 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\knowtator\KnowtatorAnnotation.java
+183 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\knowtator\KnowtatorXMLParser.java
+253 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\nlp\tokenizer\ContractionResult.java
+40 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\nlp\tokenizer\ContractionsPTB.java
+498 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\nlp\tokenizer\HyphenatedPTB.java
+552 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\nlp\tokenizer\OffsetComparator.java
+48 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\nlp\tokenizer\Token.java
+230 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\nlp\tokenizer\Tokenizer.java
+654 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\nlp\tokenizer\TokenizerHelper.java
+89 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\nlp\tokenizer\TokenizerPTB.java
+1310 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\FileLocator.java
+52 same line(s)
+64 ignored unimportant difference line(s)
+3 important left orphan line(s)
+39 important right orphan line(s)
+31 important difference line(s)
+
+16 difference section(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\FileResource.java
+29 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\FileResourceImpl.java
+62 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\JdbcConnectionResource.java
+34 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\JdbcConnectionResourceImpl.java
+138 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\LinesFromFileStringsResourceImpl.java
+74 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\LuceneIndexReaderResource.java
+29 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\LuceneIndexReaderResourceImpl.java
+87 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\StringIntegerMapResource.java
+33 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\StringIntegerMapResourceImpl.java
+105 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\StringMapResource.java
+34 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\StringMapResourceImpl.java
+93 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\resource\StringsResource.java
+31 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\sentence\EndOfSentenceScannerImpl.java
+75 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\sentence\SentenceDetectorCtakes.java
+354 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\sentence\SentenceSpan.java
+190 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\CtakesFileNamer.java
+83 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\DateParser.java
+156 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\DocumentIDAnnotationUtil.java
+43 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\DocumentSection.java
+72 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\FSUtil.java
+143 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\IdentifiedAnnotationUtil.java
+36 ignored unimportant difference line(s)
+84 important right orphan line(s)
+
+14 difference section(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\JCasUtil.java
+48 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\ListFactory.java
+68 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\ListIterable.java
+13 ignored unimportant difference line(s)
+29 important right orphan line(s)
+
+13 difference section(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\Mapper.java
+56 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\ParamUtil.java
+69 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\SHARPKnowtatorXMLDefaults.java
+39 same line(s)
+
+File: ctakes-core\src\main\java\org\apache\ctakes\core\util\SourceMetadataUtil.java
+56 ignored unimportant difference line(s)
+65 important right orphan line(s)
+
+17 difference section(s)
+
+File: ctakes-core\src\test\java\org\apache\ctakes\core\ae\SentenceDetectorAnnotatorTest.java
+123 same line(s)
+
+File: ctakes-core\src\test\java\org\apache\ctakes\core\ae\SimpleSegmentAnnotatorTests.java
+69 same line(s)
+
+File: ctakes-core\src\test\java\org\apache\ctakes\core\ae\TestCDASegmentAnnotator.java
+90 same line(s)
+
+File: ctakes-core\src\test\java\org\apache\ctakes\core\ae\TokenizerAnnotatorPTBTests.java
+611 same line(s)
+
+File: ctakes-core\src\test\java\org\apache\ctakes\core\ci\HyphenTextModifierImplTests.java
+122 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\ae\MipacqMarkableCreator.java
+102 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\ae\MipacqMarkableExpander.java
+216 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\ae\MipacqMarkablePairGenerator.java
+401 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\ae\MipacqSvmChainCreator.java
+409 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\cc\ODIEVectorFileWriter.java
+481 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\cc\PreprocessAndWriteXmi.java
+147 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\eval\helpers\B3Type.java
+21 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\eval\helpers\CEAFType.java
+21 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\eval\helpers\KAlphaType.java
+21 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\eval\helpers\MatType.java
+27 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\eval\helpers\PairType.java
+21 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\eval\helpers\Span.java
+153 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\eval\helpers\SpanAlignment.java
+105 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\eval\helpers\SpanOffsetComparator.java
+44 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\eval\helpers\Test.java
+64 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\treekernel\training\KernelMatrixCompositor.java
+100 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\treekernel\training\LinearKernelMatrixWriter.java
+173 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\treekernel\training\RowFillerThread.java
+74 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\treekernel\training\TreeKernelTrainer.java
+175 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\AbstractClassifier.java
+64 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\AnaphoricityAttributeCalculator.java
+215 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\AnnotationCounter.java
+46 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\AnnotationSelector.java
+211 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\AnnotOffsetComparator.java
+29 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\AttributeCalculator.java
+209 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\CorefConsts.java
+38 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\EditDistance.java
+75 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\FeatureVector.java
+122 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\FSIteratorToList.java
+55 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\GoldStandardLabeler.java
+158 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\HobbsTreeNavigator.java
+228 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\MarkableDepUtils.java
+47 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\MarkableTreeUtils.java
+107 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\PairAttributeCalculator.java
+611 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\ParentPtrTree.java
+88 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\SvmUtils.java
+37 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\SvmVectorCreator.java
+230 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\SyntaxAttributeCalculator.java
+467 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\TextMatch.java
+39 same line(s)
+
+File: ctakes-coreference\src\main\java\org\apache\ctakes\coreference\util\ThreadDelegator.java
+25 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\ae\util\WriteClearNLPDescriptors.java
+196 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\ae\util\XMIReader.java
+89 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\ae\ClearNLPDependencyParserAE.java
+170 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\ae\ClearNLPSemanticRoleLabelerAE.java
+319 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\cr\DependencyFileCollectionReader.java
+402 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\util\AnnotationDepUtils.java
+349 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\util\ClearDependencyUtility.java
+139 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\util\Delim.java
+61 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\util\DependencyPath.java
+159 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\util\DependencyRegex.java
+331 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\util\DependencyUtility.java
+407 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\util\SRLUtility.java
+39 same line(s)
+
+File: ctakes-dependency-parser\src\main\java\org\apache\ctakes\dependency\parser\DependencyNodeWriter.java
+210 same line(s)
+
+File: ctakes-dependency-parser\src\test\java\org\apache\ctakes\dependency\parser\ae\util\TestClearNLPAnalysisEngines.java
+136 same line(s)
+
+File: ctakes-dictionary-lookup\scripts\java\org\apache\ctakes\dictionary\lookup\tools\CreateLuceneIndexForExampleDrugs.java
+97 same line(s)
+
+File: ctakes-dictionary-lookup\scripts\java\org\apache\ctakes\dictionary\lookup\tools\CreateLuceneIndexForSnomedLikeSample.java
+230 same line(s)
+
+File: ctakes-dictionary-lookup\scripts\java\org\apache\ctakes\dictionary\lookup\tools\CreateLuceneIndexFromDelimitedFile.java
+454 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\assertion\CreateAssertionLuceneIndexFromDelimitedFile.java
+448 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\assertion\package-info.java
+26 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\AssertionCuePhraseConsumerImpl.java
+216 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\BaseLookupConsumerImpl.java
+88 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\DebugConsumerImpl.java
+70 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\DictionaryLookupAnnotator.java
+252 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\DirectLookupInitializerImpl.java
+150 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\FirstTokenPermLookupInitializerImpl.java
+261 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\LookupAnnotationToJCasAdapter.java
+88 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\LookupConsumer.java
+49 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\LookupInitializer.java
+108 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\LookupParseUtilities.java
+314 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\LookupParseUtilitiesRefactor.java
+314 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\LookupSpec.java
+60 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\NamedEntityLookupConsumerImpl.java
+143 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\OrangeBookFilterConsumerImpl.java
+148 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\ThreadedDictionaryLookupAnnotator.java
+285 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\ThreadedUmlsDictionaryLookupAnnotator.java
+89 same line(s)
+14 ignored unimportant difference line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\UmlsDictionaryLookupAnnotator.java
+39 same line(s)
+103 ignored unimportant difference line(s)
+10 important left orphan line(s)
+10 important right orphan line(s)
+9 important difference line(s)
+
+9 difference section(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\UmlsToSnomedConsumerImpl.java
+260 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\UmlsToSnomedDbConsumerImpl.java
+97 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\ae\UmlsToSnomedLuceneConsumerImpl.java
+132 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\algorithms\DirectPassThroughImpl.java
+104 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\algorithms\FirstTokenPermutationImpl.java
+537 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\algorithms\LookupAlgorithm.java
+50 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\algorithms\PermutationUtil.java
+168 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\filter\CollectionFilter.java
+42 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\filter\FilterException.java
+32 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\filter\MetaDataPostLookupFilterImpl.java
+78 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\filter\PostLookupFilter.java
+30 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\filter\PostLookupFilterGroupImpl.java
+84 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\filter\PreLookupFilter.java
+28 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\filter\SetValuePostLookupFilterImpl.java
+157 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\filter\StringPreLookupFilterImpl.java
+43 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\filter\TruncateCollectionFilterImpl.java
+74 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\jdbc\JdbcDictionaryImpl.java
+149 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\lucene\LuceneDictionaryImpl.java
+144 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\lucene\LuceneDocumentMetaDataHitImpl.java
+80 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\phrasebuilder\PhraseBuilder.java
+39 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\phrasebuilder\VariantPhraseBuilderImpl.java
+124 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\strtable\FieldConstraint.java
+31 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\strtable\FieldConstraintImpl.java
+101 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\strtable\StringTable.java
+79 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\strtable\StringTableDictionaryImpl.java
+68 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\strtable\StringTableFactory.java
+147 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\strtable\StringTableRow.java
+48 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\strtable\StringTableRowMetaDataHitImpl.java
+63 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\vo\LookupAnnotation.java
+71 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\vo\LookupAnnotationToTokAdapter.java
+77 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\vo\LookupHit.java
+117 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\vo\LookupToken.java
+31 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\vo\LookupTokenComparator.java
+54 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\AbstractBaseDictionary.java
+49 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\AbstractBaseMetaDataHit.java
+59 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\BaseDictionaryImpl.java
+53 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\BaseMetaDataHitImpl.java
+87 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\Dictionary.java
+51 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\DictionaryEngine.java
+206 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\DictionaryException.java
+33 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\GenericMetaDataHitImpl.java
+61 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\MetaDataHit.java
+37 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\MetaDataHitComparator.java
+80 same line(s)
+
+File: ctakes-dictionary-lookup\src\main\java\org\apache\ctakes\dictionary\lookup\MetaDataHitConst.java
+35 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\ae\AbstractJCasTermAnnotator.java
+291 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\ae\DefaultJCasTermAnnotator.java
+79 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\ae\DictionaryLookupFactory.java
+39 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\ae\JCasTermAnnotator.java
+60 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\ae\OverlapJCasTermAnnotator.java
+225 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\ae\WindowProcessor.java
+60 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\concept\AbstractConceptFactory.java
+45 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\concept\BsvConceptFactory.java
+186 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\concept\Concept.java
+97 same line(s)
+3 important left orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\concept\ConceptCode.java
+12 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\concept\ConceptFactory.java
+35 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\concept\JdbcConceptFactory.java
+218 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\concept\MemConceptFactory.java
+36 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\concept\UmlsJdbcConceptFactory.java
+57 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\consumer\AbstractTermConsumer.java
+103 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\consumer\DefaultTermConsumer.java
+148 same line(s)
+7 ignored unimportant difference line(s)
+1 important left orphan line(s)
+19 important right orphan line(s)
+13 important difference line(s)
+
+12 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\consumer\PrecisionTermConsumer.java
+138 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\consumer\SemanticCleanupTermConsumer.java
+128 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\consumer\TermConsumer.java
+61 same line(s)
+1 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\consumer\WsdTermConsumer.java
+283 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\dictionary\AbstractRareWordDictionary.java
+67 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\dictionary\BsvRareWordDictionary.java
+163 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\dictionary\DictionaryDescriptorParser.java
+366 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\dictionary\JdbcRareWordDictionary.java
+156 same line(s)
+1 ignored unimportant difference line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\dictionary\MemRareWordDictionary.java
+57 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\dictionary\RareWordDictionary.java
+59 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\dictionary\RareWordDictionaryWrapper.java
+114 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\dictionary\RareWordTermMapCreator.java
+387 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\dictionary\UmlsJdbcRareWordDictionary.java
+59 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\relation\CuiRelationsJdbc.java
+110 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\term\RareWordTerm.java
+112 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\term\SpannedRareWordTerm.java
+97 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\textspan\DefaultTextSpan.java
+103 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\textspan\MultiTextSpan.java
+126 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\textspan\TextSpan.java
+43 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\collection\ArrayListMap.java
+225 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\collection\CollectionCreator.java
+17 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\collection\CollectionCreatorFactory.java
+46 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\collection\CollectionMap.java
+93 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\collection\DefaultCollectionMap.java
+279 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\collection\EnumSetMap.java
+215 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\collection\HashSetMap.java
+225 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\collection\ImmutableCollectionMap.java
+216 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\CuiCodeUtil.java
+60 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\DefaultDictionarySpec.java
+184 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\DictionarySpec.java
+60 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\FastLookupToken.java
+115 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\JdbcConnectionFactory.java
+78 same line(s)
+13 ignored unimportant difference line(s)
+18 important left orphan line(s)
+33 important right orphan line(s)
+4 important difference line(s)
+
+14 difference section(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\LookupUtil.java
+60 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\SemanticUtil.java
+149 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\TokenMatchUtil.java
+98 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\TuiCodeUtil.java
+68 same line(s)
+
+File: ctakes-dictionary-lookup-fast\src\main\java\org\apache\ctakes\dictionary\lookup2\util\UmlsUserApprover.java
+130 same line(s)
+7 ignored unimportant difference line(s)
+31 important right orphan line(s)
+7 important difference line(s)
+
+18 difference section(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\ae\impl\NegContextInitializerImpl.java
+148 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\ae\CopyDrugAnnotator.java
+190 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\ae\DrugMentionAnnotator.java
+3722 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\cc\ConsumeNamedEntityRecordModel.java
+671 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\AssociatedCodeElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\AssociatedPrimaryCodeElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\AssociatedSecondaryCodeElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\ConfidenceScoreElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\DosageElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\DrugChangeStatusElement.java
+60 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\DurationElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\FormElement.java
+79 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\FrequencyElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\FrequencyUnitElement.java
+63 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\RouteElement.java
+67 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\StartDateElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\StrengthElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\StrengthUnitElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\elements\TextMentionElement.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\ContainsSetTextValueCondition.java
+102 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\DecimalStrengthStatusCondition.java
+39 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\DosageCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\DrugChangeStatusCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\FormCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\FractionCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\FractionStrengthCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\FrequencyUnitCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\RangeDosageCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\RangeStrengthCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\RouteCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\StrengthCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\StrengthUnitCombinedCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\StrengthUnitCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\elements\conditions\TimeCondition.java
+40 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\DecimalStrengthFSM.java
+168 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\DosagesFSM.java
+487 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\DrugChangeStatusFSM.java
+863 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\DurationFSM.java
+510 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\FormFSM.java
+300 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\FractionStrengthFSM.java
+288 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\FrequencyFSM.java
+655 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\FrequencyUnitFSM.java
+1682 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\RangeStrengthFSM.java
+542 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\RouteFSM.java
+796 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\StrengthFSM.java
+553 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\elements\StrengthUnitFSM.java
+493 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\util\HyphenatedDrugFSM.java
+233 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\util\NegIndicatorFSM.java
+553 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\util\NonIndicatorFSM.java
+212 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\util\StatusIndicatorFSM.java
+426 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\util\SubSectionIndicatorFSM.java
+346 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\util\SuffixFrequencyFSM.java
+890 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\machines\util\SuffixStrengthFSM.java
+218 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\AssociatedCodeToken.java
+33 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\BaseTokenImpl.java
+44 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\ConfidenceScoreToken.java
+33 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\DosageToken.java
+33 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\DrugChangeStatusToken.java
+58 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\DurationToken.java
+33 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\FormToken.java
+33 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\FrequencyToken.java
+35 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\FrequencyUnitToken.java
+62 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\RouteToken.java
+56 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\StrengthToken.java
+33 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\StrengthUnitCombinedToken.java
+30 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\elements\StrengthUnitToken.java
+30 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\DecimalStrengthToken.java
+42 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\FractionStrengthToken.java
+36 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\FractionToken.java
+36 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\HyphenatedDrugToken.java
+36 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\NonIndicator.java
+41 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\RangeStrengthToken.java
+36 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\RangeToken.java
+35 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\SubSectionIndicator.java
+51 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\SuffixFrequencyToken.java
+34 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\output\util\SuffixStrengthToken.java
+34 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\fsm\states\util\IndentStartState.java
+53 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\DrugMention.java
+1519 same line(s)
+
+File: ctakes-drug-ner\src\main\java\org\apache\ctakes\drugner\DrugModel.java
+61 same line(s)
+
+File: ctakes-examples\src\main\java\org\apache\ctakes\examples\ae\ExampleHelloWorldAnnotator.java
+91 same line(s)
+
+File: ctakes-examples\src\main\java\org\apache\ctakes\examples\pipelines\ExampleAggregatePipeline.java
+56 same line(s)
+
+File: ctakes-lvg\src\main\java\org\apache\ctakes\lvg\ae\LvgAnnotator.java
+600 same line(s)
+
+File: ctakes-lvg\src\main\java\org\apache\ctakes\lvg\ae\LvgBaseTokenAnnotator.java
+524 same line(s)
+
+File: ctakes-lvg\src\main\java\org\apache\ctakes\lvg\resource\LvgCmdApiResource.java
+37 same line(s)
+
+File: ctakes-lvg\src\main\java\org\apache\ctakes\lvg\resource\LvgCmdApiResourceImpl.java
+180 same line(s)
+
+File: ctakes-lvg\src\main\test\org\apache\ctakes\lvg\test\TestLvgAnnotator.java
+81 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\negation\NegationContextAnalyzer.java
+59 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\negation\NegationContextHitConsumer.java
+43 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\status\StatusContextAnalyzer.java
+89 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\status\StatusContextHitConsumer.java
+51 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\ContextAnalyzer.java
+102 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\ContextAnalyzerAdapter.java
+41 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\ContextAnnotator.java
+386 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\ContextHit.java
+46 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\ContextHitConsumer.java
+47 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\ContextHitConsumerAdapter.java
+32 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\NamedEntityContextAnalyzer.java
+121 same line(s)
+
+File: ctakes-ne-contexts\src\main\java\org\apache\ctakes\necontexts\NamedEntityContextHitConsumer.java
+47 same line(s)
+
+File: ctakes-ne-contexts\src\test\java\org\apache\ctakes\necontexts\ContextAnnotatorTests.java
+517 same line(s)
+
+File: ctakes-ne-contexts\src\test\java\org\apache\ctakes\necontexts\NegationAnnotatorTests.java
+148 same line(s)
+
+File: ctakes-ne-contexts\src\test\java\org\apache\ctakes\necontexts\StatusAnnotatorTests.java
+162 same line(s)
+
+File: ctakes-pos-tagger\scripts\java\data\pos\dictionary\ListTags.java
+158 same line(s)
+
+File: ctakes-pos-tagger\scripts\java\data\pos\training\GeniaPosTrainingDataExtractor.java
+218 same line(s)
+
+File: ctakes-pos-tagger\scripts\java\data\pos\training\GeniaPosTrainingDataExtractorTests.java
+109 same line(s)
+
+File: ctakes-pos-tagger\src\main\java\org\apache\ctakes\postagger\ClearNLPPOSTaggerAE.java
+127 same line(s)
+
+File: ctakes-pos-tagger\src\main\java\org\apache\ctakes\postagger\OpenNLPPOSCollectionReader.java
+149 same line(s)
+
+File: ctakes-pos-tagger\src\main\java\org\apache\ctakes\postagger\POSTagger.java
+160 same line(s)
+
+File: ctakes-pos-tagger\src\main\java\org\apache\ctakes\postagger\TagDictionaryCreator.java
+191 same line(s)
+
+File: ctakes-pos-tagger\src\test\java\org\apache\ctakes\postagger\test\CpeTests.java
+255 same line(s)
+
+File: ctakes-pos-tagger\src\test\java\org\apache\ctakes\postagger\test\OpenNLPPOSCollectionReaderTests.java
+158 same line(s)
+
+File: ctakes-pos-tagger\src\test\java\org\apache\ctakes\postagger\test\POSTaggerTests.java
+223 same line(s)
+
+File: ctakes-pos-tagger\src\test\java\org\apache\ctakes\postagger\test\TagDictionaryCreatorTests.java
+104 same line(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\ae\CdaCasInitializer.java
+209 same line(s)
+9 ignored unimportant difference line(s)
+6 important left orphan line(s)
+17 important right orphan line(s)
+5 important difference line(s)
+
+12 difference section(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\test\TestDriver.java
+144 same line(s)
+1 ignored unimportant difference line(s)
+4 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\Annotation.java
+30 same line(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\ClinicalNotePreProcessor.java
+1060 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\DocumentMetaData.java
+135 same line(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\DTDloader.java
+51 same line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\IntegerRange.java
+29 same line(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\PreProcessor.java
+35 same line(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\SegmentMetaData.java
+32 same line(s)
+
+File: ctakes-preprocessor\src\main\java\org\apache\ctakes\preprocessor\Utility.java
+91 same line(s)
+
+File: ctakes-preprocessor\src\test\java\org\apache\ctakes\preprocessor\ClinicalNotePreProcessorTest.java
+139 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: ctakes-regression-test\src\test\java\org\apache\ctakes\regression\test\RegressionPipelineTest.java
+256 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\baselines\Baseline1DegreeOfRelationExtractorAnnotator.java
+61 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\baselines\Baseline1EntityMentionPairRelationExtractorAnnotator.java
+83 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\baselines\Baseline2DegreeOfRelationExtractorAnnotator.java
+111 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\baselines\Baseline2EntityMentionPairRelationExtractorAnnotator.java
+128 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\baselines\Baseline3DegreeOfRelationExtractorAnnotator.java
+150 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\baselines\Baseline3EntityMentionPairRelationExtractorAnnotator.java
+162 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\baselines\Baseline4DegreeOfRelationExtractorAnnotator.java
+63 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\baselines\Baseline4EntityMentionPairRelationExtractorAnnotator.java
+92 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\baselines\Utils.java
+142 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\ArgumentOrderFeatureExtractor.java
+51 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\DependencyParseUtils.java
+153 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\DependencyPathFeaturesExtractor.java
+57 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\DependencyTreeFeaturesExtractor.java
+63 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\EmbeddingFeatureExtractor.java
+33 ignored unimportant difference line(s)
+46 important right orphan line(s)
+
+13 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\EntitySpanFeatureExtractor.java
+67 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\FlatTreeFeatureExtractor.java
+75 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\NamedEntityFeaturesExtractor.java
+91 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\PartOfSpeechFeaturesExtractor.java
+70 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\PETFeatureExtractor.java
+62 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\PhraseChunkingExtractor.java
+134 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\PrepositionFeatureExtractor.java
+71 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\PunctuationFeatureExtractor.java
+59 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\RelationFeaturesExtractor.java
+44 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\TokenFeaturesExtractor.java
+144 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\TreeFragmentFeatureExtractor.java
+101 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\WordNetFeatureExtractor.java
+69 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\features\WordNetUtils.java
+196 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\CausesBringsAboutRelationExtractorAnnotator.java
+43 ignored unimportant difference line(s)
+74 important right orphan line(s)
+
+13 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\DegreeOfRelationExtractorAnnotator.java
+90 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\IdentifiedAnnotationExpander.java
+124 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\LocationOfRelationExtractorAnnotator.java
+90 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\ManagesTreatsRelationExtractorAnnotator.java
+35 ignored unimportant difference line(s)
+75 important right orphan line(s)
+
+12 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\ModifierExtractorAnnotator.java
+125 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\ae\RelationExtractorAnnotator.java
+300 same line(s)
+8 important right orphan line(s)
+5 important difference line(s)
+
+5 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\data\analysis\EventAndEntityViewer.java
+41 ignored unimportant difference line(s)
+52 important right orphan line(s)
+
+15 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\data\analysis\GoldRelationViewer.java
+55 ignored unimportant difference line(s)
+122 important right orphan line(s)
+
+21 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\data\analysis\Utils.java
+53 ignored unimportant difference line(s)
+66 important right orphan line(s)
+
+24 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\data\CategoricalDistribution.java
+76 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\data\Constants.java
+65 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\data\GoldAnnotationAnalysisPipeline.java
+80 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\data\GoldAnnotationStatsCalculator.java
+245 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\data\Splitter.java
+130 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\data\Stats.java
+145 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\eval\ModifierExtractorEvaluation.java
+169 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\eval\ParameterSettings.java
+86 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\eval\PrintRelationStatistics.java
+98 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\eval\RelationExtractorEvaluation.java
+719 same line(s)
+3 ignored unimportant difference line(s)
+18 important right orphan line(s)
+2 important difference line(s)
+
+9 difference section(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\eval\SHARPXMI.java
+349 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\eval\XMIReader.java
+86 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\knowtator\ArgumentInfo.java
+45 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\knowtator\RelationInfo.java
+99 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\knowtator\Span.java
+62 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\knowtator\XMLReader.java
+181 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\pipelines\RelationAnnotationViewer.java
+121 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\pipelines\RelationExtractorConsumer.java
+104 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\pipelines\RelationExtractorPipeline.java
+84 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\pipelines\RelationExtractorPipelineSingleCas.java
+77 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\pipelines\RelationExtractorTrain.java
+220 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\pipelines\SelectiveRelationAnnotationViewer.java
+222 same line(s)
+
+File: ctakes-relation-extractor\src\main\java\org\apache\ctakes\relationextractor\pipelines\TreeFeatureConsumer.java
+247 same line(s)
+
+File: ctakes-relation-extractor\src\test\java\org\apache\ctakes\relationextractor\ae\NamedEntityFeaturesExtractorTest.java
+60 same line(s)
+
+File: ctakes-relation-extractor\src\test\java\org\apache\ctakes\relationextractor\ae\RelationExtractorAnnotatorsTest.java
+124 same line(s)
+
+File: ctakes-side-effect\src\main\java\org\apache\ctakes\sideeffect\ae\PSESentenceAnnotator.java
+135 same line(s)
+
+File: ctakes-side-effect\src\main\java\org\apache\ctakes\sideeffect\ae\SESentenceClassifierAnnotator.java
+138 same line(s)
+
+File: ctakes-side-effect\src\main\java\org\apache\ctakes\sideeffect\ae\SESentenceFeatureAnnotator.java
+313 same line(s)
+
+File: ctakes-side-effect\src\main\java\org\apache\ctakes\sideeffect\ae\SideEffectAnnotator.java
+881 same line(s)
+
+File: ctakes-side-effect\src\main\java\org\apache\ctakes\sideeffect\cc\SideEffectCasConsumer.java
+127 same line(s)
+
+File: ctakes-side-effect\src\main\java\org\apache\ctakes\sideeffect\cc\SideEffectSentenceCasConsumer.java
+104 same line(s)
+
+File: ctakes-side-effect\src\main\java\org\apache\ctakes\sideeffect\util\PatternMatch.java
+141 same line(s)
+
+File: ctakes-side-effect\src\main\java\org\apache\ctakes\sideeffect\util\SEUtil.java
+410 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\ae\ClassifiableEntries.java
+657 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\ae\KuRuleBasedClassifierAnnotator.java
+162 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\ae\PcsClassifierAnnotator_libsvm.java
+236 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\ae\ResolutionAnnotator.java
+262 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\ae\SentenceAdjuster.java
+245 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\cc\RecordResolutionCasConsumer.java
+202 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\context\negation\NegationContextAnalyzer.java
+59 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\context\NamedEntityContextAnalyzer.java
+121 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\lookup\ae\NonSmokerNamedEntityLookupConsumerImpl.java
+101 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\lookup\ae\SmokerNamedEntityLookupConsumerImpl.java
+100 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\lookup\ae\UnknownSmokerNamedEntityLookupConsumerImpl.java
+99 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\machine\NegationFSM.java
+435 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\MLutil\GenerateTrainingData.java
+242 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\patientLevel\PatientLevelSmokingStatus.java
+315 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\util\ClassifiableEntry.java
+28 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\util\TruthValue.java
+27 same line(s)
+
+File: ctakes-smoking-status\src\main\java\org\apache\ctakes\smokingstatus\Const.java
+38 same line(s)
+
+File: ctakes-template-filler\src\main\java\org\apache\ctakes\template\filler\ae\TemplateFillerAnnotator.java
+381 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\baselines\F1BaselineEventTimeRelationAnnotator.java
+119 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\baselines\PrecisionBaselineEventTimeRelationAnnotator.java
+114 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\baselines\RecallBaselineEventEventRelationAnnotator.java
+97 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\baselines\RecallBaselineEventTimeRelationAnnotator.java
+111 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\baselines\TimidBaselineEventTimeRelationAnnotator.java
+105 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\baselines\TreeHeightBaseline.java
+110 same line(s)
+2 important left orphan line(s)
+3 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\coreference\DistanceFeatureExtractor.java
+5 ignored unimportant difference line(s)
+24 important left orphan line(s)
+
+6 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\coreference\DistSemFeatureExtractor.java
+30 ignored unimportant difference line(s)
+75 important left orphan line(s)
+
+15 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\coreference\StringMatchingFeatureExtractor.java
+14 ignored unimportant difference line(s)
+84 important left orphan line(s)
+
+15 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\coreference\TokenFeatureExtractor.java
+17 ignored unimportant difference line(s)
+82 important left orphan line(s)
+
+16 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\coreference\UMLSFeatureExtractor.java
+10 ignored unimportant difference line(s)
+63 important left orphan line(s)
+
+11 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\duration\DurationDistributionFeatureExtractor.java
+65 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\duration\DurationEventEventFeatureExtractor.java
+78 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\duration\DurationEventTimeFeatureExtractor.java
+75 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\duration\DurationExpectationFeatureExtractor.java
+87 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\duration\DurationTimeUnitFeatureExtractor.java
+69 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\selection\BinaryAlphaFeatureSelection.java
+255 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\selection\Chi2FeatureSelection.java
+273 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\selection\FeatureSelection.java
+82 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\selection\MutualInformationFeatureSelection.java
+285 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\selection\OddsRatioFeatureSelection.java
+211 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\treekernel\DependencySingleTreeExtractor.java
+118 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\treekernel\EventTimeFlatTreeFeatureExtractor.java
+111 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\treekernel\SyntaticSingleTreeExtractor.java
+76 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\treekernel\TemporalFTExtractor.java
+104 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\treekernel\TemporalPathExtractor.java
+93 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\treekernel\TemporalPETExtractor.java
+159 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\CheckSpecialWordRelationExtractor.java
+168 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\ChunkingExtractor.java
+58 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\ClosestVerbExtractor.java
+88 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\ConjunctionRelationFeaturesExtractor.java
+60 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\CoordinateFeaturesExtractor.java
+67 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\CoveredTextToValuesExtractor.java
+122 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\DateAndMeasurementExtractor.java
+94 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\DependencyFeatureExtractor.java
+87 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\DependencyParseUtils.java
+179 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\DependencyPathFeaturesExtractor.java
+53 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\DependingVerbsFeatureExtractor.java
+96 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\DeterminerRelationFeaturesExtractor.java
+62 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\DocTimeRelFeatureExtractor.java
+52 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\EmptyFeaturesExtractor.java
+6 ignored unimportant difference line(s)
+13 important right orphan line(s)
+
+7 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\EventArgumentPropertyExtractor.java
+110 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\EventPositionFeatureExtractor.java
+52 ignored unimportant difference line(s)
+93 important right orphan line(s)
+
+20 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\EventPositionRelationFeaturesExtractor.java
+140 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\EventPropertyExtractor.java
+61 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\EventTimeRelationFeatureExtractor.java
+138 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\EventTimeRelationsFeaturesExtractor.java
+68 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\FramesetCategoryExtractor.java
+71 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\IdentifiedAnnotationFeatureExtractor.java
+144 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\ListFeaturesExtractor.java
+147 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\MultiTokenFeaturesExtractor.java
+65 ignored unimportant difference line(s)
+129 important right orphan line(s)
+
+27 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\NearbyVerbTenseRelationExtractor.java
+94 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\NearbyVerbTenseXExtractor.java
+80 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\NearestFlagFeatureExtractor.java
+115 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\NumberOfEventsInTheSameSentenceExtractor.java
+121 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\NumberOfEventTimeBetweenCandidatesExtractor.java
+109 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\OverlappedHeadFeaturesExtractor.java
+79 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\ParseFeatureExtractor.java
+71 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\ParseSpanFeatureExtractor.java
+80 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\PredicateArgumentExtractor.java
+73 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\SectionHeaderExtractor.java
+75 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\SectionHeaderRelationExtractor.java
+104 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\SpecialAnnotationRelationExtractor.java
+156 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\SRLRelationFeaturesExtractor.java
+101 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\SyntacticParentFeatureExtractor.java
+52 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\TemporalAttributeFeatureExtractor.java
+67 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\TemporalAttributeForMixEventTimeExtractor.java
+70 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\TemporalPETFlatExtractor.java
+174 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\TimeWordTypeExtractor.java
+75 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\TimeXExtractor.java
+156 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\TimeXPropertyRelationFeaturesExtractor.java
+84 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\TimeXRelationFeaturesExtractor.java
+113 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\TokenPropertyFeaturesExtractor.java
+125 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\UMLSBasedTokenFeaturesExtractor.java
+39 ignored unimportant difference line(s)
+86 important right orphan line(s)
+
+22 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\UmlsFeatureExtractor.java
+110 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\UmlsSingleFeatureExtractor.java
+90 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\feature\UnexpandedTokenFeaturesExtractor.java
+88 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\BackwardsTimeAnnotator.java
+257 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\ClearTKDocTimeRelAnnotator.java
+82 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\ClearTKDocumentCreationTimeAnnotator.java
+53 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\ClearTKLinkToTHYMELinkAnnotator.java
+88 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\ConsecutiveSentencesEventEventRelationAnnotator.java
+267 same line(s)
+19 ignored unimportant difference line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\ConsecutiveSentencesEventTimeRelationAnnotator.java
+201 same line(s)
+15 ignored unimportant difference line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\ConstituencyBasedTimeAnnotator.java
+318 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\ContextualModalityAnnotator.java
+120 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\CoreferenceChainAnnotator.java
+27 ignored unimportant difference line(s)
+96 important left orphan line(s)
+
+17 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\CRFTimeAnnotator.java
+246 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\DocTimeRelAnnotator.java
+158 same line(s)
+13 ignored unimportant difference line(s)
+5 important left orphan line(s)
+10 important right orphan line(s)
+7 important difference line(s)
+
+12 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\DocTimeRelWithTreeAnnotator.java
+171 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventAdmissionTimeAnnotator.java
+180 same line(s)
+67 ignored unimportant difference line(s)
+7 important left orphan line(s)
+49 important right orphan line(s)
+4 important difference line(s)
+
+16 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventAnnotator.java
+393 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventCoreferenceAnnotator.java
+44 ignored unimportant difference line(s)
+181 important left orphan line(s)
+
+31 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventDischargeTimeAnnotator.java
+173 same line(s)
+64 ignored unimportant difference line(s)
+5 important left orphan line(s)
+30 important right orphan line(s)
+11 important difference line(s)
+
+16 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventEventI2B2RelationAnnotator.java
+102 ignored unimportant difference line(s)
+196 important right orphan line(s)
+
+35 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventEventRelationAnnotator.java
+242 same line(s)
+44 ignored unimportant difference line(s)
+5 important left orphan line(s)
+38 important right orphan line(s)
+28 important difference line(s)
+
+27 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventTimeI2B2RelationAnnotator.java
+74 ignored unimportant difference line(s)
+176 important right orphan line(s)
+
+34 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventTimeRelationAnnotator.java
+251 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventTimeSelfRelationAnnotator.java
+228 same line(s)
+19 ignored unimportant difference line(s)
+10 important left orphan line(s)
+5 important right orphan line(s)
+10 important difference line(s)
+
+15 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\EventToClearTKEventAnnotator.java
+64 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\I2B2TemporalXMLReader.java
+166 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\MetaTimeAnnotator.java
+220 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\NEPredicateEventAnnotator.java
+115 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\TemporalEntityAnnotator_ImplBase.java
+42 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\TemporalRelationRuleAnnotator.java
+244 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\TemporalSequenceAnnotator_ImplBase.java
+42 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\THYMEAnaforaXMLReader.java
+411 same line(s)
+1 ignored unimportant difference line(s)
+4 important left orphan line(s)
+12 important right orphan line(s)
+5 important difference line(s)
+
+8 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\THYMEKnowtatorXMLReader.java
+112 same line(s)
+1 ignored unimportant difference line(s)
+5 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\THYMETreebankReader.java
+325 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\TimeAnnotator.java
+320 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\TimexAdmissionTimeAnnotator.java
+258 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\TimexDischargeTimeAnnotator.java
+255 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\ae\TimexToClearTKTimexAnnotator.java
+47 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\CompareFeatureStructures.java
+318 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\CoreferenceLinkDistanceAnalyzer.java
+99 ignored unimportant difference line(s)
+203 important left orphan line(s)
+
+37 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\EventContextAnalysisPipeline.java
+208 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\EventPrinterPipeline.java
+226 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\GoldRelationViewer.java
+164 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\PrintFailedTimeNormalizations.java
+111 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\PrintInconsistentAnnotations.java
+188 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\PrintNormalizedTemporalExpressions.java
+67 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\RelationContextViewerPipeline.java
+217 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\data\analysis\TimexTreeAlignmentStatistics.java
+124 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\EventDurationDistribution.java
+305 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\EventEventDurationStatistics.java
+152 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\EventTimeDurationStatistics.java
+162 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\ExtractDurationsUsingContainsRelation.java
+202 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\PreserveCertainEventEventRelationsInGold.java
+99 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\PreserveCertainEventsInGold.java
+70 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\PreserveCertainEventTimeRelationsInGold.java
+115 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\PreserveUMLSEventEventRelationsInGold.java
+111 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\PreserveUMLSEventTimeRelationsInGold.java
+115 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\duration\Utils.java
+465 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\CommandLine.java
+51 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\Evaluation_ImplBase.java
+781 same line(s)
+126 ignored unimportant difference line(s)
+60 important left orphan line(s)
+214 important right orphan line(s)
+22 important difference line(s)
+
+67 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfAnnotationSpans_ImplBase.java
+240 same line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+10 important difference line(s)
+
+12 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfBothEEAndETRelations.java
+419 ignored unimportant difference line(s)
+640 important right orphan line(s)
+
+93 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfClearTKEventProperties.java
+239 same line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfClearTKEventSpans.java
+109 same line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfClearTKRelations.java
+195 same line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfClearTKTimeSpans.java
+108 same line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfEventCoreference.java
+55 ignored unimportant difference line(s)
+439 important left orphan line(s)
+
+48 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfEventEventRelations.java
+220 same line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfEventEventThymeRelations.java
+1039 same line(s)
+33 ignored unimportant difference line(s)
+1 important left orphan line(s)
+104 important right orphan line(s)
+15 important difference line(s)
+
+40 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfEventProperties.java
+294 same line(s)
+2 important left orphan line(s)
+2 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfEventPropertiesTk.java
+348 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfEventSpans.java
+166 same line(s)
+2 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfEventTimeRelations.java
+1137 same line(s)
+123 ignored unimportant difference line(s)
+12 important left orphan line(s)
+137 important right orphan line(s)
+14 important difference line(s)
+
+43 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfI2B2TemporalRelations.java
+1030 same line(s)
+4 ignored unimportant difference line(s)
+15 important left orphan line(s)
+8 important right orphan line(s)
+26 important difference line(s)
+
+27 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfMetaTimeExpressionExtractor.java
+234 same line(s)
+2 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfNEPredicateEventSpans.java
+107 same line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+5 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfSelfEventTimeRelations.java
+980 same line(s)
+3 important left orphan line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+7 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfTemporalRelations_ImplBase.java
+258 same line(s)
+15 ignored unimportant difference line(s)
+9 important left orphan line(s)
+2 important right orphan line(s)
+6 important difference line(s)
+
+7 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\EvaluationOfTimeSpans.java
+306 same line(s)
+2 important right orphan line(s)
+5 important difference line(s)
+
+7 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\I2B2Data.java
+91 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\PrintRelations.java
+125 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\RemoveTreeAlignedMentions.java
+75 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\eval\THYMEData.java
+92 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\pipelines\EventAndTimeExtractionPipeline.java
+81 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\pipelines\EventExtractionPipeline.java
+74 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\pipelines\EventPrintingPipeline.java
+98 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\pipelines\FullTemporalExtractionPipeline.java
+152 same line(s)
+3 important left orphan line(s)
+
+3 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\pipelines\TemporalExtractionPipeline_ImplBase.java
+97 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\pipelines\TimeExtractionPipeline.java
+70 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\utils\AnnotationIdCollection.java
+178 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\utils\CheckKnowtatorAnnotations.java
+104 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\utils\CorefConst.java
+1 ignored unimportant difference line(s)
+5 important left orphan line(s)
+
+2 difference section(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\utils\RunCorpusDiagnostics.java
+126 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\utils\SMOTEplus.java
+149 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\utils\TimeRelationConstants.java
+35 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\utils\TlinkType.java
+279 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\utils\TLinkTypeArray2.java
+495 same line(s)
+
+File: ctakes-temporal\src\main\java\org\apache\ctakes\temporal\utils\TlinkTypeSet.java
+127 same line(s)
+
+File: ctakes-temporal\src\test\java\org\apache\ctakes\temporal\ae\BackwardsTimeAnnotatorTest.java
+97 same line(s)
+
+File: ctakes-temporal\src\test\java\org\apache\ctakes\temporal\ae\ContextualModalityAnnotatorTest.java
+121 same line(s)
+
+File: ctakes-temporal\src\test\java\org\apache\ctakes\temporal\ae\DocTimeRelAnnotatorTest.java
+139 same line(s)
+
+File: ctakes-temporal\src\test\java\org\apache\ctakes\temporal\ae\EventAnnotatorTest.java
+75 same line(s)
+7 ignored unimportant difference line(s)
+13 important left orphan line(s)
+9 important right orphan line(s)
+1 important difference line(s)
+
+10 difference section(s)
+
+File: ctakes-temporal\src\test\java\org\apache\ctakes\temporal\ae\EventEventRelationAnnotatorTest.java
+121 same line(s)
+
+File: ctakes-temporal\src\test\java\org\apache\ctakes\temporal\ae\EventTimeRelationAnnotatorTest.java
+121 same line(s)
+
+File: ctakes-type-system\src\main\java\org\apache\ctakes\typesystem\type\constants\CONST.java
+218 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\build\BuildPear.java
+197 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\build\BuildPipelinePears.java
+108 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\build\InstallPearSilently.java
+368 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\build\InstallPipelineFromPears.java
+112 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\distsem\DistanceMetrics.java
+51 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\distsem\WordEmbeddings.java
+104 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\distsem\WordVector.java
+35 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\distsem\WordVectorReader.java
+43 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\env\EnvironmentVariable.java
+73 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\kernel\Kernel.java
+49 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\kernel\LinearKernel.java
+29 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\kernel\PolyKernel.java
+96 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\kernel\RBFKernel.java
+58 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\struct\CounterMap.java
+46 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\struct\CounterTreeMap.java
+61 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\test\TestUtil.java
+223 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\tree\FragmentUtils.java
+50 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\tree\SimpleTree.java
+161 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\wiki\ApproximateMath.java
+58 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\wiki\ApproximateSimilarity.java
+44 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\wiki\SearchResult.java
+34 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\wiki\TestCosineSimilarity.java
+87 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\wiki\WikiIndex.java
+425 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\xcas_comparison\Compare.java
+52 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\xcas_comparison\Const.java
+62 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\xcas_comparison\ConvertAndCompare.java
+126 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\xcas_comparison\XcasAnnotation.java
+248 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\xcas_comparison\XcasDiff.java
+214 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\xcas_comparison\XcasFile.java
+240 same line(s)
+
+File: ctakes-utils\src\main\java\org\apache\ctakes\utils\xcas_comparison\XcasProcessor.java
+186 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\common\FileUtil.java
+97 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\common\package-info.java
+23 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\common\PropertiesFile.java
+85 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\common\PropFile.java
+72 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\common\Singleton.java
+41 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\base\JdlConnection.java
+156 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\base\package-info.java
+23 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\loader\CsvLoader.java
+257 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\loader\Loader.java
+54 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\loader\package-info.java
+23 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\loader\XmlLoader.java
+137 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\xml\jaxb\ObjectFactoryBind.java
+76 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\xml\jaxb\ObjectFactoryUtil.java
+121 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\xml\jaxb\package-info.java
+23 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\xml\DomParser.java
+92 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\xml\DomUtil.java
+154 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\xml\package-info.java
+23 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\xml\SaxParser.java
+150 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\xml\SchemaUtil.java
+109 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\data\xml\Validation.java
+163 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\App.java
+31 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\AppJdl.java
+118 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\AppMain.java
+93 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\jdl\package-info.java
+28 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\dao\DBUtil.java
+118 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\dao\ClassifierEvaluationDao.java
+117 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\dao\ClassifierEvaluationDaoImpl.java
+398 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\dao\ConceptDao.java
+85 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\dao\ConceptDaoImpl.java
+613 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\dao\KernelEvaluationDao.java
+57 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\dao\KernelEvaluationDaoImpl.java
+206 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\dao\SortedSetUserType.java
+117 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\dao\StringArrayUserType.java
+125 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\AttributeProductKernel.java
+41 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\CacheKernel.java
+102 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\CacheKeyGenerator.java
+26 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\ConvolutionKernel.java
+86 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\CorpusKernelEvaluator.java
+35 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\CorpusKernelEvaluatorImpl.java
+516 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\EqualityKernel.java
+35 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\Kernel.java
+23 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\LinKernel.java
+32 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\MethodCachingInterceptor.java
+117 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\NamedEntityNegationKernel.java
+52 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\NodeAttributeKernel.java
+63 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\NormKernel.java
+132 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\ProductKernel.java
+65 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\SemanticSimKernel.java
+157 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\SemanticTypeKernel.java
+410 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\SumKernel.java
+48 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\SymmetricPairCacheKeyGenerator.java
+46 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\TreePrinter.java
+55 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\evaluator\WeightedPolynomialMixingKernel.java
+153 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\BaseSimilarityMetric.java
+110 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\ConceptInfo.java
+89 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\ConceptPair.java
+117 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\ConceptPairSimilarity.java
+69 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\ConceptSimilarityService.java
+204 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\ConceptSimilarityServiceImpl.java
+1119 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\IntrinsicLCHMetric.java
+56 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\IntrinsicPathMetric.java
+53 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\IntrinsicRadaMetric.java
+55 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\JaccardMetric.java
+48 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\LCHMetric.java
+51 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\LCSPath.java
+96 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\LinMetric.java
+82 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\PageRankMetric.java
+42 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\PathMetric.java
+41 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\RadaMetric.java
+52 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\SimilarityInfo.java
+135 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\SimilarityMetric.java
+42 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\SokalSneathMetric.java
+49 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\metric\WuPalmerMetric.java
+45 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\ClassifierEvaluation.java
+119 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\ClassifierEvaluationIRStat.java
+186 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\ClassifierInstanceEvaluation.java
+73 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\ConceptGraph.java
+95 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\ConcRel.java
+679 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\CrossValidationFold.java
+125 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\CrossValidationFoldInstance.java
+75 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\FeatureEvaluation.java
+119 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\FeatureParentChild.java
+49 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\FeatureRank.java
+162 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\KernelEvaluation.java
+95 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\KernelEvaluationInstance.java
+115 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\ObjPair.java
+34 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\SemiLClassifierEvaluation.java
+101 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\model\SVMClassifierEvaluation.java
+77 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\pagerank\PageRankService.java
+64 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\pagerank\PageRankServiceImpl.java
+542 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\tree\InstanceTreeBuilder.java
+38 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\tree\InstanceTreeBuilderImpl.java
+228 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\tree\Node.java
+112 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\tree\NodeKey.java
+63 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\tree\NodeMappingInfo.java
+52 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\tree\QueryMappingInfo.java
+47 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\tree\TreeMappingInfo.java
+74 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\wsd\WordSenseDisambiguator.java
+62 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\wsd\WordSenseDisambiguatorImpl.java
+189 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\AbstractBagOfWordsExporter.java
+247 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\BagOfWordsData.java
+148 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\BagOfWordsDecorator.java
+40 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\BagOfWordsExporter.java
+43 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\BaseClassifierEvaluationParser.java
+394 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\BaseSparseDataFormatter.java
+279 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\ClassifierEvaluationImporter.java
+209 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\ClassifierEvaluationParser.java
+91 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\ClassifierEvaluationResult.java
+59 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\ClassifierEvaluationResults.java
+72 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\ClassifierEvalUtil.java
+526 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\CytoscapeHelper.java
+43 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\CytoscapeHelperImpl.java
+280 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\FileUtil.java
+315 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\FoldGenerator.java
+67 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\FoldGeneratorImpl.java
+434 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\ImputedFeatureEvaluator.java
+48 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\ImputedFeatureEvaluatorImpl.java
+1336 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\InfoContentEvaluator.java
+35 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\InfoContentEvaluatorImpl.java
+271 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\InstanceData.java
+100 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\IntrinsicInfoContentEvaluator.java
+35 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\IntrinsicInfoContentEvaluatorImpl.java
+526 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\IRMetrics.java
+113 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\KernelContextHolder.java
+37 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\KernelUtil.java
+98 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\KernelUtilImpl.java
+425 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\OrderedPair.java
+77 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\Pair.java
+66 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\RRFtoWideTab.java
+86 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\SimSvcContextHolder.java
+37 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\SparseData.java
+104 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\SparseDataExporter.java
+46 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\SparseDataExporterImpl.java
+460 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\SparseDataFormatter.java
+107 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\SparseDataFormatterFactory.java
+26 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\SvmlinEvaluationParser.java
+219 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\kernel\SVMLinFormatterFactory.java
+220 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\libsvm\LibSVMFormatterFactory.java
+211 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\libsvm\LibSVMGramMatrixExporter.java
+28 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\libsvm\LibSVMGramMatrixExporterImpl.java
+528 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\libsvm\LibSVMParser.java
+394 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\libsvm\LibSVMUtil.java
+42 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\libsvm\LibSVMUtilImpl.java
+92 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\R\RGramMatrixExporter.java
+28 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\R\RGramMatrixExporterImpl.java
+348 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\semil\SemiLEvaluationParser.java
+285 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\semil\SemiLFormatterFactory.java
+455 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\sparsematrix\InstanceDataExporter.java
+40 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\sparsematrix\InstanceDataExporterImpl.java
+160 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\sparsematrix\SparseMatrixFormatterFactory.java
+218 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\svmlight\SGTFormatterFactory.java
+92 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\svmlight\SVMLightFormatterFactory.java
+254 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\svmlight\SVMLightParser.java
+184 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\umls\dao\UMLSDao.java
+70 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\umls\dao\UMLSDaoImpl.java
+171 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\umls\model\MRCONSO.java
+181 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\umls\model\MRREL.java
+117 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\umls\model\MRSTY.java
+110 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\umls\model\UmlsAuiFirstWord.java
+89 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\DocumentResultInstanceImporter.java
+74 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\ExportBagOfWords.java
+41 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\ExportGramMatrix.java
+43 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\GramMatrixExporter.java
+28 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\GramMatrixExporterImpl.java
+281 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\ImportWekaResults.java
+199 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\WekaAttributeEvaluator.java
+54 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\WekaAttributeEvaluatorImpl.java
+291 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\WekaBagOfWordsExporter.java
+57 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\WekaBagOfWordsExporterImpl.java
+287 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\WekaFormatterFactory.java
+270 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\WekaResultInstanceImporter.java
+49 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\WekaResultsImporter.java
+56 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\weka\WekaResultsImporterImpl.java
+198 same line(s)
+
+File: ctakes-ytex\src\main\java\org\apache\ctakes\ytex\KernelLauncher.java
+228 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\common\FileUtilTest.java
+74 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\common\PropertiesFileTest.java
+77 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\common\PropFileTest.java
+57 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\common\SingletonTest.java
+41 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\data\base\JdlConnectionTest.java
+79 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\data\loader\CsvLoaderTest.java
+64 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\data\loader\XmlLoaderTest.java
+64 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\data\xml\jaxb\ObjectFactoryBindTest.java
+62 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\data\xml\jaxb\ObjectFactoryUtilTest.java
+83 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\data\xml\DomParserTest.java
+53 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\data\xml\DomUtilTest.java
+79 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\data\xml\ValidationTest.java
+93 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\test\package-info.java
+23 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\test\PropFileMaps.java
+57 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\test\Resources.java
+52 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\test\SqlJdl.java
+113 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\AppJdlTest.java
+84 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\AppMainTest.java
+106 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\jdl\AppTest.java
+56 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\ytex\umls\dao\UMLSDaoTest.java
+63 same line(s)
+
+File: ctakes-ytex\src\test\java\org\apache\ctakes\ytex\ConceptDaoTest.java
+133 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\tools\docanalyzer\DBAnnotationViewerDialog.java
+757 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\tools\DBAnnotationViewerMain.java
+931 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\tools\DBPing.java
+84 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\tools\ExportCAS.java
+104 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\tools\RunCPE.java
+239 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\tools\SetupAuiFirstWord.java
+346 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\annotators\DateAnnotator.java
+99 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\annotators\DBConsumer.java
+144 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\annotators\MetaMapToCTakesAnnotator.java
+290 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\annotators\NamedEntityRegexAnnotator.java
+139 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\annotators\NegexAnnotator.java
+847 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\annotators\SegmentRegexAnnotator.java
+183 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\annotators\SenseDisambiguatorAnnotator.java
+228 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\annotators\SentenceDetector.java
+484 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\annotators\SentenceSpan.java
+359 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\dao\DocumentDao.java
+40 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\dao\DocumentDaoImpl.java
+50 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\dao\NamedEntityRegexDao.java
+35 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\dao\NamedEntityRegexDaoImpl.java
+43 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\dao\SegmentRegexDao.java
+39 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\dao\SegmentRegexDaoImpl.java
+42 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\lookup\ae\FirstTokenPermLookupInitializerImpl.java
+315 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\lookup\ae\StemmedLookupAnnotationToJCasAdapter.java
+80 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\mapper\AnnoMappingInfo.java
+156 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\mapper\ColumnMappingInfo.java
+146 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\mapper\DocumentMapperService.java
+39 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\mapper\DocumentMapperServiceImpl.java
+1550 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\mapper\ISO8601Converter.java
+65 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\mapper\MapperConfig.java
+74 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\model\AnnotationContainmentLink.java
+74 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\model\BooleanUtil.java
+47 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\model\Document.java
+142 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\model\DocumentAnnotation.java
+97 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\model\DocumentClass.java
+81 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\model\NamedEntityRegex.java
+109 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\model\SegmentRegex.java
+92 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\model\UimaType.java
+92 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\resource\InitableJdbcConnectionResourceImpl.java
+181 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\ApplicationContextHolder.java
+87 same line(s)
+
+File: ctakes-ytex-uima\src\main\java\org\apache\ctakes\ytex\uima\DBCollectionReader.java
+288 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\tools\SetupAuiFirstWordTest.java
+33 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\annotators\DateAnnotatorTest.java
+60 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\annotators\DBCollectionReaderTest.java
+55 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\annotators\DBConsumerTest.java
+152 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\annotators\DictionaryLookupAnnotatorTest.java
+138 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\annotators\NamedEntityRegexTest.java
+77 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\annotators\SegmentRegexTest.java
+90 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\annotators\SenseDisambiguatorAnnotatorTest.java
+154 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\annotators\SentenceDetectorTest.java
+85 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\annotators\SparseDataExporterTest.java
+143 same line(s)
+
+File: ctakes-ytex-uima\src\test\java\org\apache\ctakes\ytex\uima\TestUtils.java
+100 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\ConceptFirstWord.java
+63 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\ConceptLookupBean.java
+234 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\ConceptSearchService.java
+49 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\ConceptSearchServiceImpl.java
+170 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\DocumentSearchResult.java
+93 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\DocumentSearchService.java
+64 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\DocumentSearchServiceImpl.java
+203 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\DocumentViewBean.java
+121 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\FullTextDocumentViewBean.java
+66 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\FullTextSearchBean.java
+67 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\SearchConfigBean.java
+38 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\SemanticSearchBean.java
+301 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\SemanticSimBean.java
+368 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\SemanticSimRegistryBean.java
+65 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\web\search\SemanticSimServiceBean.java
+54 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\ws\ConceptSimilarityRestService.java
+51 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\ws\ConceptSimilarityWebService.java
+51 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\ws\ConceptSimilarityWebServiceImpl.java
+117 same line(s)
+
+File: ctakes-ytex-web\src\main\java\org\apache\ctakes\ytex\ws\SimServiceInfo.java
+48 same line(s)

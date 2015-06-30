@@ -1,0 +1,1096 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 15:01:12
+
+Ignoring Unimportant
+Left base folder: D:\APsource\nutch\version1
+Right base folder: D:\APsource\nutch\version2
+
+File: src\java\org\apache\nutch\api\impl\RAMConfManager.java
+83 same line(s)
+
+File: src\java\org\apache\nutch\api\impl\RAMJobManager.java
+254 same line(s)
+
+File: src\java\org\apache\nutch\api\AdminResource.java
+73 same line(s)
+
+File: src\java\org\apache\nutch\api\APIInfoResource.java
+40 same line(s)
+
+File: src\java\org\apache\nutch\api\ConfManager.java
+37 same line(s)
+
+File: src\java\org\apache\nutch\api\ConfResource.java
+102 same line(s)
+
+File: src\java\org\apache\nutch\api\DbReader.java
+241 same line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: src\java\org\apache\nutch\api\DbResource.java
+142 same line(s)
+
+File: src\java\org\apache\nutch\api\JobManager.java
+39 same line(s)
+
+File: src\java\org\apache\nutch\api\JobResource.java
+89 same line(s)
+
+File: src\java\org\apache\nutch\api\JobStatus.java
+46 same line(s)
+
+File: src\java\org\apache\nutch\api\NutchApp.java
+66 same line(s)
+
+File: src\java\org\apache\nutch\api\NutchServer.java
+95 same line(s)
+
+File: src\java\org\apache\nutch\api\Params.java
+36 same line(s)
+
+File: src\java\org\apache\nutch\crawl\AbstractFetchSchedule.java
+208 same line(s)
+
+File: src\java\org\apache\nutch\crawl\AdaptiveFetchSchedule.java
+112 same line(s)
+
+File: src\java\org\apache\nutch\crawl\Crawler.java
+260 same line(s)
+
+File: src\java\org\apache\nutch\crawl\CrawlStatus.java
+54 same line(s)
+
+File: src\java\org\apache\nutch\crawl\DbUpdateMapper.java
+98 same line(s)
+
+File: src\java\org\apache\nutch\crawl\DbUpdateReducer.java
+204 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\nutch\crawl\DbUpdaterJob.java
+127 same line(s)
+
+File: src\java\org\apache\nutch\crawl\DefaultFetchSchedule.java
+43 same line(s)
+
+File: src\java\org\apache\nutch\crawl\FetchSchedule.java
+140 same line(s)
+
+File: src\java\org\apache\nutch\crawl\FetchScheduleFactory.java
+50 same line(s)
+
+File: src\java\org\apache\nutch\crawl\GeneratorJob.java
+291 same line(s)
+
+File: src\java\org\apache\nutch\crawl\GeneratorMapper.java
+124 same line(s)
+
+File: src\java\org\apache\nutch\crawl\GeneratorReducer.java
+109 same line(s)
+
+File: src\java\org\apache\nutch\crawl\InjectorJob.java
+285 same line(s)
+
+File: src\java\org\apache\nutch\crawl\MD5Signature.java
+49 same line(s)
+22 important right orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\nutch\crawl\NutchWritable.java
+45 same line(s)
+
+File: src\java\org\apache\nutch\crawl\Signature.java
+30 same line(s)
+
+File: src\java\org\apache\nutch\crawl\SignatureComparator.java
+36 same line(s)
+2 ignored unimportant difference line(s)
+9 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\nutch\crawl\SignatureFactory.java
+64 same line(s)
+
+File: src\java\org\apache\nutch\crawl\TextProfileSignature.java
+163 same line(s)
+
+File: src\java\org\apache\nutch\crawl\URLPartitioner.java
+162 same line(s)
+
+File: src\java\org\apache\nutch\crawl\URLWebPage.java
+48 same line(s)
+
+File: src\java\org\apache\nutch\crawl\UrlWithScore.java
+196 same line(s)
+
+File: src\java\org\apache\nutch\crawl\WebTableReader.java
+615 same line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: src\java\org\apache\nutch\fetcher\FetchEntry.java
+71 same line(s)
+
+File: src\java\org\apache\nutch\fetcher\FetcherJob.java
+310 same line(s)
+
+File: src\java\org\apache\nutch\fetcher\FetcherReducer.java
+882 same line(s)
+
+File: src\java\org\apache\nutch\host\HostDb.java
+147 same line(s)
+
+File: src\java\org\apache\nutch\host\HostDbReader.java
+92 same line(s)
+
+File: src\java\org\apache\nutch\host\HostDbUpdateJob.java
+141 same line(s)
+
+File: src\java\org\apache\nutch\host\HostDbUpdateReducer.java
+92 same line(s)
+
+File: src\java\org\apache\nutch\host\HostInjectorJob.java
+184 same line(s)
+
+File: src\java\org\apache\nutch\html\Entities.java
+329 same line(s)
+
+File: src\java\org\apache\nutch\indexer\elastic\ElasticConstants.java
+26 same line(s)
+
+File: src\java\org\apache\nutch\indexer\elastic\ElasticIndexerJob.java
+81 same line(s)
+
+File: src\java\org\apache\nutch\indexer\elastic\ElasticWriter.java
+163 same line(s)
+
+File: src\java\org\apache\nutch\indexer\solr\SolrConstants.java
+46 same line(s)
+
+File: src\java\org\apache\nutch\indexer\solr\SolrDeleteDuplicates.java
+394 same line(s)
+3 ignored unimportant difference line(s)
+10 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: src\java\org\apache\nutch\indexer\solr\SolrIndexerJob.java
+89 same line(s)
+
+File: src\java\org\apache\nutch\indexer\solr\SolrMappingReader.java
+143 same line(s)
+
+File: src\java\org\apache\nutch\indexer\solr\SolrUtils.java
+61 same line(s)
+
+File: src\java\org\apache\nutch\indexer\solr\SolrWriter.java
+99 same line(s)
+
+File: src\java\org\apache\nutch\indexer\IndexerJob.java
+141 same line(s)
+
+File: src\java\org\apache\nutch\indexer\IndexerOutputFormat.java
+87 same line(s)
+
+File: src\java\org\apache\nutch\indexer\IndexingException.java
+39 same line(s)
+
+File: src\java\org\apache\nutch\indexer\IndexingFilter.java
+47 same line(s)
+
+File: src\java\org\apache\nutch\indexer\IndexingFilters.java
+132 same line(s)
+
+File: src\java\org\apache\nutch\indexer\IndexingFiltersChecker.java
+166 same line(s)
+
+File: src\java\org\apache\nutch\indexer\IndexUtil.java
+101 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\nutch\indexer\NutchDocument.java
+141 same line(s)
+
+File: src\java\org\apache\nutch\indexer\NutchIndexWriter.java
+31 same line(s)
+
+File: src\java\org\apache\nutch\indexer\NutchIndexWriterFactory.java
+52 same line(s)
+
+File: src\java\org\apache\nutch\metadata\CreativeCommons.java
+36 same line(s)
+
+File: src\java\org\apache\nutch\metadata\DublinCore.java
+164 same line(s)
+
+File: src\java\org\apache\nutch\metadata\Feed.java
+38 same line(s)
+
+File: src\java\org\apache\nutch\metadata\HttpHeaders.java
+50 same line(s)
+
+File: src\java\org\apache\nutch\metadata\Metadata.java
+248 same line(s)
+
+File: src\java\org\apache\nutch\metadata\MetaWrapper.java
+110 same line(s)
+
+File: src\java\org\apache\nutch\metadata\Nutch.java
+125 same line(s)
+
+File: src\java\org\apache\nutch\metadata\SpellCheckedMetadata.java
+150 same line(s)
+
+File: src\java\org\apache\nutch\net\protocols\HttpDateFormat.java
+124 same line(s)
+
+File: src\java\org\apache\nutch\net\protocols\ProtocolException.java
+47 same line(s)
+
+File: src\java\org\apache\nutch\net\protocols\Response.java
+47 same line(s)
+
+File: src\java\org\apache\nutch\net\URLFilter.java
+39 same line(s)
+
+File: src\java\org\apache\nutch\net\URLFilterChecker.java
+133 same line(s)
+
+File: src\java\org\apache\nutch\net\URLFilterException.java
+39 same line(s)
+
+File: src\java\org\apache\nutch\net\URLFilters.java
+93 same line(s)
+
+File: src\java\org\apache\nutch\net\URLNormalizer.java
+33 same line(s)
+
+File: src\java\org\apache\nutch\net\URLNormalizerChecker.java
+115 same line(s)
+
+File: src\java\org\apache\nutch\net\URLNormalizers.java
+294 same line(s)
+
+File: src\java\org\apache\nutch\parse\HTMLMetaTags.java
+204 same line(s)
+
+File: src\java\org\apache\nutch\parse\Outlink.java
+78 same line(s)
+
+File: src\java\org\apache\nutch\parse\OutlinkExtractor.java
+247 same line(s)
+
+File: src\java\org\apache\nutch\parse\Parse.java
+69 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParseCallable.java
+38 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParseException.java
+39 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParseFilter.java
+39 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParseFilters.java
+124 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParsePluginList.java
+73 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParsePluginsReader.java
+279 same line(s)
+
+File: src\java\org\apache\nutch\parse\Parser.java
+42 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParserChecker.java
+201 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\nutch\parse\ParserFactory.java
+429 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParserJob.java
+313 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParserNotFound.java
+42 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParseStatusCodes.java
+65 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParseStatusUtils.java
+117 same line(s)
+
+File: src\java\org\apache\nutch\parse\ParseUtil.java
+292 same line(s)
+
+File: src\java\org\apache\nutch\plugin\CircularDependencyException.java
+37 same line(s)
+
+File: src\java\org\apache\nutch\plugin\Extension.java
+191 same line(s)
+
+File: src\java\org\apache\nutch\plugin\ExtensionPoint.java
+121 same line(s)
+
+File: src\java\org\apache\nutch\plugin\FieldPluggable.java
+26 same line(s)
+
+File: src\java\org\apache\nutch\plugin\MissingDependencyException.java
+36 same line(s)
+
+File: src\java\org\apache\nutch\plugin\Pluggable.java
+31 same line(s)
+
+File: src\java\org\apache\nutch\plugin\Plugin.java
+94 same line(s)
+
+File: src\java\org\apache\nutch\plugin\PluginClassLoader.java
+44 same line(s)
+
+File: src\java\org\apache\nutch\plugin\PluginDescriptor.java
+351 same line(s)
+
+File: src\java\org\apache\nutch\plugin\PluginManifestParser.java
+305 same line(s)
+
+File: src\java\org\apache\nutch\plugin\PluginRepository.java
+421 same line(s)
+
+File: src\java\org\apache\nutch\plugin\PluginRuntimeException.java
+36 same line(s)
+
+File: src\java\org\apache\nutch\protocol\Content.java
+312 same line(s)
+
+File: src\java\org\apache\nutch\protocol\Protocol.java
+63 same line(s)
+
+File: src\java\org\apache\nutch\protocol\ProtocolException.java
+39 same line(s)
+
+File: src\java\org\apache\nutch\protocol\ProtocolFactory.java
+137 same line(s)
+
+File: src\java\org\apache\nutch\protocol\ProtocolNotFound.java
+34 same line(s)
+
+File: src\java\org\apache\nutch\protocol\ProtocolOutput.java
+56 same line(s)
+
+File: src\java\org\apache\nutch\protocol\ProtocolStatusCodes.java
+56 same line(s)
+
+File: src\java\org\apache\nutch\protocol\ProtocolStatusUtils.java
+123 same line(s)
+
+File: src\java\org\apache\nutch\protocol\RobotRules.java
+44 same line(s)
+
+File: src\java\org\apache\nutch\protocol\RobotRulesParser.java
+195 same line(s)
+
+File: src\java\org\apache\nutch\scoring\ScoreDatum.java
+121 same line(s)
+
+File: src\java\org\apache\nutch\scoring\ScoringFilter.java
+112 same line(s)
+
+File: src\java\org\apache\nutch\scoring\ScoringFilterException.java
+43 same line(s)
+
+File: src\java\org\apache\nutch\scoring\ScoringFilters.java
+149 same line(s)
+
+File: src\java\org\apache\nutch\storage\Host.java
+155 same line(s)
+9 important left orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: src\java\org\apache\nutch\storage\Mark.java
+58 same line(s)
+
+File: src\java\org\apache\nutch\storage\ParseStatus.java
+113 same line(s)
+
+File: src\java\org\apache\nutch\storage\ProtocolStatus.java
+122 same line(s)
+
+File: src\java\org\apache\nutch\storage\StorageUtils.java
+147 same line(s)
+
+File: src\java\org\apache\nutch\storage\WebPage.java
+380 same line(s)
+
+File: src\java\org\apache\nutch\storage\WebTableCreator.java
+30 same line(s)
+
+File: src\java\org\apache\nutch\tools\arc\ArcInputFormat.java
+50 same line(s)
+
+File: src\java\org\apache\nutch\tools\arc\ArcRecordReader.java
+291 same line(s)
+
+File: src\java\org\apache\nutch\tools\proxy\AbstractTestbedHandler.java
+63 same line(s)
+
+File: src\java\org\apache\nutch\tools\proxy\DelayHandler.java
+71 same line(s)
+
+File: src\java\org\apache\nutch\tools\proxy\FakeHandler.java
+169 same line(s)
+
+File: src\java\org\apache\nutch\tools\proxy\LogDebugHandler.java
+75 same line(s)
+
+File: src\java\org\apache\nutch\tools\proxy\NotFoundHandler.java
+55 same line(s)
+
+File: src\java\org\apache\nutch\tools\proxy\TestbedProxy.java
+168 same line(s)
+
+File: src\java\org\apache\nutch\tools\Benchmark.java
+252 same line(s)
+
+File: src\java\org\apache\nutch\tools\DmozParser.java
+393 same line(s)
+
+File: src\java\org\apache\nutch\tools\ResolveUrls.java
+207 same line(s)
+
+File: src\java\org\apache\nutch\util\domain\DomainStatistics.java
+235 same line(s)
+
+File: src\java\org\apache\nutch\util\domain\DomainSuffix.java
+79 same line(s)
+
+File: src\java\org\apache\nutch\util\domain\DomainSuffixes.java
+81 same line(s)
+
+File: src\java\org\apache\nutch\util\domain\DomainSuffixesReader.java
+159 same line(s)
+
+File: src\java\org\apache\nutch\util\domain\TopLevelDomain.java
+58 same line(s)
+
+File: src\java\org\apache\nutch\util\Bytes.java
+1433 same line(s)
+21 ignored unimportant difference line(s)
+10 important right orphan line(s)
+2 important difference line(s)
+
+6 difference section(s)
+
+File: src\java\org\apache\nutch\util\CommandRunner.java
+295 same line(s)
+
+File: src\java\org\apache\nutch\util\DeflateUtils.java
+141 same line(s)
+
+File: src\java\org\apache\nutch\util\DomUtil.java
+105 same line(s)
+
+File: src\java\org\apache\nutch\util\EncodingDetector.java
+406 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+5 difference section(s)
+
+File: src\java\org\apache\nutch\util\FSUtils.java
+99 same line(s)
+
+File: src\java\org\apache\nutch\util\GenericWritableConfigurable.java
+57 same line(s)
+
+File: src\java\org\apache\nutch\util\GZIPUtils.java
+150 same line(s)
+
+File: src\java\org\apache\nutch\util\HadoopFSUtil.java
+72 same line(s)
+
+File: src\java\org\apache\nutch\util\Histogram.java
+129 same line(s)
+
+File: src\java\org\apache\nutch\util\IdentityPageReducer.java
+35 same line(s)
+
+File: src\java\org\apache\nutch\util\LockUtil.java
+70 same line(s)
+
+File: src\java\org\apache\nutch\util\MimeUtil.java
+269 same line(s)
+
+File: src\java\org\apache\nutch\util\NodeWalker.java
+111 same line(s)
+
+File: src\java\org\apache\nutch\util\NutchConfiguration.java
+95 same line(s)
+
+File: src\java\org\apache\nutch\util\NutchJob.java
+71 same line(s)
+
+File: src\java\org\apache\nutch\util\NutchJobConf.java
+31 same line(s)
+
+File: src\java\org\apache\nutch\util\NutchTool.java
+96 same line(s)
+
+File: src\java\org\apache\nutch\util\ObjectCache.java
+58 same line(s)
+
+File: src\java\org\apache\nutch\util\Pair.java
+37 same line(s)
+
+File: src\java\org\apache\nutch\util\PrefixStringMatcher.java
+121 same line(s)
+
+File: src\java\org\apache\nutch\util\StringUtil.java
+131 same line(s)
+36 ignored unimportant difference line(s)
+13 important right orphan line(s)
+5 important difference line(s)
+
+8 difference section(s)
+
+File: src\java\org\apache\nutch\util\SuffixStringMatcher.java
+118 same line(s)
+
+File: src\java\org\apache\nutch\util\TableUtil.java
+155 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\nutch\util\TimingUtil.java
+55 same line(s)
+
+File: src\java\org\apache\nutch\util\ToolUtil.java
+79 same line(s)
+
+File: src\java\org\apache\nutch\util\TrieStringMatcher.java
+206 same line(s)
+
+File: src\java\org\apache\nutch\util\URLUtil.java
+389 same line(s)
+
+File: src\java\org\apache\nutch\util\WebPageWritable.java
+61 same line(s)
+
+File: src\plugin\creativecommons\src\java\org\creativecommons\nutch\CCIndexingFilter.java
+134 same line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: src\plugin\creativecommons\src\java\org\creativecommons\nutch\CCParseFilter.java
+85 same line(s)
+226 ignored unimportant difference line(s)
+8 important left orphan line(s)
+13 important difference line(s)
+
+9 difference section(s)
+
+File: src\plugin\creativecommons\src\test\org\creativecommons\nutch\TestCCParseFilter.java
+79 same line(s)
+3 important left orphan line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: src\plugin\feed\src\java\org\apache\nutch\indexer\feed\FeedIndexingFilter.java
+131 same line(s)
+
+File: src\plugin\feed\src\java\org\apache\nutch\parse\feed\FeedParser.java
+372 same line(s)
+
+File: src\plugin\feed\src\test\org\apache\nutch\parse\feed\TestFeedParser.java
+133 same line(s)
+
+File: src\plugin\index-anchor\src\java\org\apache\nutch\indexer\anchor\AnchorIndexingFilter.java
+118 same line(s)
+
+File: src\plugin\index-anchor\src\test\org\apache\nutch\indexer\anchor\TestAnchorIndexingFilter.java
+59 same line(s)
+
+File: src\plugin\index-basic\src\java\org\apache\nutch\indexer\basic\BasicIndexingFilter.java
+163 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\plugin\index-basic\src\test\org\apache\nutch\indexer\basic\TestBasicIndexingFilter.java
+94 same line(s)
+
+File: src\plugin\index-more\src\java\org\apache\nutch\indexer\more\MoreIndexingFilter.java
+283 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\plugin\index-more\src\test\org\apache\nutch\indexer\more\TestMoreIndexingFilter.java
+89 same line(s)
+
+File: src\plugin\language-identifier\src\java\org\apache\nutch\analysis\lang\HTMLLanguageParser.java
+328 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\plugin\language-identifier\src\java\org\apache\nutch\analysis\lang\LanguageIndexingFilter.java
+90 same line(s)
+3 important left orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\plugin\language-identifier\src\test\org\apache\nutch\analysis\lang\TestHTMLLanguageParser.java
+155 same line(s)
+2 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\plugin\lib-http\src\java\org\apache\nutch\protocol\http\api\BlockedException.java
+27 same line(s)
+
+File: src\plugin\lib-http\src\java\org\apache\nutch\protocol\http\api\HttpBase.java
+384 same line(s)
+
+File: src\plugin\lib-http\src\java\org\apache\nutch\protocol\http\api\HttpException.java
+41 same line(s)
+
+File: src\plugin\lib-http\src\java\org\apache\nutch\protocol\http\api\HttpRobotRulesParser.java
+126 same line(s)
+
+File: src\plugin\lib-http\src\test\org\apache\nutch\protocol\http\api\TestRobotRulesParser.java
+122 same line(s)
+
+File: src\plugin\lib-regex-filter\src\java\org\apache\nutch\urlfilter\api\RegexRule.java
+61 same line(s)
+
+File: src\plugin\lib-regex-filter\src\java\org\apache\nutch\urlfilter\api\RegexURLFilterBase.java
+232 same line(s)
+
+File: src\plugin\lib-regex-filter\src\test\org\apache\nutch\urlfilter\api\RegexURLFilterBaseTest.java
+142 same line(s)
+
+File: src\plugin\microformats-reltag\src\java\org\apache\nutch\microformats\reltag\RelTagIndexingFilter.java
+96 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\plugin\microformats-reltag\src\java\org\apache\nutch\microformats\reltag\RelTagParser.java
+119 same line(s)
+56 ignored unimportant difference line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: src\plugin\microformats-reltag\src\test\org\apache\nutch\microformats\reltag\TestRelTagIndexingFilter.java
+59 same line(s)
+
+File: src\plugin\microformats-reltag\src\test\org\apache\nutch\microformats\reltag\TestRelTagParser.java
+94 same line(s)
+
+File: src\plugin\parse-ext\src\java\org\apache\nutch\parse\ext\ExtParser.java
+177 same line(s)
+
+File: src\plugin\parse-ext\src\test\org\apache\nutch\parse\ext\TestExtParser.java
+126 same line(s)
+
+File: src\plugin\parse-html\src\java\org\apache\nutch\parse\html\DOMBuilder.java
+740 same line(s)
+
+File: src\plugin\parse-html\src\java\org\apache\nutch\parse\html\DOMContentUtils.java
+416 same line(s)
+
+File: src\plugin\parse-html\src\java\org\apache\nutch\parse\html\HTMLMetaProcessor.java
+213 same line(s)
+
+File: src\plugin\parse-html\src\java\org\apache\nutch\parse\html\HtmlParser.java
+327 same line(s)
+2 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+6 important difference line(s)
+
+3 difference section(s)
+
+File: src\plugin\parse-html\src\java\org\apache\nutch\parse\html\XMLCharacterRecognizer.java
+113 same line(s)
+
+File: src\plugin\parse-html\src\test\org\apache\nutch\parse\html\TestDOMContentUtils.java
+410 same line(s)
+
+File: src\plugin\parse-html\src\test\org\apache\nutch\parse\html\TestRobotsMetaProcessor.java
+181 same line(s)
+
+File: src\plugin\parse-js\src\java\org\apache\nutch\parse\js\JSParseFilter.java
+322 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\plugin\parse-js\src\test\org\apache\nutch\parse\js\TestJSParseFilter.java
+101 same line(s)
+
+File: src\plugin\parse-swf\src\java\org\apache\nutch\parse\swf\SWFParser.java
+708 same line(s)
+
+File: src\plugin\parse-swf\src\test\org\apache\nutch\parse\swf\TestSWFParser.java
+97 same line(s)
+
+File: src\plugin\parse-tika\src\java\org\apache\nutch\parse\tika\DOMBuilder.java
+740 same line(s)
+
+File: src\plugin\parse-tika\src\java\org\apache\nutch\parse\tika\DOMContentUtils.java
+417 same line(s)
+
+File: src\plugin\parse-tika\src\java\org\apache\nutch\parse\tika\HTMLMetaProcessor.java
+213 same line(s)
+
+File: src\plugin\parse-tika\src\java\org\apache\nutch\parse\tika\TikaConfig.java
+250 same line(s)
+
+File: src\plugin\parse-tika\src\java\org\apache\nutch\parse\tika\TikaParser.java
+254 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\plugin\parse-tika\src\java\org\apache\nutch\parse\tika\XMLCharacterRecognizer.java
+113 same line(s)
+
+File: src\plugin\parse-tika\src\test\org\apache\nutch\parse\tika\DOMContentUtilsTest.java
+421 same line(s)
+
+File: src\plugin\parse-tika\src\test\org\apache\nutch\parse\tika\TestMSWordParser.java
+106 same line(s)
+
+File: src\plugin\parse-tika\src\test\org\apache\nutch\parse\tika\TestOOParser.java
+118 same line(s)
+
+File: src\plugin\parse-tika\src\test\org\apache\nutch\parse\tika\TestPdfParser.java
+85 same line(s)
+
+File: src\plugin\parse-tika\src\test\org\apache\nutch\parse\tika\TestRSSParser.java
+124 same line(s)
+
+File: src\plugin\parse-tika\src\test\org\apache\nutch\parse\tika\TestRTFParser.java
+92 same line(s)
+
+File: src\plugin\parse-zip\src\java\org\apache\nutch\parse\zip\ZipParser.java
+112 same line(s)
+
+File: src\plugin\parse-zip\src\java\org\apache\nutch\parse\zip\ZipTextExtractor.java
+122 same line(s)
+
+File: src\plugin\parse-zip\src\test\org\apache\nutch\parse\zip\TestZipParser.java
+78 same line(s)
+
+File: src\plugin\protocol-file\src\java\org\apache\nutch\protocol\file\File.java
+198 same line(s)
+
+File: src\plugin\protocol-file\src\java\org\apache\nutch\protocol\file\FileError.java
+33 same line(s)
+
+File: src\plugin\protocol-file\src\java\org\apache\nutch\protocol\file\FileException.java
+40 same line(s)
+
+File: src\plugin\protocol-file\src\java\org\apache\nutch\protocol\file\FileResponse.java
+280 same line(s)
+
+File: src\plugin\protocol-file\src\test\org\apache\nutch\protocol\file\TestProtocolFile.java
+97 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\Client.java
+574 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\Ftp.java
+266 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\FtpError.java
+33 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\FtpException.java
+46 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\FtpExceptionBadSystResponse.java
+29 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\FtpExceptionCanNotHaveDataConnection.java
+29 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\FtpExceptionControlClosedByForcedDataClose.java
+30 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\FtpExceptionUnknownForcedDataClose.java
+30 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\FtpResponse.java
+515 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\FtpRobotRulesParser.java
+100 same line(s)
+
+File: src\plugin\protocol-ftp\src\java\org\apache\nutch\protocol\ftp\PrintCommandListener.java
+72 same line(s)
+
+File: src\plugin\protocol-http\src\java\org\apache\nutch\protocol\http\Http.java
+75 same line(s)
+
+File: src\plugin\protocol-http\src\java\org\apache\nutch\protocol\http\HttpResponse.java
+357 same line(s)
+
+File: src\plugin\protocol-httpclient\src\java\org\apache\nutch\protocol\httpclient\DummySSLProtocolSocketFactory.java
+145 same line(s)
+
+File: src\plugin\protocol-httpclient\src\java\org\apache\nutch\protocol\httpclient\DummyX509TrustManager.java
+84 same line(s)
+
+File: src\plugin\protocol-httpclient\src\java\org\apache\nutch\protocol\httpclient\Http.java
+457 same line(s)
+
+File: src\plugin\protocol-httpclient\src\java\org\apache\nutch\protocol\httpclient\HttpAuthentication.java
+46 same line(s)
+
+File: src\plugin\protocol-httpclient\src\java\org\apache\nutch\protocol\httpclient\HttpAuthenticationException.java
+65 same line(s)
+
+File: src\plugin\protocol-httpclient\src\java\org\apache\nutch\protocol\httpclient\HttpAuthenticationFactory.java
+142 same line(s)
+
+File: src\plugin\protocol-httpclient\src\java\org\apache\nutch\protocol\httpclient\HttpBasicAuthentication.java
+188 same line(s)
+
+File: src\plugin\protocol-httpclient\src\java\org\apache\nutch\protocol\httpclient\HttpResponse.java
+220 same line(s)
+
+File: src\plugin\protocol-httpclient\src\test\org\apache\nutch\protocol\httpclient\TestProtocolHttpClient.java
+230 same line(s)
+
+File: src\plugin\protocol-sftp\src\java\org\apache\nutch\protocol\sftp\Sftp.java
+314 same line(s)
+
+File: src\plugin\scoring-link\src\java\org\apache\nutch\scoring\link\LinkAnalysisScoringFilter.java
+94 same line(s)
+
+File: src\plugin\scoring-opic\src\java\org\apache\nutch\scoring\opic\OPICScoringFilter.java
+162 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\plugin\subcollection\src\java\org\apache\nutch\collection\CollectionManager.java
+242 same line(s)
+
+File: src\plugin\subcollection\src\java\org\apache\nutch\collection\Subcollection.java
+222 same line(s)
+
+File: src\plugin\subcollection\src\java\org\apache\nutch\indexer\subcollection\SubcollectionIndexingFilter.java
+79 same line(s)
+
+File: src\plugin\subcollection\src\test\org\apache\nutch\collection\TestSubcollection.java
+109 same line(s)
+
+File: src\plugin\tld\src\java\org\apache\nutch\indexer\tld\TLDIndexingFilter.java
+73 same line(s)
+
+File: src\plugin\tld\src\java\org\apache\nutch\scoring\tld\TLDScoringFilter.java
+107 same line(s)
+
+File: src\plugin\urlfilter-automaton\src\java\org\apache\nutch\urlfilter\automaton\AutomatonURLFilter.java
+109 same line(s)
+
+File: src\plugin\urlfilter-automaton\src\test\org\apache\nutch\urlfilter\automaton\TestAutomatonURLFilter.java
+58 same line(s)
+
+File: src\plugin\urlfilter-domain\src\java\org\apache\nutch\urlfilter\domain\DomainURLFilter.java
+202 same line(s)
+
+File: src\plugin\urlfilter-domain\src\test\org\apache\nutch\urlfilter\domain\TestDomainURLFilter.java
+54 same line(s)
+
+File: src\plugin\urlfilter-prefix\src\java\org\apache\nutch\urlfilter\prefix\PrefixURLFilter.java
+175 same line(s)
+
+File: src\plugin\urlfilter-prefix\src\test\org\apache\nutch\urlfilter\prefix\TestPrefixURLFilter.java
+33 ignored unimportant difference line(s)
+46 important right orphan line(s)
+
+11 difference section(s)
+
+File: src\plugin\urlfilter-regex\src\java\org\apache\nutch\urlfilter\regex\RegexURLFilter.java
+104 same line(s)
+
+File: src\plugin\urlfilter-regex\src\test\org\apache\nutch\urlfilter\regex\TestRegexURLFilter.java
+56 same line(s)
+
+File: src\plugin\urlfilter-suffix\src\java\org\apache\nutch\urlfilter\suffix\SuffixURLFilter.java
+314 same line(s)
+
+File: src\plugin\urlfilter-suffix\src\test\org\apache\nutch\urlfilter\suffix\TestSuffixURLFilter.java
+178 same line(s)
+
+File: src\plugin\urlfilter-validator\src\java\org\apache\nutch\urlfilter\validator\UrlValidator.java
+368 same line(s)
+
+File: src\plugin\urlnormalizer-basic\src\java\org\apache\nutch\net\urlnormalizer\basic\BasicURLNormalizer.java
+209 same line(s)
+
+File: src\plugin\urlnormalizer-basic\src\test\org\apache\nutch\net\urlnormalizer\basic\TestBasicURLNormalizer.java
+115 same line(s)
+
+File: src\plugin\urlnormalizer-pass\src\java\org\apache\nutch\net\urlnormalizer\pass\PassURLNormalizer.java
+47 same line(s)
+
+File: src\plugin\urlnormalizer-pass\src\test\org\apache\nutch\net\urlnormalizer\pass\TestPassURLNormalizer.java
+47 same line(s)
+
+File: src\plugin\urlnormalizer-regex\src\java\org\apache\nutch\net\urlnormalizer\regex\RegexURLNormalizer.java
+314 same line(s)
+
+File: src\plugin\urlnormalizer-regex\src\test\org\apache\nutch\net\urlnormalizer\regex\TestRegexURLNormalizer.java
+147 same line(s)
+
+File: src\test\org\apache\nutch\api\TestAPI.java
+222 same line(s)
+
+File: src\test\org\apache\nutch\crawl\DummyWritable.java
+32 same line(s)
+
+File: src\test\org\apache\nutch\crawl\TestGenerator.java
+304 same line(s)
+
+File: src\test\org\apache\nutch\crawl\TestInjector.java
+120 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: src\test\org\apache\nutch\crawl\TestSignatureFactory.java
+36 same line(s)
+
+File: src\test\org\apache\nutch\crawl\TestURLPartitioner.java
+212 same line(s)
+
+File: src\test\org\apache\nutch\crawl\TestUrlWithScore.java
+185 same line(s)
+
+File: src\test\org\apache\nutch\fetcher\TestFetcher.java
+155 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\test\org\apache\nutch\indexer\TestIndexingFilters.java
+104 same line(s)
+
+File: src\test\org\apache\nutch\metadata\TestMetadata.java
+281 same line(s)
+
+File: src\test\org\apache\nutch\metadata\TestSpellCheckedMetadata.java
+302 same line(s)
+
+File: src\test\org\apache\nutch\net\TestURLFilters.java
+47 same line(s)
+
+File: src\test\org\apache\nutch\net\TestURLNormalizers.java
+64 same line(s)
+
+File: src\test\org\apache\nutch\parse\TestOutlinkExtractor.java
+86 same line(s)
+
+File: src\test\org\apache\nutch\parse\TestParserFactory.java
+103 same line(s)
+
+File: src\test\org\apache\nutch\plugin\HelloWorldExtension.java
+33 same line(s)
+
+File: src\test\org\apache\nutch\plugin\ITestExtension.java
+26 same line(s)
+
+File: src\test\org\apache\nutch\plugin\SimpleTestPlugin.java
+58 same line(s)
+
+File: src\test\org\apache\nutch\plugin\TestPluginSystem.java
+307 same line(s)
+
+File: src\test\org\apache\nutch\protocol\TestContent.java
+112 same line(s)
+
+File: src\test\org\apache\nutch\protocol\TestProtocolFactory.java
+85 same line(s)
+
+File: src\test\org\apache\nutch\storage\TestGoraStorage.java
+235 same line(s)
+
+File: src\test\org\apache\nutch\util\AbstractNutchTest.java
+56 same line(s)
+
+File: src\test\org\apache\nutch\util\CrawlTestUtil.java
+152 same line(s)
+
+File: src\test\org\apache\nutch\util\TestEncodingDetector.java
+101 same line(s)
+
+File: src\test\org\apache\nutch\util\TestGZIPUtils.java
+250 same line(s)
+
+File: src\test\org\apache\nutch\util\TestNodeWalker.java
+106 same line(s)
+
+File: src\test\org\apache\nutch\util\TestPrefixStringMatcher.java
+120 same line(s)
+
+File: src\test\org\apache\nutch\util\TestStringUtil.java
+62 same line(s)
+
+File: src\test\org\apache\nutch\util\TestSuffixStringMatcher.java
+120 same line(s)
+
+File: src\test\org\apache\nutch\util\TestTableUtil.java
+74 same line(s)
+
+File: src\test\org\apache\nutch\util\TestURLUtil.java
+214 same line(s)
+
+File: src\test\org\apache\nutch\util\WritableTestUtils.java
+57 same line(s)

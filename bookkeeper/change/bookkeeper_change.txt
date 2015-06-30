@@ -1,0 +1,2310 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:07:36
+
+Ignoring Unimportant
+Left base folder: D:\APsource\bookkeeper\version1
+Right base folder: D:\APsource\bookkeeper\version2
+
+File: bookkeeper-benchmark\src\main\java\org\apache\bookkeeper\benchmark\BenchBookie.java
+212 same line(s)
+
+File: bookkeeper-benchmark\src\main\java\org\apache\bookkeeper\benchmark\BenchReadThroughputLatency.java
+274 same line(s)
+
+File: bookkeeper-benchmark\src\main\java\org\apache\bookkeeper\benchmark\BenchThroughputLatency.java
+461 same line(s)
+
+File: bookkeeper-benchmark\src\main\java\org\apache\bookkeeper\benchmark\MySqlClient.java
+138 same line(s)
+
+File: bookkeeper-benchmark\src\main\java\org\apache\bookkeeper\benchmark\TestClient.java
+358 same line(s)
+
+File: bookkeeper-benchmark\src\test\java\org\apache\bookkeeper\benchmark\TestBenchmark.java
+161 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\Bookie.java
+1307 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BookieBean.java
+51 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BookieCriticalThread.java
+45 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BookieException.java
+157 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BookieMXBean.java
+31 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BookieShell.java
+1521 same line(s)
+24 ignored unimportant difference line(s)
+7 important left orphan line(s)
+159 important right orphan line(s)
+8 important difference line(s)
+
+35 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BookieThread.java
+55 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BookKeeperServerStats.java
+85 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BufferedChannel.java
+204 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BufferedChannelBase.java
+55 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\BufferedReadChannel.java
+103 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\CacheCallback.java
+34 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\CheckpointSource.java
+83 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\Cookie.java
+434 same line(s)
+34 ignored unimportant difference line(s)
+16 important right orphan line(s)
+4 important difference line(s)
+
+12 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\EntryKey.java
+83 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\EntryKeyValue.java
+129 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\EntryLogger.java
+861 same line(s)
+7 ignored unimportant difference line(s)
+2 important left orphan line(s)
+11 important right orphan line(s)
+4 important difference line(s)
+
+9 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\EntryMemTable.java
+440 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\ExitCode.java
+40 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\FileInfo.java
+386 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\FileSystemUpgrade.java
+393 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\GarbageCollector.java
+51 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\GarbageCollectorThread.java
+626 same line(s)
+8 ignored unimportant difference line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\HandleFactory.java
+32 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\HandleFactoryImpl.java
+68 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\IndexInMemPageMgr.java
+564 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\IndexPersistenceMgr.java
+588 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\InterleavedLedgerStorage.java
+352 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\Journal.java
+973 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\JournalChannel.java
+275 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerCache.java
+50 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerCacheBean.java
+27 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerCacheImpl.java
+183 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerCacheMXBean.java
+50 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerDescriptor.java
+62 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerDescriptorImpl.java
+87 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerDescriptorReadOnlyImpl.java
+52 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerDirsManager.java
+419 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerEntryPage.java
+224 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LedgerStorage.java
+118 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LEPStateChangeCallback.java
+31 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\LogMark.java
+83 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\MarkerFileChannel.java
+147 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\ReadOnlyEntryLogger.java
+58 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\ReadOnlyFileInfo.java
+44 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\ScanAndCompareGarbageCollector.java
+108 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\SkipListArena.java
+238 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\SkipListFlusher.java
+43 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\SortedLedgerStorage.java
+184 same line(s)
+7 ignored unimportant difference line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\bookie\SyncThread.java
+189 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\AsyncCallback.java
+151 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\BKException.java
+364 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\BookiesListener.java
+27 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\BookieWatcher.java
+325 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\BookKeeper.java
+910 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\BookKeeperAdmin.java
+902 same line(s)
+6 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+1 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\BookKeeperClientStats.java
+43 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\CRC32DigestManager.java
+55 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\DefaultEnsemblePlacementPolicy.java
+93 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\DigestManager.java
+191 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\DistributionSchedule.java
+90 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\EnsemblePlacementPolicy.java
+89 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerChecker.java
+273 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerCreateOp.java
+152 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerDeleteOp.java
+88 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerEntry.java
+82 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerFragment.java
+148 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerFragmentReplicator.java
+421 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerHandle.java
+1180 same line(s)
+29 ignored unimportant difference line(s)
+19 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerMetadata.java
+528 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerOpenOp.java
+203 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\LedgerRecoveryOp.java
+190 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\MacDigestManager.java
+86 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\PendingAddOp.java
+212 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\PendingReadOp.java
+408 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\RackawareEnsemblePlacementPolicy.java
+572 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\ReadLastConfirmedOp.java
+132 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\ReadOnlyLedgerHandle.java
+168 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\RoundRobinDistributionSchedule.java
+89 same line(s)
+7 ignored unimportant difference line(s)
+8 important left orphan line(s)
+9 important right orphan line(s)
+6 important difference line(s)
+
+8 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\SyncCounter.java
+85 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\TryReadLastConfirmedOp.java
+107 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\client\UpdateLedgerOp.java
+70 ignored unimportant difference line(s)
+180 important right orphan line(s)
+
+29 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\conf\AbstractConfiguration.java
+237 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\conf\ClientConfiguration.java
+511 same line(s)
+71 ignored unimportant difference line(s)
+40 important right orphan line(s)
+
+12 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\conf\Configurable.java
+47 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\conf\ServerConfiguration.java
+1361 same line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\jmx\BKMBeanInfo.java
+27 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\jmx\BKMBeanRegistry.java
+89 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\AbstractZkLedgerManager.java
+481 same line(s)
+1 important left orphan line(s)
+
+1 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\CleanupLedgerManager.java
+226 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\FlatLedgerManager.java
+166 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\FlatLedgerManagerFactory.java
+92 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\HierarchicalLedgerManager.java
+476 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\HierarchicalLedgerManagerFactory.java
+93 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\LedgerLayout.java
+244 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\LedgerManager.java
+204 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\LedgerManagerFactory.java
+252 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\LedgerUnderreplicationManager.java
+119 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\MSLedgerManagerFactory.java
+733 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\ZkLedgerUnderreplicationManager.java
+630 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\meta\ZkVersion.java
+69 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\InMemoryMetaStore.java
+77 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\InMemoryMetastoreCursor.java
+97 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\InMemoryMetastoreTable.java
+380 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetaStore.java
+79 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetastoreCallback.java
+25 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetastoreCursor.java
+84 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetastoreException.java
+34 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetastoreFactory.java
+33 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetastoreScannableTable.java
+104 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetastoreTable.java
+193 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetastoreTableItem.java
+70 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetastoreUtils.java
+140 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MetastoreWatcher.java
+22 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MSException.java
+214 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\MSWatchedEvent.java
+38 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\metastore\Value.java
+156 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\AbstractDNSToSwitchMapping.java
+142 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\BookieSocketAddress.java
+100 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\CachedDNSToSwitchMapping.java
+153 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\CommonConfigurationKeys.java
+31 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\DNS.java
+340 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\DNSToSwitchMapping.java
+61 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\NetUtils.java
+61 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\NetworkTopology.java
+877 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\Node.java
+62 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\NodeBase.java
+186 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\net\ScriptBasedMapping.java
+264 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\processor\RequestProcessor.java
+42 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BKStats.java
+248 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookieClient.java
+358 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookieNettyServer.java
+199 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookieProtocol.java
+346 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookieProtoEncoding.java
+330 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookieRequestHandler.java
+89 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookieRequestProcessor.java
+193 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookieServer.java
+397 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookieServerBean.java
+82 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookieServerMXBean.java
+53 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookkeeperInternalCallbacks.java
+148 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\BookkeeperProtocol.java
+4774 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\DataFormats.java
+4088 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\DefaultPerChannelBookieClientPool.java
+93 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\PacketProcessorBase.java
+76 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\PacketProcessorBaseV3.java
+72 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\PerChannelBookieClient.java
+972 same line(s)
+5 important right orphan line(s)
+
+1 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\PerChannelBookieClientFactory.java
+37 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\PerChannelBookieClientPool.java
+59 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\ReadEntryProcessor.java
+133 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\ReadEntryProcessorV3.java
+164 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\ResponseBuilder.java
+47 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\ServerStats.java
+101 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\WriteEntryProcessor.java
+99 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\proto\WriteEntryProcessorV3.java
+151 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\replication\Auditor.java
+556 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\replication\AuditorElector.java
+386 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\replication\AutoRecoveryMain.java
+296 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\replication\BookieLedgerIndexer.java
+135 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\replication\ReplicationEnableCb.java
+56 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\replication\ReplicationException.java
+78 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\replication\ReplicationStats.java
+35 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\replication\ReplicationWorker.java
+465 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\streaming\LedgerInputStream.java
+174 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\streaming\LedgerOutputStream.java
+148 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\tools\BookKeeperTools.java
+88 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\BookKeeperConstants.java
+45 same line(s)
+6 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\DaemonThreadFactory.java
+39 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\DiskChecker.java
+208 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\EntryFormatter.java
+77 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\HardLink.java
+667 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\IOUtils.java
+104 same line(s)
+23 ignored unimportant difference line(s)
+19 important right orphan line(s)
+
+4 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\LocalBookKeeper.java
+254 same line(s)
+4 ignored unimportant difference line(s)
+3 important left orphan line(s)
+40 important right orphan line(s)
+4 important difference line(s)
+
+8 difference section(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\Main.java
+54 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\MathUtils.java
+76 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\NativeIO.java
+119 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\OrderedSafeExecutor.java
+200 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\ReflectionUtils.java
+152 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\SafeRunnable.java
+39 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\Shell.java
+677 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\SnapshotMap.java
+131 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\StringEntryFormatter.java
+47 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\StringUtils.java
+100 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\Tool.java
+43 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\ZeroBuffer.java
+73 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\util\ZkUtils.java
+257 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\versioning\Version.java
+62 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\versioning\Versioned.java
+45 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\zookeeper\BoundExponentialBackoffRetryPolicy.java
+41 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\zookeeper\ExponentialBackoffRetryPolicy.java
+47 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\zookeeper\RetryPolicy.java
+55 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\zookeeper\ZooKeeperClient.java
+1046 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\zookeeper\ZooKeeperWatcherBase.java
+133 same line(s)
+
+File: bookkeeper-server\src\main\java\org\apache\bookkeeper\zookeeper\ZooWorker.java
+147 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\BookieAccessor.java
+39 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\BookieInitializationTest.java
+353 same line(s)
+12 ignored unimportant difference line(s)
+30 important left orphan line(s)
+2 important right orphan line(s)
+34 important difference line(s)
+
+31 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\BookieJournalTest.java
+698 same line(s)
+4 ignored unimportant difference line(s)
+44 important left orphan line(s)
+17 important right orphan line(s)
+23 important difference line(s)
+
+28 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\BookieShutdownTest.java
+144 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\BookieThreadTest.java
+84 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\CompactionTest.java
+558 same line(s)
+4 important left orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\CookieTest.java
+436 same line(s)
+4 ignored unimportant difference line(s)
+17 important left orphan line(s)
+16 important right orphan line(s)
+29 important difference line(s)
+
+28 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\CreateNewLogTest.java
+102 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\EntryLogTest.java
+204 same line(s)
+3 ignored unimportant difference line(s)
+11 important left orphan line(s)
+14 important right orphan line(s)
+7 important difference line(s)
+
+11 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\IndexCorruptionTest.java
+153 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\IndexPersistenceMgrTest.java
+45 ignored unimportant difference line(s)
+80 important right orphan line(s)
+
+21 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\LedgerCacheTest.java
+439 same line(s)
+2 ignored unimportant difference line(s)
+10 important left orphan line(s)
+12 important right orphan line(s)
+6 important difference line(s)
+
+9 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\TestLedgerDirsManager.java
+77 same line(s)
+3 ignored unimportant difference line(s)
+2 important left orphan line(s)
+19 important right orphan line(s)
+1 important difference line(s)
+
+8 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\TestSyncThread.java
+353 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\UpdateCookieCmdTest.java
+216 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\bookie\UpgradeTest.java
+216 same line(s)
+2 ignored unimportant difference line(s)
+16 important left orphan line(s)
+6 important right orphan line(s)
+31 important difference line(s)
+
+17 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\BookieRecoveryTest.java
+996 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\BookieWriteLedgerTest.java
+232 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\BookKeeperCloseTest.java
+552 same line(s)
+14 ignored unimportant difference line(s)
+44 important right orphan line(s)
+
+8 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\BookKeeperTest.java
+243 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\BookKeeperTestClient.java
+71 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\ClientUtil.java
+40 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\LedgerCloseTest.java
+229 same line(s)
+5 ignored unimportant difference line(s)
+32 important right orphan line(s)
+
+10 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\LedgerHandleAdapter.java
+32 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\LedgerRecoveryTest.java
+422 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\ListLedgersTest.java
+111 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\RoundRobinDistributionScheduleTest.java
+48 same line(s)
+18 ignored unimportant difference line(s)
+52 important right orphan line(s)
+14 important difference line(s)
+
+8 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\SlowBookieTest.java
+211 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\TestFencing.java
+393 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\TestLedgerChecker.java
+453 same line(s)
+13 important right orphan line(s)
+11 important difference line(s)
+
+11 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\TestLedgerFragmentReplication.java
+342 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\TestRackawareEnsemblePlacementPolicy.java
+286 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\TestReadTimeout.java
+93 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\TestSpeculativeRead.java
+341 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\TestTryReadLastConfirmed.java
+188 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\TestWatchEnsembleChange.java
+148 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\UpdateLedgerCmdTest.java
+41 ignored unimportant difference line(s)
+92 important right orphan line(s)
+
+17 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\client\UpdateLedgerOpTest.java
+78 ignored unimportant difference line(s)
+227 important right orphan line(s)
+
+35 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\conf\TestBKConfiguration.java
+35 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\meta\GcLedgersTest.java
+274 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\meta\LedgerLayoutTest.java
+150 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\meta\LedgerManagerIteratorTest.java
+45 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\meta\LedgerManagerTestCase.java
+89 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\meta\TestLedgerManager.java
+324 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\meta\TestZkVersion.java
+65 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\metastore\MetastoreScannableTableAsyncToSyncConverter.java
+59 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\metastore\MetastoreTableAsyncToSyncConverter.java
+131 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\metastore\TestMetaStore.java
+646 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\proto\TestBKStats.java
+43 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\proto\TestDeathwatcher.java
+62 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\proto\TestPerChannelBookieClient.java
+280 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\AuditorBookieTest.java
+285 same line(s)
+2 important left orphan line(s)
+
+2 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\AuditorLedgerCheckerTest.java
+403 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\AuditorPeriodicBookieCheckTest.java
+124 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\AuditorPeriodicCheckTest.java
+333 same line(s)
+7 important difference line(s)
+
+6 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\AuditorRollingRestartTest.java
+74 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\AutoRecoveryMainTest.java
+109 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\BookieAutoRecoveryTest.java
+627 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\BookieLedgerIndexTest.java
+232 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\ReplicationTestUtil.java
+59 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\TestAutoRecoveryAlongWithBookieServers.java
+101 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\TestLedgerUnderreplicationManager.java
+763 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\replication\TestReplicationWorker.java
+604 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\AsyncLedgerOpsTest.java
+260 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\BaseTestCase.java
+49 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\BookieClientTest.java
+242 same line(s)
+1 ignored unimportant difference line(s)
+2 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\BookieFailureTest.java
+402 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\BookieJournalRollingTest.java
+275 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\BookieReadWriteTest.java
+1070 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\BookieZKExpireTest.java
+104 same line(s)
+2 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\BookKeeperClusterTestCase.java
+561 same line(s)
+3 ignored unimportant difference line(s)
+4 important left orphan line(s)
+10 important right orphan line(s)
+1 important difference line(s)
+
+9 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\CloseTest.java
+100 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\ConcurrentLedgerTest.java
+181 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+9 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\ConditionalSetTest.java
+117 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\ConfigurationTest.java
+67 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\LedgerCreateDeleteTest.java
+99 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\LedgerDeleteTest.java
+173 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\LoopbackClient.java
+119 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\MultiLedgerManagerMultiDigestTestCase.java
+64 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\MultiLedgerManagerTestCase.java
+56 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\MultipleThreadReadTest.java
+308 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\PortManager.java
+55 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\ReadOnlyBookieTest.java
+294 same line(s)
+2 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\TestBackwardCompat.java
+801 same line(s)
+3 ignored unimportant difference line(s)
+20 important left orphan line(s)
+15 important right orphan line(s)
+10 important difference line(s)
+
+12 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\TestCallbacks.java
+57 same line(s)
+6 ignored unimportant difference line(s)
+12 important right orphan line(s)
+
+6 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\test\ZooKeeperUtil.java
+164 same line(s)
+2 important left orphan line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\util\StaticDNSResolver.java
+80 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\util\TestDiskChecker.java
+97 same line(s)
+4 ignored unimportant difference line(s)
+4 important left orphan line(s)
+17 important right orphan line(s)
+9 important difference line(s)
+
+14 difference section(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\util\TestUtils.java
+52 same line(s)
+
+File: bookkeeper-server\src\test\java\org\apache\bookkeeper\zookeeper\TestZooKeeperClient.java
+367 same line(s)
+
+File: bookkeeper-stats\src\main\java\org\apache\bookkeeper\stats\Counter.java
+50 same line(s)
+
+File: bookkeeper-stats\src\main\java\org\apache\bookkeeper\stats\Gauge.java
+28 same line(s)
+
+File: bookkeeper-stats\src\main\java\org\apache\bookkeeper\stats\NullStatsLogger.java
+96 same line(s)
+
+File: bookkeeper-stats\src\main\java\org\apache\bookkeeper\stats\NullStatsProvider.java
+40 same line(s)
+
+File: bookkeeper-stats\src\main\java\org\apache\bookkeeper\stats\OpStatsData.java
+76 same line(s)
+
+File: bookkeeper-stats\src\main\java\org\apache\bookkeeper\stats\OpStatsLogger.java
+49 same line(s)
+
+File: bookkeeper-stats\src\main\java\org\apache\bookkeeper\stats\Stats.java
+63 same line(s)
+
+File: bookkeeper-stats\src\main\java\org\apache\bookkeeper\stats\StatsLogger.java
+55 same line(s)
+
+File: bookkeeper-stats\src\main\java\org\apache\bookkeeper\stats\StatsProvider.java
+45 same line(s)
+
+File: bookkeeper-stats-providers\codahale-metrics-provider\src\main\java\org\apache\bookkeeper\stats\CodahaleMetricsProvider.java
+147 same line(s)
+
+File: bookkeeper-stats-providers\codahale-metrics-provider\src\main\java\org\apache\bookkeeper\stats\CodahaleOpStatsLogger.java
+68 same line(s)
+
+File: bookkeeper-stats-providers\codahale-metrics-provider\src\main\java\org\apache\bookkeeper\stats\CodahaleStatsLogger.java
+99 same line(s)
+
+File: bookkeeper-stats-providers\twitter-ostrich-provider\src\main\java\org\apache\bookkeeper\stats\twitter\ostrich\CounterImpl.java
+53 same line(s)
+
+File: bookkeeper-stats-providers\twitter-ostrich-provider\src\main\java\org\apache\bookkeeper\stats\twitter\ostrich\OpStatsLoggerImpl.java
+81 same line(s)
+
+File: bookkeeper-stats-providers\twitter-ostrich-provider\src\main\java\org\apache\bookkeeper\stats\twitter\ostrich\OstrichProvider.java
+74 same line(s)
+3 important left orphan line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: bookkeeper-stats-providers\twitter-ostrich-provider\src\main\java\org\apache\bookkeeper\stats\twitter\ostrich\OstrichStatsLoggerImpl.java
+69 same line(s)
+
+File: bookkeeper-stats-providers\twitter-science-provider\src\main\java\org\apache\bookkeeper\stats\twitter\science\CounterImpl.java
+69 same line(s)
+
+File: bookkeeper-stats-providers\twitter-science-provider\src\main\java\org\apache\bookkeeper\stats\twitter\science\HTTPStatsExporter.java
+77 same line(s)
+
+File: bookkeeper-stats-providers\twitter-science-provider\src\main\java\org\apache\bookkeeper\stats\twitter\science\OpStatsLoggerImpl.java
+72 same line(s)
+
+File: bookkeeper-stats-providers\twitter-science-provider\src\main\java\org\apache\bookkeeper\stats\twitter\science\TwitterStatsLoggerImpl.java
+72 same line(s)
+
+File: bookkeeper-stats-providers\twitter-science-provider\src\main\java\org\apache\bookkeeper\stats\twitter\science\TwitterStatsProvider.java
+63 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\api\Client.java
+42 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\api\MessageHandler.java
+48 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\api\Publisher.java
+89 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\api\Subscriber.java
+380 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\benchmark\BenchmarkPublisher.java
+141 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\benchmark\BenchmarkSubscriber.java
+148 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\benchmark\BenchmarkUtils.java
+191 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\benchmark\BenchmarkWorker.java
+46 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\benchmark\HedwigBenchmark.java
+165 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\conf\ClientConfiguration.java
+171 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\data\MessageConsumeData.java
+56 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\data\PubSubData.java
+179 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\data\TopicSubscriber.java
+74 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\exceptions\AlreadyStartDeliveryException.java
+36 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\exceptions\InvalidSubscriberIdException.java
+37 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\exceptions\NoResponseHandlerException.java
+34 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\exceptions\ResubscribeException.java
+34 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\exceptions\ServerRedirectLoopException.java
+38 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\exceptions\TooManyServerRedirectsException.java
+39 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\handlers\AbstractResponseHandler.java
+156 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\handlers\CloseSubscriptionResponseHandler.java
+84 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\handlers\MessageConsumeCallback.java
+117 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\handlers\PublishResponseHandler.java
+71 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\handlers\PubSubCallback.java
+94 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\handlers\SubscribeResponseHandler.java
+183 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\handlers\UnsubscribeResponseHandler.java
+85 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\multiplex\MultiplexHChannelManager.java
+319 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\multiplex\MultiplexSubscribeResponseHandler.java
+129 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\multiplex\MultiplexSubscriptionChannelPipelineFactory.java
+49 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\simple\SimpleHChannelManager.java
+358 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\simple\SimpleSubscribeResponseHandler.java
+277 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\simple\SimpleSubscriptionChannelPipelineFactory.java
+49 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\AbstractHChannelManager.java
+624 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\AbstractSubscribeResponseHandler.java
+377 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\ActiveSubscriber.java
+382 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\ClientChannelPipelineFactory.java
+72 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\DefaultServerChannel.java
+92 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\HChannelHandler.java
+282 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\HChannelImpl.java
+371 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\NonSubscriptionChannelPipelineFactory.java
+47 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\ResubscribeCallback.java
+108 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\impl\WriteCallback.java
+111 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\CleanupChannelMap.java
+183 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\FilterableMessageHandler.java
+70 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\HChannel.java
+54 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\HChannelManager.java
+160 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\HedwigClientImpl.java
+128 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\HedwigPublisher.java
+151 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\HedwigSubscriber.java
+422 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\NetUtils.java
+221 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\package-info.java
+89 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\SubscriptionEventEmitter.java
+50 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\netty\VoidCallbackAdapter.java
+42 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\ssl\SslClientContextFactory.java
+41 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\ssl\SslContextFactory.java
+66 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\client\HedwigClient.java
+72 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\conf\AbstractConfiguration.java
+63 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\filter\ClientMessageFilter.java
+24 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\filter\MessageFilterBase.java
+50 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\filter\PipelineFilter.java
+72 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\filter\ServerMessageFilter.java
+47 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\Callback.java
+47 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\CallbackUtils.java
+183 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\ConcurrencyUtils.java
+49 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\Either.java
+50 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\FileUtils.java
+98 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\HedwigSocketAddress.java
+143 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\Option.java
+43 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\Pair.java
+42 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\PathUtils.java
+56 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\SubscriptionListener.java
+44 same line(s)
+
+File: hedwig-client\src\main\java\org\apache\hedwig\util\VarArgs.java
+26 same line(s)
+
+File: hedwig-client\src\test\java\org\apache\hedwig\util\TestFileUtils.java
+41 same line(s)
+
+File: hedwig-client\src\test\java\org\apache\hedwig\util\TestHedwigSocketAddress.java
+104 same line(s)
+
+File: hedwig-client\src\test\java\org\apache\hedwig\util\TestPathUtils.java
+54 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\jndi\HedwigInitialContext.java
+106 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\jndi\HedwigInitialContextFactory.java
+33 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\message\header\JmsHeader.java
+1126 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\message\header\MetadataProcessor.java
+163 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\message\BytesMessageImpl.java
+657 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\message\MapMessageImpl.java
+295 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\message\MessageImpl.java
+872 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\message\MessageUtil.java
+444 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\message\ObjectMessageImpl.java
+168 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\message\StreamMessageImpl.java
+752 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\message\TextMessageImpl.java
+135 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\BinaryArithmeticFunction.java
+184 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\BinaryExprFunction.java
+51 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\ExprFunction.java
+25 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\InterpretSelectorParserVisitor.java
+180 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\LogicalComparisonFunction.java
+64 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\MyNode.java
+101 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\PropertyExprFunction.java
+512 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\SelectorConstant.java
+187 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\SelectorEvalState.java
+56 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\SelectorEvaluationException.java
+39 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\TreeDumperSelectorParserVisitor.java
+261 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\UnaryArithmeticFunction.java
+73 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\UnaryExprFunction.java
+65 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\selector\ValueComparisonFunction.java
+329 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\spi\HedwigConnectionFactoryImpl.java
+64 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\spi\HedwigConnectionImpl.java
+164 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\spi\HedwigMessagingSessionFacade.java
+624 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\spi\MessageConsumerImpl.java
+74 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\spi\MessageProducerImpl.java
+117 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\spi\QueueSessionImpl.java
+84 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\spi\TopicPublisherImpl.java
+226 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\spi\TopicSessionImpl.java
+76 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\spi\TopicSubscriberImpl.java
+323 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\ConnectionImpl.java
+476 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\ConnectionMetaDataImpl.java
+77 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\DebugUtil.java
+69 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\LRUCacheMap.java
+104 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\LRUCacheSet.java
+115 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\MessagingSessionFacade.java
+421 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\Mutable.java
+61 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\SessionImpl.java
+2009 same line(s)
+
+File: hedwig-client-jms\src\main\java\org\apache\hedwig\jms\StateManager.java
+179 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\demo\SimpleConsumer.java
+129 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\demo\SimpleProducer.java
+138 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\load\LoadClient.java
+222 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\load\LoadController.java
+98 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\load\LoadTest.java
+127 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\ConnectionChurnTest.java
+77 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\InactiveDurableTopicTest.java
+171 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\NetworkedSyncTest.java
+212 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\NumberOfDestinationsTest.java
+88 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\PerfConsumer.java
+139 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\PerfProducer.java
+125 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\PerfRate.java
+78 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\SimpleDurableTopicNetworkTest.java
+50 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\SimpleDurableTopicTest.java
+63 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\SimpleNetworkTest.java
+79 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\SimpleNonPersistentTopicTest.java
+37 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\SimpleTopicTest.java
+181 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\SlowConsumer.java
+47 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\SlowConsumerTopicTest.java
+56 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\perf\SlowDurableConsumerTopicTest.java
+38 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\test\rollback\DelegatingTransactionalMessageListener.java
+71 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\test\JmsResourceProvider.java
+237 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\test\JmsSendReceiveTestSupport.java
+273 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\test\JmsTopicSendReceiveTest.java
+116 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\test\JmsTopicSendReceiveWithTwoConnectionsAndByteSelectorTest.java
+35 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\test\JmsTopicSendReceiveWithTwoConnectionsTest.java
+129 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\test\TestSupport.java
+261 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\ChangeSentMessageTest.java
+62 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\ChangeSessionDeliveryModeTest.java
+72 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\CompositeConsumeTest.java
+73 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\CompositePublishTest.java
+145 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\ConcurrentProducerDurableConsumerTest.java
+413 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\DiscriminatingConsumerLoadTest.java
+322 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\DispatchMultipleConsumersTest.java
+214 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\DurableConsumerCloseAndReconnectTest.java
+192 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\DurableSubProcessTest.java
+628 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\DurableSubscriptionHangTestCase.java
+119 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\DurableSubSelectorDelayTest.java
+256 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\MyObject.java
+73 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\NonBlockingConsumerRedeliveryTest.java
+340 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\ObjectMessageNotSerializableTest.java
+241 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\ProducerConsumerTestSupport.java
+54 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\PublishOnDurableTopicConsumedMessageTest.java
+27 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\PublishOnTopicConsumedMessageTest.java
+66 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\SubscribeClosePublishThenConsumeTest.java
+107 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\TestSupport.java
+157 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\TopicRedeliverTest.java
+300 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\TransactionRollbackOrderTest.java
+161 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\usecases\TransactionTest.java
+120 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\util\ConsumerThread.java
+86 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\util\DefaultTestAppender.java
+82 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\util\IdGenerator.java
+29 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\util\MessageIdList.java
+267 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\util\ProducerThread.java
+87 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\util\SimplePojo.java
+77 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\util\Wait.java
+40 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\AutoFailTestSupport.java
+153 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\CombinationTestSupport.java
+250 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\ConnectionCleanupTest.java
+73 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\ConsumerReceiveWithTimeoutTest.java
+84 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\ExpiryHogTest.java
+61 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsAutoAckListenerTest.java
+77 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsAutoAckTest.java
+75 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsBenchmark.java
+204 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsClientAckListenerTest.java
+127 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsClientAckTest.java
+148 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsConnectionStartStopTest.java
+169 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsConsumerResetActiveListenerTest.java
+157 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JMSConsumerTest.java
+936 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsCreateConsumerInOnMessageTest.java
+96 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JMSDurableTopicRedeliverTest.java
+76 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsDurableTopicSelectorTest.java
+26 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsDurableTopicSendReceiveTest.java
+87 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsDurableTopicTransactionTest.java
+38 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JMSIndividualAckTest.java
+165 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JMSMessageTest.java
+504 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsMultipleClientsTestSupport.java
+281 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsRedeliveredTest.java
+380 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsRollbackRedeliveryTest.java
+339 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsSendReceiveTestSupport.java
+234 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsSendReceiveWithMessageExpirationTest.java
+239 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsSendWithAsyncCallbackTest.java
+107 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTestSupport.java
+174 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTopicCompositeSendReceiveTest.java
+101 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTopicRedeliverTest.java
+176 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTopicSelectorTest.java
+212 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTopicSendReceiveSubscriberTest.java
+33 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTopicSendReceiveTest.java
+95 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTopicSendReceiveWithTwoConnectionsTest.java
+116 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTopicSendReceiveWithTwoConnectionsWithJMXTest.java
+28 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTopicSendSameMessageTest.java
+46 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTopicTransactionTest.java
+36 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JmsTransactionTestSupport.java
+692 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\JMSUsecaseTest.java
+109 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\LoadTestBurnIn.java
+164 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\MessageListenerRedeliveryTest.java
+193 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\RedeliveryPolicyTest.java
+145 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\TestSupport.java
+151 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\activemq\TimeStampTest.java
+91 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\hedwig\jms\selector\activemq\SelectorParserTest.java
+46 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\hedwig\jms\selector\activemq\SelectorTest.java
+399 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\hedwig\jms\selector\BasicSelectorGrammarTest.java
+376 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\hedwig\jms\BasicJMSTest.java
+337 same line(s)
+
+File: hedwig-client-jms\src\test\java\org\apache\hedwig\JmsTestBase.java
+95 same line(s)
+
+File: hedwig-protocol\src\main\java\org\apache\hedwig\exceptions\PubSubException.java
+254 same line(s)
+
+File: hedwig-protocol\src\main\java\org\apache\hedwig\protocol\PubSubProtocol.java
+16883 same line(s)
+
+File: hedwig-protocol\src\main\java\org\apache\hedwig\protoextensions\MapUtils.java
+74 same line(s)
+
+File: hedwig-protocol\src\main\java\org\apache\hedwig\protoextensions\MessageIdUtils.java
+153 same line(s)
+
+File: hedwig-protocol\src\main\java\org\apache\hedwig\protoextensions\PubSubResponseUtils.java
+68 same line(s)
+
+File: hedwig-protocol\src\main\java\org\apache\hedwig\protoextensions\SubscriptionStateUtils.java
+100 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\admin\console\HedwigCommands.java
+437 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\admin\console\HedwigConsole.java
+1038 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\admin\console\JLineHedwigCompletor.java
+104 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\admin\console\ReadTopic.java
+332 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\admin\HedwigAdmin.java
+550 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\data\MessageFormatter.java
+123 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\benchmark\AbstractBenchmark.java
+106 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\benchmark\BookieBenchmark.java
+105 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\benchmark\BookkeeperBenchmark.java
+94 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\benchmark\FakeBookie.java
+101 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\common\ByteStringInterner.java
+38 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\common\ServerConfiguration.java
+666 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\common\TerminateJVMExceptionHandler.java
+32 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\common\TopicOpQueuer.java
+111 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\common\UnexpectedError.java
+35 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\delivery\ChannelEndPoint.java
+90 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\delivery\DeliveryCallback.java
+27 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\delivery\DeliveryEndPoint.java
+28 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\delivery\DeliveryManager.java
+92 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\delivery\FIFODeliveryManager.java
+979 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\BaseHandler.java
+67 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\ChannelDisconnectListener.java
+29 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\CloseSubscriptionHandler.java
+105 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\ConsumeHandler.java
+72 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\Handler.java
+37 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\NettyHandlerBean.java
+47 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\NettyHandlerMXBean.java
+31 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\PublishHandler.java
+90 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\SubscribeHandler.java
+223 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\SubscriptionChannelManager.java
+214 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\handlers\UnsubscribeHandler.java
+107 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\jmx\HedwigJMXService.java
+37 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\jmx\HedwigMBeanInfo.java
+27 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\jmx\HedwigMBeanRegistry.java
+48 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\meta\FactoryLayout.java
+167 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\meta\MetadataManagerFactory.java
+213 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\meta\MsMetadataManagerFactory.java
+867 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\meta\SubscriptionDataManager.java
+159 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\meta\TopicOwnershipManager.java
+100 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\meta\TopicPersistenceManager.java
+96 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\meta\ZkMetadataManagerFactory.java
+842 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\netty\PubSubServer.java
+535 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\netty\PubSubServerBean.java
+83 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\netty\PubSubServerMXBean.java
+63 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\netty\PubSubServerPipelineFactory.java
+76 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\netty\ServerStats.java
+202 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\netty\UmbrellaHandler.java
+155 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\BookkeeperPersistenceManager.java
+1263 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\CacheKey.java
+74 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\CacheValue.java
+101 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\CancelScanRequest.java
+27 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\Factory.java
+22 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\LocalDBPersistenceManager.java
+491 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\MapMethods.java
+62 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\PersistenceManager.java
+99 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\PersistenceManagerWithRangeScan.java
+27 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\PersistRequest.java
+59 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\RangeScanRequest.java
+77 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\ReadAheadCache.java
+863 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\ReadAheadCacheBean.java
+64 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\ReadAheadCacheMXBean.java
+45 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\ScanCallback.java
+63 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\ScanCallbackWithContext.java
+54 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\persistence\ScanRequest.java
+64 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\ChannelTracker.java
+132 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\HedwigProxy.java
+182 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\ProxyCloseSubscriptionHandler.java
+70 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\ProxyConfiguration.java
+36 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\ProxyConsumeHandler.java
+58 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\ProxyPublishHander.java
+62 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\ProxyStartDeliveryHandler.java
+132 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\ProxyStopDeliveryHandler.java
+74 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\ProxySubscribeHandler.java
+86 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\proxy\ProxyUnsubscribeHandler.java
+74 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\regions\HedwigHubClient.java
+48 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\regions\HedwigHubClientFactory.java
+74 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\regions\HedwigHubSubscriber.java
+86 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\regions\RegionManager.java
+355 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\ssl\SslServerContextFactory.java
+53 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\subscriptions\AbstractSubscriptionManager.java
+804 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\subscriptions\AllToAllTopologyFilter.java
+75 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\subscriptions\InMemorySubscriptionManager.java
+125 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\subscriptions\InMemorySubscriptionState.java
+200 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\subscriptions\MMSubscriptionManager.java
+134 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\subscriptions\SubscriptionEventListener.java
+57 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\subscriptions\SubscriptionManager.java
+123 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\AbstractTopicManager.java
+314 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\HubInfo.java
+162 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\HubLoad.java
+137 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\HubServerManager.java
+124 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\MMTopicManager.java
+359 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\TopicBasedLoadShedder.java
+151 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\TopicManager.java
+107 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\TopicOwnershipChangeListener.java
+28 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\TrivialOwnAllTopicManager.java
+58 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\ZkHubServerManager.java
+470 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\server\topics\ZkTopicManager.java
+347 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\zookeeper\SafeAsynBKCallback.java
+104 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\zookeeper\SafeAsyncCallback.java
+35 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\zookeeper\SafeAsyncZKCallback.java
+98 same line(s)
+
+File: hedwig-server\src\main\java\org\apache\hedwig\zookeeper\ZkUtils.java
+117 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\client\netty\TestMultiplexing.java
+439 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\client\TestPubSubClient.java
+708 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\client\TestSubAfterCloseSub.java
+209 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\delivery\StubDeliveryManager.java
+90 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\delivery\TestFIFODeliveryManager.java
+298 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\delivery\TestThrottlingDelivery.java
+375 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\filter\TestMessageFilter.java
+415 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\handlers\TestBaseHandler.java
+116 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\handlers\TestSubUnsubHandler.java
+178 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\integration\TestHedwigHub.java
+777 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\integration\TestHedwigHubProxy.java
+36 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\integration\TestHedwigHubRegular.java
+36 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\integration\TestHedwigHubSSL.java
+36 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\integration\TestHedwigRegion.java
+304 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\meta\MetadataManagerFactoryTestCase.java
+79 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\meta\TestFactoryLayout.java
+84 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\meta\TestMetadataManager.java
+365 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\meta\TestMetadataManagerFactory.java
+306 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\netty\TestPubSubServer.java
+265 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\netty\TestServerStats.java
+41 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\netty\WriteRecordingChannel.java
+175 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\BookKeeperTestBase.java
+267 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\MessageBoundedPersistenceTest.java
+288 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\StubPersistenceManager.java
+137 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\StubScanCallback.java
+48 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\TestBookKeeperPersistenceManager.java
+798 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\TestBookKeeperPersistenceManagerBlackBox.java
+83 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\TestBookkeeperPersistenceManagerWhiteBox.java
+355 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\TestDeadlock.java
+276 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\TestLocalDBPersistenceManagerBlackBox.java
+56 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\TestPersistenceManagerBlackBox.java
+305 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\TestReadAheadCacheBlackBox.java
+57 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\persistence\TestReadAheadCacheWhiteBox.java
+303 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\subscriptions\StubSubscriptionManager.java
+55 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\subscriptions\TestMMSubscriptionManager.java
+214 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\subscriptions\TestUpdateSubscriptionState.java
+252 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\topics\StubTopicManager.java
+64 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\topics\TestConcurrentTopicAcquisition.java
+210 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\topics\TestHubInfo.java
+62 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\topics\TestHubLoad.java
+60 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\topics\TestMMTopicManager.java
+357 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\topics\TestTopicBasedLoadShedder.java
+194 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\topics\TestZkTopicManager.java
+376 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\HedwigHubTestBase.java
+192 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\HedwigRegionTestBase.java
+282 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\LoggingExceptionHandler.java
+35 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\PubSubServerStandAloneTestBase.java
+98 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\TestBackwardCompat.java
+1320 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\server\TestPubSubServerStartup.java
+139 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\zookeeper\TestZkUtils.java
+47 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\zookeeper\ZooKeeperTestBase.java
+94 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\HelperMethods.java
+58 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\StubCallback.java
+51 same line(s)
+
+File: hedwig-server\src\test\java\org\apache\hedwig\StubScanCallback.java
+57 same line(s)

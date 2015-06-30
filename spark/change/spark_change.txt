@@ -1,0 +1,806 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 15:18:18
+
+Ignoring Unimportant
+Left base folder: D:\APsource\spark\version1
+Right base folder: D:\APsource\spark\version2
+
+File: bagel\src\main\scala\org\apache\spark\bagel\package-info.java
+21 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\DoubleFlatMapFunction.java
+27 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\DoubleFunction.java
+27 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\FlatMapFunction.java
+27 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\FlatMapFunction2.java
+27 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\Function.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\Function2.java
+27 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\Function3.java
+27 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\PairFlatMapFunction.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\PairFunction.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\function\VoidFunction.java
+27 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\JavaFutureAction.java
+33 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\JavaSparkContextVarargsWorkaround.java
+63 same line(s)
+
+File: core\src\main\java\org\apache\spark\api\java\StorageLevels.java
+68 same line(s)
+
+File: core\src\main\java\org\apache\spark\util\collection\TimSort.java
+939 same line(s)
+
+File: core\src\main\java\org\apache\spark\JavaSparkListener.java
+97 same line(s)
+
+File: core\src\main\java\org\apache\spark\JobExecutionStatus.java
+25 same line(s)
+
+File: core\src\main\java\org\apache\spark\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\spark\SparkFirehoseListener.java
+115 same line(s)
+
+File: core\src\main\java\org\apache\spark\SparkJobInfo.java
+32 same line(s)
+
+File: core\src\main\java\org\apache\spark\SparkStageInfo.java
+37 same line(s)
+
+File: core\src\main\scala\org\apache\spark\annotation\AlphaComponent.java
+33 same line(s)
+
+File: core\src\main\scala\org\apache\spark\annotation\DeveloperApi.java
+35 same line(s)
+
+File: core\src\main\scala\org\apache\spark\annotation\Experimental.java
+36 same line(s)
+
+File: core\src\main\scala\org\apache\spark\annotation\package-info.java
+23 same line(s)
+
+File: core\src\main\scala\org\apache\spark\api\java\package-info.java
+21 same line(s)
+
+File: core\src\main\scala\org\apache\spark\broadcast\package-info.java
+21 same line(s)
+
+File: core\src\main\scala\org\apache\spark\executor\package-info.java
+21 same line(s)
+
+File: core\src\main\scala\org\apache\spark\io\package-info.java
+21 same line(s)
+
+File: core\src\main\scala\org\apache\spark\rdd\package-info.java
+21 same line(s)
+
+File: core\src\main\scala\org\apache\spark\scheduler\package-info.java
+21 same line(s)
+
+File: core\src\main\scala\org\apache\spark\serializer\package-info.java
+21 same line(s)
+
+File: core\src\main\scala\org\apache\spark\util\random\package-info.java
+21 same line(s)
+
+File: core\src\main\scala\org\apache\spark\util\package-info.java
+21 same line(s)
+
+File: core\src\test\java\org\apache\spark\serializer\TestJavaSerializerImpl.java
+95 same line(s)
+
+File: core\src\test\java\org\apache\spark\util\collection\TestTimSort.java
+134 same line(s)
+
+File: core\src\test\java\org\apache\spark\JavaAPISuite.java
+1618 same line(s)
+16 ignored unimportant difference line(s)
+113 important right orphan line(s)
+
+18 difference section(s)
+
+File: core\src\test\java\org\apache\spark\JavaJdbcRDDSuite.java
+118 same line(s)
+
+File: core\src\test\java\test\org\apache\spark\JavaTaskCompletionListenerImpl.java
+39 same line(s)
+
+File: core\src\test\java\test\org\apache\spark\JavaTaskContextCompileCheck.java
+41 same line(s)
+
+File: dev\audit-release\maven_app_core\src\main\java\SimpleApp.java
+42 same line(s)
+
+File: examples\scala-2.10\src\main\java\org\apache\spark\examples\streaming\JavaDirectKafkaWordCount.java
+113 same line(s)
+
+File: examples\scala-2.10\src\main\java\org\apache\spark\examples\streaming\JavaKafkaWordCount.java
+113 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\ml\JavaCrossValidatorExample.java
+126 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\ml\JavaDeveloperApiExample.java
+217 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\ml\JavaSimpleParamsExample.java
+111 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\ml\JavaSimpleTextClassificationPipeline.java
+93 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\mllib\JavaALS.java
+90 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\mllib\JavaDecisionTree.java
+116 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\mllib\JavaFPGrowthExample.java
+78 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\mllib\JavaGradientBoostedTreesRunner.java
+126 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\mllib\JavaKMeans.java
+82 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\mllib\JavaLDAExample.java
+76 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\mllib\JavaLR.java
+82 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\mllib\JavaPowerIterationClusteringExample.java
+57 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\mllib\JavaRandomForestExample.java
+139 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\sql\JavaSparkSQL.java
+170 same line(s)
+1 ignored unimportant difference line(s)
+9 important difference line(s)
+
+9 difference section(s)
+
+File: examples\src\main\java\org\apache\spark\examples\streaming\JavaCustomReceiver.java
+150 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\streaming\JavaFlumeEventCount.java
+75 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\streaming\JavaNetworkWordCount.java
+91 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\streaming\JavaQueueStream.java
+86 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\streaming\JavaRecord.java
+21 ignored unimportant difference line(s)
+10 important right orphan line(s)
+
+4 difference section(s)
+
+File: examples\src\main\java\org\apache\spark\examples\streaming\JavaRecoverableNetworkWordCount.java
+154 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\streaming\JavaSqlNetworkWordCount.java
+54 ignored unimportant difference line(s)
+68 important right orphan line(s)
+
+15 difference section(s)
+
+File: examples\src\main\java\org\apache\spark\examples\streaming\JavaStatefulNetworkWordCount.java
+115 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\JavaHdfsLR.java
+159 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\JavaLogQuery.java
+129 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\JavaPageRank.java
+138 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\JavaSparkPi.java
+66 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\JavaStatusTrackerDemo.java
+70 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\JavaTC.java
+99 same line(s)
+
+File: examples\src\main\java\org\apache\spark\examples\JavaWordCount.java
+74 same line(s)
+
+File: external\flume\src\main\scala\org\apache\spark\streaming\flume\package-info.java
+21 same line(s)
+
+File: external\flume\src\test\java\org\apache\spark\streaming\flume\JavaFlumePollingStreamSuite.java
+44 same line(s)
+
+File: external\flume\src\test\java\org\apache\spark\streaming\flume\JavaFlumeStreamSuite.java
+36 same line(s)
+
+File: external\flume\src\test\java\org\apache\spark\streaming\LocalJavaStreamingContext.java
+44 same line(s)
+
+File: external\kafka\src\main\scala\org\apache\spark\streaming\kafka\package-info.java
+21 same line(s)
+
+File: external\kafka\src\test\java\org\apache\spark\streaming\kafka\JavaDirectKafkaStreamSuite.java
+159 same line(s)
+
+File: external\kafka\src\test\java\org\apache\spark\streaming\kafka\JavaKafkaRDDSuite.java
+156 same line(s)
+
+File: external\kafka\src\test\java\org\apache\spark\streaming\kafka\JavaKafkaStreamSuite.java
+143 same line(s)
+
+File: external\mqtt\src\main\scala\org\apache\spark\streaming\mqtt\package-info.java
+21 same line(s)
+
+File: external\mqtt\src\test\java\org\apache\spark\streaming\mqtt\JavaMQTTStreamSuite.java
+37 same line(s)
+
+File: external\mqtt\src\test\java\org\apache\spark\streaming\LocalJavaStreamingContext.java
+44 same line(s)
+
+File: external\twitter\src\main\scala\org\apache\spark\streaming\twitter\package-info.java
+21 same line(s)
+
+File: external\twitter\src\test\java\org\apache\spark\streaming\twitter\JavaTwitterStreamSuite.java
+46 same line(s)
+
+File: external\twitter\src\test\java\org\apache\spark\streaming\LocalJavaStreamingContext.java
+44 same line(s)
+
+File: external\zeromq\src\main\scala\org\apache\spark\streaming\zeromq\package-info.java
+21 same line(s)
+
+File: external\zeromq\src\test\java\org\apache\spark\streaming\zeromq\JavaZeroMQStreamSuite.java
+50 same line(s)
+
+File: external\zeromq\src\test\java\org\apache\spark\streaming\LocalJavaStreamingContext.java
+44 same line(s)
+
+File: extras\java8-tests\src\test\java\org\apache\spark\streaming\Java8APISuite.java
+834 same line(s)
+
+File: extras\java8-tests\src\test\java\org\apache\spark\Java8APISuite.java
+389 same line(s)
+
+File: extras\kinesis-asl\src\main\java\org\apache\spark\examples\streaming\JavaKinesisWordCountASL.java
+179 same line(s)
+
+File: extras\kinesis-asl\src\test\java\org\apache\spark\streaming\kinesis\JavaKinesisStreamSuite.java
+41 same line(s)
+
+File: graphx\src\main\scala\org\apache\spark\graphx\impl\EdgeActiveness.java
+34 same line(s)
+
+File: graphx\src\main\scala\org\apache\spark\graphx\lib\package-info.java
+21 same line(s)
+
+File: graphx\src\main\scala\org\apache\spark\graphx\util\package-info.java
+21 same line(s)
+
+File: graphx\src\main\scala\org\apache\spark\graphx\package-info.java
+22 same line(s)
+
+File: graphx\src\main\scala\org\apache\spark\graphx\TripletFields.java
+72 same line(s)
+
+File: mllib\src\main\scala\org\apache\spark\ml\package-info.java
+25 same line(s)
+
+File: mllib\src\main\scala\org\apache\spark\mllib\package-info.java
+21 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\ml\classification\JavaLogisticRegressionSuite.java
+148 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\ml\classification\JavaStreamingLogisticRegressionSuite.java
+82 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\ml\regression\JavaLinearRegressionSuite.java
+89 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\ml\tuning\JavaCrossValidatorSuite.java
+75 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\ml\JavaPipelineSuite.java
+71 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\classification\JavaLogisticRegressionSuite.java
+97 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\classification\JavaNaiveBayesSuite.java
+105 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\classification\JavaSVMSuite.java
+95 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\clustering\JavaKMeansSuite.java
+104 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\clustering\JavaLDASuite.java
+119 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\feature\JavaTfIdfSuite.java
+88 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\feature\JavaWord2VecSuite.java
+66 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\fpm\JavaFPGrowthSuite.java
+74 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\linalg\JavaMatricesSuite.java
+163 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\linalg\JavaVectorsSuite.java
+45 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\random\JavaRandomRDDsSuite.java
+233 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\recommendation\JavaALSSuite.java
+203 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\regression\JavaIsotonicRegressionSuite.java
+89 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\regression\JavaLassoSuite.java
+96 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\regression\JavaLinearRegressionSuite.java
+115 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\regression\JavaRidgeRegressionSuite.java
+105 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\regression\JavaStreamingLinearRegressionSuite.java
+80 same line(s)
+
+File: mllib\src\test\java\org\apache\spark\mllib\tree\JavaDecisionTreeSuite.java
+102 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\buffer\FileSegmentManagedBuffer.java
+154 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\buffer\LazyFileRegion.java
+111 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\buffer\ManagedBuffer.java
+71 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\buffer\NettyManagedBuffer.java
+76 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\buffer\NioManagedBuffer.java
+75 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\client\ChunkFetchFailureException.java
+31 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\client\ChunkReceivedCallback.java
+47 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\client\RpcResponseCallback.java
+30 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\client\TransportClient.java
+208 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\client\TransportClientBootstrap.java
+32 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\client\TransportClientFactory.java
+238 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\client\TransportResponseHandler.java
+168 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\ChunkFetchFailure.java
+72 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\ChunkFetchRequest.java
+66 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\ChunkFetchSuccess.java
+80 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\Encodable.java
+41 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\Encoders.java
+93 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\Message.java
+58 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\MessageDecoder.java
+70 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\MessageEncoder.java
+78 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\MessageWithHeader.java
+44 ignored unimportant difference line(s)
+65 important right orphan line(s)
+
+15 difference section(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\RequestMessage.java
+25 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\ResponseMessage.java
+25 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\RpcFailure.java
+70 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\RpcRequest.java
+78 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\RpcResponse.java
+69 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\protocol\StreamChunkId.java
+73 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\server\MessageHandler.java
+36 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\server\NoOpRpcHandler.java
+38 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\server\OneForOneStreamManager.java
+104 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\server\RpcHandler.java
+55 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\server\StreamManager.java
+52 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\server\TransportChannelHandler.java
+96 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\server\TransportRequestHandler.java
+162 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\server\TransportServer.java
+158 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\util\ConfigProvider.java
+52 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\util\IOMode.java
+27 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\util\JavaUtils.java
+130 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\util\LimitedInputStream.java
+87 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\util\NettyUtils.java
+145 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\util\SystemPropertyConfigProvider.java
+34 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\util\TransportConf.java
+108 same line(s)
+
+File: network\common\src\main\java\org\apache\spark\network\TransportContext.java
+134 same line(s)
+
+File: network\common\src\test\java\org\apache\spark\network\protocol\MessageWithHeaderSuite.java
+39 ignored unimportant difference line(s)
+90 important right orphan line(s)
+
+23 difference section(s)
+
+File: network\common\src\test\java\org\apache\spark\network\ByteArrayWritableChannel.java
+27 ignored unimportant difference line(s)
+28 important right orphan line(s)
+
+11 difference section(s)
+
+File: network\common\src\test\java\org\apache\spark\network\ChunkFetchIntegrationSuite.java
+234 same line(s)
+
+File: network\common\src\test\java\org\apache\spark\network\ProtocolSuite.java
+78 same line(s)
+11 ignored unimportant difference line(s)
+3 important left orphan line(s)
+22 important right orphan line(s)
+5 important difference line(s)
+
+14 difference section(s)
+
+File: network\common\src\test\java\org\apache\spark\network\RpcIntegrationSuite.java
+180 same line(s)
+
+File: network\common\src\test\java\org\apache\spark\network\TestManagedBuffer.java
+104 same line(s)
+
+File: network\common\src\test\java\org\apache\spark\network\TestUtils.java
+30 same line(s)
+
+File: network\common\src\test\java\org\apache\spark\network\TransportClientFactorySuite.java
+185 same line(s)
+
+File: network\common\src\test\java\org\apache\spark\network\TransportResponseHandlerSuite.java
+115 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\sasl\SaslClientBootstrap.java
+74 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\sasl\SaslMessage.java
+65 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\sasl\SaslRpcHandler.java
+97 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\sasl\SecretKeyHolder.java
+35 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\sasl\ShuffleSecretManager.java
+97 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\sasl\SparkSaslClient.java
+137 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\sasl\SparkSaslServer.java
+173 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\protocol\BlockTransferMessage.java
+77 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\protocol\ExecutorShuffleInfo.java
+88 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\protocol\OpenBlocks.java
+88 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\protocol\RegisterExecutor.java
+92 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\protocol\StreamHandle.java
+80 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\protocol\UploadBlock.java
+115 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\BlockFetchingListener.java
+36 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\ExternalShuffleBlockHandler.java
+102 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\ExternalShuffleBlockManager.java
+254 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\ExternalShuffleClient.java
+138 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\OneForOneBlockFetcher.java
+129 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\RetryingBlockFetcher.java
+234 same line(s)
+
+File: network\shuffle\src\main\java\org\apache\spark\network\shuffle\ShuffleClient.java
+44 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\sasl\SaslIntegrationSuite.java
+172 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\sasl\SparkSaslSuite.java
+89 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\shuffle\BlockTransferMessagesSuite.java
+44 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\shuffle\ExternalShuffleBlockHandlerSuite.java
+124 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\shuffle\ExternalShuffleBlockManagerSuite.java
+129 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\shuffle\ExternalShuffleCleanupSuite.java
+145 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\shuffle\ExternalShuffleIntegrationSuite.java
+301 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\shuffle\ExternalShuffleSecuritySuite.java
+116 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\shuffle\OneForOneBlockFetcherSuite.java
+171 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\shuffle\RetryingBlockFetcherSuite.java
+310 same line(s)
+
+File: network\shuffle\src\test\java\org\apache\spark\network\shuffle\TestShuffleDataContext.java
+109 same line(s)
+
+File: network\yarn\src\main\java\org\apache\spark\network\yarn\util\HadoopConfigProvider.java
+42 same line(s)
+
+File: network\yarn\src\main\java\org\apache\spark\network\yarn\YarnShuffleService.java
+181 same line(s)
+
+File: sql\catalyst\src\main\java\org\apache\spark\sql\types\DataTypes.java
+208 same line(s)
+
+File: sql\catalyst\src\main\java\org\apache\spark\sql\RowFactory.java
+34 same line(s)
+
+File: sql\catalyst\src\main\scala\org\apache\spark\sql\types\SQLUserDefinedType.java
+45 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\package-info.java
+21 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF1.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF2.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF3.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF4.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF5.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF6.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF7.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF8.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF9.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF10.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF11.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF12.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF13.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF14.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF15.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF16.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF17.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF18.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF19.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF20.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF21.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\api\java\UDF22.java
+32 same line(s)
+
+File: sql\core\src\main\java\org\apache\spark\sql\SaveMode.java
+45 same line(s)
+
+File: sql\core\src\test\java\test\org\apache\spark\sql\sources\JavaSaveLoadSuite.java
+98 same line(s)
+
+File: sql\core\src\test\java\test\org\apache\spark\sql\JavaApplySchemaSuite.java
+204 same line(s)
+
+File: sql\core\src\test\java\test\org\apache\spark\sql\JavaDataFrameSuite.java
+93 same line(s)
+
+File: sql\core\src\test\java\test\org\apache\spark\sql\JavaRowSuite.java
+179 same line(s)
+
+File: sql\core\src\test\java\test\org\apache\spark\sql\JavaUDFSuite.java
+88 same line(s)
+
+File: sql\hive\src\main\scala\org\apache\spark\sql\hive\package-info.java
+18 same line(s)
+
+File: sql\hive\src\test\java\org\apache\spark\sql\hive\execution\UDFIntegerToString.java
+26 same line(s)
+
+File: sql\hive\src\test\java\org\apache\spark\sql\hive\execution\UDFListListInt.java
+47 same line(s)
+
+File: sql\hive\src\test\java\org\apache\spark\sql\hive\execution\UDFListString.java
+38 same line(s)
+
+File: sql\hive\src\test\java\org\apache\spark\sql\hive\execution\UDFStringString.java
+26 same line(s)
+
+File: sql\hive\src\test\java\org\apache\spark\sql\hive\execution\UDFTwoListList.java
+28 same line(s)
+
+File: sql\hive\src\test\java\org\apache\spark\sql\hive\JavaMetastoreDataSourcesSuite.java
+147 same line(s)
+
+File: streaming\src\main\scala\org\apache\spark\streaming\api\java\package-info.java
+21 same line(s)
+
+File: streaming\src\main\scala\org\apache\spark\streaming\dstream\package-info.java
+21 same line(s)
+
+File: streaming\src\test\java\org\apache\spark\streaming\JavaAPISuite.java
+1849 same line(s)
+
+File: streaming\src\test\java\org\apache\spark\streaming\JavaDurationSuite.java
+84 same line(s)
+
+File: streaming\src\test\java\org\apache\spark\streaming\JavaReceiverAPISuite.java
+144 same line(s)
+
+File: streaming\src\test\java\org\apache\spark\streaming\JavaTimeSuite.java
+63 same line(s)
+
+File: streaming\src\test\java\org\apache\spark\streaming\LocalJavaStreamingContext.java
+44 same line(s)

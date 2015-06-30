@@ -1,0 +1,1560 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:25:33
+
+Ignoring Unimportant
+Left base folder: D:\APsource\curator\version1
+Right base folder: D:\APsource\curator\version2
+
+File: curator-client\src\main\java\org\apache\curator\drivers\TracerDriver.java
+44 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\ensemble\exhibitor\DefaultExhibitorRestClient.java
+68 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\ensemble\exhibitor\ExhibitorEnsembleProvider.java
+321 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\ensemble\exhibitor\ExhibitorRestClient.java
+34 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\ensemble\exhibitor\Exhibitors.java
+66 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\ensemble\fixed\FixedEnsembleProvider.java
+59 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\ensemble\EnsembleProvider.java
+54 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\retry\BoundedExponentialBackoffRetry.java
+52 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\retry\ExponentialBackoffRetry.java
+89 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\retry\RetryNTimes.java
+39 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\retry\RetryOneTime.java
+30 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\retry\RetryUntilElapsed.java
+50 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\retry\SleepingRetry.java
+59 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\CloseableExecutorService.java
+194 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\CloseableScheduledExecutorService.java
+101 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\CloseableUtils.java
+68 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\DebugUtils.java
+30 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\DefaultTracerDriver.java
+50 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\DefaultZookeeperFactory.java
+31 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\EnsurePath.java
+158 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\InternalACLProvider.java
+42 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\PathUtils.java
+108 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\ThreadUtils.java
+65 same line(s)
+1 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\ZKPaths.java
+316 same line(s)
+37 ignored unimportant difference line(s)
+1 important left orphan line(s)
+28 important right orphan line(s)
+19 important difference line(s)
+
+29 difference section(s)
+
+File: curator-client\src\main\java\org\apache\curator\utils\ZookeeperFactory.java
+41 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\ConnectionState.java
+310 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\CuratorConnectionLossException.java
+30 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\CuratorZookeeperClient.java
+333 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\HandleHolder.java
+147 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\RetryLoop.java
+212 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\RetryPolicy.java
+37 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\RetrySleeper.java
+36 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\SessionFailRetryLoop.java
+257 same line(s)
+
+File: curator-client\src\main\java\org\apache\curator\TimeTrace.java
+53 same line(s)
+
+File: curator-client\src\test\java\org\apache\curator\ensemble\exhibitor\TestExhibitorEnsembleProvider.java
+227 same line(s)
+
+File: curator-client\src\test\java\org\apache\curator\utils\TestCloseableExecutorService.java
+271 same line(s)
+
+File: curator-client\src\test\java\org\apache\curator\utils\TestCloseableScheduledExecutorService.java
+120 same line(s)
+
+File: curator-client\src\test\java\org\apache\curator\utils\TestZKPaths.java
+76 same line(s)
+1 ignored unimportant difference line(s)
+10 important right orphan line(s)
+
+3 difference section(s)
+
+File: curator-client\src\test\java\org\apache\curator\BasicTests.java
+195 same line(s)
+
+File: curator-client\src\test\java\org\apache\curator\TestEnsurePath.java
+130 same line(s)
+
+File: curator-client\src\test\java\org\apache\curator\TestRetryLoop.java
+145 same line(s)
+
+File: curator-client\src\test\java\org\apache\curator\TestSessionFailRetryLoop.java
+284 same line(s)
+
+File: curator-examples\src\main\java\cache\PathCacheExample.java
+247 same line(s)
+
+File: curator-examples\src\main\java\discovery\DiscoveryExample.java
+281 same line(s)
+
+File: curator-examples\src\main\java\discovery\ExampleServer.java
+79 same line(s)
+
+File: curator-examples\src\main\java\discovery\InstanceDetails.java
+51 same line(s)
+
+File: curator-examples\src\main\java\framework\CreateClientExamples.java
+53 same line(s)
+
+File: curator-examples\src\main\java\framework\CrudExamples.java
+138 same line(s)
+
+File: curator-examples\src\main\java\framework\TransactionExamples.java
+78 same line(s)
+
+File: curator-examples\src\main\java\leader\ExampleClient.java
+88 same line(s)
+
+File: curator-examples\src\main\java\leader\LeaderSelectorExample.java
+80 same line(s)
+
+File: curator-examples\src\main\java\locking\ExampleClientThatLocks.java
+55 same line(s)
+
+File: curator-examples\src\main\java\locking\FakeLimitedResource.java
+48 same line(s)
+
+File: curator-examples\src\main\java\locking\LockingExample.java
+90 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\transaction\CuratorTransaction.java
+82 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\transaction\CuratorTransactionBridge.java
+29 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\transaction\CuratorTransactionFinal.java
+38 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\transaction\CuratorTransactionResult.java
+105 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\transaction\OperationType.java
+45 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\transaction\TransactionCheckBuilder.java
+28 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\transaction\TransactionCreateBuilder.java
+32 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\transaction\TransactionDeleteBuilder.java
+28 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\transaction\TransactionSetDataBuilder.java
+30 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ACLable.java
+34 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ACLBackgroundPathable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ACLBackgroundPathAndBytesable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ACLCreateModeBackgroundPathAndBytesable.java
+26 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ACLCreateModePathAndBytesable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ACLPathAndBytesable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ACLProvider.java
+42 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ACLVersionBackgroundPathable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\Backgroundable.java
+75 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\BackgroundCallback.java
+36 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\BackgroundPathable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\BackgroundPathAndBytesable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\BackgroundVersionable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ChildrenDeletable.java
+31 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\Compressible.java
+29 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\CompressionProvider.java
+26 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\CreateBackgroundModeACLable.java
+57 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\CreateBuilder.java
+72 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\CreateModable.java
+32 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\CreateModalPathAndBytesable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\CuratorEvent.java
+89 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\CuratorEventType.java
+80 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\CuratorListener.java
+36 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\CuratorWatcher.java
+37 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\Decompressible.java
+29 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\DeleteBuilder.java
+23 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ExistsBuilder.java
+27 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\GetACLBuilder.java
+28 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\GetChildrenBuilder.java
+28 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\GetDataBuilder.java
+27 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\GetDataWatchBackgroundStatable.java
+26 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\Guaranteeable.java
+40 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\Pathable.java
+31 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\PathAndBytesable.java
+45 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\ProtectACLCreateModePathAndBytesable.java
+54 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\SetACLBuilder.java
+27 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\SetDataBackgroundVersionable.java
+27 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\SetDataBuilder.java
+28 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\Statable.java
+32 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\StatPathable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\SyncBuilder.java
+24 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\TempGetDataBuilder.java
+26 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\UnhandledErrorListener.java
+35 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\Versionable.java
+30 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\Watchable.java
+47 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\api\WatchPathable.java
+25 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\ACLing.java
+65 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\Backgrounding.java
+125 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\BackgroundOperation.java
+24 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\BackgroundSyncImpl.java
+56 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\CreateBuilderImpl.java
+850 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\CuratorEventImpl.java
+133 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\CuratorFrameworkImpl.java
+810 same line(s)
+38 ignored unimportant difference line(s)
+22 important left orphan line(s)
+14 important right orphan line(s)
+10 important difference line(s)
+
+19 difference section(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\CuratorFrameworkState.java
+42 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\CuratorMultiTransactionRecord.java
+64 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\CuratorTempFrameworkImpl.java
+139 same line(s)
+2 ignored unimportant difference line(s)
+6 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\CuratorTransactionImpl.java
+206 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\DefaultACLProvider.java
+39 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\DeleteBuilderImpl.java
+262 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\ExistsBuilderImpl.java
+181 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\FailedDeleteManager.java
+63 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\GetACLBuilderImpl.java
+149 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\GetChildrenBuilderImpl.java
+223 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\GetDataBuilderImpl.java
+312 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\GzipCompressionProvider.java
+56 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\NamespaceFacade.java
+149 same line(s)
+1 ignored unimportant difference line(s)
+5 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\NamespaceFacadeCache.java
+60 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\NamespaceImpl.java
+86 same line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\NamespaceWatchedEvent.java
+29 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\NamespaceWatcher.java
+76 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\NamespaceWatcherMap.java
+95 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\OperationAndData.java
+130 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\PathAndBytes.java
+41 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\SetACLBuilderImpl.java
+167 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\SetDataBuilderImpl.java
+281 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\SyncBuilderImpl.java
+110 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\TempGetDataBuilderImpl.java
+78 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\imps\Watching.java
+62 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\listen\Listenable.java
+51 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\listen\ListenerContainer.java
+103 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\listen\ListenerEntry.java
+37 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\state\ConnectionState.java
+98 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\state\ConnectionStateListener.java
+32 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\state\ConnectionStateManager.java
+271 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\AuthInfo.java
+25 ignored unimportant difference line(s)
+26 important right orphan line(s)
+
+7 difference section(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\CuratorFramework.java
+233 same line(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\CuratorFrameworkFactory.java
+372 same line(s)
+47 ignored unimportant difference line(s)
+2 important left orphan line(s)
+43 important right orphan line(s)
+4 important difference line(s)
+
+14 difference section(s)
+
+File: curator-framework\src\main\java\org\apache\curator\framework\CuratorTempFramework.java
+59 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestBlockUntilConnected.java
+235 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestCompression.java
+129 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestCompressionInTransaction.java
+157 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestFailedDeleteManager.java
+365 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestFramework.java
+739 same line(s)
+46 ignored unimportant difference line(s)
+99 important right orphan line(s)
+3 important difference line(s)
+
+16 difference section(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestFrameworkBackground.java
+285 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestFrameworkEdges.java
+448 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestMultiClient.java
+100 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestNamespaceFacade.java
+232 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestNeverConnected.java
+70 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestReadOnly.java
+170 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestTempFramework.java
+79 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestTransactions.java
+139 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestWatcherIdentity.java
+181 same line(s)
+
+File: curator-framework\src\test\java\org\apache\curator\framework\imps\TestWithCluster.java
+129 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\AtomicStats.java
+90 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\AtomicValue.java
+54 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\CachedAtomicInteger.java
+76 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\CachedAtomicLong.java
+76 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\DistributedAtomicInteger.java
+238 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\DistributedAtomicLong.java
+238 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\DistributedAtomicNumber.java
+110 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\DistributedAtomicValue.java
+362 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\MakeValue.java
+24 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\MutableAtomicValue.java
+63 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\atomic\PromotedToLock.java
+133 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\barriers\DistributedBarrier.java
+150 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\barriers\DistributedDoubleBarrier.java
+346 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\ChildData.java
+146 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\EventOperation.java
+45 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\GetDataOperation.java
+76 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\NodeCache.java
+318 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\NodeCacheListener.java
+27 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\Operation.java
+24 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\PathChildrenCache.java
+801 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\PathChildrenCacheEvent.java
+142 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\PathChildrenCacheListener.java
+36 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\PathChildrenCacheMode.java
+49 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\RefreshOperation.java
+72 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\TreeCache.java
+801 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\TreeCacheEvent.java
+138 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\cache\TreeCacheListener.java
+37 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\leader\CancelLeadershipException.java
+49 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\leader\LeaderLatch.java
+664 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\leader\LeaderLatchListener.java
+46 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\leader\LeaderSelector.java
+552 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\leader\LeaderSelectorListener.java
+39 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\leader\LeaderSelectorListenerAdapter.java
+38 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\leader\Participant.java
+107 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\ChildReaper.java
+154 same line(s)
+34 ignored unimportant difference line(s)
+1 important left orphan line(s)
+15 important right orphan line(s)
+1 important difference line(s)
+
+9 difference section(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\InterProcessLock.java
+57 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\InterProcessMultiLock.java
+191 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\InterProcessMutex.java
+242 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\InterProcessReadWriteLock.java
+188 same line(s)
+13 ignored unimportant difference line(s)
+15 important right orphan line(s)
+1 important difference line(s)
+
+9 difference section(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\InterProcessSemaphore.java
+287 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\InterProcessSemaphoreMutex.java
+81 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\InterProcessSemaphoreV2.java
+425 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\Lease.java
+46 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\LockInternals.java
+349 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\LockInternalsDriver.java
+29 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\LockInternalsSorter.java
+24 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\PredicateResults.java
+41 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\Reaper.java
+339 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\Revocable.java
+44 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\RevocationListener.java
+30 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\RevocationSpec.java
+43 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\Revoker.java
+51 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\locks\StandardLockInternalsDriver.java
+84 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\nodes\PersistentEphemeralNode.java
+373 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\BlockingQueueConsumer.java
+154 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\ChildrenCache.java
+160 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\DistributedDelayQueue.java
+259 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\DistributedIdQueue.java
+229 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\DistributedPriorityQueue.java
+210 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\DistributedQueue.java
+792 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\ErrorMode.java
+36 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\ItemSerializer.java
+114 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\MultiItem.java
+36 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\QueueAllocator.java
+26 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\QueueBase.java
+66 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\QueueBuilder.java
+274 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\QueueConsumer.java
+35 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\QueuePutListener.java
+40 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\QueueSafety.java
+66 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\QueueSerializer.java
+41 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\QueueSharder.java
+285 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\QueueSharderPolicies.java
+153 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\queue\SimpleDistributedQueue.java
+264 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\shared\SharedCount.java
+176 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\shared\SharedCountListener.java
+36 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\shared\SharedCountReader.java
+41 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\shared\SharedValue.java
+287 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\shared\SharedValueListener.java
+36 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\shared\SharedValueReader.java
+48 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\shared\VersionedValue.java
+50 same line(s)
+
+File: curator-recipes\src\main\java\org\apache\curator\framework\recipes\AfterConnectionEstablished.java
+74 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\client\TestBackgroundStates.java
+139 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\client\TestResetConnectionWithBackgroundFailure.java
+112 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\atomic\TestCachedAtomicCounter.java
+138 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\atomic\TestDistributedAtomicLong.java
+332 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\barriers\TestDistributedBarrier.java
+219 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\barriers\TestDistributedDoubleBarrier.java
+240 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\cache\BaseTestTreeCache.java
+185 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\cache\TestNodeCache.java
+258 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\cache\TestPathChildrenCache.java
+1165 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\cache\TestPathChildrenCacheInCluster.java
+101 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\cache\TestTreeCache.java
+464 same line(s)
+2 ignored unimportant difference line(s)
+12 important right orphan line(s)
+
+3 difference section(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\cache\TestTreeCacheRandomTree.java
+239 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\leader\ChaosMonkeyCnxnFactory.java
+124 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\leader\TestLeaderLatch.java
+750 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\leader\TestLeaderLatchCluster.java
+125 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\leader\TestLeaderSelector.java
+631 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\leader\TestLeaderSelectorCluster.java
+185 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\leader\TestLeaderSelectorEdges.java
+255 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\leader\TestLeaderSelectorParticipants.java
+173 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\leader\TestLeaderSelectorWithExecutor.java
+117 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\Counter.java
+25 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\SemaphoreClient.java
+150 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\Stepper.java
+40 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestChildReaper.java
+141 same line(s)
+5 ignored unimportant difference line(s)
+32 important right orphan line(s)
+
+6 difference section(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestInterProcessMultiMutex.java
+154 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestInterProcessMutex.java
+157 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestInterProcessMutexBase.java
+470 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestInterProcessReadWriteLock.java
+292 same line(s)
+10 ignored unimportant difference line(s)
+23 important right orphan line(s)
+
+9 difference section(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestInterProcessSemaphore.java
+534 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestInterProcessSemaphoreCluster.java
+295 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestInterProcessSemaphoreMutex.java
+45 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestLockACLs.java
+96 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestLockCleanlinessWithFaults.java
+73 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\locks\TestReaper.java
+559 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\nodes\TestPersistentEphemeralNode.java
+532 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\nodes\TestPersistentEphemeralNodeListener.java
+91 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\QueueItemSerializer.java
+34 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\QueueTestProducer.java
+47 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestBoundedDistributedQueue.java
+268 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestDistributedDelayQueue.java
+216 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestDistributedIdQueue.java
+127 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestDistributedPriorityQueue.java
+263 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestDistributedQueue.java
+795 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestQueueItem.java
+67 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestQueueSharder.java
+240 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestSimpleDistributedQueue.java
+420 same line(s)
+
+File: curator-recipes\src\test\java\org\apache\curator\framework\recipes\shared\TestSharedCount.java
+259 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\BaseClassForTests.java
+116 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\ByteCodeRewrite.java
+97 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\DirectoryUtils.java
+51 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\InstanceSpec.java
+224 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\KillSession.java
+122 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\QuorumConfigBuilder.java
+110 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\ServerHelper.java
+163 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\TestingCluster.java
+271 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\TestingQuorumPeerMain.java
+86 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\TestingServer.java
+195 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\TestingZooKeeperMain.java
+180 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\TestingZooKeeperServer.java
+159 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\Timing.java
+226 same line(s)
+
+File: curator-test\src\main\java\org\apache\curator\test\ZooKeeperMainFace.java
+34 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\DownInstanceManager.java
+94 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\FilteredInstanceProvider.java
+46 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\InstanceProvider.java
+35 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\InstanceSerializer.java
+45 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\JsonInstanceSerializer.java
+62 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\Latch.java
+39 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\ServiceCacheBuilderImpl.java
+75 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\ServiceCacheImpl.java
+191 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\ServiceCacheListener.java
+32 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\ServiceDiscoveryImpl.java
+399 same line(s)
+6 ignored unimportant difference line(s)
+4 important left orphan line(s)
+61 important right orphan line(s)
+5 important difference line(s)
+
+19 difference section(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\ServiceProviderBuilderImpl.java
+105 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\details\ServiceProviderImpl.java
+112 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\strategies\RandomStrategy.java
+45 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\strategies\RoundRobinStrategy.java
+45 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\strategies\StickyStrategy.java
+92 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\DownInstancePolicy.java
+63 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\InstanceFilter.java
+28 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\LocalIpFilter.java
+28 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ProviderStrategy.java
+36 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ServiceCache.java
+44 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ServiceCacheBuilder.java
+47 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ServiceDiscovery.java
+98 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ServiceDiscoveryBuilder.java
+98 same line(s)
+22 ignored unimportant difference line(s)
+7 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ServiceInstance.java
+243 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ServiceInstanceBuilder.java
+187 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ServiceProvider.java
+64 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ServiceProviderBuilder.java
+74 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\ServiceType.java
+26 same line(s)
+
+File: curator-x-discovery\src\main\java\org\apache\curator\x\discovery\UriSpec.java
+365 same line(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\details\TestDownInstanceManager.java
+83 same line(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\details\TestServiceDiscoveryBuilder.java
+67 same line(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\details\TestWatchedInstances.java
+25 ignored unimportant difference line(s)
+69 important right orphan line(s)
+
+8 difference section(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\ServiceCacheLeakTester.java
+77 same line(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\TestJsonInstanceSerializer.java
+166 same line(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\TestLocalIpFilter.java
+60 same line(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\TestServiceCache.java
+258 same line(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\TestServiceDiscovery.java
+227 same line(s)
+39 ignored unimportant difference line(s)
+2 important left orphan line(s)
+31 important right orphan line(s)
+3 important difference line(s)
+
+10 difference section(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\TestStrategies.java
+131 same line(s)
+
+File: curator-x-discovery\src\test\java\org\apache\curator\x\discovery\TestUriSpec.java
+103 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\contexts\GenericDiscoveryContext.java
+100 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\contexts\IntegerDiscoveryContext.java
+89 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\contexts\MapDiscoveryContext.java
+40 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\contexts\StringDiscoveryContext.java
+85 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\entity\JsonServiceInstanceMarshaller.java
+158 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\entity\JsonServiceInstancesMarshaller.java
+111 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\entity\JsonServiceNamesMarshaller.java
+100 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\entity\ServiceInstances.java
+48 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\entity\ServiceNames.java
+47 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\rest\DiscoveryContext.java
+70 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\rest\DiscoveryResource.java
+238 same line(s)
+
+File: curator-x-discovery-server\src\main\java\org\apache\curator\x\discovery\server\rest\InstanceCleanup.java
+124 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_jersey\MapDiscoveryResource.java
+35 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_jersey\ServiceDetails.java
+91 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_jersey\ServiceDetailsDiscoveryContext.java
+40 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_jersey\ServiceDetailsDiscoveryResource.java
+35 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_jersey\StringDiscoveryResource.java
+34 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_jersey\TestMapsWithJersey.java
+153 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_jersey\TestObjectPayloadWithJersey.java
+151 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_jersey\TestStringsWithJersey.java
+167 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_resteasy\RestEasyApplication.java
+48 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_resteasy\RestEasySingletons.java
+39 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_resteasy\StringDiscoveryResource.java
+43 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\jetty_resteasy\TestStringsWithRestEasy.java
+149 same line(s)
+
+File: curator-x-discovery-server\src\test\java\org\apache\curator\x\discovery\server\mocks\MockServiceDiscovery.java
+116 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\configuration\AuthorizationConfiguration.java
+45 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\configuration\BoundedExponentialBackoffRetryConfiguration.java
+69 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\configuration\Configuration.java
+86 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\configuration\ConfigurationBuilder.java
+87 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\configuration\ConnectionConfiguration.java
+129 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\configuration\ExponentialBackoffRetryConfiguration.java
+58 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\configuration\RetryNTimesConfiguration.java
+58 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\configuration\RetryPolicyConfiguration.java
+28 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\connections\Closer.java
+24 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\connections\ConnectionManager.java
+141 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\connections\CuratorEntry.java
+170 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\details\RpcBackgroundCallback.java
+44 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\details\RpcWatcher.java
+43 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\discovery\DiscoveryInstance.java
+95 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\discovery\DiscoveryInstanceType.java
+26 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\discovery\DiscoveryProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\discovery\DiscoveryProviderProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\discovery\DiscoveryService.java
+251 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\discovery\DiscoveryServiceLowLevel.java
+152 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\discovery\ProviderStrategyType.java
+27 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\exceptions\ExceptionType.java
+26 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\exceptions\NodeExceptionType.java
+27 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\exceptions\RpcException.java
+98 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\exceptions\ZooKeeperExceptionType.java
+40 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\services\CuratorProjectionService.java
+736 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\services\EventService.java
+55 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\CreateSpec.java
+62 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\CuratorProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\DeleteSpec.java
+50 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\ExistsSpec.java
+46 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\GetChildrenSpec.java
+46 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\GetDataSpec.java
+50 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\LeaderEvent.java
+46 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\LeaderProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\LeaderResult.java
+42 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\LeaseProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\LockProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\NodeCacheProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\OptionalChildrenList.java
+39 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\OptionalData.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\OptionalLockProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\OptionalPath.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\OptionalRpcStat.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\PathChildrenCacheProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\PathChildrenCacheStartMode.java
+26 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\PersistentEphemeralNodeProjection.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcAcl.java
+42 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcChildData.java
+57 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcCreateMode.java
+30 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcCuratorEvent.java
+224 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcCuratorEventType.java
+46 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcEventType.java
+31 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcId.java
+42 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcKeeperState.java
+34 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcParticipant.java
+42 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcPathChildrenCacheEvent.java
+54 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcPathChildrenCacheEventType.java
+33 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcPersistentEphemeralNodeMode.java
+30 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcStat.java
+95 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\RpcWatchedEvent.java
+54 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\SetDataSpec.java
+58 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\idl\structs\Version.java
+38 same line(s)
+
+File: curator-x-rpc\src\main\java\org\apache\curator\x\rpc\CuratorProjectionServer.java
+152 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\Acl.java
+491 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\ChildData.java
+604 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\CreateMode.java
+51 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\CreateSpec.java
+1001 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\CuratorEvent.java
+1636 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\CuratorEventType.java
+99 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\CuratorException.java
+736 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\CuratorProjection.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\CuratorService.java
+24123 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\DeleteSpec.java
+691 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\DiscoveryInstance.java
+1201 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\DiscoveryInstanceType.java
+48 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\DiscoveryProjection.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\DiscoveryProviderProjection.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\DiscoveryService.java
+7236 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\DiscoveryServiceLowLevel.java
+6966 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\EventService.java
+1082 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\EventType.java
+54 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\ExceptionType.java
+48 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\ExistsSpec.java
+586 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\GetChildrenSpec.java
+586 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\GetDataSpec.java
+680 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\Id.java
+488 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\KeeperState.java
+63 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\LeaderEvent.java
+586 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\LeaderProjection.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\LeaderResult.java
+491 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\LeaseProjection.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\LockProjection.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\NodeCacheProjection.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\NodeExceptionType.java
+51 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\OptionalChildrenList.java
+437 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\OptionalData.java
+399 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\OptionalLockProjection.java
+393 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\OptionalPath.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\OptionalStat.java
+393 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\Participant.java
+486 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\PathChildrenCacheEvent.java
+609 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\PathChildrenCacheEventType.java
+60 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\PathChildrenCacheProjection.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\PathChildrenCacheStartMode.java
+48 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\PersistentEphemeralNodeMode.java
+51 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\PersistentEphemeralNodeProjection.java
+388 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\ProviderStrategyType.java
+51 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\SetDataSpec.java
+896 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\Stat.java
+1326 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\Version.java
+386 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\WatchedEvent.java
+620 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\generated\ZooKeeperExceptionType.java
+90 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\x\rpc\RpcTests.java
+289 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\x\rpc\TestClient.java
+168 same line(s)
+
+File: curator-x-rpc\src\test\java\org\apache\curator\x\rpc\TestServer.java
+34 same line(s)

@@ -1,0 +1,2608 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 15:05:33
+
+Ignoring Unimportant
+Left base folder: D:\APsource\oozie\version1
+Right base folder: D:\APsource\oozie\version2
+
+File: client\src\main\java\org\apache\oozie\cli\CLIParser.java
+168 same line(s)
+
+File: client\src\main\java\org\apache\oozie\cli\OozieCLI.java
+1710 same line(s)
+
+File: client\src\main\java\org\apache\oozie\cli\OozieCLIException.java
+32 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\jms\JMSHeaderConstants.java
+34 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\jms\JMSMessagingUtils.java
+95 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\jms\JSONMessageDeserializer.java
+45 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\jms\MessageDeserializer.java
+85 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\message\CoordinatorActionMessage.java
+161 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\message\EventMessage.java
+103 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\message\JobMessage.java
+251 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\message\SLAMessage.java
+381 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\message\WorkflowJobMessage.java
+119 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\Event.java
+55 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\JobEvent.java
+149 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\event\SLAEvent.java
+202 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\rest\JsonTags.java
+225 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\rest\JsonToBean.java
+467 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\rest\JsonUtils.java
+84 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\rest\RestConstants.java
+160 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\AuthOozieClient.java
+289 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\BulkResponse.java
+46 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\BundleJob.java
+70 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\CoordinatorAction.java
+164 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\CoordinatorJob.java
+191 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\JMSConnectionInfo.java
+49 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\JMSConnectionInfoWrapper.java
+45 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\Job.java
+142 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\OozieClient.java
+1615 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\OozieClientException.java
+85 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\SLAEvent.java
+86 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\WorkflowAction.java
+198 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\WorkflowJob.java
+159 same line(s)
+
+File: client\src\main\java\org\apache\oozie\client\XOozieClient.java
+307 same line(s)
+
+File: client\src\main\java\org\apache\oozie\AppType.java
+25 same line(s)
+
+File: client\src\main\java\org\apache\oozie\BuildInfo.java
+61 same line(s)
+
+File: client\src\test\java\org\apache\oozie\cli\TestCLIParser.java
+114 same line(s)
+
+File: client\src\test\java\org\apache\oozie\cli\TestOozieCLIMethods.java
+554 same line(s)
+
+File: client\src\test\java\org\apache\oozie\cli\TestValidation.java
+44 same line(s)
+
+File: client\src\test\java\org\apache\oozie\client\rest\TestJsonToBean.java
+440 same line(s)
+
+File: client\src\test\java\org\apache\oozie\client\rest\TestJsonUtils.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\control\ControlNodeActionExecutor.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\control\EndActionExecutor.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\control\ForkActionExecutor.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\control\JoinActionExecutor.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\control\KillActionExecutor.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\control\StartActionExecutor.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\decision\DecisionActionExecutor.java
+98 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\email\EmailActionExecutor.java
+231 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\CredentialException.java
+46 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\Credentials.java
+38 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\CredentialsProperties.java
+86 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\CredentialsProvider.java
+91 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\DistcpActionExecutor.java
+99 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\FsActionExecutor.java
+555 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\FsELFunctions.java
+159 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\HadoopELFunctions.java
+70 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\HbaseCredentials.java
+90 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\HCatCredentialHelper.java
+90 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\HCatCredentials.java
+65 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\HiveActionExecutor.java
+157 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\JavaActionExecutor.java
+1269 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\LauncherMapperHelper.java
+274 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\MapReduceActionExecutor.java
+334 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\PigActionExecutor.java
+194 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\ScriptLanguageActionExecutor.java
+91 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\ShellActionExecutor.java
+163 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\hadoop\SqoopActionExecutor.java
+269 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\oozie\SubWorkflowActionExecutor.java
+245 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\ssh\SshActionExecutor.java
+756 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\ActionExecutor.java
+521 same line(s)
+
+File: core\src\main\java\org\apache\oozie\action\ActionExecutorException.java
+106 same line(s)
+
+File: core\src\main\java\org\apache\oozie\client\rest\BulkResponseImpl.java
+149 same line(s)
+
+File: core\src\main\java\org\apache\oozie\client\rest\JMSConnectionInfoBean.java
+90 same line(s)
+
+File: core\src\main\java\org\apache\oozie\client\rest\JsonBean.java
+42 same line(s)
+
+File: core\src\main\java\org\apache\oozie\client\rest\JsonBundleJob.java
+514 same line(s)
+
+File: core\src\main\java\org\apache\oozie\client\rest\JsonCoordinatorAction.java
+388 same line(s)
+
+File: core\src\main\java\org\apache\oozie\client\rest\JsonCoordinatorJob.java
+432 same line(s)
+
+File: core\src\main\java\org\apache\oozie\client\rest\JsonSLAEvent.java
+317 same line(s)
+
+File: core\src\main\java\org\apache\oozie\client\rest\JsonWorkflowAction.java
+357 same line(s)
+
+File: core\src\main\java\org\apache\oozie\client\rest\JsonWorkflowJob.java
+307 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleJobChangeXCommand.java
+283 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleJobException.java
+47 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleJobResumeXCommand.java
+186 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleJobSuspendXCommand.java
+200 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleJobsXCommand.java
+106 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleJobXCommand.java
+105 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleKillXCommand.java
+186 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundlePauseXCommand.java
+109 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleRerunXCommand.java
+289 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleStartXCommand.java
+370 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleStatusUpdateXCommand.java
+182 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleSubmitXCommand.java
+522 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\bundle\BundleUnpauseXCommand.java
+123 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionCheckXCommand.java
+205 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionInfoXCommand.java
+93 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionInputCheckXCommand.java
+605 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionMaterializeCommand.java
+376 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionNotificationXCommand.java
+145 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionReadyXCommand.java
+167 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionStartXCommand.java
+306 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionTimeOutXCommand.java
+123 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionUpdatePushMissingDependency.java
+97 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordActionUpdateXCommand.java
+242 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordChangeXCommand.java
+421 same line(s)
+12 ignored unimportant difference line(s)
+7 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordCommandUtils.java
+630 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordinatorCommand.java
+47 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordinatorXCommand.java
+88 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordJobsXCommand.java
+98 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordJobXCommand.java
+150 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordKillXCommand.java
+191 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordMaterializeTransitionXCommand.java
+455 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordPauseXCommand.java
+118 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordPushDependencyCheckXCommand.java
+394 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordRerunXCommand.java
+456 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordResumeXCommand.java
+180 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordSubmitXCommand.java
+1207 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordSuspendXCommand.java
+216 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\CoordUnpauseXCommand.java
+133 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\coord\SLAEventsXCommand.java
+112 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\ActionCheckXCommand.java
+253 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\ActionEndXCommand.java
+278 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\ActionKillXCommand.java
+188 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\ActionStartXCommand.java
+357 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\ActionXCommand.java
+490 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\CompletedActionXCommand.java
+144 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\DefinitionXCommand.java
+82 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\ExternalIdXCommand.java
+73 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\JobsXCommand.java
+105 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\JobXCommand.java
+118 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\KillXCommand.java
+193 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\NotificationXCommand.java
+134 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\ReRunXCommand.java
+402 same line(s)
+1 important left orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\ResumeXCommand.java
+197 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\SignalXCommand.java
+444 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\StartXCommand.java
+31 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\SubmitHiveXCommand.java
+44 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\SubmitHttpXCommand.java
+214 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\SubmitMRXCommand.java
+194 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\SubmitPigXCommand.java
+39 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\SubmitScriptLanguageXCommand.java
+204 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\SubmitXCommand.java
+364 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\SuspendXCommand.java
+192 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\WfEndXCommand.java
+106 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\WorkflowActionInfoXCommand.java
+87 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\wf\WorkflowXCommand.java
+80 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\BulkJobsXCommand.java
+106 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\Command.java
+634 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\CommandException.java
+47 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\KillTransitionXCommand.java
+61 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\MaterializeTransitionXCommand.java
+81 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\PauseTransitionXCommand.java
+92 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\PreconditionException.java
+42 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\PurgeXCommand.java
+330 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\RerunTransitionXCommand.java
+152 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\ResumeTransitionXCommand.java
+76 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\StartTransitionXCommand.java
+86 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\StatusUpdateXCommand.java
+47 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\SubmitTransitionXCommand.java
+88 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\SuspendTransitionXCommand.java
+82 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\TransitionXCommand.java
+126 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\UnpauseTransitionXCommand.java
+92 same line(s)
+
+File: core\src\main\java\org\apache\oozie\command\XCommand.java
+524 same line(s)
+
+File: core\src\main\java\org\apache\oozie\coord\CoordELConstants.java
+35 same line(s)
+
+File: core\src\main\java\org\apache\oozie\coord\CoordELEvaluator.java
+289 same line(s)
+
+File: core\src\main\java\org\apache\oozie\coord\CoordELFunctions.java
+1477 same line(s)
+1 ignored unimportant difference line(s)
+4 important left orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: core\src\main\java\org\apache\oozie\coord\CoordinatorJobException.java
+48 same line(s)
+
+File: core\src\main\java\org\apache\oozie\coord\CoordUtils.java
+195 same line(s)
+
+File: core\src\main\java\org\apache\oozie\coord\HCatELFunctions.java
+427 same line(s)
+
+File: core\src\main\java\org\apache\oozie\coord\SyncCoordAction.java
+112 same line(s)
+
+File: core\src\main\java\org\apache\oozie\coord\SyncCoordDataset.java
+139 same line(s)
+
+File: core\src\main\java\org\apache\oozie\coord\TimeUnit.java
+35 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\hcat\EhcacheHCatDependencyCache.java
+475 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\hcat\HCatDependencyCache.java
+92 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\hcat\HCatMessageHandler.java
+75 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\hcat\SimpleHCatDependencyCache.java
+298 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\hcat\WaitingAction.java
+71 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\hcat\WaitingActions.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\ActionDependency.java
+40 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\DependencyChecker.java
+127 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\FSURIHandler.java
+162 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\HCatURIHandler.java
+297 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\URIHandler.java
+206 same line(s)
+
+File: core\src\main\java\org\apache\oozie\dependency\URIHandlerException.java
+43 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\listener\JobEventListener.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\messaging\JSONMessageSerializer.java
+38 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\messaging\MessageFactory.java
+105 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\messaging\MessageSerializer.java
+42 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\BundleJobEvent.java
+72 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\CoordinatorActionEvent.java
+119 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\CoordinatorJobEvent.java
+73 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\EventQueue.java
+94 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\MemoryEventQueue.java
+129 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\WorkflowActionEvent.java
+99 same line(s)
+
+File: core\src\main\java\org\apache\oozie\event\WorkflowJobEvent.java
+94 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\sla\SLACalculationInsertUpdateJPAExecutor.java
+105 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\sla\SLARegistrationGetJPAExecutor.java
+66 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\sla\SLARegistrationGetOnRestartJPAExecutor.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\sla\SLASummaryGetForFilterJPAExecutor.java
+173 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\sla\SLASummaryGetJPAExecutor.java
+66 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\sla\SLASummaryGetRecordsOnRestartJPAExecutor.java
+62 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\sla\SLASummaryUpdateForSLAStatusActualTimesJPAExecutor.java
+80 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BulkJPAExecutor.java
+308 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BulkUpdateDeleteJPAExecutor.java
+137 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BulkUpdateInsertForCoordActionStartJPAExecutor.java
+129 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BulkUpdateInsertForCoordActionStatusJPAExecutor.java
+124 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BulkUpdateInsertJPAExecutor.java
+103 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleActionGetJPAExecutor.java
+81 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleActionInsertJPAExecutor.java
+58 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleActionsCountForJobGetJPAExecutor.java
+57 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleActionsGetByLastModifiedTimeJPAExecutor.java
+60 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleActionsGetJPAExecutor.java
+72 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleActionsGetStatusPendingJPAExecutor.java
+94 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleActionsGetWaitingOlderJPAExecutor.java
+63 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleActionUpdateJPAExecutor.java
+58 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobGetCoordinatorsJPAExecutor.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobGetForUserJPAExecutor.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobGetJPAExecutor.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobInfoGetJPAExecutor.java
+177 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobInsertJPAExecutor.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobsDeleteJPAExecutor.java
+96 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobsGetForPurgeJPAExecutor.java
+77 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobsGetNeedStartJPAExecutor.java
+64 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobsGetPausedJPAExecutor.java
+64 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobsGetRunningOrPendingJPAExecutor.java
+70 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobsGetUnpausedJPAExecutor.java
+64 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\BundleJobUpdateJPAExecutor.java
+58 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionGetForCheckJPAExecutor.java
+101 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionGetForExternalIdJPAExecutor.java
+107 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionGetForInfoJPAExecutor.java
+180 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionGetForInputCheckJPAExecutor.java
+102 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionGetForSLAJPAExecutor.java
+81 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionGetForStartJPAExecutor.java
+109 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionGetForTimeoutJPAExecutor.java
+95 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionGetJPAExecutor.java
+103 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionInsertJPAExecutor.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionRemoveJPAExecutor.java
+71 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionsActiveCountJPAExecutor.java
+57 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionsCountForJobIdJPAExecutor.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionsGetByLastModifiedTimeJPAExecutor.java
+68 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionsGetForRecoveryJPAExecutor.java
+120 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionsGetReadyGroupbyJobIDJPAExecutor.java
+71 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionsPendingFalseCountGetJPAExecutor.java
+57 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionsPendingFalseStatusCountGetJPAExecutor.java
+60 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionsRunningGetJPAExecutor.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionUpdateForInputCheckJPAExecutor.java
+75 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionUpdateForModifiedTimeJPAExecutor.java
+72 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionUpdateJPAExecutor.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionUpdatePushInputCheckJPAExecutor.java
+76 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordActionUpdateStatusJPAExecutor.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordinatorJobGetForUserAppnameJPAExecutor.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordinatorJobGetForUserJPAExecutor.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobDeleteJPAExecutor.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionByActionNumberJPAExecutor.java
+64 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionForNominalTimeJPAExecutor.java
+95 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionIdsForDateRangeJPAExecutor.java
+68 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionsForDatesJPAExecutor.java
+102 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionsJPAExecutor.java
+61 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionsNotCompletedJPAExecutor.java
+110 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionsRunningJPAExecutor.java
+102 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionsStatusJPAExecutor.java
+64 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionsSubsetJPAExecutor.java
+215 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetActionsSuspendedJPAExecutor.java
+101 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetJPAExecutor.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetPendingActionsCountJPAExecutor.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetReadyActionsJPAExecutor.java
+107 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobGetRunningActionsCountJPAExecutor.java
+57 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobInfoGetJPAExecutor.java
+168 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobInsertJPAExecutor.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobsCountNotForPurgeFromParentIdJPAExecutor.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobsDeleteJPAExecutor.java
+96 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobsGetChangedJPAExecutor.java
+30 ignored unimportant difference line(s)
+30 important right orphan line(s)
+
+10 difference section(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobsGetForPurgeJPAExecutor.java
+71 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobsGetFromParentIdJPAExecutor.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobsGetPausedJPAExecutor.java
+64 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobsGetPendingJPAExecutor.java
+70 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobsGetUnpausedJPAExecutor.java
+64 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobsToBeMaterializedJPAExecutor.java
+109 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\CoordJobUpdateJPAExecutor.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\JPAExecutor.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\JPAExecutorException.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\SLAEventInsertJPAExecutor.java
+54 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\SLAEventsGetForFilterJPAExecutor.java
+132 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\SLAEventsGetForSeqIdJPAExecutor.java
+66 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\SLAEventsGetJPAExecutor.java
+59 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionDeleteJPAExecutor.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionGetForSLAJPAExecutor.java
+77 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionGetJPAExecutor.java
+114 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionInsertJPAExecutor.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionRetryManualGetJPAExecutor.java
+68 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionsGetForJobJPAExecutor.java
+113 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionsGetPendingJPAExecutor.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionsRunningGetJPAExecutor.java
+117 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionSubsetGetJPAExecutor.java
+125 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowActionUpdateJPAExecutor.java
+55 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowIdGetForExternalIdJPAExecutor.java
+63 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowInfoWithActionsSubsetGetJPAExecutor.java
+105 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobDeleteJPAExecutor.java
+58 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobGetActionsJPAExecutor.java
+107 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobGetForSLAJPAExecutor.java
+77 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobGetForUserJPAExecutor.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobGetJPAExecutor.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobInsertJPAExecutor.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobsCountNotForPurgeFromParentIdJPAExecutor.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobsDeleteJPAExecutor.java
+96 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobsGetForPurgeJPAExecutor.java
+77 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobsGetFromParentIdJPAExecutor.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowJobUpdateJPAExecutor.java
+63 same line(s)
+
+File: core\src\main\java\org\apache\oozie\executor\jpa\WorkflowsJobGetJPAExecutor.java
+305 same line(s)
+
+File: core\src\main\java\org\apache\oozie\jms\ConnectionContext.java
+110 same line(s)
+
+File: core\src\main\java\org\apache\oozie\jms\DefaultConnectionContext.java
+147 same line(s)
+
+File: core\src\main\java\org\apache\oozie\jms\JMSConnectionInfo.java
+100 same line(s)
+
+File: core\src\main\java\org\apache\oozie\jms\JMSExceptionListener.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\oozie\jms\JMSJobEventListener.java
+155 same line(s)
+
+File: core\src\main\java\org\apache\oozie\jms\JMSSLAEventListener.java
+141 same line(s)
+
+File: core\src\main\java\org\apache\oozie\jms\MessageHandler.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\oozie\jms\MessageReceiver.java
+79 same line(s)
+
+File: core\src\main\java\org\apache\oozie\local\LocalOozie.java
+193 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\ActionCheckerService.java
+221 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\ActionService.java
+104 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\AuthorizationException.java
+33 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\AuthorizationService.java
+514 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\BundleEngineService.java
+71 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\CallableQueueService.java
+773 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\CallbackService.java
+134 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\ConfigurationService.java
+331 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\CoordinatorEngineService.java
+71 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\CoordinatorStoreService.java
+98 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\CoordMaterializeTriggerService.java
+200 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\DagEngineService.java
+71 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\DagXLogInfoService.java
+83 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\DBLiteWorkflowStoreService.java
+179 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\ELService.java
+250 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\EventHandlerService.java
+311 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\GroupsService.java
+81 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\HadoopAccessorException.java
+45 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\HadoopAccessorService.java
+544 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\HCatAccessorException.java
+44 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\HCatAccessorService.java
+207 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\InstrumentationService.java
+125 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\JMSAccessorService.java
+474 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\JMSTopicService.java
+289 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\JPAService.java
+269 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\LiteWorkflowAppService.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\LiteWorkflowStoreService.java
+322 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\MemoryLocksService.java
+94 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\PartitionDependencyManagerService.java
+145 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\PauseTransitService.java
+221 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\ProxyUserService.java
+195 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\PurgeService.java
+96 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\RecoveryService.java
+510 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\SchedulerService.java
+224 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\SchemaService.java
+176 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\Service.java
+62 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\ServiceException.java
+47 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\Services.java
+387 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\SLAStoreService.java
+80 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\StatusTransitService.java
+778 same line(s)
+2 ignored unimportant difference line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: core\src\main\java\org\apache\oozie\service\StoreService.java
+117 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\URIHandlerService.java
+220 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\UserGroupInformationService.java
+51 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\UUIDService.java
+183 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\WorkflowAppService.java
+323 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\WorkflowSchemaService.java
+102 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\WorkflowStoreService.java
+118 same line(s)
+
+File: core\src\main\java\org\apache\oozie\service\XLogService.java
+368 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\AuthFilter.java
+134 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\BaseAdminServlet.java
+248 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\BaseJobServlet.java
+396 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\BaseJobsServlet.java
+168 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\CallbackServlet.java
+149 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\HostnameFilter.java
+108 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\JsonRestServlet.java
+572 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\ServicesLoader.java
+65 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\ServletUtilities.java
+92 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\SLAServlet.java
+166 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\V0AdminServlet.java
+121 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\V0JobServlet.java
+210 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\V0JobsServlet.java
+123 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\V1AdminServlet.java
+156 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\V1JobServlet.java
+987 same line(s)
+9 ignored unimportant difference line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\V1JobsServlet.java
+446 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\V2AdminServlet.java
+77 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\V2JobServlet.java
+66 same line(s)
+2 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\V2SLAServlet.java
+164 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\VersionServlet.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\oozie\servlet\XServletException.java
+78 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\listener\SLAEmailEventListener.java
+406 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\listener\SLAEventListener.java
+76 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\listener\SLAJobEventListener.java
+82 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\service\SLAService.java
+171 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\SLACalcStatus.java
+267 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\SLACalculator.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\SLACalculatorMemory.java
+817 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\SLAOperations.java
+212 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\SLARegistrationBean.java
+326 same line(s)
+
+File: core\src\main\java\org\apache\oozie\sla\SLASummaryBean.java
+405 same line(s)
+
+File: core\src\main\java\org\apache\oozie\store\CoordinatorStore.java
+954 same line(s)
+
+File: core\src\main\java\org\apache\oozie\store\OozieSchema.java
+232 same line(s)
+
+File: core\src\main\java\org\apache\oozie\store\SLAStore.java
+176 same line(s)
+
+File: core\src\main\java\org\apache\oozie\store\Store.java
+144 same line(s)
+
+File: core\src\main\java\org\apache\oozie\store\StoreException.java
+47 same line(s)
+
+File: core\src\main\java\org\apache\oozie\store\StoreStatusFilter.java
+254 same line(s)
+
+File: core\src\main\java\org\apache\oozie\store\WorkflowStore.java
+1002 same line(s)
+
+File: core\src\main\java\org\apache\oozie\test\EmbeddedServletContainer.java
+171 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\db\InstrumentedBasicDataSource.java
+44 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\db\Schema.java
+240 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\db\SLADbOperations.java
+227 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\db\SLADbXOperations.java
+185 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\db\SqlStatement.java
+1044 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\db\ValidateConnectionBean.java
+33 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\ClassUtils.java
+59 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\ConfigUtils.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\CoordActionsInDateRange.java
+155 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\DateUtils.java
+329 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\ELConstantsFunctions.java
+209 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\ELEvaluationException.java
+44 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\ELEvaluator.java
+255 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\ELUtils.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\GraphGenerator.java
+731 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\Instrumentable.java
+33 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\Instrumentation.java
+812 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\InstrumentUtils.java
+64 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\IOUtils.java
+260 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\JobUtils.java
+136 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\LogUtils.java
+120 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\MappingRule.java
+91 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\MemoryLocks.java
+133 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\OozieRollingPolicy.java
+200 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\ParamChecker.java
+280 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\ParameterVerifier.java
+103 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\ParameterVerifierException.java
+46 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\PollablePriorityDelayQueue.java
+94 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\PriorityDelayQueue.java
+736 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\PropertiesUtils.java
+114 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\StatusUtils.java
+179 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\WritableUtils.java
+101 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\XCallable.java
+84 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\XConfiguration.java
+374 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\XLog.java
+714 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\XLogReader.java
+85 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\XLogStreamer.java
+375 same line(s)
+
+File: core\src\main\java\org\apache\oozie\util\XmlUtils.java
+412 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\ActionNodeDef.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\ActionNodeHandler.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\ControlNodeDef.java
+36 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\ControlNodeHandler.java
+231 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\DBLiteWorkflowLib.java
+137 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\DecisionNodeDef.java
+34 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\DecisionNodeHandler.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\EndNodeDef.java
+54 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\ForkNodeDef.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\JoinNodeDef.java
+96 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\KillNodeDef.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\LiteWorkflowApp.java
+181 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\LiteWorkflowAppParser.java
+570 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\LiteWorkflowInstance.java
+643 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\LiteWorkflowLib.java
+71 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\NodeDef.java
+267 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\NodeHandler.java
+99 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\lite\StartNodeDef.java
+76 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\WorkflowApp.java
+38 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\WorkflowException.java
+47 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\WorkflowInstance.java
+199 same line(s)
+
+File: core\src\main\java\org\apache\oozie\workflow\WorkflowLib.java
+110 same line(s)
+
+File: core\src\main\java\org\apache\oozie\BaseEngine.java
+217 same line(s)
+
+File: core\src\main\java\org\apache\oozie\BaseEngineException.java
+45 same line(s)
+
+File: core\src\main\java\org\apache\oozie\BulkResponseInfo.java
+91 same line(s)
+
+File: core\src\main\java\org\apache\oozie\BundleActionBean.java
+380 same line(s)
+
+File: core\src\main\java\org\apache\oozie\BundleEngine.java
+463 same line(s)
+
+File: core\src\main\java\org\apache\oozie\BundleEngineException.java
+45 same line(s)
+
+File: core\src\main\java\org\apache\oozie\BundleJobBean.java
+498 same line(s)
+
+File: core\src\main\java\org\apache\oozie\BundleJobInfo.java
+85 same line(s)
+
+File: core\src\main\java\org\apache\oozie\CoordinatorActionBean.java
+443 same line(s)
+
+File: core\src\main\java\org\apache\oozie\CoordinatorActionInfo.java
+42 same line(s)
+
+File: core\src\main\java\org\apache\oozie\CoordinatorEngine.java
+609 same line(s)
+
+File: core\src\main\java\org\apache\oozie\CoordinatorEngineException.java
+45 same line(s)
+
+File: core\src\main\java\org\apache\oozie\CoordinatorJobBean.java
+716 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: core\src\main\java\org\apache\oozie\CoordinatorJobInfo.java
+79 same line(s)
+
+File: core\src\main\java\org\apache\oozie\DagELFunctions.java
+315 same line(s)
+
+File: core\src\main\java\org\apache\oozie\DagEngine.java
+517 same line(s)
+
+File: core\src\main\java\org\apache\oozie\DagEngineException.java
+45 same line(s)
+
+File: core\src\main\java\org\apache\oozie\ErrorCode.java
+283 same line(s)
+
+File: core\src\main\java\org\apache\oozie\FaultInjection.java
+105 same line(s)
+
+File: core\src\main\java\org\apache\oozie\LocalOozieClient.java
+336 same line(s)
+
+File: core\src\main\java\org\apache\oozie\LocalOozieClientCoord.java
+454 same line(s)
+
+File: core\src\main\java\org\apache\oozie\SLAEventBean.java
+262 same line(s)
+
+File: core\src\main\java\org\apache\oozie\WorkflowActionBean.java
+642 same line(s)
+
+File: core\src\main\java\org\apache\oozie\WorkflowJobBean.java
+369 same line(s)
+
+File: core\src\main\java\org\apache\oozie\WorkflowsInfo.java
+82 same line(s)
+
+File: core\src\main\java\org\apache\oozie\XException.java
+73 same line(s)
+
+File: core\src\test\java\org\apache\hadoop\examples\SleepJob.java
+241 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\decision\TestDecisionActionExecutor.java
+208 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\email\TestEmailActionExecutor.java
+167 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\ActionExecutorTestCase.java
+311 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\CredentialForTest.java
+55 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\InsertTestToken.java
+47 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\LauncherMainTester.java
+74 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\LauncherMainTester2.java
+22 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\MainTestCase.java
+42 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\MapperReducerCredentialsForTest.java
+77 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\MapperReducerForTest.java
+56 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\MapperReducerUberJarForTest.java
+70 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\SharelibUtils.java
+105 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\ShellTestCase.java
+56 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestCredentials.java
+38 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestFsActionExecutor.java
+818 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestFsELFunctions.java
+121 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestFSPrepareActions.java
+123 same line(s)
+5 ignored unimportant difference line(s)
+8 important left orphan line(s)
+2 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestHadoopELFunctions.java
+166 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestHCatPrepareActions.java
+78 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestJavaActionExecutor.java
+1634 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestLauncher.java
+343 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestLauncherFSURIHandler.java
+66 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestLauncherHCatURIHandler.java
+142 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestMapReduceActionError.java
+172 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestMapReduceMain.java
+83 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestPipesMain.java
+106 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestPrepareActionsDriver.java
+84 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestRerun.java
+141 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestShellActionExecutor.java
+368 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\hadoop\TestShellMain.java
+89 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\oozie\TestSubWorkflowActionExecutor.java
+404 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\ssh\TestSshActionExecutor.java
+652 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\ssh\TestSshActionExecutorAsExtension.java
+27 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\TestActionExecutor.java
+219 same line(s)
+
+File: core\src\test\java\org\apache\oozie\action\TestActionFailover.java
+137 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\rest\TestJsonCoordinatorAction.java
+65 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\rest\TestJsonCoordinatorJob.java
+78 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\rest\TestJsonWorkflowAction.java
+72 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\rest\TestJsonWorkflowJob.java
+67 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\HeaderTestingVersionServlet.java
+62 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\TestLocalOozie.java
+123 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\TestOozieCLI.java
+975 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\TestOozieClientWithFakeServlet.java
+197 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\TestWorkflowClient.java
+520 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\TestWorkflowClientException.java
+48 same line(s)
+
+File: core\src\test\java\org\apache\oozie\client\TestWorkflowXClient.java
+215 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\bundle\TestBundleChangeXCommand.java
+185 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\bundle\TestBundleJobSuspendXCommand.java
+248 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\bundle\TestBundleJobsXCommand.java
+126 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\bundle\TestBundleJobXCommand.java
+83 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\bundle\TestBundleKillXCommand.java
+210 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\bundle\TestBundlePauseUnpauseXCommand.java
+137 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\bundle\TestBundleRerunXCommand.java
+331 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\bundle\TestBundleStartXCommand.java
+275 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\bundle\TestBundleSubmitXCommand.java
+92 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\CoordELExtensions.java
+77 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\CoordXTestCase.java
+43 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordActionInputCheckXCommand.java
+952 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordActionInputCheckXCommandNonUTC.java
+26 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordActionMaterializeCommand.java
+304 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordActionNotificationXCommand.java
+77 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordActionStartXCommand.java
+361 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordActionUpdatePushMissingDependency.java
+129 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordChangeXCommand.java
+571 same line(s)
+27 ignored unimportant difference line(s)
+56 important right orphan line(s)
+1 important difference line(s)
+
+18 difference section(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordCommandUtils.java
+308 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordELExtensions.java
+80 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordJobsXCommand.java
+126 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordKillXCommand.java
+413 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordMaterializeTransitionXCommand.java
+396 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordPushDependencyCheckXCommand.java
+468 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordRerunXCommand.java
+1173 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordResumeXCommand.java
+146 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordSubmitXCommand.java
+1009 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestCoordSuspendXCommand.java
+124 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestFutureActionsTimeOut.java
+206 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\coord\TestPastActionsTimeOut.java
+163 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\HangServlet.java
+41 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestActionCheckXCommand.java
+562 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestActionErrors.java
+666 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestActionStartXCommand.java
+530 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestLastModified.java
+155 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestNotificationXCommand.java
+77 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestReRunXCommand.java
+227 same line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestSignalXCommand.java
+226 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestSubmitHiveXCommand.java
+115 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestSubmitMRXCommand.java
+148 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestSubmitPigXCommand.java
+187 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestSubmitXCommand.java
+249 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestWorkflowActionKillXCommand.java
+162 same line(s)
+4 ignored unimportant difference line(s)
+24 important right orphan line(s)
+7 important difference line(s)
+
+16 difference section(s)
+
+File: core\src\test\java\org\apache\oozie\command\wf\TestWorkflowKillXCommand.java
+251 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\SkipCommitFaultInjection.java
+40 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\TestCommand.java
+214 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\TestPurgeXCommand.java
+3849 same line(s)
+
+File: core\src\test\java\org\apache\oozie\command\TestXCommand.java
+245 same line(s)
+
+File: core\src\test\java\org\apache\oozie\coord\TestCoordELEvaluator.java
+242 same line(s)
+
+File: core\src\test\java\org\apache\oozie\coord\TestCoordELFunctions.java
+1016 same line(s)
+3 ignored unimportant difference line(s)
+5 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: core\src\test\java\org\apache\oozie\coord\TestCoordUtils.java
+105 same line(s)
+
+File: core\src\test\java\org\apache\oozie\coord\TestHCatELFunctions.java
+492 same line(s)
+
+File: core\src\test\java\org\apache\oozie\dependency\TestFSURIHandler.java
+64 same line(s)
+
+File: core\src\test\java\org\apache\oozie\dependency\TestHCatURIHandler.java
+98 same line(s)
+
+File: core\src\test\java\org\apache\oozie\dependency\TestURIHandlerService.java
+70 same line(s)
+
+File: core\src\test\java\org\apache\oozie\event\TestEventGeneration.java
+650 same line(s)
+
+File: core\src\test\java\org\apache\oozie\event\TestEventQueue.java
+129 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestBulkMonitorJPAExecutor.java
+153 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestBulkUpdateDeleteJPAExecutor.java
+231 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestBulkUpdateInsertForCoordActionStartJPAExecutor.java
+260 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestBulkUpdateInsertForCoordActionStatusJPAExecutor.java
+260 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestBulkUpdateInsertJPAExecutor.java
+259 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestBundleActionsCountForJobGetJPAExecutor.java
+65 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestBundleJobInfoGetJPAExecutor.java
+151 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestBundleJobsDeleteJPAExecutor.java
+253 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestBundleJobsGetForPurgeJPAExecutor.java
+102 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionGetByLastModifiedTimeJPAExecutor.java
+81 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionGetForCheckJPAExecutor.java
+74 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionGetForExternalIdJPAExecutor.java
+74 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionGetForInfoJPAExecutor.java
+150 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionGetForInputCheckJPAExecutor.java
+106 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionGetForStartJPAExecutor.java
+100 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionGetForTimeoutJPAExecutor.java
+86 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionGetJPAExecutor.java
+64 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionRemoveJPAExecutor.java
+90 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionsActiveCountJPAExecutor.java
+64 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionsPendingFalseCountGetJPAExecutor.java
+64 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionsPendingFalseStatusCountGetJPAExecutor.java
+65 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionsRunningGetJPAExecutor.java
+67 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionUpdateForInputCheckJPAExecutor.java
+75 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionUpdateForModifiedTimeJPAExecutor.java
+77 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionUpdateJPAExecutor.java
+70 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordActionUpdateStatusJPAExecutor.java
+75 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobDeleteJPAExecutor.java
+63 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetActionByActionNumberJPAExecutor.java
+65 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetActionForNominalTimeJPAExecutor.java
+73 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetActionIdsForDatesJPAExecutor.java
+82 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetActionsForDatesJPAExecutor.java
+83 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetActionsJPAExecutor.java
+64 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetActionsNotCompletedJPAExecutor.java
+107 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetActionsRunningJPAExecutor.java
+105 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetActionsSubsetJPAExecutor.java
+213 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetActionsSuspendedJPAExecutor.java
+105 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetJPAExecutor.java
+59 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetPendingActionsCountJPAExecutor.java
+68 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetReadyActionsJPAExecutor.java
+68 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobGetRunningActionsCountJPAExecutor.java
+70 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobInfoGetJPAExecutor.java
+214 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobsCountNotForPurgeFromParentIdJPAExecutor.java
+199 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobsDeleteJPAExecutor.java
+266 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobsGetForPurgeJPAExecutor.java
+197 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobsGetFromParentIdJPAExecutor.java
+149 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobsToBeMaterializedJPAExecutor.java
+174 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestCoordJobUpdateJPAExecutor.java
+63 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestSLAEventsGetForFilterJPAExecutor.java
+170 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestSLAEventsGetForSeqIdJPAExecutor.java
+77 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestSLAEventsGetJPAExecutor.java
+66 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowActionDeleteJPAExecutor.java
+69 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowActionGetJPAExecutor.java
+82 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowActionRetryManualGetJPAExecutor.java
+62 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowActionsGetForJobJPAExecutor.java
+66 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowActionsRunningGetJPAExecutor.java
+83 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowActionSubsetGetJPAExecutor.java
+66 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowActionUpdateJPAExecutor.java
+67 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowIdGetForExternalIdJPAExecutor.java
+95 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowInfoWithActionsSubsetGetJPAExecutor.java
+61 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowJobDeleteJPAExecutor.java
+68 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowJobGetActionsJPAExecutor.java
+64 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowJobGetJPAExecutor.java
+60 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowJobsCountNotForPurgeFromParentIdJPAExecutor.java
+102 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowJobsDeleteJPAExecutor.java
+255 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowJobsGetForPurgeJPAExecutor.java
+136 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowJobsGetFromParentIdJPAExecutor.java
+199 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowJobUpdateJPAExecutor.java
+72 same line(s)
+
+File: core\src\test\java\org\apache\oozie\executor\jpa\TestWorkflowsJobGetJPAExecutor.java
+89 same line(s)
+
+File: core\src\test\java\org\apache\oozie\jms\TestDefaultConnectionContext.java
+104 same line(s)
+
+File: core\src\test\java\org\apache\oozie\jms\TestHCatMessageHandler.java
+200 same line(s)
+
+File: core\src\test\java\org\apache\oozie\jms\TestJMSJobEventListener.java
+579 same line(s)
+
+File: core\src\test\java\org\apache\oozie\jms\TestJMSSLAEventListener.java
+396 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\ForTestAuthorizationService.java
+37 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\ForTestWorkflowStoreService.java
+114 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestActionCheckerService.java
+253 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestActionService.java
+47 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestAuthorizationService.java
+330 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestCallableQueueService.java
+873 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestCallbackService.java
+55 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestConfigurationService.java
+101 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestCoordMaterializeTriggerService.java
+165 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestDagXLogInfoService.java
+47 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestELService.java
+54 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestEventHandlerService.java
+244 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestGroupsService.java
+66 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestHadoopAccessorService.java
+166 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestHCatAccessorService.java
+103 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestInstrumentationService.java
+41 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestJMSAccessorService.java
+271 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestJMSTopicService.java
+243 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestJPAService.java
+57 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestLiteWorkflowAppService.java
+647 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestLiteWorkflowStoreService.java
+63 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestMemoryLocksService.java
+40 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestPartitionDependencyManagerEhcache.java
+135 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestPartitionDependencyManagerService.java
+195 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestPauseTransitService.java
+425 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestProxyUserService.java
+321 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestPurgeService.java
+325 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestRecoveryService.java
+800 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestSchedulerService.java
+59 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestSchemaService.java
+226 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestServices.java
+123 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestStatusTransitService.java
+1429 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestStoreService.java
+44 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestUUIDService.java
+96 same line(s)
+
+File: core\src\test\java\org\apache\oozie\service\TestXLogService.java
+328 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\DagServletTestCase.java
+105 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\MockCoordinatorEngineService.java
+301 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\MockDagEngineService.java
+329 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\MyJsonRestServlet.java
+116 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestAdminServlet.java
+222 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestAuthFilterAuthOozieClient.java
+220 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestBulkMonitorWebServiceAPI.java
+312 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestCallbackServlet.java
+107 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestHostnameFilter.java
+88 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestJobsServlet.java
+221 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestJsonRestServlet.java
+246 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestV0JobServlet.java
+225 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestV1AdminServlet.java
+260 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestV1JobServlet.java
+352 same line(s)
+2 ignored unimportant difference line(s)
+15 important left orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestV1JobServletBundleEngine.java
+213 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestV1JobsServlet.java
+242 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestV2JobServlet.java
+29 ignored unimportant difference line(s)
+92 important right orphan line(s)
+
+13 difference section(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestV2SLAServlet.java
+194 same line(s)
+
+File: core\src\test\java\org\apache\oozie\servlet\TestVersionServlet.java
+57 same line(s)
+
+File: core\src\test\java\org\apache\oozie\sla\TestSLACalculationJPAExecutor.java
+231 same line(s)
+
+File: core\src\test\java\org\apache\oozie\sla\TestSLACalculatorMemory.java
+592 same line(s)
+
+File: core\src\test\java\org\apache\oozie\sla\TestSLAEmailEventListener.java
+395 same line(s)
+
+File: core\src\test\java\org\apache\oozie\sla\TestSLAEventGeneration.java
+579 same line(s)
+
+File: core\src\test\java\org\apache\oozie\sla\TestSLAJobEventListener.java
+147 same line(s)
+
+File: core\src\test\java\org\apache\oozie\sla\TestSLARegistrationGetJPAExecutor.java
+92 same line(s)
+
+File: core\src\test\java\org\apache\oozie\sla\TestSLARegistrationGetRecordsOnRestartJPAExecutor.java
+74 same line(s)
+
+File: core\src\test\java\org\apache\oozie\sla\TestSLAService.java
+355 same line(s)
+
+File: core\src\test\java\org\apache\oozie\sla\TestSLASummaryGetOnRestartJPAExecutor.java
+88 same line(s)
+
+File: core\src\test\java\org\apache\oozie\store\TestCoordinatorStore.java
+403 same line(s)
+
+File: core\src\test\java\org\apache\oozie\store\TestDBWorkflowStore.java
+513 same line(s)
+
+File: core\src\test\java\org\apache\oozie\store\TestSLAStore.java
+124 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\MiniHCatServer.java
+301 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\MiniOozieTestCase.java
+74 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\PingServlet.java
+59 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\TestEmbeddedServletContainer.java
+51 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\TestXFsTestCase.java
+45 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\TestXTestCase.java
+197 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\XDataTestCase.java
+1475 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\XFsTestCase.java
+147 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\XHCatTestCase.java
+117 same line(s)
+
+File: core\src\test\java\org\apache\oozie\test\XTestCase.java
+976 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\db\TestSchema.java
+239 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\db\TestSqlStatement.java
+251 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestClassUtils.java
+28 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestCoordActionsInDateRange.java
+134 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestDateUtils.java
+139 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestELConstantsFunctions.java
+116 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestELEvaluator.java
+201 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestGraphGenerator.java
+124 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestInstrumentation.java
+306 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestIOUtils.java
+76 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestLogStreamer.java
+297 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestMemoryLocks.java
+220 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestOozieRollingPolicy.java
+187 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestParamChecker.java
+217 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestParameterVerifier.java
+166 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestPriorityDelayQueue.java
+392 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestWritableUtils.java
+52 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestXConfiguration.java
+201 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestXLog.java
+239 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestXLogFilter.java
+94 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestXLogReader.java
+114 same line(s)
+
+File: core\src\test\java\org\apache\oozie\util\TestXmlUtils.java
+39 same line(s)
+
+File: core\src\test\java\org\apache\oozie\workflow\lite\TestLiteWorkflowAppParser.java
+1056 same line(s)
+
+File: core\src\test\java\org\apache\oozie\workflow\lite\TestLiteWorkflowLib.java
+837 same line(s)
+
+File: core\src\test\java\org\apache\oozie\ForTestingActionExecutor.java
+136 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestActionBean.java
+80 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestBundleEngineSimple.java
+191 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestBundleJobBean.java
+136 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestCoordinatorEngine.java
+515 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestCoordinatorEngineSimple.java
+127 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestCoordinatorEngineStreamLog.java
+238 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestCoordinatorJobBean.java
+180 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestDagELFunctions.java
+122 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestDagEngine.java
+235 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestLocalOozieClientCoord.java
+195 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestSLAEventBean.java
+130 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestV1JobsServletBundleEngine.java
+121 same line(s)
+
+File: core\src\test\java\org\apache\oozie\TestWorkflowBean.java
+136 same line(s)
+
+File: docs\src\main\java\Dummy.java
+23 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\DateList.java
+99 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\DemoJavaMain.java
+29 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\DemoMapper.java
+48 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\DemoMapReduceMain.java
+23 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\DemoPigMain.java
+23 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\DemoReducer.java
+42 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\LocalOozieExample.java
+114 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\Repeatable.java
+198 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\SampleMapper.java
+42 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\SampleReducer.java
+45 same line(s)
+
+File: examples\src\main\java\org\apache\oozie\example\TimeUnit.java
+39 same line(s)
+
+File: examples\src\test\java\org\apache\oozie\example\TestLocalOozieExample.java
+95 same line(s)
+
+File: login\src\main\java\org\apache\oozie\authentication\AltKerberosAuthenticationHandler.java
+137 same line(s)
+
+File: login\src\main\java\org\apache\oozie\authentication\ExampleAltAuthenticationHandler.java
+138 same line(s)
+
+File: login\src\main\java\org\apache\oozie\servlet\login\LDAPLoginServlet.java
+107 same line(s)
+
+File: login\src\main\java\org\apache\oozie\servlet\login\LoginServlet.java
+180 same line(s)
+
+File: login\src\test\java\org\apache\oozie\authentication\TestExampleAltAuthenticationHandler.java
+140 same line(s)
+
+File: login\src\test\java\org\apache\oozie\servlet\login\TestLDAPLoginServlet.java
+166 same line(s)
+
+File: login\src\test\java\org\apache\oozie\servlet\login\TestLoginServlet.java
+212 same line(s)
+
+File: minitest\src\test\java\org\apache\oozie\test\WorkflowTest.java
+188 same line(s)
+
+File: sharelib\distcp\src\test\java\org\apache\oozie\action\hadoop\TestDistCpActionExecutor.java
+150 same line(s)
+
+File: sharelib\hcatalog\src\main\java\org\apache\oozie\action\hadoop\HCatLauncherURIHandler.java
+130 same line(s)
+
+File: sharelib\hcatalog\src\main\java\org\apache\oozie\util\HCatURI.java
+291 same line(s)
+
+File: sharelib\hcatalog\src\test\java\org\apache\oozie\util\TestHCatURI.java
+143 same line(s)
+
+File: sharelib\hive\src\main\java\org\apache\oozie\action\hadoop\HiveMain.java
+333 same line(s)
+
+File: sharelib\hive\src\test\java\org\apache\oozie\action\hadoop\TestHiveActionExecutor.java
+260 same line(s)
+
+File: sharelib\hive\src\test\java\org\apache\oozie\action\hadoop\TestHiveMain.java
+160 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\ActionStats.java
+38 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\ActionType.java
+26 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\FSLauncherURIHandler.java
+84 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\LauncherException.java
+41 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\LauncherMain.java
+112 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\LauncherMapper.java
+557 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\LauncherURIHandler.java
+60 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\LauncherURIHandlerFactory.java
+60 same line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\MapReduceMain.java
+150 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\MRStats.java
+57 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\PipesMain.java
+107 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\PrepareActionsDriver.java
+104 same line(s)
+
+File: sharelib\oozie\src\main\java\org\apache\oozie\action\hadoop\ShellMain.java
+316 same line(s)
+
+File: sharelib\pig\src\main\java\org\apache\oozie\action\hadoop\OoziePigStats.java
+156 same line(s)
+
+File: sharelib\pig\src\main\java\org\apache\oozie\action\hadoop\PigMain.java
+386 same line(s)
+
+File: sharelib\pig\src\main\java\org\apache\oozie\action\hadoop\PigMainWithOldAPI.java
+293 same line(s)
+
+File: sharelib\pig\src\test\java\org\apache\oozie\action\hadoop\PigTestCase.java
+89 same line(s)
+
+File: sharelib\pig\src\test\java\org\apache\oozie\action\hadoop\TestPigActionExecutor.java
+562 same line(s)
+
+File: sharelib\pig\src\test\java\org\apache\oozie\action\hadoop\TestPigMain.java
+154 same line(s)
+
+File: sharelib\pig\src\test\java\org\apache\oozie\action\hadoop\TestPigMainWithOldAPI.java
+154 same line(s)
+
+File: sharelib\pig\src\test\java\org\apache\oozie\action\hadoop\UDFTester.java
+61 same line(s)
+
+File: sharelib\sqoop\src\main\java\org\apache\oozie\action\hadoop\SqoopMain.java
+205 same line(s)
+
+File: sharelib\sqoop\src\test\java\org\apache\oozie\action\hadoop\TestSqoopActionExecutor.java
+361 same line(s)
+
+File: sharelib\streaming\src\main\java\org\apache\oozie\action\hadoop\StreamingMain.java
+110 same line(s)
+
+File: sharelib\streaming\src\test\java\org\apache\oozie\action\hadoop\TestMapReduceActionExecutor.java
+1042 same line(s)
+
+File: sharelib\streaming\src\test\java\org\apache\oozie\action\hadoop\TestMapReduceActionExecutorUberJar.java
+87 same line(s)
+
+File: sharelib\streaming\src\test\java\org\apache\oozie\action\hadoop\TestStreamingMain.java
+86 same line(s)
+
+File: tools\src\main\java\org\apache\oozie\tools\OozieDBCLI.java
+882 same line(s)
+
+File: tools\src\main\java\org\apache\oozie\tools\OozieSharelibCLI.java
+188 same line(s)
+
+File: tools\src\test\java\org\apache\oozie\tools\FakeConnection.java
+1336 same line(s)
+
+File: tools\src\test\java\org\apache\oozie\tools\FakeDriver.java
+67 same line(s)
+
+File: tools\src\test\java\org\apache\oozie\tools\LauncherSecurityManager.java
+72 same line(s)
+
+File: tools\src\test\java\org\apache\oozie\tools\TestOozieDBCLI.java
+149 same line(s)
+
+File: tools\src\test\java\org\apache\oozie\tools\TestOozieMySqlDBCLI.java
+121 same line(s)
+
+File: tools\src\test\java\org\apache\oozie\tools\TestOozieSharelibCLI.java
+188 same line(s)

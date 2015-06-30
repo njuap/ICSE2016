@@ -1,0 +1,1683 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:34:39
+
+Ignoring Unimportant
+Left base folder: D:\APsource\flume\version1
+Right base folder: D:\APsource\flume\version2
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\AESCTRNoPaddingProvider.java
+142 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\CipherProvider.java
+70 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\CipherProviderFactory.java
+89 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\CipherProviderType.java
+35 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\DecryptionFailureException.java
+38 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\EncryptionConfiguration.java
+59 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\JCEFileKeyProvider.java
+121 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\KeyProvider.java
+35 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\KeyProviderFactory.java
+81 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\encryption\KeyProviderType.java
+35 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\proto\ProtosFactory.java
+7636 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\BadCheckpointException.java
+36 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\CheckpointRebuilder.java
+268 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\Commit.java
+89 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\CorruptEventException.java
+36 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\EventQueueBackingStore.java
+79 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\EventQueueBackingStoreFactory.java
+120 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\EventQueueBackingStoreFile.java
+465 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\EventQueueBackingStoreFileV2.java
+101 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\EventQueueBackingStoreFileV3.java
+212 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\FileChannel.java
+615 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\FileChannelConfiguration.java
+97 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\FlumeEvent.java
+188 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\FlumeEventPointer.java
+92 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\FlumeEventQueue.java
+602 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\Log.java
+1180 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\LogFile.java
+772 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\LogFileFactory.java
+185 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\LogFileRetryableIOException.java
+34 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\LogFileV2.java
+160 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\LogFileV3.java
+391 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\LogRecord.java
+70 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\LogUtils.java
+82 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\NoopRecordException.java
+35 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\Pair.java
+38 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\Put.java
+142 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\ReplayHandler.java
+418 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\Rollback.java
+73 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\Serialization.java
+187 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\Take.java
+98 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\TransactionEventRecord.java
+241 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\TransactionIDOracle.java
+38 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\Writable.java
+47 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\WritableUtils.java
+150 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\main\java\org\apache\flume\channel\file\WriteOrderOracle.java
+38 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\encryption\CipherProviderTestSuite.java
+69 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\encryption\EncryptionTestUtils.java
+135 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\encryption\TestAESCTRNoPaddingProvider.java
+49 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\encryption\TestFileChannelEncryption.java
+352 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\encryption\TestJCEFileKeyProvider.java
+116 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\CountingSinkRunner.java
+69 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\CountingSourceRunner.java
+85 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestCheckpoint.java
+67 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestCheckpointRebuilder.java
+85 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestEventQueueBackingStoreFactory.java
+293 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestFileChannel.java
+636 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestFileChannelBase.java
+85 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestFileChannelFormatRegression.java
+115 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestFileChannelRestart.java
+847 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestFileChannelRollback.java
+139 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestFlumeEvent.java
+59 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestFlumeEventPointer.java
+63 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestFlumeEventQueue.java
+472 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestIntegration.java
+137 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestLog.java
+482 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestLogFile.java
+415 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestLogRecord.java
+72 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestTransactionEventRecordV2.java
+153 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestTransactionEventRecordV3.java
+141 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestTransactionIDOracle.java
+36 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestUtils.java
+336 same line(s)
+
+File: flume-ng-channels\flume-file-channel\src\test\java\org\apache\flume\channel\file\TestWriteOrderOracle.java
+36 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\impl\DerbySchemaHandler.java
+1093 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\impl\JdbcChannelProviderImpl.java
+623 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\impl\JdbcTransactionFactory.java
+38 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\impl\JdbcTransactionImpl.java
+191 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\impl\MySQLSchemaHandler.java
+68 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\impl\PersistableEvent.java
+369 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\impl\SchemaHandler.java
+81 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\impl\SchemaHandlerFactory.java
+51 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\ConfigurationConstants.java
+175 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\DatabaseType.java
+67 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\JdbcChannel.java
+92 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\JdbcChannelException.java
+38 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\JdbcChannelProvider.java
+63 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\JdbcChannelProviderFactory.java
+62 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\main\java\org\apache\flume\channel\jdbc\TransactionIsolation.java
+52 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\test\java\org\apache\flume\channel\jdbc\BaseJdbcChannelProviderTest.java
+383 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\test\java\org\apache\flume\channel\jdbc\MockEvent.java
+61 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\test\java\org\apache\flume\channel\jdbc\MockEventUtils.java
+119 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\test\java\org\apache\flume\channel\jdbc\TestDatabaseTypeEnum.java
+79 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\test\java\org\apache\flume\channel\jdbc\TestDerbySchemaHandlerQueries.java
+254 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\test\java\org\apache\flume\channel\jdbc\TestJdbcChannelProvider.java
+28 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\test\java\org\apache\flume\channel\jdbc\TestJdbcChannelProviderNoFK.java
+29 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\test\java\org\apache\flume\channel\jdbc\TestPersistentEvent.java
+116 same line(s)
+
+File: flume-ng-channels\flume-jdbc-channel\src\test\java\org\apache\flume\channel\jdbc\TestTransactionIsolationLevelEnum.java
+69 same line(s)
+
+File: flume-ng-channels\flume-spillable-memory-channel\src\main\java\org\apache\flume\channel\SpillableMemoryChannel.java
+808 same line(s)
+
+File: flume-ng-channels\flume-spillable-memory-channel\src\test\java\org\apache\flume\channel\TestSpillableMemoryChannel.java
+883 same line(s)
+
+File: flume-ng-clients\flume-ng-log4jappender\src\main\java\org\apache\flume\clients\log4jappender\LoadBalancingLog4jAppender.java
+182 same line(s)
+
+File: flume-ng-clients\flume-ng-log4jappender\src\main\java\org\apache\flume\clients\log4jappender\Log4jAppender.java
+332 same line(s)
+
+File: flume-ng-clients\flume-ng-log4jappender\src\main\java\org\apache\flume\clients\log4jappender\Log4jAvroHeaders.java
+54 same line(s)
+
+File: flume-ng-clients\flume-ng-log4jappender\src\test\java\org\apache\flume\clients\log4jappender\TestLoadBalancingLog4jAppender.java
+348 same line(s)
+
+File: flume-ng-clients\flume-ng-log4jappender\src\test\java\org\apache\flume\clients\log4jappender\TestLog4jAppender.java
+278 same line(s)
+
+File: flume-ng-clients\flume-ng-log4jappender\src\test\java\org\apache\flume\clients\log4jappender\TestLog4jAppenderWithAvro.java
+195 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\channel\ChannelConfiguration.java
+94 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\channel\ChannelSelectorConfiguration.java
+100 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\channel\ChannelSelectorType.java
+48 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\channel\ChannelType.java
+65 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\sink\SinkConfiguration.java
+193 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\sink\SinkGroupConfiguration.java
+102 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\sink\SinkProcessorConfiguration.java
+103 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\sink\SinkProcessorType.java
+58 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\sink\SinkType.java
+114 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\source\SourceConfiguration.java
+253 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\source\SourceType.java
+117 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\BasicConfigurationConstants.java
+44 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\ComponentConfiguration.java
+145 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\ComponentConfigurationFactory.java
+76 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\ConfigurationException.java
+42 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\FlumeConfiguration.java
+1096 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\FlumeConfigurationError.java
+69 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\conf\FlumeConfigurationErrorType.java
+43 same line(s)
+
+File: flume-ng-configuration\src\main\java\org\apache\flume\Context.java
+233 same line(s)
+
+File: flume-ng-configuration\src\test\java\org\apache\flume\conf\source\TestSourceConfiguration.java
+36 same line(s)
+
+File: flume-ng-configuration\src\test\java\org\apache\flume\conf\TestFlumeConfiguration.java
+60 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\annotations\Disposable.java
+27 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\annotations\InterfaceAudience.java
+66 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\annotations\InterfaceStability.java
+55 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\annotations\Recyclable.java
+27 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\AbstractChannel.java
+78 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\AbstractChannelSelector.java
+92 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\BasicChannelSemantics.java
+127 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\BasicTransactionSemantics.java
+217 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\ChannelProcessor.java
+309 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\ChannelSelectorFactory.java
+100 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\ChannelUtils.java
+227 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\DefaultChannelFactory.java
+71 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\MemoryChannel.java
+375 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\MultiplexingChannelSelector.java
+147 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\PseudoTxnMemoryChannel.java
+191 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\channel\ReplicatingChannelSelector.java
+76 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\client\avro\AvroCLIClient.java
+245 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\client\avro\EventReader.java
+58 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\client\avro\ReliableEventReader.java
+42 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\client\avro\ReliableSpoolingFileEventReader.java
+654 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\client\avro\SimpleTextLineEventReader.java
+76 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\conf\Configurable.java
+50 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\conf\ConfigurableComponent.java
+24 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\conf\Configurables.java
+78 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\event\EventHelper.java
+73 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\formatter\output\BucketPath.java
+483 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\formatter\output\EventFormatter.java
+29 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\formatter\output\PathManager.java
+73 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\formatter\output\TextDelimitedOutputFormatter.java
+34 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\http\HTTPMetricsServer.java
+141 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\util\JMXPollUtil.java
+84 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\ChannelCounter.java
+114 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\ChannelCounterMBean.java
+49 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\ChannelProcessorCounter.java
+27 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\GangliaServer.java
+360 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\MonitoredCounterGroup.java
+283 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\MonitoringType.java
+39 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\MonitorService.java
+35 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\SinkCounter.java
+138 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\SinkCounterMBean.java
+51 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\SinkProcessorCounter.java
+27 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\SourceCounter.java
+125 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\instrumentation\SourceCounterMBean.java
+48 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\HostInterceptor.java
+169 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\Interceptor.java
+62 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\InterceptorBuilderFactory.java
+51 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\InterceptorChain.java
+87 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\InterceptorType.java
+40 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\RegexExtractorInterceptor.java
+245 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\RegexExtractorInterceptorMillisSerializer.java
+56 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\RegexExtractorInterceptorPassThroughSerializer.java
+44 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\RegexExtractorInterceptorSerializer.java
+37 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\RegexFilteringInterceptor.java
+176 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\StaticInterceptor.java
+153 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\interceptor\TimestampInterceptor.java
+107 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\lifecycle\LifecycleAware.java
+125 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\lifecycle\LifecycleController.java
+87 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\lifecycle\LifecycleException.java
+42 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\lifecycle\LifecycleState.java
+30 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\lifecycle\LifecycleSupervisor.java
+376 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\AbstractAvroEventSerializer.java
+127 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\AvroEventDeserializer.java
+220 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\AvroEventSerializerConfigurationConstants.java
+38 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\BodyTextEventSerializer.java
+92 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\DecodeErrorPolicy.java
+31 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\DurablePositionTracker.java
+202 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\EventDeserializer.java
+94 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\EventDeserializerFactory.java
+88 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\EventDeserializerType.java
+41 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\EventSerDe.java
+49 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\EventSerializer.java
+137 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\EventSerializerFactory.java
+89 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\EventSerializerType.java
+42 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\FlumeEventAvroEventSerializer.java
+72 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\HeaderAndBodyTextEventSerializer.java
+93 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\LengthMeasurable.java
+27 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\LineDeserializer.java
+167 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\PositionTracker.java
+36 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\RemoteMarkable.java
+38 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\Resettable.java
+47 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\ResettableFileInputStream.java
+297 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\ResettableInputStream.java
+114 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\serialization\Seekable.java
+25 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\AbstractRpcSink.java
+405 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\AbstractSink.java
+84 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\AbstractSinkProcessor.java
+70 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\AbstractSinkSelector.java
+75 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\AvroSink.java
+129 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\DefaultSinkFactory.java
+73 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\DefaultSinkProcessor.java
+85 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\FailoverSinkProcessor.java
+218 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\LoadBalancingSinkProcessor.java
+275 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\LoggerSink.java
+86 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\NullSink.java
+140 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\RollingFileSink.java
+282 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\SinkGroup.java
+69 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\SinkProcessorFactory.java
+132 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\sink\ThriftSink.java
+113 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\http\HTTPBadRequestException.java
+43 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\http\HTTPSource.java
+269 same line(s)
+3 ignored unimportant difference line(s)
+1 important left orphan line(s)
+35 important right orphan line(s)
+4 important difference line(s)
+
+8 difference section(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\http\HTTPSourceConfigurationConstants.java
+41 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\http\HTTPSourceHandler.java
+45 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\http\JSONHandler.java
+139 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\AbstractEventDrivenSource.java
+38 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\AbstractPollableSource.java
+58 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\AbstractSource.java
+84 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\AvroSource.java
+521 same line(s)
+3 important left orphan line(s)
+20 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\BasicSourceSemantics.java
+148 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\DefaultSourceFactory.java
+71 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\EventDrivenSourceRunner.java
+67 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\ExecSource.java
+467 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\ExecSourceConfigurationConstants.java
+65 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\MultiportSyslogTCPSource.java
+546 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\NetcatSource.java
+460 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\NetcatSourceConfigurationConstants.java
+45 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\PollableSourceRunner.java
+171 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\SequenceGeneratorSource.java
+128 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\SpoolDirectorySource.java
+264 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\SpoolDirectorySourceConfigurationConstants.java
+96 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\StressSource.java
+154 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\SyslogParser.java
+328 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\SyslogSourceConfigurationConstants.java
+76 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\SyslogTcpSource.java
+171 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\SyslogUDPSource.java
+159 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\SyslogUtils.java
+396 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\source\ThriftSource.java
+289 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\tools\DirectMemoryUtils.java
+119 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\tools\GetJavaProperty.java
+35 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\tools\HTTPServerConstraintUtil.java
+62 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\tools\PlatformDetect.java
+35 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\tools\TimestampRoundDownUtil.java
+96 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\tools\VersionInfo.java
+125 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\Channel.java
+89 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\ChannelException.java
+49 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\ChannelFactory.java
+28 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\ChannelFullException.java
+47 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\ChannelSelector.java
+67 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\Clock.java
+28 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\Constants.java
+34 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\CounterGroup.java
+93 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\EventDrivenSource.java
+29 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\NamedComponent.java
+36 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\PollableSource.java
+54 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\Sink.java
+79 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\SinkFactory.java
+30 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\SinkProcessor.java
+68 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\SinkRunner.java
+177 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\Source.java
+62 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\SourceFactory.java
+30 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\SourceRunner.java
+69 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\SystemClock.java
+30 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\Transaction.java
+90 same line(s)
+
+File: flume-ng-core\src\main\java\org\apache\flume\VersionAnnotation.java
+76 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\AbstractBasicChannelSemanticsTest.java
+293 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\MockChannel.java
+73 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\MockEvent.java
+65 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\TestBasicChannelSemantics.java
+809 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\TestChannelProcessor.java
+82 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\TestChannelUtils.java
+137 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\TestMemoryChannel.java
+501 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\TestMemoryChannelConcurrency.java
+358 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\TestMemoryChannelTransaction.java
+272 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\TestMultiplexingChannelSelector.java
+314 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\channel\TestReplicatingChannelSelector.java
+118 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\client\avro\TestBufferedLineReader.java
+120 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\client\avro\TestReliableSpoolingFileEventReader.java
+449 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\client\avro\TestSpoolingFileLineReader.java
+623 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\event\TestEventHelper.java
+43 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\formatter\output\TestBucketPath.java
+144 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\instrumentation\http\TestHTTPMetricsServer.java
+161 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\instrumentation\util\JMXTestUtils.java
+38 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\instrumentation\util\TestJMXPollUtil.java
+87 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\instrumentation\TestMonitoredCounterGroup.java
+511 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\interceptor\CensoringInterceptor.java
+77 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\interceptor\TestCensoringInterceptor.java
+86 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\interceptor\TestHostInterceptor.java
+186 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\interceptor\TestRegexExtractorInterceptor.java
+196 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\interceptor\TestRegexExtractorInterceptorMillisSerializer.java
+66 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\interceptor\TestRegexExtractorInterceptorPassThroughSerializer.java
+34 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\interceptor\TestRegexFilteringInterceptor.java
+103 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\interceptor\TestStaticInterceptor.java
+118 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\interceptor\TestTimestampInterceptor.java
+111 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\lifecycle\TestLifecycleController.java
+127 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\lifecycle\TestLifecycleSupervisor.java
+201 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\ResettableTestStringInputStream.java
+80 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\SyslogAvroEventSerializer.java
+260 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\TestAvroEventDeserializer.java
+177 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\TestBodyTextEventSerializer.java
+92 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\TestDurablePositionTracker.java
+83 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\TestFlumeEventAvroEventSerializer.java
+135 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\TestHeaderAndBodyTextEventSerializer.java
+103 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\TestLineDeserializer.java
+134 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\TestResettableFileInputStream.java
+474 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\TestSyslogAvroEventSerializer.java
+129 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\serialization\TransientPositionTracker.java
+50 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\sink\FixedOrderSelector.java
+47 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\sink\SinkProcessorFactoryTest.java
+64 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\sink\TestAvroSink.java
+902 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\sink\TestDefaultSinkFactory.java
+72 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\sink\TestFailoverSinkProcessor.java
+215 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\sink\TestLoadBalancingSinkProcessor.java
+722 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\sink\TestLoggerSink.java
+67 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\sink\TestRollingFileSink.java
+175 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\sink\TestThriftSink.java
+195 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\http\FlumeHttpServletRequestWrapper.java
+322 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\http\TestHTTPSource.java
+463 same line(s)
+14 ignored unimportant difference line(s)
+4 important left orphan line(s)
+72 important right orphan line(s)
+3 important difference line(s)
+
+17 difference section(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\http\TestJSONHandler.java
+247 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\MockSource.java
+63 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestAbstractPollableSource.java
+64 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestAvroSource.java
+553 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestBasicSourceSemantics.java
+121 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestDefaultSourceFactory.java
+83 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestExecSource.java
+484 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestMultiportSyslogTCPSource.java
+385 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestPollableSourceRunner.java
+143 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestSequenceGeneratorSource.java
+148 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestSpoolDirectorySource.java
+286 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestStressSource.java
+176 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestSyslogParser.java
+95 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestSyslogTcpSource.java
+132 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestSyslogUdpSource.java
+188 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestSyslogUtils.java
+436 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\source\TestThriftSource.java
+276 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\tools\TestTimestampRoundDownUtil.java
+84 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\tools\TestVersionInfo.java
+63 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\TestContext.java
+88 same line(s)
+
+File: flume-ng-core\src\test\java\org\apache\flume\TestCounterGroup.java
+68 same line(s)
+
+File: flume-ng-embedded-agent\src\main\java\org\apache\flume\agent\embedded\EmbeddedAgent.java
+250 same line(s)
+
+File: flume-ng-embedded-agent\src\main\java\org\apache\flume\agent\embedded\EmbeddedAgentConfiguration.java
+323 same line(s)
+
+File: flume-ng-embedded-agent\src\main\java\org\apache\flume\agent\embedded\EmbeddedSource.java
+52 same line(s)
+
+File: flume-ng-embedded-agent\src\main\java\org\apache\flume\agent\embedded\MaterializedConfigurationProvider.java
+42 same line(s)
+
+File: flume-ng-embedded-agent\src\main\java\org\apache\flume\agent\embedded\MemoryConfigurationProvider.java
+48 same line(s)
+
+File: flume-ng-embedded-agent\src\main\java\org\apache\flume\agent\embedded\package-info.java
+24 same line(s)
+
+File: flume-ng-embedded-agent\src\test\java\org\apache\flume\agent\embedded\TestEmbeddedAgent.java
+194 same line(s)
+
+File: flume-ng-embedded-agent\src\test\java\org\apache\flume\agent\embedded\TestEmbeddedAgentConfiguration.java
+153 same line(s)
+
+File: flume-ng-embedded-agent\src\test\java\org\apache\flume\agent\embedded\TestEmbeddedAgentEmbeddedSource.java
+198 same line(s)
+
+File: flume-ng-embedded-agent\src\test\java\org\apache\flume\agent\embedded\TestEmbeddedAgentState.java
+119 same line(s)
+
+File: flume-ng-legacy-sources\flume-avro-source\src\main\java\org\apache\flume\source\avroLegacy\AvroLegacySource.java
+157 same line(s)
+
+File: flume-ng-legacy-sources\flume-avro-source\src\test\java\org\apache\flume\source\avroLegacy\TestLegacyAvroSource.java
+172 same line(s)
+
+File: flume-ng-legacy-sources\flume-thrift-source\src\main\java\com\cloudera\flume\handlers\thrift\EventStatus.java
+65 same line(s)
+
+File: flume-ng-legacy-sources\flume-thrift-source\src\main\java\com\cloudera\flume\handlers\thrift\Priority.java
+74 same line(s)
+
+File: flume-ng-legacy-sources\flume-thrift-source\src\main\java\com\cloudera\flume\handlers\thrift\ThriftFlumeEvent.java
+883 same line(s)
+
+File: flume-ng-legacy-sources\flume-thrift-source\src\main\java\com\cloudera\flume\handlers\thrift\ThriftFlumeEventServer.java
+952 same line(s)
+
+File: flume-ng-legacy-sources\flume-thrift-source\src\main\java\org\apache\flume\source\thriftLegacy\ThriftLegacySource.java
+166 same line(s)
+
+File: flume-ng-legacy-sources\flume-thrift-source\src\test\java\org\apache\flume\source\thriftLegacy\TestThriftLegacySource.java
+203 same line(s)
+
+File: flume-ng-node\src\main\java\org\apache\flume\node\AbstractConfigurationProvider.java
+509 same line(s)
+
+File: flume-ng-node\src\main\java\org\apache\flume\node\Application.java
+311 same line(s)
+
+File: flume-ng-node\src\main\java\org\apache\flume\node\ConfigurationProvider.java
+29 same line(s)
+
+File: flume-ng-node\src\main\java\org\apache\flume\node\MaterializedConfiguration.java
+47 same line(s)
+
+File: flume-ng-node\src\main\java\org\apache\flume\node\PollingPropertiesFileConfigurationProvider.java
+155 same line(s)
+
+File: flume-ng-node\src\main\java\org\apache\flume\node\PropertiesFileConfigurationProvider.java
+220 same line(s)
+
+File: flume-ng-node\src\main\java\org\apache\flume\node\SimpleMaterializedConfiguration.java
+78 same line(s)
+
+File: flume-ng-node\src\test\java\org\apache\flume\node\TestAbstractConfigurationProvider.java
+298 same line(s)
+
+File: flume-ng-node\src\test\java\org\apache\flume\node\TestApplication.java
+156 same line(s)
+
+File: flume-ng-node\src\test\java\org\apache\flume\node\TestPollingPropertiesFileConfigurationProvider.java
+101 same line(s)
+
+File: flume-ng-node\src\test\java\org\apache\flume\node\TestPropertiesFileConfigurationProvider.java
+111 same line(s)
+
+File: flume-ng-node\src\test\java\org\apache\flume\source\TestNetcatSource.java
+173 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\api\AbstractRpcClient.java
+64 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\api\FailoverRpcClient.java
+307 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\api\HostInfo.java
+99 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\api\LoadBalancingRpcClient.java
+291 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\api\NettyAvroRpcClient.java
+767 same line(s)
+26 important right orphan line(s)
+4 important difference line(s)
+
+11 difference section(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\api\RpcClient.java
+111 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\api\RpcClientConfigurationConstants.java
+156 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\api\RpcClientFactory.java
+252 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\api\ThriftRpcClient.java
+431 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\event\EventBuilder.java
+66 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\event\JSONEvent.java
+71 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\event\SimpleEvent.java
+67 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\thrift\Status.java
+68 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\thrift\ThriftFlumeEvent.java
+501 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\thrift\ThriftSourceProtocol.java
+1545 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\util\OrderSelector.java
+157 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\util\RandomOrderSelector.java
+52 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\util\RoundRobinOrderSelector.java
+57 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\util\SpecificOrderIterator.java
+55 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\Event.java
+52 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\EventDeliveryException.java
+46 same line(s)
+
+File: flume-ng-sdk\src\main\java\org\apache\flume\FlumeException.java
+39 same line(s)
+
+File: flume-ng-sdk\src\test\java\org\apache\flume\api\RpcTestUtils.java
+372 same line(s)
+
+File: flume-ng-sdk\src\test\java\org\apache\flume\api\TestFailoverRpcClient.java
+171 same line(s)
+
+File: flume-ng-sdk\src\test\java\org\apache\flume\api\TestLoadBalancingRpcClient.java
+682 same line(s)
+
+File: flume-ng-sdk\src\test\java\org\apache\flume\api\TestNettyAvroRpcClient.java
+399 same line(s)
+
+File: flume-ng-sdk\src\test\java\org\apache\flume\api\TestRpcClientFactory.java
+154 same line(s)
+
+File: flume-ng-sdk\src\test\java\org\apache\flume\api\TestThriftRpcClient.java
+213 same line(s)
+
+File: flume-ng-sdk\src\test\java\org\apache\flume\api\ThriftTestingSource.java
+227 same line(s)
+
+File: flume-ng-sdk\src\test\java\org\apache\flume\event\TestEventBuilder.java
+59 same line(s)
+
+File: flume-ng-sinks\flume-dataset-sink\src\main\java\org\apache\flume\sink\kite\DatasetSink.java
+339 same line(s)
+
+File: flume-ng-sinks\flume-dataset-sink\src\main\java\org\apache\flume\sink\kite\DatasetSinkConstants.java
+57 same line(s)
+
+File: flume-ng-sinks\flume-dataset-sink\src\main\java\org\apache\flume\sink\kite\KerberosUtil.java
+176 same line(s)
+
+File: flume-ng-sinks\flume-dataset-sink\src\test\java\org\apache\flume\sink\kite\TestDatasetSink.java
+472 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\AbstractHDFSWriter.java
+228 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\AvroEventSerializer.java
+197 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\BucketClosedException.java
+30 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\BucketWriter.java
+767 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\HDFSCompressedDataStream.java
+154 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\HDFSDataStream.java
+145 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\HDFSEventSink.java
+766 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\HDFSSequenceFile.java
+122 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\HDFSTextSerializer.java
+79 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\HDFSWritableSerializer.java
+77 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\HDFSWriter.java
+47 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\HDFSWriterFactory.java
+43 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\KerberosUser.java
+70 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\SequenceFileSerializer.java
+68 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\SequenceFileSerializerFactory.java
+90 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\main\java\org\apache\flume\sink\hdfs\SequenceFileSerializerType.java
+38 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\HDFSBadDataStream.java
+45 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\HDFSTestSeqWriter.java
+75 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\HDFSTestWriterFactory.java
+42 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\MockDataStream.java
+39 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\MockFileSystem.java
+140 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\MockFsDataOutputStream.java
+61 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\MockHDFSWriter.java
+94 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\MyCustomSerializer.java
+58 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\TestAvroEventSerializer.java
+156 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\TestBucketWriter.java
+464 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\TestHDFSCompressedDataStream.java
+141 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\TestHDFSEventSink.java
+1448 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\TestHDFSEventSinkOnMiniCluster.java
+486 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\TestSequenceFileSerializerFactory.java
+59 same line(s)
+
+File: flume-ng-sinks\flume-hdfs-sink\src\test\java\org\apache\flume\sink\hdfs\TestUseRawLocalFileSystem.java
+95 same line(s)
+
+File: flume-ng-sinks\flume-irc-sink\src\main\java\org\apache\flume\sink\irc\IRCSink.java
+266 same line(s)
+
+File: flume-ng-sinks\flume-irc-sink\src\test\java\org\apache\flume\sink\irc\TestIRCSink.java
+159 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\client\ElasticSearchClient.java
+58 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\client\ElasticSearchClientFactory.java
+76 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\client\ElasticSearchRestClient.java
+148 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\client\ElasticSearchTransportClient.java
+231 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\client\NoSuchClientTypeException.java
+23 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\client\RoundRobinList.java
+44 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\AbstractElasticSearchIndexRequestBuilderFactory.java
+120 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\ContentBuilderUtil.java
+76 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\ElasticSearchDynamicSerializer.java
+73 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\ElasticSearchEventSerializer.java
+48 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\ElasticSearchIndexRequestBuilderFactory.java
+60 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\ElasticSearchLogStashEventSerializer.java
+145 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\ElasticSearchSink.java
+427 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\ElasticSearchSinkConstants.java
+111 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\EventSerializerIndexRequestBuilderFactory.java
+69 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\IndexNameBuilder.java
+42 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\SimpleIndexNameBuilder.java
+45 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\TimeBasedIndexNameBuilder.java
+90 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\main\java\org\apache\flume\sink\elasticsearch\TimestampedEvent.java
+60 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\client\RoundRobinListTest.java
+41 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\client\TestElasticSearchClientFactory.java
+64 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\client\TestElasticSearchRestClient.java
+158 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\client\TestElasticSearchTransportClient.java
+127 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\AbstractElasticSearchSinkTest.java
+157 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\TestElasticSearchDynamicSerializer.java
+64 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\TestElasticSearchIndexRequestBuilderFactory.java
+194 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\TestElasticSearchLogStashEventSerializer.java
+122 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\TestElasticSearchSink.java
+441 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\TestElasticSearchSinkCreation.java
+49 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\TimeBasedIndexNameBuilderTest.java
+60 same line(s)
+
+File: flume-ng-sinks\flume-ng-elasticsearch-sink\src\test\java\org\apache\flume\sink\elasticsearch\TimestampedEventTest.java
+88 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\AsyncHbaseEventSerializer.java
+78 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\AsyncHBaseSink.java
+620 same line(s)
+3 ignored unimportant difference line(s)
+2 important left orphan line(s)
+16 important right orphan line(s)
+2 important difference line(s)
+
+13 difference section(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\BatchAware.java
+28 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\HbaseEventSerializer.java
+63 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\HBaseSink.java
+571 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\HBaseSinkConfigurationConstants.java
+73 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\HBaseSinkSecurityManager.java
+134 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\RegexHbaseEventSerializer.java
+215 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\SimpleAsyncHbaseEventSerializer.java
+151 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\SimpleHbaseEventSerializer.java
+149 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\main\java\org\apache\flume\sink\hbase\SimpleRowKeyGenerator.java
+52 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\test\java\org\apache\flume\sink\hbase\IncrementAsyncHBaseSerializer.java
+78 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\test\java\org\apache\flume\sink\hbase\IncrementHBaseSerializer.java
+80 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\test\java\org\apache\flume\sink\hbase\MockSimpleHbaseEventSerializer.java
+38 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\test\java\org\apache\flume\sink\hbase\TestAsyncHBaseSink.java
+553 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\test\java\org\apache\flume\sink\hbase\TestHBaseSink.java
+741 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\test\java\org\apache\flume\sink\hbase\TestHBaseSinkCreation.java
+50 same line(s)
+
+File: flume-ng-sinks\flume-ng-hbase-sink\src\test\java\org\apache\flume\sink\hbase\TestRegexHbaseEventSerializer.java
+233 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\main\java\org\apache\flume\sink\solr\morphline\BlobDeserializer.java
+161 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\main\java\org\apache\flume\sink\solr\morphline\BlobHandler.java
+126 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\main\java\org\apache\flume\sink\solr\morphline\MorphlineHandler.java
+62 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\main\java\org\apache\flume\sink\solr\morphline\MorphlineHandlerImpl.java
+161 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\main\java\org\apache\flume\sink\solr\morphline\MorphlineInterceptor.java
+241 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\main\java\org\apache\flume\sink\solr\morphline\MorphlineSink.java
+200 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\main\java\org\apache\flume\sink\solr\morphline\MorphlineSolrSink.java
+49 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\main\java\org\apache\flume\sink\solr\morphline\UUIDInterceptor.java
+115 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\test\java\org\apache\flume\sink\solr\morphline\EmbeddedSource.java
+45 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\test\java\org\apache\flume\sink\solr\morphline\FlumeHttpServletRequestWrapper.java
+321 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\test\java\org\apache\flume\sink\solr\morphline\ResettableTestStringInputStream.java
+89 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\test\java\org\apache\flume\sink\solr\morphline\TestBlobDeserializer.java
+122 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\test\java\org\apache\flume\sink\solr\morphline\TestBlobHandler.java
+60 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\test\java\org\apache\flume\sink\solr\morphline\TestEnvironment.java
+33 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\test\java\org\apache\flume\sink\solr\morphline\TestMorphlineInterceptor.java
+156 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\test\java\org\apache\flume\sink\solr\morphline\TestMorphlineSolrSink.java
+430 same line(s)
+
+File: flume-ng-sinks\flume-ng-morphline-solr-sink\src\test\java\org\apache\flume\sink\solr\morphline\TestUUIDInterceptor.java
+63 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\main\java\org\apache\flume\source\jms\DefaultJMSMessageConverter.java
+137 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\main\java\org\apache\flume\source\jms\InitialContextFactory.java
+31 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\main\java\org\apache\flume\source\jms\JMSDestinationLocator.java
+23 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\main\java\org\apache\flume\source\jms\JMSDestinationType.java
+23 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\main\java\org\apache\flume\source\jms\JMSMessageConsumer.java
+172 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\main\java\org\apache\flume\source\jms\JMSMessageConsumerFactory.java
+36 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\main\java\org\apache\flume\source\jms\JMSMessageConverter.java
+51 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\main\java\org\apache\flume\source\jms\JMSSource.java
+323 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\main\java\org\apache\flume\source\jms\JMSSourceConfiguration.java
+61 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\test\java\org\apache\flume\source\jms\JMSMessageConsumerTestBase.java
+148 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\test\java\org\apache\flume\source\jms\TestDefaultJMSMessageConverter.java
+168 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\test\java\org\apache\flume\source\jms\TestIntegrationActiveMQ.java
+239 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\test\java\org\apache\flume\source\jms\TestJMSMessageConsumer.java
+161 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\test\java\org\apache\flume\source\jms\TestJMSSource.java
+328 same line(s)
+
+File: flume-ng-sources\flume-jms-source\src\test\java\org\apache\flume\source\jms\TestJMSSourceCreation.java
+49 same line(s)
+
+File: flume-ng-sources\flume-scribe-source\src\main\java\org\apache\flume\source\scribe\LogEntry.java
+439 same line(s)
+
+File: flume-ng-sources\flume-scribe-source\src\main\java\org\apache\flume\source\scribe\ResultCode.java
+62 same line(s)
+
+File: flume-ng-sources\flume-scribe-source\src\main\java\org\apache\flume\source\scribe\Scribe.java
+845 same line(s)
+
+File: flume-ng-sources\flume-scribe-source\src\main\java\org\apache\flume\source\scribe\ScribeSource.java
+177 same line(s)
+
+File: flume-ng-sources\flume-twitter-source\src\main\java\org\apache\flume\source\twitter\TwitterSource.java
+333 same line(s)
+
+File: flume-ng-sources\flume-twitter-source\src\test\java\org\apache\flume\source\twitter\TestTwitterSource.java
+112 same line(s)
+
+File: flume-ng-tests\src\main\java\org\apache\flume\Dummy.java
+30 same line(s)
+
+File: flume-ng-tests\src\test\java\org\apache\flume\test\agent\TestFileChannel.java
+197 same line(s)
+
+File: flume-ng-tests\src\test\java\org\apache\flume\test\agent\TestRpcClient.java
+55 same line(s)
+
+File: flume-ng-tests\src\test\java\org\apache\flume\test\agent\TestRpcClientCommunicationFailure.java
+67 same line(s)
+
+File: flume-ng-tests\src\test\java\org\apache\flume\test\agent\TestSpooldirSource.java
+174 same line(s)
+
+File: flume-ng-tests\src\test\java\org\apache\flume\test\util\StagedInstall.java
+526 same line(s)
+
+File: flume-tools\src\main\java\org\apache\flume\tools\FileChannelIntegrityTool.java
+142 same line(s)
+
+File: flume-tools\src\main\java\org\apache\flume\tools\FlumeTool.java
+24 same line(s)
+
+File: flume-tools\src\main\java\org\apache\flume\tools\FlumeToolsMain.java
+68 same line(s)
+
+File: flume-tools\src\main\java\org\apache\flume\tools\FlumeToolType.java
+40 same line(s)
+
+File: flume-tools\src\test\java\org\apache\flume\tools\TestFileChannelIntegrityTool.java
+247 same line(s)

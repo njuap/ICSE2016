@@ -1,0 +1,1973 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:43:20
+
+Ignoring Unimportant
+Left base folder: D:\APsource\httpcomponents-core\version1
+Right base folder: D:\APsource\httpcomponents-core\version2
+
+File: httpcore\src\examples\org\apache\http\examples\ElementalHttpGet.java
+104 same line(s)
+
+File: httpcore\src\examples\org\apache\http\examples\ElementalHttpPost.java
+122 same line(s)
+
+File: httpcore\src\examples\org\apache\http\examples\ElementalPoolingHttpGet.java
+142 same line(s)
+
+File: httpcore\src\examples\org\apache\http\examples\ElementalReverseProxy.java
+295 same line(s)
+
+File: httpcore\src\examples\org\apache\http\examples\HttpFileServer.java
+191 same line(s)
+
+File: httpcore\src\examples\org\apache\http\examples\PrintVersionInfo.java
+76 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\annotation\Experimental.java
+41 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: httpcore\src\main\java\org\apache\http\annotation\GuardedBy.java
+80 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\annotation\Immutable.java
+59 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\annotation\NotThreadSafe.java
+50 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\annotation\Obsolete.java
+42 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: httpcore\src\main\java\org\apache\http\annotation\package-info.java
+35 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\annotation\ThreadSafe.java
+51 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\concurrent\BasicFuture.java
+160 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\concurrent\Cancellable.java
+39 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\concurrent\FutureCallback.java
+44 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\concurrent\package-info.java
+31 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\config\ConnectionConfig.java
+192 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\config\Lookup.java
+40 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\config\MessageConstraints.java
+118 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\config\package-info.java
+31 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\config\Registry.java
+64 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\config\RegistryBuilder.java
+72 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\config\SocketConfig.java
+293 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\AbstractHttpEntity.java
+221 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\BasicHttpEntity.java
+131 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\BufferedHttpEntity.java
+125 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\ByteArrayEntity.java
+136 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\ContentLengthStrategy.java
+57 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\ContentProducer.java
+44 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\ContentType.java
+419 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\EntityTemplate.java
+81 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\FileEntity.java
+126 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\HttpEntityWrapper.java
+114 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\InputStreamEntity.java
+160 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\package-info.java
+31 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\SerializableEntity.java
+131 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\entity\StringEntity.java
+188 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\bootstrap\HttpServer.java
+179 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\bootstrap\package-info.java
+31 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\bootstrap\RequestListener.java
+106 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\bootstrap\ServerBootstrap.java
+412 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\bootstrap\SSLServerSetupHandler.java
+45 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\bootstrap\ThreadFactoryImpl.java
+56 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\bootstrap\Worker.java
+81 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\entity\DisallowIdentityContentLengthStrategy.java
+64 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\entity\LaxContentLengthStrategy.java
+127 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\entity\package-info.java
+31 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\entity\StrictContentLengthStrategy.java
+117 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\AbstractMessageParser.java
+285 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\AbstractMessageWriter.java
+120 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\ChunkedInputStream.java
+330 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\ChunkedOutputStream.java
+208 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\ContentLengthInputStream.java
+232 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\ContentLengthOutputStream.java
+136 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\DefaultHttpRequestParser.java
+140 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\DefaultHttpRequestParserFactory.java
+72 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\DefaultHttpRequestWriter.java
+69 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\DefaultHttpRequestWriterFactory.java
+64 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\DefaultHttpResponseParser.java
+141 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\DefaultHttpResponseParserFactory.java
+72 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\DefaultHttpResponseWriter.java
+69 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\DefaultHttpResponseWriterFactory.java
+64 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\EmptyInputStream.java
+84 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\HttpTransportMetricsImpl.java
+65 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\IdentityInputStream.java
+99 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\IdentityOutputStream.java
+104 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\package-info.java
+32 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\SessionInputBufferImpl.java
+412 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\io\SessionOutputBufferImpl.java
+293 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\pool\BasicConnFactory.java
+184 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\pool\BasicConnPool.java
+94 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\pool\BasicPoolEntry.java
+64 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\pool\package-info.java
+32 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\BHttpConnectionBase.java
+398 same line(s)
+2 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+3 difference section(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\ConnSupport.java
+75 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\DefaultBHttpClientConnection.java
+188 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\DefaultBHttpClientConnectionFactory.java
+104 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\DefaultBHttpServerConnection.java
+179 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\DefaultBHttpServerConnectionFactory.java
+104 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\DefaultConnectionReuseStrategy.java
+190 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\DefaultHttpRequestFactory.java
+111 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\DefaultHttpResponseFactory.java
+111 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\EnglishReasonPhraseCatalog.java
+225 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\HttpConnectionMetricsImpl.java
+154 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\NoConnectionReuseStrategy.java
+54 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\impl\package-info.java
+32 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\BufferInfo.java
+58 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\EofSensor.java
+42 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\HttpMessageParser.java
+56 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\HttpMessageParserFactory.java
+42 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\HttpMessageWriter.java
+54 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\HttpMessageWriterFactory.java
+41 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\HttpTransportMetrics.java
+48 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\package-info.java
+32 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\SessionInputBuffer.java
+152 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\io\SessionOutputBuffer.java
+120 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\AbstractHttpMessage.java
+180 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicHeader.java
+94 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicHeaderElement.java
+168 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicHeaderElementIterator.java
+155 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicHeaderIterator.java
+179 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicHeaderValueFormatter.java
+426 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicHeaderValueParser.java
+304 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicHttpEntityEnclosingRequest.java
+78 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicHttpRequest.java
+116 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicHttpResponse.java
+237 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicLineFormatter.java
+323 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicLineParser.java
+461 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicListHeaderIterator.java
+194 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicNameValuePair.java
+113 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicRequestLine.java
+86 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicStatusLine.java
+103 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BasicTokenIterator.java
+419 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\BufferedHeader.java
+135 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\HeaderGroup.java
+311 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\HeaderValueFormatter.java
+122 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\HeaderValueParser.java
+134 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\LineFormatter.java
+132 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\LineParser.java
+137 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\package-info.java
+32 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\ParserCursor.java
+100 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\message\TokenParser.java
+267 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\params\AbstractHttpParams.java
+135 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\params\BasicHttpParams.java
+194 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\params\CoreConnectionPNames.java
+170 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\params\CoreProtocolPNames.java
+152 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\params\HttpParamConfig.java
+78 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\params\HttpParams.java
+195 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\params\HttpParamsNames.java
+57 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\params\package-info.java
+32 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\AbstractConnPool.java
+599 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\ConnFactory.java
+44 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\ConnPool.java
+68 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\ConnPoolControl.java
+56 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\package-info.java
+32 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\PoolEntry.java
+194 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\PoolEntryCallback.java
+41 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\PoolEntryFuture.java
+160 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\PoolStats.java
+114 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\pool\RouteSpecificPool.java
+184 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\BasicHttpContext.java
+98 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\ChainBuilder.java
+126 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HTTP.java
+135 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpContext.java
+75 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpCoreContext.java
+155 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpDateGenerator.java
+77 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpExpectationVerifier.java
+81 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpProcessor.java
+55 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpProcessorBuilder.java
+151 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpRequestExecutor.java
+312 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpRequestHandler.java
+62 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpRequestHandlerMapper.java
+50 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpRequestHandlerResolver.java
+51 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpRequestInterceptorList.java
+103 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpResponseInterceptorList.java
+103 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\HttpService.java
+445 same line(s)
+3 ignored unimportant difference line(s)
+13 important right orphan line(s)
+1 important difference line(s)
+
+6 difference section(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\ImmutableHttpProcessor.java
+145 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\package-info.java
+32 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\RequestConnControl.java
+70 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\RequestContent.java
+128 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\RequestDate.java
+66 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\RequestExpectContinue.java
+94 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\RequestTargetHost.java
+96 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\RequestUserAgent.java
+80 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\ResponseConnControl.java
+106 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\ResponseContent.java
+134 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\ResponseDate.java
+67 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\ResponseServer.java
+72 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\UriHttpRequestHandlerMapper.java
+116 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\protocol\UriPatternMatcher.java
+165 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ssl\package-info.java
+32 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ssl\PrivateKeyDetails.java
+63 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ssl\PrivateKeyStrategy.java
+44 same line(s)
+4 ignored unimportant difference line(s)
+
+File: httpcore\src\main\java\org\apache\http\ssl\SSLContextBuilder.java
+356 same line(s)
+4 ignored unimportant difference line(s)
+9 important left orphan line(s)
+31 important right orphan line(s)
+9 important difference line(s)
+
+13 difference section(s)
+
+File: httpcore\src\main\java\org\apache\http\ssl\SSLContexts.java
+90 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ssl\SSLInitializationException.java
+37 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ssl\TrustStrategy.java
+57 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\Args.java
+127 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\Asserts.java
+68 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\ByteArrayBuffer.java
+347 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\CharArrayBuffer.java
+492 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\CharsetUtils.java
+58 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\EncodingUtils.java
+144 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\EntityUtils.java
+294 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\LangUtils.java
+100 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\NetUtils.java
+54 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\package-info.java
+31 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\TextUtils.java
+75 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\util\VersionInfo.java
+322 same line(s)
+3 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: httpcore\src\main\java\org\apache\http\ConnectionClosedException.java
+50 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ConnectionReuseStrategy.java
+72 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\Consts.java
+51 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ContentTooLongException.java
+50 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ExceptionLogger.java
+53 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\FormattedHeader.java
+60 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\Header.java
+74 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HeaderElement.java
+108 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HeaderElementIterator.java
+58 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HeaderIterator.java
+57 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpClientConnection.java
+102 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpConnection.java
+105 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpConnectionFactory.java
+42 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpConnectionMetrics.java
+77 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpEntity.java
+196 same line(s)
+2 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpEntityEnclosingRequest.java
+60 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpException.java
+67 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpHeaders.java
+206 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpHost.java
+338 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpInetConnection.java
+47 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpMessage.java
+210 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpRequest.java
+53 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpRequestFactory.java
+43 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpRequestInterceptor.java
+68 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpResponse.java
+155 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpResponseFactory.java
+67 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpResponseInterceptor.java
+68 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpServerConnection.java
+88 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpStatus.java
+176 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\HttpVersion.java
+110 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\MalformedChunkCodingException.java
+57 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\MessageConstraintException.java
+57 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\MethodNotSupportedException.java
+59 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\NameValuePair.java
+47 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\NoHttpResponseException.java
+50 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\package-info.java
+43 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ParseException.java
+61 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ProtocolException.java
+67 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ProtocolVersion.java
+265 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\ReasonPhraseCatalog.java
+51 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\RequestLine.java
+49 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\StatusLine.java
+52 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\TokenIterator.java
+60 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\TruncatedChunkException.java
+48 same line(s)
+
+File: httpcore\src\main\java\org\apache\http\UnsupportedHttpVersionException.java
+57 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\entity\EntityDeserializer.java
+143 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\entity\EntitySerializer.java
+121 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\io\AbstractSessionInputBuffer.java
+401 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\io\AbstractSessionOutputBuffer.java
+307 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\io\HttpRequestParser.java
+102 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\io\HttpRequestWriter.java
+62 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\io\HttpResponseParser.java
+103 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\io\HttpResponseWriter.java
+62 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\io\SocketInputBuffer.java
+108 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\io\SocketOutputBuffer.java
+75 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\AbstractHttpClientConnection.java
+323 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\AbstractHttpServerConnection.java
+310 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\DefaultHttpClientConnection.java
+70 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\DefaultHttpServerConnection.java
+71 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\SocketHttpClientConnection.java
+283 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\impl\SocketHttpServerConnection.java
+271 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\params\DefaultedHttpParams.java
+163 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\params\HttpAbstractParamBean.java
+48 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\params\HttpConnectionParamBean.java
+71 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\params\HttpConnectionParams.java
+243 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\params\HttpProtocolParamBean.java
+69 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\params\HttpProtocolParams.java
+240 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\params\SyncBasicHttpParams.java
+89 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\protocol\BasicHttpProcessor.java
+246 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\protocol\DefaultedHttpContext.java
+84 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\protocol\ExecutionContext.java
+80 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\protocol\HttpRequestHandlerRegistry.java
+107 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\protocol\SyncBasicHttpContext.java
+74 same line(s)
+
+File: httpcore\src\main\java-deprecated\org\apache\http\util\ExceptionUtils.java
+82 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\concurrent\BasicFutureCallback.java
+75 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\concurrent\TestBasicFuture.java
+229 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\config\TestRegistry.java
+43 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestAbstractHttpEntity.java
+84 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestBasicHttpEntity.java
+113 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestBufferedHttpEntity.java
+148 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestByteArrayEntity.java
+151 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestContentType.java
+250 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestEntityTemplate.java
+113 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestFileEntity.java
+105 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestHttpEntityWrapper.java
+112 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestInputStreamEntity.java
+127 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestSerializableEntity.java
+140 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\entity\TestStringEntity.java
+145 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\entity\DummyHttpMessage.java
+52 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\entity\TestDisallowIdentityContentLengthStrategy.java
+58 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\entity\TestLaxContentLengthStrategy.java
+146 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\entity\TestStrictContentLengthStrategy.java
+105 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TestChunkCoding.java
+510 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TestContentLengthInputStream.java
+171 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TestContentLengthOutputStream.java
+102 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TestIdentityInputStream.java
+98 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TestIdentityOutputStream.java
+144 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TestMessageParser.java
+203 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TestRequestParser.java
+126 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TestResponseParser.java
+127 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TestSessionInOutBuffers.java
+619 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\io\TimeoutByteArrayInputStream.java
+126 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\pool\TestBasicConnPool.java
+122 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\SessionInputBufferMock.java
+125 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\SessionOutputBufferMock.java
+90 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\TestBasicRequest.java
+65 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\TestBHttpConnectionBase.java
+389 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\TestDefaultBHttpClientConnection.java
+169 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\TestDefaultBHttpServerConnection.java
+189 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\TestDefaultConnectionReuseStrategy.java
+264 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\TestEnglishReasonPhraseCatalog.java
+95 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\impl\TestNoConnectionReuseStrategy.java
+54 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\integration\TestSyncHttp.java
+975 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestAbstractMessage.java
+148 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBasicHeaderElementIterator.java
+139 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBasicHeaderIterator.java
+276 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBasicHeaderValueFormatter.java
+190 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBasicHeaderValueParser.java
+355 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBasicHttpResponse.java
+101 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBasicLineFormatter.java
+156 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBasicLineParser.java
+331 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBasicMessages.java
+169 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBasicTokenIterator.java
+325 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestBufferedHeader.java
+112 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestHeader.java
+121 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestHeaderElement.java
+164 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestHeaderGroup.java
+216 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestNameValuePair.java
+94 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestRequestLine.java
+94 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestStatusLine.java
+100 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\message\TestTokenParser.java
+193 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\pool\TestConnPool.java
+860 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\pool\TestPoolEntry.java
+125 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\pool\TestRouteSpecificPool.java
+336 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\protocol\TestChainBuilder.java
+67 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\protocol\TestHttpExecutionContext.java
+98 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\protocol\TestHttpRequestExecutor.java
+452 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\protocol\TestHttpService.java
+510 same line(s)
+14 ignored unimportant difference line(s)
+60 important right orphan line(s)
+3 important difference line(s)
+
+17 difference section(s)
+
+File: httpcore\src\test\java\org\apache\http\protocol\TestStandardInterceptors.java
+1013 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\protocol\TestUriHttpRequestHandlerMapper.java
+103 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\protocol\TestUriPatternMatcher.java
+155 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\ssl\TestSSLContextBuilder.java
+607 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: httpcore\src\test\java\org\apache\http\testserver\HttpClient.java
+120 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\testserver\HttpServer.java
+146 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\testserver\LoggingBHttpClientConnection.java
+137 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\testserver\LoggingBHttpServerConnection.java
+137 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\testserver\LoggingInputStream.java
+101 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\testserver\LoggingOutputStream.java
+71 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\testserver\Wire.java
+100 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\util\TestArgs.java
+170 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\util\TestAsserts.java
+77 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\util\TestByteArrayBuffer.java
+315 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\util\TestCharArrayBuffer.java
+426 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\util\TestEncodingUtils.java
+182 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\util\TestEntityUtils.java
+236 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\util\TestLangUtils.java
+88 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\util\TestTextUtils.java
+64 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\TestHttpExceptions.java
+56 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\TestHttpHost.java
+227 same line(s)
+
+File: httpcore\src\test\java\org\apache\http\TestHttpVersion.java
+130 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\BenchmarkConnection.java
+55 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\BenchmarkWorker.java
+264 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\CommandLineUtils.java
+229 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\Config.java
+279 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\CountingInputStream.java
+78 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\CountingOutputStream.java
+60 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\DefaultHeader.java
+40 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\HttpBenchmark.java
+235 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\package-info.java
+31 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\ResultProcessor.java
+122 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\Results.java
+133 same line(s)
+
+File: httpcore-ab\src\main\java\org\apache\http\benchmark\Stats.java
+143 same line(s)
+
+File: httpcore-ab\src\test\java\org\apache\http\benchmark\HttpServer.java
+180 same line(s)
+
+File: httpcore-ab\src\test\java\org\apache\http\benchmark\SmokeTest.java
+91 same line(s)
+
+File: httpcore-nio\src\examples\org\apache\http\examples\nio\ElementalEchoServer.java
+107 same line(s)
+
+File: httpcore-nio\src\examples\org\apache\http\examples\nio\NHttpClient.java
+152 same line(s)
+
+File: httpcore-nio\src\examples\org\apache\http\examples\nio\NHttpFileServer.java
+186 same line(s)
+
+File: httpcore-nio\src\examples\org\apache\http\examples\nio\NHttpReverseProxy.java
+873 same line(s)
+
+File: httpcore-nio\src\examples\org\apache\http\examples\nio\PipeliningHttpClient.java
+161 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\bootstrap\HttpServer.java
+146 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\bootstrap\package-info.java
+31 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\bootstrap\ServerBootstrap.java
+393 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\bootstrap\ThreadFactoryImpl.java
+56 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\AbstractContentDecoder.java
+137 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\AbstractContentEncoder.java
+185 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\AbstractMessageParser.java
+246 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\AbstractMessageWriter.java
+122 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\ChunkDecoder.java
+291 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\ChunkEncoder.java
+159 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\DefaultHttpRequestParser.java
+123 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\DefaultHttpRequestParserFactory.java
+72 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\DefaultHttpRequestWriter.java
+89 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\DefaultHttpRequestWriterFactory.java
+64 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\DefaultHttpResponseParser.java
+118 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\DefaultHttpResponseParserFactory.java
+72 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\DefaultHttpResponseWriter.java
+89 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\DefaultHttpResponseWriterFactory.java
+64 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\IdentityDecoder.java
+143 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\IdentityEncoder.java
+154 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\LengthDelimitedDecoder.java
+168 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\LengthDelimitedEncoder.java
+188 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\codecs\package-info.java
+32 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\pool\BasicNIOConnFactory.java
+170 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\pool\BasicNIOConnPool.java
+205 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\pool\BasicNIOPoolEntry.java
+74 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\pool\package-info.java
+32 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\AbstractIODispatch.java
+192 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\AbstractIOReactor.java
+623 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\AbstractMultiworkerIOReactor.java
+613 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\BaseIOReactor.java
+289 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\ChannelEntry.java
+106 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\DefaultConnectingIOReactor.java
+299 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\DefaultListeningIOReactor.java
+319 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\ExceptionEvent.java
+76 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\InterestOpEntry.java
+78 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\InterestOpsCallback.java
+40 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\IOReactorConfig.java
+507 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\IOSessionImpl.java
+388 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\ListenerEndpointClosedCallback.java
+42 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\ListenerEndpointImpl.java
+158 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\package-info.java
+32 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\SessionClosedCallback.java
+41 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\SessionInputBufferImpl.java
+395 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\SessionOutputBufferImpl.java
+296 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\SessionRequestHandle.java
+61 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\reactor\SessionRequestImpl.java
+227 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\DefaultHttpClientIODispatch.java
+182 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\DefaultHttpServerIODispatch.java
+174 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\DefaultNHttpClientConnection.java
+356 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\DefaultNHttpClientConnectionFactory.java
+183 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\DefaultNHttpServerConnection.java
+375 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\DefaultNHttpServerConnectionFactory.java
+169 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\NHttpClientEventHandlerAdaptor.java
+113 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\NHttpConnectionBase.java
+613 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\NHttpServerEventHandlerAdaptor.java
+113 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\package-info.java
+32 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\SessionHttpContext.java
+57 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\SSLContextUtils.java
+50 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\SSLNHttpClientConnectionFactory.java
+242 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\impl\nio\SSLNHttpServerConnectionFactory.java
+239 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\ConsumingNHttpEntity.java
+65 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\ContentBufferEntity.java
+81 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\ContentInputStream.java
+90 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\ContentOutputStream.java
+80 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\EntityAsyncContentProducer.java
+103 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\HttpAsyncContentProducer.java
+70 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\NByteArrayEntity.java
+170 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\NFileEntity.java
+215 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\NStringEntity.java
+199 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\package-info.java
+32 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\entity\ProducingNHttpEntity.java
+68 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\params\NIOReactorPNames.java
+77 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\params\package-info.java
+32 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\pool\AbstractNIOConnPool.java
+826 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\pool\LeaseRequest.java
+126 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\pool\NIOConnFactory.java
+46 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\pool\package-info.java
+32 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\pool\RouteSpecificPool.java
+203 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\pool\SocketAddressResolver.java
+44 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\AbstractAsyncRequestConsumer.java
+195 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\AbstractAsyncResponseConsumer.java
+200 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\BasicAsyncClientExchangeHandler.java
+252 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\BasicAsyncRequestConsumer.java
+98 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\BasicAsyncRequestHandler.java
+73 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\BasicAsyncRequestProducer.java
+172 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\BasicAsyncResponseConsumer.java
+96 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\BasicAsyncResponseProducer.java
+141 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\ErrorResponseProducer.java
+93 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncClientExchangeHandler.java
+152 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncExchange.java
+104 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncExpectationVerifier.java
+54 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncRequestConsumer.java
+120 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncRequester.java
+589 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncRequestExecutor.java
+532 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncRequestHandler.java
+90 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncRequestHandlerMapper.java
+50 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncRequestHandlerResolver.java
+51 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncRequestProducer.java
+122 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncResponseConsumer.java
+120 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncResponseProducer.java
+88 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\HttpAsyncService.java
+1082 same line(s)
+1 ignored unimportant difference line(s)
+7 important left orphan line(s)
+
+1 difference section(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\MessageState.java
+33 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\NullRequestConsumer.java
+92 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\NullRequestHandler.java
+60 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\package-info.java
+32 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\Pipelined.java
+39 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\PipeliningClientExchangeHandler.java
+315 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\protocol\UriHttpAsyncRequestHandlerMapper.java
+113 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ssl\package-info.java
+31 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ssl\PermanentSSLBufferManagementStrategy.java
+73 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ssl\ReleasableSSLBufferManagementStrategy.java
+78 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ssl\SSLBuffer.java
+58 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ssl\SSLBufferManagementStrategy.java
+42 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ssl\SSLIOSession.java
+831 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ssl\SSLMode.java
+38 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ssl\SSLSetupHandler.java
+68 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ConnectingIOReactor.java
+78 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\EventMask.java
+54 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\IOEventDispatch.java
+82 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\IOReactor.java
+92 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\IOReactorException.java
+53 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\IOReactorExceptionHandler.java
+64 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\IOReactorStatus.java
+62 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\IOSession.java
+234 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ListenerEndpoint.java
+79 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\ListeningIOReactor.java
+84 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\package-info.java
+37 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\SessionBufferStatus.java
+53 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\SessionInputBuffer.java
+181 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\SessionOutputBuffer.java
+119 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\SessionRequest.java
+123 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\SessionRequestCallback.java
+71 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\reactor\SocketAccessor.java
+46 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\BufferInfo.java
+46 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\ByteBufferAllocator.java
+47 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\ContentInputBuffer.java
+92 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\ContentOutputBuffer.java
+94 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\DirectByteBufferAllocator.java
+54 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\ExpandableBuffer.java
+205 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\HeapByteBufferAllocator.java
+54 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\package-info.java
+31 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\SharedInputBuffer.java
+308 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\SharedOutputBuffer.java
+304 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\SimpleInputBuffer.java
+129 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\util\SimpleOutputBuffer.java
+120 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\ContentDecoder.java
+61 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\ContentDecoderChannel.java
+62 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\ContentEncoder.java
+67 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\ContentEncoderChannel.java
+62 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\FileContentDecoder.java
+62 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\FileContentEncoder.java
+57 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\IOControl.java
+75 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpClientConnection.java
+75 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpClientEventHandler.java
+165 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpClientHandler.java
+149 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpClientIOTarget.java
+56 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpConnection.java
+92 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpConnectionFactory.java
+41 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpMessageParser.java
+72 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpMessageParserFactory.java
+43 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpMessageWriter.java
+58 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpMessageWriterFactory.java
+42 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpServerConnection.java
+76 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpServerEventHandler.java
+164 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpServerIOTarget.java
+56 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\NHttpServiceHandler.java
+149 same line(s)
+
+File: httpcore-nio\src\main\java\org\apache\http\nio\package-info.java
+32 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\codecs\HttpRequestParser.java
+81 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\codecs\HttpRequestWriter.java
+66 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\codecs\HttpResponseParser.java
+81 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\codecs\HttpResponseWriter.java
+66 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\reactor\SessionHandle.java
+95 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\reactor\SSLIOSession.java
+88 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\reactor\SSLIOSessionHandler.java
+75 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\reactor\SSLIOSessionHandlerAdaptor.java
+65 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\reactor\SSLMode.java
+41 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\reactor\SSLSetupHandler.java
+74 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\reactor\SSLSetupHandlerAdaptor.java
+65 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\ssl\SSLClientIOEventDispatch.java
+145 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\ssl\SSLServerIOEventDispatch.java
+143 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\DefaultClientIOEventDispatch.java
+160 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\DefaultServerIOEventDispatch.java
+158 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\SSLClientIOEventDispatch.java
+257 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\impl\nio\SSLServerIOEventDispatch.java
+257 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\entity\BufferingNHttpEntity.java
+123 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\entity\ConsumingNHttpEntityTemplate.java
+91 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\entity\ContentListener.java
+59 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\entity\NHttpEntityWrapper.java
+107 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\entity\SkipContentListener.java
+69 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\params\NIOReactorParamBean.java
+53 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\params\NIOReactorParams.java
+146 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\AsyncNHttpClientHandler.java
+531 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\AsyncNHttpServiceHandler.java
+684 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\BasicAsyncRequestExecutionHandler.java
+226 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\BufferingHttpClientHandler.java
+174 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\BufferingHttpServiceHandler.java
+195 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\EventListener.java
+84 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\HttpAsyncRequestExecutionHandler.java
+73 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\HttpAsyncRequestHandlerRegistry.java
+102 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\HttpRequestExecutionHandler.java
+97 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\NHttpHandlerBase.java
+138 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\NHttpRequestExecutionHandler.java
+126 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\NHttpRequestHandler.java
+97 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\NHttpRequestHandlerRegistry.java
+104 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\NHttpRequestHandlerResolver.java
+52 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\NHttpResponseTrigger.java
+69 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\NullNHttpEntity.java
+82 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\SimpleNHttpRequestHandler.java
+63 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\ThrottlingHttpClientHandler.java
+679 same line(s)
+
+File: httpcore-nio\src\main\java-deprecated\org\apache\http\nio\protocol\ThrottlingHttpServiceHandler.java
+733 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\codecs\CodecTestUtils.java
+68 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\codecs\TestChunkDecoder.java
+589 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\codecs\TestChunkEncoder.java
+231 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\codecs\TestHttpMessageParser.java
+376 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\codecs\TestIdentityDecoder.java
+327 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\codecs\TestIdentityEncoder.java
+570 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\codecs\TestLengthDelimitedDecoder.java
+537 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\codecs\TestLengthDelimitedEncoder.java
+663 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\pool\TestBasicNIOConnPool.java
+153 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\reactor\ExceptionEventTest.java
+60 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\reactor\TestDefaultIOReactors.java
+394 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\reactor\TestDefaultListeningIOReactor.java
+222 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\reactor\TestSessionInOutBuffers.java
+603 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\TestContentChannel.java
+83 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\TestDefaultNHttpClientConnection.java
+674 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\TestDefaultNHttpServerConnection.java
+671 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\impl\nio\TestNHttpConnectionBase.java
+276 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\RndTestPatternGenerator.java
+54 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\SimpleRequestHandler.java
+93 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\TestClientOutOfSequenceResponse.java
+107 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\TestCustomSSL.java
+161 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\TestHttpAsyncHandlerCancellable.java
+220 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\TestHttpAsyncHandlers.java
+746 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\TestHttpAsyncHandlersPipelining.java
+354 same line(s)
+11 ignored unimportant difference line(s)
+79 important right orphan line(s)
+
+19 difference section(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\TestHttpAsyncPrematureTermination.java
+282 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\TestHttpsAsyncTimeout.java
+121 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\TestServerSidePipelining.java
+363 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\integration\TestTruncatedChunks.java
+276 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\pool\TestNIOConnPool.java
+1026 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\pool\TestRouteSpecificPool.java
+476 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestBasicAsyncClientExchangeHandler.java
+360 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestBasicAsyncRequestConsumer.java
+111 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestBasicAsyncRequestHandler.java
+96 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestBasicAsyncRequestProducer.java
+136 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestBasicAsyncResponseConsumer.java
+145 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestBasicAsyncResponseProducer.java
+100 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestErrorResponseProducer.java
+77 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestHttpAsyncRequester.java
+362 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestHttpAsyncRequestExecutor.java
+711 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestHttpAsyncService.java
+1378 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\protocol\TestUriHttpAsyncRequestHandlerMapper.java
+107 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\ClientConnectionFactory.java
+70 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\HttpClientNio.java
+319 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\HttpCoreNIOTestBase.java
+120 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\HttpServerNio.java
+198 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\LoggingIOSession.java
+254 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\LoggingNHttpClientConnection.java
+132 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\LoggingNHttpServerConnection.java
+132 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\ServerConnectionFactory.java
+70 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\SimpleIOReactorExceptionHandler.java
+50 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\testserver\Wire.java
+122 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\util\ContentDecoderMock.java
+63 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\util\ContentEncoderMock.java
+57 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\nio\util\TestBuffers.java
+185 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\ByteChannelMock.java
+73 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\OoopsieRuntimeException.java
+38 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\ReadableByteChannelMock.java
+92 same line(s)
+
+File: httpcore-nio\src\test\java\org\apache\http\WritableByteChannelMock.java
+156 same line(s)

@@ -1,0 +1,2892 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 15:24:28
+
+Ignoring Unimportant
+Left base folder: D:\APsource\tez\version1
+Right base folder: D:\APsource\tez\version2
+
+File: tez-api\src\main\java\org\apache\tez\client\AMConfiguration.java
+105 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\client\FrameworkClient.java
+73 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\client\TezApiVersionInfo.java
+29 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\client\TezAppMasterStatus.java
+36 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\client\TezClient.java
+797 same line(s)
+6 ignored unimportant difference line(s)
+25 important right orphan line(s)
+3 important difference line(s)
+
+10 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\client\TezClientUtils.java
+984 same line(s)
+8 ignored unimportant difference line(s)
+19 important right orphan line(s)
+
+8 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\client\TezYarnClient.java
+80 same line(s)
+6 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\AbstractCounter.java
+52 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\AbstractCounterGroup.java
+206 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\AbstractCounters.java
+406 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\CounterGroup.java
+32 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\CounterGroupBase.java
+108 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\CounterGroupFactory.java
+179 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\DAGCounter.java
+40 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\FileSystemCounter.java
+30 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\FileSystemCounterGroup.java
+314 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\FrameworkCounterGroup.java
+272 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\GenericCounter.java
+109 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\JobCounter.java
+43 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\LimitExceededException.java
+36 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\Limits.java
+119 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\TaskCounter.java
+208 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\TezCounter.java
+83 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\counters\TezCounters.java
+144 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\ACLConfigurationParser.java
+152 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\ACLManager.java
+236 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\ACLType.java
+36 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\DAGAccessControls.java
+172 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\DAGClientSecurityInfo.java
+60 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\HistoryACLPolicyException.java
+23 ignored unimportant difference line(s)
+11 important right orphan line(s)
+
+3 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\HistoryACLPolicyManager.java
+69 same line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\JobTokenIdentifier.java
+98 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\JobTokenSecretManager.java
+165 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\Master.java
+59 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\security\TokenCache.java
+163 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\ATSConstants.java
+111 same line(s)
+1 important left orphan line(s)
+3 important right orphan line(s)
+
+3 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\ReflectionUtils.java
+141 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\TezCommonUtils.java
+410 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\TezUtils.java
+186 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\TezYARNUtils.java
+193 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\common\VersionInfo.java
+117 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\rpc\DAGClientAMProtocolBlockingPB.java
+32 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\rpc\DAGClientRPCImpl.java
+266 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\rpc\package-info.java
+22 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\DAGClient.java
+100 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\DAGClientImpl.java
+464 same line(s)
+4 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\DAGClientTimelineImpl.java
+508 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\DAGStatus.java
+177 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\Progress.java
+105 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\StatusGetOpts.java
+33 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\client\VertexStatus.java
+139 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\event\VertexState.java
+60 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\event\VertexStateUpdate.java
+60 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\event\VertexStateUpdateParallelismUpdated.java
+50 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\DAG.java
+853 same line(s)
+18 ignored unimportant difference line(s)
+63 important right orphan line(s)
+10 important difference line(s)
+
+20 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\DAGNotRunningException.java
+34 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\DAGSubmissionTimedOut.java
+35 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\DagTypeConverters.java
+674 same line(s)
+7 ignored unimportant difference line(s)
+10 important right orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\DataSinkDescriptor.java
+146 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\DataSourceDescriptor.java
+216 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\Edge.java
+100 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\EdgeManagerPlugin.java
+155 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\EdgeManagerPluginContext.java
+61 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\EdgeManagerPluginDescriptor.java
+36 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\EdgeProperty.java
+243 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\EntityDescriptor.java
+137 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\GroupInputEdge.java
+109 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\InputDescriptor.java
+43 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\InputInitializerDescriptor.java
+43 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\OutputCommitterDescriptor.java
+43 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\OutputDescriptor.java
+43 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\PreWarmVertex.java
+176 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\ProcessorDescriptor.java
+43 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\RootInputLeafOutput.java
+54 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\SessionNotRunning.java
+44 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\TaskLocationHint.java
+178 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\TezConfiguration.java
+969 same line(s)
+37 ignored unimportant difference line(s)
+17 important right orphan line(s)
+
+5 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\TezConstants.java
+105 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\TezException.java
+34 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\TezUncheckedException.java
+36 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\UserPayload.java
+97 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\Vertex.java
+458 same line(s)
+2 ignored unimportant difference line(s)
+13 important right orphan line(s)
+9 important difference line(s)
+
+9 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\VertexGroup.java
+124 same line(s)
+3 ignored unimportant difference line(s)
+24 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\VertexLocationHint.java
+85 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\VertexManagerPlugin.java
+123 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\VertexManagerPluginContext.java
+222 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-api\src\main\java\org\apache\tez\dag\api\VertexManagerPluginDescriptor.java
+42 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\events\CompositeDataMovementEvent.java
+121 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\events\DataMovementEvent.java
+138 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\events\InputConfigureVertexTasksEvent.java
+65 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\events\InputDataInformationEvent.java
+108 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\events\InputFailedEvent.java
+76 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\events\InputInitializerEvent.java
+120 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\events\InputReadErrorEvent.java
+72 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\events\InputUpdatePayloadEvent.java
+55 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\events\VertexManagerEvent.java
+71 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\AbstractLogicalInput.java
+83 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\AbstractLogicalIOProcessor.java
+52 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\AbstractLogicalOutput.java
+76 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\Event.java
+32 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\Input.java
+62 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\InputContext.java
+49 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\InputFrameworkInterface.java
+77 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\InputInitializer.java
+110 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\InputInitializerContext.java
+120 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\InputSpecUpdate.java
+110 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\LogicalInput.java
+33 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\LogicalInputFrameworkInterface.java
+32 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\LogicalIOProcessor.java
+29 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\LogicalIOProcessorFrameworkInterface.java
+47 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\LogicalOutput.java
+33 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\LogicalOutputFrameworkInterface.java
+31 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\MemoryUpdateCallback.java
+37 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\MergedInputContext.java
+49 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\MergedLogicalInput.java
+95 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\ObjectRegistry.java
+104 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\Output.java
+64 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\OutputCommitter.java
+116 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\OutputCommitterContext.java
+81 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\OutputContext.java
+44 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\OutputFrameworkInterface.java
+70 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\Processor.java
+32 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\ProcessorContext.java
+77 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\ProcessorFrameworkInterface.java
+59 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\Reader.java
+33 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\TaskContext.java
+184 same line(s)
+
+File: tez-api\src\main\java\org\apache\tez\runtime\api\Writer.java
+32 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\client\TestTezClient.java
+384 same line(s)
+8 important right orphan line(s)
+
+4 difference section(s)
+
+File: tez-api\src\test\java\org\apache\tez\client\TestTezClientUtils.java
+567 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: tez-api\src\test\java\org\apache\tez\common\security\TestACLConfigurationParser.java
+121 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\common\security\TestACLManager.java
+370 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\common\security\TestDAGAccessControls.java
+109 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\common\security\TestTokenCache.java
+122 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\common\TestReflectionUtils.java
+89 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\common\TestTezCommonUtils.java
+317 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\common\TestTezYARNUtils.java
+60 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\common\TestVersionInfo.java
+66 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java
+288 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\dag\api\client\TestATSHttpClient.java
+179 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\dag\api\TestDAG.java
+33 ignored unimportant difference line(s)
+136 important right orphan line(s)
+
+15 difference section(s)
+
+File: tez-api\src\test\java\org\apache\tez\dag\api\TestDAGPlan.java
+314 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\dag\api\TestDagTypeConverters.java
+53 same line(s)
+12 ignored unimportant difference line(s)
+23 important right orphan line(s)
+
+10 difference section(s)
+
+File: tez-api\src\test\java\org\apache\tez\dag\api\TestDAGVerify.java
+1058 same line(s)
+18 ignored unimportant difference line(s)
+102 important right orphan line(s)
+1 important difference line(s)
+
+17 difference section(s)
+
+File: tez-api\src\test\java\org\apache\tez\dag\api\TestTaskLocationHint.java
+62 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\dag\api\TestTezConfiguration.java
+47 same line(s)
+
+File: tez-api\src\test\java\org\apache\tez\runtime\api\event\TestCompositeDataMovementEvent.java
+52 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\common\EnvironmentUpdateUtils.java
+127 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\common\package-info.java
+22 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\common\TezContainerLogAppender.java
+77 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\common\TezLog4jConfigurator.java
+49 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: tez-common\src\main\java\org\apache\tez\common\TezUtilsInternal.java
+252 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\dag\records\package-info.java
+22 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\dag\records\TaskAttemptTerminationCause.java
+45 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\dag\records\TezDAGID.java
+205 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\dag\records\TezID.java
+99 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\dag\records\TezTaskAttemptID.java
+179 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\dag\records\TezTaskID.java
+174 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\dag\records\TezVertexID.java
+170 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\dag\utils\package-info.java
+22 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\runtime\common\resources\InitialMemoryAllocator.java
+47 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\runtime\common\resources\InitialMemoryRequestContext.java
+66 same line(s)
+
+File: tez-common\src\main\java\org\apache\tez\runtime\common\resources\package-info.java
+22 same line(s)
+
+File: tez-common\src\test\java\org\apache\tez\common\MockDNSToSwitchMapping.java
+65 same line(s)
+
+File: tez-common\src\test\java\org\apache\tez\common\TestEnvironmentUpdateUtils.java
+96 same line(s)
+
+File: tez-common\src\test\java\org\apache\tez\common\TestTezUtils.java
+178 same line(s)
+11 ignored unimportant difference line(s)
+6 important left orphan line(s)
+32 important right orphan line(s)
+8 important difference line(s)
+
+11 difference section(s)
+
+File: tez-common\src\test\java\org\apache\tez\dag\records\TestTezIds.java
+111 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\client\LocalClient.java
+320 same line(s)
+7 ignored unimportant difference line(s)
+11 important right orphan line(s)
+
+5 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\client\rpc\DAGClientAMProtocolBlockingPBServerImpl.java
+201 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\client\DAGClientHandler.java
+155 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\client\DAGClientServer.java
+132 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\client\DAGStatusBuilder.java
+93 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\client\ProgressBuilder.java
+65 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\client\VertexStatusBuilder.java
+92 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\oldrecords\AMInfo.java
+38 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\oldrecords\TaskAttemptReport.java
+66 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\oldrecords\TaskAttemptState.java
+28 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\oldrecords\TaskReport.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\api\oldrecords\TaskState.java
+23 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGAppMasterEvent.java
+29 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGAppMasterEventDAGFinished.java
+42 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGAppMasterEventSchedulingServiceError.java
+34 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGAppMasterEventType.java
+26 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEvent.java
+41 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEventCounterUpdate.java
+60 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEventDiagnosticsUpdate.java
+35 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEventRecoverEvent.java
+54 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEventSchedulerUpdate.java
+48 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEventSchedulerUpdateTAAssigned.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEventStartDag.java
+38 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEventType.java
+48 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEventVertexCompleted.java
+57 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DAGEventVertexReRunning.java
+37 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\DiagnosableEvent.java
+24 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\package-info.java
+20 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\SpeculatorEvent.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\SpeculatorEventTaskAttemptStatusUpdate.java
+60 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\SpeculatorEventType.java
+29 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEvent.java
+45 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventAttemptFailed.java
+46 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventContainerTerminated.java
+45 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventContainerTerminatedBySystem.java
+45 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventContainerTerminating.java
+46 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventDiagnosticsUpdate.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventKillRequest.java
+45 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventNodeFailed.java
+46 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventOutputFailed.java
+51 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventSchedule.java
+41 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventStartedRemotely.java
+48 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventStatusUpdate.java
+37 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventTerminationCauseEvent.java
+26 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskAttemptEventType.java
+62 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskEvent.java
+40 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskEventRecoverTask.java
+53 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskEventTAUpdate.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskEventTermination.java
+50 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\TaskEventType.java
+44 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEvent.java
+40 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventManagerUserCodeError.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventNullEdgeInitialized.java
+42 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventOneToOneSourceSplit.java
+25 ignored unimportant difference line(s)
+25 important left orphan line(s)
+
+8 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventRecoverVertex.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventRootInputFailed.java
+42 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventRootInputInitialized.java
+50 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventRouteEvent.java
+51 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventSourceTaskAttemptCompleted.java
+38 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventSourceVertexRecovered.java
+62 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventSourceVertexStarted.java
+43 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventTaskAttemptCompleted.java
+44 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventTaskCompleted.java
+43 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventTaskReschedule.java
+34 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventTermination.java
+43 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\event\VertexEventType.java
+65 same line(s)
+1 important left orphan line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\AMUserCodeException.java
+56 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\BroadcastEdgeManager.java
+84 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\DAGImpl.java
+1912 same line(s)
+39 ignored unimportant difference line(s)
+1 important left orphan line(s)
+20 important right orphan line(s)
+7 important difference line(s)
+
+9 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\DAGSchedulerNaturalOrder.java
+84 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\DAGSchedulerNaturalOrderControlled.java
+256 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\Edge.java
+464 same line(s)
+1 important left orphan line(s)
+15 important right orphan line(s)
+2 important difference line(s)
+
+6 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\ImmediateStartVertexManager.java
+153 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\OneToOneEdgeManager.java
+78 same line(s)
+2 ignored unimportant difference line(s)
+6 important right orphan line(s)
+
+2 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\OutputCommitterContextImpl.java
+97 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\package-info.java
+20 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\RootInputVertexManager.java
+95 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\ScatterGatherEdgeManager.java
+76 same line(s)
+2 ignored unimportant difference line(s)
+4 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\TaskAttemptImpl.java
+1540 same line(s)
+33 ignored unimportant difference line(s)
+6 important right orphan line(s)
+
+3 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\TaskAttemptImplHelpers.java
+62 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\TaskImpl.java
+1366 same line(s)
+119 ignored unimportant difference line(s)
+16 important right orphan line(s)
+4 important difference line(s)
+
+9 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\TaskReportImpl.java
+95 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\TezRootInputInitializerContextImpl.java
+122 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\VertexImpl.java
+4119 same line(s)
+91 ignored unimportant difference line(s)
+92 important left orphan line(s)
+29 important right orphan line(s)
+12 important difference line(s)
+
+35 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\VertexManager.java
+412 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\impl\VertexStats.java
+169 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\speculation\legacy\DataStatistics.java
+86 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\speculation\legacy\LegacySpeculator.java
+407 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\speculation\legacy\LegacyTaskRuntimeEstimator.java
+136 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\speculation\legacy\StartEndTimesBase.java
+138 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\speculation\legacy\TaskRuntimeEstimator.java
+91 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\DAG.java
+90 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\DAGReport.java
+60 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\DAGScheduler.java
+33 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\DAGState.java
+29 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\DAGTerminationCause.java
+46 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\package-info.java
+20 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\RootInputInitializerManager.java
+496 same line(s)
+1 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\StateChangeNotifier.java
+222 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\Task.java
+70 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\TaskAttempt.java
+135 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\TaskAttemptStateInternal.java
+37 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\TaskStateInternal.java
+23 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\TaskStateUpdateListener.java
+35 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\TaskTerminationCause.java
+42 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\Vertex.java
+154 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\VertexState.java
+31 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\VertexStateUpdateListener.java
+30 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\dag\VertexTerminationCause.java
+53 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\launcher\ContainerLauncher.java
+27 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\launcher\ContainerLauncherImpl.java
+417 same line(s)
+1 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\launcher\LocalContainerLauncher.java
+343 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\launcher\package-info.java
+20 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainer.java
+39 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEvent.java
+35 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventAssignTA.java
+60 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventCompleted.java
+61 same line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventLaunched.java
+28 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventLaunchFailed.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventLaunchRequest.java
+49 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventNodeFailed.java
+39 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventStopFailed.java
+37 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventStopRequest.java
+28 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventTASucceeded.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerEventType.java
+56 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerHelpers.java
+235 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerImpl.java
+1197 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerMap.java
+77 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerState.java
+32 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\AMContainerTask.java
+62 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\ContainerContextMatcher.java
+73 same line(s)
+2 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\container\ContainerSignatureMatcher.java
+48 same line(s)
+11 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNode.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeEvent.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeEventContainerAllocated.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeEventNodeCountUpdated.java
+33 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeEventStateChanged.java
+38 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeEventTaskAttemptEnded.java
+53 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeEventTaskAttemptSucceeded.java
+45 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeEventType.java
+40 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeImpl.java
+465 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeState.java
+26 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\node\AMNodeTracker.java
+211 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\AMSchedulerEvent.java
+29 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\AMSchedulerEventDeallocateContainer.java
+37 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\AMSchedulerEventNodeBlacklistUpdate.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\AMSchedulerEventTAEnded.java
+54 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\AMSchedulerEventTALaunchRequest.java
+96 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\AMSchedulerEventType.java
+36 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\ContainerAllocator.java
+33 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\LocalTaskSchedulerService.java
+365 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\NMCommunicatorEvent.java
+95 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\NMCommunicatorEventType.java
+25 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\NMCommunicatorLaunchRequestEvent.java
+45 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\NMCommunicatorStopRequestEvent.java
+33 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\package-info.java
+20 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\TaskSchedulerAppCallbackWrapper.java
+307 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\TaskSchedulerEventHandler.java
+565 same line(s)
+18 ignored unimportant difference line(s)
+37 important right orphan line(s)
+3 important difference line(s)
+
+18 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\TaskSchedulerService.java
+109 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\TezAMRMClientAsync.java
+163 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\rm\YarnTaskSchedulerService.java
+2177 same line(s)
+16 ignored unimportant difference line(s)
+6 important left orphan line(s)
+23 important right orphan line(s)
+23 important difference line(s)
+
+27 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\security\authorize\package-info.java
+20 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\security\authorize\TezAMPolicyProvider.java
+50 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\web\AMWebController.java
+83 ignored unimportant difference line(s)
+275 important right orphan line(s)
+
+59 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\web\WebUIService.java
+43 ignored unimportant difference line(s)
+113 important right orphan line(s)
+
+23 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\AppContext.java
+96 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\ClusterInfo.java
+47 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\ContainerContext.java
+180 same line(s)
+24 ignored unimportant difference line(s)
+48 important right orphan line(s)
+
+6 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\ContainerHeartbeatHandler.java
+60 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\ControlledClock.java
+43 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\DAGAppMaster.java
+2041 same line(s)
+10 ignored unimportant difference line(s)
+62 important right orphan line(s)
+5 important difference line(s)
+
+21 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\DAGAppMasterState.java
+31 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\HeartbeatHandlerBase.java
+167 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\package-info.java
+20 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\RecoveryParser.java
+521 same line(s)
+283 ignored unimportant difference line(s)
+107 important left orphan line(s)
+30 important right orphan line(s)
+32 important difference line(s)
+
+33 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\TaskAttemptListener.java
+70 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\TaskAttemptListenerImpTezDag.java
+539 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\TaskHeartbeatHandler.java
+66 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\app\TezDagVersionInfo.java
+28 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\AMLaunchedEvent.java
+116 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\AMStartedEvent.java
+107 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\AppLaunchedEvent.java
+110 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\ContainerLaunchedEvent.java
+112 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\ContainerStoppedEvent.java
+122 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\DAGCommitStartedEvent.java
+111 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\DAGFinishedEvent.java
+201 same line(s)
+3 ignored unimportant difference line(s)
+2 important left orphan line(s)
+6 important right orphan line(s)
+2 important difference line(s)
+
+6 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\DAGInitializedEvent.java
+120 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\DAGRecoveredEvent.java
+41 ignored unimportant difference line(s)
+93 important right orphan line(s)
+
+24 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\DAGStartedEvent.java
+115 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\DAGSubmittedEvent.java
+193 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+7 important right orphan line(s)
+
+4 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\TaskAttemptFinishedEvent.java
+176 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\TaskAttemptStartedEvent.java
+146 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\TaskFinishedEvent.java
+164 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\TaskStartedEvent.java
+111 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\VertexCommitStartedEvent.java
+120 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\VertexFinishedEvent.java
+230 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\VertexGroupCommitFinishedEvent.java
+127 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\VertexGroupCommitStartedEvent.java
+127 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\VertexInitializedEvent.java
+184 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\VertexParallelismUpdatedEvent.java
+205 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\VertexRecoverableEventsGeneratedEvent.java
+223 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\events\VertexStartedEvent.java
+112 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\logging\impl\HistoryEventJsonConversion.java
+747 same line(s)
+9 ignored unimportant difference line(s)
+33 important right orphan line(s)
+
+9 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\logging\impl\SimpleHistoryLoggingService.java
+172 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\logging\EntityTypes.java
+29 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\logging\HistoryLoggingService.java
+43 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\recovery\RecoveryService.java
+421 same line(s)
+17 ignored unimportant difference line(s)
+8 important left orphan line(s)
+31 important right orphan line(s)
+17 important difference line(s)
+
+21 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\utils\DAGUtils.java
+384 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\DAGHistoryEvent.java
+46 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\HistoryEvent.java
+37 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\HistoryEventHandler.java
+133 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\HistoryEventType.java
+43 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\history\SummaryEvent.java
+39 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\utils\Graph.java
+256 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\utils\ProtoUtils.java
+42 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\utils\RelocalizationUtils.java
+94 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\utils\Simple2LevelVersionComparator.java
+105 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\utils\TaskSpecificLaunchCmdOption.java
+224 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\utils\TezBuilderUtils.java
+54 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\dag\utils\TezRuntimeChildJVM.java
+108 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\runtime\task\ContainerReporter.java
+84 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\runtime\task\ErrorReporter.java
+26 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\runtime\task\TaskReporter.java
+398 same line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\runtime\task\TezChild.java
+448 same line(s)
+7 important right orphan line(s)
+
+2 difference section(s)
+
+File: tez-dag\src\main\java\org\apache\tez\runtime\task\TezTaskRunner.java
+372 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\state\OnStateChangedCallback.java
+24 same line(s)
+
+File: tez-dag\src\main\java\org\apache\tez\state\StateMachineTez.java
+66 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\api\client\TestDAGClientHandler.java
+133 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\api\client\TestDAGClientServer.java
+82 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\api\client\TestVertexStatusBuilder.java
+45 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java
+1621 same line(s)
+13 ignored unimportant difference line(s)
+39 important right orphan line(s)
+
+11 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGRecovery.java
+516 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGScheduler.java
+72 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGSchedulerNaturalOrderControlled.java
+374 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestEdge.java
+170 same line(s)
+29 ignored unimportant difference line(s)
+1 important left orphan line(s)
+247 important right orphan line(s)
+1 important difference line(s)
+
+38 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java
+131 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java
+105 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java
+1262 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttemptRecovery.java
+233 same line(s)
+9 ignored unimportant difference line(s)
+68 important right orphan line(s)
+2 important difference line(s)
+
+22 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskImpl.java
+705 same line(s)
+27 ignored unimportant difference line(s)
+48 important right orphan line(s)
+
+12 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskRecovery.java
+796 same line(s)
+5 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl.java
+5587 same line(s)
+29 ignored unimportant difference line(s)
+14 important left orphan line(s)
+108 important right orphan line(s)
+6 important difference line(s)
+
+49 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl2.java
+297 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java
+177 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexRecovery.java
+991 same line(s)
+20 ignored unimportant difference line(s)
+102 important right orphan line(s)
+
+7 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexStats.java
+159 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\speculation\legacy\TestDataStatistics.java
+73 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java
+59 ignored unimportant difference line(s)
+142 important right orphan line(s)
+
+30 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestStateChangeNotifier.java
+263 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java
+1386 same line(s)
+2 important left orphan line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainerMap.java
+69 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\node\TestAMNodeTracker.java
+339 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java
+1159 same line(s)
+42 ignored unimportant difference line(s)
+165 important right orphan line(s)
+
+67 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestLocalTaskScheduler.java
+95 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestLocalTaskSchedulerService.java
+205 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java
+1656 same line(s)
+5 ignored unimportant difference line(s)
+47 important right orphan line(s)
+15 important difference line(s)
+
+23 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerEventHandler.java
+245 same line(s)
+13 ignored unimportant difference line(s)
+35 important right orphan line(s)
+4 important difference line(s)
+
+18 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerHelpers.java
+461 same line(s)
+3 ignored unimportant difference line(s)
+8 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTezAMRMClient.java
+95 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java
+52 ignored unimportant difference line(s)
+156 important right orphan line(s)
+
+34 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\MockClock.java
+36 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\MockDAGAppMaster.java
+320 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\MockLocalClient.java
+50 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\MockTezClient.java
+49 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\TestMockDAGAppMaster.java
+163 same line(s)
+6 ignored unimportant difference line(s)
+31 important right orphan line(s)
+
+9 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\TestPreemption.java
+209 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\TestRecoveryParser.java
+91 same line(s)
+39 ignored unimportant difference line(s)
+1 important left orphan line(s)
+161 important right orphan line(s)
+3 important difference line(s)
+
+37 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\app\TestSpeculation.java
+184 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\history\events\TestHistoryEventsProtoConversion.java
+711 same line(s)
+3 ignored unimportant difference line(s)
+16 important right orphan line(s)
+2 important difference line(s)
+
+6 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\history\logging\impl\TestHistoryEventJsonConversion.java
+233 same line(s)
+5 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\history\recovery\TestRecoveryService.java
+28 ignored unimportant difference line(s)
+53 important right orphan line(s)
+
+12 difference section(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\history\utils\TestDAGUtils.java
+208 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\utils\TestSimple2LevelVersionComparator.java
+66 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\dag\utils\TestTaskSpecificLaunchCmdOption.java
+308 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\runtime\task\TestTaskExecution.java
+710 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java
+115 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\test\EdgeManagerForTest.java
+84 same line(s)
+
+File: tez-dag\src\test\java\org\apache\tez\test\VertexManagerPluginForTest.java
+51 same line(s)
+
+File: tez-examples\src\main\java\org\apache\tez\examples\ExampleDriver.java
+70 same line(s)
+
+File: tez-examples\src\main\java\org\apache\tez\examples\HashJoinExample.java
+329 same line(s)
+8 ignored unimportant difference line(s)
+61 important left orphan line(s)
+3 important right orphan line(s)
+11 important difference line(s)
+
+17 difference section(s)
+
+File: tez-examples\src\main\java\org\apache\tez\examples\JoinDataGen.java
+278 same line(s)
+8 ignored unimportant difference line(s)
+55 important left orphan line(s)
+2 important right orphan line(s)
+10 important difference line(s)
+
+15 difference section(s)
+
+File: tez-examples\src\main\java\org\apache\tez\examples\JoinValidate.java
+196 same line(s)
+8 ignored unimportant difference line(s)
+54 important left orphan line(s)
+9 important right orphan line(s)
+4 important difference line(s)
+
+17 difference section(s)
+
+File: tez-examples\src\main\java\org\apache\tez\examples\OrderedWordCount.java
+190 same line(s)
+11 ignored unimportant difference line(s)
+38 important left orphan line(s)
+12 important right orphan line(s)
+4 important difference line(s)
+
+17 difference section(s)
+
+File: tez-examples\src\main\java\org\apache\tez\examples\SimpleSessionExample.java
+65 same line(s)
+19 ignored unimportant difference line(s)
+41 important left orphan line(s)
+16 important right orphan line(s)
+17 important difference line(s)
+
+18 difference section(s)
+
+File: tez-examples\src\main\java\org\apache\tez\examples\SortMergeJoinExample.java
+298 same line(s)
+9 ignored unimportant difference line(s)
+62 important left orphan line(s)
+2 important right orphan line(s)
+11 important difference line(s)
+
+15 difference section(s)
+
+File: tez-examples\src\main\java\org\apache\tez\examples\TezExampleBase.java
+77 ignored unimportant difference line(s)
+93 important right orphan line(s)
+
+18 difference section(s)
+
+File: tez-examples\src\main\java\org\apache\tez\examples\WordCount.java
+204 same line(s)
+20 ignored unimportant difference line(s)
+39 important left orphan line(s)
+12 important right orphan line(s)
+4 important difference line(s)
+
+23 difference section(s)
+
+File: tez-mapreduce\src\main\java\org\apache\hadoop\mapred\split\TezGroupedSplit.java
+173 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\hadoop\mapred\split\TezGroupedSplitsInputFormat.java
+208 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\hadoop\mapred\split\TezMapredSplitsGrouper.java
+454 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\hadoop\mapreduce\split\SplitMetaInfoReaderTez.java
+107 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\hadoop\mapreduce\split\TezGroupedSplit.java
+183 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\hadoop\mapreduce\split\TezGroupedSplitsInputFormat.java
+246 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\hadoop\mapreduce\split\TezMapReduceSplitsGrouper.java
+576 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\client\MRTezClient.java
+54 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\common\MRFrameworkConfigs.java
+38 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\common\package-info.java
+22 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\common\TezTaskStatus.java
+105 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\dag\api\client\MRDAGClient.java
+88 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\client\ClientCache.java
+50 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\client\ClientServiceDelegate.java
+110 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\client\DAGJobStatus.java
+386 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\client\NotRunningJob.java
+240 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\client\package-info.java
+22 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\client\ResourceMgrDelegate.java
+234 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\client\YARNRunner.java
+835 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\client\YarnTezClientProtocolProvider.java
+52 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\combine\MRCombiner.java
+247 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\committer\MROutputCommitter.java
+213 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\common\MRInputAMSplitGenerator.java
+175 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\common\MRInputSplitDistributor.java
+134 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\common\Utils.java
+66 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapred\JobContextImpl.java
+65 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapred\MRCounters.java
+312 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapred\MRReporter.java
+94 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapred\package-info.java
+22 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapred\TaskAttemptContextImpl.java
+93 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapreduce\JobContextImpl.java
+479 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapreduce\MapContextImpl.java
+85 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapreduce\package-info.java
+22 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapreduce\TaskAttemptContextImpl.java
+129 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapreduce\TaskInputOutputContextImpl.java
+96 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\mapreduce\TezNullOutputCommitter.java
+50 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\DeprecatedKeys.java
+176 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\IDConverter.java
+83 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\InputSplitInfo.java
+100 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\InputSplitInfoDisk.java
+129 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\InputSplitInfoMem.java
+172 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\MRConfig.java
+107 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\MRHelpers.java
+390 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\MRInputHelpers.java
+697 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+5 difference section(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\MRJobConfig.java
+635 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\MRTaskStatus.java
+300 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\MultiStageMRConfigUtil.java
+107 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\MultiStageMRConfToTezTranslator.java
+85 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\package-info.java
+22 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\hadoop\TezTypeConverters.java
+83 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\input\base\MRInputBase.java
+106 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\input\MRInput.java
+627 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\input\MRInputLegacy.java
+150 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\input\MultiMRInput.java
+197 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\lib\MRInputUtils.java
+138 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\lib\MRReader.java
+34 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\lib\MRReaderMapred.java
+165 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\lib\MRReaderMapReduce.java
+155 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\lib\package-info.java
+22 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\output\MROutput.java
+540 same line(s)
+3 ignored unimportant difference line(s)
+3 important left orphan line(s)
+26 important right orphan line(s)
+7 important difference line(s)
+
+15 difference section(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\output\MROutputLegacy.java
+62 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\partition\MRPartitioner.java
+97 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\processor\map\MapProcessor.java
+378 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\processor\reduce\ReduceProcessor.java
+346 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\processor\MRTask.java
+606 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\processor\MRTaskReporter.java
+123 same line(s)
+
+File: tez-mapreduce\src\main\java\org\apache\tez\mapreduce\processor\SimpleMRProcessor.java
+97 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\hadoop\mapred\split\TestGroupedSplits.java
+550 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\common\TestMRInputSplitDistributor.java
+261 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\hadoop\TestConfigTranslationMRToTez.java
+75 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\hadoop\TestDeprecatedKeys.java
+156 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\hadoop\TestMRHelpers.java
+192 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\hadoop\TestMRInputHelpers.java
+220 same line(s)
+8 ignored unimportant difference line(s)
+5 important left orphan line(s)
+30 important right orphan line(s)
+4 important difference line(s)
+
+14 difference section(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\LocalMergedInput.java
+68 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\TestMultiMRInput.java
+301 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\output\LocalOnFileSorterOutput.java
+68 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\output\TestMROutput.java
+32 ignored unimportant difference line(s)
+115 important right orphan line(s)
+
+15 difference section(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\output\TestMROutputConfigBuilder.java
+39 ignored unimportant difference line(s)
+102 important right orphan line(s)
+
+16 difference section(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\output\TestMROutputLegacy.java
+38 ignored unimportant difference line(s)
+146 important right orphan line(s)
+
+17 difference section(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\processor\map\TestMapProcessor.java
+177 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\processor\reduce\TestReduceProcessor.java
+229 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\processor\MapUtils.java
+229 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\TestUmbilical.java
+62 same line(s)
+
+File: tez-mapreduce\src\test\java\org\apache\tez\mapreduce\TezTestUtils.java
+48 same line(s)
+
+File: tez-plugins\tez-mbeans-resource-calculator\src\main\java\org\apache\tez\util\TezMxBeanResourceCalculator.java
+74 same line(s)
+
+File: tez-plugins\tez-mbeans-resource-calculator\src\test\java\org\apache\tez\util\TestTezMxBeanResourceCalculator.java
+61 same line(s)
+
+File: tez-plugins\tez-yarn-timeline-history\src\main\java\org\apache\tez\dag\history\logging\ats\ATSHistoryLoggingService.java
+62 ignored unimportant difference line(s)
+301 important right orphan line(s)
+
+41 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history\src\main\java\org\apache\tez\dag\history\logging\ats\HistoryEventTimelineConversion.java
+134 ignored unimportant difference line(s)
+526 important right orphan line(s)
+
+116 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java
+44 ignored unimportant difference line(s)
+151 important right orphan line(s)
+
+27 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryWithMiniCluster.java
+42 ignored unimportant difference line(s)
+132 important right orphan line(s)
+
+24 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestHistoryEventTimelineConversion.java
+158 ignored unimportant difference line(s)
+758 important right orphan line(s)
+
+139 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\tests\MiniTezClusterWithTimeline.java
+74 ignored unimportant difference line(s)
+179 important right orphan line(s)
+
+39 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history-with-acls\src\main\java\org\apache\tez\dag\history\ats\acls\ATSHistoryACLPolicyManager.java
+222 same line(s)
+4 ignored unimportant difference line(s)
+19 important right orphan line(s)
+8 important difference line(s)
+
+12 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history-with-acls\src\main\java\org\apache\tez\dag\history\logging\ats\ATSHistoryLoggingService.java
+61 ignored unimportant difference line(s)
+264 important left orphan line(s)
+
+40 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history-with-acls\src\main\java\org\apache\tez\dag\history\logging\ats\HistoryEventTimelineConversion.java
+131 ignored unimportant difference line(s)
+496 important left orphan line(s)
+
+113 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history-with-acls\src\test\java\org\apache\tez\dag\history\ats\acls\TestATSHistoryWithACLs.java
+323 same line(s)
+62 ignored unimportant difference line(s)
+291 important right orphan line(s)
+1 important difference line(s)
+
+38 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history-with-acls\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java
+39 ignored unimportant difference line(s)
+106 important left orphan line(s)
+
+22 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history-with-acls\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryWithMiniCluster.java
+57 ignored unimportant difference line(s)
+185 important left orphan line(s)
+
+37 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history-with-acls\src\test\java\org\apache\tez\dag\history\logging\ats\TestHistoryEventTimelineConversion.java
+142 ignored unimportant difference line(s)
+704 important left orphan line(s)
+
+124 difference section(s)
+
+File: tez-plugins\tez-yarn-timeline-history-with-acls\src\test\java\org\apache\tez\tests\MiniTezClusterWithTimeline.java
+74 ignored unimportant difference line(s)
+179 important left orphan line(s)
+
+39 difference section(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\common\ContainerContext.java
+55 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\common\ContainerTask.java
+154 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\common\ProtoConverters.java
+131 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\common\TezConverterUtils.java
+102 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\common\TezLocalResource.java
+77 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\common\TezTaskUmbilicalProtocol.java
+56 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\events\TaskAttemptCompletedEvent.java
+28 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\events\TaskAttemptFailedEvent.java
+35 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\events\TaskStatusUpdateEvent.java
+70 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\EventMetaData.java
+140 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\EventType.java
+32 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\GroupInputSpec.java
+94 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\InputSpec.java
+84 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\OutputSpec.java
+79 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TaskSpec.java
+193 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezCountersDelegate.java
+48 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezEvent.java
+279 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezHeartbeatRequest.java
+136 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezHeartbeatResponse.java
+105 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezInputContextImpl.java
+134 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezMergedInputContextImpl.java
+69 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezOutputContextImpl.java
+119 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezProcessorContextImpl.java
+111 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezTaskContextImpl.java
+209 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\api\impl\TezUmbilical.java
+35 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\common\objectregistry\ObjectRegistryImpl.java
+93 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\common\resources\MemoryDistributor.java
+246 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\common\resources\ScalingAllocator.java
+107 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\common\security\JobTokenSelector.java
+54 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\metrics\FileSystemStatisticUpdater.java
+79 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\metrics\GcTimeUpdater.java
+70 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\metrics\TaskCounterUpdater.java
+150 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\InputReadyTracker.java
+154 same line(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\LogicalIOProcessorRuntimeTask.java
+725 same line(s)
+5 important right orphan line(s)
+
+3 difference section(s)
+
+File: tez-runtime-internals\src\main\java\org\apache\tez\runtime\RuntimeTask.java
+117 same line(s)
+
+File: tez-runtime-internals\src\test\java\org\apache\tez\runtime\common\objectregistry\TestObjectRegistry.java
+71 same line(s)
+
+File: tez-runtime-internals\src\test\java\org\apache\tez\runtime\common\resources\TestMemoryDistributor.java
+262 same line(s)
+
+File: tez-runtime-internals\src\test\java\org\apache\tez\runtime\TestInputReadyTracker.java
+335 same line(s)
+
+File: tez-runtime-internals\src\test\java\org\apache\tez\runtime\TestLogicalIOProcessorRuntimeTask.java
+262 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\hadoop\io\FileChunk.java
+113 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\common\TezRuntimeFrameworkConfigs.java
+44 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\dag\library\vertexmanager\InputReadyVertexManager.java
+194 same line(s)
+15 ignored unimportant difference line(s)
+5 important left orphan line(s)
+63 important right orphan line(s)
+10 important difference line(s)
+
+26 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\dag\library\vertexmanager\ShuffleVertexManager.java
+775 same line(s)
+18 ignored unimportant difference line(s)
+13 important left orphan line(s)
+27 important right orphan line(s)
+5 important difference line(s)
+
+13 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\api\KeyValueReader.java
+65 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\api\KeyValuesReader.java
+63 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\api\KeyValuesWriter.java
+43 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\api\KeyValueWriter.java
+44 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\api\Partitioner.java
+55 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\api\TezRuntimeConfiguration.java
+406 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\broadcast\output\FileBasedKVWriter.java
+190 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\combine\Combiner.java
+42 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\comparator\ProxyComparator.java
+46 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\comparator\TezBytesComparator.java
+63 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\localshuffle\LocalShuffle.java
+141 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\readers\UnorderedKVReader.java
+202 same line(s)
+6 ignored unimportant difference line(s)
+11 important right orphan line(s)
+
+6 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\security\SecureShuffleUtils.java
+136 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\serializer\TezBytesWritableSerialization.java
+132 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\impl\package-info.java
+22 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\impl\ShuffleInputEventHandlerImpl.java
+170 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\impl\ShuffleManager.java
+820 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\impl\SimpleFetchedInputAllocator.java
+200 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\ExceptionReporter.java
+25 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\FetcherOrderedGrouped.java
+702 same line(s)
+3 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\InMemoryReader.java
+162 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\InMemoryWriter.java
+61 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\MapHost.java
+124 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\MapOutput.java
+239 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\MergeManager.java
+928 same line(s)
+23 ignored unimportant difference line(s)
+7 important left orphan line(s)
+39 important right orphan line(s)
+2 important difference line(s)
+
+11 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\MergeThread.java
+109 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\package-info.java
+22 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\Shuffle.java
+468 same line(s)
+23 ignored unimportant difference line(s)
+9 important right orphan line(s)
+2 important difference line(s)
+
+8 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\ShuffleClientMetrics.java
+92 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\ShuffleHeader.java
+94 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\ShuffleInputEventHandlerOrderedGrouped.java
+138 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\ShuffleScheduler.java
+640 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\DiskFetchedInput.java
+121 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\FetchedInput.java
+152 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\FetchedInputAllocator.java
+34 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\FetchedInputCallback.java
+29 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\Fetcher.java
+970 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\FetcherCallback.java
+33 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\FetchResult.java
+70 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\HttpConnection.java
+426 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\InputHost.java
+133 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\LocalDiskFetchedInput.java
+119 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\MemoryFetchedInput.java
+90 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\package-info.java
+22 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\ShuffleEventHandler.java
+28 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\shuffle\ShuffleUtils.java
+240 same line(s)
+18 ignored unimportant difference line(s)
+46 important right orphan line(s)
+
+9 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\dflt\DefaultSorter.java
+1125 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\dflt\package-info.java
+22 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\ExternalSorter.java
+298 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\IFile.java
+827 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\IFileInputStream.java
+308 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\IFileOutputStream.java
+129 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\package-info.java
+22 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\PipelinedSorter.java
+925 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\TezIndexRecord.java
+56 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\TezMerger.java
+869 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\TezRawKeyValueIterator.java
+70 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\sort\impl\TezSpillRecord.java
+146 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\task\local\output\package-info.java
+22 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\task\local\output\TezLocalTaskOutputFiles.java
+234 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\task\local\output\TezTaskOutput.java
+191 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\task\local\output\TezTaskOutputFiles.java
+326 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\writers\BaseUnorderedPartitionedKVWriter.java
+171 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\writers\package-info.java
+22 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\writers\UnorderedPartitionedKVWriter.java
+780 same line(s)
+7 ignored unimportant difference line(s)
+4 important left orphan line(s)
+4 important right orphan line(s)
+6 important difference line(s)
+
+11 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\ConfigUtils.java
+250 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\Constants.java
+63 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\InputAttemptIdentifier.java
+117 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\InputIdentifier.java
+59 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\MemoryUpdateCallbackHandler.java
+47 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\TezRuntimeUtils.java
+155 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\common\ValuesIterator.java
+204 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\BaseConfigBuilder.java
+62 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\HadoopKeyValuesBasedBaseEdgeConfig.java
+86 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\OrderedGroupedKVInputConfig.java
+524 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\OrderedPartitionedKVEdgeConfig.java
+312 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\OrderedPartitionedKVOutputConfig.java
+450 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\package-info.java
+24 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\UnorderedKVEdgeConfig.java
+280 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\UnorderedKVInputConfig.java
+367 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\UnorderedKVOutputConfig.java
+292 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\UnorderedPartitionedKVEdgeConfig.java
+284 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\UnorderedPartitionedKVOutputConfig.java
+335 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\conf\Utils.java
+45 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\exceptions\FetcherReadTimeoutException.java
+49 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\exceptions\InputAlreadyClosedException.java
+47 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\hadoop\compat\NullProgressable.java
+35 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\input\ConcatenatedMergedKeyValueInput.java
+96 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\input\ConcatenatedMergedKeyValuesInput.java
+97 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\input\OrderedGroupedInputLegacy.java
+78 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\input\OrderedGroupedKVInput.java
+352 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\input\OrderedGroupedMergedKVInput.java
+247 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\input\package-info.java
+24 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\input\UnorderedKVInput.java
+268 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\output\OrderedPartitionedKVOutput.java
+250 same line(s)
+9 important right orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\output\package-info.java
+24 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\output\UnorderedKVOutput.java
+196 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\output\UnorderedPartitionedKVOutput.java
+135 same line(s)
+9 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\partitioner\HashPartitioner.java
+37 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\processor\PreWarmProcessor.java
+73 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\processor\SimpleProcessor.java
+115 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\processor\SleepProcessor.java
+129 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\resources\WeightedScalingMemoryDistributor.java
+304 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\utils\BufferUtils.java
+79 same line(s)
+
+File: tez-runtime-library\src\main\java\org\apache\tez\runtime\library\utils\FastByteComparisons.java
+240 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestInputReadyVertexManager.java
+253 same line(s)
+16 ignored unimportant difference line(s)
+5 important left orphan line(s)
+68 important right orphan line(s)
+5 important difference line(s)
+
+27 difference section(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java
+1037 same line(s)
+12 ignored unimportant difference line(s)
+6 important left orphan line(s)
+8 important right orphan line(s)
+
+11 difference section(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\common\resources\TestWeightedScalingMemoryDistributor.java
+169 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\api\TestTezRuntimeConfiguration.java
+55 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\comparator\TestProxyComparator.java
+81 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java
+162 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestSimpleFetchedInputAllocator.java
+88 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java
+298 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestMergeManager.java
+237 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandler.java
+172 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java
+204 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java
+122 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\TestIFile.java
+624 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java
+678 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\TestInputIdentifiers.java
+44 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\TestValuesIterator.java
+463 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestOrderedGroupedMergedKVInputConfig.java
+160 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestOrderedPartitionedKVEdgeConfig.java
+332 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestOrderedPartitionedKVOutputConfig.java
+191 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestUnorderedKVEdgeConfig.java
+213 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestUnorderedKVInputConfig.java
+185 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestUnorderedKVOutputConfig.java
+129 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestUnorderedPartitionedKVEdgeConfig.java
+224 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestUnorderedPartitionedKVOutputConfig.java
+177 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestSortedGroupedMergedInput.java
+442 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\OutputTestHelpers.java
+19 ignored unimportant difference line(s)
+30 important right orphan line(s)
+
+6 difference section(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileSortedOutput.java
+293 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java
+168 same line(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOrderedPartitionedKVOutput2.java
+24 ignored unimportant difference line(s)
+43 important right orphan line(s)
+
+8 difference section(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestUnorderedKVOutput2.java
+24 ignored unimportant difference line(s)
+55 important right orphan line(s)
+
+10 difference section(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestUnorderedPartitionedKVOutput2.java
+22 ignored unimportant difference line(s)
+40 important right orphan line(s)
+
+7 difference section(s)
+
+File: tez-runtime-library\src\test\java\org\apache\tez\runtime\library\testutils\KVDataGen.java
+82 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\helpers\SplitsInClientOptionParser.java
+72 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\processor\FilterByWordInputProcessor.java
+135 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\processor\FilterByWordOutputProcessor.java
+96 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\BroadcastAndOneToOneExample.java
+270 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\BroadcastLoadGen.java
+148 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\ExampleDriver.java
+162 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\FilterLinesByWord.java
+300 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\FilterLinesByWordOneToOne.java
+247 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\GroupByOrderByMRRTest.java
+372 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\Join.java
+177 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\MapredWordCount.java
+164 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\MRRSleepJob.java
+758 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\RandomTextWriter.java
+759 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\RandomWriter.java
+300 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\RPCLoadGen.java
+216 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\SecondarySort.java
+248 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\Sort.java
+205 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\TestOrderedWordCount.java
+552 same line(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\TezExampleBase.java
+78 ignored unimportant difference line(s)
+91 important left orphan line(s)
+
+18 difference section(s)
+
+File: tez-tests\src\main\java\org\apache\tez\mapreduce\examples\UnionExample.java
+300 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\mapreduce\TestMRRJobs.java
+359 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\mapreduce\TestMRRJobsDAGApi.java
+941 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\dag\MultiAttemptDAG.java
+396 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\dag\SimpleReverseVTestDAG.java
+80 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\dag\SimpleVTestDAG.java
+80 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\dag\SixLevelsFailingDAG.java
+95 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\dag\ThreeLevelsFailingDAG.java
+75 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\dag\TwoLevelsFailingDAG.java
+113 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\FaultToleranceTestRunner.java
+153 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\MiniTezCluster.java
+247 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\SimpleTestDAG.java
+146 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\SimpleTestDAG3Vertices.java
+79 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestAMRecovery.java
+722 same line(s)
+5 ignored unimportant difference line(s)
+7 important right orphan line(s)
+12 important difference line(s)
+
+13 difference section(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestDAGRecovery.java
+249 same line(s)
+7 ignored unimportant difference line(s)
+4 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestDAGRecovery2.java
+207 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestDriver.java
+39 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestExceptionPropagation.java
+836 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestFaultTolerance.java
+735 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestInput.java
+376 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestLocalMode.java
+266 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestOutput.java
+90 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestProcessor.java
+314 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestSecureShuffle.java
+196 same line(s)
+
+File: tez-tests\src\test\java\org\apache\tez\test\TestTezJobs.java
+675 same line(s)
+13 ignored unimportant difference line(s)
+66 important right orphan line(s)
+2 important difference line(s)
+
+16 difference section(s)
+
+File: tez-tools\tez-tfile-parser\src\main\java\org\apache\tez\tools\TFileLoader.java
+184 same line(s)
+
+File: tez-tools\tez-tfile-parser\src\main\java\org\apache\tez\tools\TFileRecordReader.java
+107 same line(s)

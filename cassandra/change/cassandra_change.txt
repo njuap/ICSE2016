@@ -1,0 +1,4850 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:15:24
+
+Ignoring Unimportant
+Left base folder: D:\APsource\cassandra\version1
+Right base folder: D:\APsource\cassandra\version2
+
+File: examples\client_only\src\ClientOnlyExample.java
+114 same line(s)
+
+File: examples\hadoop_cql3_word_count\src\WordCount.java
+261 same line(s)
+
+File: examples\hadoop_cql3_word_count\src\WordCountCounters.java
+168 same line(s)
+
+File: examples\hadoop_cql3_word_count\src\WordCountSetup.java
+181 same line(s)
+
+File: examples\hadoop_word_count\src\WordCount.java
+226 same line(s)
+
+File: examples\hadoop_word_count\src\WordCountCounters.java
+104 same line(s)
+
+File: examples\hadoop_word_count\src\WordCountSetup.java
+239 same line(s)
+
+File: examples\triggers\src\org\apache\cassandra\triggers\InvertedIndex.java
+77 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\AuthenticationException.java
+413 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\AuthenticationRequest.java
+465 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\AuthorizationException.java
+413 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CASResult.java
+574 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\Cassandra.java
+55794 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\cassandraConstants.java
+61 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CfDef.java
+4927 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CfSplit.java
+614 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\Column.java
+754 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\ColumnDef.java
+915 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\ColumnOrSuperColumn.java
+771 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\ColumnParent.java
+538 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\ColumnPath.java
+660 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\ColumnSlice.java
+551 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\Compression.java
+69 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\ConsistencyLevel.java
+137 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CounterColumn.java
+521 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CounterSuperColumn.java
+576 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CqlMetadata.java
+817 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CqlPreparedResult.java
+821 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CqlResult.java
+807 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CqlResultType.java
+69 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\CqlRow.java
+584 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\Deletion.java
+645 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\EndpointDetails.java
+630 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\IndexClause.java
+681 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\IndexExpression.java
+650 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\IndexOperator.java
+75 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\IndexType.java
+69 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\InvalidRequestException.java
+414 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\KeyCount.java
+521 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\KeyRange.java
+1034 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\KeySlice.java
+583 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\KsDef.java
+1047 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\MultiSliceRequest.java
+1042 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\Mutation.java
+537 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\NotFoundException.java
+307 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\SchemaDisagreementException.java
+310 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\SlicePredicate.java
+588 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\SliceRange.java
+749 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\SuperColumn.java
+582 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\TimedOutException.java
+671 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\TokenRange.java
+990 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\TriggerDef.java
+568 same line(s)
+
+File: interface\thrift\gen-java\org\apache\cassandra\thrift\UnavailableException.java
+307 same line(s)
+
+File: src\java\org\apache\cassandra\auth\AllowAllAuthenticator.java
+77 same line(s)
+
+File: src\java\org\apache\cassandra\auth\AllowAllAuthorizer.java
+70 same line(s)
+
+File: src\java\org\apache\cassandra\auth\AllowAllInternodeAuthenticator.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\auth\Auth.java
+295 same line(s)
+
+File: src\java\org\apache\cassandra\auth\AuthenticatedUser.java
+86 same line(s)
+
+File: src\java\org\apache\cassandra\auth\CassandraAuthorizer.java
+264 same line(s)
+
+File: src\java\org\apache\cassandra\auth\DataResource.java
+248 same line(s)
+
+File: src\java\org\apache\cassandra\auth\IAuthenticator.java
+124 same line(s)
+
+File: src\java\org\apache\cassandra\auth\IAuthorizer.java
+122 same line(s)
+
+File: src\java\org\apache\cassandra\auth\IInternodeAuthenticator.java
+44 same line(s)
+
+File: src\java\org\apache\cassandra\auth\IResource.java
+53 same line(s)
+
+File: src\java\org\apache\cassandra\auth\ISaslAwareAuthenticator.java
+41 same line(s)
+
+File: src\java\org\apache\cassandra\auth\LegacyAuthenticator.java
+94 same line(s)
+
+File: src\java\org\apache\cassandra\auth\LegacyAuthorizer.java
+114 same line(s)
+
+File: src\java\org\apache\cassandra\auth\PasswordAuthenticator.java
+336 same line(s)
+
+File: src\java\org\apache\cassandra\auth\Permission.java
+57 same line(s)
+
+File: src\java\org\apache\cassandra\auth\PermissionDetails.java
+79 same line(s)
+
+File: src\java\org\apache\cassandra\auth\PermissionsCache.java
+153 same line(s)
+
+File: src\java\org\apache\cassandra\auth\PermissionsCacheMBean.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\auth\Resources.java
+65 same line(s)
+
+File: src\java\org\apache\cassandra\cache\AutoSavingCache.java
+344 same line(s)
+
+File: src\java\org\apache\cassandra\cache\CacheKey.java
+28 same line(s)
+
+File: src\java\org\apache\cassandra\cache\CachingOptions.java
+288 same line(s)
+
+File: src\java\org\apache\cassandra\cache\ConcurrentLinkedHashCache.java
+133 same line(s)
+
+File: src\java\org\apache\cassandra\cache\CounterCacheKey.java
+91 same line(s)
+
+File: src\java\org\apache\cassandra\cache\ICache.java
+54 same line(s)
+
+File: src\java\org\apache\cassandra\cache\IMeasurableMemory.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\cache\InstrumentingCache.java
+132 same line(s)
+
+File: src\java\org\apache\cassandra\cache\IRowCacheEntry.java
+22 same line(s)
+
+File: src\java\org\apache\cassandra\cache\KeyCacheKey.java
+81 same line(s)
+
+File: src\java\org\apache\cassandra\cache\RefCountedMemory.java
+73 same line(s)
+
+File: src\java\org\apache\cassandra\cache\RowCacheKey.java
+87 same line(s)
+
+File: src\java\org\apache\cassandra\cache\RowCacheSentinel.java
+57 same line(s)
+
+File: src\java\org\apache\cassandra\cache\SerializingCache.java
+281 same line(s)
+
+File: src\java\org\apache\cassandra\cache\SerializingCacheProvider.java
+68 same line(s)
+
+File: src\java\org\apache\cassandra\cli\CliClient.java
+3234 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\cli\CliCommandHelp.java
+24 same line(s)
+
+File: src\java\org\apache\cassandra\cli\CliCompiler.java
+172 same line(s)
+
+File: src\java\org\apache\cassandra\cli\CliCompleter.java
+85 same line(s)
+
+File: src\java\org\apache\cassandra\cli\CliMain.java
+407 same line(s)
+
+File: src\java\org\apache\cassandra\cli\CliOptions.java
+319 same line(s)
+
+File: src\java\org\apache\cassandra\cli\CliSessionState.java
+96 same line(s)
+
+File: src\java\org\apache\cassandra\cli\CliUserHelp.java
+29 same line(s)
+
+File: src\java\org\apache\cassandra\cli\CliUtils.java
+128 same line(s)
+
+File: src\java\org\apache\cassandra\client\RingCache.java
+122 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\AbstractTracingAwareExecutorService.java
+229 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\DebuggableScheduledThreadPoolExecutor.java
+91 same line(s)
+11 ignored unimportant difference line(s)
+25 important right orphan line(s)
+
+9 difference section(s)
+
+File: src\java\org\apache\cassandra\concurrent\DebuggableThreadPoolExecutor.java
+297 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\IExecutorMBean.java
+41 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\JMXConfigurableThreadPoolExecutor.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\JMXConfigurableThreadPoolExecutorMBean.java
+25 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\JMXEnabledScheduledThreadPoolExecutor.java
+137 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\JMXEnabledScheduledThreadPoolExecutorMBean.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\JMXEnabledSharedExecutorPool.java
+114 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\JMXEnabledThreadPoolExecutor.java
+199 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\JMXEnabledThreadPoolExecutorMBean.java
+57 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\NamedThreadFactory.java
+55 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\ScheduledExecutors.java
+43 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\SEPExecutor.java
+291 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\SEPWorker.java
+388 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\SharedExecutorPool.java
+99 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\Stage.java
+65 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\StageManager.java
+155 same line(s)
+
+File: src\java\org\apache\cassandra\concurrent\TracingAwareExecutorService.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\config\CFMetaData.java
+2279 same line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\config\ColumnDefinition.java
+491 same line(s)
+
+File: src\java\org\apache\cassandra\config\Config.java
+347 same line(s)
+
+File: src\java\org\apache\cassandra\config\ConfigurationLoader.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\config\DatabaseDescriptor.java
+1695 same line(s)
+2 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\config\EncryptionOptions.java
+49 same line(s)
+
+File: src\java\org\apache\cassandra\config\IndexType.java
+25 same line(s)
+
+File: src\java\org\apache\cassandra\config\KSMetaData.java
+326 same line(s)
+
+File: src\java\org\apache\cassandra\config\ReadRepairDecision.java
+23 same line(s)
+
+File: src\java\org\apache\cassandra\config\RequestSchedulerOptions.java
+33 same line(s)
+
+File: src\java\org\apache\cassandra\config\Schema.java
+435 same line(s)
+
+File: src\java\org\apache\cassandra\config\SeedProviderDef.java
+35 same line(s)
+
+File: src\java\org\apache\cassandra\config\TriggerDefinition.java
+162 same line(s)
+
+File: src\java\org\apache\cassandra\config\UTMetaData.java
+161 same line(s)
+
+File: src\java\org\apache\cassandra\config\YamlConfigurationLoader.java
+166 same line(s)
+
+File: src\java\org\apache\cassandra\cql\hooks\ExecutionContext.java
+48 same line(s)
+
+File: src\java\org\apache\cassandra\cql\hooks\PostPreparationHook.java
+38 same line(s)
+
+File: src\java\org\apache\cassandra\cql\hooks\PreExecutionHook.java
+46 same line(s)
+
+File: src\java\org\apache\cassandra\cql\hooks\PreparationContext.java
+39 same line(s)
+
+File: src\java\org\apache\cassandra\cql\AbstractModification.java
+126 same line(s)
+
+File: src\java\org\apache\cassandra\cql\AlterTableStatement.java
+206 same line(s)
+
+File: src\java\org\apache\cassandra\cql\Attributes.java
+76 same line(s)
+
+File: src\java\org\apache\cassandra\cql\BatchStatement.java
+104 same line(s)
+
+File: src\java\org\apache\cassandra\cql\CFPropDefs.java
+306 same line(s)
+
+File: src\java\org\apache\cassandra\cql\CQLStatement.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\cql\CreateColumnFamilyStatement.java
+248 same line(s)
+
+File: src\java\org\apache\cassandra\cql\CreateIndexStatement.java
+51 same line(s)
+
+File: src\java\org\apache\cassandra\cql\CreateKeyspaceStatement.java
+80 same line(s)
+
+File: src\java\org\apache\cassandra\cql\DeleteStatement.java
+123 same line(s)
+
+File: src\java\org\apache\cassandra\cql\DropIndexStatement.java
+80 same line(s)
+
+File: src\java\org\apache\cassandra\cql\Operation.java
+55 same line(s)
+
+File: src\java\org\apache\cassandra\cql\QueryProcessor.java
+913 same line(s)
+
+File: src\java\org\apache\cassandra\cql\Relation.java
+86 same line(s)
+
+File: src\java\org\apache\cassandra\cql\SelectExpression.java
+164 same line(s)
+
+File: src\java\org\apache\cassandra\cql\SelectStatement.java
+188 same line(s)
+
+File: src\java\org\apache\cassandra\cql\StatementType.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\cql\Term.java
+208 same line(s)
+
+File: src\java\org\apache\cassandra\cql\UpdateStatement.java
+288 same line(s)
+
+File: src\java\org\apache\cassandra\cql\WhereClause.java
+192 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\functions\AbstractFunction.java
+72 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\functions\BytesConversionFcts.java
+84 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\functions\Function.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\functions\FunctionCall.java
+180 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\functions\Functions.java
+184 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\functions\TimeuuidFcts.java
+94 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\functions\TokenFct.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\functions\UuidFcts.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\AlterKeyspaceStatement.java
+97 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\AlterTableStatement.java
+296 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\AlterTypeStatement.java
+343 same line(s)
+2 ignored unimportant difference line(s)
+11 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\AlterUserStatement.java
+92 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\AuthenticationStatement.java
+54 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\AuthorizationStatement.java
+62 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\BatchStatement.java
+391 same line(s)
+14 ignored unimportant difference line(s)
+21 important right orphan line(s)
+1 important difference line(s)
+
+9 difference section(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\Bound.java
+35 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\CFPropDefs.java
+222 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\CFStatement.java
+64 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\CQL3CasRequest.java
+266 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\CreateIndexStatement.java
+179 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\CreateKeyspaceStatement.java
+119 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\CreateTableStatement.java
+429 same line(s)
+1 ignored unimportant difference line(s)
+6 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\CreateTriggerStatement.java
+91 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\CreateTypeStatement.java
+133 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\CreateUserStatement.java
+75 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\DeleteStatement.java
+148 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\DropIndexStatement.java
+128 same line(s)
+4 ignored unimportant difference line(s)
+6 important left orphan line(s)
+6 important right orphan line(s)
+5 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\DropKeyspaceStatement.java
+77 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\DropTableStatement.java
+76 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\DropTriggerStatement.java
+78 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\DropTypeStatement.java
+153 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\DropUserStatement.java
+72 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\GrantStatement.java
+43 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\IndexPropDefs.java
+70 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\IndexTarget.java
+69 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\KSPropDefs.java
+89 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\ListPermissionsStatement.java
+123 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\ListUsersStatement.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\ModificationStatement.java
+769 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\MultiColumnRestriction.java
+137 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\ParsedStatement.java
+64 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\PermissionAlteringStatement.java
+66 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\PropertyDefinitions.java
+143 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\RawSelector.java
+38 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\Restriction.java
+77 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\RevokeStatement.java
+43 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\SchemaAlteringStatement.java
+96 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\Selectable.java
+169 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\Selection.java
+593 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\SelectStatement.java
+2389 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\SingleColumnRestriction.java
+445 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\TruncateStatement.java
+84 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\UpdateStatement.java
+264 same line(s)
+1 ignored unimportant difference line(s)
+4 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: src\java\org\apache\cassandra\cql3\statements\UseStatement.java
+68 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\AbstractMarker.java
+111 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\AssignementTestable.java
+28 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\Attributes.java
+138 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\BatchQueryOptions.java
+112 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\CFName.java
+39 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\ColumnCondition.java
+810 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\ColumnIdentifier.java
+170 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\ColumnSpecification.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\Constants.java
+376 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\CQL3Row.java
+41 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\CQL3Type.java
+584 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\CQLStatement.java
+61 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\ErrorCollector.java
+287 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\ErrorListener.java
+44 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\IndexName.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\KeyspaceElementName.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\Lists.java
+510 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\cql3\Maps.java
+386 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\MultiColumnRelation.java
+144 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\Operation.java
+425 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\Operator.java
+93 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\QueryHandler.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\QueryOptions.java
+410 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\QueryProcessor.java
+636 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\Relation.java
+35 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\ResultSet.java
+478 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\Sets.java
+347 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\SingleColumnRelation.java
+112 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\Term.java
+165 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\Tuples.java
+412 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\TypeCast.java
+66 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\UntypedResultSet.java
+296 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\UpdateParameters.java
+101 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\cql3\UserOptions.java
+62 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\UserTypes.java
+192 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\UTName.java
+63 same line(s)
+
+File: src\java\org\apache\cassandra\cql3\VariableSpecifications.java
+58 same line(s)
+
+File: src\java\org\apache\cassandra\db\columniterator\IColumnIteratorFactory.java
+44 same line(s)
+
+File: src\java\org\apache\cassandra\db\columniterator\IdentityQueryFilter.java
+38 same line(s)
+
+File: src\java\org\apache\cassandra\db\columniterator\IndexedSliceReader.java
+541 same line(s)
+
+File: src\java\org\apache\cassandra\db\columniterator\LazyColumnIterator.java
+100 same line(s)
+
+File: src\java\org\apache\cassandra\db\columniterator\OnDiskAtomIterator.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\db\columniterator\SimpleSliceReader.java
+108 same line(s)
+
+File: src\java\org\apache\cassandra\db\columniterator\SSTableNamesIterator.java
+264 same line(s)
+
+File: src\java\org\apache\cassandra\db\columniterator\SSTableSliceIterator.java
+101 same line(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\AbstractCommitLogService.java
+186 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\BatchCommitLogService.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\CommitLog.java
+407 same line(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\CommitLogArchiver.java
+244 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\CommitLogDescriptor.java
+164 same line(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\CommitLogMBean.java
+92 same line(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\CommitLogReplayer.java
+453 same line(s)
+10 ignored unimportant difference line(s)
+1 important left orphan line(s)
+30 important right orphan line(s)
+1 important difference line(s)
+
+12 difference section(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\CommitLogSegment.java
+640 same line(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\CommitLogSegmentManager.java
+557 same line(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\PeriodicCommitLogService.java
+59 same line(s)
+
+File: src\java\org\apache\cassandra\db\commitlog\ReplayPosition.java
+143 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\AbstractCompactedRow.java
+66 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\AbstractCompactionIterable.java
+79 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\AbstractCompactionStrategy.java
+473 same line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\db\compaction\AbstractCompactionTask.java
+90 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\CompactionController.java
+196 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\CompactionHistoryTabularData.java
+84 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\CompactionInfo.java
+155 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\CompactionInterruptedException.java
+28 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\CompactionIterable.java
+87 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\CompactionManager.java
+1457 same line(s)
+3 ignored unimportant difference line(s)
+1 important left orphan line(s)
+21 important right orphan line(s)
+11 important difference line(s)
+
+13 difference section(s)
+
+File: src\java\org\apache\cassandra\db\compaction\CompactionManagerMBean.java
+127 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\CompactionTask.java
+338 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\DateTieredCompactionStrategy.java
+410 same line(s)
+1 ignored unimportant difference line(s)
+7 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\compaction\DateTieredCompactionStrategyOptions.java
+101 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\LazilyCompactedRow.java
+339 same line(s)
+2 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\compaction\LeveledCompactionStrategy.java
+388 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\LeveledCompactionTask.java
+54 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\LeveledManifest.java
+735 same line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\db\compaction\OperationType.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\Scrubber.java
+356 same line(s)
+17 ignored unimportant difference line(s)
+19 important left orphan line(s)
+81 important right orphan line(s)
+12 important difference line(s)
+
+31 difference section(s)
+
+File: src\java\org\apache\cassandra\db\compaction\SizeTieredCompactionStrategy.java
+333 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\SizeTieredCompactionStrategyOptions.java
+100 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\SSTableSplitter.java
+99 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\Upgrader.java
+121 same line(s)
+
+File: src\java\org\apache\cassandra\db\compaction\WrappingCompactionStrategy.java
+368 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\AbstractCellNameType.java
+454 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\AbstractComposite.java
+141 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\AbstractCompoundCellNameType.java
+297 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\AbstractCType.java
+410 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\AbstractSimpleCellNameType.java
+210 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\BoundedComposite.java
+104 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CBuilder.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CellName.java
+78 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CellNames.java
+108 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\composites\CellNameType.java
+215 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\Composite.java
+78 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\Composites.java
+130 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CompoundComposite.java
+88 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CompoundCType.java
+180 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CompoundDenseCellName.java
+86 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CompoundDenseCellNameType.java
+87 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CompoundSparseCellName.java
+182 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CompoundSparseCellNameType.java
+330 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\CType.java
+144 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\SimpleComposite.java
+79 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\SimpleCType.java
+158 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\SimpleDenseCellName.java
+83 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\SimpleDenseCellNameType.java
+80 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\SimpleSparseCellName.java
+104 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\SimpleSparseCellNameType.java
+100 same line(s)
+
+File: src\java\org\apache\cassandra\db\composites\SimpleSparseInternedCellName.java
+51 same line(s)
+
+File: src\java\org\apache\cassandra\db\context\CounterContext.java
+882 same line(s)
+
+File: src\java\org\apache\cassandra\db\filter\ColumnCounter.java
+132 same line(s)
+16 ignored unimportant difference line(s)
+3 important left orphan line(s)
+45 important right orphan line(s)
+13 important difference line(s)
+
+17 difference section(s)
+
+File: src\java\org\apache\cassandra\db\filter\ColumnSlice.java
+289 same line(s)
+
+File: src\java\org\apache\cassandra\db\filter\ExtendedFilter.java
+492 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\filter\IDiskAtomFilter.java
+145 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\filter\NamesQueryFilter.java
+298 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\filter\QueryFilter.java
+254 same line(s)
+1 ignored unimportant difference line(s)
+2 important right orphan line(s)
+5 important difference line(s)
+
+7 difference section(s)
+
+File: src\java\org\apache\cassandra\db\filter\SliceQueryFilter.java
+469 same line(s)
+30 ignored unimportant difference line(s)
+5 important left orphan line(s)
+56 important right orphan line(s)
+19 important difference line(s)
+
+31 difference section(s)
+
+File: src\java\org\apache\cassandra\db\filter\TombstoneOverwhelmingException.java
+23 same line(s)
+
+File: src\java\org\apache\cassandra\db\index\composites\CompositesIndex.java
+201 same line(s)
+
+File: src\java\org\apache\cassandra\db\index\composites\CompositesIndexOnClusteringKey.java
+117 same line(s)
+
+File: src\java\org\apache\cassandra\db\index\composites\CompositesIndexOnCollectionKey.java
+114 same line(s)
+
+File: src\java\org\apache\cassandra\db\index\composites\CompositesIndexOnCollectionValue.java
+118 same line(s)
+
+File: src\java\org\apache\cassandra\db\index\composites\CompositesIndexOnPartitionKey.java
+108 same line(s)
+
+File: src\java\org\apache\cassandra\db\index\composites\CompositesIndexOnRegular.java
+96 same line(s)
+
+File: src\java\org\apache\cassandra\db\index\composites\CompositesSearcher.java
+311 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\index\keys\KeysIndex.java
+79 same line(s)
+
+File: src\java\org\apache\cassandra\db\index\keys\KeysSearcher.java
+205 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\index\AbstractSimplePerColumnSecondaryIndex.java
+188 same line(s)
+2 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\index\PerColumnSecondaryIndex.java
+71 same line(s)
+1 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\index\PerRowSecondaryIndex.java
+65 same line(s)
+2 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\db\index\SecondaryIndex.java
+385 same line(s)
+9 ignored unimportant difference line(s)
+4 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\db\index\SecondaryIndexBuilder.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\db\index\SecondaryIndexManager.java
+810 same line(s)
+9 ignored unimportant difference line(s)
+13 important left orphan line(s)
+39 important right orphan line(s)
+7 important difference line(s)
+
+13 difference section(s)
+
+File: src\java\org\apache\cassandra\db\index\SecondaryIndexSearcher.java
+105 same line(s)
+20 ignored unimportant difference line(s)
+11 important right orphan line(s)
+5 important difference line(s)
+
+7 difference section(s)
+
+File: src\java\org\apache\cassandra\db\marshal\AbstractCompositeType.java
+343 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\AbstractType.java
+276 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\AsciiType.java
+82 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\BooleanType.java
+72 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\BytesType.java
+81 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\CollectionType.java
+180 same line(s)
+3 important right orphan line(s)
+5 important difference line(s)
+
+5 difference section(s)
+
+File: src\java\org\apache\cassandra\db\marshal\ColumnToCollectionType.java
+136 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\CompositeType.java
+474 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\CounterColumnType.java
+80 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\DateType.java
+98 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\DecimalType.java
+71 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\DoubleType.java
+70 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\DynamicCompositeType.java
+411 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\EmptyType.java
+59 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\FloatType.java
+69 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\FrozenType.java
+62 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\InetAddressType.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\Int32Type.java
+78 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\IntegerType.java
+154 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\LexicalUUIDType.java
+65 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\ListType.java
+174 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\LocalByPartionerType.java
+78 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\LongType.java
+87 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\MapType.java
+196 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\ReversedType.java
+117 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\SetType.java
+149 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\TimestampType.java
+92 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\TimeUUIDType.java
+158 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\TupleType.java
+303 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\TypeParser.java
+594 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\UserType.java
+153 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\UTF8Type.java
+65 same line(s)
+
+File: src\java\org\apache\cassandra\db\marshal\UUIDType.java
+208 same line(s)
+
+File: src\java\org\apache\cassandra\db\AbstractCell.java
+236 same line(s)
+
+File: src\java\org\apache\cassandra\db\AbstractNativeCell.java
+706 same line(s)
+
+File: src\java\org\apache\cassandra\db\AbstractRangeCommand.java
+78 same line(s)
+4 ignored unimportant difference line(s)
+19 important right orphan line(s)
+
+6 difference section(s)
+
+File: src\java\org\apache\cassandra\db\ArrayBackedSortedColumns.java
+696 same line(s)
+
+File: src\java\org\apache\cassandra\db\AtomDeserializer.java
+128 same line(s)
+
+File: src\java\org\apache\cassandra\db\AtomicBTreeColumns.java
+564 same line(s)
+
+File: src\java\org\apache\cassandra\db\BatchlogManager.java
+537 same line(s)
+
+File: src\java\org\apache\cassandra\db\BatchlogManagerMBean.java
+38 same line(s)
+
+File: src\java\org\apache\cassandra\db\BlacklistedDirectories.java
+137 same line(s)
+
+File: src\java\org\apache\cassandra\db\BlacklistedDirectoriesMBean.java
+29 same line(s)
+
+File: src\java\org\apache\cassandra\db\BufferCell.java
+103 same line(s)
+
+File: src\java\org\apache\cassandra\db\BufferCounterCell.java
+176 same line(s)
+
+File: src\java\org\apache\cassandra\db\BufferCounterUpdateCell.java
+96 same line(s)
+
+File: src\java\org\apache\cassandra\db\BufferDecoratedKey.java
+41 same line(s)
+
+File: src\java\org\apache\cassandra\db\BufferDeletedCell.java
+118 same line(s)
+
+File: src\java\org\apache\cassandra\db\BufferExpiringCell.java
+187 same line(s)
+
+File: src\java\org\apache\cassandra\db\Cell.java
+69 same line(s)
+
+File: src\java\org\apache\cassandra\db\CFRowAdder.java
+110 same line(s)
+
+File: src\java\org\apache\cassandra\db\ClockAndCount.java
+75 same line(s)
+
+File: src\java\org\apache\cassandra\db\CollationController.java
+328 same line(s)
+1 ignored unimportant difference line(s)
+6 important left orphan line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+8 difference section(s)
+
+File: src\java\org\apache\cassandra\db\ColumnFamily.java
+556 same line(s)
+
+File: src\java\org\apache\cassandra\db\ColumnFamilySerializer.java
+173 same line(s)
+
+File: src\java\org\apache\cassandra\db\ColumnFamilyStore.java
+2887 same line(s)
+27 ignored unimportant difference line(s)
+38 important left orphan line(s)
+8 important right orphan line(s)
+10 important difference line(s)
+
+18 difference section(s)
+
+File: src\java\org\apache\cassandra\db\ColumnFamilyStoreMBean.java
+419 same line(s)
+
+File: src\java\org\apache\cassandra\db\ColumnFamilyType.java
+40 same line(s)
+
+File: src\java\org\apache\cassandra\db\ColumnIndex.java
+243 same line(s)
+
+File: src\java\org\apache\cassandra\db\ColumnSerializer.java
+188 same line(s)
+
+File: src\java\org\apache\cassandra\db\ConsistencyLevel.java
+363 same line(s)
+
+File: src\java\org\apache\cassandra\db\CounterCell.java
+44 same line(s)
+
+File: src\java\org\apache\cassandra\db\CounterMutation.java
+337 same line(s)
+
+File: src\java\org\apache\cassandra\db\CounterMutationVerbHandler.java
+64 same line(s)
+
+File: src\java\org\apache\cassandra\db\CounterUpdateCell.java
+30 same line(s)
+
+File: src\java\org\apache\cassandra\db\DataRange.java
+243 same line(s)
+20 ignored unimportant difference line(s)
+1 important left orphan line(s)
+41 important right orphan line(s)
+9 important difference line(s)
+
+20 difference section(s)
+
+File: src\java\org\apache\cassandra\db\DataTracker.java
+795 same line(s)
+5 ignored unimportant difference line(s)
+6 important left orphan line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: src\java\org\apache\cassandra\db\DecoratedKey.java
+130 same line(s)
+
+File: src\java\org\apache\cassandra\db\DefinitionsUpdateVerbHandler.java
+53 same line(s)
+
+File: src\java\org\apache\cassandra\db\DefsTables.java
+539 same line(s)
+
+File: src\java\org\apache\cassandra\db\DeletedCell.java
+30 same line(s)
+
+File: src\java\org\apache\cassandra\db\DeletionInfo.java
+470 same line(s)
+
+File: src\java\org\apache\cassandra\db\DeletionTime.java
+154 same line(s)
+1 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\Directories.java
+775 same line(s)
+
+File: src\java\org\apache\cassandra\db\ExpiringCell.java
+44 same line(s)
+
+File: src\java\org\apache\cassandra\db\HintedHandOffManager.java
+612 same line(s)
+
+File: src\java\org\apache\cassandra\db\HintedHandOffManagerMBean.java
+49 same line(s)
+
+File: src\java\org\apache\cassandra\db\IMutation.java
+33 same line(s)
+
+File: src\java\org\apache\cassandra\db\IndexExpression.java
+121 same line(s)
+
+File: src\java\org\apache\cassandra\db\Keyspace.java
+457 same line(s)
+4 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\db\KeyspaceNotDefinedException.java
+28 same line(s)
+
+File: src\java\org\apache\cassandra\db\Memtable.java
+430 same line(s)
+1 ignored unimportant difference line(s)
+6 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: src\java\org\apache\cassandra\db\MigrationRequestVerbHandler.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\db\Mutation.java
+351 same line(s)
+
+File: src\java\org\apache\cassandra\db\MutationVerbHandler.java
+85 same line(s)
+
+File: src\java\org\apache\cassandra\db\NativeCell.java
+88 same line(s)
+
+File: src\java\org\apache\cassandra\db\NativeCounterCell.java
+186 same line(s)
+
+File: src\java\org\apache\cassandra\db\NativeDecoratedKey.java
+46 same line(s)
+
+File: src\java\org\apache\cassandra\db\NativeDeletedCell.java
+119 same line(s)
+
+File: src\java\org\apache\cassandra\db\NativeExpiringCell.java
+190 same line(s)
+
+File: src\java\org\apache\cassandra\db\OnDiskAtom.java
+102 same line(s)
+
+File: src\java\org\apache\cassandra\db\PagedRangeCommand.java
+213 same line(s)
+7 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\db\RangeSliceCommand.java
+236 same line(s)
+7 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\db\RangeSliceReply.java
+89 same line(s)
+
+File: src\java\org\apache\cassandra\db\RangeTombstone.java
+237 same line(s)
+92 ignored unimportant difference line(s)
+15 important left orphan line(s)
+37 important right orphan line(s)
+20 important difference line(s)
+
+28 difference section(s)
+
+File: src\java\org\apache\cassandra\db\RangeTombstoneList.java
+939 same line(s)
+1 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\ReadCommand.java
+176 same line(s)
+
+File: src\java\org\apache\cassandra\db\ReadRepairVerbHandler.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\db\ReadResponse.java
+114 same line(s)
+
+File: src\java\org\apache\cassandra\db\ReadVerbHandler.java
+73 same line(s)
+
+File: src\java\org\apache\cassandra\db\RetriedSliceFromReadCommand.java
+56 same line(s)
+
+File: src\java\org\apache\cassandra\db\Row.java
+88 same line(s)
+
+File: src\java\org\apache\cassandra\db\RowIndexEntry.java
+232 same line(s)
+
+File: src\java\org\apache\cassandra\db\RowIteratorFactory.java
+162 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\RowPosition.java
+113 same line(s)
+
+File: src\java\org\apache\cassandra\db\SchemaCheckVerbHandler.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\db\SizeEstimatesRecorder.java
+143 same line(s)
+
+File: src\java\org\apache\cassandra\db\SliceByNamesReadCommand.java
+118 same line(s)
+7 important right orphan line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\db\SliceFromReadCommand.java
+172 same line(s)
+10 ignored unimportant difference line(s)
+25 important right orphan line(s)
+
+10 difference section(s)
+
+File: src\java\org\apache\cassandra\db\SnapshotCommand.java
+86 same line(s)
+
+File: src\java\org\apache\cassandra\db\SnapshotDetailsTabularData.java
+86 same line(s)
+
+File: src\java\org\apache\cassandra\db\SuperColumns.java
+230 same line(s)
+
+File: src\java\org\apache\cassandra\db\SystemKeyspace.java
+983 same line(s)
+11 ignored unimportant difference line(s)
+28 important right orphan line(s)
+4 important difference line(s)
+
+8 difference section(s)
+
+File: src\java\org\apache\cassandra\db\TruncateResponse.java
+76 same line(s)
+
+File: src\java\org\apache\cassandra\db\TruncateVerbHandler.java
+62 same line(s)
+
+File: src\java\org\apache\cassandra\db\Truncation.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\db\TypeSizes.java
+156 same line(s)
+
+File: src\java\org\apache\cassandra\db\UnknownColumnFamilyException.java
+33 same line(s)
+
+File: src\java\org\apache\cassandra\db\WriteResponse.java
+56 same line(s)
+
+File: src\java\org\apache\cassandra\db\WriteType.java
+28 same line(s)
+
+File: src\java\org\apache\cassandra\dht\AbstractBounds.java
+270 same line(s)
+
+File: src\java\org\apache\cassandra\dht\AbstractByteOrderedPartitioner.java
+206 same line(s)
+
+File: src\java\org\apache\cassandra\dht\AbstractPartitioner.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\dht\BigIntegerToken.java
+35 same line(s)
+
+File: src\java\org\apache\cassandra\dht\BootStrapper.java
+154 same line(s)
+
+File: src\java\org\apache\cassandra\dht\Bounds.java
+135 same line(s)
+
+File: src\java\org\apache\cassandra\dht\ByteOrderedPartitioner.java
+40 same line(s)
+
+File: src\java\org\apache\cassandra\dht\BytesToken.java
+80 same line(s)
+
+File: src\java\org\apache\cassandra\dht\ComparableObjectToken.java
+69 same line(s)
+
+File: src\java\org\apache\cassandra\dht\ExcludingBounds.java
+124 same line(s)
+
+File: src\java\org\apache\cassandra\dht\IncludingExcludingBounds.java
+123 same line(s)
+
+File: src\java\org\apache\cassandra\dht\IPartitioner.java
+90 same line(s)
+
+File: src\java\org\apache\cassandra\dht\LocalPartitioner.java
+91 same line(s)
+
+File: src\java\org\apache\cassandra\dht\LocalToken.java
+46 same line(s)
+
+File: src\java\org\apache\cassandra\dht\LongToken.java
+62 same line(s)
+
+File: src\java\org\apache\cassandra\dht\Murmur3Partitioner.java
+209 same line(s)
+
+File: src\java\org\apache\cassandra\dht\OrderPreservingPartitioner.java
+224 same line(s)
+
+File: src\java\org\apache\cassandra\dht\RandomPartitioner.java
+172 same line(s)
+
+File: src\java\org\apache\cassandra\dht\Range.java
+494 same line(s)
+
+File: src\java\org\apache\cassandra\dht\RangeStreamer.java
+319 same line(s)
+
+File: src\java\org\apache\cassandra\dht\RingPosition.java
+29 same line(s)
+
+File: src\java\org\apache\cassandra\dht\StringToken.java
+29 same line(s)
+
+File: src\java\org\apache\cassandra\dht\Token.java
+214 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\AlreadyExistsException.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\AuthenticationException.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\CassandraException.java
+40 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\ConfigurationException.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\ExceptionCode.java
+71 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\InvalidRequestException.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\IsBootstrappingException.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\OverloadedException.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\PreparedQueryNotFoundException.java
+39 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\ReadTimeoutException.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\RepairException.java
+46 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\RequestExecutionException.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\RequestTimeoutException.java
+35 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\RequestValidationException.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\SyntaxException.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\TransportException.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\TruncateException.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\UnauthorizedException.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\UnavailableException.java
+40 same line(s)
+
+File: src\java\org\apache\cassandra\exceptions\WriteTimeoutException.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\gms\ApplicationState.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\gms\EchoMessage.java
+50 same line(s)
+
+File: src\java\org\apache\cassandra\gms\EndpointState.java
+169 same line(s)
+
+File: src\java\org\apache\cassandra\gms\FailureDetector.java
+368 same line(s)
+1 ignored unimportant difference line(s)
+28 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\gms\FailureDetectorMBean.java
+40 same line(s)
+
+File: src\java\org\apache\cassandra\gms\GossipDigest.java
+105 same line(s)
+
+File: src\java\org\apache\cassandra\gms\GossipDigestAck.java
+98 same line(s)
+
+File: src\java\org\apache\cassandra\gms\GossipDigestAck2.java
+87 same line(s)
+
+File: src\java\org\apache\cassandra\gms\GossipDigestAck2VerbHandler.java
+51 same line(s)
+
+File: src\java\org\apache\cassandra\gms\GossipDigestAckVerbHandler.java
+86 same line(s)
+
+File: src\java\org\apache\cassandra\gms\GossipDigestSyn.java
+106 same line(s)
+
+File: src\java\org\apache\cassandra\gms\GossipDigestSynVerbHandler.java
+130 same line(s)
+
+File: src\java\org\apache\cassandra\gms\Gossiper.java
+1484 same line(s)
+
+File: src\java\org\apache\cassandra\gms\GossiperMBean.java
+30 same line(s)
+
+File: src\java\org\apache\cassandra\gms\GossipShutdownVerbHandler.java
+40 same line(s)
+
+File: src\java\org\apache\cassandra\gms\HeartBeatState.java
+95 same line(s)
+
+File: src\java\org\apache\cassandra\gms\IEndpointStateChangeSubscriber.java
+58 same line(s)
+
+File: src\java\org\apache\cassandra\gms\IFailureDetectionEventListener.java
+37 same line(s)
+
+File: src\java\org\apache\cassandra\gms\IFailureDetector.java
+81 same line(s)
+
+File: src\java\org\apache\cassandra\gms\TokenSerializer.java
+62 same line(s)
+
+File: src\java\org\apache\cassandra\gms\VersionedValue.java
+279 same line(s)
+
+File: src\java\org\apache\cassandra\gms\VersionGenerator.java
+35 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\cql3\CqlBulkOutputFormat.java
+117 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\cql3\CqlBulkRecordWriter.java
+211 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\cql3\CqlConfigHelper.java
+611 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\cql3\CqlInputFormat.java
+78 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\cql3\CqlOutputFormat.java
+76 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\cql3\CqlRecordReader.java
+605 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\cql3\CqlRecordWriter.java
+408 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\cql3\LimitedLocalNodeFirstLocalBalancingPolicy.java
+202 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\pig\AbstractCassandraStorage.java
+812 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\pig\CassandraStorage.java
+826 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\pig\CqlNativeStorage.java
+818 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\pig\CqlStorage.java
+41 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\AbstractBulkOutputFormat.java
+73 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\AbstractBulkRecordWriter.java
+251 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\AbstractColumnFamilyInputFormat.java
+360 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\AbstractColumnFamilyOutputFormat.java
+165 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\AbstractColumnFamilyRecordWriter.java
+193 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\BulkOutputFormat.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\BulkRecordWriter.java
+161 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\ColumnFamilyInputFormat.java
+82 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\ColumnFamilyOutputFormat.java
+69 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\ColumnFamilyRecordReader.java
+594 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\ColumnFamilyRecordWriter.java
+232 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\ColumnFamilySplit.java
+116 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\ConfigHelper.java
+610 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\HadoopCompat.java
+309 same line(s)
+
+File: src\java\org\apache\cassandra\hadoop\ReporterWrapper.java
+75 same line(s)
+
+File: src\java\org\apache\cassandra\io\compress\CompressedRandomAccessReader.java
+171 same line(s)
+
+File: src\java\org\apache\cassandra\io\compress\CompressedSequentialWriter.java
+309 same line(s)
+
+File: src\java\org\apache\cassandra\io\compress\CompressedThrottledReader.java
+55 same line(s)
+
+File: src\java\org\apache\cassandra\io\compress\CompressionMetadata.java
+486 same line(s)
+
+File: src\java\org\apache\cassandra\io\compress\CompressionParameters.java
+375 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\io\compress\CorruptBlockException.java
+43 same line(s)
+
+File: src\java\org\apache\cassandra\io\compress\DeflateCompressor.java
+116 same line(s)
+
+File: src\java\org\apache\cassandra\io\compress\ICompressor.java
+50 same line(s)
+
+File: src\java\org\apache\cassandra\io\compress\LZ4Compressor.java
+108 same line(s)
+
+File: src\java\org\apache\cassandra\io\compress\SnappyCompressor.java
+98 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\CompactionMetadata.java
+104 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\IMetadataComponentSerializer.java
+59 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\IMetadataSerializer.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\LegacyMetadataSerializer.java
+145 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\MetadataCollector.java
+266 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\MetadataComponent.java
+34 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\MetadataSerializer.java
+162 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\MetadataType.java
+38 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\StatsMetadata.java
+282 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\metadata\ValidationMetadata.java
+91 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\AbstractSSTableSimpleWriter.java
+203 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\BloomFilterTracker.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\ColumnNameHelper.java
+242 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\ColumnStats.java
+165 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\Component.java
+167 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\CorruptSSTableException.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\CQLSSTableWriter.java
+600 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\Descriptor.java
+337 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\Downsampling.java
+149 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\IndexHelper.java
+213 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\IndexSummary.java
+320 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\IndexSummaryBuilder.java
+329 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\IndexSummaryManager.java
+515 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\IndexSummaryManagerMBean.java
+45 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\ISSTableScanner.java
+34 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\KeyIterator.java
+72 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\ReducingKeyIterator.java
+108 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTable.java
+303 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTableDeletingTask.java
+133 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTableIdentityIterator.java
+171 same line(s)
+2 ignored unimportant difference line(s)
+8 important right orphan line(s)
+
+6 difference section(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTableLoader.java
+305 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTableReader.java
+2276 same line(s)
+21 ignored unimportant difference line(s)
+18 important left orphan line(s)
+23 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTableRewriter.java
+495 same line(s)
+5 ignored unimportant difference line(s)
+13 important left orphan line(s)
+17 important right orphan line(s)
+1 important difference line(s)
+
+8 difference section(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTableScanner.java
+362 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTableSimpleUnsortedWriter.java
+245 same line(s)
+2 ignored unimportant difference line(s)
+2 important left orphan line(s)
+9 important right orphan line(s)
+2 important difference line(s)
+
+7 difference section(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTableSimpleWriter.java
+92 same line(s)
+
+File: src\java\org\apache\cassandra\io\sstable\SSTableWriter.java
+679 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\AbstractDataInput.java
+335 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\AbstractDataOutput.java
+329 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\BufferedPoolingSegmentedFile.java
+55 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\BufferedSegmentedFile.java
+75 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\ChecksummedSequentialWriter.java
+59 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\CompressedPoolingSegmentedFile.java
+107 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\CompressedSegmentedFile.java
+112 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\DataIntegrityMetadata.java
+163 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\DataOutputBuffer.java
+101 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\DataOutputByteBuffer.java
+59 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\DataOutputPlus.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\DataOutputStreamAndChannel.java
+55 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\DataOutputStreamPlus.java
+57 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\DiskAwareRunnable.java
+39 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\FastByteArrayInputStream.java
+234 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\FastByteArrayOutputStream.java
+266 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\FileDataInput.java
+50 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\FileMark.java
+20 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\FileUtils.java
+451 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\IAllocator.java
+24 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\ICompressedFile.java
+25 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\JEMallocAllocator.java
+48 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\LengthAvailableInputStream.java
+98 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\MappedFileDataInput.java
+184 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\Memory.java
+402 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\MemoryInputStream.java
+63 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\MemoryOutputStream.java
+53 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\MmappedSegmentedFile.java
+267 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\NativeAllocator.java
+51 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\PoolingSegmentedFile.java
+77 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\RandomAccessReader.java
+420 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\SafeMemory.java
+100 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\SafeMemoryWriter.java
+136 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\SegmentedFile.java
+250 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\SequentialWriter.java
+502 same line(s)
+
+File: src\java\org\apache\cassandra\io\util\ThrottledReader.java
+56 same line(s)
+
+File: src\java\org\apache\cassandra\io\FSError.java
+48 same line(s)
+
+File: src\java\org\apache\cassandra\io\FSReadError.java
+39 same line(s)
+
+File: src\java\org\apache\cassandra\io\FSWriteError.java
+39 same line(s)
+
+File: src\java\org\apache\cassandra\io\ISerializer.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\io\ISSTableSerializer.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\io\IVersionedSerializer.java
+53 same line(s)
+
+File: src\java\org\apache\cassandra\locator\AbstractEndpointSnitch.java
+84 same line(s)
+
+File: src\java\org\apache\cassandra\locator\AbstractNetworkTopologySnitch.java
+66 same line(s)
+
+File: src\java\org\apache\cassandra\locator\AbstractReplicationStrategy.java
+333 same line(s)
+
+File: src\java\org\apache\cassandra\locator\CloudstackSnitch.java
+212 same line(s)
+
+File: src\java\org\apache\cassandra\locator\DynamicEndpointSnitch.java
+353 same line(s)
+
+File: src\java\org\apache\cassandra\locator\DynamicEndpointSnitchMBean.java
+39 same line(s)
+
+File: src\java\org\apache\cassandra\locator\Ec2MultiRegionSnitch.java
+64 same line(s)
+
+File: src\java\org\apache\cassandra\locator\Ec2Snitch.java
+126 same line(s)
+
+File: src\java\org\apache\cassandra\locator\EndpointSnitchInfo.java
+58 same line(s)
+
+File: src\java\org\apache\cassandra\locator\EndpointSnitchInfoMBean.java
+48 same line(s)
+
+File: src\java\org\apache\cassandra\locator\GoogleCloudSnitch.java
+128 same line(s)
+
+File: src\java\org\apache\cassandra\locator\GossipingPropertyFileSnitch.java
+206 same line(s)
+
+File: src\java\org\apache\cassandra\locator\IEndpointSnitch.java
+67 same line(s)
+
+File: src\java\org\apache\cassandra\locator\ILatencySubscriber.java
+25 same line(s)
+
+File: src\java\org\apache\cassandra\locator\LocalStrategy.java
+71 same line(s)
+
+File: src\java\org\apache\cassandra\locator\NetworkTopologyStrategy.java
+202 same line(s)
+
+File: src\java\org\apache\cassandra\locator\OldNetworkTopologyStrategy.java
+122 same line(s)
+
+File: src\java\org\apache\cassandra\locator\PropertyFileSnitch.java
+211 same line(s)
+
+File: src\java\org\apache\cassandra\locator\RackInferringSnitch.java
+37 same line(s)
+
+File: src\java\org\apache\cassandra\locator\ReconnectableSnitchHelper.java
+104 same line(s)
+4 important left orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: src\java\org\apache\cassandra\locator\SeedProvider.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\locator\SimpleSeedProvider.java
+71 same line(s)
+
+File: src\java\org\apache\cassandra\locator\SimpleSnitch.java
+52 same line(s)
+
+File: src\java\org\apache\cassandra\locator\SimpleStrategy.java
+82 same line(s)
+
+File: src\java\org\apache\cassandra\locator\SnitchProperties.java
+69 same line(s)
+
+File: src\java\org\apache\cassandra\locator\TokenMetadata.java
+1084 same line(s)
+
+File: src\java\org\apache\cassandra\locator\YamlFileNetworkTopologySnitch.java
+415 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\CacheMetrics.java
+114 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\CASClientRequestMetrics.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\ClientMetrics.java
+53 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\ClientRequestMetrics.java
+53 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\ColumnFamilyMetrics.java
+782 same line(s)
+1 ignored unimportant difference line(s)
+13 important right orphan line(s)
+
+4 difference section(s)
+
+File: src\java\org\apache\cassandra\metrics\CommitLogMetrics.java
+73 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\CompactionMetrics.java
+105 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\ConnectionMetrics.java
+136 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\CQLMetrics.java
+63 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\DefaultNameFactory.java
+71 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\DroppedMessageMetrics.java
+51 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\FileCacheMetrics.java
+66 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\HintedHandoffMetrics.java
+112 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\KeyspaceMetrics.java
+305 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\LatencyMetrics.java
+141 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\MetricNameFactory.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\ReadRepairMetrics.java
+38 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\RestorableMeter.java
+203 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\SEPMetrics.java
+108 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\StorageMetrics.java
+34 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\StreamingMetrics.java
+59 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\ThreadPoolMetricNameFactory.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\metrics\ThreadPoolMetrics.java
+100 same line(s)
+
+File: src\java\org\apache\cassandra\net\AsyncOneResponse.java
+83 same line(s)
+
+File: src\java\org\apache\cassandra\net\CallbackInfo.java
+75 same line(s)
+
+File: src\java\org\apache\cassandra\net\CompactEndpointSerializationHelper.java
+48 same line(s)
+
+File: src\java\org\apache\cassandra\net\IAsyncCallback.java
+52 same line(s)
+
+File: src\java\org\apache\cassandra\net\IAsyncCallbackWithFailure.java
+29 same line(s)
+
+File: src\java\org\apache\cassandra\net\IncomingStreamingConnection.java
+73 same line(s)
+4 ignored unimportant difference line(s)
+16 important right orphan line(s)
+4 important difference line(s)
+
+12 difference section(s)
+
+File: src\java\org\apache\cassandra\net\IncomingTcpConnection.java
+174 same line(s)
+8 ignored unimportant difference line(s)
+17 important left orphan line(s)
+23 important right orphan line(s)
+3 important difference line(s)
+
+11 difference section(s)
+
+File: src\java\org\apache\cassandra\net\IVerbHandler.java
+38 same line(s)
+
+File: src\java\org\apache\cassandra\net\MessageDeliveryTask.java
+82 same line(s)
+
+File: src\java\org\apache\cassandra\net\MessageIn.java
+129 same line(s)
+
+File: src\java\org\apache\cassandra\net\MessageOut.java
+143 same line(s)
+
+File: src\java\org\apache\cassandra\net\MessagingService.java
+1063 same line(s)
+7 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: src\java\org\apache\cassandra\net\MessagingServiceMBean.java
+87 same line(s)
+
+File: src\java\org\apache\cassandra\net\OutboundTcpConnection.java
+572 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\net\OutboundTcpConnectionPool.java
+211 same line(s)
+
+File: src\java\org\apache\cassandra\net\ResponseVerbHandler.java
+57 same line(s)
+
+File: src\java\org\apache\cassandra\net\WriteCallbackInfo.java
+54 same line(s)
+
+File: src\java\org\apache\cassandra\notifications\INotification.java
+30 same line(s)
+
+File: src\java\org\apache\cassandra\notifications\INotificationConsumer.java
+23 same line(s)
+
+File: src\java\org\apache\cassandra\notifications\MemtableRenewedNotification.java
+30 same line(s)
+
+File: src\java\org\apache\cassandra\notifications\SSTableAddedNotification.java
+29 same line(s)
+
+File: src\java\org\apache\cassandra\notifications\SSTableDeletingNotification.java
+33 same line(s)
+
+File: src\java\org\apache\cassandra\notifications\SSTableListChangedNotification.java
+38 same line(s)
+
+File: src\java\org\apache\cassandra\notifications\SSTableRepairStatusChanged.java
+33 same line(s)
+
+File: src\java\org\apache\cassandra\notifications\TruncationNotification.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\repair\messages\AnticompactionRequest.java
+56 same line(s)
+
+File: src\java\org\apache\cassandra\repair\messages\CleanupMessage.java
+29 ignored unimportant difference line(s)
+32 important right orphan line(s)
+
+8 difference section(s)
+
+File: src\java\org\apache\cassandra\repair\messages\PrepareMessage.java
+101 same line(s)
+
+File: src\java\org\apache\cassandra\repair\messages\RepairMessage.java
+104 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\repair\messages\SnapshotMessage.java
+53 same line(s)
+
+File: src\java\org\apache\cassandra\repair\messages\SyncComplete.java
+80 same line(s)
+
+File: src\java\org\apache\cassandra\repair\messages\SyncRequest.java
+95 same line(s)
+
+File: src\java\org\apache\cassandra\repair\messages\ValidationComplete.java
+90 same line(s)
+
+File: src\java\org\apache\cassandra\repair\messages\ValidationRequest.java
+81 same line(s)
+
+File: src\java\org\apache\cassandra\repair\AnticompactionTask.java
+38 ignored unimportant difference line(s)
+66 important right orphan line(s)
+
+16 difference section(s)
+
+File: src\java\org\apache\cassandra\repair\DatacenterAwareRequestCoordinator.java
+73 same line(s)
+
+File: src\java\org\apache\cassandra\repair\Differencer.java
+136 same line(s)
+
+File: src\java\org\apache\cassandra\repair\IRepairJobEventListener.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\repair\IRequestCoordinator.java
+28 same line(s)
+
+File: src\java\org\apache\cassandra\repair\IRequestProcessor.java
+23 same line(s)
+
+File: src\java\org\apache\cassandra\repair\NodePair.java
+84 same line(s)
+
+File: src\java\org\apache\cassandra\repair\ParallelRequestCoordinator.java
+49 same line(s)
+
+File: src\java\org\apache\cassandra\repair\RepairFuture.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\repair\RepairJob.java
+231 same line(s)
+
+File: src\java\org\apache\cassandra\repair\RepairJobDesc.java
+137 same line(s)
+
+File: src\java\org\apache\cassandra\repair\RepairMessageVerbHandler.java
+128 same line(s)
+2 ignored unimportant difference line(s)
+5 important left orphan line(s)
+7 important right orphan line(s)
+9 important difference line(s)
+
+8 difference section(s)
+
+File: src\java\org\apache\cassandra\repair\RepairParallelism.java
+22 same line(s)
+
+File: src\java\org\apache\cassandra\repair\RepairSession.java
+388 same line(s)
+
+File: src\java\org\apache\cassandra\repair\SequentialRequestCoordinator.java
+58 same line(s)
+
+File: src\java\org\apache\cassandra\repair\SnapshotTask.java
+78 same line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\repair\StreamingRepairTask.java
+107 same line(s)
+
+File: src\java\org\apache\cassandra\repair\TreeResponse.java
+37 same line(s)
+
+File: src\java\org\apache\cassandra\repair\Validator.java
+260 same line(s)
+
+File: src\java\org\apache\cassandra\scheduler\IRequestScheduler.java
+41 same line(s)
+
+File: src\java\org\apache\cassandra\scheduler\NoScheduler.java
+37 same line(s)
+
+File: src\java\org\apache\cassandra\scheduler\RoundRobinScheduler.java
+168 same line(s)
+
+File: src\java\org\apache\cassandra\scheduler\WeightedQueue.java
+115 same line(s)
+
+File: src\java\org\apache\cassandra\scheduler\WeightedQueueMBean.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\security\SSLFactory.java
+165 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\AbstractTextSerializer.java
+61 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\AsciiSerializer.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\BooleanSerializer.java
+61 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\BytesSerializer.java
+55 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\CollectionSerializer.java
+144 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\CounterSerializer.java
+22 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\DecimalSerializer.java
+77 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\DoubleSerializer.java
+56 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\EmptySerializer.java
+54 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\FloatSerializer.java
+57 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\InetAddressSerializer.java
+75 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\Int32Serializer.java
+54 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\IntegerSerializer.java
+54 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\ListSerializer.java
+161 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\LongSerializer.java
+54 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\MapSerializer.java
+174 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\MarshalException.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\SetSerializer.java
+126 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\TimestampSerializer.java
+130 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\TimeUUIDSerializer.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\TypeSerializer.java
+37 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\UTF8Serializer.java
+155 same line(s)
+
+File: src\java\org\apache\cassandra\serializers\UUIDSerializer.java
+56 same line(s)
+
+File: src\java\org\apache\cassandra\service\pager\AbstractQueryPager.java
+360 same line(s)
+14 ignored unimportant difference line(s)
+3 important left orphan line(s)
+16 important right orphan line(s)
+3 important difference line(s)
+
+7 difference section(s)
+
+File: src\java\org\apache\cassandra\service\pager\MultiPartitionPager.java
+147 same line(s)
+
+File: src\java\org\apache\cassandra\service\pager\NamesQueryPager.java
+108 same line(s)
+
+File: src\java\org\apache\cassandra\service\pager\Pageable.java
+41 same line(s)
+
+File: src\java\org\apache\cassandra\service\pager\PagingState.java
+88 same line(s)
+
+File: src\java\org\apache\cassandra\service\pager\QueryPager.java
+79 same line(s)
+
+File: src\java\org\apache\cassandra\service\pager\QueryPagers.java
+196 same line(s)
+
+File: src\java\org\apache\cassandra\service\pager\RangeNamesQueryPager.java
+113 same line(s)
+
+File: src\java\org\apache\cassandra\service\pager\RangeSliceQueryPager.java
+128 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\service\pager\SinglePartitionPager.java
+33 same line(s)
+
+File: src\java\org\apache\cassandra\service\pager\SliceQueryPager.java
+116 same line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\service\paxos\AbstractPaxosCallback.java
+68 same line(s)
+
+File: src\java\org\apache\cassandra\service\paxos\Commit.java
+155 same line(s)
+
+File: src\java\org\apache\cassandra\service\paxos\CommitVerbHandler.java
+40 same line(s)
+
+File: src\java\org\apache\cassandra\service\paxos\PaxosState.java
+155 same line(s)
+
+File: src\java\org\apache\cassandra\service\paxos\PrepareCallback.java
+99 same line(s)
+
+File: src\java\org\apache\cassandra\service\paxos\PrepareResponse.java
+105 same line(s)
+
+File: src\java\org\apache\cassandra\service\paxos\PrepareVerbHandler.java
+37 same line(s)
+
+File: src\java\org\apache\cassandra\service\paxos\ProposeCallback.java
+93 same line(s)
+
+File: src\java\org\apache\cassandra\service\paxos\ProposeVerbHandler.java
+38 same line(s)
+
+File: src\java\org\apache\cassandra\service\AbstractReadExecutor.java
+327 same line(s)
+
+File: src\java\org\apache\cassandra\service\AbstractRowResolver.java
+56 same line(s)
+
+File: src\java\org\apache\cassandra\service\AbstractWriteResponseHandler.java
+119 same line(s)
+
+File: src\java\org\apache\cassandra\service\ActiveRepairService.java
+428 same line(s)
+20 ignored unimportant difference line(s)
+7 important left orphan line(s)
+16 important right orphan line(s)
+14 important difference line(s)
+
+16 difference section(s)
+
+File: src\java\org\apache\cassandra\service\AsyncRepairCallback.java
+61 same line(s)
+
+File: src\java\org\apache\cassandra\service\CacheService.java
+511 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\service\CacheServiceMBean.java
+153 same line(s)
+
+File: src\java\org\apache\cassandra\service\CASRequest.java
+45 same line(s)
+
+File: src\java\org\apache\cassandra\service\CassandraDaemon.java
+662 same line(s)
+
+File: src\java\org\apache\cassandra\service\ClientState.java
+354 same line(s)
+
+File: src\java\org\apache\cassandra\service\DatacenterSyncWriteResponseHandler.java
+99 same line(s)
+
+File: src\java\org\apache\cassandra\service\DatacenterWriteResponseHandler.java
+58 same line(s)
+
+File: src\java\org\apache\cassandra\service\DigestMismatchException.java
+35 same line(s)
+
+File: src\java\org\apache\cassandra\service\EchoVerbHandler.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\service\EmbeddedCassandraService.java
+55 same line(s)
+
+File: src\java\org\apache\cassandra\service\FileCacheService.java
+189 same line(s)
+
+File: src\java\org\apache\cassandra\service\GCInspector.java
+157 same line(s)
+38 ignored unimportant difference line(s)
+1 important left orphan line(s)
+78 important right orphan line(s)
+11 important difference line(s)
+
+25 difference section(s)
+
+File: src\java\org\apache\cassandra\service\GCInspectorMXBean.java
+25 same line(s)
+
+File: src\java\org\apache\cassandra\service\IEndpointLifecycleSubscriber.java
+67 same line(s)
+
+File: src\java\org\apache\cassandra\service\IReadCommand.java
+24 same line(s)
+
+File: src\java\org\apache\cassandra\service\IResponseResolver.java
+43 same line(s)
+
+File: src\java\org\apache\cassandra\service\LoadBroadcaster.java
+98 same line(s)
+
+File: src\java\org\apache\cassandra\service\MigrationListener.java
+33 same line(s)
+
+File: src\java\org\apache\cassandra\service\MigrationManager.java
+489 same line(s)
+
+File: src\java\org\apache\cassandra\service\MigrationTask.java
+94 same line(s)
+
+File: src\java\org\apache\cassandra\service\NativeAccessMBean.java
+25 same line(s)
+
+File: src\java\org\apache\cassandra\service\PendingRangeCalculatorService.java
+194 same line(s)
+
+File: src\java\org\apache\cassandra\service\QueryState.java
+90 same line(s)
+
+File: src\java\org\apache\cassandra\service\RangeSliceResponseResolver.java
+168 same line(s)
+
+File: src\java\org\apache\cassandra\service\RangeSliceVerbHandler.java
+52 same line(s)
+
+File: src\java\org\apache\cassandra\service\ReadCallback.java
+197 same line(s)
+
+File: src\java\org\apache\cassandra\service\RowDataResolver.java
+175 same line(s)
+
+File: src\java\org\apache\cassandra\service\RowDigestResolver.java
+107 same line(s)
+
+File: src\java\org\apache\cassandra\service\SnapshotVerbHandler.java
+46 same line(s)
+
+File: src\java\org\apache\cassandra\service\StorageProxy.java
+2302 same line(s)
+10 ignored unimportant difference line(s)
+8 important left orphan line(s)
+20 important right orphan line(s)
+7 important difference line(s)
+
+11 difference section(s)
+
+File: src\java\org\apache\cassandra\service\StorageProxyMBean.java
+111 same line(s)
+
+File: src\java\org\apache\cassandra\service\StorageService.java
+4258 same line(s)
+5 ignored unimportant difference line(s)
+3 important left orphan line(s)
+27 important right orphan line(s)
+3 important difference line(s)
+
+12 difference section(s)
+
+File: src\java\org\apache\cassandra\service\StorageServiceMBean.java
+552 same line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\service\TruncateResponseHandler.java
+80 same line(s)
+
+File: src\java\org\apache\cassandra\service\WriteResponseHandler.java
+81 same line(s)
+
+File: src\java\org\apache\cassandra\sink\IMessageSink.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\sink\IRequestSink.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\sink\SinkManager.java
+100 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\compress\CompressedInputStream.java
+184 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\compress\CompressedStreamReader.java
+116 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\compress\CompressedStreamWriter.java
+127 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\compress\CompressionInfo.java
+96 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\management\ProgressInfoCompositeData.java
+108 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\management\SessionCompleteEventCompositeData.java
+71 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\management\SessionInfoCompositeData.java
+174 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\management\StreamEventJMXNotifier.java
+88 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\management\StreamStateCompositeData.java
+134 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\management\StreamSummaryCompositeData.java
+82 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\CompleteMessage.java
+48 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\FileMessageHeader.java
+171 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\IncomingFileMessage.java
+80 same line(s)
+5 ignored unimportant difference line(s)
+10 important right orphan line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\OutgoingFileMessage.java
+79 same line(s)
+5 ignored unimportant difference line(s)
+9 important left orphan line(s)
+25 important right orphan line(s)
+5 important difference line(s)
+
+12 difference section(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\PrepareMessage.java
+91 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\ReceivedMessage.java
+65 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\RetryMessage.java
+65 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\SessionFailedMessage.java
+48 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\StreamInitMessage.java
+130 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\messages\StreamMessage.java
+127 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\ConnectionHandler.java
+358 same line(s)
+2 ignored unimportant difference line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\streaming\DefaultConnectionFactory.java
+75 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\ProgressInfo.java
+114 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\ReplicationFinishedVerbHandler.java
+41 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\SessionInfo.java
+193 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamConnectionFactory.java
+30 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamCoordinator.java
+289 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamEvent.java
+83 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamEventHandler.java
+31 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamException.java
+35 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamLockfile.java
+128 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamManager.java
+178 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamManagerMBean.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamPlan.java
+199 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamReader.java
+159 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamReceiveTask.java
+159 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamRequest.java
+101 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamResultFuture.java
+217 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamSession.java
+695 same line(s)
+3 ignored unimportant difference line(s)
+3 important left orphan line(s)
+22 important right orphan line(s)
+7 important difference line(s)
+
+15 difference section(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamState.java
+53 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamSummary.java
+107 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamTask.java
+61 same line(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamTransferTask.java
+169 same line(s)
+1 ignored unimportant difference line(s)
+5 important difference line(s)
+
+4 difference section(s)
+
+File: src\java\org\apache\cassandra\streaming\StreamWriter.java
+156 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\CassandraServer.java
+2312 same line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\thrift\CustomTNonBlockingServer.java
+89 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\CustomTThreadPoolServer.java
+290 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\ITransportFactory.java
+64 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\SSLTransportFactory.java
+86 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\TCustomNonblockingServerSocket.java
+86 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\TCustomServerSocket.java
+188 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\TCustomSocket.java
+210 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\TFramedTransportFactory.java
+55 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\ThriftClientState.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\ThriftConversion.java
+133 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\ThriftServer.java
+146 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\ThriftSessionManager.java
+81 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\ThriftValidation.java
+658 same line(s)
+2 important right orphan line(s)
+8 important difference line(s)
+
+9 difference section(s)
+
+File: src\java\org\apache\cassandra\thrift\THsHaDisruptorServer.java
+108 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\TServerCustomFactory.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\thrift\TServerFactory.java
+44 same line(s)
+
+File: src\java\org\apache\cassandra\tools\AbstractJmxClient.java
+172 same line(s)
+
+File: src\java\org\apache\cassandra\tools\BulkLoadConnectionFactory.java
+68 same line(s)
+
+File: src\java\org\apache\cassandra\tools\BulkLoader.java
+701 same line(s)
+
+File: src\java\org\apache\cassandra\tools\GetVersion.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\tools\NodeProbe.java
+1470 same line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+5 difference section(s)
+
+File: src\java\org\apache\cassandra\tools\NodeTool.java
+2680 same line(s)
+1 ignored unimportant difference line(s)
+3 important left orphan line(s)
+4 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: src\java\org\apache\cassandra\tools\SSTableExport.java
+489 same line(s)
+
+File: src\java\org\apache\cassandra\tools\SSTableImport.java
+558 same line(s)
+
+File: src\java\org\apache\cassandra\tools\SSTableLevelResetter.java
+112 same line(s)
+
+File: src\java\org\apache\cassandra\tools\SSTableMetadataViewer.java
+110 same line(s)
+
+File: src\java\org\apache\cassandra\tools\SSTableOfflineRelevel.java
+203 same line(s)
+
+File: src\java\org\apache\cassandra\tools\SSTableRepairedAtSetter.java
+98 same line(s)
+
+File: src\java\org\apache\cassandra\tools\StandaloneScrubber.java
+267 same line(s)
+4 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: src\java\org\apache\cassandra\tools\StandaloneSplitter.java
+261 same line(s)
+2 ignored unimportant difference line(s)
+4 important left orphan line(s)
+2 important right orphan line(s)
+
+5 difference section(s)
+
+File: src\java\org\apache\cassandra\tools\StandaloneUpgrader.java
+215 same line(s)
+2 ignored unimportant difference line(s)
+10 important right orphan line(s)
+
+6 difference section(s)
+
+File: src\java\org\apache\cassandra\tracing\ExpiredTraceState.java
+39 same line(s)
+
+File: src\java\org\apache\cassandra\tracing\TraceState.java
+131 same line(s)
+
+File: src\java\org\apache\cassandra\tracing\Tracing.java
+263 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\AuthChallenge.java
+64 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\AuthenticateMessage.java
+62 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\AuthResponse.java
+96 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\AuthSuccess.java
+67 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\BatchMessage.java
+246 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\CredentialsMessage.java
+93 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\ErrorMessage.java
+273 same line(s)
+3 ignored unimportant difference line(s)
+7 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\transport\messages\EventMessage.java
+59 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\ExecuteMessage.java
+159 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\OptionsMessage.java
+82 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\PrepareMessage.java
+101 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\QueryMessage.java
+146 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\ReadyMessage.java
+56 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\RegisterMessage.java
+80 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\ResultMessage.java
+383 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\StartupMessage.java
+124 same line(s)
+
+File: src\java\org\apache\cassandra\transport\messages\SupportedMessage.java
+64 same line(s)
+
+File: src\java\org\apache\cassandra\transport\CBCodec.java
+27 same line(s)
+
+File: src\java\org\apache\cassandra\transport\CBUtil.java
+462 same line(s)
+
+File: src\java\org\apache\cassandra\transport\Client.java
+253 same line(s)
+
+File: src\java\org\apache\cassandra\transport\Connection.java
+77 same line(s)
+
+File: src\java\org\apache\cassandra\transport\ConnectionLimitHandler.java
+108 same line(s)
+
+File: src\java\org\apache\cassandra\transport\DataType.java
+273 same line(s)
+
+File: src\java\org\apache\cassandra\transport\Event.java
+330 same line(s)
+
+File: src\java\org\apache\cassandra\transport\Frame.java
+365 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: src\java\org\apache\cassandra\transport\FrameCompressor.java
+221 same line(s)
+
+File: src\java\org\apache\cassandra\transport\Message.java
+545 same line(s)
+
+File: src\java\org\apache\cassandra\transport\OptionCodec.java
+121 same line(s)
+
+File: src\java\org\apache\cassandra\transport\ProtocolException.java
+37 same line(s)
+
+File: src\java\org\apache\cassandra\transport\RequestThreadPoolExecutor.java
+96 same line(s)
+
+File: src\java\org\apache\cassandra\transport\Server.java
+458 same line(s)
+
+File: src\java\org\apache\cassandra\transport\ServerConnection.java
+127 same line(s)
+
+File: src\java\org\apache\cassandra\transport\ServerError.java
+42 same line(s)
+
+File: src\java\org\apache\cassandra\transport\SimpleClient.java
+286 same line(s)
+
+File: src\java\org\apache\cassandra\triggers\CustomClassLoader.java
+122 same line(s)
+
+File: src\java\org\apache\cassandra\triggers\ITrigger.java
+50 same line(s)
+2 ignored unimportant difference line(s)
+
+File: src\java\org\apache\cassandra\triggers\TriggerExecutor.java
+214 same line(s)
+32 ignored unimportant difference line(s)
+
+File: src\java\org\apache\cassandra\utils\btree\BTree.java
+431 same line(s)
+
+File: src\java\org\apache\cassandra\utils\btree\BTreeSet.java
+383 same line(s)
+
+File: src\java\org\apache\cassandra\utils\btree\Builder.java
+120 same line(s)
+
+File: src\java\org\apache\cassandra\utils\btree\Cursor.java
+198 same line(s)
+
+File: src\java\org\apache\cassandra\utils\btree\NodeBuilder.java
+429 same line(s)
+
+File: src\java\org\apache\cassandra\utils\btree\Path.java
+320 same line(s)
+
+File: src\java\org\apache\cassandra\utils\btree\UpdateFunction.java
+80 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\Locks.java
+54 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\OpOrder.java
+431 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\Ref.java
+326 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\RefCounted.java
+64 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\Refs.java
+233 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\SelfRefCounted.java
+24 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\SharedCloseable.java
+35 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\SharedCloseableImpl.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\SimpleCondition.java
+97 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\WaitQueue.java
+525 same line(s)
+
+File: src\java\org\apache\cassandra\utils\concurrent\WrappedSharedCloseable.java
+59 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\AbstractAllocator.java
+43 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\ContextAllocator.java
+59 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\HeapAllocator.java
+36 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\HeapPool.java
+102 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\MemoryUtil.java
+307 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\MemtableAllocator.java
+245 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\MemtableBufferAllocator.java
+70 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\MemtableCleanerThread.java
+74 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\MemtablePool.java
+199 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\NativeAllocator.java
+268 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\NativePool.java
+39 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\SlabAllocator.java
+228 same line(s)
+
+File: src\java\org\apache\cassandra\utils\memory\SlabPool.java
+40 same line(s)
+
+File: src\java\org\apache\cassandra\utils\obs\BitUtil.java
+815 same line(s)
+
+File: src\java\org\apache\cassandra\utils\obs\IBitSet.java
+60 same line(s)
+
+File: src\java\org\apache\cassandra\utils\obs\OffHeapBitSet.java
+180 same line(s)
+
+File: src\java\org\apache\cassandra\utils\obs\OpenBitSet.java
+446 same line(s)
+
+File: src\java\org\apache\cassandra\utils\vint\EncodedDataInputStream.java
+115 same line(s)
+
+File: src\java\org\apache\cassandra\utils\vint\EncodedDataOutputStream.java
+98 same line(s)
+
+File: src\java\org\apache\cassandra\utils\AlwaysPresentFilter.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\utils\BackgroundActivityMonitor.java
+171 same line(s)
+
+File: src\java\org\apache\cassandra\utils\BatchRemoveIterator.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\utils\BiMultiValMap.java
+146 same line(s)
+
+File: src\java\org\apache\cassandra\utils\BloomCalculations.java
+185 same line(s)
+
+File: src\java\org\apache\cassandra\utils\BloomFilter.java
+122 same line(s)
+
+File: src\java\org\apache\cassandra\utils\BloomFilterSerializer.java
+66 same line(s)
+
+File: src\java\org\apache\cassandra\utils\BooleanSerializer.java
+45 same line(s)
+
+File: src\java\org\apache\cassandra\utils\BoundedStatsDeque.java
+68 same line(s)
+
+File: src\java\org\apache\cassandra\utils\ByteBufferUtil.java
+554 same line(s)
+
+File: src\java\org\apache\cassandra\utils\BytesReadTracker.java
+151 same line(s)
+
+File: src\java\org\apache\cassandra\utils\CLibrary.java
+333 same line(s)
+
+File: src\java\org\apache\cassandra\utils\CloseableIterator.java
+26 same line(s)
+
+File: src\java\org\apache\cassandra\utils\CoalescingStrategies.java
+544 same line(s)
+
+File: src\java\org\apache\cassandra\utils\ConcurrentBiMap.java
+131 same line(s)
+
+File: src\java\org\apache\cassandra\utils\CounterId.java
+146 same line(s)
+
+File: src\java\org\apache\cassandra\utils\DefaultInteger.java
+51 same line(s)
+
+File: src\java\org\apache\cassandra\utils\EstimatedHistogram.java
+361 same line(s)
+
+File: src\java\org\apache\cassandra\utils\ExpiringMap.java
+186 same line(s)
+
+File: src\java\org\apache\cassandra\utils\FastByteOperations.java
+452 same line(s)
+
+File: src\java\org\apache\cassandra\utils\FBUtilities.java
+723 same line(s)
+
+File: src\java\org\apache\cassandra\utils\FilterFactory.java
+87 same line(s)
+
+File: src\java\org\apache\cassandra\utils\GuidGenerator.java
+113 same line(s)
+
+File: src\java\org\apache\cassandra\utils\Hex.java
+136 same line(s)
+
+File: src\java\org\apache\cassandra\utils\HistogramBuilder.java
+158 same line(s)
+
+File: src\java\org\apache\cassandra\utils\IFilter.java
+43 same line(s)
+
+File: src\java\org\apache\cassandra\utils\IMergeIterator.java
+25 same line(s)
+
+File: src\java\org\apache\cassandra\utils\Interval.java
+67 same line(s)
+
+File: src\java\org\apache\cassandra\utils\IntervalTree.java
+461 same line(s)
+
+File: src\java\org\apache\cassandra\utils\JVMStabilityInspector.java
+99 same line(s)
+
+File: src\java\org\apache\cassandra\utils\MD5Digest.java
+77 same line(s)
+
+File: src\java\org\apache\cassandra\utils\MergeIterator.java
+228 same line(s)
+
+File: src\java\org\apache\cassandra\utils\MerkleTree.java
+1097 same line(s)
+
+File: src\java\org\apache\cassandra\utils\Murmur3BloomFilter.java
+67 same line(s)
+
+File: src\java\org\apache\cassandra\utils\MurmurHash.java
+253 same line(s)
+
+File: src\java\org\apache\cassandra\utils\Mx4jTool.java
+92 same line(s)
+
+File: src\java\org\apache\cassandra\utils\NanoTimeToCurrentTimeMillis.java
+88 same line(s)
+
+File: src\java\org\apache\cassandra\utils\NoSpamLogger.java
+68 ignored unimportant difference line(s)
+171 important right orphan line(s)
+
+38 difference section(s)
+
+File: src\java\org\apache\cassandra\utils\ObjectSizes.java
+164 same line(s)
+
+File: src\java\org\apache\cassandra\utils\OutputHandler.java
+95 same line(s)
+
+File: src\java\org\apache\cassandra\utils\Pair.java
+60 same line(s)
+
+File: src\java\org\apache\cassandra\utils\PureJavaCrc32.java
+721 same line(s)
+
+File: src\java\org\apache\cassandra\utils\ResourceWatcher.java
+68 same line(s)
+
+File: src\java\org\apache\cassandra\utils\RMIServerSocketFactoryImpl.java
+34 same line(s)
+
+File: src\java\org\apache\cassandra\utils\SemanticVersion.java
+230 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: src\java\org\apache\cassandra\utils\SortedBiMultiValMap.java
+75 same line(s)
+
+File: src\java\org\apache\cassandra\utils\StatusLogger.java
+120 same line(s)
+
+File: src\java\org\apache\cassandra\utils\StreamingHistogram.java
+228 same line(s)
+
+File: src\java\org\apache\cassandra\utils\Throwables.java
+32 same line(s)
+
+File: src\java\org\apache\cassandra\utils\TopKSampler.java
+139 same line(s)
+
+File: src\java\org\apache\cassandra\utils\UUIDGen.java
+344 same line(s)
+
+File: src\java\org\apache\cassandra\utils\UUIDSerializer.java
+47 same line(s)
+
+File: src\java\org\apache\cassandra\utils\WrappedRunnable.java
+37 same line(s)
+
+File: test\long\org\apache\cassandra\concurrent\LongOpOrderTest.java
+240 same line(s)
+
+File: test\long\org\apache\cassandra\concurrent\LongSharedExecutorPoolTest.java
+228 same line(s)
+
+File: test\long\org\apache\cassandra\cql3\CorruptionTest.java
+195 same line(s)
+
+File: test\long\org\apache\cassandra\cql3\DropKeyspaceCommitLogRecycleTest.java
+91 same line(s)
+
+File: test\long\org\apache\cassandra\db\commitlog\ComitLogStress.java
+94 same line(s)
+
+File: test\long\org\apache\cassandra\db\compaction\LongCompactionsTest.java
+184 same line(s)
+
+File: test\long\org\apache\cassandra\db\compaction\LongLeveledCompactionStrategyTest.java
+105 same line(s)
+14 ignored unimportant difference line(s)
+4 important left orphan line(s)
+3 important right orphan line(s)
+6 important difference line(s)
+
+8 difference section(s)
+
+File: test\long\org\apache\cassandra\db\LongFlushMemtableTest.java
+72 same line(s)
+
+File: test\long\org\apache\cassandra\db\LongKeyspaceTest.java
+66 same line(s)
+
+File: test\long\org\apache\cassandra\io\sstable\CQLSSTableWriterLongTest.java
+105 same line(s)
+2 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: test\long\org\apache\cassandra\utils\LongBitSetTest.java
+134 same line(s)
+
+File: test\long\org\apache\cassandra\utils\LongBloomFilterTest.java
+72 same line(s)
+
+File: test\long\org\apache\cassandra\utils\LongBTreeTest.java
+401 same line(s)
+
+File: test\pig\org\apache\cassandra\pig\CqlRecordReaderTest.java
+163 same line(s)
+
+File: test\pig\org\apache\cassandra\pig\CqlTableDataTypeTest.java
+491 same line(s)
+
+File: test\pig\org\apache\cassandra\pig\CqlTableTest.java
+313 same line(s)
+
+File: test\pig\org\apache\cassandra\pig\PigTestBase.java
+193 same line(s)
+
+File: test\pig\org\apache\cassandra\pig\ThriftColumnFamilyDataTypeTest.java
+199 same line(s)
+
+File: test\pig\org\apache\cassandra\pig\ThriftColumnFamilyTest.java
+786 same line(s)
+
+File: test\pig\org\apache\pig\test\MiniCluster.java
+82 same line(s)
+
+File: test\pig\org\apache\pig\test\MiniGenericCluster.java
+122 same line(s)
+
+File: test\unit\org\apache\cassandra\cache\AutoSavingCacheTest.java
+67 same line(s)
+
+File: test\unit\org\apache\cassandra\cache\CacheProviderTest.java
+150 same line(s)
+
+File: test\unit\org\apache\cassandra\cli\CliTest.java
+323 same line(s)
+
+File: test\unit\org\apache\cassandra\client\TestRingCache.java
+121 same line(s)
+
+File: test\unit\org\apache\cassandra\concurrent\DebuggableScheduledThreadPoolExecutorTest.java
+44 ignored unimportant difference line(s)
+71 important right orphan line(s)
+
+19 difference section(s)
+
+File: test\unit\org\apache\cassandra\concurrent\DebuggableThreadPoolExecutorTest.java
+60 same line(s)
+
+File: test\unit\org\apache\cassandra\concurrent\WaitQueueTest.java
+158 same line(s)
+
+File: test\unit\org\apache\cassandra\config\CFMetaDataTest.java
+137 same line(s)
+
+File: test\unit\org\apache\cassandra\config\ColumnDefinitionTest.java
+53 same line(s)
+
+File: test\unit\org\apache\cassandra\config\DatabaseDescriptorTest.java
+266 same line(s)
+
+File: test\unit\org\apache\cassandra\config\DefsTest.java
+533 same line(s)
+
+File: test\unit\org\apache\cassandra\config\KSMetaDataTest.java
+50 same line(s)
+
+File: test\unit\org\apache\cassandra\cql\jdbc\JdbcDecimalTest.java
+40 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\statements\SelectStatementTest.java
+965 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\AlterTableTest.java
+113 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\BatchTests.java
+145 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\CollectionsTest.java
+209 same line(s)
+12 ignored unimportant difference line(s)
+2 important left orphan line(s)
+18 important right orphan line(s)
+1 important difference line(s)
+
+12 difference section(s)
+
+File: test\unit\org\apache\cassandra\cql3\ColumnConditionTest.java
+577 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\ContainsRelationTest.java
+269 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\CqlParserTest.java
+91 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\CQLTester.java
+796 same line(s)
+1 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+1 difference section(s)
+
+File: test\unit\org\apache\cassandra\cql3\CrcCheckChanceTest.java
+112 same line(s)
+13 ignored unimportant difference line(s)
+34 important right orphan line(s)
+
+11 difference section(s)
+
+File: test\unit\org\apache\cassandra\cql3\CreateIndexStatementTest.java
+101 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\CreateTableTest.java
+32 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\CreateTriggerStatementTest.java
+121 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\DeleteTest.java
+164 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\ErrorCollectorTest.java
+235 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\FrozenCollectionsTest.java
+1101 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\IndexedValuesValidationTest.java
+65 same line(s)
+24 ignored unimportant difference line(s)
+1 important left orphan line(s)
+41 important right orphan line(s)
+19 important difference line(s)
+
+27 difference section(s)
+
+File: test\unit\org\apache\cassandra\cql3\MultiColumnRelationTest.java
+808 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\NonNativeTimestampTest.java
+86 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\PreparedStatementsTest.java
+130 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\RangeDeletionTest.java
+35 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\SelectionOrderingTest.java
+233 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\SelectWithTokenFunctionTest.java
+77 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\SingleColumnRelationTest.java
+107 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\SliceQueryFilterWithTombstonesTest.java
+54 ignored unimportant difference line(s)
+112 important right orphan line(s)
+
+27 difference section(s)
+
+File: test\unit\org\apache\cassandra\cql3\SSTableMetadataTrackingTest.java
+160 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\StaticColumnsQueryTest.java
+280 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\ThriftCompatibilityTest.java
+57 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\TimestampTest.java
+36 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\TupleTypeTest.java
+101 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\TypeTest.java
+86 same line(s)
+
+File: test\unit\org\apache\cassandra\cql3\UserTypesTest.java
+114 same line(s)
+45 ignored unimportant difference line(s)
+160 important right orphan line(s)
+
+45 difference section(s)
+
+File: test\unit\org\apache\cassandra\cql3\UseStatementTest.java
+29 same line(s)
+
+File: test\unit\org\apache\cassandra\db\compaction\AntiCompactionTest.java
+211 same line(s)
+
+File: test\unit\org\apache\cassandra\db\compaction\BlacklistingCompactionsTest.java
+161 same line(s)
+3 ignored unimportant difference line(s)
+2 important left orphan line(s)
+6 important right orphan line(s)
+3 important difference line(s)
+
+5 difference section(s)
+
+File: test\unit\org\apache\cassandra\db\compaction\CompactionsPurgeTest.java
+376 same line(s)
+
+File: test\unit\org\apache\cassandra\db\compaction\CompactionsTest.java
+614 same line(s)
+
+File: test\unit\org\apache\cassandra\db\compaction\DateTieredCompactionStrategyTest.java
+322 same line(s)
+
+File: test\unit\org\apache\cassandra\db\compaction\LeveledCompactionStrategyTest.java
+281 same line(s)
+
+File: test\unit\org\apache\cassandra\db\compaction\OneCompactionTest.java
+71 same line(s)
+
+File: test\unit\org\apache\cassandra\db\compaction\SizeTieredCompactionStrategyTest.java
+168 same line(s)
+
+File: test\unit\org\apache\cassandra\db\compaction\TTLExpiryTest.java
+192 same line(s)
+
+File: test\unit\org\apache\cassandra\db\composites\CTypeTest.java
+114 same line(s)
+
+File: test\unit\org\apache\cassandra\db\context\CounterContextTest.java
+537 same line(s)
+
+File: test\unit\org\apache\cassandra\db\filter\ColumnSliceTest.java
+495 same line(s)
+
+File: test\unit\org\apache\cassandra\db\index\PerRowSecondaryIndexTest.java
+246 same line(s)
+3 ignored unimportant difference line(s)
+5 important left orphan line(s)
+13 important right orphan line(s)
+1 important difference line(s)
+
+8 difference section(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\BytesTypeTest.java
+41 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\CollectionTypeTest.java
+208 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\CompositeTypeTest.java
+306 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\DecimalTypeTest.java
+101 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\DynamicCompositeTypeTest.java
+353 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\IntegerTypeTest.java
+196 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\ReversedTypeTest.java
+40 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\RoundTripTest.java
+122 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\TimeUUIDTypeTest.java
+118 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\TypeCompareTest.java
+133 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\TypeParserTest.java
+83 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\TypeValidationTest.java
+129 same line(s)
+
+File: test\unit\org\apache\cassandra\db\marshal\UUIDTypeTest.java
+224 same line(s)
+
+File: test\unit\org\apache\cassandra\db\ArrayBackedSortedColumnsTest.java
+365 same line(s)
+
+File: test\unit\org\apache\cassandra\db\BatchlogManagerTest.java
+182 same line(s)
+
+File: test\unit\org\apache\cassandra\db\CellTest.java
+141 same line(s)
+
+File: test\unit\org\apache\cassandra\db\CleanupTest.java
+195 same line(s)
+
+File: test\unit\org\apache\cassandra\db\CollationControllerTest.java
+119 same line(s)
+
+File: test\unit\org\apache\cassandra\db\ColumnFamilyMetricTest.java
+74 same line(s)
+
+File: test\unit\org\apache\cassandra\db\ColumnFamilyStoreTest.java
+2159 same line(s)
+8 ignored unimportant difference line(s)
+35 important left orphan line(s)
+19 important right orphan line(s)
+8 important difference line(s)
+
+13 difference section(s)
+
+File: test\unit\org\apache\cassandra\db\ColumnFamilyTest.java
+255 same line(s)
+
+File: test\unit\org\apache\cassandra\db\CommitLogTest.java
+374 same line(s)
+
+File: test\unit\org\apache\cassandra\db\CounterCacheTest.java
+96 same line(s)
+
+File: test\unit\org\apache\cassandra\db\CounterCellTest.java
+318 same line(s)
+
+File: test\unit\org\apache\cassandra\db\CounterMutationTest.java
+217 same line(s)
+
+File: test\unit\org\apache\cassandra\db\DataTrackerTest.java
+24 ignored unimportant difference line(s)
+41 important right orphan line(s)
+
+7 difference section(s)
+
+File: test\unit\org\apache\cassandra\db\DirectoriesTest.java
+364 same line(s)
+
+File: test\unit\org\apache\cassandra\db\HintedHandOffTest.java
+130 same line(s)
+
+File: test\unit\org\apache\cassandra\db\KeyCacheTest.java
+203 same line(s)
+
+File: test\unit\org\apache\cassandra\db\KeyspaceTest.java
+620 same line(s)
+
+File: test\unit\org\apache\cassandra\db\MultitableTest.java
+58 same line(s)
+
+File: test\unit\org\apache\cassandra\db\NameSortTest.java
+112 same line(s)
+
+File: test\unit\org\apache\cassandra\db\NativeCellTest.java
+251 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RangeTombstoneListTest.java
+577 same line(s)
+6 ignored unimportant difference line(s)
+1 important left orphan line(s)
+14 important right orphan line(s)
+3 important difference line(s)
+
+8 difference section(s)
+
+File: test\unit\org\apache\cassandra\db\RangeTombstoneTest.java
+722 same line(s)
+
+File: test\unit\org\apache\cassandra\db\ReadMessageTest.java
+188 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RecoveryManager2Test.java
+78 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RecoveryManager3Test.java
+76 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RecoveryManagerTest.java
+173 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RecoveryManagerTruncateTest.java
+44 same line(s)
+67 ignored unimportant difference line(s)
+2 important left orphan line(s)
+71 important right orphan line(s)
+1 important difference line(s)
+
+27 difference section(s)
+
+File: test\unit\org\apache\cassandra\db\RemoveCellTest.java
+84 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RemoveColumnFamilyTest.java
+56 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RemoveColumnFamilyWithFlush1Test.java
+58 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RemoveColumnFamilyWithFlush2Test.java
+56 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RemoveSubCellTest.java
+101 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RowCacheCQLTest.java
+40 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RowCacheTest.java
+256 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RowIndexEntryTest.java
+69 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RowIterationTest.java
+106 same line(s)
+
+File: test\unit\org\apache\cassandra\db\RowTest.java
+113 same line(s)
+
+File: test\unit\org\apache\cassandra\db\ScrubTest.java
+323 same line(s)
+38 ignored unimportant difference line(s)
+9 important left orphan line(s)
+114 important right orphan line(s)
+13 important difference line(s)
+
+49 difference section(s)
+
+File: test\unit\org\apache\cassandra\db\SecondaryIndexCellSizeTest.java
+65 ignored unimportant difference line(s)
+159 important left orphan line(s)
+
+44 difference section(s)
+
+File: test\unit\org\apache\cassandra\db\SerializationsTest.java
+388 same line(s)
+
+File: test\unit\org\apache\cassandra\db\SystemKeyspaceTest.java
+80 same line(s)
+
+File: test\unit\org\apache\cassandra\db\TimeSortTest.java
+135 same line(s)
+
+File: test\unit\org\apache\cassandra\dht\BootStrapperTest.java
+114 same line(s)
+
+File: test\unit\org\apache\cassandra\dht\ByteOrderedPartitionerTest.java
+27 same line(s)
+
+File: test\unit\org\apache\cassandra\dht\KeyCollisionTest.java
+217 same line(s)
+
+File: test\unit\org\apache\cassandra\dht\Murmur3PartitionerTest.java
+41 same line(s)
+
+File: test\unit\org\apache\cassandra\dht\OrderPreservingPartitionerTest.java
+52 same line(s)
+
+File: test\unit\org\apache\cassandra\dht\PartitionerTestCase.java
+156 same line(s)
+
+File: test\unit\org\apache\cassandra\dht\RandomPartitionerTest.java
+29 same line(s)
+
+File: test\unit\org\apache\cassandra\dht\RangeTest.java
+539 same line(s)
+
+File: test\unit\org\apache\cassandra\gms\ArrivalWindowTest.java
+59 same line(s)
+
+File: test\unit\org\apache\cassandra\gms\GossipDigestTest.java
+55 same line(s)
+
+File: test\unit\org\apache\cassandra\gms\SerializationsTest.java
+128 same line(s)
+
+File: test\unit\org\apache\cassandra\hadoop\ColumnFamilyInputFormatTest.java
+52 same line(s)
+
+File: test\unit\org\apache\cassandra\io\compress\CompressedRandomAccessReaderTest.java
+233 same line(s)
+
+File: test\unit\org\apache\cassandra\io\compress\CompressedSequentialWriterTest.java
+125 same line(s)
+
+File: test\unit\org\apache\cassandra\io\compress\LZ4CompressorTest.java
+84 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\metadata\MetadataSerializerTest.java
+89 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\CQLSSTableWriterClientTest.java
+116 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\CQLSSTableWriterTest.java
+267 same line(s)
+6 ignored unimportant difference line(s)
+23 important right orphan line(s)
+
+5 difference section(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\IndexHelperTest.java
+70 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\IndexSummaryManagerTest.java
+502 same line(s)
+13 ignored unimportant difference line(s)
+59 important left orphan line(s)
+
+12 difference section(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\IndexSummaryTest.java
+287 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\LegacySSTableTest.java
+183 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\SSTableLoaderTest.java
+90 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\SSTableMetadataTest.java
+309 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\SSTableReaderTest.java
+510 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\SSTableRewriterTest.java
+810 same line(s)
+14 ignored unimportant difference line(s)
+10 important left orphan line(s)
+83 important right orphan line(s)
+10 important difference line(s)
+
+19 difference section(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\SSTableScannerTest.java
+423 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\SSTableSimpleWriterTest.java
+107 same line(s)
+
+File: test\unit\org\apache\cassandra\io\sstable\SSTableUtils.java
+218 same line(s)
+
+File: test\unit\org\apache\cassandra\io\util\BufferedRandomAccessFileTest.java
+732 same line(s)
+
+File: test\unit\org\apache\cassandra\io\util\DataOutputTest.java
+262 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: test\unit\org\apache\cassandra\io\BloomFilterTrackerTest.java
+72 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\CloudstackSnitchTest.java
+112 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\DynamicEndpointSnitchTest.java
+93 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\EC2SnitchTest.java
+124 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\GoogleCloudSnitchTest.java
+108 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\GossipingPropertyFileSnitchTest.java
+59 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\NetworkTopologyStrategyTest.java
+172 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\OldNetworkTopologyStrategyTest.java
+373 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\ReplicationStrategyEndpointCacheTest.java
+174 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\SimpleStrategyTest.java
+177 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\TokenMetadataTest.java
+87 same line(s)
+
+File: test\unit\org\apache\cassandra\locator\YamlFileNetworkTopologySnitchTest.java
+100 same line(s)
+
+File: test\unit\org\apache\cassandra\metrics\CQLMetricsTest.java
+125 same line(s)
+
+File: test\unit\org\apache\cassandra\metrics\LatencyMetricsTest.java
+50 same line(s)
+
+File: test\unit\org\apache\cassandra\repair\DifferencerTest.java
+149 same line(s)
+
+File: test\unit\org\apache\cassandra\repair\RequestCoordinatorTest.java
+124 same line(s)
+
+File: test\unit\org\apache\cassandra\repair\ValidatorTest.java
+192 same line(s)
+
+File: test\unit\org\apache\cassandra\serializers\ClientUtilsTest.java
+59 same line(s)
+
+File: test\unit\org\apache\cassandra\serializers\TimestampSerializerTest.java
+77 same line(s)
+
+File: test\unit\org\apache\cassandra\service\pager\AbstractQueryPagerTest.java
+182 same line(s)
+2 important right orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: test\unit\org\apache\cassandra\service\AntiEntropyServiceCounterTest.java
+47 same line(s)
+
+File: test\unit\org\apache\cassandra\service\AntiEntropyServiceStandardTest.java
+47 same line(s)
+
+File: test\unit\org\apache\cassandra\service\AntiEntropyServiceTestAbstract.java
+262 same line(s)
+
+File: test\unit\org\apache\cassandra\service\BatchlogEndpointFilterTest.java
+117 same line(s)
+
+File: test\unit\org\apache\cassandra\service\EmbeddedCassandraServiceTest.java
+112 same line(s)
+
+File: test\unit\org\apache\cassandra\service\InitClientTest.java
+33 same line(s)
+
+File: test\unit\org\apache\cassandra\service\LeaveAndBootstrapTest.java
+716 same line(s)
+
+File: test\unit\org\apache\cassandra\service\MoveTest.java
+595 same line(s)
+
+File: test\unit\org\apache\cassandra\service\PaxosStateTest.java
+104 same line(s)
+
+File: test\unit\org\apache\cassandra\service\QueryPagerTest.java
+357 same line(s)
+
+File: test\unit\org\apache\cassandra\service\RemoveTest.java
+153 same line(s)
+
+File: test\unit\org\apache\cassandra\service\RowResolverTest.java
+143 same line(s)
+
+File: test\unit\org\apache\cassandra\service\SerializationsTest.java
+232 same line(s)
+
+File: test\unit\org\apache\cassandra\service\StorageProxyTest.java
+243 same line(s)
+
+File: test\unit\org\apache\cassandra\service\StorageServiceAccessor.java
+29 same line(s)
+
+File: test\unit\org\apache\cassandra\service\StorageServiceClientTest.java
+46 same line(s)
+
+File: test\unit\org\apache\cassandra\service\StorageServiceServerTest.java
+511 same line(s)
+
+File: test\unit\org\apache\cassandra\streaming\compress\CompressedInputStreamTest.java
+124 same line(s)
+
+File: test\unit\org\apache\cassandra\streaming\SessionInfoTest.java
+73 same line(s)
+
+File: test\unit\org\apache\cassandra\streaming\StreamingTransferTest.java
+486 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: test\unit\org\apache\cassandra\streaming\StreamTransferTaskTest.java
+90 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: test\unit\org\apache\cassandra\thrift\MultiSliceTest.java
+178 same line(s)
+
+File: test\unit\org\apache\cassandra\thrift\ThriftValidationTest.java
+178 same line(s)
+4 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: test\unit\org\apache\cassandra\tools\SSTableExportTest.java
+377 same line(s)
+
+File: test\unit\org\apache\cassandra\tools\SSTableImportTest.java
+248 same line(s)
+
+File: test\unit\org\apache\cassandra\transport\ProtocolErrorTest.java
+103 same line(s)
+3 ignored unimportant difference line(s)
+27 important right orphan line(s)
+
+7 difference section(s)
+
+File: test\unit\org\apache\cassandra\transport\SerDeserTest.java
+216 same line(s)
+
+File: test\unit\org\apache\cassandra\triggers\TriggerExecutorTest.java
+336 same line(s)
+
+File: test\unit\org\apache\cassandra\triggers\TriggersSchemaTest.java
+126 same line(s)
+
+File: test\unit\org\apache\cassandra\triggers\TriggersTest.java
+345 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\concurrent\RefCountedTest.java
+85 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\memory\NativeAllocatorTest.java
+111 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\BitSetTest.java
+126 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\BloomFilterTest.java
+182 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\BoundedStatsDequeTest.java
+66 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\BTreeTest.java
+184 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\ByteBufferUtilTest.java
+253 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\BytesReadTrackerTest.java
+215 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\CoalescingStrategiesTest.java
+445 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\EncodedStreamsTest.java
+144 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\EstimatedHistogramTest.java
+123 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\FastByteOperationsTest.java
+162 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\FBUtilitiesTest.java
+79 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\FilterTestHelper.java
+74 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\HexTest.java
+65 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\HistogramBuilderTest.java
+109 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\IntervalTreeTest.java
+176 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\JVMStabilityInspectorTest.java
+104 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\KeyGenerator.java
+170 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\KillerForTests.java
+43 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\MergeIteratorTest.java
+96 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\MerkleTreeTest.java
+497 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\NanoTimeToCurrentTimeMillisTest.java
+52 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\NoSpamLoggerTest.java
+127 ignored unimportant difference line(s)
+251 important right orphan line(s)
+
+105 difference section(s)
+
+File: test\unit\org\apache\cassandra\utils\ResetableIterator.java
+27 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\SemanticVersionTest.java
+113 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\SerializationsTest.java
+91 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\StreamingHistogramTest.java
+124 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\TopKSamplerTest.java
+151 same line(s)
+
+File: test\unit\org\apache\cassandra\utils\UUIDTests.java
+81 same line(s)
+
+File: test\unit\org\apache\cassandra\AbstractSerializationsTester.java
+74 same line(s)
+
+File: test\unit\org\apache\cassandra\EmbeddedServer.java
+83 same line(s)
+
+File: test\unit\org\apache\cassandra\MethodComparator.java
+167 same line(s)
+
+File: test\unit\org\apache\cassandra\OffsetAwareConfigurationLoader.java
+63 same line(s)
+
+File: test\unit\org\apache\cassandra\OrderedJUnit4ClassRunner.java
+55 same line(s)
+
+File: test\unit\org\apache\cassandra\SchemaLoader.java
+482 same line(s)
+1 ignored unimportant difference line(s)
+6 important right orphan line(s)
+5 important difference line(s)
+
+7 difference section(s)
+
+File: test\unit\org\apache\cassandra\Util.java
+379 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\BigIntegers.java
+39 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Booleans.java
+37 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Bytes.java
+54 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Dates.java
+47 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Doubles.java
+37 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Floats.java
+37 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Generator.java
+73 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\GeneratorConfig.java
+65 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\HexBytes.java
+56 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\HexStrings.java
+53 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Inets.java
+57 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Integers.java
+38 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Lists.java
+55 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Longs.java
+37 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Sets.java
+54 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\Strings.java
+51 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\TimeUUIDs.java
+51 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\values\UUIDs.java
+39 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\Distribution.java
+57 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\DistributionBoundApache.java
+84 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\DistributionFactory.java
+31 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\DistributionFixed.java
+54 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\DistributionInverted.java
+65 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\DistributionOffsetApache.java
+80 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\DistributionQuantized.java
+90 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\FasterRandom.java
+116 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\PartitionGenerator.java
+104 same line(s)
+1 ignored unimportant difference line(s)
+8 important right orphan line(s)
+
+1 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\PartitionIterator.java
+617 same line(s)
+22 ignored unimportant difference line(s)
+9 important left orphan line(s)
+95 important right orphan line(s)
+21 important difference line(s)
+
+45 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\RatioDistribution.java
+51 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\RatioDistributionFactory.java
+31 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\Row.java
+41 same line(s)
+1 ignored unimportant difference line(s)
+10 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\Seed.java
+85 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\generate\SeedManager.java
+247 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\CqlCounterAdder.java
+90 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\CqlCounterGetter.java
+75 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\CqlInserter.java
+84 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\CqlOperation.java
+692 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\CqlReader.java
+86 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\PredefinedOperation.java
+244 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\ThriftCounterAdder.java
+94 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\ThriftCounterGetter.java
+67 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\ThriftInserter.java
+104 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\predefined\ThriftReader.java
+78 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\userdefined\SchemaInsert.java
+130 same line(s)
+8 important left orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\userdefined\SchemaQuery.java
+163 same line(s)
+3 important left orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\userdefined\SchemaStatement.java
+109 same line(s)
+2 ignored unimportant difference line(s)
+31 important left orphan line(s)
+1 important difference line(s)
+
+6 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\userdefined\ValidatingSchemaQuery.java
+58 ignored unimportant difference line(s)
+301 important right orphan line(s)
+
+38 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\FixedOpDistribution.java
+49 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\OpDistribution.java
+33 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\OpDistributionFactory.java
+31 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\SampledOpDistribution.java
+70 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\operations\SampledOpDistributionFactory.java
+85 same line(s)
+5 important left orphan line(s)
+9 important right orphan line(s)
+7 important difference line(s)
+
+5 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\CliOption.java
+82 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\Command.java
+140 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\CommandCategory.java
+29 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\ConnectionAPI.java
+28 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\ConnectionStyle.java
+30 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\CqlVersion.java
+69 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\GroupedOptions.java
+141 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\Legacy.java
+364 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\Option.java
+47 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\OptionAnyProbabilities.java
+95 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\OptionCompaction.java
+79 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\OptionDistribution.java
+480 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\OptionEnumProbabilities.java
+84 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\OptionMulti.java
+226 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\OptionRatioDistribution.java
+170 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\OptionReplication.java
+94 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\OptionSimple.java
+181 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsColumn.java
+236 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsCommand.java
+222 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsCommandPreDefined.java
+155 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsCommandPreDefinedMixed.java
+145 same line(s)
+3 important left orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsCommandUser.java
+148 same line(s)
+3 important right orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsErrors.java
+89 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsInsert.java
+103 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsLog.java
+120 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsMisc.java
+222 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsMode.java
+252 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsNode.java
+183 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsPopulation.java
+181 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsPort.java
+94 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsRate.java
+139 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsSamples.java
+94 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsSchema.java
+209 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\SettingsTransport.java
+166 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\StressSettings.java
+332 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\settings\ValidationType.java
+24 ignored unimportant difference line(s)
+5 important left orphan line(s)
+
+4 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\DynamicList.java
+281 same line(s)
+2 ignored unimportant difference line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\JavaDriverClient.java
+191 same line(s)
+4 important left orphan line(s)
+
+1 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\JmxCollector.java
+125 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\SampleOfLongs.java
+111 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\SimpleThriftClient.java
+111 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\SmartThriftClient.java
+282 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\ThriftClient.java
+57 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\Timer.java
+167 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\Timing.java
+150 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\TimingInterval.java
+202 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\TimingIntervals.java
+139 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\util\Uncertainty.java
+102 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\Operation.java
+212 same line(s)
+1 ignored unimportant difference line(s)
+3 important left orphan line(s)
+7 important right orphan line(s)
+1 important difference line(s)
+
+3 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\Stress.java
+155 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\StressAction.java
+341 same line(s)
+2 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\StressMetrics.java
+280 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\StressProfile.java
+550 same line(s)
+3 ignored unimportant difference line(s)
+20 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\StressServer.java
+128 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\StressYaml.java
+43 same line(s)
+
+File: tools\stress\src\org\apache\cassandra\stress\WorkManager.java
+65 same line(s)

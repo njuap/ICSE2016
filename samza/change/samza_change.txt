@@ -1,0 +1,480 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 15:16:23
+
+Ignoring Unimportant
+Left base folder: D:\APsource\samza\version1
+Right base folder: D:\APsource\samza\version2
+
+File: samza-api\src\main\java\org\apache\samza\checkpoint\Checkpoint.java
+72 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\checkpoint\CheckpointManager.java
+70 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\checkpoint\CheckpointManagerFactory.java
+30 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\config\Config.java
+218 same line(s)
+9 ignored unimportant difference line(s)
+17 important right orphan line(s)
+
+7 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\config\ConfigException.java
+41 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\config\ConfigFactory.java
+35 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\config\ConfigRewriter.java
+28 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\config\MapConfig.java
+107 same line(s)
+4 ignored unimportant difference line(s)
+13 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\container\grouper\stream\SystemStreamPartitionGrouper.java
+41 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\container\grouper\stream\SystemStreamPartitionGrouperFactory.java
+28 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\container\SamzaContainerContext.java
+46 same line(s)
+1 ignored unimportant difference line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\container\TaskName.java
+63 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\job\ApplicationStatus.java
+37 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\job\CommandBuilder.java
+42 same line(s)
+17 ignored unimportant difference line(s)
+11 important left orphan line(s)
+2 important right orphan line(s)
+9 important difference line(s)
+
+7 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\job\StreamJob.java
+64 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\job\StreamJobFactory.java
+29 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\Counter.java
+76 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\Gauge.java
+64 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\Metric.java
+27 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\MetricsRegistry.java
+82 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\MetricsReporter.java
+32 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\MetricsReporterFactory.java
+29 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\MetricsVisitor.java
+43 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\ReadableMetricsRegistry.java
+37 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\ReadableMetricsRegistryListener.java
+28 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\Reservoir.java
+46 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\SlidingTimeWindowReservoir.java
+150 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\Snapshot.java
+96 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\metrics\Timer.java
+98 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\serializers\Deserializer.java
+36 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\serializers\Serde.java
+30 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\serializers\SerdeFactory.java
+30 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\serializers\Serializer.java
+34 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\storage\StorageEngine.java
+59 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\storage\StorageEngineFactory.java
+58 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\chooser\BaseMessageChooser.java
+37 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\chooser\MessageChooser.java
+130 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\chooser\MessageChooserFactory.java
+30 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\IncomingMessageEnvelope.java
+110 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\OutgoingMessageEnvelope.java
+166 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\SystemAdmin.java
+53 same line(s)
+6 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\SystemConsumer.java
+178 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\SystemFactory.java
+35 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\SystemProducer.java
+60 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\SystemStream.java
+94 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\SystemStreamMetadata.java
+234 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\SystemStreamPartition.java
+123 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\system\SystemStreamPartitionIterator.java
+90 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\task\ClosableTask.java
+30 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\task\InitableTask.java
+36 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\task\MessageCollector.java
+37 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\task\StreamTask.java
+50 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\task\TaskContext.java
+39 same line(s)
+10 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\task\TaskCoordinator.java
+87 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\task\TaskLifecycleListener.java
+82 ignored unimportant difference line(s)
+11 important left orphan line(s)
+
+9 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\task\TaskLifecycleListenerFactory.java
+24 ignored unimportant difference line(s)
+5 important left orphan line(s)
+
+3 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\task\WindowableTask.java
+39 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\util\BlockingEnvelopeMap.java
+274 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\util\Clock.java
+27 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\util\NoOpMetricsRegistry.java
+61 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\util\SinglePartitionWithoutOffsetsSystemAdmin.java
+66 same line(s)
+1 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+3 difference section(s)
+
+File: samza-api\src\main\java\org\apache\samza\Partition.java
+73 same line(s)
+
+File: samza-api\src\main\java\org\apache\samza\SamzaException.java
+43 same line(s)
+
+File: samza-api\src\test\java\org\apache\samza\config\TestConfig.java
+63 same line(s)
+3 ignored unimportant difference line(s)
+16 important right orphan line(s)
+1 important difference line(s)
+
+4 difference section(s)
+
+File: samza-api\src\test\java\org\apache\samza\metrics\TestSlidingTimeWindowReservoir.java
+88 same line(s)
+
+File: samza-api\src\test\java\org\apache\samza\metrics\TestSnapshot.java
+45 same line(s)
+
+File: samza-api\src\test\java\org\apache\samza\metrics\TestTimer.java
+72 same line(s)
+
+File: samza-api\src\test\java\org\apache\samza\system\TestSystemStreamPartitionIterator.java
+126 same line(s)
+
+File: samza-api\src\test\java\org\apache\samza\util\TestBlockingEnvelopeMap.java
+210 same line(s)
+
+File: samza-api\src\test\java\org\apache\samza\util\TestNoOpMetricsRegistry.java
+70 same line(s)
+
+File: samza-api\src\test\java\org\apache\samza\util\TestSinglePartitionWithoutOffsetsSystemAdmin.java
+51 same line(s)
+
+File: samza-core\src\main\java\org\apache\samza\job\model\ContainerModel.java
+41 ignored unimportant difference line(s)
+51 important right orphan line(s)
+
+10 difference section(s)
+
+File: samza-core\src\main\java\org\apache\samza\job\model\JobModel.java
+39 ignored unimportant difference line(s)
+51 important right orphan line(s)
+
+9 difference section(s)
+
+File: samza-core\src\main\java\org\apache\samza\job\model\TaskModel.java
+41 ignored unimportant difference line(s)
+67 important right orphan line(s)
+
+11 difference section(s)
+
+File: samza-core\src\main\java\org\apache\samza\serializers\model\JsonContainerModelMixIn.java
+27 ignored unimportant difference line(s)
+15 important right orphan line(s)
+
+5 difference section(s)
+
+File: samza-core\src\main\java\org\apache\samza\serializers\model\JsonJobModelMixIn.java
+26 ignored unimportant difference line(s)
+15 important right orphan line(s)
+
+5 difference section(s)
+
+File: samza-core\src\main\java\org\apache\samza\serializers\model\JsonTaskModelMixIn.java
+27 ignored unimportant difference line(s)
+18 important right orphan line(s)
+
+6 difference section(s)
+
+File: samza-core\src\main\java\org\apache\samza\serializers\model\SamzaObjectMapper.java
+63 ignored unimportant difference line(s)
+135 important right orphan line(s)
+
+19 difference section(s)
+
+File: samza-core\src\test\java\org\apache\samza\serializers\model\TestSamzaObjectMapper.java
+21 ignored unimportant difference line(s)
+38 important right orphan line(s)
+
+3 difference section(s)
+
+File: samza-kafka\src\test\java\org\apache\samza\system\kafka\MockKafkaProducer.java
+63 ignored unimportant difference line(s)
+183 important right orphan line(s)
+
+32 difference section(s)
+
+File: samza-kafka\src\test\java\org\apache\samza\utils\TestUtils.java
+52 ignored unimportant difference line(s)
+60 important right orphan line(s)
+
+14 difference section(s)
+
+File: samza-kv\src\main\java\org\apache\samza\storage\kv\Entry.java
+46 same line(s)
+
+File: samza-kv\src\main\java\org\apache\samza\storage\kv\KeyValueIterator.java
+26 same line(s)
+
+File: samza-kv\src\main\java\org\apache\samza\storage\kv\KeyValueStore.java
+81 same line(s)
+
+File: samza-log4j\src\main\java\org\apache\samza\config\Log4jSystemConfig.java
+62 ignored unimportant difference line(s)
+61 important right orphan line(s)
+
+13 difference section(s)
+
+File: samza-log4j\src\main\java\org\apache\samza\logging\log4j\serializers\LoggingEventJsonSerde.java
+88 ignored unimportant difference line(s)
+104 important right orphan line(s)
+
+22 difference section(s)
+
+File: samza-log4j\src\main\java\org\apache\samza\logging\log4j\serializers\LoggingEventJsonSerdeFactory.java
+25 ignored unimportant difference line(s)
+13 important right orphan line(s)
+
+3 difference section(s)
+
+File: samza-log4j\src\main\java\org\apache\samza\logging\log4j\serializers\LoggingEventStringSerde.java
+37 ignored unimportant difference line(s)
+35 important right orphan line(s)
+
+6 difference section(s)
+
+File: samza-log4j\src\main\java\org\apache\samza\logging\log4j\serializers\LoggingEventStringSerdeFactory.java
+21 ignored unimportant difference line(s)
+11 important right orphan line(s)
+
+3 difference section(s)
+
+File: samza-log4j\src\main\java\org\apache\samza\logging\log4j\JmxAppender.java
+125 same line(s)
+
+File: samza-log4j\src\main\java\org\apache\samza\logging\log4j\StreamAppender.java
+75 ignored unimportant difference line(s)
+161 important right orphan line(s)
+
+28 difference section(s)
+
+File: samza-log4j\src\test\java\org\apache\samza\config\TestLog4jSystemConfig.java
+42 ignored unimportant difference line(s)
+54 important right orphan line(s)
+
+18 difference section(s)
+
+File: samza-log4j\src\test\java\org\apache\samza\logging\log4j\serializers\TestLoggingEventStringSerde.java
+26 ignored unimportant difference line(s)
+18 important right orphan line(s)
+
+8 difference section(s)
+
+File: samza-log4j\src\test\java\org\apache\samza\logging\log4j\MockSystemFactory.java
+24 ignored unimportant difference line(s)
+21 important right orphan line(s)
+
+6 difference section(s)
+
+File: samza-log4j\src\test\java\org\apache\samza\logging\log4j\MockSystemProducer.java
+27 ignored unimportant difference line(s)
+26 important right orphan line(s)
+
+9 difference section(s)
+
+File: samza-log4j\src\test\java\org\apache\samza\logging\log4j\TestJmxAppender.java
+139 same line(s)
+
+File: samza-log4j\src\test\java\org\apache\samza\logging\log4j\TestStreamAppender.java
+39 ignored unimportant difference line(s)
+76 important right orphan line(s)
+
+16 difference section(s)
+
+File: samza-test\src\main\java\org\apache\samza\system\mock\MockSystemAdmin.java
+65 same line(s)
+2 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+3 difference section(s)
+
+File: samza-test\src\main\java\org\apache\samza\system\mock\MockSystemConsumer.java
+172 same line(s)
+
+File: samza-test\src\main\java\org\apache\samza\system\mock\MockSystemFactory.java
+99 same line(s)
+
+File: samza-test\src\main\java\org\apache\samza\test\integration\join\Checker.java
+75 same line(s)
+6 ignored unimportant difference line(s)
+1 important left orphan line(s)
+20 important right orphan line(s)
+10 important difference line(s)
+
+15 difference section(s)
+
+File: samza-test\src\main\java\org\apache\samza\test\integration\join\Emitter.java
+91 same line(s)
+7 ignored unimportant difference line(s)
+9 important left orphan line(s)
+5 important right orphan line(s)
+4 important difference line(s)
+
+8 difference section(s)
+
+File: samza-test\src\main\java\org\apache\samza\test\integration\join\EpochPartitioner.java
+31 same line(s)
+1 ignored unimportant difference line(s)
+3 important right orphan line(s)
+
+1 difference section(s)
+
+File: samza-test\src\main\java\org\apache\samza\test\integration\join\Joiner.java
+109 same line(s)
+2 ignored unimportant difference line(s)
+15 important right orphan line(s)
+3 important difference line(s)
+
+13 difference section(s)
+
+File: samza-test\src\main\java\org\apache\samza\test\integration\join\Watcher.java
+61 same line(s)
+4 ignored unimportant difference line(s)
+31 important left orphan line(s)
+5 important right orphan line(s)
+1 important difference line(s)
+
+9 difference section(s)
+
+File: samza-test\src\main\java\org\apache\samza\test\integration\NegateNumberTask.java
+38 ignored unimportant difference line(s)
+38 important right orphan line(s)
+
+8 difference section(s)
+
+File: samza-test\src\main\java\org\apache\samza\test\integration\SimpleStatefulTask.java
+54 same line(s)
+6 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: samza-test\src\main\java\org\apache\samza\test\integration\StatePerfTestTask.java
+54 same line(s)
+4 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)

@@ -1,0 +1,2276 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 14:24:20
+
+Ignoring Unimportant
+Left base folder: D:\APsource\continum\version1
+Right base folder: D:\APsource\continum\version2
+
+File: continuum-api\src\main\java\org\apache\continuum\builder\distributed\executor\DistributedBuildTaskExecutor.java
+33 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\builder\distributed\executor\DistributedBuildTaskQueueExecutor.java
+65 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\builder\distributed\manager\DistributedBuildManager.java
+128 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\builder\distributed\work\ContinuumWorker.java
+25 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\builder\distributed\DistributedBuildService.java
+49 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\buildmanager\BuildManagerException.java
+42 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\buildmanager\BuildsManager.java
+476 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\buildqueue\BuildQueueService.java
+48 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\buildqueue\BuildQueueServiceException.java
+42 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\configuration\BuildAgentConfiguration.java
+71 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\configuration\BuildAgentConfigurationException.java
+39 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\configuration\BuildAgentGroupConfiguration.java
+81 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\configuration\ContinuumConfiguration.java
+53 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\configuration\ContinuumConfigurationException.java
+45 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\configuration\GeneralConfiguration.java
+188 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\configuration\ProxyConfiguration.java
+100 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\BuildDefinitionDao.java
+128 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\BuildDefinitionTemplateDao.java
+70 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\BuildQueueDao.java
+49 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\BuildResultDao.java
+107 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\ContinuumReleaseResultDao.java
+50 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\DaoUtils.java
+44 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\DirectoryPurgeConfigurationDao.java
+54 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\DistributedDirectoryPurgeConfigurationDao.java
+103 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\InstallationDao.java
+50 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\LocalRepositoryDao.java
+54 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\NotifierDao.java
+36 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\ProfileDao.java
+47 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\ProjectDao.java
+84 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\ProjectGroupDao.java
+172 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\ProjectScmRootDao.java
+51 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\RepositoryPurgeConfigurationDao.java
+52 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\ScheduleDao.java
+51 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\dao\SystemConfigurationDao.java
+38 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\purge\controller\PurgeController.java
+40 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\purge\executor\ContinuumPurgeExecutor.java
+33 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\purge\executor\ContinuumPurgeExecutorException.java
+44 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\purge\repository\content\RepositoryManagedContent.java
+186 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\purge\repository\scanner\RepositoryScanner.java
+52 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\purge\ContinuumPurgeManager.java
+71 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\purge\ContinuumPurgeManagerException.java
+44 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\purge\PurgeConfigurationService.java
+122 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\purge\PurgeConfigurationServiceException.java
+44 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\release\distributed\manager\DistributedReleaseManager.java
+84 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\repository\RepositoryService.java
+112 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\repository\RepositoryServiceException.java
+44 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\taskqueue\manager\TaskQueueManager.java
+97 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\taskqueue\manager\TaskQueueManagerException.java
+39 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\taskqueue\BuildProjectTask.java
+159 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\taskqueue\CheckOutTask.java
+112 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\taskqueue\OverallBuildQueue.java
+397 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\taskqueue\OverallDistributedBuildQueue.java
+56 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\taskqueue\PrepareBuildProjectsTask.java
+99 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\utils\build\BuildTrigger.java
+69 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\utils\release\ReleaseUtil.java
+194 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\utils\shell\DefaultShellCommandHelper.java
+228 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\utils\shell\ExecutionResult.java
+39 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\utils\shell\ShellCommandHelper.java
+54 same line(s)
+
+File: continuum-api\src\main\java\org\apache\continuum\utils\ProjectSorter.java
+176 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\build\settings\SchedulesActivationException.java
+48 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\build\settings\SchedulesActivator.java
+89 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\builddefinition\BuildDefinitionService.java
+127 same line(s)
+2 ignored unimportant difference line(s)
+2 important right orphan line(s)
+
+1 difference section(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\builddefinition\BuildDefinitionServiceException.java
+65 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\builddefinition\BuildDefinitionUpdatePolicyConstants.java
+34 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\configuration\ConfigurationException.java
+45 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\configuration\ConfigurationLoadingException.java
+45 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\configuration\ConfigurationService.java
+162 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\configuration\ConfigurationStoringException.java
+45 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\execution\ContinuumBuildCancelledException.java
+40 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\execution\ContinuumBuildExecutionResult.java
+50 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\execution\ContinuumBuildExecutor.java
+64 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\execution\ContinuumBuildExecutorConstants.java
+37 same line(s)
+8 ignored unimportant difference line(s)
+4 important right orphan line(s)
+
+1 difference section(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\execution\ContinuumBuildExecutorException.java
+40 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\execution\ExecutorConfigurator.java
+106 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\initialization\ContinuumInitializationException.java
+45 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\initialization\ContinuumInitializer.java
+35 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\installation\AlreadyExistsInstallationException.java
+51 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\installation\InstallationException.java
+41 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\installation\InstallationService.java
+103 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\notification\ContinuumNotificationDispatcher.java
+85 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\profile\AlreadyExistsProfileException.java
+51 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\profile\ProfileException.java
+43 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\profile\ProfileService.java
+90 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\project\builder\ContinuumProjectBuilder.java
+57 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\project\builder\ContinuumProjectBuilderException.java
+40 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\project\builder\ContinuumProjectBuildingResult.java
+237 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\release\ContinuumReleaseException.java
+45 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\release\ContinuumReleaseManager.java
+199 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\release\ContinuumReleaseManagerListener.java
+47 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\store\ContinuumObjectNotFoundException.java
+40 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\store\ContinuumStoreException.java
+40 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\utils\WorkingDirectoryService.java
+42 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\Continuum.java
+648 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\ContinuumException.java
+40 same line(s)
+
+File: continuum-api\src\main\java\org\apache\maven\continuum\ContinuumRuntimeException.java
+36 same line(s)
+
+File: continuum-api\src\test\java\org\apache\continuum\utils\ProjectSorterTest.java
+226 same line(s)
+
+File: continuum-artifact-manager\src\main\java\org\apache\maven\artifact\manager\DefaultWagonManager.java
+269 ignored unimportant difference line(s)
+873 important right orphan line(s)
+
+168 difference section(s)
+
+File: continuum-base\continuum-configuration\src\main\java\org\apache\continuum\configuration\DefaultContinuumConfiguration.java
+360 same line(s)
+
+File: continuum-base\continuum-configuration\src\test\java\org\apache\continuum\configuration\TestDefaultContinuumConfiguration.java
+166 same line(s)
+
+File: continuum-base\continuum-scm\src\main\java\org\apache\continuum\scm\manager\spring\ScmProviderFactoryBean.java
+102 same line(s)
+
+File: continuum-base\continuum-scm\src\main\java\org\apache\continuum\scm\manager\ScmManager.java
+54 same line(s)
+
+File: continuum-base\continuum-scm\src\main\java\org\apache\continuum\scm\manager\Slf4jScmLogger.java
+118 same line(s)
+
+File: continuum-base\continuum-scm\src\main\java\org\apache\continuum\scm\ContinuumScm.java
+74 same line(s)
+
+File: continuum-base\continuum-scm\src\main\java\org\apache\continuum\scm\ContinuumScmConfiguration.java
+147 same line(s)
+
+File: continuum-base\continuum-scm\src\main\java\org\apache\continuum\scm\ContinuumScmUtils.java
+84 same line(s)
+
+File: continuum-base\continuum-scm\src\main\java\org\apache\continuum\scm\DefaultContinuumScm.java
+247 same line(s)
+
+File: continuum-base\continuum-scm\src\test\java\org\apache\continuum\scm\manager\ScmManagerTest.java
+93 same line(s)
+
+File: continuum-base\continuum-scm\src\test\java\org\apache\continuum\scm\ContinuumScmUtilsTest.java
+95 same line(s)
+
+File: continuum-base\continuum-scm\src\test\java\org\apache\continuum\scm\DefaultContinuumScmTest.java
+107 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-api\src\main\java\org\apache\continuum\buildagent\configuration\BuildAgentConfigurationException.java
+39 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-api\src\main\java\org\apache\continuum\buildagent\configuration\BuildAgentConfigurationService.java
+56 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-api\src\main\java\org\apache\continuum\buildagent\ContinuumBuildAgentException.java
+39 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-api\src\main\java\org\apache\continuum\buildagent\ContinuumBuildAgentService.java
+173 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-api\src\main\java\org\apache\continuum\buildagent\NoBuildAgentException.java
+39 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-api\src\main\java\org\apache\continuum\buildagent\NoBuildAgentInGroupException.java
+39 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\action\ChangeLogProjectAction.java
+138 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\action\CheckoutProjectAction.java
+230 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\action\CheckWorkingDirectoryAction.java
+60 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\action\CleanWorkingDirectoryAction.java
+63 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\action\CreateBuildProjectTaskAction.java
+90 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\action\ExecuteBuilderAction.java
+137 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\action\UpdateProjectFromWorkingDirectoryAction.java
+71 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\action\UpdateWorkingDirectoryAction.java
+305 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\ant\AntBuildExecutor.java
+104 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\manager\BuildAgentBuildExecutorManager.java
+33 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\manager\DefaultBuildAgentBuildExecutorManager.java
+91 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\maven\m1\BuildAgentMavenOneMetadataHelper.java
+33 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\maven\m1\BuildAgentMavenOneMetadataHelperException.java
+39 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\maven\m1\DefaultBuildAgentMavenOneMetadataHelper.java
+369 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\maven\m1\MavenOneBuildExecutor.java
+151 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\maven\m2\BuildAgentMavenBuilderHelper.java
+35 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\maven\m2\DefaultBuildAgentMavenBuilderHelper.java
+723 same line(s)
+3 ignored unimportant difference line(s)
+2 important left orphan line(s)
+4 important right orphan line(s)
+
+3 difference section(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\maven\m2\MavenTwoBuildExecutor.java
+302 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\maven\m2\SettingsConfigurationException.java
+56 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\shell\ShellBuildExecutor.java
+62 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\AbstractBuildExecutor.java
+608 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\ContinuumAgentBuildCancelledException.java
+36 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\ContinuumAgentBuildExecutionResult.java
+46 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\ContinuumAgentBuildExecutor.java
+52 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\build\execution\ContinuumAgentBuildExecutorException.java
+39 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\buildcontext\manager\BuildContextManager.java
+40 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\buildcontext\manager\DefaultBuildContextManager.java
+82 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\buildcontext\BuildContext.java
+401 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\configuration\BuildAgentConfiguration.java
+44 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\configuration\DefaultBuildAgentConfiguration.java
+189 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\configuration\DefaultBuildAgentConfigurationService.java
+170 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\configuration\GeneralBuildAgentConfiguration.java
+101 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\installation\BuildAgentInstallationService.java
+45 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\installation\DefaultBuildAgentInstallationService.java
+66 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\manager\BuildAgentManager.java
+53 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\manager\BuildAgentPurgeManager.java
+28 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\manager\BuildAgentReleaseManager.java
+60 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\manager\DefaultBuildAgentManager.java
+252 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\manager\DefaultBuildAgentPurgeManager.java
+183 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\manager\DefaultBuildAgentReleaseManager.java
+339 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\taskqueue\execution\BuildProjectTaskExecutor.java
+618 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\taskqueue\execution\PrepareBuildProjectsTaskExecutor.java
+437 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\taskqueue\manager\BuildAgentTaskQueueManager.java
+76 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\taskqueue\manager\DefaultBuildAgentTaskQueueManager.java
+386 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\taskqueue\PrepareBuildProjectsTask.java
+86 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\utils\BuildContextToBuildDefinition.java
+48 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\utils\BuildContextToProject.java
+58 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\utils\ContinuumBuildAgentUtil.java
+909 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\utils\WorkingCopyContentGenerator.java
+203 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\main\java\org\apache\continuum\buildagent\ContinuumBuildAgentServiceImpl.java
+1283 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\build\execution\maven\m2\DefaultBuildAgentMavenBuilderHelperTest.java
+28 ignored unimportant difference line(s)
+52 important right orphan line(s)
+
+10 difference section(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\configuration\BuildAgentConfigurationTest.java
+193 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\manager\BuildAgentPurgeManagerTest.java
+307 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\manager\BuildAgentReleaseManagerTest.java
+318 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\stubs\ContinuumActionStub.java
+42 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\stubs\ContinuumReleaseManagerStub.java
+52 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\taskqueue\execution\BuildProjectTaskExecutorTest.java
+415 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webapp\src\main\java\org\apache\continuum\web\startup\BuildAgentStartup.java
+70 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\util\IndexWriter.java
+129 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\util\WebdavMethodUtil.java
+50 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\util\WorkingCopyPathUtil.java
+121 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\ContinuumBuildAgentDavLocatorFactory.java
+69 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\ContinuumBuildAgentDavResource.java
+405 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\ContinuumBuildAgentDavResourceFactory.java
+177 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\ContinuumBuildAgentDavResourceLocator.java
+156 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\ContinuumBuildAgentDavSession.java
+56 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\ContinuumBuildAgentDavSessionProvider.java
+97 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\main\java\org\apache\continuum\webdav\WorkingCopyServlet.java
+213 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\util\WorkingCopyPathUtilTest.java
+52 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\ContinuumBuildAgentDavResourceFactoryTest.java
+157 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\ContinuumBuildAgentDavResourceLocatorTest.java
+111 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\ContinuumBuildAgentDavResourceTest.java
+165 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\ContinuumBuildAgentDavSessionProviderTest.java
+403 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\ContinuumBuildAgentDavSessionTest.java
+67 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\MockContinuumBuildAgentDavResource.java
+72 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\MockContinuumBuildAgentDavResourceFactory.java
+66 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\MockWorkingCopyServlet.java
+45 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\WorkingCopyServletTest.java
+201 same line(s)
+
+File: continuum-buildagent\continuum-buildagent-webdav-client\src\main\java\org\apache\continuum\buildagent\webdav\client\WorkingCopyWebdavClient.java
+225 same line(s)
+
+File: continuum-builder\src\main\java\org\apache\continuum\builder\distributed\executor\DistributedBuildProjectTaskExecutor.java
+460 same line(s)
+1 ignored unimportant difference line(s)
+7 important right orphan line(s)
+
+2 difference section(s)
+
+File: continuum-builder\src\main\java\org\apache\continuum\builder\distributed\executor\ThreadedDistributedBuildTaskQueueExecutor.java
+360 same line(s)
+
+File: continuum-builder\src\main\java\org\apache\continuum\builder\distributed\taskqueue\DefaultOverallDistributedBuildQueue.java
+157 same line(s)
+
+File: continuum-builder\src\main\java\org\apache\continuum\builder\utils\ContinuumBuildConstant.java
+646 same line(s)
+
+File: continuum-commons\src\main\java\org\apache\continuum\buildqueue\DefaultBuildQueueService.java
+157 same line(s)
+
+File: continuum-commons\src\main\java\org\apache\continuum\installation\DefaultInstallationService.java
+484 same line(s)
+
+File: continuum-commons\src\main\java\org\apache\continuum\profile\DefaultProfileService.java
+318 same line(s)
+
+File: continuum-commons\src\main\java\org\apache\continuum\utils\ContinuumUtils.java
+75 same line(s)
+
+File: continuum-commons\src\main\java\org\apache\maven\continuum\configuration\DefaultConfigurationService.java
+830 same line(s)
+
+File: continuum-commons\src\main\java\org\apache\maven\continuum\utils\ChrootJailWorkingDirectoryService.java
+90 same line(s)
+
+File: continuum-commons\src\main\java\org\apache\maven\continuum\utils\ContinuumUrlValidator.java
+161 same line(s)
+
+File: continuum-commons\src\main\java\org\apache\maven\continuum\utils\DefaultWorkingDirectoryService.java
+174 same line(s)
+
+File: continuum-commons\src\main\java\org\apache\maven\continuum\utils\URLUserInfo.java
+62 same line(s)
+
+File: continuum-commons\src\test\java\org\apache\continuum\installation\DefaultInstallationServiceTest.java
+225 same line(s)
+
+File: continuum-commons\src\test\java\org\apache\continuum\profile\DefaultProfileServiceTest.java
+314 same line(s)
+
+File: continuum-commons\src\test\java\org\apache\continuum\utils\ContinuumUtilsTest.java
+41 same line(s)
+
+File: continuum-commons\src\test\java\org\apache\maven\continuum\configuration\ConfigurationServiceTest.java
+197 same line(s)
+
+File: continuum-commons\src\test\java\org\apache\maven\continuum\utils\ContinuumUrlValidatorTest.java
+171 same line(s)
+
+File: continuum-commons\src\test\java\org\apache\maven\continuum\utils\DefaultWorkingDirectoryServiceTest.java
+177 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\builder\distributed\manager\DefaultDistributedBuildManager.java
+2171 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\builder\distributed\util\DistributedBuildUtil.java
+199 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\builder\distributed\work\DefaultContinuumWorker.java
+222 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\builder\distributed\DefaultDistributedBuildService.java
+800 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\buildmanager\ParallelBuildsManager.java
+1788 same line(s)
+6 ignored unimportant difference line(s)
+9 important left orphan line(s)
+17 important right orphan line(s)
+9 important difference line(s)
+
+12 difference section(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\purge\DefaultContinuumPurgeManager.java
+198 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\release\distributed\manager\DefaultDistributedReleaseManager.java
+925 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\release\distributed\DistributedReleaseUtil.java
+316 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\repository\DefaultRepositoryService.java
+259 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\taskqueue\manager\DefaultTaskQueueManager.java
+408 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\taskqueue\DefaultOverallBuildQueue.java
+716 same line(s)
+
+File: continuum-core\src\main\java\org\apache\continuum\taskqueueexecutor\ParallelBuildsThreadedTaskQueueExecutor.java
+362 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\build\settings\DefaultSchedulesActivator.java
+306 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\buildcontroller\BuildContext.java
+175 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\buildcontroller\BuildController.java
+36 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\buildcontroller\BuildProjectTaskExecutor.java
+51 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\buildcontroller\DefaultBuildController.java
+804 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\builddefinition\DefaultBuildDefinitionService.java
+678 same line(s)
+5 ignored unimportant difference line(s)
+22 important right orphan line(s)
+
+4 difference section(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\buildqueue\evaluator\BuildProjectTaskViabilityEvaluator.java
+140 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\AbstractBuildDefinitionContinuumAction.java
+217 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\AbstractContinuumAction.java
+419 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\AbstractValidationContinuumAction.java
+40 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\AddAssignableRolesAction.java
+82 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\AddBuildDefinitionToProjectAction.java
+81 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\AddBuildDefinitionToProjectGroupAction.java
+76 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\AddProjectToCheckOutQueueAction.java
+86 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\CheckoutProjectContinuumAction.java
+357 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\CheckWorkingDirectoryAction.java
+92 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\CleanWorkingDirectoryAction.java
+72 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\CreateBuildProjectTaskAction.java
+126 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\CreateProjectsFromMetadataAction.java
+364 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\DeployArtifactContinuumAction.java
+141 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\ExecuteBuilderContinuumAction.java
+232 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\RemoveAssignableRolesAction.java
+80 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\RemoveBuildDefinitionFromProjectAction.java
+59 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\RemoveBuildDefinitionFromProjectGroupAction.java
+63 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\StoreCheckOutScmResultAction.java
+66 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\StoreProjectAction.java
+101 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\StoreProjectGroupAction.java
+56 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\UpdateBuildDefinitionFromProjectAction.java
+59 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\UpdateBuildDefinitionFromProjectGroupAction.java
+58 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\UpdateProjectFromWorkingDirectoryContinuumAction.java
+96 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\UpdateWorkingDirectoryFromScmContinuumAction.java
+368 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\ValidateProject.java
+101 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\core\action\ValidateProjectGroup.java
+46 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\ant\AntBuildExecutor.java
+141 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\manager\BuildExecutorManager.java
+37 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\manager\BuildExecutorNotFoundException.java
+35 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\manager\DefaultBuildExecutorManager.java
+94 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\maven\m1\DefaultMavenOneMetadataHelper.java
+389 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\maven\m1\MavenOneBuildExecutor.java
+191 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\maven\m1\MavenOneMetadataHelper.java
+50 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\maven\m1\MavenOneMetadataHelperException.java
+40 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\maven\m2\DefaultMavenBuilderHelper.java
+786 same line(s)
+3 ignored unimportant difference line(s)
+2 important left orphan line(s)
+
+2 difference section(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\maven\m2\MavenBuilderHelper.java
+56 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\maven\m2\MavenBuilderHelperException.java
+38 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\maven\m2\MavenTwoBuildExecutor.java
+506 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\maven\m2\SettingsConfigurationException.java
+64 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\shell\ShellBuildExecutor.java
+108 same line(s)
+1 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\execution\AbstractBuildExecutor.java
+508 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\initialization\DefaultContinuumInitializer.java
+240 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\notification\console\ConsoleNotifier.java
+178 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\notification\mail\FormatterTool.java
+152 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\notification\mail\MailContinuumNotifier.java
+1010 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\notification\manager\spring\NotifierFactoryBean.java
+89 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\notification\manager\DefaultNotifierManager.java
+49 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\notification\manager\NotifierManager.java
+31 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\notification\DefaultContinuumNotificationDispatcher.java
+254 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\project\builder\manager\ContinuumProjectBuilderManager.java
+34 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\project\builder\manager\ContinuumProjectBuilderManagerException.java
+38 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\project\builder\manager\DefaultContinuumProjectBuilderManager.java
+56 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\project\builder\maven\MavenOneContinuumProjectBuilder.java
+228 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\project\builder\maven\MavenTwoContinuumProjectBuilder.java
+531 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\project\builder\AbstractContinuumProjectBuilder.java
+305 same line(s)
+2 ignored unimportant difference line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\project\builder\EasySSLSocketFactory.java
+161 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\project\builder\EasyX509TrustManager.java
+104 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\scheduler\ContinuumBuildJob.java
+86 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\scheduler\ContinuumPurgeJob.java
+90 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\scheduler\ContinuumSchedulerConstants.java
+38 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\scm\queue\CheckOutTaskExecutor.java
+115 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\scm\queue\PrepareBuildProjectsTaskExecutor.java
+666 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\trigger\quartz\ContinuumBuildTrigger.java
+35 same line(s)
+
+File: continuum-core\src\main\java\org\apache\maven\continuum\DefaultContinuum.java
+3985 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\builder\distributed\manager\DefaultDistributedBuildManagerTest.java
+711 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\builder\distributed\stubs\DefaultDistributedBuildManagerStub.java
+33 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\builder\distributed\stubs\SlaveBuildAgentTransportClientStub.java
+304 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\builder\distributed\work\DefaultContinuumWorkerTest.java
+208 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\buildmanager\ParallelBuildsManagerTest.java
+1177 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\notification\mail\MockJavaMailSender.java
+61 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\purge\DefaultContinuumPurgeManagerTest.java
+204 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\release\distributed\manager\DefaultDistributedReleaseManagerTest.java
+102 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\repository\DefaultRepositoryServiceTest.java
+111 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\taskqueue\DefaultOverallBuildQueueTest.java
+619 same line(s)
+
+File: continuum-core\src\test\java\org\apache\continuum\AbstractAddProjectTest.java
+58 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\buildcontroller\BuildProjectTaskExecutorTest.java
+291 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\buildcontroller\DefaultBuildControllerTest.java
+316 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\builddefinition\DefaultBuildDefinitionServiceTest.java
+181 same line(s)
+6 ignored unimportant difference line(s)
+12 important right orphan line(s)
+
+4 difference section(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\buildqueue\BuildQueueTest.java
+163 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\core\action\CreateProjectsFromMetadataTest.java
+255 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\execution\manager\DefaultBuildExecutorManagerTest.java
+91 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\execution\maven\m1\MavenOneBuildExecutorTest.java
+343 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\execution\maven\m2\MavenTwoBuildExecutorTest.java
+116 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\execution\maven\m2\TestMavenBuilderHelper.java
+72 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\execution\ContinuumBuildExecutorTest.java
+157 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\initialization\DefaultContinuumInitializerTest.java
+53 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\notification\mail\FormatterToolTest.java
+59 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\notification\mail\MailContinuumNotifierTest.java
+256 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\notification\ContinuumNotificationDispatcherTest.java
+69 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\project\builder\maven\MavenOneContinuumProjectBuilderTest.java
+122 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\project\builder\maven\MavenTwoContinuumProjectBuilderTest.java
+556 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\project\builder\AbstractContinuumProjectBuilderTest.java
+105 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\scm\queue\PrepareBuildProjectsTaskExecutorTest.java
+626 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\AddMaven2ProjectTest.java
+283 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\AddProjectTest.java
+180 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\AddProjectToCheckoutQueueStub.java
+46 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\DefaultContinuumTest.java
+772 same line(s)
+
+File: continuum-core\src\test\java\org\apache\maven\continuum\TestAction.java
+38 same line(s)
+
+File: continuum-core\src\test-projects\flat-multi-module\module-a\src\main\java\org\apache\continuum\module\a\App.java
+32 same line(s)
+
+File: continuum-core\src\test-projects\flat-multi-module\module-a\src\test\java\org\apache\continuum\module\a\AppTest.java
+57 same line(s)
+
+File: continuum-core\src\test-projects\flat-multi-module\module-b\src\main\java\org\apache\continuum\module\b\App.java
+32 same line(s)
+
+File: continuum-core\src\test-projects\flat-multi-module\module-b\src\test\java\org\apache\continuum\module\b\AppTest.java
+57 same line(s)
+
+File: continuum-core\src\test-projects\flat-multi-module\module-c\module-d\src\main\java\org\apache\continuum\module\d\App.java
+32 same line(s)
+
+File: continuum-core\src\test-projects\flat-multi-module\module-c\module-d\src\test\java\org\apache\continuum\module\d\AppTest.java
+57 same line(s)
+
+File: continuum-core\src\test-projects\multi-module\module-A\src\main\java\org\apache\continuum\module\a\App.java
+32 same line(s)
+
+File: continuum-core\src\test-projects\multi-module\module-A\test\java\org\apache\continuum\module\a\AppTest.java
+57 same line(s)
+
+File: continuum-core\src\test-projects\multi-module\module-B\src\main\java\org\apache\continuum\module\b\App.java
+32 same line(s)
+
+File: continuum-core\src\test-projects\multi-module\module-B\src\test\java\org\apache\continuum\module\b\AppTest.java
+57 same line(s)
+
+File: continuum-core\src\test-projects\multi-module\module-C\module-D\src\main\java\org\apache\continuum\module\c\App.java
+32 same line(s)
+
+File: continuum-core\src\test-projects\multi-module\module-C\module-D\src\test\java\org\apache\continuum\module\b\AppTest.java
+57 same line(s)
+
+File: continuum-core\src\test-projects\project1\src\main\java\org\codehaus\continuum\project1\App.java
+10 same line(s)
+
+File: continuum-core\src\test-projects\project2\src\main\java\org\codehaus\continuum\project2\App.java
+9 same line(s)
+
+File: continuum-core\src\test-projects\timeout\src\test\java\org\apache\maven\continuum\testprojects\timeout\TimeoutTest.java
+59 same line(s)
+
+File: continuum-data-management\continuum-legacy\src\main\java\org\apache\maven\continuum\model\project\v1_0_9\ContinuumModelloMetadata.java
+35 same line(s)
+
+File: continuum-data-management\data-management-api\src\main\java\org\apache\maven\continuum\management\DatabaseFactoryConfigurator.java
+28 same line(s)
+
+File: continuum-data-management\data-management-api\src\main\java\org\apache\maven\continuum\management\DatabaseParams.java
+124 same line(s)
+
+File: continuum-data-management\data-management-api\src\main\java\org\apache\maven\continuum\management\DataManagementException.java
+39 same line(s)
+
+File: continuum-data-management\data-management-api\src\main\java\org\apache\maven\continuum\management\DataManagementTool.java
+57 same line(s)
+
+File: continuum-data-management\data-management-cli\src\main\java\org\apache\maven\continuum\management\util\PlexusApplicationContextDelegate.java
+101 same line(s)
+
+File: continuum-data-management\data-management-cli\src\main\java\org\apache\maven\continuum\management\util\PlexusFileSystemXmlApplicationContext.java
+120 same line(s)
+
+File: continuum-data-management\data-management-cli\src\main\java\org\apache\maven\continuum\management\DatabaseFormat.java
+110 same line(s)
+
+File: continuum-data-management\data-management-cli\src\main\java\org\apache\maven\continuum\management\DataManagementCli.java
+617 same line(s)
+
+File: continuum-data-management\data-management-jdo\src\main\java\org\apache\maven\continuum\management\DefaultDatabaseFactoryConfigurator.java
+54 same line(s)
+
+File: continuum-data-management\data-management-jdo\src\main\java\org\apache\maven\continuum\management\JdoDataManagementTool.java
+543 same line(s)
+
+File: continuum-data-management\data-management-jdo\src\main\java\org\apache\maven\continuum\management\LegacyJdoDataManagementTool.java
+269 same line(s)
+
+File: continuum-data-management\data-management-jdo\src\main\java\org\jpox\store\OID.java
+221 same line(s)
+
+File: continuum-data-management\data-management-jdo\src\test\java\org\apache\maven\continuum\management\DataManagementToolTest.java
+204 same line(s)
+1 ignored unimportant difference line(s)
+20 important right orphan line(s)
+
+3 difference section(s)
+
+File: continuum-data-management\data-management-redback-jdo\src\main\java\org\apache\maven\continuum\management\redback\DefaultDatabaseFactoryConfigurator.java
+56 same line(s)
+
+File: continuum-data-management\data-management-redback-jdo\src\main\java\org\apache\maven\continuum\management\redback\JdoDataManagementTool.java
+106 same line(s)
+
+File: continuum-data-management\data-management-redback-jdo\src\main\java\org\apache\maven\continuum\management\redback\LegacyJdoDataManagementTool.java
+403 same line(s)
+
+File: continuum-data-management\redback-legacy\src\main\java\org\codehaus\plexus\security\authorization\rbac\jdo\v0_9_0\RbacJdoModelModelloMetadata.java
+35 same line(s)
+
+File: continuum-data-management\redback-legacy\src\main\java\org\codehaus\plexus\security\keys\jdo\v0_9_0\PlexusSecurityKeyManagementJdoModelloMetadata.java
+35 same line(s)
+
+File: continuum-data-management\redback-legacy\src\main\java\org\codehaus\plexus\security\user\jdo\v0_9_0\UserManagementModelloMetadata.java
+35 same line(s)
+
+File: continuum-distributed\continuum-distributed-commons\src\main\java\org\apache\continuum\distributed\commons\utils\ContinuumDistributedUtil.java
+126 same line(s)
+
+File: continuum-distributed\continuum-distributed-commons\src\main\java\org\apache\continuum\distributed\commons\utils\ContinuumXmlRpcBinder.java
+135 same line(s)
+
+File: continuum-distributed\continuum-distributed-master\continuum-distributed-master-api\src\main\java\org\apache\continuum\distributed\transport\master\MasterBuildAgentTransportService.java
+55 same line(s)
+
+File: continuum-distributed\continuum-distributed-master\continuum-distributed-master-client\src\main\java\org\apache\continuum\distributed\transport\master\MasterBuildAgentTransportClient.java
+247 same line(s)
+
+File: continuum-distributed\continuum-distributed-master\continuum-distributed-master-server\src\main\java\org\apache\continuum\distributed\transport\master\MasterBuildAgentTransportServer.java
+111 same line(s)
+
+File: continuum-distributed\continuum-distributed-slave\continuum-distributed-slave-api\src\main\java\org\apache\continuum\distributed\transport\slave\SlaveBuildAgentTransportService.java
+169 same line(s)
+
+File: continuum-distributed\continuum-distributed-slave\continuum-distributed-slave-client\src\main\java\org\apache\continuum\distributed\transport\slave\SampleBuildAgentClient.java
+46 same line(s)
+
+File: continuum-distributed\continuum-distributed-slave\continuum-distributed-slave-client\src\main\java\org\apache\continuum\distributed\transport\slave\SlaveBuildAgentTransportClient.java
+889 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: continuum-distributed\continuum-distributed-slave\continuum-distributed-slave-server\src\main\java\org\apache\continuum\distributed\transport\slave\SlaveBuildAgentTransportAuthenticator.java
+64 same line(s)
+
+File: continuum-distributed\continuum-distributed-slave\continuum-distributed-slave-server\src\main\java\org\apache\continuum\distributed\transport\slave\SlaveBuildAgentTransportServer.java
+590 same line(s)
+
+File: continuum-distributed\continuum-distributed-tests\src\main\java\org\apache\continuum\web\startup\BuildAgentStartup.java
+59 same line(s)
+
+File: continuum-distributed\continuum-distributed-tests\src\test\it\org\apache\continuum\distributed\transport\tests\MasterBuildAgentTransportServiceTest.java
+86 same line(s)
+
+File: continuum-distributed\continuum-distributed-tests\src\test\it\org\apache\continuum\distributed\transport\tests\SlaveBuildAgentTransportServiceTest.java
+121 same line(s)
+
+File: continuum-model\src\main\java\org\apache\continuum\model\project\ProjectGroupSummary.java
+112 same line(s)
+
+File: continuum-model\src\main\java\org\apache\continuum\model\project\ProjectRunSummary.java
+107 same line(s)
+
+File: continuum-model\src\main\java\org\apache\continuum\model\project\ProjectSummaryResult.java
+68 same line(s)
+
+File: continuum-model\src\main\java\org\apache\continuum\model\release\ReleaseListenerSummary.java
+109 same line(s)
+
+File: continuum-model\src\main\java\org\apache\maven\continuum\model\project\ContinuumModelloMetadata.java
+36 same line(s)
+
+File: continuum-notifiers\continuum-notifier-api\src\main\java\org\apache\maven\continuum\notification\AbstractContinuumNotifier.java
+410 same line(s)
+
+File: continuum-notifiers\continuum-notifier-api\src\main\java\org\apache\maven\continuum\notification\MessageContext.java
+95 same line(s)
+
+File: continuum-notifiers\continuum-notifier-api\src\main\java\org\apache\maven\continuum\notification\NotificationException.java
+38 same line(s)
+
+File: continuum-notifiers\continuum-notifier-api\src\main\java\org\apache\maven\continuum\notification\Notifier.java
+32 same line(s)
+
+File: continuum-notifiers\continuum-notifier-irc\src\main\java\org\apache\maven\continuum\notification\irc\IrcContinuumNotifier.java
+532 same line(s)
+
+File: continuum-notifiers\continuum-notifier-jabber\src\main\java\org\apache\maven\continuum\notification\jabber\JabberContinuumNotifier.java
+368 same line(s)
+
+File: continuum-notifiers\continuum-notifier-msn\src\main\java\org\apache\maven\continuum\notification\msn\MsnContinuumNotifier.java
+250 same line(s)
+
+File: continuum-notifiers\continuum-notifier-wagon\src\main\java\org\apache\maven\continuum\notification\wagon\WagonContinuumNotifier.java
+390 same line(s)
+
+File: continuum-notifiers\continuum-notifier-wagon\src\test\java\org\apache\maven\continuum\wagon\Context.java
+53 same line(s)
+
+File: continuum-notifiers\continuum-notifier-wagon\src\test\java\org\apache\maven\continuum\wagon\Servlet.java
+58 same line(s)
+
+File: continuum-notifiers\continuum-notifier-wagon\src\test\java\org\apache\maven\continuum\wagon\ServletServer.java
+152 same line(s)
+
+File: continuum-notifiers\continuum-notifier-wagon\src\test\java\org\apache\maven\continuum\wagon\WagonContinuumNotifierTest.java
+90 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\controller\DirectoryPurgeController.java
+85 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\controller\DistributedDirectoryPurgeController.java
+96 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\controller\RepositoryPurgeController.java
+124 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\executor\AbstractContinuumPurgeExecutor.java
+91 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\executor\CleanAllPurgeExecutor.java
+126 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\executor\DaysOldDirectoryPurgeExecutor.java
+173 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\executor\DaysOldRepositoryPurgeExecutor.java
+200 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\executor\ReleasedSnapshotsRepositoryPurgeExecutor.java
+141 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\executor\RetentionCountDirectoryPurgeExecutor.java
+146 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\executor\RetentionCountRepositoryPurgeExecutor.java
+131 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\repository\content\ManagedDefaultRepositoryContent.java
+432 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\repository\content\ManagedLegacyRepositoryContent.java
+477 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\repository\scanner\DefaultRepositoryScanner.java
+99 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\repository\scanner\RepositoryScannerInstance.java
+70 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\repository\utils\FilenameParser.java
+144 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\repository\utils\FileTypes.java
+95 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\repository\utils\LegacyPathParser.java
+181 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\task\PurgeTask.java
+67 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\task\PurgeTaskExecutor.java
+134 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\ContinuumPurgeConstants.java
+46 same line(s)
+
+File: continuum-purge\src\main\java\org\apache\continuum\purge\DefaultPurgeConfigurationService.java
+491 same line(s)
+
+File: continuum-purge\src\test\java\org\apache\continuum\purge\executor\AbstractPurgeExecutorTest.java
+383 same line(s)
+
+File: continuum-purge\src\test\java\org\apache\continuum\purge\executor\CleanAllPurgeExecutorTest.java
+101 same line(s)
+
+File: continuum-purge\src\test\java\org\apache\continuum\purge\executor\DaysOldDirectoryPurgeExecutorTest.java
+148 same line(s)
+
+File: continuum-purge\src\test\java\org\apache\continuum\purge\executor\DaysOldRepositoryPurgeExecutorTest.java
+109 same line(s)
+
+File: continuum-purge\src\test\java\org\apache\continuum\purge\executor\ReleasedSnapshotsRepositoryPurgeExecutorTest.java
+121 same line(s)
+
+File: continuum-purge\src\test\java\org\apache\continuum\purge\executor\RetentionCountDirectoryPurgeExecutorTest.java
+105 same line(s)
+
+File: continuum-purge\src\test\java\org\apache\continuum\purge\executor\RetentionCountRepositoryPurgeExecutorTest.java
+163 same line(s)
+
+File: continuum-purge\src\test\java\org\apache\continuum\purge\AbstractPurgeTest.java
+272 same line(s)
+
+File: continuum-purge\src\test\java\org\apache\continuum\purge\DefaultPurgeConfigurationServiceTest.java
+142 same line(s)
+
+File: continuum-release\src\main\java\org\apache\continuum\release\config\ContinuumPropertiesReleaseDescriptorStore.java
+367 same line(s)
+
+File: continuum-release\src\main\java\org\apache\continuum\release\config\ContinuumReleaseDescriptor.java
+92 same line(s)
+
+File: continuum-release\src\main\java\org\apache\continuum\release\phase\AbstractContinuumRunGoalsPhase.java
+116 same line(s)
+
+File: continuum-release\src\main\java\org\apache\continuum\release\phase\RunPerformGoalsPhase.java
+80 same line(s)
+
+File: continuum-release\src\main\java\org\apache\continuum\release\phase\RunPrepareGoalsPhase.java
+67 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\executors\AbstractReleaseTaskExecutor.java
+138 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\executors\PerformReleaseTaskExecutor.java
+252 same line(s)
+1 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\executors\PrepareReleaseTaskExecutor.java
+61 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\executors\ReleaseTaskExecutor.java
+32 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\executors\RollbackReleaseTaskExecutor.java
+61 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\phase\GenerateReactorProjectsPhase.java
+336 same line(s)
+1 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\phase\UpdateWorkingCopyPhase.java
+237 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\tasks\AbstractReleaseProjectTask.java
+87 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\tasks\PerformReleaseProjectTask.java
+99 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\tasks\PrepareReleaseProjectTask.java
+36 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\tasks\ReleaseProjectTask.java
+42 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\tasks\RollbackReleaseProjectTask.java
+36 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\DefaultContinuumReleaseManager.java
+486 same line(s)
+
+File: continuum-release\src\main\java\org\apache\maven\continuum\release\DefaultReleaseManagerListener.java
+125 same line(s)
+
+File: continuum-release\src\test\java\org\apache\maven\continuum\release\executors\ReleaseTaskExecutorTest.java
+432 same line(s)
+
+File: continuum-release\src\test\java\org\apache\maven\continuum\release\phase\UpdateWorkingCopyPhaseTest.java
+116 same line(s)
+
+File: continuum-reports\src\main\java\org\apache\maven\continuum\reports\surefire\DefaultReportTestSuiteGenerator.java
+194 same line(s)
+
+File: continuum-reports\src\main\java\org\apache\maven\continuum\reports\surefire\ReportFailure.java
+71 same line(s)
+
+File: continuum-reports\src\main\java\org\apache\maven\continuum\reports\surefire\ReportTest.java
+135 same line(s)
+
+File: continuum-reports\src\main\java\org\apache\maven\continuum\reports\surefire\ReportTestCase.java
+126 same line(s)
+
+File: continuum-reports\src\main\java\org\apache\maven\continuum\reports\surefire\ReportTestResult.java
+107 same line(s)
+
+File: continuum-reports\src\main\java\org\apache\maven\continuum\reports\surefire\ReportTestSuite.java
+329 same line(s)
+
+File: continuum-reports\src\main\java\org\apache\maven\continuum\reports\surefire\ReportTestSuiteGenerator.java
+74 same line(s)
+
+File: continuum-reports\src\main\java\org\apache\maven\continuum\reports\surefire\ReportTestSuiteGeneratorException.java
+64 same line(s)
+
+File: continuum-reports\src\test\java\org\apache\maven\continuum\reports\surefire\ConfigurationServiceMock.java
+35 same line(s)
+
+File: continuum-reports\src\test\java\org\apache\maven\continuum\reports\surefire\DefaultReportTestSuiteGeneratorTest.java
+104 same line(s)
+
+File: continuum-security\src\main\java\org\apache\maven\continuum\security\ContinuumRoleConstants.java
+132 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\AbstractDao.java
+196 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\BuildDefinitionDaoImpl.java
+368 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\BuildDefinitionTemplateDaoImpl.java
+192 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\BuildQueueDaoImpl.java
+141 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\BuildResultDaoImpl.java
+845 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\ContinuumReleaseResultDaoImpl.java
+173 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\DaoUtilsImpl.java
+333 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\DirectoryPurgeConfigurationDaoImpl.java
+195 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\DistributedDirectoryPurgeConfigurationDaoImpl.java
+169 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\InstallationDaoImpl.java
+244 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\LocalRepositoryDaoImpl.java
+188 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\NotifierDaoImpl.java
+48 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\ProfileDaoImpl.java
+111 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\ProjectDaoImpl.java
+384 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\ProjectGroupDaoImpl.java
+237 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\ProjectScmRootDaoImpl.java
+146 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\RepositoryPurgeConfigurationDaoImpl.java
+163 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\ScheduleDaoImpl.java
+119 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\StoreUtilities.java
+52 same line(s)
+
+File: continuum-store\src\main\java\org\apache\continuum\dao\SystemConfigurationDaoImpl.java
+68 same line(s)
+
+File: continuum-store\src\test\java\org\apache\maven\continuum\store\AbstractContinuumStoreTestCase.java
+1708 same line(s)
+
+File: continuum-store\src\test\java\org\apache\maven\continuum\store\ContinuumStoreTest.java
+1612 same line(s)
+
+File: continuum-test\src\main\java\org\apache\maven\continuum\configuration\ConfigurationServiceMock.java
+344 same line(s)
+
+File: continuum-test\src\main\java\org\apache\maven\continuum\jdo\MemoryJdoFactory.java
+44 same line(s)
+
+File: continuum-test\src\main\java\org\apache\maven\continuum\AbstractContinuumTest.java
+469 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\admin\BuildAgentAction.java
+580 same line(s)
+1 ignored unimportant difference line(s)
+2 important left orphan line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\admin\DistributedPurgeConfigurationAction.java
+480 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\admin\LocalRepositoryAction.java
+355 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\admin\PurgeAction.java
+203 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\admin\PurgeConfigurationAction.java
+660 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\error\HttpError.java
+51 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\AbstractReleaseAction.java
+134 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\DistributedReleasesAction.java
+87 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\ReleaseResultAction.java
+297 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\ScmResultAction.java
+118 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\action\ViewBuildsReportAction.java
+450 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\startup\ContinuumStartup.java
+87 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\util\AuditLog.java
+114 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\util\AuditLogConstants.java
+124 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\continuum\web\util\GenerateRecipentNotifier.java
+97 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\admin\BuildDefinitionTemplateAction.java
+419 same line(s)
+3 ignored unimportant difference line(s)
+4 important left orphan line(s)
+8 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\admin\BuildQueueAction.java
+258 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\admin\ConfigurationAction.java
+290 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\admin\ConfigureAppearanceAction.java
+179 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\admin\ConfigureFooterAction.java
+48 same line(s)
+1 ignored unimportant difference line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\admin\EditPomAction.java
+124 same line(s)
+6 ignored unimportant difference line(s)
+1 important left orphan line(s)
+10 important right orphan line(s)
+2 important difference line(s)
+
+6 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\admin\InstallationAction.java
+384 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\admin\ProfileAction.java
+327 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\admin\QueuesAction.java
+898 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\component\AbstractFooterAction.java
+55 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\component\BottomAction.java
+37 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\component\BuildDefinitionSummaryAction.java
+272 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\component\CompanyInfoAction.java
+91 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\component\ContinuumTabAction.java
+42 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\component\NotifierSummaryAction.java
+395 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\AbstractGroupNotifierEditAction.java
+117 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\AbstractNotifierEditActionSupport.java
+343 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\AbstractProjectNotifierEditAction.java
+151 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\AddGroupNotifierAction.java
+153 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\AddProjectNotifierAction.java
+205 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\DeleteGroupNotifierAction.java
+154 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\DeleteProjectNotifierAction.java
+180 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\IrcGroupNotifierEditAction.java
+199 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\IrcProjectNotifierEditAction.java
+194 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\JabberGroupNotifierEditAction.java
+181 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\JabberProjectNotifierEditAction.java
+180 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\MailGroupNotifierEditAction.java
+111 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\MailProjectNotifierEditAction.java
+111 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\MsnGroupNotifierEditAction.java
+97 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\MsnProjectNotifierEditAction.java
+98 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\WagonGroupNotifierEditAction.java
+79 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\notifier\WagonProjectNotifierEditAction.java
+79 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\AboutAction.java
+38 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\AbstractBuildAction.java
+82 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\AbstractBuildDefinitionAction.java
+69 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\AddMavenOneProjectAction.java
+110 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\AddMavenProjectAction.java
+492 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\AddMavenTwoProjectAction.java
+187 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\AddProjectAction.java
+450 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\AddProjectGroupAction.java
+208 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\BuildDefinitionAction.java
+765 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\BuildProjectAction.java
+206 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\BuildResultAction.java
+291 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\BuildResultsListAction.java
+214 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\CancelBuildAction.java
+268 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ContinuumActionSupport.java
+579 same line(s)
+9 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ContinuumConfirmAction.java
+112 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\DeleteProjectAction.java
+147 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\GroupSummaryAction.java
+126 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\PlexusActionSupport.java
+44 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ProjectEditAction.java
+219 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ProjectGroupAction.java
+1134 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ProjectsListAction.java
+247 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ProjectViewAction.java
+118 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ReleaseCleanupAction.java
+143 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ReleaseInProgressAction.java
+334 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ReleasePerformAction.java
+504 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ReleasePrepareAction.java
+796 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ReleaseProjectAction.java
+233 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ReleaseRollbackAction.java
+187 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\ScheduleAction.java
+562 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\SummaryAction.java
+248 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\SurefireReportAction.java
+234 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\action\WorkingCopyAction.java
+299 same line(s)
+2 ignored unimportant difference line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\appareance\AppareanceConfiguration.java
+49 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\appareance\DefaultAppareanceConfiguration.java
+145 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\bean\BuildProjectQueue.java
+42 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\bean\CheckoutQueue.java
+42 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\bean\ProjectGroupUserBean.java
+163 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\bean\Queue.java
+39 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\checks\security\RoleProfileEnvironmentCheck.java
+90 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\components\Data.java
+32 ignored unimportant difference line(s)
+35 important left orphan line(s)
+
+10 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\components\SubmitCancel.java
+32 ignored unimportant difference line(s)
+31 important left orphan line(s)
+
+10 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\exception\AuthenticationRequiredException.java
+41 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\exception\AuthorizationRequiredException.java
+40 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\exception\ContinuumActionException.java
+39 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\interceptor\ForceContinuumConfigurationInterceptor.java
+94 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\util\StateGenerator.java
+87 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\util\UrlHelperFactory.java
+24 ignored unimportant difference line(s)
+9 important right orphan line(s)
+
+6 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\util\WorkingCopyContentGenerator.java
+204 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\validator\CronExpressionValidator.java
+60 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\validator\InstallationValidator.java
+100 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\validator\WagonUrlValidator.java
+67 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\buildresults\StateCell.java
+62 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\commons\DateCell.java
+77 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\jsp\ui\DataTag.java
+31 ignored unimportant difference line(s)
+26 important left orphan line(s)
+
+9 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\jsp\ui\DateTag.java
+291 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\jsp\ui\IfBuildTypeEnabledTag.java
+88 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\jsp\ui\SubmitCancelTag.java
+32 ignored unimportant difference line(s)
+31 important left orphan line(s)
+
+10 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\projectview\NotifierEventCell.java
+69 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\projectview\NotifierFromCell.java
+51 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\projectview\NotifierRecipientCell.java
+45 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\BuildCell.java
+159 same line(s)
+2 ignored unimportant difference line(s)
+3 important left orphan line(s)
+4 important right orphan line(s)
+4 important difference line(s)
+
+4 difference section(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\BuildStatusCell.java
+64 same line(s)
+
+File: continuum-webapp\src\main\java\org\apache\maven\continuum\web\view\StateCell.java
+192 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+2 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: continuum-webapp\src\test\java\org\apache\continuum\web\action\stub\ReleaseActionStub.java
+61 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\continuum\web\action\stub\ViewBuildsReportActionStub.java
+36 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\continuum\web\action\AbstractActionTest.java
+52 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\continuum\web\action\AbstractReleaseActionTest.java
+157 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\continuum\web\action\ViewBuildsReportActionTest.java
+181 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\stub\AddProjectActionStub.java
+57 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\stub\BuildResultActionStub.java
+36 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\stub\ProjectGroupActionStub.java
+48 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\stub\SummaryActionStub.java
+36 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\AddProjectActionTest.java
+217 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\BuildAgentActionTest.java
+107 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\BuildResultActionTest.java
+125 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\ContinuumActionLoggingTest.java
+99 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\ProjectGroupActionTest.java
+159 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\ReleasePrepareActionTest.java
+95 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\SummaryActionTest.java
+197 same line(s)
+
+File: continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\TestAction.java
+55 same line(s)
+
+File: continuum-webapp-test\src\test\example-projects\continuum-2437-example\src\main\java\org\apache\continuum\examples\App.java
+13 same line(s)
+
+File: continuum-webapp-test\src\test\example-projects\continuum-2437-example\src\test\java\org\apache\continuum\examples\AppTest.java
+38 same line(s)
+
+File: continuum-webapp-test\src\test\example-projects\continuum-build-queue-test-data\src\test\java\org\apache\continuum\examples\BasicThreadTest.java
+16 same line(s)
+
+File: continuum-webapp-test\src\test\example-projects\continuum-failing-project\src\main\java\org\apache\continuum\App.java
+13 same line(s)
+
+File: continuum-webapp-test\src\test\example-projects\continuum-failing-project\src\test\java\org\apache\continuum\AppTest.java
+38 same line(s)
+
+File: continuum-webapp-test\src\test\example-projects\flat-example\flat-core\src\main\java\com\example\flat\App.java
+13 same line(s)
+
+File: continuum-webapp-test\src\test\example-projects\flat-example\flat-core\src\test\java\com\example\flat\AppTest.java
+38 same line(s)
+
+File: continuum-webapp-test\src\test\example-projects\simple-example\src\main\java\org\apache\continuum\examples\App.java
+13 same line(s)
+
+File: continuum-webapp-test\src\test\example-projects\simple-example\src\test\java\org\apache\continuum\examples\AppTest.java
+38 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\listener\CaptureScreenShotsListener.java
+149 same line(s)
+3 ignored unimportant difference line(s)
+7 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\parent\AbstractAdminTest.java
+344 same line(s)
+2 ignored unimportant difference line(s)
+17 important right orphan line(s)
+8 important difference line(s)
+
+10 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\parent\AbstractBuildDefinitionTemplateTest.java
+210 same line(s)
+13 ignored unimportant difference line(s)
+1 important left orphan line(s)
+20 important right orphan line(s)
+4 important difference line(s)
+
+11 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\parent\AbstractContinuumTest.java
+1281 same line(s)
+15 ignored unimportant difference line(s)
+9 important left orphan line(s)
+24 important right orphan line(s)
+13 important difference line(s)
+
+18 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\parent\AbstractInstallationTest.java
+187 same line(s)
+1 ignored unimportant difference line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\parent\AbstractLocalRepositoryTest.java
+107 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\parent\AbstractPurgeTest.java
+175 same line(s)
+1 ignored unimportant difference line(s)
+6 important left orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\parent\AbstractSeleniumTest.java
+391 same line(s)
+19 ignored unimportant difference line(s)
+21 important left orphan line(s)
+4 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\parent\AbstractUserRolesManagementTest.java
+325 same line(s)
+4 ignored unimportant difference line(s)
+8 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\AboutTest.java
+40 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\AbstractReleaseTest.java
+147 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\AntProjectTest.java
+129 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\AppearanceTest.java
+25 ignored unimportant difference line(s)
+24 important right orphan line(s)
+
+7 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\BuildAgentsTest.java
+250 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\BuildDefinitionTemplateTest.java
+123 same line(s)
+5 ignored unimportant difference line(s)
+3 important left orphan line(s)
+20 important right orphan line(s)
+6 important difference line(s)
+
+14 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\BuildDefinitionTest.java
+301 same line(s)
+9 ignored unimportant difference line(s)
+35 important right orphan line(s)
+
+10 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\BuildEnvironmentTest.java
+108 same line(s)
+14 ignored unimportant difference line(s)
+7 important left orphan line(s)
+48 important right orphan line(s)
+12 important difference line(s)
+
+25 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\BuildResultTest.java
+81 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\ConfigurationTest.java
+233 same line(s)
+3 ignored unimportant difference line(s)
+11 important left orphan line(s)
+
+2 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\CSRFSecurityTest.java
+172 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\DistributedBuildTest.java
+255 same line(s)
+1 ignored unimportant difference line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\DistributedReleaseTest.java
+443 same line(s)
+5 ignored unimportant difference line(s)
+10 important right orphan line(s)
+4 important difference line(s)
+
+9 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\InstallationTest.java
+223 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\LocalRepositoriesTest.java
+107 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\LoginTest.java
+81 same line(s)
+1 ignored unimportant difference line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\MavenOneProjectTest.java
+226 same line(s)
+3 ignored unimportant difference line(s)
+1 important left orphan line(s)
+11 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\MavenTwoProjectTest.java
+306 same line(s)
+15 ignored unimportant difference line(s)
+14 important left orphan line(s)
+6 important right orphan line(s)
+1 important difference line(s)
+
+11 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\MyAccountTest.java
+62 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\NotifierTest.java
+988 same line(s)
+10 ignored unimportant difference line(s)
+5 important left orphan line(s)
+18 important right orphan line(s)
+5 important difference line(s)
+
+11 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\ProjectGroupTest.java
+219 same line(s)
+10 ignored unimportant difference line(s)
+32 important right orphan line(s)
+
+10 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\PurgeTest.java
+110 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\QueueTest.java
+202 same line(s)
+12 ignored unimportant difference line(s)
+1 important left orphan line(s)
+25 important right orphan line(s)
+4 important difference line(s)
+
+16 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\ReleaseTest.java
+180 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\ReportTest.java
+178 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\ScheduleTest.java
+165 same line(s)
+2 ignored unimportant difference line(s)
+12 important left orphan line(s)
+
+1 difference section(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\ShellProjectTest.java
+126 same line(s)
+
+File: continuum-webapp-test\src\test\testng\org\apache\continuum\web\test\UserRolesManagementTest.java
+615 same line(s)
+9 ignored unimportant difference line(s)
+25 important right orphan line(s)
+7 important difference line(s)
+
+15 difference section(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-api\src\main\java\org\apache\maven\continuum\xmlrpc\ContinuumService.java
+1893 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-backup\src\main\java\org\apache\maven\continuum\xmlrpc\backup\Backup.java
+806 same line(s)
+4 ignored unimportant difference line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-client\src\main\java\org\apache\maven\continuum\xmlrpc\client\BuildResultsPurge.java
+99 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-client\src\main\java\org\apache\maven\continuum\xmlrpc\client\ContinuumXmlRpcClient.java
+1470 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-client\src\main\java\org\apache\maven\continuum\xmlrpc\client\SampleClient.java
+397 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\AbstractContinuumSecureService.java
+547 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\AddingResultUtil.java
+72 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\ConfiguredBeanProcessorFactory.java
+129 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\ContinuumServiceImpl.java
+4155 same line(s)
+3 ignored unimportant difference line(s)
+21 important right orphan line(s)
+14 important difference line(s)
+
+15 difference section(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\ContinuumXmlRpcComponent.java
+29 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\ContinuumXmlRpcConfig.java
+59 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\ContinuumXmlRpcMetaDataHandler.java
+211 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\ContinuumXmlRpcServlet.java
+263 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\ContinuumXmlRpcServletServer.java
+40 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\main\java\org\apache\maven\continuum\xmlrpc\server\PropertiesHandlerMapping.java
+95 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\test\java\org\apache\continuum\xmlrpc\server\ContinuumServiceImplStub.java
+50 same line(s)
+
+File: continuum-xmlrpc\continuum-xmlrpc-server\src\test\java\org\apache\continuum\xmlrpc\server\ContinuumServiceImplTest.java
+593 same line(s)
+1 important difference line(s)
+
+1 difference section(s)

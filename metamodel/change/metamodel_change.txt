@@ -1,0 +1,1892 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 15:00:18
+
+Ignoring Unimportant
+Left base folder: D:\APsource\metamodel\version1
+Right base folder: D:\APsource\metamodel\version2
+
+File: cassandra\src\main\java\org\apache\metamodel\cassandra\CassandraDataContext.java
+226 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: cassandra\src\main\java\org\apache\metamodel\cassandra\CassandraDataSet.java
+60 same line(s)
+
+File: cassandra\src\main\java\org\apache\metamodel\cassandra\CassandraUtils.java
+105 same line(s)
+2 important right orphan line(s)
+
+1 difference section(s)
+
+File: cassandra\src\test\java\org\apache\metamodel\cassandra\CassandraDataContextTest.java
+168 same line(s)
+28 ignored unimportant difference line(s)
+37 important left orphan line(s)
+30 important right orphan line(s)
+14 important difference line(s)
+
+32 difference section(s)
+
+File: cassandra\src\test\java\org\apache\metamodel\cassandra\CassandraSimpleClient.java
+51 same line(s)
+
+File: cassandra\src\test\java\org\apache\metamodel\cassandra\CassandraTestCase.java
+35 ignored unimportant difference line(s)
+60 important left orphan line(s)
+
+18 difference section(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\ColumnTypeDetector.java
+82 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\ConvertedDataSet.java
+74 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\ConvertedDataSetInterceptor.java
+91 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\ConvertedRowInsertionInterceptor.java
+75 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\ConvertedRowUpdationInterceptor.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\Converters.java
+329 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\DocumentConverter.java
+44 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\HasReadTypeConverters.java
+31 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\StringToBooleanConverter.java
+51 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\StringToDateConverter.java
+124 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\StringToDoubleConverter.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\StringToIntegerConverter.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\convert\TypeConverter.java
+51 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\AbstractColumnBuilder.java
+88 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\AbstractTableCreationBuilder.java
+146 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\ColumnBuilder.java
+88 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\ColumnCreationBuilder.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\ColumnCreationBuilderImpl.java
+61 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\CreateTable.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\CreateTableColumnBuilder.java
+45 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\TableCreatable.java
+71 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\create\TableCreationBuilder.java
+75 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\AbstractDataSet.java
+169 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\AbstractRow.java
+176 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\AbstractRowBuilder.java
+146 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\CachingDataSetHeader.java
+96 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\ColorImpl.java
+77 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\DataSet.java
+97 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\DataSetHeader.java
+41 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\DataSetIterator.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\DataSetTableModel.java
+110 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\DefaultRow.java
+231 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\Document.java
+77 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\DocumentSource.java
+39 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\DocumentSourceDataSet.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\EmptyDataSet.java
+57 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\FilteredDataSet.java
+66 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\FirstRowDataSet.java
+73 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\InMemoryDataSet.java
+93 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\IRowFilter.java
+37 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\MaxRowsDataSet.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\MaxRowsDocumentSource.java
+50 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\Row.java
+135 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\RowBuilder.java
+119 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\RowPublisher.java
+68 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\RowPublisherDataSet.java
+112 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\RowPublisherImpl.java
+124 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\SimpleDataSetHeader.java
+132 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\Style.java
+148 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\StyleBuilder.java
+353 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\StyleImpl.java
+173 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\SubSelectionDataSet.java
+55 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\data\WhereClauseBuilder.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\delete\AbstractRowDeletionBuilder.java
+135 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\delete\DeleteFrom.java
+94 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\delete\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\delete\RowDeletable.java
+68 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\delete\RowDeletionBuilder.java
+55 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\drop\AbstractTableDropBuilder.java
+51 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\drop\DropTable.java
+68 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\drop\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\drop\TableDropBuilder.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\drop\TableDroppable.java
+44 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\insert\AbstractRowInsertionBuilder.java
+106 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\insert\InsertInto.java
+77 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\insert\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\insert\RowInsertable.java
+90 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\insert\RowInsertionBuilder.java
+66 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\DataSetInterceptor.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptableColumnCreationBuilder.java
+102 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptableDataContext.java
+284 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptableRowDeletionBuilder.java
+87 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptableRowInsertionBuilder.java
+111 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptableRowUpdationBuilder.java
+136 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptableTableCreationBuilder.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptableTableDropBuilder.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptableUpdateCallback.java
+128 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptableUpdateScript.java
+62 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\Interceptor.java
+50 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\InterceptorList.java
+72 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\Interceptors.java
+35 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\QueryInterceptor.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\RowDeletionInterceptor.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\RowInsertionInterceptor.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\RowUpdationInterceptor.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\SchemaInterceptor.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\TableCreationInterceptor.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\intercept\TableDropInterceptor.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\AbstractFilterBuilder.java
+598 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\AbstractQueryFilterBuilder.java
+444 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\ColumnSelectBuilder.java
+25 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\ColumnSelectBuilderImpl.java
+54 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\CountSelectBuilder.java
+25 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\CountSelectBuilderImpl.java
+51 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\FilterBuilder.java
+455 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\FunctionSelectBuilder.java
+25 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\FunctionSelectBuilderImpl.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\GroupedQueryBuilder.java
+34 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\GroupedQueryBuilderCallback.java
+168 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\GroupedQueryBuilderImpl.java
+332 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\HavingBuilder.java
+26 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\HavingBuilderImpl.java
+87 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\InitFromBuilder.java
+37 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\InitFromBuilderImpl.java
+89 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\JoinFromBuilder.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\JoinFromBuilderImpl.java
+87 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\SatisfiedFromBuilder.java
+52 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\SatisfiedFromBuilderCallback.java
+168 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\SatisfiedHavingBuilder.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\SatisfiedOrderByBuilder.java
+31 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\SatisfiedOrderByBuilderImpl.java
+64 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\SatisfiedQueryBuilder.java
+131 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\SatisfiedSelectBuilder.java
+35 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\SatisfiedSelectBuilderImpl.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\SatisfiedWhereBuilder.java
+33 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\TableFromBuilder.java
+40 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\TableFromBuilderImpl.java
+104 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\WhereBuilder.java
+86 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\builder\WhereBuilderImpl.java
+151 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\FromItemParser.java
+201 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\GroupByItemParser.java
+36 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\HavingItemParser.java
+36 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\OrderByItemParser.java
+36 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\QueryParser.java
+264 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\QueryParserException.java
+46 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\QueryPartCollectionProcessor.java
+52 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\QueryPartParser.java
+126 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\QueryPartProcessor.java
+38 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\SelectItemParser.java
+181 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\parser\WhereItemParser.java
+35 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\AbstractQueryClause.java
+163 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\AverageAggregateBuilder.java
+43 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\CompiledQuery.java
+65 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\CountAggregateBuilder.java
+39 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\DefaultCompiledQuery.java
+176 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\FilterClause.java
+65 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\FilterItem.java
+543 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\FromClause.java
+103 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\FromItem.java
+354 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\FunctionType.java
+122 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\GroupByClause.java
+47 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\GroupByItem.java
+91 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\JoinType.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\LogicalOperator.java
+28 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\MaxAggregateBuilder.java
+48 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\MinAggregateBuilder.java
+48 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\OperatorType.java
+80 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\OrderByClause.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\OrderByItem.java
+152 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\Query.java
+608 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\QueryClause.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\QueryItem.java
+39 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\QueryParameter.java
+37 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\SelectClause.java
+77 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\SelectItem.java
+517 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\query\SumAggregateBuilder.java
+40 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\ColumnBuilder.java
+35 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\ColumnNameAsKeysRowConverter.java
+52 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\DocumentSourceProvider.java
+45 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\InferentialColumnBuilder.java
+116 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\InferentialSchemaBuilder.java
+122 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\InferentialTableBuilder.java
+125 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\LazyDocumentSource.java
+51 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\MultiTableInferentialSchemaBuilder.java
+76 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\SchemaBuilder.java
+61 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\SimpleTableDefSchemaBuilder.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\SingleMapColumnSchemaBuilder.java
+88 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\SingleTableInferentialSchemaBuilder.java
+60 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\builder\TableBuilder.java
+55 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\AbstractColumn.java
+106 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\AbstractRelationship.java
+119 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\AbstractSchema.java
+196 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\AbstractTable.java
+327 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\Column.java
+106 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\ColumnType.java
+149 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\ColumnTypeImpl.java
+257 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\CompositeSchema.java
+89 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\ImmutableColumn.java
+171 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\ImmutableRelationship.java
+82 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\ImmutableSchema.java
+70 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\ImmutableTable.java
+104 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\JdbcTypes.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\MutableColumn.java
+190 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\MutableRelationship.java
+130 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\MutableSchema.java
+106 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\MutableTable.java
+207 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\NamedStructure.java
+61 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\Relationship.java
+72 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\Schema.java
+119 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\SuperColumnType.java
+53 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\Table.java
+213 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\schema\TableType.java
+70 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\update\AbstractRowUpdationBuilder.java
+122 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\update\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\update\RowUpdateable.java
+68 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\update\RowUpdationBuilder.java
+57 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\update\Update.java
+127 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\AbstractNumberAggregateBuilder.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\Action.java
+32 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\AggregateBuilder.java
+33 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\AlphabeticSequence.java
+84 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\BaseObject.java
+164 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\BooleanComparator.java
+160 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\ClasspathResource.java
+151 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\CollectionUtils.java
+358 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\ConstantFunc.java
+65 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\DateUtils.java
+111 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\EqualsBuilder.java
+97 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\ExclusionPredicate.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\FalsePredicate.java
+46 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\FileHelper.java
+461 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\FileResource.java
+148 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\FormatHelper.java
+262 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\Func.java
+33 same line(s)
+8 ignored unimportant difference line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\HasName.java
+27 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\HasNameMapper.java
+37 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\ImmutableDate.java
+61 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\ImmutableRef.java
+43 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\InclusionPredicate.java
+50 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\InMemoryResource.java
+165 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\LazyRef.java
+125 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\LegacyDeserializationObjectInputStream.java
+261 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\Month.java
+91 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\MutableRef.java
+46 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\NumberComparator.java
+107 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\ObjectComparator.java
+102 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\Predicate.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\Ref.java
+30 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\Resource.java
+137 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\ResourceException.java
+50 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\ResourceUtils.java
+67 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\SerializableRef.java
+90 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\SharedExecutorService.java
+76 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\SimpleTableDef.java
+201 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\SimpleTableDefParser.java
+113 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\TimeComparator.java
+207 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\ToStringComparator.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\TruePredicate.java
+46 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\UncheckedFunc.java
+21 ignored unimportant difference line(s)
+15 important right orphan line(s)
+
+4 difference section(s)
+
+File: core\src\main\java\org\apache\metamodel\util\UnicodeWriter.java
+224 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\UrlResource.java
+155 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\Weekday.java
+81 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\util\WildcardPattern.java
+69 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\AbstractDataContext.java
+556 same line(s)
+6 ignored unimportant difference line(s)
+3 important right orphan line(s)
+3 important difference line(s)
+
+6 difference section(s)
+
+File: core\src\main\java\org\apache\metamodel\AbstractUpdateCallback.java
+162 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\BatchUpdateScript.java
+29 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\CompositeDataContext.java
+202 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\CompositeQueryDelegate.java
+49 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\DataContext.java
+197 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\DeleteAndInsertBuilder.java
+111 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\InconsistentRowFormatException.java
+80 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\MetaModelException.java
+47 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\MetaModelHelper.java
+828 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\package-info.java
+23 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\QueryPostprocessDataContext.java
+687 same line(s)
+8 ignored unimportant difference line(s)
+6 important left orphan line(s)
+1 important right orphan line(s)
+4 important difference line(s)
+
+6 difference section(s)
+
+File: core\src\main\java\org\apache\metamodel\QueryPostprocessDelegate.java
+42 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\SchemaNameComparator.java
+56 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\UpdateableDataContext.java
+39 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\UpdateCallback.java
+43 same line(s)
+
+File: core\src\main\java\org\apache\metamodel\UpdateScript.java
+39 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\convert\ColumnTypeDetectorTest.java
+72 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\convert\ConvertedDataSetInterceptorTest.java
+92 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\convert\ConvertedRowInsertionInterceptorTest.java
+61 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\convert\ConvertersTest.java
+160 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\convert\StringToBooleanConverterTest.java
+37 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\convert\StringToDateConverterTest.java
+66 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\convert\StringToDoubleConverterTest.java
+39 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\convert\StringToIntegerConverterTest.java
+37 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\create\AbstractCreateTableBuilderTest.java
+107 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\create\SyntaxExamplesTest.java
+49 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\data\DataSetIteratorTest.java
+74 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\data\DataSetTableModelTest.java
+57 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\data\DefaultRowTest.java
+137 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\data\FirstRowDataSetTest.java
+83 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\data\RowPublisherDataSetTest.java
+89 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\data\RowTest.java
+57 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\data\StyleBuilderTest.java
+60 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\delete\AbstractRowDeletionCallbackTest.java
+76 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\insert\AbstractInsertBuilderTest.java
+92 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\insert\SyntaxExamplesTest.java
+44 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\intercept\InterceptableDataContextTest.java
+113 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\intercept\InterceptorListTest.java
+61 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\intercept\InterceptorsTest.java
+33 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\builder\GroupedQueryBuilderImplTest.java
+108 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\builder\SyntaxExamplesTest.java
+80 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\builder\WhereBuilderImplTest.java
+81 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\parser\QueryParserTest.java
+389 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\parser\QueryPartParserTest.java
+110 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\DefaultCompiledQueryTest.java
+92 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\FilterItemTest.java
+444 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\FromClauseTest.java
+46 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\FromItemTest.java
+128 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\FunctionTypeTest.java
+42 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\GroupByItemTest.java
+42 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\OperatorTypeTest.java
+34 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\OrderByItemTest.java
+33 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\QueryTest.java
+245 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\SelectClauseTest.java
+41 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\query\SelectItemTest.java
+99 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\ColumnTypeTest.java
+92 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\DataTypeTest.java
+28 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\ImmutableSchemaTest.java
+35 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\Java5Types.java
+246 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\Java6Types.java
+297 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\JavaTypesTest.java
+50 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\MutableColumnTest.java
+66 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\MutableSchemaTest.java
+61 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\MutableTableTest.java
+96 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\SchemaModelTest.java
+104 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\schema\TableTypeTest.java
+38 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\update\SyntaxExamplesTest.java
+39 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\AlphabeticSequenceTest.java
+69 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\BaseObjectTest.java
+49 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\BooleanComparatorTest.java
+53 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\ClasspathResourceTest.java
+46 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\CollectionUtilsTest.java
+167 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\DateUtilsTest.java
+41 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\EqualsBuilderTest.java
+53 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\ExclusionPredicateTest.java
+36 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\FileHelperTest.java
+78 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\FormatHelperTest.java
+63 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\InclusionPredicateTest.java
+36 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\InMemoryResourceTest.java
+79 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\LazyRefTest.java
+91 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\LegacyDeserializationObjectInputStreamTest.java
+88 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\MonthTest.java
+38 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\NumberComparatorTest.java
+37 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\ObjectComparatorTest.java
+63 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\ResourceUtilsTest.java
+51 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\SerializableRefTest.java
+61 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\SimpleRefTest.java
+35 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\SimpleTableDefParserTest.java
+84 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\TimeComparatorTest.java
+79 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\ToStringComparatorTest.java
+51 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\UrlResourceTest.java
+32 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\WeekdayTest.java
+38 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\util\WildcardPatternTest.java
+45 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\AbstractDataContextTest.java
+285 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\CompositeDataContextTest.java
+117 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\MetaModelHelperTest.java
+327 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\MetaModelTestCase.java
+199 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\MockDataContext.java
+103 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\MockUpdateableDataContext.java
+181 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\QueryPostprocessDataContextTest.java
+1058 same line(s)
+
+File: core\src\test\java\org\apache\metamodel\SchemaNameComparatorTest.java
+40 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbDatabaseDocumentSource.java
+86 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbDataContext.java
+188 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbDataSet.java
+73 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbDocumentConverter.java
+35 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbInferentialSchemaBuilder.java
+72 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbInsertionBuilder.java
+54 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbRowDeletionBuilder.java
+62 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbRowUpdationBuilder.java
+79 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbSamplingDocumentSource.java
+81 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbSimpleTableDefSchemaBuilder.java
+55 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbTableCreationBuilder.java
+82 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbTableDropBuilder.java
+46 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbUpdateCallback.java
+143 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\CouchDbUtils.java
+117 same line(s)
+
+File: couchdb\src\main\java\org\apache\metamodel\couchdb\package-info.java
+23 same line(s)
+
+File: couchdb\src\test\java\org\apache\metamodel\couchdb\CouchDbDataContextTest.java
+440 same line(s)
+
+File: couchdb\src\test\java\org\apache\metamodel\couchdb\CouchDbTestCase.java
+96 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvConfiguration.java
+176 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvCreateTableBuilder.java
+53 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvDataContext.java
+435 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvDataSet.java
+129 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvDeleteBuilder.java
+103 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvInsertBuilder.java
+40 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvSchema.java
+63 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvTable.java
+157 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvTableDropBuilder.java
+38 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvUpdateCallback.java
+249 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\CsvWriter.java
+94 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\InconsistentRowLengthException.java
+99 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\package-info.java
+23 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\SingleLineCsvDataSet.java
+129 same line(s)
+
+File: csv\src\main\java\org\apache\metamodel\csv\SingleLineCsvRow.java
+126 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\csv\CsvBigFileMemoryTest.java
+132 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\csv\CsvConfigurationTest.java
+46 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\csv\CsvDataContextTest.java
+831 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\csv\DefaultExampleValueGenerator.java
+31 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\csv\ExampleDataGenerator.java
+96 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\csv\ExampleValueGenerator.java
+27 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\csv\RandomizedExampleValueGenerator.java
+92 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\csv\SingleLineCsvDataSetTest.java
+67 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\csv\UnicodeWriterTest.java
+51 same line(s)
+
+File: csv\src\test\java\org\apache\metamodel\intercept\InterceptionCsvIntegrationTest.java
+85 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchCreateTableBuilder.java
+143 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchDataContext.java
+454 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchDataSet.java
+130 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchDeleteBuilder.java
+81 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchDropTableBuilder.java
+103 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchInsertBuilder.java
+77 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchMetaData.java
+52 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchMetaDataParser.java
+104 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchUpdateCallback.java
+87 same line(s)
+
+File: elasticsearch\src\main\java\org\apache\metamodel\elasticsearch\ElasticSearchUtils.java
+54 same line(s)
+
+File: elasticsearch\src\test\java\org\apache\metamodel\elasticsearch\utils\EmbeddedElasticsearchServer.java
+71 same line(s)
+
+File: elasticsearch\src\test\java\org\apache\metamodel\elasticsearch\ElasticSearchDataContextTest.java
+599 same line(s)
+
+File: elasticsearch\src\test\java\org\apache\metamodel\elasticsearch\ElasticSearchMetaDataParserTest.java
+55 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\DefaultSpreadsheetReaderDelegate.java
+210 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\ExcelConfiguration.java
+99 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\ExcelDataContext.java
+261 same line(s)
+6 ignored unimportant difference line(s)
+6 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\ExcelDeleteBuilder.java
+81 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\ExcelDropTableBuilder.java
+44 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\ExcelInsertBuilder.java
+179 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\ExcelTableCreationBuilder.java
+63 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\ExcelUpdateCallback.java
+238 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\ExcelUtils.java
+417 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\package-info.java
+23 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\SpreadsheetReaderDelegate.java
+43 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\XlsDataSet.java
+76 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\XlsxRowCallback.java
+31 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\XlsxRowPublisherAction.java
+103 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\XlsxSheetToRowsHandler.java
+331 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\XlsxSpreadsheetReaderDelegate.java
+194 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\XlsxStopParsingException.java
+31 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\XlsxWorkbookToTablesHandler.java
+64 same line(s)
+
+File: excel\src\main\java\org\apache\metamodel\excel\ZeroBasedRowIterator.java
+56 same line(s)
+
+File: excel\src\test\java\org\apache\metamodel\excel\DefaultSpreadsheetReaderDelegateTest.java
+244 same line(s)
+
+File: excel\src\test\java\org\apache\metamodel\excel\ExcelConfigurationTest.java
+42 same line(s)
+
+File: excel\src\test\java\org\apache\metamodel\excel\ExcelDataContextTest.java
+764 same line(s)
+4 ignored unimportant difference line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: excel\src\test\java\org\apache\metamodel\excel\ExcelUpdateCallbackTest.java
+103 same line(s)
+
+File: excel\src\test\java\org\apache\metamodel\excel\ZeroBasedRowIteratorTest.java
+75 same line(s)
+
+File: fixedwidth\src\main\java\org\apache\metamodel\fixedwidth\FixedWidthConfiguration.java
+149 same line(s)
+
+File: fixedwidth\src\main\java\org\apache\metamodel\fixedwidth\FixedWidthDataContext.java
+191 same line(s)
+
+File: fixedwidth\src\main\java\org\apache\metamodel\fixedwidth\FixedWidthDataSet.java
+113 same line(s)
+
+File: fixedwidth\src\main\java\org\apache\metamodel\fixedwidth\FixedWidthReader.java
+186 same line(s)
+
+File: fixedwidth\src\main\java\org\apache\metamodel\fixedwidth\InconsistentValueWidthException.java
+65 same line(s)
+
+File: fixedwidth\src\main\java\org\apache\metamodel\fixedwidth\package-info.java
+23 same line(s)
+
+File: fixedwidth\src\test\java\org\apache\metamodel\fixedwidth\FixedWidthConfigurationTest.java
+44 same line(s)
+
+File: fixedwidth\src\test\java\org\apache\metamodel\fixedwidth\FixedWidthDataContextTest.java
+227 same line(s)
+
+File: full\src\main\java\org\apache\metamodel\DataContextFactory.java
+666 same line(s)
+
+File: full\src\test\java\org\apache\metamodel\DataContextFactoryTest.java
+46 same line(s)
+
+File: hadoop\src\main\java\org\apache\metamodel\util\HdfsResource.java
+65 ignored unimportant difference line(s)
+251 important right orphan line(s)
+
+37 difference section(s)
+
+File: hadoop\src\test\java\org\apache\metamodel\util\HdfsResourceIntegrationTest.java
+38 ignored unimportant difference line(s)
+82 important right orphan line(s)
+
+21 difference section(s)
+
+File: hadoop\src\test\java\org\apache\metamodel\util\HdfsResourceTest.java
+25 ignored unimportant difference line(s)
+17 important right orphan line(s)
+
+8 difference section(s)
+
+File: hbase\src\main\java\org\apache\metamodel\hbase\ByteUtils.java
+114 same line(s)
+
+File: hbase\src\main\java\org\apache\metamodel\hbase\HBaseConfiguration.java
+107 same line(s)
+
+File: hbase\src\main\java\org\apache\metamodel\hbase\HBaseDataContext.java
+243 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)
+
+File: hbase\src\main\java\org\apache\metamodel\hbase\HBaseDataSet.java
+77 same line(s)
+
+File: hbase\src\main\java\org\apache\metamodel\hbase\HBaseFamilyMap.java
+116 same line(s)
+
+File: hbase\src\main\java\org\apache\metamodel\hbase\HBaseRow.java
+89 same line(s)
+
+File: hbase\src\main\java\org\apache\metamodel\hbase\HBaseTable.java
+129 same line(s)
+
+File: hbase\src\main\java\org\apache\metamodel\hbase\package-info.java
+22 same line(s)
+
+File: hbase\src\test\java\org\apache\metamodel\hbase\HBaseDataContextTest.java
+179 same line(s)
+
+File: hbase\src\test\java\org\apache\metamodel\hbase\HBaseTestCase.java
+74 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\AbstractQueryRewriter.java
+271 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\DB2QueryRewriter.java
+161 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\DefaultQueryRewriter.java
+162 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\H2QueryRewriter.java
+31 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\HsqldbQueryRewriter.java
+102 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\IQueryRewriter.java
+94 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\LimitOffsetQueryRewriter.java
+71 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\MysqlQueryRewriter.java
+53 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\OracleQueryRewriter.java
+80 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\PostgresqlQueryRewriter.java
+73 same line(s)
+3 important right orphan line(s)
+
+1 difference section(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\dialects\SQLServerQueryRewriter.java
+124 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\FetchSizeCalculator.java
+262 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcBatchUpdateCallback.java
+74 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcColumn.java
+53 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcCompiledQuery.java
+156 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcCompiledQueryLease.java
+48 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcCompiledQueryLeaseFactory.java
+72 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcCreateTableBuilder.java
+136 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcDataContext.java
+815 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcDataSet.java
+217 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcDeleteBuilder.java
+96 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcDropTableBuilder.java
+71 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcInsertBuilder.java
+149 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcMetadataLoader.java
+474 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcSchema.java
+78 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcSimpleUpdateCallback.java
+47 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcTable.java
+82 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcUpdateBuilder.java
+151 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcUpdateCallback.java
+216 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\JdbcUtils.java
+249 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\MetadataLoader.java
+48 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\package-info.java
+23 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\QuerySplitter.java
+336 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\SplitQueriesDataSet.java
+106 same line(s)
+
+File: jdbc\src\main\java\org\apache\metamodel\jdbc\SqlKeywords.java
+51 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\dbmains\PostgresqlMain.java
+92 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\dialects\AbstractQueryRewriterTest.java
+66 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\dialects\DB2QueryRewriterTest.java
+186 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\dialects\MysqlQueryRewriterTest.java
+56 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\dialects\PostgresqlQueryRewriterTest.java
+58 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\dialects\SQLServerQueryRewriterTest.java
+98 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\integrationtests\AbstractJdbIntegrationTest.java
+137 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\integrationtests\DB2Test.java
+134 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\integrationtests\FirebirdTest.java
+121 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\integrationtests\MysqlTest.java
+415 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\integrationtests\OracleTest.java
+252 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\integrationtests\package-info.java
+22 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\integrationtests\PostgresqlTest.java
+930 same line(s)
+12 ignored unimportant difference line(s)
+48 important right orphan line(s)
+
+8 difference section(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\integrationtests\SQLServerJtdsDriverTest.java
+282 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\integrationtests\SQLServerMicrosoftDriverTest.java
+163 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\CloseableConnectionWrapper.java
+294 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\DerbyTest.java
+400 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\FetchSizeCalculatorTest.java
+129 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\FilteredDataSetTest.java
+74 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\H2databaseTest.java
+516 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\HsqldbTest.java
+406 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcColumnTest.java
+58 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcDataContextTest.java
+647 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcDeleteBuilderTest.java
+88 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcInsertBuilderTest.java
+83 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcSchemaTest.java
+101 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcTestCase.java
+51 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcTestTemplates.java
+625 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcUpdateBuilderTest.java
+105 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcUtilsTest.java
+49 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\QuerySplitterTest.java
+232 same line(s)
+
+File: jdbc\src\test\java\org\apache\metamodel\jdbc\SqliteTest.java
+265 same line(s)
+
+File: json\src\main\java\org\apache\metamodel\json\JsonDataContext.java
+127 same line(s)
+
+File: json\src\main\java\org\apache\metamodel\json\JsonDocumentSource.java
+87 same line(s)
+
+File: json\src\test\java\org\apache\metamodel\json\JsonDataContextTest.java
+99 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\DefaultWriteConcernAdvisor.java
+32 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\MongoDbDataContext.java
+523 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\MongoDbDataSet.java
+83 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\MongoDbDeleteBuilder.java
+56 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\MongoDbDropTableBuilder.java
+43 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\MongoDbInsertionBuilder.java
+64 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\MongoDbTableCreationBuilder.java
+57 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\MongoDbTableDef.java
+46 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\MongoDbUpdateCallback.java
+114 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\MongoDBUtils.java
+77 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\package-info.java
+23 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\SimpleWriteConcernAdvisor.java
+50 same line(s)
+
+File: mongodb\src\main\java\org\apache\metamodel\mongodb\WriteConcernAdvisor.java
+35 same line(s)
+
+File: mongodb\src\test\java\org\apache\metamodel\mongodb\MongoDbDataContextTest.java
+549 same line(s)
+
+File: mongodb\src\test\java\org\apache\metamodel\mongodb\MongoDbDataCopyer.java
+124 same line(s)
+
+File: mongodb\src\test\java\org\apache\metamodel\mongodb\MongoDbTestCase.java
+111 same line(s)
+
+File: openoffice\src\main\java\org\apache\metamodel\openoffice\OpenOfficeDataContext.java
+130 same line(s)
+
+File: openoffice\src\main\java\org\apache\metamodel\openoffice\package-info.java
+23 same line(s)
+
+File: openoffice\src\test\java\org\apache\metamodel\openoffice\OpenOfficeDataContextTest.java
+110 same line(s)
+
+File: pojo\src\main\java\org\apache\metamodel\pojo\ArrayTableDataProvider.java
+74 same line(s)
+
+File: pojo\src\main\java\org\apache\metamodel\pojo\MapTableDataProvider.java
+68 same line(s)
+
+File: pojo\src\main\java\org\apache\metamodel\pojo\ObjectTableDataProvider.java
+172 same line(s)
+
+File: pojo\src\main\java\org\apache\metamodel\pojo\PojoDataContext.java
+162 same line(s)
+
+File: pojo\src\main\java\org\apache\metamodel\pojo\PojoDataSet.java
+79 same line(s)
+
+File: pojo\src\main\java\org\apache\metamodel\pojo\PojoUpdateCallback.java
+148 same line(s)
+
+File: pojo\src\main\java\org\apache\metamodel\pojo\TableDataProvider.java
+38 same line(s)
+
+File: pojo\src\test\java\org\apache\metamodel\pojo\FoobarBean.java
+67 same line(s)
+
+File: pojo\src\test\java\org\apache\metamodel\pojo\ObjectTableDataProviderTest.java
+36 same line(s)
+
+File: pojo\src\test\java\org\apache\metamodel\pojo\Person.java
+53 same line(s)
+
+File: pojo\src\test\java\org\apache\metamodel\pojo\PojoDataContextTest.java
+218 same line(s)
+
+File: salesforce\src\main\java\org\apache\metamodel\salesforce\SalesforceDataContext.java
+370 same line(s)
+
+File: salesforce\src\main\java\org\apache\metamodel\salesforce\SalesforceDataSet.java
+136 same line(s)
+
+File: salesforce\src\main\java\org\apache\metamodel\salesforce\SalesforceDeleteBuilder.java
+57 same line(s)
+
+File: salesforce\src\main\java\org\apache\metamodel\salesforce\SalesforceInsertBuilder.java
+68 same line(s)
+
+File: salesforce\src\main\java\org\apache\metamodel\salesforce\SalesforceSchema.java
+91 same line(s)
+
+File: salesforce\src\main\java\org\apache\metamodel\salesforce\SalesforceTable.java
+171 same line(s)
+
+File: salesforce\src\main\java\org\apache\metamodel\salesforce\SalesforceUpdateBuilder.java
+88 same line(s)
+
+File: salesforce\src\main\java\org\apache\metamodel\salesforce\SalesforceUpdateCallback.java
+275 same line(s)
+
+File: salesforce\src\main\java\org\apache\metamodel\salesforce\SalesforceUtils.java
+55 same line(s)
+
+File: salesforce\src\test\java\org\apache\metamodel\salesforce\SalesforceDataContextTest.java
+377 same line(s)
+
+File: salesforce\src\test\java\org\apache\metamodel\salesforce\SalesforceDataSetTest.java
+60 same line(s)
+
+File: salesforce\src\test\java\org\apache\metamodel\salesforce\SalesforceTestCase.java
+89 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\AbstractDataContextFactoryBeanDelegate.java
+95 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\CouchDbDataContextFactoryBeanDelegate.java
+41 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\CsvDataContextFactoryBeanDelegate.java
+46 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\DataContextFactoryBean.java
+381 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\DataContextFactoryBeanDelegate.java
+46 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\DataContextFactoryParameters.java
+79 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\ExcelDataContextFactoryBeanDelegate.java
+42 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\JdbcDataContextFactoryBeanDelegate.java
+73 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\MongoDbDataContextFactoryBeanDelegate.java
+42 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\PojoDataContextFactoryBeanDelegate.java
+55 same line(s)
+
+File: spring\src\main\java\org\apache\metamodel\spring\SpringResource.java
+142 same line(s)
+
+File: spring\src\test\java\org\apache\metamodel\spring\CsvDefaultConfigurationFromResourceTest.java
+58 same line(s)
+
+File: spring\src\test\java\org\apache\metamodel\spring\CsvSpecifiedConfigurationFromFilenameTest.java
+58 same line(s)
+
+File: spring\src\test\java\org\apache\metamodel\spring\DataContextFactoryBeanTest.java
+35 same line(s)
+
+File: spring\src\test\java\org\apache\metamodel\spring\ExcelSpecifiedConfigurationFromFilenameTest.java
+59 same line(s)
+
+File: spring\src\test\java\org\apache\metamodel\spring\MockDataContextFactoryBeanDelegate.java
+40 same line(s)
+
+File: spring\src\test\java\org\apache\metamodel\spring\MockDataContextTypeTest.java
+44 same line(s)
+
+File: spring\src\test\java\org\apache\metamodel\spring\PojoDataContextFactoryBeanDelegateTest.java
+53 same line(s)
+
+File: sugarcrm\src\main\java\org\apache\metamodel\sugarcrm\LoggingMessageHandler.java
+98 same line(s)
+
+File: sugarcrm\src\main\java\org\apache\metamodel\sugarcrm\SugarCrmDataContext.java
+178 same line(s)
+
+File: sugarcrm\src\main\java\org\apache\metamodel\sugarcrm\SugarCrmDataSet.java
+156 same line(s)
+
+File: sugarcrm\src\main\java\org\apache\metamodel\sugarcrm\SugarCrmSchema.java
+69 same line(s)
+
+File: sugarcrm\src\main\java\org\apache\metamodel\sugarcrm\SugarCrmTable.java
+159 same line(s)
+
+File: sugarcrm\src\main\java\org\apache\metamodel\sugarcrm\SugarCrmXmlHelper.java
+109 same line(s)
+
+File: sugarcrm\src\test\java\org\apache\metamodel\sugarcrm\SugarCrmDataContextTest.java
+242 same line(s)
+
+File: sugarcrm\src\test\java\org\apache\metamodel\sugarcrm\SugarCrmTestCase.java
+84 same line(s)
+
+File: xml\src\main\java\org\apache\metamodel\xml\package-info.java
+23 same line(s)
+
+File: xml\src\main\java\org\apache\metamodel\xml\XmlDataContext.java
+59 same line(s)
+
+File: xml\src\main\java\org\apache\metamodel\xml\XmlDomDataContext.java
+634 same line(s)
+
+File: xml\src\main\java\org\apache\metamodel\xml\XmlSaxContentHandler.java
+171 same line(s)
+
+File: xml\src\main\java\org\apache\metamodel\xml\XmlSaxDataContext.java
+256 same line(s)
+
+File: xml\src\main\java\org\apache\metamodel\xml\XmlSaxTableDef.java
+147 same line(s)
+
+File: xml\src\main\java\org\apache\metamodel\xml\XmlStopParsingException.java
+31 same line(s)
+
+File: xml\src\test\java\org\apache\metamodel\xml\XmlDomDataContextTest.java
+332 same line(s)
+
+File: xml\src\test\java\org\apache\metamodel\xml\XmlSaxContentHandlerTest.java
+77 same line(s)
+
+File: xml\src\test\java\org\apache\metamodel\xml\XmlSaxDataContextTest.java
+242 same line(s)

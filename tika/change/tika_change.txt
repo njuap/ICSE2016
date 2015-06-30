@@ -1,0 +1,2853 @@
+﻿Text Compare
+Produced: 2015/6/30 星期二 15:24:47
+
+Ignoring Unimportant
+Left base folder: D:\APsource\tika\version1
+Right base folder: D:\APsource\tika\version2
+
+File: tika-app\src\main\java\org\apache\tika\cli\BatchCommandLineBuilder.java
+206 same line(s)
+
+File: tika-app\src\main\java\org\apache\tika\cli\TikaCLI.java
+1226 same line(s)
+
+File: tika-app\src\main\java\org\apache\tika\gui\ParsingTransferHandler.java
+131 same line(s)
+
+File: tika-app\src\main\java\org\apache\tika\gui\TikaGUI.java
+659 same line(s)
+
+File: tika-app\src\test\java\org\apache\tika\cli\TikaCLIBatchCommandLineTest.java
+216 same line(s)
+
+File: tika-app\src\test\java\org\apache\tika\cli\TikaCLIBatchIntegrationTest.java
+136 same line(s)
+
+File: tika-app\src\test\java\org\apache\tika\cli\TikaCLITest.java
+381 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\AbstractConsumersBuilder.java
+38 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\BatchProcessBuilder.java
+295 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\CommandLineParserBuilder.java
+143 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\DefaultContentHandlerFactoryBuilder.java
+76 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\IContentHandlerFactoryBuilder.java
+29 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\ICrawlerBuilder.java
+32 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\InterrupterBuilder.java
+33 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\ObjectFromDOMAndQueueBuilder.java
+36 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\ObjectFromDOMBuilder.java
+31 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\ReporterBuilder.java
+30 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\SimpleLogReporterBuilder.java
+43 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\builders\StatusReporterBuilder.java
+31 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\builders\BasicTikaFSConsumersBuilder.java
+203 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\builders\FSCrawlerBuilder.java
+129 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\strawman\StrawManTikaAppDriver.java
+252 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\AbstractFSConsumer.java
+78 same line(s)
+4 important left orphan line(s)
+
+1 difference section(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\BasicTikaFSConsumer.java
+124 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\FSBatchProcessCLI.java
+151 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\FSConsumersManager.java
+42 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\FSDirectoryCrawler.java
+155 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\FSDocumentSelector.java
+83 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\FSFileResource.java
+99 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\FSListCrawler.java
+80 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\FSOutputStreamFactory.java
+94 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\FSProperties.java
+12 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\FSUtil.java
+149 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\fs\RecursiveParserWrapperFSConsumer.java
+157 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\AutoDetectParserFactory.java
+34 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\BatchNoRestartError.java
+33 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\BatchProcess.java
+597 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\BatchProcessDriverCLI.java
+399 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\ConsumersManager.java
+80 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\FileConsumerFutureResult.java
+37 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\FileResource.java
+68 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\FileResourceConsumer.java
+429 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\FileResourceCrawler.java
+270 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\FileResourceCrawlerFutureResult.java
+37 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\FileStarted.java
+113 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\IFileProcessorFutureResult.java
+26 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\Interrupter.java
+58 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\InterrupterFutureResult.java
+22 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\OutputStreamFactory.java
+29 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\ParallelFileProcessingResult.java
+109 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\ParserFactory.java
+27 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\PoisonFileResource.java
+54 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\StatusReporter.java
+227 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\batch\StatusReporterFutureResult.java
+23 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\util\ClassLoaderUtil.java
+41 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\util\DurationFormatUtils.java
+66 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\util\PropsUtil.java
+123 same line(s)
+
+File: tika-batch\src\main\java\org\apache\tika\util\TikaExceptionFilter.java
+40 ignored unimportant difference line(s)
+24 important left orphan line(s)
+
+6 difference section(s)
+
+File: tika-batch\src\main\java\org\apache\tika\util\XMLDOMUtil.java
+109 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\fs\strawman\StrawmanTest.java
+26 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\fs\BatchDriverTest.java
+217 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\fs\BatchProcessTest.java
+343 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\fs\FSBatchTestBase.java
+220 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\fs\HandlerBuilderTest.java
+121 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\fs\OutputStreamFactoryTest.java
+101 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\fs\StringStreamGobbler.java
+63 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\mock\MockConsumersBuilder.java
+38 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\mock\MockConsumersManager.java
+77 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\CommandLineParserBuilderTest.java
+48 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\batch\RecursiveParserWrapperFSConsumerTest.java
+40 ignored unimportant difference line(s)
+109 important right orphan line(s)
+
+22 difference section(s)
+
+File: tika-batch\src\test\java\org\apache\tika\parser\mock\MockParserFactory.java
+29 same line(s)
+
+File: tika-batch\src\test\java\org\apache\tika\util\TikaExceptionFilterTest.java
+21 ignored unimportant difference line(s)
+18 important left orphan line(s)
+
+6 difference section(s)
+
+File: tika-bundle\src\test\java\org\apache\tika\bundle\BundleIT.java
+186 same line(s)
+26 ignored unimportant difference line(s)
+20 important left orphan line(s)
+35 important right orphan line(s)
+16 important difference line(s)
+
+32 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\config\LoadErrorHandler.java
+73 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\config\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\config\ServiceLoader.java
+343 same line(s)
+2 ignored unimportant difference line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\config\TikaActivator.java
+83 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\config\TikaConfig.java
+525 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\AutoDetectReader.java
+129 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\CompositeDetector.java
+75 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\DefaultDetector.java
+94 same line(s)
+16 important left orphan line(s)
+1 important right orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\DefaultProbDetector.java
+34 ignored unimportant difference line(s)
+46 important right orphan line(s)
+
+12 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\Detector.java
+59 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\EmptyDetector.java
+40 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\EncodingDetector.java
+57 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\MagicDetector.java
+455 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\NameDetector.java
+144 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\NNExampleModelDetector.java
+61 ignored unimportant difference line(s)
+113 important right orphan line(s)
+
+23 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\NNTrainedModel.java
+36 ignored unimportant difference line(s)
+67 important right orphan line(s)
+
+14 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\NNTrainedModelBuilder.java
+33 ignored unimportant difference line(s)
+43 important right orphan line(s)
+
+16 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\TextDetector.java
+140 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\TextStatistics.java
+161 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\TrainedModel.java
+19 ignored unimportant difference line(s)
+5 important right orphan line(s)
+
+3 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\TrainedModelDetector.java
+66 ignored unimportant difference line(s)
+122 important right orphan line(s)
+
+32 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\TypeDetector.java
+56 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\detect\XmlRootExtractor.java
+84 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\embedder\Embedder.java
+94 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\embedder\ExternalEmbedder.java
+540 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\exception\AccessPermissionException.java
+40 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\exception\EncryptedDocumentException.java
+35 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\exception\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\exception\TikaException.java
+32 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\extractor\ContainerExtractor.java
+65 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\extractor\DocumentSelector.java
+42 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\extractor\EmbeddedDocumentExtractor.java
+43 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\extractor\EmbeddedResourceHandler.java
+41 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\extractor\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\extractor\ParserContainerExtractor.java
+142 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\extractor\ParsingEmbeddedDocumentExtractor.java
+122 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ClassLoaderProxy.java
+135 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ClassLoaderResource.java
+97 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ContentHandlerProxy.java
+190 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ContentHandlerResource.java
+107 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ForkClient.java
+291 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ForkObjectInputStream.java
+113 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ForkParser.java
+249 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ForkProxy.java
+27 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ForkResource.java
+29 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\ForkServer.java
+218 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\InputStreamProxy.java
+71 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\InputStreamResource.java
+50 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\MemoryURLConnection.java
+42 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\MemoryURLStreamHandler.java
+68 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\MemoryURLStreamHandlerFactory.java
+32 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\MemoryURLStreamRecord.java
+27 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\MetadataContentHandler.java
+42 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\fork\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\ClosedInputStream.java
+43 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\CloseShieldInputStream.java
+52 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\CountingInputStream.java
+182 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\EndianUtils.java
+422 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\FilenameUtils.java
+113 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\IOExceptionWithCause.java
+67 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\IOUtils.java
+1187 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\LookaheadInputStream.java
+147 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\NullInputStream.java
+337 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\NullOutputStream.java
+68 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\ProxyInputStream.java
+237 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\TaggedInputStream.java
+139 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\TaggedIOException.java
+64 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\TailStream.java
+268 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\TemporaryResources.java
+156 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\io\TikaInputStream.java
+659 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\language\translate\DefaultTranslator.java
+73 same line(s)
+1 ignored unimportant difference line(s)
+
+File: tika-core\src\main\java\org\apache\tika\language\translate\Translator.java
+71 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\language\LanguageIdentifier.java
+242 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\language\LanguageProfile.java
+314 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\language\LanguageProfilerBuilder.java
+768 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\language\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\language\ProfilingHandler.java
+67 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\language\ProfilingWriter.java
+103 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\AccessPermissions.java
+71 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\ClimateForcast.java
+55 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\CreativeCommons.java
+32 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\Database.java
+25 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\DublinCore.java
+190 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\Geographic.java
+48 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\HttpHeaders.java
+46 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\IPTC.java
+1318 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\Message.java
+32 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\Metadata.java
+562 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\MSOffice.java
+128 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\Office.java
+125 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\OfficeOpenXMLCore.java
+76 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\OfficeOpenXMLExtended.java
+70 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\PagedText.java
+36 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\Photoshop.java
+88 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\Property.java
+357 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\PropertyTypeException.java
+50 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\RTFMetadata.java
+46 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\TIFF.java
+142 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\TikaCoreProperties.java
+298 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\TikaMetadataKeys.java
+32 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\TikaMimeKeys.java
+28 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\XMP.java
+72 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\XMPDM.java
+426 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\XMPIdq.java
+34 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\XMPMM.java
+75 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\metadata\XMPRights.java
+69 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\AndClause.java
+50 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\Clause.java
+37 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\HexCoDec.java
+120 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\Magic.java
+88 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\MagicMatch.java
+79 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\MediaType.java
+444 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\MediaTypeRegistry.java
+207 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\MimeType.java
+464 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\MimeTypeException.java
+46 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\MimeTypes.java
+576 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\MimeTypesFactory.java
+172 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\MimeTypesReader.java
+293 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\MimeTypesReaderMetKeys.java
+71 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\OrClause.java
+50 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\Patterns.java
+220 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\mime\ProbabilisticMimeDetectionSelector.java
+169 ignored unimportant difference line(s)
+372 important right orphan line(s)
+
+79 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\external\CompositeExternalParser.java
+47 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\external\ExternalParser.java
+353 same line(s)
+4 ignored unimportant difference line(s)
+1 important left orphan line(s)
+23 important right orphan line(s)
+8 important difference line(s)
+
+11 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\external\ExternalParsersConfigReader.java
+222 same line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\external\ExternalParsersConfigReaderMetKeys.java
+43 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\external\ExternalParsersFactory.java
+89 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\external\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\AbstractParser.java
+56 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\AutoDetectParser.java
+139 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\CompositeParser.java
+299 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\CryptoParser.java
+109 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\DefaultParser.java
+101 same line(s)
+16 important left orphan line(s)
+11 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\DelegatingParser.java
+75 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\EmptyParser.java
+57 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\ErrorParser.java
+51 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\NetworkParser.java
+197 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\ParseContext.java
+148 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\Parser.java
+70 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\ParserDecorator.java
+175 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\ParserPostProcessor.java
+70 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\ParsingReader.java
+279 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\PasswordProvider.java
+43 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\parser\RecursiveParserWrapper.java
+297 same line(s)
+40 ignored unimportant difference line(s)
+30 important right orphan line(s)
+2 important difference line(s)
+
+10 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\AttributeMatcher.java
+31 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\ChildMatcher.java
+35 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\CompositeMatcher.java
+61 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\ElementMatcher.java
+31 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\Matcher.java
+77 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\MatchingContentHandler.java
+107 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\NamedAttributeMatcher.java
+42 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\NamedElementMatcher.java
+48 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\NodeMatcher.java
+42 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\SubtreeMatcher.java
+56 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\TextMatcher.java
+31 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\xpath\XPathParser.java
+120 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\BasicContentHandlerFactory.java
+128 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\BodyContentHandler.java
+105 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\CleanPhoneText.java
+286 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\ContentHandlerDecorator.java
+189 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\ContentHandlerFactory.java
+32 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\DIFContentHandler.java
+32 ignored unimportant difference line(s)
+120 important right orphan line(s)
+
+17 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\ElementMappingContentHandler.java
+146 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\EmbeddedContentHandler.java
+56 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\EndDocumentShieldingContentHandler.java
+53 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\ExpandedTitleContentHandler.java
+91 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\Link.java
+111 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\LinkBuilder.java
+77 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\LinkContentHandler.java
+125 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\OfflineContentHandler.java
+45 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\PhoneExtractingContentHandler.java
+111 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\SafeContentHandler.java
+296 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\SecureContentHandler.java
+300 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\TaggedContentHandler.java
+116 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\TaggedSAXException.java
+65 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\TeeContentHandler.java
+121 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\TextContentHandler.java
+87 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\ToHTMLContentHandler.java
+70 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\ToTextContentHandler.java
+140 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\ToXMLContentHandler.java
+281 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\WriteOutContentHandler.java
+203 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\XHTMLContentHandler.java
+329 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\sax\XMPContentHandler.java
+152 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\utils\CharsetUtils.java
+204 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\utils\DateUtils.java
+101 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\utils\ExceptionUtils.java
+51 ignored unimportant difference line(s)
+39 important right orphan line(s)
+
+9 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\utils\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\utils\RegexUtils.java
+66 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\utils\RereadableInputStream.java
+263 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\utils\ServiceLoaderUtils.java
+25 ignored unimportant difference line(s)
+23 important right orphan line(s)
+
+4 difference section(s)
+
+File: tika-core\src\main\java\org\apache\tika\package-info.java
+22 same line(s)
+
+File: tika-core\src\main\java\org\apache\tika\Tika.java
+660 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\config\TikaConfigTest.java
+180 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\detect\MagicDetectorTest.java
+260 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\detect\MimeDetectionWithNNTest.java
+58 ignored unimportant difference line(s)
+82 important right orphan line(s)
+
+26 difference section(s)
+
+File: tika-core\src\test\java\org\apache\tika\detect\NameDetectorTest.java
+97 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\detect\TextDetectorTest.java
+114 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\detect\TypeDetectorTest.java
+78 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\fork\ForkParserTest.java
+180 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\fork\ForkTestParser.java
+57 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\io\EndianUtilsTest.java
+40 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\io\FilenameUtilsTest.java
+117 same line(s)
+2 important difference line(s)
+
+1 difference section(s)
+
+File: tika-core\src\test\java\org\apache\tika\io\LookaheadInputStreamTest.java
+113 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\io\TaggedInputStreamTest.java
+55 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\io\TailStreamTest.java
+229 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\io\TikaInputStreamTest.java
+125 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\language\LanguageIdentifierTest.java
+184 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\language\LanguageProfilerBuilderTest.java
+108 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\language\LanguageProfileTest.java
+58 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\language\ProfilingWriterTest.java
+44 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\metadata\TestMetadata.java
+376 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\mime\CustomReaderTest.java
+95 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\mime\MediaTypeTest.java
+213 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\mime\MimeDetectionTest.java
+243 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-core\src\test\java\org\apache\tika\mime\MimeTypesReaderTest.java
+242 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\mime\PatternsTest.java
+96 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\mime\ProbabilisticMimeDetectionTest.java
+84 ignored unimportant difference line(s)
+163 important right orphan line(s)
+
+40 difference section(s)
+
+File: tika-core\src\test\java\org\apache\tika\mime\ProbabilisticMimeDetectionTestWithTika.java
+96 ignored unimportant difference line(s)
+192 important right orphan line(s)
+
+48 difference section(s)
+
+File: tika-core\src\test\java\org\apache\tika\parser\mock\MockParser.java
+299 same line(s)
+7 ignored unimportant difference line(s)
+50 important right orphan line(s)
+2 important difference line(s)
+
+13 difference section(s)
+
+File: tika-core\src\test\java\org\apache\tika\parser\CompositeParserTest.java
+156 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\parser\DummyParser.java
+68 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\parser\ParserDecoratorTest.java
+120 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\sax\xpath\XPathParserTest.java
+134 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\sax\BasicContentHandlerFactoryTest.java
+341 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\sax\BodyContentHandlerTest.java
+52 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\sax\LinkContentHandlerTest.java
+59 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\sax\OfflineContentHandlerTest.java
+71 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\sax\SafeContentHandlerTest.java
+82 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\sax\SecureContentHandlerTest.java
+163 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\sax\SerializerTest.java
+150 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\sax\XHTMLContentHandlerTest.java
+163 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\utils\CharsetUtilsTest.java
+71 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\utils\RegexUtilsTest.java
+87 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\ResourceLoggingClassLoader.java
+82 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\TestRereadableInputStream.java
+152 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\TikaDetectionTest.java
+850 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-core\src\test\java\org\apache\tika\TikaIT.java
+34 same line(s)
+
+File: tika-core\src\test\java\org\apache\tika\TypeDetectionBenchmark.java
+73 same line(s)
+
+File: tika-dotnet\src\main\java\Tika\Tika.java
+77 same line(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\AdvancedTypeDetector.java
+23 ignored unimportant difference line(s)
+32 important right orphan line(s)
+
+10 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\ContentHandlerExample.java
+151 same line(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\CustomMimeInfo.java
+21 ignored unimportant difference line(s)
+28 important right orphan line(s)
+
+8 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\DescribeMetadata.java
+23 ignored unimportant difference line(s)
+7 important right orphan line(s)
+
+5 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\DirListParser.java
+51 ignored unimportant difference line(s)
+88 important right orphan line(s)
+
+15 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\DisplayMetInstance.java
+23 ignored unimportant difference line(s)
+23 important right orphan line(s)
+
+7 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\DumpTikaConfigExample.java
+214 same line(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\EncryptedPrescriptionDetector.java
+25 ignored unimportant difference line(s)
+37 important right orphan line(s)
+
+12 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\EncryptedPrescriptionParser.java
+23 ignored unimportant difference line(s)
+37 important right orphan line(s)
+
+10 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\GrabPhoneNumbersExample.java
+87 same line(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\ImportContextImpl.java
+117 ignored unimportant difference line(s)
+125 important right orphan line(s)
+
+29 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\Language.java
+24 ignored unimportant difference line(s)
+35 important right orphan line(s)
+
+11 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\LanguageDetectingParser.java
+22 ignored unimportant difference line(s)
+27 important right orphan line(s)
+
+9 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\LanguageIdentifierExample.java
+27 same line(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\LazyTextExtractorField.java
+102 ignored unimportant difference line(s)
+115 important right orphan line(s)
+
+32 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\LuceneIndexer.java
+22 ignored unimportant difference line(s)
+24 important right orphan line(s)
+
+8 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\LuceneIndexerExtended.java
+23 ignored unimportant difference line(s)
+47 important right orphan line(s)
+
+10 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\MediaTypeExample.java
+26 ignored unimportant difference line(s)
+32 important right orphan line(s)
+
+13 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\MetadataAwareLuceneIndexer.java
+26 ignored unimportant difference line(s)
+67 important right orphan line(s)
+
+10 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\MyFirstTika.java
+33 ignored unimportant difference line(s)
+46 important right orphan line(s)
+
+14 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\ParsingExample.java
+207 same line(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\Pharmacy.java
+20 ignored unimportant difference line(s)
+11 important right orphan line(s)
+
+7 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\PrescriptionParser.java
+23 ignored unimportant difference line(s)
+29 important right orphan line(s)
+
+10 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\RecentFiles.java
+33 ignored unimportant difference line(s)
+115 important right orphan line(s)
+
+14 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\RollbackSoftware.java
+57 ignored unimportant difference line(s)
+84 important right orphan line(s)
+
+21 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\SimpleTextExtractor.java
+22 ignored unimportant difference line(s)
+12 important right orphan line(s)
+
+7 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\SimpleTypeDetector.java
+20 ignored unimportant difference line(s)
+12 important right orphan line(s)
+
+7 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\SpringExample.java
+19 ignored unimportant difference line(s)
+19 important right orphan line(s)
+
+6 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\TIAParsingExample.java
+35 ignored unimportant difference line(s)
+183 important right orphan line(s)
+
+22 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\TranslatorExample.java
+34 same line(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\TrecDocumentGenerator.java
+61 ignored unimportant difference line(s)
+50 important right orphan line(s)
+
+17 difference section(s)
+
+File: tika-example\src\main\java\org\apache\tika\example\ZipListFiles.java
+26 ignored unimportant difference line(s)
+21 important right orphan line(s)
+
+5 difference section(s)
+
+File: tika-example\src\test\java\org\apache\tika\example\AdvancedTypeDetectorTest.java
+19 ignored unimportant difference line(s)
+11 important right orphan line(s)
+
+6 difference section(s)
+
+File: tika-example\src\test\java\org\apache\tika\example\ContentHandlerExampleTest.java
+105 same line(s)
+
+File: tika-example\src\test\java\org\apache\tika\example\DumpTikaConfigExampleTest.java
+83 same line(s)
+
+File: tika-example\src\test\java\org\apache\tika\example\LanguageIdentifierExampleTest.java
+37 same line(s)
+
+File: tika-example\src\test\java\org\apache\tika\example\SimpleTextExtractorTest.java
+25 ignored unimportant difference line(s)
+27 important right orphan line(s)
+
+12 difference section(s)
+
+File: tika-example\src\test\java\org\apache\tika\example\SimpleTypeDetectorTest.java
+25 ignored unimportant difference line(s)
+20 important right orphan line(s)
+
+12 difference section(s)
+
+File: tika-example\src\test\java\org\apache\tika\example\TestParsingExample.java
+102 same line(s)
+
+File: tika-example\src\test\java\org\apache\tika\example\TranslatorExampleTest.java
+44 same line(s)
+
+File: tika-java7\src\main\java\org\apache\tika\filetypedetector\package-info.java
+22 same line(s)
+
+File: tika-java7\src\main\java\org\apache\tika\filetypedetector\TikaFileTypeDetector.java
+54 same line(s)
+
+File: tika-java7\src\test\java\org\apache\tika\filetypedetector\TikaFileTypeDetectorTest.java
+92 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\asm\ClassParser.java
+54 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\asm\XHTMLClassVisitor.java
+323 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\audio\AudioParser.java
+139 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\audio\MidiParser.java
+119 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\ChmAccessor.java
+39 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\ChmDirectoryListingSet.java
+397 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\ChmItsfHeader.java
+491 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\ChmItspHeader.java
+549 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\ChmLzxcControlData.java
+320 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\ChmLzxcResetTable.java
+341 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\ChmPmgiHeader.java
+175 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\ChmPmglHeader.java
+205 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\DirectoryListingEntry.java
+151 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\assertion\ChmAssert.java
+169 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\core\ChmCommons.java
+361 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\core\ChmConstants.java
+102 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\core\ChmExtractor.java
+389 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\core\ChmWrapper.java
+147 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\exception\ChmParsingException.java
+27 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\lzx\ChmBlockInfo.java
+235 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\lzx\ChmLzxBlock.java
+913 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\lzx\ChmLzxState.java
+327 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\lzx\ChmSection.java
+222 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\chm\ChmParser.java
+107 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\code\SourceCodeParser.java
+144 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\crypto\Pkcs7Parser.java
+90 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\ctakes\CTAKESAnnotationProperty.java
+25 ignored unimportant difference line(s)
+21 important right orphan line(s)
+
+6 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\ctakes\CTAKESConfig.java
+189 ignored unimportant difference line(s)
+148 important right orphan line(s)
+
+48 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\ctakes\CTAKESContentHandler.java
+70 ignored unimportant difference line(s)
+78 important right orphan line(s)
+
+21 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\ctakes\CTAKESParser.java
+32 ignored unimportant difference line(s)
+26 important right orphan line(s)
+
+7 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\ctakes\CTAKESSerializer.java
+27 ignored unimportant difference line(s)
+16 important right orphan line(s)
+
+6 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\ctakes\CTAKESUtils.java
+134 ignored unimportant difference line(s)
+108 important right orphan line(s)
+
+20 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\dif\DIFContentHandler.java
+32 ignored unimportant difference line(s)
+120 important right orphan line(s)
+
+17 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\dif\DIFParser.java
+32 ignored unimportant difference line(s)
+55 important right orphan line(s)
+
+14 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\dwg\DWGParser.java
+356 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\envi\EnviHeaderParser.java
+87 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\epub\EpubContentParser.java
+80 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\epub\EpubParser.java
+113 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\executable\ExecutableParser.java
+406 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\executable\MachineMetadata.java
+91 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\feed\FeedParser.java
+127 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\font\AdobeFontMetricParser.java
+148 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\font\TrueTypeParser.java
+111 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\gdal\GDALParser.java
+420 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\geo\topic\GeoParser.java
+43 ignored unimportant difference line(s)
+112 important right orphan line(s)
+
+21 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\geo\topic\GeoParserConfig.java
+24 ignored unimportant difference line(s)
+30 important right orphan line(s)
+
+8 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\geo\topic\GeoTag.java
+31 ignored unimportant difference line(s)
+34 important right orphan line(s)
+
+7 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\geo\topic\NameEntityExtractor.java
+52 ignored unimportant difference line(s)
+73 important right orphan line(s)
+
+19 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\geoinfo\GeographicInformationParser.java
+51 ignored unimportant difference line(s)
+340 important right orphan line(s)
+
+32 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\grib\GribParser.java
+121 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\hdf\HDFParser.java
+122 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\html\BoilerpipeContentHandler.java
+252 same line(s)
+44 ignored unimportant difference line(s)
+62 important left orphan line(s)
+67 important right orphan line(s)
+5 important difference line(s)
+
+40 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\html\DefaultHtmlMapper.java
+123 same line(s)
+19 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\html\HtmlEncodingDetector.java
+87 same line(s)
+22 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\html\HtmlHandler.java
+301 same line(s)
+12 ignored unimportant difference line(s)
+3 important left orphan line(s)
+1 important right orphan line(s)
+2 important difference line(s)
+
+4 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\html\HtmlMapper.java
+62 same line(s)
+7 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\html\HtmlParser.java
+170 same line(s)
+34 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\html\IdentityHtmlMapper.java
+42 same line(s)
+1 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\html\XHTMLDowngradeHandler.java
+77 same line(s)
+1 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\image\xmp\JempboxExtractor.java
+94 same line(s)
+4 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\image\xmp\XMPPacketScanner.java
+80 same line(s)
+38 ignored unimportant difference line(s)
+16 important left orphan line(s)
+16 important right orphan line(s)
+
+6 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\image\BPGParser.java
+144 same line(s)
+31 ignored unimportant difference line(s)
+4 important left orphan line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\image\ImageMetadataExtractor.java
+536 same line(s)
+6 ignored unimportant difference line(s)
+8 important left orphan line(s)
+8 important right orphan line(s)
+
+7 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\image\ImageParser.java
+116 same line(s)
+51 ignored unimportant difference line(s)
+52 important left orphan line(s)
+54 important right orphan line(s)
+
+20 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\image\MetadataFields.java
+73 same line(s)
+7 ignored unimportant difference line(s)
+5 important left orphan line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\image\PSDParser.java
+106 same line(s)
+97 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\image\TiffParser.java
+64 same line(s)
+4 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\image\WebPParser.java
+63 same line(s)
+3 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\internal\Activator.java
+54 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\iptc\IptcAnpaParser.java
+807 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\isatab\ISArchiveParser.java
+136 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\isatab\ISATabUtils.java
+231 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\iwork\AutoPageNumberUtils.java
+112 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\iwork\IWorkPackageParser.java
+222 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\iwork\KeynoteContentHandler.java
+174 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\iwork\NumbersContentHandler.java
+231 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\iwork\PagesContentHandler.java
+448 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\jdbc\AbstractDBParser.java
+170 same line(s)
+17 ignored unimportant difference line(s)
+4 important left orphan line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\jdbc\JDBCTableReader.java
+300 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\jdbc\SQLite3DBParser.java
+112 same line(s)
+4 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\jdbc\SQLite3Parser.java
+73 same line(s)
+8 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\jdbc\SQLite3TableReader.java
+107 same line(s)
+3 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\jpeg\JpegParser.java
+65 same line(s)
+4 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mail\MailContentHandler.java
+264 same line(s)
+10 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mail\RFC822Parser.java
+90 same line(s)
+5 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mat\MatParser.java
+132 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mbox\MboxParser.java
+81 same line(s)
+126 ignored unimportant difference line(s)
+6 important left orphan line(s)
+7 important right orphan line(s)
+3 important difference line(s)
+
+8 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mbox\OutlookPSTParser.java
+75 same line(s)
+127 ignored unimportant difference line(s)
+5 important left orphan line(s)
+5 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\AbstractOOXMLExtractor.java
+265 same line(s)
+47 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\MetadataExtractor.java
+191 same line(s)
+78 ignored unimportant difference line(s)
+21 important left orphan line(s)
+1 important right orphan line(s)
+20 important difference line(s)
+
+26 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\OOXMLExtractor.java
+54 same line(s)
+2 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\OOXMLExtractorFactory.java
+113 same line(s)
+17 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\OOXMLParser.java
+56 same line(s)
+30 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\POIXMLTextExtractorDecorator.java
+43 same line(s)
+1 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\XSLFPowerPointExtractorDecorator.java
+168 same line(s)
+49 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\XSSFExcelExtractorDecorator.java
+114 same line(s)
+190 ignored unimportant difference line(s)
+114 important left orphan line(s)
+120 important right orphan line(s)
+
+49 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\XWPFListManager.java
+81 ignored unimportant difference line(s)
+95 important right orphan line(s)
+
+23 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\XWPFWordExtractorDecorator.java
+159 same line(s)
+259 ignored unimportant difference line(s)
+17 important right orphan line(s)
+24 important difference line(s)
+
+28 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\AbstractListManager.java
+72 ignored unimportant difference line(s)
+197 important right orphan line(s)
+
+42 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\AbstractPOIFSExtractor.java
+168 same line(s)
+68 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\Cell.java
+38 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\CellDecorator.java
+37 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ExcelExtractor.java
+446 same line(s)
+185 ignored unimportant difference line(s)
+3 important left orphan line(s)
+3 important right orphan line(s)
+1 important difference line(s)
+
+5 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\HSLFExtractor.java
+112 same line(s)
+209 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\LinkedCell.java
+41 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ListManager.java
+65 ignored unimportant difference line(s)
+125 important right orphan line(s)
+
+24 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\NumberCell.java
+45 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\OfficeParser.java
+142 same line(s)
+90 ignored unimportant difference line(s)
+49 important left orphan line(s)
+49 important right orphan line(s)
+
+16 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\OldExcelParser.java
+55 same line(s)
+35 ignored unimportant difference line(s)
+13 important left orphan line(s)
+13 important right orphan line(s)
+
+10 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\OutlookExtractor.java
+84 same line(s)
+177 ignored unimportant difference line(s)
+2 important right orphan line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\POIFSContainerDetector.java
+247 same line(s)
+153 ignored unimportant difference line(s)
+49 important left orphan line(s)
+49 important right orphan line(s)
+
+24 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\SummaryExtractor.java
+218 same line(s)
+16 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\TextCell.java
+40 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\TNEFParser.java
+64 same line(s)
+71 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\microsoft\WordExtractor.java
+270 same line(s)
+389 ignored unimportant difference line(s)
+45 important left orphan line(s)
+57 important right orphan line(s)
+8 important difference line(s)
+
+27 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\AudioFrame.java
+252 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\CompositeTagHandler.java
+142 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\ID3Tags.java
+254 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\ID3v1Handler.java
+186 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\ID3v2Frame.java
+427 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\ID3v22Handler.java
+159 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\ID3v23Handler.java
+138 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\ID3v24Handler.java
+143 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\LyricsHandler.java
+154 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\MP3Frame.java
+25 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\Mp3Parser.java
+246 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp3\MpegStream.java
+469 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp4\DirectFileReadDataSource.java
+84 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\mp4\MP4Parser.java
+325 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\netcdf\NetCDFParser.java
+144 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\ocr\TesseractOCRConfig.java
+230 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\ocr\TesseractOCRParser.java
+332 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\odf\NSNormalizerContentHandler.java
+99 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\odf\OpenDocumentContentParser.java
+515 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\odf\OpenDocumentMetaParser.java
+199 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\odf\OpenDocumentParser.java
+203 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\opendocument\OpenOfficeParser.java
+28 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\pdf\AccessChecker.java
+78 same line(s)
+3 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\pdf\PDF2XHTML.java
+651 same line(s)
+47 ignored unimportant difference line(s)
+13 important left orphan line(s)
+9 important right orphan line(s)
+4 important difference line(s)
+
+9 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\pdf\PDFParser.java
+472 same line(s)
+118 ignored unimportant difference line(s)
+6 important left orphan line(s)
+11 important right orphan line(s)
+12 important difference line(s)
+
+19 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\pdf\PDFParserConfig.java
+365 same line(s)
+94 ignored unimportant difference line(s)
+7 important left orphan line(s)
+7 important right orphan line(s)
+4 important difference line(s)
+
+10 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\pkg\CompressorParser.java
+158 same line(s)
+1 ignored unimportant difference line(s)
+6 important right orphan line(s)
+
+4 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\pkg\CompressorParserOptions.java
+32 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\pkg\PackageParser.java
+292 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\pkg\RarParser.java
+117 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\pkg\ZipContainerDetector.java
+416 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\prt\PRTParser.java
+273 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\rtf\GroupState.java
+66 same line(s)
+1 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\rtf\ListDescriptor.java
+34 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\rtf\RTFEmbObjHandler.java
+179 same line(s)
+105 ignored unimportant difference line(s)
+7 important left orphan line(s)
+8 important right orphan line(s)
+5 important difference line(s)
+
+7 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\rtf\RTFObjDataParser.java
+294 same line(s)
+37 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\rtf\RTFParser.java
+81 same line(s)
+14 ignored unimportant difference line(s)
+3 important left orphan line(s)
+3 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\rtf\TextExtractor.java
+1276 same line(s)
+155 ignored unimportant difference line(s)
+51 important left orphan line(s)
+51 important right orphan line(s)
+2 important difference line(s)
+
+44 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\strings\FileConfig.java
+77 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\strings\Latin1StringsParser.java
+322 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\strings\StringsConfig.java
+187 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\strings\StringsEncoding.java
+45 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\strings\StringsParser.java
+344 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\CharsetDetector.java
+121 same line(s)
+497 ignored unimportant difference line(s)
+161 important left orphan line(s)
+158 important right orphan line(s)
+4 important difference line(s)
+
+98 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\CharsetMatch.java
+199 same line(s)
+115 ignored unimportant difference line(s)
+18 important left orphan line(s)
+18 important right orphan line(s)
+
+19 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\CharsetRecog_2022.java
+88 same line(s)
+78 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\CharsetRecog_mbcs.java
+83 same line(s)
+442 ignored unimportant difference line(s)
+45 important left orphan line(s)
+42 important right orphan line(s)
+8 important difference line(s)
+
+38 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\CharsetRecog_sbcs.java
+543 same line(s)
+669 ignored unimportant difference line(s)
+154 important left orphan line(s)
+16 important right orphan line(s)
+134 important difference line(s)
+
+142 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\CharsetRecog_Unicode.java
+83 same line(s)
+41 ignored unimportant difference line(s)
+15 important left orphan line(s)
+15 important difference line(s)
+
+11 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\CharsetRecog_UTF8.java
+71 same line(s)
+28 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\CharsetRecognizer.java
+39 same line(s)
+14 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\Icu4jEncodingDetector.java
+71 same line(s)
+3 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\TXTParser.java
+94 same line(s)
+7 ignored unimportant difference line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\UniversalEncodingDetector.java
+60 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\txt\UniversalEncodingListener.java
+100 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\video\FLVParser.java
+267 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\xml\AbstractMetadataHandler.java
+93 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\xml\AttributeDependantMetadataHandler.java
+82 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\xml\AttributeMetadataHandler.java
+61 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\xml\DcXMLParser.java
+60 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\xml\ElementMetadataHandler.java
+255 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\xml\FictionBookParser.java
+117 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\xml\MetadataHandler.java
+85 same line(s)
+
+File: tika-parsers\src\main\java\org\apache\tika\parser\xml\XMLParser.java
+89 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\config\TikaParserConfigTest.java
+165 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\detect\TestContainerAwareDetector.java
+429 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\embedder\ExternalEmbedderTest.java
+292 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\mime\MimeTypesTest.java
+122 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\mime\MimeTypeTest.java
+105 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\mime\TestMimeTypes.java
+994 same line(s)
+14 ignored unimportant difference line(s)
+32 important right orphan line(s)
+2 important difference line(s)
+
+8 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\asm\ClassParserTest.java
+59 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\audio\AudioParserTest.java
+75 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\audio\MidiParserTest.java
+42 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestChmBlockInfo.java
+125 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestChmExtraction.java
+210 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestChmExtractor.java
+63 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestChmItsfHeader.java
+122 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestChmItspHeader.java
+160 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestChmLzxcControlData.java
+144 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestChmLzxcResetTable.java
+156 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestChmLzxState.java
+101 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestDirectoryListingEntry.java
+85 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestParameters.java
+106 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestPmgiHeader.java
+45 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\chm\TestPmglHeader.java
+76 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\code\SourceCodeParserTest.java
+101 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\crypto\Pkcs7ParserTest.java
+48 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\dif\DIFParserTest.java
+24 ignored unimportant difference line(s)
+33 important right orphan line(s)
+
+9 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\dwg\DWGParserTest.java
+205 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\envi\EnviHeaderParserTest.java
+63 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\epub\EpubParserTest.java
+61 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\executable\ExecutableParserTest.java
+89 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\feed\FeedParserTest.java
+82 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\font\FontParsersTest.java
+121 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\fork\ForkParserIntegrationTest.java
+268 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\gdal\TestGDALParser.java
+175 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\geo\topic\GeoParserTest.java
+29 ignored unimportant difference line(s)
+60 important right orphan line(s)
+
+13 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\geoinfo\GeographicInformationParserTest.java
+28 ignored unimportant difference line(s)
+34 important right orphan line(s)
+
+11 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\grib\GribParserTest.java
+56 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\hdf\HDFParserTest.java
+100 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\html\HtmlParserTest.java
+943 same line(s)
+170 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\ibooks\iBooksParserTest.java
+65 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\image\xmp\JempboxExtractorTest.java
+95 same line(s)
+12 ignored unimportant difference line(s)
+1 important left orphan line(s)
+
+1 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\image\BPGParserTest.java
+122 same line(s)
+10 ignored unimportant difference line(s)
+3 important left orphan line(s)
+2 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\image\ImageMetadataExtractorTest.java
+109 same line(s)
+14 ignored unimportant difference line(s)
+4 important left orphan line(s)
+3 important right orphan line(s)
+13 important difference line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\image\ImageParserTest.java
+153 same line(s)
+8 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\image\MetadataFieldsTest.java
+36 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\image\PSDParserTest.java
+58 same line(s)
+6 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\image\TiffParserTest.java
+53 same line(s)
+8 ignored unimportant difference line(s)
+3 important left orphan line(s)
+3 important right orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\image\WebPParserTest.java
+61 same line(s)
+11 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\isatab\ISArchiveParserTest.java
+64 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\iwork\AutoPageNumberUtilsTest.java
+78 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\iwork\IWorkParserTest.java
+466 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\jdbc\SQLite3ParserTest.java
+345 same line(s)
+14 ignored unimportant difference line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\jpeg\JpegParserTest.java
+198 same line(s)
+52 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\mail\RFC822ParserTest.java
+324 same line(s)
+59 ignored unimportant difference line(s)
+6 important left orphan line(s)
+6 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\mat\MatParserTest.java
+88 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\mbox\MboxParserTest.java
+64 same line(s)
+105 ignored unimportant difference line(s)
+3 important left orphan line(s)
+3 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\mbox\OutlookPSTParserTest.java
+110 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\ooxml\OOXMLContainerExtractionTest.java
+94 same line(s)
+207 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\ooxml\OOXMLParserTest.java
+858 same line(s)
+345 ignored unimportant difference line(s)
+4 important left orphan line(s)
+51 important right orphan line(s)
+2 important difference line(s)
+
+17 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\AbstractPOIContainerExtractionTest.java
+66 same line(s)
+8 ignored unimportant difference line(s)
+6 important left orphan line(s)
+6 important right orphan line(s)
+
+4 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\ExcelParserTest.java
+340 same line(s)
+117 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\OfficeParserTest.java
+36 same line(s)
+11 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\OldExcelParserTest.java
+113 same line(s)
+7 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\OutlookParserTest.java
+224 same line(s)
+26 ignored unimportant difference line(s)
+4 important left orphan line(s)
+4 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\POIContainerExtractionTest.java
+76 same line(s)
+270 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\PowerPointParserTest.java
+214 same line(s)
+45 ignored unimportant difference line(s)
+1 important left orphan line(s)
+
+1 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\ProjectParserTest.java
+53 same line(s)
+46 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\PublisherParserTest.java
+53 same line(s)
+3 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\TNEFParserTest.java
+44 same line(s)
+57 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\VisioParserTest.java
+51 same line(s)
+3 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\WordParserTest.java
+360 same line(s)
+89 ignored unimportant difference line(s)
+52 important right orphan line(s)
+
+15 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\microsoft\WriteProtectedParserTest.java
+41 same line(s)
+1 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\mock\MockParserTest.java
+246 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\mp3\Mp3ParserTest.java
+448 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\mp3\MpegStreamTest.java
+165 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\mp4\MP4ParserTest.java
+111 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\netcdf\NetCDFParserTest.java
+76 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\ocr\TesseractOCRConfigTest.java
+90 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\ocr\TesseractOCRParserTest.java
+210 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\odf\ODFParserTest.java
+411 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pdf\AccessCheckerTest.java
+136 same line(s)
+1 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pdf\PDFParserTest.java
+1187 same line(s)
+194 ignored unimportant difference line(s)
+13 important left orphan line(s)
+14 important right orphan line(s)
+
+5 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pkg\AbstractPkgTest.java
+93 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pkg\ArParserTest.java
+128 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pkg\Bzip2ParserTest.java
+103 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pkg\GzipParserTest.java
+121 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pkg\RarParserTest.java
+132 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pkg\Seven7ParserTest.java
+237 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pkg\TarParserTest.java
+120 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pkg\ZipParserTest.java
+213 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\pkg\ZlibParserTest.java
+37 ignored unimportant difference line(s)
+51 important right orphan line(s)
+
+11 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\prt\PRTParserTest.java
+119 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\rtf\RTFParserTest.java
+560 same line(s)
+54 ignored unimportant difference line(s)
+8 important left orphan line(s)
+8 important right orphan line(s)
+
+4 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\solidworks\SolidworksParserTest.java
+213 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\strings\FileConfigTest.java
+28 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\strings\Latin1StringsParserTest.java
+70 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\strings\StringsConfigTest.java
+61 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\strings\StringsParserTest.java
+78 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\txt\CharsetDetectorTest.java
+33 same line(s)
+38 ignored unimportant difference line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\txt\TXTParserTest.java
+274 same line(s)
+20 ignored unimportant difference line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\video\FLVParserTest.java
+44 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\xml\DcXMLParserTest.java
+107 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\xml\EmptyAndDuplicateElementsXMLParserTest.java
+132 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\xml\FictionBookParserTest.java
+69 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\AutoDetectParserTest.java
+476 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\ParsingReaderTest.java
+106 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\parser\RecursiveParserWrapperTest.java
+170 same line(s)
+39 ignored unimportant difference line(s)
+7 important left orphan line(s)
+79 important right orphan line(s)
+5 important difference line(s)
+
+18 difference section(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\sax\PhoneExtractingContentHandlerTest.java
+62 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\TestParsers.java
+117 same line(s)
+
+File: tika-parsers\src\test\java\org\apache\tika\TikaTest.java
+210 same line(s)
+
+File: tika-parsers\src\test\resources\test-documents\testJAVA.java
+14 same line(s)
+
+File: tika-serialization\src\main\java\org\apache\tika\metadata\serialization\JsonMetadata.java
+87 same line(s)
+
+File: tika-serialization\src\main\java\org\apache\tika\metadata\serialization\JsonMetadataBase.java
+52 same line(s)
+
+File: tika-serialization\src\main\java\org\apache\tika\metadata\serialization\JsonMetadataDeserializer.java
+75 same line(s)
+
+File: tika-serialization\src\main\java\org\apache\tika\metadata\serialization\JsonMetadataList.java
+96 same line(s)
+
+File: tika-serialization\src\main\java\org\apache\tika\metadata\serialization\JsonMetadataSerializer.java
+97 same line(s)
+
+File: tika-serialization\src\main\java\org\apache\tika\metadata\serialization\PrettyMetadataKeyComparator.java
+44 same line(s)
+
+File: tika-serialization\src\test\java\org\apache\tika\metadata\serialization\JsonMetadataListTest.java
+123 same line(s)
+
+File: tika-serialization\src\test\java\org\apache\tika\metadata\serialization\JsonMetadataTest.java
+132 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\DetectorResource.java
+72 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\LanguageResource.java
+30 ignored unimportant difference line(s)
+53 important right orphan line(s)
+
+13 difference section(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\MetadataResource.java
+134 same line(s)
+6 important right orphan line(s)
+3 important difference line(s)
+
+4 difference section(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\RecursiveMetadataResource.java
+71 same line(s)
+14 ignored unimportant difference line(s)
+7 important right orphan line(s)
+2 important difference line(s)
+
+3 difference section(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\TikaDetectors.java
+128 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\TikaMimeTypes.java
+177 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\TikaParsers.java
+235 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\TikaResource.java
+390 same line(s)
+6 important right orphan line(s)
+3 important difference line(s)
+
+3 difference section(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\TikaUtils.java
+21 ignored unimportant difference line(s)
+18 important right orphan line(s)
+
+5 difference section(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\TikaVersion.java
+39 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\TikaWelcome.java
+234 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\TranslateResource.java
+33 ignored unimportant difference line(s)
+81 important right orphan line(s)
+
+17 difference section(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\resource\UnpackerResource.java
+265 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\writer\CSVMessageBodyWriter.java
+70 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\writer\JSONMessageBodyWriter.java
+64 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\writer\MetadataListMessageBodyWriter.java
+67 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\writer\TarWriter.java
+68 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\writer\TextMessageBodyWriter.java
+75 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\writer\XMPMessageBodyWriter.java
+67 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\writer\ZipWriter.java
+86 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\HTMLHelper.java
+62 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\MetadataList.java
+37 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\RichTextContentHandler.java
+47 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\TikaLoggingFilter.java
+51 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\TikaServerCli.java
+178 same line(s)
+3 ignored unimportant difference line(s)
+13 important right orphan line(s)
+1 important difference line(s)
+
+6 difference section(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\TikaServerParseException.java
+35 same line(s)
+
+File: tika-server\src\main\java\org\apache\tika\server\TikaServerParseExceptionMapper.java
+88 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\CXFTestBase.java
+172 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\DetectorResourceTest.java
+107 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\LanguageResourceTest.java
+32 ignored unimportant difference line(s)
+77 important right orphan line(s)
+
+16 difference section(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\MetadataResourceTest.java
+230 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\RecursiveMetadataResourceTest.java
+102 same line(s)
+2 important difference line(s)
+
+2 difference section(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\StackTraceOffTest.java
+150 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\StackTraceTest.java
+146 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\TikaDetectorsTest.java
+142 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\TikaMimeTypesTest.java
+121 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\TikaParsersTest.java
+176 same line(s)
+3 ignored unimportant difference line(s)
+2 important left orphan line(s)
+5 important right orphan line(s)
+2 important difference line(s)
+
+5 difference section(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\TikaResourceTest.java
+173 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\TikaVersionTest.java
+60 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\TikaWelcomeTest.java
+112 same line(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\TranslateResourceTest.java
+30 ignored unimportant difference line(s)
+56 important right orphan line(s)
+
+14 difference section(s)
+
+File: tika-server\src\test\java\org\apache\tika\server\UnpackerResourceTest.java
+199 same line(s)
+
+File: tika-translate\src\main\java\org\apache\tika\language\translate\CachedTranslator.java
+154 same line(s)
+15 ignored unimportant difference line(s)
+11 important right orphan line(s)
+
+5 difference section(s)
+
+File: tika-translate\src\main\java\org\apache\tika\language\translate\ExternalTranslator.java
+101 same line(s)
+
+File: tika-translate\src\main\java\org\apache\tika\language\translate\GoogleTranslator.java
+116 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: tika-translate\src\main\java\org\apache\tika\language\translate\Lingo24Translator.java
+112 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)
+
+File: tika-translate\src\main\java\org\apache\tika\language\translate\MicrosoftTranslator.java
+148 same line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-translate\src\main\java\org\apache\tika\language\translate\MosesTranslator.java
+139 same line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)
+
+File: tika-translate\src\test\java\org\apache\tika\language\translate\CachedTranslatorTest.java
+85 same line(s)
+
+File: tika-translate\src\test\java\org\apache\tika\language\translate\GoogleTranslatorTest.java
+80 same line(s)
+
+File: tika-translate\src\test\java\org\apache\tika\language\translate\Lingo24TranslatorTest.java
+76 same line(s)
+
+File: tika-translate\src\test\java\org\apache\tika\language\translate\MicrosoftTranslatorTest.java
+76 same line(s)
+
+File: tika-translate\src\test\java\org\apache\tika\language\translate\MosesTranslatorTest.java
+23 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\convert\AbstractConverter.java
+204 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\convert\GenericConverter.java
+104 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\convert\ITikaToXMPConverter.java
+39 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\convert\MSOfficeBinaryConverter.java
+93 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\convert\MSOfficeXMLConverter.java
+125 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\convert\Namespace.java
+30 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\convert\OpenDocumentConverter.java
+97 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\convert\RTFConverter.java
+76 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\convert\TikaToXMP.java
+202 same line(s)
+
+File: tika-xmp\src\main\java\org\apache\tika\xmp\XMPMetadata.java
+674 same line(s)
+
+File: tika-xmp\src\test\java\org\apache\tika\xmp\TikaToXMPTest.java
+223 same line(s)
+
+File: tika-xmp\src\test\java\org\apache\tika\xmp\XMPMetadataTest.java
+258 same line(s)
