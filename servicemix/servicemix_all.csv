@@ -1,11 +1,4 @@
 ClassName,AntiSingleton,Blob,ClassDataShouldBePrivate,ComplexClass,LargeClass,LazyClass,LongMethod,LongParameterList,MessageChains,RefusedParentBequest,SpaghettiCode,SpeculativeGenerality,SwissArmyKnife,NumOfAPs,AntiSingleton,Blob,ClassDataShouldBePrivate,ComplexClass,LargeClass,LazyClass,LongMethod,LongParameterList,MessageChains,RefusedParentBequest,SpaghettiCode,SpeculativeGenerality,SwissArmyKnife,LOC,name,deleted,added,changed,all
-$.Client, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,null,null
-$.GetPerson, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,null,null
-$.GetPersonResponse, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,null,null
-$.ObjectFactory, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,null,null
-$.Person, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,null,null
-$.PersonImpl, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,null,null
-$.UnknownPersonFault, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,null,null
 org.apache.servicemix.activemq.camel.ActiveMQComponent, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7,src\activemq\activemq-camel\src\main\java\org\apache\servicemix\activemq\camel\ActiveMQComponent.java,0,0,0,0
 org.apache.servicemix.activemq.camel.ActiveMQComponentResolver, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18,src\activemq\activemq-camel\src\main\java\org\apache\servicemix\activemq\camel\ActiveMQComponentResolver.java,0,0,0,0
 org.apache.servicemix.activiti.config.CamelAwareELResolver, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25,src\activiti\activiti-config\src\main\java\org\apache\servicemix\activiti\config\CamelAwareELResolver.java,0,0,0,0
@@ -44,4 +37,3 @@ org.apache.servicemix.logging.jms.LogstashEventFormatTest, 0, 0, 0, 0, 0, 0, 0, 
 org.apache.servicemix.logging.jms.MockEvents, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18,src\logging\jms-appender\src\test\java\org\apache\servicemix\logging\jms\MockEvents.java,0,0,0,0
 org.apache.servicemix.samples.cxf_osgi.Client, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21,src\examples\cxf\cxf-jaxws-blueprint\src\main\java\org\apache\servicemix\samples\cxf_osgi\Client.java,0,0,0,0
 org.apache.servicemix.samples.cxf_ws_rm.Client, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33,src\examples\cxf\cxf-ws-rm\src\main\java\org\apache\servicemix\samples\cxf_ws_rm\Client.java,0,0,0,0
-,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33,src\activemq\activemq-camel\src\main\java\org\apache\servicemix\activemq\camel\ActiveMQComponent.java,0,0,0,0
