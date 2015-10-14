@@ -1,0 +1,14 @@
+LazyClass:AntiSingleton,jena
+AntiSingleton:LazyClass,jena
+ComplexClass:ClassDataShouldBePrivate,activemq,tuscany
+LongParameterList:LazyClass,airavata,axis,bval,etch,falcon,jena,marmotta,myfaces,ode,pig
+ComplexClass:AntiSingleton,activemq
+ClassDataShouldBePrivate:ComplexClass,activemq,tuscany
+LazyClass:LongParameterList,airavata,axis,bval,etch,falcon,jena,marmotta,myfaces,ode,pig
+ComplexClass:LazyClass,axis,bval,jena,pig,poi,rave
+AntiSingleton:ComplexClass,activemq
+ClassDataShouldBePrivate:LazyClass,jena
+LazyClass:ComplexClass,axis,bval,jena,pig,poi,rave
+LazyClass:ClassDataShouldBePrivate,jena
+ClassDataShouldBePrivate:LongParameterList,tuscany
+LongParameterList:ClassDataShouldBePrivate,tuscany
